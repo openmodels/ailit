@@ -2,8 +2,8 @@ import os, csv, time
 import pandas as pd
 from chatwrap import gemini, openaigpt, openai_batch
 
-from litreview0 import *
-from litreviewlib import *
+from config import *
+from lib.helpers import *
 
 def get_fullprompt(title, abstract, keywords):
     exclude_text = "  " + "\n  ".join([f"{key}: {value}" for key, value in exclude_codes.items()])
@@ -47,7 +47,7 @@ def get_prompts(knowndoi, searches, maxcount):
     return prompts
 
 if openai_config == 'batch':
-    responses = openai_batch.main_flow(openaigpt.client, response_file + "-batch.jsonl", "waiting.pkl", lambda: get_prompts(knowndoi_openai, searches, count_perrun))
+    responses = openai_batch.main_flow(openaigpt.client, response_file + "-batch.jsonl", "../waiting.pkl", lambda: get_prompts(knowndoi_openai, searches, count_perrun))
     for doi, response in responses.items():
         knowndoi_openai.add(doi)
         add_response(response_file, doi, 'openai', response)

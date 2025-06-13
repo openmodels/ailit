@@ -1,11 +1,11 @@
-count_perrun = 1000
+count_perrun = 21000
 openai_config = 'batch'
 gemini_config = 'fast'
 
 searches = ["/Users/admin/Library/CloudStorage/GoogleDrive-jrising@udel.edu/My Drive/Research/COP30 Ada/AI Review/scopus.csv",
             "/Users/admin/Library/CloudStorage/GoogleDrive-jrising@udel.edu/My Drive/Research/COP30 Ada/AI Review/savedrecsII.xls"]
-response_file = "responses.csv"
-verdict_file = "verdicts.csv"
+response_file = "../responses.csv"
+verdict_file = "../verdicts.csv"
 response_round2_file = "responses-round2.csv"
 
 abstract_prompt = "I am performing a global review and analytical synthesis of the macroeconomic and macro-fiscal risks of climate change and the costs and benefits of adaptation at a national level."
