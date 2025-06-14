@@ -1,5 +1,5 @@
 import os, re, json, requests, io
-from . import utils, interaction
+from lib import interaction
 from pypdf import PdfReader
 import markdownify
 from bs4 import BeautifulSoup
@@ -177,7 +177,7 @@ def check_pdf(filepath, chat2):
         reader = PdfReader(fp)
         page1 = reader.pages[0].extract_text(extraction_mode="layout", layout_mode_space_vertically=False, layout_mode_strip_rotated=False)
         content = "Here is the first page of this PDF formatted as text:\n===\n" + page1 + "\n===\n"
-        chat3 = utils.chat_push(chat2, 'user', f"{content}\nIs this the request document? Specify the answer '[yes]' or '[no]' in brackets.")
+        chat3 = interaction.chat_push(chat2, 'user', f"{content}\nIs this the request document? Specify the answer '[yes]' or '[no]' in brackets.")
         action = interaction.get_action(chat3, ['yes', 'no'])
         if action == 'yes':
             return True
@@ -215,7 +215,7 @@ async def finder_pdf_helper(document, page):
             nextstep = await finder_download(page, link, "downloaded")
             urls_attempted.add(link)
             if nextstep == 'finder_pdf':
-                if check_pdf("downloaded.pdf", utils.chat_push(utils.chat_push([], 'user', f'I would like you to find the document `{document}` on the internet.'),
+                if check_pdf("downloaded.pdf", interaction.chat_push(interaction.chat_push([], 'user', f'I would like you to find the document `{document}` (or a recent pre-print) on the internet.'),
                                                                'assistant', "I have downloaded a candidate document, which may be the one you are looking for.")):
                     return "found"
 
@@ -231,14 +231,14 @@ async def finder_pdf_helper(document, page):
         except:
             pass
 
-        chat2 = utils.chat_push([], 'user', f'I would like you to find the document `{document}` on the internet. I started with a Google Scholar search and got the following:\n===\n{markdown1}\n===\nAnd when I went into the link for multiple versions I got:\n===\n{markdown2}\n===\nPlease continue the search. To do this, please direct me to perform one of the following actions: {commandprompt}')
+        chat2 = interaction.chat_push([], 'user', f'I would like you to find the document `{document}` (or a recent pre-print) on the internet. I started with a Google Scholar search and got the following:\n===\n{markdown1}\n===\nAnd when I went into the link for multiple versions I got:\n===\n{markdown2}\n===\nPlease continue the search. To do this, please direct me to perform one of the following actions: {commandprompt}')
     else:
         try:
             markdown1 = markdown1[markdown1.index('###'):]
         except:
             pass
 
-        chat2 = utils.chat_push([], 'user', f'I would like you to find the document `{document}` on the internet. I started with a Google Scholar search and got the following:\n===\n{markdown1}\n===\nPlease continue the search. To do this, please direct me to perform one of the following actions: {commandprompt}')
+        chat2 = interaction.chat_push([], 'user', f'I would like you to find the document `{document}` (or a recent pre-print) on the internet. I started with a Google Scholar search and got the following:\n===\n{markdown1}\n===\nPlease continue the search. To do this, please direct me to perform one of the following actions: {commandprompt}')
 
     for attempt in range(numattempts):
         command, text = interaction.get_stringcommand(chat2, 3)
@@ -254,7 +254,7 @@ async def finder_pdf_helper(document, page):
         
         if command == 'geturl':
             if text in urls_attempted:
-                chat2 = utils.chat_push(utils.chat_push(chat2, 'assistant', f'```{command}("{text}")```'), 'user', "That URL was already tried." + f' Please try again by performing one of the following actions: {nextcommandprompt}')
+                chat2 = interaction.chat_push(interaction.chat_push(chat2, 'assistant', f'```{command}("{text}")```'), 'user', "That URL was already tried." + f' Please try again by performing one of the following actions: {nextcommandprompt}')
                 continue
             nextstep = await finder_download(page, text, "downloaded")
             urls_attempted.add(text)
@@ -268,13 +268,13 @@ async def finder_pdf_helper(document, page):
                 else:
                     markdown_rest = ""
                     content = "Here is the webpage formatted as Markdown:\n===\n" + markdown + "\n===\n"
-                chat2 = utils.chat_push(utils.chat_push(chat2, 'assistant', f"```geturl({text})```"), 'user', f'{content} Now, you can choose to follow a link or perform another search. Please specify one of the following actions: {nextcommandprompt}')
+                chat2 = interaction.chat_push(interaction.chat_push(chat2, 'assistant', f"```geturl({text})```"), 'user', f'{content} Now, you can choose to follow a link or perform another search. Please specify one of the following actions: {nextcommandprompt}')
                 continue
             elif nextstep == 'finder_pdf':
-                if check_pdf("downloaded.pdf", utils.chat_push(chat2, 'assistant', f'```{command}("{text}")```')):
+                if check_pdf("downloaded.pdf", interaction.chat_push(chat2, 'assistant', f'```{command}("{text}")```')):
                     return "found"
                 else:
-                    chat2 = utils.chat_push(utils.chat_push(chat2, 'assistant', f'```{command}("{text}")```'), 'user', "The file was downloaded, but turned out to be the wrong PDF." + f' Please try again by performing one of the following actions: {nextcommandprompt}')
+                    chat2 = interaction.chat_push(interaction.chat_push(chat2, 'assistant', f'```{command}("{text}")```'), 'user', "The file was downloaded, but turned out to be the wrong PDF." + f' Please try again by performing one of the following actions: {nextcommandprompt}')
                     continue
             elif nextstep == 'unsupported':
                 explained = 'That retrieved a file that was neither an HTML nor PDF file and so is unsupported.'
@@ -283,13 +283,13 @@ async def finder_pdf_helper(document, page):
             elif nextstep == 'toobig':
                 explained = 'That request returned a document that was too big to be processed.'
                 
-            chat2 = utils.chat_push(utils.chat_push(chat2, 'assistant', f'```{command}("{text}")```'), 'user', explained + f' Please try again by performing one of the following actions: {nextcommandprompt}')
+            chat2 = interaction.chat_push(interaction.chat_push(chat2, 'assistant', f'```{command}("{text}")```'), 'user', explained + f' Please try again by performing one of the following actions: {nextcommandprompt}')
             
         if command == 'google':
             results = await asyncio.get_event_loop().run_in_executor(None, google_search, text)
             if len(results) == 0:
                 return "break"
             restext = "\n\n".join([result['title'] + "\n" + result['link'] + "\n" + result['snippet'] for result in results])
-            chat2 = utils.chat_push(utils.chat_push(chat2, 'assistant', f"```google({text})```"), 'user', 'Here are the google results:\n===\n' + restext + f'\n===\nNow, you can choose to follow one of those links or perform another search. Please specify one of the following actions: {nextcommandprompt}')
+            chat2 = interaction.chat_push(interaction.chat_push(chat2, 'assistant', f"```google({text})```"), 'user', 'Here are the google results:\n===\n' + restext + f'\n===\nNow, you can choose to follow one of those links or perform another search. Please specify one of the following actions: {nextcommandprompt}')
 
     return "maxattempt"

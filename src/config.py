@@ -17,3 +17,8 @@ exclude_codes = {'XC': "Not related to climate risks",
 include_codes = {'RE': "Reports macroeconomic outcomes (GDP effects, productivity loss, interest, inflation, etc.)",
                  'RF': "Reports fiscal outcomes (budget balance, borrowing costs, public expenditure or revenue, etc.)",
                  'RA': "Reports both economic costs and/or benefits (or related measures like ROI, NPV) of nation-wide adaptation"}
+
+## Step 3
+priority_limit = 5
+pdfs_dir = "../pdfs"
+finder_count = 100
