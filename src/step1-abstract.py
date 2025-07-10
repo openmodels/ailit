@@ -70,7 +70,7 @@ for search in searches:
             add_response(response_file, row['DOI'], 'openai', response)
             knowndoi_openai.add(row['DOI'])
             count += 1
-        if count >= count_perrun:
+        if count >= collate_count:
             break
 
 if openai_config == 'batch':

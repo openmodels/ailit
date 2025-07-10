@@ -32,15 +32,21 @@ def interpret_response(response):
     
     return ("Ambiguous", 3)
 
+if passfail_file:
+    passfail_df = pd.read_csv(passfail_file)
+    passfail = {row['DOI']: row['Outcome'] for index, row in passfail_df.iterrows()}
+else:
+    passfail = {}
+
 responses = pd.read_csv(response_file)
 responses = responses.astype(str)
 
 further_consideration = {} # doi: (gemini_response, openai_response, gemini_verdict, openai_verdict, common_verdict)
 with open(verdict_file, 'w') as fp:
     writer = csv.writer(fp)
-    writer.writerow(['DOI', 'gemini', 'openai', 'common', 'priority'])
+    writer.writerow(['DOI', 'gemini', 'openai', 'common', 'priority', 'passfail'])
     
-    for doi in set(responses.DOI):
+    for doi in set(responses.DOI):        
         responses_gemini = responses[(responses.DOI == doi) & (responses.Source == 'gemini')].Response
         if len(responses_gemini) > 0:
             if len(responses_gemini) > 1:
@@ -102,14 +108,26 @@ with open(verdict_file, 'w') as fp:
                     score = 0
                 else:
                     common_verdict = "Disagree"
+
+        if passfail:
+            if doi in passfail.keys():
+                if passfail[doi] == "Failed":
+                    further_check = False
+                if passfail[doi] == "Passed":
+                    score += 5
+                passfail_check = passfail[doi]
+            else:
+                passfail_check = "NA"
+        else:
+            passfail_check = "NA"
                     
         if further_check:
-            further_consideration[doi] = [response_gemini.replace("\n", " "), response_openai.replace("\n", " "), gemini_verdict, openai_verdict, common_verdict, int(score)]
-        writer.writerow([doi, gemini_verdict, openai_verdict, common_verdict, int(score)])
+            further_consideration[doi] = [response_gemini.replace("\n", " "), response_openai.replace("\n", " "), gemini_verdict, openai_verdict, common_verdict, int(score), passfail_check]
+        writer.writerow([doi, gemini_verdict, openai_verdict, common_verdict, int(score), passfail_check])
 
 with open(verdict_file.replace(".csv", "-further.csv"), 'w') as fp:
     writer = csv.writer(fp)
-    writer.writerow(['DOI', 'Title', 'Abstract', 'Gemini Response', 'OpenAI Response', 'Gemini Verdict', 'OpenAI Verdict', 'Common Verdict', 'Priority'])
+    writer.writerow(['DOI', 'Title', 'Abstract', 'Gemini Response', 'OpenAI Response', 'Gemini Verdict', 'OpenAI Verdict', 'Common Verdict', 'Priority', 'Pass-Fail'])
     for search in searches:
         for row in iterate_search(search):
             if row['DOI'] in further_consideration.keys():

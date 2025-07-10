@@ -7,7 +7,12 @@ from pyppeteer import launch
 
 from config import *
 
+found_any = True
+
 async def main():
+    global found_any
+    found_any = False
+    
     if platform.system() == "Darwin":
         asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
 
@@ -19,6 +24,8 @@ async def main():
             statuspath = targetpath[:-4] + '.txt'
             if os.path.exists(statuspath) or os.path.exists(targetpath):
                 continue
+
+            found_any = True
             
             print(row.DOI)
             count += 1
@@ -26,10 +33,10 @@ async def main():
                 with contextlib.redirect_stdout(fp):
                     browser = await launch(headless=True, args=['--no-sandbox'])
                     try:
-                        result = await finder.finder_pdf(row.DOI, browser, targetpath, statuspath)
+                        result, link = await finder.finder_pdf(row.DOI, browser, targetpath, statuspath)
                         print(result)
-                        if result == 'break':
-                            break
+                        if link is not None:
+                            print(link)
                     finally:
                         try:
                             await browser.close()
@@ -42,13 +49,12 @@ async def main():
 
 if __name__ == '__main__':
     count = finder_count
-    while count > 0:
-        results = finder.google_search("test")
-        if len(results) == 0:
-            print("Exhausted google search.")
-            exit()
+    while count > 0 and found_any:
         try:
             count -= asyncio.run(main())
+        except RuntimeError as ex:
+            print(ex)
+            break
         except Exception as ex:
             pass
         

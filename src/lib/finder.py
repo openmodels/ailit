@@ -67,6 +67,8 @@ def google_search(query, num_results=10):
         'num': num_results
     }
     response = requests.get(service_url, params=params, headers=headers)
+    if response.status_code == 429:
+        raise RuntimeError("Google search quota exceeded.")
     results = response.json()
     
     info = [{'title': result['title'],
@@ -151,7 +153,7 @@ async def finder_pdf(document, browser, targetpath, statuspath):
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36')
 
     try:
-        result = await finder_pdf_helper(document, page)
+        result, link = await finder_pdf_helper(document, page)
         try:
             os.remove("downloaded.html")
         except FileNotFoundError:
@@ -165,19 +167,21 @@ async def finder_pdf(document, browser, targetpath, statuspath):
             except FileNotFoundError:
                 pass
 
-        return result
+        return result, link
     finally:
         try:
             await page.close()
         except:
             pass
 
+    return "unknown", None
+
 def check_pdf(filepath, chat2):
     with open(filepath, 'rb') as fp:
         reader = PdfReader(fp)
         page1 = reader.pages[0].extract_text(extraction_mode="layout", layout_mode_space_vertically=False, layout_mode_strip_rotated=False)
         content = "Here is the first page of this PDF formatted as text:\n===\n" + page1 + "\n===\n"
-        chat3 = interaction.chat_push(chat2, 'user', f"{content}\nIs this the request document? Specify the answer '[yes]' or '[no]' in brackets.")
+        chat3 = interaction.chat_push(chat2, 'user', f"{content}\nIs this the requested document? Specify the answer '[yes]' or '[no]' in brackets.")
         action = interaction.get_action(chat3, ['yes', 'no'])
         if action == 'yes':
             return True
@@ -217,7 +221,7 @@ async def finder_pdf_helper(document, page):
             if nextstep == 'finder_pdf':
                 if check_pdf("downloaded.pdf", interaction.chat_push(interaction.chat_push([], 'user', f'I would like you to find the document `{document}` (or a recent pre-print) on the internet.'),
                                                                'assistant', "I have downloaded a candidate document, which may be the one you are looking for.")):
-                    return "found"
+                    return "found", link
 
     markdown1 = markdownify.markdownify(html1, heading_style="ATX")
 
@@ -243,7 +247,7 @@ async def finder_pdf_helper(document, page):
     for attempt in range(numattempts):
         command, text = interaction.get_stringcommand(chat2, 3)
         if command is None:
-            return "nocommand"
+            return "nocommand", None
 
         if attempt == numattempts - 1:
             nextcommandprompt = ignoredcommandrompt
@@ -272,7 +276,7 @@ async def finder_pdf_helper(document, page):
                 continue
             elif nextstep == 'finder_pdf':
                 if check_pdf("downloaded.pdf", interaction.chat_push(chat2, 'assistant', f'```{command}("{text}")```')):
-                    return "found"
+                    return "found", text
                 else:
                     chat2 = interaction.chat_push(interaction.chat_push(chat2, 'assistant', f'```{command}("{text}")```'), 'user', "The file was downloaded, but turned out to be the wrong PDF." + f' Please try again by performing one of the following actions: {nextcommandprompt}')
                     continue
@@ -288,8 +292,9 @@ async def finder_pdf_helper(document, page):
         if command == 'google':
             results = await asyncio.get_event_loop().run_in_executor(None, google_search, text)
             if len(results) == 0:
-                return "break"
-            restext = "\n\n".join([result['title'] + "\n" + result['link'] + "\n" + result['snippet'] for result in results])
-            chat2 = interaction.chat_push(interaction.chat_push(chat2, 'assistant', f"```google({text})```"), 'user', 'Here are the google results:\n===\n' + restext + f'\n===\nNow, you can choose to follow one of those links or perform another search. Please specify one of the following actions: {nextcommandprompt}')
+                chat2 = interaction.chat_push(interaction.chat_push(chat2, 'assistant', f"```google({text})```"), 'user', 'I did that google search but it returned no results. Please specify one of the following actions: {nextcommandprompt}')
+            else:
+                restext = "\n\n".join([result['title'] + "\n" + result['link'] + "\n" + result['snippet'] for result in results])
+                chat2 = interaction.chat_push(interaction.chat_push(chat2, 'assistant', f"```google({text})```"), 'user', 'Here are the google results:\n===\n' + restext + f'\n===\nNow, you can choose to follow one of those links or perform another search. Please specify one of the following actions: {nextcommandprompt}')
 
-    return "maxattempt"
+    return "maxattempt", None
