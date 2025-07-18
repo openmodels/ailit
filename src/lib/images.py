@@ -1,6 +1,27 @@
 import os, base64
 from chatwrap import openaigpt
 
+def textify_page(pdfpath, page, resolution):
+    text = page.extract_text(extraction_mode="layout", layout_mode_space_vertically=False, layout_mode_strip_rotated=False)
+
+    ## Process images
+    imagetexts = []
+    for count, image_file_object in enumerate(page.images):
+        response = get_image_description(pdfpath, image_file_object, resolution)
+        if response:
+            imagetexts.append(response)
+
+    if len(imagetexts) > 0:
+        image_text = "In addition, the page has the following images, as described below:\n===\n" + "\n===\n".join(imagetexts) + "\n===\n"
+    else:
+        image_text = ""
+
+    return f"""===
+{text}
+===
+{image_text}"""
+
+
 def get_image_description(pdfpath, image_file_object, resolution):
     encoded = base64.b64encode(image_file_object.data).decode("utf-8")
     suffix = str(hash(encoded)) + '-' + resolution

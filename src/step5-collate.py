@@ -34,30 +34,17 @@ def pass1_collate(pdfpath):
     for page in reader.pages:
         pagenum += 1
         print(f"Page {pagenum}")
-        text = page.extract_text(extraction_mode="layout", layout_mode_space_vertically=False, layout_mode_strip_rotated=False)
-
-        ## Process images
-        imagetexts = []
-        for count, image_file_object in enumerate(page.images):
-            response = images.get_image_description(pdfpath, image_file_object, 'low')
-            if response:
-                imagetexts.append(response)
-
-        if len(imagetexts) > 0:
-            image_text = "In addition, the page has the following images, as described below:\n===\n" + "\n===\n".join(imagetexts) + "\n===\n"
-        else:
-            image_text = ""
+        pagetext = images.textify_page(pdfpath, page, 'low')
 
         columns = "  " + "\n  ".join([f"{key}: {value}" for key, value in column_defs_collate.items()])
 
         prompt = f"""{abstract_prompt} The following is a page from a paper that is potentially relevant to my review:
-===
-{text}
-===
-{image_text}
+{pagetext}
 
 Please summarize and extract any relevant information from this page relevant to the following categories:
 {columns}
+
+Only include information specifically contributed by this paper, not material referenced from other studies.
 
 Specify the results in a list with single lines of text in a YAML dictionary (each line should read "Category": "Extracted Information"), and only include those entries for this page where there is concrete relevant information. This page may have no relevant information, in which case report 'No relevant information'."""
 

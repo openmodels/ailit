@@ -1,4 +1,4 @@
-from lib import commands
+from lib import commands, checks
 
 count_perrun = 21000
 openai_config = 'batch'
@@ -57,7 +57,7 @@ column_defs_summary = {'All': {
                            'Country(ies)': lambda row, xtt: commands.ai_summary(xtt, "What specific country or group of countries was considered? Just provide the country names or group.", ['Methodology'], abstract_prompt),
                            'Outcome(s) of Interest': "BRIEF",
                            'Drivers of Risk': "BRIEF",
-                           'Scenario(s)': lambda row, xtt: commands.ai_summary(xtt, "What socioeconomic or climate scenario were the outcomes analyzed? Just provide technical scenario names.", ['Methodology'], abstract_prompt),
+                           'Scenario(s)': lambda row, xtt: commands.ai_summary(xtt, "Under what socioeconomic or climate scenarios were the outcomes analyzed? Just provide technical scenario names.", ['Methodology'], abstract_prompt),
                            'Methodology': "SUMMARIZE",
                            'Highlights': "SUMMARIZE",
                            'More Notes': "SUMMARIZE"},
@@ -73,7 +73,7 @@ column_defs_summary = {'All': {
                            'Adaptation considered': lambda row, xtt: commands.ai_summary(xtt, "How and to what extent is adaptation considered? Just provide brief notes, avoiding statements that start 'Adaptation is considered...'.", ['Methodology'], abstract_prompt)
                        },
                        'Adaptation': {
-                           'Applicability': "Macroeconomic/Fiscal",
+                           'Applicability': "Adaptation",
                            'Impacted Sector': lambda row, xtt: commands.ai_summary(xtt, "Is there a specific sector of the economy that is impacted?", ['Methodology'], abstract_prompt),
                            'Benefits of Adaptation': lambda row, xtt: commands.ai_summary(xtt, "How are benefits of adaptation quantified?", ['Methodology'], abstract_prompt),
                            'Costs of Adaptation': lambda row, xtt: commands.ai_summary(xtt, "How are costs of adaptation quantified?", ['Methodology'], abstract_prompt),
@@ -83,5 +83,41 @@ column_defs_summary = {'All': {
                            'Sufficiency Definition': lambda row, xtt: commands.ai_summary(xtt, "How do different papers understand sufficient adaptation levels (i.e., what does it mean to be well-adapted)?", ['Methodology'], abstract_prompt)
                        }}
 
-# 'Year': "A future or past year analyzed.",
-#                      'Relative to': "A comparison scenario (such as 'No climate change') that outcomes are reported relative to.",
+extract_count = 1
+extract_fromcollate = 'Quantitative material'
+extract_fromsummary = 'Applicability'
+column_defs_extract = {'Macroeconomic/Fiscal': {
+    'Outcome': ["What is the outcome that is affected by climate change? Just provide a single term.", checks.very_short],
+    'Country(ies)': ["What specific country or group of countries was considered? Just provide the country names or group.", checks.very_short],
+    'Scenario': ["Under what socioeconomic or climate scenario were the outcomes analyzed? Just provide a technical scenario name.", checks.very_short],
+    'Year': ["Under what future or past year is the outcome evaluated? Just specify a single year.", checks.year],
+    'Relative to': ["What comparison scenario are quantitative outcomes reported relative to? For example, specify a baseline year or if it is relative to no climate change, write 'No CC'.", checks.very_short],
+    'Units': ["What are the units of the quantitative outcome?", checks.very_short],
+    'Value': ["What is the value of the quantitative outcome?", checks.numeric],
+    'SD': ["What is the standard error or standard deviation of the result? Specify a number or NA.", checks.numeric_or_na],
+    'Low Quantile': ["If a lower quantile value is specified, what is the percent value of that quantile, or NA.", checks.percent_or_na],
+    'Low Value': ["If a lower quantile value is specified, what is the value at that quantile, or NA.", checks.numeric_or_na],
+    'High Quantile': ["If a lower quantile value is specified, what is the percent value of that quantile, or NA.", checks.percent_or_na],
+    'High Value': ["If a lower quantile value is specified, what is the value at that quantile, or NA.", checks.numeric_or_na],
+    'Result Source': ["Where is this quantitative result reported in the paper?", checks.short],
+    'More Notes': ["Do you have any other notes?"]
+},
+                       'Adaptation': {
+                           'Impacted Sector': ["What economic sector or group is being impacted by climate change? Just provide a single term or All or NA.", checks.very_short],
+                           'Solution': ["What type of solution is being evaluated? Just provide a single term or Any or NA.", checks.very_short],
+                           'Country(ies)': ["What specific country or group of countries was considered? Just provide the country names or group.", checks.very_short],
+                           'Scenario': ["Under what socioeconomic or climate scenario were the outcomes analyzed? Just provide a technical scenario name.", checks.very_short],
+                           'Quantification': ["How are the effects of adaptation being quantified? Just provide a technical term.", checks.very_short],
+                           'Expression': ["As a simple mathematical expression, what does the quantification express? Valid terms include AvoidedImpact, MonetaryBenefits, NonMonetaryBenefits, BaselineImpact, AdaptationCost, CapExCost, OpExCost, and functions like DiscountedSum() and RateOfReturn()", checks.short],
+                           'Type of Value': ["What is being included in the costs or benefits? Specify 'Monetary' (cash flows), 'Fiscal' (government balances), 'Economic' (monetary and nonmonetary), 'Various' (not clearly distinguished), or 'N/A'.", checks.oneof(['Monetary', 'Fiscal', 'Economic', 'Various','N/A'])],
+                           'Sample': ["Is this a description of the reporting sample, reflecting just those leaders who likely have good results (Lead), or is this an analysis across the whole range of needed adaptation (Need)? Specify 'Lead', 'Need', or 'N/A'.", checks.oneof(['Lead', 'Need', 'N/A'])],
+                           'Units': ["What are the units of the quantitative outcome?", checks.very_short],
+                           'Value': ["What is the value of the quantitative outcome?", checks.numeric],
+                           'SD': ["What is the standard error or standard deviation of the result? Specify a number or NA.", checks.numeric_or_na],
+                           'Low Quantile': ["If a lower quantile value is specified, what is the percent value of that quantile, or NA.", checks.percent_or_na],
+                           'Low Value': ["If a lower quantile value is specified, what is the value at that quantile, or NA.", checks.numeric_or_na],
+                           'High Quantile': ["If a lower quantile value is specified, what is the percent value of that quantile, or NA.", checks.percent_or_na],
+                           'High Value': ["If a lower quantile value is specified, what is the value at that quantile, or NA.", checks.numeric_or_na],
+                           'Result Source': ["Where is this quantitative result reported in the paper?", checks.short],
+                           'More Notes': ["Do you have any other notes?"]
+                       }}
