@@ -1,2 +1,7 @@
 # ailit
-AI-based literature review system
+Automated Systematic Literature Reviews using Large Language Models
+
+Large language models have the ability to digest documents, summarize them, and extract information from documents. We develop a full soup-to-nuts system to use these abilities for systematic literature reviews. The process starts by filtering searches based on information in papers' abstract, title, and keywords. We develop a robust process that uses both OpenAI’s GPT-4o model and Gemini’s gemini-1.5-flash model like independent reviewers. These models were observed to respond differently to the information and so provided two evaluations of each article. We use a conservative rule that only excludes papers under exclusion criteria that are identified by both models. Next, we automate the process of finding PDFs online, allowing the chatbots to interact with a browser to search for the paper. Each page of the PDF is then evaluated by the tools for relevant information, which is then summarized and relevant quantitative is extracted into a structured format.
+
+We design the methodology to be configurable for a wide range of uses and apply it here to a collection of 40,000 abstracts on the risks of climate change. Of these, 2,000 papers are identified as being potentially relevant to a study of macroeconomic risks and adaptation potential. We extract results from all papers that can be found online and present a meta-analysis of their results at a national level.
+
