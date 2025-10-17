@@ -27,16 +27,19 @@ def numeric(response):
         return "Please specify a simple numeric value."
 
 def numeric_or_na(response):
-    if response == 'NA':
+    if response == 'NA' or response == "":
         return None
     return numeric(response)
 
 def percent_or_na(response):
-    if response == 'NA':
+    if response == 'NA' or response == "":
         return None
     if response[-1] != '%':
         return "Please designate a percent, including a percent sign."
-    return numeric(response)
+    error = numeric(response[:-1])
+    if error:
+        return "Please designate a numeric percent value, including a percent sign."
+    return None
 
 def oneof(options):
     def checker(response):

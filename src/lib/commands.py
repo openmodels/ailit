@@ -8,6 +8,9 @@ def extract_alphanumeric_and_spaces(s):
     return result.upper()
 
 def short_authors(authors):
+    if not isinstance(authors, str):
+        return "NA"
+    
     # Split the string by semicolons
     author_list = [author.strip() for author in authors.split(';')]
     

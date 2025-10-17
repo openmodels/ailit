@@ -6,10 +6,25 @@ def textify_page(pdfpath, page, resolution):
 
     ## Process images
     imagetexts = []
-    for count, image_file_object in enumerate(page.images):
-        response = get_image_description(pdfpath, image_file_object, resolution)
-        if response:
-            imagetexts.append(response)
+    if len(page.images) < 5:
+        try:
+            for count, image_file_object in enumerate(page.images):
+                response = get_image_description(pdfpath, image_file_object, resolution)
+                if response:
+                    imagetexts.append(response)
+        except Exception as ex:
+            print(ex)
+    else:
+        objs = [image_file_object for count, image_file_object in enumerate(page.images)]
+        
+        longest = sorted(objs, key=lambda oo: len(oo.data), reverse=True)[:5]
+        try:
+            for image_file_object in longest:
+                response = get_image_description(pdfpath, image_file_object, resolution)
+                if response:
+                    imagetexts.append(response)
+        except Exception as ex:
+            print(ex)
 
     if len(imagetexts) > 0:
         image_text = "In addition, the page has the following images, as described below:\n===\n" + "\n===\n".join(imagetexts) + "\n===\n"

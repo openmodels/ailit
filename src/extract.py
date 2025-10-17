@@ -4,7 +4,7 @@ import pandas as pd
 from config import *
 from lib.helpers import *
 
-verdict_file = "../brazil.csv"
+verdict_file = "../korea.csv"
 verdicts = pd.read_csv(verdict_file)
 toinclude = set(verdicts.DOI)
 

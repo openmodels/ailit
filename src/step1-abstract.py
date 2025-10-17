@@ -10,7 +10,7 @@ def get_fullprompt(title, abstract, keywords):
     include_text = "  " + "\n  ".join([f"{key}: {value}" for key, value in include_codes.items()])
     return f"""{abstract_prompt}
 
-The following is a paper identified by very general Scopus search:
+The following is a paper identified by very general search:
 {title}
 Abstract: {abstract}
 Keywords: {keywords}

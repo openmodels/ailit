@@ -14,10 +14,13 @@ def pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command):
     # Special commands
     if isinstance(command, str):
         if command == "LINK":
-            with open(targetpath.replace('.pdf', '.txt'), 'r') as f:
-                for line in f:
-                    pass
-                return line.strip()
+            if os.path.exists(targetpath.replace('.pdf', '.txt')):
+                with open(targetpath.replace('.pdf', '.txt'), 'r') as f:
+                    for line in f:
+                        pass
+                    return line.strip()
+            else:
+                return "Unknown"
         if command == "STATUS":
             return "Step 5"
         if command in ["SUMMARIZE", "BRIEF"]:
@@ -26,9 +29,12 @@ def pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command):
             for key, values in columninfo.items():
                 if commands.extract_alphanumeric_and_spaces(key) == namematch:
                     allpages.update(values)
-                               
+
+            if len(allpages) == 0:
+                return "NA"
+                    
             if len(allpages) == 1:
-                return allpages[next(allpages.keys())]
+                return list(allpages.values())[0]
 
             texts = '\n'.join([f"Page {num}: {text}" for num, text in allpages.items()])
             if command == "SUMMARIZE":
@@ -51,12 +57,6 @@ def pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command):
     return command(row, columninfo)
 
 verdicts = pd.read_csv(verdict_file)
-if os.path.exists(summary_file):
-    done = pd.read_csv(summary_file)
-    knowndoi = done.DOI
-else:
-    done = None
-    knowndoi = []
 
 allcols = []
 for key in column_defs_summary:
@@ -64,60 +64,67 @@ for key in column_defs_summary:
     
 count = 0
 getout = False
-for search in searches:
-    if getout:
-        break
-    for row in iterate_search(search):
-        if row.DOI in knowndoi:
-            continue
-        verdictrow = verdicts[verdicts.DOI == row.DOI]
-        if len(verdictrow) == 0:
-            continue
-        if verdictrow.priority.iloc[0] < priority_limit:
-            continue
+for dopass in range(dopass_count):
+    print(dopass)
+    dopass_suffix = f"-pass{dopass}" if dopass > 0 else ""
+    dopass_summary_file = summary_file.replace('.csv', dopass_suffix + '.csv')
 
-        fileroot = re.sub(r'[^\w\.\-]', '_', row.DOI)
-        targetpath = os.path.join(pdfs_dir, fileroot + '.pdf')
-        extractpath = os.path.join(extract_dir, fileroot + '.yml')
-        if os.path.exists(targetpath) and os.path.exists(extractpath) and row.DOI not in knowndoi:
-            print(row.DOI)
-            print(targetpath)
-            print(extractpath)
-            count += 1
+    done, knowndoi = get_summaries(summary_file, dopass)
+    
+    for search in searches:
+        if getout:
+            break
+        for row in iterate_search(search):
+            if row.DOI in knowndoi:
+                continue
+            verdictrow = verdicts[verdicts.DOI == row.DOI]
+            if len(verdictrow) == 0:
+                continue
+            if verdictrow.priority.iloc[0] < priority_limit:
+                continue
 
-            with open(extractpath, 'r') as fp:
-                columninfo = yaml.safe_load(fp)
+            fileroot = re.sub(r'[^\w\.\-]', '_', row.DOI)
+            targetpath = os.path.join(pdfs_dir, fileroot + '.pdf')
+            extractpath = os.path.join(extract_dir, fileroot + dopass_suffix + '.yml')
+            if os.path.exists(targetpath) and os.path.exists(extractpath) and row.DOI not in knowndoi:
+                print(row.DOI)
+                print(targetpath)
+                print(extractpath)
+                count += 1
+
+                with open(extractpath, 'r') as fp:
+                    columninfo = yaml.safe_load(fp)
             
-            # Step 2: Produce summary rows
-            results = {'DOI': row.DOI}
-            pass2_summarize(targetpath, row, columninfo, column_defs_summary['All'], results)
-            if results['NEXT'][0] != "N/A":
-                nextset = results['NEXT'][0]
-                del results['NEXT']
-                if 'Any' in column_defs_summary:
-                    pass2_summarize(targetpath, row, columninfo, column_defs_summary['Any'], results)
+                # Step 2: Produce summary rows
+                results = {'DOI': row.DOI}
+                pass2_summarize(targetpath, row, columninfo, column_defs_summary['All'], results)
+                if results['NEXT'][0] != "N/A":
+                    nextset = results['NEXT'][0]
+                    del results['NEXT']
+                    if 'Any' in column_defs_summary:
+                        pass2_summarize(targetpath, row, columninfo, column_defs_summary['Any'], results)
                     
-                while nextset:
-                    pass2_summarize(targetpath, row, columninfo, column_defs_summary[nextset], results)
-                    if results.get('NEXT', ['N/A'])[0] != 'N/A':
-                        nextset = results['NEXT'][0]
-                        del results['NEXT']
-                    else:
-                        nextset = None
-            else:
-                del results['NEXT']
+                    while nextset:
+                        pass2_summarize(targetpath, row, columninfo, column_defs_summary[nextset], results)
+                        if results.get('NEXT', ['N/A'])[0] != 'N/A':
+                            nextset = results['NEXT'][0]
+                            del results['NEXT']
+                        else:
+                            nextset = None
+                else:
+                    del results['NEXT']
 
-            for col in allcols:
-                if col != 'NEXT' and col not in results:
-                    results[col] = [""]
+                for col in allcols:
+                    if col != 'NEXT' and col not in results:
+                        results[col] = [""]
 
-            print(results)
+                print(results)
                     
-            if done is None:
-                done = pd.DataFrame(results)
-            else:
-                done = pd.concat([done, pd.DataFrame(results)], ignore_index=True)
-            done.to_csv(summary_file)
+                if done is None:
+                    done = pd.DataFrame(results)
+                else:
+                    done = pd.concat([done, pd.DataFrame(results)], ignore_index=True)
+                done.to_csv(dopass_summary_file, index=False)
                         
-            if count >= summary_count:
-                break
+                if count >= summary_count:
+                    break

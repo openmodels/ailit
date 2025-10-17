@@ -18,6 +18,7 @@ def iterate_search(source):
     elif 'savedrecs.xls' in source:
         df = pd.read_excel(source)
         df['Title'] = df['Article Title']
+        df['Year'] = df['Publication Year']
         for index, row in df.iterrows():
             yield row
     elif 'savedrecsII.xls' in source:
@@ -25,6 +26,7 @@ def iterate_search(source):
             file_name = source.replace('savedrecsII.xls', f'savedrecs{i}.xls')
             df = pd.read_excel(file_name)
             df['Title'] = df['Article Title']
+            df['Year'] = df['Publication Year']
             for index, row in df.iterrows():
                 yield row
 
@@ -45,3 +47,20 @@ def get_knowns(response_file):
                     knowndoi_openai.add(query['custom_id'])
                     
         return knowndoi_gemini, knowndoi_openai
+
+def get_summaries(summary_file, dopass):
+    dopass_suffix = f"-pass{dopass}" if dopass > 0 else ""
+    dopass_summary_file = summary_file.replace('.csv', dopass_suffix + '.csv')
+    
+    if os.path.exists(dopass_summary_file):
+        done = pd.read_csv(dopass_summary_file)
+
+        # done = done.loc[:, ~done.columns.str.startswith('Unnamed')]
+        # done = done.drop_duplicates(['DOI'])
+
+        knowndoi = list(map(str, done.DOI))
+    else:
+        done = None
+        knowndoi = []
+
+    return done, knowndoi

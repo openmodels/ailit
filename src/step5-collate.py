@@ -6,27 +6,6 @@ from pypdf import PdfReader
 from lib import interaction, images
 from config import *
 
-def extract_yaml_dict(text):
-    # Regex to match dictionary entries allowing for quoted or unquoted keys and values
-    yaml_regex = r'^\s*-?\s*(\'[a-zA-Z0-9_() ]+\'|"[a-zA-Z0-9_() ]+"|[a-zA-Z0-9_() ]+)\s*:\s*("[^"\n]*"|\'[^\n]*\'|[^"\n]+)\s*$'
-    
-    # Find all matches for the entire block
-    matches = re.findall(yaml_regex, text, re.MULTILINE)
-    if matches:
-        # Combine matched lines into a single string
-        yaml_text = '\n'.join([f"{key}: {value}" for key, value in matches])
-        
-        # Parse the YAML text into a Python dictionary
-        try:
-            yaml_dict = yaml.safe_load(yaml_text)
-            return yaml_dict
-        except yaml.YAMLError as exc:
-            print(f"Error parsing YAML: {exc}")
-            return None
-    else:
-        print("No YAML dictionary found.")
-        return None
-
 def pass1_collate(pdfpath):
     reader = PdfReader(pdfpath)
     columninfo = {} # column: { page: text }
@@ -49,9 +28,9 @@ Only include information specifically contributed by this paper, not material re
 Specify the results in a list with single lines of text in a YAML dictionary (each line should read "Category": "Extracted Information"), and only include those entries for this page where there is concrete relevant information. This page may have no relevant information, in which case report 'No relevant information'."""
 
         response = interaction.aiengine.chat_response([{"role": "user", "content": prompt}])
-        columns = extract_yaml_dict(response)
+        columns = interaction.extract_yaml_dict(response)
 
-        if columns:
+        if isinstance(columns, dict):
             for column in columns:
                 if column not in columninfo:
                     columninfo[column] = {}
@@ -61,20 +40,23 @@ Specify the results in a list with single lines of text in a YAML dictionary (ea
 
 verdicts = pd.read_csv(verdict_file)
 count = 0
-for index, row in verdicts.iterrows():
-    if row.priority >= priority_limit:
-        fileroot = re.sub(r'[^\w\.\-]', '_', row.DOI)
-        targetpath = os.path.join(pdfs_dir, fileroot + '.pdf')
-        extractpath = os.path.join(extract_dir, fileroot + '.yml')
-        if os.path.exists(targetpath) and not os.path.exists(extractpath):
-            print(row.DOI)
-            count += 1
+for dopass in range(dopass_count):
+    print(f"Pass {dopass+1}")
+    dopass_suffix = f"-pass{dopass}" if dopass > 0 else ""
+    for index, row in verdicts.iterrows():
+        if row.priority >= priority_limit:
+            fileroot = re.sub(r'[^\w\.\-]', '_', row.DOI)
+            targetpath = os.path.join(pdfs_dir, fileroot + '.pdf')
+            extractpath = os.path.join(extract_dir, fileroot + dopass_suffix + '.yml')
+            if os.path.exists(targetpath) and not os.path.exists(extractpath):
+                print(row.DOI)
+                count += 1
 
-            # Step 1: Extract relevant information from each page
-            columninfo = pass1_collate(targetpath)
+                # Step 1: Extract relevant information from each page
+                columninfo = pass1_collate(targetpath)
 
-            with open(extractpath, 'w') as fp:
-                yaml.safe_dump(columninfo, fp)
+                with open(extractpath, 'w') as fp:
+                    yaml.safe_dump(columninfo, fp)
 
-            if count >= collate_count:
-                break
+                if count >= collate_count:
+                    break
