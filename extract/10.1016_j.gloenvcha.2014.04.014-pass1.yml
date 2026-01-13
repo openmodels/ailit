@@ -1,0 +1,333 @@
+Drivers of Risk:
+  4: Extreme weather events (specifically, tropical cyclones and floods); Underlying
+    vulnerabilities related to lower adaptation efficiency (less government spending,
+    uneven income distribution, and bad governance).
+  7: Natural disasters, climate events.
+  8: "Unit price of adaptation (\u03C0); Efficiency parameter (\u03C6)."
+  11: Intensity or magnitude of a natural disaster event; Sensitivity or exposure
+    of society to events of given magnitude.
+  13: Floods, cyclones, disaster magnitude, intensity and exposure, demand variables,
+    efficiency spillovers, political risk
+  14: Magnitude of the disaster, population size, GDP per capita, hazard exposure,
+    income inequality (Gini coefficient), quality of political institutions (Political
+    Risk variable)
+  15: Investment Profile, religious tension/interference in politics, military influence
+    in politics, external conflict, government expenditure to GDP, primary school
+    enrolment rates, credit-to-GDP ratios.
+  16: Magnitude and total GDP (normalization) of disasters are significant predictors
+    of economic damages. Higher credit-to-GDP ratios may be associated with housing
+    developments in vulnerable locations, increasing risk.
+  17: Inequality (Gini coefficient), political risk, credit/GDP, life expectancy,
+    trade openness, and type of climate hazard (floods vs. tropical cyclones).
+  21: Floods and tropical cyclones, intensity of events (wind speed, rainfall, forward
+    velocity, radius of maximum winds etc. for storms; local precipitation data and
+    local topography for floods)
+  22: Extreme weather events, climate change.
+  23: Climate events.
+  25: Natural disasters (cyclones, floods, earthquakes, extreme weather events), temperatures,
+    rising income, climate change
+  26: Climate Change
+  28: Flood Magnitude, Population, Area (Km2), Time trend, GDP per capita (GDPpc),
+    Flood Propensity, Gini coefficient, Political Risk, Government Stability, Investment
+    Profile, Religiosity in Politics, School Enrollment (primary), Credit/GDP, Life
+    Expectancy, Trade, Government Expenditure
+  29: Magnitude of the cyclone, Population, Area (km2), Year (time trend), GDP per
+    capita (GDPpc), Cyclone Propensity, Gini coefficient, Political risk, Investment
+    profile, External conflict, Military in politics, Democracy, School enrolment
+    (primary), Credit/GDP, Life expectancy, Trade, Government expenditure.
+  30: Flood Magnitude, Total GDP, GDP per capita (GDPpc), Gini coefficient, Political
+    Risk, Investment Profile, Military in Politics, Life Expectancy, Time Trend
+  31: Magnitude of tropical cyclones, Total GDP, Area (Km^2), GDP per capita (GDPpc),
+    Cyclone Propensity, Gini coefficient (average), Political risk, Socioeconomic
+    condition, Investment profile, Ethnic tensions, School enrolment (primary), Credit/GDP,
+    Life expectancy, Trade, Government expenditure.
+  32: Floods.
+  33: Tropical cyclones.
+  34: Disaster deaths (dis_deaths), GINI coefficient (lngini_avg), political risk
+    (lnpolrisk), precipitation (lnsum_prec~s)
+Highlights:
+  4: 'The adaptation deficit is driven by two factors: a demand effect (demand for
+    climate security increases with income) and an efficiency effect (adaptation productivity
+    is enhanced in high-income countries due to better infrastructure and institutions).
+    Lower adaptation efficiency is associated with less government spending, uneven
+    income distribution, and bad governance.'
+  5: The paper aims to analyze the adaptation deficit in low-income countries, questioning
+    whether it stems from inefficient adaptation service provision or rational resource
+    allocation to other pressing needs. The paper argues that both factors (demand
+    effect and efficiency effect) play a role in how income affects climate security.
+  7: Establishment of a theoretical framework linking income and disaster loss to
+    rank country efficiency in disaster management.
+  8: The income elasticity of demand for climate security indicates that wealthier
+    nations will demand more adaptation.
+  9: The paper identifies an income effect and an efficiency effect as two channels
+    through which an adaptation deficit might occur.
+  13: The paper examines the impact of floods and cyclones on lives lost and economic
+    damages, using a richer set of explanatory variables than customary in the literature,
+    including political risk.
+  14: Higher GDP per capita is associated with a lower number of deaths from disasters;
+    Higher income inequality is associated with more deaths from disasters; Better
+    quality political institutions reduce disaster deaths.
+  15: Better Investment Profile reduces disaster deaths. Lower risk of religious tension
+    reduces deaths from floods. Lower risk of military influence and external conflict
+    reduces deaths from tropical cyclones. Higher government expenditure to GDP reduces
+    deaths from both floods and tropical cyclones. Higher primary school enrolment
+    reduces disaster deaths from tropical cyclones. Higher credit-to-GDP ratios appear
+    to be associated with an increased number of lives lost.
+  16: Higher GDP per capita is associated with lower economic damages from floods
+    and tropical cyclones.
+  17: Higher inequality is associated with lower economic damages from floods, possibly
+    due to location effects (poor people living in more vulnerable areas with fewer
+    assets) or underreporting of economic losses suffered by the poor; Higher inequality
+    is associated with higher economic damages from tropical cyclones; Better institutions
+    (lower political risk) are associated with higher economic damages from tropical
+    cyclones; Greater trade openness reduces economic losses from cyclone events.
+  22: There is a strong demand effect whereby increased income reduces economic damages
+    from climate disasters. Adaptation efficiency varies, even after controlling for
+    income, and is influenced by government spending, institutional quality, and income
+    distribution.
+  23: Closing the adaptation deficit requires general growth measures and dedicated
+    assistance with spill-over effects; Inclusive growth and institutional quality
+    are important for adaptation; Some countries with good disaster risk management
+    (e.g., Bangladesh) may still need adaptation assistance.
+  25: Several papers focus on the impact of natural disasters on various macroeconomic
+    outcomes like economic production, growth, and disaster losses. Adaptation to
+    cyclone risk is also studied.
+  26: Hurricane strikes impact economic growth in developing countries.
+  28: Flood Magnitude and Population have a positive and statistically significant
+    effect on the number of deaths caused by flood events. GDP per capita has a negative
+    and statistically significant effect, suggesting higher income is associated with
+    fewer deaths. Various measures of efficiency (Gini coefficient, political risk
+    factors) are also statistically significant in some model specifications.
+  29: Cyclone magnitude, population size, area, GDP per capita, and cyclone propensity
+    are all significant predictors of the number of people killed by tropical cyclones.
+    Several indicators related to country efficiency (Gini, political risk, school
+    enrollment, credit/GDP, etc.) also appear to have significant associations.
+  30: Flood magnitude and Total GDP are positively and significantly associated with
+    increased economic damages from flood events across all model specifications.
+    Higher Gini coefficients (income inequality) are significantly associated with
+    higher economic damages. GDP per capita has a statistically significant negative
+    relationship with economic damages from flood events.
+  31: Magnitude of cyclones and total GDP consistently show a statistically significant
+    positive relationship with economic damages. Area has a significant negative relationship.
+    GDPpc shows a statistically significant negative relationship with damages. The
+    Gini coefficient and political risk are positively associated with higher damages
+    when included in the model. Socioeconomic condition and ethnic tensions are also
+    positively related to economic damages, whereas investment profile is negatively
+    related. Credit/GDP has a statistically significant positive relationship with
+    damages, while trade has a statistically significant negative relationship with
+    damages.
+  32: Provides a ranking of countries based on their efficiency in reducing flood-related
+    deaths.
+  33: Provides a ranking of countries based on their efficiency in reducing disaster
+    deaths from tropical cyclones. Higher index scores indicate greater efficiency.
+  34: GDP per capita is positively correlated with political risk, life expectancy,
+    and credit access; GDP is negatively correlated with GINI coefficient.
+Methodology:
+  4: Empirical analysis using panel data from the Munich Re natural catastrophe database,
+    examining the relationship between income and adaptation to tropical cyclones
+    and floods.
+  7: Development of a theoretical model linking income to disaster loss through demand
+    and supply-side efficiency. Empirical modeling to establish country efficiency
+    rankings in disaster management.
+  8: Representative household utility maximization model; Profit maximization model
+    of climate security delivery; Derives demand and supply functions for adaptation.
+  9: The paper models adaptation supply and demand to derive an equilibrium relationship
+    between climate security and income, studying the adaptation deficit through income
+    and efficiency effects.
+  11: OLS and negative binomial regressions; separate estimation for each hazard type.
+  13: "Regression analysis using data from the World Bank\u2019s World Development\
+    \ Indicators database, Political Risk Services ICRG data, and other sources. Lagged\
+    \ values are used for most explanatory variables to avoid endogeneity bias. Analysis\
+    \ distinguishes between intensity and exposure, demand, and efficiency spillover\
+    \ effects."
+  14: Regressions are performed to assess the predictors of disaster fatalities, including
+    magnitude, population, time trend, GDP per capita, hazard exposure, income inequality,
+    and political institutions.
+  15: Regression analysis is used to examine the relationship between disaster deaths
+    and various political, economic, and social factors. The applicability of the
+    results is likely limited to countries with similar characteristics and data availability.
+  16: Regression analysis (log-log form) to estimate damage elasticities. The coefficients
+    on GDP per capita from these regressions are comparable as damage elasticities.
+  17: Regression analysis; comparing regressions for deaths from floods and economic
+    damages from floods to show relationships between drivers of risk and outcomes
+    of interest.
+  19: The efficiency component of the model measures productive or cost efficiency
+    across countries. OLS regressions with a log-log model specification is used when
+    economic damages are the outcome variable. Negative binomial regression is used
+    when number of deaths is the outcome variable. A Poisson QMLE estimator was also
+    tested with consistent results.
+  20: The paper uses regression analysis to identify the efficiency effect of various
+    factors on economic damages from natural disaster events.
+  21: Regression analysis controlling for population, land mass, and a time trend;
+    experimented with urbanisation as an additional control.
+  22: Empirical analysis of the link between income and adaptation to past and future
+    climate events.
+  23: Identifies countries where efficiency spill-overs from adaptation are weakest;
+    controls for GDP or population size.
+  25: Econometric analysis using panel data, cross-sectional analysis, stochastic
+    frontier analysis.
+  26: Economic modelling
+  28: Negative binomial regression analysis is used to model the number of deaths
+    caused by flood events. Explanatory variables are entered in logs and lagged one
+    period (except Magnitude, Area, and Gini). Standard errors are clustered at the
+    country level. Applicable when modeling count data with overdispersion.
+  29: Negative binomial regression analysis of panel data, with standard errors clustered
+    at the country level. Explanatory variables (except Magnitude, Area and Gini)
+    are lagged one period.
+  30: The analysis uses a regression model with economic damages as the dependent
+    variable. Explanatory variables are entered in logs and lagged one period (except
+    Magnitude, Area, and Gini). Standard errors are clustered at the country level.
+  31: The analysis uses a panel regression model with economic damages as the dependent
+    variable and various macroeconomic and socio-economic factors as independent variables.
+    Standard errors are clustered at the country level. Explanatory variables are
+    entered in logs and lagged one period (except for Magnitude, Area, and Gini).
+    Statistical significance is indicated by asterisks (* p<0.10, ** p<0.05, *** p<0.01).
+  32: The efficiency index is normalized to have a mean of zero and a standard deviation
+    of one, based on data on the number of people killed in floods. Higher scores
+    suggest greater efficiency. The table presents average index values over the sample
+    period.
+  33: Ranking countries based on 'numbers killed' (presumably by tropical cyclones),
+    calculating an index, normalizing the index, and averaging the index over the
+    sample period.
+  34: The methodology is not explicitly stated, but seems to involve statistical analysis
+    using panel data, including calculating summary statistics and correlations. Timeframe
+    may be around 1995.
+More Notes:
+  4: The study identifies countries with the largest adaptation inefficiencies and
+    suggests policy implications for international efforts to close the adaptation
+    deficit, including inclusive growth policies and targeted adaptation support.
+  7: 'The paper distinguishes itself by focusing on explaining the severity of disaster
+    losses, rather than the effect of disasters on economic growth. The paper is structured
+    as follows: a theoretical model in Section 2, the empirical model in Section 3,
+    results in Section 4, potential shortcomings and methodological refinements in
+    Section 5, and a conclusion in Section 6.'
+  8: The model treats climate security as a consumption good that provides utility.
+  9: The existence and sign of the efficiency effect is noted as not able to be determined
+    a priori and must await empirical confirmation.
+  11: The paper addresses the issue of missing adaptation effort data by postulating
+    a relationship between adaptation effort and observed damages. It uses the Munich
+    Re database for economic damage estimates, citing its unique perspective as a
+    re-insurance company.
+  13: The study uses Gini coefficient data by averaging available observations due
+    to its sporadic availability. Alternative institutional quality measures were
+    tested as robustness checks. The Political Risk variable restricts the sample
+    to years since 1985.
+  14: The time trend for deaths from flood events is significant and negative, indicating
+    that these have been reduced over time; The relationship between GDP per capita
+    and disaster deaths is robust to the inclusion of efficiency variables.
+  17: The study seeks to determine the relative adaptation efficiency of countries.
+  19: The authors experimented with alternative estimators to the negative binomial,
+    notably a Poisson QMLE estimator, and the results are consistent. The authors
+    state that stochastic frontier analysis is less appropriate for cross-country
+    comparisons involving large variation in economic and social conditions.
+  20: The paper considers the use of zero-inflated negative binomial (ZINB) models,
+    but ultimately rejects it. Country fixed effects are excluded to capture slowly
+    evolving differences in efficiency across countries.
+  21: The analysis focuses on floods and tropical cyclones, excluding other climate-related
+    disasters like droughts, heat waves, and wind storms, and also earthquakes. The
+    paper acknowledges that disaster magnitude variables are rough proxies for true
+    event intensity.
+  23: Methodological and data problems prevent reliable country identification; Richer
+    dynamics like economic diversification, urbanization, and migration to coasts
+    affect long-term vulnerability.
+  28: The analysis explores different model specifications (columns 1-4) by sequentially
+    including more explanatory variables. The models consider the effects of 'Normalisation'
+    factors (Magnitude, Population, Area, Time Trend), 'Demand' factors (GDPpc, Flood
+    Propensity), and 'Efficiency' factors (Gini, Political Risk, Governance, Education,
+    Credit, Health, Trade, Government Expenditure).
+  29: The analysis controls for various factors related to 'Normalization', 'Demand',
+    and 'Efficiency' to explain the number of deaths from tropical cyclones.
+  30: The study explores the roles of normalisation, demand, and efficiency factors
+    in affecting economic damages from flood events.
+  31: The table includes the number of observations and countries included in each
+    regression. Different columns (1-4) represent different model specifications,
+    with different combinations of independent variables included in each.
+  32: The rankings are based on data from column 4 of Table 1 (not included in the
+    provided page).
+  33: The rankings are based on data from column 4 of Table 2, which focuses on the
+    number of deaths caused by tropical cyclones. The table only considers one specific
+    type of disaster, tropical cyclones.
+  34: The variable names are abbreviated and may require further explanation to fully
+    understand their meaning. Disaster deaths is included, but it is unclear if it
+    is caused by climate change. This page provides descriptive statistics and correlations,
+    but doesn't model climate change adaptation directly.
+No relevant information:
+  3: No relevant information
+Outcome(s) of Interest:
+  4: Impact of extreme weather events (tropical cyclones and floods) on countries,
+    framed through the lens of an "adaptation deficit," implying a disparity in how
+    rich and poor countries are affected by climate-related disasters.
+  7: Disaster losses and climate security, which is defined as safety from environmental
+    harm. Implied macroeconomic impact through consumption foregone due to natural
+    disasters.
+  8: Demand for adaptation goes up as income rises (climate security is not an inferior
+    good).
+  11: Economic damages from natural disasters; Lives lost from natural disasters.
+  13: Lives lost, economic damages
+  14: Disaster deaths (fatalities from floods and tropical cyclones)
+  15: Disaster deaths (from floods and tropical cyclones).
+  16: Economic damages from floods and tropical cyclones.
+  17: Economic damages from floods and tropical cyclones at a national level.
+  21: Disaster losses
+  22: Economic damages from climate disasters, disaster-related fatalities.
+  23: Economic growth and resilience to climate risk; the sensitivity of economies
+    to climate events.
+  25: Economic production, disaster losses, mortality, damage risk from natural disasters,
+    sensitivity of manufacturing firms to extreme weather events, economic growth
+  26: Damage costs of climate change.
+  28: Number Killed by Flood Events
+  29: Number of people killed by tropical cyclones.
+  30: Economic damages from flood events
+  31: Economic Damages
+  32: Efficiency in reducing disaster deaths from floods.
+  33: Efficiency in reducing disaster deaths from tropical cyclones.
+  34: GDP (lngdp_u~1995, lngdppc~1995), government expenditure (lngovexp), trade (lntrade),
+    access to credit (lncredit)
+Quantitative Material:
+  30: The table presents regression coefficients and standard errors for various drivers
+    of economic damages from flood events. For example, in model (1), the coefficient
+    for 'Magnitude' is 0.687*** (p<0.01), and for Total GDP is 0.885*** (p<0.01)
+Quantitative material:
+  4: The paper uses panel data from the Munich Re natural catastrophe database to
+    empirically analyze the relationship between income and adaptation to climate
+    events.
+  13: The study presents results in Tables 1-4 based on the four sets of regressions
+    for two impact measures (lives lost, economic damages) and two hazard types (floods,
+    cyclones).
+  14: A 10% rise in GDP per capita reduces fatalities from floods by around 1.4% at
+    the median value of loss; a 10% rise in GDP per capita reduces median deaths from
+    tropical cyclones by between 0.5 and 0.7%
+  15: The analysis appears to rely on coefficients from regressions, suggesting a
+    quantitative approach, although specific values are not provided on this page.
+  16: A 10% rise in GDP per capita reduces economic damages from flood events by between
+    3 and 5%, and from tropical cyclones by between 5 and 19%.
+  17: Negative coefficient on Gini variable in regressions for economic damages from
+    floods; Positive coefficients on political risk measure and its subcomponents
+    ('socioeconomic conditions' and 'ethnic tensions') in regressions for economic
+    damages from tropical cyclones; Positive coefficients on credit/GDP and life expectancy
+    in regressions for economic damages from tropical cyclones; Negative coefficient
+    on trade openness in regressions for economic damages from tropical cyclones.
+  22: A 10 per cent increase in income (GDP per capita) reduces the economic damages
+    from climate disasters by between 3% and 5%, or perhaps as much as 19% in the
+    case of cyclones.
+  23: No quantitative material is included on this page.
+  25: Some papers use panel data or cross-sectional data, suggesting quantitative
+    analysis. Hsiang (2010) reports temperature and cyclones are 'strongly associated'
+    with economic production in the Caribbean and Central America.
+  26: Provides dynamic estimates of damage costs.
+  28: Table presents coefficients from negative binomial regressions, with standard
+    errors and significance levels for each explanatory variable on the dependent
+    variable 'Number Killed'. For example, a 1% increase in flood magnitude is associated
+    with a 0.32-0.45% increase in the number killed (depending on the model specification),
+    significant at the 1% level.
+  29: Regression coefficients and standard errors for the impact of various factors
+    on the number of people killed by tropical cyclones, presented in Table 2.
+  31: The table presents regression coefficients and standard errors for the impact
+    of various factors on economic damages from tropical cyclones. Coefficients are
+    provided for each variable in four different model specifications.
+  32: Country efficiency rankings (normalized index) for reducing flood-related deaths.
+  33: Index scores representing efficiency in reducing disaster deaths, normalized
+    to have a mean of zero and a standard deviation of 1.
+  34: Summary statistics of variables including means, standard deviations, minimums,
+    and maximums; Correlations between GDP measures, GINI, political risk, government
+    expenditure, trade, life expectancy, credit, and schooling.

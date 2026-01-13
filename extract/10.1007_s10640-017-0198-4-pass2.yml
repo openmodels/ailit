@@ -1,0 +1,486 @@
+Drivers of Risk:
+  1: Temperature and humidity exposure due to climate change; socioeconomic development
+    scenarios.
+  3: Nonlinearity in energy demand responses to temperature extremes and spatial and
+    temporal aggregation issues in climate projections.
+  4: Variations in exposure to hot and cold, dry and humid days; ESM temperature projections;
+    population and GDP growth; representative concentration pathways (RCPs) indicative
+    of a high-warming no-policy scenario and moderate-warming mitigation policy scenario;
+    shared socioeconomic pathway (SSP) scenario of conventional economic development,
+    slow population growth, international convergence, and rapid increases in final
+    energy consumption.
+  5: The response of energy demand to temperature changes, which varies by region
+    and economic sector, impacts outcomes such as energy consumption.
+  7: Exposure to vectors of intervals of temperature and humidity (ET and EH); agent's
+    choices of space conditioning equipment, other energy-using capital, irrigation
+    infrastructure, building characteristics (X); agent's consumption of energy (Q).
+  8: Shocks or changes impacting the outcomes are changes in average temperature and
+    humidity.
+  9: Weather-sensitive final energy consumption
+  10: Projected changes in meteorology due to climate warming, specifically temperature,
+    are considered to impact energy demand.
+  11: "Changes in frequency of hot days (mean temperature > 27.5\u25E6C) and cold\
+    \ days (mean temperature < 0\u25E6C) at the grid-cell level."
+  15: "Exposure to hot days (T > 27.5\xB0C) and cold days (T < 12.5\xB0C), high and\
+    \ low extremes of specific humidity, long-run income growth"
+  16: Temperature changes affecting long-run energy demand responses, leading to significant
+    differences in energy consumption adjustments across regions.
+  17: Changes in the frequency of hot and cold days due to climate change are the
+    primary drivers of risk, impacting energy demand.
+  19: Climate change, specifically changes in the frequency of cold and warm days.
+    The prevailing energy source used across sectors and the projected expansion of
+    their size. The SSP5 country per-capita GDP projections.
+  20: Strong radiative forcing amplifies changes in energy consumption.
+  21: Different warming scenarios (RCP 4.5 and RCP 8.5) circa 2050
+  22: Climate change (temperature changes), Socio-economic conditions (economic growth
+    and sectoral shifts)
+  24: Temperature change (warming scenarios RCP 4.5 and RCP 8.5), GDP, and the sensitivity
+    of energy demand to temperature and GDP.
+  25: Exposure to hot days and cold days.
+  26: Temperature (T) and Humidity (H)
+  27: "Temperature changes (less than 12.5\xB0C and greater than 27.5\xB0C) impacting\
+    \ energy demand and economic growth."
+  28: Variations in temperature (tropical vs. temperate) appear to influence the economic
+    variables.
+  29: Climate change, specifically temperature and humidity increases, and socioeconomic
+    development.
+  31: Changes in energy-using durable goods and energy demand influenced by temperature
+    exposure, especially for cooling needs.
+  38: "Temperature ranges (T<7.5 \u25E6C, T7.5-10 \u25E6C, T10-12.5 \u25E6C, T25-27.5\
+    \ \u25E6C, T27.5-30 \u25E6C, T>30 \u25E6C), Humidity ranges (H<H14-16, H16-18,\
+    \ H>)"
+  39: "Humidity (H < 4 g/kg, H > 14 g/kg) and Temperature (T < 12.5\xB0C, T > 27.5\xB0\
+    C)"
+  40: "Temperature (T) in various ranges (T < 7.5\xB0C, 7.5 < T < 10\xB0C, 10 < T\
+    \ < 12.5\xB0C, 12.5 < T < 15\xB0C, 15 < T < 17.5\xB0C); Log natural gas use per\
+    \ capita"
+  41: "Temperature (T) ranges (T < 7.5\u25E6C, 10 < T < 12.5\u25E6C, 7.5 < T < 10\u25E6\
+    C) and Log fuel oil use per capita"
+  42: "Extreme heat (T > 27.5\u25E6C), Extreme cold (T < 12.5\u25E6C, T < 7.5\u25E6\
+    C, 7.5 < T < 10 \u25E6C, 10 < T < 12.5 \u25E6C) and Humidity levels (H < 4 g/kg,\
+    \ H > 14 g/kg)"
+  43: "Exposure to temperature extremes (T < 12.5\xB0C, T > 27.5\xB0C, T < 7.5\xB0\
+    C, 7.5 < T < 10 \xB0C, 10 < T < 12.5 \xB0C) and humidity extremes (H < 4 g/kg,\
+    \ H > 14 g/kg)"
+  44: "Variables affecting outcomes include humidity (H < 4 g/kg, H > 14 g/kg) and\
+    \ temperature (T < 12.5\xB0C, T > 27.5\xB0C)."
+  46: Changes in temperature (warming) and related shifts in energy demand, considered
+    under different RCP scenarios.
+  47: No relevant information
+Highlights:
+  1: Climate change will likely increase energy demand in South America, Asia, and
+    Africa. Europe, North America and Oceania exhibit mixed responses, with reductions
+    in the residential sector but potentially increases in commercial electricity
+    use. The increase in energy demand disproportionately falls on low-and middle-income
+    countries.
+  3: Combining empirical estimates with climate projections requires careful aggregation
+    of meteorological data to avoid understating impacts due to nonlinear demand responses
+    to weather extremes.
+  4: Develop a flexible methodology to characterize geographic variations in climate
+    change impacts on energy demand across the globe. Long-run semi-elasticities capture
+    the nonlinear effect of the climate on energy use indicative of adaptation responses
+    by final consumers along the intensive as well as the extensive margins.
+  5: The energy demand response exhibits a V-shaped function with distinct regional
+    and sectoral sensitivities, impacting energy consumption elasticity.
+  7: The agent's demand for energy is modeled as a function of temperature, humidity,
+    capital, and past energy consumption, and is estimated using country-specific
+    weather data.
+  8: The model partitions the influence of meteorological covariates into short- and
+    long-run effects on the energy demand.
+  9: The study focuses on understanding the non-linear impact of weather variables
+    on energy demand.
+  11: The majority of grid cells will experience increased frequency of hot days and
+    decreased frequency of cold days. The geographic incidence of these changes is
+    uneven, with tropics experiencing more hot days and temperate regions experiencing
+    fewer cold days.
+  14: Energy demand response to temperature changes varies significantly across sectors
+    (agriculture, commercial, industrial, residential), fuel types (electricity, fuel
+    oil, natural gas), and climate zones (temperate, tropical). Some sectors and fuels
+    show positive relationships with temperature changes (increased demand), while
+    others show negative relationships.
+  15: Cooling energy demand is entirely satisfied by electricity, while heating response
+    is distributed among fuels or concentrated in fuel oil; Residential and commercial
+    electricity demand are generally more responsive to real per capita GDP than industry
+    and agriculture; Demand responses to heat and cold exposures are asymmetric
+  16: Without climate change, global weather-sensitive energy demand is predicted
+    to increase nearly five-fold by 2050, with electricity comprising a larger share
+    of the energy mix.
+  17: Emerging economies in the tropics are projected to experience a ninefold increase
+    in final energy consumption, while advanced nations at high latitudes may see
+    a quadrupling of energy demand. Nearly half of energy consumption is projected
+    to be unaffected by climate change.
+  19: Climate change impacts on energy demand are not uniform and depend on location
+    (distance from equator), income level, fuel type, and sector. Developing countries
+    in tropical regions are likely to experience increased energy demand. At the global
+    level the impact of increased energy consumption due to climate change is regressive.
+  20: Amplified by stronger radiative forcing, impacts on aggregate energy consumption
+    are mostly negative in advanced countries and positive in developing nations.
+  21: Energy demand changes vary significantly by sector and region under different
+    warming scenarios. Industrial and total energy demand show the highest increases.
+    Some regions may experience negative changes in agricultural energy demand.
+  22: Climate change is expected to increase global energy demand, but this effect
+    is of secondary importance compared with the effect of economic expansion; The
+    impact of climate change on the current energy system is small (-1.2% to 2.2%
+    or 2.5% to 3.8% change) but accounting for growth in the energy economy makes
+    the impacts much larger.
+  24: Uncertainty in responses is not additive and generates increases of 4.7-8.9%
+    under moderate warming, and 7.5-19.3% under rapid warming. The upper bounds in
+    Table 5.D may well understate the true uncertainty because temperature change
+    relies on a single scenario of economic growth and projections of future temperature
+    change from a single ESM.
+  25: Dynamic modeling approach makes a difference to the elasticities used to project
+    changes in energy consumption. First difference estimates substantially understate
+    long-run results.
+  26: The marginal effect of temperature and humidity on residential electricity consumption
+    depends on the capital stock quantity. The heterogeneity in the marginal responses
+    is small and centered around the estimates from the main model specification described
+    in Section 2. Inclusion of household energy prices does not appreciably change
+    the estimated temperature semi-elasticities, but it reduces the speed of adjustment
+    toward long-run equilibrium.
+  27: "There is a 13% increase in long-run energy consumption exposure to temperatures\
+    \ over 27.5\xB0C, suggesting adaptation in temperate countries."
+  28: Temperature conditions impact key economic variables, suggesting different economic
+    impacts in tropical vs. temperate regions.
+  29: Climate change impacts lead to a geographic and seasonal re-distribution of
+    energy consumption towards tropical regions and towards summer months. Commercial
+    and industrial activities in temperate and tropical regions, respectively, are
+    identified as sectors where changes in socioeconomic and climatic conditions could
+    significantly expand the use of electricity, leading to a net increase in energy
+    demand.
+  31: The paper establishes a methodology to address sectoral and regional differences
+    in energy response and their interaction with temperature data.
+  38: The table presents descriptive statistics of GDP and its sectors based on climate
+    zone (Temperate and Tropical) and level of development across countries.
+  39: "Humidity less than 4 g/kg (H < 4 g/kg) and temperatures greater than 27.5\xB0\
+    C (T > 27.5\xB0C) show some statistically significant short-run and long-run impacts\
+    \ on log real GDP per capita."
+  40: Temperature and natural gas usage per capita appear to have statistically significant
+    impacts on log real GDP per capita, with varying effects depending on temperature
+    range and whether it is a short-run or long-run impact. The effects also appear
+    to differ across regions (World, Temperate, Tropical).
+  41: Temperature below 7.5 degrees Celsius has a statistically significant positive
+    impact on log real GDP per capita in some regressions, both in the short and long
+    run. Log fuel oil use per capita has a significant negative impact on log real
+    GDP per capita in all models.
+  42: Statistically significant effects (at the 5% or 10% level) of humidity and temperature
+    on log real GDP per capita are observed across different sectors (electricity,
+    fuel oil, natural gas) and regions (Temperate, Tropical, World). The sign and
+    magnitude of these effects vary depending on the specific temperature/humidity
+    range, sector, and region.
+  43: Temperature and humidity extremes appear to have statistically significant effects
+    on log real GDP per capita, although the direction and magnitude vary depending
+    on the specific temperature/humidity range, sector, fuel type, and region. Some
+    coefficients are positive and statistically significant while others are negative
+    and statistically significant. The R-squared values vary across models, indicating
+    different degrees of explanatory power.
+  44: Temperature and humidity have significant impacts on real GDP per capita in
+    both short and long run models.
+  46: The most important outcomes are estimations of GDP effects from changes in electricity
+    demand. The effects on GDP are expected to vary substantially by region. There
+    appears to be a substantial increase in electricity demand sensitivity in some
+    scenarios and regions (eg. Tropical) and a potential for substantial GDP growth
+    with some sensitivity ranges going as high as '[38.84,175.38]'.
+  47: No relevant information
+Methodology:
+  1: Combines econometric analysis of energy demand response to temperature and humidity
+    with future scenarios of climate change and socioeconomic development. Applicable
+    for characterizing climate impacts on energy demand at different spatial scales.
+  3: The study adopts an approach that considers temporal exposure to different intervals
+    of temperature to capture nonlinearity in energy demand responses, and discusses
+    challenges in aligning empirical estimates with climate model projections due
+    to aggregation.
+  4: Econometrically disentangle the short- and long-run responses of per-capita energy
+    consumption to variations in exposure to weather; combine these estimates with
+    ESM temperature projections and consistent scenarios of population and GDP growth
+    to elucidate potential climate change impacts on final energy consumption.
+  5: The paper suggests developing an empirical model based on engineering and economic
+    evidence regarding energy demand's sensitivity to temperature changes, differing
+    by region and sector.
+  6: Considers an intertemporally optimizing agent whose objective is to achieve a
+    target equilibrium level of thermal performance.
+  7: "The paper develops a model of agent's demand for energy, where performance (\u03C0\
+    ) depends on weather exposure (ET, EH), capital (X), and energy consumption (q).\
+    \ They use a partial adjustment model and derive an error-correcting form for\
+    \ the agent's demand for energy (Equation 4), which is taken to the data. The\
+    \ dependent variable is the logarithm of fuel \xD7 sector \xD7 country \xD7 year\
+    \ demand for final energy per person. Covariates are the exposure (in days) to\
+    \ intervals of average daily temperature and specific humidity."
+  8: A cross-section-time series error-correction model is used to estimate the influence
+    of temperature and humidity exposures on energy demand at the national level.
+  9: Uses a balanced panel of 29-48 countries from 1978-2010, stratified by climatic
+    regime (tropical or temperate based on Koeppen-Geiger classification). The dependent
+    variable is weather-sensitive final energy consumption from the International
+    Energy Agency (IEA) World Energy Statistics and Balances. Meteorological covariates
+    are derived from gridded 3-hourly fields of surface temperature and specific humidity
+    from the Global Land Data Assimilation System (GLDAS) dataset and aggregated to
+    daily averages.
+  10: The paper employs the 'delta' method to compare ESM simulations of the current
+    and future climate to minimize potential biases.
+  11: The paper calculates the change in per capita energy demand at the grid-cell
+    level by combining long-run climatic estimates with synthetic historical and future
+    exposure series. It then aggregates these changes across grid cells, fuels, and
+    sectors to estimate the net impact on contemporary country-level final energy
+    demand.
+  14: The paper estimates long-run semi-elasticities of per capita final energy consumption
+    to daily temperature exposure.  Equations (13a), (13b), and (13c) provide formulas
+    for calculating aggregate effects on fuel, sector, and total energy consumption
+    at the country level.
+  15: Aggregation of temperature bins to focus on hot and cold day exposures; Estimation
+    of demand responses of fuels to heat and cold exposures and income elasticities
+  16: The analysis uses empirical results and SSP5 projections of GDP growth to estimate
+    future energy consumption and assess responses to weather shocks by fuel and sector.
+  17: The analysis projects future energy consumption patterns and assesses their
+    overlap with projected climatic changes, specifically focusing on changes in the
+    frequency of hot and cold days. The time horizon extends to mid-century.
+  19: Econometric estimates stratified by distance from the equator. Future potential
+    change in the demand for energy is calculated using equations (13a)-(13c) considering
+    projected fuel and sectoral mix. Grid cell-level shocks are distributed across
+    countries at different income levels.
+  21: The methodology appears to involve modeling or projecting energy demand changes
+    under different warming scenarios (RCP 4.5 and RCP 8.5) until circa 2050. The
+    specifics of the model are not detailed on this page, but the analysis focuses
+    on the G20 nations and other world regions.
+  22: "Point projections constructed at the means of estimated responses to temperature\
+    \ and income; Sensitivity analysis at the confidence bounds of parameter estimates,\
+    \ assuming independence among fuel\xD7sector combinations, and between the responses\
+    \ to temperature and to GDP."
+  24: Sensitivity analysis performed on sectoral and aggregate energy demand responses
+    under different warming scenarios around 2050.
+  25: The study uses static, first-difference, and dynamic econometric models to estimate
+    the relationship between temperature and energy consumption. They also use real
+    per capita GDP as a proxy for capital stock.
+  26: The model estimates the impact of changes in temperature and humidity, interacted
+    with capital stock proxies (log of per capita GDP, log of aggregate country capital
+    stocks, accumulated real imports of heating/cooling equipment, machinery, and
+    transport equipment) on residential electricity consumption. The model includes
+    country fixed effects, lagged values of dependent and independent variables, and
+    controls for endogenously determined energy prices.
+  27: Analysis involves long-run estimated semi-elasticities of energy demand in relation
+    to temperature bins using proxy variables for capital stock.
+  29: Cross section-time series regressions to estimate short-run and long-run elasticities
+    of energy demand with respect to different temperature and humidity intervals,
+    controlling for other confounding factors. Long-run elasticities are combined
+    with scenarios of climate change and socio-economic development to project future
+    energy consumptions.
+  31: The analysis uses a methodology focusing on heterogeneity in demand response
+    across sectors, fuels, and regions, interacting with varying temperature data.
+  38: Descriptive statistics (Mean, Std, Max, Obs) are calculated for different climate
+    zones (Temperate, Tropical) and developmental levels (Dev.Min) across countries.
+    The statistics are based on a dataset of the. The unit of the economic variables
+    is (2005 $).
+  39: Panel regression analysis using first-differenced and lagged terms. Models are
+    estimated for different regions (Temperate, Tropical, World) and sectors (Residential,
+    Commercial, Industrial, Agriculture). Robust standard errors are used. Significance
+    levels are indicated by * and **.
+  40: Panel regression with short-run (first-differenced) and long-run (lagged) terms,
+    controlling for region (World, Temperate, Tropical) and sector (Commercial, Residential).
+    Robust standard errors are used. The regressions aim to determine the impact of
+    temperature and natural gas usage on log real GDP per capita.
+  41: 'Panel regression analysis using first-differenced and lagged terms. Robust
+    standard errors are used. Significance levels: ** p<0.05, * p<0.1. The analysis
+    is performed across different regions (Temperate, Tropical, World) and sectors
+    (Industry, Agriculture, Residential).'
+  42: Panel regression analysis (static model) with log real GDP per capita as the
+    dependent variable, controlling for extreme temperature and humidity, electricity
+    sector (Residential, Industry, Agriculture, Commercial) and type of fuel oil (Fuel
+    oil, Natural Gas) and the Constant.
+  43: 'First difference model, robustness check, regressions controlling for sector
+    (Residential, Industry, Agriculture, Commercial), fuel type (Electricity, Fuel
+    oil, Natural gas), and region (Temperate, Tropical, World). Significance levels
+    are indicated as: ** p< 0.05, * p< 0.1'
+  44: Analysis uses regression models to estimate short run (first differenced) and
+    long run (lagged) effects across different climatic regions.
+  46: The analysis appears to use elasticities to model the sensitivity of energy
+    demand and GDP to temperature changes. There is mention of 'elasticities regions'
+    and 'sensitivity' suggesting the use of regional and sectoral models.
+  47: No relevant information
+More Notes:
+  1: The study finds a regressive impact of climate change on energy demand.
+  3: The study highlights the importance of accurately projecting temperature effects
+    on energy demand and the challenges in aligning empirical and climate model data.
+  5: The analysis focuses on understanding energy demand's temperature sensitivity
+    across regions and sectors, highlighting the balance point temperature where demand
+    shifts occur.
+  7: The paper uses specific humidity as a measure because it is less correlated with
+    temperature than relative humidity, even though relative humidity is a better
+    indicator of the demand for cooling.
+  9: The study seems to be focused on energy consumption and weather patterns, and
+    their correlations. It appears to try and derive the impact of changes in climate
+    on energy demand.
+  11: The analysis assumes that sub-national per capita energy demand is uniformly
+    distributed and equal to the national average. The study acknowledges that the
+    future global energy system is likely to differ substantially from the present,
+    which is a shortcoming of the approach.
+  14: The table shows that the relationship between GDP and energy demand is highly
+    variable across different sectors and fuel types. The data are provided for both
+    Temperate and Tropical regions. The confidence intervals provided give an estimate
+    of the significance of the elasticities.
+  17: The distribution of energy consumption exposure to growth in high temperatures
+    exhibits a long upper tail, with small quantities of energy use exposed to a wide
+    range of percentage increases in heat (25% to more than 400%).
+  19: The study uses RCP 8.5 and a moderate warming scenario to project future energy
+    demand. The analysis differentiates between low, middle, and high-income countries
+    based on per capita GDP thresholds ($9,750 and $29,000).
+  21: The presented chart and accompanying details indicate that the study models
+    future energy demand based on warming scenarios, but it does not directly quantify
+    GDP, productivity, fiscal outcomes, or adaptation costs and benefits. It focuses
+    solely on energy consumption changes.
+  22: Tropical countries account for most of the increase in energy consumption above
+    BaU levels, concentrated in the industrial and residential sectors. In temperate
+    areas, the increase in commercial energy consumption is offset by declines in
+    residential and industrial consumption.
+  24: "Results highlight the long upper tail of impacts that arises purely from uncertainties\
+    \ in energy consumption\u2019s responses to income and meteorology. Incorporating\
+    \ additional GDP forecasts and multiple spatial fields of temperature change projected\
+    \ by additional ESMs will almost surely broaden the envelope of uncertainty."
+  25: The study finds an asymmetric response to temperature changes, with hot days
+    increasing electricity consumption more in the residential sector in temperate
+    regions and the commercial sector in the tropics. Natural gas consumption responds
+    to cold days in temperate regions. Fuel oil consumption responds to cold days
+    in both temperate and tropical regions.
+  26: Energy price data is a limitation, especially for countries in the tropics.
+    The paper uses lagged energy prices as covariates to address endogeneity.
+  31: Future projections are based on one specific ESM and socioeconomic scenario,
+    with potential expansions for future research.
+  38: The page contains descriptive statistics for various GDP related variables based
+    on temperature and humidity ranges, climate zones, and country development status.
+    The table also lists energy consumption statistics.
+  39: The dependent variable is electricity use. The analysis examines both short-run
+    (first-differenced) and long-run (lagged) relationships.
+  40: The analysis is performed at a national level, using data from 23 countries
+    (or 7 in the Tropical region model). The sample size for the regressions is either
+    552 or 168 observations.
+  41: The models explain a small portion of the variance in log real GDP per capita,
+    as indicated by the low R-squared values (0.044 to 0.130).
+  42: The table presents a robustness check using a static model, indicating the results
+    might be sensitive to model specification. The table does not provide information
+    about policy choices on adaptation.
+  43: The analysis is disaggregated by sector, fuel type, and region. The number of
+    observations and countries included in each regression are reported.
+  46: The formatting is somewhat chaotic which makes information extraction difficult.
+    The notation of '[x,y]' presumably indicates the range of impact.
+  47: No relevant information
+No relevant information:
+  18: This page focuses on projected changes in final energy demand across different
+    sectors and regions under various climate scenarios (RCP4.5 and RCP8.5). It does
+    not directly provide information on macroeconomic or fiscal outcomes, costs/benefits
+    of adaptation, or the methodologies used to derive those outcomes at a national
+    level. The content is more aligned with energy consumption projections rather
+    than economic impact assessments.
+Outcome(s) of Interest:
+  1: Climate change impacts on energy demand, potentially exacerbating energy poverty.
+  4: Impacts on final energy consumption at the sectoral, regional, and global levels.
+  5: No specific macroeconomic or fiscal outcomes or measures of economic costs and/or
+    benefits of nation-wide adaptation are detailed.
+  7: Agent's demand for energy; performance, which depends fundamentally on weather.
+  9: No relevant information
+  11: Country-level final energy demand.
+  14: No relevant information
+  15: Consumption of energy for cooling and heating.
+  17: The paper discusses shifts in energy consumption patterns, which could have
+    macroeconomic consequences through impacts on energy markets, prices, and investment.
+  19: Changes in energy consumption, differentiated by fuel, sector, and location,
+    are a key intermediate outcome influencing overall economic outcomes. Impacts
+    on weather-sensitive energy consumption.
+  21: Change in energy consumption (% ) in different sectors (Agriculture, Commercial,
+    Industrial, Residential, and Total)
+  22: Global energy consumption
+  24: Sectoral and aggregate energy demand responses (EJ).
+  25: Energy consumption (specifically electricity, natural gas, and fuel oil consumption).
+  26: Residential electricity consumption
+  27: Impact on real GDP per capita as related to temperature changes, especially
+    in tropical versus temperate countries.
+  28: The dot plot indicates potential variations in real GDP per capita across different
+    temperature conditions.
+  29: Changes in energy demand, particularly electricity demand.
+  38: Real GDP (final), Total GDP, Agriculture, Commercial, Residential, Industry
+  39: Log real GDP per capita
+  40: Log real GDP per capita
+  41: Log real GDP per capita
+  42: Log real GDP per capita
+  43: Log real GDP per capita
+  44: Macroeconomic outcomes include effects on real GDP per capita.
+  46: GDP effects related to energy demand changes, broken down by fuel type (Oil,
+    Gas, Electricity) and sector (Agriculture, Commercial, Industrial, Residential,
+    Total).
+  47: No relevant information
+Quantitative material:
+  1: Globally, future climate change is expected to have a moderate impact on energy
+    demand, in the order of 6-11%, depending on the degree of warming.
+  5: No quantitative information on specific macroeconomic or fiscal outcomes on this
+    page.
+  8: The model includes parameters that estimate short-run and long-run demand responses
+    to meteorology, indicating percentage shifts in demand relative to its conditional
+    mean level.
+  9: No relevant information
+  10: Table 1 presents global weather-sensitive final energy consumption in 2010 by
+    sector and fuel type for tropical, temperate, and world regions.
+  11: "The index \u03C6Climate can be interpreted as the ratio of per-capita fuel\xD7\
+    sector energy consumption in a future climate relative to a base level of consumption\
+    \ under the current climate."
+  15: Temperature semi-elasticities of energy demand; Income elasticities of energy
+    demand
+  16: The page provides quantitative forecasts of 2050 energy consumption across different
+    sectors and regions, estimating a nearly five-fold increase over 2010 levels to
+    502 EJ, highlighting shifts in energy sources.
+  17: The paper provides quantitative information on baseline energy consumption (in
+    Exajoules, EJ) and percentage changes in hot and cold days under different climate
+    scenarios (RCP 4.5 and RCP 8.5).
+  19: "More than 70% of the world\u2019s projected 7.9 billion people experience changes\
+    \ in weather-sensitive energy consumption in excess of \xB15%. 75% and 85% of\
+    \ low- and middle-income countries experience increased energy consumption, respectively.\
+    \ With moderate warming, 15% of the world\u2019s population experience increases\
+    \ in weather-sensitive energy consumption exceeding 25%."
+  21: Presents quantitative estimates of sectoral and aggregate energy demand changes
+    (in %) for G20 nations and world regions under RCP 4.5 and RCP 8.5 scenarios.
+    Specific ranges for each sector are provided, e.g., Agriculture ranges from -40
+    to 30, Industrial ranges from 0 to 150.
+  22: "Under both warming scenarios there is a modest increase in global energy consumption,\
+    \ by 6% and 11%, respectively; Changes in climate can be expected to increase\
+    \ global demand for energy by 55EJ; hypothetical impact that an uncertain response\
+    \ to a given change in the climate circa 2050 would have on today\u2019s energy\
+    \ system -1.2% to 2.2% (2.5% to 3.8%) of current world energy consumption in the\
+    \ RCP 4.5 (RCP 8.5) scenario."
+  24: Provides ranges for sectoral and aggregate energy demand responses (in EJ) under
+    different warming scenarios (RCP 4.5 and RCP 8.5) and sensitivities to temperature
+    and GDP elasticities. Specifically, the sensitivity analysis provides ranges for
+    agriculture, commercial, industrial, residential, and total energy demand.
+  25: The study uses semi-elasticities to quantify the impact of temperature on energy
+    consumption. They compare short-run vs long-run responses in energy consumption
+    to temperature changes.
+  26: Long-run semi-elasticities are reported in Table 6 whereas full regression results
+    are given in Table A7.
+  27: Estimated semi-elasticities of energy demand to temperature changes, for both
+    tropical and temperate countries, are provided.
+  28: The plot includes quantitative values of up to approximately 0.015 for economic
+    measures across different temperature categories.
+  29: Global demand for air conditioning could expand by a factor 20 in 2050, even
+    assuming a constant climate. Overall percentage increase in total final energy
+    consumption is 26% in tropical regions and 0.19% in temperate regions. 15% reduction
+    in residential sector and a 16% increase in the commercial sector in temperate
+    regions
+  38: Mean, Standard Deviation, Maximum, and Observations are provided for Real GDP,
+    Total GDP, and GDP sectors (Agriculture, Commercial, Residential, Industry) for
+    "Temperate" and "Tropical" climate zones.
+  39: Regression coefficients, standard errors, R-squared values, and number of observations
+    are provided for each variable and model.
+  40: Regression coefficients for the impact of temperature ranges and natural gas
+    use on log real GDP per capita are provided, along with standard errors and significance
+    levels (p < 0.05, p < 0.1).
+  41: Regression coefficients and standard errors for the impact of temperature ranges
+    and fuel oil use on log real GDP per capita, R-squared values.
+  42: Regression coefficients and standard errors for the effect of humidity and temperature
+    variables on log real GDP per capita; R-squared values; Number of observations
+    and countries.
+  43: Regression coefficients and robust standard errors (in parentheses) quantifying
+    the relationship between Log real GDP per capita and temperature/humidity variables.
+  44: Short run and long run regression coefficients are provided for log real GDP
+    per capita, humidity, and temperature indicators, showing statistically significant
+    effects.
+  46: Provides ranges of percentage changes in energy demand (total and by sector)
+    and GDP effects for different fuels under various warming scenarios, mostly projected
+    to circa 2050. Examples include '[0.32,2.40]' for total energy demand's impact
+    on GDP under one scenario, and '[-0.01,0.00]' for oil fuel demand under another.
+    Ranges of sectoral sensitivity are provided. Some ranges are very wide.
+  47: Ranges of energy elasticities under different RCP scenarios and temperature
+    sensitivities, but not directly linked to specific macroeconomic or fiscal outcomes.

@@ -1,0 +1,111 @@
+Drivers of Risk:
+  6: The vulnerability maps are based on the WorldRiskIndex and INFORM index, which
+    include subcomponents related to susceptibility, lack of coping capacity, lack
+    of adaptive capacity, and socioeconomic vulnerability. These indices capture factors
+    that contribute to a country's risk profile.
+  9: The study focuses on the vulnerability main components of the WRIv and INFORMv
+    indices as drivers of risk.
+  10: Floods, Storms, and Droughts. Vulnerability (based on WRI and INFORM indices).
+  11: Hazard events (floods, droughts, storms), Vulnerability (assessed by WRI and
+    INFORM indices)
+  12: Vulnerability levels, insurance coverage, wealth and exposed capital assets,
+    governance issues, and development deprivation.
+  13: Climate threats like sea-level rise, being a Small Island Developing State (SIDS),
+    being landlocked.
+  15: Increasing number of affected people and economic damages due to natural hazards
+    modified by climate change; increase in hazard frequency and intensity.
+Example:
+  10: Mortality per event is 15 and 7 times higher in countries with very high vulnerability
+    compared to countries with very low and low vulnerability, respectively.
+Highlights:
+  6: Global vulnerability maps based on WorldRiskIndex and INFORM index are presented
+    to visualize vulnerability levels across countries.
+  9: Higher vulnerability, as measured by the WRIv and INFORMv indices, is associated
+    with higher mortality and economic loss per event. The indices have explanatory
+    power for disaster outcomes at national and regional levels.
+  10: ''
+  11: Mortality per event increases with higher vulnerability categories; economic
+    losses per hazard event in very high vulnerability countries compared to others
+    is analyzed.
+  12: High vulnerability countries have greater mortality and population impact, whereas
+    low vulnerability countries experience higher economic losses in absolute terms.
+  13: Vulnerability rankings of various SIDS differ; SIDS in the Pacific have a higher
+    vulnerability compared to those in the Caribbean. Landlocked countries in Africa,
+    Southern Asia, and South America have higher average vulnerability compared to
+    non-landlocked countries. Vulnerability differs significantly in the Global South,
+    particularly in Asia and Africa.
+  15: Vulnerability assessments can complement climate information to inform adaptation
+    policies.
+Methodology:
+  6: Internal validation of indices is performed using reliability (Cronbach's alpha
+    and Guttmann lambda tests) and sensitivity analyses (global sensitivity analysis).
+    External validation is done by comparing aggregated national data to the regional
+    level with event, mortality and economic loss data from the EM-DAT database for
+    climate-related hazards (storms, droughts, and floods).
+  9: Sensitivity analysis is performed on the main components of the WRIv and INFORMv
+    indices. Correlation results are used to assess the explanatory power of the indices
+    for disaster outcomes.
+  10: ''
+  11: Clustered boxplots of mortality per hazard event by vulnerability categories
+    and type of index system. Bar charts analyze disparities in mortality, economic
+    damage, and affected population due to events in very high vulnerability countries
+    compared to others using different indices. Kruskal-Wallis tests are used to determine
+    statistical significance.
+  12: Analysis uses indices like INFORMv and WRIv to categorize countries by vulnerability
+    and assess mortality, economic losses, and affected populations per hazard event.
+  13: Calculated the average of WRI and INFORM vulnerability components and aggregated
+    them to the level of UNSD intermediate and subregions. Analysis of SIDS data and
+    vulnerability.
+  15: The paper refers to global vulnerability indicators and index approaches.
+More Notes:
+  6: The study focuses on climate-influenced hazards (storms, droughts, floods), excluding
+    other natural hazards like tsunamis and earthquakes.
+  9: The sensitivity analysis identifies the most influential components within the
+    vulnerability indices. The specific components of vulnerability vary between the
+    WRIv and INFORMv indices, suggesting different areas of focus for risk reduction.
+  11: 'The vulnerability components of WRI and INFORM are included in the analysis
+    and represented with WRIv and INFORMv. [* selected hazards: floods, droughts,
+    storms].'
+  12: Data availability and quality issues affect the reliability of vulnerability
+    indices, impacting the accuracy and applicability of the findings.
+  13: The vulnerability scores are based on WRIv and INFORMv indices. The paper notes
+    data gaps, particularly for SIDS, and suggests data interpolation and machine
+    learning techniques as possible solutions.
+  15: The paper highlights the limitations and constraints of global vulnerability
+    indicators and index approaches, emphasizing the need to consider local context
+    and social diversity; the paper mentions that vulnerability and systemic societal
+    vulnerability are more appropriate metrics than absolute economic losses.
+Outcome(s) of Interest:
+  6: No relevant information
+  9: Mortality and economic loss per event are considered as outcomes related to vulnerability.
+  10: Mortality per climate-related hazard event (floods, storms, and droughts) and
+    Economic Losses per climate-related hazard event.
+  11: Economic losses per hazard event
+  12: Emphasizes higher economic damages per event in low vulnerability/high income
+    countries and disproportionate economic losses as a percentage of GDP in low-income
+    countries.
+  13: No relevant information
+  15: The paper discusses mortality due to climatic hazards and economic damages due
+    to natural hazards.
+Quantitative material:
+  6: The vulnerability maps display the values for each country based on the WorldRiskIndex
+    and INFORM index.
+  10: ''
+  11: Magnitude of death per hazard event [number of time higher] and economic losses
+    per hazard event [number of times lower] and population affected [number of time
+    higher] in the past 10 years in countries categorized as very highly vulnerable
+    compared to countries in other vulnerability categories.
+  12: Mortality and economic impact statistics are delineated based on vulnerability
+    classifications with quantitative comparisons made between highly and low vulnerable
+    countries.
+  13: The INFORM Index includes all SIDS, however, 37% of the SIDS are in the top
+    25% of countries lacking reliable data. Vulnerability values for Haiti (7.0 for
+    INFORMv and 0.75 for WRIv), Guinea-Bissau (5.6 for INFORM and 0.71 for WRI), Federated
+    States of Micronesia, Marshall Islands, Papua New Guinea and Tuvalu (all between
+    5.5 and 5.0 for INFORM), and Comoros, Solomon Islands and Timor-Leste (all between
+    0.60 and 0.68 for WRI). Japan (19.89), South Korea (20.84), China (39.6) and North
+    Korea (53) vulnerability scores are provided.
+  15: The region of Eastern Africa was exposed to over 200 hazard events (droughts,
+    floods and storms) and faced more than 100 fatalities per event between 2010 and
+    2019; Eastern Asia faced more than 300 hazard events during the same period but
+    had a mortality of 15 to 31 fatalities per event.

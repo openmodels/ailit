@@ -1,0 +1,118 @@
+Category:
+  6: Extracted Information
+Drivers of Risk:
+  1: Large- and local-scale climate
+  2: "El Ni\xF1o-Southern Oscillation (ENSO), North Atlantic Oscillation (NAO), Sea\
+    \ surface temperature anomalies (SSTa), air temperature anomalies (ATa), Palmer\
+    \ Drought Severity Index (PDSI)"
+  4: Climate (relationship between crop yields and climate is studied)
+  6: Large-scale climatic patterns and modes of crop yield variability.
+  14: Local climate variability, average temperature anomalies (ATA), Palmer Drought
+    Severity Index (PDSI).
+  15: Global drivers of atmospheric variability such as ENSO or NAO influence local
+    climate and can trigger simultaneous impacts on croplands.
+  22: The analysis implicitly connects climate change (through impacts on crop yields)
+    to correlations between principal components of crop yields (maize, soybean, rice,
+    sorghum).
+  25: Climate
+  26: No relevant information
+  28: "El Ni\xF1o-Southern Oscillation (ENSO) events; Sea surface temperature; Drought"
+Highlights:
+  2: Large-scale climate, especially ENSO and NAO, are strongly correlated with crop
+    yield variability; Local climate variability influences maize harvesting regions
+    in Europe, rice and soybean in South America, and sorghum in North America; Sorghum
+    yield variability across the globe exhibits significant correlations with many
+    atmospheric and oceanic indices; Same crops in many countries co-vary significantly,
+    and different crops in different PCs also co-vary with other crops
+  4: Identifies co-varying crop producers and joint dependencies between crops.
+  11: A great deal of global yields variability of sorghum and soybean anomalies happen
+    in a limited number of co-
+  14: Maize croplands in several countries are impacted by local climate. Rice, sorghum
+    and soybean crops have impacts as well, across global regions. Major exporters
+    (ME) and major importers (MI) co-vary conversely in different PCs.
+  22: The analysis finds both positive and negative correlations between principal
+    components of different crop yields. Specific examples include correlation = 0.40
+    between rice-PC1 and maize-PC1, correlation = -0.53 between rice-PC3 and maize-PC1,
+    correlation = 0.64 between rice-PC3 and (an unspecified) other variable, and correlation
+    = -0.39 between soybean-PC1 and maize-PC1.
+  26: No relevant information
+  28: ENSO events can impact the economics of the international rice market.
+Methodology:
+  2: Robust Principal Component Analysis (RPCA) to decompose long-term national-based
+    yields of maize, rice, sorghum and soybean from 1961 to 2013; Analysis of the
+    association between the principal components (PC) of yield anomalies and climate
+  4: Uses Robust Principal Component Analysis (RPCA) to decompose yield time series
+    of maize, rice, sorghum and soybean (MRSS) from 1961 to 2013 to assess the association
+    between crop yields and climate more accurately.
+  6: The study uses multiple monthly atmospheric and ocean time series (NOAA-ESRL,
+    2017) to study links between climatic patterns and crop yield variability. Irrigated
+    and rain fed maps for each crop combined to obtain the global spatial coverage
+    of MRSS croplands, the spatial coverage of croplands is specified for countries
+    of this study impacted by local climate variability.
+  7: The data matrix M represents yield anomalies over time (1964-2010) and across
+    countries.
+  11: Concurrent (one-year lag) correlation between the PC1, PC2 and PC3 of maize,
+    rice, sorghum and soybean and SSTa and ATa/PDSI over croplands from 1964 to 2010
+    (1963-2009).
+  14: Analysis of Principal Components (PC1, PC2, PC3) of climate variability and
+    PDSI impact on crop yields. Bar charts show the percentages of MRSS croplands
+    in 10 global regions affected.
+  22: The analysis uses Principal Component Analysis (PCA) on crop yields and Spearman
+    correlation to assess relationships between these PCs. The correlations are assessed
+    with a 95% confidence interval.
+  25: Uses Robust Principal Component Analysis (RPCA) and plans to investigate the
+    association of the sparse matrix resulting from RPCA with climate.
+  26: No relevant information
+  28: Statistical investigation of yield variability as influenced by climate (Chen,
+    McCarl, & Schimmelpfennig, 2004); Analysis of teleconnected food supply shocks
+    (d Amour et al., 2016)
+More Notes:
+  1: This paper focuses on crop yields and their relationship to climate, which can
+    be an input into macroeconomic models assessing climate change impacts. However,
+    it doesn't directly quantify macroeconomic or fiscal outcomes.
+  2: The study focuses on identifying the association between climate and crop yield
+    variability and recognizing similar and dissimilar countries in terms of yield
+    fluctuations, which can be informative for nations regarding the periodic and
+    predictable nature of large-scale climatic patterns.
+  4: Focuses on countries with complete yield data from 1961 to 2013 from the Food
+    and Agriculture Organization of the United Nations statistical databases (FAO,
+    2016).
+  14: The analysis identifies specific countries that are major exporters and major
+    importers of crops and their relationships.
+  15: The text suggests that free trade can be part of the solution to global food
+    security and improve sustainable use of natural resources.
+  22: The page focuses on the statistical relationships between different crop yields
+    represented by their principal components, but it does not explicitly link these
+    relationships to macroeconomic or macro-fiscal outcomes. The principal components
+    may represent underlying climate or weather factors that are impacting crop yields
+    in correlated ways.
+  25: The study aims to enhance knowledge of the global food security field and is
+    relevant to policy initiatives, decision-makers, and various organizations. The
+    project was supported and monitored by National Oceanic and Atmospheric Administration
+    (NOAA).
+  26: No relevant information
+  28: The papers by Dai et al. (2004a, 2004b) uses the Palmer Drought Severity Index
+    which can be used to determine the severity of drought and its effects on surface
+    warming and soil moisture.
+Outcome(s) of Interest:
+  1: No relevant information
+  2: Food security
+  11: No relevant information
+  14: Crop yield variability in major global crop exporters.
+  22: No relevant information
+  25: Global food security
+  26: No relevant information
+  28: Economics of the international rice market
+Quantitative material:
+  1: No relevant information
+  10: Significant correlations (95%) reported between the first three PCs of MRSS
+    and annual average of SSTa and ATa (PDSI) over croplands, marked with black dots.
+  14: Percentages of Major Regional Staple crops (MRSS) croplands impacted by local
+    climate variability. Percentage scales on bar chart axes, from -100 to 100.
+  22: The paper presents correlation coefficients ranging from -0.53 to 0.64 between
+    different principal components (PCs) of crop yields (rice, maize, sorghum, and
+    soybean). The text also notes correlations of 0.37% and -0.41% (although it is
+    not clear what these refer to).
+  26: No relevant information
+  28: The Chen et al. (2008) paper analyzes the economics of the international rice
+    market due to ENSO events.

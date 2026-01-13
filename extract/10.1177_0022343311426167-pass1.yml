@@ -1,0 +1,150 @@
+Drivers of Risk:
+  1: Climate-related natural disasters (flash floods, surges, cyclones, severe storms)
+  2: Climate-related natural disasters include sudden shocks like flash floods, surges,
+    cyclones, blizzards, and severe storms.
+  4: Climate-related natural disasters, such as floods, storms, and cyclones, impact
+    economic growth by disrupting production inputs and damaging infrastructure.
+  5: Large disasters (> 10,000 affected), population affected by disasters (%), affected
+    by floods (%), affected by storms (%), openness of economy (%), real investment
+    share of GDP (%), real government share of GDP (%), FDI inflow relative to GDP
+    (%), FDI outflow relative to GDP (%), inflation, population size (,000), democracy
+    index
+  6: Climate-related disasters (floods and storms from EM-DAT)
+  7: Natural disasters (floods and storms specifically mentioned)
+  8: Climate-related disasters (specifically, the sum of the population affected by
+    disasters)
+  9: Population affected by floods, storms, and other climatic disasters.
+  11: Number of people affected by climatic disasters
+  13: Conflict onset, conflict incidence
+  14: Sudden climatic disasters like storms and floods adversely affect people and
+    production inputs such as land, infrastructure, and factories.
+Highlights:
+  1: Climate change is an economic concern for countries susceptible to climate-related
+    natural disasters; however, climate-related disasters will not lead to more armed
+    conflicts through their effects on GDP growth.
+  2: Climate-related disasters have a negative impact on economic growth, but do not
+    have any direct effect on conflict onset.
+  4: The negative impact of climate-related disasters on economic growth and the potential
+    link between negative economic shocks and increased risk of armed conflict onset.
+  5: Climate-related events as defined in the article serve as exogenous events in
+    their second-stage analysis.
+  6: Examines the impact of climate-related disasters on conflict.
+  7: Floods and storms are very similar in terms of population affected. Disasters,
+    on a global scale, are distributed equally over the year.
+  8: Climate-related disasters have a negative and statistically significant effect
+    on per capita economic growth.
+  9: An increase in population affected by one disaster leads to a strong negative
+    impact on economic growth.
+  11: Climatic disasters have a statistically significant and robust negative causal
+    effect on short-run economic growth.
+  13: Conflict onset and incidence have statistically significant negative impacts
+    on GDP/capita growth.
+  14: Short-term negative effects of climate-induced disasters on economic growth
+    do not increase the risk of armed civil conflict.
+Methodology:
+  1: Econometric methods are used to study the consequences of climate-induced natural
+    disasters on economic growth.
+  2: The analysis uses ordinary least squares (OLS) and fixed-effects methods in panel
+    data to study the impact of climate-related disasters on economic growth and conflict
+    onset.
+  4: The paper employs fixed-effects models to study the relationship between climate-related
+    events and economic growth, then examines the effect on armed conflict onset.
+  5: Panel dataset covering 1980-2007 for 171 countries. Uses country fixed effects.
+    Uses climate-related events as exogenous events in second-stage analysis. The
+    dependent variable in the growth analysis is real GDP per capita growth rate.
+  6: Uses disaster data from the Emergency Events Database (EM-DAT). The size of an
+    event is normalized by dividing the size of the affected population.
+  7: The paper uses a model of economic growth to assess the impact of natural disasters.
+    Control variables are lagged by one year to minimize reversed causality. They
+    also weight events by how long into the year they occur (events in January have
+    a larger weight than events in December).
+  8: Regression models with country fixed-effects and fixed-year dummies are used
+    to estimate the effects of climate-related disasters on per capita economic growth.
+    The model includes lagged economic growth, openness to foreign trade, investment,
+    government expenditure, FDI, and inflation as control variables. Applicable to
+    countries with available data and similar characteristics.
+  9: Fixed-effects estimator model using STATA 11, with year and country fixed effects
+    included in the analysis.
+  11: Instrumental variable analysis with a two-stage least squares approach; the
+    first stage models economic growth as a function of climatic disasters, and the
+    second stage models conflict onset as a function of instrumented income growth.
+    Includes country and time fixed effects.
+  13: Regression analysis with instrumental variables and fixed effects. Models include
+    country-specific cubic splines, time trends, and controls for floods and storms.
+    Robustness tests are performed with clustered standard errors.
+  14: "Analysis is done using 2SLS models for the period 1980\u20132007, with robustness\
+    \ checks involving several alternative model specifications."
+More Notes:
+  2: Instrumenting economic growth with climatic disasters allows for imposing exogenous
+    variation in growth, though no indirect effect on conflict onset via economic
+    growth was found.
+  5: Older disaster data before 1980 are considered less reliable. The paper explores
+    the impact of climate disasters on economic growth, considering that climate disasters
+    perform better as an instrument for economic growth in global panel studies than
+    rainfall and temperature variation do. The authors recognize that the consequences
+    of sudden natural disasters differ across countries due to factors like culture,
+    infrastructure, and political institutions.
+  6: Focuses on climate-related disasters defined as floods and storms. Only includes
+    events that last less than one month. Uses the number of people affected by the
+    disaster as the main variable of interest. Armed civil conflict onsets from the
+    annually updated UCDP/PRIO Armed Conflict Dataset are used.
+  7: The paper controls for factors such as lagged GDP per capita growth, trade openness,
+    foreign direct investment, investment share of GDP, government expenditure, and
+    inflation.
+  8: Floods and storms were examined separately, but their impacts were not statistically
+    different. Population affected was the best predictor of growth compared to people
+    killed and economic damage.
+  11: The paper also examines the impact of climatic disasters on the risk of armed
+    civil conflict onset.
+  14: The study suggests the relationship between economic conditions and conflict
+    risk is more complex or heterogeneous than suggested by earlier analyses.
+Outcome(s) of Interest:
+  1: Economic growth (GDP growth)
+  4: The paper explores the relationship between climate-related disasters and economic
+    growth, noting that such events can lead to declines in economic growth.
+  5: Real GDP per capita growth (%)
+  6: Average annual real GDP per capita growth
+  7: Economic growth is the primary outcome of interest.
+  8: Per capita GDP growth rate
+  9: Negative impact of climate-related disasters on GDP per capita growth.
+  11: Short-run economic growth (GDP per capita)
+  13: GDP/capita growth
+  14: Increase in the number of people affected by sudden climatic disasters leads
+    to a reduction in total aggregate income growth by about 0.5 percentage points.
+Outcomes of Interest:
+  2: Climate-related disasters have a negative impact on short-run economic growth.
+Quantitative material:
+  1: Climate-related natural disasters have a negative effect on growth and that the
+    impact is considerable.
+  2: No quantitative information on the outcomes of interest is provided on this page.
+  4: The hypothesis suggests that climate-related disasters have a negative effect
+    on economic growth, but no specific quantitative data or metrics are provided
+    on this page.
+  5: N=4,354, Mean of Real GDP per capita growth (%) = 1.726, Std. dev. of Real GDP
+    per capita growth (%) = 7.415, Min of Real GDP per capita growth (%) = -65.1,
+    Max of Real GDP per capita growth (%) = 123.3; Descriptive statistics are provided
+    for other variables including climate disasters and control variables.
+  6: "Average annual real GDP per capita growth was 1.7% during the period 1980\u2013\
+    2007. The data clearly have some extreme values, ranging from \u201365.1% in Iraq\
+    \ (1991) and \u201362.4% in Liberia (1990) to 123.3% in Equatorial Guinea (1997).\
+    \ 90% of observations are inside the \u20138.8% to 10.1% range."
+  7: On average, less than 0.45% of the population is reported to need immediate assistance
+    because of climate-related natural disasters for a given country-year. Some disasters
+    affected up to 62% of the population. For any given event, on average, 1.4% of
+    the population is affected.
+  8: When the weighted population affected increases by one standard deviation (0.014),
+    economic growth is predicatively reduced by 0.38 percentage points within the
+    same year. The long-run growth reduction is predicatively 0.46 percentage points.
+  9: Affecting floods (time weights) result in -31.0, affecting storms result in -24.0,
+    and climatic disaster (dummy) results in -0.53 on GDP per capita growth, with
+    noted significance levels.
+  11: A one percentage point increase in the disaster variable is associated with
+    a 0.18 percentage point reduction in economic growth.
+  13: GDP/capita growth shows negative coefficients in relation to conflict variables.
+    For example, conflict onset shows a coefficient of -0.38*** (significant at the
+    1% level), conflict incidence -0.0020*** (significant at the 1% level). Also,
+    GDP/capita growth has negative coefficients in relation to population-weighted
+    storm effects.
+  14: An increase by one standard deviation in the number of people affected by sudden
+    climatic disasters leads to a total aggregate income growth reduction of about
+    0.5 percentage points.

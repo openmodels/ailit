@@ -1,0 +1,371 @@
+Drivers of Risk:
+  1: Climate-driven changes in temperature, air pollution (O3 and PM2.5) exposure,
+    greenhouse gas emissions
+  2: Climate-driven changes, greenhouse gas emissions, uncertainty in climate model
+    parameters, a wide range of future emissions and socioeconomic conditions, and
+    structural uncertainty in select damage functions.
+  4: CONUS temperature change, sea level rise, US GDP, regional population, emissions
+    trajectories.
+  5: Sea-level rise, temperature increases, and greenhouse gas emissions (CO2, CH4,
+    N2O).
+  6: Climate-driven changes in temperature, air quality (O3 and PM2.5), Valley fever,
+    Southwest dust, wildfire smoke, crime, and labor productivity due to heat exposure.
+  7: Climate-driven changes in temperature, air quality, high-tide flooding, wildfire
+    smoke, tropical storm frequency and wind strength, southwestern dust exposure,
+    valley fever incidence.
+  8: Climate change impacts (temperature changes, sea level rise) leading to premature
+    mortality, air quality degradation, wildfires, crime, labor productivity loss,
+    and coastal property damage.
+  9: Climate change impacts, including changes in temperature, high-tide flooding,
+    air quality, wildfires, wind damage, southwest dust, climate-driven changes in
+    air quality.
+  10: Climate-driven temperature-related mortality, wildfire, road and rail damage,
+    labor productivity loss, agricultural impacts, high tide flooding, drought, air
+    quality changes, and wind damage.
+  11: Climate-driven changes in air quality, temperature change, greenhouse gas emissions.
+  12: Changes in global mean surface temperature, US GDP, US population, and assumptions
+    about adaptation.
+  13: Temperature change, coastal flooding (sea level rise), climate change impacts
+    on socially vulnerable groups.
+  14: Changes in crop yields (wheat, cotton, soybean, maize), sea level rise, power
+    sector costs, damage to transmission and distribution infrastructure, changes
+    in hot and cold temperatures, flooding, work hours lost, changes in thermally
+    available habitat for commercial fish species, ozone and fine particulate matter
+    exposure, property and violent crimes, temperature-induced track buckling, changes
+    in road surface quality, fine and coarse dust particle exposure, hurricane wind
+    damage, water quality changes, wildfire emissions, changes to winter recreation
+    resources, and Valley Fever
+  15: Underlying temperature (or sea level rise); sector-specific scalars (e.g., per
+    capita income-dependent VSL); thresholds in underlying studies (e.g., sea levels
+    breaching 100cm for coastal property damage).
+  17: Temperature changes, sea level rise, and high-tide flooding impacting infrastructure
+    sectors.
+  18: Temperature increases driven by climate change.
+  19: Air quality (Ozone, PM2.5), Temperature, Wildfire, Southwest dust, Sea level
+    rise, High-tide flooding, Inland flooding, Urban drainage, Wind damage.
+  20: Climate change drives risks through temperature increases, changes in air quality,
+    increased wildfire frequency, coastal flooding, high tide flooding, changes in
+    precipitation patterns affecting southwest dust and valley fever, extreme weather
+    events impacting infrastructure, shifts in electricity demand and supply, and
+    altered conditions for agriculture, winter recreation, and marine fisheries.
+  23: Climate change impacts, greenhouse gas emissions, temperature changes, sea-level
+    rise, permafrost thaw.
+Highlights:
+  1: Net national damages increase over time; the majority of annual long-term damages
+    are associated with climate change impacts to human health; damages vary geographically;
+    Southeast is projected to experience the largest annual damages per capita; Black
+    or African Americans are disproportionately affected by additional premature mortality
+    from changes in air quality.
+  2: FrEDI can provide policy-relevant information and complement the types of analyses
+    and outputs provided by existing integrated assessment models.
+  4: FrEDI is designed to monetize a broad range of climate-driven impacts in the
+    US across various warming, emission, and socioeconomic trajectories with a significantly
+    shorter computational time frame. FrEDI includes 20 impact sectors for which damages
+    are modeled.
+  5: Adaptation has the capacity to both exacerbate and ameliorate future climate-driven
+    damages, with the latter being more common.
+  6: Net national damages increase over time. Climate-driven damages from FrEDI are
+    largest for the health category, primarily premature mortality.
+  7: "National total damages in 2090 are primarily driven by the valuation of premature\
+    \ mortality attributable to climate-driven changes in temperature, with a mean\
+    \ of USD2.3 trillion per year. Total damages in FrEDI in 2090 is estimated to\
+    \ be USD2.9 trillion (Mean, USD510\u2013USD12000 Billion 95%CI)."
+  8: Climate-driven damages vary significantly by region, with the Southeast experiencing
+    the largest per capita damages. Adaptation can significantly reduce damages, as
+    shown in the coastal property sector. Temperature-related mortality is the largest
+    impact sector, but it does not explicitly consider future adaptation.
+  9: Largest monetary damages in 2090 are expected from premature mortality associated
+    with changes in temperature. Negative impacts of climate change outweigh the positives,
+    such that net losses are projected in each region.
+  10: "Annual per capita climate-driven damages in the US vary significantly by region,\
+    \ with the Southeast experiencing the highest damages and the Northern Plains\
+    \ the lowest. Top sectors contributing to damages vary by region, highlighting\
+    \ the heterogeneous impacts of climate change across the country. Annual damages\
+    \ from all SSP scenarios fall within the 95% confidence interval (USD0.5\u2013\
+    USD12.3 trillion)."
+  11: Climate change is projected to significantly increase annual US damages, with
+    substantial disparities in mortality and labor impacts across different racial
+    and socioeconomic groups. Under SSP5-8.5, annual damages could reach 7000 billion
+    2020 USD. Black or African Americans face the highest mortality rates and labor
+    hours lost.
+  12: Premature mortality from temperature changes is the largest sector contributing
+    to monetized damages. The work emphasizes the benefits to the US from greenhouse
+    gas mitigation.
+  13: FrEDI allows for the incorporation of adaptation options in select sectors,
+    particularly coastal property. Adaptation is also 'baked in' to econometrically
+    based sectors to the extent it is already occurring.
+  14: Temperature-related mortality has the largest estimated impact, with a mean
+    damage of USD 2300 billion and a 95% confidence interval of USD 310-USD 9900 billion.
+    Labor allocation (work hours lost) has a mean damage of USD 51 billion with a
+    95% confidence interval of USD 6.7-USD 220 billion. The impact to Southwest dust
+    is estimated at a mean damage of USD 18 billion.
+  15: Climate-driven economic damages are projected to increase significantly over
+    the century across various sectors.
+  17: Proactive adaptation significantly reduces projected damages in sectors like
+    rail and roads compared to no adaptation.
+  18: Temperature-related premature mortality is a significant economic cost of climate
+    change, with estimates varying widely across studies (e.g., Cromar et al. (2022)
+    vs Hsiang et al. (2017)). Adaptation measures can significantly reduce these costs
+    (Mills et al. (2014) with vs. without adaptation).
+  19: The paper focuses on extending climate impact assessments to 2300 using population
+    and GDP projections as scaling factors, combined with sector-specific adjustment
+    factors.
+  20: Significant increases are projected for temperature-related mortality, labor
+    impacts, wildfire damages, and coastal property damage.
+  23: Advancing estimation of future climate impacts, estimating the social cost of
+    carbon, assessing temperature-related death and illness, modeling sea-level rise.
+Methodology:
+  1: Utilizes the reduced-complexity model, the Framework for Evaluating Damages and
+    Impacts (FrEDI), to rapidly project economic and physical impacts of climate change
+    across 10000 future scenarios for multiple impact sectors, regions, and populations
+    within the contiguous United States (US); projections are extended through 2300
+  2: The Framework for Evaluating Damages and Impacts (FrEDI) draws upon information
+    from detailed sectoral impact studies to rapidly assess US economic and physical
+    impacts of climate change. It uses warming scenarios and socioeconomic projections
+    (GDP and population) to quantify impacts across 20 sectors. This study uses 10000
+    paired probabilistic emissions and socioeconomic projections. Also, the method
+    assesses the net present damage in the US resulting from an additional tonne of
+    CO2, CH4, or N2O emissions.
+  4: "Uses FaIR (simple climate model) to calculate global mean surface temperature\
+    \ based on US emission trajectories. Global mean surface temperature, population,\
+    \ and GDP are then passed to FrEDI to calculate sectoral climate impacts. FrEDI\
+    \ uses bottom-up sectoral analyses and calculates damages as functions of CONUS\
+    \ degrees of warming over time relative to a 1986\u20132005 average temperature\
+    \ baseline. CONUS temperature change is estimated as 1.42 * global temperature\
+    \ change. Sea level rise impacts are calculated using a semi-empirical approach.\
+    \ Analysis is conducted at both national and regional levels."
+  5: The study uses the FrEDI model to project climate damages out to 2300. It linearly
+    extrapolates sector-specific, temperature-binned damage functions to account for
+    the full range of temperature scenarios. It compares baseline and perturbed cases
+    (with an added pulse of greenhouse gas emissions) and calculates the difference
+    in damages. The marginal annual damages are discounted to the year of emissions
+    and then aggregated across the time series into a single net present damage estimate.
+    Differential climate-driven damages across different populations within the US
+    are calculated at the census tract level as a function of current population demographic
+    patterns. A constant value of 3% is used for the social rate of time preference
+    as a discount rate.
+  6: "Uses FrEDI model with RFF-SP scenarios, calculating net present value (NPV)\
+    \ using both constant and Ramsey discounting approaches (Ramsey discounting with\
+    \ \u03C1=0.2% and \u03B7=1.24, calibrated to a near-term target discount rate\
+    \ of 2%). Considers 20 sectors. Damages shown in 2020 US dollars."
+  7: Uses 10,000 RFF-SP (Resources for the Future - Socioeconomic Projections) emission,
+    GDP, and population scenarios in FrEDI (Framework for Risk and Economic Assessment
+    of Climate Change). The large distribution of damages in each individual sector
+    is driven by a large range of RFF-SP emissions, population, and GDP projections
+    and the dependence of the valuation approach for each sector on these parameters.
+  8: The study uses the FrEDI (Framework for Risk and Economic Damage from Inherent
+    Disasters) framework and RFF-SP (Resources for the Future - Statistical Protocol)
+    projections to estimate future climate impacts. The sectors assessed are independent
+    and additive. The analysis is applicable for projecting climate-driven damages
+    at the national scale by 2090
+  9: The analysis uses 10000 RFF-SP (Resources for the Future - Social Science Perspectives)
+    scenarios. It incorporates climate parameter uncertainty using a Monte Carlo approach
+    with the FaIR model. It also accounts for uncertainties in damage functions.
+  10: "FrEDI (Framework for Risk and Economic Assessment of Climate and Disasters)\
+    \ is used to project climate damages through 2300 and to quantify the net present\
+    \ damages within the US resulting from an additional tonne of CO2, CH4, or N2O\
+    \ emissions. The net present value is the discounted sum of a stream of future\
+    \ damages produced by an emissions pulse in 2020 over the entire 2020\u20132300\
+    \ time period. Ramsey discounting is used to estimate net present damages.  Comparison\
+    \ with Shared Socioeconomic Pathways (SSPs) is performed by using SSP trajectories\
+    \ of emissions, US GDP, and US population from the SSP Public Database (v2.0)."
+  11: The study uses the FrEDI (Framework for Risk and Uncertainty in Economics) model
+    with different socioeconomic input scenarios (SSP1-1.9, SSP2-4.5, SSP3-7.0, SSP5-8.5).
+  12: Uses the FrEDI (Framework for Risk and Uncertainty) framework to quantify climate
+    change damages to the US economy, incorporating sectoral impacts and considering
+    adaptation measures.
+  13: Uses the FrEDI model, which incorporates emission projections, climate modeling,
+    impact modeling, and economic analysis. Incorporates data from the EPA's Report
+    of Climate Change and Social Vulnerability in the United States.
+  14: The analysis appears to model the impact of various climate change-related factors
+    on different sectors of the economy, and its results are applicable to the year
+    2090.
+  15: Damage functions are binned based on temperature (or sea level rise). Sector-specific
+    scalars are applied (e.g., per capita income-dependent VSL). Analysis projects
+    damages through 2100.
+  17: Analysis is based on FrEDI model calibrated for future scenarios with adaptation
+    options considered; estimates extend to the year 2300.
+  18: The FrEDI model incorporates year-specific socioeconomic conditions and scales
+    damages based on population and GDP trajectories. It uses adjustment factors derived
+    from underlying studies to account for changes in health outcomes over time. Sea
+    level rise damages are derived from studies that are year- and sea-level-rise-specific
+    through 2100.
+  19: The methodology involves scaling impacts with population and/or GDP per capita,
+    and using year-specific adjustment factors developed from population scenarios.
+    Some sectors' impacts are scaled with GDP or GDP per capita. The study uses distinct
+    methodologies for different sectors.
+  20: The analysis uses climate projections to estimate damages across various sectors,
+    displayed as time series with uncertainty ranges. Applicable until 2300 in the
+    figure A4 described in the first paragraph.
+  23: Integrated assessment modeling, socioeconomic projections, temperature binning
+    approach, simple climate models (FAIR, BRICK, Hector).
+More Notes:
+  1: The study focuses on the contiguous United States.
+  2: The analysis extends to the year 2300 for assessing the net present damage in
+    the US from marginal greenhouse gas emissions.
+  4: Population projections used do not consider climate-induced migration. The analysis
+    relies on the RFF-SP socioeconomic projections. The results include confidence
+    intervals.
+  5: FrEDI considers reactive, reasonably anticipated adaptation, and no additional
+    adaptation scenarios for different sectors. The analysis considers differential
+    vulnerability across populations based on income, ethnicity, race, educational
+    attainment, and age. The model incorporates historical or current levels of adaptive
+    mitigation.
+  6: Damage estimates include uncertainty in GDP, population, and climate parameters,
+    but not sectoral parametric or structural uncertainty. GDP is adjusted to reflect
+    climate damages. Much of the damage estimates are a result of mortality, which
+    is not directly reflected in historical GDP estimates.
+  7: The damages are sensitive to assumptions in the adaptation scenarios. The analysis
+    includes a subset of potential climate impacts to the US.
+  8: The study acknowledges potential double counting between temperature-related
+    mortality and air quality impacts and compounding effects that the FrEDI analytical
+    approach does not account for. Results are sensitive to adaptation options, as
+    illustrated in Table A3.
+  9: FrEDI (Framework for Risk and Economic Assessment of Disasters) is used as a
+    source, incorporating parametric uncertainty in each damage function.
+  10: The analysis focuses on direct CONUS (Continental US) impacts. Uncertainty is
+    considered in the estimation of damages, including structural uncertainty when
+    multiple damage functions are available for a single sector. The analysis calculates
+    a 'domestic social cost of carbon' as net present damages resulting from an additional
+    tonne of CO2 emissions.
+  11: The damages estimated within FrEDI are constrained to the 48 contiguous United
+    States and may not reflect global impacts of greenhouse gas emissions. Multi-century
+    projections are inherently challenging, especially for socioeconomic projections.
+    The vulnerability to climate-driven changes in air quality differ depending on
+    race and vulnerable groups.
+  12: The framework omits several non-market sectors and tipping elements, suggesting
+    the damage estimates are potentially lower-bound. The study acknowledges that
+    impacts from GHG emissions are global in nature and the US may experience indirect
+    effects through trade, business, and migration.
+  13: FrEDI allows for different adaptation scenarios (no adaptation, reactive adaptation,
+    proactive adaptation) regarding coastal flooding. It acknowledges the challenges
+    in implementing proactive adaptation measures due to short-term costs and uncertain
+    future benefits.
+  14: The table includes information on whether adaptation measures are included in
+    the analysis (e.g., 'No additional adaptation', 'Reactive adaptation', 'Proactive
+    adaptation'). The impact types are described in detail for each sector.
+  15: Discontinuities in some sectors can occur at the boundary between temperature
+    bins or due to thresholds in the underlying studies.
+  18: The analysis considers how the sensitivity to socioeconomic drivers continues
+    beyond 2090 through 2300 on a sector-specific basis.
+  19: The paper describes how FrEDI sectoral results are projected, but it doesn't
+    directly quantify the macroeconomic or macro-fiscal outcomes. The relevance hinges
+    on how these sectoral impacts translate to national-level aggregates.
+  20: The page primarily focuses on sector-specific damages, which would need further
+    aggregation and translation to directly link to macroeconomic and macro-fiscal
+    outcomes.
+  23: The references suggest a focus on modeling climate impacts, socioeconomic projections,
+    and the social cost of carbon, which are all relevant to macroeconomic and macro-fiscal
+    risk assessments. The models like FAIR, BRICK and Hector may contain more information
+    on specific sectors of the economy.
+Outcome(s) of Interest:
+  1: Net national damages, annual damages, damages per capita, premature mortality
+  2: Annual damages in some impact sectors (e.g., labor, temperature-related mortality,
+    and coastal property) are estimated to range in the hundreds of billions of US
+    dollars by the end of the century.
+  4: Sectoral climate impacts in the US, damages (monetized). The paper models damages
+    as functions of climate drivers (CONUS temperature or sea level rise), US GDP,
+    and regional population.
+  5: Net present value (NPV) of future climate-driven damages in the US resulting
+    from an additional tonne of CO2, CH4, or N2O emissions.
+  6: GDP effects, NPV of climate damages
+  7: GDP effects, productivity loss, premature mortality, healthcare costs, infrastructure
+    damage costs, labor productivity (hours lost).
+  8: Damages from climate change across various sectors; costs and benefits of adaptation
+    in the coastal property sector; regional per capita damages.
+  9: Annual US damages in the year 2090 by sector, in billions of 2020 USD; premature
+    mortality; transportation impacts; lost labor hours; benefits from warming temperatures
+    (e.g., reduction in air pollution mortality in the Midwest).
+  10: Annual per capita climate-driven damages (in 2020 USD per person annually) across
+    seven US regions in 2090.
+  11: Annual US damages in billions of 2020 USD, mortality rates, and labor hours
+    lost per capita.
+  12: Net present value of future damages from 1 ton of CO2 emitted within the CONUS
+    (Contiguous US), measured in 2020 USD.
+  13: Mentions GDP per capita growth rate as a factor that FrEDI uses.
+  14: National annual damage statistics in billions of 2020 USD, categorized by sector;
+    willingness to pay to avoid water quality changes; revenue lost; costs of adaptation.
+  15: Economic damages in billions of 2020 USD across various sectors; Total damages
+    in trillions of USD.
+  17: Damages from climate-related impacts on various sectors like electricity, rail,
+    roads, coastal properties, and transportation, with costs shown for different
+    types of adaptation.
+  18: Premature mortality from temperature changes, valued in USD billions.
+  19: Mortality, Morbidity, Lost wages, Alpine Skiing, Cross-country Skiing, Snowmobiling,
+    Acute myocardial infarction, All cardiovascular, All mortality, All respiratory,
+    Asthma ER, Property crime, Violent crime.
+  20: The figures show potential impacts on sectors like temperature-related mortality,
+    air quality, labor, wildfire, coastal properties, transportation infrastructure
+    (rail, roads), electricity demand and supply, agriculture, water quality, winter
+    recreation, and crime, providing insights into potential economic costs associated
+    with climate change.
+  23: GDP effects (potentially through links to social cost of carbon and climate
+    impacts on various sectors).
+Quantitative material:
+  1: "Mean climate-driven damages estimated to reach USD2.9 trillion (95% confidence\
+    \ interval (CI): USD510 billion to USD12 trillion) annually by 2090; Southeast\
+    \ damages per capita (mean: USD9300 per person annually; 95%CI: USD1800\u2013\
+    USD37000 per person annually); Southwest damages per capita (mean: USD6300 per\
+    \ person annually; 95% CI: USD840\u2013USD27000 per person annually)."
+  2: Annual damages in some sectors (labor, temperature-related mortality, coastal
+    property) are estimated in the hundreds of billions of US dollars by the end of
+    the century.
+  5: "FrEDI projects damages through 2090 for temperature scenarios with a maximum\
+    \ value of 10\xB0C of warming and is extended to project climate damages out to\
+    \ 2300. The model uses 10,000 RFF-SP-derived temperature and socioeconomic scenarios.\
+    \ A 1GtC pulse of CO2 (or CH4 or N2O) is added to the RFF-SP emissions scenarios\
+    \ in the year 2020 to quantify net present damages."
+  6: 'Mean climate-driven damages estimated to reach USD 2.9 trillion (95% CI: USD
+    510 billion to USD 12 trillion), or ~3% of US GDP, annually by 2090. GDP decline
+    in 2009 during Great Recession was 2.2%.'
+  7: Annual US climate-driven damages in 2050, 2070, and 2090 in billions of 2020
+    USD; Share of US GDP of climate-driven damages from 2020 to 2100; Mean and 95%
+    confidence intervals for damages across sectors; Premature mortality due to temperature
+    and air quality changes; Labor hours lost.
+  8: "Table 2 provides 95% confidence intervals and mean values for various physical\
+    \ impacts in 2090, including premature mortality (50,000 deaths), air quality\
+    \ impacts (5,100), wildfires (1,100), crime (4,700 incidents). Coastal property\
+    \ damages range from USD 17 billion (no adaptation) to USD 7.5 billion (proactive\
+    \ adaptation). Southeast region experiences the largest annual damages per capita\
+    \ (mean: USD9300 per person annually; 95% CI: USD1800\u2013USD37000 per person\
+    \ annually)"
+  9: Annual US damages in the year 2090 by sector in billions of 2020 USD (ranges
+    for different sectors displayed in boxplots); Premature mortality damages ranging
+    from USD4500 per person in the Southwest to USD6500 per person in the Southeast.
+  10: Mean per capita annual climate-driven damages across seven US regions in 2090,
+    ranging from $4,900 in the Northern Plains to $9,300 in the Southeast (2020 USD
+    per person annually).  Annual US climate-driven damages in 2090 from a subset
+    of four Shared Socioeconomic Pathways (SSPs). Net present damages per tonne of
+    GHG emissions through to 2300, using different Ramsey discounting rates (1.5%,
+    2.0%, and 2.5%). Damages per tonne of CO2 are almost 20% of a recently estimated
+    global value (USD185 per tonne of CO2 under a 2% Ramsey discount).
+  11: Table 3 provides annual US damages under different SSP scenarios and associated
+    temperature changes. Charts (c) and (d) provide quantitative data on additional
+    mortality rates and labor hours lost in 2090 by race and ethnicity. Chart (a)
+    and (b) provides quantitative difference in risk for vulnerable populations.
+  12: Figure 7 presents box plots of the net present value of future damages from
+    1 ton of CO2 for different discount rates (1.5%, 2.0%, 2.5%, 3.0%) using the Ramsey
+    method; Median values range from $15 to $51 per ton of CO2.
+  13: The text references average US GDP per capita growth rate (2020 USD) and a figure
+    (Figure A1) which likely includes quantitative projections of temperature, population,
+    and GDP.
+  14: Table A1 provides mean and 95% confidence intervals for national annual damages
+    in billions of 2020 USD for the year 2090. The table specifies damages for various
+    sectors including agriculture, coastal property, electricity, health, transportation,
+    labor, marine fisheries, rail infrastructure, road infrastructure, etc.
+  15: Timeseries of sectorial damages in billions of 2020 USD across all 10000 projections
+    through 2100; Total damages (trillions) from all sectors are given in the lower-right
+    panel; 95% CI shown.
+  17: Quantitative estimates of annual mean climate-driven damages in billions of
+    2020 USD for multiple sectors with varying adaptation approaches.
+  18: "Annual mean (90th% confidence interval) climate-driven damages in 2090 for\
+    \ premature mortality from temperature: Cromar et al. (2022): USD330\u2013USD4200\
+    \ (Mean USD2300); Hsiang et al. (2017): USD-310\u2013USD2000 (Mean USD810); Mills\
+    \ et al. (2014) (with adaptation): USD34.0; Mills et al. (2014) (without adaptation):\
+    \ USD121.0 (all in billions of 2020 USD)."
+  19: The paper presents a strategy for extending FrEDI sectoral results from 2090
+    to 2300, suggesting a long-term quantitative projection.
+  20: The figures present time series of sectoral damages in billions (or trillions)
+    of 2020 USD from 2010 to 2090, including mean, median, and 95% confidence intervals.
+  23: Potentially through references to Social Cost of Carbon estimates and climate
+    impact analysis.

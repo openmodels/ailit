@@ -1,0 +1,96 @@
+Drivers of Risk:
+  1: Global climate change, population growth, and economic development, specifically
+    large cyclonic storm surges.
+  3: Storm surge events triggered by tropical cyclones.
+  4: Storm surges
+  5: Storm surges; Tropical cyclones; Maximum relative water level rise; Inundated
+    area
+  6: Storm surges, especially those triggered by tropical cyclones, are drivers of
+    risk.
+  7: Storm surges associated with extreme precipitation and strong winds.
+  8: Storm surges and their intensity impact macroeconomic factors like GDP.
+Highlights:
+  1: Provides a preliminary outlook on risks that may help governments of countries
+    to make storm surge disaster prevention and reduction plans.
+  4: The paper focuses on estimating storm surge intensity and potential inundated
+    area, but does not provide specific macroeconomic or fiscal outcomes.
+  5: High risk areas for population exposure to storm surges are located in the Caribbean
+    region, the Bay of Bengal, and East Asia; Higher economic losses will be encountered
+    following rapid economic development of a country.
+  6: High economic losses are mainly distributed in some coastal areas of England,
+    other developed countries in Europe, the Yangtze River Delta in China, the eastern
+    coast of the United States, and the Gulf of Mexico.
+  7: Storm surge disasters are usually associated with extreme precipitation and strong
+    winds and pose a risk to populations and economies.
+  8: Global storm surge risks affect GDP in countries like the United States, China,
+    and Bangladesh.
+Methodology:
+  1: Information diffusion theory is used to project the potential inundated area
+    of global coastal zones, based on historical hourly sea-level observation records
+    from the University of Hawaii Sea Level Center (UHSLC), considering variations
+    in coastal morphology and tropical cyclone tracks. Validation is performed through
+    comparison with historical losses.
+  3: Fuzzy information processing is used to estimate the maximum relative sea level
+    from hourly sea-level data and historical tropical cyclone surge events. GIS is
+    used to determine the area inundated by storm surges. A Markov chain process is
+    assumed for storm surge as a stochastic process.
+  4: Uses tide gauge records, diffusion functions, and GIS analysis (inverse distance
+    weighted interpolation) to estimate storm surge intensity and potential inundated
+    area. It models the probability distribution of relative water levels using historical
+    data.
+  5: Interpolating the H values at each tidal station in each zone through the inverse
+    distance weighted interpolation method in ArcGIS; Calculating the potential maximum
+    inundated area based on slope; Superimposing global population density and GDP
+    distribution data on the inundated area map
+  6: The analysis involves comparing country rankings based on GRDP data with rankings
+    from their study to test the reliability of estimated inundated area and economic
+    losses due to storm surges, with data of storm surges triggered by tropical cyclones
+    from 1975 to 2007.
+  7: The study examined the potential global impact of storm surges on populations
+    and economies using available and recent global datasets from various sources.
+    A sample size of 57 countries was used, with the top 10% listed in Table 2. The
+    paper notes that there is no model currently capable of performing global storm
+    surge simulation.
+  8: Utilizes a fuzzy information processing method for calculating yearly expected
+    water level rise and simulates potential impacts without protective measures.
+More Notes:
+  4: The study extrapolates storm surge intensity using inverse distance weighted
+    interpolation, considering the complexity of the coastal environment and uneven
+    distribution of tidal stations. The maximum relative water level is assumed to
+    be 5m based on another study.
+  5: The study calculates potential maximum inundated area, affected population, and
+    affected GDP based on storm surge intensity.
+  6: The study uses historical storm surge disaster records from the Global Risk Data
+    Platform (GRDP).
+  7: Figures 5 and 6 visually depict expected inundation areas and demographic risk
+    of storm surge impact, respectively. The focus is on coastal zones.
+  8: Study acknowledges the data limitations and calls for considering existing protection
+    measures in future analyses.
+Outcome(s) of Interest:
+  1: Population and GDP at risk of storm surge impacts are calculated and mapped.
+  3: Potential affected population and GDP.
+  4: No relevant information
+  5: GDP effects; potential affected GDP is calculated.
+  6: Affected GDP is an outcome of interest, specifically at the country level, related
+    to storm surges.
+  7: Potential global population and GDP impacts of storm surges.
+  8: Potential affected GDP by storm surges in various countries.
+Quantitative material:
+  1: Calculations and maps of population and GDP at risk.
+  3: Global population and GDP distribution data at 1 km x 1 km resolution used as
+    inputs.
+  4: No relevant information
+  5: "Maximum relative water level rise of 300 cm or more are found along the western\
+    \ European coast, northern Australia, the Gulf of Alaska, and East China Sea;\
+    \ Maximum relative water level rise is mainly in the 60\u2013160 cm range, with\
+    \ the total number of stations of 224, 71 % of all stations; Maximum relative\
+    \ water level rise of 300 cm or higher is estimated for 17 stations, about 5.4\
+    \ % of all stations."
+  6: The study presents country-level statistics of potential inundated area, potential
+    affected population, and potential affected GDP.
+  7: Significant correlation found at the 0.01 confidence level (bilateral) between
+    inundated area and population, with a correlation coefficient of 0.72. Country
+    rankings of population and GDP impacts are moderately correlated at the 0.01 confidence
+    level (bilateral), with correlation coefficients of 0.47 and 0.57.
+  8: Top countries listed by potential inundated area, affected population, and GDP
+    from storm surges.

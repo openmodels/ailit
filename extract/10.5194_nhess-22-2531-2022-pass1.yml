@@ -1,0 +1,144 @@
+Drivers of Risk:
+  1: Extreme temperatures due to climate change, specifically following RCP (Representative
+    Concentration Pathway) scenarios.
+  2: Environmental heat exposure, temperature increases (due to climate change).
+  3: Daily maximum temperature, hourly wet bulb globe temperature (WBGT).
+  4: Environmental heat exposure, measured by Wet Bulb Globe Temperature (WBGT).
+  5: 'Climate change, specifically temperature increases driven by different Representative
+    Concentration Pathways (RCPs): RCP2.6, RCP4.5, and RCP8.5. The primary shock is
+    heat exposure.'
+  6: Climate change scenarios (RCP2.6, RCP4.5, RCP8.5) impacting temperature, which
+    affects labour productivity.
+  7: Heat is a driver of risk, impacted by climate change and potentially exacerbated
+    by the urban heat island effect.
+  8: Heat events under climate change, specifically using the RCP8.5 high-greenhouse-gas
+    emissions pathway.
+Highlights:
+  1: Current heat-related labor productivity losses cost Switzerland approximately
+    CHF 665 million per year, and this could triple by the end of the century under
+    a high emissions scenario (RCP8.5).
+  2: Provides a detailed impact assessment and future projections for excess mortality
+    and losses in labour productivity in Switzerland at the kilometre level for distinct
+    population groups and activity classes; Combines mortality and labor productivity
+    impacts in the same modelling framework.
+  3: Increased daily maximum temperatures are correlated with increased mortality
+    risk, particularly for those 75 and older. Heat reduces labour productivity, measured
+    using the wet bulb globe temperature.
+  4: The study models and quantifies the impact of heat exposure on labour productivity
+    in Switzerland, considering different activity levels and indoor/outdoor work
+    environments.
+  5: Heat-related deaths are projected to increase significantly under different climate
+    scenarios, with the most severe increases under RCP8.5. The elderly population
+    (>=75 years) is particularly vulnerable, accounting for a disproportionate share
+    of heat-related deaths. The range of uncertainty for death tolls is large.
+  6: Productivity loss is projected to increase up to 65% by 2050 under the RCP8.5
+    scenario, particularly affecting high physical activity work types.
+  7: The economic costs of heat and the number of heat-related deaths are comparable
+    to or even higher than those caused by flu in Switzerland.
+  8: The monetary costs of heat and the effects on mortality are substantial already
+    today, and these impacts will increase significantly by the end of the century
+    under high emissions.
+Methodology:
+  1: High-resolution spatial analysis based on the IPCC risk framework (hazard, exposure,
+    vulnerability) and Monte Carlo simulation, considering no socio-economic changes.
+  2: Uses the IPCC risk framework as implemented in the open-source CLIMADA impact
+    modelling platform; Combines hazard, exposure, and vulnerability to quantify socio-economic
+    impacts of natural hazards; Uses high-resolution datasets, including CH2018 Climate
+    Scenarios and geographical distribution of population and workers; Represents
+    the link between local exposure and heat hazards by impact functions; Combines
+    the three risk components using a Monte Carlo simulation to assess the uncertainties.
+  3: The paper uses CH2018 climate scenarios data. It models the impact of heat on
+    mortality using impact functions linking maximum temperature to excess mortality,
+    based on age categories (under 75, 75+), and uses the wet bulb globe temperature
+    (WBGT) to model the impact on labour productivity. The mortality analysis uses
+    warm season data (May-September) between 1995 and 2013 to establish the relationship
+    between temperature and daily mortality in Swiss cities.
+  4: A Monte Carlo simulation is used, incorporating climate data from CH2018, a simplified
+    3-D model of a typical office building in Zurich simulated with EnergyPlus, and
+    company structure statistics from the FSO. Impact functions are generated to relate
+    WBGT to labour productivity loss, based on empirical studies and ISO standards.
+    Uncertainty analysis is performed on climate simulations, natural variability
+    in climate data, WBGT calculation, and work conditions (sun/shadow).
+  5: Monte Carlo simulation (1000 iterations) is used to integrate uncertainties related
+    to impact functions (vulnerability). Vulnerability is characterized by normal
+    distributions. The analysis calculates the average yearly impact of heat-related
+    deaths. Applicable specifically to Switzerland.
+  6: The analysis uses Monte Carlo simulations to estimate median labour productivity
+    losses across different RCP scenarios for various years, with uncertainty estimates
+    included.
+  7: The model projects future impacts under different climate scenarios (RCP2.6 and
+    RCP8.5).
+  8: Uses the IPCC risk framework, spatially explicit modeling, and Monte Carlo simulation,
+    keeping socio-economic factors constant. Analysis is applicable to current and
+    future climate scenarios.
+More Notes:
+  1: The study also models heat-related mortality, but this is not a macroeconomic
+    or fiscal outcome. The analysis integrates uncertainties.
+  2: The study focuses on Switzerland; The study models heat-related impacts in Switzerland
+    throughout the century.
+  3: The analysis focuses on Switzerland. The mortality analysis assumes that deaths
+    are evenly distributed throughout the warm season and the same on each day. The
+    study calculates the number of heat-related deaths per year at a hectare level
+    and aggregates for the entire country.
+  4: The analysis relies on several assumptions and simplifications, including the
+    use of a typical office building model and the categorization of activity classes.
+    Uncertainty in climate models and data variability are explicitly addressed through
+    the Monte Carlo simulation. The analysis produces an estimate of national aggregate
+    losses.
+  5: The baseline (2020) uses the RCP8.5 scenario, and the results refer to average
+    yearly impacts. The study assumes normal distributions for vulnerability uncertainty.
+    The page presents figures for heat-related deaths but does not explicitly link
+    these deaths to labor productivity loss or other macroeconomic/fiscal impacts.
+  6: Southern cantons of Switzerland like Ticino, Valais, and Geneva show higher productivity
+    loss due to climate impacts, especially in high-altitude regions that will experience
+    more frequent heat impacts.
+  7: Uncertainties are skewed towards higher values, with climate projections being
+    the largest source of uncertainty.
+  8: The model identifies areas particularly affected by heat and could be used to
+    analyze adaptation measures and their effectiveness. Code and data are openly
+    available.
+Outcome(s) of Interest:
+  1: Economic costs caused by losses in labour productivity in Switzerland.
+  2: Losses in labour productivity, which can have important repercussions on the
+    overall economy/national GDP.
+  3: Labour productivity loss due to heat.
+  4: Labour productivity loss due to heat exposure, expressed as a percentage.
+  5: Labor productivity loss (indirectly through heat-related mortality). No specific
+    macroeconomic or fiscal outcomes are directly modeled on this page, but labor
+    productivity is an economic outcome and mortality can be considered an economic
+    cost. There is no mention of adaptation.
+  7: Losses in labour productivity and heat-related mortality are macroeconomic outcomes
+    of interest.
+  8: Monetary costs of heat and the effects on mortality and labour productivity in
+    Switzerland.
+Outcomes of Interest:
+  6: The paper discusses labour productivity as an economic outcome, specifically
+    highlighting productivity loss measured in Swiss Francs (CHF) due to climate change
+    impacts.
+Quantitative material:
+  1: Economic costs of labor productivity loss amount to around CHF 665 million (approx.
+    USD 700 million) per year currently; this may triple by the end of the century
+    under RCP8.5.
+  2: Mentions a study reporting a 5.4% increase in mortality in Switzerland during
+    the second warmest summer on record (2015), with 77% of deaths in people older
+    than 75.
+  3: The paper calculates the fraction of deaths attributable to heat (AF) for each
+    degree of temperature. The paper also uses population data from the Swiss Federal
+    Statistical Office (FSO) and mortality data to quantify heat-related deaths per
+    year at a cell level and aggregates it for the entire country.
+  4: Equation (3) is presented which models national labour productivity loss as a
+    function of exposed salary value and hourly predicted loss in labour productivity
+    for a given WBGT. Figure 3 shows the relationship between WBGT and percentage
+    of labour productivity loss for people working at a moderate physical activity.
+  5: 'Baseline (2020, RCP8.5): 658 heat-related deaths per year in Switzerland. RCP2.6:
+    peaks at 695 yearly heat-related deaths in 2050. RCP4.5: 814 yearly deaths in
+    2050 and 854 in 2080. RCP8.5: 934 deaths per year in 2050, exceeding 1500 in 2080.
+    For RCP8.5 in 2050: uncertainty range is 241-1883 deaths (5th-95th percentile).'
+  6: Productivity loss in Switzerland is quantified in CHF, with current losses at
+    CHF 665 million per year, projected to increase to CHF 1.1 billion per year by
+    2050 under RCP8.5.
+  7: In 2080, the difference in heat impacts under an RCP8.5 scenario versus the RCP2.6
+    scenario is, according to the model,823(+117%)additionalheat-relateddeathsperyear
+    and an increase of CHF1381 million (+170%) for labour productivity losses.
+  8: Monetary costs may double (for mortality) or even triple (for labour productivity)
+    by the end of the century under RCP8.5.

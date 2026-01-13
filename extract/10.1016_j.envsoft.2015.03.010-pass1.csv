@@ -1,0 +1,33 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Autoregressive coefficient,Global,Various (Post-War Period),2008,No CC,SAR,0.94,NA,NA,NA,NA,NA,157,Mean value of autoregressive coefficients representing persistence.
+1,Half-life of shocks,Global,Various (Post-War Period),2008,No CC,Years,14,NA,NA,5,NA,23,157,Average half-life of shocks. Range is 5 to 23.
+2,Cumulative Impulse Response,Global,Various (Post-War Period),2008,No CC,Units,22.73,NA,NA,7.63,NA,32.26,157,"Mean value of cumulative impulse response, with a range of 7.63 to 32.26 across regions."
+3,GDP shock persistence,Western Europe,AR(1) w/ breaks,2024,N/A,Value,1.85,NA,NA,NA,NA,NA,Page 4,Accounts for structural breaks.
+4,GDP shock persistence,Western Europe,AR(1) no breaks,2024,N/A,Value,25.57,NA,NA,NA,NA,NA,Page 4,Does not account for structural breaks.
+5,GDP shock persistence,Western Europe,IAMs no memory,2024,N/A,Value,5.87,NA,NA,NA,NA,NA,Page 4,Illustrative CIR from IAMs w/ zero persistence.
+6,GDP,Global,Persistence (a),2100,No CC,Percentage of GDP in year one,5.73,NA,5%,1.28,95%,12.49,Page 6,"The table on page 6 reports the present value of total climate change economic impacts over a century as a percentage of GDP in year one, with different values of persistence considered."
+7,GDP,Global,Persistence (a=0.1),2100,No CC,Percentage of GDP in year one,6.37,NA,5%,1.46,95%,13.72,Page 6,The table reports mean and quantile impacts for different persistence values. These are interpreted as relative to a scenario with no persistence (a=0).
+8,GDP,Global,Persistence (a=0.5),2100,No CC,Percentage of GDP in year one,11.01,NA,5%,2.44,95%,24.00,Page 6,"As 'a' increases, the impacts increase, indicating the sensitivity of outcomes to the persistence of shocks."
+9,GDP,Global,Persistence (a=0.8),2100,No CC,Percentage of GDP in year one,23.18,NA,5%,5.01,95%,50.40,Page 6,"Impacts are expressed as the present value of impacts over a century, highlighting the influence of persistence."
+10,GDP,Global,Persistence (a=0.9),2100,No CC,Percentage of GDP in year one,37.34,NA,5%,8.15,95%,82.97,Page 6,"Higher values of a close to 1 signify significant persistence, leading to larger impacts."
+11,GDP,Global,Persistence (a=1),2100,No CC,Percentage of GDP in year one,90.85,NA,5%,18.87,95%,203.94,Page 6,The table highlights the dramatic rise in impacts with a persistence value approaching 1.
+12,Economic Impacts,Europe,RCP4.5,2100,GDP in 2001,Times GDP,-0.84,NA,5%,0.14,95%,1.02,"Page 7, Table 2",The impacts are estimated using different values of persistence a under the RCP4.5 scenario.
+13,Economic Impacts,Latin America,RCP4.5,2100,GDP in 2001,Times GDP,-3.51,NA,5%,0.86,95%,7.64,"Page 7, Table 2",The impacts are estimated using different values of persistence a under the RCP4.5 scenario.
+14,Economic Impacts,South Asia,RCP4.5,2100,GDP in 2001,Times GDP,-7.23,NA,5%,1.88,95%,15.36,"Page 7, Table 2",The impacts are estimated using different values of persistence a under the RCP4.5 scenario.
+15,Economic Impacts,North Asia,RCP4.5,2100,GDP in 2001,Times GDP,0.0,NA,5%,-2.90,95%,0.08,"Page 7, Table 2",Impacts show potential gains for North Asia using persistence a under the RCP4.5 scenario.
+16,Economic Impacts,North America,RCP4.5,2100,GDP in 2001,Times GDP,-0.12,NA,5%,0.02,95%,0.30,"Page 7, Table 2",The impacts are estimated using different values of persistence a under the RCP4.5 scenario.
+17,Economic Impacts,Africa,RCP4.5,2100,GDP in 2001,Times GDP,-6.25,NA,5%,1.60,95%,13.40,"Page 7, Table 2",The impacts are estimated using different values of persistence a under the RCP4.5 scenario.
+18,Economic Impacts,China,RCP4.5,2100,GDP in 2001,Times GDP,-0.48,NA,5%,0.07,95%,1.23,"Page 7, Table 2",The impacts are estimated using different values of persistence a under the RCP4.5 scenario.
+19,Economic Impacts,World,RCP4.5,2100,GDP in 2001,Times GDP,-1.14,NA,5%,0.31,95%,2.33,"Page 7, Table 2",The impacts are estimated using different values of persistence a under the RCP4.5 scenario.
+20,Economic Impacts,Europe,RCP8.5,2100,GDP in 2001,Times GDP,-1.45,NA,5%,0.57,95%,2.77,"Page 7, Table 3",The impacts are estimated using different values of persistence a under the RCP8.5 scenario.
+21,Economic Impacts,Latin America,RCP8.5,2100,GDP in 2001,Times GDP,-6.55,NA,5%,2.36,95%,13.39,"Page 7, Table 3",The impacts are estimated using different values of persistence a under the RCP8.5 scenario.
+22,Economic Impacts,South Asia,RCP8.5,2100,GDP in 2001,Times GDP,-10.02,NA,5%,3.61,95%,20.15,"Page 7, Table 3",The impacts are estimated using different values of persistence a under the RCP8.5 scenario.
+23,Economic Impacts,North Asia,RCP8.5,2100,GDP in 2001,Times GDP,0.0,NA,5%,-8.07,95%,0.19,"Page 7, Table 3",Impacts show potential gains for North Asia using persistence a under the RCP8.5 scenario.
+24,Economic Impacts,North America,RCP8.5,2100,GDP in 2001,Times GDP,-0.39,NA,5%,0.09,95%,0.87,"Page 7, Table 3",The impacts are estimated using different values of persistence a under the RCP8.5 scenario.
+25,Economic Impacts,Africa,RCP8.5,2100,GDP in 2001,Times GDP,-8.03,NA,5%,2.77,95%,16.11,"Page 7, Table 3",The impacts are estimated using different values of persistence a under the RCP8.5 scenario.
+26,Economic Impacts,China,RCP8.5,2100,GDP in 2001,Times GDP,-1.49,NA,5%,0.28,95%,3.70,"Page 7, Table 3",The impacts are estimated using different values of persistence a under the RCP8.5 scenario.
+27,Economic Impacts,World,RCP8.5,2100,GDP in 2001,Times GDP,-1.96,NA,5%,0.76,95%,3.77,"Page 7, Table 3",The impacts are estimated using different values of persistence a under the RCP8.5 scenario.
+28,GDP,World,RCP4.5,2100,No CC,% of initial GDP,-5.73,NA,NA,NA,NA,NA,Page 8,Average net present value of total impacts over 100 years assuming a=0 (no persistence).
+29,GDP,World,RCP4.5,2100,No CC,% of initial GDP,-11.01,NA,NA,NA,NA,NA,Page 8,Average net present value of total impacts over 100 years assuming a=0.5 (moderate persistence).
+30,GDP,World,RCP8.5,2100,No CC,% of initial GDP,-12.49,NA,NA,NA,NA,NA,Page 8,Average net present value of total impacts over 100 years assuming a=0 (no persistence).
+31,GDP,World,RCP8.5,2100,No CC,% of initial GDP,-24.00,NA,NA,NA,NA,NA,Page 8,Average net present value of total impacts over 100 years assuming a=0.5 (moderate persistence).

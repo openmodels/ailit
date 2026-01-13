@@ -1,0 +1,134 @@
+Category:
+  5: Extracted Information
+Drivers of Risk:
+  1: Global warming (measured via CO2 emissions)
+  3: Global warming, violence, climate change, inflation, soaring food prices, lower-income
+    families
+  5: Climate Change (CLC); Food price (FP); Food supply (FS); Real per capita income
+    (Y); Population growth rate (PG)
+  7: Climate change (CLC), which measures the impact of CO2 emissions levels. Climate
+    unpredictability and inadequate technology in developing countries significantly
+    affect food security. Population growth (PG) limits food availability.
+  8: CO2 emissions per capita, population growth rate, food imports, arable land
+  9: Previous Malnutrition (LNprevmalnutri), Price Growth (LNPG), Inflation (LNINF),
+    Net Foreign Import (LNFIMPORT), Net Foreign Direct Investment (LNFDI), CO2 Emissions
+    per Capita (LNCO2EMISSIONSPERCAP), Land area used for agriculture (LNAL)
+  10: CO2 emissions (as a proxy for global warming), FDI inflows, income inequality.
+  12: LNPG (likely agricultural production growth), LNINF (likely inflation), LNGDPPCAPITA
+    (GDP per capita), LNFIMPORT (likely food import), LNFDIdoesnot (foreign direct
+    investment), LNCO2_EMISSIONS__PER_CAP (CO2 emissions per capita), LNAL (likely
+    agricultural land area)
+  13: Climate change (CO2 emissions), global warming, rainfall variability, temperature
+    extremes, global commodity prices shifts
+Highlights:
+  1: The study finds evidence of a positive long-term correlation between food insecurity
+    and climate change in West Africa.
+  3: Food insecurity and undernourishment are increasing in Africa and West Africa.
+    West Africa experiences declining per capita food production.
+  7: "All variables show positive skewness, suggesting right\u2011skewed distributions\
+    \ with longer tails on the right side. This indicates a tendency towards higher\
+    \ values in each variable."
+  8: A 1% change in CO2 emissions leads to an 18.3% change in the prevalence of malnutrition.
+    Increase in population growth and food imports lead to higher malnutrition rates,
+    while an increase in arable land decreases malnutrition rates.
+  9: LNPG does not Granger-cause LNPREVMALNUTRI (p=0.0071), indicating a causal relationship.
+    LNGDPPCAPITA and LNPREVMALNUTRI do not Granger-cause each other.
+  10: Increased CO2 emissions correlate with higher per capita GDP and higher incidence
+    of malnutrition in West Africa. There is a negative long-run relationship between
+    food insecurity and FDI inflows in GLM estimates for West Africa.
+  12: The table highlights causal relationships (or lack thereof) between different
+    macroeconomic variables and a variable likely related to malnutrition prevention
+    (LNPREVMALNUTRI). The results indicate unidirectional causality in some cases,
+    independence in others.
+  13: Climate change impacts food insecurity in West Africa; Climate-smart agriculture
+    programs, climate-resilient infrastructure, and agricultural research are crucial
+    for adaptation
+Methodology:
+  1: Kaoco-integration, FMOLS, and GLM techniques are used to analyze panel data from
+    2000 to 2020 for West African countries.
+  3: Utilizes secondary data from 2000 to 2020 and employs panel FMOLS and GLM econometric
+    techniques to analyse food security in West Africa, examining per capita GDP,
+    population growth, and level of food importation. Employs livelihood-based and
+    scenario-based methodologies to identify location-specific adaptation methods.
+  5: The demand, supply, and utility theories are combined and modified using a Cobb-Douglas
+    function to model food utility, with climate change as the input factor and food
+    security as the output. The model is applicable to evaluating the relationship
+    between dependent variables and other factors.
+  7: "The Jarque\u2011Bera test used to assess the normality of distributions yielded\
+    \ probability values greater than 0.05 for all variables, supporting accepting\
+    \ the Ho of normally distributed data."
+  8: Panel FMOLS (Fully Modified Ordinary Least Squares) estimation is used to determine
+    the relationship between the prevalence of malnutrition and the listed variables.
+    The Kao co-integration test is done to test for co-integration.
+  9: Panel Granger causality test and generalised linear model (GLM) are used.
+  10: Panel unit root tests (LLC, IPS, FISHER-ADF, PP-FISHER) and Kao co-integration
+    test. The analysis is for West Africa. Also uses GLM estimates.
+  12: Panel Granger causality tests are used to examine the relationships between
+    the variables. Wald test and heteroskedasticity tests are also conducted. Results
+    applicable when the observations in the panel are independent of each other.
+  13: Empirical panel data study employing Kao co-integration, FMOLS, GLM, and panel
+    Granger causality techniques; Histogram normality test (Jarque-Bera test)
+More Notes:
+  1: The study focuses on the agricultural sector's vulnerability to climate change
+    and its impact on food insecurity. It recommends climate-smart agricultural practices,
+    carbon emission reduction, increased agricultural investment, improved incomes,
+    enhanced farming techniques, climate change mitigation programs, agricultural
+    research investment, and economic diversification.
+  3: The study aims to inform policies and interventions to help farmers adapt to
+    the challenges of global warming and food insecurity.
+  7: The study focuses on West African countries and uses food prices as a proxy for
+    inflation due to its correlation with food insecurity.
+  8: The paper focuses on the prevalence of malnutrition as the primary outcome, which
+    is influenced by macroeconomic and environmental variables. It does not directly
+    address macroeconomic or fiscal risks of climate change or the costs/benefits
+    of adaptation, but it explores how CO2 emissions, arable land, and other variables
+    are statistically associated with malnutrition.
+  9: The paper uses panel data analysis to explore relationships between various macroeconomic
+    and agricultural variables. Several tests were conducted to assess data stationarity,
+    including VIF, correlation analysis and multiple unit root tests
+  10: The results regarding GDP per capita and food insecurity contradict some previous
+    findings in Africa, highlighting regional specificities. Misappropriation of FDI
+    may be a factor in the unexpected negative relationship between FDI and food security.
+  12: The variables are log-transformed (LN). The paper checks if residual is normally
+    distributed. The Wald test results show that each variable in the model is significant
+    at 0.05.
+  13: Study acknowledges limitations including data unavailability, generalization
+    constraints, and exclusion of socioeconomic factors
+Outcome(s) of Interest:
+  1: Food insecurity (malnutrition prevalence)
+  3: Food insecurity (undernourishment, total population affected, per capita food
+    production)
+  5: Food security (FISEC); Food utility (Uf); Existence of Malnourishment (ERM)
+  7: Food prices serve as a proxy for the inflation rate (INF) in each West African
+    country.
+  8: GDP per capita
+  9: GDP per capita (LNGDPPCAPITA)
+  10: Food insecurity (specifically malnutrition incidence) and GDP per capita.
+  12: No relevant information
+  13: Food security, malnutrition rates, agricultural productivity, economic stability
+Quantitative material:
+  1: Panel data from 2000 to 2020 used for econometric analysis.
+  3: Food security trends in Africa, West Africa, and the world from 2013-2022 are
+    illustrated using bar graphs depicting undernourishment, total population affected
+    by food insecurity, and per capita food production. Nigeria projects 25 million
+    people to face food insecurity in 2024.
+  7: Descriptive statistics in Table 2 indicates no significant outliers in the dataset;
+    GDP per capita showing the highest variability at 905.7437.
+  8: Table 2 provides summary statistics (mean, median, max, min, std. dev., skewness,
+    kurtosis, Jarque-Bera, probability, sum, sum of squared deviations, observations)
+    for GDP per capita, CO2 emissions per capita, population growth rate, food imports
+    and arable land.
+  9: Correlation analysis between LNprevmalnutri, LNPG, LNINF, LNGDPPCAPITA, LNFIMPORT,
+    LNFDI, LNCO2EMISSIONSPERCAP, and LNAL variables is presented in Table 3. Panel
+    unit root test results (LLC, IPS, FISHER-ADF, PP-FISHER) are presented in Table
+    4.
+  10: Table 5 presents panel unit root tests for variables including 'LNPREVMALNUTRI'
+    (log of prevalence of malnutrition), 'LNPG' (log of population growth), 'LNINF'
+    (log of infant mortality), 'LNGDPPCAPITA' (log of GDP per capita), 'LNFIMPORT'
+    (log of food imports), 'LNFDI' (log of FDI), 'LNCO2_EMISSIONS', and 'LNAL' (log
+    of agricultural land).
+  12: The table provides F-statistics and probabilities (p-values) for Granger causality
+    tests between various variables. Specific values are given for each pair of variables
+    tested.
+  13: Panel data study from 2000 to 2020 with 45 observations; Jarque-Bera statistic
+    of 1.294674 with a probability of 0.523438

@@ -1,0 +1,173 @@
+Drivers of Risk:
+  1: Persistent changes in temperature above or below historical norms.
+  2: Deviations of temperature and precipitation from their long-term moving-average
+    historical norms (climate).
+  3: Persistent temperature increases and climate variability impact economic growth,
+    affecting both poor and rich countries.
+  5: Deviations of temperature and precipitation from historical norms.
+  6: Changes in temperature and precipitation relative to historical norms
+  7: Weather shocks, specifically temperature changes from the moving-average norm
+  8: Persistent increases in annual temperatures above historical norms or thresholds.
+  9: Changes in temperature relative to its historical norm
+  10: Increases in average global temperature, climate variability, and delays in
+    adaptation.
+  11: Annual increases in temperature deviating from historical norms, climate variability
+  12: Persistent increases in temperatures based on RCP 2.6 and RCP 8.5 scenarios.
+    Climate variability (Table 7).
+Highlights:
+  1: Marginal effects of temperature shocks vary across climates and income groups;
+    abiding by the Paris Agreement substantially mitigates GDP losses.
+  2: A series of positive (or negative) weather shocks has a long-term negative effect
+    on per capita GDP growth.
+  3: All countries experience GDP per capita losses under high-emission scenarios;
+    adaptation reduces but does not eliminate negative growth effects.
+  5: Persistent deviations of temperature from historical norms have negative effects
+    on long-run economic growth. Bias correction is important to avoid underestimating
+    cumulative effects of climate change. Permanent deviations of precipitation from
+    their historical norms do not affect long-term growth.
+  6: The core finding is that deviations in temperature and precipitation from historical
+    norms have a negative impact on per capita real GDP growth. The magnitude of this
+    impact varies depending on the specification and estimation method. The effects
+    of adaptation may have been offset by structural changes to the economy or that
+    adaptation is not keeping pace with the unprecedented rate of global warming.
+  7: No statistically significant differential effects of climate change on poor versus
+    rich nations or hot versus cold countries were found.
+  8: Negative growth effects of weather shocks are more severe in hot countries compared
+    to cold countries, but impacts are negative in both climates.
+  9: "The estimated coefficient \u0302\U0001D703\U0001D6E5|\u0303\U0001D447\U0001D456\
+    \U0001D461(\U0001D45A)| represents the long-run effect of climate change on per\
+    \ capita real GDP growth."
+  10: Climate change can lead to substantial output losses, especially with persistent
+    temperature increases and high climate variability. Adaptation can reduce negative
+    economic effects, but is unlikely to offset them entirely.
+  11: Persistent changes in temperature above time-varying norms has long-term negative
+    impacts on economic growth; Negative long-run growth effects are prevalent in
+    all countries but vary across climates and income groups; Adaptation is unlikely
+    to entirely offset the negative growth effects; Abiding by the Paris Agreement
+    objective would go a long way in limiting economic losses from climate change
+  12: Provides estimates of GDP per capita loss for several countries and regions
+    under different climate scenarios and time horizons, highlighting potential economic
+    impacts of climate change. Table 7 highlights role of climate variability
+Methodology:
+  1: Analysis uses a stochastic growth model with panel data set of 174 countries
+    from 1960 to 2014; considers deviations of temperature and precipitation from
+    long-term historical norms.
+  2: The paper develops a theoretical growth model that links deviations of temperature
+    and precipitation from their long-term moving-average historical norms to per
+    capita real output growth, and uses a half-panel Jackknife FE (HPJ-FE) estimator
+    to deal with potential biases.
+  3: Empirical regressions linking temperature changes to income growth, counterfactual
+    exercises projecting temperature impact on GDP under different emission scenarios.
+  5: Panel ARDL regression with fixed effects (FE) and half-panel Jackknife FE (HPJ-FE)
+    estimator. Focus is on long-run estimates. Uses lag order of 4 for all variables/countries.
+    Climate norms constructed as moving averages of the past 20, 30, and 40 years.
+  6: 'The analysis uses a panel data regression with country fixed effects (FE) and
+    a half-panel Jackknife FE (HPJ-FE) estimator to correct for bias. The model examines
+    the impact of deviations in temperature and precipitation from historical norms
+    on per capita real GDP growth from 1960 to 2014. Two specifications are used:
+    one including both temperature and precipitation variables, and another including
+    only temperature.'
+  7: ARDL specification; panel data models with interactive terms to capture differential
+    effects for poor/rich and hot/cold countries; Half-Panel Jackknife Mean Group
+    (HPJ-MG) estimator.
+  8: Counterfactual analysis using HPJ-FE estimates based on ARDL specification, comparing
+    GDP growth under no change and increased temperature scenarios.
+  9: The analysis uses a half-panel Jackknife mean-group estimator to estimate the
+    impact of temperature changes on per capita real GDP growth. Two specifications
+    are used, one excluding and one including the lagged world real GDP per capita
+    growth rate. The models relate changes in the log of real GDP per capita to historical
+    temperature norms.
+  10: Half-panel Jackknife FE (HPJ-FE) procedure with ARDL equation using data from
+    174 countries over the period 1960-2014. A historical temperature norm is constructed
+    based on moving averages of the past 30 years. Analysis is performed under RCP
+    2.6 and RCP 8.5 scenarios compared to a historical trend scenario (1960-2014).
+  11: Panel data analysis with heterogeneous effects across countries, counterfactual
+    exercises of temperature increases under mitigated and unmitigated scenarios during
+    2015-2100, allows for non-linearity, and implicit model of adaptation.
+  12: The analysis considers persistent increases in temperatures and calculates PPP
+    GDP weighted averages to estimate GDP per capita loss.
+More Notes:
+  1: Temperature effects are statistically significant, but no significant effects
+    are found for precipitation changes.
+  2: The paper distinguishes between level and growth effects, considers asymmetric
+    weather effects, and tests for differential impacts of weather shocks across climates
+    and income groups. It also allows for country-specific and time-varying climate
+    thresholds and introduces an implicit model of adaptation.
+  5: The study uses a panel of 174 countries with an average time dimension of approximately
+    38 years. They re-estimate their preferred model over different time windows to
+    investigate adaptation.
+  7: The paper explores the heterogeneity of climate change effects across climates
+    and income groups. Adaptation is mentioned but the paper's analysis is counterfactual
+    given the current state of adaptation.
+  9: The authors assume temperature shocks are serially uncorrelated, Gaussian random
+    variables. They acknowledge that their assumption about volatility is conservative
+    and likely underestimates the adverse effects of temperature increases. They use
+    IPCC projections under RCP 2.6 and RCP 8.5 scenarios for future temperature values.
+  10: The economic effects estimated in the study are larger than those obtained in
+    existing studies in the literature.
+  11: The size of income effects varies significantly across countries depending on
+    the pace of temperature increases and variability of climate conditions.
+  12: The parameters h and m are used in the calculation, with h representing the
+    years 2030, 2050, and 2100 and m taking values of 20, 30, and 40.  The paper also
+    considers the role of climate variability in affecting GDP loss under the RCP
+    8.5 scenario.
+Outcome(s) of Interest:
+  1: Per-capita real output growth is adversely affected; world real GDP per capita
+    could reduce by more than 7% by 2100.
+  2: Per capita real output growth.
+  3: Global GDP per capita could fall by 7.22% under RCP 8.5 scenario and 1.07% under
+    Paris Agreement scenario by 2100.
+  5: GDP per capita growth.
+  6: Per capita real GDP growth
+  7: per capita Real GDP Growth
+  8: Long-run effects of climate change on per capita real GDP growth.
+  9: Per capita real GDP growth
+  10: Per capita real GDP growth/losses.
+  11: GDP per capita loss
+  12: Percent loss in GDP per capita.
+Quantitative material:
+  1: "A persistent increase in average global temperature by 0.04\xB0C per year reduces\
+    \ world real GDP per capita by more than 7% by 2100; abiding by the Paris Agreement\
+    \ could reduce the loss to about 1%."
+  2: The study covers 174 countries over the period 1960 to 2014.
+  3: "Income growth may decrease by 0.0543 percentage points per year per 0.01 \xB0\
+    C annual temperature rise; global GDP per capita potentially drops 7.22% by 2100\
+    \ under RCP 8.5."
+  5: "A 0.01\xB0C annual increase in temperature above its historical norm reduces\
+    \ real GDP per capita growth by 0.0577 percentage points per year. A 0.01\xB0\
+    C annual decrease in temperature below its historical norm reduces real GDP per\
+    \ capita growth by 0.0505 percentage points per year."
+  6: "Table 1 and Table 2 show estimated coefficients (\u0302\U0001D703) representing\
+    \ the long-run effects of climate change (temperature and precipitation) on per\
+    \ capita real GDP growth. These coefficients are negative and often statistically\
+    \ significant, indicating a negative impact of climate change on economic growth.\
+    \ The tables also present estimates for \U0001D719, N, max T, avg T, min T, and\
+    \ N x T."
+  7: Figure 4 shows the long-run effects (and their 95% standard error bands) of temperature
+    increases on per capita real GDP growth over different time windows.
+  8: Negative effect on long-run per capita GDP growth from persistent temperature
+    deviations, especially when lagged world output growth is included.
+  9: Table 4 provides mean group estimates of the long-run effects of climate change
+    on per capita real GDP growth from 1960-2014 for various country groupings (all
+    countries, cold, temperate/hot, poor, rich) and using different historical norms
+    (m=20, 30, 40) and specifications.
+  10: "Under RCP 8.5 and m=30, real per capita output reduces by 0.80%, 2.51%, and\
+    \ 7.22% in 2030, 2050, and 2100, respectively. For the same scenario, the income\
+    \ losses vary between 0.50 and 1.20 percent, 1.53 and 3.77 percent, and 4.35 and\
+    \ 10.52 percent in 2030, 2050 and 2100, respectively. Limiting temperature increase\
+    \ to 0.01\xB0C per annum (RCP 2.6) substantially reduces losses. Allowing temperature\
+    \ increases to affect the variability of temperature shocks (RCP 8.5 and m=30)\
+    \ almost doubles the GDP losses at the global level by 2100 to 13.11 percent.\
+    \ The United States losses are likely to be 70 percent higher if there is temperature\
+    \ variability compared to the baseline counterfactual scenario."
+  11: "A 0.01 \u25E6C annual deviation in temperature from historical norm reduces\
+    \ long-term income growth by 0.0543 percentage points per year; RCP 8.5 scenario\
+    \ reduces world's real GDP per capita by 7 percent by 2100; Country-specific climate\
+    \ variability increases with temperature increases under RCP8.5 scenario would\
+    \ almost double losses to 13 percent by 2100; Paris Agreement limits global income\
+    \ loss to 1 percent by 2100 under RCP 2.6."
+  12: Presents percent loss in GDP per capita for the World, China, European Union,
+    India, Russia, and the United States under RCP 2.6 and RCP 8.5 scenarios for the
+    years 2030, 2050, and 2100 with varying values of parameter *m* (20, 30, 40).
+    Table 7 shows percent loss in GDP per capita under RCP 8.5 with the role of climate
+    variability for the same regions and time horizons.

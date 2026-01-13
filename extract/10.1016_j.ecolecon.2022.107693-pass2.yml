@@ -1,0 +1,271 @@
+Drivers of Risk:
+  1: Exposure to hurricanes measured by maximum wind speed
+  2: Hurricanes (measured by maximum wind speed).
+  3: Hurricane wind exposures.
+  4: Hurricane exposure (measured by an index Sct, based on maximum windspeed affecting
+    a county during a storm)
+  5: "Disaster shocks, measured by a storm index (\U0001D446\U0001D450\U0001D461)\
+    \ varying at the county level for each month."
+  6: Storm exposure (disaster shock exposure by county).
+  8: Natural disasters, specifically hurricanes.
+  9: Hurricanes (specifically, the average hurricane in the sample, with a value of
+    0.084).
+  10: Hurricanes and natural disasters.
+  12: Natural disasters (hurricanes).
+  14: Hurricanes
+  15: Hurricanes (named storms, years, months, categories)
+  16: Not explicitly stated, but the data provides a baseline for understanding employment
+    and wage dynamics which can be impacted by climate change.
+  17: The table shows changes in labor force, but does not explain the drivers of
+    those changes.
+  19: Hurricanes impact employment and average weekly wages.
+  20: Hurricanes at time t.
+  22: hurricanes at time t
+  23: Hurricanes at time t, measured by a 64-knot threshold.
+  24: Hurricanes impacting employment and wages.
+  26: Hurricanes at time t
+  27: Hurricanes
+  28: Hurricanes at time t, industry-specific storm measure.
+  29: Hurricanes.
+  30: Hurricanes.
+Highlights:
+  1: Hurricanes cause a short-run employment decrease; employment effects are heterogeneous
+    across industries; input-output linkages help explain industrial adjustments.
+  2: Hurricanes have heterogeneous effects across industries, with some industries
+    (e.g., Construction of Buildings, Specialty trade contractors) showing employment
+    increases ('strengthened industries') and others (e.g., Accommodation, Scenic
+    and Sightseeing Transportation) showing employment decreases ('weakened industries').
+    Input-output linkages may explain some of the industry-level results, with employment
+    increase positively correlated to the share of output sold to the construction
+    sector for the strengthened industries.
+  3: Provides novel evidence on the short-run employment effects in a lower-income
+    setting (Puerto Rico). The study uses a continuous exposure index to examine employment
+    adjustments across industries. The analysis reveals the importance of input-output
+    linkages as a driving mechanism of the employment effects of natural disasters.
+  4: The paper focuses on the impact of hurricane exposure on employment in Puerto
+    Rico, leveraging a detailed dataset. There is substantial variation in hurricane
+    exposures across counties and over time.
+  6: Impulse response functions of employment follow a pattern broadly similar to
+    the baseline results regardless of data treatment. For wages, including zeros
+    and using non-interpolated data causes wage responses to flip sign from positive
+    to negative compared to baseline.
+  9: Hurricanes have different effects on employment depending on the industry. Some
+    industries experience positive employment effects (e.g., construction), while
+    others are neutral or weakened. The study classifies industries as 'strengthened,'
+    'neutral,' or 'weakened' based on employment effects.
+  10: Natural disaster shocks lead to a construction boom and negatively affect retail,
+    transport, and accommodation industries. Input-output linkages play a key role
+    in the transmission of disaster shocks to employment across different industries.
+    A sectoral analysis may lead to an aggregation bias.
+  12: Natural disasters lead to an average decline in employment, but with heterogeneity
+    at the industry level. Input-output linkages explain some of this heterogeneity.
+    Adaptability-driven employment resilience, defined as the potential for workers
+    to reallocate to expanding industries, is a potential strategy.
+  14: The paper examines the impact of hurricanes on employment within selected transport
+    industries.
+  16: The data characterizes the employment structure of Puerto Rico across various
+    sectors and industries from 1995-2019.
+  20: Shows the dynamic effects of hurricanes on employment and average weekly wages.
+  23: The dynamic effects of hurricanes on employment at different horizons for selected
+    industries are visualized with confidence bands at 95%.
+  26: The page presents dynamic effects of hurricanes on employment, wages, unemployment,
+    and labor force over time.
+  27: "Industry results with distance from geographical centroids (Unweighted). Dynamic\
+    \ effects of hurricanes at time t on employment at different horizons exploiting\
+    \ industry\u2013time variation."
+  29: Dynamic effects of hurricanes on employment, average weekly wages, unemployed,
+    and labor force are analyzed at different time horizons.
+  30: Dynamic effects of hurricanes on employment at different horizons.
+Methodology:
+  1: "Panel local projections using monthly data for 70 3-digit NAICS industries and\
+    \ 78 Puerto Rican counties over the period 1995\u20132019"
+  2: Local projections are used to explore the dynamic employment effects of hurricanes,
+    regressing cumulative changes in variables of interest on a disaster shock variable
+    at each horizon, controlling for pre-trends and seasonal effects. The analysis
+    is performed using county-level data in Puerto Rico.
+  3: Uses local projections to examine the economic impacts of hurricanes, examining
+    employment adjustments across industries. The analysis considers all counties
+    in Puerto Rico and all hurricanes that occurred over the sample period.
+  4: The paper uses local projections to explore the dynamic employment effects of
+    hurricane exposure. Hurricane exposure is measured using an index that accounts
+    for maximum wind speed in each county during a storm.
+  5: Local projections are used to estimate the impact of disaster shocks on economic
+    outcomes. The method involves running k-step ahead panel predictive regressions,
+    controlling for past values of the outcome variable, time and county fixed effects,
+    and county-industry specific fixed effects and industry-time fixed effects. The
+    sample period is 1995M1 to 2019M11 for 78 counties (GEO).
+  6: "Panel data analysis using county and industry-level data. Linear interpolation\
+    \ is applied to 8% of industry\u2013county\u2013time employment and wage observations\
+    \ where zeros reflect non-disclosure. Baseline results are presented excluding\
+    \ zeros, both with and without linear interpolation. Analysis also performed including\
+    \ all zeros, with and without interpolation."
+  8: The study uses county-time and county-industry-time variation to analyze the
+    dynamic effects of hurricanes on employment and wages at different time horizons.
+    They use linear interpolation in some specifications. Panel data analysis is used
+    to generate impulse response functions (IRFs).
+  9: The study uses industry-time variation to analyze the dynamic effects of hurricanes
+    on employment. It appears to use impulse response functions (IRFs) to show the
+    effects over time. The analysis is applicable to the period 1995-2019.
+  10: Local projections, regression analysis. Analysis is applicable to the US economy.
+    Robustness checks include different measures of exposure to natural disasters,
+    different windspeed calculation methods (Depperman formula), using geographical
+    centroids instead of population-weighted centroids, industry-specific exposure
+    measures, and controlling for past hurricanes.
+  12: Analysis uses monthly data for 70 3-digits NAICS industries and 78 Puerto Rican
+    counties over the period 1995-2019. Local projections are used, controlling for
+    past and future disaster exposure. Industry-specific exposure to hurricanes is
+    calculated as a weighted average of county-level exposure, using industry employment
+    weights.
+  14: "Exploiting industry\u2013time variation to assess the dynamic effects of hurricanes\
+    \ on employment."
+  15: Data on people affected, fatalities, and damages are from the EM-DAT database.
+  16: Descriptive statistics are used to summarize employment and wage data from 1995-2019.
+  19: "Analysis controls for alternative sets of fixed effects across county\u2013\
+    industry\u2013time variation with and without linear interpolation."
+  20: County-industry-time variation with county*industry and industry*time fixed
+    effects is used. Results are provided with and without linear interpolation.
+  22: "Panel results exploiting county\u2013time variation and county\u2013industry\u2013\
+    time variation. Dynamic effects of hurricanes at different horizons."
+  23: Exploits industry-time variation to analyze the dynamic effects of hurricanes
+    on employment.
+  24: "Panel analysis exploiting county\u2013time, county\u2013industry\u2013time\
+    \ variations with and without linear interpolation to measure dynamic effects\
+    \ of hurricanes."
+  26: "Panel results with distance from geographical centroids (Unweighted). Exploiting\
+    \ county\u2013time variation and county\u2013industry\u2013time variation (with\
+    \ and without linear interpolation)."
+  27: "Exploiting industry\u2013time variation; analysis of dynamic effects of hurricanes\
+    \ on employment at different horizons"
+  28: "Exploiting industry\u2013time variation to assess dynamic effects of hurricanes\
+    \ on employment."
+  29: Panel data analysis exploiting county-time and county-industry-time variation,
+    controlling for lags and leads of exposure measure. Results presented with and
+    without linear interpolation.
+  30: "Exploits industry\u2013time variation, controls for lags and leads of exposure\
+    \ measure, dynamic effects of hurricanes on employment."
+More Notes:
+  1: The study focuses on the short-run, dynamic employment effects of hurricanes
+    in Puerto Rico.
+  2: The paper introduces the concept of 'adaptability-driven employment resilience,'
+    defined as the potential for workers to reallocate from contracting to expanding
+    industries after a natural disaster. This concept could be important for 'post-disaster
+    resilience.'
+  3: The study focuses on Puerto Rico, a lower-income setting, and uses a different
+    (continuous) measure of storm exposure.
+  4: The study uses employment data from the Quarterly Census of Employment and Wages
+    (QCEW).
+  8: "The analysis covers 70 industries. The time horizon for the dynamic effects\
+    \ extends to 12 months. The coefficient (\U0001D6FE\U0001D456) and its standard\
+    \ error are reported."
+  9: Appendix E contains a table classifying industries (S, N, or W) based on employment
+    effects at different time horizons (3, 6, 12, 18, 24 months).
+  14: The results are specific to selected Transport Industries and the period 1995-2017.
+  15: The table provides a list of hurricanes with associated data, but it does not
+    contain any analysis of macroeconomic or fiscal outcomes or adaptation costs/benefits.
+    It's a descriptive dataset.
+  16: The industry-level breakdown in Tables C.2 and C.3 could be useful for assessing
+    the vulnerability of different sectors to climate change impacts.
+  17: The data appears to be specific to Puerto Rico ("Municipio" is similar to County).
+    The relevance to a global review depends on whether Puerto Rico can serve as a
+    case study or if the drivers of these labor force changes are generalizable to
+    other national contexts under climate change scenarios. Labor force change is
+    used to show what locations are experiencing relative declines or growth.
+  23: Results are specific to a 64-knot hurricane threshold.
+  26: The analysis explores the impact of hurricanes using different levels of granularity
+    (county-time and county-industry-time).
+  27: The analysis focuses on selected industries and uses unweighted centroids.
+  29: The analysis focuses on the dynamic effects of hurricanes at time *t*.
+  30: The results are for selected industries and control for lags and leads of the
+    exposure measure.
+Outcome(s) of Interest:
+  1: Employment falls by 0.5% on average after a hurricane; heterogeneous employment
+    responses across industries
+  2: Employment, unemployment, and average weekly wages.
+  3: The average labor market response of directly affected jurisdictions (measured
+    by employment adjustments across industries).
+  4: Employment (overall, and within specific sectors), unemployment
+  5: Employment, unemployment, the labor force, and average weekly wage (at county
+    and/or industry level).
+  6: Employment and wages at the county and 3-digit NAICS industry level.
+  8: Employment effects and average weekly wages.
+  9: Employment effects in specific industries (identified by NAICS codes).
+  10: Employment levels in various sectors (construction, transport, manufacturing,
+    retail, accommodation, furniture stores, garden supply stores).
+  12: Employment effects at the industry level.
+  14: Employment effects in transport industries
+  15: Total damages (in USD)
+  16: Employment growth, unemployment growth, labor force growth, and wage growth
+    are analyzed at county, county-industry, and industry levels.
+  17: Labor force changes (1995-2019) at the county level are provided, which can
+    be an indicator of economic activity and potentially GDP.
+  20: Employment, average weekly wages.
+  22: employment, average weekly wages, unemployed, labor force
+  23: Employment in selected industries.
+  24: Dynamic effects of hurricanes on employment and average weekly wages.
+  26: Employment, average weekly wages, unemployed, and labor force.
+  27: Employment
+  28: Employment in selected industries.
+  29: Employment, average weekly wages, unemployed, and labor force.
+  30: Employment in different industries.
+Quantitative material:
+  1: Employment falls by 0.5% on average after a hurricane
+  2: Employment falls on average by about 0.5% after about six months after an 'average'
+    hurricane. The number of unemployed increases.
+  3: No direct quantitative information about macroeconomic or fiscal outcomes or
+    costs/benefits of adaptation is given on this page.
+  4: Summary statistics for the hurricane exposure index (Sct) are provided, including
+    mean, standard deviation, minimum, and maximum values for monthly and quarterly
+    data from 1995-2017. Employment data from the Quarterly Census of Employment and
+    Wages (QCEW) are used, and information on the private sector workforce composition
+    is given.
+  5: "The paper presents regressions (Eq. 2 and Eq. 3) that estimate the average response\
+    \ of outcome variables (\U0001D44B\U0001D450 and \U0001D44B\U0001D456\U0001D450\
+    ) at horizon \U0001D458 to a disaster shock at time \U0001D461 (\U0001D6FE\U0001D458\
+    1 and \U0001D6FE\U0001D4582)."
+  6: Data covers 78 counties (GEO) and 70 3-digits industries (NAICS) from 1995M1
+    to 2019M11. 40% of county-by-industry level employment and wage observations are
+    reported as zeros. A further 8% of observations report zeros due to anonymity
+    concerns but report a non-zero number of establishments.
+  9: Dynamic effects of hurricanes on employment are quantified for different industries
+    and time horizons, with confidence bands at 95%. Average industry employment over
+    1995-2019 is also provided.
+  10: Construction employment recovers and rises sharply within one year, reaching
+    levels about 1.2% higher than in the absence of the disaster. R-squared = 0.61
+    in a regression of coefficients from Table 2 against the share of construction
+    sectors as buyers of industry output.
+  12: Table 2 shows 12-month coefficient and standard error for employment in specific
+    industries following a natural disaster. For example, Amusements, gambling, and
+    recreation has a coefficient of -1.30, Accommodation has a coefficient of -2.39,
+    and Personal and laundry services has a coefficient of -0.70. R-squared of 0.61
+    from relating employment effects to the construction sector as buyer of industry
+    output.
+  14: "Dynamic effects of hurricanes on employment at different horizons; Average\
+    \ industry employment over the period 1995\u20132017; 95% confidence bands"
+  15: Table of hurricane names, years, months, categories, people affected, total
+    fatalities, and total damages (USD) for specific hurricane events.
+  16: Table C.1 provides summary statistics (mean, standard deviation, min, max, and
+    N) for monthly and quarterly employment, unemployment, labor force, and wage growth
+    in Puerto Rico. Tables C.2 and C.3 provide average employment counts and employment
+    shares by industry sector in Puerto Rico.
+  17: Labor force in 1995, labor force share (%), and the percentage change in labor
+    force from 1995-2019 are provided for each county.
+  19: Shaded areas represent confidence bands at 95%, indicating some level of quantification
+    of uncertainty in the outcomes.
+  20: Dynamic effects of hurricanes on employment and average weekly wages at different
+    horizons. Confidence bands at 95% are provided.
+  22: Shaded areas are confidence bands at 95%
+  23: Presents dynamic effects of hurricanes on employment at different horizons,
+    average industry employment over the period 1995-2017.
+  24: Confidence bands at 95% provided for dynamic effects of hurricanes on employment
+    and wages.
+  26: Dynamic effects of hurricanes at different horizons, confidence bands at 95%.
+  27: "Dynamic effects of hurricanes at time t on employment at different horizons;\
+    \ average industry employment over the period 1995\u20132017 (numbers in parenthesis);\
+    \ 95% confidence bands (shaded areas)"
+  28: "Dynamic effects of hurricanes on employment at different horizons, average\
+    \ industry employment over the period 1995\u20132017 (numbers in parenthesis),\
+    \ 95% confidence bands."
+  29: Dynamic effects of hurricanes on employment, average weekly wages, unemployed,
+    and labor force at different horizons; shaded areas indicate 95% confidence bands.
+  30: "Dynamic effects of hurricanes on employment at different horizons, average\
+    \ industry employment over the period 1995\u20132017, confidence bands at 95%."

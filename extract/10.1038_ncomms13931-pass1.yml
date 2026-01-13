@@ -1,0 +1,61 @@
+Drivers of Risk:
+  2: High temperatures, particularly in rainfed conditions leading to water stress.
+  4: High temperatures and water stress are identified as key drivers of crop yield
+    declines.
+  5: High temperatures negatively impact rainfed maize and soybean yields.
+  9: "Temperature shifts, specifically exposure to temperatures above 30\xB0C and\
+    \ extreme high temperatures above 36\xB0C."
+Highlights:
+  2: Crop models reproduce observed temperature responses; high temperatures diminish
+    maize and soybean yields significantly under rainfed conditions; irrigation can
+    offset yield losses better than elevated CO2.
+  4: Current models can reliably assess crop losses induced by high temperatures;
+    water stress is a major cause of yield declines; elevated CO2 cannot be confirmed
+    as a safeguard of yields under high temperatures.
+  5: Elevated CO2 only limitedly attenuates yield loss in rainfed conditions. Irrigation
+    can reduce the decline in yields at high temperatures, but with larger confidence
+    intervals.
+  9: "Splits the temperature distribution into three parts to assess the impact of\
+    \ each: no stress (>30\xB0C), medium high (30-36\xB0C), and extreme high (>36\xB0\
+    C)."
+Methodology:
+  2: Ensemble of nine crop models compared to observed temperature responses of US
+    maize, soybean, and wheat yields.
+  4: The analysis uses Global Gridded Crop Models (GGCMs) to simulate crop yields
+    under different temperature and water conditions; statistical models estimate
+    yield changes based on exposure to different temperatures; the models are validated
+    against observed yield data.
+  5: Panel regression is applied to simulated future yields in rainfed counties under
+    climate change (RCP 8.5) using an ensemble of six GGCMs.
+  9: Uses a statistical model that adjusts for county-specific fixed effects, linear
+    and quadratic variations in precipitation, and state-specific time trends to estimate
+    yield based on the cumulative distribution function of days during the growing
+    season spent at different temperatures. Spatially correlated error terms are included.
+    The relative contribution to yield for each temperature part is calculated. The
+    model is applied to historical observed rainfed maize, soybean, and wheat yields.
+More Notes:
+  2: Wheat is less affected under historical conditions as critical temperatures are
+    rarely exceeded during the growing season, but is projected to decline in the
+    future.
+  4: The study focuses on maize, soybean, and wheat; the results are specific to rainfed
+    crops, with irrigation shown to mitigate some of the negative effects of high
+    temperatures; the models include relevant mechanisms of high-temperature-induced
+    yield loss under current climate.
+  5: The study analyzes the impact of temperature, water, and CO2 interaction on future
+    yields under global warming.
+Outcome(s) of Interest:
+  2: Crop yield reductions in US maize, soybean, and wheat.
+  4: Crop yield loss is the primary outcome of interest.
+  5: Rainfed yields of maize, soybean, and wheat are projected to decline under climate
+    change (RCP 8.5).
+  9: Yield losses in maize, soybean and wheat crops due to temperature shifts.
+Quantitative material:
+  2: "Each day >30\xB0C diminishes maize and soybean yields by up to 6% under rainfed\
+    \ conditions."
+  4: "An additional day at temperatures between 33 and 36 \xB0C reduces maize yield\
+    \ by approximately 4%."
+  5: The average decline in growing season length per degree Celsius increase is B7.4
+    days for rainfed maize, 5.6 days for soybean, and 1.3 days for wheat.
+  9: "Presents an equation (equation 2) to calculate yield loss based on fitted coefficients\
+    \ and historical/future exposure time for each 3\xB0C bin, separated into no stress,\
+    \ medium high temperature, and extreme high temperature."

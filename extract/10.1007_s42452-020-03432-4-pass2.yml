@@ -1,0 +1,137 @@
+Category:
+  28: Extracted Information
+Drivers of Risk:
+  1: Climate change impacts on crop yield.
+  3: Country-level climate-crop yield relationships
+  14: Spatially-weighted, location-specific temperature data; Mauna Loa annual CO2
+    data.
+  15: Political changes in countries such as Sudan, the Soviet Union and Ethiopia;
+    extraneous factors.
+  16: Different crop cultivars and planting times can lead to dissimilar responses
+    to climate change.
+  18: CO2 levels and temperature.
+  19: CO2 levels, temperature
+  21: CO2 levels, temperature
+  22: Changes in CO2 levels and temperature are analyzed as impacting the outcomes
+    related to specific crops.
+  23: Lack of statistical significance in temperature and CO2 effects on crop yield
+    suggests measurement and methodological issues.
+  24: Changing CO2 concentrations and temperature variations impact crop yield, which
+    can influence agricultural productivity at a national level.
+  27: Increases in atmospheric CO2 and/or temperatures; Adverse effect of heat on
+    crop yields; Climate change
+  28: Global warming (specifically impacting agriculture)
+Highlights:
+  18: The marginal effects of CO2 and temperature on wheat yields exhibit diminishing
+    returns, with the effect of CO2 on yields further diminishing at higher temperatures.
+    The impact of CO2 on maize yields appears weak. The addition of GDP per capita
+    and the human capital index suggests that the effects of CO2 and temperature are
+    overstated in the original regression (for wheat).
+  19: Soybean yields show diminishing benefits from increasing CO2 and temperature,
+    eventually declining. Rapeseed yields are positively correlated with increasing
+    temperature, but the effect of CO2 is ambiguous. The interaction between CO2 and
+    temperature has a statistically significant, but small, effect on both soybean
+    and rapeseed yields. Adding human capital controls significantly reduces the estimated
+    parameter on the linear CO2 term for soybeans.
+  21: Temperature has a statistically significant positive impact on both rice and
+    sorghum yields. The interaction term between CO2 and Temperature is statistically
+    significant for both crops. Rice exhibits more severe diminishing returns to temperature
+    increases based on the interaction term.
+  22: The page presents marginal effects of CO2 and temperature on different crops
+    and explains the calculation of tipping points using regression results.
+  23: Statistically significant CO2 tipping points for wheat (396.2 ppm), soybean
+    (416.7 ppm), and sorghum (670.9 ppm).
+  27: "The evidence regarding the impact of climate change on agriculture is a matter\
+    \ of interpretation, dependent on which studies are chosen to support one\u2019\
+    s viewpoint and how the evidence is presented. Future technological change remains\
+    \ the greatest unknown factor."
+  28: Technological changes will greatly improve the ability of agricultural producers
+    to adapt to climate change; global warming might lead to famines and starvation
+    in the future only when the scope for technological improvements is ignored.
+Methodology:
+  1: Analysis of country-level climate-crop yield relationships.
+  3: Extended essay
+  14: The study employs spatially-weighted temperature data, CO2 data, and the Penn
+    World Table database to infer the impact of climate change on crop yield trends.
+  15: Using output-based approach to calculate PPP GDP; using Penn World Table's human
+    capital index to control for education levels; modifying data from 1961-2017 for
+    USSR, Russia, Ethiopian PDR, and Ethiopia; ignoring data for Taiwan, South Sudan,
+    Yugoslavia SFR; treating Serbia and Montenegro as separate entities.
+  16: A fixed effects panel regression model is used to examine the impact of atmospheric
+    CO2 levels and temperature on crop yields.
+  18: Regression analysis is used to model the relationship between wheat and maize
+    yields and CO2 levels and temperature, including squared terms and interaction
+    terms to capture non-linear effects. Some models control for GDP per capita and
+    human capital index.
+  19: Regression analysis of the relationship between CO2, temperature, and crop yields
+    (soybean and rapeseed). Controls for GDP/capita and human capital are included
+    in some models.
+  21: Regression analysis using a panel dataset of countries. Marginal effects are
+    calculated and evaluated at average CO2 and temperature levels. Tipping points
+    (where increased CO2 or temperature lead to falling yields) are computed by setting
+    first-order partial derivatives equal to zero.
+  22: The analysis involves regression models to derive marginal effects for CO2 and
+    temperature by crop type, and tipping points are computed using linear and quadratic
+    terms from these models.
+  23: Analysis using CO2 and temperature as key variables; tipping points lack significance
+    and need further investigation.
+More Notes:
+  1: The paper focuses on food security as an outcome affected by climate change via
+    crop yields. This is indirectly relevant to macro-fiscal risks as food security
+    issues can lead to broader economic instability and require government intervention
+    (expenditure, etc.). Further review of the paper is needed to determine whether
+    this page contributes to macro-economic and macro-fiscal risk as food security
+    is only one aspect.
+  3: The paper focuses on climate change impacts on food security via crop yield relationships.
+    This suggests a potential pathway to macroeconomic and fiscal risks, but the page
+    doesn't directly address macroeconomic or fiscal outcomes, or adaptation costs/benefits
+    at a national level. It is a study of the relationship between climate, crop yield,
+    and food security.
+  14: The authors acknowledge a strong assumption that atmospheric CO2 is uniformly
+    distributed and does not vary across countries due to data limitations.
+  15: The production map provided by the USDA is a rough approximation of crop production
+    and national average temperatures for most countries; annual temperature data
+    do not adequately consider the actual growing seasons for various crops.
+  16: The paper highlights the complexity of modeling due to different planting times
+    and cultivar variations, and acknowledges the strong assumption of uniform CO2
+    distribution.
+  18: "The model specification includes CO2-squared and Temperature-squared terms\
+    \ to capture non-linear relationships. The interaction term (CO2 \xD7 Temp) is\
+    \ included to account for the combined effect of CO2 and temperature. The models\
+    \ are fitted to panel data on 46 or 51 countries for wheat and maize analysis,\
+    \ respectively."
+  19: The number of observations varies between soybean and rapeseed regressions,
+    based on data availability.
+  21: The analysis considers the impact of GDP/capita and human capital on crop yields
+    in some specifications.
+  23: Tipping points are approached with caution due to insufficient statistical significance.
+  27: The paper acknowledges the potential for tipping points in crop yields but states
+    an inability to identify them. It also suggests that technological advancements
+    like weather-indexed insurance, GPS, drones, and new irrigation technologies can
+    incentivize and enable adaptation to climate change in agriculture.
+Outcome(s) of Interest:
+  1: Impacts of climate change on food security.
+  3: Impacts of climate change on food security
+  14: Crop yield trends.
+  15: Crop yields.
+  18: Wheat and maize yields.
+  19: Crop yields (soybean and rapeseed)
+  21: Crop yields (rice and sorghum)
+  27: Crop yields (t/ha)
+Quantitative material:
+  18: Table 4 presents regression analysis results for wheat and maize yields, showing
+    coefficients, t-statistics, and adjusted R-squared values for models with different
+    combinations of CO2, temperature, and interaction terms, as well as control variables
+    like GDP per capita and human capital index.
+  19: "Regression analysis showing coefficients for CO2, CO2-squared, Temperature,\
+    \ Temp-squared, and CO2 \xD7 Temp on soybean and rapeseed yields. Adjusted R-squared\
+    \ values are provided. Number of observations and countries included in the regressions\
+    \ are specified."
+  21: Regression analysis shows the impact of CO2, CO2-squared, temperature, temperature-squared,
+    and CO2 x Temp on rice and sorghum yields. The table provides coefficients, t-statistics,
+    adjusted R-squared values, and number of observations.
+  22: The page provides equations detailing the marginal effects of CO2 and temperature
+    on various crops, which could indirectly relate to economic outcomes through agricultural
+    productivity.
+  27: Average global yields of maize have increased by 2.0% annually over the period
+    1961-2016, rice by 1.7%, wheat by 2.1%, sorghum by 0.9% and soybeans by 1.6%.

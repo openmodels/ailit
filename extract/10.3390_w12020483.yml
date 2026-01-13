@@ -1,0 +1,144 @@
+Drivers of Risk:
+  1: Flood events, climate change.
+  2: Failure of flood protection infrastructure during moderate to extreme floods;
+    Disruption in hydraulic connection between river and floodplain due to embankments;
+    Traditional flood control methods focused solely on technical and economic viability,
+    neglecting hydromorphological features and socio-economic conditions.
+  4: Environmental factors such as loss of soil fertility, waterlogging, and negative
+    impact on capture fisheries, as well as social factors like displacement of poorer
+    households.
+  7: Embankments (pre vs. post embankment periods).
+  8: Increased discrimination in 1996 due to socio-economic variables.
+  11: Flooding (average annual flood, moderate to extreme floods, 30-year flood, 100-year
+    flood). Waterlogging induced by rainfall.
+  12: Hydro-climatic events (floods), embankment construction (as a form of adaptation).
+  13: Flooding (as indicated by inundated areas in 1988 and 1998), changes in high
+    tide, and the presence/absence of embankments (implied through discussion of pre-embankment
+    baseline).
+  14: Floods, potentially influenced by climate change.
+Highlights:
+  1: Flood protection infrastructure in Bangladesh does not show higher benefits accruing
+    to those living with higher levels of protection.
+  2: Adaptation measures can have both beneficial and unintended detrimental consequences;
+    Integration of adaptation actions and policies across sectors remains a key challenge;
+    There is a paradigm shift to integrated flood management, covering issues relevant
+    to flood, drainage, irrigation, navigation, environment and socio-economic development.
+  4: Higher agricultural yields and economic prosperity for some farmers but negative
+    impacts such as displacement, lower fish catch, and welfare differences that were
+    inconclusive.
+  7: The paper focuses on statistically comparing events data pre- and post-embankment
+    using a Gaussian Process-based Bayesian statistical significance test and using
+    ROC curves to classify inside/outside embankment
+  8: Agricultural land ownership is the most discriminative variable across all four
+    years studied. Land ownership is identified as the most important discriminative
+    indicator.
+  11: The embankment successfully withstood floods during subsequent years [after
+    repairs post 1988 flood], but frequently suffered many problems. The embankment
+    was able to protect the project area from inundation [during the 1998 flood].
+    Some areas inside the embankment are subject to waterlogging induced by rainfall.
+  12: Embankment construction is associated with a statistically significant change
+    in internal movement rates (p < 0.01). Figures indicate trends over time, and
+    can show differences in in-migration and mortality, inside versus outside the
+    embankment.
+  13: Highlights the challenges of evaluating long-term impacts due to data limitations
+    and inconsistencies. Indicates a relationship between inward/outward population
+    movement and embankment construction.
+  14: Embankments have immediate impacts, but these impacts on some well-being indicators
+    may even out over three decades; machine learning approaches can identify relevant
+    indicators to evaluate the impacts of interventions.
+Methodology:
+  1: Machine learning to discriminate between households living inside vs. outside
+    flood protection embankments using socio-economic survey and event data (death,
+    migration) from 1983-2014 in Bangladesh.
+  2: Proposes rigorous analytical methods to evaluate the impacts of adaptation measures
+  4: Analysis uses historical data from a Health and Demographic Surveillance System
+    (HDSS) managed by icddr,b with a focus on empirical studies and socio-economic
+    surveys conducted at different times, including 1992 and 1996.
+  7: Gaussian Process-based Bayesian statistical significance test to compare event
+    rates pre- vs. post-embankment, Receiver Operating Characteristics (ROC) curve
+    based on k-fold (k=3) cross-validation is used to evaluate inside/outside embankment
+    classification
+  8: ROC comparison, statistical significance tests to analyze socio-economic survey
+    data; classification models to identify informative variables.
+  11: Analysis of inward/outward migration rates, in-migration rates, and mortality
+    rates inside vs. outside an embankment structure using available data. Normalized
+    Difference Water Index (NDWI) analysis using LANDSAT imagery to delineate inundated
+    areas in flood years.
+  12: Generalized Pareto (GP)-based analysis of event rates pre- and post-embankment
+    (1983-2014). Chi-squared tests are used to compare event rates.
+  13: Uses LANDSAT 4-5 TM images and Normalized Difference Water Index (NDWI) to delineate
+    inundated areas in flood years. Also uses data from WARPO for land elevation maps.
+  14: Machine learning approaches to integrate socio-economic data with other data
+    (hydro-climatic, water infrastructure, etc.); spatio-temporal analysis; analysis
+    of variance; predictive modeling.
+More Notes:
+  1: Data gaps and spatial heterogeneity in sampled populations suggest caution in
+    any conclusive interpretation of the flood protection infrastructure.
+  2: Bangladesh has shifted from flood control (embankments) to integrated flood management
+    (structural and non-structural measures); Bangladesh Delta Plan 2100 emphasizes
+    restoration, redesign, and maintenance of existing embankments.
+  4: The embankment caused negative distributional outcomes, with wealthier landowners
+    benefitting while poorer traditional fishermen and river transport workers were
+    negatively impacted.
+  7: The study uses socio-economic survey data to predict whether households live
+    inside or outside embankments and analyzes changes in event rates related to this
+    classification over time.
+  8: The paper suggests the need for more data on agricultural productivity and markets
+    to further investigate the differential impact over time. Some differences in
+    socio-economic variables are a consequence of proximity to significant infrastructure
+    (hospital, gasline, pipeline, deeptubewells) instead of direct consequence of
+    living inside/outside embankment.
+  11: "The study area is the Meghna\u2013Dhonagoda project area within Matlab North,\
+    \ where 47% of the land is low lying. There are two pumping stations inside the\
+    \ project area to drain out accumulated rainwater."
+  12: The analysis explores the relationship between hydro-climatic events and socio-economic
+    behavior, focusing on the impact of embankments.
+  13: Acknowledges that other infrastructures (health, roads, electricity, education,
+    etc.) have impacts in relation to the embankment. Data are limited to one-third
+    of the study area. Emphasizes caution in interpreting classification results due
+    to lack of common indicators across different years.
+  14: The study focuses on the impacts of embankments in Bangladesh, but the proposed
+    approaches are applicable to evaluate the environmental and socio-economic impacts
+    of human interventions in general beyond the context of Bangladesh; The analysis
+    provides a framework for evaluating both short-term and long-term as well as intended
+    and unintended consequences of interventions.
+Outcome(s) of Interest:
+  1: Welfare of people, migration, mortality indicators, inward/outward movement with
+    respect to embankment.
+  2: Economic activities increased in areas protected by flood protection, leading
+    to increased agricultural output; Flood protection failure led to higher damage
+    compared to areas outside embankments due to accelerated economic activities;
+    Hydraulic connection disruption led to damage to fisheries and local boat transport,
+    compromising livelihoods.
+  4: The embankment resulted in a net welfare loss due to higher than anticipated
+    construction costs, lower benefits to agriculture over time, higher waterlogging
+    damages, and negative impact on capture fisheries.
+  7: Not explicitly macroeconomic or fiscal outcomes, but differences in event rates
+    related to living inside/outside embankments.
+  8: No relevant information
+  11: No relevant information
+  12: Mortality rates, internal movement rates, and in-migration rates.
+  13: Implicitly suggests impacts on agricultural yields, fishing, and other water-dependent
+    economic activities, though without quantification. Suggests that social development
+    is tied to the infrastructure.
+  14: Well-being indicators, migration patterns, agricultural land ownership, water-borne
+    disease morbidity, malnutrition rates in children, fishing and farming productivity,
+    loan amounts and types.
+Quantitative material:
+  1: No significant difference between inside/outside populations based on welfare,
+    migration, or mortality indicators. Significant difference in inward/outward movement
+    with respect to the embankment.
+  2: Total flood protection coverage area stands at 5.37 million ha, more than one
+    third of the country
+  7: P-values less than 0.01 are highlighted with a * symbol for statistical significance.
+  8: AUC metric significantly different in 1996 compared to 1982.
+  11: No relevant information
+  12: Table 2 shows chi-squared values and p-values for event rates before and after
+    embankment construction, indicating statistically significant differences (p <
+    0.01) for internal movement rates. Figures show time series for movement, migration
+    and mortality rates.
+  13: Presents monthly inward/outward movement of households and monthly high-tide
+    data from 1984 to 2016.
+  14: Analysis of socio-economic indicators, mortality, and migration data; comparison
+    of inside/outside embankment populations; analysis of ICD-9 and ICD-10 coded health
+    data.

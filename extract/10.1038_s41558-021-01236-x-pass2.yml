@@ -1,0 +1,166 @@
+Drivers of Risk:
+  4: Greenhouse gas emissions pathways, temperature pathways (1.5-4oC warming), technological
+    factors, policy factors, socio-economic factors
+  6: Physical risks stemming from temperature changes; Transition risks from scenarios
+    spanning 1.5-4oC temperatures; Underlying socio-economics; Technological options;
+    Timing of mitigation action; Policy implementation in different world regions.
+  10: Changes in likelihood of acute events (heatwave, river flooding, agricultural
+    drought); Temperature increases
+  12: Stringency of emissions reductions pathways (1.5C, 2C, NDC Pledges) and the
+    associated transition risks.
+  15: Carbon prices, potential stranding of carbon-intensive assets, demand reductions
+    for fossil fuels and technologies, changes to electricity and food prices, economy-wide
+    abatement costs, physical climate hazards.
+  19: Physical hazards such as heatwaves, river floods, hydrological and agricultural
+    droughts; transition risks like abatement costs, carbon pricing, reduction in
+    fossil fuel demand, and electricity prices.
+  29: Potential for stranding of coal plant capacity; Carbon price levels impacting
+    energy portfolio default likelihoods; Abatement costs; Electricity and food prices.
+  30: High-level dynamics of the transition (presumably to a low-carbon economy)
+  31: Exposure to drought, river flooding, heatwaves, and reductions in potential
+    crop yield.
+  32: 'Heatwaves (two indicators: at least two days exceeding the 95th percentile,
+    and at least four days exceeding the 99th percentile), river flood risk (frequency
+    of the reference period 50-year flood), and water resources drought risk (Standardised
+    Runoff Index (SRI) less than -1.5 for at least six months).'
+  35: The pace and type of climate mitigation policies and technological advancements
+    drive different warming scenarios.
+  37: No relevant information
+Highlights:
+  4: Physical risks (heatwaves, agricultural drought, heat stress, crop duration reductions)
+    by 2050 depend greatly on the temperature pathway.
+  6: Presents a fully integrated framework for self-consistent analysis of physical
+    and transition risks, complementing and expanding on NGFS scenarios. Focuses on
+    world, China, USA, EU+UK, and India. Includes additional results for Brazil, Japan,
+    Middle East, Russia and Sub-Saharan Africa in Extended Data and Supplementary
+    Information.
+  10: The chance of experiencing a major heatwave and agricultural indicators have
+    the most highly non-linear relationships with temperature, showing the greatest
+    difference between the temperature scenarios; India faces disproportionately higher
+    increases in river flooding and agricultural drought frequency under the NDC Pledges
+    scenario compared to the 2C Central scenario.
+  12: The stringency of the transition pathway, and thus the degree of transition
+    risk, is not necessarily set for a given temperature pathway in each region, as
+    illustrated by the differences between the 2C Central and NDC Pledges scenarios
+    for the EU+UK and USA.
+  15: More stringent mitigation action leads to higher abatement costs and sector-specific
+    transition risks, but lower physical climate hazards; scenarios with similar longer-term
+    physical risks could have very different near-term transition risks.
+  29: Abatement costs directly impact economic output; Carbon price levels are central
+    to considerations of energy portfolio default likelihoods.
+  31: Physical risks are characterized by the median ratio between the scenario risks
+    and the risks under the 2C Central scenario.
+  37: No relevant information
+Methodology:
+  4: Integrated framework to explore near term (to 2030) transition risks and longer
+    term (to 2050) physical risks, globally and in specific regions
+  6: Combines a technology-rich, regionally disaggregated IAM, a reduced complexity
+    climate model, and a suite of impacts models. The IAM represents energy system,
+    agricultural and land-based greenhouse gas emissions. Scenarios explore a range
+    of temperature outcomes and socio-economic/technological choices for 2oC target
+    pathways.
+  10: The framework identifies physical and transition risk metrics that vary most
+    between temperature scenarios; metrics are normalised by values in 2050 (physical
+    risk) and 2030 (transition risk) with the 2C Central scenario; Physical risk metrics
+    show the change in likelihood of the specified acute event relative to the change
+    with the 2C Central scenario, except for crop growth duration which shows the
+    change in yield relative to the change with the 2C Central scenario; The ratio
+    of temperature increase above the 1981-2010 period is used as a reference for
+    physical climate impacts.
+  12: Analysis is performed using the GCAM model to compare different climate scenarios
+    (1.5C, 2C, NDC Pledges) and their associated abatement costs. Results are applicable
+    to 2030.
+  15: Analysis compares physical and transition risks; physical risk analysis focuses
+    on mid-century.
+  27: Land-use change emissions are priced as an exogenously specified proportion
+    of the fossil emissions price, representing limitations in land-use policy implementation.
+  29: Draws from IAM-based indicators of feasibility of the transition which emphasise
+    the importance of abatement costs and carbon prices, as well as reaffirming the
+    importance of coal plant idling and capacity reductions; uses diagnostic exercises
+    to compare major IAM characteristics, including a relative abatement index, emissions
+    reduction type index, marginal abatement cost curves, energy and carbon intensity,
+    fuel shares, mitigation costs, and mitigation cost per unit of carbon pricing.
+  30: Uses GCAM version 5.1 temperature outputs and a probabilistic variant of the
+    MAGICC4.2 simple climate model to simulate climate scenarios. Uncertainty is introduced
+    by perturbing equilibrium climate sensitivity, ocean mixing rate, and climate-carbon
+    cycle feedback strength. Parameter distributions are based on climate modeling
+    literature (CMIP5 and C4MIP).
+  31: Spatially-explicit global-scale impacts models are used to calculate seven hazard
+    and related impact indicators for each emissions scenario, based on damage functions
+    relating the indicator to the increase in global mean surface temperature. Damage
+    functions are constructed for five SSP socio-economic scenarios at 10-year increments
+    and combined with the probability distributions of change in temperature to produce
+    distributions of hazard and impact indicators in each year.
+  32: Uses climate models at a 0.5x0.5 degree scale with daily time steps, applying
+    climate scenarios to observed climate time series from 1981-2010 to define the
+    current reference climate; scaled climate scenarios are constructed using pattern-scaling.
+    Damage functions are assumed to be equally plausible.
+  35: "The study uses different transition pathways based on varying levels of climate\
+    \ mitigation, including those achieving below 2\xB0C, around 2.5\xB0C, and 1.5\xB0\
+    C warming. These scenarios consider technology variations (high renewables vs.\
+    \ non-renewables) and assumptions around industrial demand, building efficiency,\
+    \ transport behavior, land use, and agricultural practices."
+  37: No relevant information
+More Notes:
+  4: Transition risks also depend on technological, policy and socio-economic factors,
+    especially when considering pathways towards a 2oC target.
+  6: Supplementary figures show temporal evolution of transition and physical risk
+    indicators. Methods section fully describes modelling approach, indicator choices,
+    and scenario choices. The study uses 11 scenarios.
+  10: The paper implicitly assumes that the significance of the change in metric is
+    directly proportional to the change, and that a normalised indicator of 1.5 is
+    50% worse than the 2C Central scenario.
+  12: Abatement cost alone may not capture all macroeconomic consequences, particularly
+    if it stimulates net investment, innovation, and growth. Further macro-modelling
+    analysis is required to substantiate this, considering resource utilization in
+    the region.
+  15: The analysis serves as a framework for comparing physical and transition risks
+    and can be built upon to encompass a wider range of scenarios and metrics.
+  29: The analysis does *not* consider the potential stimulus effect of low-carbon
+    investment on economic growth.
+  30: The analysis focuses on transition risks and does not convert metrics into value-at-risk
+    or value losses.
+  31: Uncertainty in ocean mixing is based on model results from the IPCC fourth assessment.
+  32: The paper models the average annual number of people exposed to heatwaves and
+    flooding, which are related to productivity and economic outcomes, but the exact
+    relationship or magnitude of macroeconomic outcomes is not quantified here.
+  35: The study uses the GCAM model, and the data is available upon request and publicly
+    at https://gitbhub.com/JGCRI/gcamdata.
+  37: No relevant information
+Outcome(s) of Interest:
+  4: Economy-wide mitigation costs, fossil fuel demand reductions, coal plant capacity
+    reductions
+  6: No relevant information
+  10: Crop yield (agricultural indicator)
+  12: Global abatement costs as a percentage of global GDP.
+  15: Economy-wide abatement costs could affect assets across the business and household
+    sectors; sector-specific transition risks are relevant to the government and finance
+    sectors in terms of greater fiscal expenditure and lower returns on aggregate
+    investments.
+  29: Economic output is impacted by abatement costs; Household energy costs and therefore
+    loan defaults are affected by electricity and food prices.
+  30: Business and household asset values, economy-wide risks
+  31: No relevant information
+  37: No relevant information
+Quantitative material:
+  4: Temperature pathways spanning 1.5-4oC levels of long-term warming
+  6: No relevant information
+  10: Under the No Policy scenario, physical risk in 2050 is estimated to be 1.47
+    times the 2C Central scenario's risk; Under the 1.5C scenario, risk is 0.9 times
+    the 2C Central scenario's risk; A 30-40% greater chance of a major heatwave in
+    2050 with the NDC Pledges scenario than the 2C Central scenario in most regions;
+    The greatest differences between the NDC Pledges and 2C Central scenarios in the
+    chance of river flooding are in India (18% increase, compared to 12% globally);
+    The greatest differences in agricultural drought frequency are in India (around
+    a 25% increase).
+  12: Global abatement costs in 2030 are 1.6% of global GDP in the 1.5C scenario,
+    0.6% in the 2C Central scenario, and 0.4% in the NDC Pledges scenario.
+  15: Anticipated long-term physical climate-related damages have been found to lead
+    to present-term asset devaluations, which include 25-40 year mortgage books, as
+    well as long-term investments in pension funds.
+  29: No quantitative information on the outcomes of interest on this page.
+  31: Hazard and impact indicators are calculated over a 30-year period.
+  32: Heatwave indicator 1 occurs in around 35% of years; Heatwave indicator 2 occurs
+    in less than 5% of years; significant drought occurs 6.8% of the time during the
+    reference period; 700 million people in 2010 lived in major river floodplains.
+  37: No relevant information

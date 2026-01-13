@@ -1,0 +1,181 @@
+Drivers of Risk:
+  3: Natural disasters, particularly their direct impact on households at various
+    income levels, which depend on country characteristics.
+  5: Natural disasters, measured as the percentage of the population affected, are
+    considered a driver of risk.
+  6: Natural disasters (all, biological, meteorological)
+  7: The graphs indicate the variation of inequality over time and across different
+    districts in Sri Lanka, potentially suggesting vulnerability based on location
+    and time period.
+  8: Natural disasters (current and lagged).
+  9: Disaster impact on inequality of components of income
+  10: Natural disasters (% Population Affected) and its lags
+  11: Natural disasters (climatic, hydrological, geophysical, meteorological, oceanic,
+    or biological)
+  12: 'Natural disasters (various types: biological, climatic, geophysical, hydrological,
+    meteorological)'
+  13: Geophysical, hydrological, and meteorological disasters.
+  14: Biological disasters, Climatic disasters, Geophysical disasters, Hydrological
+    disasters, Meteorological disasters
+Highlights:
+  3: Natural disasters can increase income inequality by disproportionately affecting
+    poorer households and territories.
+  5: There appears to be a significant negative correlation between disasters and
+    income inequality, suggesting a possible reduction of income inequality by natural
+    disasters after controlling for disaster lags, time invariant district fixed effects
+    and time fixed effects.
+  6: Natural disasters affect income inequality.
+  7: The Theil index varies considerably across districts and over time, indicating
+    spatial and temporal inequality dynamics in Sri Lanka.
+  8: Natural disasters have a statistically significant negative impact on income
+    inequality in Sri Lanka, though the effect varies across different components
+    of income and with time lags.
+  10: Natural disasters and their immediate lags tend to reduce income inequality
+    measured by the Theil index, Gini coefficient, and inter quintile range of average
+    income.
+  11: Current natural disasters negatively affect mean household income. Disasters
+    in the previous year negatively affect median household income. Income of all
+    quintiles is affected by natural disasters. The paper finds evidence that income
+    of all the quintiles is affected by natural disasters
+  12: Table 12 indicates that disasters are significantly associated with mean household
+    income (positive association). Disasters are also significantly associated with
+    income in quantile 1 (Q1) and quantile 5 (Q5) income.
+  13: Contemporaneous natural disasters and their immediate lags decrease district-level
+    income inequality as measured by the Theil index. Different natural disaster subgroups
+    affect mean, median household incomes, and income across quintiles differently.
+    Richer quintiles disproportionately bear direct disaster damages at a higher cost,
+    though disasters may open opportunities for the poor.
+  14: Natural disasters lead to lesser income inequality, primarily because richer
+    households suffer greater losses in profits and income. Different types of disasters
+    have different impacts on household income depending on the income quintile.
+Methodology:
+  3: Empirical analysis using disaster data from the Disaster Management Centre of
+    Sri Lanka and socio-economic data from the Household Income and Expenditure Survey
+    series.
+  5: The study employs a panel regression estimator with district and time fixed effects.
+    The analysis is applicable to Sri Lanka.
+  6: Panel fixed effects estimator, ordinary least squares (OLS), System GMM; Regression
+    with disaster lags, district and time fixed effects, control variables such as
+    median household income and headcount index; Decomposition of Theil index into
+    income components; Analysis of household expenditure survey data.
+  7: The analysis uses survey data from 1990, 1995, 2006, 2009, and 2012 to measure
+    inequality using the Theil index for different districts in Sri Lanka.
+  8: Panel regression of district-level inequality measures on contemporaneous and
+    lagged disaster data, with district and time fixed effects and errors clustered
+    at the district level. Results applicable to Sri Lanka based on six waves of surveys.
+  9: Analysis of income shares by quintiles over time to assess the impact of disasters
+    on inequality.
+  10: Panel data regression with district and time fixed effects, clustered standard
+    errors at the district level. Balanced panel of 17 districts and a panel of district
+    level inequality measures for six waves of surveys are used. Alternative estimators
+    (OLS, difference and system GMM) are also used as a robustness check.
+  11: Panel data regressions with district and time fixed effects, GMM estimators
+    (difference and system GMM), OLS. Applicable for analyzing the impact of natural
+    disasters on income and expenditure inequality at a district level over multiple
+    time periods.
+  12: Panel data regressions at the district level, using various estimators (FE,
+    OLS, Diff. GMM, Sys. GMM). Models include district and time fixed effects. Errors
+    clustered at the district level. Disaster data is both contemporaneous and lagged.
+  13: Panel fixed effects estimator used to analyze the impact of natural disasters
+    on income inequality in Sri Lanka at the district level, using a panel dataset
+    for six survey periods between 1990 and 2013. Errors are clustered at the district
+    level.
+  14: Panel data analysis at the district level in Sri Lanka, with district and time
+    fixed effects, errors clustered at the district level, using six waves of surveys
+    with contemporaneous disaster data. Models include a constant term.
+More Notes:
+  5: Data covers multiple districts in Sri Lanka, but some districts (Jaffna, Kilinochchi
+    and Mannar) are only covered in the last survey wave (2012/13). The analysis exploits
+    variation of inequality over time across districts.
+  6: The analysis checks against omitted variable bias. Extreme survey waves (2006/07
+    and 2009/10) are excluded to ensure results are not driven by these events.
+  7: The paper appears to be analyzing inequality trends across districts in Sri Lanka,
+    and figures do not mention climate change or adaptation.
+  8: The effect of natural disasters on income inequality changes over time, with
+    an initial decrease followed by a potential increase in inequality after four
+    years, potentially due to the phasing out of disaster relief and recovery efforts.
+  10: Excluding post-tsunami and post-war survey waves alters the results somewhat,
+    but the effect of natural disasters on income inequality remains significant.
+  11: The paper explores the impact of current and lagged disasters on income inequality,
+    using various inequality measures. It considers different disaster sub-groups
+    and examines the impact on different income quintiles. Results suggest that current
+    disasters negatively affect income of both the poorest and richest quintiles.
+  12: Different types of natural disasters are defined, along with factors that influence
+    their impact (magnitude, intensity, frequency, etc.).
+  13: Biological disasters are excluded from some analyses due to their unique characteristics.
+    The analysis considers lagged effects of disasters up to five periods (Table 15).
+    Excluding meteorological disasters yields similar results to the base model. The
+    study investigates the impact of disasters on household expenditure inequality
+    and finds no evidence of such an effect.
+  14: Analysis does not capture potential internal migration as a result of natural
+    disasters. Analysis could be repeated for other countries with better data. Results
+    may not represent lower income countries which mainly depend on agriculture and
+    are more vulnerable to disasters.
+Outcome(s) of Interest:
+  3: Natural disasters may negatively affect the level of income of the poor, leading
+    to increased income inequality.
+  5: Income inequality, measured by the Theil index and Gini coefficient, is used
+    as a dependent variable.
+  6: Income inequality (Theil index, Gini coefficient, inter quartile range, inter
+    quintile range of average income); Mean and median income; Level of income in
+    different quintiles; Household expenditure inequality.
+  7: Inequality measured by the Theil index.
+  8: Income inequality, measured by the Theil index.
+  9: 'Share of income by components: Employment income, Seasonal Agricultural Income,
+    Non-Seasonal Agricultural Income, Non-Agricultural Income, Non-Monetary Income,
+    Receipts'
+  10: Income inequality (measured by Theil index, Gini coefficient, inter quintile
+    range (IQ5R), and inter quartile range (IQ4R))
+  11: Income inequality, mean household income, median household income, income of
+    the poorest quintile, income of the middle quintiles, income of the richest quintile,
+    household expenditure inequality.
+  12: Income inequality (Theil, Gini), Household income (logged), Expenditure inequality
+    (Theil, Gini)
+  13: Income inequality (measured by Theil index, Gini coefficient, interquartile
+    range (IQ4R), and difference between average incomes of the fifth and first quintiles
+    (IQ5R)) is affected by natural disasters.
+  14: Household income (logged), Income inequality (Theil index)
+Quantitative material:
+  5: Table 1 provides summary statistics (Obs, Mean, Std. Dev, Min, Max) for various
+    variables including income inequality measures (Theil, Gini), income levels (Mean
+    Household Income, Median Household Income, income quintiles), poverty measures
+    (HCI, % of Poor Households), household characteristics (Household Size, % of Households
+    without Electrical Items/Vehicles/Safe Drinking Water/Toilet/No Rooms), and disaster
+    impacts (% of Population Affected by various disaster types and lags).
+  6: Table 2 provides mean income, median income, Theil index, Gini coefficient, and
+    interquartile/interquintile range of income (IQ4R/IQ5R) by district in Sri Lanka.  The
+    map of Sri Lanka provides population affected due to all natural disasters occurred
+    during the survey year in each district. The values of the indicators are presented
+    for each of the 25 districts of Sri Lanka.
+  7: The figures show the Theil index values over time for different districts, ranging
+    from approximately 0 to 3. The first figure depicts the distribution of the mean
+    inequality across districts.
+  8: An increase of current disaster affected population by one percentage point would
+    reduce income inequality measured by Theil index by 0.0062 points. Statistically
+    significant negative impact of natural disasters that occurred in the same year,
+    two years and three years prior to the survey on income inequality measured by
+    Theil index. Natural disasters and their immediate lags significantly decrease
+    non-agricultural income inequality and non-seasonal agricultural income inequality,
+    but increase seasonal agricultural income inequality.
+  9: Provides percentage shares of income components across income quintiles for various
+    years (1990/91, 1995/96, 2002, 2006/07, 2009/10, 2012/13).
+  10: Regression results showing the impact of natural disasters and their lags on
+    various income inequality metrics, with coefficients and standard errors provided.
+  11: Table 9 presents regression results for income inequality on natural disasters,
+    showing coefficients for the impact of disaster (% Pop. Affected) on Theil index,
+    Gini coefficient, and IQ5R (ln). Table 10 shows similar regressions excluding
+    outlier waves, with coefficients for disaster lags.
+  12: 'Table 11: Regression results for income inequality on natural disasters. Table
+    12: Regression results for household income (logged) on natural disasters. Table
+    13: Regression results for expenditure inequality on natural disasters. Tables
+    report coefficients, standard errors, R-squared, number of observations, number
+    of districts, and other relevant statistics for different estimators.'
+  13: Table 14 shows regression results for income inequality on natural disasters
+    by disaster type, including coefficients, standard errors, and significance levels.
+    For example, geophysical disasters have a statistically significant positive impact
+    on the Theil index (0.181*, p < 0.1), Gini coefficient (0.0587***, p < 0.01),
+    and IQ5R (0.185***, p < 0.01).
+  14: Table 16 presents regression results of different disaster sub-groups on household
+    income (logged) for different income quintiles (Mean, Median, Q1, Q2, Q3, Q4,
+    Q5); Table 17 presents regression results of disaster (% population affected)
+    and lagged disaster variables on income inequality (Theil index)

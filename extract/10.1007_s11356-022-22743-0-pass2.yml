@@ -1,0 +1,127 @@
+Drivers of Risk:
+  1: Extreme weather events negatively impact the agricultural economy; changes in
+    rainfall and temperature.
+  2: "Heavy rains; Flooding; Droughts; Rising sea levels; El Ni\xF1o-Southern Oscillation\
+    \ (ENSO); Greenhouse gas emissions; Deforestation; Encroachment on natural water\
+    \ resources; Improper land use; Windstorms"
+  5: The variability or risk of economic value in the agricultural sector (measured
+    by the variance of lnY) is influenced by climatic (lnAverT, lnMinT, lnMaxT, lnRf,
+    lnRfd) and non-climatic (lnA, lnL) factors.
+  6: Mean minimum temperature, mean maximum temperature, rainfall intensity, total
+    rainfall, and the number of agricultural households.
+  7: Mean average temperature, mean minimum temperature, mean maximum temperature,
+    total rainfall, and rainfall intensification in Thailand.
+  8: Climate change, extreme events, weather variability, global warming (specifically
+    from agricultural production).
+  10: lnAverT (log of Average Temperature), lnMinT (log of Minimum Temperature), lnMaxT
+    (log of Maximum Temperature), lnL (log of L)
+  11: No relevant information
+  14: Climate change
+Highlights:
+  1: Extreme weather events have a negative impact, while increased rainfall has a
+    positive association with the agricultural economy. Temperature changes reduce
+    variability of agricultural growth.
+  2: Climate change has a tremendously negative effect on economic growth in Thailand,
+    especially impacting the agricultural sector.
+  5: The ARDL bounds test is used to establish cointegration between lnY (log of Y)
+    and the variance of lnY (lne^2) with independent variables of lnA, lnL, lnAverT.
+  6: Total rainfall and agricultural households positively affect economic growth,
+    while mean temperatures and rainfall intensity negatively impact it.
+  7: Extreme events such as increases in mean maximum temperature, mean minimum temperature,
+    and rainfall intensification, severely affect the agricultural economy in Thailand.
+  8: Climate change affects economic growth with impacts on economy, society, and
+    environment. Agricultural production is a key factor in global warming.
+  10: The table shows whether the variables are stationary in levels I(0) or first
+    differences I(1). Most variables, including temperature variables (lnAverT, lnMinT,
+    lnMaxT), lnRf and log of GDP (lnY) appear to be non-stationary in levels but stationary
+    in first differences, based on the p-values being less than 0.001 for the I(1)
+    tests.
+  11: Cointegration is found for lnY and lne^2 based on the F-statistic and p-value.
+  14: Climate change and cotton production in Pakistan
+Methodology:
+  1: Uses panel data analysis from 1995 to 2019 for 76 provinces in Thailand; includes
+    unit root tests, ARDL bounds for cointegration analysis, and PMG estimation for
+    long-run and short-run effects.
+  2: Panel data analysis to estimate the impact of climate and weather variability
+    on the economic growth of the agricultural sector in Thailand; Uses time series
+    data from 1995 to 2019 across 76 provinces; Considers non-climatic (agricultural
+    land use, households) and climatic (rainfall, temperature) variables
+  5: The study employs an Autoregressive Distributed Lag (ARDL) bounds testing approach
+    to analyze the relationships between variables. It uses the Akaike information
+    criterion (AIC) and the Schwarz information criterion (SIC) to determine lag lengths.
+    Unit root tests (LLC, IPS, ADF-Fisher, PP-Fisher) are used to check for stationarity
+    before applying the ARDL model.
+  6: ARDL bounds testing and PMG estimation based on the Cobb-Douglas function; long-run
+    coefficients are homogeneous across provinces and short-run coefficients are heterogeneous.
+  7: ARDL-PMG estimation using the Cobb-Douglas structure.
+  8: Empirical study providing an indirect analysis of the impact of climate and weather
+    variability on the agricultural economy. Focuses on efficiency of agricultural
+    production.
+  10: Panel unit root tests (LLC, IPS, ADF-Fisher, PP-Fisher) are used to test for
+    stationarity of the variables in the panel data.
+  11: The analysis uses general-to-specific ARDL bounds tests to assess cointegration.
+    Five different "Cases" are considered when conducting the bounds tests, as shown
+    in the table.
+  14: Panel ARDL-PMG approach; Ricardian method; Panel ARDL-PMG approach; Stochastic
+    production model approach; Spurious regressions in econometrics; Production function
+    estimation
+More Notes:
+  2: The study aims to determine the factors that influence aggregate values of the
+    agricultural sector in Thailand and is explicitly studying the impact on the value
+    added and not just productivity as past papers have done. The study uses disaggregated
+    (provincial) data for the period of 1995-2019.
+  6: There is no long-run association of agricultural economy with agricultural land
+    use and mean average temperature at a 0.05 significance level.
+  7: The study confirms the existence of long-run equilibrium between climatic and
+    non-climatic factors and the agricultural economy and its variability in Thailand.
+  8: Emphasis on the need for government and stakeholder awareness of climate change's
+    impact and the importance of agricultural production supervision and control.
+  10: The 'ln' prefix indicates that the variables are in logarithmic form. Note in
+    the table indicates that values in parentheses are p-values.
+  11: The note references Pesaran et al. (2001) as the source for the bounds tests.
+  14: References section, so only provides information *about* studies, not results
+    from them. Several references focus on agricultural impacts, particularly crop
+    yields and farming economics.
+Outcome(s) of Interest:
+  1: Increase in total rainfall positively impacts the agricultural economy; increases
+    in mean average and mean minimum temperatures reduce variability of agricultural
+    growth.
+  2: GDP effects; Inflation; Agricultural productivity; Value-added in agricultural
+    sector
+  5: The study focuses on ln Y (log of Y), an unspecified macroeconomic outcome, and
+    the variance of ln Y (lne^2), to estimate the variability or risk of economic
+    value in the agricultural sector.
+  6: Variability of the agricultural economy and economic growth in the agricultural
+    sector.
+  7: Agricultural economy (agricultural revenue/value/productivity) and its variability
+    in Thailand.
+  8: Economic growth of the country, impacts on the economy, society, and environment.
+  10: lnY (log of Y), potentially representing log of GDP; lnRf (log of Rf), possibly
+    representing log of rainfall; lnRfd (log of Rfd); lne (log of e)
+  11: No relevant information
+  14: Economic growth; Impacts on cereal farming; Economic growth; Economic impact
+    on crop farming
+Quantitative material:
+  2: 2011 great flood caused US$ 6.23 billion damage to the Thai economy; Exported
+    products decreased by US$ 2.5 billion due to the 2011 flood; Headline inflation
+    reached 3.9 percent in 2011; 2015-2016 drought affected 187,351 farmers and damaged
+    474,409 hectares of agricultural land, with estimated damage of US$ 468.72 million;
+    Damage to agriculture due to droughts, floods, and windstorms in the past 24 years
+    (from 1989 to 2012) was approximately US$ 5.77 billion
+  6: Long-run coefficients indicate that a 1% increase in agricultural households
+    increases the agricultural economy by 0.335%, a 1% increase in total rainfall
+    increases it by 2.491%, a 1% increase in mean minimum temperature decreases it
+    by 6.223%, a 1% increase in mean maximum temperature decreases it by 6.238%, and
+    a 1% increase in rainfall intensity decreases it by 0.944%.
+  7: Panel datasets from 1995 to 2019 for 76 provincial levels in Thailand.
+  8: No specific quantitative information on macroeconomic or fiscal outcomes provided.
+  10: Panel unit root tests results (LLC, IPS, ADF-Fisher, PP-Fisher) for various
+    variables, including test statistics and p-values. The table includes values for
+    both I(0) and I(1), representing the variable in levels and first differences,
+    respectively.
+  11: F-statistic values for lnY and lne^2, and critical values for bounds tests at
+    0.01, 0.05, and 0.1 levels for Cases I-V.
+  14: Pakistan J Appl Econ 23(1):31 -54; Environ Econ Policy Stud 18(3):417 -436;
+    Environ Sci Pollut Res 26(13):13334 -13345; Ecol Econ 164:106354; J Saudi Soc
+    Agric Sci 18(4):449 -457; J Econometrics 7(1):67 -86; Am J Agric Econ 61(2):276
+    -284

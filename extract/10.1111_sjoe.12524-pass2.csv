@@ -1,0 +1,47 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Agricultural yield,India,Drought,2006,No CC,%,0,NA,NA,NA,NA,NA,Page 1,Yield falls strongly after droughts compared to normal rainfall
+1,Wages,India,Drought,2006,No CC,%,0,NA,NA,NA,NA,NA,Page 1,Wages decline persistently for up to five years after widespread droughts
+2,Food prices,India,Drought,2006,No CC,%,0,NA,NA,NA,NA,NA,Page 1,Food prices increase persistently for up to five years after widespread droughts
+3,Annual rainfall,India,Observed rainfall (1967-2006),2005,Mean,cm,116.62,67.00,NA,NA,NA,NA,Page 7,District level data
+4,Monsoon rainfall,India,Observed rainfall (1967-2006),2005,Mean,cm,98.08,56.66,NA,NA,NA,NA,Page 7,District level data
+5,Monsoon season rainfall,India,Observed rainfall (1967-2006),2005,Mean,SD,0.00,0.99,NA,NA,NA,NA,Page 7,Standardized
+6,Local monsoon rainfall,India,Observed rainfall (1967-2006),2005,Mean,SD,0.00,0.59,NA,NA,NA,NA,Page 7,Standardized
+7,Regional monsoon rainfall,India,Observed rainfall (1967-2006),2005,Mean,SD,0.00,0.79,NA,NA,NA,NA,Page 7,Standardized
+8,Agricultural yield,India,Observed rainfall (1967-2006),2005,Mean,Log (ton per km2),4.69,0.69,NA,NA,NA,NA,Page 7,District level data
+9,Agricultural wage,India,Observed rainfall (1967-2006),2005,Mean,Log (Rupees),2.44,1.15,NA,NA,NA,NA,Page 7,District level data
+10,Price index,India,Observed rainfall (1967-2006),2005,Mean,Log (Rupees per ton),7.66,0.78,NA,NA,NA,NA,Page 7,District level data
+11,Share of irrigated land,India,Observed rainfall (1967-2006),2005,Mean,Share,0.33,0.25,NA,NA,NA,NA,Page 7,District level data
+12,Monsoon temperature,India,Observed rainfall (1967-2006),2005,Mean,Demeaned,0.00,0.46,NA,NA,NA,NA,Page 7,District level data
+13,Wage growth,India,Observed rainfall,1968,Pre-shock,N/A,0,NA,NA,NA,NA,NA,13,Wages do not adjust for inflation in the year after a negative monsoon rainfall shock.
+14,Agricultural wages,India,Observed rainfall,1971,Pre-shock trend,N/A,-1,NA,NA,NA,NA,NA,13,Effects of negative monsoon rainfall shocks on agricultural wages are near-permanent. We set value to -1 because wages are decreased.
+15,Rice price,India,Observed rainfall,1967,Pre-shock trend,N/A,1,NA,NA,NA,NA,NA,13,Rice prices increase in the year of the monsoon rainfall shock. We set value to 1 because prices are increased.
+16,Rice price,India,Observed rainfall,1969,Pre-shock trend,N/A,1,NA,NA,NA,NA,NA,13,Rice prices remain above pre-shock trend. We set value to 1 because prices are increased.
+17,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.148,0.037,NA,NA,NA,NA,19,"Negative local rainfall shock at low irrigation, baseline specification."
+18,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.317,0.041,NA,NA,NA,NA,19,"Negative regional rainfall shock at low irrigation, baseline specification."
+19,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.118,0.029,NA,NA,NA,NA,19,"Negative local rainfall shock at medium irrigation, baseline specification."
+20,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.223,0.034,NA,NA,NA,NA,19,"Negative regional rainfall shock at medium irrigation, baseline specification."
+21,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.073,0.029,NA,NA,NA,NA,19,"Negative local rainfall shock at high irrigation, baseline specification."
+22,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.079,0.042,NA,NA,NA,NA,19,"Negative regional rainfall shock at high irrigation, baseline specification."
+23,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.164,0.040,NA,NA,NA,NA,19,"Negative local rainfall shock at low irrigation, small districts."
+24,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.235,0.045,NA,NA,NA,NA,19,"Negative regional rainfall shock at low irrigation, small districts."
+25,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.130,0.033,NA,NA,NA,NA,19,"Negative local rainfall shock at medium irrigation, small districts."
+26,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.175,0.038,NA,NA,NA,NA,19,"Negative regional rainfall shock at medium irrigation, small districts."
+27,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.078,0.038,NA,NA,NA,NA,19,"Negative local rainfall shock at high irrigation, small districts."
+28,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.083,0.041,NA,NA,NA,NA,19,"Negative regional rainfall shock at high irrigation, small districts."
+29,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.119,0.067,NA,NA,NA,NA,19,"Negative local rainfall shock at low irrigation, large districts."
+30,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.272,0.047,NA,NA,NA,NA,19,"Negative regional rainfall shock at low irrigation, large districts."
+31,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.092,0.032,NA,NA,NA,NA,19,"Negative local rainfall shock at medium irrigation, large districts."
+32,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.149,0.037,NA,NA,NA,NA,19,"Negative regional rainfall shock at medium irrigation, large districts."
+33,Agricultural yield,India,Observed rainfall,1991,Baseline,,-0.050,0.046,NA,NA,NA,NA,19,"Negative local rainfall shock at high irrigation, large districts."
+34,Agricultural yield,India,Observed rainfall,1991,Baseline,,0.037,0.075,NA,NA,NA,NA,19,"Negative regional rainfall shock at high irrigation, large districts."
+35,Kharif Crop Yield,India,Positive Rainfall Shock,2007,Baseline,Percent,0,NA,25%,-3.5,75%,-2.2,637,Reflects an increase in rabi (winter) crop production profiting from additional water supply caused by above-average monsoon rainfall in the kharif season. Values are declines.
+36,Rabi Crop Prices,India,Positive Rainfall Shock,2006,Baseline,NA,0,NA,NA,NA,NA,NA,637,Illustrated response is negative.
+37,Rabi Crop Yield,India,Positive Rainfall Shock,2006,Baseline,NA,0,NA,NA,NA,NA,NA,637,Illustrated response is positive.
+38,Expenditure on staple foods,India,Rainfall shock,1998,No shock,Percentage change,0,NA,NA,NA,NA,NA,31,Labourers and cultivators both reduce staple food consumption expenditures on impact; analysis includes endogenous response in consumption expenditures. 1998 is the midpoint of the 1989-2006 period.
+39,Consumption,India,Observed Rainfall,1990,Normal Rainfall,Units not Specified,-1,NA,90%,NA,NA,NA,p. 647,Drought leads to a fall in real consumption. Coded as -1 to indicate reduction.
+40,Staple food expenditure,India,Observed Rainfall,1990,Normal Rainfall,Units not Specified,-1,NA,90%,NA,NA,NA,p. 647,"Drought leads to reduced consumption expenditure on staple foods, especially for agricultural laborers, lasting several years. Coded as -1 to indicate reduction."
+41,Agricultural wages,India,Observed Rainfall,1990,Normal Rainfall,Units not Specified,-1,NA,90%,NA,NA,NA,p. 647,Drought leads to a persistent decline in agricultural wages. Coded as -1 to indicate reduction.
+42,Agricultural Yield,India,Regional drought,2000,Normal rainfall,percent,-30,NA,NA,NA,NA,NA,33,"Yield falls by up to 30% after a regional drought, depending on the local extent of irrigation."
+43,Agricultural Yield,India,Local drought,2000,Normal rainfall,percent,-15,NA,NA,NA,NA,NA,33,"Yield falls by up to 15% after a local drought, depending on the local extent of irrigation."
+44,Wages,India,Regional drought,2002,Normal rainfall,percent,-7,NA,NA,NA,NA,NA,33,Wages fall by up to 7% with the peak decline occurring two years after the drought and lasting up to five years.
+45,Food Prices,India,Regional drought,2000,Normal rainfall,percent,5,NA,NA,NA,NA,NA,33,"Food prices immediately rise by up to 5 percent, and remain at elevated levels for up to two years."

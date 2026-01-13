@@ -1,0 +1,235 @@
+Category:
+  26: Extracted Information
+Drivers of Risk:
+  1: 1970 cyclone in Bangladesh
+  4: Exposure to the 1970 cyclone, the 1971 war, and the 1974 famine; poor environmental
+    conditions during the prenatal and neonatal periods
+  6: The 1970 cyclone in Bangladesh.
+  7: Severe monsoon floods, market failures and price speculation in the food-grains
+    market.
+  9: The 1970 cyclone in Bangladesh and its long-term effects on affected regions
+    and cohorts.
+  10: The 1970 cyclone is the primary climate-related shock being analyzed. The 1971
+    war and 1974 famine are considered as contemporary events with potential cross-effects.
+  13: Exposure to the 1970 cyclone in Bangladesh, specifically severe exposure in
+    Barisal and Noakhali regions and mild exposure in neighboring regions, as well
+    as the 1971 war and the 1974 famine.
+  15: Exposure to disasters, especially in rural areas, due to lack of amenities (healthcare,
+    schooling, employment).
+  21: The note at the bottom of the table indicates that the cyclone sample includes
+    1,059 valid observations, suggesting that cyclone exposure is a driver of risk.
+  22: Cyclone Region 1 and Cyclone Region 2
+  23: Cyclone, War, Famine
+  24: Cyclones are the primary shock being investigated.
+  27: "Placebo Cyclone Cohort \xD7 Cyclone Region 1 and Placebo Cyclone Cohort \xD7\
+    \ Cyclone Region 2"
+  35: Various natural disasters affecting Bangladesh, such as droughts, earthquakes,
+    epidemics, extreme temperatures, floods, landslides, and storms.
+  37: Cyclone exposure, War Cohort, Famine Cohort, and interactions between these
+    variables and geographic region (Region 1, Region 2).
+Highlights:
+  1: Children surviving the cyclone experience significant health, schooling, and
+    consumption adversities in adulthood, with lower probabilities of good health
+    and primary schooling, and lower durations of good health, schooling and consumption.
+    These adversities are heightened among rural and less-educated households.
+  4: Rural poor households experience heightened long-term adversities from childhood
+    exposure to disasters; schooling has mitigating effects on these outcomes; government
+    investments benefiting the rural poor (education, infrastructure) might have remedial
+    influences on the harms of a disaster.
+  6: The 1970 cyclone resulted in widespread loss of life and property, with significant
+    impact on coastal regions like Noakhali and Barisal.
+  13: Severe exposure to the 1970 cyclone had significant long-term adverse effects
+    on health, schooling, solvency and per-capita expenditure for cohorts in the Barisal
+    and Noakhali regions born between 1969 and 1971. Mild exposure to the 1970 cyclone
+    did not have significant long-term adverse effects on health or schooling outcomes.
+  15: Rural households experience greater adversity from disasters due to a lack of
+    infrastructure, affecting long-term welfare of children; parental education does
+    not show a significant mitigating effect.
+  22: The analysis aims to test the parallel trends assumption, which is a key assumption
+    for causal inference, particularly in difference-in-differences designs.
+  23: Exposure to the 1970 cyclone induces long-term health and schooling adversities.
+    The table presents estimates from regressions of whether exposure to the 1970
+    cyclone induces long-term health and schooling adversities, according to the empirical
+    specification (2).
+  24: Cyclones have differential impacts on health, schooling, and consumption outcomes
+    depending on rural location and parental schooling. Rural areas and individuals
+    with less-educated parents may experience more negative impacts from cyclones,
+    especially in specific regions.
+  25: The table presents estimates of the impact of cyclone exposure on illness-free
+    total life-years.
+  27: Some placebo cyclone cohorts have statistically significant effects on health,
+    schooling, and consumption outcomes, suggesting potential issues with the identification
+    strategy in the main analysis.
+  35: No relevant information
+  37: Cyclone exposure has significant negative effects on consumption outcomes (Solvent
+    and Ln(Expenditure)) in some specifications, particularly when interacted with
+    Region 2 and/or cohort variables. War and famine cohorts also have impacts.
+Methodology:
+  1: Uses childhood exposures to the 1970 cyclone as natural experiments, hypothesizing
+    that greater exposure leads to poorer adult outcomes.
+  4: Separation of the net impacts of the 1970 cyclone from other contemporary adverse
+    events using controls for confounding effects
+  6: No relevant information
+  9: The analysis employs an identification strategy exploiting variations in timing
+    and geography of a 1970 cyclone, using a model that interacts cyclone region dummies
+    and cohort dummies, controlling for household and regional level variables.
+  10: Heckman selection models are used to correct for sample selection bias when
+    limiting the estimating sample to agricultural households. The long-term effects
+    of the 1970 cyclone are estimated, controlling for cross-effects of other events
+    (war, famine) and incorporating selection into agriculture using agricultural
+    landholding.
+  13: Regression analysis (equation 2) is used to estimate the long-term effects of
+    the 1970 cyclone on health and schooling outcomes for cohorts born between 1964
+    and 1980, using data from cyclone-affected and control regions. The analysis controls
+    for the 1971 war and the 1974 famine.
+  21: The analysis considers birth cohorts 1964-80 and excludes Chittagong, CHT and
+    Dhaka regions. It uses summary statistics as part of its methods.
+  22: "Regression analysis is used to investigate the parallel trends assumption by\
+    \ regressing outcome variables on cyclone region indicators. The regression equation\
+    \ is \U0001D466\U0001D456 = \U0001D6FC0 + \u2211\U0001D457=1 to 2 \U0001D717\U0001D457\
+    \U0001D445\U0001D457 + \U0001D716\U0001D456, where Rj represents cyclone regions.\
+    \ Standard errors are clustered at the district level. The analysis is restricted\
+    \ to the estimating samples used in Table 3 (of the source paper)."
+  23: The analysis uses regression models to estimate the long-term impacts of exposure
+    to the 1970 cyclone on health, schooling, and consumption, controlling for year
+    of birth, subdivision/thana of birth, and survey year. Standard errors are clustered
+    at the district level.
+  24: The study uses regression analysis to estimate the impact of cyclone exposure
+    on various outcomes, considering interactions with rural location and parental
+    schooling. Standard errors are clustered at the district level. The analysis follows
+    an 'empirical specification (4)' that includes additional interactions. Results
+    are applicable at the national level (potentially for the country the study is
+    covering, implied, not stated). Results are from 'Tables A.4 and A.5.'
+  25: Regression analysis based on empirical specification (2) with control variables,
+    year fixed effects (FE), Thana FE, and HIES FE.
+  27: Placebo regressions based on empirical specification (1) excluding ALF due to
+    data unavailability before 1964 and with selection into agriculture. Standard
+    errors clustered at the district level. Statistical significance at 1%, 5% and
+    10% levels. Includes control variables, Year FE, Thana FE, and HIES FE.
+  35: Data generated from EM-DAT database as of April 28, 2020.
+  37: The analysis uses a regression framework (Eq. (1) and Eq. (2)) with fixed effects
+    for year (Year FE) and location (Thana FE) to estimate the impact of various factors
+    on Health, Schooling, and Consumption outcomes. The regressions consider interaction
+    effects between Cyclone exposure and other cohort and region variables.
+More Notes:
+  1: The paper focuses on individual-level impacts rather than macroeconomic or macro-fiscal
+    outcomes. It suggests public programs benefiting females and the poor, and development
+    of healthcare and schooling infrastructure, as protective measures.
+  4: This paper focuses on the long-term effects of the 1970 cyclone across different
+    regions of Bangladesh, unlike previous studies that focused on immediate impacts
+    or specific regions and events.
+  6: Mentions the 1971 war and 1974 famine as part of an exceptional period (1970-1974)
+    but focuses on the 1970 cyclone on this page.
+  7: This page focuses on the effects of Cyclone Bhola and the 1974 famine in Bangladesh
+    but does not provide a quantitative assessment of macroeconomic or fiscal outcomes,
+    adaptation costs, or benefits at a national level. It does discuss long-term individual-level
+    outcomes such as lower educational attainment, employment opportunities and income,
+    however.
+  13: The specification (1) underestimates the adversities of cyclone exposure.
+  15: Location (rural vs. urban) is used as a proxy for availability of amenities;
+    the definition of urban is mostly statistical, with some overlap in agricultural
+    activities.
+  21: The dependent variables 'Healthy', 'Health', 'Educated' and 'Schooling' could
+    be used as proxy variables for productivity, which in turn has macroeconomic relevance.
+  22: The R-squared values are very low, suggesting that the cyclone region indicators
+    explain very little of the variation in the outcome variables. Statistical significance
+    is indicated by asterisks, but none of the coefficients for Cyclone Region 1 or
+    Cyclone Region 2 on 'Solvent' and 'Ln(Expenditure)' are statistically significant
+    at the 10% level based on the reported standard errors.
+  23: "The table refers to definitions of outcome variables in Table 2 and Section\
+    \ 3.3, and shock regions and cohorts in Table 1. Detailed results are appended\
+    \ in Table A.3. The analysis focuses on the long-term impacts of these shocks,\
+    \ implying a long-term time horizon for the results. The coefficients of (Cyclone\
+    \ Cohort \xD7 Cyclone Region 1) and (Cyclone Cohort \xD7 Cyclone Region 2) are\
+    \ parameters of interest."
+  24: The dependent variable 'Solvent' is not fully defined, but seems to be related
+    to financial stability. The analysis is conducted at the individual or household
+    level, and the results are coefficients from regressions, not direct macroeconomic
+    or fiscal aggregates.
+  25: Standard errors are reported in parentheses. Statistical significance levels
+    are indicated by ***, ** and * representing 1%, 5% and 10% levels, respectively.
+    Detailed results are appended in Table A.6.
+  27: The purpose of this table is a placebo test, designed to test the robustness
+    of the main results. It uses placebo cyclone events to see if they also correlate
+    with outcomes. Significant effects in the placebo test would suggest that the
+    main results might be spurious. Detailed results are appended in Table A.8.
+  35: Focuses on historical natural disaster data in Bangladesh, which can inform
+    risk assessment but lacks direct analysis of macroeconomic or fiscal impacts.
+  37: The analysis examines the impact of cyclone exposure, war, and famine on various
+    socio-economic indicators, including health, schooling, and consumption. The interaction
+    terms between cyclone exposure and region/cohort variables suggest that the impact
+    of cyclones varies depending on geographic location and historical events. Location,
+    Gender, Parental Schooling, ALF, Age and Age-Squared are used as control variables.
+No relevant information:
+  41: This table focuses on the impact of cyclones, war, and famine on individual
+    health outcomes (Ln(Health)), not macroeconomic or fiscal outcomes. It does not
+    provide quantitative information or analysis directly related to the costs and
+    benefits of national-level adaptation strategies. Therefore, it does not contain
+    relevant information for the specified categories.
+Outcome(s) of Interest:
+  1: No relevant information
+  4: Long-term economic impacts on households across Bangladesh; long-term adversities
+    for rural poor households; impacts on life expectancy, height, and cognitive ability
+  6: No relevant information
+  7: Increased prices of essential commodities, spike in unemployment, reduced purchasing
+    power.
+  13: No relevant information
+  15: Health, schooling, and consumption outcomes.
+  21: The study uses 'Solvent' (1 if solvent and 0 if otherwise) and 'Expenditure'
+    (Monthly household per-capita expenditure, taka) as outcome variables, which are
+    indirectly related to macroeconomic outcomes.
+  22: Consumption outcomes, specifically 'Solvent' and 'Ln(Expenditure)'
+  23: No relevant information
+  24: Consumption outcomes are considered, specifically 'Solvent' (likely indicating
+    solvency or financial stability) and 'Ln(Expenditure)' (log of expenditure), which
+    can relate to economic activity.
+  25: Ln(Health) defined as the log of illness-free total life-years.
+  27: Health outcomes (Healthy, Ln(Health)), Schooling outcomes (Educated, Ln(Schooling)),
+    Consumption outcomes (Solvent, Ln(Expenditure))
+  35: No relevant information
+  37: Consumption outcomes, measured as Solvent (a binary solvency indicator) and
+    Ln(Expenditure).
+Quantitative material:
+  1: No relevant information
+  6: Total mortality was more than 300,000 people, and nearly four million people
+    were directly affected. The estimated total damage was $86.4 million in 1970 U.S.
+    Dollars, equivalent to $450 million in 2006.
+  7: "The 1974 famine caused an estimated 0.45\u20131.5 million deaths through starvation\
+    \ and diseases."
+  13: 1969-71 cohorts from severely affected regions have 14.9 percentage points lower
+    probability of good health during their adulthood and 53.6% lower duration of
+    good health over their entire lifetime. They also have 21.8 percentage points
+    lower probability of completing at least 5th grade of schooling and 49% lower
+    years of schooling. Similarly, they have 12.5 percentage points lower probability
+    of solvency and 26.5% lower per-capita expenditure.
+  15: Rural household heads born during 1969-71 in severely affected regions have
+    60.8 percentage points lower probability of completing at least 5th grade of schooling;
+    urban counterparts also have 117% higher years of schooling.
+  21: The table provides summary statistics (mean, standard deviation, minimum, and
+    maximum values) for 'Solvent' and 'Expenditure', potentially allowing for quantitative
+    analysis of the impact of climate-related events like cyclones on these economic
+    outcomes.
+  22: Coefficients and standard errors are provided for the impact of Cyclone Region
+    1 and Cyclone Region 2 on 'Solvent' and 'Ln(Expenditure'). For Cyclone Region
+    1, the coefficient for 'Solvent' is -0.040 (0.037) and for 'Ln(Expenditure)' it
+    is -0.073 (0.054). For Cyclone Region 2, the coefficient for 'Solvent' is -0.017
+    (0.040) and for 'Ln(Expenditure)' it is 0.030 (0.078).
+  23: Yes, the table provides regression coefficients and standard errors for the
+    impact of cyclone, war, and famine cohorts, and their interaction with cyclone
+    regions, on health, schooling, and consumption outcomes.
+  24: The table presents regression coefficients and standard errors showing the impact
+    of interacting rural location and parental schooling with cyclone exposure on
+    health, schooling, and consumption outcomes. For example, rural location and exposure
+    to a cyclone in Region 1 is associated with a statistically significant negative
+    impact on being solvent (-0.334) and the log of expenditure (-0.393).
+  25: "Coefficients and standard errors for 'Cyclone Cohort \xD7 Cyclone Region 1'\
+    \ and 'Cyclone Cohort \xD7 Cyclone Region 2' at the 25th and 75th percentiles\
+    \ are reported. Number of observations is also reported."
+  27: Coefficients and standard errors for the impact of placebo cyclone cohorts on
+    health, schooling, and consumption outcomes; R-squared values for each regression
+  35: Historical data on disaster events in Bangladesh from 1900-2019 including the
+    number of events, total deaths, total affected, and total damage (some in thousands
+    of US$).
+  37: The table presents regression coefficients and standard errors for the impact
+    of Cyclone, War Cohort, and Famine Cohort on Health, Schooling, and Consumption
+    outcomes. Significance levels are indicated by *, **, and ***.

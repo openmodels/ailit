@@ -1,0 +1,247 @@
+Drivers of Risk:
+  1: Coastal erosion.
+  4: Climate change, resulting sea-level rise, and subsequent coastal erosion.
+  6: Coastal erosion under sea level rise (SLR).
+  7: SLR-induced coastal erosion.
+  11: Coastal erosion is mentioned.
+  15: Coastal erosion, land use change, uncertainty in ecosystem service valuation,
+    and demographic growth.
+  17: Erosion due to climate change under RCP4.5 and RCP8.5 emissions scenarios.
+  18: Climate change (implied by RCP4.5 and RCP8.5 scenarios), Coastal erosion
+  20: Coastal erosion.
+  21: Coastal erosion.
+  22: Climate change impacts on ecosystem services.
+  42: No relevant information
+  51: Climate change impacts on ecosystem services, specifically considering RCP4.5
+    and RCP8.5 emissions scenarios.
+  52: Climate change impacts leading to loss of coastal ecosystem services.
+  55: Coastal erosion projection under RCP8.5
+  58: Coastal erosion, future population change at national level.
+  61: Coastal erosion.
+Highlights:
+  4: The most affected countries in relative economic terms would be Denmark, Albania,
+    Greece, Estonia, and Finland. Germany, the Netherlands, and France would lose
+    the largest share of their coastal ecosystem services. Salt marshes would experience
+    the highest absolute losses, while beaches, sands, and dunes would experience
+    the highest relative losses.
+  6: Land erosion leads to a loss of ecosystem services with estimated monetary value;
+    however, national-scale impacts are not presented.
+  7: Presents the first pan-European analysis of ecosystem service loss due to SLR-induced
+    coastal erosion.
+  11: Ecosystem service valuation is a key area.
+  15: Impacts are analyzed at national and regional scales. The influence on results
+    of factors beyond coastal erosion (land use change, ecosystem valuation uncertainty,
+    demographic growth) are analyzed.
+  17: Wetlands services would make up more than 70% of losses, up to 30 billion euros,
+    or almost a quarter of the 2018 value.
+  18: Beaches, sands, and dunes are identified as the most endangered ecosystems in
+    relative terms. Salt marshes face the biggest losses in absolute terms (14-17
+    billion euros per annum by 2100). Agricultural areas associated with an intense
+    mode of production are the least affected.
+  20: Coastal ecosystem services vary substantially between countries. The United
+    Kingdom, France, and Italy had the highest total value of coastal ecosystem services
+    in 2018. Greece had the highest relative economic value in Europe (more than 18%
+    of GDP). Denmark is projected to lose the most services relative to GDP, while
+    France is projected to have the highest absolute losses.
+  21: Some countries are projected to lose significant portions of their coastal ecosystem
+    services as a percentage of GDP due to coastal erosion.
+  22: Southeast coast of North Sea, Bay of Biscay, and eastern Mediterranean Sea are
+    identified as areas with concentrated impacts. Danish, German, and French regions
+    frequently appear on top in terms of absolute losses. Some Greek and Dutch regions
+    are also projected to be heavily affected.
+  42: No relevant information
+  51: "The total value of coastal ecosystem services in 2018 is estimated at \u20AC\
+    494.1 billion. This table shows the projected percentage loss in value for different\
+    \ types of ecosystem services by 2050 and 2100."
+  52: The study quantifies the economic impact of losing coastal ecosystem services
+    due to climate change by expressing the annual loss as a percentage of GDP.
+  55: Coastal erosion could cause a loss of coastal ecosystem services up to a maximum
+    estimate representing the 95th percentile of the erosion projection.
+  61: Coastal ecosystem services can represent over 80% of GDP in some NUTS 3 regions.
+    Coastal erosion is constrained by topographical and artificial barriers.
+Methodology:
+  1: The paper analyzes future losses of ecosystem services, implicitly linking environmental
+    changes to potential economic consequences.
+  4: Uses datasets derived from remote sensing products (CORINE Land Cover) and probabilistic
+    coastal erosion projections constrained by artificial and topographical barriers.
+    Historical changes (2000-2018) and projections under RCP4.5 and RCP8.5 for 2050
+    and 2100 are included.
+  6: Analysis uses Special Report on Energy Scenarios (SRES) climate change scenarios
+    (now outdated) and deterministic projections of erosion spanning until the mid-21st
+    century.
+  7: Combines land cover data, coastal erosion projections, and ecosystem service
+    valuations to project losses and relative economic impacts. Covers 33 countries
+    and dependent territories, excluding Russia and Ukraine due to data limitations.
+  9: The study uses CLC (Corine Land Cover) 2018 as the baseline land cover/use for
+    future projections. Historical changes were identified through CLC-Changes for
+    2000-2006, 2006-2012, and 2012-2018, due to the higher resolution of CLC-Changes.
+    All CLC data were used in vector format (v20 dated May 1, 2019).
+  11: Uses the Bruun rule, MERIT digital elevation model, and GEBCO dataset to estimate
+    coastal erosion. Ecosystem service valuation uses integrated evidence from various
+    case studies.
+  15: Geospatial data processing was carried out using Python scripts executed in
+    ArcGis software, while statistical analyses of the results were completed in MATLAB.
+    Land cover transitions between 2000 and 2018 are investigated using CLC-Changes
+    layers. Uncertainty of ecosystem valuation is based on ranges of estimates from
+    other studies (de Groot et al., 2012).
+  18: Median projections for RCP4.5 and RCP8.5 scenarios are used for 2050 and 2100.
+    90% confidence intervals are provided.
+  20: Analyzing the loss as a percentage of 2018 services.
+  21: The coastal zone in the study area intersects with 491 NUTS 3 regions, of which
+    405 would be affected by coastal erosion in at least one scenario.
+  22: The analysis projects losses of ecosystem services for the year 2100 under best-case
+    and worst-case scenarios.
+  42: No relevant information
+  51: The values for 2050 and 2100 are median projections and 90% confidence intervals
+    are provided.
+  52: The study projects losses for 2050 and 2100.
+  55: Projection of coastal erosion and its impact on ecosystem services.
+  58: Uses expectancy of the distribution of the United Nations (2019) probabilistic
+    population projections.
+  61: Analysis of constrained erosion extent based on topographical and artificial
+    barriers, analyzed at the level of transects.
+More Notes:
+  1: The paper focuses on ecosystem services, which are indirectly related to macroeconomic
+    and macro-fiscal outcomes. Further investigation is needed to determine the direct
+    impact on GDP, budget balance, or other measures of interest.
+  4: The study highlights the urgency of undertaking mitigation actions. The analysis
+    is performed at the NUTS 3 regional level.
+  6: The study covers merely 10 European countries.
+  7: Study hypothesizes that coastal erosion will have uneven impacts on ecosystem
+    services across Europe, but those impacts will be locally significant.
+  9: The study focuses on land cover changes, particularly in coastal regions. Figure
+    2 illustrates the countries and territories included in the study and their coastal
+    regions. Supplementary Figure 1 presents the CLC inventory for an example coastal
+    area in Germany, showing land loss due to erosion between 2012 and 2018.
+  11: The text appears to use specific symbols instead of regular text which may have
+    caused inaccurate extractions.
+  15: Two regions of Ireland (mid-west and south-west) were merged due to lack of
+    separate regional GDP estimates. National-level GDP was used for Bosnia and Herzegovina
+    as the country has not implemented the NUTS classification. Results for Norway
+    exclude ecosystem services and GDP from three regions where coastal erosion data
+    were not available. Five small countries and territories were excluded from the
+    economic analysis due to lack of GDP data.
+  18: Water excludes the sea and ocean. The impacts of coastal erosion vary between
+    different ecosystem services. The main benefits of the ecosystems are regulating.
+  20: The importance of coastal ecosystem services is also high in Cyprus, Estonia,
+    and Montenegro. Low importance was recorded in Bosnia and Herzegovina, Belgium,
+    and Slovenia.
+  21: The analysis includes projections for specific countries and regions regarding
+    losses in ecosystem services due to coastal erosion. The impact is quantified
+    in billions of euros and as a percentage of 2018 GDP.
+  42: This page appears to be a list of references related to ecological economics
+    and coastal management, potentially relevant for understanding the broader context
+    of climate change impacts and adaptation but without specific details on macroeconomic
+    or macro-fiscal outcomes at a national level, as requested.
+  51: The analysis focuses on the coastal zone and considers regulating, habitat,
+    provisioning, and cultural ecosystem services.
+  52: The figure includes data for Bosnia and Herzegovina (BH) and the United Kingdom
+    (UK).
+  55: The analysis pertains to NUTS 3 regions.
+  61: The paper analyzes coastal erosion and its potential impact on ecosystem services
+    and regional GDP.
+No relevant information:
+  2: No relevant information
+  12: ''
+  14: This page focuses on the methodology for modeling coastal erosion and the impact
+    of barriers, but does not contain any macroeconomic or fiscal outcome information.
+  25: This page primarily discusses coastal erosion, sea level rise, and ecosystem
+    services, without providing quantitative data or specific macroeconomic/fiscal
+    outcomes. It focuses on methodological challenges and ecological impacts rather
+    than direct economic costs or benefits at a national level.
+  27: No relevant information
+  49: No relevant information
+  50: No relevant information
+Outcome(s) of Interest:
+  1: Future losses of ecosystem services due to coastal erosion in Europe.
+  4: Loss of ecosystem services provided by coastal areas, quantified in monetary
+    terms (euros).
+  6: Loss of ecosystem services due to coastal erosion, measured in Euros.
+  7: Ecosystem service loss and its relative economic impact at national and local
+    scales.
+  11: The paper mentions ecosystem service valuation as a relevant concept. It specifically
+    mentions the total value of global annual ecosystem services being revised upward
+    more than threefold.
+  15: Value of ecosystem services lost, presented in absolute terms, relative to their
+    value in 2018, and in relative economic terms (using GDP).
+  17: Possible loss of up to 42 billion euros per year in ecosystem services.
+  18: Annual ecosystem services value in billions of 2018 euros.
+  20: Impacts on GDP from coastal erosion and loss of coastal ecosystem services.
+  21: Loss of coastal ecosystem services, measured in billions of euros and as a percentage
+    of 2018 GDP.
+  22: Loss of ecosystem services, measured as a percentage of regional GDP and in
+    absolute Euro values.
+  42: No relevant information
+  51: Economic costs of climate change impacts on ecosystem services in the coastal
+    zone, measured in billions of 2018 euros and as a percentage change from 2018
+    levels.
+  52: Projected loss of coastal ecosystem services per year, as a percentage of 2018
+    GDP.
+  55: Loss of coastal ecosystem services per year as a percentage of 2018 (or latest
+    available) GDP.
+  58: Projected loss of coastal ecosystem services per year as a percentage of 2018
+    GDP, by country and scenario.
+  61: Value of coastal ecosystem services as a percentage of GDP at the NUTS 3 region
+    level.
+Quantitative material:
+  4: In 2018, coastal zone habitats generated 494 billion euros of services annually.
+    Sea-level rise could erode 1.0% (0.7-1.5%) of the 2018 area under RCP4.5 and 1.2%
+    (0.7-2.2%) under RCP8.5. The decline in services would be 4.2% (3.0-6.1%) under
+    RCP4.5 and 5.1% (3.3-8.5%) under RCP8.5.
+  6: 4500 km^2 of land eroded between 1975 and 2006; 3700-5800 km^2 projected until
+    2050. Corresponds to a loss of 0.7 billion euros of annual ecosystem services
+    (at 2000 prices) in 2006 compared with 1975, and 1.5-2.2 billion euros in 2050
+    compared with 2006.
+  7: Projects impacts for years 2050 and 2100 under two future emission scenarios
+    (RCP4.5 and RCP8.5).
+  15: GDP data in purchasing power parities from Eurostat (Eurostat, 2020a) at national
+    (2018) and regional (NUTS 3) levels (2018 or latest available, adjusted to 2018
+    price level) is used to analyze impacts. Population numbers from 1950 to 2100
+    from United Nations (2019) are used for probabilistic population projections to
+    compute additional results and highlight changes in demand on services.
+  17: 'Decline in services would be greater: 4.2% (3.0-6.1%) under RCP4.5 and 5.1%
+    (3.3-8.5%) under RCP8.5.'
+  18: 'Table 2 provides historical (2000-2018) and projected (2050 and 2100) annual
+    ecosystem services values for different land classes (Artificial surfaces, Agricultural
+    areas, Forest and semi-natural areas, Wetlands, Water) in billions of 2018 euros.
+    Example: Total ecosystem services value projected for 2100 under RCP4.5 and RCP8.5
+    is between 452.3 and 479.1 billion euros.'
+  20: In 2018, the United Kingdom had the highest total in annual service with more
+    than 59 billion euros, followed by France (54 billion euros) and Italy (50 billion
+    euros). Services of Greece totalled 41 billion euros, accounting for more than
+    18% of GDP. Denmark was projected to lose most services relative to GDP in all
+    scenarios, reaching 1.2-1.6% (0.8-2.4%) by 2100. Losses of more than 0.3% of GDP
+    per annum are also likely in Estonia and Finland, and possible in Norway, Latvia,
+    Sweden, and the United Kingdom. Impacts would be almost negligible in Bosnia and
+    Herzegovina, Belgium, Poland, and Malta (less than 0.02% of GDP). Highest absolute
+    losses would occur in France (14-19% share in Europe), the United Kingdom (11-17%),
+    Denmark (12-15%), and Germany (9-16%). Denmark is projected losses of 9-12% (7-19%)
+    of coastal ecosystem services by 2100 followed closely by Germany.
+  21: Figure 4 presents coastal ecosystem services per year based on CLC 2018, in
+    billions of euros and as a percentage of 2018 GDP, by country. The Netherlands
+    was projected to lose a considerable share of its relatively small amount of services
+    (8-9% to 7-16%) by the end of the 21st century. France, Albania, Finland, and
+    the United Kingdom could all lose more than 10% of their 2018 services under certain
+    scenarios. Bosnia and Herzegovina, Belgium, Cyprus, Lithuania, and Montenegro
+    would most likely lose no more than 1%.
+  22: "Regions could lose ecosystem services equal to more than 5% of their regional\
+    \ GDP in the best case, and more than 10% of 2018 services. Specific regions like\
+    \ North Jutland (Denmark) and Nordfriesland (Germany) could lose about 2 billion\
+    \ euros of services. Gjirokast\xEBr (Albania) could incur the highest relative\
+    \ loss (41% of GDP in the most extreme case). Friesland (Germany) could see losses\
+    \ in the range of 59-65%. Imathia (Greece) could suffer the highest loss among\
+    \ European regions of 65% under the worst-case scenario."
+  42: No relevant information
+  51: Provides the historical (2018) annual value of ecosystem services in the coastal
+    zone in billions of 2018 euros, and projected percentage change in these services
+    by 2050 and 2100, including median projections for RCP4.5 and RCP8.5 and 90% confidence
+    intervals.
+  52: Projected losses are expressed as a percentage of 2018 GDP, broken down by country
+    and scenario for the years 2050 and 2100. Error bars indicating the 90% confidence
+    interval are provided.
+  55: Maximum estimate of 95th percentile of the coastal erosion projection could
+    result in the loss of coastal ecosystem services.
+  58: Provides projected loss as a percentage of 2018 GDP with 90% confidence interval
+    of future coastal erosion. Includes projections for 2050 and 2100.
+  61: Map showing the value of coastal ecosystem services as a percentage of GDP by
+    NUTS 3 region in 2018, with specific percentage ranges indicated by color shading.

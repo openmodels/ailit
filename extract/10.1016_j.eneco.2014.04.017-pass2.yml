@@ -1,0 +1,128 @@
+Drivers of Risk:
+  6: "Changes in the probability distribution of experiencing different temperatures,\
+    \ shifting from F0(t) to F\u03C4(t) due to climate change."
+  7: Climate change leading to temperature variations.
+  8: Global warming, warmer summers, warmer winters
+  9: Temperature, heating degree days (HDD), cooling degree days (CDD)
+  14: Changes in climate (implicitly through air conditioner adoption), population
+    movements, income, prices of air conditioners and electricity, policy (e.g., Federal
+    Housing Authority policy on mortgages)
+  17: Air conditioner prices and efficiencies, income, cooling degree days, electricity
+    price, purchase price of air conditioning units, energy efficiency standards for
+    AC equipment
+  19: Climate change (warming), rising incomes, air conditioner penetration
+  20: Cooling degree days (CDD), income levels.
+Highlights:
+  6: The paper suggests that changes in energy expenditures, especially those derived
+    from panel data, can be used to estimate the welfare effects of climate change.
+    This is done through the estimation of Equations (3), (4) and (5).
+  7: Cross-sectional data allows for the analysis of both extensive and intensive
+    margins of consumption choices related to climate, assuming households are in
+    long-run equilibrium.
+  8: 'Global warming will result in fuel switching in the United States: more homes
+    will heat with electricity; Overall, American energy expenditures will likely
+    increase.'
+  9: Cross-sectional approach may have omitted variable bias. Decrease in heating
+    needs (due to warmer temperatures) will more than offset increases in cooling
+    (Considine, 2000).
+  14: The literature examining the adoption of air conditioners in response to changes
+    in climate is essentially non-existent. There is a need for panel data methods
+    in this literature.
+  17: Significant responsiveness in the adoption of room and central air conditioners
+    with respect to efficiency; Time series show little slowdown in the growth of
+    air conditioner penetration.
+  19: "Further studies of changing air conditioner penetration and collection of data\
+    \ could provide important insights into the future of European energy demand.\
+    \ A concerted e\uFB00ort to collect and analyze data for Europe similar to what\
+    \ Rapson (2011) or Biddle (2008) did for the US would be insightful."
+  20: Air conditioner penetration rates are very low and clustered around zero for
+    a number of countries. Adoption rates increase significantly at income levels
+    of $25,000.
+Methodology:
+  6: The paper proposes using changes in energy and durable goods expenditures to
+    measure the welfare effects of climate change. It also suggests using panel data
+    estimates to control for unobserved shocks correlated with temperature.
+  7: "Uses cross-sectional data to compare consumption choices (including durables)\
+    \ across different climates. The formula \u2206Wcross= \u20D7P\u2032E\xB7(\u20D7\
+    E\u2217(F\u03C4)\u2212\u20D7E\u2217(F0)) measures the extensive and intensive\
+    \ margins of welfare changes."
+  8: Discrete-continuous choice model where fuel choice is endogenous to climate change;
+    multinomial logit model is estimated; conditional demand equation used.
+  9: Cross-sectional regression, time-series regression
+  14: Review of literature on air conditioner adoption and durable goods adoption.
+    Empirical models are often based on cross-sectional or repeated cross-sectional
+    data due to data availability.
+  17: Uses Residential Electricity Consumer Survey (RECS) data, matches it to air
+    conditioner prices and efficiencies, estimates derived demand elasticities and
+    unit demand elasticities.
+  19: Discussion of data collection and analysis needs to understand drivers of energy
+    demand.
+  20: Cross-sectional regression using data on air conditioner penetration levels
+    across countries (primarily from the LSMS database of the World Bank). The model
+    estimates a 'Climate Maximum' (saturation level) based on cooling degree days
+    in US cities and then uses this to predict saturation levels in developing countries,
+    modeling diffusion as a function of income conditional on the Climate Maximum.
+    Based on 24 observations.
+More Notes:
+  6: The analysis focuses on the impact of temperature changes on household energy
+    and durable goods expenditures, excluding direct impacts on utility and potential
+    relocation effects. The paper assumes that a household derives utility in part
+    by controlling interior temperature.
+  7: The approach does not account for the cost of changing durables or transition
+    costs and may be subject to omitted variable bias. The authors organize their
+    literature review by data type (cross-section, time series, panel) because data
+    variation informs about the intensive and extensive margins.
+  8: The analysis uses 30-year average monthly temperature and precipitation data
+    matched to household and firm Energy Information Administration survey data.
+  14: The paper suggests that air conditioner adoption can be seen as a proxy for
+    climate adaptation, highlighting the importance of considering factors beyond
+    climate change itself, such as income, prices, and policy.
+  17: The paper by Rapson (2011) is a structural paper that exploits the time dimension
+    of the repeated cross sections to arrive at credible and precisely estimated coefficients
+    for both intensive and extensive margin adjustments.
+  19: The paper suggests that increased air conditioner use due to climate change
+    could significantly impact electricity consumption and load profiles, especially
+    given shifts away from nuclear power.
+No relevant information:
+  5: This page focuses on a theoretical model of household energy expenditure in response
+    to climate change, rather than national-level macroeconomic or fiscal outcomes
+    or the costs/benefits of adaptation. It does not provide quantitative results
+    or specific methodologies applicable to the overall review.
+  24: No relevant information
+Outcome(s) of Interest:
+  6: Welfare effects of climate change, measured as the change in expenditures on
+    energy and durable goods due to changes in temperature distribution.
+  7: "Welfare estimates (\u2206Wcross) related to consumption choices under different\
+    \ climates."
+  8: American energy expenditures
+  9: Electricity load, aggregate energy demand, residential and commercial energy
+    consumption (electricity or natural gas)
+  14: None
+  17: Electricity demand, air conditioner adoption
+  19: European energy demand
+  20: Air conditioner adoption rates/penetration levels in developing countries.
+Quantitative material:
+  6: Provides equations (3), (4) and (5) to quantify the welfare effects of climate
+    change, and changes in energy expenditure related to temperature fluctuations.
+  8: Warmer summers result in more electricity and oil consumption, while warmer winters
+    will result in less natural gas consumption for households.
+  9: Elasticities of demand with respect to heating degree days (HDD) exceed the elasticities
+    with respect to cooling degree days (CDD) for nearly all sectors and fuels.
+  14: Less than 2% of US households owned air conditioners in 1955; 50% residential
+    penetration rate by 1980; half of these with central air conditioning; Northeast
+    penetration rate of 50%; some urban areas in Texas and Florida exceeded 90% penetration
+    rates.
+  17: 'Price elasticity of derived demand for central AC: -0.170 (whole sample), -0.068
+    (excluding California); Income elasticity for central AC: 0.21; Cooling degree
+    elasticity for central AC: 0.989 (whole sample), 0.961 (excluding California);
+    Price elasticity for room AC: -0.34; Cooling degree elasticity for room AC: 1.07
+    (all states), 1.092 (excluding California); Income elasticity for room AC: 0.114,
+    0.126; Elasticities for central AC adoption with respect to efficiency: 0.7 to
+    1; Elasticities for room AC adoption with respect to efficiency: 0.2 to 0.3; Elasticities
+    for central AC adoption with respect to purchase price: -0.241; Elasticities for
+    room AC adoption with respect to purchase price: -0.12 to -0.13; Elasticities
+    for central AC adoption with respect to electricity prices: -0.024 (not statistically
+    significant); Elasticities for room AC adoption with respect to electricity prices:
+    -0.220, -0.35; Air conditioning penetration in US households in 2009: 87%'
+  20: Model explains 70% of the variation in the transformed dependent variable (air
+    conditioner adoption). Adoption rates rise drastically at income levels of $25,000.

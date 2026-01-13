@@ -1,0 +1,251 @@
+Drivers of Risk:
+  1: Variation of weather variables; increase in average temperatures
+  2: Temperature shocks and inter-annual variation in weather variables impact macroeconomic
+    outcomes.
+  4: Weather shocks and climate change (temperature and precipitation variations)
+    are the main drivers of risk considered.
+  5: "Monthly weather data (temperature and precipitation). Future climate change\
+    \ projections (temperature data at 0.0715\u25E6 resolution) from the regional\
+    \ circulation model COSMO-CLM forced by the CMCC-CM global climate model, under\
+    \ intermediate and worse-case Representative Concentration Pathways (4.5 and 8.5)."
+  6: Temperature is the main driver of risk investigated.
+  7: Temperature and Precipitation
+  8: Temperature, Precipitation, Poverty (interaction term with temperature)
+  9: Temperature and precipitation changes
+  10: Temperature deviations (both positive and negative) and precipitation changes
+    impact agricultural productivity and GDP per-capita growth.
+  11: Temperature change is a core driver of risk for both GDP and agricultural GVA
+    based on RCP scenarios.
+  12: Climate change, specifically temperature increases under RCP 4.5 and RCP 8.5
+    scenarios.
+  13: Temperature changes driven by global warming impacting GDP and agricultural
+    productivity.
+  14: Temperature change is the primary driver of risk.
+  16: Average temperature and precipitation deviations (positive and negative) from
+    historical norms (moving averages of the past 30 years).
+  17: Persistent increases in temperatures under RCP 4.5 and RCP 8.5 scenarios.
+Highlights:
+  1: Considerable model uncertainty exists; statistically significant effects of temperature
+    for both GDP and agricultural reaction function are from a levels specification,
+    where temperature is included in a non-linear form while weather variables and
+    economic outcomes enter in first differences; slight average effects for GDP per-capita,
+    but important losses in agriculture are projected by the end of the century.
+  2: Temperature shocks have non-linear level effects in Italy, predicting lower overall
+    economic impact from global warming than some global estimates.
+  4: Panel fixed effects models with quadratic temperature specifications capture
+    a mix of short-run and long-run impacts, with the relative weights depending on
+    the ratio of time-series variation in weather to cross-unit variation in climate.
+  5: "Finds a smoothing non-linear and concave-in-temperature relationship between\
+    \ economic outcomes and temperature, with a maximum around 12-14\xB0C. Productivity\
+    \ increases as temperature increases, until the optimum, then declines with further\
+    \ warming, particularly in agriculture. A simple test of non-linearity rejects\
+    \ the linear specification at 1% significance level."
+  6: Models including linear time trends perform poorly compared to models without
+    them. The DJO1 and NPS specifications have the lowest RMSE for both GDP per capita
+    and agricultural GVA per worker. Models that assume heterogeneity of weather effects
+    by income level (DJO2 and KAHN2) are not preferred in out-of-sample prediction
+    for agricultural productivity.
+  7: It's difficult to discriminate between growth vs level models or between linear
+    vs non-linear models in out-of-sample prediction, suggesting the existence of
+    model uncertainty for Italian data. Linear temperature specification in growth
+    rate is rejected by the data. A quadratic relationship between temperature and
+    GDP is not statistically significant. The non-linear NPS model in levels performs
+    well in cross-validation exercises.
+  8: "Non-linear temperature specifications (quadratic) perform better than linear\
+    \ specifications, particularly in levels models. There are heterogeneous effects\
+    \ of temperature based on income (poor vs. rich provinces), although these are\
+    \ not statistically significant when using two-way clustered standard errors for\
+    \ the per-capita GDP. Optimal temperature for GDP growth in Italy is estimated\
+    \ to be 17.5\xB0C, which is within the range of previous global studies, but higher\
+    \ than the average temperature in Italy during the observed period."
+  9: Temperature and precipitation have statistically significant effects on GVA per
+    worker, and these effects can vary depending on poverty levels. The analysis also
+    attempts to determine the temperature/precipitation that maximizes agricultural
+    GVA growth.
+  11: Non-linear NPS model captures most long-run effects; projected economic outcomes
+    using conservative temperature estimates to account for exceeding historical temperature
+    bounds.
+  12: Climate change impacts vary geographically, with Northern provinces potentially
+    experiencing slight GDP gains while Southern provinces face GDP losses. Agricultural
+    sector faces much higher losses, especially in Southern Italy under RCP 8.5.
+  13: Temperature changes will disproportionally affect Southern regions in Italy,
+    with GDP per-capita and agricultural productivity losses; up to 35% productivity
+    loss in agriculture in Southern provinces.
+  14: Temperature changes are projected to have negative impacts on per-capita GDP
+    and agricultural GVA per worker, with more severe impacts under RCP8.5 compared
+    to RCP4.5. Southern regions may need to foster growth of economic activities other
+    than agriculture.
+  16: Positive deviations in temperature have a statistically significant positive
+    impact on GDP per capita growth. The impact of temperature deviations (positive
+    and negative) on both GDP per capita and agricultural GVA per worker growth rates
+    are significantly different for poor provinces, and the interaction between negative
+    deviations in temperature and being a poor province has a significant effect on
+    GDP per capita growth
+  17: Italy experiences up to 10.44% loss in GVA per worker by 2100 under RCP 8.5,
+    with poor provinces facing as much as 13.87% loss.
+Methodology:
+  1: Panel of 110 provinces in Italy observed between 1980 and 2014; explores linear
+    and non-linear effects of weather variables on economic outcomes; uses first differences;
+    econometric analysis
+  2: Uses modern panel data econometrics with a focus on inter-annual variation of
+    weather variables at NUTS3 level in Italy, employing non-linear (quadratic) specifications.
+  4: Panel fixed effects models are used, with a focus on distinguishing between short-run
+    weather impacts and long-run climate effects. Models include linear and non-linear
+    (quadratic) specifications for weather variables. The analysis covers 35 yearly
+    observations from 1980 to 2014 for Italian NUTS3 provinces.
+  5: "Uses the anomaly method (New et al., 2000; Mitchell and Jones, 2005; Brunetti\
+    \ et al., 2012) to set up monthly weather data from each province over the 1980\u2013\
+    2014 period. Employs high-resolution temperature (Brunetti et al., 2014) and precipitation\
+    \ (Crespi et al., 2018) climatologies. Uses a weighted average of anomalies calculated\
+    \ for neighboring series. Downscales modelled scenarios by means of observed records\
+    \ to remove bias. Uses flexible fractional polynomial regression. Uses Cross Validation\
+    \ (CV) exercises to assess model performance."
+  6: Forecast cross-validation (CV) is used to evaluate the out-of-sample prediction
+    accuracy of different models. The analysis uses five training windows beginning
+    in 1981 and ending in 1990, 1995, 2000, 2005, and 2010, respectively, with test
+    periods spanning five years following each training window. Backcast cross-validation
+    is also used.
+  7: The study uses out-of-sample forecast accuracy (RMSE) to compare different model
+    specifications (linear vs. non-linear, levels vs. growth). Welch t-tests are used
+    to test for statistically significant differences in RMSE between models. K-fold
+    cross-validation is used, though it is acknowledged to ignore the time-series
+    nature of the data. Econometric analysis uses static models with standard errors
+    clustered by province and province/region-year.
+  8: Panel data regressions with different specifications (linear and quadratic temperature
+    functions, GDP growth and level effects), controlling for precipitation. Robust
+    standard errors clustered within NUTS3 regions. The period of analysis is 1980
+    to 2014.
+  9: The study uses regression analysis with robust standard errors clustered within
+    NUTS3 regions. The regressions include controls for precipitation (Table 5) or
+    temperature (Table 6). Different specifications (DJO1, DJO2, BHM1, BHM2, NPS1,
+    NPS2) are used, varying the functional form of temperature/precipitation (linear,
+    quadratic), and whether growth or levels of GVA per-worker are analyzed.
+  10: Analysis is performed using econometric models like the XTSPJ estimator and
+    Kahn et al. (2019) ARDL model with fixed effects and half-panel Jackknife FE estimator
+    to address weather variable exogeneity.
+  11: Analysis using long-run dynamic growth model, NPS model for temperature effects,
+    projections based on RCP 4.5 and RCP 8.5, modeled using COSMO-CLM and CMCC-CM.
+  12: Econometric analysis using provincial-level data in Italy, examining the relationship
+    between temperature and GDP/GVA, considering both linear and non-linear models.
+    Projections are made for the end of the century (average between 2080 and 2100).
+  13: Projections based on the COSMO-CLM model and the NPS econometric results; comparison
+    between RCP 4.5 and RCP 8.5 scenarios.
+  14: The projections are based on NPS econometric results. The non-linear panel methods
+    capture a mix of short- and long-run effects and analysis focuses on the historical
+    record.
+  16: The analysis uses panel data regressions (xtreg and xtspj) with country fixed
+    effects and country-specific trends. K-fold cross-validation is used to select
+    the best model. Historical norms are calculated as 30-year moving averages. The
+    long-run effects are calculated from the OLS estimates of short-run co-efficients,
+    summing coefficients and accounting for lagged dependent variables.
+  17: The analysis uses econometric estimates and specifications from Kahn et al.
+    (2019), with GDP (2014) weighted averages at the province level.
+More Notes:
+  1: The study focuses on Italy and uses provincial-level data.
+  2: Italy provides valuable context due to its climatic heterogeneity and economic
+    development differences, allowing the study to simulate global study conditions
+    at a regional level.
+  4: The analysis assumes that GDP per capita and agricultural GVA per worker approximate
+    optimized quantities by economic agents. The estimated impact of weather can be
+    heavily influenced by adaptation to local climate if there are enough (small)
+    spatial units with a continuum of (small) differences in climate between contiguous
+    territorial units and the relation between outcome and weather is non-linear.
+  5: The analysis focuses on Italian provinces (NUTS3 level). The study compares different
+    model specifications to assess the linearity vs. non-linearity effect of weather
+    variables, and their growth vs. levels effect on economic outcomes. Mentions using
+    Cambridge Econometrics' Regional Database, based on Eurostat.
+  6: The differences in RMSE across specifications are generally quite small.
+  9: The study uses panel data and analyzes the effect of temperature and precipitation
+    on GVA per worker, taking into account poverty levels. The notes clarify the statistical
+    significance levels and the acronyms used for different model specifications.
+  11: Projected economic impacts at the provincial level in Italy are aggregated to
+    describe broader regional changes.
+  12: The paper finds that failing to account for adaptation by farmers may understate
+    the true impact of climate change, contrasting common critiques of panel data
+    models.
+  14: Results should be treated with caution given model uncertainty. Analysis may
+    not capture extreme events that lie outside the historical range. Future research
+    should explicitly model adaptation and better discriminate between growth vs level
+    effects, as well as short vs long run effects.
+  16: The 'poor' provinces are interacted with the temperature variables, but the
+    definition of a poor province is only explained in the text. The standard errors
+    are clustered by provinces. 'xtreg' means fixed effects estimator, 'xtspj' means
+    half-panel jackknife fixed effects estimator of Chudik et al. (2018).
+  17: The study highlights discrepancies in impacts between rich and poor provinces.
+No relevant information:
+  18: No relevant information
+Outcome(s) of Interest:
+  1: GDP per capita and agricultural productivity in Italy
+  2: GDP per-capita effects and agricultural GVA per-worker impacts in Italy due to
+    climate change.
+  4: GDP per capita and agricultural GVA per worker are considered economic outcomes
+    of interest.
+  5: Real GDP per capita at constant prices (NUTS3 level), agricultural labor productivity
+    (sectoral real gross value added divided by number of agricultural workers).
+  6: GDP per capita and agricultural gross value added (GVA) per worker are the macroeconomic
+    outcomes of interest.
+  7: GDP per-capita and Agriculture GVA per-worker
+  8: Per-capita GDP, Agricultural GVA per-worker
+  9: "GVA per-worker growth (\u0394 Log(GVA)) and GVA per-worker levels"
+  10: Long-run GDP per-capita growth is negatively affected when temperature deviates
+    from the historical norm and negative temperature deviations reduce agricultural
+    GVA per-worker growth.
+  11: Projected changes in per-capita GDP and agricultural GVA per-worker for each
+    NUTS3 province under two RCPs.
+  12: GDP per capita, GVA per worker in agriculture.
+  13: Projected GDP per-capita changes in the most affected North and South provinces
+    of Italy due to temperature changes; agricultural GVA per-worker changes in Italy
+    due to temperature changes.
+  14: Per-capita GDP and agricultural GVA per worker are the outcomes of interest.
+  16: GDP per-capita growth rate; Agriculture GVA per-worker growth
+  17: GDP effects and productivity loss are assessed in terms of percent loss in GDP
+    per capita and GVA per worker by 2050 and 2100.
+Quantitative material:
+  1: Projections of the impact of climate change by the end of the century show slight
+    average effects for GDP per-capita, but important losses in agriculture, due to
+    a persistent increase in average temperatures under both the RCPs 4.5 and 8.5.
+  2: Projections for 2100 suggest a small, insignificant effect on GDP per capita
+    at the aggregate level, but significant losses of 10%-30% on agricultural GVA
+    per-worker.
+  4: Estimated temperature coefficients capture about 96% (4%) of the long-run (short-run)
+    effects on GDP per capita and agricultural GVA per worker, ceteris paribus, based
+    on analysis of Italian NUTS3 provinces.
+  5: "Mentions a dataset of 3850 observations (110 provinces * 35 years). Also, temperature\
+    \ data at 0.0715\u25E6 resolution."
+  6: Table 2 provides forecast cross-validation root mean square errors (RMSE) for
+    different models predicting GDP per capita and agricultural GVA per worker. The
+    RMSE values range from 0.0147 to 0.0160 for GDP per capita and 0.0831 to 0.0871
+    for agricultural GVA per worker, depending on the model specification.
+  7: RMSE values are provided for different model specifications in predicting GDP
+    per-capita and Agriculture GVA per-worker; p-values from Welch t-tests comparing
+    model RMSEs are included. Temperature and precipitation explain 0.89% and 1.02%
+    of GDP growth, respectively, and 2.96% and 4.19% of GVA per-worker in agriculture.
+  8: "Impact of temperature changes on per-capita GDP and agricultural productivity\
+    \ is quantified. Specifically, a 1\xB0C increase in temperature reduces agricultural\
+    \ labor productivity by around 5% points in poor provinces (significant at 10%\
+    \ level in DJO2 specification). Max GDP temperature is estimated at 17.5 degrees\
+    \ Celsius with a 95% quantile range of 14.2-20.9 degrees Celsius."
+  9: "The table presents coefficients (\u03B2) for temperature, temperature squared,\
+    \ temperature interacted with a poverty indicator, precipitation, precipitation\
+    \ squared, and precipitation interacted with a poverty indicator, along with their\
+    \ standard errors and significance levels. It also provides R-squared values,\
+    \ number of observations, maximum GVA temperature/precipitation, and range."
+  10: "Persistent annual rise of 0.01\xB0C above the historical norm decreases real\
+    \ GDP per-capita growth by 0.019 percentage points per year; a 0.01\xB0C annual\
+    \ decrease below the historical norm reduces agricultural GVA per-worker growth\
+    \ by 0.223 percentage points per year."
+  11: Projection of temperature effects on economic growth based on NPS results, noting
+    temperature coefficients are often significant in agriculture.
+  12: Southern provinces are predicted to lose from 10% to 40% in agricultural GVA
+    per-worker, in the unmitigated worst-case scenario, without temperature boundary.
+  13: Projected GDP per-capita and agricultural GVA per-worker changes with percentage
+    losses specified for some regions.
+  14: "Figures 4 and 5 display province-level estimates of the impact of temperature\
+    \ changes on per-capita GDP and agricultural GVA per-worker during 2080\u2013\
+    2100 (percent change) under RCP4.5 and RCP8.5 scenarios."
+  16: Tables A3 and A4 present regression results showing the long-run effect of weather
+    change on per-capita GDP growth and agriculture GVA per-worker growth, respectively.
+    Coefficients and standard errors are provided for different specifications.
+  17: The paper provides specific percentage loss figures in GDP per capita and GVA
+    per worker for Italy and its provinces by 2050 and 2100 under different climate
+    scenarios.

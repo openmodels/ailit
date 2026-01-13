@@ -1,0 +1,154 @@
+Drivers of Risk:
+  1: Early-life weather and pollution exposures, specifically extreme precipitation,
+    temperature, carbon monoxide, and ozone.
+  3: Early-life exposure to environmental toxins. Weather (temperature and precipitation)
+    indirectly affects human capital through impacts on agricultural and industrial
+    output, leading to pollutant emissions (CO and O3).
+  4: CO exposure, O3 exposure, Early-life extreme temperature and precipitation.
+  8: Extreme Temperature, Precipitation, Weather
+  13: Early-life pollution exposure.
+  15: Extreme temperature, extreme precipitation, Carbon Monoxide (CO) pollution,
+    Ozone (O3) pollution
+  16: Temperature (>90% of distribution), Temperature (<10% of distribution), Precipitation
+    (>90% of distribution), Precipitation (<10% of distribution), CO (std.), O3 (std.)
+  21: High temperature, Low temperature, Low precipitation, CO (std), O3 (std)
+  22: Early-life exposure to O3 (ozone) pollution
+Highlights:
+  1: Early-life pollution exposures negatively affect long-term cognitive outcomes,
+    labor market outcomes, and lifetime earnings. Environmental regulations may be
+    investments that fuel economic growth if they account for long-term human capital
+    effects.
+  13: Weather directly affects short-term anthropometric outcomes but has no direct
+    effects on long-term cognitive and labor market outcomes.
+  15: Higher O3 levels are associated with statistically significant negative impacts
+    on math and language test scores. Higher CO levels are associated with statistically
+    significant negative impacts on language test scores.
+  16: O3 (std.) has statistically significant negative effects on both weekly hours
+    worked and log of hourly earnings.
+  21: High temperatures and low precipitation increase the incidence of low birth
+    weight. Birth length is negatively affected by both high and low temperatures,
+    and low precipitation. The effects of low precipitation extend to age 2 height.
+    O3 (std) has a significant effect on Std. Non-Verbal Test Score, Std. Language
+    Test Score, Achieved Years of Schooling, and Weekly Hours Worked.
+  22: Early-life O3 exposure reduces schooling attainment, hours worked, and earnings.
+    The effects of O3 on hours are driven by males and the informal sector, and the
+    effects on earnings are driven by females and the informal sector. The paper provides
+    the first evidence of the effects on long-term earnings of early-life pollution
+    exposure in developing economies.
+  23: The study emphasizes that long-term benefits of environmental regulation can
+    outweigh costs and fuel economic growth in developing nations.
+Methodology:
+  1: The study combines a three-decade longitudinal survey measuring human capital
+    development, a database of historical weather, and multiple databases characterizing
+    carbon monoxide and ozone in the Philippines during the 1980s. The study examines
+    short- and long-term human capital outcomes in relation to pollution and weather
+    exposures.
+  4: Ordinary least squares (OLS) including controls for weather variables, CO and
+    O3 exposures, urban/rural residence, gender, season of birth, and household/parental
+    risk factors. The measures of extreme temperature and precipitation are based
+    on their distributions during a 10-year window, 1978 to 1987.
+  8: The paper uses information from 2005. Mentions exposures at 90% and 10% level.
+  13: "Instrumental variables (weather instruments), LIML, MBTSLS, OLS regressions\
+    \ with robust standard errors, Bekker standard errors for LIML regressions, and\
+    \ Koles\xE1r et al. (2015) standard errors for MBTSLS regressions."
+  15: The study uses LIML (Limited Information Maximum Likelihood) and MBTSLS estimators
+    to estimate the effects of CO and O3 exposure. It employs extreme weather and
+    deviations from seasonal means as instruments in the first stage regressions.
+    Sargan tests are used to assess the validity of the instruments.
+  16: OLS regressions with robust standard errors. LIML and MBTSLS instrumental variable
+    regressions are also used to address endogeneity in pollution variables, using
+    extreme weather and deviations from seasonal means and interactions with local
+    prevalence of polluters as instruments. Sargan tests are performed. Multiple hypothesis
+    testing adjustment with Benjamini-Hochberg method.
+  21: OLS estimates were used to estimate the short-term anthropometric outcomes.
+    LIML estimates were used to estimate the long-term cognitive and long-term labor
+    market outcomes. Multiple hypothesis testing adjustments were performed.
+  22: The analysis generalizes outside the sample and assumes external validity to
+    scale O3's effects on hours and earnings.
+  23: The paper uses unique data and novel methods to examine the effects of weather
+    and pollution on human capital, applying a discount rate model to calculate present
+    value outcomes.
+More Notes:
+  1: The study focuses on the Philippines and the 1980s.
+  4: The study area is Metropolitan Cebu in the Philippines. The paper discusses the
+    potential impacts of environmental exposures during prenatal and postnatal development
+    on lifetime health and human capital.
+  8: The table refers to Migration (Ever temporarily, Ever permanently) related to
+    weather and climate.
+  13: Exposure measures have been standardized to assist in the interpretation of
+    the coefficients.
+  15: The reported results are on cognitive outcomes and years of schooling. The paper
+    uses instrumental variables to account for endogeneity in pollution variables.
+    The findings suggest that environmental factors can affect human capital accumulation,
+    which could impact long-term economic outcomes at a national level, although this
+    is not explicitly modeled in the results on this page.
+  16: The study includes a detailed set of control variables to account for potentially
+    confounding factors. The analysis is performed for a specific dataset (n values
+    are shown for different regressions).
+  21: The study was conducted in Metro Cebu, Philippines. The results regarding typhoons
+    may be affected by a lack of spatial or temporal variation in exposure.
+  22: The authors justify their generalization based on the assumption that individuals
+    were uninformed and unaware of their exposures to pollutants like CO and O3 during
+    the early 1980s, and that the exposures were typical to other time periods in
+    the area.
+No relevant information:
+  5: This page primarily describes the study area (Metro Cebu, Philippines) and the
+    methodology for analyzing the effects of early-life pollution exposure on human
+    capital and labor market outcomes. It does not directly provide quantitative information
+    or analysis of macroeconomic or macro-fiscal risks of climate change, nor does
+    it present costs and benefits of nation-wide adaptation.
+  7: No relevant information
+  11: This page focuses on the impact of early-life environmental factors (weather
+    and pollution) on human capital outcomes (height, cognition, labor market outcomes)
+    at the individual level in Metro Cebu, Philippines, not macroeconomic or macro-fiscal
+    outcomes at the national level.
+Outcome(s) of Interest:
+  1: Early-life ozone exposure negatively affects long-term cognitive outcomes, test
+    scores, schooling, hours worked, earnings, and discounted lifetime earnings. A
+    25 percent reduction in early-life ozone exposure would increase per person discounted
+    lifetime earnings.
+  3: Early-life pollution reduction by 25% leads to an increase of cumulative discounted
+    lifetime earnings of $1,367 per person, $44.5 million in the province, and $2.05
+    billion at the national level (or 2 per cent of 2005 GDP).
+  4: Human capital, labor market outcomes.
+  8: Morbidity (respiratory infections, diarrhea)
+  13: Long-term cognitive and labor market outcomes, specifically standardized scores
+    on non-verbal, math, and language tests (cognitive outcomes), and hours worked
+    per week and log of hourly earnings in 2005 (labor market outcomes).
+  15: No relevant information
+  16: Weekly Hours Worked, Log of Hourly Earnings
+  21: Short-term anthropometric outcomes (Low Birth Weight, Birth Length, Age 2 Height
+    Z-Score); Long-term cognitive outcomes (Std. Non-Verbal Test Score, Std. Math
+    Test Score, Std. Language Test Score, Achieved Years of Schooling); Long-term
+    labor market outcomes (Weekly Hours Worked, Log of Hourly Earnings)
+  22: Long-term earnings, hours worked
+  23: The paper discusses the long-term benefits of reducing O3 exposure, with a discounted
+    present value of $1,367 per person and a national impact of $2.05 billion, approximately
+    2% of the Philippine GDP in 2005.
+Quantitative material:
+  1: A 25 percent reduction in early-life ozone exposure would increase per person
+    discounted lifetime earnings by $1,367, which would scale to $2.05 billion at
+    the national level (or 2 percent of 2005 GDP).
+  3: A 25% reduction in early-life pollution exposure leads to a $2.05 billion increase
+    in cumulative discounted lifetime earnings at the national level, equivalent to
+    2% of 2005 GDP.
+  8: Dev. .41, Std.18.0621.1637405.3510934.123.892266.6, Mean.47, Percentor40.542.87614.355793.233.444193.73
+  13: The anthropometric outcomes in table 2 are low birth weight, birth length and
+    age 2 height. Birth length and age 2 height are expressed in z-scores which convert
+    the measures to the number of standard deviations or z-scores below or above the
+    age and sex specific international reference mean
+  15: The table presents coefficients and standard errors for the impact of temperature,
+    precipitation, CO and O3 on Non-Verbal Test Score, Math Test Score, Language Test
+    Score, and Achieved Years of Schooling.
+  16: The table contains coefficients for the effect of weather and pollution variables
+    on weekly hours worked and the log of hourly earnings, along with standard errors.
+    Values are presented for the full sample, females, and the informal sector.
+  21: P-values and adjusted p-values for the relationships between the drivers of
+    risk and the outcomes of interest are provided.
+  22: A hypothetical 25% reduction in early-life exposure to O3 precursor emissions
+    is estimated to increase earnings by 2.8% and increase hours worked by 0.45 per
+    week. Mean present value of lifetime earnings at age zero in Metropolitan Cebu
+    is approximately $39,927.
+  23: The analysis provides specific quantitative estimates of the economic benefits
+    of reducing O3 exposure, such as $2.05 billion in benefits compared to a $50 million
+    annual cost of the Philippine Clean Air Act.

@@ -1,0 +1,129 @@
+Drivers of Risk:
+  1: Climate change impacts on runoff availability for hydropower generation; Constraints
+    on hydropower deployment.
+  4: Potential development of hydropower is impacted by environmental conservation
+    concerns, social problems, and accessibility issues.
+  6: Changes in rainfall due to climate change (both increases and decreases), specifically
+    focusing on the inter-GCM uncertainty.
+  10: Climate change (specifically changes in rainfall leading to 'Dry' or 'Wet' conditions),
+    policy choices regarding hydropower development (Boost vs. Constrain), and technological
+    availability (e.g., biomass, solar PV).
+  11: Climate change (specifically variations in hydropower production), future policy
+    decisions regarding hydropower, and the choice of energy policy case (HydropowerBoost,
+    HydropowerConstrain, Environment Priority).
+Highlights:
+  1: Hydropower will remain as one of the most cost-effective and low emission technologies
+    in the Ecuadorian power sector in the long term; Climate change impacts and deployment
+    constraints could hinder fulfilling NDC targets and create uncertainty around
+    long-term power system costs; Strategies to hedge against these risks may require
+    complementing hydropower with thermoelectric generation (natural gas, biomass,
+    geothermal).
+  2: The study explicitly accounts for critical differences in the deployment of hydropower
+    in terms of investment and operational flexibility. The uncertainty of climate
+    change impact on hydropower production are explored in the context of policy case
+    scenarios for an energy system heavily dependent on hydropower.
+  4: Ecuador's hydropower potential is estimated to be 22.1 GW, with 4.4 GW already
+    installed, 0.7 GW under construction, and 13 GW remaining untapped.
+  6: Inter-GCM uncertainty is greater than inter-RCP uncertainty, therefore, paper
+    assesses the inter-GCM uncertainty for RCP4.5 only.
+  9: Hydropower's share in electricity supply is sensitive to climate change and policy
+    choices. Constraining hydropower development increases reliance on natural gas,
+    impacting energy security. A dry climate scenario can significantly reduce hydropower
+    output.
+  10: Constraining hydropower development leads to a large increase in emissions compared
+    to boosting hydropower, especially under dry climate conditions. Biomass generation
+    becomes important for decarbonization when hydropower is constrained. Climate
+    variability impacts hydropower output, with potential for both increases (Wet
+    scenario) and decreases (Dry scenario).
+  11: The choice of policy case has a greater impact on electricity prices than future
+    variations in climate. The Boost Hydropower policy case is the most capital-intensive
+    option, while the Constrain Hydropower case is the cheapest. The Environment Priority
+    case offers a balance between low emissions and cost.
+Methodology:
+  1: Energy system optimisation model (TIMES-EC) using climate change scenarios as
+    input, examining least-cost options for Ecuadorian power system to 2050 under
+    three policy cases.
+  2: The paper showcases the first application of the TIMES energy system optimisation
+    model (TIMES-EC) to develop a detailed long-term energy system assessment for
+    Ecuador. The model calculates the least-cost configuration of technologies required
+    to satisfy end-use energy demands, considering changes in the power generation
+    matrix due to climate change impacts on hydropower. A mixed-integer linear programming
+    (MILP) formulation captures the investment characteristics of large hydropower
+    projects, while different availability factor definitions represent electricity
+    dispatch for both run-of-river (ROR) and flexible reservoir systems (DAM).
+  4: The analysis uses the TIMES-EC model, incorporating techno-economic data for
+    power generation technologies; results are based on the Ecuadorian national Electrification
+    Master Plan (PME) projections.
+  6: 'A two-step approach is used to obtain the availability factor for each river
+    basin: (1) Using bias-corrected climate data (precipitation, potential evapotranspiration,
+    and temperature) from CMIP5 GCMs to force a statistical hydrological model and
+    compute changes in average runoff per month. (2) Using a hydropower electricity
+    model to convert runoff into projected availability factors for representative
+    existing hydropower stations in each basin. Focus is on the RCP4.5 concentration
+    scenario, assessing inter-GCM uncertainty.'
+  9: The TIMES-EC model is used to simulate energy system scenarios under different
+    climate and policy conditions from 2015-2050.
+  10: The TIMES-EC model is used to simulate energy system development under different
+    climate and policy scenarios. The model optimizes for the least-cost energy mix
+    while meeting constraints on emissions and technology deployment.
+  11: Analysis using TIMES-EC model projecting electricity system costs under different
+    policy cases and climate change scenarios for the period 2015-2050, with figures
+    in $US2015.
+More Notes:
+  1: The study focuses on the Ecuadorian power sector and its reliance on hydropower,
+    considering the uncertainty of climate change impacts on water runoff.
+  2: The study focuses on Ecuador's power sector and its relevance for Ecuador's NDC
+    contribution to the Paris Agreement, and develops a case study specifically for
+    Ecuador, but believes the methodology and insights are valuable and replicable
+    for strategic energy planning in other hydropower-development states.
+  9: The time scale resolution of TIMES-EC does not fully capture the value of DAM
+    hydropower flexibility. The model does not explicitly model the effects of higher
+    temperatures on thermal plant cooling systems. Ecuador may need to import natural
+    gas if large hydropower development is constrained and a dry climate scenario
+    occurs.
+  10: The model results suggest that even when future climate variations result in
+    an increase in rainfall, emissions are almost three times larger when hydropower
+    development is constrained, compared to the Boost Hydropower case. The availability
+    and cost-effectiveness of alternative technologies (solar, wind, biomass, natural
+    gas with CCS) influence the optimal energy mix and associated emissions.
+  11: There is a trade-off between social/environmental issues at the local level
+    (related to hydropower) and efforts to mitigate GHG emissions at the regional/global
+    levels. Constraining hydropower could lead to increased reliance on natural gas
+    and higher emissions.
+Outcome(s) of Interest:
+  1: Long-term power system costs; Emissions related to power generation.
+  6: The impacts and uncertainties surrounding hydropower resource potential, and
+    future Ecuadorian energy system performance.
+  9: No specific macroeconomic or fiscal outcomes are directly quantified. The paper
+    focuses on the share of electricity demand supplied by hydropower and the implications
+    for natural gas consumption.
+  10: Electricity-related GHG emissions are measured as a proxy for the impact of
+    climate change and adaptation policies.
+  11: Average long-term electricity generation cost, average marginal cost, and cumulative
+    investment in the electricity sector.
+Quantitative material:
+  1: The paper uses climate change scenarios derived from a large ensemble of Global
+    Circulation Models as input for an energy system optimisation model (TIMES-EC)
+    to examine least-cost options for the hydropower-dominated Ecuadorian power system
+    in the period to 2050.
+  4: The table provides data on Ecuador's power installed capacity from 2007 to 2017,
+    with an increase in capacity for hydropower by 117%, other renewables by 180%,
+    and fossil fuels by 50%.
+  9: The share of electricity demand supplied by hydropower is quantified for different
+    policy cases and climate change scenarios for the period 2015-2050 (ranges from
+    29% to 86% in 2050). Change in Hydropower output in Wet (+21%) and Dry (-44%)
+    scenarios compared to NoCC scenario in Constrain Hydropower policy case. Quantities
+    of natural gas use and other power production technologies in different scenarios
+    are given.
+  10: Electricity-related GHG emissions (GtCO2e) for various policy scenarios (Boost
+    Hydropower, Constrain Hydropower, Environment Priority) under different climate
+    change scenarios (Dry, NoCC, Wet) for the period 2015-2050 are quantified in Figure
+    6. The Ecuadorian NDC emission level is 53 GtCO2e. Emissions can reach 350 GtCO2e
+    under the Constrain Hydropower policy case and the Dry climate scenario.
+  11: "Figure 7 presents quantitative results for average generation cost (US\xA2\
+    /kWh), average marginal cost (Billion US$), and cumulative investment (Billion\
+    \ US$) for different policy cases and climate change scenarios for the period\
+    \ 2015-2050. Climate change uncertainty causes an uncertainty in average generation\
+    \ cost of around 3 US\xA2/kWh. Cumulative investment under the Boost Hydropower\
+    \ policy case is around US$65 billion, Constrain Hydropower around US$35 billion,\
+    \ and Environment Priority around US$60 billion."

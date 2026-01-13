@@ -1,0 +1,139 @@
+Drivers of Risk:
+  1: The empirical evidence shows that temperature shocks mainly work through the
+    level effect instead of the growth effect for poor countries.
+  3: Temperature fluctuations within countries, specifically increases in annual temperature.
+    High frequency weather variations.
+  19: Weather variables (temperature and precipitation)
+  20: Temperature, Precipitation, Poor (likely a measure of poverty or development),
+    Hot (likely a measure of extreme heat)
+  23: High temperature and temperature shocks
+  24: Temperature (high temperature shocks)
+  30: Temperature shocks (Dell, Jones, and Olken, 2012 - referenced work)
+Highlights:
+  3: Simple averaging of high-frequency weather data to annual data could lead to
+    biased estimators. A data-driven approach to rebuild weather variation measurement
+    from high-frequency data should be used instead of using simple annual averages.
+  19: Temperature increase has a negative effect on per-capita output growth for poor
+    countries.
+  20: Temperature and precipitation significantly affect agricultural growth. Poverty
+    and extreme heat interact with these effects.
+  23: Temperature shocks have a negative effect on the growth of poor countries in
+    the short run but not in the long run. Temperature shock might have a positive
+    level effect for the rich countries.
+  24: High temperature reduces economic growth rates of poor countries in the short
+    run; temperature shocks affect growth through level effects rather than growth
+    effects.
+  30: The first-order conditions associated with the high-frequency Chamberlain estimator
+    are exactly the same as the first-order conditions of the FE-NLS estimator.
+Methodology:
+  1: The paper discusses estimation of panel data models with mixed sampling frequencies,
+    proposing a data-driven method to determine weights for aggregation, and uses
+    this method for estimating the effects of temperature fluctuations on economic
+    growth.
+  3: Pooled ordinary least squares (OLS) estimation of a linear panel model. Panel
+    MIDAS regression model. Fixed effects estimator. Modified fixed effects estimator.
+    Mundlak's device and Chamberlain's projection approach. Simulation study.
+  7: The paper uses a Fixed Effects-Nonlinear Least Squares (FE-NLS) estimator to
+    analyze panel data. It provides formulas for asymptotic variances and standard
+    errors (SEs) robust to serial correlations and heteroskedasticity.
+  15: The analysis involves simulations (Simulation results). It mentions different
+    data generating processes (DGP1, DGP2) and refers to weighting schemes. Several
+    models were used, including HF-Chamberlain/FE-NLSB, LF-ChamberlainB, HF-MunlakB,
+    LF-MundlakB, and FE-NaiveB
+  19: Panel data analysis using Fixed Effects Non-Linear Least Squares (FE-NLS) and
+    Fixed Effects Naive (FE-Naive) estimators, with comparison of various specifications.
+    The model uses a distributed lag equation to capture the level and growth effects
+    of weather on production, also considering country-specific productivity growth
+    rates.
+  20: Panel data models with fixed effects (FE-NLS and FE-Naive). Methods include
+    ClusterFE-NLS (likely clustered standard errors) and lagsFE-NLS(1) (likely lagged
+    variables). The analysis includes various specifications with interacted dummy
+    variables. Weights are used.
+  23: Panel data models with fixed effects (FE-Naive and FE-NLS) and distributed lag
+    models are used to estimate the effects of temperature on economic growth. Panel
+    MIDAS (Mixed Data Sampling) models are also considered, addressing the issue of
+    explanatory variables being sampled at a higher frequency than the dependent variable.
+  24: Estimation of panel data models, including low-frequency Mundlak estimator,
+    high-frequency estimator, low-frequency Chamberlain estimator, and high-frequency
+    Chamberlain estimator. The paper also mentions fixed effects nonlinear least squares
+    estimator and panel MIDAS model.
+  27: 'The paper describes the objective functions and first-order conditions for
+    two estimators: FE-NLS (Fixed Effects Non-Linear Least Squares) and a high-frequency
+    Chamberlain regression estimator. These are described via equations (C1)-(C3)
+    and (C4)-(C7), respectively. The FE-NLS estimator is used when the true aggregating
+    weights are unknown and estimated with the slope parameters. The high-frequency
+    Chamberlain regression estimator includes fixed effects.'
+  30: Discusses the estimation of panel data models, focusing on the relationship
+    between high-frequency and low-frequency estimators and their connection to the
+    FE-NLS estimator; mentions mixed sampling frequencies and MIDAS regressions (referencing
+    works by Andreou et al., 2010, Ghysels & Wright, 2009, Ghysels et al., 2006, 2007)
+More Notes:
+  2: This paper focuses on econometric methods for panel data analysis with mixed
+    sampling frequencies (MIDAS), not on climate change or adaptation specifically.
+    The methods are potentially applicable to analyzing macroeconomic data in the
+    context of climate change, where data might be available at different frequencies
+    (e.g., annual GDP vs. daily financial data).
+  7: The paper discusses the identification of parameters and the conditions under
+    which they are uniquely identified, relating it to the positive definiteness of
+    the Hessian matrix. It also touches upon hypothesis testing, particularly regarding
+    the flatness of aggregation weights.
+  15: The page seems to be part of a larger table or presentation comparing the performance
+    of different econometric models. The context suggests this might be related to
+    assessing the accuracy of these models under different conditions (data generating
+    processes). It is unclear without further context how exactly any of this data
+    might directly relate to climate risks or national adaptation.
+  19: The paper finds that flat weights used in FE-Naive estimation are not statistically
+    different from the true aggregation weights. The effects of precipitation on growth
+    are not statistically significant.
+  20: The table includes numerous model specifications (e.g., with and without year
+    fixed effects, region units, etc.). The asterisks indicate significance levels,
+    likely p < 0.01, p < 0.05, p < 0.10. The dependent variable is agricultural growth.
+    The regressions include controls for poor countries, hot countries, and interacted
+    dummy variables (country*poor, country*hot). The regressions use temperature measured
+    in Celsius.
+  23: The paper investigates properties of some common estimators developed for balanced
+    panel models in the context of panel MIDAS models, and proposes a data-driven
+    method to estimate the true aggregation weights.
+  30: The paper focuses on econometric methodology for panel data, particularly dealing
+    with mixed-frequency data, which is a potential issue when modeling climate change
+    impacts on economic variables. The reference to Dell, Jones, and Olken (2012)
+    suggests the authors might be considering temperature as a driver, although this
+    is only mentioned in the reference list.
+No relevant information:
+  9: This page primarily discusses econometric methodology (specifically fixed effects
+    nonlinear least squares estimation) and does not directly address macroeconomic/macro-fiscal
+    outcomes, climate change impacts, or adaptation costs/benefits. The focus is on
+    statistical techniques for analyzing panel data with aggregated covariates.
+  11: This page focuses on econometric methods for panel data and does not directly
+    address macroeconomic or fiscal outcomes related to climate change adaptation.
+    It discusses statistical approaches to handling fixed effects in regression models,
+    but it doesn't quantify the costs or benefits of adaptation or identify specific
+    climate-related drivers of risk.
+  16: No relevant information
+  25: No relevant information
+  29: No relevant information
+Outcome(s) of Interest:
+  3: Economic growth.
+  19: Growth rate of per-capita output
+  20: Agricultural growth
+  23: Economic growth rates
+  24: Economic growth rates
+  30: No relevant information
+Quantitative material:
+  3: "A 1\xB0C increase in annual temperature reduces economic growth by 1.3 percentage\
+    \ points for poor countries (this is referencing Dell, Jones, and Olken (2012),\
+    \ the present paper finds similar results, though for different reasons)."
+  15: Presents numerical values (R, C, D, S, ias) across different scenarios or models.
+    These values appear to be correlation coefficients (C, R), standard deviations
+    (D, S) and other error values (ias).
+  19: "A 1\xB0C rise in temperature decreases growth rates by 1.53 \u2013 1.94 percentage\
+    \ points for poor countries."
+  20: The table presents coefficient estimates (e.g., -0.334 for temperature), standard
+    errors (in parentheses), and p-values indicated by asterisks (*, **, ***). The
+    sample size is likely 4924. R-squared ranges from 0.141 to 0.972.
+  23: "1\xB0C increase in temperature leads to a reduction of 1.69 \u2013 1.74 percentage\
+    \ points of growth rate for poor countries in the first year, declining to 0.85\
+    \ \u2013 0.87 percentage points in the second year."
+  24: No specific quantitative results are presented on this page, but the paper references
+    Dell et al. (2012) and revisits their work using a new method.
+  30: No relevant information

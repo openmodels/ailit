@@ -1,0 +1,64 @@
+Drivers of Risk:
+  1: Climate-related hazards (droughts, forest fires, floods, extreme rainfall, landslides,
+    cyclones, extreme temperatures, sea level rise).
+  4: Droughts, cyclones, extreme rainfall, extreme temperature, forest fire, floods,
+    landslides, and sea-level rise.
+  5: Combined climate hazards, interstate trade/imports
+  7: Climate disasters (simultaneous or sequential), climate change increasing frequency
+    and intensity of hazards, COVID-19 pandemic, sub-national hazards.
+Highlights:
+  1: Climate hazard risks to food supply vary across states and by hazard type. Largest
+    risks are in Bihar, Madhya Pradesh, and Assam, mainly to local production. Food
+    supply in each state is at risk from all eight climate hazards via imports. 14
+    states have greater risk for imported food supply than local. Five states contribute
+    to more than half of climate hazard risk in interstate food trade.
+  4: Droughts present a greater risk to Indian food supply than other climate hazards,
+    while landslides and sea-level rise present the lowest risk.
+  5: Northern and central states of India tend to be at higher risk of climate hazards
+    to their per capita food supply. Some states have a high percentage of food supply
+    risk attributable to imports.
+  7: Climate disaster occurring simultaneously across Indian states may have a greater
+    effect on national food supply than climate disaster occurring sequentially.
+Methodology:
+  1: Risk assessment using hazard presence, vulnerability, and volume of per capita
+    food supply exposed to hazards. Supply and demand balance model for 30 major food
+    items using government data from 2011-12 to estimate food supply source.
+  4: The study quantifies climate hazard risk to food supply by considering risks
+    at the food supply source, using the BAMMtools package in R for heatmap generation.
+    Natural jenks is used to color-code risk in the heatmap. The analysis covers the
+    period 2000-2020 for the climate hazard data.
+  5: Analysis of climate hazard risk to food supply and interstate trade using the
+    circlize package in R studio
+  7: Assessed hazard presence in the total land area of the state; used HDI as a composite
+    indicator of vulnerability; used supply and demand balance model centered on the
+    year 2011-12. The risk values presented in this study should be considered as
+    baseline estimates that will require updating when more recent data on food trade
+    become available.
+More Notes:
+  1: The study focuses on India and the potential effects on national food supply,
+    affecting both local production and interstate trade.
+  4: The study focuses on food supply risk and does not directly quantify macroeconomic
+    or fiscal outcomes, but it provides a basis for understanding potential economic
+    impacts related to food security. The spatial scale is at the state level within
+    India.
+  5: The analysis focuses on the impact of climate hazards on food supply at the state
+    level in India, considering both internal risks and risks associated with interstate
+    trade dependency.
+  7: Focuses on current climate hazard risks, but acknowledges the increasing frequency,
+    intensity, and exposure to hazards due to climate change. The study also acknowledges
+    that the areas exposed to hazards may not overlap with agricultural areas or food
+    supply chains, particularly for larger states.
+Outcome(s) of Interest:
+  1: Impacts on national food supply (both local production and interstate trade).
+  4: The paper focuses on climate hazard risk to food supply, which is implicitly
+    linked to macroeconomic outcomes through potential impacts on food security and
+    prices.
+  5: Per capita food supply risk
+  7: National food supply, domestic food prices, export volumes, food security.
+Quantitative material:
+  1: "Historical (2000\u20132020) climatological and geological data used to estimate\
+    \ state-level presence of eight climate-related hazards."
+  4: ''
+  5: Risk quartiles (low to high) for total climate hazard risk to per capita food
+    supply; % of risk attributable to imports from other states; Risk scores from
+    0 to 3.9 visualized on a color scale

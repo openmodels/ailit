@@ -1,0 +1,187 @@
+Category:
+  4: Extracted Information
+Drivers of Risk:
+  3: Changes in climate, particularly deviations from expected climate patterns, drive
+    risks. The paper mentions extreme heat days and events involving multiple dimensions
+    of weather (e.g., wind and rain simultaneously) as potential drivers.
+  4: Climate change (C) and individuals' beliefs about climate (b(C)).
+  6: "Changes in climate parameters (c\u03C4) relative to a benchmark climate (C1),\
+    \ denoted as \u0394\u03BEC, are considered a driver of risk."
+  10: Variations in temperature and rainfall
+  12: Shocks driven by changes in weather distributions matching different climate
+    conditions of neighboring regions.
+  17: Dimensions of the climate, such as persistent drought and sea level.
+  18: Shocks or changes impacting the outcomes are related to nonlinear climate effects
+    at microlevels, such as extreme weather events.
+  20: No relevant information.
+  21: Temperature (T) and climate events are identified as drivers impacting the outcome
+    (Y).
+  23: Climatic events and their cumulative impacts over time and space are discussed
+    as drivers of risk, affecting outcomes beyond their immediate occurrence.
+  27: "Changes in historical climate (\\Delta\u03BECt), anthropogenic alteration to\
+    \ the climate"
+  29: Unprecedented physical events (rapid sea level rise, ocean acidification); Unprecedented
+    social responses to climatic changes (mass migrations, state failures); Weather
+    variation (as a proxy for climate)
+  34: Sea Level Rise.
+Highlights:
+  2: The review focuses on methodology and tackles the debate on the use of 'weather'
+    variables in regressions, deriving conditions for their justification.
+  4: Researchers are interested in both direct impacts of climate and belief effects,
+    but identifying belief effects is challenging due to observability and correlation
+    issues.
+  5: 'Identifies the core trade-offs of research designs as: (a) whether distinct
+    populations are comparable units after conditioning on observable characteristics,
+    and (b) whether observed climate events sufficiently capture relevant direct and
+    belief effects of climate.'
+  10: Variations in temperature over time have similar effects on maize yields regardless
+    of timescale (for timescales shorter than 33 years). Cross-sectional estimates
+    can be vulnerable to misspecification, particularly regarding rainfall.
+  11: "treatment comparability paints a misleadingly consistent picture of climate\
+    \ effects and weather effects that are not related. Nonetheless, there is actual\
+    \ theoretical justi\uFB01cation for the marginal treatment comparability assumption.\
+    \ In this section I provide a new derivation demonstrating how, under certain\
+    \ conditions, the total effect of climate can be exactly recovered using \u03B2\
+    \u02C6TS derived from weather variation."
+  12: The marginal effect of climate on an optimized outcome is similar to the marginal
+    effect of weather; outcomes are evaluated by examining how small changes in climate
+    conditions affect optimized responses.
+  17: Many dimensions of the climate, such as persistent drought and sea level, remain
+    poorly captured in econometric models due to measurement challenges.
+  18: The potential for recovering nonlinear relationships at finer spatial and temporal
+    scales is highlighted, even when outcomes are measured at broader scales.
+  20: Larger and more heterogeneous regions with longer observation periods produce
+    smoother and flatter responses to climate measures, even if local nonlinear effects
+    are unchanged.
+  21: The paper emphasizes the potential for varying marginal effects of climate across
+    different locations due to interactions with average climatic conditions. It also
+    points out the importance of distinguishing between net effects and displacement
+    effects of climatic events on outcomes.
+  22: Climatic events can cause temporal displacement or harvesting, bringing an event
+    that would otherwise occur at time t+1 forward in time.
+  23: Delayed effects and spatial displacement of climatic events are key discussed
+    outcomes, indicating that climatic events may have a significant impact on future
+    economic conditions and outcomes beyond their immediate effects.
+  27: "This approach allows us to estimate /Delta\u03BEY\u02C6t, the alteration of\
+    \ an outcome that we would expect due to a change in historical climate by /Delta\u03BE\
+    Ct."
+  29: Recent years have seen rapid innovation in methods used to identify climatic
+    influences on economies, leading to a growth of insights; Weather variation can
+    identify the effect of climate; Findings demonstrate replicability across contexts,
+    lending credibility to techniques and simulations
+Methodology:
+  2: The paper reviews and synthesizes econometric analyses studying the effects of
+    climatic conditions on social and economic outcomes, highlighting core innovations
+    and linkages between different methods. It formalizes the question of whether
+    regressions on 'weather' variables provide meaningful insight into the effects
+    of climate and derives conditions under which their use is justified.
+  3: The paper discusses the econometric challenges of analyzing the impact of climate
+    on social and economic outcomes, emphasizing the need to summarize high-dimensional
+    climate data and choose appropriate time intervals for analysis.
+  4: The effect of climate on an outcome Y is modeled as Y(C) = Y[c(C), b(C)], where
+    c(C) represents weather realizations and b(C) represents actions based on climate
+    beliefs. The total marginal effect of climate on outcome Y is then characterized
+    by derivatives considering both direct effects of weather (dc/dC) and belief effects
+    (db/dC).
+  5: "Presents a regression equation (Yi = \u03B1\u02C6 + Ci \u03B2\u02C6CS + xi\u03B3\
+    \u02C6 + \u03F5\u02C6i) to estimate the marginal effects of climate terms (Ci)\
+    \ on the outcome variable (Yi) in a cross-sectional framework."
+  6: Discusses cross-sectional and time-series approaches to identifying the economic
+    effects of climate change, focusing on the problem of omitted variable bias in
+    cross-sectional studies.
+  10: Estimates climate effects using a spectrum of data filtered at different temporal
+    frequencies (time-series data, long differences, cross-section). Applies a Baxter-King
+    approximate band-pass filter to maize yield, temperature, and rainfall for various
+    frequencies.  Estimates a relationship between climate variables and maize yield
+    at each timescale.
+  12: The analysis uses a differentiation approach to trace climate effects by observing
+    optimized outcomes under weather distributions matching neighboring climates,
+    focusing on the marginal effects of climate changes.
+  18: The strategy for understanding pathways includes looking for natural experiments
+    where a particular pathway is obstructed.
+  20: The analysis accounts for heterogeneous regional temperatures and aggregates
+    them based on cropland distribution, while considering spatial covariance and
+    regional climatic exposure, smoothing and flattening response curves.
+  21: The paper discusses modeling approaches, including local linearizations of nonlinear
+    functions in panel data settings and estimating global nonlinear functions. It
+    also highlights the importance of accounting for displacement and delay effects
+    when using time-series identification of climate effects.
+  22: "Uses distributed lag model to condition expected outcomes on the complete history\
+    \ of climatic events. The model is Yi\u03C4 = \u03B1\u02C6i + \u2211(from l=0\
+    \ to L) ci,\u03C4\u2212 l\u03B2\u02C6l + xi\u03C4 \u03B3\u02C6 + \u03B8\u02C6\
+    (i)(\u03C4) + \u03F5\u02C6i\u03C4, where l is a lag length measured in periods,\
+    \ and the maximum lag length considered is L."
+  23: The paper discusses methods such as spatial lag and spatial-temporal lag models
+    to analyze the effects of climatic events across time and space. It involves estimating
+    the net effect of climatic events by summing lags and considering the spatial
+    distribution of outcomes.
+  24: The paper discusses various approaches to account for spatial and temporal autocorrelation
+    in climate econometrics, like the spatial-HAC approach and block bootstrap techniques.
+  26: Identifies the effect of current and previous climatic conditions on outcome
+    Y to ask, what counterfactual outcomes would we have observed historically under
+    a different climate?
+  27: "Uses regression equation (37) to estimate the alteration of an outcome due\
+    \ to a change in historical climate; projecting impacts of climate changes is\
+    \ analogous to applying Equation 37, except that Ct is replaced with a benchmark\
+    \ future scenario and \\Delta\u03BECt is an anthropogenic alteration to the climate."
+  29: Empirical calibration of process models and integrated assessment models; Econometric
+    models; Aggregation and synthesis of econometric findings; Simulations of recent
+    history or future climate changes
+More Notes:
+  3: 'The paper distinguishes between weather (realized measurements) and climate
+    (expected distribution). It suggests that climate affects social outcomes in two
+    ways: directly through weather events and indirectly through information (though
+    the page doesn''t elaborate on the latter).'
+  6: The page focuses on methodological challenges in identifying causal effects of
+    climate on economic outcomes rather than specific quantitative results. The discussion
+    emphasizes the importance of addressing omitted variable bias and the limitations
+    of both cross-sectional and time-series approaches.
+  10: The paper proposes a method to test the validity of marginal treatment comparability
+    assumptions by comparing climate effects estimated across different temporal frequencies.
+  12: The paper emphasizes that marginal effects of weather can substitute for marginal
+    climate changes in understanding optimized outcomes, suggesting the zero marginal
+    effect of adjustments for small climate changes.
+  17: The page focuses on measurement and modeling challenges in climate econometrics,
+    particularly regarding constructing appropriate climate measures for use in econometric
+    models. It discusses innovative approaches to measuring various climate dimensions,
+    but does not provide specific quantified macroeconomic or macro-fiscal outcomes
+    or adaptation cost-benefit analyses at the national level.
+  18: The paper emphasizes the complexity of measuring climate effects due to multiple
+    pathways and the challenge of isolating specific intermediary variables.
+  20: Local nonlinear effects appear differently in region-level models based on spatial
+    covariance between weights and climatic conditions.
+  22: "The identifying assumption of the distributed lag model is that the influence\
+    \ of a climate event at \u03C40 on outcomes at \u03C41 is determined by the length\
+    \ of time \u03C41 \u2212 \u03C40 separating the observations."
+  27: "Estimates should be viewed as partial equilibrium estimates insofar as f\u02C6\
+    (.) captures a partial equilibrium response; Application of Equation 37 must be\
+    \ implemented cautiously, as counterfactual outcomes are not observed and thus\
+    \ cannot be verified."
+  29: Major methodological innovations are still required to tackle key challenges
+    of identifying mechanisms, measuring adaptation costs, general equilibrium, and
+    price responses, evaluating the effects of unprecedented events, and more deeply
+    integrating with theoretical and numerical policy models.
+Outcome(s) of Interest:
+  10: Maize yield (at the county level)
+  11: Corn yields (bushels/acre)
+  12: Optimized economic outcomes at a household level in response to specific climate
+    or weather conditions.
+  17: No relevant information
+  20: No relevant information.
+  21: The paper considers how climate affects an outcome (Y), suggesting potential
+    relevance to macroeconomic or fiscal outcomes.
+  22: GDP loss surrounding cyclone exposure
+  27: National income trajectories
+  29: Costs of unprecedented physical events; Likelihoods of unprecedented social
+    responses to climatic changes; Breadth and importance of climate-society interactions
+  34: Welfare, Wealth, and Sustainability; Economics of Coastal Erosion and Adaptation
+    to Sea Level Rise.
+Quantitative material:
+  10: Demonstrates a test using panel data on annual county-level maize yield, temperature,
+    and rainfall updated to 2014.
+  17: No relevant information
+  20: No relevant information.
+  22: "A graph shows the effect of a day with mean temperature >80\xB0F and <30\xB0\
+    F on all-cause daily male mortality rate. A second graph shows GDP loss surrounding\
+    \ cyclone exposure (% per meter per second) at varying distances from the exposed\
+    \ country (km) after 15 years. The GDP loss is up to -0.6% per meter per second."

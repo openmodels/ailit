@@ -1,0 +1,97 @@
+Drivers of Risk:
+  1: Climate change (specifically, increasing maximum temperatures).
+  3: Climate change impacts on peak electricity load driven by annual maximum temperatures
+    in China's provinces.
+  4: Temperature increases, population increases, urbanization rate increases, economic
+    output levels (GDP), industrial structure (specifically the share of the secondary
+    industry)
+  5: Temperature changes lead to regional differences in peak load impacts due to
+    economic development level, influencing use of air conditioning.
+  6: Climate change (specifically, maximum temperature increases); Socioeconomic development
+    paths.
+  7: Climate change (temperature rise) and socioeconomic factors (population growth,
+    urbanization, total factor productivity, economic development) are identified
+    as drivers impacting peak load demand. The increasing use of air conditioners
+    is highlighted as a significant channel through which climate change affects peak
+    load.
+  8: Climate variables; Climate and socioeconomic variables; Different climate scenarios
+    (SSP1-RCP2.6, SSP2-RCP4.5, SSP4-RCP6.0, and SSP5-RCP8.5)
+Highlights:
+  1: "A 1\xB0C increase in highest temperature will, on average, rise the peak load\
+    \ by 0.385 GW in China."
+  3: Response model identifies linear relationship between high maximum temperatures
+    and increased peak electricity loads.
+  4: Temperature increases significantly increase peak power load.
+  5: Eastern China shows significant peak load increases due to higher air conditioning
+    ownership and economic development.
+  6: Socioeconomic variables have larger impacts on the peak load than temperatures;
+    Increased peak load from climate change will cause additional investment demand
+    for electricity supply infrastructure.
+  7: Peak load is projected to increase significantly by 2100, with socioeconomic
+    factors playing a larger role than temperature increases. The spatial distribution
+    of load is expected to remain similar, with Eastern China having the highest peak
+    load.
+  8: Including both climate and socioeconomic variables leads to significantly higher
+    peak load growth rate forecasts compared to only including climate variables,
+    particularly under SSP2-RCP4.5 and SSP5-RCP8.5 scenarios.
+Methodology:
+  1: Estimates the response functions of annual peak loads to maximum temperatures
+    in China and then predicts future peak loads under different scenarios.
+  3: The study employs a two-way fixed effect panel data model based on peak load
+    response to temperature changes across 31 provinces in China from 1998-2018.
+  4: National regression analysis using a two-way fixed effects model (Province and
+    Year). Robustness test using Two-Stage Least Square (TSLS) estimation with the
+    first-order lag term of GDP as an instrumental variable. Analysis covers the period
+    1998-2018 in China.
+  5: Analysis of load-temperature responses across three regions in China using empirical
+    data, focusing on the mediating effect of air conditioning ownership.
+  6: Employs estimated temperature-load response functions to forecast peak load and
+    required infrastructure investment; Four scenarios are developed based on the
+    SSPs from CMIP6 and the RCPs from Vuuren et al. (2011).
+  7: The study uses load-temperature response functions to project national peak load
+    under different SSP-RCP scenarios, projecting out to 2100.
+  8: Forecasts of peak load growth rate under different climate scenarios (SSPs and
+    RCPs) and with/without socioeconomic variables included.
+More Notes:
+  1: The impact of maximum temperature on peak load varies substantially among different
+    regions, with the most significant impacts in Eastern China. The adoption and
+    penetration of air conditioners is an important channel to materialize the impacts
+    from temperature change to peak load.
+  4: Endogeneity between GDP and power load was tested and found to be insignificant.
+    Regional heterogeneity can affect the responses of electricity load to temperature
+    changes.
+  6: The cost projection of wind and solar power generation projects are based on
+    the China Electric Power Technology and Economy Development Research Report 2019,
+    and the operating reserve share of installed capacity is set as 15% based on Chen
+    et al. (2021).
+  7: The study suggests policy implications including integrating climate change into
+    long-term power system planning, promoting energy-efficient air conditioning technologies,
+    developing demand response programs, and utilizing electricity markets to guide
+    investment and planning. The authors recognize the need for further research to
+    address the impacts of new climate change policies, improve spatial granularity
+    of data, and address potential endogeneity problems.
+  8: The study uses maps to visualize the forecast of provincial peak loads in 2030,
+    2050, and 2100 under different climate scenarios.
+Outcome(s) of Interest:
+  1: Infrastructure investment costs related to increased peak electricity load.
+  4: No relevant information
+  6: Additional investment demand for electricity supply infrastructure; Annual investment
+    for wind generators; Annual investment for solar generators.
+  7: No relevant information
+  8: Peak load growth rate
+Quantitative material:
+  1: "National peak load is forecasted to reach between 3807 GW and 6815 GW by the\
+    \ end of this century, requiring an additional infrastructure investment of 275\u2013\
+    617 billion yuan per year."
+  4: "A 1\xB0C increase in maximum temperature will increase peak load by an average\
+    \ of 0.385 GW, or 2.33% compared to the historical average (1998-2018)."
+  5: "In Eastern China, a 1\xB0C rise in maximum temperature results in a 0.708 GW\
+    \ increase in peak load."
+  6: National peak load is the highest (6816 GW) under the SSP 5-RCP 8.5 scenario
+    by the end of this century, while it is the lowest (3808 GW) under the SSP4-RCP
+    6.0 scenario; Average increase in the peak load is about 399 GW under the four
+    RCPs by the end of this century when only temperature changes are considered;
+    Annual investment will range from 298 to 617 billion yuan for the wind generators;
+    Annual investment will range from 275 to 570 billion yuan for the solar generators.
+  8: Peak load growth rate forecasts for China under different SSP-RCP scenarios,
+    varying from 37% to 580% depending on the scenario and variables included.

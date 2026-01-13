@@ -1,0 +1,98 @@
+Drivers of Risk:
+  5: Drought conditions measured by the Standardized Precipitation-Evapotranspiration
+    Index (SPEI) during the growing season are the primary drivers of risk being analyzed.
+  10: Exposure to drought reduces willingness of households to acquire land and the
+    price they are willing to pay; above-average water supply increases interest to
+    purchase land.
+  12: Shifts in seasonal precipitation patterns affected by climate change complicate
+    prediction of rainy and growing seasons.
+  14: SPEI (Standardized Precipitation-Evapotranspiration Index), poverty status,
+    gender of household head, farm size.
+  15: SPEI (Standardized Precipitation-Evapotranspiration Index) which is an indicator
+    of drought conditions, both current and lagged (up to 2 months).
+  17: SPEI lagged and current effects are studied for dry, wet, and normal conditions.
+Highlights:
+  5: The study investigates how drought conditions, measured by SPEI, affect households'
+    willingness to acquire full ownership rights to land and the amount they are willing
+    to pay for it.
+  10: Persistent effects of drought on land purchase willingness for up to two years;
+    frequent droughts make regions less attractive for land purchases, warranting
+    targeted efforts to improve land suitability.
+  14: Current SPEI has a statistically significant positive effect on willingness
+    to acquire land ownership rights. The effect of SPEI is heterogeneous based on
+    poverty status, gender of head of household, and farm size, but many interaction
+    effects are not statistically significant.
+  15: Current and lagged SPEI values are statistically significant predictors of both
+    willingness to purchase land and the amount households are willing to pay. The
+    effect of SPEI varies depending on the lag structure and the specific dependent
+    variable being considered.
+  17: The analysis found significant within and between effects of SPEI across different
+    conditions (dry, wet, normal) on willingness to purchase land and the amount households
+    are willing to pay.
+Methodology:
+  5: "The study uses a panel data analysis (UNPS waves 2005/06, 2009/10, and 2010/11)\
+    \ and links SPEI data to household locations based on GPS coordinates. The analysis\
+    \ uses fixed effects for interview month. The paper estimates the effects of drought\
+    \ during the growing season on households\u2019 willingness to purchase land using\
+    \ regression equation (1): \U0001D44A\U0001D456\U0001D461= \U0001D6FD1\U0001D446\
+    \U0001D443\U0001D438\U0001D43C\U0001D456\U0001D461+\U0001D6FD2\U0001D446\U0001D443\
+    \U0001D438\U0001D43C\U0001D456\U0001D461\u22121 +\U0001D6FD3\U0001D446\U0001D443\
+    \U0001D438\U0001D43C\U0001D456\U0001D461\u22122 +\U0001D6FF\U0001D44B\U0001D456\
+    \U0001D461+\U0001D6FC\U0001D456+\U0001D6FE\U0001D461+\U0001D703\U0001D456\U0001D461\
+    +\U0001D716\U0001D456\U0001D461. This equation appears to be at the household\
+    \ level, implying the study is microeconomic."
+  10: Household panel survey data combined with high-resolution weather data to calculate
+    SPEI drought index; household fixed effects model exploiting variation in drought
+    intensity across time and space.
+  12: The paper uses simple approaches to define growing seasons for household locations
+    and tests several alternative approaches.
+  14: OLS regression with household fixed effects, wave fixed effects, and month fixed
+    effects, clustered standard errors at the district level, and attrition weights
+    applied. Data from UNPS waves 2005/06, 2009/10, and 2010/11. CHIRPS and CHIRTS
+    data for precipitation and temperature.
+  15: OLS (Ordinary Least Squares) regression is used to estimate the relationship
+    between SPEI and willingness to purchase land/amount households are willing to
+    pay, controlling for household fixed effects, wave fixed effects, and month fixed
+    effects. Standard errors are clustered at the district level. Attrition weights
+    are applied.
+  17: Analysis is performed using Probit and Tobit correlated random effects models
+    on UNPS and climate data sources.
+More Notes:
+  5: The study spatially links the SPEI to household locations based on GPS coordinates.
+    They calculate SPEI values for each household location for the last month of the
+    growing season based on the FAO crop calendar for Uganda. The dependent variables
+    are self-reported survey answers. The study appears to focus on the impacts of
+    climate (drought) on land tenure security at the household level.
+  10: No relevant information
+  12: Accurate identification of growing seasons is hindered by false starts and changes
+    in rainfall patterns.
+  14: The histogram shows the distribution of households' willingness to pay for land,
+    which is heavily skewed towards lower amounts.
+  17: The world does not find concrete macroeconomic or macro-fiscal data directly
+    applicable to national adaptation costs or benefits.
+Outcome(s) of Interest:
+  5: This paper focuses on the willingness of households to acquire full ownership
+    rights to land and the amount they are willing to pay for it (in USh, adjusted
+    for inflation).
+  10: No relevant information
+  14: Willingness to acquire land ownership rights.
+  15: Willingness to purchase land; Amount households are willing to pay
+  17: There is no specific mention of macroeconomic or fiscal outcomes directly related
+    to GDP effects, productivity loss, or public finances.
+Quantitative material:
+  5: Table 1 provides summary statistics (mean, standard deviation, min, max, and
+    N) for willingness to acquire land ownership, amount households are willing to
+    pay for land, SPEI values (current and lagged), and several control variables
+    such as household size, farm size, education, remittances, distance to parcels,
+    number of parcels with use rights, household consumption expenditures, livestock
+    units, and an asset index.
+  10: No relevant information
+  14: Regression results showing the impact of SPEI and interaction terms on willingness
+    to acquire land ownership rights.
+  15: The table provides regression coefficients for the relationship between SPEI
+    and the dependent variables. For example, a current SPEI of 1 is associated with
+    a 0.06 increase in willingness to purchase land (significant at the 5% level in
+    column 1) and a 0.75 increase in the amount households are willing to pay (significant
+    at the 5% level in column 5) using current SPEI.
+  17: No concrete quantitative outcomes related to macro-fiscal measures or economic
+    costs/benefits of adaptation are provided.

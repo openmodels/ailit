@@ -1,0 +1,179 @@
+Drivers of Risk:
+  1: Sea level rise (SLR), hurricanes, coastal urban development.
+  2: Sea level rise and hurricanes are identified as key drivers of risk to coastal
+    communities and their built environment.
+  3: Sea level rise, hurricanes
+  6: Exposure to sea level rise and hurricanes are considered drivers of risk.
+  7: Exposure to sea level rise (SLR) and hurricanes.
+  11: Sea level rise, hurricanes, coastal development patterns (densification vs sprawl).
+  13: Sea level rise (SLR) and hurricanes (total hits and wind speed).
+  14: Sea-level rise and hurricane activity (cumulative storms) are the main drivers
+    of risk examined.
+  15: Development along U.S. coastlines; Increasing densification of coastal zones;
+    Expansion of coastal settlements with low-density construction transitioned to
+    densification from roughly 1980 on; Growing densification (addition of structures)
+    and resulting in increasing built environment exposure along the coast; Increasing
+    convergence of the density and expansion characteristics of SLR zones across regions.
+  16: Natural disasters such as hurricanes and sea level rise (SLR) increase risk
+    in coastal areas.
+  17: Sea level rise and hurricanes; Age of building stock; Lack of adaptation in
+    building codes; Old construction practices
+Highlights:
+  1: SLR zones developed faster and continue to have higher structure density than
+    non-coastal, urban, and inland areas; density levels in historically less-developed
+    coastal areas are now quickly converging on early settled SLR zones; adaptation
+    policies targeting existing buildings and developed areas are likely to grow in
+    importance.
+  2: The research offers a fine-scale, nationwide analysis of the exposure of the
+    coastal built environment to hazards over the twentieth century.
+  3: Investigates trends of urban expansion into coastal areas at risk of future sea
+    level rise impacts.
+  6: Hurricanes can be an early indicator (through storm surge) of future SLR conditions,
+    used to understand development of frequently flooded areas in comparison to other
+    areas.
+  7: Developed area and housing stock dramatically increased along the U.S. coastline
+    between 1950 and 2000. SLR zones have higher structure density, are more developed,
+    and have densified and expanded at higher rates than inland coastal areas. Coastal
+    communities have greatly expanded after 1950, slowing significantly after 1980.
+  11: Coastlines are more developed than inland areas; Southeast has a high exposure
+    to SLR due to later development patterns; Western Gulf coast is identified as
+    a potential hotspot for new building and land-use transitions.
+  13: MSAs affected by hurricanes are denser and more developed than those not affected.
+    Building intensity in SLR zones may be higher than in non-SLR zones following
+    hurricanes.
+  14: Hurricane activity is associated with significantly higher rates of building
+    in terms of the proportion of built area and structure density. The impact of
+    storms on the built-up share of land is largely concentrated in the SLR zones
+    of MSAs.
+  15: Coastal building tends to expand with low-density construction in early phases
+    but transitions to densification from roughly 1980 on; Regardless of the cause
+    of contemporary growing densification along coastlines, this trend leads to increasing
+    exposure through added structures and increased square footage within SLR zones;
+    Convergence patterns imply that the effects of the historical conditions that
+    gave rise to distinctive coastal built environments may have been temporary.
+  16: Built environment expansion and densification in coastal zones contribute to
+    increased exposure to natural hazards.
+  17: Building age is an indicator of vulnerability to natural hazards along the coast.
+    Older coastal areas, particularly in the Northeast, were developed with less advanced
+    or adaptive housing codes and building techniques.
+Methodology:
+  1: Analysis of historical settlement layers from the Historical Settlement Data
+    Compilation for the U.S. (HISDAC-US) to examine building patterns within and between
+    the SLR zones of the conterminous United States since the early twentieth century.
+  2: "The study uses gridded historical settlement data layers derived from Zillow\u2019\
+    s ZTRAX database and the Historical Settlement Data Compilation of the United\
+    \ States to analyze built-up property records across US coastal regions from pre-1900\
+    \ to 2015. It overlays this data with sea level rise zones from NOAA. It undertakes\
+    \ a century-long analysis of urbanization encompassing both passive differences\
+    \ in regional building patterns between coastal and non-coastal places, and explicit\
+    \ responses to hazardous conditions (hurricane events)."
+  3: "Analysis of urban expansion into coastal areas at risk of sea level rise impacts\
+    \ compared to inland areas using measures including built-up property density,\
+    \ coastal land development, and age of buildings; utilizes Zillow\u2019s ZTRAX\
+    \ dataset and HISDAC-US database."
+  6: The study uses Metropolitan Statistical Areas (MSAs) and Micropolitan Statistical
+    Areas as units of analysis to assess how transitional units developed over time,
+    similar to recent urban change assessments. It uses the HURDAT2 database to determine
+    which MSAs were affected by hurricanes between 1900 and 2015, considering MSAs
+    within 20km of hurricane eye landfalls as affected. It accounts for protected
+    areas and wetlands by excluding them from the sea level rise (SLR) zones to constrain
+    the analysis. Zonal statistics are used to determine the total number of structures,
+    built interior area, and built grid cells within each SLR zone and MSA polygon
+    in five-year increments from 1900 to 2015. Built Area Proportion (BAP) is calculated
+    as the number of built grid cells divided by the total number of grid cells.
+  7: Analysis of building trends along U.S. coastlines using settlement data. Calculation
+    of structure density (S/Ap, where S is number of structures and Ap is the total
+    number of developed grid cells), expansion (BAPt2 - BAPt1, where BAP is built-up
+    proportion), and densification ((St2-St1)/(Apt2-Apt1)). Applies to the conterminous
+    United States.
+  11: Quantifying the absolute and relative exposure of MSAs to SLR by comparing the
+    total number of buildings to the percentage of buildings inside SLR zones.
+  13: The study uses regression analysis with census division fixed effects to estimate
+    the impact of SLR and hurricane exposure on building characteristics within Metropolitan
+    Statistical Areas (MSAs). The analysis covers the period from 1900-2015, with
+    dependent variables measured in 2015. The estimates are relative to SLR zones
+    with no storms.
+  14: Panel regression analysis from 1900-2015 with MSA clustered standard errors
+    and year, MSA, and year x census division fixed effects. Results are applicable
+    to US MSAs (Metropolitan Statistical Areas), and potentially more so to hurricane-hit
+    locations.
+  17: Analysis of the age of structures using HISDAC-US data to identify vulnerable
+    neighborhoods and grid cells within cities.
+More Notes:
+  2: The study aims to establish a robust link between coastal conditions, specifically
+    hurricane activity, and the long-term spatial development of urban areas. It looks
+    at long-term changes in density and expansion across areas most likely to be impacted
+    by coastal hazards, delineated using NOAA-defined SLR zones and relates hurricane
+    exposure to historical development and how current exposure levels are changing
+    with recent building patterns.
+  3: Focuses on mapping and characterizing exposure of the built environment to sea
+    level rise, rather than quantifying macroeconomic or fiscal outcomes directly.
+  6: The contemporary MSA boundaries were used even if the area was rural in 1900.
+    The study uses the HISDAC-US dataset to compare measures of development, aggregating
+    data by state and by MSA within each census division from 1900 to 2015.
+  7: Densification, i.e. number of structures added per developed grid cell during
+    the time period of interest, greater than one after 1980. Development patterns
+    vary by US census division.
+  11: The paper focuses on the changing patterns of coastal built environment exposure.
+    Development has slowed in recent decades in areas exposed to SLR. The Western
+    Gulf Coast, due to its relatively modest historical development intensity, is
+    identified as a potential future hotspot for development and related SLR impacts.
+  13: The paper uses building intensity as a proxy for economic activity. The distinction
+    between 'low severity' and 'high severity' storms is based on average maximum
+    wind speeds (below and above 100 mph, respectively) or number of storm hits (1-4
+    and 5 or more since 1900, respectively).
+  14: The paper finds a negative but less precise effect of hurricane activity on
+    structure count, but only in a hurricane-hit restricted sample.
+  16: Development continues in high-risk areas like the Sunbelt and Florida despite
+    hurricane hits and flood risks.
+  17: Density and development patterns do not fully illustrate exposure; building
+    condition and adaptation also drive vulnerability. Nature-based approaches are
+    an alternative to grey infrastructure for risk reduction in some areas. Retreat
+    from the coastline may be the only adaptation choice in areas with very high coastal
+    hazards and exposure.
+No relevant information:
+  12: This page focuses on building patterns and exposure to sea-level rise and hurricanes
+    at a local level (MSAs). It does not directly address macroeconomic or macro-fiscal
+    outcomes, nor does it present quantitative information on the economic costs/benefits
+    of adaptation at a national level.
+Outcome(s) of Interest:
+  1: U.S. property at risk of coastal hazards and sea level rise (SLR), adaptation
+    costs, potential losses due to SLR.
+  2: The paper examines the impact of coastal hazards, particularly hurricanes, on
+    long-term urban development patterns and the built environment in coastal areas
+    of the US.
+  3: Exposure of built environment to sea level rise
+  6: No relevant information
+  7: No relevant information
+  11: Exposure to sea level rise and hurricanes, measured by number and percentage
+    of buildings in SLR zones.
+  13: Share of built-up land, structure density, and total structures are used as
+    proxies for building intensity and development, which are indirectly related to
+    economic activity.
+  14: The paper looks at the effect of sea-level rise and hurricane exposure on the
+    built environment, measured by share of built-up land, structure density, and
+    number of structures.
+  15: Increasing exposure to sea-level rise and hurricanes; Possible decreasing built
+    environment vulnerability through less land expansion into hazardous areas and
+    more modern building codes.
+  17: Coastal communities require investment in adaptation to sea level rise and hazards
+    for future exposure and risk reduction.
+Quantitative material:
+  1: Current estimates of U.S. property at risk are evaluated at over a trillion U.S.
+    dollars; more than 2.5 million U.S. coastal properties are at risk.
+  2: National wetlands inventory database worth approximately $1.07 trillion dollars
+    are at risk of disruptive flooding by 2100.
+  3: Spatial distribution of areas exposed to 3 feet (0.91 meters) and 6 feet (1.83
+    meters) of sea level rise; spatial distribution of year first structure was built
+  6: No relevant information
+  11: Maps and graphs showing the number and percentage of structures within SLR zones
+    by MSA, Census Division, and year (1900-2000). Absolute (Fig 5C and 5D) and relative
+    exposure (Fig 5A and 5B) of MSAs to SLR.
+  13: The paper presents coefficient estimates from regressions analyzing the relationship
+    between hurricane characteristics and building intensity metrics. The coefficient
+    estimates and their variability (error bars) are quantitative measures.
+  14: There are quantitative estimates from panel regressions from 1900-2015 showing
+    the relationship between the risk drivers and changes in the built environment.
+    For example, a one-unit increase in the accumulation of storms over time is associated
+    with an increase of 2.3 percentage points in the share of built up land.
+  17: Percentage of structures older than 1975 across MSAs.

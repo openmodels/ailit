@@ -1,0 +1,139 @@
+Drivers of Risk:
+  1: Extreme climate risks (floods, droughts, tornados, hurricanes, etc.).
+  4: Climate risk, measured by the Global Climate Risk Index (GCRI) score (inverted).
+  5: Climate risks, specifically extreme weather events, are examined as a key driver
+    of changes in energy consumption and socio-economic impacts at the country level.
+  8: Climate risk, both short-term and long-term, impacts the transition of energy
+    consumption.
+  9: Short-term climate risk (CRI), Long-term climate risk (CRI_long)
+  11: Climate risk index (CRI) and governance quality (vae, pve, gee, rqe, rle, cce).
+  12: Climate risk (CRI and CRI_long), lnpgdp (log of GDP per capita), urbanr (urbanization
+    rate), indusr (industrialization rate), trader (trade openness)
+  13: Short-term Climate Risk (CRI), Long-term Climate Risk (CRI_long), Fossil energy
+    resources, Level of economic development
+  14: Climate risk (exposure to extreme weather), business cycle fluctuations (economic
+    booms and recessions), oil price fluctuations
+  15: Extreme climate risks (floods, heatwaves, long-term droughts); Economic recession;
+    Oil price fluctuations
+Highlights:
+  1: Extreme climate change has promoted the transition of the energy structure, reduced
+    the consumption of fossil energy, and increased the consumption of renewable energy.
+    Areas with high levels of economic development and coastal countries are more
+    inclined to respond to climate change through energy transition. Economic recession
+    and falling oil prices will strengthen the correlation between climate risk and
+    the global energy transition.
+  5: The interaction of climate risk and governance quality potentially affects the
+    transition in energy consumption structure; the study explores governance as a
+    moderating factor.
+  8: Climate risk promotes the transition of energy consumption towards renewable
+    energy, with long-term climate risks having a greater impact.
+  9: Climate risk (both short and long term) has a significantly positive impact on
+    energy consumption transition. Long-term climate risk has a more prominent impact.
+    Climate risk (both short and long term) has a negative impact on fossil energy
+    consumption.
+  11: Governance quality, specifically voice and accountability (vae), political stability
+    and absence of violence (pve), government effectiveness (gee), regulatory quality
+    (rqe), rule of law (rle), and control of corruption (cce), can moderate the impact
+    of climate risk on energy consumption transition.
+  12: Climate risk can promote the transition of energy consumption, and this finding
+    is robust after controlling for potential endogeneity.
+  13: In resource-rich countries, short-term climate risk (CRI) has a significantly
+    positive impact on energy consumption transition. Long-term climate risks (CRI_long)
+    have a significant positive impact on the energy consumption transition of both
+    resource-rich and resource-poor countries. In countries with low levels of economic
+    development, both short-term and long-term climate risks have a significantly
+    positive impact on energy consumption transition.
+  14: Climate risk significantly promotes the transition of energy consumption in
+    low-income countries, but not in high-income countries. During economic recessions,
+    climate risk promotes energy consumption transition. The positive correlation
+    between climate risk and energy consumption transition is more pronounced when
+    oil prices are falling.
+  15: Countries facing higher climate risks are more likely to develop renewable energy
+    sources. National governance quality can weaken the promotion effect of climate
+    risks on the transition of energy consumption. The relationship between climate
+    risks and energy consumption transition is more significant in countries with
+    rich resources and low levels of economic development. The relationship between
+    climate risks and energy consumption transition is more significant when affected
+    by economic recession and falling oil price fluctuations.
+Methodology:
+  1: Panel data model with fixed effects.
+  4: Spatial panel model with fixed effects.
+  5: The study employs a panel data model incorporating climate risk index scores
+    and governance quality indicators using data from 2006 to 2019 for 101 countries/regions.
+  8: Utilizes an augmented Dickey-Fuller test for stability and correlation analysis
+    to assess the impact of climate risk on energy consumption transition.
+  9: Fixed-effects model; Hausman test indicates fixed-effects model is better than
+    random-effects.
+  11: Panel data regression analysis with country and year fixed effects. The analysis
+    examines the moderating effect of governance quality on the relationship between
+    climate risk and energy consumption transition.
+  12: The instrumental variable method is used to address endogeneity, using coastline
+    length (lncoastline) as an instrument for climate risk. Two-stage least squares
+    regression is employed. The results include country and year fixed effects.
+  13: Regression analysis with country and year fixed effects, performed on sub-samples
+    based on median fossil energy production (resource-rich/poor) and economic development
+    level (high/low).
+  14: Regression analysis on sub-samples of countries divided by GDP per capita, economic
+    cycle (boom/recession), and oil price trends (rise/fall). The results are applicable
+    to understanding the relationship between climate risk and energy consumption
+    transition under varying economic and external conditions.
+  15: Panel data analysis of 101 countries from 2006 to 2019, using country-level
+    data. Regression analysis with control variables, country fixed effects, and year
+    fixed effects. Instrumental variable method used to address endogeneity.
+More Notes:
+  1: The climate risk index constructed by Germanwatch is used.
+  9: The study uses lagged climate risk variables. The control variables (GDP per
+    capita, urbanization, industrialization, and trade) also impact energy consumption
+    transition.
+  11: The paper argues that better governance can lead to more proactive and effective
+    energy policies, reducing the reliance on experiencing extreme climate events
+    to drive changes in energy consumption structure. The moderating effects vary
+    across different dimensions of governance.
+  12: The study uses data from a sample of countries. The data source for coastline
+    length is ChartsBin, accessed on 10 July 2021.
+  13: The paper defines resource-rich/poor based on the median production of fossil
+    energy (crude oil, coal, natural gas).
+  14: The paper argues that economic growth during boom periods can compensate for
+    losses from climate risk, hindering the energy transition. Industrial policies
+    and environmental regulations adopted during recessions might stimulate renewable
+    energy consumption.
+No relevant information:
+  17: No relevant information
+  18: No relevant information
+Outcome(s) of Interest:
+  1: Impacts on energy consumption structure (fossil vs renewable energy).
+  4: Transition of energy consumption, represented by the proportion of renewable
+    energy consumption in the total initial energy consumption.
+  9: Energy consumption transition (ECT), fossil energy consumption
+  11: Energy consumption transition (ECT).
+  12: Energy consumption transition (ECT)
+  13: Energy consumption transition
+  14: Energy consumption transition (shift to renewable energy)
+  15: Energy consumption transition (development of renewable energy sources)
+Quantitative material:
+  1: Panel data of 101 countries or regions from 2006 to 2019.
+  8: Descriptive statistics and Pearson correlation matrix data including variables
+    like energy consumption transition and climate risk.
+  9: Table 4 presents regression results showing the impact of CRI and CRI_long (both
+    current and lagged) on ECT. Coefficients and standard errors are provided, along
+    with R-squared values. The table also presents regression results for control
+    variables like GDP per capita, urbanization rate, industrialization rate, and
+    trade. Table 5 presents regression results for impact of climate risk on fossil
+    energy consumption (not included on this page but referenced as negative in the
+    text).
+  11: Table 6 presents regression results showing the moderating effect of governance
+    quality on the relationship between climate risk and energy consumption transition.
+    Coefficients and significance levels are reported for CRI, governance indicators,
+    interaction terms (CRI x governance), and control variables.
+  12: Table 7 presents regression results with coefficients for CRI, CRI_long, lnpgdp,
+    urbanr, indusr, trader, and lncoastline, along with standard errors, R-squared
+    values, and number of observations. The coefficients of CRI and CRI_long in the
+    second stage regressions are significantly positive.
+  13: 'Table 8 presents regression coefficients for CRI and CRI_long under different
+    subsamples: Resource-Rich, Resource-Poor, economy-high, and economy-low, along
+    with R-squared and number of observations.'
+  15: Panel A shows regression results with Climate Risk Indicator (CRI) and CRI_long
+    as independent variables, economic boom/recession as conditions, and R-squared
+    values. Panel B shows regression results with CRI and CRI_long as independent
+    variables, rising/falling oil prices as conditions, and R-squared values. Statistical
+    significance (p < 0.01, p < 0.05) is indicated.

@@ -1,0 +1,7 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,GDP,Vietnam,Single drought event,2005,No drought,%,-0.2,NA,NA,NA,NA,NA,7,Estimated economic damage due to a single drought in 2005.
+1,Health expenditures,Vietnam,Historical rainfall data,2013,No drought,PPPUSD,28.3412,2.0165,NA,NA,NA,NA,p.24,"Tobit regression on household health shocks related to drought severity, 3-month average. p<0.01"
+2,Health expenditures,Vietnam,Historical rainfall data,2013,No drought,PPPUSD,40.3972,8.6743,NA,NA,NA,NA,p.24,"IV-Tobit regression on household health shocks related to drought severity, 3-month average. p<0.01"
+3,Health expenditures,Vietnam,Historical rainfall data,2013,No drought,PPPUSD,-51.2913,38.4743,NA,NA,NA,NA,p.24,Income*Drought interaction term in IV-Tobit regression model. p<0.1
+4,Health Expenditures,Vietnam,Historical rainfall data,2010,No CC,PPP USD,144,NA,NA,NA,NA,NA,25,"Increase in health expenditures due to drought-related illness for all income groups; Averaging period 2007-2013, so using midpoint"
+5,Health Expenditures,Vietnam,Historical rainfall data,2010,No CC,PPP USD,90,NA,NA,NA,NA,NA,25,"Increase in health expenditures due to drought-related illness for lower wealth distribution; Averaging period 2007-2013, so using midpoint"

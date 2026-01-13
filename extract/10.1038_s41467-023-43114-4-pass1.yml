@@ -1,0 +1,202 @@
+Drivers of Risk:
+  1: Tropical cyclones (TCs), temperature increases related to climate change, socioeconomic
+    vulnerability
+  2: Tropical cyclones (TCs), temperature, emission scenarios (RCPs), socioeconomic
+    development (SSPs), and economic discounting scenario combinations.
+  3: Future greenhouse gas emissions, Socioeconomic development (population and economic
+    growth), Normative assumptions on discounting, Historical growth response of countries
+    to TCs, Response of TC impacts to future greenhouse gas emissions, Response of
+    temperature to a greenhouse gas emission pulse, Sea-surface temperature increase,
+    atmospheric circulation conditions (shear winds, location of genesis)
+  4: Tropical cyclones (TCs), global mean temperature (GMT)
+  5: Tropical cyclones, different Representative Concentration Pathways (RCP2.6, 6.0,
+    8.5), Shared Socioeconomic Pathways (SSP2 and SSP5), growth adjusted discount
+    rates
+  6: Global mean temperature change (relative to pre-industrial levels) and tropical
+    cyclone (TC) induced growth losses are the main drivers of risk.
+  7: Tropical cyclones (TCs).
+  8: Changes impacting outcomes include tropical cyclones (TCs) contributing to economic
+    losses.
+  9: Tropical cyclone (TC) frequency and intensity, global mean temperature.
+  11: Tropical cyclones (TCs), temperature increases
+  13: Climate change impacts on agriculture; Tropical cyclone climatology change exacerbating
+    US extreme rainfall-surge hazard.
+Highlights:
+  1: Accounting for TC impacts substantially increases the global SCC, suggesting
+    the benefits of climate policies could be underestimated.
+  2: Estimates discounted annual damage (DAD) and contribution of TCs to the social
+    cost of carbon (SCC) for different scenarios. Including TC effects does not affect
+    the obtained results.
+  3: "TC strikes reduce growth in the short-, mid-, and long-term. Cumulative (median)\
+    \ growth losses first monotonically increase with the number of lag years considered\
+    \ before they somewhat remain constant for 6\u201313 lags. Heterogeneous exposure\
+    \ of countries to TCs leads to substantially different induced growth losses."
+  4: Growth losses increase with GMT for 37 out of the 41 TC-affected countries considered.
+    Growth losses do not depend on the development level but rather on country-specific
+    characteristics.
+  5: Tropical cyclones cause significant discounted annual damage, both globally and
+    at the country level; uncertainty in climate models (RCPs and SSPs) and discounting
+    choices significantly impact damage estimates; impact of tropical cyclone damage
+    on the social cost of carbon
+  6: The paper finds that tropical cyclones lead to notable increases in the Social
+    Cost of Carbon (SCC), especially for large emitters like the USA. The discount
+    rate has the largest impact on SCC estimates. The TC-SCC is determined by exposure
+    and economic vulnerability. The USA perceives the largest increase in median SCC
+    through TCs.
+  7: Tropical cyclones increase the social cost of carbon. Lower- and middle-income
+    countries face larger adaptation challenges in relative terms (damage as percentage
+    of income) than high-income countries. Damage as percentage of income is highest
+    for Taiwan, Japan and the USA, but when damage is measured relative to average
+    household income the damages for upper-middle income island states of Mauritius
+    and Jamaica and lower-middle income countries of the Philippines and Vietnam become
+    comparable to those of the USA.
+  8: TC damages are significant, increasing SCC for major emitting countries like
+    China, USA, and India. The study suggests that accounting for TCs can substantially
+    increase SCC estimates.
+  9: The global non-linear effect of temperature is expressed as a quadratic function.
+  11: The paper defines and calculates the Tropical Cyclone-induced SCC (TC-SCC),
+    which is the difference between the SCC with and without the contribution of TCs.
+Methodology:
+  1: Derive temperature-dependent damage functions for 41 TC-affected countries to
+    quantify the country-level SCC induced by the persistent growth effects of damaging
+    TCs.
+  2: The paper uses a modeling framework comprising historical growth responses to
+    TC strikes, probabilistic event-based projections of TC damages using a TC emulator,
+    and country-specific temperature-dependent damage functions. Employs a three-way
+    fixed effects panel model with annual national shares of people exposed to TCs
+    as exogenous predictors. Models damages as functions of GMT change.
+  3: 'Scenario analysis and probabilistic methods (bootstrapping).  Six uncertainty
+    dimensions are considered: future greenhouse gas emissions, socioeconomic development,
+    normative assumptions on discounting, historical growth response of countries
+    to TCs, response of TC impacts to future greenhouse gas emissions, and response
+    of temperature to a greenhouse gas emission pulse.  Employs a maximum entropy
+    bootstrapping method to express uncertainties associated with the historical growth
+    estimates. Generates 1200 bootstraps for each country and estimates the growth
+    response individually for each bootstrap.  Uses a statistical TC emulator to generate
+    probabilistic time series of TCs based on the output from four different global
+    climate models. DAD is estimated over the period 2010-2100.'
+  4: Empirical growth model to translate shares of affected people into deviations
+    of national GDP pathways.  Derives event-based, country-level temperature-dependent
+    damage functions for TCs.  Mixed-effects modeling approach is used to account
+    for the dependencies on RCP scenarios as random effects in regression analysis.
+    SCC estimation uses the difference in future GDP per capita projections under
+    climate damage with and without an additional emission pulse.
+  5: Uses different values of the growth adjusted discount rates; quantifies uncertainties
+    using 120,000 realizations; combines temperature terms with terms measuring the
+    TC impacts in a common regression framework; calculates TC-induced SCC (TC-SCC)
+    by subtracting the SCC calculated without TC impacts from the SCC calculated with
+    TC impacts
+  6: The paper combines process-based modeling of population exposure to TCs with
+    an empirical growth model. The mixed-effects model is used to estimate the impact
+    of TCs on growth, considering RCP-specific random effects. The analysis accounts
+    for uncertainty dimensions and uses different discount rates (including the Stern
+    discount rate). The paper also mentions the use of damage functions.
+  7: Uses a damage assessment and distribution (DAD) analysis.  The study considers
+    uncertainty dimensions. It resolves the impacts from annual temperatures and TCs
+    explicitly. The models use 8 lags.
+  8: The analysis derives SCC estimates through methodology involving temperature
+    damage functions and persistence of damages, with scenarios including historical
+    growth responses to TCs.
+  9: Uses a three-way fixed effects panel model to estimate the national GDPpc growth
+    responses over the period 1981-2015, incorporating temperature and TC impacts.
+    Employs a bootstrapping strategy to account for uncertainties.
+  11: The paper uses a discrete-time definition of discount rates. It calculates the
+    SCC with and without the contribution of TCs. The TC-induced SCC (TC-SCC) is defined
+    as the difference between the SCC with and without the contribution of TCs. The
+    analysis was implemented in Python 3.9 with CLI-MADA 3.3.3 and statsmodels 0.13.5.
+  13: 'The method was designed by H.K., C.O., and T.V. T.G. and T.V. provided the
+    TC exposure. C.S. generated the historical population-weighted temperature time
+    series. F.P. calculated the SCC. H.K. and T.V. conducted the rest of the simulations. '
+More Notes:
+  1: The study focuses on the persistent growth effects of TCs, differentiating it
+    from studies focusing on direct damages.
+  3: The analysis accounts for compounding uncertainties and dependencies regarding
+    future population and economic development.  Discount rates are adjusted by the
+    economic growth rate of the considered country. The modeling chain averages results
+    only at the very end and separately for each of the RCP-SSP-discounting scenario
+    combinations.
+  4: Discounting represents the primary source of uncertainty in the DAD calculation.
+    The relationship between GMT and TC-induced growth rate changes is independent
+    of the SSP scenarios at the 10% level of significance, but depends on the RCPs.
+    Historically implemented adaptation measures may not suffice to compensate for
+    climate change-induced loss increases in the future, even in high-income countries.
+  5: The analysis considers uncertainty dimensions related to climate models and socioeconomic
+    pathways. Results are presented for different scenarios (RCPs and SSPs) and discount
+    rates. The analysis focuses on the period 2010-2100.
+  6: "The damage functions used are temperature-dependent and quasi-universal. The\
+    \ framework used could be extended to other categories of extreme weather events.\
+    \ The persistence of growth losses and accounting for the country\u2019s GHG emissions\
+    \ is considered. There are high tail risks associated with country-level TC-SCC."
+  7: The DAD analysis likely underestimates the economic implications for lower-income
+    populations, as they are often more exposed to, and need longer to recover from,
+    TC strikes. The paper acknowledges that its SCC estimate may implicitly account
+    for other impact channels such as health impacts.
+  9: Applies a correction factor to simulated TC-affected people to align with historical
+    data. The study analyzes 174 countries, identifying 41 as being affected by TCs
+    in the historical period (1981-2015). Uses eight lag years as the main specification.
+    The TC impact terms do not affect the temperature coefficients at the 10% level
+    of significance and vice versa.
+  11: The model to generate the probabilistic TC tracks is intellectual property of
+    WindRiskTech and not publicly available. All other code is openly available.
+No relevant information:
+  12: No relevant information
+Outcome(s) of Interest:
+  1: Economic growth reduction, Social Cost of Carbon (SCC)
+  2: Discounted annual damage (DAD) caused by TCs and contribution of TCs to the social
+    cost of carbon (SCC).
+  3: Tropical cyclone damages, Discounted Annual Damage (DAD) by tropical cyclones,
+    Tropical cyclone induced Social Cost of Carbon (SCC), Growth losses (short-, mid-,
+    and long-term) due to tropical cyclones
+  4: National GDP trajectories, national shares of affected people, growth losses,
+    Tropical cyclone-induced social cost of carbon (SCC)
+  5: Discounted annual damage (DAD) from tropical cyclone impacts, both in Trillion
+    US$ and relative to global world product (GWP), as well as country-level per-capita
+    DAD; average per-capita DAD relative to 2019 average household income; social
+    cost of carbon (SCC) increase due to tropical cyclones
+  6: Country-level growth rate changes, SCC changes, and growth losses due to tropical
+    cyclones are the primary macroeconomic outcomes of interest.
+  7: Social Cost of Carbon (SCC), and specifically the tropical cyclone-induced social
+    cost of carbon (TC-SCC) at both global and country levels.
+  8: The paper discusses how tropical cyclones (TCs) drive up the country-level social
+    cost of carbon (SCC) for China, the USA, and India by 68%, 53%, and 9%, respectively.
+  9: National GDPpc growth rates.
+  11: Social Cost of Carbon (SCC), Tropical Cyclone-induced SCC (TC-SCC), aggregate
+    temperature-dependent damage function
+  13: Social cost of carbon.
+Quantitative material:
+  1: Accounting for TC impacts increases the global SCC by more than 20%; median global
+    SCC increases from US$ 173 to US$ 212 per tonne of CO2 under a middle-of-the-road
+    future emission and socioeconomic development scenario.
+  2: "The analysis estimates the long-term response of economic growth rates to TC\
+    \ strikes for 41 TC-affected countries over the historical period 1981\u20132015."
+  3: Average annual growth losses for strongly exposed countries such as Japan (1.63%)
+    or the Philippines (2.62%) were in the historical period on average 10 and 15
+    times higher than for the only partially exposed USA (0.17%).
+  4: Median global DAD (damage as percentage of GDP) ranges from 0.18% of global GDP
+    in 2021 to 1.13% for RCP8.5-SSP5 and Stern's discounting choice.  Per capita DAD
+    ranges from US $170 (USA) to $2046 (Taiwan). Days of income lost per year for
+    an average household from 0.21 (USA) to 0.93 (Phillipines).
+  5: Global discounted annual damage in Trillion US$ and relative to GWP; country-level
+    per-capita DAD; 66% confidence intervals (17-83%); increase in social cost of
+    carbon (SCC); median global SCC of US$/tCO2 173 (2005 constant)
+  6: The paper provides quantitative estimates of global (country-averaged) tropical
+    cyclone-induced growth losses with GMT change for different Representative Concentration
+    Pathways (RCPs). It also provides quantitative estimates of the Social Cost of
+    Carbon (SCC) with and without accounting for tropical cyclones (TCs), as well
+    as country-level TC-SCC values for countries like the USA, Japan, Taiwan, China,
+    and India. Confidence intervals are also provided for SCC estimates.
+  7: "Provides global median SCC estimates with and without TC effects for 2010-2100\
+    \ under different RCPs and SSPs and discount rates. Reports a preferred estimate\
+    \ of US$/tCO2 212 (66% CI: US$/tCO2 138\u2013318).  Also mentions that DAD (damage\
+    \ as percentage of income) can range from one to more than 10 days of income lost\
+    \ per year for an average household in certain countries."
+  8: Quantitative impacts of TCs increasing SCC by 68% in China, 53% in the USA, and
+    9% in India.
+  9: "Mentions using a global mean temperature range of 0.5\xB0C to 1.5\xB0C above\
+    \ pre-industrial levels."
+  11: "The paper calculates the global SCC and TC-SCC. Data is available for GDP,\
+    \ population, temperature, and tropical cyclone exposure.  National annual time\
+    \ series of historical per-capita GDP (GDPpc) are used, as well as national GDPpc\
+    \ projections. Daily temperature data from four CMIP5 GCMs (HadGEM2-ES, MIROC5,\
+    \ IPSL-CM5A-LR and GFDL-ESM2M) and three RCPs (RCP4.5, RCP6.0, and RCP8.5) for\
+    \ the future period 2006\u20132105 are used."

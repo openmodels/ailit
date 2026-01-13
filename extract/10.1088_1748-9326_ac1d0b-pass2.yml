@@ -1,0 +1,371 @@
+Drivers of Risk:
+  3: Climate change-induced damages include climatic extremes and interannual climate
+    variability, impacting climate-economy interactions.
+  4: Rising temperatures, greenhouse gas emissions (CO2, CH4, N2O, etc.), and sea
+    level rise are the primary drivers of risk. The model includes feedbacks such
+    as permafrost carbon feedback and albedo feedback, and also incorporates persistent
+    climate-induced damages affecting GDP pathways and emissions.
+  5: Temperature changes impacting GDP are modeled, considering persistence of economic
+    damages.
+  6: Climate feedbacks (CO2 climate sensitivity, sea-level rise, permafrost, surface
+    albedo, discontinuity impacts), baseline income levels, vulnerability to market/non-market
+    damages, persistence of economic damages, time horizon of simulation.
+  7: Climate change impacts (temperature increases), damage persistence (persistence
+    of economic damages from climate change).
+  8: Temperature-induced economic damages, persistence of damages, annual temperature
+    variability
+  9: Interannual temperature variability, climate scenarios (SSP2-4.5), temperature
+    anomalies
+  10: Temperature anomalies (warm and cold years), climate change, damage persistence,
+    internal variability in the climate system, radiative forcing, emission trajectories.
+  12: Pulse size of CO2 emissions (in Gt), inclusion of annual temperature variability
+    in the model.
+  13: Changes in model parameters, specifically related to the PAGE-ICE model.
+  15: SSP (Shared Socioeconomic Pathways)
+  16: Temperature changes impact GDP growth; high persistence of damages might cause
+    economic collapse of some regions.
+  18: The primary driver examined is temperature changes and their lagged impacts.
+  19: Temperature shocks impacting economic variables.
+  20: Temperature (linear and squared terms), precipitation
+  21: "Damage persistence parameter \u03C1 (rho)"
+  22: No explicit shocks or changes directly impacting outcomes are discussed on this
+    page.
+  23: Temperature and its variance impact GDP per capita growth.
+  24: Temperature and temperature squared (including lagged values).
+  25: Temperature and temperature squared (including lagged values) and precipitation.
+  26: Temperature, Temperature squared
+  27: Climate change-induced economic damages, damage persistence, adaptation efforts.
+Highlights:
+  3: Extending the PAGE-ICE model provides an exploration of the magnitude and uncertainties
+    of climate and economy feedbacks and interannual variability contributions to
+    the SCCO2.
+  4: The paper presents results for the Social Cost of Carbon (SCCO2) across various
+    climate outcomes and socioeconomic developments, using the PAGE-ICE model with
+    updated climate and damage modules. A key extension is the inclusion of persistent
+    climate-induced damages that affect GDP pathways.
+  5: Economic damage persistence remains constant over time due to limited evidence
+    for successful adaptation; different assumptions for persistence are tested for
+    robustness.
+  6: Updating the PAGE09 model to PAGE-ICE results in a doubling of the mean SCCO2,
+    primarily attributed to increased social costs in the Global South; Empirically
+    derived damage persistence significantly affects global GDP and its regional distribution.
+  7: The persistence of climate damages leads to a considerable redistribution of
+    income to the detriment of poorer regions. Even a small amount of damage persistence
+    leads to a substantial increase in the Social Cost of Carbon. Under the empirical
+    persistence distribution, the mean global GDP is significantly lower by 2100 and
+    2200.
+  8: High persistence and low adaptation leads to a substantial share of Monte Carlo
+    runs producing SCCO2 estimates of zero due to the damage cap; Annual temperature
+    variability widens SCCO2 uncertainty ranges.
+  9: Interannual temperature variability widens the tails of the SCCO2 distributions.
+    The introduction of temperature variation increases SCCO2 values due to interaction
+    with the temperature-damage function.
+  10: Damage persistence is one of the most important factors in calculating the SCCO2.
+    Considering annual temperature anomalies leads to large increases in uncertainty
+    about climate change risks.
+  12: Annualizing the PAGE-ICE model framework reduces modeling artifacts present
+    in multi-year timestep models. Inclusion of annual temperature variability affects
+    SCCO2 estimates compared to models with only annual temperatures.
+  13: A one standard deviation decrease in the tolerable temperature before a discontinuity
+    occurs triggers the discontinuity, leading to a substantial increase in the SCCO2.
+  14: The parameter with the largest positive impact on SCCO2 from a one standard
+    deviation increase is 'tcr_transientresponse' (100.88). The parameter with the
+    largest negative impact on SCCO2 from a one standard deviation increase is 'ptp_timepreference'
+    (-63.29). The parameter with the largest positive impact on SCCO2 from a one standard
+    deviation decrease is 'tdis_tolerabilitydisc' (617.53). The parameter with the
+    largest negative impact on SCCO2 from a one standard deviation decrease is 'tcr_transientresponse'
+    (-82.96).
+  15: "The parameters \u03B4 and \u03B2 for GDP per capita and population are provided\
+    \ for each of the SSPs (1-5). The extended SSP population and per capita GDP for\
+    \ SSP2 and SSP5 are visualized in Figure A5."
+  16: The paper calculates the Social Cost of Carbon Dioxide (SCCO2) under various
+    scenarios and model specifications, considering growth effects and persistence
+    of damages.
+  18: The study finds that if damages are not fully persistent over time, immediate
+    negative GDP impacts can be followed by compensating impacts, indicating that
+    not all temperature-induced damages persist.
+  19: Including additional temperature lags reduces estimated persistence of economic
+    impact from climate change significantly, with potential implications for the
+    perceived duration of impact.
+  20: "The table shows the impact of temperature and temperature squared on GDP per\
+    \ capita growth, as well as the implied persistence (\u03C1) for models with different\
+    \ lag structures."
+  21: "The study examines the effect of the damage persistence parameter (\u03C1)\
+    \ on regional GDP, and uses bootstrapping to derive empirical persistence distributions.\
+    \ The empirical persistence distribution cannot be derived from the variance-covariance\
+    \ matrix of a single regression if the climate variables are filtered. "
+  22: Low-pass filtering yields higher persistence levels, yet the Monte Carlo mean
+    SCCO2 decreases using this method. The share of simulations with an SCCO2 of zero
+    increases when using low-pass filtering.
+  23: The effect of temperature on GDP per capita growth shows diminishing persistence
+    with lag and suggests variability across income groups.
+  24: "The persistence of temperature impacts on GDP growth (\u03C1) varies considerably\
+    \ depending on the number of temperature lags included in the model, ranging from\
+    \ 100% to -94.29%."
+  25: Temperature has a statistically significant positive impact on GDP per capita
+    growth, while temperature squared has a statistically significant negative impact.
+    Lagged temperatures can have negative impacts. The persistence of damage varies
+    substantially depending on the number of lags included, and this is reflected
+    in the Monte Carlo percentile results.
+  26: The impact of temperature on GDP per capita growth is different for countries
+    below and above the GDP per capita median.
+  27: The degree of damage persistence significantly impacts the estimated marginal
+    damages of CO2 emissions and the SCCO2. Adaptation efforts can limit the vulnerability
+    of capital stocks to climate change. Decay rates of damage persistence can dramatically
+    affect the estimate of the SCCO2.
+  30: Models including CO2 concentration and a LOESS of observed GMST explain a larger
+    amount of variance in GMST than models using just Year as a predictor.
+Methodology:
+  3: The PAGE-ICE model simulates climate and economic developments from 2020 to 2300,
+    updating PAGE09 with improved representations of climatic processes and economic
+    damages, focusing on Arctic feedbacks.
+  4: The PAGE-ICE model uses Monte Carlo sampling of over 150 parameter distributions
+    to provide distributions of results. The SCCO2 is calculated as the difference
+    in global equity-weighted damages between two runs (one with an emission pathway
+    and one adding a CO2 pulse), divided by the pulse size, and discounted to the
+    base year (2015). The model setup recognizes that deterministic assessments of
+    the SCCO2 carry limited information. The model is run using Tier 1 scenarios of
+    ScenarioMIP including SSP1-1.9, SSP1-2.6, SSP5-8.5 and SSP2-RCP4.5.
+  5: GDP growth is impacted by a persistence parameter introduced into the Burke et
+    al. model; PAGE model annualizes inputs and considers temperature variability
+    without sectoral distinctions.
+  6: Monte Carlo simulations (50,000 runs) using the PAGE-ICE model under the SSP2-4.5
+    scenario, panel regression analysis using historical temperature and GDP data.
+    The results for SCCO2 pertain to the year 2020, expressed in 2015 USD. The simulation
+    period for PAGE-ICE extends to 2300.
+  7: "The study uses the PAGE-ICE model, incorporating growth effects and damage persistence.\
+    \ Monte Carlo simulations are performed to assess uncertainty. Results are calculated\
+    \ for SSP2-RCP4.5. The model has a cap for total climate change damages set to\
+    \ the exogenous statistical value of society ($6.13\xD710^16)."
+  8: Uses the PAGE-ICE model, explores the effect of adaptation reducing damage persistence
+    by a constant annual rate
+  9: The PAGE model is used with Monte Carlo simulations to project climate damages
+    and SCCO2 under different scenarios, considering interannual temperature variability
+    and socioeconomic factors. The results for SCCO2 are based on data within the
+    0.5th to the 99.5th percentile range.
+  10: The study uses the PAGE and PAGE-ICE models under different scenarios (SSP1-1.9,
+    SSP1-2.6, SSP2-4.5, SSP5-8.5) to calculate the Social Cost of Carbon (SCCO2).
+    The analysis incorporates temperature variability, damage persistence, climate
+    feedbacks, and growth effects.
+  12: Monte Carlo simulations (50,000 runs) using the PAGE-ICE model (and its variants);
+    Exponential interpolation of population, sea level, and abatement costs; linear
+    interpolation of GDP and emissions growth rates.
+  13: Deterministic run of the PAGE-ICE model for SSP2-4.5; calculating the difference
+    in SCCO2 between the mean parameter value and a value one standard deviation higher
+    or lower; focuses on the year 2020.
+  14: The analysis uses the PAGE-ICE model under SSP2-4.5 (deterministic run) to assess
+    the impact of parameter changes on the Social Cost of Carbon (SCCO2) in 2020.
+    It examines the impact of increasing or decreasing each parameter by one standard
+    deviation from its Monte Carlo distribution mean, while holding other parameters
+    at their default values. The SCCO2 impact is calculated as the difference between
+    the SCCO2 at the mean parameter value and the SCCO2 at the parameter value changed
+    by one standard deviation.
+  15: The page describes a population and income extension model. The results are
+    applicable under different Shared Socioeconomic Pathways (SSPs).
+  16: "Monte Carlo simulations (50,000 runs) are used to estimate SCCO2 values; PAGE\
+    \ integrated assessment model is employed; incorporates growth effects via a persistence\
+    \ parameter (\u03C1) that reduces economic growth based on the share of economic\
+    \ damages; convergence system used near thresholds to avoid discontinuities in\
+    \ SCC results"
+  18: The analysis uses fixed effects regressions and a lag model to assess the persistence
+    of temperature impacts on economic growth.
+  19: Regression analysis using temperature lags and a ratio of long-run to immediate
+    impacts; includes a Monte Carlo simulation for persistence estimates.
+  20: Regression analysis with country and year fixed effects, as well as country-specific
+    time trends. The model uses various numbers of temperature and precipitation lags
+    (up to 5). Low-pass filtering is applied to temperature and precipitation observations.
+    The analysis is performed using the data by Burke et al (2015).
+  21: Monte Carlo simulations and bootstrapping techniques (drawing with replacement
+    from country clusters to create 5000 bootstrap samples) are used. Analysis is
+    based on unfiltered or filtered climate variables and two different regression
+    models.
+  22: Analysis uses a low-pass Butterworth filter to assess implied persistence of
+    temperature impacts, comparing results with a lag-based approach. It includes
+    Monte Carlo simulations to assess the Social Cost of Carbon (SCCO2) distributions.
+  23: Analysis performed through regression of GDP per capita growth on temperature
+    variables with different low-pass filters (unfiltered, 3-year, 5-year, 10-year)
+    and income-based subsampling.
+  24: The analysis uses a regression model with GDP per capita growth as the dependent
+    variable, and temperature, temperature squared, precipitation, country and year
+    fixed effects, and country-specific time trends as independent variables. The
+    regressions are performed on countries with GDP per capita below the median. Different
+    models include varying numbers of temperature lags. Author's calculations are
+    based on the data provided by Burke et al. (2015). Results applicable to countries
+    with below-median GDP per capita.
+  25: The analysis uses a regression model with country and year fixed effects, country-specific
+    time trends, and lagged temperature and precipitation variables. The model is
+    based on Burke et al. (2015) and is applied to countries with GDP per capita above
+    the median. Monte Carlo simulations are also used to assess the range of potential
+    outcomes.
+  26: Regression analysis of GDP per capita growth on low-pass filtered climate variables
+    (temperature and temperature squared), separated for countries below and above
+    the median GDP per capita; Standard errors are clustered at the country level;
+    Percentiles are estimated via 5000 cluster bootstrap samples.
+  27: Monte Carlo simulations are used to estimate SCCO2 under varying damage persistence
+    decay rates. Historical data is used to calibrate the estimate of damage persistence.
+    The results are based on the PAGE-ICE model.
+  30: Linear regression models are used to predict annual global mean surface temperature
+    (GMST) based on different combinations of year, CO2 concentration, and a LOESS
+    smoothed time series of GMST. An autoregressive temperature model is also simulated.
+    An alternative model without auto-regression that accounts for observational uncertainties
+    is specified.
+More Notes:
+  5: No significant regional-specific parameters for persistence are used due to reduced
+    data significance.
+  6: The PAGE-ICE model incorporates climate feedbacks and economic updates in a series
+    of steps, each influencing the SCCO2. The order in which these changes are introduced
+    can lead to minor changes in the presented values due to interaction effects.
+    Regional empirical damage estimates in PAGE-ICE account for potential benefits
+    of global warming in cooler regions.
+  7: The model's total climate damage cap can lead to an underestimation of the Social
+    Cost of Carbon under high damage persistence scenarios, as additional CO2 emissions
+    do not increase overall damages once the cap is reached. One outlier run was omitted
+    for calculating Monte Carlo means of absolute GDP.
+  8: The substantial increase in the SCCO2 is primarily driven by the adverse implications
+    for the Global South.
+  9: The study examines the impact of temperature variability on climate damages using
+    the PAGE model, focusing on GDP losses and SCCO2 as key metrics. It also analyzes
+    climate and socioeconomic scenarios.
+  10: The study used a global model of damage persistence without regional disaggregation.
+    Future research should focus on advancing the understanding of growth effects
+    in the Global South.
+  12: The PAGE model uses modules to enhance its functionality and flexibility, which
+    is based on Mimi-PAGE (Moore et al 2018) and PAGE-ICE (Yumashev et al 2019).
+  13: The study notes differences between its annual SCCO2 distributions and the original
+    model, attributing this to changes in the discontinuity sector and the model design
+    of PAGE09.
+  14: The study focuses on the impact of parameter uncertainty within the PAGE-ICE
+    model on the Social Cost of Carbon. The tables only display parameters with an
+    absolute SCCO2 impact of at least $2.
+  15: The 95% credible intervals provided in Figure A5 suggest a probabilistic element
+    to the projections.
+  16: The paper introduces a subsistence bound on consumption and limits equity weighting
+    to damages less than or equal to 99% of consumption to address issues with economic
+    collapse and infinite utility.
+  20: The paper mentions discarding countries with less than twice the minimum periodicity
+    (2 x 10 = 20) of temperature/precipitation observations for the filtering to work,
+    which slightly reduces the number of country-year records from 6584 to 6535. The
+    paper also compares the estimated marginal impacts for different minimum periodicities
+    to explore if growth impacts of temperature shocks intensify, remain constant,
+    or converge over time.
+  22: Regional heterogeneity of damage persistence is noted, with an acknowledgment
+    of differing adaptation barriers across countries and contexts.
+  25: The share of runs with an SCCO2 of zero decreases from 62.3% to 61.7% after
+    analysis.
+  26: The low-pass filters applied to temperature are 3-year, 5-year, and 10-year
+    filters.
+Outcome(s) of Interest:
+  3: The PAGE-ICE model quantifies the effect on the social cost of carbon dioxide
+    (SCCO2) of including long-term temperature growth feedback on economic trajectories
+    and mean annual temperature anomalies.
+  4: The paper estimates the Social Cost of Carbon (SCCO2), representing the marginal
+    damage of an additional tonne of CO2, which is expressed in terms of global equity-weighted
+    damages.
+  5: Persistence of economic damages impacting GDP is analyzed without sector-specific
+    distinctions.
+  6: GDP, Social Cost of Carbon (SCCO2)
+  7: GDP, GDP growth rates, Social Cost of Carbon (SCCO2), economic output, income
+    levels.
+  8: Social Cost of Carbon (SCCO2)
+  9: GDP percentage losses, Social Cost of Carbon (SCCO2)
+  10: GDP growth is affected by climate shocks.
+  12: Social Cost of Carbon Dioxide (SCCO2)
+  13: Social Cost of Carbon (SCCO2).
+  15: GDP per capita, Population
+  16: GDP growth rate is affected by climate change damages.
+  18: The paper examines growth impacts of temperature changes with a focus on GDP
+    effects and economic damages over time.
+  19: Damage persistence of climate change impacts on GDP measured as a ratio of long-run
+    to immediate marginal impacts.
+  20: GDP per capita growth
+  21: Regional GDP levels
+  22: No specific macroeconomic or fiscal outcomes are explicitly identified on this
+    page.
+  23: GDP per capita growth in response to temperature changes.
+  24: GDP per capita growth.
+  25: GDP per capita growth.
+  26: GDP per capita growth
+  27: Social Cost of Carbon Dioxide (SCCO2).
+  30: No relevant information
+Quantitative material:
+  3: "Incorporation of short-term economic persistence into DICE triples the SCCO2,\
+    \ increasing it from $37 to $132; long-term persistence increases it further to\
+    \ $220\u2013$417."
+  4: "The model uses a 75 Gt pulse size in the first time period (mid-2017-2025),\
+    \ representing an annual pulse size of 10 GtCO2.  Equity weighting uses a mean\
+    \ (minimum, maximum) elasticity of marginal utility of consumption of 1.17 (0.1\u2013\
+    2.0), and equity-weighted damages are discounted using a pure time preference\
+    \ rate of 1.03% (0.5%, 2.0%).  50000 Monte Carlo draws are used (100000 for PAGE09)."
+  6: "SCCO2 in 2020 from PAGE09: $158 (expressed in $2015 USD); SCCO2 for PAGE-ICE:\
+    \ $307 per tonne; Uncertainty range for PAGE-ICE: Interquartile range of $147\u2013\
+    $349, 5%\u201395% range of $82\u2013$831; Persistence of GDP damages: 50.1% (34.5%\u2013\
+    69.0%, interquartile range)."
+  7: "Mean global GDP in 2100 is 30% lower than the SSP2-4.5 growth path without persistence;\
+    \ By 2200, the mean growth loss due to the persistence of climate impacts under\
+    \ SSP2-4.5 exceeds the GDP growth rate in the whole Global South; 'India+', 'Africa+'\
+    \ and 'Latin America' regions reach income levels associated with extreme poverty\
+    \ in 12%, 11% and 4% of Monte Carlo simulations, respectively; mean economic output\
+    \ in the \u2018Russia+\u2019 region is 52% higher with the possibility of Russia+\
+    \ dominating the global economy; If a mere 10% of economic damages were to persist\
+    \ via reduced growth, we find a fifteenfold increase in the mean SCCO2; mean SCCO2\
+    \ of [Line:91Col:11763372 which exceeds the estimate without damage persistence\
+    \ by an order of magnitude."
+  8: "If current persistence is around 50%, persistence would need to decrease by\
+    \ more than 2% per year via adaptation effort to reduce the model\u2019s SCCO2\
+    \ to below $2500; A reduction by at minimum 3% per year would be needed to see\
+    \ a SCCO2 of less than $600; Accounting for temperature anomalies leads to a mean\
+    \ increase of SCCO2 of $21 (6.5%) for SSP2-4.5"
+  9: Figure 5 provides quantitative information on GDP percentage losses and SCCO2
+    distributions with and without interannual temperature variability. Figure 6 provides
+    boxplots of SCCO2 values based on Monte Carlo runs.
+  10: Study shows relatively small increase in the SCCO2 for SSP2-4.5 due to permafrost
+    thawing and surface albedo feedbacks.
+  12: SCCO2 values for different CO2 pulse sizes (0-200 Gt) under different model
+    variants (PAGE-ICE, PAGE with/without annual temperature variability) and different
+    SSPs (details in tables A3 and A4).
+  13: Impact of a one standard deviation increase/decrease in parameters on the 2020
+    SCCO2; parameters with an absolute SCCO2 impact of at least $10 are displayed.
+  14: The tables provide quantitative estimates of the impact on the SCCO2 in 2020
+    ($2015) resulting from one standard deviation increases (Table A1) or decreases
+    (Table A2) in various model parameters. The impacts range from -63.29 to 100.88
+    in Table A1 and from -82.96 to 617.53 in Table A2.
+  15: "Table A3 provides numerical values for parameters \u03B4 and \u03B2 used in\
+    \ the population and income extension model, disaggregated by SSP. Figure A5 shows\
+    \ extended SSP population and per capita GDP for SSP2 and SSP5, with 95% credible\
+    \ intervals."
+  16: Table A4 provides mean (25th-75th [5th-95th] percentile) values of SCCO2 (Social
+    Cost of Carbon Dioxide) under different SSP scenarios and PAGE model variations;
+    subsistence bound at per capita consumption level which equals the current World
+    Bank threshold for extreme poverty(converted to 2015 dollars); damages less or
+    equal to 99% of consumption are equity weighted
+  19: Damage persistence equals 52.8% of the immediate impact with one temperature
+    lag; with two lags, it reduces to 27.8%, and with four lags, to 10.3%.
+  20: "Table B1 presents regression results for GDP per capita growth on temperature\
+    \ and temperature squared terms, including lagged values. Coefficients, t-statistics,\
+    \ and significance levels are provided. Resulting \u03C1 (persistence), 5th and\
+    \ 95th Monte Carlo percentiles are shown for different lag structures. N (number\
+    \ of observations), BIC (Bayesian Information Criterion), and ll (log-likelihood)\
+    \ are also presented."
+  21: "Figure B5 shows the effect of the damage persistence parameter on regional\
+    \ GDP levels for different model years for SSP2-4.5 runs. Lines represent Monte\
+    \ Carlo mean values, while shaded areas represent the 5th\u201395th percentile."
+  22: The page mentions point estimates for persistence under different filter conditions
+    and provides specific numerical values (e.g., 89.00%, 52.72%) but does not directly
+    relate them to macroeconomic or fiscal outcomes.
+  23: Regression results indicate temperature sensitivity of GDP per capita, with
+    coefficients for temperature and temperature squared. Specific persistence estimates
+    and bootstrap percentiles are provided.
+  25: The table shows coefficients for temperature and temperature squared variables
+    in a regression model of GDP per capita growth, including lagged values up to
+    five years. It also presents the resulting persistence (rho) and the 5th and 95th
+    Monte Carlo percentiles.
+  26: "Regression coefficients for temperature and temperature squared on GDP per\
+    \ capita growth; Resulting percentage impact on GDP per capita growth (Resulting\
+    \ \u03C1); 5th and 95th percentile estimates of GDP per capita growth impact."
+  27: SCCO2 estimates under different annual decay rates of damage persistence for
+    SSP2-4.5. For example, an annual decay of 4%-5% results in an SCCO2 of $305-$312,
+    while decay rates of 1% or 2% increase the SCCO2 compared to a zero decay rate.
+    Default value with zero decay ranges from $3372 to $6595 or $4094.
+  30: R-squared values for various models of annual temperature trends (ranging from
+    0.652 to 0.862). Residual standard error for various models (ranging from 0.130
+    to 0.206).

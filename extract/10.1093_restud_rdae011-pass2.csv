@@ -1,0 +1,25 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Social Cost of Carbon,Global,Varying climate,2024,Varying climate calibrations,Factor,4,NA,NA,NA,NA,NA,5,"SCC can change by a factor of four if one assumes a quadratic damage function. Year is the publication year, as no specific year for the outcome is given."
+1,Temperature,Global,RCP85,2100,No policy narrative,W/m2,8.5,NA,NA,NA,NA,NA,5,Total anthropogenic forcing reaches approximately 8.5W/m2 in the year 2100 under RCP85.
+2,Temperature,Global,RCP26,2050,No policy narrative,W/m2,3,NA,NA,NA,NA,NA,5,Radiative forcing peaks at approximately 3 W/m2 around 2050 under RCP26.
+3,Temperature,Global,RCP26,2100,No policy narrative,W/m2,2.6,NA,NA,NA,NA,NA,5,Radiative forcing declines to approximately 2.6W/m2 at the end of the twenty-ﬁrst century under RCP26.
+4,SCC,Global,RCP26,2050,CDICE RCP26,Relative to CDICE-2.6,1,NA,NA,NA,NA,NA,Page 24,"The page provides comparisons of SCC across different calibrated models and scenarios relative to CDICE-2.6, where CDICE RCP2.6 is normalized to 1, but does not specify exact numerical values for other scenarios at a particular year like 2050. The value 1 here represents the normalization of the CDICE RCP2.6 scenario."
+5,Social Cost of Carbon,Global,Pessimistic Temp,2050,Optimistic Temp,Multiple of SCC,3.0,NA,NA,NA,NA,NA,25,Linear Damage Function; Pessimistic scenarios can lead to three to five times higher SCC compared to optimistic scenarios; minimum effect
+6,Social Cost of Carbon,Global,Pessimistic Temp,2050,Optimistic Temp,Multiple of SCC,5.0,NA,NA,NA,NA,NA,25,Linear Damage Function; Pessimistic scenarios can lead to three to five times higher SCC compared to optimistic scenarios; maximum effect
+7,Social Cost of Carbon,Global,Extreme Carbon,2050,Multi-Model Mean,Percent Increase,20.0,NA,NA,NA,NA,NA,25,Linear Damage Function; SCC increases by about 20% relative to the MMM.
+8,Social Cost of Carbon,Global,High Emissions,2050,Low Emissions,Multiple of SCC,8.0,NA,NA,NA,NA,NA,25,Cubic Damage Function; SCC for the most pessimistic climate scenario can be almost eight times the SCC for the most optimistic scenario.
+9,Social Cost of Carbon,Global,RCP 8.5,2020,CDICE,%,-15,NA,NA,NA,NA,NA,26,SCC for an ECS of 2.15 using the ECS parameter in CDICE is about 15% too large relative to GISS-E2-R
+10,Social Cost of Carbon,Global,RCP 8.5,2020,CDICE,%,-10,NA,NA,NA,NA,NA,26,SCC for an ECS of 4.55 using the ECS parameter in CDICE is about 10% too small relative to CDICE-HadGEM2-ES
+11,Social Cost of Carbon,Global,RCP 8.5,2020,CDICE," ""%""", -20,NA,NA,NA,NA,NA,26,DICE-2016 underestimates the SCC substantially by about 20% compared to CDICE for a discount factor of 0.96
+12,Social Cost of Carbon,Global,RCP 8.5,2020,CDICE,%,30,NA,NA,NA,NA,NA,26,"DICE-2016 produces much higher values for the SCC, for a value of 0.99, about 30% larger than CDICE"
+13,Damages,Global,CDICE-MESMO-HadGEM2-ES,2315,No CC,% of GDP,-17.5,NA,NA,NA,NA,NA,29,Upper bound of plausible damages
+14,Damages,Global,CDICE-LOVECLIM-GISS-E2-R,2315,No CC,% of GDP,-17.5,NA,NA,NA,NA,NA,29,Upper bound of plausible damages
+15,Damages,Global,Various Calibrations,2315,No CC,% of GDP,-3,NA,NA,NA,NA,NA,29,Lower bound of plausible damages
+16,Temperature,Global,DICE-2016 optimal mit,2100,CDICE optimal mit,K,4.0,NA,NA,NA,NA,NA,33,Temperature rises by more than this value
+17,Temperature,Global,CDICE zero ind emissions,2100,Non-zero emissions,K,1.7,NA,NA,NA,NA,NA,33,Warming is below this value
+18,Temperature,Global,DICE-2016 zero ind emissions,2100,Non-zero emissions,K,2.0,NA,NA,NA,NA,NA,33,Impossible to keep below this value
+19,Temperature,Global,DICE-2016 RCP 2.6,2300,No CC,K,2.5,NA,NA,NA,NA,NA,33,Stays above 2.3K beyond 2300
+20,Temperature,Global,CDICE RCP 2.6,2300,No CC,K,2.1,NA,NA,NA,NA,NA,33,Warming is below 1.8K by 2300
+21,Social Cost of Carbon (SCC),Global,Business as usual,2015,No CC,%,0,NA,NA,NA,NA,NA,Page 34,"The SCC is highly sensitive to the growth-adjusted interest rate and the intertemporal elasticity of substitution (IES). The SCC increases over time due to output growth. Different values for the IES parameter ψ greatly affect the social cost of carbon across different specifications, causing significant divergence over time. There's an approximately 50% variation for different values of ψ, but no baseline value is provided on this page."
+22,Optimal Warming,Global,"High ECS, High ψ",2215,Optimal Abatement,Degrees K,6,NA,NA,NA,NA,NA,35,Optimal warming is dramatic assuming high ψ. 200 years from 2015.
+23,Optimal Warming,Global,"MMM, High ψ",2215,Optimal Abatement,Degrees K,4.5,NA,NA,NA,NA,NA,35,"High IES case, warming prescribed by DICE-2016 falls significantly out of the CMIP5 range. 200 years from 2015."

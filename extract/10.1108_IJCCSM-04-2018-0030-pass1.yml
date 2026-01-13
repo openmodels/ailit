@@ -1,0 +1,154 @@
+Drivers of Risk:
+  1: Changes in climate affecting crop yields.
+  2: Seasonal temperature, rainfall, climate change scenarios
+  5: Changes in local climatic patterns observed by farmers, average temperature,
+    average rainfall, dry and wet seasons (November-March and April-October respectively).
+  6: Climate change is the primary driver of risk, impacting crop production and potentially
+    requiring adaptation measures.
+  8: Temperature (wet and dry season) and Rainfall (wet and dry season)
+  9: Climate variables (wet and dry season temperatures, rainfall)
+  10: Temperature (wet and dry season), Rainfall (wet and dry season), Soil type (clay
+    and sandy)
+  11: Temperature increase, rainfall increase, and seasonal variations in temperature
+    and rainfall.
+  12: Rising temperatures and changes in rainfall patterns.
+  13: Changes in rainfall and surface temperature.
+  14: Changes in seasonal temperature and rainfall; clay soils
+Highlights:
+  1: The study aims to measure the economic impacts of climate change on crop farming
+    in Bangladesh.
+  2: Net crop income in Bangladesh is sensitive to climate, particularly to seasonal
+    temperature; a positive effect of temperature rise on net crop income was observed
+    for farms with sufficient irrigation facilities; climate change scenarios project
+    an increase in net crop income.
+  8: The marginal impacts of temperature and rainfall on net crop income are estimated.
+  9: Climate variables have a nonlinear relationship with net crop incomes. Wet season
+    temperature has an inverted U-shaped relationship with net crop income, while
+    dry season temperature has a U-shaped relationship. Rainfall in both seasons has
+    a hill-shaped relationship.
+  10: Farming experience, access to irrigation facilities, and farm size are positively
+    and significantly correlated with net crop income. Clay soils are associated with
+    lower net incomes.
+  11: Increasing temperature in the wet season is beneficial, while increasing temperature
+    in the dry season is detrimental to net crop incomes. Increased rainfall is generally
+    beneficial. Seasonal variations are a vital factor for net income in both cropping
+    seasons. Net crop income is more sensitive to temperature changes than rainfall
+    changes.
+  12: Bangladesh agriculture appears to be adapting against warming. Marginal impacts
+    of temperature showed that most of the climatic zones would experience a positive
+    effect on net incomes, though the coefficients for all climatic zones are not
+    statistically significant.
+  13: Future climate change is projected to increase temperatures in Bangladesh, leading
+    to changes in rainfall patterns. These climate changes are projected to impact
+    net crop incomes, with the increment in the net income per hectare being more
+    in the period of 2061-2100 than 2021-2060 under both climate scenarios, though
+    the direction of the impacts will not be uniform across different climatic zones.
+  14: Farmers' current net incomes are sensitive to climate, with seasonal temperature
+    having a more pronounced effect than rainfall. Climate change is projected to
+    increase net crop income in Bangladesh, but the impact varies significantly across
+    climatic zones.
+Methodology:
+  1: A Ricardian model was used to estimate the relationship between net crop income
+    and climate variables, using historical climate data and farm household level
+    data from all climatic zones of Bangladesh.
+  2: Econometric model, Ricardian model
+  5: Ricardian methodology used to model the relationship between climate and agriculture.
+  6: The paper discusses assessment models such as computable general equilibrium
+    and whole farm models, based on climate-crop physiology and development, used
+    to assess climate change impacts in Bangladesh. These models can incorporate adaptation
+    practices like changing planting dates, variety selection, and fertilizer use.
+  8: Ricardian model regression using STATA (version 14.0) to analyze the impact of
+    climate variables on net crop income. Quadratic terms are included to capture
+    non-linear relationships. Reduced form model used to counter endogeneity. Robust
+    estimation applied to minimize heteroscedasticity.
+  9: The analysis uses Ricardian models to estimate the relationship between climate
+    variables and net crop incomes. Household characteristics were also controlled
+    for.
+  10: Ricardian regression analysis across seven climatic zones in Bangladesh
+  11: Marginal impacts of climate variables on net crop incomes per hectare are estimated.
+    The exchange rate used is US$1 = 80.64 BDT.
+  12: Ricardian regression model is used to calculate the marginal impacts of climate
+    across different climatic zones.
+  13: 'Impacts of future climate change on crop farming in Bangladesh are examined
+    using future changes in rainfall and surface temperature for each district, estimated
+    using two Coupled Atmospheric Oceanic General Circulation Models (AOGCMs): BNU-ESM
+    and CanESM2 under RCP8.5 scenario for the periods 2021-2060 and 2061-2100, relative
+    to the historical 1971-2005. The impacts of these AOGCM scenarios on net incomes
+    are estimated using a fitted net income model.'
+  14: Ricardian regression model is used to assess the economic impacts of climate
+    change on crop farming in Bangladesh. Results are applicable to the period of
+    the climate model projections (2021-2100).
+More Notes:
+  2: The study focuses on the economic impacts of climate change on the overall crop
+    farming sector in Bangladesh.
+  5: The paper uses a map of the seven climatic zones of Bangladesh. The climatic
+    zones are South-western, South-eastern, North-eastern, North-western, South-central,
+    Northern part of the norther zone and Northern zone.
+  6: The paper highlights the limitations of crop-specific models, which may overestimate
+    or underestimate climate impacts by failing to account for economic stimuli, input
+    replacement, price variations, crop shifting, and multi-cropping.
+  8: The paper estimates the relationship between climate variables (temperature and
+    rainfall) and net crop income. The quadratic terms in the model allow for U-shaped
+    or hill-shaped relationships between climate variables and net crop income.
+  9: Farmers are adapting to climate change through various strategies, including
+    using new crop varieties, adjusting sowing dates, and diversifying crops.
+  10: The model explains net crop incomes across seven climatic zones in Bangladesh.
+    The sample size is 396.
+  11: The study focuses on Bangladesh. The impact of rainfall in the winter cropping
+    season is statistically significant (p < 0.05).
+  13: The study focuses on the impacts on net crop incomes specifically within Bangladesh.
+  14: Adaptation policies should target different climatic zones based on their specific
+    constraints and potentials. Essential climate adaptation policy recommendations
+    include strengthening research capacity, enhancing enterprise diversification,
+    providing crop insurance, and strengthening agricultural extension systems.
+Outcome(s) of Interest:
+  1: Economic impacts on crop farming in Bangladesh.
+  2: Net crop income per hectare
+  5: Net crop income per hectare is a core variable of Ricardian regression analysis.
+  8: Net crop income (US$/Ha)
+  9: Net crop income (US$/Ha)
+  10: Net crop incomes of farmers in Bangladesh
+  11: Net crop incomes per hectare.
+  12: Net crop incomes are affected by climate change, with some regions experiencing
+    positive effects and others negative.
+  13: Net crop incomes (US$/Ha).
+  14: Net crop income (US$/Ha)
+Quantitative material:
+  2: "1 mm/month increase in rainfall and 10\xB0C increase in temperature will lead\
+    \ to about US$4-15 increase in net crop income per hectare in Bangladesh; an increase\
+    \ in net crop income from US$25-84 per hectare in the country under climate change\
+    \ scenarios."
+  5: "46 years (1971-2016) climate data on monthly average temperature and monthly\
+    \ average rainfall from Bangladesh Meteorological Department, Dhaka. Average winter\
+    \ (21.16\xB0C) and summer (28.11\xB0C) temperatures of Bangladesh."
+  8: Mean net crop income is US$410.34/Ha, with a standard deviation of US$249.95/Ha.
+    Mean temperature in wet season is 28.11 degrees Celsius (SD=0.53), dry season
+    is 21.16 degrees Celsius (SD=0.98). Mean rainfall in wet season is 300.38 mm (SD=106.21),
+    dry season is 20.88 mm (SD=8.79).
+  9: Mean net crop income varies across climatic zones in Bangladesh, ranging from
+    US$366.02/Ha to US$473.16/Ha. Common adaptation strategies and their usage rates
+    are also listed
+  10: Ricardian regression model coefficients, t-statistics, and significance levels
+    for temperature, rainfall, farmer characteristics, and soil types on net crop
+    income.
+  11: "A 1\xB0C increase in temperature during the wet season would result in an income\
+    \ gain of about US$15.64 per hectare, while in the dry season it would cause a\
+    \ decrease of net income by about US$0.22 per hectare. A 1 mm/month increase in\
+    \ rainfall would lead to an increase in net incomes in both the wet and dry seasons.\
+    \ The total impact of a 1\xB0C increase in temperature and 1 mm/month increase\
+    \ in rainfall would cause an increase in income by US$19.66 per hectare across\
+    \ all climatic zones of the country. Net crop income is more elastic to changes\
+    \ in temperature (1.13 per cent) than rainfall (0.42 per cent)."
+  12: "1\xB0C increase in temperature leads to an increase in annual net incomes between\
+    \ $11 to $48 (USD) in some climatic zones, while others experience a negative\
+    \ impact of US$9.51-16.31 per hectare. A 1 mm/month increase in rainfall leads\
+    \ to changes in net crop income."
+  13: "Temperature increases of 1.81-2.04\xB0C by 2021-2060 and 3.68-4.47\xB0C by\
+    \ 2061-2100. Rainfall changes vary by model and period, including a potential\
+    \ decrease of 4.8% and increases up to 19.97%. Corresponding net income changes\
+    \ range from US$24.77 to US$93.82 per hectare depending on the model and time\
+    \ period."
+  14: Net crop income in Bangladesh would increase in the range of US$25-84 per hectare
+    due to climate change. Forecasted average net crop incomes (US$/Ha) across different
+    climatic zones for 2021-2060 and 2061-2100 under BNU-ESM and CanESM2 climate models
+    are provided.

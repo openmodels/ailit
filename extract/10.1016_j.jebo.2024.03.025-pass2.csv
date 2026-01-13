@@ -1,0 +1,140 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,GDP,China,SVAR,2010,Pre-shock,%,0,NA,NA,NA,NA,NA,3,"Weather shocks have a significant negative impact on the GDP.  Value not specified in page 3, so a placeholder of 0 is added."
+1,Credit Financing,China,SVAR,2010,Pre-shock,%,0,NA,NA,NA,NA,NA,3,"Weather shocks have a significant negative impact on credit financing. Value not specified in page 3, so a placeholder of 0 is added."
+2,GDP,China,SVAR,2020,No CC,%,-0.5,NA,NA,NA,NA,NA,4,Drop in the third quarter following a one standard deviation shock.
+3,GDP,China,SVAR,2020,No CC,%,-0.42,NA,NA,NA,NA,NA,4,Long-term drop with central bank reaction to weather shock.
+4,GDP,China,SVAR,2020,No CC,%,-0.49,NA,NA,NA,NA,NA,4,Long-term drop with no central bank reaction to weather shock.
+5,Variance in GDP,China,Variance Decomposition,2020,No CC,%,14.2,NA,NA,NA,NA,NA,4,ACI shocks account for this percentage of variation long term.
+6,Bank Loans,China,Panel Regression,2020,No CC,unitless,-1,NA,NA,NA,NA,NA,4,Weather events reduce loans—drop precedes output drop.
+7,Expected Default Risk,China,Panel Regression,2020,No CC,unitless,1,NA,NA,NA,NA,NA,4,Expected default risk rises post-extreme weather shocks.
+8,Profit Forecasts,China,Panel Regression,2020,No CC,unitless,-1,NA,NA,NA,NA,NA,4,"Analysts downgrade ratings, forecasts post-weather shock."
+9,Value-Added,China,Panel Regression,2020,No CC,unitless,-1,NA,NA,NA,NA,NA,4,Value-added of firms drops after weather shocks.
+10,GDP,China,SVAR,2010,No CC,%,-0.2,NA,NA,NA,NA,NA,9,First quarter response after one-standard-deviation weather shock. Representing the period average by a central year.
+11,GDP,China,SVAR,2010,No CC,%,-0.5,NA,NA,NA,NA,NA,9,Maximum drop in the third quarter after one-standard-deviation weather shock. Representing the period average by a central year.
+12,GDP,China,SVAR,2001,Weather shock,%,-0.4,NA,NA,NA,NA,NA,11,Drop in GDP magnitude after monetary policy intervention.
+13,CPI,China,SVAR,2013,Weather shock,%,-0.1,NA,NA,NA,NA,NA,11,CPI inflation response is negative and significant starting from the 12th quarter; taking the midpoint of the range 2001-2024.
+14,Interest Rate,China,SVAR,2007,Weather shock,%,-0.1,NA,NA,NA,NA,NA,11,"Lowest point of interest rate drop, occurring in the third quarter. Short-lived drop after two quarters; using midpoint of 2001-2013."
+15,Credit,China,SVAR,2013,Weather shock,NA,-1,NA,NA,NA,NA,NA,11,Credit obtained by non-financial firms exhibits long-term significant decline; taking the midpoint of the range 2001-2024.
+16,GDP,China,SVAR,2020,No CC,%,-1.0,NA,NA,NA,NA,NA,12,"Weather shocks increased significantly, explaining a 1% drop in GDP in 2020."
+17,GDP,China,SVAR,2020,No COVID-19,%,-6.0,NA,NA,NA,NA,NA,12,COVID-19 shock accounts for a 6% drop in GDP
+18,GDP,China,Variance Decomposition,2021,No weather shocks,%,2.8,NA,NA,NA,NA,NA,12,Weather risks account for 2.8% of the variance in GDP Q1.
+19,GDP,China,Variance Decomposition,2021,No weather shocks,%,18.3,NA,NA,NA,NA,NA,12,Weather risks account for 18.3% of the variance in GDP Q16.
+20,GDP,China,Variance Decomposition,2021,No weather shocks,%,14.2,NA,NA,NA,NA,NA,12,Weather risks account for 14.2% of the long term variance in GDP.
+21,CPI,China,Variance Decomposition,2021,No weather shocks,%,0,NA,NA,NA,NA,NA,12,Weather shocks negligibly affect the variation of CPI in Q1.
+22,CPI,China,Variance Decomposition,2021,No weather shocks,%,11.5,NA,NA,NA,NA,NA,12,Weather shocks account for 11.5% of the long term variance in CPI.
+23,Interest Rates,China,Variance Decomposition,2021,No weather shocks,%,4.7,NA,NA,NA,NA,NA,12,Weather risks explain 4.7% of the long term variation in interest rates.
+24,Credit,China,Variance Decomposition,2021,No weather shocks,%,13.8,NA,NA,NA,NA,NA,12,Weather risks explain 13.8% of the long term variation in credit obtained by non-financial firms.
+25,GDP,China,Counterfactual,2025,Monetary Reaction,%,-0.49,NA,NA,NA,NA,NA,13,Drop in GDP after the 20th quarter following a one-standard-deviation weather shock.
+26,GDP,China,SVAR,2025,Monetary Reaction,%,-0.42,NA,NA,NA,NA,NA,13,Drop in GDP after the 20th quarter following a one-standard-deviation weather shock.
+27,Bank Loans to Assets Ratio,China,Time & Firm FE,2013,No CC,percentage point,-0.232,NA,NA,NA,NA,NA,14,One-unit increase in ACI; year is midpoint of sample
+28,Bank Loans to Assets Ratio,China,Time & Firm FE,2013,No CC,percentage point,-0.374,NA,NA,NA,NA,NA,14,Jump event (HP filter); year is midpoint of sample
+29,Bank Loans to Assets Ratio,China,Time & Firm FE,2013,No CC,percentage point,-0.568,NA,NA,NA,NA,NA,14,Jump event (original ACI); year is midpoint of sample
+30,Bank Loans to Assets Ratio,China,Time & Firm FE,2008,No CC,percentage point,-0.140,NA,NA,NA,NA,NA,14,Excluding observations from 2008 to 2009
+31,Bank Loans to Assets Ratio,China,Time & Firm FE,2020,No CC,percentage point,-0.214,NA,NA,NA,NA,NA,14,Excluding observations from 2020
+32,Expected Default Probability,China,Regression,2010,No CC,NA,1,NA,NA,NA,NA,NA,Page 16,Weather risks significantly increase the expected default probability. This is a qualitative result - assigning a value of 1.
+33,Bank Loans,China,Placebo,2010,Artificial Samples,NA,0.0015,NA,NA,NA,NA,NA,Page 16,Mean coefficient estimate from artificial samples. Close to zero.
+34,Bank Loans,China,Placebo,2010,Real-world sample,NA,-0.232,NA,1%,-0.048,NA,NA,Page 16,Baseline coefficient compared to 1st percentile of artificial samples.
+35,Analysts' Ratings,China,Regression,2020,No CC,Rating score,-0.01,NA,NA,NA,NA,NA,19,"Qualitative result, sign only. Effect of ACI on analysts' ratings is negative and significant."
+36,Firm Profits,China,Regression,2020,No CC,Monetary Value,-0.01,NA,NA,NA,NA,NA,19,"Qualitative result, sign only. Extreme weather shocks significantly decreasing analysts’ forecasts of firm profits."
+37,Firm Loans,China,Regression,2020,Higher confidence,Units N/A,0.01,NA,NA,NA,NA,NA,19,"Qualitative result, sign only. Higher corporate confidence moderates negative effects of weather shocks."
+38,Value-Added,China,Regression,2020,NA,NA,-0.232,NA,NA,NA,NA,NA,23,Coefficient of ACI in value-added regression.
+39,Value-Added,China,Regression,2020,NA,NA,-0.240,NA,NA,NA,NA,NA,23,Coefficient of ACI_d (alternative climate measure).
+40,Value-Added,China,Panel regression,2020,No CC,%,-0.8,NA,NA,NA,NA,NA,24,"One-unit change in ACI reduces a firm’s value-added by 0.8%. Based on benchmark regression column (2) Table 13. Note, the ACI is not defined but described as the Aggregate Climate Index."
+41,GDP,China,SVAR,2001,Pre-shock,%,-0.5,NA,NA,NA,NA,NA,25,GDP drops by 0.5% in the third quarter following a one standard deviation shock to ACI index.
+42,GDP Variance,China,SVAR,2020,No weather shocks,%,14.2,NA,NA,NA,NA,NA,25,Weather shocks account for 14.2% of GDP fluctuations in the long run.
+43,Bank Loans,China,Regression,2020,Pre-ACI shock,NA,-1,NA,NA,NA,NA,NA,26,Bank loans drop after an ACI shock. Negative effect remains after controlling for the national loan demand index. Assigned a value of -1 to indicate negative impact
+44,GDP,China,SVAR,2020,No CC,percent,-0.6,NA,NA,NA,NA,NA,Page 34,The GDP response to a one standard deviation weather shock is approximately -0.6%.
+45,CPI,China,SVAR,2020,No CC,percent,-0.1,NA,NA,NA,NA,NA,Page 34,The CPI response to a one standard deviation weather shock is approximately -0.1%.
+46,Interest Rate,China,SVAR,2020,No CC,percent,-0.1,NA,NA,NA,NA,NA,Page 34,The interest rate response to a one standard deviation weather shock is approximately -0.1%.
+47,Credit,China,SVAR,2020,No CC,percent,-0.4,NA,NA,NA,NA,NA,Page 34,The credit response to a one standard deviation weather shock is approximately -0.4%.
+48,GDP,China,SVAR,2020,No CC,Units unclear from page 35,-0.08,NA,NA,NA,NA,NA,35,"Stacked bar chart shows a negative impact on GDP due to weather shock around 2020; Units are unclear (possibly % deviation from trend). The stacked bar also includes impacts from CPI, rate, and credit shocks."
+49,GDP,China,Counterfactual,2025,Factual,percent,-0.6,NA,NA,NA,NA,NA,36,"The counterfactual scenario considers a one standard deviation weather shock. The -0.6 percent represents the response of output to this shock after approximately 20 quarters (5 years) when monetary policy does not react, thus approximately evaluated in 2025 if the shock happened in 2020."
+50,GDP,China,SVAR,2001,No CC,%,-2.797469,NA,NA,NA,NA,NA,40,"Variance decomposition after 1 quarter, impact due to ACI shock"
+51,GDP,China,SVAR,2001,No CC,%,-14.59756,NA,NA,NA,NA,NA,40,"Variance decomposition after 4 quarters, impact due to ACI shock"
+52,GDP,China,SVAR,2001,No CC,%,-18.06606,NA,NA,NA,NA,NA,40,"Variance decomposition after 8 quarters, impact due to ACI shock"
+53,GDP,China,SVAR,2001,No CC,%,-18.2578,NA,NA,NA,NA,NA,40,"Variance decomposition after 16 quarters, impact due to ACI shock"
+54,GDP,China,SVAR,2001,No CC,%,-14.20422,NA,NA,NA,NA,NA,40,"Variance decomposition after 200 quarters, impact due to ACI shock"
+55,CPI,China,SVAR,2001,No CC,%,-0.001821,NA,NA,NA,NA,NA,40,"Variance decomposition after 1 quarter, impact due to ACI shock"
+56,CPI,China,SVAR,2001,No CC,%,-1.854872,NA,NA,NA,NA,NA,40,"Variance decomposition after 4 quarters, impact due to ACI shock"
+57,CPI,China,SVAR,2001,No CC,%,-1.558176,NA,NA,NA,NA,NA,40,"Variance decomposition after 8 quarters, impact due to ACI shock"
+58,CPI,China,SVAR,2001,No CC,%,-3.386986,NA,NA,NA,NA,NA,40,"Variance decomposition after 16 quarters, impact due to ACI shock"
+59,CPI,China,SVAR,2001,No CC,%,-11.51271,NA,NA,NA,NA,NA,40,"Variance decomposition after 200 quarters, impact due to ACI shock"
+60,Interest Rate,China,SVAR,2001,No CC,%,-0.000553,NA,NA,NA,NA,NA,40,"Variance decomposition after 1 quarter, impact due to ACI shock"
+61,Interest Rate,China,SVAR,2001,No CC,%,-3.163351,NA,NA,NA,NA,NA,40,"Variance decomposition after 4 quarters, impact due to ACI shock"
+62,Interest Rate,China,SVAR,2001,No CC,%,-4.368398,NA,NA,NA,NA,NA,40,"Variance decomposition after 8 quarters, impact due to ACI shock"
+63,Interest Rate,China,SVAR,2001,No CC,%,-4.697204,NA,NA,NA,NA,NA,40,"Variance decomposition after 16 quarters, impact due to ACI shock"
+64,Interest Rate,China,SVAR,2001,No CC,%,-4.740766,NA,NA,NA,NA,NA,40,"Variance decomposition after 200 quarters, impact due to ACI shock"
+65,Credit,China,SVAR,2001,No CC,%,-1.689482,NA,NA,NA,NA,NA,40,"Variance decomposition after 1 quarter, impact due to ACI shock"
+66,Credit,China,SVAR,2001,No CC,%,-2.187733,NA,NA,NA,NA,NA,40,"Variance decomposition after 4 quarters, impact due to ACI shock"
+67,Credit,China,SVAR,2001,No CC,%,-2.968091,NA,NA,NA,NA,NA,40,"Variance decomposition after 8 quarters, impact due to ACI shock"
+68,Credit,China,SVAR,2001,No CC,%,-8.41753,NA,NA,NA,NA,NA,40,"Variance decomposition after 16 quarters, impact due to ACI shock"
+69,Credit,China,SVAR,2001,No CC,%,-13.81998,NA,NA,NA,NA,NA,40,"Variance decomposition after 200 quarters, impact due to ACI shock"
+70,Loan/Asset Ratio,China,Regression,2020,No CC,-,-0.305,0.038,NA,NA,NA,NA,41,Effect of Aggregate Climate Index (ACI) on Loan/Asset Ratio
+71,Loan/Asset Ratio,China,Regression,2020,No CC,-,-0.374,0.030,NA,NA,NA,NA,41,"Effect of Aggregate Climate Index (ACI) on Loan/Asset Ratio, excluding global financial crisis"
+72,Loan/Asset Ratio,China,Regression,2020,No CC,-,-0.232,0.030,NA,NA,NA,NA,41,"Effect of Aggregate Climate Index (ACI) on Loan/Asset Ratio, excluding global financial crisis"
+73,Loan/Asset Ratio,China,Regression,2020,No CC,-,0.022,0.027,NA,NA,NA,NA,41,Effect of Aggregate Climate Index (ACI) on Loan/Asset Ratio. Including interaction term.
+74,Expected Default Risk,China,Regression FE,2020,No CC,,0.004,0.001,NA,NA,NA,NA,42,"Using ACI with one quarter lag; with Time FE, Firm FE, and controls as in column (2) of Table 3."
+75,Expected Default Risk,China,Regression FE,2020,No CC,,0.001,0.001,NA,NA,NA,NA,42,"Using ACI with one quarter lag; with Time FE, Firm FE, and controls as in column (2) of Table 3."
+76,Bank Loans (to Assets Ratio),China,Panel Regression,2020,No CC,coefficient,-0.288,0.031,NA,NA,NA,NA,43,Impact of ACI on Loan/Asset ratio
+77,Bank Loans (to Assets Ratio),China,Panel Regression,2020,No CC,coefficient,-0.257,0.030,NA,NA,NA,NA,43,Impact of ACI on Loan/Asset ratio
+78,Bank Loans (to Assets Ratio),China,Panel Regression,2020,No CC,coefficient,-0.242,0.029,NA,NA,NA,NA,43,Impact of ACI on Loan/Asset ratio
+79,Bank Loans (to Assets Ratio),China,Panel Regression,2020,No CC,coefficient,-0.438,0.043,NA,NA,NA,NA,43,Impact of ACI * low fixed assets on Loan/Asset ratio
+80,Bank Loans (to Assets Ratio),China,Panel Regression,2020,No CC,coefficient,-0.292,0.041,NA,NA,NA,NA,43,Impact of ACI * low non-current assets on Loan/Asset ratio
+81,Bank Loans (to Assets Ratio),China,Panel Regression,2020,No CC,coefficient,-0.113,0.040,NA,NA,NA,NA,43,Impact of ACI * low tangible assets on Loan/Asset ratio
+82,Bank Loans Ratio,China,ACI*tight MP,2020,No CC,,-0.371,0.046,NA,NA,NA,NA,P. 43,Interaction of ACI and tight MP on loan/asset ratio
+83,Bank Loans Ratio,China,ACI,2020,No CC,,-0.206,0.029,NA,NA,NA,NA,P. 43,ACI on loan/asset ratio
+84,Bank Loans Ratio,China,ACI*EPU,2020,No CC,,-0.206,0.029,NA,NA,NA,NA,P. 43,Interaction of ACI and EPU on loan/asset ratio
+85,Bank Loans Ratio,China,ACI*stress,2020,No CC,,-0.289,0.083,NA,NA,NA,NA,P. 43,Interaction of ACI and stress on loan/asset ratio
+86,Bank Loans Ratio,China,ACI*LGFV bond,2020,No CC,,-0.107,0.029,NA,NA,NA,NA,P. 43,Interaction of ACI and LGFV on loan/asset ratio
+87,Bank Loans Ratio,China,ACI,2020,No CC,,-0.099,0.039,NA,NA,NA,NA,P. 43,ACI on loan/asset ratio
+88,Bank Loans Ratio,China,ACI,2020,No CC,,-0.238,0.030,NA,NA,NA,NA,P. 43,ACI on loan/asset ratio
+89,Bank Loans Ratio,China,ACI,2020,No CC,,-0.248,0.033,NA,NA,NA,NA,P. 43,ACI on loan/asset ratio
+90,Bank Loans Ratio,China,ACI,2020,No CC,,-0.199,0.032,NA,NA,NA,NA,P. 43,ACI on loan/asset ratio
+91,Bank Loans,China,Panel regression,2020,No CC,percentage points,0.019,0.003,NA,NA,NA,NA,46,Impact of ACI is positive when confidence is high
+92,Bank Loans,China,Panel regression,2020,No CC,percentage points,0.042,0.009,NA,NA,NA,NA,46,Impact of ACI is positive when PMI-New-order is high
+93,Bank Loans,China,Panel regression,2020,No CC,percentage points,0.073,0.014,NA,NA,NA,NA,46,Impact of ACI is positive when PMI is high
+94,Bank Loans,China,Panel regression,2020,No CC,percentage points,-0.271,0.031,NA,NA,NA,NA,46,Main effect of ACI on loan/asset ratio. ACI lagged one quarter. Confidence is controlled for.
+95,Bank Loans,China,Panel regression,2020,No CC,percentage points,-0.208,0.033,NA,NA,NA,NA,46,Main effect of ACI on loan/asset ratio. ACI lagged one quarter. PMI-New-order is controlled for.
+96,Bank Loans,China,Panel regression,2020,No CC,percentage points,-0.196,0.034,NA,NA,NA,NA,46,Main effect of ACI on loan/asset ratio. ACI lagged one quarter. PMI is controlled for.
+97,Credit Access,China,SVAR,2020,No CC,Percentage Points,-0.273,0.029,NA,NA,NA,NA,47,"This is the effect of the Aggregate Climate Index (ACI) on the bank loans ratio to total assets for the average firm, lagged one quarter."
+98,Credit Access,China,SVAR,2020,No CC,Percentage Points,-0.345,0.038,NA,NA,NA,NA,47,"Interaction effect: ACI impact on bank loans ratio to total assets is more negative for non-state-owned enterprises (NonSOE), lagged one quarter."
+99,Credit Access,China,SVAR,2020,No CC,Percentage Points,-0.248,0.042,NA,NA,NA,NA,47,"Interaction effect: ACI impact on bank loans ratio to total assets is more negative for younger firms, lagged one quarter."
+100,Credit Access,China,SVAR,2020,No CC,Percentage Points,-0.442,0.039,NA,NA,NA,NA,47,"Interaction effect: ACI impact on bank loans ratio to total assets is more negative for firms with low fixed assets, lagged one quarter."
+101,Credit Access,China,SVAR,2020,No CC,Percentage Points,-0.417,0.039,NA,NA,NA,NA,47,"Interaction effect: ACI impact on bank loans ratio to total assets is more negative for firms with low sales, lagged one quarter."
+102,Loans,China,Panel regression,2020,No CC,Ratio,-0.264,0.039,NA,NA,NA,NA,50,Result refers to the impact of the 1960–1989 period on loan/asset ratio; using a one-quarter lag.
+103,Loans,China,Panel regression,2020,No CC,Ratio,-0.673,0.072,NA,NA,NA,NA,50,Result refers to the impact of P90 on loan/asset ratio; using a one-quarter lag.
+104,Loans,China,Panel regression,2020,No CC,Ratio,-0.646,0.078,NA,NA,NA,NA,50,Result refers to the impact of P10 on loan/asset ratio; using a one-quarter lag.
+105,Loans,China,Panel regression,2020,No CC,Ratio,-0.268,0.047,NA,NA,NA,NA,50,Result refers to the impact of Rain on loan/asset ratio; using a one-quarter lag.
+106,Loans,China,Panel regression,2020,No CC,Ratio,-0.320,0.045,NA,NA,NA,NA,50,Result refers to the impact of Drought on loan/asset ratio; using a one-quarter lag.
+107,Loans,China,Panel regression,2020,No CC,Ratio,0.123,0.068,NA,NA,NA,NA,50,Result refers to the impact of Wind on loan/asset ratio; using a one-quarter lag.
+108,Loans,China,Panel regression,2020,No CC,Ratio,-0.347,0.027,NA,NA,NA,NA,50,Result refers to the impact of Lowtemp on loan/asset ratio; using a one-quarter lag.
+109,Loans,China,Panel regression,2020,No CC,Ratio,-0.240,0.027,NA,NA,NA,NA,50,Result refers to the impact of Wind (negative) on loan/asset ratio; using a one-quarter lag.
+110,Value-Added,China,baseline,2020,No CC,-,0.043,0.001,NA,NA,NA,NA,51,Coefficient on ACI
+111,Value-Added,China,baseline,2020,No CC,-,0.023,0.005,NA,NA,NA,NA,51,Coefficient on tangible assets
+112,Value-Added,China,baseline,2020,No CC,-,0.709,0.006,NA,NA,NA,NA,51,Coefficient on ln(asset)
+113,Value-Added,China,jump,2020,No CC,-,0.043,0.001,NA,NA,NA,NA,51,Coefficient on ACI
+114,Value-Added,China,jump,2020,No CC,-,0.023,0.005,NA,NA,NA,NA,51,Coefficient on tangible assets
+115,Value-Added,China,jump,2020,No CC,-,0.709,0.006,NA,NA,NA,NA,51,Coefficient on ln(asset)
+116,Value-Added,China,jump,2020,No CC,-,0.043,0.001,NA,NA,NA,NA,51,Coefficient on ACI
+117,Value-Added,China,jump,2020,No CC,-,0.023,0.005,NA,NA,NA,NA,51,Coefficient on tangible assets
+118,Value-Added,China,jump,2020,No CC,-,0.700,0.006,NA,NA,NA,NA,51,Coefficient on ln(asset)
+119,ROA,China,aggregate,2020,No CC,-,-0.181,NA,NA,NA,NA,NA,51,Coefficient on ACI * tangible assets / ln(asset)
+120,ROA,China,macro,2020,No CC,-,-0.521,NA,NA,NA,NA,NA,51,Coefficient on ACI * average leverage / of firm risk * soft intangible assets
+121,ROA,China,macro,2020,No CC,-,-0.032,NA,NA,NA,NA,NA,51,Coefficient on ACI * fraction
+122,ROA,China,macro,2020,No CC,-,-0.149,NA,NA,NA,NA,NA,51,Coefficient on ACI * weather * is the * ist he at * two-quarter columns
+123,GDP,China,macro,2020,No CC,-,0.440,NA,NA,NA,NA,NA,51,"Coefficient on GDP * m2,gdplaginclude"
+124,Credit,China,macro,2020,No CC,-,0.056,0.027,NA,NA,NA,NA,51,Coefficient on credit
+125,Loan,China,gdp,2020,No CC,-,3.363,0.004,NA,NA,NA,NA,51,"Coefficient on gdp * growth errors excluded from ln(value-added), age, uncertainty index"
+126,Loan,China,jump,2020,No CC,-,3.362,0.156,NA,NA,NA,NA,51,"Coefficient on jump and macroeconomic indicators 2009, log of firm-level * ion"
+127,Loan,China,jump,2020,No CC,-,3.364,0.156,NA,NA,NA,NA,51,Coefficient on jump gap regressions lev
+128,Loan,China,jump,2020,No CC,-,3.582,0.167,NA,NA,NA,NA,51,Coefficient on jump monetary resp include ectiv
+129,Loan,China,aggregate,2020,No CC,-,3.524,0.174,NA,NA,NA,NA,51,Coefficient on aggregate tweatheris the istheatwo-quarter columns
+130,Bank Loans,China,High vs. Low ACI,2020,No CC,ratio to total assets,-0.292,0.075,NA,NA,NA,NA,51,"ACI*ACI+ interaction term, significant at the 1% level."
+131,Value Added,China,High vs. Low ACI,2020,No CC,ln(VA),-0.024,0.004,NA,NA,NA,NA,51,"ACI*ACI+ interaction term, significant at the 1% level."
+132,Bank Loans,China,High vs. Low ACI,2020,No CC,ratio to total assets,-0.086,0.042,NA,NA,NA,NA,51,"ACI term, significant at the 5% level."
+133,Value Added,China,High vs. Low ACI,2020,No CC,ln(VA),-0.009,0.002,NA,NA,NA,NA,51,"ACI term, significant at the 1% level."
+134,Bank Loans,China,Loan Supply,2020,No CC,ratio to total assets,-0.238,0.029,NA,NA,NA,NA,51,"ACI term, significant at the 1% level."
+135,Bank Loans,China,Loan Supply,2020,No CC,ratio to total assets,-0.157,0.029,NA,NA,NA,NA,51,"ACI term, significant at the 1% level. Controls for capital adequacy ratio."
+136,Bank Loans,China,Loan Supply,2020,No CC,ratio to total assets,-0.168,0.031,NA,NA,NA,NA,51,"ACI term, significant at the 1% level. Controls for excess reserves ratio and capital adequacy ratio."
+137,Bank Loans,China,Time/Firm FE Regression,2020,No ACI shock,Log,-0.015,0.005,NA,NA,NA,NA,52,"Coefficient of ACI, Model 1. Dependent variable is log of bank loans reported on listed banks’ balance sheets; ACI is the climate risk index we construct; We use a one-quarter lag of ACI in the regression. "
+138,Bank Loans,China,Time/Firm FE Regression,2020,No ACI shock,Log,-0.003,0.001,NA,NA,NA,NA,52,"Coefficient of ACI, Model 2. Dependent variable is log of bank loans reported on listed banks’ balance sheets; ACI is the climate risk index we construct; We use a one-quarter lag of ACI in the regression."

@@ -1,0 +1,45 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,BI loss,Global,"RCP8.5, SSP3",2061,1971,% of GDP,0.32,NA,NA,NA,NA,NA,Page 1,The projection is a future average for 2061-2090 and relative to past averages for 1971-2000.
+1,Asset damage,Global,"RCP8.5, SSP3",2061,1971,% of GDP,1.78,NA,NA,NA,NA,NA,Page 1,The projection is a future average for 2061-2090 and relative to past averages for 1971-2000.
+2,BI loss,Global,Reanalysis,2013,No CC,USD (2005 PPP),26.9,NA,NA,NA,NA,NA,Page 9,"Average annual BI loss from 1960 to 2013, expressed in billions."
+3,Asset damage,Global,Reanalysis,2013,No CC,USD (2005 PPP),130.9,NA,NA,NA,NA,NA,Page 9,"Average annual asset damage from 1960 to 2013, expressed in billions."
+4,Asset Damage,Global,S14FD-Reanalysis,1999,No CC,USD billion (2005 PPP),96,NA,NA,NA,NA,NA,10,Study estimate. Compares well with Ward et al. (USD 94 billion)
+5,Asset Damage,Global,S14FD-Reanalysis,2005,No CC,USD billion (2005 PPP),56.7,NA,NA,NA,NA,NA,10,Study estimate in targeted river basins (drainage area > 5000 km2). Compares well with Alfieri et al. (USD 65 billion)
+6,BI loss,America & Europe,S14FD-Reanalysis,1971,Global Average,% of GDP,-0.02,NA,NA,NA,NA,NA,11,"Value is relative to the global average of 0.12% of GDP, hence negative."
+7,BI loss,Global Basins,S14FD-Reanalysis,1971,Global Average,% of GDP,0.18,NA,NA,NA,NA,NA,11,"Value is relative to the global average of 0.12% of GDP, hence positive. It is derived as the difference between >0.3% and 0.12%."
+8,Business Interruption Loss,Global,S14FD-Reanalysis,2005,1961-2005 average,USD billion (2005 PPP),23.1,NA,NA,NA,NA,NA,12,Average BI loss from 1961 to 2005 using reanalysis data.
+9,Business Interruption Loss,Global,S14FD-GCM,2005,1961-2005 average,USD billion (2005 PPP),25.8,NA,NA,NA,NA,NA,12,Average BI loss from 1961 to 2005 using GCM simulation.
+10,Asset Damage,Global,S14FD-Reanalysis,2005,1961-2005 average,USD billion (2005 PPP),109.7,NA,NA,NA,NA,NA,12,Average asset damage from 1961 to 2005 using reanalysis data.
+11,Asset Damage,Global,S14FD-GCM,2005,1961-2005 average,USD billion (2005 PPP),142.5,NA,NA,NA,NA,NA,12,Average asset damage from 1961 to 2005 using GCM simulation.
+12,BI Loss/GDP,Global,"SSP3, RCP8.5",2061,1971-2000,Fold increase,4.2,NA,NA,NA,NA,NA,12,Projected increase in global annual BI loss per GDP.
+13,Asset Damage/GDP,Global,"SSP3, RCP8.5",2061,1971-2000,Fold increase,4.2,NA,NA,NA,NA,NA,12,Projected increase in global annual asset damage per GDP.
+14,Business Interruption Loss,Global,"SSP3, RCP8.5",2061,1971-2000,Fold increase,34.6,NA,NA,NA,NA,NA,12,Projected increase in global annual BI loss.
+15,Asset Damage,Global,"SSP3, RCP8.5",2061,1971-2000,Fold increase,34.7,NA,NA,NA,NA,NA,12,Projected increase in global annual asset damage.
+16,BI loss,Global,RCP8.5,2000,1971,Billion USD (2005 PPP),-27.2,NA,NA,NA,NA,NA,Table 3,BI Loss is negative since it is relative to future years
+17,BI loss,Global,RCP8.5,2021,1971,Billion USD (2005 PPP),435.5,NA,NA,NA,NA,NA,Table 3,BI Loss is positive since it is relative to past years
+18,BI loss,Global,RCP8.5,2061,1971,Billion USD (2005 PPP),940.4,NA,NA,NA,NA,NA,Table 3,BI Loss is positive since it is relative to past years
+19,Asset damage,Global,RCP8.5,2000,1971,Billion USD (2005 PPP),-150.0,NA,NA,NA,NA,NA,Table 3,Asset damage is negative since it is relative to future years
+20,Asset damage,Global,RCP8.5,2021,1971,Billion USD (2005 PPP),2586.1,NA,NA,NA,NA,NA,Table 3,Asset damage is positive since it is relative to past years
+21,Asset damage,Global,RCP8.5,2061,1971,Billion USD (2005 PPP),5201.3,NA,NA,NA,NA,NA,Table 3,Asset damage is positive since it is relative to past years
+22,GDP,Global,RCP8.5,2000,1971,%,-0.10,NA,NA,NA,NA,NA,Table 3,GDP is negative since it is relative to future years. Calculated as % of BI loss in GDP
+23,GDP,Global,RCP8.5,2021,1971,%,0.29,NA,NA,NA,NA,NA,Table 3,GDP is positive since it is relative to past years. Calculated as % of BI loss in GDP
+24,GDP,Global,RCP8.5,2061,1971,%,0.42,NA,NA,NA,NA,NA,Table 3,GDP is positive since it is relative to past years. Calculated as % of BI loss in GDP
+25,BI loss,China/Thailand/Nile,RCP8.5,2061,1971,Billion USD (2005 PPP),5,NA,NA,NA,NA,NA,Page 13,Increase in BI loss relative to past values. BI Loss is positive since it is relative to past years
+26,BI loss,America/Australia,RCP8.5,2061,1971,Billion USD (2005 PPP),0.1,NA,NA,NA,NA,NA,Page 13,Increase in BI loss relative to past values. BI Loss is positive since it is relative to past years
+27,GDP,Nile/Niger/Sub-Sahara,RCP8.5,2061,1971,%,1.5,NA,NA,NA,NA,NA,Page 13,GDP is positive since it is relative to past years. Calculated as % of BI loss in GDP
+28,GDP,Nile/Niger,RCP8.5,2061,1971,%,1.0,NA,NA,NA,NA,NA,Page 13,Increase in GDP relative to past values. Calculated as % of BI loss in GDP. GDP is positive since it is relative to past years.
+29,GDP,S. America/M. East/Aus,RCP8.5,2061,1971,%,-1.0,NA,NA,NA,NA,NA,Page 13,Decrease in GDP relative to past values. Calculated as % of BI loss in GDP. GDP is negative since it is relative to past years.
+30,BI GDP impact,Global,Future scenario,2075,1985,Percentage of GDP,0,NA,NA,NA,NA,NA,Page 14,"Discusses future BI loss as a percentage of GDP, but no specific quantitative data is provided on the page besides a zero value to represent lack of quantitative data."
+31,BI Loss,Global,S14FD-Reanalysis,2013,No Flood Protection,Billion (2005 PPP USD),1864,NA,NA,NA,NA,NA,Page 15,Average from 1960 to 2013
+32,Asset Damage,Global,S14FD-Reanalysis,2013,No Flood Protection,Billion (2005 PPP USD),3771,NA,NA,NA,NA,NA,Page 15,Average from 1960 to 2013
+33,BI Loss,Global,S14FD-Reanalysis,2013,Flood Protection,% Reduction,-98.6,NA,NA,NA,NA,NA,Page 15,Reduction due to flood protection
+34,Asset Damage,Global,S14FD-Reanalysis,2013,Flood Protection,% Reduction,-96.5,NA,NA,NA,NA,NA,Page 15,Reduction due to flood protection
+35,BI Loss,Malawi,S14FD-Reanalysis,2012,No Flood Protection,Million (2005 PPP USD),-137.65,NA,NA,NA,NA,NA,Page 15,Calculated as 0.35 - 138
+36,BI Loss,Malawi,S14FD-Reanalysis,2012,Flood Protection,Million (2005 PPP USD),0.35,NA,NA,NA,NA,NA,Page 15,
+37,BI loss,Global,S14FD-Reanalysis,2013,No CC,billion 2005 PPP USD/yr,26.9,NA,NA,NA,NA,NA,Page 18,BI loss is defined as business interruption loss.
+38,Asset damage,Global,S14FD-Reanalysis,2013,No CC,billion 2005 PPP USD/yr,130.9,NA,NA,NA,NA,NA,Page 18,
+39,BI loss per GDP,Global,RCP8.5 SSP3,2090,1971-2000 average,%,0.32,NA,NA,NA,NA,NA,Page 18,Increase per GDP
+40,Asset damage per GDP,Global,RCP8.5 SSP3,2090,1971-2000 average,%,1.78,NA,NA,NA,NA,NA,Page 18,Increase per GDP
+41,BI loss per GDP,Indonesia,RCP8.5 SSP3,2090,No CC,%,1.5,NA,NA,NA,NA,NA,Page 18,Some river basins in Indonesia. In river basins with very flat terrains
+42,BI loss per GDP,Egypt,RCP8.5 SSP3,2090,No CC,%,1.5,NA,NA,NA,NA,NA,Page 18,The Nile basin. In river basins with very flat terrains
+43,BI loss per GDP,Thailand,RCP8.5 SSP3,2090,No CC,%,1.5,NA,NA,NA,NA,NA,Page 18,The Chao Phraya River basins. In river basins with very flat terrains

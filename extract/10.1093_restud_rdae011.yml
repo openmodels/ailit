@@ -1,0 +1,253 @@
+Category:
+  6: Extracted Information
+Drivers of Risk:
+  2: Uncertainty in climate system calibrations (climate sensitivities and carbon
+    cycle responses), discount rate, climate change, CO2 emissions, model uncertainty
+  6: Incorrect calibration of climate models, discount rate, rate of time preference,
+    curvature of cardinal utility, temperature increases, carbon cycle.
+  22: Non-CO2 forcings; Uncertainties in carbon cycle and temperature equations; Extreme
+    climate of the climate-economy (CE) model; Different socio-economic scenarios
+    (fossil fuel dominated, mitigation, net-zero emissions).
+  23: Emission of an additional unit of carbon; the calibration of the damage function;
+    the path of emissions; future interest rates; exogenous forcing.
+  24: Different climate calibrations (HadGEM2-ES, GISS-E2-R, MESMO) and emission scenarios
+    (RCP8.5, RCP2.6), growth-adjusted interest rate
+  25: Model uncertainty in temperature equation, extreme carbon cycle, emissions scenario
+    (RCP2.6 vs. RCP8.5), discount rate, damage function (linear, quadratic, cubic),
+    climate model uncertainty.
+  26: Uncertainty in climate models, particularly related to the Equilibrium Climate
+    Sensitivity (ECS) and the speed of warming, and the g-adjusted interest rate.
+  27: Temperature increase (TAT), CO2 emissions (Et)
+  28: Different CMIP5 calibrations for the carbon cycle and the temperature equation.
+    Uncertainty in the climate model.
+  29: Differences in climate calibrations, such as carbon cycle and temperature equation
+    calibrations, are impacting outcomes.
+  30: Differences in climate calibrations lead to large differences in damages and
+    the social cost of carbon (SCC), impacting optimal mitigation choices. The choice
+    of the damage function significantly influences the social cost of carbon.
+  34: Variations in the intertemporal elasticity of substitution (IES) influence growth-adjusted
+    interest rates, impacting the SCC over time.
+  35: "Uncertainty in climate sensitivity (ECS), uncertainty in the elasticity of\
+    \ intertemporal substitution (\u03C8), miscalibration of the DICE-2016 model,\
+    \ future interest rate levels, TFP growth."
+Highlights:
+  1: The appropriate choice of free model parameters in climate emulators can be of
+    key relevance for the predicted social cost of carbon.
+  2: DICE-2016's carbon cycle and temperature equations are miscalibrated. The social
+    cost of carbon in DICE-2016 is oversensitive to the discount rate.
+  6: DICE-2016's SCC is oversensitive to the discount rate due to incorrect calibration
+    of the climate module. Flaws in the temperature equations and carbon cycle in
+    DICE-2016 partially offset each other, giving plausible but ultimately incorrect
+    results for optimal economic response to climate change. Optimal mitigation scenario
+    in DICE-2016 predicts temperatures outside of the CMIP5 range.
+  13: The page details the carbon cycle model used within a broader climate-economic
+    framework, specifying the equations governing carbon transfer between atmospheric,
+    upper ocean, and lower ocean reservoirs. It outlines the parameters and relationships
+    used to calibrate the model and highlights the ability to adjust the time-step,
+    addressing a limitation in the original DICE-2016 model.
+  22: DICE-2016 fails calibration tests but passes other tests possibly due to compensating
+    errors. A recalibrated version, CDICE, passes all four tests. Full-fledged ESMs
+    do not agree on global mean temperature change. Non-CO2 forcings play a prominent
+    role and contribute to uncertainty.
+  23: In the BAU case of the DICE-2016 model, the effects of the climate model on
+    emissions and the interest rates are tiny. If one assumes constant interest rates,
+    the SCC relative to output is relatively constant across the next 50 years.
+  24: The functional form of the damage function is very important, and higher-order
+    terms can make a significant difference in the effect of climate model uncertainty
+    on the SCC. The SCC is sensitive to both the climate model used and the emission
+    scenario.
+  25: Model uncertainty regarding temperature has a large impact on SCC. The choice
+    of damage function (linear, quadratic, cubic) significantly influences the SCC
+    and its sensitivity to emission scenarios and model uncertainty. SCC is lower
+    for high-emission scenarios for linear damage functions and higher for cubic damage
+    functions.
+  26: Simply varying the ECS in climate-economic models is not a good proxy for extreme
+    warming scenarios in CMIP5. DICE-2016 underestimates the SCC substantially at
+    a discount factor of 0.96 (about 20% lower than CDICE) and overestimates at a
+    discount factor of 0.99 (about 30% larger than CDICE).
+  27: The paper presents optimal solutions for the adjusted DICE-2016 model (CDICE)
+    and analyzes the impact of mitigation on damages from temperature increases. It
+    also calculates the SCC under different scenarios (BAU and optimal mitigation).
+  28: Different calibrations for the CE (carbon cycle and temperature equations) can
+    have large effects on the optimal abatement. The emissions are not sensitive to
+    the climate calibration used.
+  29: The effect of climate calibrations on GDP damages can vary significantly, affecting
+    optimal abatement strategies.
+  30: Optimal emissions remain far above RCP 2.6 levels due to the DICE-2016 damage
+    function specification and lack of carbon removal in the model. Differences in
+    climate calibrations lead to huge differences in optimal mitigation.
+  32: DICE-2016 implies slightly more optimal abatement than CDICE, but this difference
+    is small because initial warming is lower in DICE-2016. DICE-2016 leads to atmospheric
+    temperatures outside the CMIP5 range after 90 years.
+  34: Key finding is that differences in the IES lead to more than a 50% variance
+    in the SCC.
+  35: "DICE-2016 miscalibration amplifies the effect of uncertainty in \u03C8. Different\
+    \ preference specifications (leading to different interest rates) cause large\
+    \ differences in optimal mitigation. Optimal long-run temperatures are much higher\
+    \ in DICE-2016 than CDICE, and the spread is further exacerbated by different\
+    \ values of \u03C8."
+  36: DICE-2016 predictions fall within the range of CMIP5 due to compensating errors
+    in calibration, making mitigation scenarios highly sensitive; the calibration
+    of DICE-2016 is not suited for reliable policy analysis.
+Methodology:
+  1: Proposes a generic and transparent calibration and evaluation strategy for climate
+    emulators based on freely and easily accessible state-of-the-art benchmark data
+    from climate sciences.
+  2: Re-calibration of the climate part of the DICE-2016 model using CMIP5 uncertainty
+    range; Examination of the importance of the calibration for the social cost of
+    carbon in a partial and simple general equilibrium setting.
+  6: Compares DICE-2016 model with a re-calibrated version (CDICE) using different
+    calibrations of extreme climate models within a general equilibrium framework.
+    Uses partial equilibrium and general equilibrium settings. The re-calibrated model
+    is updated with respect to the MMM (likely a climate dataset or study).
+  13: The paper describes a linear three-box model of the carbon cycle (atmosphere,
+    upper ocean, lower ocean) used in climate economics models like DICE-2016. It
+    models global mean temperature using two coupled ordinary differential equations
+    representing heat reservoirs (atmosphere/upper ocean and lower ocean). The model
+    is anchored to a pre-industrial equilibrium state. It uses a time-step in years
+    (/Delta1t) to update carbon mass in the three reservoirs based on emissions and
+    mass transfer between reservoirs.
+  22: Calibration and testing of climate-economy (CE) models, specifically the DICE
+    model and a recalibrated version (CDICE). Includes tests to quantify the transient
+    climate response and evaluate performance under strong forcing and mitigation,
+    using CMIP5 data. Bracketing behavior of CMIP5 models for RCPs to measure uncertainty.
+  23: "IAMs compute the net present value of all future damages caused by the emission\
+    \ of an additional unit of carbon. A damage function, /Omega1(\xB7), multiplies\
+    \ total output, Y_Grosst(\xB7), at time t to represent the impact of temperature\
+    \ on economic activity. Constant interest and growth rates are assumed to make\
+    \ general statements about the SCC. Analysis focuses on the year 2020 for reporting\
+    \ the SCC."
+  24: Compares SCC across different climate model calibrations (temperature and carbon
+    cycle) under different emission scenarios, relative to the CDICE calibration,
+    using a quadratic damage function. Analysis is performed by varying the growth-adjusted
+    interest rate.
+  25: Stylized exercise using different damage functions (linear, quadratic, cubic)
+    and climate models (CDICE, HadGEM2-ES, GISS-E2-R, MESMO) under different emission
+    scenarios (RCP2.6, RCP8.5) and g-adjusted interest rates.
+  26: The paper analyzes the SCC using different calibrations of the DICE model and
+    alternative temperature calibrations (CDICE-HadGEM2-ES and CDICE-GISS-E2-R) under
+    the RCP 8.5 scenario with quadratic damage functions. The SCC is computed for
+    the year 2020. The study also investigates how varying the ECS parameter affects
+    the SCC and compares it to more complex climate model scenarios.
+  27: The analysis uses the DICE-2016 model, adjusted (CDICE) with a re-calibrated
+    climate part. The model is based on a planner's problem, maximizing a time-separable
+    utility function subject to a capital accumulation constraint and emissions equation.
+    The SCC is calculated as the marginal rate of substitution between atmospheric
+    carbon concentration and the capital stock.
+  29: The analysis uses different climate calibrations, particularly the DICE-2016
+    model, and examines impacts over a range of 300 years.
+  30: The analysis uses the DICE-2016 model to determine optimal mitigation choices
+    based on different climate calibrations and their impact on damages and SCC. The
+    social planner optimally chooses mitigation in the optimization-problem (8).
+  32: The analysis uses the CDICE and DICE-2016 integrated assessment models to simulate
+    climate and economic outcomes under different calibrations.
+  34: The analysis uses the DICE-2016 model calibration to study the effects of varying
+    the IES on interest rates and SCC over time.
+  35: "Compares DICE-2016 calibration to CDICE with different ECS calibrations (HadGEM2-ES\
+    \ and GISS-E2-R). Analysis focuses on optimal abatement and temperature pathways\
+    \ under different assumptions about climate sensitivity (ECS) and the elasticity\
+    \ of intertemporal substitution (\u03C8)."
+  36: The paper develops a series of tests to evaluate the quality of Climate Emulators
+    (CEs) used in economic modeling, updating the climate representation in the DICE
+    model with a new calibration aligned with the CMIP5 benchmark.
+More Notes:
+  1: The paper focuses on climate emulators, which are simplified climate models used
+    by economists to link CO2 emissions and global warming.
+  12: This page focuses on the calibration and testing of a climate model (CE) within
+    Integrated Assessment Models (IAMs), specifically using the DICE-2016 model as
+    an example. While it discusses the impact of carbon emissions on temperature,
+    it does not directly address macroeconomic or macro-fiscal outcomes, or the costs
+    and benefits of adaptation at a national level.
+  13: The paper provides details of the carbon cycle model, which is a component of
+    a larger integrated assessment model like DICE. The CE equations section indicates
+    that the CE model has equations related to carbon emissions.
+  23: "The paper compares the impact of their CDICE calibration with DICE-2016 consistently\
+    \ by assuming exogenous forcing changes linearly with time, as specified in DICE-2016.\
+    \ The paper refers to (1+r)/(1+g) simply as the \u201Cg-adjusted interest rate.\u201D"
+  24: "The damage functions used in DICE-2016, Hansel et al. (2020) and Howard and\
+    \ Sterner (2017) assume a quadratic functional form. The parameter \u03C82 is\
+    \ irrelevant for the ratios of SCC for different calibrations but matters for\
+    \ the absolute value."
+  25: The concavity in the forcing equation counters the convexity of damages, making
+    the overall shape of the cost function unknown a priori.
+  26: The speed of warming is more important than the very long run behavior of temperature
+    when considering the social cost of carbon. Modeling climate uncertainty by simply
+    varying the ECS parameters incorrectly reduces the uncertainty about the SCC.
+  27: "The model includes non-industrial emissions (E Landt) and industrial emissions\
+    \ (\u03C3t Y Grosst)."
+  30: The optimal tax on carbon, equivalent to the SCC in the model, is slightly below
+    what is typically discussed for economic policy purposes.
+  32: The parameters that determine the very long run of the climate system are more
+    or less irrelevant to temperature over the next 300 years and, therefore, for
+    the SCC that determines optimal policy today.
+  35: "The paper suggests that using the DICE-2016 climate calibration in more complex\
+    \ models with uncertainty and Epstein\u2013Zin utility may lead to serious problems."
+  36: The paper advocates for a battery of tests to identify issues in climate models
+    used in climate economics.
+No relevant information:
+  8: No relevant information
+  9: This page focuses on the technical setup and calibration of a climate emulator,
+    with no direct mention of macroeconomic or macro-fiscal outcomes, adaptation costs/benefits,
+    or specific economic indicators.
+  17: No relevant information
+Outcome(s) of Interest:
+  2: Social cost of carbon
+  6: Social Cost of Carbon (SCC), optimal mitigation (carbon taxes)
+  13: No relevant information
+  22: Uncertainty in climate models affects economic studies.
+  23: Net present value of future damages caused by carbon emissions; social cost
+    of carbon (SCC) relative to output; impact of temperature on economic activity
+    via a damage function multiplying total output.
+  24: Social Cost of Carbon (SCC)
+  25: Social Cost of Carbon (SCC)
+  26: Social Cost of Carbon (SCC) is the primary outcome of interest.
+  27: Consumption (Ct), Capital stock (Kt), Output (Y), Social Cost of Carbon (SCC)
+  28: The optimal carbon tax, abatement cost, emission intensity.
+  29: Damages as a percentage of GDP can range from around 3% to over 17.5% depending
+    on climate calibrations.
+  30: Optimal emissions remain far above RCP 2.6 emissions, implying optimal temperature
+    rises far above the Paris limit.
+  34: The paper discusses the impact of changes in the growth-adjusted interest rate
+    on the social cost of carbon (SCC), with implications for optimal abatement policies.
+  35: Optimal abatement policies, optimal temperatures (warming) under different climate
+    calibrations, carbon usage extension, future interest rates.
+Quantitative material:
+  2: Model uncertainty from different consistent calibrations of the climate system
+    can change the social cost of carbon by a factor of 4 if one assumes a quadratic
+    damage function.
+  6: "The DICE-2016 model predicts long-run temperature about 1\xB0C higher than their\
+    \ calibration. DICE-2016 carbon taxes are too low."
+  13: No relevant information
+  23: Exogenous forcing, F_EXt, changes linearly with time from 0.5 in the year 2015
+    to 1.0 in 2100 (DICE-2016 specification).
+  24: The figure displays the SCC under two different RCP emission scenarios and four
+    different calibrations of a climate-economic model, relative to the CDICE MMM
+    social cost of carbon for RCP26, across a range of growth-adjusted interest rates
+    from 0.5% to 4%. SCC values relative to CDICE-2.6 range from 0.5 to about 2.0.
+  25: SCC can be three to five times higher for pessimistic temperature scenarios
+    compared to optimistic scenarios. Extreme carbon cycle increases SCC by about
+    20% relative to the MMM. SCC doesn't change much with alternative emissions scenarios
+    compared to climate model uncertainty and discount factor effects. SCC can be
+    almost eight times higher for the most pessimistic climate scenario compared to
+    the most optimistic scenario with cubic damages, depending on the interest rate.
+  26: The SCC is quantified relative to a CDICE calibration, and differences in SCC
+    are presented for various ECS values (2.15 and 4.55) and across different models
+    (CDICE, DICE-2016).
+  27: "The model uses parameters like intertemporal elasticity of substitution (\u03C8\
+    ), time preference parameter (\u03B2), capital share (\u03B1), depreciation rate\
+    \ (\u03B4), and emission intensity (\u03C3t)."
+  28: Mentions equations for the social cost of carbon (SCC) and the optimal carbon
+    tax, and discusses units of measurement (USD/tC).
+  29: Three vastly different predictions for CO2 concentrations based on climate calibrations;
+    g-adjusted interest rate starts close to zero and converges to 1.5% in the long
+    run.
+  30: Temperature rise in the MMM calibration reaches 3K and stays there for hundreds
+    of years; in the most pessimistic calibration, it rises by over 4K. Optimal mitigation
+    differences between climate calibrations can be a factor of three over the next
+    80 years.
+  34: The paper provides a comparison of growth-adjusted interest rates and SCC for
+    different values of the IES, indicating a significant disparity over 200 years.
+  35: "Optimal warming under DICE-2016 can reach almost 6 degrees in 200 years for\
+    \ high ECS and high \u03C8, or more than 4.5 K for MMM calibration and high \u03C8\
+    . Carbon usage is extended by about 50 years in DICE-2016 relative to the low\
+    \ IES case for large \u03C8."

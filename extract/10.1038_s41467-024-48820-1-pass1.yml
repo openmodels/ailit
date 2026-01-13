@@ -1,0 +1,152 @@
+Drivers of Risk:
+  1: Climate physical risk
+  2: Chronic and acute climate physical risks (hurricanes); neglecting asset-level
+    information; neglecting tail acute risks
+  3: Acute climate risks (tropical cyclones) and chronic climate risks (unspecified,
+    modelled with point estimates of losses from a macroeconomic model), both conditional
+    on IPCC climate scenarios (RCPs and SSPs).
+  4: Tropical cyclones impacts in Mexico, shocks by SSP-RCP scenario combination (2-6.0,
+    3-2.6, 3-4.5, 5-4.5).
+  8: Physical risks from climate change, specifically tropical cyclones, assessed
+    using different Representative Concentration Pathways (RCP) scenarios.
+  9: Tropical cyclones (hurricanes) with changes in frequencies and intensities due
+    to climate change (using RCP2.6, 4.5, and 6.0 scenarios).
+  10: Physical risks from climate change, specifically chronic risks impacting output
+    trajectories and acute risks impacting assets (tropical cyclones).
+  11: Tropical cyclones (acute physical risk) and chronic physical risks.
+Highlights:
+  1: Asset-level assessment of climate physical risk matters for adaptation finance
+  2: Neglecting asset-level and acute dimensions of physical risks leads to large
+    errors in the identification of adaptation policy responses, investments and finance
+    tools aimed to build resilience to climate change.
+  3: Using firm headquarters location as a proxy for asset location significantly
+    underestimates climate-related losses. Neglecting the acute risk component leads
+    to significant underestimation of financial losses. The model provides a scenario-contingent
+    financial valuation of firms that accounts for both historical information and
+    future climate scenarios.
+  4: "Substantial underestimation of investors\u2019 losses from neglecting tail acute\
+    \ risks, tail acute risks lead to large economic losses for firms."
+  8: The underestimation of portfolio losses is significant when using proxy data
+    instead of asset-level data, suggesting the importance of granular data for accurate
+    risk assessment.
+  9: Quantifies macroeconomic impacts of climate change in Mexico, particularly from
+    tropical cyclones, using the ICES model and assesses the impact on GDP and sectoral
+    outputs using different SSP-RCP scenarios. Climate risk adjustments on equity
+    valuation are quantified using the CDDM.
+  10: Climate change physical risks are not accounted for in current valuations and
+    will impact the long-run part of the valuation. The analysis provides a framework
+    for adjusting equity valuations to incorporate these risks. The results are considered
+    conservative due to data limitations and the consideration of only tropical cyclones.
+  11: Equity value computed using EAI represents an average equity value from the
+    distribution of possible values considering physical risks. Equity value computed
+    using RP250 represents a percentile, or a VaR, of the distribution of possible
+    equity values considering physical risks.
+Methodology:
+  1: Asset-level assessment
+  2: Methodology that quantifies physical risks on geolocalized productive assets,
+    considering their exposure to chronic and acute impacts (hurricanes) across the
+    scenarios of the Intergovernmental Panel on Climate Change, then translates asset-level
+    shocks into economic and financial losses; applied to Mexico.
+  3: 'A five-step methodology is used, including: (1) a database model for asset-level
+    and business lines data, ownership chain, and financial information; (2) probabilistic
+    climate acute risk assessment at the asset level using CLIMADA; (3) connecting
+    acute impacts with sector-level chronic impacts on firms'' business lines using
+    an Intertemporal Computable Equilibrium System (ICES) model; (4) connecting asset-level
+    impacts with firm performance and translating them into an adjustment of the financial
+    valuation of the securities (equity) issued by the firm using a Climate Dividend
+    Discount Model (CDDM); (5) translating climate physical risks into financial risk
+    metrics for the investor.'
+  4: Asset-level probabilistic risk assessment for tropical cyclones, sector-based
+    and macroeconomic impacts using the Intertemporal Computable Equilibrium System
+    (ICES) macroeconomic model, 3-stages Climate Dividend Discount Model (CDDM) for
+    climate-adjusted stock valuation, bootstrapping over 15,000 samples.
+  8: A database model is developed to connect extra-financial, climate, and financial
+    information of individual physical assets and firms. A probabilistic risk assessment
+    approach is used to assess asset-level and firm-level losses from tropical cyclones,
+    using the CLIMADA model.
+  9: Uses historical tropical cyclone data (1950-2021) from IBTrACS, simulates synthetic
+    tracks, maps tracks to centroids in Mexico, applies a damage function based on
+    wind speed, and uses the ICES model to quantify macroeconomic impacts. The Climate
+    Dividend Discount Model (CDDM) is used to quantify climate physical risk adjustments
+    on equity valuation.
+  10: A dividend discount model is used to value equity. The model incorporates climate
+    change impacts on the long-run growth rate of dividends. It considers both chronic
+    and acute physical risks and uses firm- and business line-specific data. The analysis
+    is performed for individual firms and considers multiple stages in the dividend
+    estimation process.
+  11: A climate-adjusted dividend discount model (CDDM) is used to assess the impact
+    of climate risks on firm equity value, considering scenarios SSP2-RCP6.0, SSP3-RCP2.6,
+    SSP3-RCP4.5, and SSP5-RCP4.5. The model considers climate impacts from 2035 onward,
+    with a reference year of 2040. Asset-level data is used where available; otherwise,
+    proxy data based on a single location per firm is used.
+More Notes:
+  1: 'Published in Nature Communications, 15:5371. DOI: https://doi.org/10.1038/s41467-024-48820-1.
+    Licensed under CC BY 4.0.'
+  2: "The assessment of climate physical risks plays a key role to inform decision-makers\
+    \ and build resilience to climate change. Commercial methodologies for assessing\
+    \ climate risks are often proprietary, not fully transparent/replicable, and can\
+    \ lead to diverging results. Adaptation finance has increased from 30 billion\
+    \ (annual) USD to 46 billion in the period 2017\u2013 2020, but it still falls\
+    \ short of needs, estimated to amount to 250 billion USD per year for low-income\
+    \ and emerging countries alone by 2030."
+  3: The study focuses on firms in Mexico and their exposure to tropical cyclones.
+    The assessment considers both Expected Annual Impacts (EAI) and tail risk, measured
+    by return periods (RP100, RP250). The impact of acute and chronic shocks on equity
+    value is shown.
+  4: "The paper analyzes the impact of climate (chronic + acute) impacts on firms\u2019\
+    \ long-run growth rate and adjusts the financial valuation for equity contracts\
+    \ of the firm that owns the plants."
+  8: The analysis focuses on energy-related and energy-intensive assets and links
+    physical assets to business lines and firm equity valuation.
+  9: The analysis focuses on Mexico and uses a damage function calibrated specifically
+    for Mexico. The study uses the ICES model with assumptions of high climate change
+    impacts and high capital mobility and considers time horizons of 2035, 2040, 2045,
+    and 2050.
+  10: The discount rate is assumed to be constant for all firms and periods. The paper
+    focuses on the impact of tropical cyclones. Firms are not assumed to benefit from
+    physical assets less exposed to climate physical risk.
+  11: The paper acknowledges uncertainty regarding the effects of climate change on
+    the frequency and intensity of tropical cyclones for the middle of the century,
+    but does not explicitly quantify this uncertainty in their confidence intervals.
+    The macroeconomic model ICES represents the impacts of climate change either as
+    changes in productivity or as losses on physical capital and land.
+Outcome(s) of Interest:
+  1: Adaptation finance
+  2: Investor losses; economic and financial losses
+  3: Financial risk metrics for investors holding firm securities, equity value of
+    firms.
+  4: Average portfolio losses and Value at Risk (VaR) are computed from firm-level
+    equity losses as measures of climate financial risk.
+  8: Portfolio-level results presented as percentage losses in asset value using mean
+    and Value at Risk (VaR) metrics.
+  9: Gross domestic product (GDP) and sectoral output changes due to climate change.
+  10: Equity value of firms (V0) under different climate change impact scenarios.
+  11: Equity value of firms, both average equity value and Value at Risk (VaR).
+Quantitative material:
+  2: Investor losses are underestimated up to 70% when neglecting asset-level information,
+    and up to 82% when neglecting tail acute risks.
+  3: Up to 70% underestimation of climate-related losses (in terms of relative difference
+    on VaR) when using firm headquarters location as a proxy for asset location, compared
+    to granular asset-level data. Up to 82% underestimation of financial losses for
+    investors (in terms of relative difference on VaR) when neglecting the acute risk
+    component. Tail risk losses (RP100) are at least ten times larger than Expected
+    Annual Impacts (EAI) for 37% of assets under RCP2.6. RP250 losses are at least
+    ten times larger than EAI for about 73% of assets under a more severe climate
+    scenario (RCP4.5); for 13% of assets, RP250 losses are five times larger than
+    RP100.
+  4: VaR is between 5 and 38 times the mean portfolio loss.
+  8: 'Table 2 provides quantitative estimates of portfolio-level losses under SSP3-RCP4.5
+    in 2040. EAI (asset-level, mean): -0.085% (-0.16%, -0.049%); RP250 (asset-level,
+    VaR): -3.3% (-4.9%, -2.2%); Chronic + EAI (asset-level, mean): -0.84% (-1.09%,
+    -0.66%); Chronic + RP250 (asset-level, VaR): -3.9% (-5.5%, -2.8%). Also, underestimation
+    ranges when using proxy data vs. asset-level data are provided.'
+  9: Expected Annual Impacts (EAI) and 250 years Return Period (RP250) are used to
+    measure damages.
+  10: Equations are provided to calculate the adjusted long-run growth rate (~gL,I,j)
+    and adjusted equity value (~V0,I,j) incorporating physical risk considerations.
+    The calculation uses earnings per share (EPS), dividends (Dt), a discount rate
+    (r), long-run growth rate (gL), business line output trajectories, asset values,
+    residual asset life, and climate impact.
+  11: The analysis uses the 99.6th quantile (RP250) to represent Value at Risk and
+    the expected annual impact (EAI) to represent average equity value from possible
+    values considering physical risks.

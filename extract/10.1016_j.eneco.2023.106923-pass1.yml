@@ -1,0 +1,116 @@
+Drivers of Risk:
+  5: Climate change, specifically changes in daily maximum temperatures and per capita
+    income variations.
+  6: Maximum temperatures, shifts in climate (historical daily maximum temperature
+    exposure to future climatic exposure), weather anomalies (positive and negative
+    deviations from the climatic norm)
+  7: Shifts in mean climate, positive weather anomalies (temperature), geographical
+    heterogeneity, seasonal heterogeneity, socio-economic growth, and population changes.
+  8: Climate change shifts (moving average of daily maximum temperatures) and positive
+    weather anomalies (departing from the moving average) are drivers of increased
+    peak load.
+  9: Climate change and weather anomalies impacting peak electricity load in Europe
+    and India.
+  10: Increase in maximum temperatures' climate norms; unexpected variation around
+    those norms; future socioeconomic and climatic shifts.
+Highlights:
+  5: Peak electricity demand is significantly related to maximum temperatures in a
+    U-shaped relationship. Europe sees a larger increase in peak load from high temperatures
+    than India.
+  6: Increasing air-cooling adoption is a key adaptation strategy to cope with hotter
+    climates. The long-run adjustments driven by slowly changing climatic exposure,
+    including income growth effects, are roughly two times larger than shocks computed
+    based on a naive weather response function. Latent, extensive margin, adjustments
+    changes considerably the projected impact of climate change on the peak load.
+  7: Climate change amplifies peak load on electric grids, with positive weather anomalies
+    exacerbating the effect. A North-South gradient exists in Europe, with decreased
+    peak load in the North and increased peak load in the South. The tropics show
+    a less pronounced gradient. Socio-economic growth also contributes to the need
+    to increase annual peak capacity.
+  8: Climate change will significantly increase peak electricity demand in both India
+    and Europe by 2050 under RCP 5-8.5. India faces a substantially larger increase
+    in peak demand than Europe, both in absolute and percentage terms. Baseline annual
+    peak demand in 2050 increases considerably with respect to the historical level
+    in the Indian states experiencing large growth in both per capita income and population.
+  9: Long-run peak load response for cooling services is always above the short-run
+    response due to fixity of cooling appliances in short-run.
+  10: "Both an increase in the maximum temperatures\u2019 climate norms and the inherent\
+    \ unexpected variation around that norms can contribute to increasing the pressure\
+    \ on the peak load in Europe and India, with respect to historical climate conditions."
+Methodology:
+  5: "The analysis projects the impact of mid-century temperature increases on peak\
+    \ load using climate change projections from CMIP6 GCMs, per capita income projections,\
+    \ and estimated parameters related to temperature response and income effects\
+    \ on electricity demand. It uses gridded population data to aggregate shocks.\
+    \ Equations are estimated by OLS using White standard error robust to heteroscedasticity\
+    \ and, alternatively, Newey\u2013West standard errors accounting for serial correlation."
+  6: The analysis uses a spline function modulated by short-run adjustment effects
+    triggered by weather anomalies. It considers both extensive margin (long-run,
+    adoption of air-cooling) and intensive margin (short-run) adjustments in peak
+    load response.
+  7: The study uses projected maximum temperatures from 25 GCMs for the period 2040-2060.
+    It estimates the impact of weather anomalies by computing the standard deviation
+    of future maximum temperature anomalies. The aggregation from grid-cell to country
+    shocks is based on population share. Annual peak capacity is projected based on
+    long-run projections of the maximum peak load in a year considering socio-economic
+    growth and climate change.
+  8: The analysis projects peak load demand under RCP 5-8.5 scenario around 2050,
+    using 25 GCMs to model climate change impacts on peak load, distinguishing between
+    the impact of mean climate shifts and weather anomalies.
+  9: Analysis includes decomposition of climate and weather anomalies' impact on electricity
+    demand, with long-run and short-run responses compared.
+  10: The paper proposes a methodology for assessing climate change adaptation by
+    identifying the average impact of long-run climatic changes and capturing the
+    fast responses of peak load to unexpected weather anomalies. Results are applicable
+    to understanding the effects of future conditions on the peak load based on the
+    power market structure and appliance diffusion rates as of 2050.
+More Notes:
+  5: The paper analyzes the impacts of climate change on peak electricity demand,
+    which is related to the costs of maintaining sufficient energy infrastructure
+    and energy market stability.
+  6: Per capita income modulates both the long-run response of the peak load and the
+    short-run response to positive weather anomalies. The high-income response of
+    India approaches the low-income response of Europe, despite income differences.
+  7: The gradient effect weakens towards the tropics. Capacity planning relies on
+    long-run projections of the maximum peak load in a year.
+  8: The paper distinguishes between socio-economic drivers (income per capita growth)
+    and climate change drivers when projecting future peak load. The impact of climate
+    change is decomposed into mean climate shifts and weather anomalies.
+  9: Projections consider extensive margin adjustments and per capita income amplification.
+    Page notes potential for high frequency electric load data to expand research.
+  10: The paper leaves for future work the inclusion of a weather variable accounting
+    for humidity and a wider set of controls for seasonal economic activities. It
+    also acknowledges that the projections depend on assumptions about appliance diffusion
+    and energy efficiency, and do not account for the supply-side implications or
+    grid constraints.
+Outcome(s) of Interest:
+  5: No relevant information
+  6: Peak load (electricity demand)
+  7: Impact of climate change and weather anomalies on peak electricity demand (peak
+    load).
+  8: Additional peak demand requirements on the national energy grid, which can be
+    framed as an economic cost if unmet or an adaptation cost if met through investments.
+  9: No specific macroeconomic or fiscal outcomes provided on this page.
+  10: Peak load in Europe and India; power supply costs; reliability; carbon emissions.
+Quantitative material:
+  5: "The long-run response of peak load to a shift in the climate from the reference\
+    \ interval to maximum temperatures above 30 \u25E6C is considerably higher in\
+    \ Europe (a 30% increase) than in India (an 11%\u201318% increase respectively\
+    \ in the intervals 30 \u25E6C - 33 \u25E6C and above 33 \u25E6C), when per capita\
+    \ income is fixed at the median level. In both Europe and India, the long-run\
+    \ exposure to cold temperatures increases the peak by around 8%\u201310%."
+  6: Long-run increase of the peak load of up to 12% in Europe and 15% in India under
+    the RCP 5-8.5 scenario by 2050.
+  7: Positive weather anomalies can result in a peak load shock of 20% in both Europe
+    and India under the RCP 8.5. Southern European countries experience an exacerbation
+    of summer peaks of up to 20% (33%), excluding (including) the additional effect
+    of response. Northern European countries experience reductions in the peak load
+    of up to -20% due to milder winters. Delhi and Goa are the states with the highest
+    relative increase in daily peak load, reaching values around 30% (33%), excluding
+    (including) the additional effect of positive weather anomalies.
+  8: 'India: additional 185GW of annual peak demand required (140% increase). Europe:
+    80GW required (19% increase).'
+  9: 'Page discusses projections of increased annual peak electricity loads by 2050:
+    20 GW in Europe and 60 GW in India.'
+  10: The paper quantifies the relative effects of future socioeconomic and climatic
+    shifts on the peak load.

@@ -1,0 +1,89 @@
+Drivers of Risk:
+  1: Climate change (specifically surface temperature increase), particulate pollution,
+    ozone pollution
+  5: Climate and pollution factors impact crop yields. Specific pollutants mentioned
+    are aerosols (AOD) and surface ozone.
+  7: Ozone concentration, near-surface air temperature, precipitation, anthropogenic
+    aerosols (AOD).
+  10: Temperature, precipitation, AOD (aerosol optical depth), surface ozone, global
+    warming, air pollution (particulate matter), drought.
+  11: Temperature, precipitation, aerosol optical depth (AOD), and surface ozone levels
+    are identified as key drivers of risk affecting crop yields.
+Highlights:
+  1: Particulate pollution mitigation outweighed the negative impacts of climate change
+    on crop yields in China during 2010-2018. Future climate change impacts will dominate
+    over pollution factors, reducing future maize and rice yields.
+  5: Rice production has a quasi-linear increase from 1980-2018, driven by technological
+    advancement. Maize production experienced a faster increase after 2005. High planted
+    fraction of rice is concentrated in southeastern China.
+  7: Pollution had a more pronounced negative impact on crop yields than climate variations
+    from 1980 to 2010. Pollution mitigation after 2010 resulted in increased crop
+    yields, but this was partially offset by increased ozone pollution, particularly
+    in the North China Plain.
+  10: Particulate pollution plays a critical role in regulating interannual variations
+    of crop yields in China. Recent abatement of anthropogenic emissions results in
+    a net crop gain, which masks crop loss due to increased temperature and precipitation.
+    Air pollution control policies have a co-benefit from agriculture and food perspectives,
+    but this benefit may be outweighed by global warming.
+Methodology:
+  1: Crop yield prediction models based on historical crop data, climate and pollution
+    records in China since 1980. Machine-learning model to develop long-term surface
+    ozone concentration data set.
+  5: The study analyzes historical yield responses to climate and pollution factors
+    from 1980 to 2018. Regression models were used, keeping one variable in one term.
+  7: Panel regression models used to predict yields under different hypothetical climate
+    and pollution scenarios. Dominance analysis to calculate the percentage contributions
+    of different factors of interest to the residual of the base model.
+  10: Statistical models are developed to predict crop yields, incorporating key factors
+    like temperature, precipitation, AOD, and surface ozone. A machine learning model
+    is used to address the sparsity of ground-level ozone observations. The models
+    are based on historical data and consider time-varying factors like technological
+    innovations and policy practices.
+  11: The research utilizes statistical models and processed data downloadable from
+    a specified repository to analyze the impact of environmental factors on crop
+    production. The spatial production allocation model (SPAM) is used for crop spatial
+    distribution.
+More Notes:
+  1: The study highlights a co-benefit of air pollution control policies for agriculture
+    but warns that this benefit will diminish as pollution is alleviated and global
+    warming persists.
+  7: The study focuses on China and the effects of the East Asian Summer Monsoon.
+    The year 2010 is considered a tipping point for particulate pollution trends in
+    China.
+  10: CO2 fertilization effect and nitrogen deposition are mentioned as factors that
+    deserve further investigation but are not explicitly modeled for future predictions
+    beyond the historical data. The effect of diffuse light fertilization after aerosol
+    removal may not be embedded in the historical data.
+No relevant information:
+  12: No relevant information
+Outcome(s) of Interest:
+  1: Crop yield (maize and rice)
+  5: Annual production and yields (production per area) of rice, maize, and wheat
+    in 31 provinces of China are analyzed.
+  7: Crop yield changes (rice, maize, winter wheat) due to climate and pollution factors.
+  10: Crop yield (rice, maize, winter wheat) in China, food security.
+  11: The study investigates the impact of climate change-related factors (temperature,
+    precipitation, aerosols, and surface ozone) on crop yields in China.
+Quantitative material:
+  1: "During 2010\u20132018, particulate pollution mitigation resulted in 0.5%\u2013\
+    1.9% net yield increases nationwide. Future climate change will reduce maize and\
+    \ rice yields by 0.6 to 2.8% 10 yr\u22121 by 2050."
+  5: Planted fraction (%) of rice, maize, and wheat in 10x10 km cells is mapped. Climatology
+    of MERRA2 aerosol optical depth (AOD) at 550 nm and surface ozone MDA8 are provided
+    for peak growing seasons (2006-2010). Time series of total crop production (Megatonnes),
+    AOD, and near-surface ozone for individual crop types during the peak growing
+    season (1980-2018) are presented.
+  7: Ozone increase of 5 ppbv MDA8 results in significant maize and rice yield reduction,
+    with a larger reduction rate for maize; 1 mm precipitation per day results in
+    about 5.4% winter wheat yield loss during the growing season; Pollution caused
+    a reduction in RYC (Relative Yield Change) of -4.8% for rice, -8.5% for maize,
+    and -17.1% for winter wheat from 1980-2010; Climate induced RYC of -1.4% for rice,
+    -1.8% for maize, and -1.6% for winter wheat from 1980-2010; Pollution mitigation
+    from 2014-2018 compared to 2006-2010 resulted in positive RYC of 1.1% for rice,
+    1.3% for maize, and 2.4% for wheat.
+  10: The models help quantify crop yield responses to different climate and pollution
+    factors during different time periods. Collinearity assessed in Appendix Table
+    S6.
+  11: The page includes links to datasets with monthly temperature, precipitation,
+    aerosol optical depth, surface ozone data, crop spatial distribution, and annual
+    province-level crop statistics for China.

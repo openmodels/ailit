@@ -1,0 +1,40 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,National Damages,United States,Multiple,2090,No CC,USD Trillion,2.9,NA,2.5%,0.51,97.5%,12,1,"Mean estimate. 95% confidence interval [0.51, 12] Trillion USD"
+1,Damages per capita,United States,Multiple,2090,No CC,USD,9300,NA,2.5%,1800,97.5%,37000,1,Southeast regions
+2,Damages per capita,United States,Multiple,2090,No CC,USD,6300,NA,2.5%,840,97.5%,27000,1,Southwest regions
+3,Temperature,The United States,RFF-SPs,2100,1986-2005,°C,1.9,NA,2.5%,0.8,97.5%,3.5,3,Average change.
+4,Temperature,The United States,RFF-SPs,2300,1986-2005,°C,3.1,NA,2.5%,-0.2,97.5%,7.8,3,Average change.
+5,Population,United States,RFF-SPs,2100,NA,million,390,NA,2.5%,260,97.5%,520,p. 1018,Mean and 95% confidence intervals for US population.
+6,GDP per capita growth rates,United States,RFF-SPs,2100,NA,%,1.5,NA,2.5%,-0.4,97.5%,4.0,p. 1018,Time-averaged US GDP per capita growth rates.
+7,Population,United States,RFF-SPs,2300,NA,million,370,NA,2.5%,43,97.5%,1300,p. 1018,Mean and 95% confidence intervals for US population. Changed '1.3 billion' to '1300'.
+8,GDP per capita growth rates,United States,RFF-SPs,2300,NA,%,0.9,NA,2.5%,-0.2,97.5%,3.4,p. 1018,Time-averaged US GDP per capita growth rates.
+9,National Damages,The United States,RFF-SP,2090,No CC,USD,2.9,NA,5%,510000000000,95%,12000000000000,1020,Mean climate-driven damages by 2090.
+10,GDP,The United States,RFF-SP,2090,No CC,%,-3.0,NA,NA,NA,NA,NA,1020,Annual decrease in GDP due to climate change impacts.
+11,US GDP Damages,United States,RFF-SP,2090,No CC,USD Trillion,-2.9,NA,5%,-.51,95%,-12,Page 7,This value represents the mean damages in 2090 from climate-driven impacts across various sectors using RFF-SP scenarios.
+12,Work hours,The United States,RFF-SP,2090,No CC,millions of hours,430,NA,2.5%,170,97.5%,830,1022,Work hours lost due to climate change impacts
+13,Annual Climate-Driven Damages,United States,SSP5-8.5,2090,Mean US annual damages,USD (Trillions),3.1,NA,95%,0.5,95%,12.3,Page 10,"Damages reflected in the RFF-SP scenarios, within 95% confidence interval."
+14,Annual Climate-Driven Damages,United States,SSP (Subset),2090,No CC,USD (Trillions),0,NA,NA,NA,NA,NA,Page 10,Comparison with SSP scenarios indicates damages from subset evaluated against SSP trajectories.
+15,Cost of Carbon Emissions,United States,Ramsey 3.0%,2023,No CC,Dollars per ton of CO2,15,NA,2.5%,NA,97.5%,NA,Page 12,"Median value at a 3.0% discount rate; range represents 2.5th and 97.5th percentiles, however, these values are not given in the figure and are reported as NA."
+16,Cost of Carbon Emissions,United States,Ramsey 2.5%,2023,No CC,Dollars per ton of CO2,21,NA,2.5%,NA,97.5%,NA,Page 12,"Median value at a 2.5% discount rate; range represents 2.5th and 97.5th percentiles, however, these values are not given in the figure and are reported as NA."
+17,Cost of Carbon Emissions,United States,Ramsey 2.0%,2023,No CC,Dollars per ton of CO2,32,NA,2.5%,NA,97.5%,NA,Page 12,"Median value at a 2.0% discount rate; range represents 2.5th and 97.5th percentiles, however, these values are not given in the figure and are reported as NA."
+18,Cost of Carbon Emissions,United States,Ramsey 1.5%,2023,No CC,Dollars per ton of CO2,51,NA,2.5%,NA,97.5%,NA,Page 12,"Median value at a 1.5% discount rate; range represents 2.5th and 97.5th percentiles, however, these values are not given in the figure and are reported as NA."
+19,Electricity demand,United States,RFF-SPs,2090,No CC,USD billion per year,11.0,NA,2.5%,2.4,97.5%,21,1028,Increase in power sector costs due to no adaptation.
+20,Labor allocation,United States,RFF-SPs,2090,No CC,USD billion per year,-51.0,NA,2.5%,-220,97.5%,-6.7,1028,Damages from work hours lost due to no adaptation.
+21,Tropical storm wind,United States,RFF-SPs,2090,No CC,USD billion per year,-28.0,NA,2.5%,-49,97.5%,-12,1028,Cost of changes in hurricane wind damage to coastal properties due to no adaptation.
+22,Road infrastructure,United States,RFF-SPs,2090,No CC,USD billion per year,-17.0,NA,2.5%,-35,97.5%,-6.6,1028,"Cost of road repair, user costs (vehicle damage), and road delays due to reactive adaptation."
+23,Rail infrastructure,United States,RFF-SPs,2090,No CC,USD billion per year,-19.0,NA,2.5%,-45,97.5%,-7.7,1028,Infrastructure costs associated with temperature-induced track buckling due to reactive adaptation.
+24,Agriculture,United States,RFF-SPs,2090,No CC,USD billion per year,-6.1,NA,2.5%,-19,97.5%,-0.42,1028,"Revenue lost from changes in wheat, cotton, soybean, and maize crop yields with CO2 fertilization."
+25,Winter recreation,United States,RFF-SPs,2090,No CC,USD billion per year,-2.0,NA,2.5%,-3.7,97.5%,-0.83,1028,"Revenue lost from suppliers of alpine, cross-country skiing, and snowmobiling due to adaptation."
+26,Urbandrainage,United States,RFF-SPs,2090,No CC,USD billion per year,-4.2,NA,2.5%,-5.0,97.5%,-3.2,1028,Costs of proactive urban drainage infrastructure adaptation.
+27,Coastal property,United States,RFF-SPs,2090,No CC,USD billion per year,-9.4,NA,2.5%,-21,97.5%,-5.9,1028,Damage to coastal property value due to reactive adaptation.
+28,Electricity trans.,United States,RFF-SPs,2090,No CC,USD billion per year,-11.0,NA,2.5%,-14,97.5%,-6.9,1028,Damages to transmission and distribution infrastructure due to reactive adaptation.
+29,Transport delays,United States,RFF-SPs,2090,No CC,USD billion per year,-140.0,NA,2.5%,-200,97.5%,-110,1028,Costs of traffic delays from flooding and cost of related infrastructure improvements due to reasonably anticipated adaptation.
+30,Inland flooding,United States,RFF-SPs,2090,No CC,USD billion per year,-0.73,NA,2.5%,-1.6,97.5%,-0.1,1028,Damages from riverine flooding (residential) due to no adaptation.
+31,Labor,United States,"RFF-SPs, SSPs",2090,No CC,billions of 2020 USD,0,NA,5%,NA,95%,NA,"Page 1029, Figure A2",Negative trend shown in the graph.
+32,Agriculture,United States,"RFF-SPs, SSPs",2090,No CC,billions of 2020 USD,0,NA,5%,NA,95%,NA,"Page 1029, Figure A2","Varying impacts with general upward trend shown in the graph, may have discontinuities."
+33,Electricity Demand and Supply,United States,"RFF-SPs, SSPs",2090,No CC,billions of 2020 USD,0,NA,5%,NA,95%,NA,"Page 1029, Figure A2",Growing challenges in electricity demand and supply shown in the graph.
+34,Temperature-Related Mortality,United States,"RFF-SPs, SSPs",2100,No CC,Billions of 2020 USD,0,NA,NA,NA,NA,NA,Page 20,"Steep increase over time; only trend information, setting value to 0 as no value is specified"
+35,Air Quality,United States,"RFF-SPs, SSPs",2100,No CC,Billions of 2020 USD,0,NA,NA,NA,NA,NA,Page 20,"Significant upward trend; only trend information, setting value to 0 as no value is specified"
+36,Labor,United States,"RFF-SPs, SSPs",2100,No CC,Billions of 2020 USD,0,NA,NA,NA,NA,NA,Page 20,"Gradual increase; only trend information, setting value to 0 as no value is specified"
+37,Wildfire,United States,"RFF-SPs, SSPs",2100,No CC,Billions of 2020 USD,0,NA,NA,NA,NA,NA,Page 20,"Sharp rise; only trend information, setting value to 0 as no value is specified"
+38,Coastal Properties,United States,"RFF-SPs, SSPs",2100,No CC,Billions of 2020 USD,0,NA,NA,NA,NA,NA,Page 20,"Steady growth; only trend information, setting value to 0 as no value is specified"

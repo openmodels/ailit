@@ -1,0 +1,304 @@
+Drivers of Risk:
+  1: Climate-related risks, trend from active to passive management
+  4: Outflows of assets from investor groups and reallocation of assets to other institutional
+    investors.
+  5: Redistribution of assets among different types of institutional investors, differences
+    in investors' demand curves (heterogeneity), investor size, elasticity of demand
+    curves of other investors, changes in the environmental index.
+  6: Climate-related risks
+  7: Regulatory risk and stakeholder risk (changing preferences of employees and customers).
+  18: Environmental scores (as a measure of environmental performance), Governance
+    scores (as an entrenchment index, implying weaker governance with higher values)
+  34: Changes in investors' demand elasticity (becoming more elastic) impact capital
+    allocation. The trend from active to passive investment management.
+  36: Changes in investor preferences (stakeholder risk) and regulatory policies (regulatory
+    risk) that favor green firms.
+  37: Regulatory risk (carbon tax policy), stakeholder risk, physical damages from
+    climate change, uncertainty surrounding physical damages.
+  38: "Climate-related risks (due to changes in regulation or stakeholders\u2019 preferences),\
+    \ transition from active to passive management."
+  40: Climate Change News
+  45: No relevant information
+  49: Climate-related risks are implied to drive investor reallocation decisions.
+  51: Environment, Governance
+  52: Changes in investor preferences toward environmental (ESG) scores.
+  53: No relevant information
+  62: Increased environmental consideration in investment decisions (specifically
+    a 0.1 increase in the coefficient on environmental scores).
+  64: Expected growth rates, stocks' riskiness.
+  68: No relevant information
+Highlights:
+  1: Increased demand for green firms would benefit long-term investors, banks, and
+    passive investment advisors at the expense of hedge funds and small-active investment
+    advisors.
+  4: "The paper measures the importance of groups of investors on valuations by calculating\
+    \ the impact of an outflow of all assets from one group of investors and its redistribution.\
+    \ The paper computes the change in market clearing prices and investors\u2019\
+    \ assets after the outflow."
+  5: Foreign investors help to lower the cost of capital for green firms in the US.
+    Hedge funds and small-active investment advisors have the largest impact on valuations
+    per dollar of assets managed. Passive investment advisors and long-term investors
+    have a relatively small impact on valuations.
+  7: Long-term investors, banks, and passive investment advisors benefit from the
+    transition, while active investment advisors and hedge funds experience a decline
+    in AUM. The framework can be used to develop and implement 'climate stress tests'.
+  18: Environmental scores have a positive correlation with firm valuation, while
+    governance scores (measuring entrenchment) have a negative correlation.
+  34: The shift from active to passive investment management makes environmental and
+    governance characteristics more important in explaining valuation ratios. Reactivating
+    investors would primarily benefit small-active investment advisors and hedge funds.
+  36: A broad shift in investor preferences toward green firms has a large effect
+    on firm valuations, while a shift limited to long-term investors (insurance companies
+    and pension funds) has a much smaller effect. Transition risk may affect the highly-levered
+    insurance sector, but regulating insurance companies may have only a small impact
+    on asset prices.
+  37: A comprehensive framework to conduct climate stress tests useful for bank and
+    insurance supervisors exploring such questions.
+  38: Foreign investors are particularly important for the valuation of green firms,
+    while small-active investment advisors for the valuation of well-governed firms.
+    Hedge funds, per dollar of assets that they manage, have the largest impact on
+    prices.
+  40: Examines how investors hedge against climate change news.
+  45: The table shows how the percentage of sales and net income are concentrated
+    among the top market cap deciles.
+  49: The table shows how different investor types react to an implied risk (presumably
+    climate risk) by reallocating their assets, impacting market capitalization. Hedge
+    Funds show the highest Repricing AUM Scaled (3.58), suggesting a larger impact
+    on market capitalization relative to their AUM share. Small Active investors also
+    exhibit a relatively high Repricing AUM Scaled (2.28).
+  51: Environmental and Governance scores impact firm valuation; coefficients reported
+    in the table reflect these impacts.
+  52: Increasing investor focus on environmental scores has a positive impact on company
+    valuation (log market-to-book ratio), particularly when considering all investors.
+    Governance scores and log book equity have negative coefficients in the original
+    regression of log market-to-book ratio.
+  53: No relevant information
+  62: The figure shows how AUM changes for different investor types (Brokers, Hedge
+    Funds, Long-Term, Inv. Small Passive, Inv. Small Active, Inv. Large Active, Inv.
+    Large Passive, Private Banking) when environmental scores are given more weight
+    in investment decisions. Results are shown for scenarios where all institutions
+    vs. only long-term investors increase environmental consideration.
+  64: The model shows how an investor's demand for a stock depends on its expected
+    return, riskiness, and hedging benefits.
+  68: The analysis decomposes the variance of market-to-book ratios into components
+    attributable to expected returns and expected growth rates.
+Methodology:
+  1: The paper develops a new framework to quantitatively connect valuations, expected
+    returns, and characteristics to the demands of institutional investors and households;
+    estimates asset demand as a function of prices and characteristics using investor-level
+    holdings data.
+  4: "Calculates the impact of an outflow of all assets from one group of investors,\
+    \ which is redistributed to all other institutional investors in proportion to\
+    \ their assets under management. Recomputes the market clearing prices and investors\u2019\
+    \ assets, which are impacted by returns and flows. Repricing measure is the absolute\
+    \ changes in market values summed across all stocks. Firm-level fundamentals are\
+    \ from CRSP and Compustat. Holdings data are from FactSet. The sample runs from\
+    \ 2000 to 2019."
+  5: The paper uses an experiment where they redistribute assets from one type of
+    institutional investor to others and observe the impact on stock prices and the
+    pricing of firm characteristics. They also re-estimate cross-sectional valuation
+    regressions with counterfactual prices.
+  6: Framework is used to quantify two key dimensions of climate-related risks but
+    analysis of all risks is beyond the scope of the paper
+  7: "The paper designs two counterfactuals to capture regulatory and stakeholder\
+    \ risk for long-term investors, computes asset prices and investors\u2019 AUM,\
+    \ and assesses changes in these counterfactuals. Valuation regressions are used\
+    \ to quantify how characteristics are priced in the cross-section of valuations\
+    \ and expected returns through the portfolio choice of institutional investors\
+    \ and households."
+  18: 'Panel regression of valuation ratios on firm characteristics (environmental
+    scores, governance scores, log book equity, productivity, markup, stock''s market
+    beta) with year fixed effects. Analysis performed using annual end-of-year data,
+    studying two samples: 2000 to 2019 and 2010 to 2019.'
+  34: Regression analysis of firm valuations (mbt(n) and mbCFt(n)) on firm characteristics
+    in the last quarter of 2019. Analyzing changes in assets under management based
+    on investor activity levels compared to 2007.
+  36: Regression analysis is used to assess the impact of counterfactual scenarios
+    (increased investor demand for green firms) on firm valuations (market-to-book
+    ratios). The baseline year is 2019.
+  37: Framework to assess how investors contribute to incorporating information into
+    prices and long-horizon expected returns; asset demand system estimation; construction
+    of counterfactuals where investors' perception of risk changes; climate stress
+    tests.
+  38: Estimated asset demand system is used. The methodology can be adopted to other
+    characteristics, and can be applied to individual institutional investors as well
+    as groups of institutions.
+  40: Analysis of hedging behavior in response to climate change news.
+  45: The analysis uses firm-level fundamentals (annual data) from CRSP and Compustat
+    to analyze firm size distribution.
+  49: The analysis examines the impact of asset reallocation by investor type on market
+    capitalization. It calculates the percentage change in market cap if assets of
+    an investor type are reallocated to other institutional investors in proportion
+    to their assets. Uses holdings data from FactSet and firm-level fundamentals from
+    CRSP and Compustat. The sample period is from 2000 to 2019, and values are time
+    series averages of quarterly values.
+  51: Regression analysis of log market-to-book ratios on firm characteristics, comparing
+    a base case with a counterfactual scenario where institutional demand curves are
+    re-activated to 2007 levels. Characteristics are standardized cross-sectionally
+    by year. Data is end of year for 2019.
+  52: Regression analysis of log market-to-book ratios on firm characteristics and
+    ESG scores. Counterfactual scenarios are used where institutions care more about
+    environmental scores. Data is for the year 2019.
+  53: Equity holdings data from FactSet is used. Share of ownership is the annual
+    average by institution type. Holdings data is quarterly from FactSet from 2000
+    to 2019.
+  62: The analysis calculates the AUM share weighted log change in AUM for institutions
+    of each type after an increase of environmental awareness. Quarterly observations
+    are averaged to present a single yearly observation for 2019.
+  64: The paper uses rolling regressions to calculate betas, winsorizes data at certain
+    levels, merges data from various sources, derives first-order conditions for investor
+    behavior, aggregates investor demands, and solves for equilibrium asset prices.
+  68: Variance decomposition is used to analyze the fraction of market-to-book ratios
+    explained by characteristics.
+More Notes:
+  1: The characteristics include environmental and governance measures, as well as
+    traditional risk and return characteristics.
+  4: The study focuses on US data.
+  5: The analysis contributes to the active ESG research agenda by identifying which
+    investors matter for the pricing of ESG scores.
+  18: The characteristics used in the regression explain 64% of the variation in the
+    panel of valuation ratios after projecting out year fixed effects.
+  34: The analysis implies that the trend towards passive management could negatively
+    affect hedge funds and small-active investment advisors' performance relative
+    to other investors, due to their high latent demand for stocks with positive latent
+    demand among institutions.
+  36: The main beneficiaries of the transition are long-term investors, banks, and
+    passive investors, while those exposed to climate-related transition risk are
+    hedge funds and active investors.
+  37: The framework can be extended to model the impact of a carbon tax on firm valuations
+    and investors and to model the expected impact of physical damages and the uncertainty
+    surrounding it.
+  38: The paper discusses how the application of the asset demand system can be used
+    to develop 'climate-risk stress tests' for a broader set of climate-related risks.
+  40: The Engle et al. (2020) paper directly addresses climate change, focusing on
+    investor reactions to climate news and hedging strategies within financial markets.
+    This may be relevant for understanding how financial actors perceive and react
+    to climate-related risks, potentially affecting investment decisions and capital
+    allocation at a national level. It does not provide macroeconomic/fiscal outcomes
+    or adaptation cost/benefit measures.
+  45: The table provides a snapshot of firm size distribution and the concentration
+    of sales and net income at two specific points in time (2019 Q4 and 2000 Q1).
+    The relevance to macroeconomic and macro-fiscal risks of climate change and adaptation
+    is not immediately apparent from this single page.
+  49: The study implicitly links investor behavior and asset repricing to potential
+    risks, though the specific risks are not explicitly mentioned as "climate risks"
+    in the text. It uses a relative measure of repricing scaled by AUM share, allowing
+    for comparison across investor types of different sizes.
+  51: The study uses Sustainalytics environmental scores and an entrenchment index
+    for governance. It examines the relationship between firm characteristics and
+    market-to-book ratios.
+  53: This paper studies the ownership of equities by different types of institutions,
+    which is not directly related to climate change or adaptation costs and benefits.
+  62: The data used are from CRSP, Compustat, and FactSet.
+  64: The paper appears to build a model of asset pricing based on investor behavior
+    and firm fundamentals, potentially incorporating environmental, social, and governance
+    (ESG) factors via Sustainalytics data though this is not explicit from this page.
+    The model could be extended to assess macroeconomic risks of climate change.
+  68: The analysis appears to be focused on financial markets and the impact of firm
+    characteristics, expected returns, and growth rates on market-to-book ratios.
+    The relevance to macroeconomic risks of climate change and the costs/benefits
+    of adaptation is unclear without further context.
+No relevant information:
+  13: This page focuses on developing an asset demand system model and does not directly
+    address macroeconomic or macro-fiscal risks of climate change or adaptation costs/benefits
+    at a national level. It focuses on investor behavior and asset pricing in financial
+    markets.
+  30: This page focuses on financial valuation and investor behavior, not macroeconomic
+    or fiscal outcomes related to climate change adaptation.
+  31: This page focuses on asset management, investor behavior, and the shift from
+    active to passive investing. It does not directly address macroeconomic or macro-fiscal
+    risks of climate change or the costs and benefits of national-level adaptation.
+  32: This page focuses on investor behavior and portfolio allocation, not on macroeconomic
+    or fiscal outcomes related to climate change or adaptation.
+  56: No relevant information
+  66: No relevant information
+Outcome(s) of Interest:
+  1: Firm valuation ratios
+  4: Change in market capitalization of stocks.
+  5: Valuation of stocks, cost of capital for green firms.
+  6: "Asset prices, investors\u2019 welfare, and overall financial stability"
+  7: Investors' Assets Under Management (AUM) is used as a measure of welfare.
+  18: Firm valuation ratios (market-to-book ratio)
+  34: Firm valuations are affected, influencing investors' assets and potentially
+    leading to lower returns for investors with positive latent demand for stocks
+    with negative size-weighted average latent demand.
+  36: Firm valuations (measured by market-to-book ratios) are affected by shifts in
+    investor demand for green firms, representing a transition risk impact.
+  37: Firm valuations, investor returns, future cash flows of firms, regulatory framework
+    of banks and insurance companies, profitability.
+  38: "Firm valuations, investors\u2019 welfare, asset prices."
+  40: None
+  45: No relevant information
+  49: Change in market capitalization (repricing) due to asset reallocation by investor
+    type.
+  51: Change in Valuation
+  52: Change in log market-to-book ratios of companies.
+  53: No relevant information
+  62: Percent change in Assets Under Management (AUM) for different types of financial
+    institutions.
+  64: Investor's demand for a given stock depends on its expected return (expected
+    growth rate of fundamentals relative to stock's current valuation), its riskiness,
+    and the hedging benefit it provides.
+  68: No relevant information
+Quantitative material:
+  1: "The paper quantifies how portfolio tilts across investors affects firm\u2019\
+    s valuation ratios."
+  4: Reports the fraction of assets under management and repricing; Repricing is the
+    percent change in market cap if the assets of an investor are reallocated as flows
+    to all other institutional investors in proportion to their assets; Change in
+    market cap normalized by the fraction of ownership
+  5: A one standard deviation increase in the environmental index leads to a 17% increase
+    in valuations; reallocation of assets from foreign investors would drop this to
+    14%, while reallocation from small-active investment advisors would increase it
+    to 21%.
+  6: No specific quantitative information on climate related risks is provided on
+    this page, only that the framework can be used to quantify two key dimensions
+    of climate risks.
+  7: Long-term investors, banks, and passive investment advisors benefit from the
+    transition, while active investment advisors and hedge funds experience a decline
+    in AUM.
+  18: "A one standard deviation increase in the environmental score is associated\
+    \ with a 17% increase in a firm\u2019s market-to-book ratio. A one standard deviation\
+    \ increase in the governance score is associated with a 10% lower valuation ratio."
+  34: A one-standard deviation change in the environmental index increases valuation
+    ratios by 23% in 2019, reducing to 14% if investors are as active as in 2007.
+    A one-standard deviation increase in the entrenchment index leads to a valuation
+    ratio response decreasing from -14% to -5% if investors are as active as in 2007.
+    Reactivating investors leads to a 6.9% increase in assets under management for
+    small-active investment advisors and a 14.1% increase for hedge funds, with a
+    decline for other institutional investors.
+  36: In the stakeholder risk counterfactual, the coefficient for the environmental
+    score increases by 0.57 from its original value of 0.23. In the regulatory risk
+    counterfactual, the coefficient increases by 0.03 from 0.23.
+  37: Detailed data on carbon emissions for a large number of firms allows adjusting
+    profits for a given carbon tax policy. Characteristics explain more than half
+    of the cross-sectional variation in valuation ratios in a panel of countries and
+    predict future profitability with comparable coefficients.
+  40: None
+  45: The table shows the distribution of firms by size (market capitalization deciles)
+    and the percentage of sales and net income represented by each decile for 2019
+    Q4 and 2000 Q1.
+  49: Presents quantitative data on Share of Assets Under Management (AUM), Total
+    Repricing (percent change in market cap), and Repricing AUM Scaled (total repricing
+    divided by the share of AUM) for different investor types. Includes specific numerical
+    values for each of these measures for various investor types (e.g., Large Passive,
+    Small Passive, Small Active, Large Active, Hedge Funds, Long-Term, Private Banking,
+    Brokers, Foreign).
+  51: Regression coefficients for various firm characteristics on log market-to-book
+    ratios and changes in log market-to-book ratios.
+  52: Regression coefficients showing the impact of environmental scores, governance
+    scores, log book equity, foreign sales, Lerner index, sales to book, dividend
+    to book, and market beta on changes in log market-to-book ratios under different
+    scenarios (all investors vs. long-term investors increasing their environmental
+    score coefficient by 0.1).
+  53: The figure shows the share of total equity ownership by different types of institutions
+    (Households, Inv. Large Passive, Inv. Small Passive, Inv. Small Active, Inv. Large
+    Active, Hedge Funds, Long-Term, Private Banking, Brokers) over time (2000-2015).
+  62: Figure presents the percent change in AUM for each institution type. Red bars
+    indicate all institutions increase their environmental coefficient by 0.1. Blue
+    bars indicate only long-term investors increase their environmental coefficient
+    by 0.1. Data are for 2019.
+  64: Equation (25), Equation (26), Equation (27)
+  68: The page provides formulas for calculating the fraction of market-to-book ratios
+    explained by characteristics, the fraction due to expected returns, and the fraction
+    due to expected growth rates.

@@ -1,0 +1,163 @@
+Drivers of Risk:
+  1: Increasing global temperatures leading to increased worker exposure to extreme
+    heat, which impacts task performance, learning and cognition.
+  2: Outside ambient air temperature.
+  6: Maximum daily temperature is the primary driver of risk; also, the type of occupation
+    (manual workers in outdoor-based settings are more vulnerable).
+  7: Daily maximum temperature (in degrees Celsius). Air pollution (PM2.5) is considered
+    as a control variable.
+  8: Increasing maximum temperatures have a linear relationship with increased occupational
+    health claims for most of the temperature distribution.
+  10: Increases in maximum temperature.
+  11: Maximum daily temperature.
+  12: The driver of risk is maximum temperature.
+  13: Maximum daily temperature.
+  14: High outside temperature
+Highlights:
+  1: "Extreme heat leads to significantly more worker health claims; adverse effects\
+    \ have not diminished over time, with the largest effect observed for 2015\u2013\
+    2020, indicating increasing vulnerability; workers most adversely affected are\
+    \ female, older-aged, and higher-earning."
+  2: "Higher maximum temperatures generate significantly more claims. The adverse\
+    \ impacts of high temperatures are observed throughout the 35 years despite considerable\
+    \ economic and heat-related policy changes, with the largest effect observed for\
+    \ the 2015\u20132020 period. Laborers and tradespersons are particularly vulnerable,\
+    \ especially in outdoor industries like agriculture and construction."
+  4: No relevant information
+  6: Higher temperatures increase occupational health claims, particularly for laborers
+    and tradespersons; the effect of temperature has decreased slightly over time,
+    possibly due to compositional changes in the labor force.
+  7: Higher temperatures lead to increased occupational health claims, particularly
+    for outdoor and manual labor occupations. The effect may be larger in warmer climates/more
+    recent years, implying limits to adaptation.
+  8: "A warming climate would adversely impact workers\u2019 health; fewer claims\
+    \ occur when temperatures exceed 36 \xB0C, potentially due to mitigation measures\
+    \ in Victoria, such as cessation of work at 35 \xB0C."
+  11: Laborers and tradespersons in agriculture, forestry, and fishing and construction
+    are most impacted by temperature increases. Young males have a larger effect of
+    temperature but the point estimate for females is larger when looking within high-risk
+    industries and occupations. Low-, medium- and high-income earners are similarly
+    impacted by heat. Workers in large firms are less affected by temperature than
+    those working in medium and small firms.
+  12: "The percentage increase in claims is largest at typically 'safer' firms. Low\
+    \ claim firms experience a 0.69% total increase in claims for each additional\
+    \ 1 \u25E6C in daily maximum."
+  13: Increased temperatures lead to increased occupational health claims and associated
+    costs, with workers bearing the majority of the cost through loss of future earnings.
+  14: "High outside temperature has a significant negative effect on workers\u2019\
+    \ health, particularly for manual workers in outdoor-based industries. The effects\
+    \ of heat are largest in recent years, which have also been the hottest, supporting\
+    \ the proposal that there are limits on workers\u2019 ability to adapt. Adverse\
+    \ temperature effects are observed throughout the 35-year analysis period, despite\
+    \ policy attempts to address the risks."
+Methodology:
+  1: "Analysis uses records spanning 1985\u20132020 from an Australian mandatory insurance\
+    \ scheme."
+  2: "The study uses a large administrative database of over two million occupational\
+    \ health claims submitted to a state-run mandatory workers\u2019 compensation\
+    \ scheme in the Australian state of Victoria from 1985 to 2020. It compares differences\
+    \ in accident rates across days within the same postcode and month."
+  6: Regression analysis (Poisson and OLS) with standard errors clustered at the postcode
+    level; analysis performed on occupational health claims data from Victoria, Australia,
+    covering a period possibly from the 1980s to 2020.
+  7: Poisson regression is used to estimate the effects of daily maximum temperature
+    on the number of occupational health claims in a postcode. Fixed effects are used
+    to control for various factors (month-year-postcode, calendar date, postcode-month,
+    month-year, and day of week). Analysis is applicable to Australia.
+  8: Analysis is performed using Poisson regression with month-year-postcode fixed
+    effects; outcome variable is the number of claims per postcode, with robust standard
+    errors clustered by postcode.
+  10: Poisson regression with Month-Year-Postcode fixed effects, analyzing claims
+    data from 2000-2020 in high-risk occupations, standard errors clustered by postcode.
+  11: "Poisson regression with Month-Year-Postcode fixed effects, robust standard\
+    \ errors clustered at postcode level. Analysis covers 2000-2020. Semi-elasticity\
+    \ represents combined effect of current and previous day's maximum temperature.\
+    \ Analysis of nonlinearity using temperature bins compared to a baseline of 18-21\xB0\
+    C."
+  12: Poisson regression is used to estimate the effect of maximum temperature on
+    the number of claims, controlling for Month-Year-Postcode fixed effects. A two-stage
+    approach is used to analyse the firm-level impacts.
+  13: Poisson regression on occupational health claims for laborers and tradespersons
+    between 2005 and 2019 for a subset of firms in Construction, Manufacturing and
+    Agriculture, Forestry & Fishing in Victoria, Australia. Estimates are based on
+    claims from 'high claims' and 'low claims' firms using firm fixed effects. Month-Year-Postcode
+    fixed effects are included. Costs are estimated using unit costs of AU$258,700
+    for claims and AU$126,500 for all occupational injuries and diseases.
+  14: Calculates change in annual number of claims using estimates for temperature
+    bins. Unique firm-level panel data used.
+More Notes:
+  1: The magnitude of any heat-accident relationship may be context-specific, depending
+    upon location, time-period, and industrial relations and mitigation contexts.
+  4: "The paper uses workers\u2019 compensation claims as a measure, which could be\
+    \ related to climate change impacts through occupational health and safety. The\
+    \ relevance to macroeconomic or macro-fiscal outcomes depends on how strongly\
+    \ these claims correlate with productivity, healthcare costs, or other relevant\
+    \ indicators. The time frame is from 1985 to 2020. The location of the study is\
+    \ Victoria, Australia."
+  6: The study acknowledges that illnesses caused by long-term heat exposure aren't
+    detected. It finds that heat has remained a significant threat to manual workers
+    despite policy attempts to address the risk. Workers may select into occupations
+    based on their perceived ability to tolerate working in high temperatures, which
+    likely represents a conservative estimate for the true difference in risk between
+    occupations.
+  11: The study uses claims data, likely workers' compensation claims, as a proxy
+    for heat-related impacts. P-values are adjusted for multiple hypothesis testing.
+  13: The adverse impact of heat is not limited to typically 'unsafe' firms. The effect
+    of temperature on claims differs between 'low claims' and 'high claims' firms.
+    Claims at low claims firms are more affected by same-day temperature while high
+    claim firms are more affected by the previous day's temperature.
+  14: The study focuses on Victoria, Australia.
+Outcome(s) of Interest:
+  1: Reductions in long-term earnings and productivity; higher business costs (e.g.
+    recruitment and training of substitute workers); potential exacerbation of economic
+    inequalities.
+  2: The study estimates the cost of heat-related accidents in Victoria.
+  4: No relevant information
+  6: Occupational health claims, which can be interpreted as a proxy for productivity
+    loss due to workplace accidents and illnesses.
+  7: Increased occupational health claims due to temperature increases.
+  10: Productivity loss in high-risk occupations (laborers and tradespersons) due
+    to increased workplace accidents.
+  11: Increase/decrease in the number of claims related to heat exposure across different
+    industries and demographics.
+  12: The paper examines the impact of maximum temperature on the number of worker's
+    compensation claims.
+  13: Costs of heat-related occupational health claims.
+  14: Costs of heat-related workplace injuries and diseases.
+Quantitative material:
+  2: "A one-degree Celsius increase in the daily maximum increases claims by 0.24%;\
+    \ a day reaching 33\u201336 \u25E6C averages 5.3% more claims than a day 18\u2013\
+    21 \u25E6C."
+  6: "A 1\xB0C increase in maximum temperature results in a 0.24% increase in the\
+    \ number of claims or an additional 0.5 claims in Victoria per day."
+  7: A 1 degree Celsius increase in daily maximum temperature is associated with a
+    0.24% increase in occupational health claims overall (semi-elasticity from main
+    specification, Table 2, column 1). The effect is higher for high-risk occupations
+    such as tradespersons/related workers (0.38%) and laborers/related workers (0.33%)
+    overall.
+  8: "Laborers and tradespersons make 6.2% additional health claims when temperatures\
+    \ are 33\u201336 \xB0C versus 18\u201321 \xB0C; temperatures over 36 \xB0C result\
+    \ in fewer claims."
+  10: "A 1\xB0C increase in maximum temperature causes a 2.11% increase in heat-related\
+    \ claims for laborers and tradespersons since 2000. 1\xB0C increase in temperature\
+    \ increases the number of claims by workers in Agriculture, Forestry and Fishing."
+  11: "Semi-elasticity estimates (%) representing the percentage change in the number\
+    \ of claims for each 1\xB0C increase in daily maximum temperature, broken down\
+    \ by industry, occupation, gender, age, and income."
+  12: Table 6 provides semi-elasticity estimates (percentage change in claims) related
+    to temperature for different worker characteristics. For example, a 1-degree increase
+    in maximum temperature is associated with a 0.35% increase in claims for all male
+    workers, 0.46% increase for male laborers and tradespersons, and 0.48% increase
+    for male laborers and tradespersons in agriculture or construction. For All Claims
+    it is a 0.25% increase.
+  13: "A warming of Victoria's climate by 1.5\xB0C would result in an additional 0.38%\
+    \ occupational health claims for all workers, equating to an additional 156 claims\
+    \ per annum at a cost of AU $40.3 million for Victoria. If we consider all injuries\
+    \ and diseases, regardless of compensation, the annual cost of 1.5\xB0C of warming\
+    \ is AU$54.8 million, of which laborers and tradespersons account for AU$37.4\
+    \ million."
+  14: "Past warming has an average per annum cost of AU$26.3 million for claims and\
+    \ AU$35.6 million for all workplace injuries and diseases in Victoria. For laborers\
+    \ and tradespersons, the annual costs are AU$15.6 million for claims and AU$21.2\
+    \ million overall. A 1.5 \u25E6C increase in temperatures costing an additional\
+    \ AU $54.8million each year in heat-related injuries and diseases at work."

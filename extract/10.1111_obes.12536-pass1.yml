@@ -1,0 +1,162 @@
+Drivers of Risk:
+  1: Temperature fluctuations, temperature shocks
+  3: "Temperature fluctuations, specifically a 1\xB0C increase in annual temperature."
+  15: The use of different Data Generating Processes (DGP1, DGP2) suggests that the
+    study is analyzing outcomes under different scenarios or assumptions about the
+    underlying economic processes.
+  17: Climate change (temperature, precipitation), weather conditions (temperature
+    in different seasons)
+  19: Weather variables (temperature and precipitation).
+  20: Temperature (TemperaturePoorHot), Precipitation (PrecipitationPoorHot), and
+    Agricultural measures. Also includes some "country" dummy variables. It is interacted
+    with initial temperature and precipitation
+  21: Temperature (TemperatureL1, TemperatureL2, TemperatureL3) and Precipitation
+  23: High temperature; Temperature shocks
+  24: Temperature shocks
+Highlights:
+  1: A simple aggregation scheme results in biases for common estimators. The temperature
+    shocks mainly work through the level effect instead of the growth effect for poor
+    countries.
+  3: The paper finds that high temperature appears to reduce economic growth rates
+    for poor countries, although the mechanism might be different from previous findings.
+    It argues that using high-frequency data instead of simple annual averages of
+    weather variables can lead to different and potentially more accurate estimates.
+    The standard fixed effects estimator with an equal weighting scheme is generally
+    inconsistent.
+  15: No relevant information
+  17: Proposed fixed effects estimators (FE-NLS, HF-Chamberlain) provide more reliable
+    inferences than naive fixed effects estimators due to smaller biases and better
+    coverage rates.
+  19: Increase in temperature has a negative effect for the poor countries on the
+    growth rate of per-capita output.
+  20: Temperature, precipitation, and agricultural variables impact GDP growth. Fixed
+    effects for regions and years seem to be important. The R-squared values vary
+    based on specification.
+  21: The significance of coefficients is indicated by asterisks (*, **, ***). The
+    analysis seems to compare various model specifications.
+  23: The negative effect of temperature on economic growth persists only in the short
+    run for poor countries. Temperature shocks mainly work through level effects instead
+    of growth effects.
+  24: High temperature reduces the economic growth rates of poor countries in the
+    short run; the effect of temperature shocks on growth is through level effects
+    rather than growth effects.
+Methodology:
+  1: Estimation of Panel Data Models with Mixed Sampling Frequencies, proposes a data-driven
+    method to determine weights for aggregation.
+  3: The paper uses a panel MIDAS model with high-frequency weather data to re-examine
+    the relationship between temperature and economic growth, addressing potential
+    biases from simple annual averaging. It proposes a modified fixed effects estimator
+    and derives its asymptotic properties.
+  11: This paper discusses panel data regression models, specifically focusing on
+    the Chamberlain approach for handling individual fixed effects. It considers extensions
+    for unbalanced panel data and applies the Chamberlain approach to the panel MIDAS
+    (Mixed Data Sampling) regression model.
+  15: The analysis involves simulations using different model specifications, including
+    HF-Chamberlain/FE-NLSB, LF-ChamberlainB, HF-MunlakB, LF-MundlakB, and FE-NaiveB.
+    The weighting schemes (0.25, 0.4, etc.) suggest an ensemble approach, averaging
+    the results from different models. The use of "DGP1" and "DGP2" also point to
+    the consideration of at least two different data generating processes.
+  17: Panel data analysis with fixed effects estimators, simulation study to evaluate
+    estimator performance
+  19: "Panel data regression with fixed effects (FE-NLS estimator or its equivalent\
+    \ HF-Chamberlain estimator) is used to estimate the impact of weather variables\
+    \ on the growth rate of per-capita output. The model accounts for level and growth\
+    \ effects of weather. The dummy variable \u2018poor\u2019 is de\uFB01ned as having\
+    \ below-median PPP-adjusted per capita GDP in the \uFB01rst year the country enters\
+    \ the dataset."
+  20: Panel data models are estimated using FE-NLS (Fixed Effects - Non-Linear Least
+    Squares) and FE-Naive (likely a simplified Fixed Effects) methods. Cluster-robust
+    standard errors are used ("ClusterFE-NLS"). The models include fixed effects for
+    region, year, and potentially country.
+  21: "The analysis employs panel data models with different lag structures (lags),\
+    \ fixed effects (year fixed effects, region fixed effects), and cluster-robust\
+    \ standard errors. Some models also include interactions between poor and rich\
+    \ countries (poor\xD7rich)."
+  23: "Panel MIDAS models with fixed effects (FE-Naive and FE-NLS estimators); distributed\
+    \ lag models; Mundlak device; Chamberlain\u2019s projection approach"
+  24: Panel data models, fixed effects nonlinear least squares estimator. The paper
+    introduces low-frequency and high-frequency Mundlak estimators and Chamberlain
+    estimators. It also uses parametric weighting functions in the panel MIDAS model.
+    Applicable to examining the effects of temperature on economic growth.
+More Notes:
+  1: The paper addresses the issue of mixed sampling frequencies in panel data models,
+    which is relevant when macroeconomic variables are collected at different intervals.
+  3: The paper compares the results of a simple averaging strategy of high frequency
+    data into annual data with their new method that takes high frequency data directly
+    and weighs it appropriately.
+  11: The paper explores how to consistently estimate coefficients in panel data models
+    when individual fixed effects are correlated with explanatory variables. It suggests
+    modifications to the standard Chamberlain projection approach, especially in the
+    context of unbalanced panel data.
+  15: The provided snippet is highly fragmented and difficult to interpret without
+    the context of the broader paper. It appears to be related to evaluating the performance
+    of different econometric models under various data generating processes. The variables
+    (R, C, D, S, ias) are not defined in the context of this page.
+  17: The authors use monthly temperature and precipitation data to construct quarterly
+    weather variables and assign different weights to different quarters.
+  19: The weather variables (temperature and precipitation) are available at a higher
+    frequency than the GDP growth rate, necessitating a specific estimation method.
+    The aggregation weights of weather variables across different periods are not
+    statistically different from flat weights.
+  20: The page is a fragment of a larger document, likely showing regression results
+    from different model specifications. The variable names and coefficient interpretations
+    require additional context from the full paper. Poor data aggregation is mentioned.
+    The page is difficult to interpret on its own.
+  21: The page mentions different specifications including models with five lags,
+    one lag, and no lags. It also mentions models with and without fixed effects and
+    robust standard errors.
+  23: Temperature shock might have a positive level effect for rich countries.
+No relevant information:
+  5: This page focuses on econometric methodology and does not present specific macroeconomic
+    or fiscal outcomes related to climate change adaptation at a national level. It
+    mainly discusses aggregation schemes, stochastic errors, and weighting coefficients
+    in a panel setting.
+  6: This page focuses on econometric methodology for panel data models, specifically
+    addressing the estimation of Fixed Effects (FE) estimators in the context of MIDAS
+    (Mixed Data Sampling) models. It does not contain specific macroeconomic or fiscal
+    outcomes, drivers of risk, or quantitative results related to climate change adaptation
+    at a national level. The content primarily concerns the statistical properties
+    of estimators under different weighting schemes.
+  14: No relevant information
+  31: No relevant information
+Outcome(s) of Interest:
+  1: Economic growth
+  3: Economic growth.
+  15: No relevant information
+  17: Economic growth, agricultural output, industrial output, productivity
+  19: Growth rate of per-capita output.
+  20: GDP growth is likely the outcome of interest, implied by the term "growth" appearing
+    in the variable list "DependenttheTemperatureTemperaturepoorHotAgriculturalPrecipitationPrecipitationPoorHotAgriculturalObservationsRTestTemperaturePrecipitationNotesTemperatureP".
+  21: The table appears to be analyzing the impact of temperature (Temperature) and
+    precipitation (Precipitation) on some macroeconomic or fiscal outcome, but the
+    specific outcome is not explicitly stated on this page.
+  23: Economic growth rates; Growth Effects; Level Effects
+  24: Economic growth rates
+Quantitative material:
+  1: The empirical evidence shows that the temperature shocks mainly work through
+    the level effect instead of the growth effect for poor countries.
+  3: "A 1\xB0C increase in annual temperature reduces economic growth by 1.3 percentage\
+    \ points for poor countries (as found by Dell, Jones, and Olken (2012), revisited\
+    \ in this paper)."
+  15: Presents numerical values for R, C, D, S, and ias across different model specifications.
+    It is not obvious what these abbreviations stand for without the broader context
+    of the paper.
+  17: "A 1\xB0C increase in average annual temperature reduces economic growth by\
+    \ 1.3 percentage points for poor countries (referenced from Dell et al. (2012))"
+  19: "A 1\xB0C rise in temperature is to decrease the growth rates by 1.53 \u2013\
+    \ 1.94 percentage points for poor countries."
+  20: The page contains numerous regression coefficients and standard errors, presented
+    in a table-like format with various model specifications (e.g., FE-NLS, FE-Naive).
+    Specific coefficients are difficult to extract without more context on the table
+    structure, but there are entries like "-0.319(0.473)", "-0.334(0.480)", "-0.388(0.574)",
+    and others. There are also R-squared values, such as "0.141" - "0.159" and "0.972".
+  21: The table presents coefficient estimates, standard errors (in parentheses),
+    R-squared (RSum) values, and the number of observations (Observations) across
+    different model specifications. Specific coefficient values and standard errors
+    are reported for temperature and precipitation variables.
+  23: "1\u25E6C increase in temperature leads to a reduction of 1.69 \u2013 1.74 percentage\
+    \ points of growth rate for poor countries in the first year. In the second year,\
+    \ the effect of the initial temperature shock on the growth declines to 0.85 \u2013\
+    \ 0.87 percentage points."
+  24: The high temperature reduces the economic growth rates of the poor countries
+    in the short run.

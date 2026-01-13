@@ -1,0 +1,92 @@
+Category:
+  10: Extracted Information
+Drivers of Risk:
+  1: Increasing heat exposure due to climate change, global population aging
+  3: Increasing frequency and intensity of acute heat exposure, with elevated projected
+    heat stress in specific regions and among aging populations.
+  4: Population growth and age structure changes, particularly an increase in the
+    population aged 69+ and their exposure to heat-related climate risks.
+  5: Climate change impacts (specifically, increasing temperatures and heat exposure).
+    Population aging, particularly in specific regions.
+  7: Climate change, Population growth, Aging, and Historical trends are identified
+    as drivers of heat exposure.
+  8: Increased heat exposure, particularly for older adults (69+), due to climate
+    change (urban heat island effect) and demographic shifts (aging populations).
+  10: Changes in age structure, population size, and climate change-driven increases
+    in heat.
+Highlights:
+  1: Chronic exposure to heat doubles across all warming scenarios
+  3: Projections show significant increase in heat exposure for older populations
+    globally, particularly in Asia and Africa.
+  4: Large increase in heat exposure, especially for older individuals, with potentially
+    great private and social costs for energy use and health repercussions due to
+    increased demand for indoor thermal regulation.
+  5: Cumulative heat exposure of older individuals (PDDs) will at least triplicate
+    in all continents by 2050, irrespective of the scenario. Asia will experience
+    the highest levels of older adult heat exposure. Africa will see the largest impact
+    from total population growth on overall heat exposure.
+  7: The study decomposes the drivers of projected heat exposure by region and globally,
+    highlighting the contributions of climate change, population growth, aging, and
+    historical trends under different SSP scenarios.
+  8: Provides age-stratified gridded population projections for 2050 under different
+    SSP scenarios, which can be used for health-related assessments and adaptation
+    planning. Focuses on the vulnerability of older adults (69+) to heat extremes.
+Methodology:
+  1: combine age-stratified demographic projections with downscaled temperature projections
+    to mid-century
+  5: GCM (General Circulation Model) projections are used to estimate future heat
+    exposure under different SSPs (Shared Socioeconomic Pathways). Analysis is performed
+    at both regional and country levels. Projections cover the period from 2020 to
+    2050.
+  7: Decomposition analysis of projected determinants of heat exposure.
+  8: Downscales global population projections to a 1km grid for the year 2050 by age
+    and SSP scenario using WorldPop data. The analysis uses R (terra, raster, sf,
+    and tidyverse packages).
+  10: The analysis uses grid cells as the fundamental unit and decomposes exposure
+    change into contributions of population, age structure, and meteorology. Equations
+    (7a), (7b), (7c), (8), (9), (10), and (11) describe the calculations of population
+    exposure and decomposition of exposure change. The models use SSP1, SSP2, SSP3,
+    and SSP5 scenarios.
+More Notes:
+  1: The study focuses on the impact of heat exposure on older adults, particularly
+    in Asia and Africa, which have the lowest adaptive capacity.
+  5: "The paper focuses on the distribution of heat exposure across different age\
+    \ groups and regions, highlighting the differential impacts of climate change\
+    \ and demographic shifts. SI Appendix contains additional results at the country\
+    \ level (Figs. SI-23\u2013SI-37) and for different SSP scenarios (Figs. SI-19\u2013\
+    SI-21). The paper does not explicitly model macroeconomic or fiscal outcomes."
+  7: The paper suggests that areas with aging populations and rising heat exposures
+    will face considerable demands for social and health services.
+  8: The paper acknowledges limitations related to the uncertainty of future population
+    projections and the potential for autonomous adaptation (e.g., private actions
+    like purchasing air conditioners or community-level investments in cooling interventions).
+    Mentions that climate-induced migration may have direct impacts on demographic
+    change.
+  10: The analysis focuses on the population aged 69+ and their exposure to heat under
+    different climate scenarios. The NUTS3 areas are a geographical subdivision used
+    in the EU.
+Outcome(s) of Interest:
+  1: No relevant information
+  5: No relevant information
+  7: Billion Person Degrees (PD95th), Billion Person Degree Days (PDDs), Billion Person
+    Hot Days (PHDs) are used to quantify exposure to heat.
+  8: No relevant information
+Quantitative material:
+  1: ">23% of the global population aged 69+ will inhabit climates whose 95th percentile\
+    \ of daily maximum temperature exceeds the critical threshold of 37.5 \xB0C, compared\
+    \ with 14% today, exposing an additional 177\u2013246 million older adults to\
+    \ dangerous acute heat."
+  3: "Projected increase in population aged 69+ exposed to high heat: 0.16\u20130.23\
+    \ billion for hot days metric, 0.18\u20130.25 billion for TMAX95, and 0.23\u2013\
+    0.32 billion for CDDs, depending on scenario."
+  5: "The paper quantifies exposure in terms of number of individuals exposed to given\
+    \ CDD (Cooling Degree Days) exposure levels, number of individuals exposed to\
+    \ a given number of annual Days with TMAX95 > 37.5 \xB0C, and Cumulative heat\
+    \ exposure of older individuals (Person Degree Days or PDDs)."
+  7: Provides quantitative decompositions of PDDs, PHDs, and PD95th by region (Africa,
+    Asia, Europe, North America, Oceania, South America) and globally under different
+    SSP scenarios (SSP126, SSP245, SSP370, SSP585).
+  10: Table 3 presents summary metrics of age-stratified population projection comparison
+    exercise for the United States, European Union, United Kingdom, China, and India
+    under different SSP scenarios. It includes total error (10^6 people 69+), percent
+    error, and mean local percent error.

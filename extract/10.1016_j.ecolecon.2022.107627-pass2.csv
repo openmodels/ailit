@@ -1,0 +1,66 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,FAO CPI Growth,Global,Historical hottest,2016,No CC,Percentage points,-0.1,NA,NA,NA,NA,NA,Page 17,"Each additional dry spell day beyond 28 days during the hottest part of the year is associated with this reduction in growth. Effects were adjusted for drought, suggesting this is a direct effect of dry spells. Estimated indirect effects are very small."
+1,Crop production growth,Global,Dry spells,2016,No dry spell,Corr. coeff.,-0.045,NA,2.5%,-0.087,97.5%,-0.004,34,"Correlation between demeaned FAO CPI growth rates and demeaned dry spell days, full sample."
+2,Crop production growth,Global,"Dry spells, SPEI <= 0",2016,No dry spell,Corr. coeff.,-0.058,NA,2.5%,-0.108,97.5%,-0.012,34,Correlation between demeaned FAO CPI growth rates and demeaned dry spell days. SPEI <= 0 indicates drought conditions.
+3,Crop production growth,Global,"Dry spells, SPEI > 0",2016,No dry spell,Corr. coeff.,-0.021,NA,2.5%,-0.093,97.5%,0.045,34,Correlation between demeaned FAO CPI growth rates and demeaned dry spell days. SPEI > 0 indicates no drought conditions.
+4,Crop production growth,Global,"Dry spells, SPEI",2016,No dry spell,Corr. diff.,-0.037,NA,2.5%,-0.122,97.5%,0.036,34,Difference in correlations between demeaned FAO CPI growth rates and demeaned dry spell days under drought (SPEI <= 0) vs. no drought (SPEI > 0) conditions.
+5,Crop production growth,Global,"Dry spells, Low Aridity",2016,No dry spell,Corr. coeff.,-0.055,NA,2.5%,-0.109,97.5%,-0.005,34,"Correlation between demeaned FAO CPI growth rates and demeaned dry spell days, aridity index below median (0.997)."
+6,Crop production growth,Global,"Dry spells, High Aridity",2016,No dry spell,Corr. coeff.,-0.009,NA,2.5%,-0.042,97.5%,0.018,34,"Correlation between demeaned FAO CPI growth rates and demeaned dry spell days, aridity index above median (0.997)."
+7,Crop production growth,Global,"Dry spells, Aridity",2016,No dry spell,Corr. diff.,-0.046,NA,2.5%,-0.106,97.5%,0.012,34,Difference in correlations between demeaned FAO CPI growth rates and demeaned dry spell days under aridity index below median vs. above median conditions.
+8,Crop Production Growth,Global,Historical,2000,No Dry Spell,growth in FAO CPI,0,0.0004,NA,NA,NA,NA,36,Dry spell day (7+ day dry spell)
+9,Crop Production Growth,Global,Historical,2000,No Dry Spell,growth in FAO CPI,0,0.0004,NA,NA,NA,NA,36,Dry spell day (14+ day dry spell)
+10,Crop Production Growth,Global,Historical,2000,No Dry Spell,growth in FAO CPI,-0.0009,0.0005,NA,NA,NA,NA,36,"Dry spell day (21+ day dry spell), p<0.1"
+11,Crop Production Growth,Global,Historical,2000,No Dry Spell,growth in FAO CPI,-0.0012,0.0005,NA,NA,NA,NA,36,"Dry spell day (28+ day dry spell), p<0.05"
+12,Crop Production Growth,Global,Historical,2000,No Dry Spell,growth in FAO CPI,-0.0013,0.0005,NA,NA,NA,NA,36,"Dry spell day (35+ day dry spell), p<0.05"
+13,Crop Production Growth,Global,Historical,2000,No Heat Wave,growth in FAO CPI,-0.0386,0.0074,NA,NA,NA,NA,36,"Heat wave day, p<0.01"
+14,Crop Production Growth,Global,Historical,2000,No Drought,growth in FAO CPI,0.0085,0.0034,NA,NA,NA,NA,36,"Drought (SPEI) 7+ day, p<0.05"
+15,Crop Production Growth,Global,Historical,2000,No Drought,growth in FAO CPI,0.0085,0.0034,NA,NA,NA,NA,36,"Drought (SPEI) 14+ day, p<0.05"
+16,Crop Production Growth,Global,Historical,2000,No Drought,growth in FAO CPI,0.0086,0.0035,NA,NA,NA,NA,36,"Drought (SPEI) 21+ day, p<0.1"
+17,Crop Production Growth,Global,Historical,2000,No Drought,growth in FAO CPI,0.0087,0.0035,NA,NA,NA,NA,36,"Drought (SPEI) 28+ day, p<0.1"
+18,Crop Production Growth,Global,Historical,2000,No Drought,growth in FAO CPI,0.0088,0.0035,NA,NA,NA,NA,36,"Drought (SPEI) 35+ day, p<0.1"
+19,CPI Growth,Global Panel,"Dry spell, low aridity",2016,No dry spell,,0.0005,0.0006,NA,NA,NA,NA,p. 37,Area weighted; CPI refers to FAO CPI.
+20,CPI Growth,Global Panel,"Dry spell, high aridity",2016,No dry spell,,-0.0013,0.0005,NA,NA,NA,NA,p. 37,Area weighted; CPI refers to FAO CPI.
+21,CPI Growth,Global Panel,"Dry spell, drought",2016,No dry spell,,-0.0005,0.0006,NA,NA,NA,NA,p. 37,Area weighted; CPI refers to FAO CPI. Note that SPEI ≤ 0 signifies drought conditions.
+22,CPI Growth,Global Panel,"Dry spell, no drought",2016,No dry spell,,-0.0016,0.0005,NA,NA,NA,NA,p. 37,Area weighted; CPI refers to FAO CPI. Note that SPEI > 0 signifies non-drought conditions.
+23,CPI Growth,Global Panel,"Dry spell, low irrig.",2016,No dry spell,,-0.0006,0.0008,NA,NA,NA,NA,p. 37,Area weighted; CPI refers to FAO CPI.
+24,Cereal Yield Growth,Global Panel,"Dry spell, low irrig.",2016,No dry spell,,-0.0062,0.0034,NA,NA,NA,NA,p. 37,Area weighted.
+25,Cereal Yield Growth,Global Panel,"Dry spell, low irrig.",2016,No dry spell,,-0.0064,0.0033,NA,NA,NA,NA,p. 37,Production weighted.
+26,Cereal Yield Growth,Global Panel,"Dry spell, high irrig.",2016,No dry spell,,0.0040,0.0036,NA,NA,NA,NA,p. 37,Area weighted.
+27,Cereal Yield Growth,Global Panel,"Dry spell, high irrig.",2016,No dry spell,,0.0036,0.0034,NA,NA,NA,NA,p. 37,Production weighted.
+28,Crop Production Growth,Panel of countries,Historical (1979-2016),2016,No dry spell day,CPI growth,-.0011,.0005,NA,NA,NA,NA,40,"Marginal effect of additional dry spell day, minimum dry spell duration 28 days, minimum heat wave duration 3 days, significant at p<0.05."
+29,Crop Production Growth,Panel of countries,Historical (1979-2016),2016,No dry spell day,CPI growth,-.0012,.0005,NA,NA,NA,NA,40,"Marginal effect of additional dry spell day, minimum dry spell duration 35 days, minimum heat wave duration 3 days, significant at p<0.05."
+30,Crop Production Growth,Panel of countries,Historical (1979-2016),2016,No dry spell day,CPI growth,-.0008,.0005,NA,NA,NA,NA,40,"Marginal effect of additional dry spell day, minimum dry spell duration 21 days, minimum heat wave duration 6 days, significant at p<0.1."
+31,Crop Production Growth,Panel of countries,Historical (1979-2016),2016,No dry spell day,CPI growth,-.0011,.0005,NA,NA,NA,NA,40,"Marginal effect of additional dry spell day, minimum dry spell duration 28 days, minimum heat wave duration 6 days, significant at p<0.05."
+32,Crop Production Growth,Panel of countries,Historical (1979-2016),2016,No dry spell day,CPI growth,-.0012,.0005,NA,NA,NA,NA,40,"Marginal effect of additional dry spell day, minimum dry spell duration 35 days, minimum heat wave duration 6 days, significant at p<0.05."
+33,Crop Production Growth,Panel of countries,Historical (1979-2016),2016,No dry spell day,CPI growth,-.0009,.0005,NA,NA,NA,NA,40,"Marginal effect of additional dry spell day, minimum dry spell duration 21 days, minimum heat wave duration 9 days, significant at p<0.1."
+34,Crop Production Growth,Panel of countries,Historical (1979-2016),2016,No dry spell day,CPI growth,-.0012,.0005,NA,NA,NA,NA,40,"Marginal effect of additional dry spell day, minimum dry spell duration 28 days, minimum heat wave duration 9 days, significant at p<0.05."
+35,Crop Production Growth,Panel of countries,Historical (1979-2016),2016,No dry spell day,CPI growth,-.0013,.0005,NA,NA,NA,NA,40,"Marginal effect of additional dry spell day, minimum dry spell duration 35 days, minimum heat wave duration 9 days, significant at p<0.05."
+36,Crop Production Growth,Panel of countries,Historical (1979-2016),2016,No dry spell day,CPI growth,-.0009,.0005,NA,NA,NA,NA,40,"Marginal effect of additional dry spell day, minimum dry spell duration 21 days, minimum heat wave duration 12 days, significant at p<0.1."
+37,Crop Production Growth,Panel of countries,Historical (1979-2016),2016,No dry spell day,CPI growth,-.0012,.0005,NA,NA,NA,NA,40,"Marginal effect of additional dry spell day, minimum dry spell duration 28 days, minimum heat wave duration 12 days, significant at p<0.05."
+38,Crop Production Growth,Panel of countries,Historical (1979-2016),2016,No dry spell day,CPI growth,-.0013,.0005,NA,NA,NA,NA,40,"Marginal effect of additional dry spell day, minimum dry spell duration 35 days, minimum heat wave duration 12 days, significant at p<0.01."
+39,Crop production growth,118 Countries,Historical (1979-2016),2016,No CC,-,-0.0012,0.0005,NA,NA,NA,NA,41,"Dry spell day (current year), p<0.05"
+40,Crop production growth,118 Countries,Historical (1979-2016),2016,No CC,-,0.0011,0.0006,NA,NA,NA,NA,41,"Dry spell day (1-year lag), p<0.1"
+41,Crop production growth,Panel of countries,Historical,2016,Baseline,,-0.0013,0.0007,NA,NA,NA,NA,42,"Dry spell day effect, cropped area weighted, p<0.1"
+42,Crop production growth,Panel of countries,Historical,2016,Baseline,,-0.0012,0.0005,NA,NA,NA,NA,42,"Dry spell day effect, SPEI adjusted, p<0.05"
+43,Crop production growth,Panel of countries,Historical,2016,Baseline,,-0.0011,0.0005,NA,NA,NA,NA,42,"Dry spell day effect, 10F temp bins adjusted, p<0.05"
+44,Crop production growth,Panel of countries,Historical,2016,Baseline,,-0.0011,0.0005,NA,NA,NA,NA,42,"Dry spell day effect, cubic temp & precip terms, p<0.05"
+45,Crop production growth,Panel of countries,Historical,2016,Baseline,,-0.0011,0.0005,NA,NA,NA,NA,42,"Dry spell day effect, quartic temp & precip terms, p<0.05"
+46,Crop production growth,Panel of countries,Historical,2016,Baseline,,-0.0010,0.0005,NA,NA,NA,NA,42,"Dry spell day effect, linear per-country trends, p<0.05"
+47,Crop production growth,Panel of countries,Historical,2016,Baseline,,-0.0014,0.0005,NA,NA,NA,NA,42,"Dry spell day effect, cubic per-country trends, p<0.05"
+48,Crop production growth,Panel of countries,Historical,2016,Baseline,,-0.0012,0.0005,NA,NA,NA,NA,42,"Dry spell day effect, 1-year lags of env vars, p<0.05"
+49,Crop production growth,Panel of countries,Historical,2016,Baseline,,-0.0007,0.0005,NA,NA,NA,NA,42,"Dry spell day effect, lagged log value added included"
+50,Agric. value added growth,Panel of countries,Historical,2016,Baseline,,-0.0008,0.0005,NA,NA,NA,NA,42,"Dry spell day effect, instrumented value added"
+51,Crop Production Growth,A panel of countries,Historical,1997,No dry spell days,%,-0.0009,NA,2.5%,0.0018,97.5%,-0.00002,43,"Minimum dry spell duration 21+ days, sequential g-estimation, heat wave days included"
+52,Crop Production Growth,A panel of countries,Historical,1997,No dry spell days,%,-0.0012,NA,2.5%,0.0021,97.5%,-0.0003,43,"Minimum dry spell duration 28+ days, sequential g-estimation, heat wave days included"
+53,Crop Production Growth,A panel of countries,Historical,1997,No dry spell days,%,-0.0013,NA,2.5%,0.0023,97.5%,-0.0004,43,"Minimum dry spell duration 35+ days, sequential g-estimation, heat wave days included"
+54,FAO CPI growth,Panel of countries,Hottest 90 days,2016,No dry spell days,Growth rate,-.0012,.0005,NA,NA,NA,NA,44,"Unweighted, 28+ day dry spell"
+55,FAO CPI growth,Panel of countries,Hottest 120 days,2016,No dry spell days,Growth rate,-.0007,.0004,NA,NA,NA,NA,44,"Unweighted, 28+ day dry spell, statistically significant at p < 0.1"
+56,FAO CPI growth,Panel of countries,Full year,2016,No dry spell days,Growth rate,-.0001,.0001,NA,NA,NA,NA,44,"Unweighted, 28+ day dry spell"
+57,FAO CPI growth,Panel of countries,Hottest 90 days,2016,No dry spell days,Growth rate,-.0013,.0007,NA,NA,NA,NA,44,"MIRCA2000 weighted, 28+ day dry spell, statistically significant at p < 0.1"
+58,FAO CPI growth,Panel of countries,Hottest 120 days,2016,No dry spell days,Growth rate,-.0007,.0004,NA,NA,NA,NA,44,"MIRCA2000 weighted, 28+ day dry spell"
+59,FAO CPI growth,Panel of countries,Full year,2016,No dry spell days,Growth rate,-.0002,.0001,NA,NA,NA,NA,44,"MIRCA2000 weighted, 28+ day dry spell"
+60,Crop production growth,Panel of Countries,Dry spell,2016,No dry spell,NA,-0.0017,NA,2.5%,-0.0032,97.5%,-0.0004,Page 47,SPEI = -2
+61,Crop production growth,Panel of Countries,Dry spell,2016,No dry spell,NA,-0.0014,NA,2.5%,-0.0026,97.5%,-0.0004,Page 47,SPEI = -1
+62,Crop production growth,Panel of Countries,Dry spell,2016,No dry spell,NA,-0.0011,NA,2.5%,-0.0021,97.5%,-0.0002,Page 47,SPEI = 0
+63,Crop production growth,Panel of Countries,Dry spell,2016,No dry spell,NA,-8.00E-04,NA,2.5%,-0.0018,97.5%,0.0004,Page 47,SPEI = 1
+64,Crop production growth,Panel of Countries,Dry spell,2016,No dry spell,NA,-5.00E-04,NA,2.5%,-0.0018,97.5%,0.0011,Page 47,SPEI = 2

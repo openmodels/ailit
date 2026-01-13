@@ -1,0 +1,145 @@
+Drivers of Risk:
+  2: Changes to temperature, precipitation, and other climate measures. Hotter summers
+    and warmer winters affecting energy consumption and production patterns.
+  3: Climate change impacts on weather patterns, affecting heating and cooling needs;
+    weather shocks; future income distribution and technologies.
+  6: "Changes in the probability distribution of experiencing temperature (t) due\
+    \ to climate change, shifting from F0(t) to F\u03C4(t)."
+  7: Climate change impacting energy expenditures.
+  8: Climate change resulting in warmer summers and warmer winters
+  14: Climate change (implicitly)
+  17: Changes in electricity prices, air conditioner efficiency, purchase price of
+    air conditioners, cooling degree days (a measure of temperature/heat), and income.
+  18: Climate change leading to increased demand for cooling; Air conditioner adoption.
+  19: Climate change (warming temperatures), rising incomes, air conditioner penetration.
+  29: Temperature changes
+Highlights:
+  2: Most studies focus on electricity consumption in the residential sector, with
+    sparse coverage of the commercial and industrial sectors as well as studies on
+    other fuels. There is a lack of empirical peer-reviewed economics papers on the
+    effect of climate on energy supply.
+  3: People adapt to climate change through both intensive (usage patterns of existing
+    capital) and extensive (purchasing decisions, fuel sources, building characteristics)
+    margins. Understanding both is important for policy design.
+  6: Climate change alters temperature distributions, leading to changes in household
+    energy expenditures and durable goods choices, impacting welfare. Panel data estimates
+    are preferred for measuring these effects due to their ability to control for
+    unobserved shocks.
+  7: Cross-sectional data allows for observation of all consumption choices differing
+    with climate and may reflect a long-run equilibrium. These estimates measure both
+    intensive and extensive margins of consumption changes, but do not account for
+    transition costs or potential omitted variable bias.
+  8: Global warming will result in fuel switching in the United States, with more
+    homes heating with electricity. American energy expenditures will likely increase.
+  14: The literature examining the adoption of air conditioners in response to changes
+    in climate is essentially non-existent. Air conditioner adoption in the US significantly
+    increased between 1955 and 1980.
+  17: Air conditioner adoption is responsive to efficiency, and room AC adoption is
+    responsive to electricity prices.
+  18: Better understanding of intra-European adoption patterns is very important to
+    better project future electricity demand in the European Union. Data on air conditioner
+    usage and adoption are scarce in Europe.
+  19: Increased air conditioner penetration in Europe, driven by warming temperatures
+    and rising incomes, could significantly impact electricity consumption and load
+    profile, especially given shifts away from nuclear power.
+  29: Displays how the estimated temperature slope coefficients vary across temperature
+    bins and climate zones.
+Methodology:
+  2: The paper surveys the literature containing empirical papers published in peer-reviewed
+    economics journals focusing on how climate affects energy expenditures and consumption.
+  3: Review of literature on energy choices in different climates and consumer responses
+    to weather shocks; distinction between intensive and extensive margin adjustments
+    to climate change.
+  6: The analysis uses a utility function framework to model household responses to
+    temperature changes. It considers both changes in energy expenditures and durable
+    goods holdings. It compares welfare effect measures from time series and panel
+    data, finding panel data preferable.
+  7: Uses cross-sectional data to compare consumption choices across different climates,
+    assuming households are in long-run equilibrium. Organizes the literature review
+    by the type of data used (cross-section, time series, and panel).
+  8: Discrete-continuous choice model using cross-sectional data, with fuel choice
+    being endogenous to climate change. A multinomial logit model is used in the first
+    stage, followed by an equation of conditional demand.
+  14: Review of literature on air conditioner adoption in the US, Europe, and developing
+    countries.
+  17: Statistical analysis of Residential Electricity Consumer Survey (RECS) data
+    to estimate demand elasticities.
+  18: The paper uses cross sectional US data to parameterize relationships which determine
+    climate dependent saturation levels in other countries.
+  29: Estimates temperature slope coefficients for temperature bins, comparing two
+    binning methods and normalizing to a specific temperature range. Results are applicable
+    to climate zones represented by the city names in each panel.
+More Notes:
+  3: The intensive margin adjustments are more understood than the extensive ones.
+    Short-run policy measures to reduce weather-driven energy demand differ from long-run
+    policies to control extensive margin adjustments.
+  6: "The measure \u2206W excludes how climate directly enters the utility function\
+    \ and therefore is only a part of the overall costs. The analysis also notes that\
+    \ energy and durables prices may respond to climate change, the transition may\
+    \ be costly, and the transition occurs over time requiring discounting of future\
+    \ costs."
+  7: The paper focuses on direct econometric papers and discusses alternative approaches
+    like electricity demand estimation and engineering methods in the appendix. The
+    literature review is organized by data type to highlight how data variation informs
+    the estimation of intensive and extensive margins.
+  8: The model uses 30-year average monthly temperature and precipitation data matched
+    to household and firm Energy Information Administration survey data.
+  14: The text notes the importance of weather/climate relative to other factors (policy,
+    population, income, prices) in the air conditioner adoption decision.
+  17: The paper cited is Rapson (2011), who estimated unit demand elasticities with
+    respect to electricity price, unit efficiency and purchase price of the units.
+  18: "The paper notes a lack of publicly available data and studies at member country\
+    \ level for EU member countries regarding air conditioner adoption. The paper\
+    \ argues that the continued growth of air conditioner penetration makes using\
+    \ across section of current penetration levels as \u201Csaturation\u201D proxies\
+    \ for other regions with similar climate characteristics questionable."
+  19: The page suggests that collecting and analyzing data on air conditioner usage
+    in Europe, similar to studies done in the US, would be insightful for understanding
+    future energy demand.
+  29: References Auffhammer and Aroonruengsawat (forthcoming) which might contain
+    more details on the underlying data and models.
+No relevant information:
+  24: This page is a list of references and does not contain the actual content of
+    the papers.
+Outcome(s) of Interest:
+  2: The cost of climate change adaptation in the energy sector.
+  3: Energy expenditures, choice of fuel sources, and building characteristics due
+    to climate change; transitional costs of adapting to climate change.
+  6: "Welfare effects of climate change (\u2206W) measured by changes in energy expenditures\
+    \ and durable goods holdings."
+  7: "Welfare estimates (\u2206Wcross), specifically as they relate to consumption\
+    \ choices and energy expenditures."
+  8: Energy expenditures at a national level
+  14: None
+  17: Electricity demand related to air conditioner use and air conditioner adoption.
+  18: Future electricity demand.
+  19: Electricity consumption and load profile.
+  29: No relevant information
+Quantitative material:
+  6: "Equation (3) provides a formula for calculating \u2206W. Equation (4) describes\
+    \ how energy expenditures change with temperature. Equation (5) describes how\
+    \ panel data estimates are used to calculate the welfare effects from climate\
+    \ change (\u2206Wpanel)."
+  7: "\u2206Wcross= \u20D7P\u2032E\xB7(\u20D7E\u2217(F\u03C4)\u2212\u20D7E\u2217(F0))"
+  8: Warmer summers result in more electricity and oil consumption, while warmer winters
+    will result in less natural gas consumption for households. Commercial firms are
+    expected to increase electricity consumption and decrease oil consumption as temperatures
+    increase. Overall, American energy expenditures will likely increase.
+  14: None
+  17: 'Price elasticity of derived demand for central AC (whole sample): -0.170; price
+    elasticity of derived demand for central AC (excluding California): -0.068; income
+    elasticity for central AC (both samples): 0.21; cooling degree elasticity for
+    central AC (whole sample): 0.989; cooling degree elasticity for central AC (excluding
+    California): 0.961; price elasticity for room AC (both samples): -0.34; cooling
+    degree elasticity for room AC (all states): 1.07; cooling degree elasticity for
+    room AC (excluding California): 1.092; income elasticities for room AC: 0.114
+    and 0.126; Elasticities for central AC adoption with respect to efficiency range
+    from 0.7 to 1; elasticities for room AC adoption with respect to efficiency range
+    from 0.2 to 0.3; elasticities for central AC adoption with respect to purchase
+    price: -0.241; elasticities for room AC adoption with respect to purchase price
+    range from -0.12 to -0.13; elasticity for central AC adoption with respect to
+    electricity prices: -0.024 (not statistically significant); elasticities for room
+    AC adoption with respect to electricity prices: -0.220 and -0.35 (significant);
+    air conditioner penetration in US households in 2009: 87%.'
+  29: Temperature slope coefficients for fourteen percentile bins and equidistant
+    bins, normalized to the 60-65 temperature bin.

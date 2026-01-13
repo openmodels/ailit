@@ -1,0 +1,108 @@
+Drivers of Risk:
+  1: Climate change scenarios leading to biophysical yield shocks.
+  2: Climate change effects on agricultural productivity, specifically changes in
+    crop yields (YEXO) due to temperature and precipitation changes.
+  3: The risk drivers identified are climate shocks and endogenous responses in models,
+    influenced by regional impacts, trade flexibility, and land conversion.
+  4: Climate change shock (YEXO) impacting agricultural yields.
+  5: Negative productivity effect from climate change
+  6: Climate change impacts on agricultural crop yields, specifically changes in yields
+    of wheat, coarse grain, rice, and oil seeds, under the RCP 8.5 radiative forcing
+    scenario. Limited CO2 fertilization effects are assumed.
+Highlights:
+  1: Agricultural production, crop-land area, trade, and prices show the greatest
+    degree of variability in response to climate change, and consumption the lowest;
+    model assumptions about ease of land use conversion, intensification, and trade
+    are key sources of differences between models.
+  2: Climate change reduces yields, raises prices, reduces consumption, and prompts
+    reallocation of production through changes in farm management and acreage. Economic
+    adjustment occurs through endogenous price responses.
+  3: Significant variability in trade and area responses is attributed to assumptions
+    about trade flexibility and land conversion. Consumption responds little to climate
+    shocks due to low sensitivity to price changes.
+  4: The models show varying degrees of impact and trade responsiveness, reflecting
+    different model structures and assumptions. GCAM and GLOBIOM are the most trade-responsive
+    models. There is variation across models in how climate change impacts production,
+    consumption, and prices.
+  5: Models transfer a large part of the climate change shock to production-side and
+    trade responses. Analyses that limit climate change impact to biophysical effects
+    alone significantly underestimate our capacity to respond.
+Methodology:
+  1: Nine global economic models of agriculture are used to represent endogenous responses
+    to climate change scenarios; biophysical shocks are derived from IPCC's representative
+    concentration pathway with end-of-century radiative forcing of 8.5 W/m2.
+  2: The study uses a combination of general circulation models (GCMs), global gridded
+    crop models (GGCMs), and economic models (both computable general equilibrium
+    (CGE) and partial equilibrium).  Climate change effects on agricultural productivity
+    are added to a reference scenario.  Results from seven scenarios based on five
+    different crop models and two GCMs under RCP 8.5 are compared across nine economic
+    models.
+  3: The analysis uses regression analysis and analysis of variance to assess the
+    contribution of various sources such as economic models, climate models, crops,
+    products, and regions to variability in response variables.
+  4: The study uses multiple integrated assessment models (IAMs) to simulate the economic
+    impacts of climate change-induced yield shocks (YEXO) on agriculture and related
+    sectors across 13 regions, four crops, and seven scenarios. Regression analysis
+    is used to quantify the relationship between YEXO and various economic outcome
+    variables for each model.
+  5: Compares responses of agriculture to climate change across a set of global economic
+    models (AIM, ENVISAGE, GTEM, FARM, MAgPIE, GCAM, IMPACT, MAGNET, GLOBIOM).
+  6: The study uses global computable general equilibrium (CGE) economic models and
+    partial equilibrium models. Climate shocks are implemented as shifts in land efficiency
+    parameters in CGE models and as additive shifters in yield or supply equations
+    in partial equilibrium models. Crop model data from ISI-MIP are used as inputs.
+    Models are run with GDP and population values from Shared Socioeconomic Pathway
+    2 (SSP2).
+More Notes:
+  1: The study identifies where models disagree on the relative responses to climate
+    shocks and highlights research activities needed to improve the representation
+    of agricultural adaptation responses to climate change.
+  2: The magnitude of responses varies significantly across models, crops, and regions.
+    The models capture general effects but have large differences in the relative
+    contribution of response options.
+  4: The study focuses on agricultural productivity shocks and their economic consequences,
+    particularly concerning trade responses and regional reallocation of production.
+  5: Model specification and parameter choice affect the results. The CGE models all
+    have their roots in the Global Trade Analysis Project database and the CGE optimizing
+    approach and so have similar model specifications but parameterization choices
+    result in very different outcomes. Some models rely on an integrated world market
+    representation (GLOBIOM, GCAM, and IMPACT), whereas others use Armington elasticities
+    (CGE models) or self-sufficiency constraints (MAgPIE). Two climate models used
+    are HadGEM2-ES and IPSL-CM5A-LR GCMs using the RCP 8.5.
+  6: The study focuses on the direct yield effects of climate change by 2050, not
+    including effects of increased ozone, biotic stresses, or extreme events. Exogenous
+    agricultural productivity changes from research and extension efforts were also
+    aligned across models using IMPACT modeling suite estimates.
+Outcome(s) of Interest:
+  1: Consumption reduction due to climate change is analyzed.
+  2: Changes in consumption (CONS), production, and producer prices (PRICE).
+  3: The paper focuses on variability in economic variables such as production (PROD),
+    trade share (TRSH), consumption (CONS), and prices (PRICE), assessing their response
+    to climate shocks.
+  4: Impacts on total economic output (YTOT), endogenous yield response (YENDO), cultivated
+    area (AREA), agricultural production (PROD), trade responsiveness (TRSH), consumption
+    (CONS), and price.
+  5: Consumption responses are relatively small across the models. Climate change
+    responses largely occur through land use change, management intensity, and trade
+    adaptation, influencing human well-being.
+Quantitative material:
+  1: Mean biophysical yield effect with no incremental CO2 fertilization is a 17%
+    reduction globally by 2050 relative to a scenario with unchanging climate; endogenous
+    economic responses reduce yield loss to 11%, increase area of major crops by 11%,
+    and reduce consumption by 3%.
+  2: The mean biophysical effect of climate change is a 17% decline in yields (YEXO).
+    Endogenous responses lead to a mean final yield decline (YTOT) of 11%, area increase
+    of 11%, a 2% decline in production, a 3% decline in consumption (CONS), and a
+    20% increase in producer prices (PRICE).
+  3: Yes, the paper provides quantitative analysis measuring variance contributions
+    for model variables such as productivity shock (YEXO), final yield (YTOT), agricultural
+    area (AREA), production (PROD), trade share (TRSH), and consumption (CONS).
+  4: Table 2 provides regression coefficients (slope and intercept) for the relationship
+    between YEXO and various economic outcomes (YTOT, YENDO, AREA, PROD, TRSH, CONS,
+    PRICE) for different models (AIM, ENVISAGE, FARM, GCAM, GLOBIOM, GTEM, IMPACT,
+    MAGNET, MAgPIE).
+  6: "Yields are generated at 0.5\xB0 resolution (about 55.5 km at the equator) for\
+    \ 2000 and 2050. Variables reported by crop models include YEXO, YTOT, AREA, CONS,\
+    \ and PRICE. Trade share (TRSH) is defined as the 2050 difference in net imports\
+    \ between climate change scenarios and a reference scenario, divided by 2050 production\
+    \ in the reference scenario."

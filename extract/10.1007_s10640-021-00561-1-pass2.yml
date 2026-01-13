@@ -1,0 +1,117 @@
+Drivers of Risk:
+  1: Externalities (both positive and negative) associated with adaptation and mitigation
+    technologies are identified as drivers that can lead to deviations from socially
+    optimum states.
+  5: Externality effects (dj, fj) of adopting strategy A on the local environmental
+    indicator of regions N and S.
+  12: Public effects are negative (dN, dS, fS, fN > 0) - the nature of these is not
+    specified on this page, but it implies that they reduce well-being.
+  13: The non-adoption state (0, 0) and full adoption state (1, 1) may affect agents'
+    well-being in regions N and S.
+  14: Environmental dumping, adoption of environmental maladaptation technologies,
+    exogenous factors like new policies that decrease domestic environmental effects
+    in one region while raising foreign environmental effects in another, carbon taxes
+    and stricter environmental regulation in more developed countries.
+  20: Agents' self-interest and lack of altruism result in under-adoption or over-adoption
+    of environmental adaptation technologies.
+  21: Adoption or non-adoption of mitigation and maladaptation technologies; Externalities
+    of technology adoption; Green policies that result in environmental dumping; Technological
+    differences between regions
+  24: No relevant information
+Highlights:
+  1: Externalities can lead to over-adoption of maladaptive technologies and under-adoption
+    of mitigation technologies. The paper also considers the potential for counterproductive
+    effects of green policies and environmental dumping.
+  5: Adoption of strategy A can have positive or negative externalities on environmental
+    quality, leading to mitigation or maladaptation, respectively. The model describes
+    how the share of agents adopting a technology changes based on the difference
+    in well-being between adopting and not adopting.
+  12: Multistability can occur, leading to different equilibria. Almost every trajectory
+    leads to a vertex of Q, where each region ends up choosing a single strategy.
+    The basins of attraction of the vertices are delimited by the stable manifolds
+    of the saddle point in the interior of the sides of Q.
+  13: Non-adoption can Pareto-dominate full adoption when the efficiency of strategy
+    A is lower than local autonomous environmental quality.
+  14: Shifting environmental burden from one country to another might worsen the well-being
+    of all agents; A green tax or policy in a more developed region might decrease
+    the domestic effect on the local resource but increase the foreign effect on the
+    resource of another region, further degrading it; The overall well-being effects
+    for agents in one region resulting from environmental policies in another region
+    cannot be assessed a priori.
+  20: Over-adoption of technology leads to lower well-being; under-adoption fails
+    to reach Pareto-optimum due to lack of willingness to bear costs.
+  21: Maladaptation technology can lead to over-adoption if agents don't internalize
+    externalities, and mitigation technology can lead to under-adoption. Green policies
+    aimed at reducing emissions in developed regions can negatively impact the well-being
+    of both developed and less developed regions under certain conditions.
+  24: Provides conditions for the stability of different stationary states (0,0),
+    (0,1), (1,0), and (1,1) based on inequalities involving model parameters. The
+    stability of each state depends on relationships between parameters N, S, p_N,
+    p_S, E, e^C_N, e^C_S, d_N, d_S, f_N, and f_S.
+Methodology:
+  1: The paper employs a model with two regions at different stages of development
+    to analyze the effects of externalities on the adoption of adaptation and mitigation
+    technologies.
+  5: The analysis uses a two-region (N and S) model with linear functions to describe
+    the impact of cross-region adopters on the local environmental indicator. It employs
+    replicator dynamics to model the change in the share of agents adopting a technology
+    based on the payoff difference.
+  12: 'Analysis of a two-region model (N and S) with agents choosing between two strategies:
+    A (environmental adaptation) and NA (maladaptation). Mathematical formulation
+    of average well-being in each region based on adoption rates (equations 15 and
+    16). Attractor, repeller, and saddle point analysis of system dynamics.'
+  13: Analysis involves stationary states and Pareto dominance in a dynamic system
+    influenced by adoption scenarios in regions N and S.
+  14: Comparative dynamics analysis based on payoff differentials to study the adoption
+    dynamics of an environmental maladaptation technology; Modeling the shifting of
+    environmental burden and its impact on well-being.
+  20: Analysis considers two regions adopting environmental adaptation technologies
+    with an emphasis on externalities and self-interest driving adoption.
+  21: The analysis uses a model where agents in two regions (developed and less developed)
+    make decisions about adopting mitigation or maladaptation technologies, considering
+    the domestic and foreign public effects of their choices. It analyzes Pareto-optimality
+    and potential for over- or under-adoption due to externalities.
+  24: Stability analysis of stationary states (0, 0), (0, 1), (1, 0), (1, 1) using
+    eigenvalues of the Jacobian matrix derived from a system of equations. The stability
+    depends on the parameters j, pj, Ej, eCj, d_j, f_j for j=N, S. Conditions for
+    stability are given as inequalities involving these parameters.
+More Notes:
+  5: The model assumes that the public effects (dj, fj) are exogenously determined,
+    and the analysis focuses on the dynamics of adoption rather than the specific
+    technological or policy factors that influence these effects.
+  20: Discusses differences between maladaptation and mitigation technologies and
+    their respective externalities.
+  21: The model does not incorporate all potential specifications, such as cases where
+    domestic and foreign public effects have different signs. The analysis suggests
+    further research could explore technological differences, the impact of shifting
+    environmental burdens, and the relationship between regions at different stages
+    of development.
+  24: The page focuses on a mathematical model and its stability analysis. It doesn't
+    explicitly link the variables or stability of these states to specific macroeconomic
+    or fiscal variables or climate change adaptation at a national level. Without
+    knowing the meaning of the parameters (x, z, N, S etc), it is hard to directly
+    relate the results to the search criteria.
+Outcome(s) of Interest:
+  1: The paper discusses the adoption of adaptation technologies and how it affects
+    the social optimum, implying a connection to overall societal welfare.
+  5: "Well-being (\u03A0) of agents in regions N and S, measured as the difference\
+    \ in well-being (\u0394\u03A0) between adopting strategy A and not adopting strategy\
+    \ A (NA)."
+  12: Average level of well-being in two regions (N and S), calculated as the weighted
+    average of well-being for agents adopting strategy A (environmental adaptation)
+    and those adopting NA (maladaptation), with weights given by the share of adopters
+    in each region.
+  13: No specific macroeconomic or fiscal outcomes like GDP effects or budget balance
+    are explicitly mentioned on this page.
+  14: Well-being of agents in different regions.
+  20: No direct macroeconomic or fiscal outcomes mentioned, but discusses over-adoption
+    and under-adoption of technologies with respect to Pareto-optimum.
+  21: Well-being of agents within developed and less developed regions is impacted
+    by adoption or non-adoption of mitigation or maladaptation technologies.
+  24: No relevant information
+Quantitative material:
+  5: Equations (2a), (2b), (3), and (4) provide a quantitative framework for modeling
+    the public effects of adoption and the dynamics of agents adopting strategy A.
+  13: There is no specific quantitative information on economic outcomes on this page.
+  20: No quantitative information on the outcomes of interest provided.
+  24: No relevant information

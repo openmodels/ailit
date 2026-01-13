@@ -1,0 +1,62 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,SCCO2,Global,Various,2020,PAGE09,$/tCO2,100,NA,NA,NA,NA,NA,Highlights,Mean SCCO2 doubles due to increased costs in the Global South.
+1,GDP,Global South,Various,2020,No CC,NA,-1,NA,NA,NA,NA,NA,Highlights,"Empirically derived damage persistence significantly impacts global GDP and its regional distribution, leading to considerable income redistribution detrimental to poorer regions. (Value represents direction of impact)"
+2,SCCO2,Global,Various,2020,No Adaptation,$/tCO2,0,NA,NA,NA,NA,NA,Highlights,High persistence with low adaptation can lead to damage caps and SCCO2 estimates of zero.
+3,SCCO2,Global,Various,2020,PAGE09,Percent Change,1,NA,NA,NA,NA,NA,P3,PAGE-ICE increases SCCO2 relative to PAGE09. (Value represents direction of impact)
+4,SCCO2,Global,DICE,2020,No Persistence,$/tCO2,37,NA,NA,NA,NA,132,P3,"Kalkuhl and Wenz DICE. High value provided, but not quantile."
+5,SCCO2,Global,Various,2020,No Persistence,$/tCO2,220,NA,NA,NA,NA,417,P3,"Long-term persistence. High value provided, but not quantile."
+6,Social Cost of Carbon,Global,SSP2-4.5,2020,PAGE09,USD/tonne,217.0,NA,NA,NA,NA,NA,p. 6,Climate parameters conform to IPCC AR5.
+7,Social Cost of Carbon,Global,SSP2-4.5,2020,PAGE09,USD/tonne,228.0,NA,NA,NA,NA,NA,p. 6,Applying a fat-tailed (Gamma) distribution to sea-level rise.
+8,Social Cost of Carbon,Global,SSP2-4.5,2020,PAGE09,USD/tonne,244.0,NA,NA,NA,NA,NA,p. 6,Permafrost feedback.
+9,Social Cost of Carbon,Global,SSP2-4.5,2020,PAGE09,USD/tonne,239.0,NA,NA,NA,NA,NA,p. 6,Non-linear transitions in the sea ice and land snow albedo feedback.
+10,Social Cost of Carbon,Global,SSP2-4.5,2020,PAGE09,USD/tonne,213.0,NA,NA,NA,NA,NA,p. 6,"Reduced size, threshold, and lag of discontinuity impacts."
+11,Social Cost of Carbon,Global,SSP2-4.5,2020,PAGE09,USD/tonne,239.0,NA,NA,NA,NA,NA,p. 6,Longer simulation period (until 2300).
+12,Social Cost of Carbon,Global,SSP2-4.5,2020,PAGE09,USD/tonne,245.0,NA,NA,NA,NA,NA,p. 6,Baseline income levels updated to those observed in 2015.
+13,Social Cost of Carbon,Global,SSP2-4.5,2020,PAGE09,USD/tonne,281.0,NA,NA,NA,NA,NA,p. 6,Adjusting the vulnerability of regions in PAGE-ICE to market and non-market damages.
+14,Social Cost of Carbon,Global,SSP2-4.5,2020,PAGE09,USD/tonne,307.0,NA,NA,NA,NA,NA,p. 6,Changing damages to empirical estimates (Burke et al 2015).
+15,Social Cost of Carbon,Global,SSP2-4.5,2020,PAGE09,USD/tonne,307.0,NA,25%,147,75%,349,p. 6,Interquartile range calculated based on 50000 Monte Carlo simulations.
+16,Social Cost of Carbon,Global,SSP2-4.5,2020,PAGE09,USD/tonne,307.0,NA,5%,82,95%,831,p. 6,5%-95% range based on 50000 Monte Carlo simulations.
+17,GDP Damage Persistence,Global,Historical Data,2015,No CC,%,50.1,NA,25%,34.5,75%,69.0,p. 6,Based on panel regression analysis using historical temperature and GDP data (Burke et al 2015).
+18,GDP,Global,SSP2-RCP4.5,2100,No Persistence,%,-30,NA,5%,-38,95%,-22,Page 7,Mean global GDP in 2100 is 30% lower than SSP2-4.5 growth path without persistence.
+19,Growth Rate,Global,SSP2-RCP4.5,2200,No Persistence,%,-1,NA,NA,NA,NA,NA,Page 7,"Mean growth loss exceeds GDP growth rate in the Global South by 2200, leading to economic contraction."
+20,SCCO2,Global,SSP2-RCP4.5,2020,No Damage Persistence,%,+1500,NA,NA,NA,NA,NA,Page 7,"If 10% of damages persist via reduced growth, there is a fifteenfold increase in mean SCCO2."
+21,SCCO2,Global South,SSP2-RCP4.5,2020,No CC,$,5000,NA,NA,NA,NA,NA,Page 8,The substantial increase in the SCCO2 is primarily driven by the adverse implications for the Global South.
+22,SCCO2,Lower-income regions,SSP2-RCP4.5,2020,No CC,$,5000,NA,NA,NA,NA,NA,Page 8,Similar SCCO2 result if only lower-income regions are assumed to suffer from persistent economic damages.
+23,SCCO2,Global,SSP2-RCP4.5,2020,No CC,$,600,NA,NA,NA,NA,NA,Page 8,A reduction in damage persistence by at minimum 3% per year would be needed to see a SCCO2 of less than $600.
+24,SCCO2,Global,SSP2-RCP4.5,2020,No CC,$,2500,NA,NA,NA,NA,NA,Page 8,Current persistence around 50% would need to decrease by more than 2% per year via adaptation efforts to achieve this SCCO2.
+25,SCCO2,Global,SSP2-RCP4.5,2030,No CC,$,5000,NA,NA,NA,NA,NA,Page 8,The PAGE-ICE model suggests persistent climate-induced economic damages without clear evidence of future adaptation increasing resilience.
+26,GDP per capita,Global,SSP1,2100,NA,NA,0.006205028,NA,NA,NA,NA,NA,15,δ parameter in population and income extension model.
+27,Population,Global,SSP1,2100,NA,NA,0.008967453,NA,NA,NA,NA,NA,15,δ parameter in population and income extension model.
+28,GDP per capita,Global,SSP1,2100,NA,NA,0.005930520,NA,NA,NA,NA,NA,15,β parameter in population and income extension model.
+29,Population,Global,SSP1,2100,NA,NA,0.005215835,NA,NA,NA,NA,NA,15,β parameter in population and income extension model.
+30,GDP per capita,Global,SSP2,2100,NA,NA,0.004190444,NA,NA,NA,NA,NA,15,δ parameter in population and income extension model.
+31,Population,Global,SSP2,2100,NA,NA,0.001276993,NA,NA,NA,NA,NA,15,δ parameter in population and income extension model.
+32,GDP per capita,Global,SSP2,2100,NA,NA,0.007228942,NA,NA,NA,NA,NA,15,β parameter in population and income extension model.
+33,Population,Global,SSP2,2100,NA,NA,0.011064426,NA,NA,NA,NA,NA,15,β parameter in population and income extension model.
+34,GDP per capita,Global,SSP3,2100,NA,NA,0.006273030,NA,NA,NA,NA,NA,15,δ parameter in population and income extension model.
+35,Population,Global,SSP3,2100,NA,NA,0.001064697,NA,NA,NA,NA,NA,15,δ parameter in population and income extension model.
+36,GDP per capita,Global,SSP3,2100,NA,NA,0.009597363,NA,NA,NA,NA,NA,15,β parameter in population and income extension model.
+37,Population,Global,SSP3,2100,NA,NA,0.007688331,NA,NA,NA,NA,NA,15,β parameter in population and income extension model.
+38,GDP per capita,Global,SSP4,2100,NA,NA,0.006895296,NA,NA,NA,NA,NA,15,δ parameter in population and income extension model.
+39,Population,Global,SSP4,2100,NA,NA,0.001867587,NA,NA,NA,NA,NA,15,δ parameter in population and income extension model.
+40,GDP per capita,Global,SSP4,2100,NA,NA,0.009651277,NA,NA,NA,NA,NA,15,β parameter in population and income extension model.
+41,Population,Global,SSP4,2100,NA,NA,0.003461600,NA,NA,NA,NA,NA,15,β parameter in population and income extension model.
+42,GDP per capita,Global,SSP5,2100,NA,NA,0.007766807,NA,NA,NA,NA,NA,15,δ parameter in population and income extension model.
+43,Population,Global,SSP5,2100,NA,NA,0.003470952,NA,NA,NA,NA,NA,15,δ parameter in population and income extension model.
+44,GDP per capita,Global,SSP5,2100,NA,NA,0.003843256,NA,NA,NA,NA,NA,15,β parameter in population and income extension model.
+45,Population,Global,SSP5,2100,NA,NA,0.004305310,NA,NA,NA,NA,NA,15,β parameter in population and income extension model.
+46,SCCO2,Global,Lag-based approach,2021,No CC,$,3372,NA,NA,NA,NA,NA,22,Monte Carlo mean
+47,SCCO2,Global,Low-pass filtering,2021,No CC,$,3025,NA,NA,NA,NA,NA,22,Monte Carlo mean
+48,Persistence,Global,3-year filter,2021,Unfiltered Temperature,%,89.00,NA,NA,NA,NA,NA,22,Point estimate
+49,Persistence,Global,10-year filter,2021,Unfiltered Temperature,%,52.72,NA,NA,NA,NA,NA,22,Point estimate
+50,Persistence,Global,10-year filter,2021,Unfiltered Temperature,%,0,NA,5%,9.36,90%,118.25,22,5th/90th percentiles corrected
+51,Persistence,Global,10-year filter,2021,Unfiltered Temperature,%,0,NA,5%,118.25,90%,NA,22,5th/90th percentiles corrected
+52,Zero SCCO2 run share,Global,Lag-based approach,2021,No CC,%,62,NA,NA,NA,NA,NA,22,SCCO2 = 0
+53,Zero SCCO2 run share,Global,Low-pass filtering,2021,No CC,%,69,NA,NA,NA,NA,NA,22,SCCO2 = 0
+54,Social Cost of Carbon,Global,SSP2-4.5,2100,Zero Decay,$,3372,NA,NA,NA,NA,NA,27,"Blue bar marks default setting of zero decay, (i.e. damage persistence remains constant over time)."
+55,Social Cost of Carbon,Global,SSP2-4.5,2100,Zero Decay,$,6595,NA,NA,NA,NA,NA,27,With adaptation to damage persistence applied to the empirical distribution.
+56,Social Cost of Carbon,Global,SSP2-4.5,2100,Zero Decay,$,4094,NA,NA,NA,NA,NA,27,With adaptation to damage persistence applied to the empirical distribution.
+57,Social Cost of Carbon,Global,SSP2-4.5,2100,No Persistence,$,305,NA,NA,NA,NA,NA,27,"An annual decay of 4%-5% per year, the SCCO2 equals $305-$312"
+58,Social Cost of Carbon,Global,SSP2-4.5,2100,No Persistence,$,312,NA,NA,NA,NA,NA,27,"An annual decay of 4%-5% per year, the SCCO2 equals $305-$312"
+59,Social Cost of Carbon,Global,SSP2-4.5,2100,Default,%,1,NA,NA,NA,NA,NA,27,A decay rate of 1% or 2% counterintuitively increases the SCCO2 compared to our default
+60,Social Cost of Carbon,Global,SSP2-4.5,2100,Default,%,2,NA,NA,NA,NA,NA,27,A decay rate of 1% or 2% counterintuitively increases the SCCO2 compared to our default

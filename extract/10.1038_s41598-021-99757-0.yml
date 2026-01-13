@@ -1,0 +1,114 @@
+Drivers of Risk:
+  1: Climate change (increasing temperature trend, more frequent/intense/longer-lasting
+    heat events); socio-economic pathways (economic growth)
+  3: Different Representative Concentration Pathways (RCPs) and Shared Socioeconomic
+    Pathways (SSPs) are used to project future climate conditions.
+  4: Different RCP/SSP combinations (climate change scenarios and socioeconomic development
+    pathways), climate variables and GDP/capita. The interaction between GDP/capita
+    and climate change impacts drive the adaptation change.
+  8: Increased heat exposure magnitude in major cities worldwide.
+  11: Increased frequency and magnitude of exceedance of minimum mortality temperatures
+    (MMT) due to climate change (specifically, changes in daily mean temperature,
+    humidity, and wind speed).
+  12: The primary driver of risk is climate change, specifically changing temperatures
+    and heat waves, represented by different RCP/SSP scenarios.  The study examines
+    the impact of these changes on heat exposure in cities.
+Highlights:
+  1: "Human adaptation to heat can broadly keep the negative health effects of global\
+    \ warming in check, but the trade-offs are highly contingent on the scenario path\
+    \ and location. High economic growth is needed under high-forcing climate scenarios\
+    \ to maintain MMTs and level-off negative health effects. A 2\xB0C-compatible\
+    \ climate trajectory alleviates the dependence on fast growth."
+  3: The paper focuses on the distribution of changes in key climate variables under
+    different climate change scenarios.
+  4: High GDP/capita is an advantageous precondition for adaptation, but does not
+    guarantee a better bearable situation regarding future heat and related mortality.
+    Changes in adaptation are driven by GDP/capita in Western Europe, North America,
+    East Asia, Oceania, and coastal South America under RCP2.6/SSP1, whereas climate
+    change is the primary driver in Eastern European cities. Adaptation gain is lowest
+    and slowest in cities in Northern Africa, the Middle East, and coastal Nigeria.
+  8: The study jointly assesses future adaptation and heat exposure for a large number
+    of cities. It identifies the least unfavorable choice for human health outcomes
+    considering potential adaptation and exposure changes until 2100.
+  11: No relevant information
+  12: The study quantifies changes in heat exposure in cities under different climate
+    change scenarios by assessing changes in the number of days exceeding a heat adaptation
+    threshold and the magnitude of those exceedances.
+Methodology:
+  3: The analysis involves simulating climate futures using RCP/SSP combinations and
+    analyzing distributions of various climate parameters (MMT, EXD, MAG).
+  4: The study uses a city sample and analyzes the change in adaptation and exposure
+    based on different RCP/SSP combinations. It calculates changes in climate variables
+    and GDP/capita until 2100 and their isolated effects on /Delta1MMT. It identifies
+    the greatest weighted variable change for each city to determine primary contributors
+    to /Delta1MMT.
+  8: The analysis assesses future adaptation and heat exposure for 3820 cities worldwide
+    under different climate trajectories (RCPs 2.6, 4.5, 6.0, and 8.5) and socio-economic
+    pathways (SSPs 1-5) until 2100. It contrasts two options of high socio-economic
+    development but diverging heat exposure.
+  11: Estimates future MMTs for cities based on climate (historical and projected
+    temperature and humidity), topographic, and socio-economic variables (GDP/capita,
+    access to water). The methodology uses a re-calibrated multivariate non-linear
+    model. Historical climate data from 1965-1995 is used to estimate MMTs for 2000.
+    Future climate data from 2064-2094 is used to estimate MMTs for 2100.
+  12: The study uses a modeling approach based on historic and projected MMTs (a measure
+    of human heat adaptation) for cities.  It calculates the number of days per year
+    where the daily mean apparent temperature exceeds the MMT threshold. This is done
+    for a historic reference period (1991-2000) and a future period (2090-2099) under
+    different RCP/SSP scenarios.  Calculations are performed in R.
+More Notes:
+  1: The paper uses minimum mortality temperature (MMT) as an indicator of human long-term
+    adaptation to heat.
+  3: The distributions (c-f) are trimmed, and vertical lines on figures indicate distributions'
+    medians. The paper uses RCPs (2.6, 4.5, 6.0, 8.5) coupled with SSPs (1, 2, 3,
+    4, 5).
+  8: The study focuses on human health outcomes related to heat exposure and adaptation
+    options at the city level, not on direct macroeconomic or fiscal outcomes at the
+    national level.
+  11: The study uses data from the ISIMIP project and considers multiple RCP and SSP
+    combinations to estimate MMTs in the future. The MMT is used as a threshold to
+    assess the frequency of days that show exceedance and the magnitude of exceedance
+    of MMTs.
+  12: The paper analyzes how heat exposure changes by comparing a historical period
+    (1991-2000) to a future period (2090-2099). It uses MMTs (measure of human heat
+    adaptation) as thresholds, and it analyses across 3820 cities and many RCP/SSP
+    combinations. The MMTs are specific to cities, and are calculated for the years
+    around the prediction years 2000 and 2100.
+Outcome(s) of Interest:
+  1: No relevant information
+  3: The paper looks at the changes in Mean Maximum Temperature (MMT), Mean Exceedance
+    Days (EXD), and Mean Exceedance Magnitude (MAG) under different climate scenarios.
+  4: Country-based GDP/capita in 2100 under different Shared Socioeconomic Pathways
+    (SSPs), change in mortality management technology (/Delta1MMT) from 2000-2100,
+    and change in exceedance days of heat events from 1991-2000 to 2090-2099.
+  8: No relevant information
+  11: No relevant information
+  12: The study focuses on heat exposure and its impact on human heat adaptation in
+    cities, measured by the number of days exceeding a threshold of human heat adaptation
+    (MMT), as well as the magnitude of exceedance. This may indirectly impact economic
+    outcomes if human health is affected, but this link is not explicitly quantified
+    on this page.
+Quantitative material:
+  1: By 2100 the risk to human health is expected to decline in 60% to 80% of the
+    cities against contemporary conditions.
+  3: Presents distributions of absolute MMT for 2100, 2090-2099 EXD, and 2090-2099
+    MAG, as well as parameter changes between 2000-2100 for MMT and 1991-2000 to 2090-2099
+    for EXD and MAG; specific values (20, 30, 40, 10, 050, 100, 150, -100, -500, 50,
+    0.00, 0.1, 0.20, 0.3, 0.40, 0.5, -1.0, -0.5, 0.00, 0.5, 1.0) seem to mark ranges
+    on the x-axes for these distributions.
+  4: "Country-based GDP/capita values for 2000 and projections for 2100 under different\
+    \ SSPs (e.g., Int$ 9,849 in 2000, Int$ 101,205 for SSP5, Int$ 63,346 for SSP1),\
+    \ changes in exceedance days (e.g., -22.2 to NA), and changes in mortality management\
+    \ technology (/Delta1MMT) in specific cities under different scenarios (e.g.,\
+    \ 7.2 C in Ostrava under RCP2.6/SSP1, 13 C in R\xE2mnicu V\xE2lcea under RCP8.5/SSP5)."
+  8: "The table shows the number and share of 3820 cities affected by changes in exposure\
+    \ from 1991-2000 to 2090-2099 under RCP2.6/SSP1 and RCP8.5/SSP5 scenarios. This\
+    \ includes days reduction/increase in exposure duration (EXD), percentage of the\
+    \ year with EXD, number of days >350 EXD, reduction/increase in magnitude (MAG)\
+    \ [\xB0C], and no change in MAG/EXD. For instance, under RCP8.5/SSP5, 30.1% of\
+    \ cities experience an increase in days of EXD."
+  11: No relevant information
+  12: The study provides quantitative metrics, including the number of Exposure Days
+    (EXD), the delta change in EXD (/Delta1EXD), the exceedance magnitude (MAG), and
+    the delta change in mean MAG (/Delta1MAG). These are calculated for different
+    RCP/SSP combinations and across 3820 cities.

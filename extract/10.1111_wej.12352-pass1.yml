@@ -1,0 +1,183 @@
+Drivers of Risk:
+  2: Potential increases in water demand, uncertainties in water availability due
+    to climate change (difficult to predict precipitation patterns, projected temperature
+    increases intensifying evapotranspiration), population growth (concentrated in
+    the south-east of England), over-abstraction from water bodies, and other environmental
+    stressors.
+  3: Growing pressure on water supplies.
+  5: Future scenarios of socio-economic demand and future river flow series (based
+    on low, medium, and high emissions scenarios) impact water supply.
+  8: Population growth and climate change increase demand for water supplies.
+  9: High population growth and drier climatic conditions (High & Dry scenario) impact
+    water supply and associated costs.
+  10: Different climate scenarios (Low&Wet, Central, High&Dry) affecting water supply
+    and demand.
+  11: Climate change (different climate scenarios), population growth (different population
+    scenarios), demand management strategies (or lack thereof), investment in water
+    infrastructure
+  12: Population increases, climate change (wet vs. dry climate scenarios), and demand
+    for water are key drivers impacting water supply.
+  13: Population growth, climate change, and unsustainable use of natural water resources.
+  15: No relevant information
+  17: Population growth, climate change (wet vs. dry climate), demand growth, sustainability
+    reduction, demand management, leakage management, natural processes, social effects,
+    system resilience.
+  19: 'Population changes and climate change (specifically drought events). Minimum
+    acceptable period set out in the water company drought plan for the shortest return
+    period drought event. '
+Highlights:
+  2: A balanced approach which allows for some inter-basin water transfers while also
+    engaging local solutions, including water re-use, combined with scalable actions
+    for demand management and leakage reduction, will best enable Britain to navigate
+    the water trilemma.
+  3: "Proposes a pragmatic approach to national water resources assessment and applies\
+    \ this methodology to test a wide range of possible investments and policies to\
+    \ secure the resilience of Britain\u2019s water supplies."
+  5: The paper focuses on simulating adaptive strategies for water resource management,
+    aiming to minimize the total present value costs of investments needed to balance
+    water supply and demand under different future scenarios.
+  8: System Efficiency (SE) and System Restructure (SR) strategies are the only ones
+    that reduce total water use in the face of population growth. The No Build (NB)
+    strategy sees water supplied, CO2e emissions, and reliability increase with higher
+    population growth and drier climates.
+  9: National Planning (NP) strategy shows the highest cumulative costs and CO2 emissions
+    across scenarios.
+  10: "Most Water Resource Zones (WRZs) experience water shortages in the \u2018high\
+    \ and dry\u2019 scenario, and many in the \u2018central\u2019 scenario if only\
+    \ current (2015) infrastructure assets are available in 2040."
+  11: Demand management (SE strategy) reduces water abstraction and CO2e emissions
+    but widespread reduction in per capita consumption is not, on its own, able to
+    prevent reliability issues in all WRZs in all climate and population scenarios;
+    Capacity expansion (CE strategy) achieves similar reliability as MI strategy,
+    but with far more water being abstracted, and higher emissions; National planning
+    (NP) strategy is able to provide water security across water companies.
+  12: System Restructure (SR) and System Efficiency (SE) are the most preferred water
+    management strategies. The SR strategy is preferred overall due to cost and security
+    of supply, while the SE strategy performs better on environmental criteria.
+  13: The increasing challenges are prompting a more strategic approach to water resources
+    planning.
+  15: The High population & Dry climate scenario results in the greatest demand growth,
+    with significant net demand despite management and leakage efforts. The Low population
+    & Wet climate scenario exhibits less demand growth.
+  17: The high population & dry climate scenario results in the greatest demand growth,
+    with significant net demand despite management and leakage efforts.
+  19: The paper calculates water supply yields based on a function related to the
+    desired return period of drought, reflecting the return period of the minimum
+    acceptable period set out in the water company drought plan for the shortest return
+    period drought event.
+Methodology:
+  2: An aggregated national water resource model is used to simulate projections of
+    river flows under population and climate change and to test potential policies
+    to manage demand and investments in water supply infrastructure.
+  3: Developed a high level national water resources model that accounts for water
+    use and the reliability of water supplies at the scale of Water Resource Zones
+    (WRZ). The model was built bespoke as part of the ITRC National Infrastructure
+    Systems Model (NISMOD) using a combination of technologies, including Matlab for
+    the hydrological yield modelling, and Microsoft VB.Net for the long-term water
+    supply and infrastructure modelling. The model uses an aggregate estimate of surface
+    and groundwater availability in each WRZ and simulates the effect of storage,
+    transfer, re-use and desalination supply infrastructure, as well as changes in
+    water use and leakage.
+  5: A water resource management model simulates a 25-year planning horizon, revisited
+    every 5 years. It calculates a supply/demand balance for each water resource zone
+    annually. If a supply-demand imbalance occurs, the model identifies additional
+    supply requirements, determines financial and carbon costs, and uses an algorithm
+    to minimize Total Present Value Costs (TotPVC) per unit of water supplied.
+  10: Modelling water balance for each company in 2040 under different scenarios and
+    strategies. The results are applicable to the UK water sector.
+  11: Simulation of water balances for water companies under different socio-economic
+    and climatic scenarios and investment strategies.
+  12: Multi-criteria decision analysis (MCDA) using the ELECTRE III algorithm was
+    used to rank the water management strategies based on various scenarios and preference
+    sets. Sensitivity analysis was performed across 240 runs to evaluate strategy
+    performance under different conditions. The results are applicable to the period
+    up to 2040.
+  13: A national perspective on water resources planning for Great Britain, framed
+    in terms of meeting the 'water trilemma'.
+  15: The paper uses scenarios to model future water availability based on population
+    and climate conditions (Low population & Wet climate, Central population and climate,
+    High population & Dry climate).
+  17: The Great Britain Water Infrastructure Model (GBWIM) tracks the water balance
+    and availability of water at the Water Resource Zone (WRZ) scale, aggregating
+    estimates of surface and groundwater availability. It simulates the effect of
+    investment in storage, transfer, re-use and desalination supply infrastructure,
+    as well as changes in water use and leakage. Future Flows Hydrology (FFH) dataset
+    is used for baseline water supply projections. River and reservoir sources are
+    modelled in more detail, using representative river gauges and developing a database
+    of water supply assets.
+  19: Iterative numerical approach for calculating reservoir yields, considering minimum
+    residual flows, maximum abstractions, and desired return periods of dry conditions.
+    The model considers time series of annual minima of flow. Simulation models based
+    on water company drought plans.
+More Notes:
+  2: The paper highlights the need for a strategic national perspective on the resilience
+    of Britain's water supply systems, given the possibility of major inter-company
+    transfers and new storage infrastructure.
+  5: The analysis considers the impact of restoring sustainable abstraction rates
+    and simulates adaptive strategies on both the supply and demand sides.
+  8: The map of the UK regions and water companies is descriptive background information.
+  10: The study utilizes population scenarios and sustainability reductions but acknowledges
+    differences in assumptions compared to other studies (HR Wallingford, WaterUK)
+    regarding leakage reduction rates, per capita consumption reductions, and drought
+    scenarios.
+  12: The paper evaluates different strategies to avoid Level 1 water restrictions
+    under various socio-economic and climatic scenarios. The NP strategy avoids restrictions
+    with heavy investment in reservoirs and water transfers, while the SR strategy
+    uses a combination of demand management and investment in various water sources.
+  13: The uniform application of demand management and leakage reduction may have
+    handicapped the performance of system restructure (SR) and system efficiency (SE)
+    strategies in the model. In practice, these measures could be scaled up and down
+    more flexibly, making them potentially more cost-effective than modeled.
+  15: No relevant information
+  17: The model uses a composite river abstraction sub-catchment area calculation,
+    based on summing non-nested abstraction sub-catchment areas.
+  19: The maps of the UK and England/Wales show the regional distribution of water
+    companies. The stacked bar chart presents an illustrative example of how population
+    and climate scenarios might affect water supply changes, highlighting the importance
+    of management strategies.
+No relevant information:
+  20: No relevant information
+Outcome(s) of Interest:
+  2: Security, affordability, and sustainability of water supply are the goals, with
+    inevitable trade-offs, that can be termed the 'water trilemma'.
+  3: "Resilience of Britain\u2019s water supplies."
+  5: Water supply reliability, measured as the expected frequency of Level 1 water
+    use restrictions.
+  8: No relevant information
+  10: "Cumulative Opex (\xA3bn) under different climate scenarios (Low&Wet, Central,\
+    \ High&Dry) and adaptation strategies (NB, MI, CE, NP, SE, SR)."
+  11: CO2e emissions, water abstraction levels, reliability of water supply
+  12: Implies costs associated with different water management strategies (MI, CE,
+    NP, SE, SR) needed to avoid water restrictions.
+  13: Security of water supply, affordability of water, and environmental sustainability
+    (the 'water trilemma').
+  15: No relevant information
+  17: Change in public water supplies (Ml/day) from 2015 to 2040.
+  19: Implied changes in public water supply capacity, related to the costs and benefits
+    of adaptation in the water sector.
+Quantitative material:
+  5: Reductions in licenced withdrawals amount to a total reduction in water supply
+    of 196,800Ml/year.
+  8: No relevant information
+  9: The page provides quantitative data on water supply, service reliability, cumulative
+    costs, CO2 emissions, and leakage under different scenarios.
+  10: "Table providing cumulative Opex (\xA3bn) for different strategies and scenarios.\
+    \ Bar chart showing changes in public water supplies (Ml/day) from 2015-2040 under\
+    \ different scenarios. Table of Ml/day for different strategies and scenarios."
+  11: Simulated water balances for each water company in 2040 under different scenarios;
+    2% increase in domestic per capita consumption (MI strategy) vs. 20% decrease
+    (SE strategy); 4% rise in average per capita consumption (CE strategy)
+  12: Table 3 provides quantitative data on the change in public water supplies gained
+    from various investment options (Aquifer Recharge, Desalination plant, Effluent
+    Re-use, New Groundwater, Reservoir, Transfer, Leakage Reduction, Demand Reduction)
+    under the central population and climate scenario (Ml/day) up to 2040.
+  13: Change in public water supplies 2015-2040 (Ml/day)
+  15: The bar chart describes changes in public water supplies from 2015-2040 (Ml/day)
+    under different scenarios of population and climate change. The stacked bars represent
+    demand growth, sustainability reduction, demand management, and leakage management.
+  17: Projected changes in public water supplies (Ml/day) for different scenarios
+    (low population & wet climate, central population & climate, high population &
+    dry climate) from 2015-2040, broken down by demand growth, sustainability reduction,
+    demand management, and leakage management.
+  19: Formulas for calculating river yield (Yr), licenced reservoir input abstractions
+    (Qin,R), and reservoir storage (S).

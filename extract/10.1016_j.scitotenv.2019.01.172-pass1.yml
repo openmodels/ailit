@@ -1,0 +1,133 @@
+Category:
+  17: Extracted Information
+Drivers of Risk:
+  4: The study assesses the association between crop yields and climate, indicating
+    climate as a driver of risk.
+  7: Yield anomalies are being used as a proxy of climate change impacting agricultural
+    output
+  9: Climate variability, as assessed through its correlation with Principal Components
+    (PCs) of crop yield data.
+  11: SSTa (Sea Surface Temperature anomalies), ATa (Air Temperature anomalies), PDSI
+    (Palmer Drought Severity Index).
+  12: Local climate variability, specifically AT (air temperature), AT-lag, PDSI (Palmer
+    Drought Severity Index), and PDSI-lag.
+  14: Local climate variability represented by Principal Components (PC1, PC2, PC3)
+    for ATa and PDSI (likely temperature and drought indices).
+  17: "Sea Surface Temperature Anomalies (sSSTa), Sea Air Temperature Anomalies (sATa),\
+    \ El Ni\xF1o-Southern Oscillation (ENSO)"
+  22: Impacts on maize, rice, sorghum and soybean production.
+  24: Climate (specifically ENSO, NAO, SAM or PDO); cropland coverage changes; regional
+    shortages of energy and water
+  37: Climate change
+Highlights:
+  4: The paper aims to identify the relationship between crop yield anomalies and
+    climate variations, as well as the joint dependencies between crop yield variability.
+  9: Brazil, Peru, South Korea, Argentina, Bolivia, Gambia, and Sri Lanka have many
+    large loading values across PCs for more than one crop, indicating greater yield
+    volatility related to climate variability. Soybean variability is particularly
+    large in North and South America and Middle and Southern African countries. Most
+    sorghum-producing countries with high variability are located in the mid-latitudes.
+  11: Global yields variability of sorghum and soybean anomalies happen in a limited
+    number of co-locations. SSTa, ATa, and PDSI impact maize, rice, sorghum and soybean
+    yields.
+  12: Air temperature and PDSI, both concurrent and lagged, have varying impacts on
+    different crops and regions.
+  14: More than half of maize croplands in several countries and rice/sorghum/soybean
+    in many countries are impacted by local climate in at least one PC. Crop yield
+    variability in major exporters is crucial for major importers.
+  17: Extensive sSSTa in the Tropical Pacific Ocean linked to climate variability
+    over croplands, specifically sorghum harvesting regions of US and South Africa,
+    and soybean harvesting regions of China and Brazil. Crops are significantly correlated
+    with ENSO indices.
+  22: The paper examines correlations between the principal components of maize, rice,
+    sorghum, and soybean yields, identifying both positive and negative relationships.
+    Specific correlations (0.37% and -0.41%) are noted.
+  23: The study identifies that large-scale climatic patterns and oscillations, including
+    ENSO and NAO, strongly correlate with crop yield variability across various regions.
+  24: Negative impacts of climate on crop yields in some countries can be modified
+    by its positive impacts in other countries; import-dependent countries could trade
+    with nations experiencing favorable impacts of climate to improve food security;
+    predictability of climatic patterns can be used for food security purposes
+  37: Steffen et al. (2011) investigates the adaptation strategies of Australian agriculture
+    to dangerous climate change.
+Methodology:
+  4: The analysis uses Robust Principal Component Analysis (RPCA) to decompose yield
+    time series of crops from 1961 to 2013 to identify co-varying crop producers and
+    dependencies between crops.
+  7: RPCA is used because basic PCA methods are unreliable in the presence of outliers.
+  9: Principal Component Analysis (PCA) is applied to crop yield data. Spearman correlation
+    is used to assess the association between climate and PCs in both concurrent and
+    one-year lag phases.
+  11: Correlation analysis between principal components (PCs) of maize, rice, sorghum,
+    and soybean yields, and SSTa, ATa, and PDSI over croplands from 1964 to 2010 (with
+    a one-year lag from 1963-2009).
+  12: The analysis uses Principal Components (PCs) to analyze the impact of climate
+    variability on croplands.
+  14: Analysis using Principal Component Analysis (PCA) to identify patterns of local
+    climate variability affecting crop yields across different regions and time lags.
+  17: Correlation analyses between SSTa/SATa indices and principal components (PCs)
+    of climate variables with various lead times, using both annual and seasonal (December-January-February)
+    averages. Identification of the ENSO index with the largest correlation magnitude.
+  22: Spearman correlation analysis between principal components (PCs) of crop yields.
+  23: The analysis is performed by correlating crop yield variabilities of maize,
+    rice, sorghum, and soybean with local climatic patterns.
+  24: Country-based yield data (FAO, 2016) is used; climate drivers of crop yield
+    variability are used for prediction purposes
+  37: The Steffen et al. (2011) paper examines coping mechanisms within Australian
+    agriculture in the face of climate change.
+More Notes:
+  9: The analysis focuses on maize, rice, sorghum, and soybean crops. The 'L matrix'
+    and 'MRSS' acronyms are used but not explicitly defined on this page.
+  11: The study identifies locations with statistically significant correlations (95%)
+    over croplands, designates these with small black dots, and highlights countries
+    with large positive (negative) loading values in orange (blue). LLVC is not defined
+    in the text, nor is MRSS.
+  12: The analysis focuses on the top 20 producers of maize, rice, sorghum, and soybean
+    in 2013.
+  14: The analysis identifies specific major exporter (ME) and major importer (MI)
+    countries for maize and rice that co-vary conversely in different PCs, potentially
+    indicating vulnerability and dependencies. Figure 5 visualizes the percentages
+    of impacted croplands by region, crop, and PC component.
+  22: The principal component analysis likely aims to reduce the dimensionality of
+    crop yield data and identify key patterns of variation. The correlations between
+    PCs then suggest relationships between these underlying patterns across different
+    crops, potentially reflecting shared environmental drivers or interactions. The
+    paper only shows correlations and does not seem to relate the crop production
+    to other economic outcome measures.
+  23: The spatial coverage of the croplands is based on data from the year 2000, which
+    may limit the applicability of the findings to current conditions.
+  24: Study focused only on climate impacts, ignoring other factors like technological
+    advances, political issues, social strife, and food security strategies.
+No relevant information:
+  6: This page focuses on oceanic and atmospheric indices and cropland coverage, not
+    on macroeconomic or macro-fiscal outcomes, costs, or benefits of adaptation at
+    a national level.
+  19: This page focuses on climatic patterns and their correlation with crop yields
+    (specifically sorghum, soybean, and rice) in North America. It does not directly
+    address macroeconomic or macro-fiscal outcomes, nor does it quantify costs/benefits
+    of adaptation at a national level. While changes in crop yields could indirectly
+    impact macroeconomic variables, this paper does not make that connection explicit.
+  26: No relevant information
+  30: No relevant information
+Outcome(s) of Interest:
+  9: Anomalies in crop yields are more volatile in countries with large loadings values
+    in many Principal Components (PCs).
+  11: No relevant information
+  12: Impacted cropland area, specifically for maize, rice, sorghum, and soybean.
+  14: Crop yield variability in major global crop exporters.
+  22: No relevant information
+  24: Crop yield variability; global food security; impact on import-dependent countries
+  37: Australian agriculture's ability to cope with dangerous climate change.
+Quantitative material:
+  9: Uses loadings from the first 3 PCs acquired from the L matrix. Chooses LLVC based
+    on one standard deviation exceedance of loadings values from the mean from both
+    sides in each PC. Countries are identified if they have large loadings values
+    in at least 12, 11, 8, and 10 times across all PCs of MRSS respectively.
+  11: LLVC in PC1-PC2-PC3 account for 16%-14%-13%, 4%-8%-10%, 52%-32%-49%, 72% - 41%-35%
+    of the global MRSS production. PCs explain about 24%, 25%, 25%, 31% of the global
+    maize, rice, sorghum and soybean yield variabilities in the low rank matrix respectively
+    from 1964 to 2010.
+  12: In PC1 56% of maize harvesting regions in Europe, 40% of sorghum harvesting
+    regions in North America and 49% of soybean harvesting regions are impacted.
+  14: Percentages of MRSS croplands impacted by local climate in at least one PC (illustrated
+    in Figure 5, with bar charts showing values up to 60).

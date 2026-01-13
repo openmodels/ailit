@@ -1,0 +1,160 @@
+Drivers of Risk:
+  1: Climate change scenarios (HadCM3 model under SRES A1FI, A2, B1, and B2); Socio-economic
+    scenarios (SRES); CO2 levels; Population dynamics; Economic and political structures.
+  5: Climate change altering regional agricultural productivity, global food prices.
+  6: Climate change (specifically, changes as modeled under the HadCM3 SRES A1FI and
+    A2a scenarios) affecting agricultural yields.
+  8: Climate change, represented by the HadCM3 SRES B1a and B2a scenarios, with and
+    without CO2 effects.
+  10: Different SRES emissions scenarios (A1, A2, B1, B2) impacting global crop yields.
+  11: Changes in temperature, precipitation, and atmospheric CO2 concentrations due
+    to various SRES scenarios (A1FI, A2, B1, B2).
+  12: Climate change scenarios (A1, A2, B1, B2) impacting temperature and precipitation,
+    CO2 fertilization effects, population growth, economic development, and agricultural
+    technology.
+  13: Anthropogenic climate change (temperature increases), different SRES scenarios
+    (A1FI, A2a, A2b, A2c, B1a, B2a, B2b), CO2 effects (fertilization), economic and
+    population growth rates, income levels.
+  14: Climate change effects on crop yields, specifically CO2 effects and climate
+    change scenarios (A1, A2, B1, B2) impacting agricultural production and global
+    food security.
+Highlights:
+  1: The world appears able to continue to feed itself under the SRES scenarios during
+    the rest of this century, but this is achieved through production in developed
+    countries compensating for declines in developing nations, leading to increased
+    regional differences in crop production and a significant polarisation of effects,
+    with substantial increases in prices and risk of hunger among the poorer nations,
+    especially under scenarios of greater inequality (A1FI and A2).
+  6: The trend suggests declining agricultural yields globally over time, with Africa,
+    South America, and parts of Asia experiencing more severe impacts (substantial
+    decreases in yield of -30% or more). The impact of CO2 effects are considered.
+  8: Many equatorial and temperate regions show significant cereal yield decreases
+    by the 2080s under both climate change scenarios, while some higher latitude regions
+    show potential increases.
+  10: Small changes in cereal yield are evident in all scenarios by the 2020s, but
+    these fluctuations are within historical variations.
+  11: Developing countries are projected to experience crop yield decreases, especially
+    in Africa and parts of Asia, while developed countries may see yield increases
+    or smaller decreases, depending on the scenario. The A1FI scenario results in
+    the greatest decreases, while the B1 scenario results in the smallest decreases.
+    The CO2 fertilization effect can partially compensate for negative climate impacts
+    in some regions.
+  12: Climate change can lead to significant reductions in cereal production, especially
+    without CO2 fertilization effects. Disparities in cereal yields between developed
+    and developing countries are likely to increase. In the A2 world, the number of
+    people at risk of hunger remains high due to inequality.
+  13: Without the counteracting direct CO2 effects, crop production responds approximately
+    linearly to temperature increases across the suite of scenarios. The number at
+    risk are very high under A2 partly because of higher temperature and reduced yields
+    but primarily because there are many more poor people in the A2 world. Under both
+    scenarios there is little sign of any effect until after 2020.
+  14: Disparities in cereal yields are expected to increase significantly under scenarios
+    A1 and A2, with a significant risk of hunger among poorer nations; the results
+    highlight non-linearities in the food supply system due to CO2 fertilisation and
+    climate change.
+Limitations:
+  5: The non-agriculture sector is poorly modelled in the BLS, leading to simplifications
+    in the simulation of responses to climatic change.
+Methodology:
+  1: Uses transfer functions derived from crop model simulations with observed climate
+    data and projected climate change scenarios to estimate impacts on crop yields.
+    The Basic Linked System (BLS) model is used to evaluate consequent changes in
+    global cereal production, cereal prices, and hunger risk. Applicable under SRES
+    emissions scenarios.
+  5: The Basic Linked System (BLS) world food trade model is used to simulate economic
+    adjustments and their impact on national and regional production changes and price
+    responses; Includes crop-switching and land reclamation as adaptations.
+  6: The analysis uses the HadCM3 climate model under SRES A1FI and A2a scenarios
+    to project changes in national cereal yields, and is applicable for the 2020s,
+    2050s and 2080s, compared with 1990.
+  8: The analysis uses the HadCM3 SRES B1a and B2a scenarios to model potential changes
+    in cereal yields, with and without accounting for CO2 fertilization effects. Results
+    are applicable to assessing the impact of climate change on agricultural productivity
+    at a national level under these specific scenarios.
+  10: BLS simulations using nationally averaged yield changes for wheat, rice, maize,
+    and soybean estimates.
+  11: Crop yield projections are modeled under different SRES climate change scenarios,
+    considering temperature, precipitation, and CO2 fertilization effects. Analysis
+    is based on results up to the 2080s.
+  12: The BLS (Base Line Scenario) is used to estimate cereal production. The analysis
+    is performed under different SRES scenarios (A1, A2, B1, B2) considering various
+    factors like population growth, CO2 fertilization effects, agricultural technology
+    advancements, and climate change impacts on temperature and precipitation. Results
+    are applicable to the 2080s. The impact of climate change on global cereal production
+    is determined as the reduction in million of metric tonnes from the reference
+    case, the future without climate change.
+  13: Comparison of cereal production and prices under different SRES scenarios with
+    and without CO2 fertilization effects, relative to a reference scenario with no
+    climate change. Risk of hunger is based on the number of people who can purchase
+    sufficient cereals given their income and cereal prices.
+  14: Analysis using SRES scenarios to simulate world crop yields and World Food Trade
+    System model to demonstrate impacts on food security. Scenarios include different
+    realizations of CO2 effects and climate change.
+More Notes:
+  1: The study highlights non-linearities in the world food supply system, both biophysical
+    (CO2 levels) and socio-economic (population dynamics, economic and political structures).
+  6: The color gradient on the maps provides a visual representation of the degree
+    of change in agricultural yields, with dark brown indicating a significant decrease
+    and dark green a significant increase. The study considers scenarios both with
+    and without CO2 effects.
+  8: The analysis considers the influence of CO2 effects on yield changes in addition
+    to climate-related factors.
+  10: The analysis considers the effects of elevated atmospheric CO2 concentrations
+    on crop yields, which helps to mitigate the negative impact of climate change.
+    Regional variations within countries are not reflected.
+  11: Multidecadal variability dominates the results in the 2020s. The impacts on
+    cereal yields vary significantly depending on the climate change scenario and
+    region.
+  14: Emphasizes regional uncertainties in crop yield outcomes, sensitivity to CO2
+    fertilization, and the importance of considering natural variability in climate
+    model projections.
+Outcome(s) of Interest:
+  1: Changes in global cereal production, cereal prices, and the number of people
+    at risk from hunger.
+  5: Exposure of the global population to the risk of hunger.
+  6: Decreases in national cereal yields, impacting food production and potentially
+    GDP.
+  8: Potential changes in national cereal yields.
+  10: Global cereal prices and number of people at risk of hunger.
+  11: Aggregated cereal yield changes at a global and regional level.
+  12: Cereal production, cereal prices, and people at risk of hunger.
+  13: Changes in global cereal production and global cereal prices due to climate
+    change. Number of people at risk of hunger.
+  14: No specific macroeconomic or fiscal outcomes are detailed on this page.
+Quantitative material:
+  1: The paper projects changes in crop yields and evaluates changes in global cereal
+    production, cereal prices and the number of people at risk from hunger.
+  6: Potential changes (%) in national cereal yields for the 2020s, 2050s, and 2080s
+    compared to 1990, under specific climate scenarios (HadCM3 SRES A1FI and A2a),
+    with and without CO2 effects. Examples include declines of up to -30% or more
+    in some regions.
+  8: Projected percentage changes in national cereal yields for the 2020s, 2050s,
+    and 2080s, compared with 1990, under specific climate change scenarios.
+  10: Figure 10 shows future reference case global cereal prices, relative to 1990
+    prices, for the four SRES marker scenarios (no climate change). Figure 11 shows
+    future reference case estimates of the numbers of people at risk of hunger, for
+    the four SRES marker scenarios (no climate change).
+  11: Under the A1FI scenario, cereal yields could fall by as much as 10% globally
+    by the 2050s, and up to 20% in Africa by the 2080s without considering CO2 effects.
+    Maize production in Africa could fall by as much as 30%. Under the B1 scenario,
+    cereal yield decreases never exceed 10%.
+  12: Cereal production increases to B3900, B4800, B3700 and B4100 million metric
+    tons (mmt) by the 2080s under A1, A2, B1 and B2 SRES scenarios, respectively,
+    without climate change.  Cereal price increases >160% in South America and Africa
+    by the 2080s in the A2 world (compared to current day market prices). Cereal price
+    increases of 30-70% by the 2050s under A1 and B1, followed by a decline. Reduction
+    in cereal production due to climate change is about 5% for B1 and B2, and 10%
+    for A1 and A2 by the 2080s (assuming no CO2 effects). The number of people at
+    risk of hunger is largely unaltered in the A2 world, at around 800 million people.
+  13: Figure 12 shows changes in global cereal production (millions of tons) under
+    seven SRES scenarios with and without CO2 effects, relative to the reference scenario
+    (no climate change), for 2020, 2050, and 2080. Figure 13 shows changes in global
+    cereal prices (% change relative to 1990) under seven SRES scenarios with and
+    without CO2 effects, relative to the reference scenario (no climate change), for
+    2020, 2050, and 2080. Figure 14 shows the number of additional millions at risk
+    of hunger due to climate change assuming no CO2 effects. World cereal production
+    is estimated at 3900, 4800, 3700 and 4100 mmt in the 2080s under A1, A2, B1 and
+    B2 SRES scenarios, respectively, assuming no effects of climate change on crop
+    yields and current trends in economic and population growth rates.
+  14: Data on additional millions of people at risk of hunger under various SRES scenarios
+    with and without CO2 effects projected for the years 2020, 2050, and 2080.

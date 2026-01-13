@@ -1,0 +1,48 @@
+,Impacted Sector,Solution,Country(ies),Scenario,Quantification,Expression,Type of Value,Sample,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Energy,PV Solar,Brazil,RCP4.5,PV generation potential,MonetaryBenefits,Economic,Need,kWh/m2/day,0.840,NA,NA,NA,NA,NA,Equation (1),"Calculated using iMed = 6.0 kWh/m2/day, eConv = 20%, eOper = 70%"
+1,All,PV Generation,Brazil,RCP4.5,MonetaryBenefits,RateOfReturn(),Economic,N/A,%,2.74,NA,NA,NA,NA,NA,Page 8,PV generation alone yields revenues 2.74 times higher than financial market interest at 6.5%.
+2,All,PV Generation,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Economic,N/A,PWh/year,4.90,NA,NA,NA,NA,NA,Page 8,"The potential PV energy generation in degraded pasture areas amounts to approximately 9.3 times the national consumption of electricity during 2017, or 4.90 PWh/year."
+3,Energy,PV Solar,Brazil,RCP4.5,Payoff Time,AdaptationCost / MonetaryBenefits,Monetary,Need,years,7,NA,NA,NA,NA,NA,Page 10,Payoff time calculated based on current interest rates and residual between average marketed energy value and value paid to the producer.
+4,Energy,PV Solar,Brazil,RCP4.5,Gross Annual Revenue,RateOfReturn(),Monetary,Need,multiple,2.74,NA,NA,NA,NA,NA,Page 10,Revenue from PV generation alone is 2.74 times the interest that would be earned in the financial market at 6.5% interest.
+5,Energy,PV Solar,Brazil,RCP4.5,PV System Cost,CapExCost,Monetary,Need,US$/Wp,2.67,NA,NA,NA,NA,NA,Page 10,"Calculated based on Instituto Ideal (IDEAL, 2015) data."
+6,Energy,PV Solar,Brazil,RCP4.5,Energy Market Price,MonetaryBenefits / OpExCost,Monetary,Need,US$/kWh,0.071,NA,NA,NA,NA,NA,Page 10,Average marketed energy value used to calculate payoff time.
+7,Energy,PV Solar,Brazil,RCP4.5,Energy Market Price,MonetaryBenefits / OpExCost,Monetary,Need,US$/kWh,0.0358,NA,NA,NA,NA,NA,Page 10,Price of PV-generated electricity contracted by the National Electricity Authority (ANEEL) in Brazil in April 2018 Auction A-4/2018.
+8,Energy,PV Generation,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Monetary,Need,US$/year,4380.00,NA,NA,NA,NA,NA,Table II,"Annual PV energy production of 61.32 MWh multiplied by US$0.0714/KWh, for 0.02 ha of panels."
+9,Energy,PV Generation,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Monetary,Need,US$/year,21900.00,NA,NA,NA,NA,NA,Table II,"Annual PV energy production of 306.60 MWh multiplied by US$0.0714/KWh, for 0.10 ha of panels."
+10,Energy,PV Generation,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Monetary,Need,US$/year,219000.00,NA,NA,NA,NA,NA,Table II,"Annual PV energy production of 3,066.00 MWh multiplied by US$0.0714/KWh, for 1.00 ha of panels."
+11,Energy,PV Generation,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Monetary,Need,US$/year,613.20,NA,NA,NA,NA,NA,Table II,"Annual solar income from solar royalties, for 0.02 ha of panels; royalties at US$0.01/KWh."
+12,Energy,PV Generation,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Monetary,Need,US$/year,1533.00,NA,NA,NA,NA,NA,Table II,"Annual solar income from solar royalties, for 0.10 ha of panels; royalties at US$0.005/KWh."
+13,Energy,PV Generation,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Monetary,Need,US$/year,7655.00,NA,NA,NA,NA,NA,Table II,"Annual solar income from solar royalties, for 1.00 ha of panels; royalties at US$0.0025/KWh."
+14,Energy,PV Generation,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Monetary,Need,US$/month,51.10,NA,NA,NA,NA,NA,Table II,"Monthly solar income, for 0.02 ha of panels."
+15,Energy,PV Generation,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Monetary,Need,US$/month,127.75,NA,NA,NA,NA,NA,Table II,"Monthly solar income, for 0.10 ha of panels."
+16,Energy,PV Generation,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Monetary,Need,US$/month,638.75,NA,NA,NA,NA,NA,Table II,"Monthly solar income, for 1.00 ha of panels."
+17,Energy,PV Generation,Brazil,RCP4.5,AdaptationCost,CapExCost,Monetary,Need,US$,24571.00,NA,NA,NA,NA,NA,Table II,"PV system cost, for 0.02 ha of panels."
+18,Energy,PV Generation,Brazil,RCP4.5,AdaptationCost,CapExCost,Monetary,Need,US$,122857.00,NA,NA,NA,NA,NA,Table II,"PV system cost, for 0.10 ha of panels."
+19,Energy,PV Generation,Brazil,RCP4.5,AdaptationCost,CapExCost,Monetary,Need,US$,1228571.00,NA,NA,NA,NA,NA,Table II,"PV system cost, for 1.00 ha of panels."
+20,Energy,PV Generation,Brazil,RCP4.5,AmortizationRate,AdaptationCost / MonetaryBenefits,Monetary,Need,US$/KWh,0.061,NA,NA,NA,NA,NA,Table II,"Amortization rate, for 0.02 ha of panels."
+21,Energy,PV Generation,Brazil,RCP4.5,AmortizationRate,AdaptationCost / MonetaryBenefits,Monetary,Need,US$/KWh,0.066,NA,NA,NA,NA,NA,Table II,"Amortization rate, for 0.10 ha of panels."
+22,Energy,PV Generation,Brazil,RCP4.5,AmortizationRate,AdaptationCost / MonetaryBenefits,Monetary,Need,US$/KWh,0.069,NA,NA,NA,NA,NA,Table II,"Amortization rate, for 1.00 ha of panels."
+23,Energy,PV Generation,Brazil,RCP4.5,RateOfReturn,RateOfReturn(),Monetary,Need,years,7,NA,NA,NA,NA,NA,Table II,"Payoff time, for 0.02 ha of panels."
+24,Energy,PV Generation,Brazil,RCP4.5,RateOfReturn,RateOfReturn(),Monetary,Need,years,6,NA,NA,NA,NA,NA,Table II,"Payoff time, for 0.10 ha of panels."
+25,Energy,PV Generation,Brazil,RCP4.5,RateOfReturn,RateOfReturn(),Monetary,Need,years,6,NA,NA,NA,NA,NA,Table II,"Payoff time, for 1.00 ha of panels."
+26,Energy,PV Generation,Brazil,RCP4.5,RateOfReturn,DiscountedSum(),Monetary,Need,US$,1597.14,NA,NA,NA,NA,NA,Table II,"SELIC interest at 6.5% per year, for 0.02 ha of panels."
+27,Energy,PV Generation,Brazil,RCP4.5,RateOfReturn,DiscountedSum(),Monetary,Need,US$,7985.71,NA,NA,NA,NA,NA,Table II,"SELIC interest at 6.5% per year, for 0.10 ha of panels."
+28,Energy,PV Generation,Brazil,RCP4.5,RateOfReturn,DiscountedSum(),Monetary,Need,US$,79857.14,NA,NA,NA,NA,NA,Table II,"SELIC interest at 6.5% per year, for 1.00 ha of panels."
+29,Energy,Any,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Economic,Need,US$/year,11000,NA,NA,NA,NA,NA,Table III,Savings from using energy in-house for a 1ha PV plant
+30,Energy,Any,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Economic,Need,US$/year,55000,NA,NA,NA,NA,NA,Table III,Savings from using energy in-house for a 1ha PV plant
+31,Energy,Any,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Economic,Need,US$/year,550000,NA,NA,NA,NA,NA,Table III,Savings from using energy in-house for a 1ha PV plant
+32,Energy,Any,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Monetary,Need,US$/kWh,0.07148,NA,NA,NA,NA,NA,Table III,Energy revenue
+33,Energy,Any,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Monetary,Need,US$/year,219000.00,NA,NA,NA,NA,NA,Table III,Annual Revenue based on energy value
+34,Energy,Any,Brazil,RCP4.5,AdaptationCost,AdaptationCost,Fiscal,Need,US$/kWh,0.04571,NA,NA,NA,NA,NA,Table III,Taxes
+35,Energy,Any,Brazil,RCP4.5,AdaptationCost,AdaptationCost,Fiscal,Need,US$/year,140160.00,NA,NA,NA,NA,NA,Table III,Annual revenue foregone based on tax value
+36,Energy,Any,Brazil,RCP4.5,AdaptationCost,AdaptationCost,Fiscal,Need,US$/kWh,0.06281,NA,NA,NA,NA,NA,Table III,Distribution and transmission costs
+37,Energy,Any,Brazil,RCP4.5,AdaptationCost,AdaptationCost,Fiscal,Need,US$/year,192720.00,NA,NA,NA,NA,NA,Table III,Annual revenue foregone based on Distribution and transmission costs
+38,Energy,Any,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Monetary,Need,US$/kWh,0.18000,NA,NA,NA,NA,NA,Table III,Total Revenues
+39,Energy,Any,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Monetary,Need,US$/year,551880.00,NA,NA,NA,NA,NA,Table III,Total Annual Revenue
+40,All,Any,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Economic,Need,US$/month,51.00,NA,NA,NA,NA,638.00,Page 12,Range of potential revenues to landowners from selling energy to the grid.
+41,All,Any,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Economic,Need,US$/month,11.00,NA,NA,NA,NA,106.00,Page 12,Range of benefits from Bolsa Familia program
+42,All,Any,Brazil,RCP4.5,MonetaryBenefits,MonetaryBenefits,Economic,Need,US$/month,25.00,NA,NA,NA,NA,NA,Page 12,Average benefits from Bolsa Familia program
+43,Agriculture,PV Solar Energy,Brazil,RCP4.5,Revenue,MonetaryBenefits,Economic,Need,US$/hectare,913.00,NA,NA,NA,NA,NA,Table IV,Annual maize production revenue per hectare in the Northeast Brazil (NEB) in rainy years. Calculated as Maize wholesale cost (0.14 US$/Kg) + Taxes (0.09 US$/Kg) + Others (transport and other costs) (0.12 US$/Kg)
+44,Energy,PV Solar Energy,Brazil,RCP4.5,Factor,RateOfReturn(),Economic,Lead,times,500,NA,NA,NA,NA,NA,Page 13,PV energy generation revenue is approximately 500 times the maize production revenue per unit area.
+45,Agriculture,PV Solar,Brazil,RCP4.5,Potential Income,MonetaryBenefits,Monetary,Lead,$ / year per m3,6000,NA,NA,NA,NA,NA,Page 14,From organic tilapia fish sales using water reservoir.
+46,Agriculture,Solar PV,Brazil,RCP4.5,Revenue Comparison,MonetaryBenefits,Economic,Need,times higher,500,NA,NA,NA,NA,NA,Page 15,Economic yield of PV energy production is of the order of 500 times higher per unit area compared to cultivating maize in a year of regular rainfall in the Brazilian Semiarid Northeast.

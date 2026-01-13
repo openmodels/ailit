@@ -1,0 +1,103 @@
+Drivers of Risk:
+  2: Failure of embankments during moderate to extreme floods; disruption in hydraulic
+    connection between river and floodplain; prioritizing technical and economic viability
+    of flood protection without considering hydromorphological features and socio-economic
+    conditions.
+  3: River flooding and drainage congestion during the monsoon, impacted by upstream
+    interventions.
+  10: Introduction of embankment (historical), spatial access to services and infrastructure
+    (electricity/energy, proximity to services).
+  12: Hydro-climatic events (specifically floods) are the primary drivers of risk.
+  13: Flooding (inundated area) and tide levels are identified as potential drivers
+    of risk.
+Highlights:
+  2: Flood protection measures have both positive (e.g., increased agricultural output)
+    and negative (e.g., damage to fisheries) consequences; a shift from flood control
+    to integrated flood management has occurred, but translating this into action
+    remains a challenge; restoration and modification of existing embankments are
+    emphasized in the Bangladesh Delta Plan 2100.
+  3: "The Meghna\u2013Dhonagoda Irrigation Project (MDIP) is one of the largest flood\
+    \ control, drainage and irrigation projects in Bangladesh, implemented in 1988\
+    \ with the objective to protect the area in Matlab North from river flooding and\
+    \ drainage congestion during the monsoon via embankment and regulators, with the\
+    \ primary aim was to improve agricultural conditions in monsoon, with special\
+    \ reference to encouraging introduction to high yielding variety (HYV) monsoon\
+    \ rice (Aman), and also to provide irrigation from surface water in the Rabi (dry)\
+    \ season and early monsoon seasons."
+  10: A significant relationship existed between embankment introduction and changes
+    in land ownership patterns. More recent development progress is linked to electricity/energy
+    access and proximity to services rather than just land changes.
+  12: Embankments seem to have a statistically significant impact on internal movement
+    rates (p < 0.01), as evidenced by the chi-squared test results in Table 2. The
+    figures show a reduction in death rates, stabilization of internal movements,
+    and a changing relationship between inside and outside in-migration rates following
+    the embankment construction (around 1990).
+  13: No relevant information
+  14: Approaches may be relevant to address global flood risk challenges and evaluate
+    both intended and unintended consequences of human interventions.
+Methodology:
+  3: "Machine learning approaches are used to evaluate the impacts of flood management\
+    \ interventions in Bangladesh. It uses existing data set of Meghna\u2013Dhonagoda\
+    \ Irrigation Project (MDIP) to provide robust metrics to evaluate the impacts\
+    \ of interventions as well as identifying the most informative indicators."
+  10: Socio-economic survey data aggregated over 'bari' (likely a geographical unit).  Wilcoxon
+    statistic used to compare AUCs across years. Stacked Auto-Encoders used for dimensionality
+    reduction and cluster identification. Gaussian Processes used to model event data
+    over time. Spatial analysis to assess relationships between variables and geographic
+    location.
+  11: inundated areas in Matlab in two major flood years, delineated from LANDSAT4-5TM
+    images using Normalized Difference Water Index (NDWI)
+  12: "Generalized Pareto (GP)-based modeling is used to study the relationship between\
+    \ hydro-climatic events and socio-economic behavior. Chi-squared tests are used\
+    \ to compare event rates before and after embankment construction. Analysis of\
+    \ temporal difference for three specific events: inward/outward movement, inside/outside\
+    \ in-migration, and inside/outside mortality during 1983\u20132014."
+  13: The analysis uses land elevation data and LANDSAT imagery with Normalized Difference
+    Water Index (NDWI) to delineate inundated areas. Applicable to Matlab North, Matlab
+    South and Daudkandi Upazilas.
+  14: Quantitative analysis of embankment impacts using machine-learning approaches,
+    integrating socio-economic and ancillary data to evaluate short-term and long-term
+    consequences of interventions.
+More Notes:
+  3: The project area is 184.4 km2 with a population of 230,185 as of 30 June 2014.
+    The analysis is done in Matlab North.
+  10: The study area appears to be in Bangladesh based on the mention of icddr,b hospital.
+    The primary goal of using Stacked Auto-Encoders was to learn useful lower-dimensional
+    representation of data.
+  11: No relevant information
+  12: The study focuses on a specific geographic area with embankment construction
+    as an adaptation measure. The results are limited to the context of this specific
+    intervention and location.
+  13: The study acknowledges limitations due to data availability, small study size,
+    and lack of enough common indicators across different years. It also mentions
+    the impact of other infrastructures (health, roads, electricity, education, etc.)
+    in relation to the embankment.
+No relevant information:
+  6: This page focuses on machine learning classification and regression techniques
+    for analyzing socio-economic survey data, with no direct mention of macroeconomic
+    or macro-fiscal risks of climate change, costs/benefits of adaptation, or related
+    economic outcomes at a national level.
+Outcome(s) of Interest:
+  2: Increased agricultural output in flood-protected areas; damage from moderate
+    to extreme floods is higher in protected areas due to accelerated economic activity;
+    damage to fisheries and local boat transports; compromised livelihoods, especially
+    for marginalized people.
+  3: No relevant information
+  10: Land ownership patterns, access to drinking water sources, primary fuel source,
+    household proximity to services (e.g., hospitals, gaslines).
+  11: No relevant information
+  12: Mortality, internal movement, and in-migration are examined as socio-economic
+    outcomes impacted by hydro-climatic events.
+  13: No relevant information
+Quantitative material:
+  3: No relevant information
+  10: AUC values for discriminating between socio-economic conditions across four
+    years (1982, 1996, 2005, 2014), standard errors, Z-scores, and p-values for comparing
+    AUCs.
+  12: "Table 2 provides \u03C7\xB2 values and p-values for comparing event rates (internal\
+    \ movement, in-migration, and mortality) pre- and post-embankment. Figures also\
+    \ give visualized values of death rates and in-migration and internal movement\
+    \ per 1000 mid-year population."
+  13: The graphs show monthly inward/outward movement of households and monthly high
+    tide levels from 1984-2016. The maps show flooded areas for September 1988 and
+    September 1998.

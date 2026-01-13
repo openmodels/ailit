@@ -1,0 +1,310 @@
+Drivers of Risk:
+  2: Biodiversity loss (specifically tree and shrub species richness), climate change
+  4: Climate change mitigation efforts; Land-use changes (especially under scenarios
+    of high demand for bioenergy consumption)
+  5: Climate change (specifically, additional CO2 emissions); Loss of tree cover;
+    Reforestation programs focusing on monocultures
+  13: Climate change and different Shared Socioeconomic Pathways (SSPs)
+  14: Climate change, represented by different Shared Socioeconomic Pathways (SSPs)
+    including SSP1 (Sustainability), SSP2 (Middle-of-the-road), SSP3 (Regional rivalry),
+    SSP4 (Inequality), and SSP5 (Fossil-fueled development).
+  16: Climate change.
+  17: Additional CO2 emissions impacting the social cost of carbon; Changes in tree
+    diversity-dependent productivity due to climate change.
+  19: GHG emissions from agriculture, land-use, and energy sectors are drivers of
+    risk. Socioeconomic factors like population, GDP, energy use, and emissions, as
+    described by the Shared Socioeconomic Pathways (SSPs), drive the scenarios.
+  21: "Extinctions and immigrations of tree species in coarse grids driven by climate\
+    \ change, which impact \u03B1-diversity"
+  22: Climate/land-use changes
+  27: Projected changes in tree diversity under different Shared Socioeconomic Pathways
+    (SSPs) and General Circulation Models (GCMs).
+  30: Climate change impacts on tree diversity-dependent productivity, various Shared
+    Socioeconomic Pathways (SSPs) (SSP1, SSP2, SSP3, SSP4, SSP5), General Circulation
+    Models (GCMs) (GFDL-CM3, HadGEM2-ES, MIROC-ESM-CHEM).
+  31: Climate change leading to loss of tree diversity
+  33: Climate change impacts on tree diversity.
+  35: Different Shared Socioeconomic Pathways (SSPs) representing different future
+    socio-economic conditions and climate change scenarios driven by three General
+    Circulation Models (GCMs).
+  37: Climate change.
+  45: Changes in species richness and climatic/land-use changes impact forest productivity.
+  46: Social cost of carbon (CSCC) in US$ tCO2-1, estimated for each of SSPs.
+  47: Different SSPs (Shared Socioeconomic Pathways) with contrasting assumptions
+    about deforestation and reforestation/afforestation impacting productivity.
+  58: No relevant information
+  62: Projected changes in tree diversity under baseline scenarios.
+Highlights:
+  2: Countries that will incur the greatest economic damages from climate change stand
+    to benefit the most from conservation of tree diversity and primary productivity,
+    which contributes to climate change mitigation.
+  4: Climate change mitigation efforts conserve the diversity of woody plant species
+    and primary productivity, which contributes to carbon storage in terrestrial ecosystems.
+  5: Countries with high CSCC tend to be those where climate change mitigation could
+    greatly help maintain primary productivity by safeguarding tree diversity; The
+    US and China are estimated to experience some of the biggest economic damages
+    due to anthropogenic global warming; Brazil has the largest potential to benefit
+    in multiple ways from climate mitigation efforts; Biodiversity conservation can
+    be a significant part of the solution to the ongoing climate crisis.
+  13: Effective climate change mitigation policies can reduce local tree species loss
+    by 3.0-61.3% compared to baseline scenarios by the 2070s.
+  14: Climate change mitigation can significantly reduce productivity loss, with the
+    effect size varying across different SSP scenarios and biomes.
+  16: "Figure 5 shows subregion-level projections in the effect of climate change\
+    \ mitigation on alleviating the loss of tree diversity-dependent productivity\
+    \ (\u0394P)."
+  17: Brazil is an outlier with the largest values of CCBP across all SSPs; The relationship
+    between the social cost of carbon and conservation of tree diversity-dependent
+    productivity is analyzed at the country level.
+  21: "Changes in tree species richness (\u03B1-diversity) impacts forest productivity\
+    \ which is estimated based on proportional changes in \u03B1-diversity. Method\
+    \ is focused on predicting changes in forest productivity from the year 2005 to\
+    \ the 2070s by combining species distribution models, machine learning, and ecological\
+    \ data."
+  22: Positive and negative values indicate a more and less effective climate change
+    mitigation policy in reducing species loss and the associated productivity loss.
+  27: The paper shows maps of projected changes in tree diversity under baseline scenarios,
+    indicating areas of species richness overlaid with fossil fuel sites.
+  30: Effectiveness of mitigation policy on alleviating productivity loss varies across
+    biomes, SSPs, and GCMs; Positive effect size indicates more effectiveness, negative
+    indicates less effectiveness.
+  31: Positive effect sizes indicate more effectiveness of mitigation policy, and
+    negative values indicate less effectiveness.
+  33: Different Shared Socioeconomic Pathways and models project varying effectiveness
+    of mitigation strategies in alleviating productivity loss.
+  35: The plot illustrates how different countries, under various socio-economic scenarios,
+    perform in terms of productivity conservation related to carbon storage costs,
+    providing insights into potential adaptations to climate change impacts on productivity
+    across different pathways and regions. Major and outlier countries are identified.
+  37: Provides country-specific estimates of the social cost of carbon.
+  45: "Elasticity of substitution values indicate positive and degressively increasing\
+    \ richness-productivity relationships, and regional differences in forest productivity\
+    \ due to \u03B1-diversity changes."
+  46: Relationship between country-level social cost of carbon and country-level reduction
+    in forest productivity loss is analyzed.
+  47: Global productivity conservation values were similar between SSP1 and SSP3 despite
+    contrasting assumptions about deforestation and reforestation/afforestation.
+  58: No relevant information
+  62: "Projected changes in tree diversity (\u03B1-diversity) from 2005 to 2070s under\
+    \ different SSPs."
+Methodology:
+  5: Aggregated regional heterogeneity into country-level estimates; Compared estimates
+    of productivity loss reduction with the country-level social cost of carbon (CSCC);
+    Considered the relationship between tree diversity effects on productivity and
+    the economic value of avoiding carbon emissions.
+  13: Analysis based on 32,670 grids, ensemble results across three GCMs, and shows
+    the effect sizes of mitigation on species loss for different SSPs from 2005 to
+    2070s. Uses ridge density plots to show distribution of effect sizes.
+  14: "The effect sizes of productivity loss (\u0394P) were calculated at a local\
+    \ scale (30 arcseconds) across 14 biomes with trees (n = ~115 million grids).\
+    \ Ensembled results across three General Circulation Models (GCMs) are shown,\
+    \ with means and 95% confidence intervals. The study considers the time period\
+    \ from 2005 to the 2070s."
+  16: Calculations are performed at the local scale (30 arcseconds cells), ensembled
+    across three GCMs, results are from 2005 to 2070s.
+  17: Uses a generalized additive mixed model to estimate relationships and 95% confidence
+    intervals; Considers five SSPs (Shared Socioeconomic Pathways) and multiple GCMs
+    (General Circulation Models) - results for each GCM shown in Extended Data Figure
+    8.
+  19: The study uses AIM/CGE, a computable general equilibrium model, to simulate
+    the global economy. It employs a global uniform carbon tax on GHG emissions. Land
+    allocation is modeled with a multinomial logit function, and downscaled using
+    spatially explicit attainable yields. MaxEnt v3.3 is used for predicting the probability
+    of occurrence of target species, using land-use and bioclimatic variables.
+  21: "Uses extreme gradient boosting (XGBoost) to predict co-extinction and co-immigration.\
+    \ Applies regressions to species distribution modeling. Converts species loss/gain\
+    \ into proportional changes in habitable area based on EAR/SAR. Estimates \u03B1\
+    -diversity in 2070s based on changes in habitable areas. Converts proportional\
+    \ changes in \u03B1-diversity to proportional changes in forest productivity using\
+    \ elasticity of substitution. Uses MODIS imagery for NPP estimation in 2005. The\
+    \ timeframe of the study is from 2005 to 2070s."
+  22: "Calculated the reductions in local-scale loss of species (\u0394SR) and productivity\
+    \ (\u0394P) as a log ratio scale, using baseline and mitigation scenarios. Mixed-effects\
+    \ meta-regression with the effect size as a response variable, the GCMs as a random\
+    \ effect, and climate conditions as a moderator. Examined the relationship between\
+    \ country-level social cost of carbon and country-level reduction in forest productivity\
+    \ loss."
+  27: "The proportional changes (%) in mean \u03B1-diversity are estimated at a fine\
+    \ grid-scale and aggregated to coarse grids. The analysis uses five Shared Socioeconomic\
+    \ Pathways (SSPs) and three General Circulation Models (GCMs) for projections\
+    \ from 2005 to the 2070s."
+  30: "Local scale estimation of effect sizes using inverse log ratio of mitigation/baseline\
+    \ \u0394P, comparing SSPs and GCMs."
+  31: "The effect sizes of climate change mitigation on \u0394P were estimated at\
+    \ the local scale and aggregated to coarser grids. The analysis considers five\
+    \ Shared Socioeconomic Pathways (SSPs) and three General Circulation Models (GCMs)\
+    \ from 2005 to 2070s."
+  33: Subregion-level projections using local scale data and effect sizes estimated
+    at 30 arcseconds across ~115 million grids; analysis applicable from 2005 to 2070s.
+  35: The analysis examines the relationship between the social cost of carbon and
+    per-area conservation of tree diversity-dependent productivity across various
+    countries and climate scenarios. It incorporates five SSPs and three GCMs to model
+    future climate and socio-economic conditions.
+  37: The study quantifies the social cost of carbon at the country level.
+  45: The analysis estimates elasticity of substitution values for forest biomes worldwide
+    to determine changes in forest productivity based on changes in species richness,
+    employing the MODIS NPP dataset.
+  46: Generalized additive model (GAM) with CSCC as an explanatory variable for each
+    SSP/GCM combination; Generalized additive mixed model (GAMM) with GCMs as a random
+    effect and CSCC as an explanatory variable to ensemble results across GCMs.
+  47: The study uses GAMMs (Generalized Additive Mixed Models) and sums up the reduction
+    in productivity loss across all countries under different SSPs and GCMs (General
+    Circulation Models).
+  58: Overall workflow to estimate changes in species richness and productivity by
+    2070s.
+  62: "Analysis based on means and standard errors of proportional changes (%) in\
+    \ \u03B1-diversity (remaining species richness) within coarse grids from 2005\
+    \ to 2070s, calculated across three General Circulation Models (GCMs) (n = 32,670\
+    \ grids) for five Shared Socioeconomic Pathways (SSPs)."
+More Notes:
+  2: The paper emphasizes a 'triple win' opportunity for climate, biodiversity, and
+    society through reforestation programs that focus on tree diversity.
+  5: The study highlights the importance of safeguarding tree diversity as a nature-based
+    climate solution, in addition to reducing emissions from industry and the energy
+    sector; It also mentions the potential of restoring natural forests for climate
+    stabilization and biodiversity conservation.
+  13: The figure focuses on biodiversity impacts, specifically tree species loss,
+    rather than macroeconomic or macro-fiscal outcomes. It assesses the effectiveness
+    of climate change mitigation in alleviating this loss under different socio-economic
+    scenarios.
+  14: The analysis uses five SSPs and considers the effect sizes in 14 biomes, linking
+    climate (temperature and precipitation) to productivity loss. Extended Data figures
+    provide more detailed information on GCM results and coarse-grid maps of effect
+    sizes.
+  17: Analysis focuses on the terrestrial areas; There appears to be a positive relationship
+    between CSCC and CCBP, and between tree cover area and CCBP; Global productivity
+    conservation is presented for each SSP (SSP1-SSP5) via a bar chart.
+  19: The study does not directly quantify macroeconomic or fiscal outcomes such as
+    GDP effects, productivity loss, budget balance, or ROI. It primarily focuses on
+    modeling land-use changes and species distribution under different climate scenarios.
+    The SSPs are combined with Representative Concentration Pathways (RCPs) to create
+    mitigation scenarios.
+  22: "Analysis conducted for grids where tree species were observed and \u03B8 values\
+    \ were available (~115 million fine grids), including non-forested biomes. Results\
+    \ are summarized at different spatial scales from local to global, including country-scale\
+    \ and IPBES subregion-scale. The paper looks at country-level loss of productivity\
+    \ instead of the productivity loss per area."
+  27: The maps illustrate the spatial distribution of projected tree diversity changes
+    and their potential relationship to fossil fuel sites, which could be relevant
+    for understanding ecological risks and potential areas for conservation or adaptation
+    strategies.
+  30: The study focuses on tree diversity-dependent productivity; Results are presented
+    at the local scale and aggregated to biome level; The reference point for the
+    effect size is 2005, and projections are made until the 2070s; The paper looks
+    at the inverse of log(mitigation/baseline) rather than the log of that value,
+    where 0 corresponds to the true absence of the outcome.
+  31: Files to produce these maps are provided as Supplementary Data 4.
+  35: The forested area of each country is represented by the size of the circles.
+    ISO 3166-1 alpha-3 codes are used to indicate countries.
+  46: Productivity loss is measured as the absolute change within each country, not
+    the productivity loss per area.
+  47: Results are primarily based on a comparison between baseline and mitigation
+    scenarios. Caution is necessary when interpreting the results due to the contrasting
+    assumptions in the different SSPs.
+  58: The figure relates to changes in species richness and productivity, which are
+    ecological outcomes, not directly macroeconomic or fiscal ones, though they might
+    have indirect effects on these.
+  62: The analysis focuses on ecological outcomes (tree diversity) and not directly
+    on macroeconomic or macro-fiscal outcomes. The information about tree diversity
+    may be relevant if it can be linked to economic indicators through other channels
+    (e.g., ecosystem services, tourism, agriculture).
+No relevant information:
+  8: This page primarily discusses the importance of biodiversity and ecosystem services
+    for climate stabilization, focusing on forests as carbon sinks. It does not directly
+    address specific macroeconomic or fiscal outcomes, quantitative estimates of costs/benefits
+    of adaptation at a national level, or methodologies for economic analysis. It
+    mentions a 'triple win' for climate, nature, and society, but this is a general
+    concept, not a quantified economic outcome.
+  26: No relevant information
+  40: This page focuses on climate change scenarios, land-use modeling, and species
+    distribution, but does not directly quantify macroeconomic or macro-fiscal outcomes,
+    or costs/benefits of adaptation at a national level. It describes the models and
+    scenarios used, but lacks concrete quantitative results related to the stated
+    outcomes of interest.
+  53: No relevant information
+  54: No relevant information
+  59: The provided text focuses on species extinction and biodiversity, not macroeconomic
+    or macro-fiscal outcomes, costs, or benefits of adaptation at a national level.
+  61: No relevant information
+Outcome(s) of Interest:
+  2: Reduction in terrestrial primary productivity, economic damages from climate
+    change
+  4: "Biodiversity-dependent productivity loss (\u0394P)"
+  5: Reductions in productivity loss due to climate mitigation efforts; Economic value
+    of avoiding carbon emissions; Biodiversity-dependent annual productivity (as a
+    percentage of total NPP)
+  13: Local tree species loss
+  14: Climate change mitigation can lead to 8.8-38.9% reductions in productivity loss
+    compared to a baseline scenario.
+  16: "Loss of tree diversity-dependent productivity (\u0394P)."
+  17: "Country-level social cost of carbon (CSCC) representing marginal damages due\
+    \ to CO2 emissions; Country-level conservation of tree diversity-dependent productivity\
+    \ (CCBP) reflecting local productivity changes aggregated at the country level;\
+    \ Global productivity conservation (measured in gC yr\u207B\xB9)."
+  19: The study examines changes in future land-use under different climate change
+    mitigation and baseline scenarios.
+  21: Forest productivity
+  22: Country-level reduction in forest productivity loss.
+  27: No relevant information
+  30: "Productivity loss (\u0394P) alleviated by climate change mitigation."
+  31: "Tree diversity-dependent productivity (\u0394P)"
+  33: Productivity loss related to tree diversity-dependent productivity due to climate
+    change.
+  35: "Per-area productivity conservation (\u0394P_baseline-adaptation, measured in\
+    \ Mg C ha\u207B\xB9 yr\u207B\xB9), representing the potential impact of adaptation\
+    \ on productivity; Country-level social cost of carbon (CSCC2) in US$/tCO\u2082\
+    ."
+  37: Country-level social cost of carbon.
+  46: Country-level reduction in forest productivity loss (Pg C yr-1).
+  47: Global productivity conservation (reduction in productivity loss).
+  58: No relevant information
+  62: No relevant information
+Quantitative material:
+  2: Biodiversity loss could reduce terrestrial primary productivity by 9-39% across
+    different biomes over the next 50 years.
+  4: Climate change mitigation is estimated to curtail productivity losses by approximately
+    9-39% compared to the baseline scenario of unabated warming.
+  5: Possible conservation of biodiversity-dependent annual productivity by means
+    of climate change mitigation corresponds to approximately 4.9-6.7% of the present
+    total NPP in the terrestrial areas analysed.
+  13: "Effective climate change mitigation policy on species loss (\u0394SR) calculated\
+    \ as mean \u03B1-diversity change within each of the coarse grids between 2005\
+    \ and 2070s. Mitigation efforts corresponded to approximately 3.0-61.3% reductions\
+    \ in local tree species loss compared to the respective baseline scenario."
+  14: Climate change mitigation leads to approximately 8.8-38.9% reductions in productivity
+    loss compared to the baseline scenario between 2005 and the 2070s.
+  16: "Effect sizes of \u0394P were calculated at the local scale (at the spatial\
+    \ scale of the 30 arcseconds cells; n = ~115 million grids) for 17 subregions,\
+    \ shown for five SSPs from 2005 to 2070s, with a scale from -0.3 to 0.3."
+  17: Productivity conservation corresponds to 4.9-6.7% of total net primary productivity
+    in analyzed terrestrial areas; Data on CSCC and CCBP, depicted in graphs, for
+    different SSP scenarios.
+  21: Total NPP was approximately 43.78 Pg C yr-1 in the terrestrial biomes analysed
+    in 2005.
+  22: Absolute changes in forest productivity (kg C m-2 yr-1) for different scenarios
+    of climate/land-use changes at the scale of fine grids.
+  27: "Proportional changes (%) in mean \u03B1-diversity (remaining species richness\
+    \ estimated at the fine grid-scale) are shown within each of the coarse grids\
+    \ (n = 32,670 grids)."
+  30: "Effect sizes [inverse of log(mitigation/baseline)] of \u0394P estimated at\
+    \ the local scale (30 arcseconds); results are shown for the five SSPs and three\
+    \ GCMs from 2005 to 2070s; means and 95% confidence intervals of effect sizes\
+    \ provided in Supplementary Data 3."
+  31: "Effect sizes [inverse of log(mitigation/baseline)] of \u0394P were estimated\
+    \ at the local scale (30 arcseconds). Number of grids ~ 115 million for each scenario.\
+    \ The number of coarse grids is 32,670."
+  33: Effect size of productivity loss due to climate change mitigation shown as a
+    log ratio scale.
+  35: "Data points showing the relationship between ln(CSCC) and \u0394P for various\
+    \ countries under different SSPs and GCMs; Size of dots represents P_c (Tg C yr\u207B\
+    \xB9); Color scale represents the value of total productivity conservation."
+  37: Nat Clim Change 8, 895-900 (2018). Includes country-level social cost of carbon.
+  45: "\u03B8 values estimated between 0.198 and 0.299, with a global mean of 0.26\
+    \ and standard deviation of 0.09, and terrestrial biomes NPP approximately 43.78\
+    \ Pg C yr-1."
+  46: Country-level reduction in forest productivity loss (Pg C yr-1); Social cost
+    of carbon (CSCC) in US$ tCO2-1.
+  47: "The paper presents an estimate of global productivity conservation, calculated\
+    \ as global \u2211 (\u0394Pbaseline \u2013 \u0394Pmitigation) (Fig. 6d)."
+  58: No relevant information
+  62: No relevant information

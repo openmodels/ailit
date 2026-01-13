@@ -1,0 +1,97 @@
+Drivers of Risk:
+  1: Natural hazards (climate risks) are the drivers of risk, impacting physical asset
+    stock.
+  5: The risk being addressed is the inaccurate spatial distribution of asset exposure
+    data.
+  8: No relevant information
+  9: Spatial distribution of asset exposure value is influenced by nightlight intensity
+    and population count.
+  13: No relevant information
+Highlights:
+  1: The LitPop methodology provides global consistency, scalability, openness, replicability,
+    and a low entry threshold for creating asset exposure data. It improves the spatial
+    distribution of macroeconomic indicators by combining nightlight and population
+    data.
+  8: "The LitPop methodology underestimates nGRP (normalized Gross Regional Product)\
+    \ for the Mexico City district and overestimates it for the M\xE9xico district."
+  9: Lit1Pop1 (product of nightlight intensity and population count) distributes GDP
+    better to the subnational level than other combinations; Lit1Pop1 combines the
+    advantages of both input data types and mitigates their limitations.
+  10: LitPop datasets can be used in event-based risk assessments and exported for
+    other applications.
+  13: The page presents comparisons of correlation coefficient (rho), scaling parameter
+    (beta) and root mean squared fraction (RMSF) for 10 different exponent (dataset)
+    combinations across 14 countries. Linear correlation is statistically significant
+    with a p value lower than 0.05 for all shown countries and combinations.
+Methodology:
+  1: The paper introduces LitPop, a globally consistent methodology to disaggregate
+    asset value data proportional to a combination of nightlight intensity and geographical
+    population data. It compares disaggregated gross domestic product (GDP) per subnational
+    administrative region to reported gross regional product (GRP) values for evaluation
+    in 14 industrialized and newly industrialized countries.
+  5: The study uses a LitPop approach, disaggregating national asset value or GDP
+    to a grid level based on nightlight luminosity and population count, with exponents
+    controlling the influence of each factor. The disaggregation skill is assessed
+    by comparing modeled and reported GRP values at the subnational level.
+  8: The LitPop methodology is used to disaggregate GDP at a subnational level, based
+    on nightlight intensity and population data.
+  9: LitPop methodology (using combinations of nightlight and population data) is
+    used to disaggregate total asset values; performance is evaluated by comparing
+    modeled and reference values of normalized gross regional product (nGRP).
+  10: The methodology includes scaling of exposure data proportional to current GDP
+    for years lacking available data.
+  13: The paper compares the statistical properties of different asset exposure datasets
+    for physical risk assessment across different countries, by comparing the performance
+    of 10 different combinations of datasets using the correlation coefficient (rho),
+    a scaling parameter (beta) and the root mean squared fraction (RMSF).
+More Notes:
+  1: The paper highlights the lack of publicly available asset exposure data and proposes
+    a method to address this gap. The resulting asset exposure data is intended for
+    use in globally consistent economic disaster risk assessments and climate change
+    adaptation studies, especially for larger regions at high resolution. The methodology's
+    strength is the combination of nightlights and population data to overcome the
+    limitations of each data source when used individually.
+  5: The paper focuses on improving the spatial representation of asset exposure by
+    combining nightlight data and population data. It does not directly quantify the
+    macroeconomic effects of climate change or adaptation, but rather provides a methodology
+    for spatially disaggregating economic data, which could be used in climate risk
+    assessments.
+  8: The LitPop methodology aims to create globally consistent and spatially highly
+    resolved estimates of gridded asset exposure value. The methodology's disaggregation
+    skill is evaluated for 14 OECD countries.
+  9: The assessment of disaggregation skill was based on the flow variables GDP and
+    GRP, given a correlation between stocks and flows; the performance of the methodology
+    for low-income countries could not be evaluated due to lack of data; asset exposure
+    data should be validated against local data before application for local risk
+    assessments, especially in low-income countries; the quality and resolution of
+    the underlying population dataset vary between countries.
+  10: For local or low-income countries, more localized approaches and sector-specific
+    datasets are advised for better accuracy.
+  13: The analysis seems to focus on the quality and consistency of different asset
+    exposure datasets rather than directly modeling the macroeconomic or fiscal impacts
+    of climate change or adaptation.
+No relevant information:
+  12: This page provides a list of countries and their GRP data sources, but does
+    not offer any analysis or quantitative information on macroeconomic or fiscal
+    outcomes related to climate change risks or adaptation costs and benefits.
+  16: No relevant information
+Outcome(s) of Interest:
+  1: The paper focuses on creating asset exposure data which is useful for economic
+    disaster risk assessments and climate change adaptation studies; it mentions that
+    exposure data, when combined with hazard and vulnerability data, can be used to
+    model physical risk as the direct economic impacts of disasters.
+  5: GDP is used as a proxy for asset value to evaluate the methodology's ability
+    to disaggregate national GDP to a subnational level.
+  8: No relevant information
+  9: Indirect evaluation of asset exposure downscaling is based on the flow variables
+    GDP and GRP.
+  13: No relevant information
+Quantitative material:
+  1: 'The paper references two datasets: an asset exposure dataset for 224 countries
+    (https://doi.org/10.3929/ethz-b-000331316) and the CLIMADA software (https://doi.org/10.5905/ethz-1007-226).'
+  5: The nightlight intensity is on a scale of [0,255].
+  8: "The skill metrics (\u03C1) for the subnational disaggregation of GDP in Mexico\
+    \ show low values (\u03C1=0.76 for Lit1Pop1)."
+  9: Maps show asset exposure values in current USD in 2014 per pixel of approximately
+    1km2, with values ranging from 10^-2 to 10^7.
+  13: true

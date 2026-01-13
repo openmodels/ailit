@@ -1,0 +1,63 @@
+Drivers of Risk:
+  3: Summer temperature and soil moisture are important growth drivers for many Canadian
+    boreal tree species.
+  6: Climate variability (summer temperature, soil water content, fall temperature,
+    spring temperature, snowfall) and changes in atmospheric CO2 concentrations are
+    identified as drivers influencing tree growth.
+  8: Climate effects on species-by-plot averaged residuals of Eq. 2 (GAMMLResijkt)
+    were explored using linear mixed models, testing mean summer soil moisture and
+    temperature, fall and spring mean temperature, cool season total snowfall, and
+    mean annual atmospheric CO2 concentrations ([CO2]).
+Highlights:
+  3: Soil moisture has been an important driver of tree growth in boreal Canada since
+    the mid-20th century.
+  6: The study quantifies the impact of climatic variables and atmospheric CO2 concentrations
+    on tree growth across different tree species, accounting for species-specific
+    responses and regional climate trends. The detrending method is a key highlight.
+  8: The relationship between residuals and atmospheric concentrations of CO2 takes
+    an inflection point at 339 ppmv, suggesting that linear-mixed model predictions
+    are underestimating a potential large-scale growth enhancement in recent years.
+Methodology:
+  3: Growth-climate response patterns were computed for each of the 19 boreal tree
+    species. Trends in forest growth are estimated using National Forest Inventory
+    (NFI) tree core data and normalized difference vegetation index (NDVI) data for
+    the periods 1982-2002 and 1950-2002.
+  6: The analysis uses Generalized Additive Mixed Models (GAMMs) to remove internal
+    biological effects on tree growth and to assess the impact of climate variables
+    and CO2 on tree growth. The growth model was fitted using the mgcv package in
+    R. Detrending techniques are used to address annual growth variability independently
+    of biological age or tree size.
+  8: Linear mixed models were used to explore the climate effects on species-by-plot
+    averaged residuals. Multimodel selection was performed using the MuMIn package,
+    ranking models with cumulative Akaike weights within 95% considered best. Parameter
+    estimates were computed through averaging of multiple models.
+More Notes:
+  3: Extreme temperatures can be detrimental to plant productivity because of heat-related
+    carbohydrate loss via autotrophic respiration. Summer warming has a net negative
+    impact on the long-term growth trajectory of Picea mariana and Pinus banksiana.
+  6: The paper focuses on the biological impacts of climate change on forests, specifically
+    tree growth. The link to national-level macroeconomic or fiscal outcomes is indirect
+    but could be inferred through the role of forests in timber production, carbon
+    sequestration, and ecosystem services.
+  8: No relevant information
+Outcome(s) of Interest:
+  3: No relevant information
+  6: The paper assesses the impact of climatic variables and atmospheric CO2 concentrations
+    on tree growth, measured as basal area increment (BAI), which could relate to
+    timber productivity, forest health, and carbon sequestration potential, factors
+    indirectly relevant to national-level economic productivity and natural resource
+    management.
+  8: No relevant information
+Quantitative material:
+  3: Growth of all needleleaf species within the genera Abies, Picea, and Pinus (except
+    Pinus strobus) was negatively influenced by warm summers in the year before tree
+    growth. The same relationship was found in broadleaf species Betula papyrifera
+    and Populus spp., and needleleaf Thuja occidentalis.
+  6: The paper includes t-statistics for the influence of climatic variables on BAI,
+    plot-level correlation coefficients between fitted estimates and the response
+    variable, and equations for quantifying past annual tree growth variability (Equations
+    3-6). It models BAI as a function of cambial age and tree basal area.
+  8: "Linear trends for 1950\u20132002 at the species-by-ecozone level were examined;\
+    \ slope estimates from regressions were used. Residuals plotted against annual\
+    \ averages of atmospheric concentrations of CO2 are presented. Relationship modeled\
+    \ using a piecewise regression (r = 0.42)."

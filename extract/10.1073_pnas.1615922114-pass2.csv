@@ -1,0 +1,40 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,TFPC Variance Explained,US,Historical (1951-1980),1980,No CC,%,50,NA,NA,NA,NA,NA,E2288,Model 1
+1,TFPC Variance Explained,US,Historical (1981-2010),2010,No CC,%,70,NA,NA,NA,NA,NA,E2288,Model 2
+2,Total Factor Productivity,US,RCP 4.5,2050,2005,Relative to 2005,-0.2,NA,25%,-0.3,75%,-0.1,Page 5,"Projected TFP variations under RCP 4.5 show a decline from the 2010 level by 2050, based on Figure 4."
+3,Total Factor Productivity,US,RCP 8.5,2050,2005,Relative to 2005,-0.4,NA,25%,-0.5,75%,-0.3,Page 5,"Projected TFP variations under RCP 8.5 show a steeper decline than RCP 4.5 from the 2010 level by 2050, based on Figure 4."
+4,Agricultural TFP,US,RCP4.5,2040,Pre-1980s levels,Years earlier,-6,NA,25%,NA,75%,NA,6,"Time at which TFP drops to pre-1980s levels, due to climate sensitivity variations"
+5,Agricultural TFP,US,RCP8.5,2040,Pre-1980s levels,Years earlier,-6,NA,25%,NA,75%,NA,6,"Time at which TFP drops to pre-1980s levels, due to climate sensitivity variations"
+6,Agricultural TFP,US,RCP4.5,2043,Pre-1980s levels,Year,2043,NA,90%,NA,NA,NA,6,Year at which 90% of models project a drop-off to pre-1980s levels
+7,Agricultural TFP,US,RCP8.5,2051,Pre-1980s levels,Year,2051,NA,90%,NA,NA,NA,6,Year at which 90% of models project a drop-off to pre-1980s levels
+8,Agricultural TFP,US,RCP4.5,2050,1981-2010,%,-100,NA,NA,NA,NA,NA,6,All gains in US agricultural productivity during 1981–2010 will likely be canceled by a climate penalty before ~2050 if significant adaptation does not occur.
+9,Agricultural TFP,US,RCP4.5,2040,2010,% per year,-2.84,NA,NA,NA,NA,NA,6,Average climate penalty between 2010-2040
+10,Agricultural TFP,US,RCP8.5,2040,2010,% per year,-4.34,NA,NA,NA,NA,NA,6,Average climate penalty between 2010-2040
+11,Agricultural TFP,US,RCP4.5,2035,1981 to 2010,%,-100,NA,NA,NA,NA,NA,6,Climate penalty will cause TFP to lose all of the gains achieved from 1981 to 2010
+12,Agricultural TFP,US,RCP8.5,2035,RCP4.5,Years earlier,-3,NA,NA,NA,NA,NA,6,Total loss of accumulated TFP growth compared to RCP 4.5
+13,TFPC,US,NA,2010,NA,Correlation Coefficient,0.839,NA,NA,NA,NA,NA,7,Model 2 fits measured TFPC for 1981–2010 with a correlation coefficient of 0.839 (P < 0.00035)
+14,Variance Explained,US,NA,2010,NA,% of Total Variance,70.41,NA,NA,NA,NA,NA,7,"Model 2 fits measured TFPC for 1981–2010, explaining 70.41% of the total variance"
+15,SE,US,NA,2010,NA,units of TFPC,0.028,NA,NA,NA,NA,NA,7,Model 2 fits measured TFPC for 1981–2010 with an SE of 0.028
+16,TFPC,US,NA,1980,NA,Correlation Coefficient,0.702,NA,NA,NA,NA,NA,7,Model 1 fits measured TFPC for 1951–1980 with a correlation coefficient of 0.702 (P < 0.00044)
+17,Variance Explained,US,NA,1980,NA,% of Total Variance,49.34,NA,NA,NA,NA,NA,7,"Model 1 fits measured TFPC for 1951–1980, explaining 49.34% of the total variance"
+18,SE,US,NA,1980,NA,units of TFPC,0.014,NA,NA,NA,NA,NA,7,Model 1 fits measured TFPC for 1951–1980 with an SE of 0.014
+19,Climate Index Contribution,US,NA,2010,NA,% of Total Variance,38.91,NA,NA,NA,NA,NA,7,Impact from first climate index (TAJJA.AH) contributes ~38.91% of the total variance explained.
+20,Climate Index Contribution,US,NA,2010,NA,% of Total Variance,14.41,NA,NA,NA,NA,NA,7,Impact from second climate index (PRDJF.CY) contributes ~14.41% of the total variance explained.
+21,Climate Index Contribution,US,NA,1980,NA,% of Total Variance,27.64,NA,NA,NA,NA,NA,7,First climate index (TASON.NA) contributes ~27.64% of the total variance explained.
+22,Climate Index Contribution,US,NA,1980,NA,% of Total Variance,11.59,NA,NA,NA,NA,NA,7,Second climate index (PRSON.TX) contributes ~11.59% of the total variance explained.
+23,Climate Index Contribution,US,NA,1980,NA,% of Total Variance,10.11,NA,NA,NA,NA,NA,7,Third climate index (TAMAM.CX) contributes ~10.11% of the total variance explained.
+24,TFPC,US,NA,2010,NA,%,1.60,NA,NA,NA,NA,NA,7,"Impact from sixth climate index (TAMAM.SW) contributes ~1.60% of the total variance explained; quantiles not specified, so NA."
+25,TFPC,US,NA,2010,NA,%,0.36,NA,NA,NA,NA,NA,7,"Impact from seventh climate index (TAJJA.CN) contributes ~0.36% of the total variance explained; quantiles not specified, so NA."
+26,TFPC,US,NA,2010,NA,%,5.82,NA,NA,NA,NA,NA,7,"Impact from third climate index (PRJJA.TZ) contributes ~5.82% of the total variance explained; quantiles not specified, so NA."
+27,TFPC,US,NA,2010,NA,%,4.90,NA,NA,NA,NA,NA,7,"Impact from fourth climate index (TASON.CX) contributes ~4.90% of the total variance explained; quantiles not specified, so NA."
+28,TFPC,US,NA,2010,NA,%,4.41,NA,NA,NA,NA,NA,7,"Impact from fifth climate index (PRMAM.CA) contributes ~4.41% of the total variance explained; quantiles not specified, so NA."
+29,Total Factor Productivity,US,RCP4.5,2040,2010,% per year,-2.84,NA,25%,-1.75,75%,-5.19,10,Ensemble mean
+30,Total Factor Productivity,US,RCP4.5,2020,2010,% per year,-0.69,NA,NA,NA,75%,0.0,10,75th percentile GCMs show slight TFP growth
+31,Total Factor Productivity,US,RCP4.5,2030,2020,% per year,-2.40,NA,NA,NA,NA,NA,10,Loss rate rises
+32,Total Factor Productivity,US,RCP4.5,2040,2030,% per year,-5.38,NA,NA,NA,NA,NA,10,Even greater increase
+33,Total Factor Productivity,US,RCP4.5,2040,2010,% per year,-2.97,NA,NA,-1.48,NA,-5.60,10,Using 870 28-y submodels
+34,Total Factor Productivity,US,RCP8.5,2040,2010,% per year,-4.34,NA,25%,-2.52,75%,-13.32,10,Considering climate uncertainty
+35,Total Factor Productivity,US,RCP8.5,2020,2010,% per year,-1.37,NA,NA,NA,NA,NA,10,Moving from
+36,Total Factor Productivity,US,RCP8.5,2030,2020,% per year,-3.26,NA,NA,NA,NA,NA,10,Moving to
+37,Total Factor Productivity,US,RCP8.5,2040,2030,% per year,-8.25,NA,NA,NA,NA,NA,10,Rising from
+38,Total Factor Productivity,US,RCP8.5,2040,2010,% per year,-4.55,NA,NA,-2.17,NA,-14.43,10,Submodel results

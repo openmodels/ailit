@@ -1,0 +1,26 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,GDP Growth,Saudi Arabia,Historical Data,2019,No CC,percentage points,7.64,3.32,NA,NA,NA,NA,10,Short-run impact of Unemployment on GDP growth
+1,GDP Growth,Saudi Arabia,Historical Data,2019,No CC,percentage points,9.63,2.77,NA,NA,NA,NA,10,Short-run impact of Unemployment(-1) on GDP growth
+2,GDP Growth,Saudi Arabia,Historical Data,2019,No CC,percentage points,2.58,0.66,NA,NA,NA,NA,10,Short-run impact of Population on GDP growth
+3,GDP Growth,Saudi Arabia,Historical Data,2019,No CC,percentage points,-3.28,0.96,NA,NA,NA,NA,10,Short-run impact of Rainfall(-2) on GDP growth
+4,GDP Growth,Saudi Arabia,Historical Data,2019,No CC,percentage points,3.00,1.33,NA,NA,NA,NA,10,Short-run impact of Temperature on GDP growth
+5,GDP Growth,Saudi Arabia,Historical Data,2019,No CC,percentage points,-3.32,0.80,NA,NA,NA,NA,10,Short-run impact of CO2(-1) on GDP growth
+6,GDP Growth,Saudi Arabia,Historical Data,2019,No CC,percentage points,-1.84,0.52,NA,NA,NA,NA,10,Short-run impact of CO2(-2) on GDP growth
+7,GDP Growth,Saudi Arabia,Historical Data,2019,No CC,percentage points,0.89,0.33,NA,NA,NA,NA,10,Short-run impact of Inflation on GDP growth
+8,GDP Growth,Saudi Arabia,Historical Data 1990-2019,2019,No CC,Coefficient,0.28,0.18,NA,NA,NA,NA,11,"Effect of Inflation (INF) on GDP Growth, insignificant."
+9,GDP Growth,Saudi Arabia,Historical Data 1990-2019,2019,No CC,Coefficient,9.63,1.56,NA,NA,NA,NA,11,"Effect of Unemployment (UNEMP) on GDP Growth, significant at 1% level."
+10,GDP Growth,Saudi Arabia,Historical Data 1990-2019,2019,No CC,Coefficient,1.44,0.34,NA,NA,NA,NA,11,"Effect of Population (POPL) on GDP Growth, significant at 1% level."
+11,GDP Growth,Saudi Arabia,Historical Data 1990-2019,2019,No CC,Coefficient,-1.50,0.58,NA,NA,NA,NA,11,"Effect of Rainfall (RF) on GDP Growth, significant at 5% level."
+12,GDP Growth,Saudi Arabia,Historical Data 1990-2019,2019,No CC,Coefficient,4.15,1.71,NA,NA,NA,NA,11,"Effect of Temperature (TEPT) on GDP Growth, significant at 5% level."
+13,GDP Growth,Saudi Arabia,Historical Data 1990-2019,2019,No CC,Coefficient,-3.02,0.65,NA,NA,NA,NA,11,"Effect of Carbon Emissions (CO2) on GDP Growth, significant at 1% level."
+14,GDP Growth,Saudi Arabia,Historical Data (1990-2019),2019,Previous Period,coefficient,0.48,0.09,NA,NA,NA,NA,13,ΔGDPG(-1) coefficient from short-run ECM based ARDL results. Significant at the 1% level.
+15,Inflation,Saudi Arabia,Historical Data (1990-2019),2019,Previous Period,coefficient,0.89,0.18,NA,NA,NA,NA,13,Δ(INF) coefficient from short-run ECM based ARDL results. Significant at the 1% level.
+16,Inflation,Saudi Arabia,Historical Data (1990-2019),2019,Previous Period,coefficient,-0.30,0.20,NA,NA,NA,NA,13,Δ(INF(-1) coefficient from short-run ECM based ARDL results.
+17,Unemployment,Saudi Arabia,Historical Data (1990-2019),2019,Previous Period,coefficient,7.64,1.46,NA,NA,NA,NA,13,Δ(UNEMP) coefficient from short-run ECM based ARDL results. Significant at the 1% level.
+18,Rainfall,Saudi Arabia,Historical Data (1990-2019),2019,Previous Period,coefficient,-0.52,0.45,NA,NA,NA,NA,13,Δ(RF) coefficient from short-run ECM based ARDL results.
+19,Rainfall,Saudi Arabia,Historical Data (1990-2019),2019,Previous Period,coefficient,3.28,0.54,NA,NA,NA,NA,13,Δ(RF(-1) coefficient from short-run ECM based ARDL results. Significant at the 1% level.
+20,Temperature,Saudi Arabia,Historical Data (1990-2019),2019,Previous Period,coefficient,3.00,0.75,NA,NA,NA,NA,13,Δ(TEPT) coefficient from short-run ECM based ARDL results. Significant at the 5% level.
+21,Temperature,Saudi Arabia,Historical Data (1990-2019),2019,Previous Period,coefficient,-2.29,0.72,NA,NA,NA,NA,13,Δ(TEPT(-1) coefficient from short-run ECM based ARDL results. Significant at the 1% level.
+22,Carbon Emissions,Saudi Arabia,Historical Data (1990-2019),2019,Previous Period,coefficient,-0.25,0.33,NA,NA,NA,NA,13,Δ(CO2) coefficient from short-run ECM based ARDL results.
+23,Carbon Emissions,Saudi Arabia,Historical Data (1990-2019),2019,Previous Period,coefficient,1.84,0.35,NA,NA,NA,NA,13,Δ(CO2(-1) coefficient from short-run ECM based ARDL results. Significant at the 1% level.
+24,Disequilibrium,Saudi Arabia,Historical Data (1990-2019),2019,Previous Period,coefficient,-1.79,0.15,NA,NA,NA,NA,13,CointEq(ECM)(-1) coefficient from short-run ECM based ARDL results. Significant at the 1% level. Indicates correction of 179% of disequilibrium within one period.

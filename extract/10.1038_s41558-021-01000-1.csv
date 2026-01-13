@@ -1,0 +1,19 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Agricultural TFP,Global,Counterfactual,1961,No CC,%,-21,NA,NA,NA,NA,NA,Page 1,Cumulative TFP loss since 1961 due to anthropogenic climate change.
+1,Agricultural TFP,"Africa, Latin America",Counterfactual,1961,No CC,%,-26,NA,NA,NA,NA,-34,Page 1,Cumulative TFP loss since 1961 due to anthropogenic climate change in warmer regions.
+2,Agricultural TFP,Global,CMIP6,2020,No CC,%,-20.8,NA,5%, -39.1,95%,-10.1,Page 4,Cumulative impact of ACC since 1961
+3,Agricultural TFP,Global,CMIP6,2020,2013,Years,-7,NA,NA,NA,NA,NA,Page 4,Indicates the number of years of productivity growth lost due to ACC
+4,TFP,Global,With ACC,2015,No CC,%,-20.8,NA,90%,-48.3,90%,-14.3,Page 5 of the text,"This value represents the reduction in Total Factor Productivity due to ACC, discussed as more severe than when adjustments for inputs are included."
+5,TFP,Global,With ACC,1961,No CC,%,-16.9,5.9,NA,NA,NA,NA,Page 5 of the text,"This is the mean impact of ACC on Total Factor Productivity from 1961 to a baseline year, with standard deviation."
+6,TFP,Africa,With ACC,1961,No CC,%,-34.0,NA,NA,NA,NA,NA,Page 5 of the text,Specific value highlighting regional disparity in Total Factor Productivity impact due to ACC.
+7,TFP,Near East/N. Africa,With ACC,1961,No CC,%,-30.0,NA,NA,NA,NA,NA,Page 5 of the text,Region-specific impact of Total Factor Productivity due to ACC.
+8,TFP,LatAm/Caribbean,With ACC,1961,No CC,%,-25.9,NA,NA,NA,NA,NA,Page 5 of the text,Region-specific impact of Total Factor Productivity due to ACC.
+9,TFP,North America,With ACC,1961,No CC,%,-12.5,NA,NA,NA,NA,NA,Page 5 of the text,"Region-specific impact of Total Factor Productivity due to ACC, showing less impact relative to warmer regions."
+10,TFP,Europe/Cent. Asia,With ACC,1961,No CC,%,-7.1,NA,NA,NA,NA,NA,Page 5 of the text,"Region-specific impact of Total Factor Productivity due to ACC, showing even less impact."
+11,Agricultural TFP,Global,CMIP6 climate model data,2020,No CC,%,-21,NA,NA,NA,NA,NA,Page 6,Cumulative TFP loss since 1961. The text mentions the impact is a detectable and sizeable impact as of 2020.
+12,Agricultural TFP,Global,CMIP6 climate model data,1961,No CC,%,-16.9,5.9,NA,NA,NA,NA,Highlights,"Average mean impact; this appears to be a time-averaged cumulative impact since 1961, though is not fully specified. Uncertainty estimates are based on climate, econometric, and specification uncertainties."
+13,TFP growth,Global,"Historical, hist-nat, SSP2-4.5",2015,No CC,%,-21,NA,NA,NA,NA,NA,Highlights,Cumulative TFP loss since 1961
+14,TFP growth,Global,"Historical, hist-nat, SSP2-4.5",2015,No CC,%,-16.9,5.9,NA,NA,NA,NA,Highlights,Average mean impact since 1961
+15,TFP increase,Global,Historical,2015,1961,%,76,NA,NA,NA,NA,NA,Methods,Our approach
+16,TFP increase,Global,Historical,2015,1961,%,71,NA,NA,NA,NA,NA,Methods,USDA approach
+17,Agricultural TFP,Global,"CMIP6, No ACC",1961,No CC,%,-16.9,5.9,NA,NA,NA,NA,Extended Data Fig. 10,Average mean impact of 288 models that do not exclude observations.

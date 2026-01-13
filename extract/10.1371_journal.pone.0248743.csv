@@ -1,0 +1,38 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,GDP Growth,Saudi Arabia,Time Series,2019,Unspecified,%,0,NA,NA,NA,NA,NA,Highlights,Rainfall and CO2 emissions have negative impact on GDP growth.  Value is qualitative indicator of impact.
+1,GDP Growth,Saudi Arabia,Time Series,2019,Unspecified,%,0,NA,NA,NA,NA,NA,Highlights,Unemployment and temperature have positive impact on GDP growth.  Value is qualitative indicator of impact.
+2,GDP Growth,Saudi Arabia,None,2019,No CC,Qualitative Impact,-1,NA,NA,NA,NA,NA,Highlights and More Notes,"Rainfall and CO2 emissions have a negative impact on GDP growth. Assigning -1 to represent a directional qualitative impact, but no specific number available."
+3,GDP Growth,Saudi Arabia,None,2019,No CC,Qualitative Impact,1,NA,NA,NA,NA,NA,Highlights,"Unemployment and temperature positively influence GDP growth. Assigning 1 to represent a directional qualitative impact, but no specific number available."
+4,GDPG,Saudi Arabia,None,2019,No CC,%,3.54,4.72,NA,NA,NA,NA,Table 3,"Mean GDP Growth rate, data from 1990-2019"
+5,Inflation,Saudi Arabia,None,2019,No CC,%,1.88,2.65,NA,NA,NA,NA,Table 3,"Mean Inflation rate, data from 1990-2019"
+6,Unemployment,Saudi Arabia,None,2019,No CC,%,5.80,0.78,NA,NA,NA,NA,Table 3,"Mean Unemployment rate, data from 1990-2019"
+7,Population,Saudi Arabia,None,2019,No CC,%,24.32,5.65,NA,NA,NA,NA,Table 3,"Mean Population, data from 1990-2019"
+8,Rainfall,Saudi Arabia,None,2019,No CC,%,4.53,2.13,NA,NA,NA,NA,Table 3,"Mean Rainfall, data from 1990-2019"
+9,Temperature,Saudi Arabia,None,2019,No CC,%,26.39,0.60,NA,NA,NA,NA,Table 3,"Mean Temperature, data from 1990-2019"
+10,Carbon emissions,Saudi Arabia,None,2019,No CC,%,16.19,2.77,NA,NA,NA,NA,Table 3,"Mean Carbon emissions, data from 1990-2019"
+11,Inflation,Saudi Arabia,None,2019,No CC,Coefficient,0.28,0.18,NA,NA,NA,NA,PLOS ONE Table 7,Inflation has a positive but insignificant effect on GDP growth.
+12,Unemployment,Saudi Arabia,None,2019,No CC,Coefficient,9.63,1.56,NA,NA,NA,NA,PLOS ONE Table 7,Unemployment has a significant positive effect on GDP growth at the 1% significance level.
+13,Population,Saudi Arabia,None,2019,No CC,Coefficient,1.44,0.34,NA,NA,NA,NA,PLOS ONE Table 7,Population growth has a significant positive effect on GDP growth at the 1% significance level.
+14,Rainfall,Saudi Arabia,None,2019,No CC,Coefficient,-1.50,0.58,NA,NA,NA,NA,PLOS ONE Table 7,Rainfall has a significant negative effect on GDP growth at the 5% significance level.
+15,Temperature,Saudi Arabia,None,2019,No CC,Coefficient,4.15,1.71,NA,NA,NA,NA,PLOS ONE Table 7,Temperature has a significant positive effect on GDP growth at the 5% significance level.
+16,Carbon Emissions,Saudi Arabia,None,2019,No CC,Coefficient,-3.02,0.65,NA,NA,NA,NA,PLOS ONE Table 7,Carbon emissions have a significant negative effect on GDP growth at the 1% significance level.
+17,GDP growth,Saudi Arabia,Unspecified,2019,Unspecified,Coefficient in ECM,-1.79,NA,NA,NA,NA,NA,Page 12,"The error correction model produced an error correction coefficient for cointegrating equation [(denoted as CointEq (-1)], which was -1.79 and highly significant at the 1% level. Negative and significant implies long-term relationship exists between the dependent variable and the regressors. The coefficient is from the ARDL model which covers 1990-2019."
+18,GDP Growth,Saudi Arabia,None,1990,No CC,percentage change,0.48,0.09,NA,NA,NA,NA,Table 8,Coefficient of ΔGDPG(-1).  Model uses data from 1990-2019.
+19,Inflation,Saudi Arabia,None,1990,No CC,percentage change,0.89,0.18,NA,NA,NA,NA,Table 8,Coefficient of Δ(INF). Model uses data from 1990-2019.
+20,Inflation,Saudi Arabia,None,1990,No CC,percentage change,-0.30,0.20,NA,NA,NA,NA,Table 8,Coefficient of Δ(INF(-1). Model uses data from 1990-2019.
+21,Unemployment,Saudi Arabia,None,1990,No CC,percentage change,7.64,1.46,NA,NA,NA,NA,Table 8,Coefficient of Δ(UNEMP). Model uses data from 1990-2019.
+22,Rainfall,Saudi Arabia,None,1990,No CC,percentage change,-0.52,0.45,NA,NA,NA,NA,Table 8,Coefficient of Δ(RF). Model uses data from 1990-2019.
+23,Rainfall,Saudi Arabia,None,1990,No CC,percentage change,3.28,0.54,NA,NA,NA,NA,Table 8,Coefficient of Δ(RF(-1). Model uses data from 1990-2019.
+24,Temperature,Saudi Arabia,None,1990,No CC,percentage change,3.00,0.75,NA,NA,NA,NA,Table 8,Coefficient of Δ(TEPT). Model uses data from 1990-2019.
+25,Temperature,Saudi Arabia,None,1990,No CC,percentage change,-2.29,0.72,NA,NA,NA,NA,Table 8,Coefficient of Δ(TEPT(-1). Model uses data from 1990-2019.
+26,Carbon Emissions,Saudi Arabia,None,1990,No CC,percentage change,-0.25,0.33,NA,NA,NA,NA,Table 8,Coefficient of Δ(CO2). Model uses data from 1990-2019.
+27,Carbon Emissions,Saudi Arabia,None,1990,No CC,percentage change,1.84,0.35,NA,NA,NA,NA,Table 8,Coefficient of Δ(CO2(-1). Model uses data from 1990-2019.
+28,GDP Growth,Saudi Arabia,None,1990,Long-run equilibrium,percentage change,-1.79,0.15,NA,NA,NA,NA,Table 8,Coefficient of CointEq(ECM)(-1). Model uses data from 1990-2019.
+29,GDP Growth,Saudi Arabia,Time Series,2019,No CC,Unitless,0,NA,NA,NA,NA,NA,"Page 15, Figure 5","An exogenous shock to any independent variable (carbon emissions, rainfall, temperature, inflation, population, unemployment) did not have a detectable effect on GDP growth during the study period (1990-2019) based on Impulse Response Function analysis."
+30,Economic Growth,Saudi Arabia,Time Series,2019,Baseline,Index,-1,NA,NA,NA,NA,NA,Page 15,Variance Decomposition shows that economic growth demonstrated a descending trend within a 10-period horizon. Value is trending down (assigned -1 for descending).
+31,Carbon Emissions,Saudi Arabia,Time Series,2019,Baseline,Index,1,NA,NA,NA,NA,NA,Page 15,Variance Decomposition shows that carbon emissions responded relatively well to economic growth dynamics within a 10-period horizon. Value is positively correlated (assigned 1 for positive correlation).
+32,Unemployment,Saudi Arabia,Time Series,2019,Baseline,Index,1,NA,NA,NA,NA,NA,Page 15,Variance Decomposition shows that unemployment responded relatively well to economic growth dynamics within a 10-period horizon. Value is positively correlated (assigned 1 for positive correlation).
+33,Inflation,Saudi Arabia,Time Series,2019,Baseline,Index,1,NA,NA,NA,NA,NA,Page 15,Variance Decomposition shows that inflation responded relatively well to economic growth dynamics within a 10-period horizon. Value is positively correlated (assigned 1 for positive correlation).
+34,Rainfall,Saudi Arabia,Time Series,2019,Baseline,Index,0,NA,NA,NA,NA,NA,Page 15,Variance Decomposition shows that the response of rainfall to economic growth was not decisive within a 10-period horizon. Assigned 0 for no decisive trend.
+35,Temperature,Saudi Arabia,Time Series,2019,Baseline,Index,0,NA,NA,NA,NA,NA,Page 15,Variance Decomposition shows that the response of temperature to economic growth was not decisive within a 10-period horizon. Assigned 0 for no decisive trend.
+36,Population,Saudi Arabia,Time Series,2019,Baseline,Index,0,NA,NA,NA,NA,NA,Page 15,Variance Decomposition shows that the response of population to economic growth was not decisive within a 10-period horizon. Assigned 0 for no decisive trend.

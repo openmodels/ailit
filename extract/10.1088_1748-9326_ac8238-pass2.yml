@@ -1,0 +1,73 @@
+Drivers of Risk:
+  2: Uncertainty in climate projections (parametric, structural, and internal variability).
+    Structural uncertainty is a dominant factor.
+  3: Uncertainty in climate models (parametric, internal variability, and structural);
+    Radiative forcing (greenhouse gases, aerosols, etc.)
+  5: Temperature projections under shared socioeconomic pathways (SSPs).
+  6: Temperature increases under different socioeconomic pathways (SSP4-6.0 and SSP3-7.0);
+    Structural and parametric uncertainty in climate models; Choice of damage function
+    (Weitzman); Discount rate.
+Highlights:
+  2: Structural uncertainty is important for climate projections and dominates overall
+    non-socioeconomic uncertainty in economic projections of climate change damages.
+    A model with a temperature-dependent climate feedback is most consistent with
+    global mean surface temperature observations, but the sign of the temperature-dependence
+    is opposite of what Earth system models suggest.
+  3: Structural uncertainty is much larger than parametric uncertainty for projections
+    of temperature (T) and calculations of damages due to climate change; Reported
+    uncertainties of climate projections may be underestimated due to the neglect
+    of structural uncertainty.
+  5: Structural uncertainty is dominant for temperature projections, which propagates
+    into economic damages.
+  6: "Structural uncertainty is a significant driver of uncertainty in economic damage\
+    \ projections, often more so than parametric uncertainty. The choice of damage\
+    \ function and discount rate significantly impacts the magnitude of projected\
+    \ damages and the relative importance of structural uncertainty. The discrepancies\
+    \ between the multi-model median and \u03BBT model median damages are also related\
+    \ to the Weitzman damage function."
+Methodology:
+  2: "A Bayesian approach is used to quantify structural uncertainty in climate projections,\
+    \ using idealised energy-balance-model representations of climate physics that\
+    \ underpin many economists\u2019 integrated assessment models (IAMs)."
+  3: Computational Bayesian approach using energy balance models (EBMs) to project
+    global mean surface temperature (T); Focus on quantifying structural uncertainty
+    in EBMs.
+  5: Damage calculations using the approach and default assumptions from [10], Weitzman
+    [25] damage function, and a discount rate of 4.255%.
+  6: Uses a temperature-dependent feedback model and multi-model ensemble to project
+    damages. Calculates damages over the period 2020-2300 using different damage functions
+    and discount rates. Analyzes the ratio of structural to parametric uncertainty
+    (u) for economic damages.
+More Notes:
+  2: The difference in the sign of temperature-dependence is likely due to the assumption
+    that recent pattern effect can be represented as a temperature dependence.
+  3: The study aims to quantify structural uncertainty in a simple EBM used by several
+    Integrated Assessment Models (IAMs); The study acknowledges that economic models
+    have additional uncertainties but focuses only on how physical uncertainty propagates
+    into uncertainty in economic calculations.
+  5: The temperature-dependent feedback model may be underestimating future warming
+    due to a pattern effect in tropical convection.
+  6: "The study emphasizes the importance of characterizing structural uncertainty\
+    \ in both physical and economic projections of climate change. The approach used\
+    \ in this paper can be applied to more complex climate models by using model selection\
+    \ parameters for different components, if the model is computationally efficient\
+    \ enough. Reducing structural uncertainty can be achieved by incorporating known\
+    \ phenomena such as the El Ni\xF1o Southern Oscillation or leveraging observations\
+    \ such as ocean heat content or paleorecords."
+Outcome(s) of Interest:
+  2: Economic projections of climate change damages are estimated from a temperature-to-damages
+    calculation.
+  3: Damages due to climate change; Economic calculations related to climate change
+  5: Economic damages resulting from climate change.
+  6: Economic damages (in trillions of 2019 USD) calculated over the period 2020-2300.
+Quantitative material:
+  2: Structural uncertainty dwarfs parametric uncertainty in temperature projections
+    using shared socioeconomic pathways similar to current emissions reduction targets.
+  3: No quantitative information on macroeconomic or fiscal outcomes on this page.
+  5: 'Structural uncertainty in temperature projections under SSP4-6.0: u(T(2100))
+    = 2.0 and u(T(2300)) = 2.7. Structural uncertainty in temperature projections
+    under SSP3-7.0: u(T(2100)) = 2.3 and u(T(2300)) = 4.1.'
+  6: Median and interquartile range of damages projected under SSP4-6.0 and SSP3-7.0
+    are provided in trillions of 2019 USD. A ratio (u) of structural vs. parametric
+    uncertainty for economic damages is also provided. Default discount rate used
+    is 4.255%.

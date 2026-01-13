@@ -1,0 +1,137 @@
+Drivers of Risk:
+  1: Temperature, low agricultural potential
+  2: Rising temperatures; Low agricultural potential
+  3: Temperature interacting with agricultural potential influences conflict incidence;
+    conflict is seen as a possible outcome of natural resource degradation or climate
+    events.
+  4: Annual variation in temperature interacting with agricultural potential.
+  5: The probability of conflict increases with temperature changes, especially in
+    countries with low agricultural potential.
+  11: Temperature
+  13: Temperature, and interactions of temperature with agricultural vs. non-agricultural
+    sectors, OECD vs. non-OECD countries, and OPEC vs. non-OPEC countries.
+  15: Temperature (Temp), Interaction (Inter) between temperature and other factors,
+    Standardized temperature (Std), Decennial average temperature (Decade).
+  16: Average temperature at the country level over the period 1946-2014; Agricultural
+    potential (share of land with a suitability index greater than 40).
+Highlights:
+  1: Low agricultural potential exacerbates the effect of temperature on civil conflicts.
+  2: Initial agricultural conditions play a significant role in understanding climate-conflict
+    linkages on a global scale.
+  3: The study aims at establishing the causal link between temperature and conflicts
+    through the magnifying effects of agricultural potential.
+  4: Countries with low agricultural potential have a larger probability to be in
+    conflict in response to a deviation from their mean annual temperature compared
+    to high agricultural potential countries.
+  5: High agricultural potential reduces the probability of conflict more effectively
+    in the long run than short run, with a 10% decrease in conflict probability from
+    a one-degree deviation for high potential countries.
+  11: The effect of temperature and its interaction on the outcome are estimated,
+    with results shown for different model specifications.
+  13: Temperature has a statistically significant positive effect on the outcome variable.
+    The effect of temperature is significantly different in agricultural vs. non-agricultural
+    sectors, OECD vs. non-OECD countries, and OPEC vs. non-OPEC countries.
+  15: Temperature and its interaction with other factors have statistically significant
+    effects on the outcome variable (as coefficients are different than zero given
+    the confidence intervals). The direction and magnitude of the effects vary depending
+    on how temperature is measured (Temp, Inter, Std, Decade) and whether an interaction
+    term is included.
+  16: "The red zones denote areas of highest conflict prediction, primarily located\
+    \ where average temperatures are around 10\xB0C to 18\xB0C, with varying agricultural\
+    \ potential; blue areas show regions of lower predicted conflict incidence and\
+    \ are predominantly found in areas with either extreme high or low temperatures,\
+    \ and varying agricultural potential."
+Methodology:
+  2: Natural experiment using data for 172 countries from 1946 until 2014, examining
+    the interaction between time-wise variations in temperature and cross-country
+    variation in agricultural potential on conflict incidence. Long-term relationships
+    are analyzed using decennial averages.
+  3: A linear probability model is used to examine the effect of the interaction between
+    temperature and agricultural potential on conflict incidence; the model uses country
+    fixed effects and year fixed effects to control for unobserved variables; approach
+    is akin to a natural experiment.
+  4: The study uses conflict data from the Uppsala Conflict Data Program and climate
+    data from the Climatic Research Unit of the University of East Anglia. It defines
+    agricultural potential based on the project for Global Agricultural Productivity
+    and Ecological Zones (GAEZ) from the Food and Agricultural Organization. It analyzes
+    the causal effect of the interaction between annual variation in temperature and
+    agricultural potential on the incidence of intrastate conflict.
+  5: The study examines the relationship between standardized temperature changes
+    and conflict rates, using decade averages to assess long-run effects.
+  11: Linear probability model with country fixed effects, time fixed effects, robust
+    standard errors clustered at the country level. The model includes variations
+    using only temperature, temperature and an interaction term, standardized temperature,
+    and decennial temperature averages.
+  13: Panel regression with country and year fixed effects, robust standard errors
+    clustered at the country level. The analysis is applicable to a panel of countries
+    over time, but the time period is not specified on this page.
+  15: Linear probability model with country and time fixed effects and robust standard
+    errors clustered at the country level. Regression includes a constant term. Temperature
+    is included as a covariate; interaction terms include temperature and other unspecified
+    factors.
+  16: The analysis uses a contour plot to visualize the relationship between average
+    temperature and agricultural potential, depicting predicted values of conflict
+    incidence.
+More Notes:
+  1: This is a preprint, so the findings are preliminary and not peer-reviewed. A
+    version of this preprint was published at Ecological Economics on February 1st,
+    2022.
+  2: The interaction between temperature and agricultural potential has no significant
+    effect in countries with exportable resources such as oil.
+  3: The paper focuses on the link between temperature, agricultural potential, and
+    conflict, framing climate change as a 'multiplier of threats'.
+  4: The paper focuses on intrastate conflicts with a clearly defined political incompatibility
+    and uses a binary variable to describe conflict incidence. The agricultural potential
+    is defined based on cereals potential yields from a rain regime and a low level
+    of inputs.
+  6: This paper primarily focuses on the relationship between climate, agricultural
+    potential, and conflict, rather than providing quantitative estimates of macroeconomic
+    or fiscal impacts or adaptation costs/benefits. The mention of income shocks potentially
+    leading to civil conflict is the closest connection, but it is not explicitly
+    quantified. The paper argues that unfavorable agricultural potential may lead
+    to a history of violence through poor self-reinforcing socio-economic outcomes
+  11: The number of observations varies (9344 or 990) depending on the regression.
+    Agricultural potential is captured by country fixed effects.
+  13: The outcome variable is not explicitly defined on this page, limiting the interpretability
+    of the results.
+  15: Agricultural potential is controlled for by country fixed effects. The number
+    of observations is either 9344 or 990, depending on whether decennial averages
+    are used. The nature of the interaction term is not specified.
+  16: The figure presents predicted conflict incidence but does not directly address
+    macroeconomic or macro-fiscal outcomes, costs, or benefits of adaptation. The
+    supplementary material, 'SupplementaryMaterialanonym.pdf', may contain additional
+    relevant information not available from the figure and description.
+Outcome(s) of Interest:
+  1: Civil conflict
+  2: No relevant information
+  3: No relevant information
+  4: No relevant information
+  11: No relevant information
+  13: The effect of temperature on some unspecified macroeconomic outcome.
+  15: The nature of the outcome is not explicitly stated but it is estimated using
+    a linear probability model, implying that it could be a binary indicator of some
+    event or condition related to macroeconomic or macro-fiscal conditions. The specific
+    economic variable being affected by temperature changes is not mentioned on this
+    page.
+  16: No relevant information
+Quantitative material:
+  2: There is a 4% higher probability of civil conflict when annual temperature deviates
+    from its mean in a country with low agricultural potential relative to a country
+    with high agricultural potential.
+  3: No relevant information
+  4: A change of one degree Celsius is associated with an increase in the probability
+    of being in conflict by 4.1% relatively to better endowed countries, for countries
+    with no land above the medium Suitability Index threshold.
+  5: A one-degree Celsius increase could decrease conflict probability by 5.1% in
+    high agricultural potential countries compared to poorly endowed ones.
+  11: Coefficient on temperature ranges from approximately 0.0175 to 0.0410, and the
+    coefficient of the interaction term ranges from approximately -0.1405 to 0.0392.
+  13: A 1 degree increase in temperature is associated with a 0.040 to 0.041 increase
+    in the outcome variable (significant at the 5% or 10% level). Interaction terms
+    suggest this effect varies depending on the type of country or sector.
+  16: "The X-axis represents average temperature (in degrees Celsius) at the country\
+    \ level over the period 1946-2014, ranging from approximately -2\xB0C to 26\xB0\
+    C; The Y-axis shows agricultural potential, defined as the share of land with\
+    \ a suitability index greater than 40 (SI > 40), ranging from 0 to 10; The color\
+    \ gradient represents predicted values of conflict incidence, from blue (low)\
+    \ to red (high)."

@@ -1,0 +1,160 @@
+Drivers of Risk:
+  1: Climate change (temperature increases, shifts in climate patterns).
+  2: Climate change impacts on crop yields. Socio-economic effects associated with
+    biophysical changes in crop yields induced by climate factors. Weather shocks.
+  7: Crop-mix land use shares are impacted by average growing season temperature (GrsAvg),
+    precipitation (Precip), irrigation rate (IrrigRate.lag), time trend, pesticide
+    use (Pesticide.lag), fertilizer use (Fertilizer.lag), farm revenue (FarmRev.lag),
+    planted scale (PlantedScale.lag), mean growing season temperature (meanGrs), and
+    mean precipitation (meanPrep).
+  9: GrsAvg (Growing Season Average Temperature), Precip (Precipitation), IrrigRate.lag
+    (Lagged Irrigation Rate), Pesticide.lag (Lagged Pesticide Use), Fertilizer.lag
+    (Lagged Fertilizer Use), FarmRev.lag (Lagged Farm Revenue), PlantedScale.lag (Lagged
+    Planted Scale), meanGrs (Mean Growing Season Temperature), meanPrep (Mean Precipitation)
+  11: Growing season temperature and annual total precipitation.
+  12: "Increased global average temperatures (specifically +0.72, +1.22, and +2.22\xB0\
+    C above the 20th century average, representing +1.5\xB0C, +2.0\xB0C, and +3.0\xB0\
+    C warming scenarios) impacting crop area shares."
+  13: "Future warming scenarios (+1.5\xB0C, +2\xB0C, +3\xB0C) impacting crop suitability\
+    \ and geographic distribution."
+  14: Increases in temperature and climate change are anticipated to impact future
+    crop mix and affect regional agricultural production.
+  15: No relevant information
+Highlights:
+  1: Temperature increases are projected to raise the incidence of wheat and tubers
+    while reducing that for rice and maize. Cash crops and fiber-producing crops will
+    increase, whereas oil-bearing crops and specialty crops will decrease.
+  2: Climate change negatively impacts corn and soybean yields, leading to economic
+    losses and potential shifts in cropland use.
+  5: No relevant information
+  7: Growing season average temperature squared (GrsAvg2) shows a statistically significant
+    negative impact on maize land use share, and a statistically significant positive
+    impact on wheat and oilseed land use share. Precipitation shows statistically
+    significant negative impacts on tuber land use share and statistically significant
+    positive impacts on precipitation squared.
+  9: Growing season average temperature (GrsAvg) has a statistically significant negative
+    impact on Maize production. Precipitation has a statistically significant positive
+    impact on Rice production, and negative impact on Tubers, Vege and Orchards. Lagged
+    irrigation rate (IrrigRate.lag) has a statistically significant positive impact
+    on Rice, Wheat, Oils, Cotton, and Vege production, and negative impact on Maize
+    and Tubers. Lagged planted scale (PlantedScale. lag) has a statistically significant
+    positive impact on Rice and Cotton production, and negative impact on Wheat, Tubers
+    and Oils and Vege. Mean growing season average temperature (meanGrs) has a statistically
+    significant negative impact on Rice, and positive impact on Orchards. Mean precipitation
+    (meanPrep) has a statistically significant positive impact on Rice, and negative
+    impact on Maize and Wheat.
+  11: Growing season temperature has a positive impact on the area share of tubers
+    and orchards, and a negative impact on oilseeds, vegetables, and specialty crops.
+    Annual total precipitation has a positive impact on the area share of tubers and
+    vegetables, and a negative impact on the area share of orchards, oilseeds, and
+    specialty crops.
+  12: Warming is projected to decrease the area shares of cereals (including rice
+    and maize), oil-bearing crops (including soybeans and oilseed crops), and specialty
+    crops. The area shares of food crops (including wheat and tubers), fiber-producing
+    crops (including cotton and other fiber crops), and cash crops (such as vegetables
+    and orchards) will increase. Vegetables and orchards are projected to experience
+    expansions, especially in southern regions that are currently major rice-producing
+    regions.
+  13: Significant regional shifts in agricultural land use are projected under future
+    warming scenarios. Some crops are projected to expand in area while others contract,
+    depending on the region and warming scenario.
+  14: Climate change impacts on crop mix will vary by crop. Under future climate change
+    wheat and tuber crops are likely to expand should no intervention take place,
+    whereas rice may not step in as an alternative.
+  15: No relevant information
+Methodology:
+  1: Fractional multinomial logit (FMLOGIT) model using planted area shares for each
+    crop in each mainland Chinese province from 2001 to 2013. Applicable to understanding
+    and forecasting the influence of climate on regional crop mixes in China.
+  2: "Investigating cropland allocations with comprehensive geographic coverage and\
+    \ projecting changes based on consistency of spatial units of input\u2013output\
+    \ data."
+  5: The table presents summary statistics of data used in an analysis. The data spans
+    from 2000 to 2014, with some pesticide data from 2001-2014. The analysis likely
+    involves statistical modeling using these variables.
+  7: Regression analysis is used to estimate the coefficients of crop-mix land use
+    shares based on listed variables. The total number of observations is 403.
+  9: Regression analysis using delta-method standard errors to estimate marginal effects.
+    Results are applicable at the means of the independent variables.
+  12: "Projection of changes in crop area shares under three alternative warming scenarios\
+    \ (+0.72, +1.22, and +2.22\xB0C) relative to a baseline with climate change at\
+    \ the historical mean covering 2003\u20132012. The projections are region-specific."
+  13: Authors' calculations based on spatial analysis of crop suitability under different
+    warming scenarios. Maps show projected changes in crop area shares. Applicable
+    to China.
+  15: No relevant information
+More Notes:
+  1: The study aims to inform agricultural research, infrastructure development, trade
+    needs, early warnings on adaptation needs, types of adaptations to pursue, future
+    prospects for regional food production, and changes in rural income potential.
+  2: "The paper suggests that cropland allocation between crops should be of interest\
+    \ for better agricultural land use decision-making and policy research in China.\
+    \ The paper intends to model cropland allocations with comprehensive geographic\
+    \ coverage and project changes based on consistency of spatial units of input\u2013\
+    output data."
+  5: The paper analyzes the impact of various factors on crop planting area shares
+    in China. The data used includes climatic variables, input usage, and planted
+    area ratios.
+  7: The definitions of variables are in Table 1 of the paper.
+  9: "The table presents marginal effects, not overall impacts. The observation count\
+    \ is 403. The de\uFB01nitions of variables are in Table 1 of the original paper,\
+    \ which is not provided."
+  11: The analysis focuses on agricultural land use, which may have implications for
+    national level economic outcomes, although the direct links to macroeconomic or
+    fiscal variables are not made explicit on this page.
+  12: The future projections do not take into account changes in other factors such
+    as irrigation capacity, fertilizer use efficiency, and water resources.
+  13: The analysis focuses solely on the geographic distribution of crops and doesn't
+    model economic impacts or adaptation strategies. The figure's note says the data
+    is from the authors' calculations, but does not state the model, tools, or data
+    that was used to perform the calculations.
+  15: No relevant information
+No relevant information:
+  17: No relevant information
+Outcome(s) of Interest:
+  1: Regional food security, agricultural income, rural income potential.
+  2: Economic loss in China's corn and soybeans sectors. Alterations in cropland use
+    decisions.
+  5: No relevant information
+  7: No relevant information
+  9: No relevant information
+  11: The predicted area share of different crop types (Tubers, Orchards, Oilseeds,
+    Vegetables, and Specialty Crops) under varying climatic conditions.
+  12: No relevant information
+  13: Implied effects on agricultural productivity and food security due to changes
+    in crop yields. Suggests potential impacts on GDP, trade, and commodity prices,
+    though not directly quantified.
+  14: Regional imbalances between supply and demand of agricultural products and food
+    security at the regional level.
+  15: No relevant information
+Quantitative material:
+  1: Projected changes in the incidence of wheat, tubers, rice, maize, vegetables,
+    orchards, fiber-producing crops, oil-bearing crops, and specialty crops under
+    future climate scenarios.
+  2: "Climate change causes an economic loss in China\u2019s corn and soybeans sectors\
+    \ that amounted to $820 million cumulatively (in Year 2009 $US dollars) during\
+    \ the period of 2001\u20132009."
+  5: The table provides summary statistics (mean, standard deviation, minimum, and
+    maximum) for various variables related to crop production in China. These include
+    temperature, precipitation, planted area ratios, irrigation rates, pesticide usage,
+    fertilizer usage, farm revenue, and planted area shares for different crops. However,
+    it does not provide any macroeconomic or fiscal outcomes.
+  7: Estimated coefficients and standard errors are provided for each of the listed
+    drivers on the land use share of rice, maize, wheat, soybeans, tubers, oilseeds,
+    cotton, vegetables, orchards, and specialties. Significance levels are also indicated
+    (*p < 0.1; **p< 0.05; ***p < 0.01).
+  9: Marginal effects of the listed variables on the production of Rice, Maize, Wheat,
+    Soybean, Tubers, Oils, Cotton, Vege, Orchards, Special, and Fibers, evaluated
+    at the means of the variables.
+  11: The graphs provide visual quantitative information on the predicted area share
+    of different crop types as a function of growing season temperature (in degrees
+    Celsius) and annual total precipitation (in 100 mm).
+  12: "Under the SR1 +1.5\xB0C scenario, the projected mean rice area share goes down\
+    \ by 1.51 percentage points, rising to 5.11 percentage points under the SR3 +3.0\xB0\
+    C scenario. Orchards increase, with the projected mean increasing by an average\
+    \ of 1.62 percentage points under the SR1 +1.5\xB0C scenario to 5.97 percentage\
+    \ points under the SR3 +3.0\xB0C scenario."
+  13: Provides percentage changes in crop area shares under different warming scenarios
+    for various crops (rice, maize, wheat, specialty crops, tuber crops, oilseeds,
+    cotton, vegetables, orchard, soybean).
+  15: No relevant information

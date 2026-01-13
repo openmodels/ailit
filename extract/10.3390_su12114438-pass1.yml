@@ -1,0 +1,90 @@
+Drivers of Risk:
+  2: No relevant information
+  4: Climate Vulnerability Index (CVI), GDP per capita (GDPc), long term external
+    debt (EDLT), historical public debt (PD), net official development assistance
+    per capita (NODAc), total population (POP), urban population (UPOP), population
+    density (POPD), agricultural area (AGR), forest area (FOR), mean years of schooling
+    (MYS), government effectiveness (GE), political stability (PS), regulatory quality
+    (RQ), political rights (PR), and civil liberties (CL).
+  5: GDPC, EDLT, PD, NODAC, POP, PD, UPOP, AGR, FOR, MYS, PS, GE, RQ, PR, and CL are
+    covariates at level 1; country-level factors (level 2); year effects (level 3).
+  7: 'The following variables are used as explanatory variables: GDPC (likely GDP
+    per capita), EDLT (likely external debt), PD (likely population density), NODAC
+    (unclear), POP (population), POPD (population density), UPOP (urban population),
+    AGRI (agricultural land), FOR (forest land), MYS (mean years of schooling), PS,
+    GE, RQ (unclear), PR, CL (unclear).'
+  9: Country group (Developing, Transition economies, Developed), GDPC (variable definition
+    not on this page), PD (variable definition not on this page), NODAC (variable
+    definition not on this page), POP (variable definition not on this page), POPD
+    (variable definition not on this page), UPOP (variable definition not on this
+    page), AGR (variable definition not on this page), MYS (variable definition not
+    on this page), PS (variable definition not on this page), GE (variable definition
+    not on this page), RQ (variable definition not on this page).
+  10: Public debt accumulation (PD), official development assistance (NODAc), total
+    population (POP), population density (POPD), and agricultural land use (AGR) lead
+    to increased vulnerability.
+Highlights:
+  1: Less-developed countries show increased vulnerability compared to developed countries
+    and those in transition stages.
+  2: The study aims to explore the effect of different macro-level characteristics
+    on national climate change vulnerability, using the ND-GAIN Climate Change Vulnerability
+    Index (CVI) as a dependent variable.
+  9: Developing countries positively affect vulnerability performance compared to
+    transition and developed economies. GDPC, UPOP, MYS, PS, GE, and RQ show a negative
+    effect on the level of vulnerability.
+  10: Economic growth (GDPc), demographic transition from rural to urban areas (UPOP),
+    human capital development (MYS) and formal institutional arrangements (PS, GE
+    and RQ) all contribute to reduced vulnerability to climate change.
+Methodology:
+  1: "The analysis uses a 1995\u20132016 annual time series dataset from 192 countries."
+  2: This study aims to explore the effect of different macro-level characteristics
+    on national climate change vulnerability. The dependent variable is the Notre
+    Dame Global Adaptation Initiative (ND-GAIN) Climate Change Vulnerability Index
+    (CVI).
+  4: "A 3-level hierarchical linear multilevel (HLM) model is utilized to assess the\
+    \ effects of the explanatory variables on country-level climate vulnerability.\
+    \ The analysis uses a 1995\u20132016 annual time series panel dataset of 192 countries."
+  5: Linear mixed effects hierarchical models using lme4 library in R are used to
+    analyze the relationship between dependent variables and explanatory factors;
+    model comparison approach using likelihood ratio test (LRT) is used to assess
+    model fit.
+  7: A hierarchical linear model approach is used. The Kolmogorov-Smirnov test suggests
+    the vulnerability variable is normally distributed, justifying the choice of model.
+  9: Hierarchical Linear Multilevel (HLM) model with backward elimination algorithm
+    for covariate selection. Likelihood ratio tests were used for model comparisons.
+  10: 3-level hierarchical linear multilevel model.
+More Notes:
+  2: The study aims to determine how country-level indices influence the level of
+    vulnerability on a national level.
+  5: The model formulation assumes 'Year' variable is a random effects covariate,
+    and the variance partition coefficient (VPC) is calculated to measure its random
+    effects; the study uses categorical predictor variable of country with 'Developing'
+    as the reference category.
+  7: The abbreviations used for the explanatory variables are not defined within the
+    text, which makes interpretation difficult.
+  9: The specific measure of vulnerability performance is not defined on this page,
+    and the definitions of the independent variables (GDPC, PD, NODAC, POP, POPD,
+    UPOP, AGR, MYS, PS, GE, RQ) are not provided.
+  10: Less-developed nations demonstrate increased climate change vulnerability levels
+    compared to developed ones.
+Outcome(s) of Interest:
+  2: No relevant information
+  4: Country-level climate vulnerability, proxied by the ND-GAIN index.
+  5: Vulnerability (yijk) is the continuous estimation variable, potentially related
+    to macroeconomic outcomes through covariates.
+  7: The 'vulnerability index' (CVI) is the response variable in the analysis. The
+    CVI appears to be a summary of the country's vulnerability.
+  9: Vulnerability performance (the specific measure is not defined on this page).
+  10: Country-level climate change vulnerability (CVI).
+Quantitative material:
+  2: No relevant information
+  7: Descriptive statistics (mean, median, min, max) are provided for the vulnerability
+    index (CVI) and the explanatory variables. The Kolmogorov-Smirnov test results
+    (D=0.607; p-value<0.001) are reported.
+  9: Parameter estimates and 95% confidence intervals for significant covariates are
+    provided in Table 5. For example, a unit increase in GDPC is associated with a
+    -0.007 change in vulnerability performance with a 95% confidence interval of (-0.008,
+    -0.0071).
+  10: PD has a positive effect on CVI (beta = 0.0054; p-value < 0.05); NODAC (beta
+    = 0.0071; p-value < 0.05); POP (beta = 0.000106; p-value < 0.05); POPD (beta =
+    0.0034; p-value < 0.05); AGR (beta = 0.0012; p-value < 0.05).

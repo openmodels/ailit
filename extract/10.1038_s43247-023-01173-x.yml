@@ -1,0 +1,200 @@
+Drivers of Risk:
+  2: Fluctuations in average monthly temperatures, daily temperature variability,
+    and precipitation extremes impact inflation.
+  3: Temperature shocks (one-off increase in monthly average temperature), excess
+    wet conditions, excess dry conditions, daily precipitation extremes.
+  4: Future warming due to anthropogenic greenhouse gas emissions.
+  5: Increasing average temperatures due to climate change under different emission
+    scenarios (SSP126 and SSP585).
+  6: Increasing average temperatures, unpredictable hot extremes, summer heat extremes.
+  7: Extreme heat events, future warming amplified by climate change (specifically
+    temperature increases during the summer months of June, July, and August)
+  8: Temperature shocks and climate change increasing temperature levels.
+  9: Deviations of average temperature; deviations of temperature variability; exceedance
+    of high precipitation thresholds; Standardised Precipitation Evapotranspiration
+    Indices (SPEI) - both excess wet and excess dry conditions.
+  10: Monthly weather shocks, deviations from normal seasonal conditions, average
+    temperature, Standardized Precipitation-Evapotranspiration Index (SPEI) > 0, SPEI
+    < 0
+  11: Projected future warming, specifically changes in monthly average temperatures,
+    drives the risk to inflation.
+Highlights:
+  1: Extreme summer heat in 2022 increased food inflation in Europe by 0.43-0.93 percentage
+    points, with warming projected for 2035 amplifying this by 30-50%.
+  2: Temperature increases cause nonlinear, persistent increases in food and headline
+    inflation, with stronger effects in hotter months and regions.
+  3: Temperature shocks have persistent impacts on food and headline prices. Excess
+    wet conditions cause upward impacts on food and headline prices which persist
+    over twelve months, independent of baseline climate conditions. The effects of
+    temperature increases appear consistent across both higher- and lower-income countries
+    and when accounting for different historical inflation volatility, suggesting
+    limited historical adaptation.
+  4: Projected global warming would cause persistent upward exogenous pressures on
+    inflation of considerable magnitudes already during the next few decades. The
+    impacts are generally larger in the global south, with the largest pressures found
+    across Africa and South America. Decisive mitigation of greenhouse gases could
+    substantially reduce inflationary pressures.
+  5: Projected temperature increases lead to pressure on both food and headline inflation;
+    Inflation pressures are generally higher under the high-emission scenario (SSP585)
+    compared to the low-emission scenario (SSP126); Seasonality of inflation pressures
+    varies by latitude, with larger variations in Northern mid-latitudes; Heterogeneities
+    in impacts arise from the dependence of the impacts on baseline temperatures.
+  6: Future climate change will amplify the magnitude of heat extremes, thereby also
+    amplifying their potential impact on inflation.
+  7: Extreme heat already impacts inflation in Europe, and climate change will amplify
+    these impacts, potentially by 30-50% by 2035, and up to nearly 200% by 2060 under
+    pessimistic emissions scenarios. Impacts on food inflation, and also headline
+    inflation, are observed.
+  8: Climate change will alter inflation seasonality and increase inflation volatility
+    and heterogeneity; traditional monetary policy models may become less effective.
+  9: Impacts on food inflation from mean temperature are consistent when using World
+    Bank data; the response of headline inflation differs considerably due to the
+    inconsistent inclusion of imputed rents.
+  10: The paper estimates the impacts of deviations from normal seasonal conditions,
+    and the effects are additive.
+  11: The paper evaluates how future weather conditions, particularly temperature
+    changes, impact inflation. It assesses the inflationary impacts of the 2022 extreme
+    summer heat in Europe and how these impacts could be amplified under future warming.
+Methodology:
+  2: Fixed-effects panel regression models are used to quantify the causal effects
+    of historical weather conditions on national, month-on-month inflation rates across
+    121 countries from 1996-2021, controlling for various confounders including country-specific
+    time trends and seasonality.
+  3: Fixed-effects panel regressions from over 27,000 observations of monthly price
+    indices and weather fluctuations worldwide over the period 1996-2021. Robustness
+    tests include using a dynamic panel specification, Driscoll-Kraay errors, and
+    controls for monetary policy.
+  4: Empirical models are used to assess the impacts of future temperature conditions
+    on inflation, based on CMIP-6 climate model projections under different SSP scenarios.
+    The analysis considers the effects of future weather conditions on inflation in
+    the absence of unprecedented adaptation, a targeted monetary policy response,
+    or interactions with macroeconomic developments.
+  5: Empirical specification using monthly CPI data and CMIP-6 climate model projections
+    to estimate the impact of increasing average temperatures on inflation; Impacts
+    are estimated accounting only for increasing average temperatures using the baseline
+    empirical specification shown in column 1 of Supplementary Tables S4 & S5; The
+    analysis abstracts from unprecedented adaptation, policy response, and interactions
+    with macroeconomic developments.
+  6: Empirical response functions using monthly temperatures and consumer price index
+    (CPI) data from 1996-2021; CMIP-6 climate model projections for future warming
+    scenarios (SSP585 for the maps).
+  7: Empirical analysis using historical data of temperatures and inflation. Future
+    climate change impacts are projected using CMIP-6 climate models under different
+    SSP emission scenarios, and population weighting is used for regional aggregation.
+  8: Empirical models using granular monthly climate data to estimate inflation impacts;
+    assessment based on causal relationships inferred from these models applied to
+    national data.
+  9: Fixed-effects panel regression models to identify the causal effects of changes
+    in weather variables on national level inflation; spatial aggregation using population-weighted
+    average; interaction terms to capture heterogeneities in the response to temperature
+    shocks.
+  10: The study uses a regression model with country, date, and country-month fixed
+    effects, as well as country-specific linear time trends, and lags of weather variables
+    to estimate the impact of climate variables on inflation. The analysis is performed
+    on a global panel of countries. Climate model data for temperature and precipitation
+    are used from CMIP-6 under SSP585 and SSP126 scenarios from 2015-2100.
+  11: The study evaluates the hypothetical impact on inflation that future weather
+    conditions under projected climate change would cause, given their empirical models.
+    They use CMIP-6 climate models and two emission scenarios (SSP585 and the NGFS
+    hot-house world scenario). The data is bias-adjusted and statistically downscaled
+    to a common half-degree grid. Impacts are averaged over 30-year periods. The approach
+    shifts the mean of the distribution of possible summer temperatures. Uncertainty
+    is assessed across empirical specifications, climate model projections, and emission
+    scenarios.
+More Notes:
+  2: The study finds limited evidence for impacts on other price sub-components aside
+    from weak evidence in the electricity sector.
+  3: The study tests whether adaptation can be seen in the historical period by defining
+    temperature shocks with respect to a moving average over the past 30 years, finding
+    very similar response functions. Information Criteria do not provide strong evidence
+    for using shocks defined in either way. Results are qualitatively consistent under
+    different SPEI timescales and thresholds. Statistically significant upwards pressures
+    on headline inflation can be identified in hot months in the first month following
+    a precipitation shock.
+  4: The paper acknowledges that adaptation could mitigate impacts from future climate
+    change, and explores the potential of adaptation via adjustment to changing temperatures
+    to reduce future impacts.
+  5: The study focuses on exogenous pressures on inflation arising from future weather
+    conditions, without considering adaptation, policy responses, or macroeconomic
+    interactions; Data on national administrative boundaries are obtained from the
+    GADM database version 3.6 (https://gadm.org /).
+  6: The estimates reflect the exogenous pressure on inflation arising from future
+    weather conditions in the absence of historically unprecedented adaptation or
+    policy response. The study considers only the impact of temperature on food inflation,
+    holding other factors constant (ceteris paribus).
+  7: The study identifies weather variables with significant historical impacts on
+    headline and food inflation globally, but acknowledges limitations in providing
+    a comprehensive relationship between weather conditions and inflation, such as
+    the spatial variability of precipitation, which makes its relationship to inflation
+    difficult to observe at the national level.
+  8: Emphasizes importance of unprecedented adaptation and technological changes to
+    limit inflation pressures; adaptation not explicitly modeled.
+  9: The study focuses on the impact of deviations from historical seasonal patterns,
+    assuming economies are adapted to historical weather; daily precipitation extremes
+    are included with an interaction with the monthly average temperature level; the
+    interaction with the average temperature level introduces a heterogeneity in the
+    response to temperature shocks across both geographical locations and seasons.
+  10: The paper includes robustness tests using dynamic models with lagged inflation,
+    Driscoll-Kraay errors, an inflation database from the World Bank, and controls
+    for transitions in monetary policy. The effects of interactions between climate
+    variables and country income level are also investigated.
+  11: The study distinguishes between projections of future inflation and an evaluation
+    of the mechanism via which climate conditions affect inflation. The empirical
+    results are robust to changes in the regime of monetary policy. The analysis uses
+    population-weighted averages to reflect human exposure to future inflationary
+    pressures.
+Outcome(s) of Interest:
+  2: Impacts on monthly inflation rates (food and headline inflation) are analyzed.
+  3: Food inflation, headline inflation.
+  4: Inflation, specifically food and headline inflation.
+  5: Inflation (food and headline).
+  6: Food inflation, headline inflation.
+  7: Inflation (food and headline)
+  8: Upward pressures on inflation from temperature shocks, increased inflation volatility
+    and heterogeneity, challenges for monetary policy and social cohesion.
+  9: National-level inflation rates (dlCPI c;m)
+  10: Month-on-month inflation rates
+  11: Inflation is the primary outcome of interest, specifically how climate conditions
+    affect it.
+Quantitative material:
+  2: "A 1\xB0C increase in monthly temperature causes a cumulative effect on food\
+    \ inflation of 0.17 percentage points over the following year (for country-months\
+    \ with a temperature of 25\xB0C)."
+  3: "Presents cumulative marginal effects of a one-off 1\xB0C increase in monthly\
+    \ temperature on month-on-month inflation rates, evaluated at different baseline\
+    \ temperatures (25.0\xB0C, 21.0\xB0C, and 12.0\xB0C) showing persistent impacts\
+    \ on food and headline prices from a temperature increase."
+  4: "Under a best-case (SSP126) or worst-case (SSP585) emission scenario, food inflation\
+    \ could increase by 1.49\xB10.45 or 1.79\xB10.54 percentage-points per year (p.p.p.y.),\
+    \ respectively, by 2035. Headline inflation could increase by 0.76\xB10.23 or\
+    \ 0.91\xB10.28 p.p.p.y. under best- or worst-case emission scenarios. By 2060\
+    \ there is a strong and robust difference in the average global pressures on food\
+    \ inflation between the highest and lowest emission scenarios: 2.1 p.p.p.y. in\
+    \ our central estimate with a range of 1.6-3.8 across empirical specifications\
+    \ and climate models."
+  5: Maps showing spatial distribution of annual pressure on food and headline inflation
+    in 2035 under SSP585; Bar graphs comparing annual pressure on food and headline
+    inflation across world regions under SSP126 and SSP585 at different time periods;
+    Standard deviation of impacts across CMIP-6 climate models is provided as error
+    bars.
+  6: "The anomalous heat over Europe in June, July and August of 2022 caused a cumulative\
+    \ annual impact of 0.67 percentage-points (0.43\u20130.93 across empirical specifications)\
+    \ on food inflation and 0.34 percentage-points (0.18\u20130.41) on headline inflation\
+    \ in Europe."
+  7: "The impacts on food inflation in Europe could be 1.0 percentage points (0.6\u2013\
+    1.6) in 2035 under a high-emission scenario or 0.9 percentage points (0.5\u2013\
+    1.4) under a low-emission scenario. By 2060, the amplification of such extreme\
+    \ impacts would diverge, remaining at 1.1 percentage points (0.6\u20131.8) under\
+    \ the most optimistic scenario compared to 1.8 percentage points (1.0\u20133.2)\
+    \ under the most pessimistic scenario."
+  8: "Estimates impacts on inflation from temperature increase, e.g., 0.49%-points\
+    \ impact on inflation for a 1.5\xB0C temperature increase over a quarter."
+  9: Uses climate data from ERA-5 (1990-2021) and monthly average temperature for
+    June, July, and August in 2022; CRU TS v4.05 data for SPEI calculations (1901-2021);
+    HYDE population estimates; 27,340 country-month observations across 121 countries.
+  10: The paper displays cumulative marginal effects of each climate variable, reflecting
+    the theoretical cumulative impact on prices from a 1-unit climate shock.
+  11: Equation (5) describes how future monthly average national temperatures from
+    climate models are used to calculate impacts on inflation; Equation (6) estimates
+    the impacts on net inflation from June 2022 to August 2023, based on temperature
+    levels and their deviation from the historical average.

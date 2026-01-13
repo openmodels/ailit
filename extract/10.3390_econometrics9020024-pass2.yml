@@ -1,0 +1,102 @@
+Drivers of Risk:
+  1: Climate change, specifically increased CO2 concentrations (potentially beneficial)
+    and high local temperatures (potentially negative).
+  3: Climatic system (global warming, CO2 fertilization, extreme events); Prices system
+    (output and input prices); Technology system (agricultural practices, modified
+    seeds, fertilizers)
+  4: "Temperature thresholds above 28, 29, 30, or 31\xB0C during the soybean growth\
+    \ period and precipitation patterns are considered as drivers of risk for soybean\
+    \ yields."
+  5: Global temperature anomalies, Global CO2 concentration, Consumption of fertilizers
+    (phosphorus, potassium, and nitrogen), Drought
+  6: Changes in technology (no-till practices, new modified seeds, GM crops), input
+    prices (fertilizer, agricultural land), and climate variables are considered as
+    potential drivers of crop yield, specifically soybean yield.
+  7: "Global temperature anomalies (temp), number of days with maximum temperatures\
+    \ above 28, 29, 30 and 31\u25E6C (max28, max29, max30 and max31, respectively),\
+    \ CO2 concentrations in the atmosphere (ln CO2), adoption of no tillage (notill),\
+    \ prices of seeds (lnseeds) and fertilizer (lnpfertilizer), soybean prices (lnpsoybean)"
+  8: "Shocks impacting outcomes include weather anomalies, La Ni\xF1a, El Ni\xF1o,\
+    \ and stationary weather variables like maximum temperature thresholds and excessive\
+    \ precipitation affecting soybean yields in Argentina."
+  11: Increased CO2 concentration and cumulated days of high temperature.
+Highlights:
+  1: Soybean yields adjust to disequilibria reflecting technological improvements;
+    CO2 concentrations have a positive effect, potentially due to accelerated photosynthesis;
+    high local temperatures have a negative effect.
+  3: Soybean yields can be simultaneously influenced by climatic, technological, and
+    economic factors.
+  4: Extreme heat and precipitation patterns during the growing season are significant
+    determinants of soybean yield, which in turn impacts macroeconomic factors.
+  5: Global temperatures can have long-run negative effects on crops such as the development
+    of plagues and pests; increased CO2 may have positive effects on plant growth,
+    but only if nutrient levels, soil moisture, water availability and other conditions
+    are met.
+  8: Soybean and fertilizer prices have a significant long-run effect on soybean yields,
+    and technological advances such as GM seeds and no-till practices are considered.
+  11: Technology model has a long-run dominance in explaining soybean yields; climate
+    factors explain short-run yield variation.
+Methodology:
+  1: Multivariate time-series framework; partial system approach considering climatic,
+    technological, and economic factors; automatic model selection for dynamic specification;
+    encompassing tests of economic hypotheses.
+  3: Econometric approach encompassing climatic, technological, and economic factors
+    to determine crop yields; Uses annual series data from 1971 to 2015 for Argentina.
+  4: The analysis uses daily temperature and precipitation data from 54 meteorological
+    stations in the soybean production area and evaluates the impact of extreme heat
+    and precipitation on soybean yield.
+  5: Econometric analysis of soybean yields in Argentina, considering climate variables
+    and fertilizer use. Applicable to understanding the impact of climate change on
+    agricultural productivity in Argentina.
+  6: A cointegration approach is adopted to study the effects of crop-yield drivers,
+    working with partial systems to deal with dimensionality, collinearities, and
+    endogeneity issues. The methodology involves estimating different equilibrium
+    relationships from separated systems, using deviations to explain inflation dynamics
+    and, in this case, crop yields. It uses a multivariate cointegration approach
+    to model the long-run behavior of soybean yields using climate, technological,
+    and economic systems. A 'specific to general' strategy helps identify and interpret
+    long-run structure with plausible equilibrium correction coefficients in the case
+    of multivariate cointegration, particularly when the sample is relatively short.
+  7: "Cointegration analysis of smaller blocks of variables (climate, technological,\
+    \ and input\u2013output prices) are used to restructure and simplify the empirical\
+    \ problem. VAR models with two lags are estimated. Encompassing is used to test\
+    \ if deviations are significant. Unit root tests (ADF, PP, KPSS) are performed\
+    \ to test for stationarity."
+  8: The analysis uses cointegration analysis within a VAR framework, employs Autometrics
+    for model selection, and includes long-run and short-run modeling of soybean yields
+    based on historical data in Argentina, using impulse and step dummy variables.
+  11: "Equilibrium correction model using instrumental variables, with results applicable\
+    \ from 1971\u20132015."
+More Notes:
+  1: The study focuses on Argentina, a major soybean producer and exporter. The CO2
+    concentration considered is the global concentration.
+  3: The study focuses on soybean production in Argentina, the third-largest producer
+    of soybeans worldwide; Climate changes and technological advances shifted the
+    main production area to the north, to warmer latitudes.
+  5: The paper focuses on soybean yields as an outcome, but the broader implication
+    is that climate change and CO2 levels can impact agricultural productivity. It
+    also suggests that the benefits of increased CO2 on plant growth are conditional
+    and can be negated by drought.
+  8: The analysis details the adjustment of econometric models to address shifts in
+    data, using methods like SIS and IIS to account for Argentine economic crisis
+    impacts.
+Outcome(s) of Interest:
+  1: Soybean yields are the outcome of interest, relating to agricultural productivity.
+  3: Crop yields (kilogram per hectare, kg/ha)
+  5: Soybean yields in Argentina
+  7: Soybean yields
+  8: No specific macroeconomic or fiscal outcomes such as GDP effects or public expenditure
+    implications are mentioned on this page.
+  11: Increase in CO2 concentration growth produces higher soybean yields.
+Quantitative material:
+  1: "Doubling CO2 concentrations could increase soybean yields by 10\u201315 percent\
+    \ (referenced from Nordhaus, but relevant as context)."
+  3: Average soybean yield in Argentina increased from 1624 kg/ha in 1971 to 3175
+    kg/ha in 2015; Soybean production in Argentina increased by 2.5% annually from
+    1971 to 2015.
+  5: "Mentions global temperature anomalies increasing from -0.81\xB0C in 1974 to\
+    \ 0.86\xB0C by 2015."
+  8: No specific quantitative material on economic costs or benefits related to nation-wide
+    adaptation is provided on this page.
+  11: Short-run effect on soybean yield is about 18% for OLS estimation and 29% for
+    IV estimation.

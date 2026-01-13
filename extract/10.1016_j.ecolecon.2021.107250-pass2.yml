@@ -1,0 +1,79 @@
+Drivers of Risk:
+  2: Rising temperatures
+  3: Temperature, agricultural potential, interaction between temperature and agricultural
+    potential
+  4: Annual variation in temperature, Agricultural Potential
+  11: Temperature, Interaction (likely interaction of temperature with another unspecified
+    variable)
+  12: Average temperature (1946-2014, country level) and agricultural potential (share
+    of land with SI>40)
+  15: Temperature changes are the primary driver of risk examined.
+Highlights:
+  2: "Initial agricultural conditions play a signi\uFB01cant role to understand the\
+    \ climate-con\uFB02ict linkages on a global scale."
+  3: Study aims to establish the causal link between temperature and conflicts through
+    the magnifying effects of agricultural potential.
+  4: Countries with low agricultural potential have a larger probability than high
+    agricultural potential countries to be in conflict in response to a deviation
+    from their mean annual temperature.
+  11: Temperature and its interaction with another variable (unspecified) have statistically
+    significant effects. The sign and magnitude of the coefficients on temperature
+    and its interaction vary depending on the specification (e.g., using raw temperature,
+    standardized temperature, or decadal averages).
+  12: There is an interaction between temperature, agricultural potential, and conflict
+    incidence, with conflict more likely in zones where these variables intersect,
+    particularly at average temperatures of around 6 and 16 degrees.
+Methodology:
+  2: "Uses data for 172 countries from 1946 until 2014 and conducts a natural experiment\
+    \ to identify the e\uFB00ect of the interaction between time-wise variations in\
+    \ temperature within a country and the cross-country variation in agricultural\
+    \ potential on con\uFB02ict incidence."
+  3: Linear probability model examining the effect of the interaction between temperature
+    and agricultural potential on conflict incidence; Uses country and year fixed
+    effects to control for unobserved variables; Considered akin to a natural experiment.
+  4: The study uses a difference-in-differences approach where agricultural potential
+    determines the group for countries with a lower agricultural potential and the
+    annual variation in temperature act as a treatment from one period to the next.
+  11: Linear probability model with country and time fixed effects, robust standard
+    errors clustered at the country level; sample sizes are either 9344 or 990 observations.
+    Results are based on temperature, interaction term, standardized temperature,
+    or decennial temperature averages.
+  12: The analysis uses a contour plot/heatmap to illustrate the relationship between
+    average temperature, agricultural potential, and predicted conflict incidence.
+  15: Linear probability model with country and time fixed effects, using temperature
+    as a key independent variable. Robust standard errors are clustered at the country
+    level. Models include a constant. Analysis is performed on 9344 observations except
+    for Decade (990 obs.).
+More Notes:
+  2: "The interaction between temperature and agricultural potential has no signi\uFB01\
+    cant e\uFB00ect in countries with exportable resources such as oil."
+  3: The paper argues that the interaction between climate fluctuations and geographic
+    characteristics is free from human intervention and thus the interaction variable
+    (temperature*agricultural_potential) can be considered exogenous. Countries exhibiting
+    high agricultural potential act as a control group.
+  4: The paper focuses on intrastate conflicts with a clearly defined political incompatibility.
+  11: Agricultural potential is captured by country fixed effects. The nature of the
+    outcome variable being modeled is not specified, only that it is analyzed using
+    a linear probability model. The interaction variable is not identified.
+Outcome(s) of Interest:
+  2: No relevant information
+  3: Intergroup violence/conflict incidence
+  4: No relevant information
+  11: No relevant information
+  12: Predicted conflict incidence
+  15: Not specified, but the linear probability model suggests a binary or categorical
+    outcome related to economic impacts of climate change. The page focuses on the
+    *probability* of something occurring, not the magnitude of the change in a specific
+    macroeconomic variable.
+Quantitative material:
+  2: "There is a signi\uFB01cantly higher probability (4%) to be in con\uFB02ict when\
+    \ annual temperature deviates from its mean in a country with low agricultural\
+    \ potential relative to a country with high agricultural potential."
+  4: A change of one degree Celsius is associated with an increase in the probability
+    of being in conflict by 4.1% relatively to better endowed countries.
+  11: Yes, coefficients from a linear probability model are provided. For example,
+    the coefficient on 'Temp' is 0.0175361 in one specification and 0.0410341 in another;
+    the coefficient on the 'Interaction' term ranges from -0.1404783 to 0.0391829.
+  12: The plot shows conflict incidence peaking around an average temperature of 6
+    degrees with agricultural potential of 0.5, and also at a higher temperature of
+    around 16 degrees.

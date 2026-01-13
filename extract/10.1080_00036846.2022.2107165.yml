@@ -1,0 +1,199 @@
+Category:
+  9: Extracted Information
+Drivers of Risk:
+  6: Changes in temperature, humidity, and precipitation.
+  8: Changes in meteorological indicators (maximum temperature, relative humidity);
+    sea level rise; heat extremes.
+  9: Weekly average of the maximum temperature per governorate; Weekly average of
+    the relative humidity per governorate; Existence of identified 'Discomfort / Risk
+    Zones'.
+  10: Changes in temperature, humidity, and precipitation (climate indicators).
+  11: Changes in climate variables in the respondent's location of residence are considered
+    as drivers impacting outcomes.
+  12: Temperature, humidity, and precipitation changes.
+  13: Climate variability (specifically, average maximum temperature)
+  14: Weekly average maximum temperature, Weekly average relative humidity, Age, Gender,
+    Education Levels, Exposure to climate risks
+  15: Temperature, humidity, and climate variability impact labor market hours, particularly
+    in high-risk groups.
+  17: Weekly average maximum temperature, weekly average relative humidity, weekly
+    average precipitation
+  20: No relevant information
+  21: Weekly average maximum temperature, Weekly average relative humidity, Weekly
+    average precipitation, Age, Gender, Education level.
+  22: Weekly average maximum temperature.
+  23: Average humidity
+  24: Changes in climate indicators, specifically temperature and relative humidity.
+  26: Sea level rise, rising temperatures, heat exposure.
+Highlights:
+  6: During hotter temperatures, the marginal utility of working decreases, and individuals
+    reallocate their time more toward non-working activities. The impact of an increase
+    in temperatures is non-linear; at relatively colder temperatures, an increase
+    in temperatures results in a higher marginal utility of working. The marginal
+    effect of increasing temperatures on working hours is expected to differ between
+    'high-risk' and 'low-risk' groups.
+  8: Some Mediterranean coastal governorates (Damietta and Port Said in Egypt, Nabeula,
+    Sousse, and Tunis in Tunisia, and Madaba in Jordan) are particularly vulnerable
+    and experiencing more risk than other governorates.
+  12: The impact of climate variables on labor supply is expected to differ between
+    high-risk and low-risk occupation groups.
+  13: Climate variability impacts labor supply; negative binomial regression is the
+    preferred model specification.
+  14: Higher temperatures initially increase working hours but at a decreasing rate.
+    Higher humidity reduces working hours. Older age increases working hours at a
+    decreasing rate. Females work fewer hours than males. Higher education levels
+    don't necessarily increase working hours.
+  15: Humidity significantly reduces labor working hours in high-risk groups but not
+    in low-risk groups.
+  17: Weekly average maximum temperature and its square, weekly average relative humidity
+    and its square, age and its square, gender of the respondent, and household wealth
+    score are all statistically significant (p < 0.001 level) in explaining the variance
+    of the unspecified outcome.
+  20: Household wealth score is a statistically significant predictor of the unspecified
+    outcome.
+  21: Higher weekly average maximum temperature is associated with increased working
+    hours, but this effect diminishes at higher temperatures. Higher weekly average
+    relative humidity is associated with decreased working hours. Female respondents
+    work significantly fewer hours than male respondents. Higher education levels
+    (especially secondary, post-secondary, and university) are generally associated
+    with fewer working hours, particularly in the Low-Risk group. The effect of age
+    on working hours is non-linear, with working hours increasing with age but at
+    a decreasing rate.
+  22: Hours worked have a non-linear relationship with weekly average maximum temperature,
+    peaking at around 30 degrees. The relationship is shown graphically for both High-Risk
+    and Low-Risk groups.
+  23: Climate change impacts social and economic dimensions of societies. There is
+    a negative correlation between humidity and some economic outcome for the high-risk
+    group.
+  24: Temperature affects labor working hours differently for high-risk and low-risk
+    groups; Relative humidity negatively impacts labor working hours for high-risk
+    groups.
+Methodology:
+  6: The study uses unbalanced longitudinal survey data from the Integrated Labor
+    Market Panel Surveys (ILMPSs) of Egypt (2006, 2012, 2018), Jordan (2010, 2016),
+    and Tunisia (2014) to examine the impact of climate changes on labor supply. Regression
+    models are conducted separately for 'high-risk' and 'low-risk' groups.
+  8: Exploits spatial and temporal variation in observations to capture the impact
+    of changes in meteorological indicators on the number of hours worked by respondents
+    per week; categorizes governorates according to their vulnerability to climate
+    impacts based on exceeding weekly averages of maximum temperature, relative humidity,
+    and working hours.
+  9: Authors' graph using NOAA CPC Global and NASA POWER data.
+  10: Poisson regression model used to analyze the impact of climate indicators on
+    labor supply, controlling for socioeconomic and demographic variables. Coefficients
+    are estimated using maximum likelihood.
+  11: The paper uses Poisson and Negative Binomial (NB2) regression models to analyze
+    the impact of climate variables. The Negative Binomial model is preferred when
+    the equidispersion assumption of the Poisson model is violated (i.e., overdispersion
+    is present in the dependent variable).
+  12: Regression analysis exploiting spatial and temporal variation in climate observations.
+    Workers are divided into high-risk and low-risk groups based on occupation (ISIC-4).
+    Fixed effects are used to control for seasonality, governorate, and year.
+  13: Ordinary Least Squares (OLS), Poisson regression with robust standard errors,
+    and negative binomial regressions are used to examine the impact of climate variability
+    on labor supply. Negative binomial regression is preferred due to overdispersion
+    of data.
+  14: The analysis uses regression to examine the relationship between weather variables,
+    demographic factors, and hours worked. The results are based on 45,907 observations.
+  17: OLS, Poisson, and Negative Binomial regressions are used to model the relationship
+    between weather variables and individual characteristics on an unspecified outcome.
+    The t-statistics are included in parenthesis under the coefficients. The models
+    include controls for age, gender, education level, and household wealth score.
+  20: The analysis uses regressions to model the relationship between household wealth
+    score and an unspecified outcome, controlling for the month and year of visit
+    and governorate of the respondent. The Poisson regression in Column (2) uses robust
+    standard errors. The AIC and BIC are also listed.
+  22: Regression analysis is used to predict the relationship between various factors
+    and the outcome. The regressions control for the month and year of visit and governorate
+    of the respondent. Predicted margins (with 95% confidence intervals) are graphically
+    presented to illustrate the relationship between weekly average maximum temperature
+    and hours worked for 'High-Risk Group' and 'Low-Risk Group'.
+  23: Uses matched data from an unbalanced longitudinal survey data from the ILMPSs
+    of Egypt, Jordan, and Tunisia, spanning 2006-2018, along with a globally gridded
+    climate dataset. Employs panel methodologies and weather data.
+  24: Poisson and Negative Binomial regressions used to examine the impact of climate
+    indicators on individual-level labor supply, controlling for socioeconomic and
+    demographic variables; Matching monthly climatology variables (long-term mean
+    maximum temperature, temperature, precipitation, and relative humidity) with ILMPS
+    dataset.
+  26: El-Raey et al. (1999) investigates adaptation to sea level rise impacts in Egypt;
+    Somanathan et al. (2015) investigate the impact of temperature on productivity
+    and labor supply using Indian manufacturing data; Zivin and Neidell (2014) investigate
+    temperature's impact on the allocation of time in a way that informs understanding
+    of climate change.
+More Notes:
+  6: The paper links ILMPS datasets with globally gridded weather and climate datasets.
+  9: The maps suggest a spatial analysis of climate-related risks, potentially focusing
+    on the impact of temperature and humidity on specific regions within MENA countries.
+    The temperature color scale bar included on the central map suggests this is some
+    measurement relating to climate.
+  13: The study uses data from Egypt (2006, 2012, 2018), Jordan (2016), and Tunisia
+    (2014). The sample consists of 45,907 observations.
+  14: The paper compares the impact of temperature on hours worked for a 'high-risk'
+    group versus a 'low-risk' group (Tables 3-5, not shown).
+  20: The outcome being modeled is not specified on this page.
+  22: The paper separates individuals into 'High-Risk Group' and 'Low-Risk Group,'
+    but the criteria for this classification is not provided on this page. The reference
+    group for education levels is Illiterate.
+  23: The exact nature of the linear prediction (y-axis) is not specified, but the
+    graph implies humidity has a greater impact on the high-risk group than the low-risk
+    group. The identity of the high- and low-risk groups is not specified.
+  24: Study focuses on the MENA region; Future research could examine the impact of
+    climate change on productivity indicators such as total factor productivity by
+    sector; High-risk activities in the MENA region are strategically important and
+    more exposed to climate change.
+No relevant information:
+  2: This page is a title page/abstract and contains no analytical content.
+  5: This page primarily sets the stage for the paper, reviews the existing literature,
+    and identifies a research gap. It does not present any quantitative analysis or
+    specific findings related to macroeconomic or fiscal outcomes of climate change
+    adaptation in the MENA region generated by this paper.
+Outcome(s) of Interest:
+  6: Individual-level labor supply, measured by hours of work per week.
+  8: Job loss, labor productivity at risk due to thermal discomfort from heat extremes.
+  10: Labor supply, measured by the number of hours worked.
+  12: Labor supply, measured as hours of work.
+  13: Labor supply (number of hours worked per week)
+  14: Number of hours worked per week
+  17: No relevant information
+  20: No relevant information
+  21: Labor working hours last week.
+  22: Hours worked, predicted by linear prediction.
+  23: Economic growth and productivity
+  24: Potential negative impact on the economy due to climate change affecting labor
+    supply.
+  26: Economic productivity, labor availability, occupational-health cost, productivity,
+    labor supply, allocation of time.
+Quantitative material:
+  6: The study uses spatial daily climate indicators such as maximum temperature and
+    humidity during the week for which the respondent is reporting their hours of
+    work.
+  13: "Average maximum temperature ranges between 9 and 44 \xB0C; average hours worked\
+    \ per week is 46 (variance = 301.37)"
+  14: The paper provides descriptive statistics on the variables. For example, the
+    average number of hours worked per week is 46.05 with a standard deviation of
+    17.34, and the average weekly maximum temperature is 26.10 with a standard deviation
+    of 7.75.
+  17: The table presents coefficients and t-statistics from OLS, Poisson, and Negative
+    Binomial regressions.
+  20: Household wealth score is statistically significant (p < 0.01) and positively
+    correlated (coefficient of 0.613 in the first column, 0.0131 in the second, 0.0134
+    in the third) with an unspecified outcome.
+  21: The table provides average marginal effects (dy/dx) on labor working hours from
+    changes in temperature, humidity, precipitation, age, gender, and education, along
+    with t-statistics.
+  22: The table shows regression coefficients for various factors, including 'Post-graduate'
+    (-0.129***, -0.0337, -0.224***), 'Household wealth score' (0.0217***, 0.0214***,
+    0.0134***), and 'Ln (Alpha) Constant' (-2.090***, -1.966***, -2.326***). The graphs
+    show the predicted margins for weekly average maximum temperature and hours worked
+    for High-Risk and Low-Risk groups. T-statistics and significance levels (p < 0.10,
+    ** p < 0.05, *** p < 0.01) are provided.
+  23: The High-Risk group's linear prediction of some unspecified outcome decreases
+    from about 52 to 42 as weekly average relative humidity increases from 10 to 80.
+    The Low-Risk group's linear prediction remains around 50 across all humidity levels.
+  24: "Labor working hours are maximized at 22\xB0C for high-risk labor groups and\
+    \ 26\xB0C for low-risk labor groups; Inverse relationship between relative humidity\
+    \ and labor working hours for high-risk groups."
+  26: Shayegh et al. (2020) projects impacts of rising temperatures on economic productivity
+    and labour availability in South Africa. Takakura et al. (2018) quantify the occupational-health
+    cost of heat exposure.

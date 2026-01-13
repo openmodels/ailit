@@ -1,0 +1,123 @@
+Drivers of Risk:
+  1: Anthropogenic intensification of daily rainfall extremes
+  3: Shocks in annual total rainfall, monthly rainfall deviations, number of wet days,
+    and extreme daily rainfall.
+  4: Extreme daily rainfall, Number of wet days, Monthly positive rainfall deviations,
+    Monthly negative rainfall deviations, Annual total rainfall
+  5: Shocks or changes impacting outcomes include deviations of monthly rainfall and
+    extreme daily rainfall.
+  7: Extreme daily rainfall and annual mean temperature, day-to-day temperature variability,
+    number of wet days.
+  10: Changes in rainfall (total annual rainfall, monthly rainfall deviations, number
+    of wet days, extreme daily rainfall)
+  11: Total annual rainfall, monthly rainfall deviations, number of wet days, and
+    annual mean temperature.
+  12: Daily temperature variability (T_var), annual mean temperature (T_mean), changes
+    in annual rainfall, changes in monthly rainfall deviations, extreme daily rainfall,
+    number of wet days.
+Highlights:
+  1: High-income nations and the services and manufacturing sectors are most strongly
+    hindered by both measures of daily rainfall.
+  3: Findings show competing and complementary effects of different rainfall measures
+    on growth rates, suggesting distinct, additive impacts.
+  4: The effects of both number of wet days and extreme daily rainfall are strongest
+    in winter and autumn; seasonal economic vulnerability rather than differing seasonal
+    characteristics of rainfall.
+  5: The paper highlights that extreme daily rainfall and the number of wet days are
+    adverse for economic growth, particularly in high-income countries via the manufacturing
+    and services sectors.
+  7: The study strengthens the interpretation of rainfall effects as independent and
+    additive. It considers nonlinear effects of the number of wet days and income
+    levels. It assesses the heterogeneity of rainfall impacts using country income
+    levels.
+  10: The impact of rainfall changes on economic growth differs between rich and poor
+    countries.
+  11: Sectoral growth rates are affected by rainfall and temperature changes. The
+    magnitude and uncertainty of these effects are visualized through response curves
+    with confidence intervals for agricultural, manufacturing, and service sectors.
+  12: The table presents regression coefficients indicating the impact of temperature
+    and rainfall variables on economic growth rates, with significance levels (p<0.01,
+    p<0.05, p<0.1).
+Methodology:
+  1: Assess higher-order moments of the annual distribution of daily rainfall in conjunction
+    with subnational economic output using a threshold approach, counting both the
+    number of days and the amount of rainfall above critical thresholds (constants
+    or percentiles of the historical distribution).
+  3: "Estimates obtained via product of region-specific marginal effects and standard\
+    \ deviation for each rainfall measure over 1979\u20132019. Analysis performed\
+    \ using independent variables on economic growth rates with robustness tests."
+  4: Regression analysis partitioning data based on national income per capita and
+    assessing sector specific economic output; Distributed lag model to assess persistence
+    of climate impacts on economic growth.
+  5: The analysis reassesses effects separately on sectoral economic output and aligns
+    data by national income. It considers interdependencies between different rainfall
+    measures and assesses their effects on rich and poor countries.
+  7: Panel regression analysis is performed, partitioning data by income level (above-
+    and below-medium income per capita) to assess heterogeneity. The regressions include
+    controls for temperature variability and function of annual mean temperature.
+    Marginal effects are calculated as the first derivative of equation (5) and are
+    evaluated at the sample or regional mean of the moderating variable.
+  10: "Estimation of economic responses to rainfall for rich and poor countries separately.\
+    \ The effect on growth rate is measured as the marginal effect per 1\xB0C increase\
+    \ for different climate variables."
+  11: The paper estimates economic responses to rainfall for the agricultural, manufacturing,
+    and service sectors separately, showing the marginal effects on growth rates from
+    changes in various climate variables.
+  12: Econometric specification with regression analysis, controlling for temperature
+    and rainfall variables. First differences and one-year lags are used. Results
+    are clustered regionally and nationally. The analysis uses 3,011 observations.
+More Notes:
+  1: The study uses surface precipitation rate from the European Centre for Medium-Range
+    Weather Forecasts Reanalysis 5 (ERA-5) of historical observations.
+  4: "The study assesses the spatial heterogeneity in the magnitude of historical\
+    \ impacts from rainfall by multiplying regional estimates of the marginal effects\
+    \ with the historical standard deviation of each measure (1979\u20132019)."
+  7: The code and data used in the analysis are publicly available at specified repositories.
+    The study received funding from the Volkswagen Foundation and the Horizon 2020
+    Framework Programme of the European Union.
+  10: The graphs present the marginal effects of climate variables on growth rates,
+    suggesting a statistical relationship rather than a definitive causal link.
+  11: The legend indicates which line colour corresponds to which sector (agriculture,
+    manufacturing, services, and one unspecified). The X-axis variables differ in
+    each panel, referring to total rainfall, monthly rainfall deviations, the number
+    of wet days, and annual mean temperature.
+  12: The coefficients are presented twice, once for errors clustered regionally and
+    once for errors clustered nationally, allowing for a comparison of the robustness
+    of the findings across different clustering assumptions.
+Outcome(s) of Interest:
+  1: Economic growth rates are reduced by increases in the number of wet days and
+    in extreme daily rainfall, in addition to responding nonlinearly to the total
+    annual and to the standardized monthly deviations of rainfall.
+  3: Effect on economic growth rates from shocks in rainfall measures.
+  4: Economic growth rates
+  5: The paper discusses the impact of rainfall changes on economic growth, particularly
+    noting adverse effects from increases in extreme daily rainfall and the number
+    of wet days on high-income countries, and via the manufacturing and services sectors.
+  7: Subnational growth rates.
+  10: Economic growth rates
+  11: Marginal effects on growth rates (percent increase for a 1% increase) in agricultural,
+    manufacturing, and service sectors.
+  12: Economic growth rates
+Quantitative material:
+  1: Global panel of subnational economic output for 1,554 regions worldwide over
+    the past 40 years.
+  3: 'Effect on economic growth rates of a 1-standard deviation shock: annual total
+    rainfall (0.83/0.77), monthly rainfall deviations (-1.11/-1.01), number of wet
+    days (-1.35/-1.34), extreme daily rainfall (-0.36/-0.43).'
+  4: Effect on economic growth rates of a 1-s.d. shock (% points) for different rainfall
+    measures and income levels.
+  7: "The regression coefficients (\u03B1x in equation\_(5)) describe the percentage-point\
+    \ effect on subnational growth rates of a one unit increase in each rainfall measure.\
+    \ The paper also provides information on how to assess the magnitude of historical\
+    \ effect sizes for rainfall measures."
+  10: "Marginal effect on growth rates per 1\xB0C increase, X-axis variables are measured\
+    \ in millimeters (mm), standard deviations, number of wet days and degrees Celsius\
+    \ (\xB0C)."
+  11: The figures show the marginal effects on growth rates (percent increase for
+    a 1% increase) for different sectors (agriculture, manufacturing, services) based
+    on changes in rainfall and temperature. The graphs display response curves with
+    confidence intervals, and background histograms show the distribution of the climate
+    variables.
+  12: Regression coefficients represent the %-point effect on economic growth rates
+    per unit increase in each temperature or rainfall measure; Adjusted R-squared
+    is 0.15

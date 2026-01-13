@@ -1,0 +1,72 @@
+Drivers of Risk:
+  3: Rising CO2 and climate change
+  5: Anthropogenic carbon emissions (IPCC/SRES-A2)
+  7: Climate change impacts (excluding the direct effect of increased atmospheric
+    CO2) on Net Ecosystem Productivity (NEP) and soil water content.
+  8: Changes in surface temperature, precipitation, and incoming solar radiation are
+    key drivers impacting land carbon cycle processes.
+Highlights:
+  3: The study focuses on the future response of the biosphere to rising CO2 and climate
+    change.
+  5: Simulations of atmospheric carbon content change, net primary production, heterotrophic
+    respiration, and net land carbon uptake under different climate change scenarios.
+  7: Climate change, excluding the direct fertilization effect of CO2, negatively
+    impacts terrestrial carbon uptake and NEP, especially in the tropics. The increase
+    in the global carbon pool and NEP are significantly lower under the Climate Impact
+    scenario compared to the Fertilization scenario.
+  8: Temperature is identified as a primary driver affecting tropical NPP negatively,
+    largely indirectly through reductions in soil water content. In middle and high
+    northern latitudes, elevated temperature has a direct positive impact on NPP for
+    tundras and coniferous forests by lengthening the growing season.
+Methodology:
+  3: 'The paper uses two 241-year long (1860-2100) coupled simulations: a control
+    simulation with anthropogenic CO2 emissions set to zero and a coupled scenario
+    run using historical data before 1990 and the IPCC/SRES-A2 emission scenario from
+    1990 to 2100. It also analyzes the feedback between climate and the carbon cycle
+    via two other simulations: Fertilization and Climate Impact.'
+  5: 'Climate model simulations under different scenarios: Control, Coupled Scenario,
+    Fertilization, and Climate Impact.'
+  7: Comparison of two simulations (Climate Impact and Fertilization runs) forced
+    by the same atmospheric CO2 levels to isolate the climate impact alone on the
+    terrestrial biosphere; Results applicable to 2100.
+  8: The analysis uses a terrestrial biospheric model (SLAVE) to simulate the effects
+    of climate variables (temperature, precipitation, radiation) on land carbon cycle
+    components (NPP, respiration, soil water content). Offline simulations were performed
+    by setting two forcing variables to their control value, while varying the third.
+More Notes:
+  3: The model does not account for land use changes, natural vegetation dynamic,
+    or anthropogenic nitrogen deposition. It is acknowledged that future land cover
+    may likely be driven by direct human activity rather than climate change. The
+    coupling between the carbon cycle models and the climate model is asynchronous,
+    with a coupling time step of 1 year.
+  5: The scenarios explore the impact of carbon fertilization on land biosphere response
+    to climate change.
+  7: The Northern Hemisphere middle and high latitudes are less strongly impacted
+    by climate change (excluding CO2 fertilization) than the tropics. Tundra and conifer
+    forests show a small increase in NEP, while deciduous forests, grasslands, and
+    croplands show a decrease.
+  8: The study separates the impacts of temperature, precipitation and radiation and
+    also tries to isolate the direct and indirect effects of temperature. The model
+    uses equations to calculate soil water content based on the balance between precipitation,
+    evapotranspiration and runoff.
+Outcome(s) of Interest:
+  3: No relevant information
+  5: No relevant information
+  7: No relevant information
+  8: Impacts on Net Primary Production (NPP) are linked to changes in carbon pools
+    and soil water content, ultimately affecting carbon sequestration and ecosystem
+    services, which could have economic implications.
+Quantitative material:
+  3: No relevant information
+  5: Simulated atmospheric carbon content change (Gt C), Net primary production (NPP)
+    (Gt C yr/C0), Heterotrophic respiration (RH) (Gt C yr/C0), Net land carbon uptake
+    (NEP) (Gt C yr/C0)
+  7: Difference in NPP between Climate Impact and Fertilization simulations in 2100.
+    Global carbon pool increase of 412 Gt C by 2100 under Climate Impact run, versus
+    640 Gt C in Fertilization run. Global NEP amounts to 2.9 Gt C yr/C0 under Climate
+    Impact run in 2100, versus 7.7 Gt C yr/C0 under Fertilization run. NEP in the
+    tropics only reaches 0.6 Gt C yr/C0 in the Climate Impact run, versus 4.9 Gt C
+    yr/C0 in the Fertilization run by 2100.
+  8: The study includes simulations showing the impacts of temperature, precipitation,
+    and radiation on NPP and soil water content in different ecosystems, including
+    percentage loss of soil water by 2100 in tropical forests (20%).

@@ -1,0 +1,241 @@
+Drivers of Risk:
+  3: Ocean acidification (a result of increasing carbon emissions), leading to declines
+    in species biomass, especially Dungeness crab due to loss of prey.
+  4: Warming, acidification, eutrophication, and other changes that are modifying
+    marine ecosystems; ocean acidification (OA) caused by increasing global carbon
+    emissions.
+  6: Ocean acidification.
+  7: pH changes and vulnerabilities
+  10: Ocean acidification (OA) due to upwelling in the California Current.
+  13: Ocean acidification (OA) effects, and fishing mortality rates.
+  14: Changes in ex-vessel fisheries revenue (driven by climate change, though not
+    explicitly stated here).
+  17: Changes in ocean pH leading to mortality in functional groups of marine life
+    and changes in biomass.
+  18: Changes in pH affecting demersal functional groups of marine life.
+  21: Projected pH changes, indirect food web effects, biomass trends, and species
+    abundance.
+  22: Declines in pH due to Ocean Acidification (OA) impacting Dungeness crab biomass;
+    Changes in the catch of Petrale sole, Dover sole, Dungeness crab, and pandalid
+    shrimp.
+  23: Ocean acidification affecting various fish species is a major driver of risk.
+  24: Ocean acidification within the California Current, driven by CO2 emissions.
+  30: Changes in prey abundance, spatial overlap between predators and prey, and environmental
+    conditions like decreases in prey resources driving cannibalism.
+  31: Ocean acidification impacting marine ecosystems.
+  32: Regional variations in pH affecting marine life in the California Current.
+  46: Ocean acidification (OA) driven by declining pH levels in seawater.
+  52: No relevant information
+Highlights:
+  3: Ocean acidification may disproportionately affect revenue, income, and employment
+    in the northern California to northern Washington State region due to declines
+    in Dungeness crab populations.
+  4: Impacts on human communities often depend on localized ecological change, making
+    it critical to understand changes at a finer geographic scale; spatially heterogeneous
+    variation in climate change impacts on those species can have socio-economic consequences
+    that vary across communities.
+  7: The study identifies where future research, monitoring and management focus is
+    needed by exploring the potential consequences of pH changes and vulnerabilities
+    for port revenue, income and employment in US west coast communities.
+  13: The model allows for consideration of ocean acidification effects on fisheries
+    catch without the confounding socioeconomic dynamics.
+  14: Estimates direct, indirect, and induced effects on income and employment resulting
+    from changes in ex-vessel fisheries revenue.
+  17: 'The study focuses on the sole influence of pH on biomass and revenue, removing
+    the influence of other oceanographic changes. They investigate revenue outputs
+    at three scales: total port revenue, revenue by port and vessel type, and revenue
+    by port and functional group.'
+  18: Demersal functional groups are most affected by changes in pH. Sixteen functional
+    groups experienced biomass effect sizes of |0.20| or greater, including invertebrates
+    and demersal fishes.
+  21: Projected pH changes and indirect food web effects can substantially change
+    port revenue, with declines in Dungeness crab revenue being a major driver of
+    negative impacts.
+  22: Tillamook experienced the largest decline in revenue due to declines in Dungeness
+    crab impacted by ocean acidification. Changes in employment at the port level
+    were sometimes more exaggerated than the effect on revenue and income due to vessel
+    types.
+  23: Ocean acidification poses a risk to fishing revenue, income, and employment
+    in several port cities across a variety of vessel types, although there are some
+    specific exceptions, such as Pandalid shrimp.
+  24: The largest economic consequences may occur for central and northern west coast
+    ports that rely on demersal species for a large portion of fisheries catch, in
+    particular Dungeness crab. Geographic variability of impacts resulted from the
+    high resolution in the three components of our modeling framework.
+  31: IO model estimates of impacts on employment and income did not substantially
+    differ from changes in revenue, suggesting economic outputs are most useful for
+    identifying ports with higher relative vulnerability. Ocean acidification has
+    the potential to restructure marine ecosystems and strongly impact human communities
+    dependent on marine resources.
+  32: Dungeness crab is a major fishery resource, comprising 40-89% of revenue for
+    8 out of 17 ports on the US West Coast.
+  46: Benthic herbivorous grazers (sea urchins, snails) have a substantial negative
+    effect size due to OA (-0.74 mean), as does Dungeness crab (-0.47 mean). The effect
+    of OA varies considerably across regions, as seen in the min/max effect size values.
+  52: No relevant information
+Methodology:
+  3: Ecosystem model forced by oceanographic projections and coupled to an economic
+    input-output model; intended to explore one possible future of ocean acidification's
+    influence on the California Current coastline.
+  4: Interdisciplinary approach that includes oceanographic conditions (such as temperature
+    and/or pH) at high resolution, spatially explicit responses of the ecosystem to
+    those conditions and the dependencies of local human communities on marine resources.
+  6: The analysis employs oceanographic predictions from a Regional Oceanographic
+    Modeling System (ROMS) model, forced by an earth system model (GFDL-ESM2M) under
+    climate scenario RCP8.5; an Atlantis end-to-end marine ecosystem model; and an
+    economic input-output model.
+  7: An ecosystem model is used to investigate the impacts of ocean acidification
+    in the California Current. Outputs from a fine-scale ocean model provide physical
+    forcing for the Atlantis ecosystem model for the present and 50 years in the future.
+    Outputs from Atlantis are passed to an economic input-output model (IO-PAC). Economic
+    analysis is focused on the US west coast.
+  10: A high-resolution Regional Ocean Modeling System (ROMS) model of the California
+    Current was used to simulate oceanographic conditions, particularly upwelling
+    and ocean acidification (OA). The model output was then used to force the Atlantis
+    ecological model to simulate multi-species ecosystem dynamics in a spatial framework.
+    A single year's worth of oceanographic conditions (2013 and 2063) was looped 100
+    times to achieve quasi-stable forcing for the ecological model, controlling for
+    inter-annual variability.
+  13: An Atlantis model is used to project port-level catches. Fishing mortality is
+    set at a constant rate to match 2013 catch data from PacFIN. Spatially explicit
+    fishing mortality rates are applied per port/country and functional group as constant
+    fishing rates. This assumes no management responses or shifts in regimes and/or
+    fishery behavior.
+  14: "Uses an Input-Output (IO) model (specifically, the Northwest Fisheries Science\
+    \ Center\u2019s input-output model for Pacific Coast fisheries (IO-PAC)) to investigate\
+    \ direct, indirect, and induced effects of changes in fisheries revenue. Applied\
+    \ at a port level and vessel type level, using 2013 prices."
+  17: A 100-year model run is used to predict biomass under different oceanographic
+    conditions. The effect size on revenue is calculated as the difference between
+    revenue under 2063 conditions with and without pH mortality, standardized by 2013
+    revenue. Only changes in biomass and revenue greater than |0.2| are reported.
+  18: An IO-PAC model is used with multipliers to assess direct, indirect, and induced
+    effects on income and employment due to changes in fisheries. The analysis considers
+    fisheries revenue and processor effects at each port. Biomass effect sizes from
+    changes in pH are calculated for different functional groups.
+  21: Atlantis simulations were used to project port revenue based on biomass trends,
+    with comparisons to 2013 PacFIN records.
+  22: Analysis examines port-level revenue changes (RP) and income/employment impacts
+    related to changes in fisheries catch. The analysis uses effect sizes and revenue
+    proportions to assess impacts.
+  24: Uses a modeling framework with high spatial resolution including the ROMS model,
+    a spatially explicit ecosystem model, and spatially resolved fishing revenues
+    used in an IO model. The Atlantis model is used for strategic management and exploration
+    of ecosystem dynamics in the spirit of scenario analysis.
+  30: The paper uses prescribed seasonal movement in a model, which handles large
+    model domains under historic conditions, but limits the evolution of spatial variability
+    in future projections. It uses a fisheries model called Atlantis and an economic
+    analysis assuming fixed prices through the 2060s and no substitution between fisheries
+    inputs.
+  31: Input-Output (IO) models are used to analyze port-level outputs for the US west
+    coast, estimating the impact of ocean acidification. The applicability of IO models
+    extends to moderate future forecasts (15 years) and long-term forecasts over 50
+    years. The authors suggest Computable General Equilibrium (CGE) models as a potential
+    improvement for long-term projections, as they factor in changing prices and input
+    substitutions.
+  32: Integrates physical, ecological, and economic consequences of climate change
+    at a compatible spatial resolution with human communities and management.
+  46: The study uses a model to calculate the effect size (Ei) for each species, weighted
+    by biomass within each polygon, considering a 2063 pH mortality scenario (2063pHmortality
+    scenario).
+  52: No relevant information
+More Notes:
+  3: The study focuses on the California Current region and the economic consequences
+    for the fishing industry, specifically related to Dungeness crab productivity.
+  4: The paper focuses on the impacts of marine ecosystem changes on human communities
+    that rely on living marine resources.
+  7: The study focuses on the 17 US port groups on the outer coast used by the Pacific
+    Fisheries Information Network (PacFIN) to aggregate data and avoid issues of disclosure
+    of confidential information.
+  10: The ROMS model does not represent nearshore environments (inshore of 50 meters)
+    or land-based run-off as contributors to OA. The Atlantis model is a C++ code
+    base.
+  13: The model acknowledges limitations in ecosystem model persistence, particularly
+    with multi-species models. The study focuses on the effects on fisheries catch.
+    The authors admit the assumption of constant fishing rates and no behavioral changes
+    is unrealistic.
+  14: Focuses specifically on the fisheries sector, and the broader implications for
+    macro-fiscal risk related to this sector.
+  18: Three ports (Brookings, Crescent City and Bodega Bay) do not have processors,
+    so only direct income and employment multipliers are used for those ports.
+  23: The analysis uses port-level revenue data to assess impacts on vessel types.  Results
+    may be confounded by model calibration difficulties, specifically for diver vessels.
+    The model runs for 100 years up to 2063 conditions.
+  24: The study focuses on a regional scale (California Current) which may not be
+    directly applicable to a national-level analysis, but the modeling framework and
+    consideration of spatial variability could be relevant.
+  30: The model may oversimplify predator (specifically crab) diets, making them more
+    sensitive to changes in the model than they would be to changes in the natural
+    environment. The fixed price assumption and lack of input substitution in the
+    economic analysis may limit the accuracy of the economic impact assessment.
+  46: The study focuses on the impact of OA on specific marine functional groups and
+    species, providing insights into their proportional mortality due to pH decline.
+  52: This page only contains a figure reference and a page number; it does not provide
+    any information about the study's findings, methodology, or specific drivers and
+    outcomes.
+No relevant information:
+  1: This page primarily provides publication details (title, authors, affiliations)
+    and copyright information. It doesn't contain any information about macroeconomic/fiscal
+    outcomes, adaptation costs/benefits, risk drivers, methodology, or quantitative
+    results.
+  25: No macroeconomic or macro-fiscal outcomes are directly examined in this excerpt.
+    The focus is on ecological modeling and impacts on marine species.
+  51: No relevant information
+Outcome(s) of Interest:
+  3: Economic impacts on revenue, income, and employment at 17 ports on the US west
+    coast.
+  4: Fisheries catch and revenue, socio-economic consequences that vary across communities.
+  6: No work has estimated how ocean acidification may impact fisheries at finer spatial
+    scales, such as the port-level, but this paper explores spatially heterogeneous
+    impacts of ocean acidification on species and fisheries in the California Current.
+  7: port revenue, income and employment in US west coast communities
+  13: Fisheries catch (metric tonnes) at port-level for the US, Canada and Mexico.
+  14: Changes in income and employment resulting from changes in ex-vessel fisheries
+    revenue.
+  17: Revenue changes in fisheries, calculated at different scales (total port revenue,
+    revenue by port and vessel type, revenue by port and functional group).
+  18: Income and employment effects at the port level.
+  21: Simulated revenue from catch at various ports.
+  22: Port-level revenue changes; Income and employment impacts at the port-level.
+  23: Employment, revenue, and income in the fishing industry are affected by ocean
+    acidification.
+  24: Economic consequences for central and northern west coast ports that rely on
+    demersal species for a large portion of fisheries catch, in particular Dungeness
+    crab.
+  46: No relevant information
+  52: No relevant information
+Quantitative material:
+  3: Declines in species biomass tend to be larger in the southern region of the model,
+    but the largest economic impacts on revenue, income and employment occur from
+    northern California to northern Washington State.
+  6: No work has estimated how ocean acidification may impact fisheries at finer spatial
+    scales, such as the port-level.
+  7: changes in catch, revenue, income and employment are simulated for 17 US port
+    groups
+  13: The model projects port-level catches in metric tonnes. The US west coast catch
+    in 2013 was used to calibrate fishing mortality. Crangon shrimp accounted for
+    0.1% of 2013 catch, other species accounted for 7.5% of 2013 US west coast catch.
+    US vessels have access to coastal areas within 200km of the homeport and equal
+    access to areas offshore to 1200m depth.
+  14: Catch in metric tonnes landed at each port was converted to total revenue using
+    2013 price per pound data.
+  17: Equations [eq.1] and [eq.2] describe how changes in biomass and revenue are
+    calculated.
+  18: Economic multipliers (MI,D,j, MI,P,j, ME,D,j, ME,P,j) are used to calculate
+    income and employment effects; Biomass effect sizes greater than |0.20| are considered
+    substantial changes; Effects are calculated as the difference between scenarios
+    in 2063 and standardized by 2013Baseline.
+  21: "Simulated revenue per port ranged from 0.4 \u2013 1.48 (mean 1.07, SD 0.39,\
+    \ Appendix C, Table C2). Declines in Dungeness crab revenue had effect sizes between\
+    \ -0.42 and -1.0+ at the nine U.S. ports north of Fort Bragg, CA. Pandalid shrimp\
+    \ revenue increased consistently by 0.3 at a number of ports."
+  22: Ports experienced an effect size of -0.27 from declines in Petrale sole; Three
+    ports experienced declines in revenue from Dover sole with an effect size of -0.39;
+    Substantial port-level revenue changes occurred at ports with a large proportional
+    reliance on Dungeness crab and flatfish (RP > |0.2|); Tillamook experienced the
+    largest decline in revenue as a result of declines in pH due to Dungeness crab,
+    which made up 97.3% of revenue in 2013Baseline (86.3% in PacFIN); Dover and Petrale
+    sole made up a smaller proportion of port revenue (5.0-8.5% and 4.0-19.8% reliance
+    respectively).
+  23: ''
+  52: No relevant information

@@ -1,0 +1,181 @@
+Drivers of Risk:
+  1: Regional climate variations (temperature and precipitation) impact agricultural
+    productivity.
+  2: Climate patterns (temperature and precipitation anomalies), extreme weather events
+    (droughts, floods), and exogenous shocks (energy crisis, policy fluctuations).
+  3: Temperature anomalies (TA) and precipitation anomalies (PR) by period and season,
+    shift to higher sensitivity to climate variability.
+  4: Temperature and precipitation changes in specific seasons and regions of the
+    US; Warmer winter temperatures leading to snow melt and depleted soil moisture;
+    Increased summer rainfall in grazing lands
+  5: Regional climate variations are linked to variability in agricultural Total Factor
+    Productivity (TFP).
+  6: Climate change, specifically warmer summers in the Midwest, warmer autumns in
+    the Southwest, warmer springs in the Southwest, warmer summers in California and
+    Nevada, and decreasing amount and increasing variability of summer precipitation
+    in the transition zone between the Corn and Cotton Belts.
+  7: Climate indices (temperature and precipitation anomalies in specific regions
+    and seasons) are identified as drivers of TFPC.
+  9: Temperature and precipitation changes impact Total Factor Productivity (TFP)
+    and agricultural productivity.
+  10: Climate change, specifically warming trends (increased autumn, spring, and summer
+    temperatures) and changes in precipitation patterns, are the main drivers of TFP
+    loss.
+  11: Increased irrigation use, evolving climate sensitivity with negative impacts,
+    and regulatory effects not accounted for, impacting TFP.
+  13: Temperature and precipitation changes are the key drivers of risk analyzed.
+Highlights:
+  1: The aggregate effects of regional climate trends on TFP have been outweighed
+    by improvements in technology, but projected climate change could cause significant
+    TFP decline.
+  2: Climate has been a significant factor in explaining the variability of TFP. TFP
+    growth rates have been highly variable since the 1970s.
+  3: TFPC became much more sensitive to climate between 1981-2010 than 1951-1980;
+    summer productivity growth was associated with cooler temperatures over the US
+    agricultural heartland (Midwest, Northeast, mid-Atlantic, and surrounding areas),
+    but with warmer temperatures in California and its border areas.
+  4: Climate dependence of US agricultural TFPC significantly increased after 1980;
+    Agricultural productivity has become more sensitive to climate in recent years;
+    Changes in climate correlations suggest impacts of climate on TFPC became negative
+    over time in many areas.
+  5: TFP growth in US agriculture has largely been sustained by technological gains
+    despite small net losses due to climate trends.
+  6: US agricultural TFP is projected to decline continuously, with faster rates after
+    ~2025, due to climate change; the largest contributor to the decline is projected
+    warmer summers in the Midwest.
+  7: Technological advances in US agricultural productivity growth were considerably
+    enhanced in 1981-2010 compared to 1951-1980.
+  9: "TFP sensitivity to climate increased significantly from 1981\u20132010 compared\
+    \ to the 1951-1980 period, with summer temperatures showing the largest correlations."
+  10: The future climate penalty reduces TFP at greater rates than it has grown in
+    recent decades, and the rate of loss increases significantly over time. Productivity
+    appears to be significantly more sensitive to climate than previous studies have
+    shown for yield. TFP loss may be higher than yield loss because it reflects the
+    added costs of maintaining yield under less beneficial climate conditions.
+  11: Regulatory and policy impacts on TFP and the role of improved technology or
+    practices in potential adaptation.
+  13: Temperature and precipitation are correlated with TFPC; crops make up the majority
+    of US agricultural value, with livestock decreasing and farm-related goods and
+    services increasing in importance in recent decades.
+Methodology:
+  1: Multivariate regression model predicting the growth of agricultural TFP based
+    on its historical relationship with regional climate indices. Objective, upscaling
+    approach to quantify the effects of regional climate variations on national TFP.
+  2: Correlation analysis of national TFPC with seasonal and geographic distributions
+    of climate variables (temperature and precipitation anomalies) to identify statistically
+    significant relationships. A multivariate regression model is developed to predict
+    national aggregate agricultural TFP growth. Data from 1951-2010 is used to examine
+    historical trends.
+  3: Examined the geographic distribution of 30-year correlations to identify key
+    areas where regional climate indices significantly affect national TFPC; comparisons
+    of correlations are given in National Percentages of Significant Correlations
+    and Fig. S1.
+  4: Regression models are developed for two periods (1951-1980 and 1981-2010) to
+    capture TFPC-climate relationships, using seasonal temperature and precipitation
+    averages over 10 regions; Running correlation analysis over 20-year periods; Model
+    simulations are compared to historical records; Bootstrapping is used to assess
+    model uncertainty.
+  5: Analysis involves modeling TFP responses to past climate variations and using
+    model 2 for future projections under RCP 4.5 and RCP 8.5 scenarios.
+  6: Uses Coupled Model Intercomparison Project Phase 5 (CMIP5) simulations for RCP4.5
+    and RCP8.5 to project changes to climate indices; performs factor analysis based
+    on projected changes in regional climate indices to determine key contributors
+    to future US TFP declines; correlates US Department of Agriculture's national-level
+    TFP estimates for 1948-2011 with climate variables; uses regression model to estimate
+    the relationship between climate and productivity.
+  7: Bootstrap sampling is used to assess the robustness of the model and quantify
+    regression model uncertainty.
+  9: Analysis focuses on correlations between temperature variables (TA, TN, TM) and
+    TFP across grid regions for different decades, using historical climate data and
+    CMIP5 climate simulations for projections.
+  10: The analysis uses a TFPC model representing observed relationships between the
+    US agricultural economy and climate variations to project future productivity
+    change, treating past relationships as an analog. Regression-based uncertainty
+    is also incorporated.
+  11: "A lasso regression analysis was performed to minimize overfitting in stepwise\
+    \ regression for evaluating climate index effects on TFP, applied to data from\
+    \ 1981\u20132010 and 1951\u20131980."
+  13: The study uses correlation analysis to assess the relationship between TFPC
+    and climate variables (temperature and precipitation) across different 20-year
+    subperiods. It also tracks changes in the contributions of different agricultural
+    sectors to total value over time.
+More Notes:
+  2: The study hypothesizes that climate influences agricultural TFP, traditionally
+    attributed to technological improvement. The analysis focuses on the relationship
+    between interannual climate variations and TFPC rather than TFP itself.
+  3: Warmer autumns in Texas and across the Northeast through the Midwest and mid-Atlantic
+    regions were associated with higher measured agricultural productivity in 1951-1980;
+    cooler springs in Nevada, Utah, Arizona, and the coastal regions of California
+    and New Mexico were more productive in 1951-1980.
+  4: The transition zone between the Corn and Cotton Belts is particularly vulnerable
+    due to its dependence on rainfall for grazing lands; Crop production is generally
+    more sensitive to adverse weather than livestock production; The page includes
+    figures visually depicting climate correlation patterns and measured vs. simulated
+    TFPC.
+  5: Projected significant climate changes include increased warming, decreased water
+    availability, and enhanced extremes in crop-producing areas, affecting future
+    agricultural productivity.
+  6: The model describes ~70% of measured TFPC variance. The modeled TFP decline represents
+    the penalty arising solely from projected climate changes. The model treats technological
+    advances, agricultural practices, and long-term factors such as CO2 fertilization
+    as a constant.
+  7: Strong cross-correlations between climate indices can lead to some indices being
+    excluded from the models.
+  10: The model's applicability may decrease as future climate anomalies exceed the
+    magnitude of historical anomalies, potentially affecting projections in later
+    years. The analysis accounts for changes in livestock and agriculture-related
+    goods and services in addition to crop yields.
+Outcome(s) of Interest:
+  1: Agricultural Total Factor Productivity (TFP) growth/decline is used as a proxy
+    for macroeconomic performance.
+  2: Agricultural Total Factor Productivity (TFP) growth (TFPC) is used as an indicator
+    of economic growth in the agricultural sector.
+  3: National Total Factor Productivity Change (TFPC) and its relation to climate
+    variables.
+  4: Agricultural Total Factor Productivity Change (TFPC)
+  5: No concrete relevant macroeconomic or fiscal outcome details on nation-wide adaptation
+    provided.
+  6: US agricultural total factor productivity (TFP).
+  7: Total factor productivity change (TFPC) is used as a proxy for agricultural productivity.
+  10: Total Factor Productivity (TFP) loss, a measure reflecting aggregate economic
+    productivity, is the primary outcome of interest.
+  11: Potential TFP (Total Factor Productivity) losses due to climate change and adaptation,
+    with no persistent correlation found between agricultural trade and TFP.
+  13: The study examines the impact of climate (temperature and precipitation) on
+    total factor productivity change (TFPC) and agricultural sector contributions
+    to total value.
+Quantitative material:
+  1: TFP could fall to pre-1980 levels by 2050.
+  2: US agricultural output grew at an average rate of 1.50% per year from 1948 to
+    2011.
+  3: "Significant correlations between regional climate indices and national TFPC\
+    \ are statistically insignificant between \xB10.361."
+  4: Model 1 (1951-1980) explains almost 50% of TFPC variance; Model 2 (1981-2010)
+    explains around 70% of TFPC variance; From 1979 to 2008, more than 60% of yield
+    variability can be explained by climate variability; Correlation coefficients
+    (R) and p-values for models; Variance explained by regression, residual, and total
+    variance for each period.
+  5: Calculated a net TFP loss of 0.0003846 per year from climate trends, offset by
+    technological gain of 0.014865 per year.
+  6: Climate penalty will reduce TFP by ~2.84% per year under RCP4.5 and 4.34% per
+    year under RCP8.5 from 2010 to 2040; climate penalty will cause TFP to lose, by
+    ~2035, all of the gains achieved from 1981 to 2010 under RCP4.5; models project
+    US agricultural TFP will drop to pre-1980s levels by ~2040 or earlier; 90% of
+    models project this drop-off to occur by 2043 and 2051 for RCP8.5 and RCP4.5,
+    respectively; all gains in US agricultural productivity during 1981-2010 will
+    likely be canceled by a climate penalty before ~2050.
+  7: Impacts from the seven climate indices contribute approximately 38.91%, 14.41%,
+    5.82%, 4.90%, 4.41%, 1.60%, and 0.36% of the total variance explained.
+  9: The percentage of significant correlations between climate variables and TFP
+    are provided for different decades, indicating changes in climate sensitivity
+    over time.
+  10: Under RCP4.5, the mean TFP loss is projected at ~2.84% per year through 2040,
+    with a range of 1.75% to 5.19%. Under RCP8.5, the mean loss rate is 4.34% per
+    year, with a range of 2.52% to 13.32%. These rates increase significantly over
+    time.
+  11: Lasso regression analysis outputs coefficients for climate indices, indicating
+    minimal contributions to total variance.
+  13: The study presents quantitative data on the percentage of grids with significant
+    temperature and precipitation correlations with TFPC, as well as the percentage
+    of total value contributed by different agricultural sectors (crops, livestock,
+    farm-related) from 1951-2001.

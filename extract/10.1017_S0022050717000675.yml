@@ -1,0 +1,288 @@
+Drivers of Risk:
+  1: Weather (temperature and precipitation).
+  3: Variations in temperature and rainfall; interannual weather fluctuations in early
+    childhood.
+  7: Historical weather variables (monthly mean temperature and monthly accumulated
+    precipitation)
+  8: Weather conditions (annual mean temperature)
+  11: Cross-decade variation in local temperature and precipitation is examined as
+    a driver impacting farm value at a county level.
+  14: Long-term weather conditions (temperature and precipitation)
+  16: Short-term weather conditions, specifically annual mean temperature (T) and
+    accumulated precipitation (P).
+  17: Temperature and precipitation.
+  18: Short-term weather conditions (average temperature and accumulated precipitation).
+  23: Extreme temperatures in utero and maternal exposure to infectious diseases promoted
+    by weather, like malaria, increase adverse birth outcomes, impacting human capital.
+  24: Long-term average weather variables such as temperature and precipitation.
+  25: Average temperature and accumulated precipitation in the state of birth.
+  26: Annual mean temperature and accumulated precipitation at the year of birth,
+    at the three years after birth, and at two years before birth.
+  27: Cross-year weather fluctuations (temperature and precipitation) during early
+    life.
+  28: Early-life weather fluctuations (temperature and precipitation).
+  30: Hotter and wetter weather.
+  33: Changes in mean temperature and accumulated precipitation, both short-term (annual)
+    and long-term (10-year average).
+  34: Climate (weather variables)
+  36: Decadal average of annual mean temperature and decadal average of annual accumulated
+    precipitation
+  37: Decadal temperature, decadal precipitation, annual temperature, and annual precipitation.
+Highlights:
+  1: The effects of hotter and wetter weather on productivity were strong early in
+    U.S. history, but these effects have generally been attenuated in recent decades.
+    Estimates from a given period may be of limited use in forecasting the longer-term
+    impacts of climate change.
+  3: The relationship between weather and productivity/occupational income has changed
+    over time, suggesting adaptation to climate.
+  8: County farm value has adapted to the permanent features of local weather over
+    time in the United States.
+  11: The effect of temperature and rainfall variations on farm value changed significantly
+    until the mid-twentieth century, becoming more beneficial over time until stabilizing
+    around 1960-1970.
+  14: "Temperature and precipitation have statistically significant effects on farm\
+    \ values per acre. The effects of temperature and precipitation on farm values\
+    \ appear to vary between the 19th and 20th centuries, as indicated by statistically\
+    \ significant interaction terms (T \xD7 D19 and P \xD7 D19)."
+  16: The analysis shows significant effects of both temperature and precipitation
+    on farm output value per acre, with differences in the magnitude and direction
+    of these effects between the 19th and 20th centuries. The interaction term between
+    temperature and precipitation also has a significant effect in some specifications.
+  17: Adaptation occurred more rapidly in hotter areas over time. Adaptation to precipitation
+    was evident in wetter areas, but the rate of adaptation seems to be smaller than
+    that of temperature.
+  18: Adaptation of farm output value to weather occurred more-or-less steadily across
+    decades; forecast of the impact of climate change during one century made with
+    data from the prior century would be problematic.
+  23: Adverse birth outcomes from climate-related conditions affect life-time human
+    capital accumulation, influencing factors such as schooling and adult income.
+  24: The significant adverse effect of early-life high temperature and precipitation
+    on lower adult income for cohorts born before 1900 and the diminishing effect
+    for cohorts born after 1930.
+  25: Early-life weather conditions (temperature and precipitation) are related to
+    adult income.
+  26: Early-life weather conditions (temperature and precipitation) influence occupational
+    income in adulthood.
+  27: Adult occupational income scores are highly associated with cross-year weather
+    fluctuations for specific years in early life. Weather conditions before birth
+    do not have meaningful effects.
+  28: The effect of short-term weather fluctuations on adult income diminished across
+    cohorts born in the late 19th and early 20th centuries. Early-life temperature
+    had a positive effect on adult income for cohorts born in the second half of the
+    nineteenth century, but this effect attenuated for cohorts born later.
+  30: Human efforts to enhance agricultural technologies and improve ecological environments
+    have been effective in overcoming the adverse effects of hotter and wetter weather
+    in the U.S.
+  34: County boundary adjustments do not cause critical problems in estimating fixed
+    effects models.
+  36: Long-term temperature and precipitation changes significantly affect farm values,
+    with the impact varying over time (as indicated by the year interaction terms).
+  37: Temperature and precipitation in the 19th century had a statistically significant
+    negative impact on county farm value and farm output value. Adaptation, reflected
+    in the coefficients, occurred more substantially when only counties without boundary
+    changes were considered, but the magnitude was somewhat smaller than the baseline
+    estimation, particularly in the effect on farm output value. Excluding Southern
+    counties yielded similar results.
+Methodology:
+  1: Cross-sectional and panel methods are used to analyze the relationship between
+    weather and productivity from 1860-2000 in the U.S. Hedonic models are also mentioned.
+  3: Panel fixed effect methods to estimate the response of farm productivity to variations
+    in temperature and rainfall; Census data from 1940-2000; fixed effect estimator
+    to find effects on adult occupational income of interannual weather fluctuations
+    in early childhood.
+  7: "Uses geostatistical technique called \u201CKriging\u201D to estimate missing\
+    \ county-level weather data based on surrounding weather stations, weighting by\
+    \ inverse distance squared."
+  8: Cross-sectional analysis using scatter plots to investigate the relationships
+    between county average of farm value and weather conditions. Regression analysis
+    to adjust for county boundary changes.
+  11: The analysis is performed using weighted ordinary least squares regressions,
+    controlling for agricultural technologies and county factors, with fixed effects
+    for year, state by year, and county in some specifications. The analysis uses
+    data from census years 1880 to 2000.
+  14: Panel data regression analysis using county-level data across the 19th and 20th
+    centuries. Models include various fixed effects (state, state x century, state
+    x year, county).
+  16: Panel regression analysis is used to estimate the relationship between weather
+    conditions (temperature and precipitation) and farm output value per acre, controlling
+    for state, year, and county fixed effects. The analysis is performed separately
+    for the 19th and 20th centuries and for both centuries combined.
+  17: Regression analysis of county farm value on decadal temperature and precipitation
+    and their interaction. Compares farm value in the late twentieth century relative
+    to that in the late nineteenth century.
+  18: "Panel regression comparing 1870\u20131900 to 1970\u20132000, with state-by-year\
+    \ and county fixed effects; short-term weather variables as average temperature\
+    \ and accumulated precipitation in one year before each census year."
+  24: Bivariate analysis of cross-sectional data on average occupational income scores;
+    cohorts from state-of-birth data aggregated from 1880 to 1990; weather data imputed
+    by Kriging interpolation technique.
+  25: Regression analysis is used to determine the relationship between average weather
+    conditions in early life (state of birth average temperature and precipitation)
+    and adult income for two cohorts (born 1860-1899 and 1931-1960) of native adult
+    white males in the United States.
+  26: "Regression analysis of cohort outcomes on early life weather conditions, controlling\
+    \ for state of birth, year of birth, and census year fixed effects. The model\
+    \ regresses cohort outcomes on early life weather conditions using data on native\
+    \ adult white males from U.S. censuses of 1880 and 1900\u20131990, which span\
+    \ the years of birth 1860\u20131960."
+  27: Regression analysis with state of birth fixed effects, focusing on within-state,
+    across-year weather variations. Examines the impact of short-term weather fluctuations
+    on adult income across cohorts using a 40-year moving window.
+  28: Regression analysis using a 40-year moving window, controlling for temperature
+    one year after birth and precipitation at the year of birth.
+  30: The study extends the time window to the past century-and-a-half and quantifies
+    the level of adaptation from various aspects (cross sectional and panel fixed
+    approach, agricultural and individual productivity, and short-term and long-term
+    adaptation).
+  32: The paper uses Kriging estimation to estimate annual and decadal weather variables
+    for randomly selected counties, comparing these estimates to actual values to
+    test the validity of the estimation method.
+  33: County-level monthly weather (mean temperature and accumulated precipitation)
+    are estimated by Kriging interpolation. Short-term weather variables are annual
+    mean temperature and accumulated precipitation in each census year. Long-term
+    weather variables are the 10-year average of annual mean temperature and annual
+    accumulated precipitation prior to each census year.
+  34: Panel regression analysis with county fixed effects from 1870 to 2000, using
+    data from U.S. federal population and agricultural censuses, and U.S. county data
+    books. County boundary adjustments were performed to maintain consistent geographic
+    units.
+  36: Regression analysis using county-level data, adjusting for county boundary changes.
+    Includes fixed effects of year and accounts for clustering of errors. Results
+    are applicable to the US agricultural sector between 1880 and 2000.
+  37: Regression analysis is used to estimate the relationship between county farm
+    value/output and weather variables, with and without controlling for county boundary
+    changes and Southern counties.
+More Notes:
+  1: Adaptation can occur through adjusting input mixes, choosing alternative technologies,
+    or developing new technologies. Ecological changes amplified by human action can
+    also play a role, especially if property rights are not well-established.
+  3: The authors argue that historical relationships between weather and economic
+    outcomes can be unstable over time, meaning that estimates from one period (e.g.,
+    circa 1900) may not be reliable for forecasting impacts in another period (e.g.,
+    circa 2000) or the future; they do not characterize specific determinants of productivity
+    change to measure the historical adaptation.
+  7: There is a potential double counting issue in calculating farm output value because
+    some crops are used for feeding livestock.
+  14: The table explores the relationship between long-term weather conditions and
+    agricultural land values over time, considering both temperature and precipitation.
+  16: The dependent variable is in natural logarithms, implying that the coefficients
+    can be interpreted as approximate percentage changes.
+  17: The analysis uses demeaned interaction of temperature and precipitation. The
+    paper also uses the value of county farm output as an alternative measure of farm
+    productivity.
+  18: The magnitude of the adaptation to the weather (in other words, the difference
+    in marginal effect across the centuries) is similar to what was estimated using
+    farm value and long-term weather variables in a previous subsection.
+  24: Suggests technological adaptation may have mitigated the negative effects of
+    weather on economic productivity over the early twentieth century.
+  25: The analysis uses IPUMS data and Krijging interpolated weather variables.
+  26: The analysis focuses on the impact of weather fluctuations around the year of
+    birth and their impact on occupational income.
+  27: The study suggests that the coefficients may vary across cohorts due to factors
+    like food supply, public programs, and technological adaptation. The effect of
+    weather on adult income has changed across cohorts.
+  28: The analysis focuses on white males. The study uses historical data from the
+    US.
+  30: "Today\u2019s relationships between weather or climate and economic outcomes\
+    \ may be poor guides to the future forms of such relationships, inasmuch as these\
+    \ relationships have been unstable over historical time scales."
+  32: The appendix describes the data used in the study, including farm value per
+    farm-land acre and farm output value per farm-land acre as measures of U.S. farm
+    productivity. This suggests that agricultural productivity may be related to the
+    weather variables being estimated and measured, although it is not directly discussed
+    on this page.
+  33: The data is from the Nineteenth-Century U.S. Climate Data Set Project, the National
+    Climate Data Center, and the U.S. Historical Climatology Network. The data spans
+    from 1870 to 2000 (census years).
+  37: The analysis focuses on adaptation in the agricultural sector. The paper suggests
+    that changes in county boundaries and regional factors (Southern counties) can
+    influence the estimated impact of weather variables. Statistical significance
+    is indicated by *, **, and *** at the 10%, 5%, and 1% levels, respectively.
+No relevant information:
+  22: This page focuses on a measurement error problem (double-counting of farm output)
+    in historical U.S. census data and methods to address it. It does not directly
+    discuss macroeconomic or macro-fiscal risks of climate change, costs/benefits
+    of adaptation, or their impact on national-level outcomes. The focus is on data
+    accuracy for historical analysis, not climate change impacts.
+Outcome(s) of Interest:
+  1: Agricultural and individual productivity.
+  3: Farm productivity; occupational income.
+  7: County farm productivity (farm value per farmland acre and farm output value
+    per farmland acre)
+  8: County average of farm value per acre, occupational income score
+  14: County average farm value per acre (log transformed)
+  16: County average farm output value per acre
+  17: County farm value.
+  18: County farm output value.
+  23: Adverse health impacts of climate-related conditions can reduce individuals'
+    economic productivity and income.
+  24: The relationship between early-life weather conditions and adult occupational
+    income.
+  25: Adult income, measured as the average occupational income score transformed
+    into natural logarithms.
+  26: Occupational income score transformed into natural logarithms.
+  27: Adult occupational income scores.
+  28: Occupational income in adulthood, measured by occupational income score.
+  30: Farm value and farm output value.
+  34: Farm productivity
+  36: ln(county average farm value per acre)
+  37: County farm value and county farm output value.
+Quantitative material:
+  1: The paper documents significant responses of agricultural and individual productivity
+    to weather using cross-sectional and panel methods.
+  3: The response of both farm-productivity measures to high temperature or rainfall
+    is estimated to be more negative in the early parts of the sample than in recent
+    years; being born in warmer or wetter areas was associated with substantially
+    lower occupational income score in adulthood for those born prior to 1950, but
+    this correlation disappears among those born more recently; the effect on adult
+    occupational income of interannual weather fluctuations in early childhood was
+    strongest among those born earlier in the sample and is sharply attenuated among
+    those born in the past 50 years.
+  7: Data on farm value per farmland acre is used from 1870 to 2000. Farm output value
+    is total value of all farm products within the year prior to enumeration day,
+    but is unavailable for census years 1910, 1920 and 1930.
+  8: "Uses micro samples from the 1880 and 1900\u20131990 IPUMS-Integrated Public\
+    \ Use Microdata Series"
+  14: The table presents coefficients from regressions of log(county average farm
+    value per acre) on temperature (T), precipitation (P), and interactions between
+    these variables and a dummy variable for the 20th century (D19).
+  16: The table provides regression coefficients showing the impact of temperature
+    and precipitation on farm output value per acre, along with standard errors, adjusted
+    R-squared values, and the number of observations.
+  17: Cross-century difference in farm value as a ratio is estimated to be 13.7 for
+    the average county and 19.1 for the hot county based on temperature changes. Cross-century
+    difference in farm value as a ratio is estimated to be 1.6 for a county with average
+    annual precipitation and 1.9 for a wet county based on precipitation.
+  18: Hot and rainy short-term weather was less favorable for producing agricultural
+    output in the late nineteenth century than it was in the late twentieth century.
+  24: "There are statistically significant estimated coefficients for the relationship\
+    \ between early-life weather and adult income: \u20130.0094 for temperature and\
+    \ \u20130.0024 for precipitation."
+  25: The figure plots a proxy of adult income against state of birth average temperature
+    and precipitation. Cohorts are grouped into those born before 1900 and those born
+    after 1930.
+  26: Figure 4 displays the estimated regression coefficient on the interaction of
+    the indicated weather variable and a dummy for the calendar year minus year of
+    birth, along with 95 percent confidence intervals.
+  27: The year in which temperature has the most substantial, significant effect on
+    adult occupational income is one year after birth; the effect declines over the
+    next two years. The effect of precipitation is most substantial at the year of
+    birth and then becomes non-significant.
+  28: A one-degree increase in annual mean temperature at age 1 resulted in a 2.4
+    percent increase in adult income (measured by occupational income score) during
+    the 1870s to 1910s for cohorts born around 1890.
+  30: Farm value and farm output value substantially declined as the region became
+    hotter and wetter in the late nineteenth century, but the adverse effects have
+    been almost completely attenuated in recent decades in the U.S.
+  32: 'Correlation coefficients between estimated and actual values are reported:
+    0.9699 and 0.9683 for annual and decadal mean temperature, respectively; 0.9284
+    and 0.9791 for annual and decadal mean precipitation, respectively.'
+  34: Sample means of farm-productivity measures and controls by census year are reported
+    in Appendix Table 2. Estimated coefficients of the interaction terms between each
+    weather variable and each year dummy, and their standard errors.
+  36: Regression coefficients and standard errors for the impact of weather (temperature
+    and precipitation) on farm value per acre, interacted with year dummies from 1880-2000.
+  37: The table presents coefficients for the interaction between weather variables
+    (temperature and precipitation) and a dummy variable indicating census years in
+    the 19th century. These coefficients are interpreted as the effect of weather
+    variables on farm value or output value.

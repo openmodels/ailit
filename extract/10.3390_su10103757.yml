@@ -1,0 +1,76 @@
+Drivers of Risk:
+  1: Climate change, specifically temperature increases.
+  2: Climate change impacts on crop yields and their subsequent socio-economic effects,
+    including economic losses, influence cropland use decisions.
+  9: Changes in temperature (GrsAvg), Precipitation, Irrigation Rate, Pesticide usage,
+    Fertilizer usage, Farm Revenue, Planted Scale, and a Time trend.
+Highlights:
+  1: Temperature increases are projected to shift crop mixes, potentially impacting
+    food security and requiring adaptation efforts.
+  2: Climate change impacts have led to changes in cropland allocation and liberalization
+    impacts on trade, with economic losses particularly in crops like corn and soybeans
+    in China.
+  5: The relationship between temperature and precipitation and the planted area shares
+    of various crops (tubers, rice, wheat, maize, soybeans, oils, cotton, fibers,
+    special crops, vegetables, and orchards) are examined.
+  9: Temperature (GrsAvg) and Precipitation have statistically significant effects
+    on crop yields. Irrigation Rate has a strong and statistically significant impact
+    on Rice, Maize, and Wheat yields. Fertilizer usage and PlantedScale also have
+    significant, often negative, effects on crop yields.
+Methodology:
+  1: Fractional multinomial logit (FMLOGIT) model used to examine the influence of
+    climate on regional crop mixes in mainland China from 2001 to 2013, under historical
+    and future climate conditions.
+  2: The analysis includes estimating the economic losses due to climate impacts on
+    crop yields and inferring alterations in crop land-use decisions based on past
+    trends and liberalization efforts.
+  5: The methodology is not explicitly stated on this page, but the table suggests
+    a statistical analysis using explanatory variables to predict crop share proportions.
+    The data covers the period 2000-2014, making the results applicable to that timeframe
+    and potentially offering insights into similar agricultural contexts.
+  9: Regression analysis with delta-method standard errors. Marginal effects are evaluated
+    at the means of the variables. The model uses lagged values for IrrigRate, Pesticide,
+    Fertilizer, FarmRev, and PlantedScale.
+More Notes:
+  1: The study focuses on crop mix land use and its relationship to climate, and identifies
+    possible effects on regional food production and agricultural income, offering
+    early warnings on required adaptation efforts.
+  5: The pesticide data is sourced from a different set of statistical yearbooks than
+    other variables. The pesticide variable is based on the raw commodity masses of
+    the pesticide mix.
+  9: The table only shows marginal effects and does not directly quantify the overall
+    macroeconomic or fiscal impacts. The effects are crop-specific and may have different
+    implications for countries depending on their agricultural composition.
+No relevant information:
+  15: This page primarily discusses future research directions and limitations of
+    the original study, without presenting specific quantitative findings or conclusive
+    results regarding macroeconomic or macro-fiscal outcomes, or concrete costs/benefits
+    of adaptation at a national level.
+  16: No relevant information
+Outcome(s) of Interest:
+  1: Regional food security, agricultural income, and potential need for adaptation
+    efforts to maintain food production.
+  5: No relevant information
+  9: Effects on the yields of various crops (Rice, Maize, Wheat, Soybean, Tubers,
+    Oils, Cotton, Vegetables, Orchards, Special crops, Fibers) due to changes in GrsAvg
+    (likely a measure of temperature), Precipitation, Irrigation Rate, Time trend,
+    Pesticide usage, Fertilizer usage, Farm Revenue, and Planted Scale. Implied indirect
+    impact on macroeconomic factors through agricultural productivity.
+Quantitative material:
+  1: Projected increases in wheat and tuber production, decreases in rice and maize
+    production, increases in cash crops (vegetables, orchards) and fiber crops, decreases
+    in oil-bearing and specialty crops, under future climate scenarios.
+  2: "Climate change causes an economic loss in China\u2019s corn and soybeans sectors\
+    \ amounting to $820 million cumulatively (in Year 2009 US dollars) during the\
+    \ period of 2001\u20132009."
+  5: The table provides summary statistics (mean, standard deviation, min, max) for
+    various explanatory variables (temperature, precipitation, planted area ratios,
+    fertilizer usage, pesticide usage, gross farm revenue, time trend, average temperature
+    across all years, and average total precipitation across years) and dependent
+    variables (planted area shares for various crops).
+  9: Table 3 provides marginal effects of the listed variables (GrsAvg, Precipitation,
+    Irrigation Rate, Time trend, Pesticide usage, Fertilizer usage, Farm Revenue,
+    Planted Scale, meanGrs, meanPrep) on the yields of various crops (Rice, Maize,
+    Wheat, Soybean, Tubers, Oils, Cotton, Vegetables, Orchards, Special crops, Fibers),
+    evaluated at the means of the variables. Statistical significance (p < 0.01, p
+    < 0.05, p < 0.1) is indicated.

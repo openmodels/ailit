@@ -1,0 +1,17 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Stock Market Capitalization,22 OECD countries,Observed,2019,No CC,% of GDP,-1,NA,NA,NA,NA,NA,597,Negative relationship with climate risk
+1,Sovereign Risk,22 OECD countries,Observed,2019,No CC,NA,1,NA,0%,0,NA,NA,597,Increase in sovereign risk only across inferior quantiles (small CDS)
+2,Competitiveness,22 OECD countries,Observed,2019,No CC,NA,-1,NA,NA,NA,NA,NA,597,Climate risk has a small effect. Sign indicates relationship.
+3,Sovereign Risk,OECD,Observed Climate Risk,2014,No CC,Units not specified,0.0017,NA,10%,0.0017,NA,NA,p. 11,Coefficient for Climate Risk Index (CRI) at q10 quantile. Statistically significant at 1% error threshold. Midpoint of 2008-2019 used for year.
+4,Sovereign Risk,OECD,Observed Climate Risk,2014,No CC,Units not specified,0.0016,NA,25%,0.0016,NA,NA,p. 11,Coefficient for Climate Risk Index (CRI) at q25 quantile. Statistically significant at 1% error threshold. Midpoint of 2008-2019 used for year.
+5,Sovereign Risk,OECD,Observed Climate Risk,2014,No CC,Units not specified,0.0005,NA,50%,0.0005,NA,NA,p. 11,Coefficient for Climate Risk Index (CRI) at q50 quantile. Midpoint of 2008-2019 used for year.
+6,Sovereign Risk,OECD,Observed Climate Risk,2014,No CC,Units not specified,0.0016,NA,75%,0.0016,NA,NA,p. 11,Coefficient for Climate Risk Index (CRI) at q75 quantile. Midpoint of 2008-2019 used for year.
+7,Sovereign Risk,OECD,Observed Climate Risk,2014,No CC,Units not specified,0.0022,NA,90%,0.0022,NA,NA,p. 11,Coefficient for Climate Risk Index (CRI) at q90 quantile. Statistically significant at 1% error threshold. Midpoint of 2008-2019 used for year.
+8,Market Capitalization,OECD,Observed Climate Risk,2014,No CC,Units not specified,-0.0004,NA,10%,-0.0004,NA,NA,p. 11,Coefficient for Climate Risk Index (CRI) at q10 quantile. Midpoint of 2008-2019 used for year.
+9,Market Capitalization,OECD,Observed Climate Risk,2014,No CC,Units not specified,-0.0018,NA,25%,-0.0018,NA,NA,p. 11,Coefficient for Climate Risk Index (CRI) at q25 quantile. Statistically significant at 1% error threshold. Midpoint of 2008-2019 used for year.
+10,Market Capitalization,OECD,Observed Climate Risk,2014,No CC,Units not specified,-0.0026,NA,50%,-0.0026,NA,NA,p. 11,Coefficient for Climate Risk Index (CRI) at q50 quantile. Statistically significant at 5% error threshold. Midpoint of 2008-2019 used for year.
+11,Market Capitalization,OECD,Observed Climate Risk,2014,No CC,Units not specified,-0.0052,NA,75%,-0.0052,NA,NA,p. 11,Coefficient for Climate Risk Index (CRI) at q75 quantile. Statistically significant at 10% error threshold. Midpoint of 2008-2019 used for year.
+12,Market Capitalization,OECD,Observed Climate Risk,2014,No CC,Units not specified,-0.0007,NA,90%,-0.0007,NA,NA,p. 11,Coefficient for Climate Risk Index (CRI) at q90 quantile. Midpoint of 2008-2019 used for year.
+13,Stock Market Cap,OECD,Observed,2019,No CC,Coefficient,0,NA,25%,-0.006,75%,-0.001,p. 12,"Impact more substantial across mid quantiles; insignificant for CZ, TR, GR, USA, CH."
+14,Competitiveness,OECD,Observed,2019,No CC,Coefficient,-0.00524,NA,NA,NA,NA,NA,p. 12,LOGIT estimates show negative correlation with climate risk.
+15,Competitiveness,22 OECD (EU),NA,2019,No CC,NA,-0.00524,NA,NA,NA,NA,NA,13,"Negative relationship between climate risk and competitiveness, but statistically insignificant (p > 0.10).  McFadden R2 = 0.1287.  Obs = 242"

@@ -1,0 +1,193 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Social Cost of Carbon Dioxide,Global,2021,2021,PAGE09,USD/tCO2,2.0,NA,NA,NA,NA,NA,3,The paper mentions that the SCCO2 doubles the earlier PAGE09 values due to model updates.
+1,Social Cost of Carbon Dioxide,Global,2020,2021,Nordhaus 2017,USD,84.5,NA,NA,NA,NA,132,3,Refers to Kalkuhl and Wenz (2020) tripling the SCCO2 based on earlier results ($37–$132).
+2,Social Cost of Carbon Dioxide,Global,2018,2021,Previous est.,USD,318.5,NA,NA,NA,NA,417,3,Refers to the effect of long-term persistence increasing the outcome even more ($220–$417).
+3,Social Cost of Carbon,Global,SSP2-4.5,2020,No CC,$2015 USD per tonne,281,NA,25%,147,75%,349,Page 6,"This result reflects updates from PAGE09 to PAGE-ICE, including climate sensitivity and AR5 updates."
+4,Social Cost of Carbon,Global,SSP2-4.5,2020,No CC,$2015 USD per tonne,307,NA,5%,82,95%,831,Page 6,Final SCCO2 value reflects damage persistence introduced to GDP.
+5,Social Cost of Carbon,Global South,SSP2-4.5,2020,No CC,$2015 USD per tonne,0,NA,NA,NA,NA,NA,Page 6,Increase in SCCO2 is attributed almost entirely to increased social costs in the Global South.
+6,Social Cost of Carbon,Global North,SSP2-4.5,2020,No CC,$2015 USD per tonne,0,NA,NA,NA,NA,NA,Page 6,No notable change is shown due to regional empirical damage estimates.
+7,Damage Persistence,Global,SSP2-4.5,2015,No CC,Percentage,50.1,NA,25%,34.5,75%,69.0,Page 6,"Persistence reflects impacts on growth trajectory, especially in Africa, South Asia, and Latin America."
+8,GDP,World,SSP2-4.5,2100,No CC,%,-30,NA,NA,NA,NA,NA,7,"Mean global GDP is 30% lower with empirical persistence distribution, relative to the SSP2-4.5 growth path without persistence."
+9,GDP Growth,Global South,SSP2-4.5,2200,No CC,%,-99,NA,NA,NA,NA,NA,7,"Mean growth loss due to persistence exceeds the GDP growth rate in the whole Global South, causing economic contraction."
+10,Subsistence,India+,SSP2-4.5,2100,No CC,% of simulations,12,NA,NA,NA,NA,NA,7,Share of Monte Carlo simulations for which a region reaches the lower bound for GDP per capita.
+11,Subsistence,Africa+,SSP2-4.5,2100,No CC,% of simulations,11,NA,NA,NA,NA,NA,7,Share of Monte Carlo simulations for which a region reaches the lower bound for GDP per capita.
+12,Subsistence,Latin America,SSP2-4.5,2100,No CC,% of simulations,4,NA,NA,NA,NA,NA,7,Share of Monte Carlo simulations for which a region reaches the lower bound for GDP per capita.
+13,SCC,Global,SSP2-4.5,2020,No Persistence,Multiple,15,NA,NA,NA,NA,NA,7,SCCO2 increases fifteenfold if 10% of economic damages persist via reduced growth.
+14,SCC,Global,SSP2-4.5,2020,Without Persistence,Multiple,10,NA,NA,NA,NA,NA,7,"The mean SCC exceeds the estimate without damage persistence by an order of magnitude, suggesting high sensitivity to equity weighting parameters and methodologies."
+15,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Incremental CO2 pulse,USD,2500,NA,NA,NA,NA,NA,8,SCCO2 exceeds $5000 if current persistence is only 20% and decreases by an annual 0.5%
+16,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Incremental CO2 pulse,USD,600,NA,NA,NA,NA,NA,8,Needs a minimum of 3% per year reduction in persistence to see this SCCO2
+17,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Base PAGE-ICE model,USD,21,NA,NA,NA,NA,NA,8,Mean increase due to annual temperature variability
+18,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Base PAGE-ICE model,%,6.5,NA,NA,NA,NA,NA,8,Mean increase due to annual temperature variability
+19,GDP,Global,SSP2-4.5,2100,No CC,% of GDP in 2100,0,NA,NA,NA,NA,NA,Page 9,The page presents a box plot graph showing percentage of GDP in 2100 due to different damages. Specific numeric values are not provided in the page text.
+20,SCCO2,Global,SSP2-4.5,2100,No CC,US$ per tCO₂,0,NA,5%,NA,95%,NA,Page 9,"The page includes SCCO2 distributions with and without interannual temperature variability, but specific numeric values are not detailed in the text."
+21,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2100,SSP1-2.6,USD/tCO2,-1,NA,NA,NA,NA,NA,10,All model specifications without growth effects produce lower values of the mean SCCO2 (indicated by a negative value).
+22,Social Cost of Carbon Dioxide,Global South,SSP2-4.5,2100,PAGE09,%,1,NA,NA,NA,NA,NA,10,Differences between PAGE09 and PAGE-ICE show that the previous SCCO2 results have also decidedly underestimated damages in the Global South (indicated by a positive value).
+23,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2100,SSP5-8.5,USD/tCO2,1,NA,NA,NA,NA,NA,10,"For all the PAGE-ICE-based model specifications, we find higher mean values for SSP2-4.5 than for SSP5-8.5 (indicated by a positive value). This is because radiative forcing is logarithmic in concentration"
+24,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2100,SSP2-4.5,USD/tCO2,-1,NA,NA,NA,NA,NA,10,"For SSP1-2.6, climate change-induced damages are much lower compared to SSP2-4.5, leading to significantly lower SCCO2 values if no damage persistence is considered (indicated by a negative value)."
+25,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,100.88,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in tcr_transientresponse on the 2020 SCCO2
+26,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-63.29,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in ptp_timepreference on the 2020 SCCO2
+27,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,35.77,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in frt_warminghalflife on the 2020 SCCO2
+28,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-31.06,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in impf_coeff_lin on the 2020 SCCO2
+29,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,26.78,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in a1_percentco2oceanlong on the 2020 SCCO2
+30,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,23.51,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in pow_NonMarketExponent on the 2020 SCCO2
+31,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-22.63,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in emuc_utilityconvexity on the 2020 SCCO2
+32,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,21.84,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in w_NonImpactsatCalibrationTemp on the 2020 SCCO2
+33,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,13.68,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in ampf_amplification_Africa on the 2020 SCCO2
+34,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-12.15,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in tcal_CalibrationTemp on the 2020 SCCO2
+35,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,9.21,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in iben_NonMarketInitialBenefit on the 2020 SCCO2
+36,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,8.84,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in stay_fractionCO2emissionsinatm on the 2020 SCCO2
+37,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,6.61,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in ampf_amplification_SEAsia on the 2020 SCCO2
+38,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,5.91,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in ipow_NonMarketIncomeFxnExponent on the 2020 SCCO2
+39,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-4.32,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in sltau_SLresponsetime on the 2020 SCCO2
+40,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,4.16,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in W_SatCalibrationSLR on the 2020 SCCO2
+41,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,4.12,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in pow_SLRImpactFxnExponent on the 2020 SCCO2
+42,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,4.05,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in sltemp_SLtemprise on the 2020 SCCO2
+43,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,3.73,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in rtl_abs_0_realizedabstemperature_Africa on the 2020 SCCO2
+44,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,2.77,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in ind_slopeSEforcing_indirect on the 2020 SCCO2
+45,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,2.71,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in ipow_MarketIncomeFxnExponent on the 2020 SCCO2
+46,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,2.67,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in t2_timeco2oceanshort on the 2020 SCCO2
+47,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,2.16,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *increase* in rtl_abs_0_realizedabstemperature_SEAsia on the 2020 SCCO2
+48,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,617.53,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in tdis_tolerabilitydisc on the 2020 SCCO2
+49,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,104.61,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in ptp_timepreference on the 2020 SCCO2
+50,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-82.96,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in tcr_transientresponse on the 2020 SCCO2
+51,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,52.43,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in emuc_utilityconvexity on the 2020 SCCO2
+52,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-34.02,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in frt_warminghalflife on the 2020 SCCO2
+53,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,31.19,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in impf_coeff_lin on the 2020 SCCO2
+54,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-27.95,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in a1_percentco2oceanlong on the 2020 SCCO2
+55,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-21.64,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in w_NonImpactsatCalibrationTemp on the 2020 SCCO2
+56,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-20.11,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in pow_NonMarketExponent on the 2020 SCCO2
+57,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,14.99,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in tcal_CalibrationTemp on the 2020 SCCO2
+58,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-12.77,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in ampf_amplification_Africa on the 2020 SCCO2
+59,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-9.19,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in iben_NonMarketInitialBenefit on the 2020 SCCO2
+60,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-9.04,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in stay_fractionCO2emissionsinatm on the 2020 SCCO2
+61,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-6.30,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in ampf_amplification_SEAsia on the 2020 SCCO2
+62,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-5.88,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in sltemp_SLtemprise on the 2020 SCCO2
+63,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-5.01,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in ipow_NonMarketIncomeFxnExponent on the 2020 SCCO2
+64,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-4.14,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in W_SatCalibrationSLR on the 2020 SCCO2
+65,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,3.93,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in sltau_SLresponsetime on the 2020 SCCO2
+66,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-3.73,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in rtl_abs_0_realizedabstemperature_Africa on the 2020 SCCO2
+67,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-3.58,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in pow_SLRImpactFxnExponent on the 2020 SCCO2
+68,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-3.13,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in ind_slopeSEforcing_indirect on the 2020 SCCO2
+69,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-2.81,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in t2_timeco2oceanshort on the 2020 SCCO2
+70,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-2.15,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in rtl_abs_0_realizedabstemperature_SEAsia on the 2020 SCCO2
+71,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean parameter values,USD,-2.07,NA,NA,NA,NA,NA,14,Impact of a one standard deviation *decrease* in ipow_MarketIncomeFxnExponent on the 2020 SCCO2
+72,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,48,NA,25%,14,75%,50,Page 16,PAGE09 model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+73,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,48,NA,5%,5,95%,121,Page 16,"PAGE09 model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model. Double marked (**) indicates that in PAGE09 they ran an alternative emissions pathway aligned with staying below 1.5◦C rather than using RCP1.9, meaning a slightly higher SCCO2 estimates."
+74,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,51,NA,25%,14,75%,51,Page 16,PAGE09 model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+75,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,51,NA,5%,5,95%,126,Page 16,PAGE09 model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+76,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,129,NA,25%,31,75%,115,Page 16,PAGE09 model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+77,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,129,NA,5%,13,95%,323,Page 16,PAGE09 model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+78,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,140,NA,25%,35,75%,138,Page 16,PAGE09 model.
+79,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,140,NA,5%,14,95%,430,Page 16,PAGE09 model.
+80,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,185,NA,25%,89,75%,192,Page 16,PAGE-ICE model.
+81,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,185,NA,5%,51,95%,383,Page 16,PAGE-ICE model.
+82,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,202,NA,25%,97,75%,215,Page 16,PAGE-ICE model.
+83,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,202,NA,5%,56,95%,469,Page 16,PAGE-ICE model.
+84,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,306,NA,25%,148,75%,347,Page 16,PAGE-ICE model.
+85,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,306,NA,5%,83,95%,823,Page 16,PAGE-ICE model.
+86,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,190,NA,25%,92,75%,217,Page 16,PAGE-ICE model.
+87,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,190,NA,5%,51,95%,503,Page 16,PAGE-ICE model.
+88,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,11787,NA,25%,76,75%,14675,Page 16,PAGE with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+89,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,11787,NA,5%,0,95%,54689,Page 16,PAGE with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+90,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,9760,NA,25%,66,75%,12373,Page 16,PAGE with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+91,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,9760,NA,5%,0,95%,43722,Page 16,PAGE with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+92,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,3372,NA,25%,0,75%,1781,Page 16,PAGE with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+93,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,3372,NA,5%,0,95%,19370,Page 16,PAGE with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+94,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,1662,NA,25%,0,75%,426,Page 16,PAGE with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+95,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,1662,NA,5%,0,95%,9704,Page 16,PAGE with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+96,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,178,NA,25%,80,75%,189,Page 16,PAGE (annual temperatures) no variability model.
+97,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,178,NA,5%,45,95%,382,Page 16,PAGE (annual temperatures) no variability model.
+98,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,214,NA,25%,107,75%,245,Page 16,PAGE (annual temperatures) no variability model.
+99,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,214,NA,5%,63,95%,482,Page 16,PAGE (annual temperatures) no variability model.
+100,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,326,NA,25%,177,75%,400,Page 16,PAGE (annual temperatures) no variability model.
+101,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,326,NA,5%,97,95%,748,Page 16,PAGE (annual temperatures) no variability model.
+102,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,202,NA,25%,104,75%,247,Page 16,PAGE (annual temperatures) no variability model.
+103,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,202,NA,5%,55,95%,488,Page 16,PAGE (annual temperatures) no variability model.
+104,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,179,NA,25%,33,75%,250,Page 16,PAGE with annual variability model.
+105,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,179,NA,5%,-142,95%,643,Page 16,PAGE with annual variability model.
+106,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,221,NA,25%,67,75%,304,Page 16,PAGE with annual variability model.
+107,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,221,NA,5%,-105,95%,742,Page 16,PAGE with annual variability model.
+108,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,347,NA,25%,105,75%,517,Page 16,PAGE with annual variability model.
+109,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,347,NA,5%,-149,95%,1082,Page 16,PAGE with annual variability model.
+110,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,216,NA,25%,34,75%,342,Page 16,PAGE with annual variability model.
+111,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,216,NA,5%,-175,95%,754,Page 16,PAGE with annual variability model.
+112,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,176,NA,25%,61,75%,207,Page 16,PAGE with alternative annual variability model.
+113,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,176,NA,5%,-22,95%,519,Page 16,PAGE with alternative annual variability model.
+114,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,216,NA,25%,89,75%,259,Page 16,PAGE with alternative annual variability model.
+115,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,216,NA,5%,-2,95%,619,Page 16,PAGE with alternative annual variability model.
+116,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,328,NA,25%,137,75%,449,Page 16,PAGE with alternative annual variability model.
+117,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,328,NA,5%,-10,95%,902,Page 16,PAGE with alternative annual variability model.
+118,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,202,NA,25%,72,75%,285,Page 16,PAGE with alternative annual variability model.
+119,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,202,NA,5%,-40,95%,582,Page 16,PAGE with alternative annual variability model.
+120,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,10849,NA,25%,85,75%,15909,Page 16,PAGE (annual) with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+121,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,10849,NA,5%,0,95%,39242,Page 16,PAGE (annual) with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+122,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,9487,NA,25%,95,75%,14103,Page 16,PAGE (annual) with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+123,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,9487,NA,5%,0,95%,31807,Page 16,PAGE (annual) with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+124,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,4439,NA,25%,0,75%,6871,Page 16,PAGE (annual) with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+125,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,4439,NA,5%,0,95%,21093,Page 16,PAGE (annual) with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+126,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,2754,NA,25%,0,75%,2956,Page 16,PAGE (annual) with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+127,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,2754,NA,5%,0,95%,14081,Page 16,PAGE (annual) with growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+128,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,10780,NA,25%,62,75%,15414,Page 16,PAGE with annual variability and growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+129,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,USD/tCO2,10780,NA,5%,-33,95%,46514,Page 16,PAGE with annual variability and growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+130,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,9491,NA,25%,41,75%,13641,Page 16,PAGE with annual variability and growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+131,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,USD/tCO2,9491,NA,5%,-102,95%,39545,Page 16,PAGE with annual variability and growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+132,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,4377,NA,25%,0,75%,4336,Page 16,PAGE with annual variability and growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+133,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,USD/tCO2,4377,NA,5%,0,95%,24481,Page 16,PAGE with annual variability and growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+134,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,2675,NA,25%,0,75%,1647,Page 16,PAGE with annual variability and growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+135,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,USD/tCO2,2675,NA,5%,0,95%,16109,Page 16,PAGE with annual variability and growth effects model. Includes SCCO2 values of zero caused by damages being outside of the predefined scope of the model.
+136,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0236,NA,NA,NA,NA,NA,24,Coefficient for temperature with no lags; t-statistic (1.34)
+137,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0246,NA,NA,NA,NA,NA,24,Coefficient for temperature with one lag; t-statistic (1.48)
+138,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0096,NA,NA,NA,NA,NA,24,Coefficient for temperature with two lags; t-statistic (0.60)
+139,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0048,NA,NA,NA,NA,NA,24,Coefficient for temperature with three lags; t-statistic (0.32)
+140,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0029,NA,NA,NA,NA,NA,24,Coefficient for temperature with four lags; t-statistic (0.19)
+141,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0040,NA,NA,NA,NA,NA,24,Coefficient for temperature with five lags; t-statistic (-0.28)
+142,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0007,NA,NA,NA,NA,NA,24,Coefficient for temperature squared with no lags; t-statistic (-1.89)
+143,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0007,NA,NA,NA,NA,NA,24,"Coefficient for temperature squared with one lag; t-statistic (-2.08), p<0.05"
+144,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0004,NA,NA,NA,NA,NA,24,Coefficient for temperature squared with two lags; t-statistic (-1.25)
+145,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0003,NA,NA,NA,NA,NA,24,Coefficient for temperature squared with three lags; t-statistic (-0.99)
+146,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0003,NA,NA,NA,NA,NA,24,Coefficient for temperature squared with four lags; t-statistic (-0.87)
+147,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0002,NA,NA,NA,NA,NA,24,Coefficient for temperature squared with five lags; t-statistic (-0.51)
+148,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0150,NA,NA,NA,NA,NA,24,Coefficient for L.Temperature with one lag; t-statistic (-0.88)
+149,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0035,NA,NA,NA,NA,NA,24,Coefficient for L.Temperature with two lags; t-statistic (-0.33)
+150,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0049,NA,NA,NA,NA,NA,24,Coefficient for L.Temperature with three lags; t-statistic (-0.46)
+151,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0043,NA,NA,NA,NA,NA,24,Coefficient for L.Temperature with four lags; t-statistic (-0.43)
+152,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0009,NA,NA,NA,NA,NA,24,Coefficient for L.Temperature with five lags; t-statistic (0.10)
+153,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0165,NA,NA,NA,NA,NA,24,Coefficient for L2.Temperature with two lags; t-statistic (-0.95)
+154,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0180,NA,NA,NA,NA,NA,24,Coefficient for L2.Temperature with three lags; t-statistic (-1.01)
+155,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0206,NA,NA,NA,NA,NA,24,Coefficient for L2.Temperature with four lags; t-statistic (-1.10)
+156,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0240,NA,NA,NA,NA,NA,24,Coefficient for L2.Temperature with five lags; t-statistic (-1.32)
+157,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0061,NA,NA,NA,NA,NA,24,Coefficient for L3.Temperature with three lags; t-statistic (0.65)
+158,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0049,NA,NA,NA,NA,NA,24,Coefficient for L3.Temperature with four lags; t-statistic (0.44)
+159,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0046,NA,NA,NA,NA,NA,24,Coefficient for L3.Temperature with five lags; t-statistic (0.44)
+160,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0021,NA,NA,NA,NA,NA,24,Coefficient for L4.Temperature with four lags; t-statistic (0.17)
+161,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0020,NA,NA,NA,NA,NA,24,Coefficient for L4.Temperature with five lags; t-statistic (-0.18)
+162,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0083,NA,NA,NA,NA,NA,24,Coefficient for L5.Temperature with five lags; t-statistic (1.18)
+163,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0004,NA,NA,NA,NA,NA,24,Coefficient for L.Temperature squared with one lag; t-statistic (1.18)
+164,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0002,NA,NA,NA,NA,NA,24,Coefficient for L.Temperature squared with two lags; t-statistic (0.93)
+165,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0003,NA,NA,NA,NA,NA,24,Coefficient for L.Temperature squared with three lags; t-statistic (1.09)
+166,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0002,NA,NA,NA,NA,NA,24,Coefficient for L.Temperature squared with four lags; t-statistic (1.06)
+167,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0001,NA,NA,NA,NA,NA,24,Coefficient for L.Temperature squared with five lags; t-statistic (0.69)
+168,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0003,NA,NA,NA,NA,NA,24,Coefficient for L2.Temperature squared with two lags; t-statistic (0.77)
+169,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0003,NA,NA,NA,NA,NA,24,Coefficient for L2.Temperature squared with three lags; t-statistic (0.82)
+170,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0004,NA,NA,NA,NA,NA,24,Coefficient for L2.Temperature squared with four lags; t-statistic (0.94)
+171,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0004,NA,NA,NA,NA,NA,24,Coefficient for L2.Temperature squared with five lags; t-statistic (1.16)
+172,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0002,NA,NA,NA,NA,NA,24,Coefficient for L3.Temperature squared with three lags; t-statistic (-0.85)
+173,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0002,NA,NA,NA,NA,NA,24,Coefficient for L3.Temperature squared with four lags; t-statistic (-0.81)
+174,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0002,NA,NA,NA,NA,NA,24,Coefficient for L3.Temperature squared with five lags; t-statistic (-0.83)
+175,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0001,NA,NA,NA,NA,NA,24,Coefficient for L4.Temperature squared with four lags; t-statistic (0.31)
+176,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,0.0002,NA,NA,NA,NA,NA,24,Coefficient for L4.Temperature squared with five lags; t-statistic (0.77)
+177,GDPpc Growth,Below median GDPpc,Unspecified,2021,No CC,%,-0.0003,NA,NA,NA,NA,NA,24,Coefficient for L5.Temperature squared with five lags; t-statistic (-1.59)
+178,Damage Persistence,Below median GDPpc,Unspecified,2021,No CC,%,100.00,NA,NA,NA,NA,NA,24,Resulting ρ (damage persistence) with no lags
+179,Damage Persistence,Below median GDPpc,Unspecified,2021,No CC,%,42.48,NA,NA,NA,NA,NA,24,Resulting ρ (damage persistence) with one lag
+180,Damage Persistence,Below median GDPpc,Unspecified,2021,No CC,%,-16.29,NA,NA,NA,NA,NA,24,Resulting ρ (damage persistence) with two lags
+181,Damage Persistence,Below median GDPpc,Unspecified,2021,No CC,%,-15.89,NA,NA,NA,NA,NA,24,Resulting ρ (damage persistence) with three lags
+182,Damage Persistence,Below median GDPpc,Unspecified,2021,No CC,%,-69.83,NA,NA,NA,NA,NA,24,Resulting ρ (damage persistence) with four lags
+183,Damage Persistence,Below median GDPpc,Unspecified,2021,No CC,%,-94.29,NA,NA,NA,NA,NA,24,Resulting ρ (damage persistence) with five lags
+184,GDP per capita growth,Below GDP per capita median,Unfiltered,2021,NA,NA,0.025169,NA,5%,-62.78,95%,164.32,Page 26,p-value for temperature squared is not significant.
+185,GDP per capita growth,Below GDP per capita median,3 year filter,2021,NA,NA,0.031177,NA,5%,84.12,95%,164.32,Page 26,Temperature squared significant at p<0.05.
+186,GDP per capita growth,Below GDP per capita median,5 year filter,2021,NA,NA,0.019792,NA,5%,-62.78,95%,155.72,Page 26,Temperature effects are non-significant.
+187,GDP per capita growth,Below GDP per capita median,10 year filter,2021,NA,NA,0.034540,NA,5%,-296.33,95%,340.61,Page 26,Temperature effects are non-significant.
+188,GDP per capita growth,Above GDP per capita median,Unfiltered,2021,NA,NA,0.008412,NA,5%,-70.72,95%,97.68,Page 26,Temperature squared significant at p<0.05.
+189,GDP per capita growth,Above GDP per capita median,3 year filter,2021,NA,NA,0.006184,NA,5%,-70.72,95%,97.68,Page 26,Temperature squared is not significant.
+190,GDP per capita growth,Above GDP per capita median,5 year filter,2021,NA,NA,0.004519,NA,5%,-248.19,95%,106.27,Page 26,Temperature effects are non-significant.
+191,GDP per capita growth,Above GDP per capita median,10 year filter,2021,NA,NA,0.000073,NA,5%,-631.26,95%,117.74,Page 26,Temperature effects are non-significant.

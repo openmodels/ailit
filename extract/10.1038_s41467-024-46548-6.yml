@@ -1,0 +1,104 @@
+Drivers of Risk:
+  1: Sea-level rise (SLR) and storms.
+  2: Sea level rise (SLR) and storm risk are identified as major shocks impacting
+    coastal real estate markets.
+  3: Sea level rise (SLR), storm risk, and the influence of competing property markets.
+  4: Sea level rise (SLR), erosion, beach nourishment, investor behaviour, outside
+    market prices, agent flux.
+  5: Sea Level Rise (SLR) and reduction in beach nourishment subsidies.
+  7: Sea Level Rise (SLR) and its impact on real estate markets along the US East
+    and Gulf Coasts.
+  10: Climate change, specifically coastal storms and beach erosion.
+Highlights:
+  1: Subsidies for coastal management, tax advantages for high-income property owners,
+    and stable/increasing property values outside the coastal zone dampen the effects
+    of SLR on coastal property values, but this effect is temporary.
+  2: Subsidies and tax advantages can dampen the effects of SLR on property values,
+    though these effects are transitory and delay rather than prevent price declines.
+  3: Studies the trade-off between slowing demographic transitions in coastal communities
+    and allowing property markets to adjust smoothly to risks from climate change.
+  4: SLR initially has a mild impact on housing risk, leading to a delayed and gradual
+    decline in property values. High-income agents entering the market can temporarily
+    dampen the property value decline. Property values decline immediately if high-income
+    agents are not allowed to enter the market.
+  5: Reducing nourishment subsidies leads to more volatility in property values and
+    a precipitous decline after several decades, more pronounced for oceanfront properties.
+    It causes an immediate decline in mean beach width. It increases the median owner
+    income tax rate. It leads to investors owning substantially less of the housing.
+  7: Coastal property values may continue to rise despite increased climate-related
+    risks; this can be attributed to demographic shifts and policy interventions like
+    subsidizing beach nourishment.
+  10: The paper simulates the effect of climate change (coastal storms and beach erosion)
+    on coastal housing markets by decomposing the numerator and denominator in Eq.
+    (1) and endogenizes a subset of the individual pieces. The model also represents
+    beach nourishment as an adaptation strategy.
+Methodology:
+  1: The analysis uses the Coastal Home Ownership Model (C-HOM) to analyze the long-term
+    evolution of coastal real estate markets.
+  2: The paper uses coupled human-natural systems modeling to study interactions between
+    real estate markets and the physical coastal systems, emphasizing the importance
+    of modeling to inform empirical specifications and uncover mechanisms.
+  3: Develops the Coastal Home Ownership Model (C-HOM) to study the evolution of coastal
+    real estate markets, incomes of residents, and shoreline management decisions
+    in response to SLR over a 150-year time horizon.
+  4: Model simulation of oceanfront and non-oceanfront properties under a baseline
+    scenario with SLR beginning at year 50. Analysis of the case in which agents are
+    not allowed to flux in to exploit arbitrage opportunities with outside markets.
+  5: Numerical experiment involving model simulation differences between a baseline
+    model and a scenario where the subsidy rate is cut to 50% at the onset of SLR.
+  7: Modeling of coastal real estate markets coupled to physical environment changes,
+    particularly focusing on the effects of SLR.
+  10: Agent-based model (C-HOM) simulating a coastal housing market with owner agents,
+    investor agents, and beach management by communities. The model spatial resolution
+    is smaller than a town but larger than a census block group. The time horizon
+    is not explicitly stated on this page.
+More Notes:
+  1: Removing subsidies would more accurately reflect risks from SLR but could trigger
+    coastal gentrification.
+  3: The model considers exogenous forces that influence internal dynamics. It also
+    accounts for the combined effect of state and federal subsidies as well as hotel
+    and other tourism-related taxes that are not embedded in local property tax rates.
+  4: The initial barrier height is 1 m for the first 50 years, and SLR causes it to
+    decrease to 0 m by year 150. The model considers the impact of subsidized beach
+    nourishment. Agent flux is a mechanism through which high-income agents can enter
+    the market to exploit arbitrage opportunities.
+  5: The baseline scenario demonstrates that property value does not immediately reflect
+    SLR risks due to the interaction of risk, investment, and income. The study also
+    suggests that a 90% nourishment subsidy leads to a wide beach being maintained
+    with stable nourishment frequency, attracting relatively high-income agents.
+  7: The paper discusses 'coastal gentrification' and the impact of persistent natural
+    amenities on high income distributions in coastal areas.
+  10: The model assumes a fixed supply of housing, reflecting the built-out nature
+    of many coastal communities. The model considers a risk premium (rp) parameterised
+    as a function of the physical system.
+Outcome(s) of Interest:
+  1: Coastal property values and demographic transitions in coastal communities.
+  2: The paper discusses how subsidies for coastal management, such as beach nourishment,
+    can temporarily dampen the impact of sea level rise (SLR) on coastal property
+    markets but do not prevent eventual price declines.
+  3: Evolution of coastal real estate markets, incomes of residents, and shoreline
+    management decisions.
+  4: Property value decline (oceanfront and non-oceanfront), beach width, investor
+    share of housing, expected rate of return on coastal real estate, marginal income
+    tax rate of property owners, and risk premium for coastal real estate.
+  5: Property values, beach width, marginal income tax rate of property owners, and
+    investor market share.
+  10: Property values are affected by storm risk.
+Quantitative material:
+  1: No specific quantitative estimates of macroeconomic or fiscal outcomes (GDP effects,
+    productivity loss, interest, inflation, budget balance, borrowing costs, public
+    expenditure or revenue, ROI, NPV of nation-wide adaptation) are given on this
+    page.
+  3: Model scenarios explore how internal and external dynamics affect the coupled
+    coastal system (Fig. 2). Model parameters are in Supplementary Table S1. The first
+    scenario is a baseline simulation used to evaluate the impacts of changing external
+    conditions or policy, i.e., the counterfactual to which other scenarios are compared.
+    In all scenarios, the physical environment has a constant rate of shoreline erosion,
+    constant storm probability, and one meter of SLR over a 100-year period.
+  4: Graphs showing changes in property value, beach width, investor share, expected
+    return rate, income tax rate, and risk premium over time (150 years) under a baseline
+    scenario with SLR beginning at year 50. Beach nourishment is subsidized at 90%
+    of the cost.
+  5: The study shows the percent difference in property value, difference in beach
+    width in meters, difference in income tax rate, and difference in investor market
+    share under different scenarios related to nourishment subsidy cuts.

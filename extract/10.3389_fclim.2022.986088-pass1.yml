@@ -1,0 +1,126 @@
+Drivers of Risk:
+  1: Extreme temperatures and storms in arid and semi-arid zones are identified as
+    triggers of bilateral migration from the Global South to the OECD countries.
+  2: Climatic events such as slow-onset and fast-onset events, average temperature
+    increase, and extreme poverty are identified as drivers of migration.
+  6: Average temperature, in celsius; Average precipitation, in mm; Dummy variables
+    for drought, earthquake, landslide, storm, wildfire, extreme temperature, and
+    flood.
+  7: Average temperature, average precipitation, drought, earthquake, landslide, storm,
+    fire, extreme temperature, and flood.
+  8: Climatic variables including average temperature, average precipitation, drought,
+    earthquake, landslide, storm, fire, extreme temperature, flood
+  9: Climatic events such as changes in average temperature, average precipitation,
+    droughts, earthquakes, landslides, storms, fires, extreme temperatures, and floods
+    are considered as factors impacting international migration per capita.
+  11: Average temperature, annual; Average precipitation, annual; Drought; Earthquake;
+    Landslide; Storm; Fire; Extreme temperature; Flood
+  12: Conflict, average annual temperature, average annual precipitation, drought,
+    earthquake, landslide, storm, fire, extreme temperature, flood (all lagged by
+    one period)
+  13: Climate events, including storms, wildfires, and droughts, impact out-migration
+    in various climatic zones and are related to poverty levels.
+  14: Higher average temperatures, earthquakes, and climatic events such as droughts,
+    landslides, and wildfires impact international population displacements.
+Highlights:
+  1: The study shows that climatic events act as significant triggers for migration
+    and that their effects are robust across different tests, including division by
+    levels of conflict and poverty.
+  2: Climatic events have highly context-dependent impacts on migration. An increase
+    in temperature is related to an increase in out-migration, while droughts reduce
+    out-migration from arid regions.
+  7: The study examines the heterogeneous effects of climate change on migration based
+    on climatic zones, country-of-origin income levels, poverty incidence, and conflict
+    presence. Analysis is limited to OECD destination countries.
+  8: The decision to migrate is motivated by past events (t-1 lag) but not by too
+    distant ones. Distance is related to less out-migration.
+  9: Increases in average temperatures are linked to higher out-migration in the total
+    sample and non-OECD, LDC, and lower-middle-income groups, but not in upper-middle-income
+    countries.
+  11: Droughts have a systematic impact on emigration, reducing out-migration.
+  12: The impact of climate events on migration is often conditional on the presence
+    of conflict, as indicated by the significant interaction terms. The effects vary
+    depending on the type of climate event and the income level of the countries involved.
+    For example, drought has a significant negative impact on migration in the total
+    sample, Non-OECD, and Lower-middle income groups.  Extreme temperature interacts
+    significantly with conflict in the total sample, Non-OECD, and LDC groupings.
+  13: Climate events such as storms and wildfires promote out-migration from arid
+    zones, while droughts reduce it. Conflicts and climatic events have complex interactions
+    with migration.
+  14: Higher average temperatures correlate with increased out-migration in general
+    but reduced emigration from tropical countries and when controlling for poverty;
+    earthquakes generally lead to more out-migration except in upper-middle-income
+    countries where financial means to rebuild are more available.
+Methodology:
+  1: The analysis employs a gravity model estimated using panel data techniques to
+    assess migration flows and considers heterogeneity across climatic zones.
+  6: Applies a Poisson Pseudo-Maximum Likelihood (PPML) method to estimate a gravity
+    model to assess the impact of climatic variables on international migration.
+  7: Regression analysis using yearly migration rates to OECD countries as the dependent
+    variable and lagged climatic variables as independent variables. The model considers
+    heterogeneous effects based on climatic zones, income levels, poverty incidence,
+    and conflict presence. The analysis uses a 1-year lag for independent variables.
+  8: Panel data framework with destination-year and dyadic fixed effects, robust standard
+    errors clustered at the origin-destination level, gravity model.
+  9: Gravity model of migration using PPML estimation; analysis distinguishes between
+    income groups and includes dyadic and destination-year fixed effects.
+  11: PPML estimation with dyadic and destination-year fixed effects. Standard errors
+    are clustered at the origin-destination level.
+  12: The analysis uses a regression model to assess the impact of climate events
+    and conflict on migration, using lagged values of the drivers. The results are
+    applicable to understanding the relationship between these variables across different
+    country income groups.
+  13: Analysis is based on PPML estimation results using bilateral migrant inflow
+    per origin country population as the dependent variable.
+  14: The study uses bilateral migration data to analyze the effect of climatic variables
+    on international population displacements to OECD countries.
+More Notes:
+  6: The model uses dummy variables for least developed countries, lower-middle income
+    countries, upper-middle income countries, non-OECD countries, arid climate zones,
+    semi-arid climate zones, tropical-wet climate zones, tropical-dry climate zones,
+    poverty headcount ratio, very high conflict, government stability, internal conflict,
+    and ethnic tensions.
+  7: The study uses an updated dataset covering recent extreme climatic events. The
+    analysis considers both overall and heterogeneous effects of climate change on
+    migration.
+  8: The study does not deal with internal migration. GDP per capita, population size,
+    and population growth measures in the origin countries and the ratio of GDP per
+    capita (between origin and destination) were found to be consistently insignificant.
+  11: 'Results are separated by climatic zones: Arid, Semi-arid, All arid, Tropical
+    wet, Tropical dry, and All tropical.'
+  12: The dependent variable is bilateral international migration per capita. The
+    table focuses on the interaction between conflict and climate-related events.
+    The asterisks indicate statistical significance levels (*, **, *** likely represent
+    p < 0.1, p < 0.05, and p < 0.01, respectively, though this is not explicitly stated
+    on this page).  The climate variables are all lagged by one period (t-1).
+  13: The impact of climate events on migration varies across different climatic zones,
+    and the presence of conflict intensifies out-migration in some areas.
+No relevant information:
+  3: No relevant information
+Outcome(s) of Interest:
+  6: Migration inflow per capita of origin country (per 100 thousand)
+  7: Migration rates to OECD countries.
+  8: Out-migration (international)
+  11: Bilateral international migration per capita
+  12: Bilateral international migration per capita
+  13: No relevant information
+Quantitative material:
+  6: Provides summary statistics (Obs, Mean, Std. dev., Min, Max) for migration inflow,
+    temperature, precipitation, and various climate-related and socioeconomic dummy
+    variables.
+  7: The model (equation 1) provides a mathematical relationship between migration
+    rates and climatic variables, potentially allowing for quantitative estimations,
+    although specific numerical results are not included on this page.
+  9: Table provides estimates of the impact of climatic events on bilateral international
+    migration per capita across different economic groups, with significance levels
+    indicated.
+  11: Table 4 presents regression results with coefficients, standard errors, pseudo
+    R-squared, number of observations, number of countries, and p-values for joint
+    significance tests.
+  12: The table presents coefficient estimates and standard errors (in parentheses)
+    for the impact of various climate events (and their interaction with conflict)
+    on bilateral international migration per capita. Estimates are provided for the
+    total sample and for sub-samples based on country income level (Non-OECD, LDC,
+    Lower-middle income, Upper-middle income).
+  13: No specific quantitative information on macroeconomic or fiscal outcomes is
+    provided.

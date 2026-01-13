@@ -1,0 +1,274 @@
+Drivers of Risk:
+  1: Changes in climatic conditions, short-term variation and medium-term changes
+    in average regional temperatures and precipitation
+  2: Accumulation of greenhouse gases, black carbon deposition, warming atmosphere
+    and oceans, rising sea levels, loss of snowpack and ice sheets, moderate changes
+    in temperature and precipitation.
+  3: Changes in temperature and precipitation (climate change).
+  4: Climate change impacts such as growing season changes, pest expansion, heat waves,
+    and energy demand shifts.
+  5: Increasing average temperatures and precipitation; climate change leading to
+    extreme weather events, forest and peat fires, flooding, land erosion, and public
+    health challenges; near-surface thawing of the permafrost due to climate warming.
+  6: Russia's outdated and energy-inefficient industrial base; Recent economic recession.
+  8: Annual temperature realization (X), Precipitation (P), Forest fires (regional
+    responses depending on characteristics of regional governors)
+  10: Weather shocks considered as random draws from the climate distribution impacting
+    regions randomly.
+  11: Weather or climate, specifically temperature changes impacting heating costs
+    and energy demand.
+  12: Potential impacts through agriculture and energy use from heating and cooling
+    are considered as drivers of risk.
+  15: Annual temperature; precipitation; Underage and Overage populations; Industrial
+    growth; Communist Party influence; Population density
+  16: Temperature, precipitation, population density ("Pop.OvDensity"), and other
+    variables.
+  17: Temperature increase in a region and its influence on regional expenditures;
+    contrasting significance of temperature vs. precipitation on different expenditure
+    types.
+  19: Temperature change due to climate change, specifically using A2 and B1 climate
+    scenarios.
+  20: Changes in temperature and precipitation.
+  21: Temperature, precipitation, cooling variables, heating variables, housing.
+  22: Mentions cooling and precipitation which can be linked to climatic variables
+    (e.g. increases in temperature or changes in rainfall patterns).
+Highlights:
+  1: Increase in temperature results in a decrease in public expenditures (non-linear
+    relation).
+  2: The study addresses a research gap in econometric analysis of public adaptation
+    costs, focusing on moderate changes in temperature and precipitation on regional
+    government expenditure in Russia.
+  3: Temperature rise over the short term reduces regional government expenditures
+    in cold regions; weather benefits accumulate, leading to a larger medium-term
+    effect on decreasing regional government expenditures.
+  4: Climate change impacts in Russia include longer growing seasons, pest expansion,
+    more heat waves, reduced heating demand, and increased cooling demand.
+  5: Russia perceives potential economic benefits from climate change but faces serious
+    climate change vulnerabilities, including infrastructure risks from thawing permafrost
+    and increased extreme weather events.
+  6: Russia's emission reduction goals may be met without actual mitigation efforts
+    due to its outdated industrial base.
+  7: There is an absence of evidence on the fiscal impact of moderate but persistent
+    climate changes, indicating a gap in the literature.
+  8: Climate is a fixed regional variable in an econometric sense, making it challenging
+    to include regional fixed effects in climate models due to collinearity. Annual
+    weather variations can be used to estimate short-term climate impacts.
+  9: The FE model provides a 'no-adaptation' benchmark. The LD model aims to capture
+    adaptation, omitted variable problems, and medium-term impacts of climate change.
+    The Russian mean temperature has steadily increased during the time-series.
+  11: Temperature changes impact regional budget expenditures through housing expenditures,
+    especially in colder regions with higher public ownership of housing. The study
+    tests the fit of weather variables with expenditure and finds that expenditures
+    seem to have the most robust fit with the first lag of the temperature variable.
+  15: Rising temperatures generally decrease regional expenditures, but the relationship
+    is non-linear. Colder regions benefit from warmer weather up to a point, beyond
+    which the effect diminishes or reverses. The non-linear analysis suggests the
+    impact of warming is smaller than the linear model suggests.
+  16: Several coefficients are statistically significant (indicated by *, **, ***).
+  17: Temperature has a significant cumulative effect on total expenditures, with
+    the longer-run LD model coefficients being notably larger than short-term estimates.
+  19: Warming in Russia is predicted to lead to savings in regional government expenditures,
+    ranging from USD 2 billion to USD 4 billion in the B1 scenario and USD 2 billion
+    to USD 3.5 billion in the A2 scenario (in real terms, non-discounted) between
+    2000 and the 2020s.
+  20: Warming leads to savings in regional budget expenditures for Russian regional
+    governments in the short term.
+  21: Temperature and precipitation appear to have a statistically significant impact
+    on regional government expenditures in certain models. The coefficients suggest
+    both positive and negative relationships, depending on the model and variable.
+    Housing also appears to have an impact.
+  22: There are no clearly stated important outcomes on this page, but there seems
+    to be statistically significant impacts related to housing expenditure and LogFull.
+Methodology:
+  1: "Econometric analysis using a sub-national dataset for Russia covering 1995\u2013\
+    2009 to estimate the impacts of changes in climatic conditions."
+  2: Econometric analysis of public adaptation costs of climate change using sub-national
+    data for Russia, focusing on the effects of temperature and precipitation on regional
+    government expenditure.
+  3: Analysis of annual data from 1995 to 2009 across 78 Russian regions to analyze
+    changes in regional government expenditure.
+  6: No relevant information
+  7: Some studies use a combination of qualitative-quantitative analysis to estimate
+    climate change impacts on government finances.
+  8: "Fixed-effects (FE) model: Yit = \u03B1 + \u03BCi + \u03B8t + f(Xit) + g(Pit)\
+    \ + \u2211Kj \u03B3j Zjit + \u03B5it. The model includes regional and time fixed\
+    \ effects. Addresses omitted variable bias by using fixed effects model to control\
+    \ for regional heterogeneity."
+  9: "The authors use both a fixed effects (FE) model and a long-difference (LD) model\
+    \ to estimate the impact of climate change. The FE model captures short-term effects\
+    \ with limited adaptation. The LD model, based on Dell et al. (2014), estimates\
+    \ medium-term impacts by examining changes in climate (averaged annual weather)\
+    \ and outcomes over longer periods (e.g., decades). They use a model similar to\
+    \ Dell et al. (2014): Yid \u2212 Yi,d \u2212 1 = \u03B2 (C id \u2212 C i,d \u2212\
+    \ 1 ) +\u03B3 j (Z jid \u2212 Z ji,d \u2212 1 ) + (\u03B5 id \u2212 \u03B5 i,d\
+    \ \u2212 1 )."
+  10: Acknowledges issues of spatial autocorrelation which may lead to incorrect standard
+    errors.
+  11: Panel data analysis using Fixed Effects (FE) and Long Difference (LD) models.
+    Uses Driscoll and Kraay (1998) standard errors in the FE model to account for
+    spatial and temporal dependence and heteroskedasticity. Heteroskedasticity robust
+    standard errors are used in the LD model. Lags of the temperature variable are
+    included as independent variables.
+  12: The study considers non-linear effects in energy demand due to extreme temperatures.
+  14: 5% of temperature and precipitation data removed from tails for robustness.
+  15: Fixed effects estimates for linear and quadratic models, with and without trimming
+    5% of the tails of temperature and precipitation variables. Analysis applied to
+    Russian regional data.
+  16: Regression analysis using Driscoll-Kraay standard errors. The models likely
+    examine panel data ("Estimations with both"). There are linear and quadratic specifications.
+    "LogFullL" suggests a logarithmic transformation of a variable named "FullL".
+  17: Comparison of FE and LD models to estimate short-term and long-term effects
+    of climate change; LD model used for capturing longer-run effects and adaptation.
+  19: "Fixed effects models are used to determine the relationship between temperature\
+    \ and expenditure. Regional temperature predictions are multiplied by regional\
+    \ temperature gradients to estimate regional impacts, then averaged to obtain\
+    \ a national estimate. 2000 government expenditures are inflated to 2013 prices\
+    \ to estimate monetary impact. The analysis is limited to the 2020s and only includes\
+    \ data where the temperature change is less than 2\u25E6C, and within the variation\
+    \ available in their data."
+  20: Short-term variation provides a no-adaptation benchmark, while mid-term change
+    captures potential adaptation.
+  21: The analysis appears to be regression-based, examining the impact of climate-related
+    variables on regional government expenditures. The models (a1 to a8) likely represent
+    different specifications or datasets. The applicability depends on the regional
+    context and data used. The page uses a quadratic term for temperature (temperature^2).
+  22: This page describes results from regression analysis with various control variables.
+    The specific setup/framework/context is needed from the other pages to determine
+    its applicability. Driscoll-Kraay standard errors are mentioned which are used
+    in panel data to account for spatial correlation and heteroskedasticity.
+More Notes:
+  1: Results suggest benefits from warming accumulate and adaptation measures could
+    help leverage those benefits; The magnitude of the temperature effect diminishes
+    the warmer the region.
+  2: The paper acknowledges the bias towards mitigation research and argues that adaptation
+    is not solely a private sector issue. It also addresses uncertainties and imperfect
+    information that could prevent efficient private-sector adaptation.
+  3: The analysis focuses on mild climate change and reactive adaptation; radical
+    changes like permafrost melting are not considered.
+  4: Russia is experiencing faster temperature increases than the global average,
+    particularly in the Arctic regions.
+  5: Russia's initial reluctance to commit to climate change mitigation stems from
+    the perception of potential benefits and a public opposition to using public funds
+    on mitigation.
+  6: The text discusses Russia's carbon emission targets, regional public finances,
+    and fiscal federalism, but does not directly address the macroeconomic/macro-fiscal
+    risks of climate change or adaptation costs/benefits. It highlights the heterogeneity
+    of Russian regions and the centralized nature of its fiscal system.
+  8: The page discusses the econometric challenges of estimating climate impacts due
+    to climate being a fixed regional variable. It introduces a fixed effects model
+    to estimate the impact of temperature and precipitation on regional expenditures,
+    controlling for other factors. The references to other papers provides some context
+    on challenges in estimating the impact of climate change using macroeconometric
+    models.
+  9: The LD model is considered an improvement over the FE model for capturing adaptation
+    and long-term effects, but it has limitations, particularly when periods are too
+    far apart. Specific time periods used for analysis include 1995-2001 and 2002-2009
+    for Russia, based on data availability. The authors acknowledge that weather averages
+    of less than ten years probably cannot credibly depict local climate, which somewhat
+    undermines the analysis.
+  15: The causality of the Communist variable is unclear. The study notes a strong
+    negative correlation (-0.58) between regional income per capita and support of
+    the Communist Party. The paper examines the relationship between weather and expenditures.
+    The non-linearities are important for understanding regional differences in climate
+    impacts.
+  16: The page presents highly condensed regression output, making it difficult to
+    fully understand the model without context. The outcome variables are not clearly
+    specified. There are several variables that are difficult to interpret ("Communist",
+    "Industrial", "PublicW", "Observ"). The results appear to be split into multiple
+    rows or models. The table includes interaction terms like "T*TPrecipitationPrecipitation".
+  19: The study acknowledges that the choice of climate scenarios is somewhat arbitrary
+    and is used primarily for illustrative purposes. The benefits are considered small
+    compared to Russia's consolidated regional budget expenditures. Roughly half of
+    the predicted warming and associated expenditure benefits had already occurred
+    by the end of the 2000s.
+  20: The study acknowledges that the mid-term results are less robust and do not
+    account for large increases in temperature (e.g., permafrost thaw).
+  21: The information is presented in a condensed format, making it difficult to fully
+    understand the model specifications and data used. It is necessary to look at
+    the wider context to understand the variables. The lack of clear labels, combined
+    with the data format, indicates a table or figure cut from a larger work.
+No relevant information:
+  13: This page seems to be a poorly formatted table or data dictionary. It is difficult
+    to discern any clear macroeconomic/fiscal outcomes, risk drivers, or methodology
+    related to climate change adaptation at the national level. The page seems to
+    contain variable names and some statistical descriptions, but without context,
+    their relevance to the research question is unclear.
+Outcome(s) of Interest:
+  1: Regional government expenditures
+  2: Fiscal impacts of climate change, including mitigation costs, budgetary effects
+    of extreme weather events, shifts in economic structures, weather-induced changes
+    in public health, revised heating/cooling expenditures, and adaptation costs related
+    to public infrastructure.
+  3: Regional government expenditure per capita.
+  5: "Potential economic benefits for Russia from climate change, such as the Northern\
+    \ Sea Route, offshore drilling opportunities, and high-latitude agriculture; potential\
+    \ devastating consequences over the longer term for many Russian regions; increased\
+    \ frequency of extreme weather events; potential catastrophic impact of thawing\
+    \ permafrost on Russia\u2019s northern infrastructure; increase in earth-based\
+    \ methane emissions."
+  6: No relevant information
+  7: In the aftermath of natural disasters, developed countries exhibit counter-cyclical
+    fiscal behaviors and developing countries pro-cyclical ones, impacting budget
+    deficits and government expenditures.
+  8: Regional expenditures in real terms (Y)
+  9: No relevant information
+  11: Total regional government expenditures per capita; per capita housing and communal
+    expenditures (housing expenditures).
+  15: Regional and total government expenditures; housing expenditures
+  16: The page analyzes the impact of various factors (including temperature and precipitation)
+    on unspecified outcomes; mentions expenditures (potentially public expenditure
+    or revenue).
+  19: Change in Russia's regional government expenditures.
+  20: Regional government expenditures.
+  21: Regional government expenditures.
+  22: Appears to examine expenditures (possibly public expenditures related to climate
+    change), and housing. The term 'budget' is also mentioned in the text surrounding
+    the presented page (previous page).
+Outcomes of Interest:
+  17: Change in total regional expenditures, particularly the cumulative effect of
+    temperature increase on expenditures per capita.
+Quantitative Material:
+  17: "+1 \xB0C increase in regional average temperature leads to an estimated decrease\
+    \ of roughly a third in real expenditures per capita."
+Quantitative material:
+  1: "Mild warming scenarios: Russia saves roughly USD 3\u20134 billion in regional\
+    \ government expenditures between 2000 and the 2020s without adaptation measures\
+    \ (for a temperature increase of 1-2\xB0C)."
+  3: Temperature rise reduces regional government expenditures in cold regions in
+    the short term; Russia saves between USD 2 billion to USD 4 billion in regional
+    government expenditures between 2000 and the 2020s without any adaptation measures
+    under a mild warming scenario.
+  5: "Russia committed to keeping its greenhouse gas emissions at least 25% below\
+    \ the 1990 level by 2020; GAIN's (2012) climate change vulnerability ranking indicates\
+    \ Russia faces serious challenges from climate change, ranking it 39th most susceptible\
+    \ out of some 180 countries surveyed; Figure 2 shows annual temperature deviations\
+    \ compared to 1951\u20131980 average; 10-year moving average for Russia and the\
+    \ world"
+  6: No relevant information
+  7: "Studies report fiscal impacts from extreme weather events between 0.23\u2013\
+    1.1% of GDP depending on the country group."
+  8: Equation (1) provides a functional form to estimate the impact of weather and
+    other factors on regional expenditures.
+  9: No relevant information
+  11: Correlation between average temperature and share of public ownership of housing
+    is -0.44.
+  15: "A 1\xB0C increase in annual temperature leads to a roughly 3% decrease in regional\
+    \ expenditures per capita (linear model). Nationwide coefficient of -0.026 (2.6%\
+    \ decline per one degree increase) with full data and -0.015 with cut data for\
+    \ total expenditures (non-linear analysis)."
+  16: Provides regression results with coefficient estimates, standard errors (in
+    parentheses), and significance levels (*, **, ***). The coefficients quantify
+    the relationship between the drivers and the outcome variables.
+  19: "Temperature change for all of Russia (1.1-1.2 \u25E6C) in the 2020s; Population-weighted\
+    \ total expenditure change (percentage change) in real terms; Non-discounted monetary\
+    \ impact in 2013 prices (USD billion)."
+  20: Warming effects save Russian regional governments over USD 2 billion to USD
+    4 billion (non-discounted) in expenditures between 2000 and 2020s.
+  21: The table provides coefficients and standard errors related to the impact of
+    various climate variables (temperature, precipitation, cooling, heating) and housing
+    on regional government expenditures. The coefficients vary across different models
+    (a1 to a8). Many coefficients also have significance levels associated with them
+    (*, **, ***).
+  22: Several regression-type equations and coefficient estimates are presented with
+    standard errors in parentheses, and significance levels indicated with asterisks
+    (*).

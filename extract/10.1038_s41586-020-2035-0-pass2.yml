@@ -1,0 +1,247 @@
+Category:
+  1: No relevant information
+Drivers of Risk:
+  9: Climate-driven changes in tropical forests, specifically declining carbon sink
+    capacity due to increasing tree mortality, rising atmospheric CO2, increasing
+    air temperature, and drought.
+  14: Drought, Temperature, CO2 levels, Moisture Content, Carbon Residence Time, Nitrogen
+    Deposition, Biogeographic History
+  15: Increasing temperatures, changes in forest dynamics (CRT), hydrological changes
+    (MCWD), CO2 emissions pathways (CO2-change)
+  16: Reduced mean pan-tropical sink strength decline of 0.1 Mg C ha-1 yr-1 decade-1
+    and ongoing forest area losses of ~13.5 million ha yr-1
+  18: Increased CO2 emissions; Deforestation; Degradation; Atmospheric chemistry changes;
+    Climatic changes.
+  33: Declining carbon sink in intact forests in Africa, Amazonia, and the pan-tropics.
+  45: Atmospheric CO2 concentration, mean annual temperature, and drought intensity
+    (quantified as maximum climatological water deficit) are considered theory-driven
+    potential predictor variables for each census interval.
+  47: CO2-change, MAT-change (temperature change), MCWD (Precipitation-driven dry
+    season deficit)
+  49: No relevant information
+  54: Future environmental conditions, RCP scenarios (climate change scenarios).
+  62: Changes in atmospheric CO2, Mean Annual Temperature (MAT), and Maximum Climatological
+    Water Deficit (MCWD) drive changes in carbon gain in tropical forests.
+  63: Changes in mean annual temperature (MAT) and maximum cumulative water deficit
+    (MCWD, representing drought) are drivers of risk.
+  64: "Changes in CO\u2082 concentration, Mean Annual Temperature (MAT), Max. Climatic\
+    \ Water Deficit (MCWD), Canopy Foliar Nitrogen (CFN), Vapor Pressure Deficit (VPD),\
+    \ and Water Demand, which in turn affect carbon gains from woody production and\
+    \ carbon losses from tree mortality."
+  65: Long-term trends in above-ground carbon gains, losses, and the resulting net
+    carbon sink in African and Amazonian tropical forest plot networks.
+  66: The length of the Census Return Time (CRT) impacts carbon losses. Shorter CRT
+    (CRT <77 years) are associated with increased carbon losses. Changes in the rates
+    of carbon gains and losses in African tropical forests.
+  69: Loss of intact forest area in Africa, Amazon, and Southeast Asia between 1980
+    and 2010.
+Highlights:
+  9: "The carbon sink responses of Earth\u2019s two largest expanses of tropical forest\
+    \ have diverged, with African forests remaining stable until recently while Amazonian\
+    \ forests declined; a post-2010 increase in carbon losses in African forests suggests\
+    \ asynchronous carbon sink saturation; the uptake of carbon into Earth\u2019s\
+    \ intact tropical forests peaked in the 1990s."
+  14: Larger modelled increase in carbon gains in Africa relative to Amazonia is driven
+    by slower warming, fewer/less extreme droughts, lower forest sensitivity to droughts,
+    and overall lower temperatures. Changes in carbon losses appear to be largely
+    a function of carbon gains, but are also impacted by temperature-induced tree
+    mortality.
+  15: The carbon sink in African tropical forests is predicted to decline by 14% by
+    2030. The Amazon sink is predicted to reach zero by 2035.
+  16: Earth recently passed the point of peak carbon sequestration into intact tropical
+    forests.
+  18: Intact tropical forests' ability to sequester additional carbon is waning; the
+    intact tropical forest carbon sink is set to end sooner than even the most pessimistic
+    climate-driven vegetation models predict; climate change impacts in the tropics
+    may become more severe than predicted.
+  33: The table provides quantitative estimates of carbon sink changes over time,
+    including predicted declines in the future, which affects climate change.
+  47: The optimal baseline period for MAT-change is 5 years, and for CO2-change it
+    is 56 years. MCWD-change was not included in the models because it showed no clear
+    trend.
+  49: No relevant information
+  54: Future sink strength is sensitive to future environmental conditions; decline
+    in sink strength is projected in both continents over the 2020s under both RCP
+    scenarios.
+  62: Carbon gain in tropical forests responds most strongly to changes in CO2 when
+    calculated over a 56-year prior interval.
+  63: Drought impacts on tree growth fade rapidly after the drought ends, and MCWD-change
+    is not included in the models because there's no relationship between carbon gains
+    and changes in MCWD over intervals longer than 1 year.
+  64: "The study analyzes the impact of various environmental drivers on carbon gains\
+    \ and losses in African and Amazonian tropical forests, finding statistically\
+    \ significant relationships for some variables like CO\u2082 concentration and\
+    \ MCWD, but not for others."
+  65: A statistically significant negative trend between carbon residence time (CRT)
+    and change in carbon losses in forest plots indicates that longer CRT is associated
+    with reduced losses.
+  66: Plots with CRT <77 years show a recent long-term increase in carbon losses.
+    There are reported changes in the trends of carbon gains and losses between the
+    periods 1985-2000 and 2000-2015.
+  69: Intact forest area declined significantly between 1980 and 2010 in all regions
+    studied (Africa, Amazon, and Southeast Asia).
+Methodology:
+  9: Analysis of carbon sink trends in 244 structurally intact African tropical forests
+    spanning 11 countries compared with 321 published plots from Amazonia; statistical
+    model including CO2, temperature, drought and forest dynamics.
+  14: Modelled increases in carbon gains and losses in tropical forests using explanatory
+    variables like CO2-change, MAT-change, MCWD, and carbon residence time (CRT)
+  15: Carbon gain and loss models are used to estimate the future size of the per
+    unit area intact forest carbon sink. Extrapolations of predictor variables from
+    1983-2015 forward to 2040 are used.
+  16: Scaling our estimated mean sink strength by forest area for each continent
+  18: Analyses based on observations of inter-hemispheric atmospheric CO2 concentration
+    and carbon uptake into the Northern hemisphere landmass; analysis of intact tropical
+    forest carbon sink capacity.
+  33: Uses plots of intact forests to measure carbon sinks. Predictions for 2010-2040
+    are based on parameters from another table (Table 2, not included here) with some
+    adjustments for Africa and Asia.  Area-weighted mean used for pan-tropics based
+    on values from Africa, Amazonia, and Southeast Asia.
+  45: Estimates were adjusted to avoid bias due to seasonal variation by rounding
+    census intervals to the nearest complete year and computing interval-specific
+    means for environmental predictor variables.
+  47: Linear mixed effects models (lmer function in R, lme4 package) are used to assess
+    the correlation of carbon gains with changes in environmental variables. The optimal
+    period for calculating environmental change is determined empirically by assessing
+    the correlation of carbon gains with the change in each environmental variable,
+    using linear mixed effects models (lmer function in R, lme4 package). An annualised
+    change is calculated as the difference between the focal and baseline period for
+    a time window of 1-80 years. Model selection is performed using AIC.
+  49: This paper uses statistical modelling (lme function in R) to model carbon gains
+    and losses in forests based on environmental drivers like CO2, MAT (presumably
+    Mean Annual Temperature), and MCWD (presumably Moisture Content Weighted Density).
+    It also considers rate of change of CO2 and MAT, as well as forest attributes
+    WD and CRT. The analysis accounts for plot-level random effects and continent-specific
+    slopes for some variables.
+  52: "Confidence intervals for predictor variables and model predictions were calculated\
+    \ using 2\u03C3 for uncertainties and model predictions were adjusted accordingly."
+  54: Analysis based on modified slopes, and RCP scenarios.
+  62: "Linear mixed effects models used to analyze correlations between carbon gain\
+    \ in tropical forest inventory plots and changes in atmospheric CO2, temperature,\
+    \ or drought calculated over varying prior intervals. Akaike\u2019s Information\
+    \ Criterion (AIC) used to assess model fit."
+  63: The analysis uses scatter plots and linear regression to examine the relationships
+    between carbon dynamics (gains and losses) and factors like carbon residence time
+    and wood density. The AIC minimum is used to determine the prior interval for
+    calculating MAT-change.
+  64: Uses linear mixed effect models with census intervals nested within plots, weighted
+    by interval length and plot area, to analyze relationships between carbon dynamics
+    and environmental variables in forest inventory plots.
+  65: Future values estimated from linear trends on the historical data, with confidence
+    intervals calculated using the standard deviation of the mean and regression model
+    slope.
+  66: Breakpoint regression was used to assess the CRT length below which forest carbon
+    losses increase. Linear mixed effects models were used to analyze trends in carbon
+    net carbon sink, carbon gains, and carbon losses, in the periods 1985-2000 and
+    2000-2015.
+  69: Exponential models were fitted for each continent to calculate intact forest
+    area. Intact forest area is calculated by subtracting total forest area minus
+    forest regrowth.
+More Notes:
+  9: This paper focuses on the role of tropical forests in global carbon sequestration
+    and how climate change is affecting their ability to act as carbon sinks, which
+    has consequences for climate stabilization policies.
+  15: This paper focuses on the carbon sink capacity of tropical forests and does
+    not directly address macroeconomic or macro-fiscal outcomes at a national level.
+    The decline in carbon sink may have economic consequences through climate change,
+    but this is not quantified here.
+  16: The study mentions that climate-driven vegetation model simulations have not
+    predicted that peak net carbon uptake into intact tropical forests has already
+    been passed.
+  18: "Continued on-the-ground monitoring of the world\u2019s remaining intact tropical\
+    \ forests will be required to test the prediction that the intact tropical forest\
+    \ carbon sink will continue to decline."
+  33: The continental sink in Southeast Asia is a modest and declining contribution
+    to the pan-tropical sink.
+  47: The analysis is performed on forest plots, specifically in Amazonia and West
+    Africa. The study finds the response of forests to CO2 is maximized at a time
+    equivalent to the carbon residence time of a forest stand. ET (evapotranspiration)
+    is assumed to be 100 mm month-1.
+  49: The paper focuses on carbon dynamics in forests, using statistical modelling
+    to understand the relationships between carbon gain/loss and environmental factors.
+    While the research may be indirectly relevant to understanding climate change
+    impacts, it doesn't directly address macroeconomic or macro-fiscal outcomes at
+    a national level.
+  54: The paper focuses on the impact of climate change on carbon sinks in continents,
+    which is indirectly related to macroeconomic and macro-fiscal outcomes.
+  62: The study examines the relationship between environmental changes and carbon
+    gain in tropical forests. While it provides insight into ecological impacts, it
+    does not directly address macroeconomic or macro-fiscal outcomes at a national
+    level.
+  64: The study focuses on the ecological impacts of climate change, specifically
+    on carbon dynamics in forests, rather than directly addressing macroeconomic or
+    macro-fiscal outcomes.
+  66: The analysis focuses on African tropical forests. The connection to specific
+    national-level macroeconomic or macro-fiscal risks and adaptation costs/benefits
+    is indirect and would require further analysis.
+  69: Data is for intact forest area, which is total forest area less forest regrowth.
+    Data for 1990, 2000, and 2007 is from another publication.
+No relevant information:
+  4: ''
+  21: No relevant information
+  26: No relevant information
+  29: This page primarily details author contributions and does not contain specific
+    macroeconomic or macro-fiscal risk analysis, quantitative results, or methodological
+    details related to climate change adaptation costs and benefits.
+  40: No relevant information
+  42: No relevant information
+Outcome(s) of Interest:
+  9: "Policies to stabilize Earth\u2019s climate."
+  14: Carbon loss, Carbon Gain
+  15: No relevant information
+  16: No relevant information
+  18: No relevant information
+  33: No relevant information
+  47: This page does not directly address macroeconomic or fiscal outcomes. It focuses
+    on carbon gains in forest plots.
+  49: No relevant information
+  54: Future sink strength (carbon sink) of continents.
+  62: No relevant information
+  63: Carbon gains and carbon losses are considered outcomes related to tree growth,
+    potentially impacting long-term carbon sequestration and related economic activities.
+  64: No relevant information
+  66: The carbon sink capacity of tropical forests, carbon gains and losses within
+    those forests, are indirectly related to macroeconomic outcomes through carbon
+    sequestration and climate regulation.
+  69: No relevant information
+Quantitative material:
+  9: Intact African tropical forests carbon sink stable for three decades to 2015,
+    at 0.66 Mg C ha-1 yr-1 (95% CI:0.53-0.79).
+  14: MAT-change further reduced gains by 1.1% (ten times the impact in Africa)
+  15: "By 2030 the carbon sink in aboveground live biomass in intact African tropical\
+    \ forest is predicted to decline by 14% from the measured 2010-15 mean, to 0.57\
+    \ Mg C ha-1 yr-1 (2\u03C3 range, 0.16-0.96). The Amazon sink continues to decline,\
+    \ reaching zero in 2035 (2\u03C3 range, 2011-2089)."
+  16: From peak pan-tropical intact forest uptake of 1.26 Pg C yr-1 in the 1990s,
+    we project a continued decline reaching just 0.29 Pg C yr-1 in the 2030s (multi-decade
+    decline of ~0.24 Pg C yr-1 decade-1).
+  18: The intact tropical forest carbon sink weakened by ~0.17 Pg C yr-1 between the
+    1990s and 2000s. In the 1990s intact forests removed 17% of anthropogenic CO2
+    emissions, which declined to 6% in the 2010s. Pan-tropical weighted average per
+    unit area sink strength declined by 33%, forest area decreased by 19%, and CO2
+    emissions increased by 46%.
+  33: Presents data on carbon sink (Mg C ha-1 yr-1) and total C sink (Pg C yr-1) for
+    Africa, Amazonia, and pan-tropics across different time periods (1980-2015) and
+    predictions up to 2040, with associated uncertainties.
+  49: No relevant information
+  54: Decline in sink strength in each continent in 2030 compared to 2010-15 mean
+    sink (reported in Supplementary Table 5), decline in sink strength in both continents
+    over the 2020s.
+  62: AIC minimum for CO2-change observed at a 56-year prior interval length.
+  63: Plot (b) shows a significant negative relationship between wood density (WD)
+    and carbon gains, with a slope of -1.602 (p-value = 0.002). Plot (c) shows a weak
+    but statistically significant negative relationship between carbon residence time
+    (CRT) and carbon losses, with a slope of -0.009 (p < 0.001). Plot (d) shows a
+    non-significant negative relationship between WD and carbon losses, with a slope
+    of -1.222 (p-value = 0.102).
+  64: Reports slopes and p-values for linear regressions of carbon gains and losses
+    against Carbon Residence Time (CRT) and Wood Density (WD) in African and Amazonian
+    forests; also reports slopes and p-values for changes in environmental variables
+    over time.
+  66: Net carbon sink, carbon gains, and carbon losses are quantified in Mg C ha^(-1)
+    yr^(-1) between 1985-2000 and 2000-2015. The slopes and p-values of linear mixed
+    effects models are provided for trends in these carbon measures. Plots with CRT
+    <77 years show increased carbon losses.
+  69: Intact forest area in million hectares (Mha) is quantified for Africa, Amazon,
+    Southeast Asia, and Pan-tropics for the years 1980, 1985, 1990, 1995, 2000, 2005,
+    and 2010.

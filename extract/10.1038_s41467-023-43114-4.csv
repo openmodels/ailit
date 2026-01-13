@@ -1,0 +1,45 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Social Cost of Carbon,Global,Middle-of-road,2023,No TCs,US$/tonne of CO2,173,NA,NA,NA,NA,NA,Page 1,Median global SCC without accounting for TCs
+1,Social Cost of Carbon,Global,Middle-of-road,2023,No TCs,US$/tonne of CO2,212,NA,NA,NA,NA,NA,Page 1,Median global SCC with accounting for TCs; increase of more than 20%
+2,GDP per capita growth,41 TC-affected countries,Historical,2000,No CC,% change,0,NA,66%,NA,66%,NA,"Results, Historical growth responses of countries to tropical cyclones","The paper presents maps and figures related to the growth responses as a function of lag years. The values are not explicitly provided as a single number in the text, but are represented graphically in Fig. 1b and 1c. Using 2000 as a representative year, and 0 as a placeholder value where no explicit number is given."
+3,Growth Losses,Japan,Historical Period,2015,NA,%,1.63,NA,NA,NA,NA,NA,Page 3,Average annual growth losses due to TC exposure.  The historical period is from 1981-2015 so using the last year of that.
+4,Growth Losses,Philippines,Historical Period,2015,NA,%,2.62,NA,NA,NA,NA,NA,Page 3,Average annual growth losses due to TC exposure. The historical period is from 1981-2015 so using the last year of that.
+5,Growth Losses,USA,Historical Period,2015,NA,%,0.17,NA,NA,NA,NA,NA,Page 3,Average annual growth losses due to TC exposure. The historical period is from 1981-2015 so using the last year of that.
+6,DAD,41 TC-affected countries,RCP6.0-SSP2,2021,No further climate change,% of global GDP,0.18,NA,NA,NA,NA,NA,Page 4,Main specification
+7,DAD,41 TC-affected countries,RCP8.5-SSP5,2021,No further climate change,% of global GDP,1.13,NA,NA,NA,NA,NA,Page 4,Stern’s discounting choice
+8,DADpc,USA,RCP6.0-SSP2,2055,No further climate change,US$,170,NA,NA,NA,NA,NA,Page 4,Average over the future period 2010-2100
+9,DADpc,Taiwan,RCP6.0-SSP2,2055,No further climate change,US$,2046,NA,NA,NA,NA,NA,Page 4,Average over the future period 2010-2100
+10,DADpc,Philippines,RCP6.0-SSP2,2055,No further climate change,US$,139,NA,NA,NA,NA,NA,Page 4,Average over the future period 2010-2100
+11,DADpc,Mauritius,RCP6.0-SSP2,2055,No further climate change,US$,216,NA,NA,NA,NA,NA,Page 4,Average over the future period 2010-2100
+12,DADpc,Mauritius,RCP6.0-SSP2,2055,2019 Average Household Income,% of AHI,0.71,NA,NA,NA,NA,NA,Page 4,Average over the future period 2010-2100
+13,DADpc,Jamaica,RCP6.0-SSP2,2055,2019 Average Household Income,% of AHI,0.33,NA,NA,NA,NA,NA,Page 4,Average over the future period 2010-2100
+14,DADpc,Philippines,RCP6.0-SSP2,2055,2019 Average Household Income,% of AHI,0.93,NA,NA,NA,NA,NA,Page 4,Average over the future period 2010-2100
+15,DADpc,Vietnam,RCP6.0-SSP2,2055,2019 Average Household Income,% of AHI,0.29,NA,NA,NA,NA,NA,Page 4,Average over the future period 2010-2100
+16,DADpc,USA,RCP6.0-SSP2,2055,2019 Average Household Income,% of AHI,0.21,NA,NA,NA,NA,NA,Page 4,Average over the future period 2010-2100
+17,Income Loss,Jamaica,RCP6.0-SSP2,2055,No further climate change,days of income lost per year,1.22,NA,NA,NA,NA,NA,Page 4,Average household
+18,Income Loss,Philippines,RCP6.0-SSP2,2055,No further climate change,days of income lost per year,3.39,NA,NA,NA,NA,NA,Page 4,Average household
+19,Income Loss,Vietnam,RCP6.0-SSP2,2055,No further climate change,days of income lost per year,1.07,NA,NA,NA,NA,NA,Page 4,Average household
+20,Income Loss,USA,RCP6.0-SSP2,2055,No further climate change,days of income lost per year,0.82,NA,NA,NA,NA,NA,Page 4,Average household
+21,Income Loss,Philippines,RCP6.0-SSP2,2055,No further climate change,days of income lost per year,12.21,NA,NA,NA,NA,NA,Page 4,"Average household, Stern’s low choice of the discount rate"
+22,Discounted Annual Damage,Global,RCP6.0-SSP2,2100,No CC,Trillion US$,0,NA,17%,NA,83%,NA,"Fig 2, Lower panel",The DAD is averaged over three RCPs and two SSPs.
+23,Social Cost of Carbon,Global,RCP6.0-SSP2,2100,No TC impacts,US$/tCO2 (2005 constant),173,NA,NA,NA,NA,NA,"Fig 2, Lower panel",Median global SCC is calculated without TC impacts.
+24,Social Cost of Carbon,Global,SSP2-RCP6.0,2100,No CC,US$/tCO2,1654,NA,NA,1122,NA,2361,Page 6,Lowest discount rate (Stern) including TC effects is more than seven times higher than for the highest discount rate
+25,Social Cost of Carbon,Global,RCP8.5,2100,No CC,US$/tCO2,361,NA,NA,222,NA,588,Page 6,For SSP scenario
+26,Social Cost of Carbon,Global,RCP6.0,2100,No CC,US$/tCO2,212,NA,NA,138,NA,318,Page 6,For SSP scenario
+27,Social Cost of Carbon,USA,No TCs,2100,No CC,US$/tCO2,13,NA,NA,3,NA,26,Page 6,
+28,Social Cost of Carbon,USA,TCs,2100,No CC,US$/tCO2,20,NA,NA,8,NA,35,Page 6,Increase of 17.7% of global median TC-SCC
+29,Social Cost of Carbon,Japan,No TCs,2100,No CC,US$/tCO2,1,NA,NA,0,NA,2,Page 6,
+30,Social Cost of Carbon,Japan,TCs,2100,No CC,US$/tCO2,8,NA,NA,5,NA,12,Page 6,Increase of 17.6% of global median TC-SCC
+31,Social Cost of Carbon,Taiwan,No TCs,2100,No CC,US$/tCO2,2,NA,NA,2,NA,3,Page 6,
+32,Social Cost of Carbon,Taiwan,TCs,2100,No CC,US$/tCO2,8,NA,NA,5,NA,12,Page 6,Increase of 14.4% of global median TC-SCC
+33,Social Cost of Carbon,China,No TCs,2100,No CC,US$/tCO2,43,NA,NA,30,NA,64,Page 6,
+34,Social Cost of Carbon,China,TCs,2100,No CC,US$/tCO2,47,NA,NA,33,NA,70,Page 6,Increase of 11.3% of global median TC-SCC
+35,Social Cost of Carbon,USA,TCs,2100,No CC,US$/tCO2,6.64,NA,NA,4.34,NA,9.79,Page 6,"median country-level TC-SCC, subject to relatively large uncertainties"
+36,Social Cost of Carbon,Global,No TCs,2100,No CC,US$/tCO2,174,NA,NA,108,NA,266,Page 6,
+37,Social Cost of Carbon,Global,TCs,2100,No CC,US$/tCO2,212,NA,NA,138,NA,318,Page 6,Median SCC increases substantially by 22% when accounting for TCs
+38,Growth Losses,High Income Countries,RCP2.6,2100,Pre-industrial levels,percent,0,NA,33%,NA,66%,NA,Fig 3,Temperature-dependent damage functions for tropical cyclone induced growth losses
+39,Growth Losses,Upper Middle Income Countries,RCP6.0,2100,Pre-industrial levels,percent,0,NA,33%,NA,66%,NA,Fig 3,Temperature-dependent damage functions for tropical cyclone induced growth losses
+40,Growth Losses,Lower Middle Income Countries,RCP8.5,2100,Pre-industrial levels,percent,0,NA,33%,NA,66%,NA,Fig 3,Temperature-dependent damage functions for tropical cyclone induced growth losses
+41,Growth Losses,Low Income Countries,RCP6.0,2100,Pre-industrial levels,percent,0,NA,33%,NA,66%,NA,Fig 3,Temperature-dependent damage functions for tropical cyclone induced growth losses
+42,SCC,Global,"RCP2.6, SSP2, 6.0, 8.5",2055,No TCs,US$/tCO2,212,NA,17%,138,83%,318,Page 7,"66% confidence interval, Ricke's choice of the rate of pure time preference (ρ = 2%), median over 2010-2100"
+43,Household Income Loss,Multiple,Unspecified,2023,Unspecified,Days of income lost per year,5.5,NA,NA,NA,NA,NA,Page 7,Value is the midpoint from the range 1 to >10. Ranges are highly dependent on discounting assumptions.

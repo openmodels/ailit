@@ -1,0 +1,156 @@
+Drivers of Risk:
+  1: Higher temperatures and decreased precipitation due to climate change.
+  2: Adverse climate change affecting agriculture, especially subsistence farming;
+    Rising temperatures; Changes in hydrological systems impacting river flows and
+    water resources.
+  5: Summer, Fall, Winter, and Spring temperatures; Summer, Fall, Winter, and Spring
+    precipitation; soil type (vertisols, acrisols, arenasols, xerosols); mean runoff;
+    irrigation; farm type (large-scale farms)
+  6: Climate variables (summer temperature, fall temperature, winter temperature,
+    spring temperature, summer precipitation, fall precipitation, winter precipitation,
+    spring precipitation), soil type (acrisols, arenosols, xerosols), mean runoff
+  7: Climate variables such as temperature and precipitation; soil types like acrisols,
+    arenosols, and xerosols; and hydrology factors such as runoff affect crop net
+    revenues.
+  8: "1\xB0C increase in temperature; 1 mm/month increase in precipitation"
+  9: "Increase in temperature (1\xB0C), Increase in precipitation (1 mm/month)"
+  10: Changes in temperature and precipitation under different climate scenarios (CGCM2,
+    HadCM3, PCM) for 2050 and 2100.
+  11: Temperature increases and decreased precipitation.
+  12: Summer temperature squared, Fall temperature squared, Winter temperature squared,
+    Spring temperature, Spring temperature squared, Summer precipitation, Summer precipitation
+    squared, Fall precipitation squared, Winter precipitation, Winter precipitation
+    squared, Spring precipitation, Spring precipitation squared, Soil vertisols, Soil
+    acrisols, Soil arenosols, Soil xerosols
+Highlights:
+  1: Policies need to be fine-tuned to harness relative benefits across seasons, farming
+    systems, and regions to potentially make climate change beneficial rather than
+    harmful.
+  4: The analysis attempts to capture information on net farm revenues, land values,
+    and income variability across representative sample districts and agro-climatic
+    regions.
+  5: Irrigated farms had the highest net revenues, followed by large-scale farms,
+    small-scale farms, and dryland farms.
+  6: Climate variables have significant influences on crop net revenues in South Africa.
+    There is a non-linear relationship between climate variables and crop net revenues,
+    especially for precipitation. Irrigation and farm type (large-scale vs. small-scale)
+    are significant positive influences on crop net revenues. The importance of all
+    the three sets of variables (climate, soils, and hydrology) in explaining changes
+    in crop net revenues
+  7: Climate variables are especially significant for dryland and small-scale farming.
+    Irrigation mitigates adverse effects of climate variables, while increased precipitation
+    generally improves net revenues, except during certain seasons or for small-scale
+    farms.
+  8: Increased temperature generally leads to positive mean annual impacts on crop
+    net revenue. Increased precipitation has mixed effects, with some provinces experiencing
+    benefits and others experiencing negative impacts. The timing of rainfall is important;
+    early rainfall in the summer and winter farming seasons is generally beneficial.
+  9: "Dryland farms will be more affected by increased temperatures and decreased\
+    \ rainfall. Small-scale farmers will also be more affected. For 2050, crop net\
+    \ revenues are expected to fall by US$ 5.14\u201316.26 (or 1.7\u20135.3%) per\
+    \ hectare for the whole of South Africa."
+  10: Temperature increases can have a positive impact on annual crop net revenues
+    for all farms except dryland farms, but this masks seasonal differences.
+  11: Adaptation could mitigate negative impacts and enhance benefits; irrigation
+    is a crucial factor in managing adverse effects of climate change.
+  12: Temperature and precipitation variables in different seasons significantly impact
+    crop farming net revenue. Soil types such as vertisols, acrisols and arenosols
+    also significantly influence crop farming net revenue.
+Methodology:
+  1: The analysis is conducted using a revised Ricardian model and farm household
+    surveys, long-term climate data, and major soils and runoff data.
+  2: Uses a revised Ricardian model incorporating hydrological variables to assess
+    the economic impact of climate change on agriculture in South Africa. The estimated
+    model is then used to predict the range of impacts on the agricultural sector
+    under various climate change scenarios. The model examines farm performance across
+    different agro-climatic zones, controlling for other factors.
+  4: The sample includes 416 farm households from 17 districts across nine provinces,
+    incorporating all agro-ecological regions in the country.
+  5: Revised Ricardian model estimated using STATA, quantile regression (qreg) used
+    to correct for heteroscedasticity; reduced form estimated to address endogeneity
+  6: Regression analysis is used to estimate the impact of climate, soil, and hydrology
+    variables on crop farming net revenue. Models are estimated for the full sample
+    and for different farm types (irrigated, dryland, large-scale, small-scale) for
+    South Africa. The time horizon for climate impacts is 2050 and 2100 using selected
+    climate scenarios.
+  7: The analysis uses estimated models to assess climate variables' impact on crop
+    net revenues, comparing irrigated and dryland models, as well as large-scale and
+    small-scale farms in South Africa.
+  8: Regression analysis using a full sample model to estimate the marginal impacts
+    of climate variables at agro-ecological and provincial levels based on their respective
+    means. Elasticities are estimated as (Marginal effects / Mean of corresponding
+    climate variable) / Mean of dependent variable (crop net revenue).
+  9: The study uses synthetic or General Circulation Model (GCM)-based climate change
+    scenarios as input to a Water Balance (WatBal) model. Three main scenarios derived
+    by Strzepek and McCluskey (2006) using three different models (CSIRO2, HadCM3
+    and PCM) in conjunction with the A2 emission scenarios plausible for South Africa
+    were used. Consequences of these climate change scenarios on net crop revenues
+    in 2050 and 2100 were examined using the estimated model in Appendix A.
+  10: Revised Ricardian model that incorporates runoff and irrigation into the analysis
+    of climate impacts on crop-farming activities.  Analysis covers agro-ecological
+    zones and nine administrative provinces.
+  11: Analysis based on three plausible climate scenarios for South Africa; results
+    are derived from assessing impacts on agriculture at agro-ecological and provincial
+    levels.
+  12: Ricardian approach using regression analysis. The analysis uses OLS regressions
+    with crop farming net revenue as the dependent variable and climate and soil variables
+    as independent variables. The sample periods vary depending on the specification,
+    with the number of observations ranging from 91 to 191.
+More Notes:
+  5: Multicollinearity was controlled for by dropping problematic variables. Obvious
+    outliers were excluded. The analysis focuses on South Africa.
+  8: The Northern Cape Province experiences a negative mean annual impact from increased
+    temperature due to its exceptionally hot climate. Small-scale farms can experience
+    negative impacts from increased precipitation due to the relative negative effect
+    of the winter farming season outweighing the positive effect in the summer farming
+    season.
+  10: Irrigated farms are more cushioned against adverse climate effects.  The relationship
+    between climate variables and net revenue is non-linear. Soil type affects crop
+    yields and how climate affects the crop-farming sector.
+  11: Adaptation measures should focus on leveraging irrigation and introducing heat-tolerant
+    crop varieties to offset negative impacts.
+  12: The analysis is stratified by full sample, irrigated farms, dryland farms, large-scale
+    farms, and small-scale farms, providing insights into how climate and soil variables
+    affect different farming types. The /C0 likely represents an error in text extraction
+Outcome(s) of Interest:
+  1: A 1% increase in temperature is projected to result in approximately a US$ 80.00
+    increase in net crop revenue; a 1 mm/month decrease in precipitation is projected
+    to lead to a US$ 2.00 decrease in net crop revenue.
+  2: Economic losses and social welfare impacts resulting from climate damage to agriculture
+    in South Africa; Farm value changes due to climate; Marginal contribution of variables
+    like climate and soil to land value.
+  5: Crop net revenue per hectare (US$)
+  6: Crop farming net revenue
+  8: Crop net revenue (US$/ha)
+  9: Crop net revenue (US$/ha)
+  10: Impacts of climate scenarios on net revenues (US$/ha) for different farming
+    systems in South Africa.
+  11: Crop net revenues are expected to fall by as much as 90% by 2100, particularly
+    affecting small-scale farms.
+  12: Crop farming net revenue
+Quantitative material:
+  1: Estimated annual effects include a potential fall in crop net revenues by as
+    much as 90% by 2100.
+  5: 'Crop net revenue per hectare (US$): N=191, Mean=305.525, S.D.=573.2045, Minimum=-884.26,
+    Maximum=2388.555; Seasonal temperatures and precipitations, soil types, runoff,
+    and farm characteristics are also quantitatively described with summary statistics.'
+  6: Yes, the table presents estimated coefficients for climate, soil, and hydrology
+    variables in regression models predicting crop farming net revenue, pseudo-R squared
+    values, and number of observations.
+  7: "A 1\xB0C increase in annual temperatures leads to an increase in crop net revenue:\
+    \ US$ 80 nationwide, US$ 191 for irrigated farms, and US$ 588 for large-scale\
+    \ farms, while dryland farms see a decrease of approximately US$ 50 per hectare."
+  8: Marginal effects of temperature and precipitation changes on crop net revenue
+    in US$/ha, broken down by season, farming season, irrigation type (irrigated,
+    dryland), and farm size (large-scale, small-scale). Annual elasticities of crop
+    net revenue with respect to temperature and precipitation.
+  9: Table 4 presents marginal effects of climate variables on crop net revenue at
+    agro-ecological zone and provincial level. Predicted changes in crop net revenues
+    for 2050 and 2100 are presented in Table 5.
+  10: Table 5 provides quantitative estimates of net revenue changes (US$/ha) under
+    different climate scenarios and for different farming systems (full sample, irrigated,
+    dryland, large-scale, small-scale). Includes percentage changes in parenthesis.
+  11: Temperature increases projected between 2.3 to 9.6 degrees Celsius and precipitation
+    decrease between 2% to 8% by 2100; crop net revenues could fall by 90%.
+  12: Regression coefficients, Pseudo-R squared values, Number of observations, Significance
+    levels (10%, 5%, 1%)

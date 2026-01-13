@@ -1,0 +1,170 @@
+Drivers of Risk:
+  1: Exposure to floods and droughts.
+  2: Floods and droughts.
+  4: Floods and droughts (exposed areas).
+  7: Floods (linked to monsoon rain) and droughts (linked to below average monsoon
+    rain).
+  8: Floods (above-average monsoon and annual rainfall), Droughts (below-average rainfall),
+    Cyclones.
+  9: Floods and Droughts.
+  10: Area exposed to floods (FLEA) and area exposed to droughts (DREA).
+  11: Exposure to floods and droughts.
+  12: Percentage area exposed to floods, percentage area exposed to droughts, and
+    lagged values of these exposures.
+  13: Floods and Droughts
+  14: Floods and droughts.
+  15: Floods and droughts are identified as drivers of risk. Over-exploitation of
+    groundwater resources is mentioned as a factor contributing to unsustainable growth
+    trajectories in some regions.
+  17: Natural disasters; Floods; Drought; Climate Change
+Highlights:
+  1: Floods expose a large area, but droughts have the most significant impact at
+    the sub-national level in India.
+  2: "Sub-national analysis of impacts of \uFB02oods and droughts exposure is vital\
+    \ given the massive investments on mitigation and adaptation to natural hazards."
+  4: Study assesses trends of exposed areas and GSDP to floods and droughts; Panel
+    data analysis evaluates impacts on GSDP, state HDI, and economic growth.
+  7: Floods and droughts can have carry-over effects on economic growth. Growth of
+    GSDP and human development enhances the adaptation and mitigation capacity to
+    floods and droughts.
+  8: Eastern region states (Bihar, Assam) have high exposure to floods and low GSDP.
+    Drought exposure was most extensive in the southern, western, and central states,
+    decreasing over time. Punjab, Haryana, and Gujarat have increasing flood exposure
+    after 2010 despite mitigating drought impacts.
+  10: FLEAs are generally associated with significantly higher GSDP, except in the
+    NWR. There seem to be statistically significant impacts of flood mitigation investments,
+    especially in the ER, and SWR.
+  11: Drought exposure generally had a negative impact on GDP.
+  12: Lagged drought exposure negatively influences non-agriculture sector GDP in
+    the ER. Flood exposure in the NWR has a positive influence on non-agriculture
+    GDP. Floods generally have a negative influence on HDI, except in the NWR. Lagged
+    drought exposure has a negative influence on HDI.
+  13: Floods do not significantly affect GSDP and HDI in the Eastern Region (ER) due
+    to mitigation and adaptation investments. Droughts generally impact GSDP in all
+    states, but significantly through the non-agriculture sector. Droughts significantly
+    negatively impact agriculture GSDP only in the NCR, indicating inadequate adaptation.
+  14: Floods have localized destruction but contribute to groundwater recharge, benefiting
+    industries and service sectors. Droughts have significant spatial distribution
+    and impact both agriculture and non-agriculture sectors.
+  15: Flood exposure has a positive impact in North Western Region (NWR) states (e.g.,
+    Punjab and Haryana) due to groundwater recharge. Flood mitigation and adaptation
+    are critical in Eastern Region (ER) states to assist livelihoods, where there
+    is the lowest GSDP and highest poverty. Diversification of economic activities
+    is needed in South Western Region (SWR) states to high-value crops in agriculture,
+    and high-value industries and services in non-agriculture.
+Methodology:
+  1: Fixed-effect panel regression using satellite data to estimate flood and drought
+    exposure in 19 Indian states (representing 95% of the population and 93% of national
+    GDP) from 2001-2015.
+  2: The analysis uses gridded time-series information of floods and droughts exposed
+    areas derived from fine-scale satellite data. Considers 19 major states, which
+    account for 95% of the total population and 93% of the national GDP in 2015. Excludes
+    union territories and northeastern states due to data unavailability.
+  4: Panel data analysis at the state level to evaluate the impacts of floods and
+    droughts.
+  7: State and time fixed effect panel regression models are used to assess the impact
+    of flood and drought exposed areas on GSDP, sectoral GDP per capita, and HDI.
+    Equations (1) and (2) assess the influence of flood and drought exposed areas
+    on the GSDP exposed to floods and droughts. Equation (3) assesses the impact of
+    current and previous years flood and drought exposed areas on sectoral and total
+    GSDP per person and HDI.
+  8: Two-stage least-squares regression analysis with monthly rainfall and deviation
+    of monsoon and non-monsoon season rainfall from the averages as instrumental variables.
+    Wu-Hausman test for endogeneity. Wald and Sargens test for suitability and overidentifiability
+    of models.
+  10: Time and state fixed panel regressions. The analysis considers all states, and
+    also breaks them into ER (Eastern Region), SWR (South Western Region), NCR (National
+    Capital Region), and NWR (North Western Region).
+  11: Fixed effects panel regression analysis at the state level.
+  12: Panel regressions with state fixed effects are used to estimate the impact of
+    flood and drought exposure on per-capita GSDP and HDI. Results are presented for
+    all states, and for the Eastern Region (ER), Southern and Western Region (SWR),
+    North Central Region (NCR), and North Western Region (NWR).
+  14: State-level analysis of the intra-country impacts of natural disasters (floods
+    and droughts).
+  15: The study uses remote sensing data assessment, exposure analysis, and statistical
+    data analysis.
+  17: Empirical re-examination; Review of models and empirical studies; Detecting
+    temporal changes in flooding using MODIS time-series imagery; Remote Sensing;
+    Water Productivity Mapping
+More Notes:
+  1: GSDPs in non-agriculture sectors are positively impacted by floods and negatively
+    impacted by droughts; no significant influence on HDI was found.
+  2: The paper attempts to shift the focus from the national to the sub-national level
+    assessments on the relationship between natural disasters and economic growth.
+  4: States are divided into four groups (ER, SWR, NCR, NWR) based on geography, hydrogeology,
+    and GSDP to account for regional differences in flood dynamics and water availability.
+  7: The drought-exposed area (DREA) is the maximum area exposed to meteorological
+    or agricultural droughts. The Normalized Difference Drought Index (NDDI) identifies
+    the drought-exposed pixels, which is a function of the Normalized Difference Vegetation
+    Index (NDVI) and Normalized Difference Water Index (NDWI) estimated from satellite
+    images. For floods, the analysis considers data of years with above-average monsoon
+    rainfall, mainly between June and September, while for droughts, the focus is
+    on years with below-average monsoon rainfall, mainly between October and May.
+  8: The study uses FLEA, DREA, and GSDP to assess the economic impact of floods and
+    droughts in different states of India. The paper studies the years 2003, 2010,
+    and 2013 for floods and years with below-average rainfall for droughts.
+  9: The page provides a figure illustrating exposure but lacks specific quantitative
+    data or analysis.
+  10: The relationship between flood and drought exposure and GSDP varies by region.
+    The Wald and Sargen tests show that the instrumental variables are very weak.
+    The aggregated state-level data used in the analysis generally hid these locally
+    concentrated positive impacts.
+  11: Groundwater recharge from floods is critical for livelihood and economic activities
+    in many states during the non-rainy period.
+  12: The study notes that varying exposures to floods and droughts were associated
+    with significant growth in GDP per capita across all regions. Adaptation actions
+    by the non-agriculture sector may explain different results in the SWR. Increased
+    groundwater supply from floods in the NWR may explain the positive impact of floods
+    on HDI. Investments on flood mitigation may have had secondary impacts, facilitating
+    water supply, sanitation, and education, which are the other components of HDI.
+  13: The paper focuses on intra-country variations in India and suggests the need
+    for boosting investments in flood and drought mitigation and adaptation measures.
+    Different regions require different strategies.
+  14: Adaptation to droughts is crucial for growth in both agriculture and non-agriculture
+    sectors in the absence of adequate water resources.
+  15: The study acknowledges that results are confounded by large intra-state variation
+    in hydro-geological and socio-economic conditions. The authors call for future
+    research to focus on risk profiling at finer spatial resolution (districts or
+    sub-districts) to better target mitigation and adaptation responses.
+Outcome(s) of Interest:
+  1: Growth of gross state domestic product (GSDP) and human development index (HDI).
+  2: Gross state domestic product (GSDP) and human development.
+  4: Impacts of floods and droughts on GSDP, state HDI, and economic growth.
+  7: GSDP exposed to floods and droughts; sectoral (agricultural and non-agricultural)
+    and total GSDP per person; human development indicator (HDI).
+  8: GSDP exposed to floods and droughts as a percentage of total GSDP of a state.
+  9: GDP exposed to floods and droughts.
+  10: GSDP (Gross State Domestic Product) exposure to floods and droughts.
+  11: Impacts on per capita agriculture and non-agriculture GSDP.
+  12: Impact of flood and drought exposure on per-capita Gross State Domestic Product
+    (GSDP) and Human Development Index (HDI).
+  13: Impacts on GSDP (Gross State Domestic Product) and HDI (Human Development Index)
+  14: Impacts of floods and droughts on State Domestic Product (SDP) and agriculture
+    and non-agriculture sectors.
+  15: Gross State Domestic Product (GSDP) growth is mentioned in the context of flood
+    and drought exposure and the potential of adaptation interventions to boost it.
+  17: Economic impact of natural disasters; Macroeconomic consequences of natural
+    hazard-induced disasters.
+Quantitative material:
+  1: Fixed-effect panel regression analyses of 19 states from 2001 to 2015.
+  4: Uses multi-year high-resolution gridded estimates available on floods and droughts-exposed
+    areas and GSDP; Data used for generating exposure data are given in Table 2.
+  7: Uses data from 2003, 2010, and 2013 (above average monsoon rainfall) for flood
+    analysis; 2002, 2009, and 2015 (below average monsoon rainfall) for drought analysis;
+    state-level data from 2001-2015.
+  8: FLEA (Flood Exposed Area) as a percentage of the total area of the state for
+    2003, 2010, and 2013. DREA (Drought Exposed Area) as percentage of the total area
+    for years with below-average rainfall. GSDP exposed to floods and droughts, as
+    a percentage of the total GSDP, for the same years as FLEA and DREA.
+  9: Percent of area and GDP exposed to floods. Percent of area and GDP exposed to
+    droughts.
+  10: A 1% increase in FLEA increased flood exposed GSDP by 1.14%. A 1% increase in
+    DREA increased the drought-exposed GSDP by 1.02%.
+  11: "Estimated average annual losses due to floods as a percentage of total GDP\
+    \ over the last decade (2005\u20132015) was only 0.4%."
+  12: Table 7 shows regression results of flood and drought-affected areas with total
+    per-capita GSDP. Table 8 shows regression results of flood and drought-affected
+    areas with the Human Development Index.
+  15: The study mentions states with populations exceeding 50 million, and some exceeding
+    100 million. Also states with low average rainfall.

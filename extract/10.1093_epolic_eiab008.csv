@@ -1,0 +1,40 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Climate Disaster Probability,Unspecified,No Carbon Policy,2271,Time Zero,Percent,7,NA,NA,NA,NA,NA,3,Probability of climate disaster arising over the next 250 years (from time zero).
+1,Climate Disaster Probability,Unspecified,No Carbon Policy,2521,Time Zero,Percent,9,NA,NA,NA,NA,NA,3,Probability of climate disaster arising over the next 500 years (from time zero).
+2,Aggregate Consumption,Unspecified,Climate Disaster,2021,Trend,Percent,-33.33,NA,NA,NA,NA,NA,3,Defined as a drop in aggregate consumption by more than one third relative to trend. Using current year as no other year is specified.
+3,Welfare,Unspecified,Optimal carbon-risk tax policy,2100,No CC,%,4,NA,NA,NA,NA,NA,5,Welfare gains for future generations; Year is assumed.
+4,Climate disaster probability,Unspecified,Optimal carbon-risk tax policy,2100,BAU,%,-8,NA,NA,NA,NA,NA,5,Change in probability of crossing a calamitous climate tipping point from 9% to 1%; Year is assumed.
+5,Output,None,BAU,2100,No CC,percent decline,-15,NA,NA,NA,NA,NA,6,"Under BAU, without carbon tax, output declines by 15%."
+6,Climate disaster probability,Unspecified,Dirty energy shock,2050,No carbon tax,percentage points,5.0,NA,NA,NA,NA,NA,9,"Time-invariant Pareto-improving carbon taxes can help, but not enough to lower the climate-disaster probability below 2.7 percent for these two shocks."
+7,Climate disaster probability,Unspecified,All shocks,2050,No carbon tax,percent,9.0,NA,NA,NA,NA,NA,9,captures climate-damage tipping points
+8,Climate disaster probability,Unspecified,All shocks,2050,Fixed carbon tax,percent,3.0,NA,NA,NA,NA,NA,9,captures climate-damage tipping points
+9,Climate disaster probability,Unspecified,All shocks,2050,CO2-dependent tax,percent,1.5,NA,NA,NA,NA,NA,9,captures climate-damage tipping points
+10,Temperature,,Deterministic Benchmark,2141,No CC,degrees Celsius,2.8,NA,NA,NA,NA,NA,17,Maximum excess temperature (reached within 120 years)
+11,Output,,Deterministic Benchmark,2141,No CC,percent,-2.5,NA,NA,NA,NA,NA,17,Maximum damages as % of final output (reached within 120 years)
+12,Return to capital,,Deterministic Benchmark,2021,No CC,percent per year,3,NA,NA,NA,NA,NA,17,"Average, baseline deterministic calibration"
+13,Utility,,Deterministic Benchmark,2021,No CC,percent,0.1,NA,NA,NA,NA,NA,17,Welfare-improving carbon tax increases expected utility
+14,Carbon tax,,Deterministic Benchmark,2021,No CC,percent,10,NA,NA,NA,NA,NA,17,Optimal uniform
+15,Carbon tax,,Deterministic Benchmark,2021,No CC,percent,5,NA,NA,NA,NA,NA,17,Optimal tax with restricted Pareto policy
+16,GDP,,Deterministic,2171,No CC,%, -10,NA,NA,NA,NA,NA,18,"Corresponds to 150 years after the start of the simulation (2021+150), reaching 10% decline."
+17,GDP,,Deterministic,2271,No CC,%,-18,NA,NA,NA,NA,NA,18,"Corresponds to 250 years after the start of the simulation (2021+250), peaking at 18% decline."
+18,Welfare,,Deterministic,2171,Today,%,-6.5,NA,NA,NA,NA,NA,18,Welfare of generations born in 150 years (2171) is 6.5% lower than welfare of agents born today. The transition to clean energy takes 250 years and temperature increases by 4.5 degrees.
+19,Welfare,,Deterministic,2271,Today,%,3.5,NA,NA,NA,NA,NA,18,Welfare gains up to 3.5% for future generations born after 250 years (2271) with a 15% carbon tax.
+20,Temperature,,Deterministic,2271,No CC,Degrees Celsius,4.5,NA,NA,NA,NA,NA,18,Increase in temperature is 4.5 degrees after 250 years.
+21,GDP,,Worst-Case,2200,No CC,%,-30,NA,NA,NA,NA,NA,Page 20,"The result refers to a scenario after 200 years where there is an almost 30 percent reduction in GDP. No specific country is mentioned, and the outcome is under worst-case scenario."
+22,Aggregate consumption,NA,NA,2121,No CC,Percentage,-33,NA,NA,NA,NA,NA,Page 21,"While aggregate consumption can be reduced by more than one third during consumption disasters, these events account for approximately 1% of the time and are not permanent. This is due to the assumption that 60% of CO2 is permanent in the atmosphere, with 40% slowly depreciating over time."
+23,Consumption equivalence,NA,NA,2221,No CC,Percentage,1.5,NA,NA,NA,NA,NA,Page 21,Generations born 200 years into the future gain 1.5% in consumption equivalence with the implementation of a 25% optimal fixed carbon tax rate on dirty energy.
+24,Consumption equivalence,NA,NA,2021,No CC,Percentage,0.3,NA,NA,NA,NA,NA,Page 21,Current and near-future generations gain about 0.1 to 0.5% in consumption equivalence with the implementation of a 25% optimal fixed carbon tax rate on dirty energy. Using midpoint of range.
+25,Welfare gains,NA,NA,2325,No CC,Percentage,1.3,NA,NA,NA,NA,NA,Page 21,"In about 175 years (which corresponds to around 325 years from present), the welfare gains are approximately 1.3%."
+26,Climate disaster probability,NA,NA,2121,No CC,Percentage,-0.5,NA,NA,NA,NA,NA,Page 21,"The implementation of a 25% carbon-tax rate makes climate disasters very unlikely, with a probability below 0.5%."
+27,Climate disaster probability,NA,NA,2521,No CC,Percentage,0.02,NA,NA,NA,NA,NA,Page 21,"In 5000 simulated paths, only one climate disaster occurred, indicating a very low probability of climate disasters occurring under the scenario."
+28,Aggregate consumption,NA,Stochastic,2221,No CC,Fraction of original value,-0.66,NA,NA,NA,NA,NA,25,Maximum consumption drop after 200 years (inferred from figures)
+29,Utility,Unspecified,Energy/Temp Shocks,2521,No CC,"Certainty equivalence, %",-5,NA,NA,NA,NA,NA,25,Effect on average/expected utility. Affects some future generations.
+30,Tax rate,Unspecified,Energy/Temp Shocks,2021,No carbon tax,%,20,NA,NA,NA,NA,NA,25,Optimal fixed tax rate
+31,Utility,Unspecified,Energy/Temp Shocks,2171,No carbon tax,"Certainty equivalence, %",2,NA,NA,NA,NA,NA,25,Generations born 150 years from now or even later.
+32,Climate disaster probability,Unspecified,Energy/Temp Shocks,2021,No carbon tax,%,-2.5,NA,NA,NA,NA,NA,25,Climate disaster probability reduced.
+33,Climate disaster probability,Unspecified,Energy/Temp Shocks,2021,No carbon tax,%,5,NA,NA,NA,NA,NA,25,Original climate disaster probability.
+34,Climate disaster probability,Not specified,Three-shock model,2121,No stochastic TP,percent,4,NA,NA,NA,NA,NA,26,Increase in climate disaster probability after 100 years
+35,Climate disaster probability,Not specified,Three-shock model,2121,No carbon tax,percent,9,NA,NA,NA,NA,NA,26,Frequency of climate disaster increases to 9 percent after 100 years
+36,Expected Utility,NA,Unspecified,2200,Present Generations,Percent,-7,NA,NA,NA,NA,NA,Page 29,Expected utility of generations born 200 years from now is 7% lower compared to those born today due to climate risk.
+37,Expected Utility,NA,Three Shocks,2200,Deterministic Model,Percent,4,NA,NA,NA,NA,NA,Page 29,"With a fixed tax of 35%, average welfare of generations born 200 years in the future increases by 4%."
+38,Climate Disaster Probability,NA,Three Shocks,2200,NA,Percent,-3.5,NA,NA,NA,NA,NA,Page 29,Probability of climate disasters decreases to around 3.5% with a fixed tax of 35%.

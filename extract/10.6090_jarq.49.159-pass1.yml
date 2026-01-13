@@ -1,0 +1,125 @@
+Drivers of Risk:
+  1: Increased incidence of extreme rain due to climate change, severe floods caused
+    by heavy rain, and poorly drained surface water from long rain.
+  3: Heavy rain (specifically, impacts on rice yield, quality and drainage). Climate
+    factors such as temperature, solar radiation, and rainfall.
+  4: Changes in temperature, solar radiation, and rainfall (including floods).
+  6: Socioeconomic factors and climate conditions (unspecified changes)
+  7: Heavy rain, specifically a long rain index representing ill-drained surface water
+    (CRI) and a flood index (CFI)
+  9: Heavy rain impacts rice productivity in Japan.
+  11: Temperature and rainfall changes due to climate change impact rice TFP, with
+    temperature increases being beneficial in northern Japan but harmful in southern
+    Japan, while rainfall changes have always negative effects.
+  12: Climate change impacts on rice crop-yield (CHI) and crop-quality (CQI).
+Highlights:
+  1: Heavy rain has a negative impact on rice TFP, with flooding and poor drainage
+    reducing TFP by 2.5-4.5%. Future changes in rainfall are predicted to cause annual
+    rice TFP to fluctuate, with rain's impact exceeding that of temperature due to
+    variations in annual rainfall.
+  3: Heavy rain, measured by indices for long rain and flooding, negatively impacts
+    rice productivity.
+  4: "High temperatures decrease rice yield after a threshold of approximately 20\xB0\
+    C in July and August. High temperatures and insufficient solar radiation cause\
+    \ rice quality to decline. A temperature of 19.34\xB0C showed the highest log\
+    \ likelihood value. Positive influences dominate in northern Japan, but negative\
+    \ influences are frequent in other prefectures under present circumstances."
+  6: Northern regions (Hokkaido, Akita, Niigata) marked higher rice productivity than
+    southern regions due to socioeconomic and climate differences. Rice TFPs of most
+    regions increased from 1979 to 2010.
+  7: Presents descriptive statistics for variables related to rice productivity and
+    quality, along with climate variables (rain, solar radiation, temperature) and
+    other factors (knowledge capital, population density). Shows rice TFP by regions.
+  9: Northern prefectures initially experience positive effects of temperature on
+    rice productivity but eventually shift to negative effects, while southern prefectures
+    consistently show negative effects.
+  11: Future temperature changes are beneficial for rice TFP in northern Japan but
+    harmful in southern Japan. Rain negatively impacts rice TFP, leading to fluctuations
+    greater than temperature impacts.
+  12: Temperature variables (TM7, TM8, TM9, TM7^2, TM8^2, TM9^2) significantly affect
+    crop-yield (Table A1). SR7, SR8 and ABS(TL78-19.34), DYR significantly affect
+    crop-quality (Table A2).
+Methodology:
+  1: "Panel data regression analysis used to estimate causality functions. Rice TFP\
+    \ measured using T\xF6rnqvist-Theil and Malmquist indexes. Climate projections\
+    \ from global-climate model (GCM) used in conjunction with crop and hydrological\
+    \ models to predict future TFP."
+  3: Regression analysis is used to model the impact of climate factors (heavy rain,
+    temperature, solar radiation, rainfall) and socioeconomic factors (farm management
+    area, R&D investment, population density) on rice TFP. Data Envelopment Analysis
+    (DEA) is used to estimate the M-index for technological gaps and initial TFP values.
+  4: Crop-yield and crop-quality models are used to estimate the impact of climate
+    factors on rice production. A hydrological model is used to quantify the impact
+    of floods on rice during maturity and harvest stages. The crop-yield and crop-quality
+    models were estimated by using the latest data. The parameters of the hydrological
+    model are the same as Kudo et al. (2013).
+  6: T-index and M-index calculation of rice TFP for each region of Japan from 1979
+    to 2010; future values of MA were set until 2100, based on past MA trends in each
+    region.
+  7: Uses descriptive statistics of variables to estimate TFP and CQI functions.
+  9: TFP elasticity is calculated with respect to explanatory climate impact variables
+    across different regions in Japan over multiple time periods.
+  11: Panel data analysis applying crop-yield, crop-quality, and hydrological models,
+    using MIROC projection results to predict rice TFP under future climate scenarios.
+  12: Panel data analysis with fixed-effect and random-effect models is used to estimate
+    the impact of temperature and other variables on rice crop-yield and crop-quality.
+    Hausman test is used to select the best model.
+More Notes:
+  1: The study focuses on the impact of rain on rice productivity in Japan.
+  3: The study uses a perpetual-inventory method to estimate R&D capital stocks. The
+    study focuses on rice productivity in Japan.
+  4: The study focuses on rice production in Japan. The hydrological model considers
+    terrain mesh and outflow calculation, linking outflow to flood disasters.
+  6: Nine prefectures were selected to represent different locations in Japan for
+    the analysis. Eleven prefectures had correlation coefficients less than 0.7 for
+    T-index and M-index (Ibaraki, among others).
+  7: CHI* and CQI* are estimated using fixed-effect models, with actual climate conditions,
+    but without the fixed-effect coefficients in the estimations, to eliminate latent
+    effects.
+  11: Both T-index and M-index provide stable predictions for rice TFP under climate
+    change, though R&D capital stocks and population density show differences. Government
+    support such as consolidating drainage systems is needed to counter negative rain
+    impacts on rice production.
+  12: The study focuses on agricultural mitigation and adaptation technologies for
+    climate change, specifically rice production in Japan.
+Outcome(s) of Interest:
+  1: Rice total-factor productivity (TFP) is used to represent both production and
+    cost changes related to heavy rain and climate change.
+  3: Rice productivity (TFP)
+  4: Crop yield and crop quality (rice).
+  6: Rice Total Factor Productivity (TFP)
+  7: Rice Total Factor Productivity (TFP) and Rice Quality Index (CQI)
+  11: The present study evaluated the impacts of long and heavy rain under long-term
+    climate change on Japanese rice Total Factor Productivity (TFP).
+  12: Changes in rice Total Factor Productivity (TFP) and its ripple effects on the
+    whole economy.
+Quantitative material:
+  1: Poorly drained surface water as well as flooding reduced rice TFP by 2.5 to 4.5%.
+  3: The regression model includes variables like CHI (rice-yield index), CQI (rice-quality
+    index), CRI (long-rain index), and CFI (flood index), but their actual values
+    and the estimated coefficients are not provided on this page.
+  4: "Equations are provided to estimate crop yield (CHIr,t) and crop quality (CQIr,t),\
+    \ based on temperature (TM), solar radiation (SR), and rainfall. Threshold temperature\
+    \ of approximately 20.0\xB0C in July and August. Temperature of 19.34\xB0C for\
+    \ CQI. The long-rain index (CRI) is measured by the sum of rainfall during August\
+    \ and September. CFI is measured as the total unit outflow per terrain mesh area\
+    \ during the typhoon season in August and September."
+  6: Correlation coefficients of T-index and M-index rice TFP exceeded 0.7 for 27
+    prefectures.
+  7: Provides descriptive statistics (average, standard deviation) for TFP (T-index
+    and M-index), management area per farm household (MA), knowledge capital (nationwide
+    and prefecture levels), rice yield per area (CHI and CHI*), percentage of 1st
+    grade rice (CQI and CQI*), long rain index (CRI), flood index (CFI), solar radiation
+    (SR7, SR8, SR9), maximum daily temperature (TM7, TM8, TM9), average minimum daily
+    temperature (TL78), and population density (POP).
+  9: Elasticity values for total factor productivity (TFP) are given with respect
+    to temperature and rain via crop yield (CHI), crop quality (CQI), long rain index
+    (CRI), and flood index (CFI).
+  11: Long rain and flood decrease rice TFP by 2.5 to 4.5%; impacts of rain on TFP
+    fluctuations exceed those of temperature despite lower elasticity, due to higher
+    variation in annual rainfall.
+  12: "Table A1 presents estimations of the crop-yield model (CHI) using panel data\
+    \ from 38 regions and 31 years (1979-1992, 1994-2010). Table A2 presents estimations\
+    \ of the crop-quality model (CQI) using the same panel data. Both tables show\
+    \ coefficients, t-statistics, adjusted R2, Log likelihood, AIC, Redundant Fixed\
+    \ Effects Test (F), and Hausman Test (\u03C72) for fixed and random effects models."

@@ -1,0 +1,82 @@
+Drivers of Risk:
+  1: Tropical cyclones
+  5: Tropical cyclone (TC) landfalls, influenced by natural climate variability such
+    as ENSO, and potentially affected by underreporting in historical data.
+  6: Impact of tropical cyclones on population and assets due to variations in wind
+    speed thresholds.
+  7: Tropical cyclones (TCs) and associated wind speeds (34, 64, and 96 knots).
+  9: Tropical cyclones
+Highlights:
+  1: The associated spatially explicit and aggregated country-event-level exposure
+    data (TCE-DAT) cover the period 1950 to 2015 and are freely available.
+  5: The TCE-DAT dataset provides gridded wind speed information and exposed population
+    and assets for historical tropical cyclones, allowing for analysis of TC risk.
+    However, data before 1980 should be treated with caution due to underreporting.
+  6: Higher vulnerability and exposure are present at lower wind speed thresholds
+    (34 kn), with significant fluctuations over time in both population and asset
+    exposure.
+  7: The TCE-DAT dataset provides a new and comprehensive data set for global historical
+    TC exposure between 1950 and 2015, including spatially explicit exposure at the
+    grid level and aggregated exposed population and exposed assets by event and country
+    for 5335 events based on 2713 TCs, separating exposure to wind speeds above 34,
+    64, and 96kn.
+  9: Aims to provide data for analyzing the economic impacts of climate-related events
+    like tropical cyclones.
+Methodology:
+  1: Applies a simplified wind field model to estimate the areas exposed to wind speeds
+    above 34, 64, and 96 knots (kn). Based on available spatially explicit data on
+    population densities and gross domestic product (GDP) it estimates (1) the number
+    of people and (2) the sum of assets exposed to wind speeds above these thresholds
+    accounting for temporal changes in historical distribution of population and assets
+    (TCE-hist) and assuming fixed 2015 patterns (TCE-2015).
+  2: Uses the History Database of the Global Environment (HYDE) for spatially explicit
+    population data.
+  5: The paper uses the Holland08 wind field model to generate wind fields for tropical
+    cyclones based on statistical properties. It uses the IBTrACS database as a historical
+    record of TC activity. Limitations of the wind field model exist, especially for
+    storms with unusual properties.
+  6: Estimates are based on TCE-DAT and HURDAText data sets, comparing fixed 2015
+    and historical patterns of population and asset exposure to evaluate reliability.
+  7: Overlaying estimated wind fields with gridded information about population and
+    assets to assess exposure. Comparison of exposure estimates derived from observation-based
+    HURDAText and generic Holland08 wind field data.
+  9: Historical data (1850-2005) harmonized with future projections (2006-2100) according
+    to the Shared Socio-economic Pathways
+More Notes:
+  1: The dataset (TCE-DAT) is considered key information to (1) assess the contribution
+    of climatological versus socioeconomic drivers of changes in exposure to tropical
+    cyclones, (2) estimate changes in vulnerability from the difference in exposure
+    and reported damages and calibrate associated damage functions, and (3) build
+    improved exposure-based predictors to estimate higher-level societal impacts such
+    as long-term effects on GDP, employment, or migration.
+  5: The paper acknowledges potential underreporting of TCs in the IBTrACS database
+    prior to 1980, particularly in the Indian and South Pacific Oceans, which might
+    affect trend analysis. The wind field model provides a gross approximation of
+    the actual wind field and may not accurately capture wind fields of unusual storms.
+  6: Validation of exposure estimates uses the United States as a test region to compare
+    TCE-DAT with comprehensive observational records.
+  7: The generic wind field modeling approach may lead to deviations from actually
+    realized exposure for selected events. The data is based on publicly available
+    data sources.
+  9: Acknowledges funding through the Leibniz Competition and thanks Daisuke Murakami
+    and Yoshiki Yamagata for improving and adapting their gridded GDP data.
+Outcome(s) of Interest:
+  1: long-term development such as dampening of economic output, e.g., by reduced
+    education achievements, mortality, and displacement
+  5: The paper uses tropical cyclone (TC) wind fields to estimate exposed population
+    and assets, which could be used as input to models estimating macroeconomic or
+    fiscal outcomes related to damage and disruption from TCs.
+  7: Exposed population and exposed assets (implicitly related to economic damage).
+  9: Continuous national Gross Domestic Product (GDP) time series for 195 countries;
+    Spatially-explicit Gross Cell Product (GCP) time series
+Outcomes of Interest:
+  6: No relevant information
+Quantitative material:
+  1: USD29 billion of direct damages and 22 million people affected on average each
+    year
+  6: Graphs provide quantitative data on global exposed population (in billions) and
+    assets (in trillion USD, PPP 2005 $) to tropical cyclones from 1970 to 2015.
+  7: Comparison of exposed population and assets based on wind speed estimates from
+    Holland08 and HURDAText databases, including correlation coefficients and counts
+    of events at different wind speed thresholds.
+  9: Provides GDP time series data and tropical cyclone exposure data sets

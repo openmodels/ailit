@@ -1,0 +1,114 @@
+Drivers of Risk:
+  1: Climate change induced flood events.
+  3: River flooding and drainage congestion during the monsoon, potentially influenced
+    by upstream interventions.
+  4: Higher than anticipated construction costs, loss of soil fertility over time,
+    higher waterlogging damages, and negative impact on capture fisheries.
+  8: Flooding (implied by embankment presence and analysis of migration/movement),
+    proximity to infrastructure (hospitals, gas lines, pipelines, deep tubewells).
+  11: Flooding (riverine and rainfall-induced waterlogging). Embankment construction
+    and breaches as mitigation efforts that then influence risk.
+  14: Floods, human interventions (embankments), climate change (implicitly).
+Highlights:
+  1: No significantly higher benefits accruing to those living with higher levels
+    of flood protection.
+  3: "Machine learning provides robust metrics to evaluate the impacts of interventions,\
+    \ identifying informative indicators in flood management. The Meghna\u2013Dhonagoda\
+    \ Irrigation Project (MDIP) is one of the largest flood control, drainage, and\
+    \ irrigation projects in Bangladesh."
+  4: The embankment led to a net welfare loss and negative distributional outcomes.
+  5: Machine learning can provide analytical insights from detailed historical data
+    on long-term impacts from climate resilient infrastructure to help guide future
+    policy and investments.
+  8: Embankments may lead to short-term increases in agricultural land ownership for
+    inside residents, but differences may even out over time. Proximity to infrastructure
+    may have larger socio-economic impacts than living inside/outside the embankment.
+  11: Embankment construction led to an initial increase in inward movement. After
+    construction, in-migration rate to the area outside the embankment increased.
+    Embankment protected the project area from inundation during the 1998 flood, despite
+    it exceeding the 100-year flood level. Mortality rates did not differ significantly
+    inside vs. outside the embankment.
+  14: The study's methods can evaluate environmental and socio-economic impacts of
+    human interventions beyond the context of Bangladesh; The study reinforces findings
+    around the immediate impacts of embankments, but finds those are not continued
+    three decades later; Machine learning approaches can be used to identify the most
+    informative variables for developmental interventions.
+Methodology:
+  1: Machine learning is used to analyze socio-economic survey and events data (death,
+    migration) from 1983-2014 to assess the impact of flood protection embankments.
+  3: "Machine learning is used to evaluate the impacts of interventions and identify\
+    \ informative indicators, using an existing dataset from the Meghna\u2013Dhonagoda\
+    \ Irrigation Project (MDIP). The methodology is applicable where there is robust\
+    \ historic continuous data."
+  4: The analysis used HDSS data, socio-economic surveys, and comparisons between
+    areas inside and outside the embankment, but findings on welfare differences were
+    inconclusive; a recommendation was made for a follow-up study with longer-term
+    data.
+  5: Machine learning approaches are used to analyze multi-decadal socio-economic
+    and event data to evaluate the long-term impact of embankments (climate resilient
+    infrastructure). Classification models are used to identify differences in socio-economic
+    status of households inside vs. outside the embankment. Regression models are
+    used to assess differences in mortality and migration patterns inside vs. outside
+    the embankment.
+  8: Analysis of socio-economic survey data and event data (birth, marriage, divorce,
+    death, migration, movement) using ROC comparison and variable ranking based on
+    importance.
+  11: Analysis of migration and mortality data inside vs. outside embankment, alongside
+    hydro-climatic data (flood inundation areas using LANDSAT images and NDWI).
+  14: Machine-learning approaches integrating socio-economic, hydro-climatic data,
+    and data on public/private water infrastructure; Spatio-temporal analysis; Quantitative
+    analysis of embankment impacts using machine learning to identify relevant indicators.
+More Notes:
+  1: Focuses on social impacts and does not directly address macroeconomic or macro-fiscal
+    aspects of climate change adaptation.
+  3: "The Meghna\u2013Dhonagoda Irrigation Project (MDIP) was implemented in 1988.\
+    \ The study focuses on Matlab North, protected by embankments from the Meghna\
+    \ and Dhonagoda Rivers."
+  4: The variables related to impacts were not consistently monitored over time, limiting
+    longer-term impact assessments.
+  5: The study focuses on identifying socio-economic indicators impacted by the embankment,
+    using household survey data to classify households inside or outside the embankment.
+  8: The study normalizes event counts by mid-year population and uses data from 31
+    years.
+  11: "The analysis links socio-economic impacts with hydro-climatic events. The area\
+    \ within Matlab North used to be regularly flooded in the monsoon uptoadepthof\
+    \ 2\u20133m in the pre-project condition. The effectiveness of the embankment\
+    \ is highlighted by its ability to withstand floods after repairs, although waterlogging\
+    \ remains an issue."
+  14: The study found that households inside the embankment owned a larger proportion
+    of agricultural land within a decade of its construction, but this difference
+    appears to be evening out in recent years; The paper suggests the framework can
+    be adapted to identify key variables, e.g., those indicative of owning a deep
+    tubewell, using solar panels, or contracting certain water-borne diseases.
+No relevant information:
+  10: This page primarily focuses on socio-economic survey data analysis at a local
+    level (bari) in Bangladesh, specifically related to water sources, land ownership,
+    and proximity to services. There is no information on macroeconomic or macro-fiscal
+    outcomes, costs/benefits of adaptation at a national level, or any discussion
+    of macroeconomic drivers of risk.
+  18: No relevant information
+Outcome(s) of Interest:
+  1: No significant difference found between populations inside vs. outside flood
+    embankments based on welfare, migration, or mortality indicators.
+  3: Improvement of agricultural conditions in monsoon, specifically encouraging introduction
+    to high yielding variety (HYV) monsoon rice (Aman), and providing irrigation from
+    surface water in the Rabi (dry) season and early monsoon seasons.
+  4: The embankment resulted in negative distributional outcomes, with big landowners
+    benefiting from increased agricultural production while traditional fishermen
+    and river transport workers faced negative impacts.
+  8: Socio-economic benefits and stability (measured by migration, movement, and death
+    rates), agricultural land ownership.
+  11: No information on macroeconomic or fiscal outcomes. Focuses on migration, mortality,
+    and inundation.
+  14: Socio-economic well-being, mortality, migration, agricultural land ownership,
+    water-borne disease morbidity, malnutrition in children.
+Quantitative material:
+  1: No specific macroeconomic or fiscal data presented on this page.
+  3: The study area is 184.4 km2 with a population of 230,185 as of 30 June 2014.
+  8: ROC AUC metrics for socio-economic variables, statistical significance tests
+    comparing AUC metrics across years.
+  11: Mentions inundation depth (2-3m pre-project), flood return periods (1-in-100-year),
+    in-migration rates, and mortality rates, but does not provide specific figures.
+  14: The study mentions using ICD-9 and ICD-10 codes to indirectly assess water-borne
+    disease morbidity, but states that the results showed no significant difference
+    in inside/outside population.

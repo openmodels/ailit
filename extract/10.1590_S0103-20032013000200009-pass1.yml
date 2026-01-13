@@ -1,0 +1,162 @@
+Drivers of Risk:
+  1: Climate change, specifically temperature and precipitation changes.
+  2: Climate change impacts on agricultural production, particularly for smallholder
+    farmers.
+  3: Climate change impacting small-scale agriculture, specifically considering irrigation
+    as an adaptation measure.
+  4: The choice between rainfed (sequeiro) and irrigated agriculture, influenced by
+    climate factors and other economic and personal characteristics of the farmer.
+  5: Climate change (temperature and precipitation changes), specifically medium and
+    long-term climate conditions.
+  7: The study utilizes climate change scenarios A1B and A2 from the IPCC, projecting
+    changes in temperature and precipitation for Brazil.
+  11: Climate change scenarios (A1B and A2).
+  12: Climate change impacts on agricultural productivity, cost of irrigation, type
+    of irrigation used.
+  13: Climate change impacts, specifically temperature increase and reduced water
+    availability, particularly affecting rain-fed agriculture; Lack of adaptation
+    measures.
+  14: Climate change, specifically variations in climate; water scarcity
+Highlights:
+  1: Irrigation is an effective adaptation measure for small farmers in Brazil. Rain-fed
+    small farms are particularly vulnerable to climate change.
+  2: Irrigation is an effective adaptation strategy for smallholder farmers in Brazil,
+    significantly increasing land values compared to rainfed agriculture. Public policies
+    and credit lines are needed to encourage irrigation adoption.
+  3: The study examines whether small farmers using irrigation are less vulnerable
+    to climate change than rain-fed farmers.
+  4: The paper aims to estimate the impact of irrigation on land value for those who
+    actually irrigate, addressing the self-selection problem that can overestimate
+    the effectiveness of irrigation.
+  5: The study investigates whether irrigation reduces the vulnerability of small
+    agricultural producers to climate change, using land value as an indicator. Special
+    attention is paid to the Northeast region of Brazil, as it is expected to experience
+    the most adverse climate change impacts.
+  11: There are statistically significant differences at 1% in land value between
+    irrigators and rainfed producers across different periods and climate scenarios.
+    The difference between land values is positive indicating land for irrigators
+    is higher than for rainfed producers.
+  12: Irrigation is an effective adaptation measure to climate change. Non-irrigated
+    agriculture may face considerable losses compared to irrigated production. The
+    value of land for small irrigating producers is expected to be approximately double
+    the value of dryland farming.
+  13: Climate change will disproportionately affect small agricultural producers in
+    developing countries if they don't adapt. Adaptation reduces variability in land
+    values, indicating less sensitivity to climate change.
+  14: Irrigation is influenced by climate variations and can be modeled as an adaptation
+    strategy; currently, rainfed agriculture has higher returns due to the high costs
+    of implementing irrigation; future climate change scenarios invert this result,
+    with irrigated agriculture becoming more profitable and stable; small-scale rainfed
+    agriculture will likely be severely impacted by global warming.
+Methodology:
+  1: "Treatment effect model using Propensity Score Matching (Pareamento por Escore\
+    \ de Propens\xE3o), using temperature and precipitation projections from the IPCC\
+    \ 4th Assessment Report (2010-2099)."
+  2: Treatment effects model based on Propensity Score Matching technique, using temperature
+    and precipitation projections for 2010-2099 from the IPCC 4th Assessment Report.
+  3: Develops a treatment effect model to identify the adoption of irrigation and
+    the returns for irrigating vs. non-irrigating small farms. Analyzes how climate
+    variability influences the adoption of irrigation and its impact on the yield
+    of irrigating and non-irrigating farms (max 10 hectares), considering agronomic,
+    socioeconomic, and climatic factors.
+  4: The paper uses a Treatment Effect model with Propensity Score Matching (PSM)
+    to address the issue of self-selection in irrigation adoption. The methodology
+    involves estimating a Probit model of irrigation adoption, calculating propensity
+    scores, and then matching treated (irrigated) and control (rainfed) municipalities
+    based on these scores.
+  5: "Uses propensity score matching with kernel method (Fr\xF6lich, 2004) to estimate\
+    \ a counterfactual for treated observations (municipalities with irrigation).\
+    \ Socioeconomic, irrigation, and water resource availability data from the 2006\
+    \ Agricultural Census (IBGE) are used. Agronomic characteristics are derived from\
+    \ the N\xFAcleo de Estudos e Modelos Espaciais Sist\xEAmicos (Nemesis) through\
+    \ overlaying georeferenced boundaries of municipalities on agronomic data."
+  7: The study uses average data from 10 General Circulation Models (GCMs) to project
+    temperature and precipitation changes. The analysis considers only summer and
+    winter seasons, based on previous studies suggesting this is more suitable for
+    South America.
+  11: Uses a kernel estimator to assess the effect of irrigation on land value, considering
+    current and future climate scenarios. Propensity score matching using a Probit
+    model is employed to ensure comparability between treatment and control groups.
+    Simulations for future scenarios only alter climatic conditions to isolate climate
+    effects. The P-value is based on the standard error calculated by bootstrap.
+  12: Compares returns associated with irrigation to dryland farming, considers the
+    cost of irrigation, and simulates land values under different climate change scenarios
+    (A1B, A2) for 2020, 2050, and 2080.
+  14: Analysis of factors associated with the adoption of irrigation in Brazil and
+    its impact on farmer income; comparison of rainfed vs. irrigated agriculture in
+    current and future climate scenarios.
+More Notes:
+  1: The study suggests public policies to combat the effects of global warming in
+    the agricultural sector and credit policies to expand irrigation, especially for
+    less capitalized producers.
+  2: The study focuses on the microeconomic level (smallholder farmers) rather than
+    macroeconomic or macro-fiscal outcomes at a national level.
+  3: The analysis focuses on small producers and subsistence systems, an area the
+    authors claim is underexplored in the literature. The study will simulate future
+    climate change scenarios.
+  4: Land value is used as a proxy for profitability, representing the present value
+    of future net revenues.
+  11: Land value is quoted in 1,000 R$ (values referring to the 2006 Agricultural
+    Census). The Rosenbaum bounds test was performed to explore the sensitivity of
+    estimates to unobserved variables, indicating high significance of the estimated
+    treatment effect coefficient.
+  13: The paper suggests a differentiated impact of climate change based on the ability
+    of small producers to adapt. The Northeast region of Brazil is particularly vulnerable.
+  14: Advocates for policies to promote irrigation, including credit programs for
+    less capitalized producers and potential subsidies for domestic food production,
+    alongside improved water management and modernization of irrigation equipment.
+  17: This page primarily contains supplementary tables (Annexes) to the main paper.
+    Without the context of the full paper, the relevance of the correlation matrix
+    (Table A2) is unclear. The paper seems to be studying some impact in Brazil, as
+    indicated by the Portuguese text and the variable "Nordeste" (Northeast).
+No relevant information:
+  9: This page primarily focuses on comparing characteristics of irrigated vs. non-irrigated
+    farms in Brazil, rather than providing quantitative macroeconomic or fiscal outcomes
+    related to climate change adaptation at a national level. It presents descriptive
+    statistics of climatic, agronomic, and socioeconomic variables for the two farm
+    types and identifies factors influencing the adoption of irrigation.
+  15: No relevant information
+Outcome(s) of Interest:
+  1: Land value of small farms.
+  2: No relevant information
+  3: Impact of climate change on the value of land for irrigating and non-irrigating
+    small farms.
+  4: Agricultural profitability, measured by land value.
+  5: Impact of irrigation on land value for irrigators (as a proxy for vulnerability
+    reduction among small producers).
+  11: Impact on average land value.
+  12: Value of land for irrigated vs. non-irrigated small farms, losses from non-irrigated
+    production, increased land value from irrigation, reduction of land value from
+    non-irrigated production.
+  13: Impacts on land value; potential losses for small agricultural producers; potential
+    effects on rural employment, migration, and food security.
+  14: Impact of irrigation on farmer income, poverty reduction, and potential strain
+    on urban areas due to rural migration; expected losses in rainfed agriculture.
+Quantitative material:
+  1: Irrigated small farms are expected to have land values approximately double that
+    of rain-fed farms across simulation periods.
+  2: Land values of irrigators are, on average, approximately twice the value of rainfed
+    smallholders, according to simulations across climate scenarios.
+  4: "The paper calculates the average effect of being in a municipality with irrigated\
+    \ areas compared to an observationally equivalent one that practices rainfed agriculture\
+    \ (\u2206TT)."
+  5: 'Uses temperature and precipitation projections for three periods: 2010-2039,
+    2040-2069, and 2070-2099. The irrigation''s impact on land value is calculated.'
+  7: The table provides quantitative projections for summer and winter temperature
+    and precipitation in Brazil under scenarios A1B and A2 for the periods around
+    2020, 2050, and 2080, relative to the 'current period' (1961-1990).
+  11: Table 5 provides estimates of the effect of climate change on average land value
+    for irrigators and rainfed producers in Brazilian Real (R$). It includes values
+    for the current period and projections for 2020, 2050, and 2080 under scenarios
+    A1B and A2.
+  12: Losses for non-irrigated production could reach R$ 7.2 million in the next 30
+    years (2010-2039). Land value increases of 21.6% in 2020 and 2050, and 20.5% in
+    2080 with irrigation. Land value reductions of 59.2% in 2020, 59.7% in 2050, and
+    60% in 2080 for non-irrigated small farms. The standard deviation of land values
+    between 2020-2080 under the A1B scenario for irrigators is 5.8 and for dryland
+    farmers, 57.8.
+  13: Losses in corn production of US$2 billion per year until 2055 in Africa and
+    Latin America (referenced from Jones and Thornton, 2003, likely related to but
+    not directly from the current study).
+  14: No specific quantitative estimates provided on this page, but mentions small
+    farmers considered are those with a maximum of 10 hectares.

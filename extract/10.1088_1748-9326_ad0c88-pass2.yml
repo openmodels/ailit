@@ -1,0 +1,68 @@
+Category:
+  4: Extracted Information
+Drivers of Risk:
+  1: Human-induced increases in sea surface temperature (SST) in the North Pacific,
+    specifically measured by Fraction of Attributable Risk (FAR) values.
+  4: Ocean warming/Sea Surface Temperature (SST)
+  6: Increasing sea surface temperatures (SST) due to anthropogenic influence.
+  13: Sea Surface Temperature (SST) and FAR (unspecified).
+Highlights:
+  1: Temperatures in the North Pacific have reached levels that were likely impossible
+    in the preindustrial climate. Increasing human influence on regional temperatures
+    (increasing FAR values) is linked to negative effects on sockeye fishery catches.
+  4: North Pacific SST has effectively become fixed in an anthropogenic state.
+  6: Declines in sockeye harvests can be statistically related to the increasing evidence
+    for human influence on Gulf of Alaska climate.
+  13: "Observed and projected SST changes for various regions of the North Pacific\
+    \ using CMIP6 models are presented. Model weights are used to combine model runs.\
+    \ The relationship between a shape parameter (\u03C3D) and the proportion of 'true'\
+    \ values falling between 10th and 90th quantiles of weighted prediction for North\
+    \ Pacific warming rate is assessed."
+Methodology:
+  1: "Climate attribution techniques are applied to sea surface temperature time series\
+    \ from five regional North Pacific ecosystems to track the growth in human influence\
+    \ on ocean temperatures over the past seven decades (1950\u20132022). Bayesian\
+    \ estimates of Fraction of Attributable Risk (FAR) and Risk Ratio (RR) derived\
+    \ from 23 global climate models are used."
+  4: Bayesian regression models are used to relate catch to SST and FAR values to
+    SST. A categorical model compares fishery harvest for salmon entering the ocean
+    under different levels of anthropogenic impacts. CMIP6 multi-model probability
+    of extreme events was estimated with a weighted Bayesian regression using annual
+    probability as the response variable and North Pacific warming level as a categorical
+    explanatory variable. Analysis limited to catch years 1989-2022.
+  6: Regression of sockeye salmon catches on SST and Fraction of Attributable Risk
+    (FAR) values.
+  13: Continuous regressions of catch on SST and FAR, including year as a covariate
+    to account for serial dependence. Categorical model of the response of catch to
+    high FAR values. Bayesian statistical methods with weakly informative priors (Student-t
+    distribution and normal distribution) were used for all model parameters.
+More Notes:
+  1: Attribution time series may be helpful indicators for better defining the human
+    role in observed climate change impacts, and may thus help researchers, managers,
+    and stakeholders to better understand and plan for the effects of climate change.
+  4: The paper uses the Gulf of Alaska sockeye salmon fishery as a case study to show
+    how attribution time series can contextualize the human role in observed climate
+    change impacts on ecosystem services.
+  6: "FAR values for catch years 1989\u20132016 varied between 0.33 and 0.91, while\
+    \ for 2017\u20132022, FAR = 0.98\u20130.99, indicating stronger anthropogenic\
+    \ influence."
+  13: The paper uses a 'perfect model setup' to select shape parameters for weighting
+    CMIP6 models. Autocorrelation parameter included in catch models.
+Outcome(s) of Interest:
+  1: Impacts of human-induced ocean warming on ecosystem services, specifically sockeye
+    salmon fishery catches.
+  4: Gulf of Alaska commercial sockeye salmon fishery ex-vessel value (average of
+    $64.4M USD during the last decade)
+  6: Decline in sockeye salmon catches.
+  13: Catch rates of Gulf of Alaska fish stocks.
+Quantitative material:
+  1: Sockeye salmon catches in years with FAR >= 0.98 are 1.4 standard deviations
+    below the long-term log mean.
+  4: "FAR (Fraction of Attributable Risk) values > 0.98 for at least part of the 2014\u2013\
+    2019 marine heatwave period in all regional ecosystems; North Pacific SST has\
+    \ FAR >= 0.99 for three-year running mean SST since 2003, and for annual SST since\
+    \ 2013"
+  6: Regression of sockeye salmon catches on SST confirmed the documented negative
+    response of the fishery to recent warming.
+  13: "Adult return data (48 years, return years 1967\u20132014) for 15 Gulf of Alaska\
+    \ stocks. SST projections from 23 CMIP6 models."

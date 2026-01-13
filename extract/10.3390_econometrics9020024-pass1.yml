@@ -1,0 +1,73 @@
+Drivers of Risk:
+  1: Positive effects from increased CO2 concentrations may enhance photosynthesis;
+    Negative effects from high local temperatures potentially exacerbated by global
+    warming.
+  5: Global temperature anomalies, global CO2 concentration, drought, fertilizer use
+    (phosphorus (P2O5), potassium (K2O), nitrogen (N))
+  10: Global temperature anomalies, atmospheric CO2 concentrations, technological
+    innovations in crop practices (no-till adoption, new seeds), commodity prices
+    (soybean), input prices (fertilizer)
+  12: Climate change, high temperatures during the plant growing season, changes in
+    atmospheric CO2 concentrations.
+  13: Climate change, global warming
+Highlights:
+  5: Global temperatures are shown to have long-run negative effects on crops, such
+    as the development of plagues and pests, which are difficult to measure. Carbon
+    fertilization may have positive effects on plant growth, but only if nutrient
+    levels, soil moisture, and water availability are met.
+  10: Climate variables (temperature, CO2), technological factors (no-till, new seeds)
+    and economic factors (prices) are all important for understanding crop yield behaviour
+    in the long run.
+  12: Soybean yields in the long run are mainly dominated by technology innovation
+    variables. Short-run determinants include positive effects from changes in atmospheric
+    CO2 concentrations and negative climate effects from high temperatures.
+Methodology:
+  1: Multivariate time-series analysis with dynamic specification and encompassing
+    tests to study soybean yields in Argentina considering climatic, technological,
+    and economic factors.
+  5: Econometric analysis; considering global temperature anomalies relative to the
+    1951-1980 base period.
+  6: A cointegration approach is used to study the effects of crop-yield drivers,
+    working with partial systems to deal with dimensionality, collinearities, and
+    endogeneity issues. This approach is applied to climate, technological, and economic
+    systems to model soybean yields. A multivariate cointegration approach is used
+    to model the long-run behavior of soybean yields.
+  10: Cointegration analysis, Ordinary Least Squares (OLS) estimation, instrumental
+    variable (IV) estimation, Autometrics model selection
+  12: Econometric approach to evaluate the effect of climate change on crop yields,
+    considering climatic, technological, and economic factors. Uses a partial system
+    approach and an automatic algorithm (Autometrics) to analyze the long-run behavior
+    of soybean yields.
+  13: Econometric analysis of long-run technological drivers of soybean yields, considering
+    adaptation to climate factors. Uses OxMetrics 8 for automatic selection and system
+    estimations. Addresses trend removal and collinearity. Considers cointegration
+    rank using CATS in OxDoornik and Juselius. Employs a general to specific strategy
+    for variable selection.
+More Notes:
+  5: The study focuses on Argentina and soybean yields, potentially limiting its direct
+    applicability to broader macroeconomic and fiscal analysis at a national level
+    without further generalization or similar analysis performed on other nations
+    or economic sectors.
+  6: The focus of this research seems to be on modeling soybean yields using climate,
+    technological and economic factors. While not directly a macroeconomic or macro-fiscal
+    analysis, it considers elements that are important for a national economy.
+  10: Deforestation, driven by agricultural expansion incentivized by increasing yields,
+    can affect atmospheric CO2 concentrations and global warming, potentially offsetting
+    anthropogenic emissions. The paper emphasizes the importance of evaluating the
+    exogeneity of variables within the economic-climatic system due to the feedback
+    loops between human activity and climate change.
+  12: "The paper focuses on the effects of climate change on crop yields in Argentina,\
+    \ the world\u2019s third-largest producer and exporter of soybeans."
+  13: Suggests further research on whether technological drivers of soybean yields
+    are a result of economic factors or adaptation to climate change.
+Outcome(s) of Interest:
+  5: Soybean yields
+  10: Soybean yields (proxy for agricultural productivity)
+  12: Crop yields, specifically soybean yields.
+  13: Soybean yields
+Quantitative material:
+  10: "A 0.06\xB0C increase in temperature is estimated to decrease soybean yields\
+    \ by almost 10% in the long run. A 0.47% increase in CO2 concentrations is estimated\
+    \ to increase soybean yields by about 4% during 1971\u20132015."
+  12: "Ten additional days of maximum temperature above 30\u25E6C during the growing\
+    \ season produce a decrease of around 10% in soybean yields."

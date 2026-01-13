@@ -1,0 +1,341 @@
+Drivers of Risk:
+  1: Monsoon rainfall shocks (droughts and excessive rainfall)
+  2: Variation in monsoon rainfall shocks (both positive and negative).
+  3: Monsoon rainfall shocks, particularly regional droughts.
+  5: Summer monsoon rainfall shocks at the district level
+  7: Monsoon rainfall shocks are a driver of changes in wages and prices in India.
+  8: Variations in monsoon rainfall (standardized)
+  9: Overall monsoon rainfall variation
+  10: Overall monsoon rainfall variation, spatial distribution of rainfall shocks
+    (regional vs. local), timing of rainfall shocks within the monsoon season
+  11: Monsoon rainfall shocks (monthly standardized rainfall, both overall and separated
+    into positive and negative shocks)
+  12: Negative rainfall shocks (droughts) exceeding 1.5 standard deviations below
+    the norm are the primary driver of risk.
+  13: Negative monsoon rainfall shocks.
+  14: Local and regional rainfall shocks (Rainr,n,t), overall monsoon rainfall being
+    below the district mean (Rainn,t < 0), local irrigation share (Irrig_n,t), and
+    average temperature in each district during the monsoon season (Temp_n,t).
+  15: Monsoon rainfall shocks (negative and positive, local and regional).
+  17: Negative rainfall shock (decrease in overall standardized kharif rainfall)
+  18: Negative regional rainfall shock (one-unit decrease in overall standardized
+    rainfall when overall standardized rainfall is below its mean, affecting the district
+    and surrounding area with a 200km radius).
+  19: Negative local/regional monsoon rainfall shocks
+  20: Local and regional rainfall shocks (both positive and negative).
+  21: Monsoon rainfall shocks
+  22: A positive regional rainfall shock impacts kharif (summer) and rabi (winter)
+    crop yields and prices.
+  24: Negative regional rainfall shocks.
+  26: Negative local/regional rainfall shocks.
+  27: Monsoon rainfall shocks
+  28: Negative rainfall shocks (local and regional); Poor state of transportation
+    infrastructure; Trade barriers between Indian states; Congested highways with
+    poor surface quality
+  30: Local and regional rainfall shocks (one standard deviation decrease when overall
+    standardized rainfall is below its mean).
+  31: Negative regional rainfall shocks.
+  32: Negative regional rainfall shocks (drought)
+  33: Monsoon rainfall shocks (both positive and negative/droughts).
+Highlights:
+  1: Monsoon rainfall shocks have asymmetric effects on agricultural yield in India
+    (droughts have a larger negative impact than excessive rainfall has a positive
+    impact); drought-induced yield losses lead to persistent wage declines and food
+    price increases lasting up to five years.
+  2: The paper revisits the impact of monsoon rainfall shocks using a dynamic framework
+    to capture the potentially long-lasting effects arising from sluggish price and
+    wage responses, distinguishing between positive and negative monsoon rainfall
+    shocks to account for their asymmetric effects, and controlling for the spatial
+    dimension of rainfall shocks to study the potentially moderating effects of arbitrage
+    trading and migration.
+  7: Monsoon rainfall in the kharif season is a crucial determinant of agricultural
+    yield in India.
+  8: Negative deviations in standardized rainfall reduce agricultural yield substantially,
+    while rainfall above the district-mean reduces agricultural yield only slightly;
+    This non-linear effect is captured by LOWESS and linear regression with a breakpoint.
+  9: Agricultural yield increases at higher levels of irrigation and the non-linear
+    relationship between rainfall and agricultural yield is very strong at low levels
+    of irrigation, but becomes weaker at higher levels.
+  10: The relationship between rainfall variability and agricultural yield is subtle
+    across different irrigation levels. Regional rainfall shocks tend to arrive in
+    months most crucial for crop yield.
+  11: Annual agricultural yield responds more sensitively to overall rainfall variations
+    in June, September, and October than to mid-season variations (July and August).
+    Negative rainfall shocks have a significant negative impact on annual agricultural
+    yield in all months considered (June-October).
+  12: Severe negative rainfall shocks lead to a sharp decline in rice yield. Rice
+    yield recovers to pre-shock levels in the year after the shock. Nominal agricultural
+    wages do not appear to be initially affected.
+  13: Negative monsoon rainfall shocks lead to stagnant wage growth and increased
+    rice prices, with lasting impacts on income and food prices.
+  15: Examines the responses of agricultural yield, wages, and food prices to different
+    types of monsoon rainfall variation at different levels of irrigation. Evaluates
+    the impact of state-level agricultural policy and the role of barriers to trade
+    and migration. Discusses welfare implications among different demographic groups
+    in rural India.
+  17: The paper examines the dynamic effects of monsoon rainfall shocks on wages and
+    prices in India, distinguishing between local and regional rainfall shocks and
+    considering different levels of irrigation.
+  18: Negative regional rainfall shocks have a substantially larger impact on agricultural
+    yield (particularly at low levels of irrigation) compared to local rainfall shocks.
+    This stronger impact on agricultural yield translates into a roughly proportionally
+    stronger response in agricultural wages.
+  19: Negative rainfall shocks significantly decrease agricultural yield, with the
+    effect diminishing at higher levels of irrigation. The impact on wages declines
+    with higher levels of local irrigation and is no longer significant at the 75th
+    percentile.
+  20: Intra-regional arbitrage trading appears efficient at reducing the exposure
+    to food price fluctuations due to local circumstances. Supra-regional agricultural
+    trade networks in India are still incomplete. Positive local rainfall shocks have
+    no significant effects, indicating asymmetry. Positive regional rainfall shocks
+    initially decline agricultural yield.
+  21: Illustrates impulse responses to local and regional rainfall shocks on wages
+    and prices in India.
+  22: Rabi crop yields increase due to additional water supply from above-average
+    monsoon rainfall in the kharif season, which leads to a decrease in harvest prices
+    of kharif crops in the following year.
+  24: State-year fixed effects help to isolate the impact of state-level policy interventions
+    (e.g., relief programmes) from the impact of rainfall shocks; relief programmes
+    may not be focused on the most affected districts with low levels of irrigation.
+  27: Positive local/regional rainfall shocks impact wages and prices in India. The
+    effects vary based on different levels of irrigation.
+  28: Intra-regional food trade (within the district and 200 km buffer) can completely
+    dampen the rise in local food prices in response to purely local negative rainfall
+    shocks; Distance is a key determinant of trade in food products in India.
+  30: Negative rainfall shocks lead to welfare losses (decreased purchasing power)
+    for both agricultural laborers and cultivators. The magnitude of the loss varies
+    with the severity and scope of the shock, the level of irrigation, and the time
+    horizon. Cultivators experience larger percentage losses in the immediate aftermath
+    of a regional rainfall shock, but the impact on agricultural laborers is concerning
+    given their typically lower income levels.
+  31: Agricultural laborers and cultivators reduce their consumption expenditures
+    on staple foods to a similar extent on impact from a negative rainfall shock.
+  32: Both agricultural laborers and cultivators are negatively affected by drought,
+    but the impact's time profile differs; cultivators can smooth staple food consumption
+    better than agricultural laborers; agricultural laborers' staple food consumption
+    remains below normal for several years after a shock
+  33: Monsoon rainfall shocks have asymmetric effects on agricultural yield; negative
+    rainfall shocks have a larger impact than positive; short-lived yield loss after
+    a regional drought elicits a persistent decline in wages and a persistent increase
+    in food prices; regional droughts have important distributional consequences,
+    harming agricultural laborers due to wage decline and food price increases.
+  36: No relevant information
+Methodology:
+  1: Empirical analysis using National Sample Survey data; considers asymmetry in
+    rainfall effects; examines determinants of internal migration and food arbitrage
+    trading.
+  2: "Panel vector autoregression (VAR) based on data from 310 Indian districts over\
+    \ the period 1967\u20132005 to capture the persistent effects of monsoon rainfall\
+    \ shocks."
+  5: The authors standardize summer monsoon rainfall at the district level using gridded
+    monthly rainfall data from Willmott and Matsuura (2012). They use this standardized
+    rainfall measure to identify the effects of exogenous rainfall variations on male
+    wages in agriculture and the share of irrigated cultivated land. The analysis
+    covers the period 1967-2005.
+  7: Rainfall shocks are decomposed into orthogonal series of regional and local shocks,
+    contributing 64% and 36% to overall standardized rainfall variance respectively.
+  8: Uses a binned scatterplot and LOWESS regression to illustrate the effects of
+    variations in monsoon rainfall on agricultural yield; also uses a linear regression
+    with a break point at mean district-level rainfall.
+  9: LOWESS and linear spline fitted values are added to the scatterplot to outline
+    the effect of monsoon rainfall on agricultural yield; analysis controls for interaction
+    effects between rainfall and irrigation.
+  10: Uses scatterplots with bins, LOWESS smoothing, and linear spline fitting to
+    analyze the impact of rainfall variation on agricultural yield at different irrigation
+    levels; decomposes rainfall shocks spatially.
+  11: Univariate regressions with district-level clustered standard errors. Separate
+    regressions analyze the impact of overall rainfall, and negative/positive rainfall
+    shocks separately. De-meaning at the district level.
+  12: Quasi-event study using averaged raw data across districts before, during, and
+    after a severe negative rainfall shock. Effects are studied within a window of
+    +/- three years around the shock. The analysis focuses on rainfall shocks exceeding
+    1.5 standard deviations and requires no other shocks greater than one standard
+    deviation within the defined window.
+  13: Panel VAR estimation using data from 310 Indian districts; Helmert transformation
+    to control for unobserved heterogeneity at the district level; demeaning variables
+    by state-year fixed effects.
+  14: Panel VAR (Vector Autoregression) with a third-order lag (I=3), using the Andrews
+    and Lu (2001) lag-length selection criterion.
+  15: Panel Vector Autoregression (VAR) model using district-level data in India.
+    Includes district and state-year fixed effects.
+  17: Impulse responses are calculated based on local/regional rainfall shocks when
+    overall standardized kharif rainfall is below its mean. Standard errors are clustered
+    at the district level over a horizon of five years. Results are based on 2,952
+    observations at the selected lag-length.
+  18: Analysis of the responses of agricultural yield, wages, and food prices to a
+    one-unit decrease in overall standardized rainfall caused by a regional rainfall
+    shock when overall standardized rainfall is below its mean.
+  19: Regression analysis using different subsamples based on district size and level
+    of irrigation. District-level clustered standard errors are reported in parentheses.
+    Significance levels are indicated.
+  21: Impulse response analysis, standard errors clustered at the district level over
+    a horizon of five years
+  22: The analysis utilizes impulse responses within a VAR framework, with adjustments
+    to the confidence intervals at the 66% level due to observations' limitations.
+  24: PVAR (Panel Vector Autoregression) with national-year fixed effects is used
+    to analyze the impact of negative regional rainfall shocks.
+  26: Regional shock analysis based on administrative divisions using NSS regions
+    instead of a 200 km distance-based measure.
+  27: "The analysis examines the impact of positive local/regional rainfall shocks\
+    \ on wages and prices using data from administrative divisions in India. Regional\
+    \ shock is based on NSS regions (as defined in the 44th round, 1988). Con\uFB01\
+    dence intervals are based on standard errors clustered at the district level over\
+    \ a horizon of \uFB01ve years."
+  28: Analysis focuses on the group of agricultural laborers and cultivators to assess
+    welfare effects.
+  30: Partial equilibrium effects of rainfall shocks on purchasing power are shown.
+    The analysis considers overall standardized rainfall below its mean. It assesses
+    the impact on agricultural laborers and cultivators separately. The applicability
+    is in settings that resemble the specific Indian agricultural context examined
+    by the paper, as implied by the text.
+  31: Estimation of endogenous response in consumption expenditures using individual-level
+    consumption data from the NSS (National Sample Survey Organisation) combined with
+    NSS region rainfall shocks, covering the time period 1989-2006.
+  32: Regression analysis using NSS region level data matched to agricultural years,
+    including NSS region and year fixed effects; Robust standard errors used for confidence
+    intervals
+  33: Dynamic approach to capture lasting effects arising from sluggish price and
+    wage responses in agricultural markets; distinguishes between positive and negative
+    rainfall shocks and explicitly considers their spatial dimension (local/regional).
+More Notes:
+  1: Affiliation to the same National Sample Survey region is a key determinant of
+    internal migration; distance appears more relevant for food arbitrage trading.
+  8: The non-linear relationship between rainfall and agricultural yield is attributed
+    to the relationship between water supply and plant growth, where additional water
+    beyond the maximum water demand of a certain plant has zero effect.
+  9: The paper shows that the relationship between rainfall and agricultural yield
+    is non-linear and is affected by irrigation levels.
+  10: The study examines how regional and local rainfall shocks affect food prices
+    and wages, allowing inference on the extent to which adverse effects can be mitigated
+    by arbitrage trading and migration. The study references the importance of late
+    Kharif season rainfall on crop yield.
+  11: Coefficients for 'negative rainfall' can be interpreted as the effect of a one-unit
+    decrease in overall standardized rainfall. The relative contribution of regional
+    rainfall to overall standardized rainfall variability is a linear transformation
+    of the coefficient of determination.
+  13: The effects of monsoon shocks on agricultural wages are close to permanent.
+  15: The stability condition of the panel VAR is satisfied (eigenvalues lie inside
+    the unit circle). Sensitivity analysis is performed by excluding controls for
+    irrigation share and/or the spatial dimension of rainfall variation.
+  17: The analysis focuses on kharif rainfall.
+  19: The arbitrage mechanism through (both intra- and supra-regional) migration is
+    relatively weak.
+  20: The study focuses on the effects of rainfall shocks on agricultural yield, wages,
+    and food prices. Elasticities to negative rainfall shocks are two to three times
+    larger than symmetric estimates in other studies.
+  21: The analysis is based on standardized Kharif rainfall when it is above its mean,
+    and the effects are presented for different levels of irrigation.
+  27: The study focuses on the impact of positive rainfall shocks.
+  28: The analysis considers the impact of cross-subsidization between freight and
+    passenger services pushing up freight costs; one-third of Indian villages are
+    not connected by all-season roads.
+  30: The analysis assumes a 73% income share spent on food. The paper acknowledges
+    potential limitations related to income shares spent on staple food and substitution
+    towards expensive varieties.
+  31: The partial equilibrium exercise likely underestimates (overestimates) the adverse
+    impact on the purchasing power of agricultural labourers (cultivators). The study
+    focuses on cultivators who own or control less than 3 ha of land.
+  32: The study suggests a large fraction of agricultural laborers are credit-constrained
+    'hand-to-mouth' consumers, unable to insure against income fluctuations.
+  33: Irrigation dampens the fall in agricultural wages after a regional drought,
+    but not the rise in food prices; Government support to affected individuals should
+    be spread over several years due to lasting effects on real incomes.
+No relevant information:
+  37: No relevant information
+  39: No relevant information
+Outcome(s) of Interest:
+  1: Wages, food prices, agricultural yield
+  2: Agricultural yield, wages, and food prices.
+  3: Wages fall by up to 7 percent after a regional drought, peaking two years after
+    and lasting up to five years.
+  5: Male wages in agriculture (in Rupees per day, averaged over the agricultural
+    year)
+  8: Agricultural yield
+  9: "Agricultural yield (tons/km\xB2)"
+  10: Agricultural yield
+  11: Annual agricultural yield
+  12: Agricultural yield (rice), wages, and food prices in rural India are outcomes
+    of interest.
+  13: Agricultural wages, rice prices.
+  14: "Log agricultural yield (Yield_n,t), log nominal agricultural wages (Wage_n,t),\
+    \ log food prices (Food_n,t), and the change in the irrigation share (\u0394 Irrig_n,t)."
+  15: Wages and food prices in India, agricultural yield.
+  17: Wages and prices in India are affected by monsoon rainfall shocks.
+  18: Agricultural yield, wages, and food prices.
+  19: Agricultural yield
+  21: Wages and prices in India
+  24: Agricultural yield, food prices.
+  27: Wages and prices in India
+  28: Local food prices are impacted by rainfall shocks; Agricultural sector is adversely
+    affected by negative regional monsoon rainfall shocks; Welfare effects for agricultural
+    laborers and cultivators are assessed.
+  30: Welfare change (purchasing power) of agricultural laborers and cultivators.
+  31: Purchasing power of agricultural laborers and cultivators; nominal expenditures
+    on staple foods vs. luxury goods.
+  32: Consumption patterns (staple foods and luxury goods expenditures)
+  33: Wages, food prices, agricultural yield, real incomes (specifically agricultural
+    laborer income), potential for famines/hunger.
+Quantitative material:
+  1: Persistent decline (increase) in wages (food prices) which lasts for up to five
+    years after a widespread drought.
+  7: Table 1 provides descriptive statistics on monsoon rainfall and agricultural
+    variables, with monsoon rainfall mean of 98.08 cm and standard deviation of 56.66.
+  8: Positive/negative variations of more than one standard deviation occur in about
+    16 percent of years; deviations of more than two standard deviations is roughly
+    2.3 percent (referring to rainfall deviations).
+  9: "Scatterplot depicting variations in overall monsoon rainfall and log agricultural\
+    \ yield; x-axis restricted to range from -2.5 to 2.5 (monsoon rainfall in district\
+    \ sd) and y-axis ranging from 4.2 to 5.0 (Log Agricultural yield (tons/km\xB2\
+    ))."
+  10: Scatterplots showing the relationship between monsoon rainfall (in standard
+    deviation units) and log agricultural yield at different irrigation percentiles;
+    mentions coefficients of determination in Table 2 Panel A relating regional rainfall
+    shocks to variance.
+  11: 'Panel A: Coefficients and R-squared values from regressions of monthly standardized
+    rainfall on monthly regional rainfall for June-October. Panel B: Coefficients
+    and R-squared values from regressions of annual agricultural yield on monthly
+    standardized rainfall for June-October. Panel C: Coefficients and R-squared values
+    from regressions of annual agricultural yield on monthly standardized rainfall
+    (separated into negative and positive shocks) for June-October.'
+  12: Rice yield declines sharply after a severe negative rainfall shock.
+  13: Wage growth is stagnant in the year after the negative shock; rice price increases
+    in the year of the shock and remains above its pre-shock trend for more than two
+    years; agricultural wages do not return back to their pre-shock trend in the four
+    years following the shock.
+  15: Impulse response functions are used to analyze the effects of rainfall shocks.
+  17: Presents impulse responses to a one-unit decrease in overall standardized kharif
+    rainfall with 90 percent confidence interval.
+  18: Maximum impact on wages is about 50 percent stronger compared to local rainfall
+    shocks, even though the effects dissipate somewhat faster (about three years after
+    the shock).
+  19: A negative local rainfall shock at low irrigation leads to a -0.148 agricultural
+    yield, while a regional shock leads to a -0.317 yield.
+  20: The responses of agricultural yield, wages, and food prices to a one-unit increase
+    in overall standardized rainfall are presented in Figure 8.
+  21: Impulse responses to a one-unit increase in overall standardized kharif rainfall;
+    effects are presented for different levels of irrigation; 2,952 observations at
+    the selected lag-length
+  22: The impact of a positive regional rainfall shock is quantified, with a delayed
+    decline in kharif food prices by -3.5% at the 25th percentile and -2.2% at the
+    75th percentile of irrigation in the year following the shock.
+  24: "The gray area represents the 90 percent con\uFB01dence interval based on standard\
+    \ errors clustered at the district level over a horizon of \uFB01ve years. The\
+    \ results are based on 2,952 observations at the selected lag-length."
+  26: 2,952 observations are used at the selected lag-length, with results showing
+    different levels of irrigation and a 90 percent confidence interval.
+  27: Effects are presented for different levels of irrigation. The results are based
+    on 2,952 observations at the selected lag-length.
+  30: Welfare changes in percentages for agricultural laborers and cultivators, differentiated
+    by level of irrigation (25th, 50th, and 75th percentile) and time horizon (year
+    0 and years 1-5), in response to local and regional rainfall shocks.
+  31: Percentage change in nominal expenditures on basic staple foods versus luxury
+    goods among agricultural laborers and cultivators following a negative regional
+    rainfall shock.
+  32: Effect of a one-unit decrease in standardized kharif rainfall on individual
+    consumption patterns, disaggregated for all rural individuals, agricultural laborers,
+    and cultivators; time period 1989-2006; sample sizes provided
+  33: Yield falls by up to 30 percent (15 percent) after a regional (local) drought;
+    Wages fall by up to 7 percent; Food prices immediately rise by up to 5 percent
+    and remain elevated for up to two years; Estimated yield loss after negative monsoon
+    rainfall shocks turns out to be two to three times higher than estimates based
+    on conventional symmetric approaches.

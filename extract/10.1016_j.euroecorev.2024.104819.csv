@@ -1,0 +1,657 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,GDP,"India, Brazil, SAP",High-damage,2100,No CC,NA,0,NA,NA,NA,NA,NA,Abstract,"Qualitative; long-term catastrophic damages, dramatically reduce implies large negative value, so reported as 0 since absolute number not given"
+1,Welfare,All regions,Carbon Tax,2100,No CC,%,4.3,NA,NA,NA,NA,NA,Abstract,Uniform welfare improvement
+2,Welfare,All regions,Carbon Tax,2100,No CC,%,4.0,NA,NA,NA,NA,NA,Abstract,Limited compensatory payment policy
+3,GDP,Global,High-damage Calibration,2100,No CC,percent smaller,-9,NA,NA,NA,NA,NA,Introduction,UWI carbon tax limits global damages in 2100 by 38% compared to a 14% drop without policy.
+4,GDP,India,High-damage Calibration,2100,No CC,percent decline,-26.2,NA,NA,NA,NA,NA,Introduction,Optimal UWI carbon tax limits the decline compared to 38.5% without policy.
+5,GDP,US,High-damage Calibration,2100,No CC,percent reduction,-8.0,NA,NA,NA,NA,NA,Introduction,UWI policy reduces GDP reduction compared to 13.9% without policy.
+6,GDP,China,High-damage Calibration,2100,No CC,percent reduction,-7.8,NA,NA,NA,NA,NA,Introduction,UWI policy reduces GDP reduction compared to 13.7% without policy.
+7,GDP,Canada,No CC,2100,No CC,percent,-0.6,NA,NA,NA,NA,NA,Introduction,UWI policy reduces GDP reduction. Canada benefits from climate change (+2.5% GDP in 2100) absent policy.
+8,Carbon Tax,Global,High-damage Calibration,2024,NA,USD,87.5,NA,NA,NA,NA,NA,Introduction,Rising annually at 1.4 percent. Assuming year of publication as the initial year.
+9,GDP,Canada,High-damage baseline,2100,No CC,percent,2.5,NA,NA,NA,NA,NA,Page 3,Canada sees a moderate GDP increase despite climate change.
+10,GDP,Russia,High-damage baseline,2100,No CC,percent,3.6,NA,NA,NA,NA,NA,Page 3,Russia experiences a GDP increase due to climate change.
+11,GDP,India,High-damage baseline,2100,No CC,percent,-38.6,NA,NA,NA,NA,NA,Page 3,India faces a severe GDP decline as a result of climate change.
+12,GDP,S. Asian Pacific,High-damage baseline,2100,No CC,percent,-33.4,NA,NA,NA,NA,NA,Page 3,South Asian Pacific sees a major GDP loss due to climate change.
+13,GDP,Sub-Saharan Africa,High-damage baseline,2100,No CC,percent,-33.0,NA,NA,NA,NA,NA,Page 3,Sub-Saharan Africa heavily affected by climate change.
+14,GDP,MENA,High-damage baseline,2100,No CC,percent,-30.9,NA,NA,NA,NA,NA,Page 3,MENA region experiences significant GDP decline.
+15,GDP,Global,High-damage baseline,2100,No CC,percent,-14.7,NA,NA,NA,NA,NA,Page 3,Global GDP reduced significantly without policy interventions.
+16,GDP,Global,BAU,2100,No CC,percent,-16.7,NA,NA,NA,NA,NA,Page 3,Global GDP decline projected under BAU scenario.
+17,GDP,Global,Optimal UWI policy,2100,BAU,percent,-9.3,NA,NA,NA,NA,NA,Page 3,Optimal UWI policy reduces peak global GDP loss.
+18,GDP,Regions,Optimal UWI policy,2100,BAU,percent,0.5,NA,NA,NA,NA,27.8,Page 3,Peak regional damages reduced under UWI policy.
+19,SCC,Global,Optimal UWI policy,2017,BAU,percent,4.3,NA,NA,NA,NA,NA,Page 3,Global carbon taxation can mitigate climate change losses.
+20,Energy costs,"Russia, Asia, Europe",UWI,2200,BAU,N/A,0,NA,NA,NA,NA,NA,"Page 4, Paragraph 1",Energy cost increases due to heavy fossil fuel use in production.
+21,Net transfers,India,UWI,2200,BAU,% lifetime cons,-40,NA,NA,NA,NA,NA,"Page 4, Paragraph 2","Largest net negative transfers, i.e., positive net taxes for generations born after 2200."
+22,Net taxes,"MENA, LatAm, Africa",UWI,2200,BAU,% lifetime cons,30,NA,NA,NA,NA,NA,"Page 4, Paragraph 2",Net taxes equal to roughly 30 percent of their lifetime consumption.
+23,Net tax,"US, Japan, China, ANZ",UWI,2200,BAU,% lifetime cons,15,NA,NA,NA,NA,NA,"Page 4, Paragraph 2",Net tax is equivalent to almost 15 percent of lifetime consumption.
+24,Welfare gain,N/A,UWIF,2200,BAU,Percent,7.7,NA,NA,NA,NA,NA,"Page 4, Paragraph 3",The 7.7 percent UWIF gain is significantly higher than the 4.3 UWI gain.
+25,Welfare gain,N/A,UWI,2200,BAU,Percent,4.3,NA,NA,NA,NA,NA,"Page 4, Paragraph 3",The 7.7 percent UWIF gain is significantly higher than the 4.3 UWI gain.
+26,Net tax,India,UWIF,2200,BAU,Percent,38.2,NA,NA,NA,NA,NA,"Page 4, Paragraph 3",Net tax peaks at 38.2 percent with the UWIF policy rather than 39.9 percent with the UWI policy.
+27,Net tax,India,UWI,2200,BAU,Percent,39.9,NA,NA,NA,NA,NA,"Page 4, Paragraph 3",Net tax peaks at 38.2 percent with the UWIF policy rather than 39.9 percent with the UWI policy.
+28,Welfare gain,Excl tax-limited,UWIL,2200,BAU,Percent,4.0,NA,NA,NA,NA,NA,"Page 4, Paragraph 4",All generations in all regions whose tax is not limited experience a 4.0 percent welfare gain.
+29,Welfare gain,India,UWIL,2285,BAU,Percent,35.6,NA,NA,NA,NA,NA,"Page 4, Paragraph 4",India’s peak gain is 35.6 percent for the generation born in 2285.
+30,Welfare gain,Excl China,UWI,2100,China part.,Percent,-60,NA,NA,NA,NA,NA,"Page 4, Paragraph 7","UWI carbon policy, their uniform welfare gain would be about 60 percent lower than the value were China also to participate."
+31,Welfare gain,N/A,UWI,2200,No delay,Percent,-35,NA,NA,NA,NA,NA,"Page 4, Paragraph 8",size of the UWI gain is still reduced by 35 percent – to 2.8 percentage points – if the policy’s implementation is delayed for 20 years.
+32,GDP Share,China,N/A,2100,Today,Percent,33,NA,NA,NA,NA,NA,"Page 4, Paragraph 9","China will become the world’s dominant economy by the century’s end, accounting for almost one-third of world GDP compared with roughly 16 percent today."
+33,GDP Share,China,N/A,2024,Today,Percent,16,NA,NA,NA,NA,NA,"Page 4, Paragraph 9","China will become the world’s dominant economy by the century’s end, accounting for almost one-third of world GDP compared with roughly 16 percent today."
+34,GDP Share,US,N/A,2100,Today,Percent,16,NA,NA,NA,NA,NA,"Page 4, Paragraph 9",US global GDP share falls from 25 percent now to 16 percent in 2100.
+35,GDP Share,US,N/A,2024,Today,Percent,25,NA,NA,NA,NA,NA,"Page 4, Paragraph 9",US global GDP share falls from 25 percent now to 16 percent in 2100.
+36,GDP,"US, China",NA,2100,No CC,%,0,NA,NA,NA,NA,NA,Text,"GDP declines are similar in the US and China due to similar initial climates, but this is dominated by labor-productivity catch-up growth. Assigned the year 2100 as this is a standard reference point in climate models."
+37,Temperature,Global,RCP8.5,2100,BAU,W/m^2,8.5,NA,NA,NA,NA,NA,Page 10,Total anthropogenic forcing in BAU narrative.
+38,Temperature,Global,RCP2.6,2050,Aggressive decarbonization,W/m^2,3,NA,NA,NA,NA,NA,Page 10,Radiative forcing peaks around 2050.
+39,Temperature,Global,RCP2.6,2100,Aggressive decarbonization,W/m^2,2.6,NA,NA,NA,NA,NA,Page 10,Radiative forcing at the end of the 21st century.
+40,TFP,Regional,NA,1900,No CC,NA,1,NA,NA,NA,NA,NA,Page 10,"Regional climate damages (Dz,t) are given by 1 - Zz,t/Zz,1900. Zz,1900 normalized to 1."
+41,TFP,Global,NA,2017,NA,NA,0,NA,NA,NA,NA,NA,Section 4,Regional TFP calibrated to 2017 GDP.
+42,Energy Consumption,Global,NA,2017,NA,Btus,0,NA,NA,NA,NA,NA,Section 4,EIA data used to calibrate energy sources.
+43,Share Parameters,Global,NA,2017,NA,NA,0,NA,NA,NA,NA,NA,Section 4,Share parameters use 2017 energy prices.
+44,GDP,ANZ,NA,2017,NA,Trillions of 2017 USD,1.53,NA,NA,NA,NA,NA,Table 2,
+45,Energy Cons.,ANZ,NA,2017,NA,quad Btus,1.77,NA,NA,NA,NA,NA,Table 2,Coal
+46,Energy Cons.,ANZ,NA,2017,NA,quad Btus,1.82,NA,NA,NA,NA,NA,Table 2,Natural Gas
+47,Energy Cons.,ANZ,NA,2017,NA,quad Btus,2.74,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+48,Energy Cons.,ANZ,NA,2017,NA,quad Btus,0.67,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+49,GDP,BRA,NA,2017,NA,Trillions of 2017 USD,2.06,NA,NA,NA,NA,NA,Table 2,
+50,Energy Cons.,BRA,NA,2017,NA,quad Btus,0.67,NA,NA,NA,NA,NA,Table 2,Coal
+51,Energy Cons.,BRA,NA,2017,NA,quad Btus,1.28,NA,NA,NA,NA,NA,Table 2,Natural Gas
+52,Energy Cons.,BRA,NA,2017,NA,quad Btus,6.05,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+53,Energy Cons.,BRA,NA,2017,NA,quad Btus,4.58,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+54,GDP,CND,NA,2017,NA,Trillions of 2017 USD,1.65,NA,NA,NA,NA,NA,Table 2,
+55,Energy Cons.,CND,NA,2017,NA,quad Btus,0.69,NA,NA,NA,NA,NA,Table 2,Coal
+56,Energy Cons.,CND,NA,2017,NA,quad Btus,4.61,NA,NA,NA,NA,NA,Table 2,Natural Gas
+57,Energy Cons.,CND,NA,2017,NA,quad Btus,4.91,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+58,Energy Cons.,CND,NA,2017,NA,quad Btus,4.85,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+59,GDP,CHI,NA,2017,NA,Trillions of 2017 USD,12.14,NA,NA,NA,NA,NA,Table 2,
+60,Energy Cons.,CHI,NA,2017,NA,quad Btus,88.42,NA,NA,NA,NA,NA,Table 2,Coal
+61,Energy Cons.,CHI,NA,2017,NA,quad Btus,8.81,NA,NA,NA,NA,NA,Table 2,Natural Gas
+62,Energy Cons.,CHI,NA,2017,NA,quad Btus,24.91,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+63,Energy Cons.,CHI,NA,2017,NA,quad Btus,17.30,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+64,GDP,EEU,NA,2017,NA,Trillions of 2017 USD,0.26,NA,NA,NA,NA,NA,Table 2,
+65,Energy Cons.,EEU,NA,2017,NA,quad Btus,1.57,NA,NA,NA,NA,NA,Table 2,Coal
+66,Energy Cons.,EEU,NA,2017,NA,quad Btus,1.92,NA,NA,NA,NA,NA,Table 2,Natural Gas
+67,Energy Cons.,EEU,NA,2017,NA,quad Btus,1.06,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+68,Energy Cons.,EEU,NA,2017,NA,quad Btus,1.21,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+69,GDP,GBR,NA,2017,NA,Trillions of 2017 USD,2.67,NA,NA,NA,NA,NA,Table 2,
+70,Energy Cons.,GBR,NA,2017,NA,quad Btus,0.38,NA,NA,NA,NA,NA,Table 2,Coal
+71,Energy Cons.,GBR,NA,2017,NA,quad Btus,2.97,NA,NA,NA,NA,NA,Table 2,Natural Gas
+72,Energy Cons.,GBR,NA,2017,NA,quad Btus,3.26,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+73,Energy Cons.,GBR,NA,2017,NA,quad Btus,1.61,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+74,GDP,IND,NA,2017,NA,Trillions of 2017 USD,2.65,NA,NA,NA,NA,NA,Table 2,
+75,Energy Cons.,IND,NA,2017,NA,quad Btus,16.62,NA,NA,NA,NA,NA,Table 2,Coal
+76,Energy Cons.,IND,NA,2017,NA,quad Btus,2.09,NA,NA,NA,NA,NA,Table 2,Natural Gas
+77,Energy Cons.,IND,NA,2017,NA,quad Btus,8.96,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+78,Energy Cons.,IND,NA,2017,NA,quad Btus,2.81,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+79,GDP,JSHK,NA,2017,NA,Trillions of 2017 USD,7.07,NA,NA,NA,NA,NA,Table 2,
+80,Energy Cons.,JSHK,NA,2017,NA,quad Btus,8.65,NA,NA,NA,NA,NA,Table 2,Coal
+81,Energy Cons.,JSHK,NA,2017,NA,quad Btus,7.27,NA,NA,NA,NA,NA,Table 2,Natural Gas
+82,Energy Cons.,JSHK,NA,2017,NA,quad Btus,17.32,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+83,Energy Cons.,JSHK,NA,2017,NA,quad Btus,3.66,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+84,GDP,MENA,NA,2017,NA,Trillions of 2017 USD,4.22,NA,NA,NA,NA,NA,Table 2,
+85,Energy Cons.,MENA,NA,2017,NA,quad Btus,2.27,NA,NA,NA,NA,NA,Table 2,Coal
+86,Energy Cons.,MENA,NA,2017,NA,quad Btus,26.08,NA,NA,NA,NA,NA,Table 2,Natural Gas
+87,Energy Cons.,MENA,NA,2017,NA,quad Btus,24.45,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+88,Energy Cons.,MENA,NA,2017,NA,quad Btus,1.99,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+89,GDP,MEX,NA,2017,NA,Trillions of 2017 USD,1.16,NA,NA,NA,NA,NA,Table 2,
+90,Energy Cons.,MEX,NA,2017,NA,quad Btus,0.48,NA,NA,NA,NA,NA,Table 2,Coal
+91,Energy Cons.,MEX,NA,2017,NA,quad Btus,2.86,NA,NA,NA,NA,NA,Table 2,Natural Gas
+92,Energy Cons.,MEX,NA,2017,NA,quad Btus,3.97,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+93,Energy Cons.,MEX,NA,2017,NA,quad Btus,0.60,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+94,GDP,RUS,NA,2017,NA,Trillions of 2017 USD,1.58,NA,NA,NA,NA,NA,Table 2,
+95,Energy Cons.,RUS,NA,2017,NA,quad Btus,4.93,NA,NA,NA,NA,NA,Table 2,Coal
+96,Energy Cons.,RUS,NA,2017,NA,quad Btus,16.94,NA,NA,NA,NA,NA,Table 2,Natural Gas
+97,Energy Cons.,RUS,NA,2017,NA,quad Btus,7.29,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+98,Energy Cons.,RUS,NA,2017,NA,quad Btus,3.67,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+99,GDP,SAF,NA,2017,NA,Trillions of 2017 USD,0.35,NA,NA,NA,NA,NA,Table 2,
+100,Energy Cons.,SAF,NA,2017,NA,quad Btus,3.98,NA,NA,NA,NA,NA,Table 2,Coal
+101,Energy Cons.,SAF,NA,2017,NA,quad Btus,0.19,NA,NA,NA,NA,NA,Table 2,Natural Gas
+102,Energy Cons.,SAF,NA,2017,NA,quad Btus,1.27,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+103,Energy Cons.,SAF,NA,2017,NA,quad Btus,0.24,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+104,GDP,SAP,NA,2017,NA,Trillions of 2017 USD,2.50,NA,NA,NA,NA,NA,Table 2,
+105,Energy Cons.,SAP,NA,2017,NA,quad Btus,4.23,NA,NA,NA,NA,NA,Table 2,Coal
+106,Energy Cons.,SAP,NA,2017,NA,quad Btus,5.92,NA,NA,NA,NA,NA,Table 2,Natural Gas
+107,Energy Cons.,SAP,NA,2017,NA,quad Btus,8.92,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+108,Energy Cons.,SAP,NA,2017,NA,quad Btus,1.27,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+109,GDP,SLA,NA,2017,NA,Trillions of 2017 USD,2.09,NA,NA,NA,NA,NA,Table 2,
+110,Energy Cons.,SLA,NA,2017,NA,quad Btus,0.63,NA,NA,NA,NA,NA,Table 2,Coal
+111,Energy Cons.,SLA,NA,2017,NA,quad Btus,4.55,NA,NA,NA,NA,NA,Table 2,Natural Gas
+112,Energy Cons.,SLA,NA,2017,NA,quad Btus,6.96,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+113,Energy Cons.,SLA,NA,2017,NA,quad Btus,3.29,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+114,GDP,SOV,NA,2017,NA,Trillions of 2017 USD,0.36,NA,NA,NA,NA,NA,Table 2,
+115,Energy Cons.,SOV,NA,2017,NA,quad Btus,2.67,NA,NA,NA,NA,NA,Table 2,Coal
+116,Energy Cons.,SOV,NA,2017,NA,quad Btus,4.13,NA,NA,NA,NA,NA,Table 2,Natural Gas
+117,Energy Cons.,SOV,NA,2017,NA,quad Btus,1.47,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+118,Energy Cons.,SOV,NA,2017,NA,quad Btus,0.59,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+119,GDP,SSA,NA,2017,NA,Trillions of 2017 USD,1.00,NA,NA,NA,NA,NA,Table 2,
+120,Energy Cons.,SSA,NA,2017,NA,quad Btus,0.17,NA,NA,NA,NA,NA,Table 2,Coal
+121,Energy Cons.,SSA,NA,2017,NA,quad Btus,1.13,NA,NA,NA,NA,NA,Table 2,Natural Gas
+122,Energy Cons.,SSA,NA,2017,NA,quad Btus,2.70,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+123,Energy Cons.,SSA,NA,2017,NA,quad Btus,0.83,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+124,GDP,US,NA,2017,NA,Trillions of 2017 USD,19.49,NA,NA,NA,NA,NA,Table 2,
+125,Energy Cons.,US,NA,2017,NA,quad Btus,13.84,NA,NA,NA,NA,NA,Table 2,Coal
+126,Energy Cons.,US,NA,2017,NA,quad Btus,28.06,NA,NA,NA,NA,NA,Table 2,Natural Gas
+127,Energy Cons.,US,NA,2017,NA,quad Btus,37.57,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+128,Energy Cons.,US,NA,2017,NA,quad Btus,18.28,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+129,GDP,WEU,NA,2017,NA,Trillions of 2017 USD,15.94,NA,NA,NA,NA,NA,Table 2,
+130,Energy Cons.,WEU,NA,2017,NA,quad Btus,9.14,NA,NA,NA,NA,NA,Table 2,Coal
+131,Energy Cons.,WEU,NA,2017,NA,quad Btus,14.64,NA,NA,NA,NA,NA,Table 2,Natural Gas
+132,Energy Cons.,WEU,NA,2017,NA,quad Btus,25.48,NA,NA,NA,NA,NA,Table 2,Petroleum/Liquids
+133,Energy Cons.,WEU,NA,2017,NA,quad Btus,17.19,NA,NA,NA,NA,NA,Table 2,Nuclear/Renew/Other
+134,Energy Share,ANZ,NA,2017,NA,%,0.52,NA,NA,NA,NA,NA,Table 3,Coal
+135,Energy Share,ANZ,NA,2017,NA,%,0.68,NA,NA,NA,NA,NA,Table 3,Natural Gas
+136,Energy Share,ANZ,NA,2017,NA,%,1.59,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+137,Energy Share,ANZ,NA,2017,NA,%,0.32,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+138,Total Energy Share,ANZ,NA,2017,NA,%,3.12,NA,NA,NA,NA,NA,Table 3,
+139,Energy Share,BRA,NA,2017,NA,%,0.15,NA,NA,NA,NA,NA,Table 3,Coal
+140,Energy Share,BRA,NA,2017,NA,%,0.36,NA,NA,NA,NA,NA,Table 3,Natural Gas
+141,Energy Share,BRA,NA,2017,NA,%,2.61,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+142,Energy Share,BRA,NA,2017,NA,%,1.85,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+143,Total Energy Share,BRA,NA,2017,NA,%,4.97,NA,NA,NA,NA,NA,Table 3,
+144,Energy Share,CND,NA,2017,NA,%,0.19,NA,NA,NA,NA,NA,Table 3,Coal
+145,Energy Share,CND,NA,2017,NA,%,1.61,NA,NA,NA,NA,NA,Table 3,Natural Gas
+146,Energy Share,CND,NA,2017,NA,%,2.65,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+147,Energy Share,CND,NA,2017,NA,%,2.23,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+148,Total Energy Share,CND,NA,2017,NA,%,6.68,NA,NA,NA,NA,NA,Table 3,
+149,Energy Share,CHI,NA,2017,NA,%,3.28,NA,NA,NA,NA,NA,Table 3,Coal
+150,Energy Share,CHI,NA,2017,NA,%,0.42,NA,NA,NA,NA,NA,Table 3,Natural Gas
+151,Energy Share,CHI,NA,2017,NA,%,1.83,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+152,Energy Share,CHI,NA,2017,NA,%,0.86,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+153,Total Energy Share,CHI,NA,2017,NA,%,6.39,NA,NA,NA,NA,NA,Table 3,
+154,Energy Share,EEU,NA,2017,NA,%,2.76,NA,NA,NA,NA,NA,Table 3,Coal
+155,Energy Share,EEU,NA,2017,NA,%,4.31,NA,NA,NA,NA,NA,Table 3,Natural Gas
+156,Energy Share,EEU,NA,2017,NA,%,3.67,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+157,Energy Share,EEU,NA,2017,NA,%,3.08,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+158,Total Energy Share,EEU,NA,2017,NA,%,13.81,NA,NA,NA,NA,NA,Table 3,
+159,Energy Share,GBR,NA,2017,NA,%,0.06,NA,NA,NA,NA,NA,Table 3,Coal
+160,Energy Share,GBR,NA,2017,NA,%,0.64,NA,NA,NA,NA,NA,Table 3,Natural Gas
+161,Energy Share,GBR,NA,2017,NA,%,1.09,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+162,Energy Share,GBR,NA,2017,NA,%,0.46,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+163,Total Energy Share,GBR,NA,2017,NA,%,2.25,NA,NA,NA,NA,NA,Table 3,
+164,Energy Share,IND,NA,2017,NA,%,2.83,NA,NA,NA,NA,NA,Table 3,Coal
+165,Energy Share,IND,NA,2017,NA,%,0.45,NA,NA,NA,NA,NA,Table 3,Natural Gas
+166,Energy Share,IND,NA,2017,NA,%,3.01,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+167,Energy Share,IND,NA,2017,NA,%,0.71,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+168,Total Energy Share,IND,NA,2017,NA,%,6.99,NA,NA,NA,NA,NA,Table 3,
+169,Energy Share,JSHK,NA,2017,NA,%,0.55,NA,NA,NA,NA,NA,Table 3,Coal
+170,Energy Share,JSHK,NA,2017,NA,%,0.59,NA,NA,NA,NA,NA,Table 3,Natural Gas
+171,Energy Share,JSHK,NA,2017,NA,%,2.18,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+172,Energy Share,JSHK,NA,2017,NA,%,0.39,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+173,Total Energy Share,JSHK,NA,2017,NA,%,3.72,NA,NA,NA,NA,NA,Table 3,
+174,Energy Share,MENA,NA,2017,NA,%,0.24,NA,NA,NA,NA,NA,Table 3,Coal
+175,Energy Share,MENA,NA,2017,NA,%,3.55,NA,NA,NA,NA,NA,Table 3,Natural Gas
+176,Energy Share,MENA,NA,2017,NA,%,5.16,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+177,Energy Share,MENA,NA,2017,NA,%,0.35,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+178,Total Energy Share,MENA,NA,2017,NA,%,9.31,NA,NA,NA,NA,NA,Table 3,
+179,Energy Share,MEX,NA,2017,NA,%,0.19,NA,NA,NA,NA,NA,Table 3,Coal
+180,Energy Share,MEX,NA,2017,NA,%,1.42,NA,NA,NA,NA,NA,Table 3,Natural Gas
+181,Energy Share,MEX,NA,2017,NA,%,3.05,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+182,Energy Share,MEX,NA,2017,NA,%,0.40,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+183,Total Energy Share,MEX,NA,2017,NA,%,5.06,NA,NA,NA,NA,NA,Table 3,
+184,Energy Share,RUS,NA,2017,NA,%,1.41,NA,NA,NA,NA,NA,Table 3,Coal
+185,Energy Share,RUS,NA,2017,NA,%,6.16,NA,NA,NA,NA,NA,Table 3,Natural Gas
+186,Energy Share,RUS,NA,2017,NA,%,4.11,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+187,Energy Share,RUS,NA,2017,NA,%,1.56,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+188,Total Energy Share,RUS,NA,2017,NA,%,13.24,NA,NA,NA,NA,NA,Table 3,
+189,Energy Share,SAF,NA,2017,NA,%,5.13,NA,NA,NA,NA,NA,Table 3,Coal
+190,Energy Share,SAF,NA,2017,NA,%,0.31,NA,NA,NA,NA,NA,Table 3,Natural Gas
+191,Energy Share,SAF,NA,2017,NA,%,3.23,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+192,Energy Share,SAF,NA,2017,NA,%,0.43,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+193,Total Energy Share,SAF,NA,2017,NA,%,9.10,NA,NA,NA,NA,NA,Table 3,
+194,Energy Share,SAP,NA,2017,NA,%,0.76,NA,NA,NA,NA,NA,Table 3,Coal
+195,Energy Share,SAP,NA,2017,NA,%,1.36,NA,NA,NA,NA,NA,Table 3,Natural Gas
+196,Energy Share,SAP,NA,2017,NA,%,3.17,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+197,Energy Share,SAP,NA,2017,NA,%,0.39,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+198,Total Energy Share,SAP,NA,2017,NA,%,5.67,NA,NA,NA,NA,NA,Table 3,
+199,Energy Share,SLA,NA,2017,NA,%,0.14,NA,NA,NA,NA,NA,Table 3,Coal
+200,Energy Share,SLA,NA,2017,NA,%,1.25,NA,NA,NA,NA,NA,Table 3,Natural Gas
+201,Energy Share,SLA,NA,2017,NA,%,2.96,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+202,Energy Share,SLA,NA,2017,NA,%,1.23,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+203,Total Energy Share,SLA,NA,2017,NA,%,5.58,NA,NA,NA,NA,NA,Table 3,
+204,Energy Share,SOV,NA,2017,NA,%,3.36,NA,NA,NA,NA,NA,Table 3,Coal
+205,Energy Share,SOV,NA,2017,NA,%,6.61,NA,NA,NA,NA,NA,Table 3,Natural Gas
+206,Energy Share,SOV,NA,2017,NA,%,3.66,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+207,Energy Share,SOV,NA,2017,NA,%,1.04,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+208,Total Energy Share,SOV,NA,2017,NA,%,14.67,NA,NA,NA,NA,NA,Table 3,
+209,Energy Share,SSA,NA,2017,NA,%,0.08,NA,NA,NA,NA,NA,Table 3,Coal
+210,Energy Share,SSA,NA,2017,NA,%,0.65,NA,NA,NA,NA,NA,Table 3,Natural Gas
+211,Energy Share,SSA,NA,2017,NA,%,2.41,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+212,Energy Share,SSA,NA,2017,NA,%,0.68,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+213,Total Energy Share,SSA,NA,2017,NA,%,3.81,NA,NA,NA,NA,NA,Table 3,
+214,Energy Share,US,NA,2017,NA,%,0.32,NA,NA,NA,NA,NA,Table 3,Coal
+215,Energy Share,US,NA,2017,NA,%,0.83,NA,NA,NA,NA,NA,Table 3,Natural Gas
+216,Energy Share,US,NA,2017,NA,%,1.72,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+217,Energy Share,US,NA,2017,NA,%,0.70,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+218,Total Energy Share,US,NA,2017,NA,%,3.57,NA,NA,NA,NA,NA,Table 3,
+219,Energy Share,WEU,NA,2017,NA,%,0.26,NA,NA,NA,NA,NA,Table 3,Coal
+220,Energy Share,WEU,NA,2017,NA,%,0.53,NA,NA,NA,NA,NA,Table 3,Natural Gas
+221,Energy Share,WEU,NA,2017,NA,%,1.42,NA,NA,NA,NA,NA,Table 3,Petroleum/Liquids
+222,Energy Share,WEU,NA,2017,NA,%,0.82,NA,NA,NA,NA,NA,Table 3,Nuclear/Renew/Other
+223,Total Energy Share,WEU,NA,2017,NA,%,3.03,NA,NA,NA,NA,NA,Table 3,
+224,Productivity,ANZ,BAU,2100,US Productivity Growth Rate,%,-0.11,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+225,Productivity,BRA,BAU,2100,US Productivity Growth Rate,%,0.27,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+226,Productivity,CND,BAU,2100,US Productivity Growth Rate,%,-0.08,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+227,Productivity,CHI,BAU,2100,US Productivity Growth Rate,%,2.54,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+228,Productivity,EEU,BAU,2100,US Productivity Growth Rate,%,0.09,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+229,Productivity,GBR,BAU,2100,US Productivity Growth Rate,%,0.04,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+230,Productivity,IND,BAU,2100,US Productivity Growth Rate,%,1.99,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+231,Productivity,JSHK,BAU,2100,US Productivity Growth Rate,%,1.92,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+232,Productivity,MENA,BAU,2100,US Productivity Growth Rate,%,0.05,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+233,Productivity,MEX,BAU,2100,US Productivity Growth Rate,%,-0.64,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+234,Productivity,RUS,BAU,2100,US Productivity Growth Rate,%,-0.06,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+235,Productivity,SAF,BAU,2100,US Productivity Growth Rate,%,-0.20,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+236,Productivity,SAP,BAU,2100,US Productivity Growth Rate,%,1.09,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+237,Productivity,SLA,BAU,2100,US Productivity Growth Rate,%,-0.67,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+238,Productivity,SOV,BAU,2100,US Productivity Growth Rate,%,0.87,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+239,Productivity,SSA,BAU,2100,US Productivity Growth Rate,%,-0.73,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+240,Productivity,WEU,BAU,2100,US Productivity Growth Rate,%,0.76,NA,NA,NA,NA,NA,Table 4,Productivity convergence relative to the US.
+241,World Capital,World,BAU,2017,NA,$,178,NA,NA,NA,NA,NA,Paragraph 1,World Capital in Trillions.
+242,Global Temperature,Global,BAU,2217,Pre-industrial levels,Degrees Celsius,3.7,NA,NA,NA,NA,NA,Page 14,Damage functions 1x and 2x
+243,Global Temperature,Global,BAU,2217,Pre-industrial levels,Degrees Celsius,4.4,NA,NA,NA,NA,NA,Page 14,Damage functions 6x
+244,Damages,Global,BAU,2200,No CC,Percent of world output,17,NA,NA,NA,NA,NA,Page 14,"6x damage scenario, peak losses"
+245,Damages,India,BAU,2200,No CC,Percent of GDP,40,NA,NA,NA,NA,NA,Page 14,"6x damage scenario, persisting for more than a century"
+246,Damages,"US, China, JSHK",BAU,2200,No CC,Percent of output,16,NA,NA,NA,NA,NA,Page 14,"6x damage scenario, no improvement"
+247,Damages,GBR,BAU,2200,No CC,Percent of GDP,2.1,NA,NA,NA,NA,NA,Page 14,Peak damages
+248,Gains,Russia,BAU,2200,No CC,Percent of GDP,3.9,NA,NA,NA,NA,NA,Page 14,Climate gains peak
+249,Gains,Canada,BAU,2200,No CC,Percent of GDP,2.6,NA,NA,NA,NA,NA,Page 14,Climate gains peak
+250,GDP Losses,US,BAU,2024,No CC,% of GDP,4.0,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+251,GDP Losses,WEU,BAU,2024,No CC,% of GDP,1.6,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+252,GDP Losses,JSHK,BAU,2024,No CC,% of GDP,3.9,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+253,GDP Losses,China,BAU,2024,No CC,% of GDP,4.0,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+254,GDP Losses,India,BAU,2024,No CC,% of GDP,11.8,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+255,GDP Gains,Russia,BAU,2024,No CC,% of GDP,-4.1,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak gain"
+256,GDP Gains,CND,BAU,2024,No CC,% of GDP,-2.7,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak gain"
+257,GDP Losses,EEU,BAU,2024,No CC,% of GDP,1.8,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+258,GDP Losses,SAP,BAU,2024,No CC,% of GDP,9.9,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+259,GDP Losses,BRA,BAU,2024,No CC,% of GDP,8.6,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+260,GDP Losses,MEX,BAU,2024,No CC,% of GDP,6.1,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+261,GDP Losses,SAF,BAU,2024,No CC,% of GDP,5.7,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+262,GDP Losses,MENA,BAU,2024,No CC,% of GDP,9.1,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+263,GDP Losses,SLA,BAU,2024,No CC,% of GDP,7.4,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+264,GDP Losses,SSA,BAU,2024,No CC,% of GDP,9.7,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+265,GDP Losses,SOV,BAU,2024,No CC,% of GDP,2.0,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+266,GDP Losses,GBR,BAU,2024,No CC,% of GDP,0.5,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+267,GDP Losses,ANZ,BAU,2024,No CC,% of GDP,4.6,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+268,GDP Losses,GLOBAL,BAU,2024,No CC,% of GDP,4.4,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Peak loss"
+269,GDP Losses,US,BAU,2024,No CC,% of GDP,7.4,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+270,GDP Losses,WEU,BAU,2024,No CC,% of GDP,2.9,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+271,GDP Losses,JSHK,BAU,2024,No CC,% of GDP,7.1,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+272,GDP Losses,China,BAU,2024,No CC,% of GDP,7.4,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+273,GDP Losses,India,BAU,2024,No CC,% of GDP,21.1,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+274,GDP Gains,Russia,BAU,2024,No CC,% of GDP,-4.1,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak gain"
+275,GDP Gains,CND,BAU,2024,No CC,% of GDP,-2.7,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak gain"
+276,GDP Losses,EEU,BAU,2024,No CC,% of GDP,3.2,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+277,GDP Losses,SAP,BAU,2024,No CC,% of GDP,17.9,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+278,GDP Losses,BRA,BAU,2024,No CC,% of GDP,15.7,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+279,GDP Losses,MEX,BAU,2024,No CC,% of GDP,11.2,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+280,GDP Losses,SAF,BAU,2024,No CC,% of GDP,10.4,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+281,GDP Losses,MENA,BAU,2024,No CC,% of GDP,16.4,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+282,GDP Losses,SLA,BAU,2024,No CC,% of GDP,13.5,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+283,GDP Losses,SSA,BAU,2024,No CC,% of GDP,17.5,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+284,GDP Losses,SOV,BAU,2024,No CC,% of GDP,3.6,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+285,GDP Losses,GBR,BAU,2024,No CC,% of GDP,1.0,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+286,GDP Losses,ANZ,BAU,2024,No CC,% of GDP,8.6,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+287,GDP Losses,GLOBAL,BAU,2024,No CC,% of GDP,7.9,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Peak loss"
+288,GDP Losses,US,BAU,2024,No CC,% of GDP,12.8,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+289,GDP Losses,WEU,BAU,2024,No CC,% of GDP,4.9,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+290,GDP Losses,JSHK,BAU,2024,No CC,% of GDP,12.4,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+291,GDP Losses,China,BAU,2024,No CC,% of GDP,12.7,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+292,GDP Losses,India,BAU,2024,No CC,% of GDP,34.6,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+293,GDP Gains,Russia,BAU,2024,No CC,% of GDP,-4.0,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak gain"
+294,GDP Gains,CND,BAU,2024,No CC,% of GDP,-2.6,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak gain"
+295,GDP Losses,EEU,BAU,2024,No CC,% of GDP,5.3,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+296,GDP Losses,SAP,BAU,2024,No CC,% of GDP,29.9,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+297,GDP Losses,BRA,BAU,2024,No CC,% of GDP,26.6,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+298,GDP Losses,MEX,BAU,2024,No CC,% of GDP,19.2,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+299,GDP Losses,SAF,BAU,2024,No CC,% of GDP,17.8,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+300,GDP Losses,MENA,BAU,2024,No CC,% of GDP,27.6,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+301,GDP Losses,SLA,BAU,2024,No CC,% of GDP,23.2,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+302,GDP Losses,SSA,BAU,2024,No CC,% of GDP,29.3,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+303,GDP Losses,SOV,BAU,2024,No CC,% of GDP,5.9,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+304,GDP Losses,GBR,BAU,2024,No CC,% of GDP,1.6,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+305,GDP Losses,ANZ,BAU,2024,No CC,% of GDP,14.9,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+306,GDP Losses,GLOBAL,BAU,2024,No CC,% of GDP,13.0,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Peak loss"
+307,GDP Losses,US,BAU,2024,No CC,% of GDP,17.1,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+308,GDP Losses,WEU,BAU,2024,No CC,% of GDP,6.5,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+309,GDP Losses,JSHK,BAU,2024,No CC,% of GDP,16.7,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+310,GDP Losses,China,BAU,2024,No CC,% of GDP,17.0,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+311,GDP Losses,India,BAU,2024,No CC,% of GDP,43.9,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+312,GDP Gains,Russia,BAU,2024,No CC,% of GDP,-3.9,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak gain"
+313,GDP Gains,CND,BAU,2024,No CC,% of GDP,-2.6,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak gain"
+314,GDP Losses,EEU,BAU,2024,No CC,% of GDP,6.9,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+315,GDP Losses,SAP,BAU,2024,No CC,% of GDP,38.3,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+316,GDP Losses,BRA,BAU,2024,No CC,% of GDP,34.7,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+317,GDP Losses,MEX,BAU,2024,No CC,% of GDP,25.5,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+318,GDP Losses,SAF,BAU,2024,No CC,% of GDP,23.7,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+319,GDP Losses,MENA,BAU,2024,No CC,% of GDP,36.0,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+320,GDP Losses,SLA,BAU,2024,No CC,% of GDP,30.6,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+321,GDP Losses,SSA,BAU,2024,No CC,% of GDP,37.9,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+322,GDP Losses,SOV,BAU,2024,No CC,% of GDP,7.6,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+323,GDP Losses,GBR,BAU,2024,No CC,% of GDP,2.1,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+324,GDP Losses,ANZ,BAU,2024,No CC,% of GDP,19.9,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+325,GDP Losses,GLOBAL,BAU,2024,No CC,% of GDP,16.7,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Peak loss"
+326,Temperature Rise,GLOBAL,BAU,2024,No CC,Celsius,4.4,NA,NA,NA,NA,NA,Table 5,"1x damage scenario, Maximum global temperature rise"
+327,Temperature Rise,GLOBAL,BAU,2024,No CC,Celsius,4.2,NA,NA,NA,NA,NA,Table 5,"2x damage scenario, Maximum global temperature rise"
+328,Temperature Rise,GLOBAL,BAU,2024,No CC,Celsius,3.9,NA,NA,NA,NA,NA,Table 5,"4x damage scenario, Maximum global temperature rise"
+329,Temperature Rise,GLOBAL,BAU,2024,No CC,Celsius,3.7,NA,NA,NA,NA,NA,Table 5,"6x damage scenario, Maximum global temperature rise"
+330,Fossil Fuel Consumption,Brazil,BAU,2045,N/A,Year,2045,NA,NA,NA,NA,NA,Page 15,Year that dirty energy use ends.
+331,Fossil Fuel Consumption,US,BAU,2105,N/A,Year,2105,NA,NA,NA,NA,NA,Page 15,Year that dirty energy use ends.
+332,Fossil Fuel Consumption,China,BAU,2092,N/A,Year,2092,NA,NA,NA,NA,NA,Page 15,Year that dirty energy use ends.
+333,GDP Share,"China, India",BAU,2100,N/A,% of world GDP,40,NA,NA,NA,NA,NA,Page 15,Combined GDP Share of China and India in 2100
+334,Interest Rate,GLOBAL,BAU,2100,Initial Value,Percentage Points,-1.1,NA,NA,NA,NA,NA,Page 15,Interest Rate decline from 4.0% to 2.9% by end of the century
+335,Welfare,Global,UWI,2017,No CC,%,4.3,NA,NA,NA,NA,NA,Text,Uniform welfare increase gain
+336,Welfare,Global,UWIL,2017,No CC,%,4.0,NA,NA,NA,NA,NA,Text,Regions not exceeding welfare limit
+337,Welfare,India,UWIL,2017,No CC,%,0,NA,NA,NA,NA,NA,Text,Welfare gain peaks for future Indian cohorts.
+338,Welfare,"SAP, BRA, SSA, MENA",UWIL,2100,UWI,percent,20,NA,NA,NA,NA,NA,Page 19,Peak gain exceeds 20 percent under UWIL.
+339,Welfare,US,UWIL,2167,UWI,relative,2,NA,NA,NA,NA,NA,Page 19,Welfare gain more than double the UWI level under UWIL (Year 150 represents 2167).
+340,Emissions,,UWIL/UWIF,2017,BAU,relative,0,NA,NA,NA,NA,NA,Page 19,Emissions reduction is substantial and essentially identical whether or not the policy incorporates the sharing of net welfare gains across region-specific generations (UWIL and UWIF). Value implies any non-zero number but for these purposes 0 is useful
+341,Dirty Energy Use,China,BAU,2037,BAU,Years earlier,55,NA,NA,NA,NA,NA,Page 19,China stops using all fossil fuels in roughly 20 years compared to 75 years under BAU.
+342,Emissions,Russia,BAU,2097,BAU,Years earlier,80,NA,NA,NA,NA,NA,Page 19,Russia stops emitting carbon roughly 80 years earlier than in BAU.
+343,Global Temperature Rise,,UWIL/UWIF,2100,BAU,Degrees Celsius,2,NA,NA,NA,NA,NA,Page 19,Taxing carbon at its marginal social cost dramatically limits the increase in temperature to near the 2.0-degree limit set in the Paris Agreement under UWIL and UWIF.
+344,Regional Damages,India,BAU,2100,BAU,relative,100,NA,NA,NA,NA,NA,Page 19,Huge Climate damages without carbon taxation. Setting to 100 for relative comparison
+345,Regional Damages,"Russia, Canada",BAU,2100,BAU,relative,-1,NA,NA,NA,NA,NA,Page 19,Negative climate damages without carbon taxation. Setting to -1 for relative comparison
+346,Regional Damages,ANZ,UWI,2100,BAU,percent of GDP,10,NA,NA,NA,NA,NA,Page 19,Maximal damages drop from 20 percent to just above 10 percent with optimal 6x UWI carbon tax.
+347,Regional Damages,ANZ,UWI,2100,No CC,percent of GDP,20,NA,NA,NA,NA,NA,Page 19,Maximal damages drop from 20 percent to just above 10 percent with optimal 6x UWI carbon tax.
+348,Regional Damages,China,UWI,2100,BAU,percent of GDP,8,NA,NA,NA,NA,NA,Page 19,Damages drop from above 16 percent to around 8 percent of GDP with optimal 6x UWI carbon tax.
+349,Regional Damages,China,UWI,2100,No CC,percent of GDP,16,NA,NA,NA,NA,NA,Page 19,Damages drop from above 16 percent to around 8 percent of GDP with optimal 6x UWI carbon tax.
+350,Regional Damages,US,UWI,2100,BAU,percent of GDP,8,NA,NA,NA,NA,NA,Page 19,Damages drop from above 16 percent to around 8 percent of GDP with optimal 6x UWI carbon tax.
+351,Regional Damages,US,UWI,2100,No CC,percent of GDP,16,NA,NA,NA,NA,NA,Page 19,Damages drop from above 16 percent to around 8 percent of GDP with optimal 6x UWI carbon tax.
+352,Consumption,India,UWI,2217,No CC,percent,-40.0,NA,NA,NA,NA,NA,Page 23,Consumption surrender required of future generations to service carbon-policy debt
+353,Consumption,"BRA, SAP, MENA, SLA, SSA",UWI,2217,No CC,percent,-20.0,NA,NA,NA,NA,NA,Page 23,Consumption surrender required of future generations to service carbon-policy debt; value is minimum required among these countries
+354,GDP share,USA,BAU,2017,No CC,percent,25.01,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+355,GDP share,USA,Optimal,2017,No CC,percent,25.41,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+356,GDP share,USA,BAU,2050,No CC,percent,22.04,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+357,GDP share,USA,Optimal,2050,No CC,percent,22.17,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+358,GDP share,USA,BAU,2100,No CC,percent,15.55,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+359,GDP share,USA,Optimal,2100,No CC,percent,15.55,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+360,GDP share,USA,BAU,2150,No CC,percent,14.89,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+361,GDP share,USA,Optimal,2150,No CC,percent,14.84,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+362,GDP share,WEU,BAU,2017,No CC,percent,21.98,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+363,GDP share,WEU,Optimal,2017,No CC,percent,22.42,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+364,GDP share,WEU,BAU,2050,No CC,percent,18.69,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+365,GDP share,WEU,Optimal,2050,No CC,percent,18.76,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+366,GDP share,WEU,BAU,2100,No CC,percent,17.11,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+367,GDP share,WEU,Optimal,2100,No CC,percent,16.21,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+368,GDP share,WEU,BAU,2150,No CC,percent,16.84,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+369,GDP share,WEU,Optimal,2150,No CC,percent,15.65,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+370,GDP share,JSHK,BAU,2017,No CC,percent,9.05,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+371,GDP share,JSHK,Optimal,2017,No CC,percent,9.19,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+372,GDP share,JSHK,BAU,2050,No CC,percent,9.37,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+373,GDP share,JSHK,Optimal,2050,No CC,percent,9.39,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+374,GDP share,JSHK,BAU,2100,No CC,percent,12.34,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+375,GDP share,JSHK,Optimal,2100,No CC,percent,12.31,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+376,GDP share,JSHK,BAU,2150,No CC,percent,13.63,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+377,GDP share,JSHK,Optimal,2150,No CC,percent,13.49,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+378,GDP share,CHI,BAU,2017,No CC,percent,15.59,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+379,GDP share,CHI,Optimal,2017,No CC,percent,14.97,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+380,GDP share,CHI,BAU,2050,No CC,percent,20.56,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+381,GDP share,CHI,Optimal,2050,No CC,percent,19.98,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+382,GDP share,CHI,BAU,2100,No CC,percent,32.61,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+383,GDP share,CHI,Optimal,2100,No CC,percent,32.71,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+384,GDP share,CHI,BAU,2150,No CC,percent,35.54,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+385,GDP share,CHI,Optimal,2150,No CC,percent,35.48,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+386,GDP share,IND,BAU,2017,No CC,percent,2.59,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+387,GDP share,IND,Optimal,2017,No CC,percent,2.50,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+388,GDP share,IND,BAU,2050,No CC,percent,4.60,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+389,GDP share,IND,Optimal,2050,No CC,percent,4.70,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+390,GDP share,IND,BAU,2100,No CC,percent,5.38,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+391,GDP share,IND,Optimal,2100,No CC,percent,6.40,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+392,GDP share,IND,BAU,2150,No CC,percent,5.00,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+393,GDP share,IND,Optimal,2150,No CC,percent,6.12,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+394,GDP share,RUS,BAU,2017,No CC,percent,2.30,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+395,GDP share,RUS,Optimal,2017,No CC,percent,2.12,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+396,GDP share,RUS,BAU,2050,No CC,percent,1.34,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+397,GDP share,RUS,Optimal,2050,No CC,percent,1.12,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+398,GDP share,RUS,BAU,2100,No CC,percent,0.84,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+399,GDP share,RUS,Optimal,2100,No CC,percent,0.72,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+400,GDP share,RUS,BAU,2150,No CC,percent,0.70,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+401,GDP share,RUS,Optimal,2150,No CC,percent,0.61,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+402,GDP share,CND,BAU,2017,No CC,percent,2.37,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+403,GDP share,CND,Optimal,2017,No CC,percent,2.34,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+404,GDP share,CND,BAU,2050,No CC,percent,2.02,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+405,GDP share,CND,Optimal,2050,No CC,percent,1.94,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+406,GDP share,CND,BAU,2100,No CC,percent,1.49,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+407,GDP share,CND,Optimal,2100,No CC,percent,1.34,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+408,GDP share,CND,BAU,2150,No CC,percent,1.44,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+409,GDP share,CND,Optimal,2150,No CC,percent,1.26,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+410,GDP share,EEU,BAU,2017,No CC,percent,0.35,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+411,GDP share,EEU,Optimal,2017,No CC,percent,0.31,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+412,GDP share,EEU,BAU,2050,No CC,percent,0.19,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+413,GDP share,EEU,Optimal,2050,No CC,percent,0.18,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+414,GDP share,EEU,BAU,2100,No CC,percent,0.10,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+415,GDP share,EEU,Optimal,2100,No CC,percent,0.10,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+416,GDP share,EEU,BAU,2150,No CC,percent,0.08,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+417,GDP share,EEU,Optimal,2150,No CC,percent,0.08,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+418,GDP share,SAP,BAU,2017,No CC,percent,2.60,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+419,GDP share,SAP,Optimal,2017,No CC,percent,2.60,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+420,GDP share,SAP,BAU,2050,No CC,percent,3.28,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+421,GDP share,SAP,Optimal,2050,No CC,percent,3.45,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+422,GDP share,SAP,BAU,2100,No CC,percent,2.73,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+423,GDP share,SAP,Optimal,2100,No CC,percent,3.02,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+424,GDP share,SAP,BAU,2150,No CC,percent,2.26,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+425,GDP share,SAP,Optimal,2150,No CC,percent,2.61,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+426,GDP share,BRA,BAU,2017,No CC,percent,2.24,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+427,GDP share,BRA,Optimal,2017,No CC,percent,2.26,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+428,GDP share,BRA,BAU,2050,No CC,percent,1.84,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+429,GDP share,BRA,Optimal,2050,No CC,percent,2.01,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+430,GDP share,BRA,BAU,2100,No CC,percent,0.93,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+431,GDP share,BRA,Optimal,2100,No CC,percent,1.03,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+432,GDP share,BRA,BAU,2150,No CC,percent,0.70,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+433,GDP share,BRA,Optimal,2150,No CC,percent,0.79,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+434,GDP share,MEX,BAU,2017,No CC,percent,1.39,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+435,GDP share,MEX,Optimal,2017,No CC,percent,1.40,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+436,GDP share,MEX,BAU,2050,No CC,percent,1.12,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+437,GDP share,MEX,Optimal,2050,No CC,percent,1.14,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+438,GDP share,MEX,BAU,2100,No CC,percent,0.39,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+439,GDP share,MEX,Optimal,2100,No CC,percent,0.40,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+440,GDP share,MEX,BAU,2150,No CC,percent,0.25,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+441,GDP share,MEX,Optimal,2150,No CC,percent,0.26,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+442,GDP share,SAF,BAU,2017,No CC,percent,0.42,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+443,GDP share,SAF,Optimal,2017,No CC,percent,0.39,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+444,GDP share,SAF,BAU,2050,No CC,percent,0.42,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+445,GDP share,SAF,Optimal,2050,No CC,percent,0.38,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+446,GDP share,SAF,BAU,2100,No CC,percent,0.23,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+447,GDP share,SAF,Optimal,2100,No CC,percent,0.20,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+448,GDP share,SAF,BAU,2150,No CC,percent,0.16,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+449,GDP share,SAF,Optimal,2150,No CC,percent,0.15,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+450,GDP share,MENA,BAU,2017,No CC,percent,4.53,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+451,GDP share,MENA,Optimal,2017,No CC,percent,4.42,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+452,GDP share,MENA,BAU,2050,No CC,percent,5.51,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+453,GDP share,MENA,Optimal,2050,No CC,percent,5.64,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+454,GDP share,MENA,BAU,2100,No CC,percent,3.83,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+455,GDP share,MENA,Optimal,2100,No CC,percent,3.70,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+456,GDP share,MENA,BAU,2150,No CC,percent,2.85,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+457,GDP share,MENA,Optimal,2150,No CC,percent,3.04,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+458,GDP share,SLA,BAU,2017,No CC,percent,2.36,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+459,GDP share,SLA,Optimal,2017,No CC,percent,2.36,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+460,GDP share,SLA,BAU,2050,No CC,percent,1.83,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+461,GDP share,SLA,Optimal,2050,No CC,percent,1.89,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+462,GDP share,SLA,BAU,2100,No CC,percent,0.70,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+463,GDP share,SLA,Optimal,2100,No CC,percent,0.76,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+464,GDP share,SLA,BAU,2150,No CC,percent,0.46,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+465,GDP share,SLA,Optimal,2150,No CC,percent,0.50,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+466,GDP share,SSA,BAU,2017,No CC,percent,1.05,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+467,GDP share,SSA,Optimal,2017,No CC,percent,1.07,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+468,GDP share,SSA,BAU,2050,No CC,percent,1.62,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+469,GDP share,SSA,Optimal,2050,No CC,percent,1.74,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+470,GDP share,SSA,BAU,2100,No CC,percent,1.51,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+471,GDP share,SSA,Optimal,2100,No CC,percent,1.63,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+472,GDP share,SSA,BAU,2150,No CC,percent,1.37,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+473,GDP share,SSA,Optimal,2150,No CC,percent,1.54,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+474,GDP share,SOV,BAU,2017,No CC,percent,0.50,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+475,GDP share,SOV,Optimal,2017,No CC,percent,0.44,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+476,GDP share,SOV,BAU,2050,No CC,percent,0.63,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+477,GDP share,SOV,Optimal,2050,No CC,percent,0.54,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+478,GDP share,SOV,BAU,2100,No CC,percent,0.60,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+479,GDP share,SOV,Optimal,2100,No CC,percent,0.47,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+480,GDP share,SOV,BAU,2150,No CC,percent,0.46,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+481,GDP share,SOV,Optimal,2150,No CC,percent,0.42,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+482,GDP share,GBR,BAU,2017,No CC,percent,3.74,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+483,GDP share,GBR,Optimal,2017,No CC,percent,3.85,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+484,GDP share,GBR,BAU,2050,No CC,percent,3.20,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+485,GDP share,GBR,Optimal,2050,No CC,percent,3.16,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+486,GDP share,GBR,BAU,2100,No CC,percent,2.41,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+487,GDP share,GBR,Optimal,2100,No CC,percent,2.21,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+488,GDP share,GBR,BAU,2150,No CC,percent,2.24,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+489,GDP share,GBR,Optimal,2150,No CC,percent,2.01,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+490,GDP share,ANZ,BAU,2017,No CC,percent,1.91,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+491,GDP share,ANZ,Optimal,2017,No CC,percent,1.95,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+492,GDP share,ANZ,BAU,2050,No CC,percent,1.75,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+493,GDP share,ANZ,Optimal,2050,No CC,percent,1.79,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+494,GDP share,ANZ,BAU,2100,No CC,percent,1.26,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+495,GDP share,ANZ,Optimal,2100,No CC,percent,1.24,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+496,GDP share,ANZ,BAU,2150,No CC,percent,1.16,NA,NA,NA,NA,NA,Table 7,Share of world GDP
+497,GDP share,ANZ,Optimal,2150,No CC,percent,1.16,NA,NA,NA,NA,NA,Table 7,Share of world GDP under optimal carbon tax
+498,Social Cost of Carbon,India,6x damage scenario BAU,2017,No CC,$,10.58,NA,NA,NA,NA,NA,Page 26,
+499,Social Cost of Carbon,Brazil,6x damage scenario BAU,2017,No CC,$,3.12,NA,NA,NA,NA,NA,Page 26,
+500,Social Cost of Carbon,Global,6x damage scenario BAU,2017,No CC,$,111.69,NA,NA,NA,NA,NA,Page 26,
+501,Emissions,Global,6x damage,2250,No CC,%,17,NA,NA,NA,NA,NA,Page 27,Chinese-only carbon tax leads other regions to increase emissions
+502,Emissions,China,6x damage,2250,No CC,%,78,NA,NA,NA,NA,NA,Page 27,Regions apart from China imposing carbon tax will increase cumulative emissions in China
+503,Emissions,"USA, WEU, GBR, JSHK, China",6x damage,2250,No CC,%,43,NA,NA,NA,NA,NA,Page 27,Remaining regions will increase emissions by this amount if the listed regions impose a carbon tax
+504,Welfare,Global,1x damage,2040,BAU,%,0.6,NA,NA,NA,NA,NA,Page 27,UWI gains reduced from delaying optimal UWI tax until 2040
+505,Welfare,Global,2x damage,2040,BAU,%,1.4,NA,NA,NA,NA,NA,Page 27,UWI gains reduced from delaying optimal UWI tax until 2040
+506,Welfare,Global,4x damage,2040,BAU,%,3.0,NA,NA,NA,NA,NA,Page 27,UWI gains reduced from delaying optimal UWI tax until 2040
+507,Welfare,Global,6x damage,2040,BAU,%,4.3,NA,NA,NA,NA,NA,Page 27,UWI gains reduced from delaying optimal UWI tax until 2040
+508,Welfare,Global,1x damage,2040,BAU,%,0.5,NA,NA,NA,NA,NA,Page 27,UWI gains after delaying optimal UWI tax until 2040
+509,Welfare,Global,2x damage,2040,BAU,%,1.0,NA,NA,NA,NA,NA,Page 27,UWI gains after delaying optimal UWI tax until 2040
+510,Welfare,Global,4x damage,2040,BAU,%,2.0,NA,NA,NA,NA,NA,Page 27,UWI gains after delaying optimal UWI tax until 2040
+511,Welfare,Global,6x damage,2040,BAU,%,2.8,NA,NA,NA,NA,NA,Page 27,UWI gains after delaying optimal UWI tax until 2040
+512,Welfare,Global (excl. China),6x damage,2040,BAU,%,3.8,NA,NA,NA,NA,NA,Page 27,UWI gain with China delaying carbon tax by 20 years
+513,Welfare,Global (excl. China),4x damage,2040,BAU,%,2.7,NA,NA,NA,NA,NA,Page 27,UWI gain with China delaying carbon tax by 20 years
+514,Welfare,Global (excl. China),2x damage,2040,BAU,NA,0,NA,NA,NA,NA,NA,Page 27,UWI gain with China delaying carbon tax by 20 years; Unaffected = 0
+515,Welfare,Global (excl. China),1x damage,2040,BAU,NA,0,NA,NA,NA,NA,NA,Page 27,UWI gain with China delaying carbon tax by 20 years; Unaffected = 0
+516,Welfare,Coalition (excl. China),NA,2040,BAU,%,1.5,NA,NA,NA,NA,NA,Page 27,UWI gain for members of coalition (all regions apart from China) levying a $100 carbon tax
+517,Welfare,"US, WEU, GBR, JSHK, CHI",NA,2040,BAU,%,0.9,NA,NA,NA,NA,NA,Page 27,UWI gain for members of this coalition
+518,Welfare,CHI,NA,2040,BAU,%,0.3,NA,NA,NA,NA,NA,Page 27,UWI gain for China alone
+519,Peak GDP Loss,India,High Damage Scenario,2200,BAU,Percent,43.9,NA,NA,NA,NA,NA,Conclusion,Peak GDP loss in India is assessed to reach 43.9% under the high damage scenario without policy intervention by the year 2200.
+520,Peak GDP Loss,SSA,High Damage Scenario,2200,BAU,Percent,30,NA,NA,NA,NA,NA,Conclusion,Sub-Saharan Africa (SSA) experiences peak GDP losses exceeding 30% under the high damage scenario without intervention.
+521,Peak GDP Loss,SLA,High Damage Scenario,2200,BAU,Percent,30,NA,NA,NA,NA,NA,Conclusion,South Latin America (SLA) has peak GDP loss exceeding 30% under the high damage scenario without carbon policy.
+522,Peak GDP Loss,MENA,High Damage Scenario,2200,BAU,Percent,30,NA,NA,NA,NA,NA,Conclusion,Middle East and North Africa (MENA) regions face a greater than 30% GDP loss due to climate impacts without any policy.
+523,Peak GDP Loss,BRA,High Damage Scenario,2200,BAU,Percent,30,NA,NA,NA,NA,NA,Conclusion,Brazil also incurs GDP losses over 30% when no policy is implemented to mitigate climate change effects.
+524,Peak GDP Loss,SAP,High Damage Scenario,2200,BAU,Percent,30,NA,NA,NA,NA,NA,Conclusion,South Asia Pacific (SAP) endures GDP losses exceeding 30% without policy measures to curb climate change.
+525,Peak GDP Gain,Russia,BAU,2200,BAU,Percent,3.9,NA,NA,NA,NA,NA,Conclusion,Russia gains a 3.9% GDP increase under Business As Usual (BAU) conditions.
+526,Peak GDP Gain,Canada,BAU,2200,BAU,Percent,2.6,NA,NA,NA,NA,NA,Conclusion,Canada sees GDP gains of 2.6% under BAU conditions without mitigation policies.
+527,GDP,ANZ,NA,2017,US,index,7.85,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+528,Energy consumption,ANZ,NA,2017,US,index,7.16,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+529,CO2 emission,ANZ,NA,2017,US,index,8.41,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+530,GDP,BRA,NA,2017,US,index,10.57,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+531,Energy consumption,BRA,NA,2017,US,index,12.87,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+532,CO2 emission,BRA,NA,2017,US,index,10.28,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+533,GDP,CND,NA,2017,US,index,8.47,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+534,Energy consumption,CND,NA,2017,US,index,15.41,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+535,CO2 emission,CND,NA,2017,US,index,12.01,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+536,GDP,CHI,NA,2017,US,index,62.29,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+537,Energy consumption,CHI,NA,2017,US,index,142.65,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+538,CO2 emission,CHI,NA,2017,US,index,195.75,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+539,GDP,EEU,NA,2017,US,index,1.33,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+540,Energy consumption,EEU,NA,2017,US,index,5.89,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+541,CO2 emission,EEU,NA,2017,US,index,5.96,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+542,GDP,GBR,NA,2017,US,index,13.70,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+543,Energy consumption,GBR,NA,2017,US,index,8.41,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+544,CO2 emission,GBR,NA,2017,US,index,7.75,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+545,GDP,IND,NA,2017,US,index,13.60,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+546,Energy consumption,IND,NA,2017,US,index,31.18,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+547,CO2 emission,IND,NA,2017,US,index,42.79,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+548,GDP,JSHK,NA,2017,US,index,36.28,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+549,Energy consumption,JSHK,NA,2017,US,index,37.75,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+550,CO2 emission,JSHK,NA,2017,US,index,44.67,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+551,GDP,MENA,NA,2017,US,index,21.65,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+552,Energy consumption,MENA,NA,2017,US,index,56.05,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+553,CO2 emission,MENA,NA,2017,US,index,60.74,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+554,GDP,MEX,NA,2017,US,index,5.95,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+555,Energy consumption,MEX,NA,2017,US,index,8.09,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+556,CO2 emission,MEX,NA,2017,US,index,8.75,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+557,GDP,RUS,NA,2017,US,index,8.11,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+558,Energy consumption,RUS,NA,2017,US,index,33.59,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+559,CO2 emission,RUS,NA,2017,US,index,34.30,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+560,GDP,SAF,NA,2017,US,index,1.80,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+561,Energy consumption,SAF,NA,2017,US,index,5.81,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+562,CO2 emission,SAF,NA,2017,US,index,8.81,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+563,GDP,SAP,NA,2017,US,index,12.83,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+564,Energy consumption,SAP,NA,2017,US,index,20.81,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+565,CO2 emission,SAP,NA,2017,US,index,24.69,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+566,GDP,SLA,NA,2017,US,index,10.72,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+567,Energy consumption,SLA,NA,2017,US,index,15.79,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+568,CO2 emission,SLA,NA,2017,US,index,14.52,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+569,GDP,SOV,NA,2017,US,index,1.85,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+570,Energy consumption,SOV,NA,2017,US,index,9.06,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+571,CO2 emission,SOV,NA,2017,US,index,10.53,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+572,GDP,SSA,NA,2017,US,index,5.13,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+573,Energy consumption,SSA,NA,2017,US,index,4.94,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+574,CO2 emission,SSA,NA,2017,US,index,4.90,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+575,GDP,US,NA,2017,US,index,100.00,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+576,Energy consumption,US,NA,2017,US,index,100.00,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+577,CO2 emission,US,NA,2017,US,index,100.00,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+578,GDP,WEU,NA,2017,US,index,81.79,NA,NA,NA,NA,NA,Table 8,GDP index relative to the US.
+579,Energy consumption,WEU,NA,2017,US,index,67.98,NA,NA,NA,NA,NA,Table 8,Energy consumption index relative to the US.
+580,CO2 emission,WEU,NA,2017,US,index,63.20,NA,NA,NA,NA,NA,Table 8,CO2 emission index relative to the US.
+581,Social Cost of Carbon,CHI,UWI,2024,NA,currency units,231.45,NA,NA,NA,NA,NA,Tables 9 and 10,SCC is high for regions with high total GDP
+582,Social Cost of Carbon,US,UWI,2024,NA,currency units,189.30,NA,NA,NA,NA,NA,Tables 9 and 10,SCC is high for regions with high total GDP
+583,Social Cost of Carbon,USA,BAU,2017,No CC,$ per ton of CO2,3.95,NA,NA,NA,NA,NA,Table 9,1x case
+584,Social Cost of Carbon,WEU,BAU,2017,No CC,$ per ton of CO2,1.44,NA,NA,NA,NA,NA,Table 9,1x case
+585,Social Cost of Carbon,JSHK,BAU,2017,No CC,$ per ton of CO2,2.04,NA,NA,NA,NA,NA,Table 9,1x case
+586,Social Cost of Carbon,CHI,BAU,2017,No CC,$ per ton of CO2,5.05,NA,NA,NA,NA,NA,Table 9,1x case
+587,Social Cost of Carbon,IND,BAU,2017,No CC,$ per ton of CO2,3.47,NA,NA,NA,NA,NA,Table 9,1x case
+588,Social Cost of Carbon,RUS,BAU,2017,No CC,$ per ton of CO2,-0.22,NA,NA,NA,NA,NA,Table 9,1x case
+589,Social Cost of Carbon,CND,BAU,2017,No CC,$ per ton of CO2,-0.18,NA,NA,NA,NA,NA,Table 9,1x case
+590,Social Cost of Carbon,EEU,BAU,2017,No CC,$ per ton of CO2,0.01,NA,NA,NA,NA,NA,Table 9,1x case
+591,Social Cost of Carbon,SAP,BAU,2017,No CC,$ per ton of CO2,1.72,NA,NA,NA,NA,NA,Table 9,1x case
+592,Social Cost of Carbon,USA,BAU,2025,No CC,$ per ton of CO2,4.53,NA,NA,NA,NA,NA,Table 9,1x case
+593,Social Cost of Carbon,WEU,BAU,2025,No CC,$ per ton of CO2,1.70,NA,NA,NA,NA,NA,Table 9,1x case
+594,Social Cost of Carbon,JSHK,BAU,2025,No CC,$ per ton of CO2,2.42,NA,NA,NA,NA,NA,Table 9,1x case
+595,Social Cost of Carbon,CHI,BAU,2025,No CC,$ per ton of CO2,6.17,NA,NA,NA,NA,NA,Table 9,1x case
+596,Social Cost of Carbon,IND,BAU,2025,No CC,$ per ton of CO2,4.23,NA,NA,NA,NA,NA,Table 9,1x case
+597,Social Cost of Carbon,RUS,BAU,2025,No CC,$ per ton of CO2,-0.21,NA,NA,NA,NA,NA,Table 9,1x case
+598,Social Cost of Carbon,CND,BAU,2025,No CC,$ per ton of CO2,-0.18,NA,NA,NA,NA,NA,Table 9,1x case
+599,Social Cost of Carbon,EEU,BAU,2025,No CC,$ per ton of CO2,0.02,NA,NA,NA,NA,NA,Table 9,1x case
+600,Social Cost of Carbon,SAP,BAU,2025,No CC,$ per ton of CO2,2.00,NA,NA,NA,NA,NA,Table 9,1x case
+601,Social Cost of Carbon,USA,BAU,2050,No CC,$ per ton of CO2,6.16,NA,NA,NA,NA,NA,Table 9,1x case
+602,Social Cost of Carbon,WEU,BAU,2050,No CC,$ per ton of CO2,2.63,NA,NA,NA,NA,NA,Table 9,1x case
+603,Social Cost of Carbon,JSHK,BAU,2050,No CC,$ per ton of CO2,3.83,NA,NA,NA,NA,NA,Table 9,1x case
+604,Social Cost of Carbon,CHI,BAU,2050,No CC,$ per ton of CO2,10.37,NA,NA,NA,NA,NA,Table 9,1x case
+605,Social Cost of Carbon,IND,BAU,2050,No CC,$ per ton of CO2,6.60,NA,NA,NA,NA,NA,Table 9,1x case
+606,Social Cost of Carbon,RUS,BAU,2050,No CC,$ per ton of CO2,-0.16,NA,NA,NA,NA,NA,Table 9,1x case
+607,Social Cost of Carbon,CND,BAU,2050,No CC,$ per ton of CO2,-0.13,NA,NA,NA,NA,NA,Table 9,1x case
+608,Social Cost of Carbon,EEU,BAU,2050,No CC,$ per ton of CO2,0.02,NA,NA,NA,NA,NA,Table 9,1x case
+609,Social Cost of Carbon,SAP,BAU,2050,No CC,$ per ton of CO2,2.72,NA,NA,NA,NA,NA,Table 9,1x case
+610,Social Cost of Carbon,USA,BAU,2100,No CC,$ per ton of CO2,16.56,NA,NA,NA,NA,NA,Table 9,1x case
+611,Social Cost of Carbon,WEU,BAU,2100,No CC,$ per ton of CO2,8.26,NA,NA,NA,NA,NA,Table 9,1x case
+612,Social Cost of Carbon,JSHK,BAU,2100,No CC,$ per ton of CO2,12.98,NA,NA,NA,NA,NA,Table 9,1x case
+613,Social Cost of Carbon,CHI,BAU,2100,No CC,$ per ton of CO2,36.72,NA,NA,NA,NA,NA,Table 9,1x case
+614,Social Cost of Carbon,IND,BAU,2100,No CC,$ per ton of CO2,18.66,NA,NA,NA,NA,NA,Table 9,1x case
+615,Social Cost of Carbon,RUS,BAU,2100,No CC,$ per ton of CO2,-0.17,NA,NA,NA,NA,NA,Table 9,1x case
+616,Social Cost of Carbon,CND,BAU,2100,No CC,$ per ton of CO2,-0.06,NA,NA,NA,NA,NA,Table 9,1x case
+617,Social Cost of Carbon,EEU,BAU,2100,No CC,$ per ton of CO2,0.05,NA,NA,NA,NA,NA,Table 9,1x case
+618,Social Cost of Carbon,SAP,BAU,2100,No CC,$ per ton of CO2,6.35,NA,NA,NA,NA,NA,Table 9,1x case
+619,Social Cost of Carbon,USA,UWI,2017,No CC,$ per ton of CO2,3.84,NA,NA,NA,NA,NA,Table 9,1x case
+620,Social Cost of Carbon,WEU,UWI,2017,No CC,$ per ton of CO2,1.27,NA,NA,NA,NA,NA,Table 9,1x case
+621,Social Cost of Carbon,JSHK,UWI,2017,No CC,$ per ton of CO2,1.98,NA,NA,NA,NA,NA,Table 9,1x case
+622,Social Cost of Carbon,CHI,UWI,2017,No CC,$ per ton of CO2,4.71,NA,NA,NA,NA,NA,Table 9,1x case
+623,Social Cost of Carbon,IND,UWI,2017,No CC,$ per ton of CO2,3.61,NA,NA,NA,NA,NA,Table 9,1x case
+624,Social Cost of Carbon,RUS,UWI,2017,No CC,$ per ton of CO2,-0.24,NA,NA,NA,NA,NA,Table 9,1x case
+625,Social Cost of Carbon,CND,UWI,2017,No CC,$ per ton of CO2,-0.23,NA,NA,NA,NA,NA,Table 9,1x case
+626,Social Cost of Carbon,EEU,UWI,2017,No CC,$ per ton of CO2,0.01,NA,NA,NA,NA,NA,Table 9,1x case
+627,Social Cost of Carbon,SAP,UWI,2017,No CC,$ per ton of CO2,1.80,NA,NA,NA,NA,NA,Table 9,1x case
+628,Social Cost of Carbon,USA,UWI,2025,No CC,$ per ton of CO2,4.37,NA,NA,NA,NA,NA,Table 9,1x case
+629,Social Cost of Carbon,WEU,UWI,2025,No CC,$ per ton of CO2,1.48,NA,NA,NA,NA,NA,Table 9,1x case
+630,Social Cost of Carbon,JSHK,UWI,2025,No CC,$ per ton of CO2,2.35,NA,NA,NA,NA,NA,Table 9,1x case
+631,Social Cost of Carbon,CHI,UWI,2025,No CC,$ per ton of CO2,5.74,NA,NA,NA,NA,NA,Table 9,1x case
+632,Social Cost of Carbon,IND,UWI,2025,No CC,$ per ton of CO2,4.42,NA,NA,NA,NA,NA,Table 9,1x case
+633,Social Cost of Carbon,RUS,UWI,2025,No CC,$ per ton of CO2,-0.24,NA,NA,NA,NA,NA,Table 9,1x case
+634,Social Cost of Carbon,CND,UWI,2025,No CC,$ per ton of CO2,-0.24,NA,NA,NA,NA,NA,Table 9,1x case
+635,Social Cost of Carbon,EEU,UWI,2025,No CC,$ per ton of CO2,0.01,NA,NA,NA,NA,NA,Table 9,1x case
+636,Social Cost of Carbon,SAP,UWI,2025,No CC,$ per ton of CO2,2.12,NA,NA,NA,NA,NA,Table 9,1x case
+637,Social Cost of Carbon,USA,UWI,2050,No CC,$ per ton of CO2,5.95,NA,NA,NA,NA,NA,Table 9,1x case
+638,Social Cost of Carbon,WEU,UWI,2050,No CC,$ per ton of CO2,2.23,NA,NA,NA,NA,NA,Table 9,1x case
+639,Social Cost of Carbon,JSHK,UWI,2050,No CC,$ per ton of CO2,3.74,NA,NA,NA,NA,NA,Table 9,1x case
+640,Social Cost of Carbon,CHI,UWI,2050,No CC,$ per ton of CO2,9.76,NA,NA,NA,NA,NA,Table 9,1x case
+641,Social Cost of Carbon,IND,UWI,2050,No CC,$ per ton of CO2,7.17,NA,NA,NA,NA,NA,Table 9,1x case
+642,Social Cost of Carbon,RUS,UWI,2050,No CC,$ per ton of CO2,-0.23,NA,NA,NA,NA,NA,Table 9,1x case
+643,Social Cost of Carbon,CND,UWI,2050,No CC,$ per ton of CO2,-0.26,NA,NA,NA,NA,NA,Table 9,1x case
+644,Social Cost of Carbon,EEU,UWI,2050,No CC,$ per ton of CO2,0.02,NA,NA,NA,NA,NA,Table 9,1x case
+645,Social Cost of Carbon,SAP,UWI,2050,No CC,$ per ton of CO2,3.01,NA,NA,NA,NA,NA,Table 9,1x case
+646,Social Cost of Carbon,USA,UWI,2100,No CC,$ per ton of CO2,15.71,NA,NA,NA,NA,NA,Table 9,1x case
+647,Social Cost of Carbon,WEU,UWI,2100,No CC,$ per ton of CO2,6.71,NA,NA,NA,NA,NA,Table 9,1x case
+648,Social Cost of Carbon,JSHK,UWI,2100,No CC,$ per ton of CO2,13.01,NA,NA,NA,NA,NA,Table 9,1x case
+649,Social Cost of Carbon,CHI,UWI,2100,No CC,$ per ton of CO2,35.95,NA,NA,NA,NA,NA,Table 9,1x case
+650,Social Cost of Carbon,IND,UWI,2100,No CC,$ per ton of CO2,22.18,NA,NA,NA,NA,NA,Table 9,1x case
+651,Social Cost of Carbon,RUS,UWI,2100,No CC,$ per ton of CO2,-0.44,NA,NA,NA,NA,NA,Table 9,1x case
+652,Social Cost of Carbon,CND,UWI,2100,No CC,$ per ton of CO2,-0.54,NA,NA,NA,NA,NA,Table 9,1x case
+653,Social Cost of Carbon,EEU,UWI,2100,No CC,$ per ton of CO2,0.04,NA,NA,NA,NA,NA,Table 9,1x case
+654,Social Cost of Carbon,SAP,UWI,2100,No CC,$ per ton of CO2,7.50,NA,NA,NA,NA,NA,Table 9,1x case
+655,Gas Consumption,Multiple Regions,6x Damage,2017,No CC,quad Btu,0,NA,NA,NA,NA,NA,Figure 15,This entry is placeholder since the page provided does not contain specific numeric values.

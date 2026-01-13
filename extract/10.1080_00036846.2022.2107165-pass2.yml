@@ -1,0 +1,231 @@
+Drivers of Risk:
+  4: Changes in temperature and humidity impacting labor supply in MENA region.
+  6: Changes in temperature, humidity, and precipitation.
+  8: Changes in meteorological indicators (temperature, humidity); Sea level rise;
+    Heat extremes
+  9: Maximum temperature and relative humidity per governorate, potentially leading
+    to 'Discomfort / Risk Zones'.
+  10: Climate indicators (changes in temperature, humidity, and precipitation).
+  12: Temperature, humidity, and precipitation changes.
+  13: Climate variability (specifically, maximum temperature)
+  15: Temperature and humidity are identified as drivers of risk. Precipitation is
+    also examined, but found to have no significant impact.
+  17: Weekly average maximum temperature, weekly average relative humidity, weekly
+    average precipitation.
+  18: No relevant information
+  19: Weekly average maximum temperature, Weekly average maximum temperature squared,
+    Weekly average relative humidity, Weekly average relative humidity squared, Weekly
+    average precipitation, Weekly average precipitation squared, Age, Age squared,
+    Gender of respondent, Read and write, Basic education, Secondary education, Post-secondary,
+    University, Post-graduate.
+  20: No relevant information
+  21: No relevant information
+  22: Weekly average maximum temperature
+  24: Changes in climate indicators (temperature, relative humidity, precipitation).
+  26: Sea level rise, rising temperatures, heat exposure, temperature.
+Highlights:
+  4: Changes in temperature and humidity significantly impact labor working hours
+    with different effects between high-risk and low-risk groups.
+  6: Increased temperatures during summers decrease the marginal utility of working.
+    The impact of temperature increases is non-linear, with colder temperatures initially
+    leading to increased work hours. The effect of increasing temperatures on working
+    hours differs between 'high-risk' and 'low-risk' groups.
+  8: "Some Mediterranean coastal governorates \u2013 namely Damietta and Port Said\
+    \ in Egypt, Nabeula, Sousse, and Tunis in Tunisia, and Madaba in Jordan \u2013\
+    \ are particularly vulnerable and experiencing more risk than other governorates\
+    \ in their respective countries"
+  9: Identifies 'Discomfort / Risk Zones' in Lebanon, Egypt, and Jordan.
+  12: The study aims to estimate the impact of temperature, humidity, and precipitation
+    on labor supply, differentiating between high-risk and low-risk occupations.
+  13: Climate variability impacts labor supply; negative binomial regression is the
+    preferred model.
+  15: High-risk groups (e.g., agriculture, mining) are more sensitive to temperature
+    and humidity changes than low-risk groups. Humidity significantly impacts labor
+    hours in high-risk groups, but not in low-risk groups. High-risk labor hours are
+    reduced significantly when the heat index is in the danger or extreme danger zone.
+  17: Weekly average maximum temperature and relative humidity have statistically
+    significant effects (p < 0.001) on the outcome variable across all three regression
+    models. The direction of the effects varies, with temperature having a positive
+    linear and negative quadratic impact, while humidity has a negative linear and
+    positive quadratic impact. Age and gender are also strong predictors.
+  18: The table displays statistically significant constant terms (p < 0.01) in the
+    regressions, with associated t-statistics. The number of observations for all
+    regressions is 23,521. AIC and BIC values are provided for two of the columns.
+  19: Weekly average maximum temperature and temperature squared are statistically
+    significant in all models. Age, Gender, and Education levels are statistically
+    significant in most models, indicating they are important factors related to the
+    outcome variable.
+  20: Household wealth score has a statistically significant positive relationship
+    with the outcome variable (unspecified on this page) across all three regression
+    models.
+  21: Important factors include temperature, humidity, age, gender, and education
+    level impacting labor working hours.
+  22: Both the 'High-Risk Group' and 'Low-Risk Group' exhibit a parabolic relationship
+    between weekly average maximum temperature and linear prediction (likely of hours
+    worked), peaking around 35 degrees, suggesting a negative impact on hours worked
+    beyond this temperature.
+  24: Inverse relationship between relative humidity and labor working hours is observed
+    only in the case of high-risk groups. Temperature at which labor working hours
+    are maximized differs between high- and low-risk labor groups.
+  26: Several studies examine the impact of temperature on productivity and labor
+    supply in different countries (Egypt, South Africa, India, Japan, United States).
+Methodology:
+  4: Data from Integrated Labor Market Panel Surveys for Egypt, Jordan, Tunisia (2006-2018)
+    matched with climate data to assess impact on labor working hours.
+  6: Uses unbalanced longitudinal survey data and spatial daily climate indicators.
+    Regression models are conducted separately for 'high-risk' and 'low-risk' groups.
+    Assumes individuals allocate time between working and non-working activities.
+  8: exploit the spatial and temporal variation in observations to capture the impact
+    of changes in meteorological indicators on the number of hours worked by respondents
+    per week
+  9: The maps use data from NOAA CPC Global and NASA POWER. The analysis appears to
+    be based on identifying 'Discomfort / Risk Zones' based on temperature and humidity.
+  10: The study uses count models, specifically Poisson regression, to analyze the
+    impact of climate indicators on labor supply, controlling for socioeconomic and
+    demographic variables. The model estimates the expected number of hours worked
+    per week for an individual based on climate and other factors. The coefficients
+    are estimated using maximum likelihood.
+  11: The study uses Poisson and Negative Binomial regression models to analyze the
+    impact of climate variables on hours of work, based on matched ILMPSs (Integrated
+    Labor Market Panel Surveys) for Egypt, Jordan, and Tunisia, along with geographically
+    gridded daily climate measures. The negative binomial model is preferred when
+    the equidispersion assumption of the Poisson model is violated.
+  12: Regression analysis using spatial and temporal variation in climate data to
+    identify the causal impact of climate on labor supply. Workers are divided into
+    high-risk and low-risk groups based on their occupation's exposure to climate.
+    The analysis controls for individual-level characteristics, wealth score, month
+    of interview fixed effects, governorate fixed effects, and year fixed effects.
+  13: The study uses Ordinary Least Squares (OLS), Poisson regression with robust
+    standard errors, and negative binomial regressions to examine the impact of climate
+    variability on labor supply; Negative binomial regression is preferred due to
+    overdispersion of data, and lower AIC and BIC compared to Poisson regression.
+    Results are applicable to Egypt (2006, 2012, 2018), Jordan (2016), and Tunisia
+    (2014).
+  15: The analysis controls for climate variables (temperature, humidity, precipitation)
+    and demographic/socioeconomic indicators. Average marginal effects are calculated
+    to assess the impact of humidity. The impact of the NOAA heat index (combination
+    of temperature and humidity) is also examined.
+  17: OLS, Poisson, and Negative Binomial regressions are used to model the relationship
+    between climate variables, socio-economic variables, and the outcome of interest
+    for a 'high-risk' group. The table presents coefficient estimates and t-statistics.
+    The results are applicable at a weekly level.
+  18: The analysis uses regressions, including a Poisson regression in Column (2)
+    with robust standard errors. All regressions control for the month and year of
+    visit and governorate of the respondent. The reference group for education levels
+    is Illiterate.
+  19: The analysis uses Ordinary Least Squares (OLS), Poisson, and Negative Binomial
+    regression models. The coefficients represent the estimated change in the (unspecified)
+    outcome variable for a one-unit change in the independent variable, controlling
+    for other variables in the model. Significance levels are indicated by asterisks
+    (***, **).
+  20: Three regression models are used, including a Poisson regression in Column (2)
+    which uses robust standard errors to correct for overdispersion. All regressions
+    control for the month and year of visit and governorate of the respondent.
+  21: Analysis performed using negative binomial regression on labor working hours
+    influenced by climatic factors.
+  22: Regression analysis is used to model the relationship between temperature and
+    hours worked, controlling for the month and year of visit and governorate of the
+    respondent. Predicted margins and 95% confidence intervals are presented graphically.
+  24: Poisson and Negative Binomial regressions. Matching monthly climatology variables
+    (monthly long-term mean maximum temperature, temperature, precipitation, and relative
+    humidity) with ILMPS dataset. Monthly climatic normals are calculated by NASA
+    POWER over the period 1/1/1984 to 31/12/2013.
+  26: El-Raey et al. (1999) focuses on adaptation strategies; Shayegh et al. (2020)
+    models the impact of rising temperatures; Somanathan et al. (2015) examines the
+    impact of temperature on productivity and labor supply; Takakura et al. (2018)
+    examines the role of working time shift to offset heat exposure occupational health
+    costs; Zivin and Neidell (2014) look at the allocation of time given temperature
+    changes.
+More Notes:
+  6: The study focuses on the MENA region, offering a representation of climate change
+    variability and labor market outcomes.
+  9: The 'Discomfort / Risk Zones' are shown on maps of Lebanon, Egypt, and Jordan.
+    The maps suggest a spatial analysis of climate-related risk, but the specific
+    nature of the risk and its economic implications are not detailed on this page.
+  11: The analysis focuses on individual labor supply (hours of work) as the outcome,
+    and the shocks (climate variables) impact this outcome in the respondent's location
+    of residence.
+  12: The location data used in the estimation varies by country (Egypt, Jordan, and
+    Tunisia). The high-risk group includes agriculture, forestry, fishing, mining,
+    manufacturing, electricity, gas, steam, air conditioning, water supply, sewage,
+    waste management, construction, and transportation sectors.
+  13: The sample consists of 45,907 observations; 50% of respondents have outdoor
+    occupations with high exposure to climate; 80% are males; The average age is 40;
+    50% have basic or secondary education, 19% are illiterate, and 18% are university
+    graduates.
+  15: The paper defines 'high-risk' groups as those with higher exposure to climate
+    (e.g., agriculture, mining).
+  17: The table only presents results for a 'high-risk group,' without specifying
+    what defines this group or the outcome variable. The socioeconomic variables,
+    such as education and wealth, are included in the model.
+  18: The absence of explicit outcome variables and risk drivers makes it difficult
+    to determine the specific macroeconomic or macro-fiscal effects studied.
+  19: The dependent variable is not defined on this page. T-statistics are shown for
+    each coefficient.
+  20: The dependent variable is not explicitly stated in the text provided. The reference
+    group for education levels is Illiterate.
+  21: The page provides statistical associations but lacks direct information on macroeconomic
+    or macro-fiscal outcomes.
+  22: The paper distinguishes between 'High-Risk' and 'Low-Risk' groups, but the criteria
+    for group assignment aren't present on this page.
+  24: Study focuses on the MENA region and the relationship between climate indicators
+    and labor supply.
+  26: The page provides a list of studies investigating climate change impacts and
+    adaptation strategies at a national level, covering diverse geographical locations
+    and various methodologies.
+No relevant information:
+  1: No relevant information
+  7: No relevant information
+Outcome(s) of Interest:
+  6: Individual-level labor supply measured by hours of work per week.
+  8: labor productivity and health are at risk of thermal discomfort due to heat extremes
+  10: Labor supply, measured by the number of hours worked.
+  12: Labor supply, measured as hours of work.
+  13: Labor supply (number of hours worked per week)
+  15: Labor market hours (number of hours worked) is the outcome of interest.
+  17: Not directly specified, but the dependent variable in the regressions, while
+    not explicitly stated on this page, is implied to be related to a 'high-risk group'
+    and influenced by climate variables and socioeconomic factors. It is likely some
+    measure of economic harm experienced by the individual/group.
+  18: No relevant information
+  19: The dependent variable for the regressions is not specified on this page, but
+    the table is titled "Regression results for the low-risk group", so the dependent
+    variable likely relates to risk or vulnerability within that group.
+  20: No relevant information
+  21: No relevant information
+  22: Hours worked
+  24: Potential negative impact on the economy in the MENA region. Productivity indicators
+    such as total factor productivity by sector.
+  26: Economic productivity, labor availability, productivity, labor supply, occupational-health
+    cost, allocation of time.
+Quantitative material:
+  6: Data from Egypt (2006, 2012, 2018), Jordan (2010, 2016), and Tunisia (2014) Integrated
+    Labor Market Panel Surveys (ILMPSs).
+  9: The maps show regions shaded based on values ranging from 22 to 77, likely corresponding
+    to color intensity for an unspecified index or percentage.
+  13: "Average maximum temperature ranges between 9 and 44 \xB0C; Average hours worked\
+    \ per week is 46; The variance of the hours worked is 301.37; Mean hours worked\
+    \ is 46."
+  15: "Temperature at which labor market hours are maximized: 22\xB0C for high-risk\
+    \ groups, 26\xB0C for low-risk groups. A unit increase in humidity reduces labor\
+    \ working hours by -0.0065 on average in high-risk groups."
+  17: Regression coefficients and t-statistics are provided for various climate and
+    socio-economic variables using OLS, Poisson, and Negative Binomial regression
+    models.
+  18: The table presents regression results with coefficients, t-statistics (in parentheses),
+    number of observations, Akaike Information Criterion (AIC), and Bayesian Information
+    Criterion (BIC).
+  19: Regression coefficients and t-statistics are provided for each variable under
+    OLS, Poisson, and Negative Binomial regression models.
+  20: Household wealth score is significant at p < 0.01 level across three regression
+    models with coefficients of 0.613, 0.0131, and 0.0134, respectively (t-statistics
+    in parentheses).
+  21: Statistical estimates on labor working hours based on climatic conditions.
+  22: The coefficients for 'Post-graduate', 'Household wealth score', and 'Ln (Alpha)
+    Constant' are presented along with their t-statistics and significance levels
+    (p < 0.10, p < 0.05, p < 0.01).
+  24: "Labor working hours for the high-risk and low-risk groups are maximized at\
+    \ 22 and 26\xB0C, respectively."
+  26: "Shayegh et al. (2020): Climate and Development 0.0, pp. 1\u201311; Takakura\
+    \ et al. (2018): Earth\u2019s Future 6.11, pp. 1588\u20131602; Zivin and Neidell\
+    \ (2014): Journal of Labor Economics 32.1, pp. 1\u201326."

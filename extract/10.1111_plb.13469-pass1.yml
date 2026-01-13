@@ -1,0 +1,62 @@
+Drivers of Risk:
+  4: Decreasing trends in soil moisture anomaly, millennial drought events (2003,
+    2018)
+  6: Severe droughts, specifically previous-year SMA (soil moisture anomaly).
+  10: Drought and soil moisture decrease are indicated as drivers impacting forest
+    mortality rates.
+Highlights:
+  6: European forest ecosystems are negatively affected by severe droughts. Conifer
+    mortality is influenced by previous-year SMA. Mortality rates vary spatially and
+    temporally.
+  10: European forests are experiencing increased mortality trends due to decreasing
+    soil moisture, suggesting a tipping point and potential interaction with other
+    disturbances like wildfires.
+Methodology:
+  1: The study uses the ICP Forest crown defoliation dataset to monitor tree mortality.
+    It employs a high-resolution drought index based on a hydrological water-balance
+    and runoff model to assess soil moisture anomaly. A generalized linear mixed model
+    is used to identify the most important drivers of mortality patterns. The analysis
+    covers 25 years.
+  4: Used the R package brms (version 2.16.3) based on the probabilistic programming
+    language Stan to estimate a model incorporating current-year SMA, previous-year
+    SMA, and their interaction. Models were run with four MCMC chains, 6000 iterations
+    each, with a warm-up of 1000 iterations. Approximate leave-one-out cross validation
+    was employed.
+  6: 'Long-term forest monitoring, spatial analysis of mortality rates, statistical
+    modeling (varying intercept and varying slopes models) to assess the impact of
+    previous-year SMA on forest mortality. The maps cover specific time periods: 2003-2005
+    and 2018-2020.'
+  10: The study uses long-term forest monitoring across European plots to assess mortality
+    trends linked to drought; analyses performed with spatially and temporally high-resolution
+    dataset.
+More Notes:
+  1: The study suggests that forest monitoring could play a key role in guiding future
+    forest management plans, implying a potential benefit of adaptation through informed
+    management.
+  4: The analysis examines the relationship between soil moisture anomaly and tree
+    mortality.
+  6: The data used to generate the maps were scaled for illustration and thresholds
+    were chosen to enhance visibility. The study focuses on Norway spruce (Picea abies).
+    The effect of previous-year SMA was stronger for conifers compared to broadleaves/minor
+    species in a varying intercept model (0.67 versus 0.53).
+  10: The page focuses on ecological outcomes rather than direct economic analysis,
+    emphasizing the impact of environmental changes on forest health.
+No relevant information:
+  9: No relevant information
+Outcome(s) of Interest:
+  1: No relevant information
+  4: No relevant information
+  6: Forest mortality rates.
+  10: No specific macroeconomic or fiscal outcomes, costs, or benefits are directly
+    discussed on this page.
+Quantitative material:
+  4: Linearly increasing trends in annual mortality rates were significant for Norway
+    spruce, oak, European beech, Scots pine, European larch as well as for the remaining
+    minor tree species (P < 0.05).
+  6: Mortality rates visualized spatially with red, orange, blue, light blue, and
+    grey dots corresponding to ranges of Ash Mortality Rate (AMR) values (see map
+    details in prompts); statistical analysis quantifying the effect of previous-year
+    SMA on conifer mortality using varying intercept and varying slopes models, with
+    specific coefficients (0.67 vs 0.53) and credibility intervals mentioned.
+  10: No specific quantitative information related to macroeconomic or fiscal outcomes
+    is presented.

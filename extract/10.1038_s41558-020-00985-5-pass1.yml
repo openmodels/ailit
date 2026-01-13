@@ -1,0 +1,124 @@
+Drivers of Risk:
+  1: Increases in seasonally adjusted day-to-day temperature variability.
+  2: Day-to-day temperature variability (measured as intra-monthly standard deviation
+    of daily temperature)
+  3: Day-to-day temperature variability, seasonal temperature difference, annual average
+    temperature level, annual average temperature change, and total annual precipitation.
+  4: Day-to-day temperature variability and seasonal temperature differences are identified
+    as key drivers of risk.
+  5: Changes in day-to-day temperature variability and its interaction with seasonal
+    temperature differences.
+  6: Day-to-day temperature variability
+  8: Annual aggregate of day-to-day temperature variability.
+  10: Day-to-day temperature variability
+  12: A 1 degree increase of day-to-day temperature variability
+Highlights:
+  1: Day-to-day temperature variability has a newly identified impact on macro-economic
+    growth separate from annual average temperature changes.
+  2: Day-to-day temperature variability has a negative linear effect on regional growth
+    rates.
+  3: Day-to-day temperature variability has a statistically significant negative impact
+    on regional growth rates. The impact of day-to-day temperature variability on
+    regional growth rates varies geographically, with larger reductions in regions
+    with small seasonal temperature differences (strong latitudinal dependence).  Based
+    on adjusted R^2 and BIC, model 7 is selected as the preferred specification.
+  4: The effect of day-to-day variability in winter on annual regional growth rates
+    is statistically insignificant and of negligible magnitude.
+  5: Higher income regions have stronger adaptation response to seasonal temperature
+    differences compared to lower income regions.
+  6: "Day-to-day temperature variability constitutes a previously unidentified impact\
+    \ channel of considerable magnitude in the climate\u2013economy relationship."
+  8: Day-to-day temperature variability has a negative effect on economic growth,
+    and this effect is dependent on the average regional seasonal temperature difference.
+  10: Regions which are accustomed to smaller seasonal temperature differences suffer
+    greater marginal losses (greater negative marginal changes) from a 1 degree increase
+    of day-to-day temperature variability.
+  12: The difference between the response of high- and low-income regions to temperature
+    variability is not significant, although above-median income regions generally
+    experience smaller marginal losses.
+Methodology:
+  1: Analysis performed using fixed-effects panel models combining observed day-to-day
+    temperature variability with subnational economic data for 1,537 regions worldwide
+    over 40 years.
+  2: Fixed-effects panel regression models to exploit within-region changes of day-to-day
+    temperature variability and regional growth from one year to the next, controlling
+    for contemporaneous global shocks, omitted biases between regions, and region-specific
+    trends.
+  3: Panel regression models are used to estimate the effect of climate variables
+    on regional growth rates. Standard errors are clustered at the regional level.
+    The analysis uses regional data and likely applies to the time period included
+    in the panel data.  Model 7 is selected as the preferred specification based on
+    adjusted R-squared and BIC.
+  4: Robustness tests include using different climate re-analysis datasets, weighting
+    climate data by population, including region-specific time trends, and excluding
+    major economies/industries.
+  5: Partitioning of data by median national income; regression analysis with error
+    clustering by country and year to evaluate the impact of temperature variability.
+  6: Econometric specification analysis.
+  8: Fixed-effects panel regression models are applied to regional economic data from
+    1,537 regions in 76 countries spanning 1979-2018, controlling for regional and
+    yearly fixed effects, average seasonal temperature difference, annual average
+    temperature, annual average temperature change, and yearly total precipitation.
+  10: Model (7) in Table 1; 95% confidence intervals are shown shaded
+  12: Estimation of marginal effects based on models shown in Supplementary Table
+    9, partitioned based on regional income as shown in Extended Data Fig. 2b.
+More Notes:
+  2: The magnitude of the effect of day-to-day temperature variability is modulated
+    by the seasonal temperature difference. Countries with smaller seasonal temperature
+    differences are more affected by changes in day-to-day temperature variability.
+    The effect of day-to-day temperature variability is independent of changes in
+    annual average temperature.
+  3: The paper suggests that the negative effect of day-to-day temperature variability
+    on growth may be due to either the damaging effects of variability or nonlinearities
+    in the response to weather variables.
+  5: Vulnerability distribution indicates greater marginal losses in low-latitude
+    and coastal regions.
+  6: Spill-over effects may potentially attenuate or aggravate these effects, but
+    a thorough assessment of their role requires explicit assessment of the trade,
+    financial and infrastructure networks through which they may propagate, which
+    is beyond the scope of the work.
+  8: The study uses ERA5, WFDEI, and EWEMBI reanalysis datasets for climate data and
+    the GADM database for regional boundaries. The aggregation of climate data to
+    the regional level is area-weighted or population weighted.
+No relevant information:
+  11: No relevant information
+Outcome(s) of Interest:
+  1: Reductions in macro-economic growth rates due to increased seasonally adjusted
+    day-to-day temperature variability.
+  2: Regional growth rates (measured as the first difference of the logarithm of gross
+    regional product)
+  3: Regional growth rates
+  4: Marginal change in growth rate (percentage points) is used as a measure of macroeconomic
+    outcome.
+  5: Marginal losses from day-to-day temperature variability generally larger in low-income
+    nations.
+  6: Economic growth effects at a national level
+  8: Growth rate of gross regional product (percentage-point change).
+  10: Regional economic growth rates
+  12: Regional growth rates
+Quantitative material:
+  1: An extra degree of variability results in a five percentage-point reduction in
+    regional growth rates on average, with the highest vulnerability in low-latitude,
+    low-income regions experiencing a twelve percentage-point reduction.
+  2: An extra degree Celsius of day-to-day temperature variability in a given year
+    and region reduces the regional growth rate by at least five percentage points.
+  3: Table 1 shows regression results for the effect of climate variables on regional
+    growth rates. For example, in model (1), a one-unit increase in day-to-day temperature
+    variability is associated with a -0.0538 percentage point change in regional growth
+    rates (significant at p<0.001).  Column (7) is the preferred model.
+  4: Figure 3 plots marginal change in growth rate (percentage points) against Country
+    GDP per capita (2017 US$) with the size of points indicating population and color
+    denoting average seasonal temperature difference.
+  5: Historical deviations of day-to-day temperature variability from regional means
+    have significant economic impact.
+  6: "Day-to-day temperature variability of 0.2\xB0C translates to economic growth\
+    \ effects of approximately one percentage point under the central econometric\
+    \ specification."
+  8: The paper uses fixed-effects panel regression models to estimate the effect of
+    day-to-day temperature variability on economic growth (measured as the first difference
+    of the logarithm of gross regional product).
+  10: "Marginal effects of a 1\xB0 Celsius increase of day-to-day temperature variability\
+    \ on regional growth rates, as estimated by model (7) in Table 1"
+  12: Marginal effects of a 1 degree increase of day-to-day temperature variability
+    on regional growth rates; Above-median income regions generally experience smaller
+    marginal losses

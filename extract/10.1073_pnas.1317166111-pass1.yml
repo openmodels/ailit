@@ -1,0 +1,72 @@
+Drivers of Risk:
+  2: Natural disasters (geologic and climatic hazards), rainfall variations, temperature
+    variations, extreme events.
+  3: Temperature, precipitation, natural disasters (earthquakes, eruptions, floods,
+    landslides)
+  4: Temperature; Rainfall; Floods; Volcanic eruptions; Landslides
+  5: Temperature, Precipitation, Natural Disasters (Earthquake, Eruption, Flood, Landslide).
+Highlights:
+  2: This paper concludes that natural disasters and rainfall result in temporary,
+    short-distance moves, but provides new evidence on the temperature-migration link
+    in the context of microlevel studies, and finds that migration seems to be permanent
+    at the provincial level in Indonesia.
+  3: "Temperature has a significantly nonlinear effect on migration, with a turning\
+    \ point at 25 \xB0C. Above 25 \xB0C, outmigration increases nonlinearly with temperature.\
+    \ Precipitation also has a nonlinear effect on migration, with a turning point\
+    \ at approximately 2.2 m of average annual precipitation. Landslides tend to have\
+    \ a consistent positive effect on migration."
+  4: "Temperature has a significant nonlinear effect on the value of household assets,\
+    \ with a turning point at 24\xB0C. Landslides have a significant negative effect\
+    \ on household assets and a positive effect on migration."
+  5: Temperature has a strongly nonlinear effect on permanent migration.
+Methodology:
+  2: The paper uses a difference-in-differences approach with household panel data
+    from the Indonesian Family Life Survey (IFLS) to study the migration of households
+    before and after disasters, establishing a causal link between climatic variations
+    and migration. The analysis is performed for Indonesia during the periods 1993-1997,
+    1997-2000, and 2000-2007.
+  3: Household-level data is collapsed to the province-year level and provincial outmigration
+    rates are predicted over time using a spatial autocorrelation SE estimator. Regressions
+    control for province and time fixed effects. SEs are corrected using multidimensional
+    clustering.
+  4: Empirical model estimating the effect of climate and disaster variables on household
+    assets, similar to migration model.  Regression analysis using different periods
+    of environmental variables (2 years, 4 years) to predict their effects on household
+    asset values.
+  5: "The analysis uses temperature projections based on the CMIP3 model (averaged\
+    \ over 21 CMIP3 models) for temperature projections, using 1960\u20131990 as the\
+    \ baseline."
+More Notes:
+  2: The study controls for province fixed effects to account for social capital or
+    network effects on migration, and year fixed effects to account for unobservable
+    common climatic shocks.
+  3: Spatial autocorrelation due to ENSO events may cause neighboring provinces to
+    share spatially correlated disturbances. The results are robust using a conservative
+    approach accounting for spatial and temporal autocorrelation.
+  5: The study assumes that migration response to multiyear variations resembles that
+    of long-term trends in temperature.
+Outcome(s) of Interest:
+  2: No relevant information
+  3: Annual probability of household migration
+  4: Household asset value (proxy for wealth/income); Annual migration probability
+  5: Potential magnitude of climate-related migration for the country as a whole.
+Quantitative material:
+  2: The paper presents a model predicting the annual probability of migration due
+    to temperature, precipitation and disaster effects. The equation includes terms
+    for temperature (T), precipitation (R), and disaster variables (X), household-level
+    characteristics (Z), province fixed effects (Pp), and year fixed effects (T(t)).
+  3: "Table 1 presents regression results showing the effects of temperature, precipitation,\
+    \ and disasters on the annual probability of household migration. For example,\
+    \ a 1 \xB0C increase in temperature from 26 \xB0C to 27 \xB0C increases the annual\
+    \ probability of migration by 0.008 (0.8% points). An increase from 27 \xB0C to\
+    \ 28 \xB0C raises the annual outmigration probability by 0.014. A rise in precipitation\
+    \ from 2.3 m to 3.3 m increases migration probability by 0.00146."
+  4: "Houses destroyed by flood reduce annual migration probability by 0.000006; Temperature\
+    \ turning point for household asset value is 24\xB0C; 1\xB0C increase at 25\xB0\
+    C reduces household asset value by 14-15%; 1\xB0C increase at 26\xB0C reduces\
+    \ household asset value by 28-31%; Each 1% increase in deaths from landslides\
+    \ lowers household assets by 5%"
+  5: "For provinces with a starting temperature around 26 \xB0C, the predicted increase\
+    \ in outmigration probability varies from 0.02 to 0.03. For provinces with a starting\
+    \ temperature around 27 \xB0C, the predicted increase in outmigration probability\
+    \ ranges from 0.03 to 0.04 for the first two and 0.03 to 0.05 for Jakarta."

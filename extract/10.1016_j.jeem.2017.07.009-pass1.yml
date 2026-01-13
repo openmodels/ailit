@@ -1,0 +1,269 @@
+Drivers of Risk:
+  1: Temperature changes; Slowest warming scenario (B1); Most rapid warming scenario
+    (A2) under global climate models UKMO-HadCM3 and PCM
+  3: No relevant information
+  4: Temperature changes (seasonal average temperatures and temperature bins)
+  5: Daily average temperature, rainfall, sunshine duration, air pressure, relative
+    humidity, and average wind speed.
+  7: Seasonal average temperatures (Tempspring, Tempsummer)
+  8: Seasonal temperature changes (spring, summer, fall, winter)
+  9: Changes in seasonal average temperatures (summer, spring, fall, winter) and sunshine
+    hours.
+  10: Daily average temperature, rainfall, sunshine duration, air pressure, relative
+    humidity, wind speed.
+  11: "Temperature changes, specifically the number of days with average temperatures\
+    \ at certain ranges (e.g., [21-24\xB0C), 30\xB0C, and below 0\xB0C)."
+  12: Temperature variations (seasonal average temperatures and temperature bins)
+  13: Daily average temperature, Seasonal average temperatures
+  14: Summer and winter temperatures.
+  15: Summer temperature (Tempsummer) is the primary driver of risk examined.
+  16: Future warming/climate change, specifically projected increases in seasonal
+    (especially summer) average temperatures.
+  17: Temperature changes (increased spring temperatures, elevated summer temperatures,
+    lagged temperature changes).
+Highlights:
+  1: "Industrial output is nonlinear in temperature changes; Output responds positively\
+    \ to higher spring temperatures and negatively to elevated summer temperatures;\
+    \ Output increases linearly with temperature up to 21-24 degrees Celsius and then\
+    \ declines sharply at higher temperatures; Lagged temperature changes exert large\
+    \ and significant impacts on current year\u2019s output; Higher summer temperatures\
+    \ have larger detrimental effects on output in low-temperature regions than in\
+    \ high-temperature regions; Industrial output in China is projected to decrease\
+    \ by 3-36% by 2080 under the slowest warming scenario (B1) and by 12-46% under\
+    \ the most rapid warming scenario (A2) under the global climate models UKMO-HadCM3\
+    \ and PCM."
+  3: The paper investigates the impact of temperature on China's industrial output
+    using firm-level data, includes sunshine duration in the analysis, and explores
+    adaptation strategies in high-temperature regions.
+  4: The study intends to obtain the total marginal effect of temperature on output,
+    including direct and indirect effects through input productivities, input and
+    output prices, and adaptation.
+  5: "The coefficients of the temperature bins measure the marginal effect on output\
+    \ of an additional day in the mth temperature bin, relative to a day in the [21\xB0\
+    C, 24\xB0C) bin."
+  7: Higher spring temperatures (Tempspring) are positively correlated with industrial
+    output. Higher summer temperatures (Tempsummer) are negatively correlated with
+    industrial output.
+  8: Summer temperature has a statistically significant positive effect on value added
+    per worker. The inclusion of sunshine variables affects the results, as does the
+    inclusion of lagged variables.
+  9: The cumulative negative effect of summer temperature increases on industrial
+    output is substantial.
+  10: "The relationship between temperature and output is nonlinear and exhibits an\
+    \ inverted-U shape when temperature is above 15\xB0C. Output responds negatively\
+    \ to low temperatures (< 12\xB0C)."
+  11: "Industrial output increases approximately linearly with temperature up to 21-24\xB0\
+    C, and then declines sharply with temperatures above 30\xB0C. Elevated temperatures\
+    \ in prior years can negatively affect current year output."
+  12: "Temperature variations impact output, with negative effects from summer and\
+    \ winter temperatures and positive effects from spring temperatures. The critical\
+    \ temperature threshold for negative impacts is identified as [21\xB0C, 24\xB0\
+    C]. Future global warming is expected to lead to a reduction in output."
+  13: Low and high temperatures negatively influence firms' investment; inventory
+    is positively correlated with temperature; Output is nonlinear in temperature
+    changes and exhibits negative responses to low and high temperatures; Temperature
+    effects on output differ across industries.
+  14: Higher summer temperatures have large and negative impacts on output. Higher
+    winter temperatures also lead to substantial output losses in other industries,
+    such as food processing, leather, rubber and non-ferrous metal smelting. High-temperature
+    regions might be better than low-temperature regions at coping with high temperatures.
+  15: '''High-temperature'' regions in China show better adaptation to elevated summer
+    temperatures compared to low-temperature regions, based on value added per worker,
+    though the paper caveats that direct evidence of adaptation is lacking.'
+  16: Future warming is projected to significantly reduce China's industrial output.
+    The magnitude of the reduction varies considerably depending on the climate model
+    and warming scenario used.
+  17: Industrial output exhibits nonlinear responses to temperature changes, responding
+    positively to increased spring temperatures and negatively to elevated summer
+    temperatures. Industrial firms in China may be more vulnerable to higher summer
+    temperatures than firms in other countries.
+Methodology:
+  1: Firm-level panel data of annual industrial output is paired with fine-scale daily
+    weather data to estimate the responses of industrial output to temperature changes
+    in China
+  3: The paper contributes to the literature by using firm-level data from a large
+    country (other than the US) to examine the temperature effects on industrial output,
+    incorporating sunshine duration as an explanatory variable, and providing evidence
+    that adaptation to global warming may have been actively undertaken in high-temperature
+    regions in China.
+  4: Regression analysis using firm-level data in China, with firm and industry/year
+    fixed effects, and including other weather variables (rainfall, sunshine duration,
+    air pressure, relative humidity, and average wind speed) as controls.
+  5: The temperature effects on output are identified from random variations in temperature
+    over time using firm-level panel data from 1998 to 2007. They use two-way clustering
+    to account for spatial and serial correlation of the error terms.
+  7: Panel data analysis using firm-level data from China from 1998-2007. Models include
+    firm fixed effects and two-digit industry/year fixed effects. Examines the effects
+    of weather on industrial output using models with no lags and lagged values (up
+    to four years) of the weather variables.
+  8: The study uses regression analysis with firm fixed effects and two-digit industry/year
+    fixed effects. Standard errors are clustered within firms and within prefecture-level
+    city-years. The dependent variable is the log of value added per worker. Models
+    include controls for rainfall, air pressure, relative humidity, average wind speed,
+    and sunshine hours.
+  9: Regression analysis using seasonal average temperatures and sunshine hours as
+    explanatory variables for industrial output.
+  10: Regression analysis using temperature bins as temperature variables, controlling
+    for weather variables, firm fixed effects, and industry/year fixed effects. Standard
+    errors are clustered within firms and within prefecture-level city-years. Models
+    with no lags and two-year lags are considered.
+  11: The study uses a regression model with temperature bins as temperature variables,
+    controlling for rainfall, sunshine duration, air pressure, relative humidity,
+    and average wind speed. Firm fixed effects and two-digit industry/year fixed effects
+    are included, with standard errors clustered within firms and prefecture-level
+    city-years. Two lags of weather variables are used.
+  12: Econometric estimation strategies using firm-level data from China; Regression
+    analyses using fixed effects models and dynamic panel data approaches (GMM); Robustness
+    checks including variations in standard errors, inclusion of region-year fixed
+    effects, and different data sampling criteria; Balanced sample from 1998 to 2007;
+    Aggregation of firm-level data into a county panel.
+  13: Panel data methodology exploring channels through which temperature in prior
+    years might affect current year's output; regressions incorporate firm fixed effects
+    and two-digit industry/year fixed effects; standard errors are clustered within
+    firms and within prefecture-level city-years.
+  14: "Regression analysis (Eq. 2) with firm fixed effects, year fixed effects, four\
+    \ lags of weather variables (temperature, sunshine hours, rainfall, air pressure,\
+    \ relative humidity, and average wind speed). Standard errors are clustered within\
+    \ firms and within prefecture-level city-years. Estimated coefficients of temperature\
+    \ variables are interpreted as the percentage changes in output with a 1\xB0C\
+    \ increase in temperature. Investigates climate adaptation by interacting weather\
+    \ variables with a dummy for high-temperature counties."
+  15: The study uses regression analysis with firm fixed effects and two-digit industry
+    year fixed effects to estimate the effect of summer temperature on output in 'high-temperature'
+    regions. The definitions for 'high-temperature' are based on different geographic
+    or climate boundaries, including the Huai River-Qin Mountains line, above-median
+    humidity, and above-median rainfall. Climate change impacts are also projected
+    using scenarios from Climate-Wizard, which are applicable to medium term (2050s)
+    and long term (2080s).
+  16: The study calculates projected changes in seasonal average temperatures using
+    the ClimateWizard database, then computes firm-specific predicted changes in output
+    based on coefficient estimates of cumulative temperature effects, weighted by
+    firm share in total output, to estimate the impacts of future warming on China's
+    industrial output. The results are applicable to the 2050s (medium term) and 2080s
+    (long term) under different climate models (UKMO-HadCM3 and PCM) and warming scenarios
+    (B1, A1B, and A2).
+  17: Firm-level panel data analysis of annual industrial output combined with fine-scale
+    daily weather data in China. Results are applicable to regions with clear distinctions
+    of four seasons.
+More Notes:
+  1: Adaptation to warming may have been actively undertaken in high-temperature regions
+    in China.
+  3: This paper focuses on the industrial sector in China, which contributes 43% of
+    the country's GDP.
+  4: 'The study uses two different approaches to construct temperature variables:
+    seasonal average temperatures and temperature bins.'
+  5: The analysis is performed at the firm level, and the authors control for industry-year
+    and firm fixed effects. They use weather data from 820 weather stations in China.
+    For counties without a weather station, the weather information from the nearest
+    neighboring county is imputed.
+  7: The analysis focuses on temperature effects on output. Other weather variables
+    were considered but not reported on this page. Weather variables are highly correlated.
+    The results are applicable to China from 1998-2007.
+  8: The figure mentioned depicts estimated temperature effects on output in percentage
+    terms. The coefficients can be interpreted as the percentage changes in output
+    with a 1 degree Celsius increase in temperature.
+  9: The inclusion of sunshine hours in the analysis significantly affects the parameter
+    estimates for temperature variables, suggesting that excluding sunshine hours
+    can lead to biased results.
+  10: Higher winter temperatures increase the share of female workers and reduce the
+    share of male workers, with an insignificant impact on the total number of workers
+    employed, potentially reducing output due to physically demanding industrial jobs.
+  11: The study finds lagged temperature effects, where temperature changes in the
+    prior two years also affect current year's output.
+  12: The analysis focuses on industrial activities in China, considering the impact
+    of weather on weekdays, weekends, and holidays. The paper explores lagged temperature
+    effects on output.
+  13: Analysis focuses on industrial firms.
+  15: "The coefficients for the temperature effect are interpreted as percentage changes\
+    \ in output with a 1\xB0C increase in temperature. The regressions include controls\
+    \ for sunshine hours, rainfall, air pressure, relative humidity, and average wind\
+    \ speed."
+  16: The main factor causing future output reductions is the projected increase in
+    summer temperature. The authors also mention that the estimated climate impacts
+    on industrial output may be larger than the damage that will actually be caused
+    by global warming in the long term. Results are presented for a range of robustness
+    checks, displayed in different columns of Table 3, relating to different methods
+    used to estimate the impacts of temperature change on output.
+  17: The estimates of future damage may be overestimated due to the inability to
+    capture long-term adaptation by firms.
+Outcome(s) of Interest:
+  1: Industrial output
+  3: No relevant information
+  4: Industrial output (measured as value added per worker)
+  5: Firm-level industrial output.
+  7: Industrial output
+  8: Log value added per worker (as a proxy for output/productivity)
+  9: Industrial output
+  10: Log value added per worker (proxying industrial output).
+  11: Industrial output (measured as log value added per worker) is affected by temperature
+    changes.
+  12: Output (firm-level and county-level, GDP implications inferred)
+  13: Firms' investment levels, Firms' inventory levels, Industrial firms' production,
+    Output
+  14: Log value added per worker (as a proxy for productivity) in 39 two-digit industries.
+  15: Log value added per worker is used as the dependent variable to measure output.
+  16: Projected impacts of future warming on China's industrial output (percentage
+    change).
+  17: Industrial output.
+Quantitative material:
+  1: Industrial output in China is projected to decrease by 3-36% by 2080 under the
+    slowest warming scenario (B1) and by 12-46% under the most rapid warming scenario
+    (A2) under the global climate models UKMO-HadCM3 and PCM
+  3: No relevant information
+  4: Regression analysis to estimate percentage changes in output with a 1 degree
+    Celsius increase in seasonal average temperatures.
+  5: "The paper uses temperature bins to quantify the effect of temperature on output\
+    \ (e.g., Tbin1r;t = number of days when daily average temperature is below 0\xB0\
+    C). It also uses linear and quadratic forms of rainfall, sunshine duration, air\
+    \ pressure, relative humidity, and average wind speed."
+  7: "A 1\xB0C increase in Tempspring is associated with a 1.6-3.0% increase in output,\
+    \ depending on model specifications. Parameter estimates of Tempsummer are negative\
+    \ and statistically significant at the 1% level."
+  8: Table 1 provides coefficient estimates for the impact of seasonal temperature
+    on log value added per worker. For example, a 1 degree Celsius increase in summer
+    temperature is associated with a 0.0346 (3.46%) increase in value added per worker
+    in model (1) and a 0.0451 (4.51%) increase in value added per worker in model
+    (2). Column (3) uses a one year lag and finds cumulative effects of 0.0764 (7.64%)
+  9: "Lagged effects: A 1\xB0C increase in Tempsummer and Tempwinter in year t-1 can\
+    \ reduce output in year t by 1.9e2.0% and 1.8e3.2%, respectively, while each 1\xB0\
+    C increase in Tempspring and Tempfall in the previous year can increase current\
+    \ year\u2019s output by 3.4e3.9% and 2.2e2.4%."
+  10: "A critical temperature threshold of [21\xB0C, 24\xB0C) is identified, relative\
+    \ to which other temperature bins have non-positive marginal effects on industrial\
+    \ output."
+  11: "Replacing days at [21-24\xB0C) temperatures with full days at 30\xB0C will\
+    \ decrease output by 7.7%, while replacing with days below 0\xB0C will decrease\
+    \ output by 9.5%."
+  12: "Negative contemporaneous temperature effects on output from rising summer temperatures\
+    \ are statistically significant at the 1% level, ranging between 2.7% and 5.6%.\
+    \ Negative effects of each 1\xB0C increase in winter temperature lie between 1.2%\
+    \ and 3.4%. Positive temperature effects on output in the spring are also robust.\
+    \ Cumulative effects of summer and winter temperatures on output are negative\
+    \ and statistically significant, at (-)8.9% to (-)26.5% and (-)6.2% to (-)14.2%,\
+    \ respectively. Cumulative effect of spring temperature on output is also statistically\
+    \ significant and ranges between 5.9% and 14.6%. Cumulative effect of fall temperature\
+    \ on output is positive and statistically significant, ranging from 5.6% to 14.8%."
+  13: "An additional day at 30\xB0C or 12\xB0C can lead to reductions in firms' investment\
+    \ by about 0.1% and 0.3%, respectively., An additional day with average temperatures\
+    \ below 3\xB0C or above 30\xB0C can cause a significant increase in firms' inventory\
+    \ levels., Cumulative effects of a 1\xB0C increase in summer temperature leads\
+    \ to output reductions of 48.7%, 41.2% and 34.7% respectively in ferrous metal\
+    \ mining, timber, and rubber industries."
+  14: "A 1\xB0C increase in winter temperature leads to a 42.9% reduction in stationary\
+    \ output and a 33% reduction in office machinery output."
+  15: "A 1\xB0C increase in summer temperature in 'high-temperature' regions (defined\
+    \ in three different ways) has a statistically significant positive effect on\
+    \ log value added per worker, suggesting these regions are better at adapting\
+    \ to elevated temperatures. The specific coefficients are 0.0480 (significant\
+    \ at 5% level), 0.0468 (significant at 5% level), and 0.0227 (insignificant),\
+    \ depending on the definition of 'high-temperature' regions."
+  16: Under the UKMO-HadCM3 model, medium-term output decreases range from 10.6-27.2%
+    (A2 scenario), 12.9-35.9% (A1B), and 5.2-19.6% (B1). Long-term decreases range
+    from 14.8-45.6% (A2), 15.8-45.7% (A1B), and 16.1-36.0% (B1). Under the PCM model,
+    medium-term output decreases range from 5.2-10.3% (A2), 7.4-17.0% (A1B), and 3.0-8.5%
+    (B1). Long-term decreases range from 11.9-20.8% (A2), 13.5-21.9% (A1B), and 2.8-8.9%
+    (B1).
+  17: "Industrial output in China is projected to decrease by 3-36% before the end\
+    \ of this century under the slowest warming scenario and decrease by 12-46% under\
+    \ the most rapid warming scenario. Critical temperature threshold identified at\
+    \ [21-24\xB0C]."

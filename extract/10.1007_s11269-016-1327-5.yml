@@ -1,0 +1,48 @@
+Category:
+  4: Extracted Information
+Drivers of Risk:
+  1: Increased water demands and the impacts of climate change
+  4: Water demands (agricultural, industrial, and domestic water abstractions); Regulatory
+    constraints linked to environmental flow requirements; Increased infiltration
+    and reduced runoff due to pumping activities; Climate variability leading to dry
+    years.
+  6: Climate forcings (IPSL-CM5A-LR coupled Global Circulation Model using the RCP6.0
+    climate scenario), socio-economic factors based on the Shared Socio-economic Pathways
+    (SSP2) scenario, and drawdowns impacting well yield and increased surface water.
+Highlights:
+  1: Developed a modelling capacity for rapidly generating scenario-based water availability
+    projections with operational relevance in a rigorous, systematic way.
+Methodology:
+  1: Computed Operational Freshwater Availability (OFWA) using the PCR-GLOBWB global
+    hydrology and water resources model, coupled to a global MODFLOW groundwater model.
+    Forced with rainfall and temperature fields from the IPSL-CM5A-LR climate model
+    under the RCP6.0 climate scenario, with water demands based on the SSP2 socio-economic
+    scenario. Downscaling to 90 m resolution.
+  4: The paper defines and analyzes operational surface water availability (OSWA)
+    as river runoff (considering existing water demands) minus environmental flow
+    requirements. A PCR-GLOBWB run is used to determine pristine river runoff, and
+    the difference between pristine runoff and actual runoff represents net water
+    consumption. The impact of groundwater pumping on river runoff is also considered.
+  6: The study uses the PCR-GLOBWB hydrological model coupled with MODFLOW-based GGWM
+    to simulate water storages and fluxes. It uses ERA-Interim_GPCP data for calibration
+    (1980-2010) and IPSL-CM5A-LR/RCP6.0 for future scenarios (1980-2065). Water demands
+    are driven by SSP2. Steady-state groundwater model imported into iMOD software,
+    converted to transient, using recharge and surface water elevations from PCR-GLOBWB.
+More Notes:
+  1: The study focuses on freshwater availability as a key resource impacted by climate
+    change and increased demand, which has implications for broader economic activity.
+  4: The analysis focuses on water availability at the asset level, assuming water
+    within a defined window is accessible. Artificial redistribution networks like
+    canals are not considered due to the difficulty in globally mapping them.
+  13: This paper focuses on hydrological modeling and freshwater availability. It
+    does not directly address macroeconomic or fiscal outcomes of climate change or
+    adaptation at a national level. However, it provides a tool to assess water availability,
+    which can be an input to economic models.
+No relevant information:
+  2: No relevant information
+Outcome(s) of Interest:
+  1: No relevant information
+  6: Fresh water availability
+Quantitative material:
+  1: "The study estimates current and future operational freshwater availability in\
+    \ m3s\u22121"

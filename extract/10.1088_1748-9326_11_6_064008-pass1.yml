@@ -1,0 +1,128 @@
+Drivers of Risk:
+  1: Temperature and precipitation (climate change), population pressure
+  3: "Temperature anomaly (\xB0C), precipitation anomaly (mm), population size (million);\
+    \ agrarian economy stress."
+  4: Temperature anomaly, precipitation anomaly (climate change).
+  5: Temperature, precipitation, population
+  6: Climate change (temperature more influential than precipitation), population
+    pressure.
+  7: Temperature, precipitation, population, social crisis (rebellion and invasion)
+  8: Climate change impact and population's role; larger population increases such
+    vulnerabilities by decreasing the economic growth potential; population pressure
+    emanates from the size and role of the population.
+  9: No relevant information
+Highlights:
+  1: Climate change induces economic fluctuations in late imperial China, particularly
+    in the long term; Temperature has a greater influence on the economy than precipitation;
+    Population primarily acts as consumers in the long term; Economic vulnerability
+    in late imperial China under climate change is higher than that in early modern
+    Europe; Late imperial Chinese society has a high economic vulnerability to climate
+    change.
+  2: The study quantitatively analyzes the climate change-economy relationship of
+    imperial China at the macroscale and measures the influence of climate change
+    and population pressure on the economy. It compares late imperial China and early
+    modern Europe to evaluate similarities and differences of economic fluctuations
+    across Eurasia under climate change.
+  3: The study examines the relationships between climate variables (temperature and
+    precipitation), economic indicators (GDP per capita and rice price), and population
+    size.
+  4: The study aims to statistically examine the association between climate change
+    and the vulnerability of Chinese agrarian economy.
+  5: Higher temperature and more rainfall are associated with increased real GDP per
+    capita. A larger population size is associated with decreased real GDP per capita.
+    Warmer climate is associated with decreased rice prices. Larger population size
+    is associated with increased rice prices. Temperature Granger-causes both real
+    GDP per capita and rice price.
+  6: Climate change dominates real GDP per capita and rice price in late imperial
+    China, particularly in the long term. Temperature has a greater influence than
+    precipitation. Population acts mainly as a consumer, negatively affecting the
+    economy in the long term.
+  7: Social crisis (rebellion and invasion) has a statistically significant negative
+    impact on the national economy (real GDP per capita).
+  8: Size and role of the population must be considered when examining socioeconomic
+    vulnerability to climate change.
+  9: No relevant information
+Methodology:
+  1: "Quantitative analysis of the relationship between climate change and the economy\
+    \ in late imperial China (AD 1600\u20131840) at the national level using multivariate\
+    \ regression and Granger causality analyses; Comparison of findings with those\
+    \ in early modern Europe."
+  2: Multivariate regression analysis and Granger causality analysis (GCA) are used
+    to analyze the relationships between climate change, agrarian economy, and population
+    pressure. Prais-Winsten estimation is used to address autoregressive disturbances
+    and flexible time trends. A low-pass filter technique (Butterworth filter with
+    a 40-year window) is applied to estimate trends from time series data.
+  3: Quantitative analysis within different temporal scales is used to identify the
+    impact of temperature and precipitation anomalies on the agrarian economy; raw
+    data is low-pass filtered using a 40-year filter.
+  4: The study statistically examines the association between climate change and the
+    vulnerability of the Chinese agrarian economy at the national and long-term scales.
+    The data used is smoothed before the analysis, but supplementary information includes
+    results using raw data and robustness tests.
+  5: Regression analysis and Granger causality analysis (GCA) are performed on low-pass
+    filtered data. Regression analysis establishes correlations, while GCA tests for
+    causal relationships between climate variables (temperature, precipitation), population,
+    and economic outcomes (real GDP per capita, rice price). The analysis pertains
+    to historical China.
+  6: "Regression analysis and Granger Causality Analysis (GCA). Applicable to late\
+    \ imperial China (AD 1600\u20131840) and compared with early modern Europe (AD\
+    \ 1500\u20131800)."
+  7: "Multivariate regression using low-pass filtered data from late imperial China\
+    \ (Ming and Qing dynasties), including a crisis dummy variable for the period\
+    \ AD 1643\u20131662."
+  8: Implemented at a large spatial and long-term scale; analysis is aiming to open
+    a new routine to understand such phenomena under impact of climate change.
+  9: No relevant information
+More Notes:
+  1: "The study revisits Malthusian and \u2018Great Divergence\u2019 theories by including\
+    \ the perspective of economic vulnerability under climate change."
+  2: The study focuses on late imperial China (AD 1600-1840). It uses statistical
+    analysis to establish a relationship between climate change and the long-term,
+    large-scale agrarian economy.
+  3: Data reliability is guaranteed by using data published in international refereed
+    journals or confirmed by scholars.
+  4: The analysis excludes social organization, arguing its influence on the economy
+    is less important than climate change in the long term and in large-scale scenarios.
+    The study covers the period AD 1600-1840.
+  5: The paper finds a stronger link between temperature and the agrarian economy
+    than between population and the agrarian economy in late imperial China. The adjusted
+    R-squared for the real GDP per capita regression is 0.934, and for the rice price
+    regression, it is 0.799.
+  6: The paper suggests that unsustainable population pressure negatively affected
+    the economy of historical China. Europe had a higher buffering capacity than China.
+  7: The study compares the climate change-economy relationship in late imperial China
+    with early modern Europe.
+  8: "The study clarifies it provides understanding on climate change and China\u2019\
+    s economy from the paradigm of climate history."
+  9: This page appears to be a reference list.
+Outcome(s) of Interest:
+  1: Real GDP per capita, rice price
+  3: Real GDP per capita (silver per tael), rice price index (gams of silver).
+  4: Real GDP per capita (as an indicator of macroeconomic well-being and economic
+    performance), rice price index (as indicator of economic well-being).
+  5: Real GDP per capita, rice price
+  6: Real GDP per capita impacted by climate change.
+  7: Real GDP per capita
+  8: Detecting economic vulnerabilities is the first step in adapting to climate change;
+    level of vulnerabilities in one country or region may differ from those of others,
+    and even within a country.
+  9: No relevant information
+Quantitative material:
+  1: Multivariate regression and Granger causality analyses are used to analyze the
+    relationship between climate change and the economy.
+  3: Raw and low-pass filtered data are shown for temperature anomaly, precipitation
+    anomaly, real GDP per capita, rice price index, and population size. Significance
+    level is set to 0.05 (95%).
+  4: The study adopts real GDP per capita data from Liu (2009), and rice price index
+    data from Peng (1957) and Wang (2003).
+  5: Table 1 presents a regression model on real GDP per capita with coefficients
+    for temperature (0.117), precipitation (0.181), and population (-5.67E-06), all
+    significant at p < 0.01. Table 2 presents a regression model on rice price with
+    coefficients for temperature (-0.253) and population (1.23E-05), both significant
+    at p < 0.01. Table 3 presents Granger causality analysis results.
+  6: p-value of GCA on the population-rice price relationship is 0.094.
+  7: 'Regression model estimates the impact of temperature (0.148), precipitation
+    (0.386), population (-2.48E-06), time trend (3.577, t^2: -2.096E-03, t^3: 4.09E-07),
+    and a crisis dummy variable (-0.229) on real GDP per capita, with adjusted R2
+    = 0.950.'
+  9: No relevant information

@@ -1,0 +1,133 @@
+Drivers of Risk:
+  2: Climate shocks (frequency and intensity), undernutrition
+  4: The model considers stochastic shocks to physical assets which affect household
+    consumption and savings decisions.
+  5: Non-convexity in the production set; initial levels of physical and human capital.
+  6: Shocks that push a household below a critical asset level (AM).
+  7: Climate change increases the severity or probability of shocks and redraws the
+    poverty map, increasing both destitution and vulnerability.
+  9: Consumption shortfalls (cdgt < z, where z is the nutritional poverty line) in
+    the first five years of life leading to undernutrition and irreversible damage
+    on physical and cognitive development.
+  10: Undernutrition leading to deterioration of human capital across generations;
+    Low levels of human capital and physical assets; Low physical capital despite
+    high human capital
+  12: Asset losses leading to lower consumption, insufficient social protection budget.
+  14: Shocks that push vulnerable populations into chronic poverty and an underlying
+    system that steadily adds individuals to the aid-eligible population.
+  18: Risk increases (unspecified type of risk but likely climate-related given the
+    context of the overall review)
+Highlights:
+  1: The relative desirability of Vulnerability-targeted and conventional social protection
+    changes as the severity of risk increases.
+  2: Targeting some of a fixed social protection budget at the vulnerable can over
+    time reduce both the extent and depth of poverty relative to a conventional cash
+    transfer strategy.
+  4: Households with high initial assets use high productivity technology, influenced
+    by human capital.
+  5: Multiple equilibria may exist for a range of human capital levels leading to
+    poverty traps for those below a critical asset threshold (Micawber threshold).
+  6: Shocks can have irreversible consequences for the vulnerable; shocks can induce
+    asset smoothing by the vulnerable. The probability of collapse decreases as initial
+    assets increase; interventions like Triage and Cash Transfers are more effective
+    at reducing the probability of collapse compared to Autarky and other forms of
+    insurance.
+  7: Households near poverty thresholds drastically cut consumption to preserve capital,
+    affecting long-term investment in human capital.
+  9: Nutritionally sensitive human capital increases vulnerability to chronic poverty.
+    Initial endowment positions in the lower right of the diagram, which used to have
+    some probability of escape from long-term poverty, have seen those prospects drop
+    to zero.
+  10: Dynasties starting in the central part of the endowment space deteriorate in
+    human capital and become locked in poverty; Dynasties with high initial human
+    capital but low physical capital suffer a long-term deterioration of human capital
+    and become poor or vulnerable.
+  12: The effectiveness of social protection schemes is gauged by headcount and poverty
+    gap measures.
+  14: Vulnerability-targeted social protection (Triage) appears to be more effective
+    in reducing both poverty headcount and poverty gap compared to a standard cash
+    transfer program or no intervention (Autarky).
+  18: Partial subsidy schemes for Vulnerability-targeted Contingent Social Protection
+    appear promising in relaxing trade-offs within a social protection system.
+Methodology:
+  1: Uses a dynamic, multi-generation household model of consumption, accumulation,
+    and risk management.
+  2: Theoretical, dynamic programming model of multi-generational families; loosely
+    calibrated on the pastoral regions of East Africa; examines effectiveness of different
+    social protection schemes
+  4: An infinite household dynasty model that analyzes resource management and productivity
+    under fixed human capital, with an option to later evolve based on early childhood
+    nutrition and consumption levels.
+  5: Numerical dynamic programming analysis of a household problem using specific
+    parameter values.
+  6: The analysis uses a stylized model that analyzes the probability of collapse
+    to a low equilibrium for vulnerable households based on their asset levels and
+    various intervention strategies.
+  7: Theoretical model exploring asset smoothing by vulnerable households and its
+    implications for human capital investment and poverty dynamics.
+  9: The paper replaces a fixed human capital specification in model 1 with a new
+    human capital equation of motion (equation 2), then reanalyzes the implications
+    of the dynasty intertemporal problem for long-term poverty dynamics. The model
+    incorporates a penalty for undernutrition in early childhood which pushes an individual
+    below their genetic potential.
+  10: Simulation of dynasty endowment evolution over four generations based on equation
+    2, with human capital treated as evolving rather than fixed.
+  12: Simulates the impact of contingent transfers on poverty measures under budget
+    constraints. Transfers are designed to close the poverty gap, but may be adjusted
+    if the social protection budget is insufficient.
+  14: The analysis involves modeling the evolution of poverty measures under different
+    social protection schemes, including a vulnerability-targeted social protection
+    (VSP) approach (Triage) that uses contingent social protection transfers.
+More Notes:
+  4: The model assumes exogenous shocks to assets and no borrowing. It also explores
+    the effects of fixed versus evolving human capital across generations.
+  5: The analysis identifies groups as 'Destitute', 'Vulnerable' and those that will
+    escape the poverty trap, based on initial capital and asset levels.
+  6: The model suggests that interventions influencing the shadow value of assets
+    (e.g., through insurance or cash transfers) can significantly alter the probability
+    of households falling into a poverty trap after a shock.
+  9: The analysis assumes households ignore the long-term impact of nutritional deficiencies
+    on human capital. Simple discounting could justify ignoring impacts in the distant
+    future.
+  10: The analysis considers the intergenerational transmission of poverty and the
+    role of human and physical capital endowments.
+  12: The model assumes transfers are channeled directly into consumption and are
+    not anticipated, thus not influencing physical capital accumulation decisions.
+    When the budget is insufficient, transfers are adjusted so all destitute dynasties
+    receive transfers that close an equal fraction of their poverty gap.
+  14: The effectiveness of cash transfer schemes is undercut by an underlying system
+    that adds more people to the aid-eligible population over time.
+  18: The analysis explores the feasibility of vulnerable beneficiaries partially
+    footing the bill for Vulnerability-targeted Contingent Social Protection, finding
+    severe liquidity constraints make full payment unlikely.
+Outcome(s) of Interest:
+  2: Poverty dynamics, long-term poverty, extent and depth of poverty
+  4: The paper models the impact of human capital on household productivity and physical
+    asset accumulation, which could be indirectly related to macroeconomic productivity.
+  5: Poverty traps; asset accumulation; optimal consumption and investment strategies.
+  6: Probability of collapse to a low level equilibrium.
+  9: Probability of chronic poverty.
+  10: Long-term poverty, chronic poverty, vulnerability to poverty
+  12: Poverty rate (headcount), poverty gap.
+  14: Poverty headcount and poverty gap (depth of poverty).
+  18: Long-term level and depth of poverty
+Quantitative material:
+  5: Micawber threshold is about 16 units of assets; critical human capital levels
+    of 1.05 and 1.35 units that determine escape from poverty.
+  6: Figure 1 provides a visual representation of the probability of collapse to a
+    low equilibrium based on initial asset levels (0-30), with probabilities ranging
+    from 0 to 1, under different intervention strategies (Autarky, Insurance (Market
+    Price), Insurance (Actuarially Fair), Insurance (Subsidized), Cash Transfer, Triage).
+  9: "Households are assumed to ignore long-term feedbacks into its long-term human\
+    \ capital; human capital regressions to mean genetic potential, E[H\u02DC]; population\
+    \ capabilities distributed with exp ected value of 1.35; Figure 2b displays the\
+    \ mo di\uFB01ed frontier that evolves across the generations when human capital\
+    \ is nutritionally sensitive."
+  14: The graphs provide quantitative information on poverty headcount and poverty
+    gap under different social protection scenarios (Autarky, Cash Transfer, Triage)
+    over a time period (0-100). The y-axes provide scales for poverty headcount proportion
+    (0-0.5) and consumption-based poverty gap (0-0.12).
+  18: The contour plot visualizes the relationship between initial assets, initial
+    human capital, and some outcome represented by the color gradient. The specific
+    outcome is not explicitly defined on the page, but it seems to be related to well-being
+    as it varies based on initial conditions.

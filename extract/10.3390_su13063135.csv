@@ -1,0 +1,28 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,GDP,Fiji,Cyclones,2016,No CC,%,25,NA,NA,NA,NA,NA,Page 3,Economic damage equivalent to 25 percent of GDP in Fiji.
+1,GDP,Vanuatu,Cyclones,2016,No CC,%,64,NA,NA,NA,NA,NA,Page 3,Economic damage equivalent to 64 percent of GDP in Vanuatu.
+2,Agricultural Productions,Papua New Guinea,Drought,2017,No CC,%,0,NA,NA,NA,NA,NA,Page 3,Reduced agricultural productions
+3,Mining Productions,Papua New Guinea,Drought,2017,No CC,%,0,NA,NA,NA,NA,NA,Page 3,Reduced mining productions
+4,Fiscal Revenues,Papua New Guinea,Drought,2017,No CC,%,0,NA,NA,NA,NA,NA,Page 3,Reduced fiscal revenues
+5,Foreign Exchange Revenues,Papua New Guinea,Drought,2017,No CC,%,0,NA,NA,NA,NA,NA,Page 3,Reduced foreign exchange revenues
+6,Economic Growth,Papua New Guinea,Earthquake,2018,No CC,%,0,NA,NA,NA,NA,NA,Page 3,Lowered economic growth sharply
+7,Debt-to-GDP Ratio,Pacific Islands,Natural Disasters,2018,NA,percent of GDP,45,NA,NA,35,NA,55,Page 6,"Empirical literature suggests debt limit for developing countries is broadly between 35 and 55 percent of GDP; I took the midpoint of the range, using the year from Tran (2018) study referenced in the text."
+8,Debt-to-GDP Ratio,Non-Latin American Countries,NA,2018,NA,percent,47.5,NA,NA,40,NA,55,Page 6,"Panel threshold analysis by Tran (2018) reveals debt thresholds of 40– 55 percent; I took the midpoint of the range, using the year from Tran (2018) study referenced in the text."
+9,Debt-to-GDP Ratio,Latin American Countries,NA,2018,NA,percent,35,NA,NA,NA,NA,NA,Page 6,"Panel threshold analysis by Tran (2018) reveals debt thresholds of 35 percent, using the year from Tran (2018) study referenced in the text."
+10,Debt-to-GDP Ratio,Malaysia,NA,2017,NA,percent,55,NA,NA,NA,NA,NA,Page 6,"After public debt exceeds a certain threshold level (55 percent of GDP), it is negatively correlated with economic activity, using the year from Baharumshah et al. (2017) study referenced in the text."
+11,Debt-to-GDP Ratio,Caribbean,NA,2012,NA,percent,55,NA,NA,NA,NA,NA,Page 6,"After public debt exceeds a certain threshold level (55 percent of GDP), it is negatively correlated with economic activity, using the year from Greenidge et al. (2012) study referenced in the text."
+12,Max Debt-GDP Ratio,Pacific Islands,Economic Growth,2021,NA,%,27.611,NA,NA,NA,NA,NA,Table 3,"Baseline estimation result. Implies the debt-to-GDP ratio at which the primary balance is maximized, based on fiscal reaction function estimation."
+13,Max Debt-GDP Ratio,Pacific Islands,Economic Growth,2021,NA,%,28.755,NA,NA,NA,NA,NA,Table 3,"Robustness check (with terms of trade). Implies the debt-to-GDP ratio at which the primary balance is maximized, based on fiscal reaction function estimation."
+14,PB at Max Debt-GDP,Pacific Islands,Economic Growth,2021,NA,% of GDP,1.388,NA,NA,NA,NA,NA,Table 3,Baseline estimation result. Primary Balance corresponding to the debt-to-GDP ratio that maximizes primary balance.
+15,PB at Max Debt-GDP,Pacific Islands,Economic Growth,2021,NA,% of GDP,1.004,NA,NA,NA,NA,NA,Table 3,Robustness check (with terms of trade). Primary Balance corresponding to the debt-to-GDP ratio that maximizes primary balance.
+16,Debt,Pacific Islands,Disaster Shock,2019,No CC,Percentage of GDP,0,NA,NA,NA,NA,NA,Page 11,Debt dynamics examined starting from the government’s cash-flow constraint. 0 indicates a starting point for analysis.
+17,Primary Balance,Pacific Islands,Nonlinear Reaction,2019,No CC,Percentage of GDP,0,NA,NA,NA,NA,NA,Figure 3,Estimated nonlinear relationship with debt level. 0 indicates a starting point for analysis. The relationship is found to be weakly related based on empirical observation.
+18,Budget Deficit,PNG,Steady-state,2021,No CC,Percent of GDP,-1.4,NA,NA,NA,NA,NA,Page 17,Implied target based on nominal GDP growth of 5% and debt target of 30%
+19,Nominal GDP Growth,PNG,Steady-state,2021,No CC,Percent,5,NA,NA,NA,NA,NA,Page 17,Assumed value for calibration
+20,Debt,PNG,Steady-state,2021,No CC,Percent of GDP,30,NA,NA,NA,NA,NA,Page 17,Derived target
+21,Fiscal stimulus,PNG,2018 Earthquake Impact,2018,No CC,percent of GDP,0.4,NA,NA,NA,NA,NA,Page 21,Calculated as a 0.4 percent marginal fiscal stimulus suggested by the disaster-resilient fiscal rule.
+22,Budget balance deviation,PNG,2018 Earthquake Impact,2018,Pre-earthquake target,percent of GDP,-0.4,NA,NA,NA,NA,NA,Page 21,"Non-resource, non-recurrent budget balance needs to be smaller than -0.4 percent of GDP to accommodate the shock."
+23,Public investment,PNG,2018 Earthquake Impact,2018,No CC,million Kina,320,NA,NA,NA,NA,NA,Page 21,"Roughly estimated amount for public investment or emergency relief based on the non-resource, non-recurrent budget balance deviation."
+24,Earthquake impact,PNG,2018 Earthquake Impact,2018,No earthquake,percent of GDP,3,NA,NA,NA,NA,NA,Page 21,The impact of the earthquake is assumed to be around 3% of GDP.
+25,Budget balance target,PNG,2018 Earthquake Impact,2018,No Shock,percent of GDP,-1.4,NA,NA,NA,NA,NA,Page 21,Calibrated budget balance target before earthquake.
+26,Resource revenue,PNG,2018 Earthquake Impact,2018,No CC,percent of GDP,0.5,NA,NA,NA,NA,NA,Page 21,Assumed resource revenue for the earthquake shock.

@@ -1,0 +1,90 @@
+Drivers of Risk:
+  2: Uncertainty in climate projections, specifically structural uncertainty related
+    to climate nonlinearities and multidecadal climate feedbacks.
+  3: Structural uncertainty in climate models.
+  4: Radiative forcing under different emissions scenarios impacts future temperature
+    projections, which in turn affect economic damages.
+  5: Temperature projections under shared socioeconomic pathways (SSP4-6.0 and SSP3-7.0)
+    drive economic damage calculations.
+  6: Temperature increases projected under SSP4-6.0 and SSP3-7.0, and structural and
+    parametric uncertainty in climate models.
+  7: "Structural uncertainty plays an important role in reduced complexity climate\
+    \ models\u2019 total uncertainty"
+Highlights:
+  2: Structural uncertainty is crucial for IAMs and climate projections.
+  3: Physical structural uncertainty is substantial in climate economics calculations
+    and climate projections, and reported uncertainties may be underestimated.
+  4: The paper assesses the importance of structural uncertainty in climate models
+    by comparing the interquartile range of multi-model projections to that of the
+    'preferred' model (the one with the highest posterior mass). A metric u(X) is
+    defined to quantify this relative importance of structural uncertainty.
+  5: The primacy of structural uncertainty in temperature projections propagates into
+    economic damages resulting from climate change.
+  6: Structural uncertainty is a significant driver of uncertainty in both physical
+    and economic projections of climate change. The choice of damage function and
+    discount rate significantly affects the magnitude of projected economic damages.
+  7: "structural uncertainty plays an important role in reduced complexity climate\
+    \ models\u2019 total uncertainty, which must be accounted for in their physical\
+    \ projections, and especially in the socioeconomic projections that use such simple\
+    \ representations of climate physics."
+Methodology:
+  2: Bayesian approach to quantify structural uncertainty in climate projections,
+    using idealised energy-balance model representations.
+  3: Computational Bayesian approach involving specifying a model, prior distributions,
+    drawing samples, computing likelihood based on observations, weighting samples,
+    and projecting probabilistically. Applies to simple Energy Balance Models (EBMs)
+    used in Integrated Assessment Models (IAMs).
+  4: A climate model with various formulations (linear, temperature/forcing dependent
+    heat capacity, temperature/forcing dependent feedback, slow feedback) is used
+    to generate temperature time series. These are then used to generate probabilistic
+    projections of future temperatures. Damage functions are used to translate temperature
+    projections into economic damages.
+  5: Damage calculations use the approach and default assumptions from [10] for SSP4-6.0
+    and SSP3-7.0, including the damage function from Weitzman [25] and a discount
+    rate of 4.255%.
+  6: Energy-balance model used to project temperature changes and economic damages,
+    incorporating structural uncertainty through model selection parameters. Damages
+    are calculated with a 4.255% discount rate and the Weitzman damage function.
+  7: reduced complexity climate models
+More Notes:
+  2: The model with a temperature-dependent climate feedback is most consistent with
+    global mean surface temperature observations, but the sign of the temperature-dependence
+    is opposite of what Earth system models suggest.
+  3: The paper focuses on how physical uncertainty propagates into uncertainty in
+    economic calculations, not on the economic models' uncertainties themselves.
+  4: The paper uses Bayesian climate modeling with prior distributions informed by
+    physical principles, ESMs, and observational products. Sensitivity to assumptions
+    is tested using alternative damage functions and discount rates.
+  6: "The study emphasizes the importance of characterizing structural uncertainty\
+    \ in climate models for both physical and economic projections. Reductions in\
+    \ structural uncertainty may be possible by incorporating known phenomena such\
+    \ as the El Ni\xF1o Southern Oscillation or the pattern effect, or leveraging\
+    \ other observations such as that of ocean heat content. Paleo records may provide\
+    \ a wider dynamic range to constrain structural uncertainty further."
+  7: Paleo-observations either need to be used with a substantially inflated uncertainty
+    and/or with extreme caution.
+Outcome(s) of Interest:
+  2: Economic projections of climate change damages, estimated from a temperature-to-damages
+    calculation.
+  3: Damages due to climate change; Economic calculations (unspecified) related to
+    climate change.
+  4: Economic damages due to climate change are evaluated based on temperature projections.
+  5: Economic damages resulting from climate change are calculated.
+  6: "Economic damages, measured in trillions of 2019 USD, calculated over the period\
+    \ 2020\u20132300."
+  7: No relevant information
+Quantitative material:
+  2: Structural uncertainty dwarfs parametric uncertainty in temperature projections
+    under shared socioeconomic pathways similar to current emissions reduction targets.
+  3: Structural uncertainty is much larger than parametric uncertainty for projections
+    of T, and consequently for calculations of damages due to climate change.
+  4: A discount rate of 4.255% (or a 'patient' discount rate of 2.955%) is used to
+    translate temperature projections into economic damages.
+  5: Structural uncertainty is dominant for temperature projections under SSP4-6.0,
+    with u(T(2100)) = 2.0 and u(T(2300)) = 2.7. For SSP3-7.0, u(T(2100)) = 2.3 and
+    u(T(2300)) = 4.1.
+  6: "Median and interquartile range of projected economic damages in trillions of\
+    \ 2019 USD for SSP4-6.0 and SSP3-7.0, ratio of structural vs parametric uncertainty\
+    \ for economic damages (u), ratio of median multi-model versus \u03BBT model damage\
+    \ estimates."
+  7: No relevant information

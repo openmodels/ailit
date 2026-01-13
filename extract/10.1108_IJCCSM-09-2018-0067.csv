@@ -1,0 +1,38 @@
+,Impacted Sector,Solution,Country(ies),Scenario,Quantification,Expression,Type of Value,Sample,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Agricultural,Solar PV,Brazil,Passive and active scenarios,Rainwater Harvesting,NonMonetaryBenefits,Economic,Need,m3/year,40,NA,NA,NA,NA,240,Page 7,Water harvested from 200 m2 of PV panels in a dry/rainy year.
+1,Agricultural,Solar PV,Brazil,Passive and active scenarios,Rainwater Harvesting,NonMonetaryBenefits,Economic,Need,m3/year,400,NA,NA,NA,NA,1200,Page 7,Water harvested from 1000 m2 of PV panels in a dry/rainy year.
+2,Agricultural,Solar PV,Brazil,Passive and active scenarios,Rainwater Harvesting,NonMonetaryBenefits,Economic,Need,m3/year,4000,NA,NA,NA,NA,12000,Page 7,Water harvested from 1 ha of PV panels in a dry/rainy year.
+3,Energy,Solar PV,Brazil,Passive and active scenarios,Hydroelectric Equivalency,NonMonetaryBenefits,Economic,Need,10^9 m3/year,2.4,NA,NA,NA,NA,NA,Page 7,Equivalent water volume used in a hydroelectric power plant for energy generation by PV installation area of 0.02 ha.
+4,Energy,Solar PV,Brazil,Passive and active scenarios,Hydroelectric Equivalency,NonMonetaryBenefits,Economic,Need,10^9 m3/year,12.0,NA,NA,NA,NA,NA,Page 7,Equivalent water volume used in a hydroelectric power plant for energy generation by PV installation area of 0.10 ha.
+5,Energy,Solar PV,Brazil,Passive and active scenarios,Hydroelectric Equivalency,NonMonetaryBenefits,Economic,Need,10^9 m3/year,120.0,NA,NA,NA,NA,NA,Page 7,Equivalent water volume used in a hydroelectric power plant for energy generation by PV installation area of 1.00 ha.
+6,Energy,Solar PV,Brazil,Passive,Energy Generation Potential,MonetaryBenefits,Economic,Need,PWh/year,1.6,NA,NA,NA,NA,NA,Page 8,"PV Desertified Areas NEB, normalized to 2017 national electricity consumption."
+7,Energy,Solar PV,Brazil,Passive,Energy Generation Potential,MonetaryBenefits,Economic,Need,PWh/year,4.90,NA,NA,NA,NA,NA,Page 8,"PV Degraded Pasture NEB, normalized to 2017 national electricity consumption."
+8,Energy,Hydropower,Brazil,Passive,Energy Generation Potential,MonetaryBenefits,Economic,Need,PWh/year,2.3,NA,NA,NA,NA,NA,Page 8,"Hydropower Whole Brazil, normalized to 2017 national electricity consumption."
+9,Energy,Solar PV,Brazil,Passive,Energy Generation Potential,MonetaryBenefits,Economic,Need,Ratio,1.6,NA,NA,NA,NA,NA,Page 8,"PV Desertified Areas NEB, normalized to 2017 national electricity consumption."
+10,Energy,Solar PV,Brazil,Passive,Energy Generation Potential,MonetaryBenefits,Economic,Need,Ratio,9.3,NA,NA,NA,NA,NA,Page 8,"PV Degraded Pasture NEB, normalized to 2017 national electricity consumption."
+11,Energy,Hydropower,Brazil,Passive,Energy Generation Potential,MonetaryBenefits,Economic,Need,Ratio,4.4,NA,NA,NA,NA,NA,Page 8,"Hydropower Whole Brazil, normalized to 2017 national electricity consumption."
+12,Energy,Solar PV,Brazil,Passive and active,PV panel cost,CapExCost,Monetary,Need,US$/watt,0.30,NA,NA,NA,NA,NA,Page 9,Cost of PV panels in 2015
+13,Energy,Solar PV,Brazil,Passive/Active,Levelized Cost,AdaptationCost,Monetary,N/A,US$/kWh,0.0358,NA,NA,NA,NA,NA,Page 10,"LCOE from April 2018 Auction, PV vs hydro/biomass"
+14,Energy,Solar PV,Brazil,Passive/Active,PV System Cost,AdaptationCost,Monetary,N/A,US$/Wp,2.67,NA,NA,NA,NA,NA,Page 10,From Instituto Ideal (2015)
+15,Energy,Solar PV,Brazil,Passive/Active,Payoff Time,RateOfReturn(),Economic,N/A,years,7,NA,NA,NA,NA,NA,Page 10,With 4% interest for PV
+16,Energy,Solar PV,Brazil,Passive/Active,Interest Rate,AdaptationCost,Monetary,N/A,percent,4,NA,NA,NA,NA,NA,Page 10,Official bank rate for PV
+17,Energy,Solar PV,Brazil,Passive/Active,Interest Rate,AdaptationCost,Monetary,N/A,percent,6.5,NA,NA,NA,NA,NA,Page 10,Financial market rate
+18,Energy,Solar PV,Brazil,Passive/Active,Gross Revenues,MonetaryBenefits,Monetary,N/A,Ratio to interest earnings,2.74,NA,NA,NA,NA,NA,Page 10,Revenues vs. financial market return
+19,Agriculture,Land Use,Brazil,Passive/Active,Degraded land area,NonMonetaryBenefits,Economic,Need,hectares,1900000,NA,NA,NA,NA,NA,Page 10,"IBGE, 2006"
+20,Agriculture,Land Use,Brazil,Passive/Active,Degraded properties,NonMonetaryBenefits,Economic,Need,properties,136000,NA,NA,NA,NA,NA,Page 10,Number of properties
+21,Agriculture,Land Use,Brazil,Passive/Active,Properties (1-500 ha),NonMonetaryBenefits,Economic,Need,properties,130000,NA,NA,NA,NA,NA,Page 10,Properties between 1-500 ha
+22,Agriculture,Land Use,Brazil,Passive/Active,Area (1-500 ha),NonMonetaryBenefits,Economic,Need,hectares,1260000,NA,NA,NA,NA,NA,Page 10,Area of properties 1-500 ha
+23,Energy,PV Generation,Brazil,PV Generation,Revenue,MonetaryBenefits,Monetary,Need,US$/year,11000,NA,NA,NA,NA,NA,Page 12,Savings from utilizing PV energy in-house for a 1 ha PV plant.
+24,Energy,PV Generation,Brazil,PV Generation,Revenue,MonetaryBenefits,Monetary,Need,US$/year,55000,NA,NA,NA,NA,NA,Page 12,Savings from utilizing PV energy in-house for a larger PV plant (unspecified size).
+25,Energy,PV Generation,Brazil,PV Generation,Revenue,MonetaryBenefits,Monetary,Need,US$/year,550000,NA,NA,NA,NA,NA,Page 12,Savings from utilizing PV energy in-house for a larger PV plant (unspecified size).
+26,Agriculture,PV Generation,Brazil,PV Generation,Revenue,MonetaryBenefits,Economic,Need,US$/month,51.00,NA,NA,NA,NA,NA,Page 12,Reference revenues to the landowners (lower bound).
+27,Agriculture,PV Generation,Brazil,PV Generation,Revenue,MonetaryBenefits,Economic,Need,US$/month,638.00,NA,NA,NA,NA,NA,Page 12,Reference revenues to the landowners (upper bound).
+28,Energy,PV Generation,Brazil,PV Generation,Revenue,MonetaryBenefits,Monetary,Need,US$/kWh,0.18,NA,NA,NA,NA,NA,Page 12,Average value of the electricity paid by a residential consumer.
+29,Energy,PV Generation,Brazil,PV Generation,Revenue,MonetaryBenefits,Monetary,Lead,US$/kWh,0.07148,NA,NA,NA,NA,NA,Table III,Annual revenue for energy generation per kWh
+30,All,PV Generation,Brazil,PV Generation,Revenue,MonetaryBenefits,Fiscal,Lead,US$/kWh,0.04571,NA,NA,NA,NA,NA,Table III,Annual revenue for taxes per kWh
+31,Energy,PV Generation,Brazil,PV Generation,Revenue,MonetaryBenefits,Monetary,Lead,US$/kWh,0.06281,NA,NA,NA,NA,NA,Table III,Annual revenue for distribution and transmission costs per kWh
+32,Energy,PV Generation,Brazil,PV Generation,Revenue,MonetaryBenefits,Economic,Lead,US$/kWh,0.18000,NA,NA,NA,NA,NA,Table III,Total revenues per kWh
+33,Energy,PV Generation,Brazil,PV Generation,Revenue,MonetaryBenefits,Monetary,Lead,US$,219000.00,NA,NA,NA,NA,NA,Table III,Annual revenue from energy based on PV photovoltaic production in an area of 1 hectare in the NEB
+34,All,PV Generation,Brazil,PV Generation,Revenue,MonetaryBenefits,Fiscal,Lead,US$,140160.00,NA,NA,NA,NA,NA,Table III,Annual revenue from taxes based on PV photovoltaic production in an area of 1 hectare in the NEB
+35,Energy,PV Generation,Brazil,PV Generation,Revenue,MonetaryBenefits,Monetary,Lead,US$,192720.00,NA,NA,NA,NA,NA,Table III,Annual revenue from distribution and transmission costs based on PV photovoltaic production in an area of 1 hectare in the NEB
+36,Energy,PV Generation,Brazil,PV Generation,Revenue,MonetaryBenefits,Economic,Lead,US$,551880.00,NA,NA,NA,NA,NA,Table III,Total annual revenue based on PV photovoltaic production in an area of 1 hectare in the NEB

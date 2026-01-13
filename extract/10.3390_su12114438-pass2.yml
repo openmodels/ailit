@@ -1,0 +1,80 @@
+Drivers of Risk:
+  1: GDP, public debt, population, agricultural coverage and sociopolitical and institutional
+    conditions
+  2: The analysis highlights key drivers such as agriculture severely impacted by
+    climate change, economic burden due to poor communities' higher exposure to weather
+    changes, and the role of political stability and institutional effectiveness in
+    climate change adaptation.
+  3: The paper explores the impact of indicators such as GDP, public debt, population,
+    agricultural coverage, and sociopolitical and institutional conditions on climate
+    vulnerability.
+  5: Covariates of GDPC, EDLT, PD, NODAC, POP, PD, UPOP, AGR, FOR, MYS, PS, GE, RQ,
+    PR and CL are level 1 predictors.
+  8: Climate Vulnerability Index (CVI), Electricity Dependence Level to total (EDLT),
+    Percentage of forest area (FOR), Percentage of agricultural land (AGRI), Population
+    density (POPD), Urban population (UPOP), Rural population (POP), Mean years of
+    schooling (MYS), Political stability (PS), Government effectiveness (GE), Regulatory
+    quality (RQ), Property rights (PR), Control of corruption (CL), Percentage of
+    deforested area (PD), Number of Disasters Affecting Country (NODAC)
+  10: Public debt accumulation (PD), official development assistance (NODAc), total
+    population (POP), population density (POPD), agricultural land use (AGR) all lead
+    to increased vulnerability levels
+Highlights:
+  1: Country-level climate change vulnerability is responding (strongly) to the majority
+    of the explanatory variables considered; less-developed countries demonstrate
+    increased vulnerability compared to the developed ones and those in transition
+    stages
+  2: The study's primary aim is to explore how different macro-level characteristics
+    affect national climate change vulnerability using the ND-GAIN CVI.
+  8: 'CVI (Climate Vulnerability Index) is significantly negatively correlated with
+    GDPC (GDP), indicating that higher climate vulnerability is associated with lower
+    GDP. GDPC is correlated at the 1% significance level with: CVI, ELDT, PD, MYS,
+    PS, GE, and RQ.'
+  10: Economic growth (GDPc), demographic transition from rural to urban areas (UPOP),
+    human capital development in terms of educational attainment (MYS) as well as
+    formal institutional arrangements (PS, GE and RQ) all contribute to reduced vulnerability
+    to climate change; public debt accumulation (PD), official development assistance
+    (NODAc) total population (POP) and population density (POPD) as well area dynamics
+    in terms of agricultural land use (AGR), all lead to increased vulnerability levels
+Methodology:
+  1: "Hierarchical linear multilevel modeling approach using the Notre Dame Global\
+    \ Adaptation Initiative (ND-GAIN) Climate Change Vulnerability Index as the dependent\
+    \ variable; 1995\u20132016 annual time series panel dataset of 192 countries"
+  2: The study employs the ND-GAIN Climate Change Vulnerability Index (CVI) as a dependent
+    variable to explore how country-level indices influence vulnerability.
+  3: The analysis employs a hierarchical linear multilevel model to examine the effects
+    of explanatory variables on country-level climate vulnerability.
+  4: The HLM model accounts for the nested structure of the data, leading to more
+    efficient and valid estimates by considering within-variable correlations.
+  5: Linear mixed effects hierarchical models are used. The analysis involves fitting
+    a null model and then adding blocks of predictor variables (country, macroeconomic
+    stability, population dynamics, institutional maturity and efficiency) and using
+    likelihood ratio tests to compare nested models. R software and the lme4 library
+    are used.
+  8: Correlation analysis. Significance levels are reported (1% and 5%).
+  10: 3-level hierarchical linear multilevel model
+More Notes:
+  1: The paper focuses on vulnerability, which is related to macroeconomic and macro-fiscal
+    risks, but does not directly quantify the economic costs and benefits of adaptation.
+  2: The study emphasizes a multi-dimensional approach to understanding vulnerability,
+    considering ecological, economic, and human capital dimensions.
+  8: The table shows pairwise correlations between the listed variables. Correlation
+    does not imply causation. The meaning of the abbreviations (e.g., CVI, EDLT, etc.)
+    is not defined on this page.
+Outcome(s) of Interest:
+  1: No relevant information
+  2: The paper explores the national climate change vulnerability using ND-GAIN Climate
+    Change Vulnerability Index (CVI) to inform decision-making and facilitate adaptation
+    planning.
+  5: Vulnerability (yijk) is the continuous estimation variable of vulnerability
+  8: GDP (GDPC)
+  10: Country-level climate change vulnerability (CVI)
+Quantitative material:
+  1: No relevant information
+  2: No specific quantitative information on macroeconomic or fiscal outcomes is provided.
+  8: Correlation coefficients between CVI, GDPC, EDLT, PD, NODAC, POP, POPD, UPOP,
+    AGRI, FOR, MYS, PS, GE, RQ, PR, and CL are presented in a correlation matrix.
+  10: PD has a positive effect on the CVI (beta= 0.0054; p-value< 0.05). NODAC (beta=
+    0.0071; p-value< 0.05), POP (beta= 0.000106; p-value< 0.05), POPD (beta= 0.0034;
+    p-value< 0.05) and AGR (beta= 0.0012; p-value< 0.05) also have positive effects
+    on CVI.

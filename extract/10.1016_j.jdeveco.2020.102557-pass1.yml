@@ -1,0 +1,247 @@
+Drivers of Risk:
+  1: Extreme heat (global warming).
+  2: Climate change, specifically temperature increases and other weather variables,
+    are the drivers of risk.
+  3: Climate change, specifically global warming, impacts agricultural productivity
+    and inputs.
+  4: Climate change, global warming, short-run variation in weather, temperature
+  5: Temperature changes (heat accumulation), rainfall, sunshine duration, relative
+    humidity, and wind force.
+  6: Rising temperatures; Climate change
+  8: Extreme heating significantly reduces agricultural yield.
+  9: Changes in temperature (Growing Degree Days below and above threshold), precipitation,
+    sunshine duration, humidity, and wind force.
+  10: Temperature changes, specifically measured using Growing Degree Days (GDD) below
+    and above a threshold. Also includes effects of precipitation, sunshine duration,
+    relative humidity, and wind speed.
+  11: Future global warming, specifically changes in Growing Degree Days (GDDs) due
+    to climate change, Greenhouse gas (GHG) concentration pathways (RCPs) including
+    RCP2.6 and RCP8.5
+  12: Future warming (climate change) and extreme hot weather.
+  13: Future global warming likely to negatively impact China's agricultural productivity.
+  14: Temperature variations and distribution of growing degree days (GDD) across
+    different temperature thresholds.
+  15: Temperature (Growing Degree Days above and below specific thresholds)
+  16: GDD above threshold (Growing Degree Days above threshold)
+Highlights:
+  1: "Extreme heat has negative effects on China\u2019s agricultural TFP and input\
+    \ utilization, which results in a more negative effect on agricultural output.\
+    \ Longer-run adaptation has offset 37.9% of the short-run effects of extreme heat\
+    \ exposure on TFP. Projections of impacts under future climate change scenarios\
+    \ still imply a substantial loss in China\u2019s agriculture."
+  2: Extreme heat exposure negatively impacts agricultural TFPs and yield. Farmers
+    do implement long-run adaptations which can help offset some of these impacts.
+    The impacts on TFP and yield are evaluated separately, with a focus on the role
+    of input utilization in adaptation.
+  3: Climate change has a significant negative impact on China's agricultural productivity;
+    early mitigation actions result in better policy effects.
+  4: Climate change has negative impacts on labor and fertilizer utilization in the
+    short run, but no significant impact on capital stock. It has a negative impact
+    on TFP and a more negative impact on yield in the short run. Expect adaptations
+    to exist in all three inputs in the long run, and the adaptation in yield is greater
+    than the adaptation in TFP.
+  5: "Climate adaptation is observed if the short-run effect is offset in the long\
+    \ run. A piecewise linear approach is preferred to evaluate the short-run effect\
+    \ of climate change on agricultural TFP, yield, and input utilization. The value\
+    \ 1 - (\u03B2_LD2 / \u03B2_FE2) can be interpreted as the overall negative short-run\
+    \ effect that is compensated in the long run, which is their estimation of adaptation\
+    \ to extreme heat."
+  6: "Exposure to GDD (Growing Degree Days) below 33\xB0C slightly promotes agricultural\
+    \ TFP, but GDD above 33\xB0C leads to a sharp decrease in agricultural TFP. There\
+    \ is a nonlinear, inverse U-shaped effect of temperature on agricultural TFP,\
+    \ with the turning point around 33\xB0C."
+  8: Extreme heating has a 71% larger negative impact on yield compared to agricultural
+    TFP.
+  9: Extreme heat negatively impacts agricultural TFP and yield, but longer-run adaptation
+    partially offsets these negative impacts.
+  10: Higher temperatures (GDD above threshold) have a statistically significant positive
+    impact on Agricultural TFP and Yield in China. Adaptation measures offset a significant
+    portion of the negative short-run impacts of higher temperatures, with estimates
+    ranging from 37.89% to 64.36% depending on the input or output measure.
+  11: Future global warming will significantly lower China's agricultural TFP and
+    Yield. Climate adaptation offsets a portion of these reductions, but the offset
+    shrinks in the long run. Impact on yield is more negative than on TFP due to the
+    impact of climate change on input utilization (labor, fertilizer, machinery).
+  12: Future warming is projected to negatively impact China's agricultural productivity.
+    The negative impact of extreme hot weather on labor and fertilizer usage contributes
+    to the difference between the impact on TFP and yield. Long-run adaptation decreases
+    relative to the medium term, suggesting limited adaptations without new policy
+    interventions.
+  13: Adaptations in agricultural TFP and input portfolio significantly reduce short-run
+    negative yield impacts; future warming still poses risks.
+  14: "Negative impact on agricultural TFP is more pronounced at higher temperature\
+    \ thresholds (above 33\xB0C), e.g., significant declines in log TFP for GDD above\
+    \ 40\xB0C."
+  15: Increasing GDD above thresholds significantly affects Agricultural TFP, yield
+    and input use. There is a significant adaptation affect.
+  16: Adaptations offset significant portions of the impact of GDD above threshold.
+    The paper measures agricultural TFP, Yield, and inputs like labor, fertilizer
+    and machinery as outcomes of interest.
+Methodology:
+  1: Using a county-panel dataset spanning the past 35 years, the paper evaluates
+    the impact of global warming on agricultural TFP as well as the impacts on agricultural
+    inputs and outputs in China; Stochastic frontier analysis.
+  2: Panel regressions and long differences approaches are used to estimate the impact
+    of climate change on agricultural TFPs and yield in China from 1981-2015. The
+    analysis considers non-linear relationships between agricultural TFPs and weather
+    variables.
+  3: Analysis uses a Cobb-Douglas production function and econometric model to study
+    the impact of climate change on agricultural TFP over a 35-year period at the
+    county level in China.
+  4: Stochastic frontier analysis, panel approach, long differences approach. The
+    panel approach is used to estimate the short-run impacts of global warming. The
+    long differences approach is used to estimate long-run impacts. Uses a Cobb-Douglas
+    stochastic frontier model and Transcendental Logarithmic stochastic frontier model.
+  5: Uses temperature bin approach and piecewise linear approach to model the impact
+    of temperature on agricultural outcomes. Employs long differences approach and
+    panel long differences approach to estimate the impact of long-run climate changes
+    on agricultural outcomes. Quantifies adaptation by comparing short-run impacts
+    from panel estimates with long-run impacts from long differences estimates.
+  6: Piecewise linear approach and traditional temperature bins approach using county-level
+    panel data from 1981-2015.
+  8: Panel and long differences approach used for estimating impacts of temperature
+    on agricultural TFP and yield, based on data from 1981-2015 in China.
+  9: Panel data estimation with fixed effects, long difference estimations as robustness
+    checks, piecewise linear function to estimate changes in log agricultural TFP
+    under additional temperature exposure. Spatial correlation and clustering at the
+    county level are accounted for in standard errors. Inverse distance weighting
+    (IDW) is used to estimate weather conditions for counties using weather station
+    data.
+  10: Panel data analysis with county and year fixed effects, and long difference
+    estimations with 5-year differencing periods, are used to estimate the impacts.
+    Spatial correlation is accounted for by clustering standard errors at the county
+    level. Bootstrap procedure is also used to quantify the uncertainty of climate
+    adaptation.
+  11: The study uses estimated coefficients of GDD below and above threshold to project
+    the impact of future global warming on agricultural TFP in China, using climate
+    projections from WorldClim-Global Climate Data under four RCPs for medium (2041-2060)
+    and long term (2061-2080). Climate data is derived from global climate models
+    HadGEM2-ES and NorESM1-M.  Percentage of short-run impacts offset by adaptation
+    is calculated using bootstrap estimates.
+  12: "Uses county-year panel data for 2495 counties over the period of 1981\u2013\
+    2015, long differences and panel estimates of historical sensitivities to climate,\
+    \ and climate models (HadGEM2-ES and NorESM1-M) to project future impacts on agricultural\
+    \ TFP and yield in China; CD-SFA-w/CRS model for agricultural TFP."
+  13: Analysis based on adaptation behaviors in TFP and inputs, with a focus on agricultural
+    productivity.
+  14: Annual panel regression with county and year fixed effects, considering temperature
+    thresholds and additional weather variables, and clustering standard errors at
+    the county level.
+  15: The analysis uses piecewise linear approach. Long difference estimates and panel
+    data estimates are used to assess the impact of temperature on agricultural outcomes
+    in China. CD-SFA-w/CRS, TL-SFA-w/CRS, CD-SFA-w/oCRS, C-D (CPF) models are used.
+    Spatial correlation-adjusted standard errors clustered at the county level are
+    used.
+  16: "Panel and long difference regressions; estimated using long difference with\
+    \ 5-year lengths of differencing period; Regressions are weighted by 1981\u2013\
+    2015 county-average farm area; Standard errors adjusted for spatial correlation\
+    \ and clustered at county level; Bootstrap estimates of (1-\u03B2 2LD/\u03B2 2FE)\
+    \ /C2 100% are provided."
+More Notes:
+  1: The study focuses on agriculture in China.
+  3: The analysis suggests adaptation strategies, including changing crop types and
+    input portfolios, can mitigate negative impacts in the long run.
+  6: The study uses weather data from 820 weather stations in China and matches it
+    to 2495 counties, using inverse-distance weighting (IDW).
+  9: The study uses weather data from 820 weather stations in China and matches it
+    to 2495 counties.
+  10: The paper focuses on the agricultural sector in China. The adaptation percentages
+    are calculated based on the difference between panel estimates and long-difference
+    estimates. Bootstrapped adaptation estimates show increasing adaptation over time.
+  11: Climate adaptation offsets 38.1% of TFP reductions in the midterm (2041-2060)
+    and 28.2% in the long term (2061-2080). Projected reductions in agricultural output
+    are nearly twice as large as the decline in agricultural TFP.
+  12: The paper finds a nonlinear relationship between temperature and agricultural
+    outcomes, leading to a faster reduction in TFP and yield in the long term. The
+    charts in Figure 6 show predicted percentage changes in China's agricultural TFP
+    and yield under either HadGEM2-ES model or NorESM1-M model, based on long differences
+    (square) or panel estimates (circle) of historical sensitivities to climate.
+  15: "The study estimates an adaptation effect (1 - \u03B22LD/\u03B22FE) * 100%,\
+    \ representing the percentage reduction in the impact of temperature due to adaptation\
+    \ strategies."
+  16: "The paper uses GDD above threshold as a key risk driver and examines adaptation\
+    \ strategies and their effectiveness (1-\u03B2 2LD/\u03B2 2FE). The analysis is\
+    \ performed at the county level in China."
+Outcome(s) of Interest:
+  1: Agricultural total factor productivity (TFP), agricultural input utilization,
+    agricultural output (measured by yield).
+  2: Agricultural TFP and yield are the primary outcomes of interest. The paper also
+    examines the economic outcomes of agricultural adaptation.
+  3: Decline in China's agricultural TFP by 2-6% by 2050 and by 4-12% by 2070 due
+    to climate change.
+  4: Agricultural TFP, yield, labor utilization, fertilizer utilization, capital stock
+    (machinery)
+  5: Agricultural yield (deflated gross value of agricultural output per hectare),
+    agricultural TFP, yield, and input utilization (labor, fertilizer, machinery).
+  6: Agricultural Total Factor Productivity (TFP)
+  8: The page discusses agricultural yield as an economic measure, showing how it
+    is impacted by temperature changes.
+  9: Agricultural Total Factor Productivity (TFP), agricultural yield.
+  10: Agricultural Total Factor Productivity (TFP) and Yield (land output value) are
+    the primary outcomes, used as proxies for economic effects of climate change.
+  11: Agricultural Total Factor Productivity (TFP), Agricultural Yield
+  12: Agricultural TFP and yield in China.
+  13: Macroeconomic outcomes include the offset of short-run effects on agricultural
+    yield by 46.8% due to adaptation in total factor productivity (TFP) and inputs.
+  14: Log of agricultural total factor productivity (TFP) changes in response to temperature
+    exposure.
+  15: Agricultural Total Factor Productivity (TFP), Yield, Fertilizer Use, Machinery
+    Use, Labor Use.
+  16: Log(Yield), Log(Agricultural TFP), Log(Labor), Log(Fertilizer), Log(Machinery)
+Quantitative material:
+  1: Longer-run adaptation has offset 37.9% of the short-run effects of extreme heat
+    exposure on TFP.
+  2: "An increase in exposure to temperatures above 33\xB0C results in sharp declines\
+    \ in agricultural TFPs; Long-run adaptations appear to have mitigated 37.9% (95%\
+    \ CI, 5.3%\u201354.8%) of the short-run impacts of extreme heat exposure on China\u2019\
+    s agricultural TFPs; 46.8% (95% CI, 30.2%\u201358.0%) of the short-run effect\
+    \ on yield is offset in the long run."
+  3: China's agricultural TFP decline projected by 2-6% by 2050 and by 4-12% by 2070
+    under climate models HadGEM2-ES and NorESM1-M.
+  4: "Examines impact on yield (yit) as a function of labor (lit), machinery (fit),\
+    \ fertilizer (mit), year fixed effects (\u03BBt), technical inefficiency (uit),\
+    \ and a normally distributed disturbance (vit) in equation (2a). Includes GDD\
+    \ (growing degree days) calculation"
+  5: Uses county-level panel data for 2495 counties in mainland China from 1981 to
+    2015.
+  6: "Agricultural TFP is expected to decrease linearly by 2.6% with an additional\
+    \ one-day cumulative exposure to temperatures above 33\xB0C during the whole year."
+  8: "Yield expected to decrease by 4.4% with an additional day at temperatures above\
+    \ 33\xB0C."
+  9: "GDD below threshold has a statistically significant positive impact on agricultural\
+    \ TFP. GDD above threshold has a statistically significant positive impact on\
+    \ agricultural TFP. Precipitation, precipitation squared, humidity, and humidity\
+    \ squared also have statistically significant impacts on agricultural TFP. Longer-run\
+    \ adaptation has offset 46.8% and 37.9% of the short-run effects of extreme heat\
+    \ on China\u2019s agriculture yield and agricultural TFP, respectively. A 2.3%\
+    \ reduction in yield is expected in the long run, with an additional one-day cumulative\
+    \ exposure to temperatures above 33\xB0C during the year."
+  10: "Table 4: Panel estimates show the impact of GDD on Log(Agricultural TFP) and\
+    \ Log(Yield) in China. For example, GDD above threshold has a statistically significant\
+    \ positive impact on both TFP and Yield. Table 5: Long difference estimates provide\
+    \ similar results but with different magnitudes. Table 6: Adaptation percentages\
+    \ calculated as (1 - \u03B22LD/\u03B22FE) * 100% for Yield, Agricultural TFP,\
+    \ Labor, Fertilizer, and Machinery."
+  11: China's agricultural TFP is projected to decrease by 2.5-3.9% under RCP2.6 and
+    by 3.5-5.7% under RCP8.5 in the medium term (2041-2060) using the HadGEM2-ES model;
+    declines are smaller under the NorESM1-M model (1.9-3.1% under RCP2.6 and 2.5-4.1%
+    under RCP8.5). In the long term (2061-2080), TFP is projected to decrease by 4.4-11.8%
+    under the HadGEM2-ES model and by 3.9-8.1% under the NorESM1-M model.
+  12: "Extreme hot weather is projected to decrease TFP by 2.6% and yield by 4.4%\
+    \ with an additional one-day cumulative exposure to temperatures above 33\xB0\
+    C during the whole year in the short run. Long-run adaptations mitigated 37.9%\
+    \ (95% CI, 5.3%\u201354.8%) of the short-run effects in TFP."
+  13: "Short-run agricultural yield effects offset by 46.8% (95% CI, 30.2%\u201358.0%)."
+  14: "Impact on log agricultural TFP using temperature thresholds ranging from 25\xB0\
+    C to 40\xB0C, with statistical significance indicated (e.g., positive coefficients\
+    \ for GDD below 40\xB0C, negative and increasing magnitude coefficients for GDD\
+    \ above these thresholds)."
+  15: "Tables A3 and A4 provide regression coefficients (\u03B2) quantifying the impact\
+    \ of growing degree days (GDD) above and below temperature thresholds on Log(Agricultural\
+    \ TFP), Log(Yield), Log(Labor), Log(Fertilizer), and Log(Machinery)."
+  16: "Panel E: IDW radius \xBC 200 km, Panel Esimtimates [N \xBC 67,951]: GDD above\
+    \ threshold (\u03B2 2FE) /C0 0.0492*** (0.0105), Long-dif Estimates [N \xBC 1649]:\
+    \ GDD above threshold (\u03B2 2LD) /C0 0.0313*** (0.0064), Adaptations (1-\u03B2\
+    \ 2LD/\u03B2 2FE) /C2 100% 36.38; Table A5 Panel A: 1981\u20132015 GDD above threshold\
+    \ /C0 0.0159*** (0.0043), 1-\u03B2 2LD/\u03B2 2FE 0.3789; Bootstrap estimates\
+    \ of 1-\u03B2 2LD/\u03B2 2FE for short-run impacts offset by adaptation"

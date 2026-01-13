@@ -1,0 +1,73 @@
+Drivers of Risk:
+  1: Projected increase in the magnitude and frequency of extreme precipitation events
+    in the Northeastern US.
+  10: Changes in precipitation patterns, particularly extreme precipitation events,
+    are drivers of risk, as these impact infrastructure through probability of failure
+    (PF).
+  13: The driver of risk is climate change, specifically represented by the RCP8.5
+    emission scenario, leading to altered precipitation patterns and increased flood
+    risk.
+  16: Climate change, specifically under RCP4.5 and RCP8.5 scenarios, leading to changes
+    in the frequency of extreme weather events.
+Highlights:
+  1: Exceedance probability of a 100-year event may increase with climate change,
+    potentially changing to a 27-year event under RCP4.5 and a 19-year event under
+    RCP8.5.
+  10: LOCA data, despite biases, could be useful for PF estimates after bias correction.
+    UWPD outperforms the other data sets for all return periods. Dynamically downscaled
+    NA-CORDEX shows comparable skill, although with larger uncertainties. Skills of
+    the downscaled datasets decrease as return periods increase.
+  13: "Under RCP8.5 the mean change ratios in flood return periods increase from 2006-2053\
+    \ to 2054-2100. Under the low emission scenario RCP4.5 for the first half of the\
+    \ 21st century, for a return period of 25 years, flood estimates increase by a\
+    \ mean relative ratio of 0.09, which translates to a 9% increase. New Jersey and\
+    \ the southeast corner of New York experience the smallest change (0%\u20135%),\
+    \ while the area north of Maine experiences the largest change (20%\u201330%)."
+  16: Extreme weather events in the Northeastern US are projected to become more frequent
+    in the future under both RCP4.5 and RCP8.5 scenarios. The change is quite significant
+    even under RCP8.5.
+Methodology:
+  1: Analysis of observed and modeled daily precipitation frequency estimates using
+    annual maximum series and partial duration series methods, employing CMIP5 downscaled
+    data sets.
+  10: The study compares four downscaled climate data sets (UWPD, LOCA, NA-CORDEX,
+    BCCAv2) against observed data to assess their skill in predicting extreme precipitation
+    events. The skill is quantified using correlation coefficients and RMSE. The data
+    is used to calculate probability of failure (PF) estimates using AMS and PDS methods.
+  13: The analysis projects future flood return periods using the UWPD and LOCA datasets
+    under the RCP8.5 emission scenario, calculating relative differences between future
+    and historical flood probabilities. Results are applicable for the first half
+    of the 21st century under the RCP4.5 scenario, and for the specified periods under
+    RCP 8.5.
+  16: Analysis of exceedance probabilities for different return periods using UWPD
+    and LOCA datasets under RCP4.5 and RCP8.5 scenarios, comparing historical data
+    (1960-2005) with projections for the first (2006-2053) and second (2054-2100)
+    halves of the 21st century.
+More Notes:
+  11: This page primarily describes methodological choices related to downscaled climate
+    data and projected precipitation frequency (PF) estimates. It doesn't directly
+    address macroeconomic or fiscal outcomes, costs, or benefits of adaptation at
+    a national level. The focus is on selecting and comparing climate datasets for
+    projecting future precipitation patterns.
+  16: The results are specific to the Northeastern US. The dry bias in the data is
+    acknowledged as a potential influence on the magnitude of changes, although the
+    sign of the changes is consistent.
+Outcome(s) of Interest:
+  10: No relevant information
+  13: The paper presents projected changes in flood return periods, which can be linked
+    to economic costs associated with flood damage and the need for adaptation measures.
+  16: While the page focuses on extreme weather events and probabilities, it does
+    not explicitly link these to specific macroeconomic or fiscal outcomes like GDP,
+    inflation, or government budgets. No adaptation costs or benefits are detailed
+    either.
+Quantitative material:
+  10: The paper presents Pearson correlation coefficients (R) and Root Mean Square
+    Errors (RMSE) comparing observed and downscaled precipitation data for different
+    return periods (2-year, 25-year). R values range from 0.70 to 0.74. RMSE values
+    range from 43.98 to 52.54.
+  13: The paper provides quantitative estimates of the mean relative change ratios
+    in flood return periods (25-year, 100-year, and 500-year) for two future periods
+    (2006-2053 and 2054-2100) under the RCP8.5 scenario, using both UWP and LOCA data.
+  16: "Under the RCP8.5 scenario, the exceedance probability for the 100-year event\
+    \ (0.01) will increase to \u22480.04 for the second half of the 21st century in\
+    \ the Northeastern US."

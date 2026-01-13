@@ -1,0 +1,82 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,National GDP growth,China,1°C warming,2023,No CC,%,1,NA,NA,NA,NA,NA,Page 1,Marginal prediction from Random Forest model; year assumed as current publication year.
+1,National GDP growth,China,1°C warming,2023,No CC,%,-3,NA,NA,NA,NA,NA,Page 1,Marginal prediction from multivariate cubic regression model; year assumed as current publication year.
+2,National GDP growth,China,1°C warming,2023,No CC,%,-6,NA,NA,NA,NA,NA,Page 1,Marginal prediction from linear spline regression model; year assumed as current publication year.
+3,National GDP,China,RFs,2000,No CC,%,1,NA,NA,NA,NA,NA,Page 3,Modest shifts
+4,National GDP,China,Cubic,2000,No CC,%,-3,NA,NA,NA,NA,NA,Page 3,More substantial changes
+5,National GDP,China,Spline,2000,No CC,%,-6,NA,NA,NA,NA,NA,Page 3,More substantial changes
+6,Per capita GDP growth,China,Historical,2005,No CC,%,5,NA,NA,NA,NA,NA,10,Estimated per capita GDP growth of cells
+7,Per capita GDP growth,China,Historical,2005,No CC,%,85,NA,NA,NA,NA,NA,10,Estimated per capita GDP growth of cells
+8,Optimal Temperature,China,Historical,2005,No CC,°C,15,NA,NA,NA,NA,NA,10,"Optimal temperature for per capita GDP growth at the cell level, using Random Forests"
+9,Optimal Temperature,China,NA,2023,NA,°C,16,NA,NA,NA,NA,NA,Page 11,Reported by ZGK using GEcon4.0 data for poor countries (including China).
+10,GDP Change,China,1°C Warming,2023,No CC,%,0.87,NA,NA,NA,NA,NA,Page 11,Linear simulation using Random Forests model.
+11,GDP Change,China,1°C Warming,2023,No CC,%,-0.78,NA,NA,NA,NA,NA,Page 11,Result from Duan et al. [15] using prefecture city data.
+12,GDP Change,Poorer Countries,1°C Warming,2023,No CC,%,-1.3,NA,NA,NA,NA,NA,Page 11,Result from Dell et al. [12].
+13,GDP Change,Caribbean-basin Countries,1°C Warming,2023,No CC,%,-2.5,NA,NA,NA,NA,NA,Page 11,Result from Hsiang [25].
+14,Economic Change,Global,1°C Warming,2023,No CC,%,-7,NA,NA,NA,NA,NA,Page 11,Result from ZGK.
+15,Income Growth,India,1°C Warming,2023,No CC,%,-4.7,NA,NA,NA,NA,NA,Page 11,Result from Sandhani [38].
+16,GDP growth,China,1°C warming,2005,2005,%,0.6,NA,NA,NA,NA,NA,13,Areas where per capita GDP growth is larger than 0.6 expand from southern China to northern China and western China.
+17,GDP growth,China,6°C warming,2005,2005,%,0.6,NA,NA,NA,NA,NA,13,Areas where per capita GDP growth is larger than 0.6 expand from southern China to northern China and western China.
+18,National GDP growth,China,Temperature rise,2005,No CC,%,1,NA,NA,NA,NA,NA,14,"Marginal prediction from RFs model for warming below 6.5°C. The accumulated national GDP growth in China from 2000 to 2005 was 0.6, used as a contour line value, so I am assuming 2005 is the year under consideration."
+19,National GDP growth,China,Temperature rise,2005,No CC,%,-3,NA,NA,NA,NA,NA,14,"Marginal prediction from cubic regression model for warming below 6.5°C. The accumulated national GDP growth in China from 2000 to 2005 was 0.6, used as a contour line value, so I am assuming 2005 is the year under consideration."
+20,National GDP growth,China,Temperature rise,2005,No CC,%,6,NA,NA,NA,NA,NA,14,"Marginal prediction from spline regression model for warming below 6.5°C. The accumulated national GDP growth in China from 2000 to 2005 was 0.6, used as a contour line value, so I am assuming 2005 is the year under consideration."
+21,R-squared,China,80% training data,2000,NA,unitless,0.93,NA,NA,NA,NA,NA,Page 15,RFs model
+22,RMSE,China,80% training data,2000,NA,unitless,0.04,NA,NA,NA,NA,NA,Page 15,RFs model
+23,MAE,China,80% training data,2000,NA,unitless,0.03,NA,NA,NA,NA,NA,Page 15,RFs model
+24,AIC,China,80% training data,2000,NA,unitless,2.78,NA,NA,NA,NA,NA,Page 15,RFs model
+25,R-squared,China,20% OOB test data,2000,NA,unitless,0.31,NA,NA,NA,NA,NA,Page 15,RFs model
+26,RMSE,China,20% OOB test data,2000,NA,unitless,0.12,NA,NA,NA,NA,NA,Page 15,RFs model
+27,MAE,China,20% OOB test data,2000,NA,unitless,0.09,NA,NA,NA,NA,NA,Page 15,RFs model
+28,R-squared,China,80% training data,2000,NA,unitless,0.35,NA,NA,NA,NA,NA,Page 15,cubic model
+29,RMSE,China,80% training data,2000,NA,unitless,0.11,NA,NA,NA,NA,NA,Page 15,cubic model
+30,MAE,China,80% training data,2000,NA,unitless,0.09,NA,NA,NA,NA,NA,Page 15,cubic model
+31,AIC,China,80% training data,2000,NA,unitless,14.12,NA,NA,NA,NA,NA,Page 15,cubic model
+32,R-squared,China,20% OOB test data,2000,NA,unitless,0.04,NA,NA,NA,NA,NA,Page 15,cubic model
+33,RMSE,China,20% OOB test data,2000,NA,unitless,0.19,NA,NA,NA,NA,NA,Page 15,cubic model
+34,MAE,China,20% OOB test data,2000,NA,unitless,0.16,NA,NA,NA,NA,NA,Page 15,cubic model
+35,R-squared,China,80% training data,2000,NA,unitless,0.38,NA,NA,NA,NA,NA,Page 15,spline model
+36,RMSE,China,80% training data,2000,NA,unitless,0.11,NA,NA,NA,NA,NA,Page 15,spline model
+37,MAE,China,80% training data,2000,NA,unitless,0.09,NA,NA,NA,NA,NA,Page 15,spline model
+38,AIC,China,80% training data,2000,NA,unitless,13.40,NA,NA,NA,NA,NA,Page 15,spline model
+39,R-squared,China,20% OOB test data,2000,NA,unitless,0.02,NA,NA,NA,NA,NA,Page 15,spline model
+40,RMSE,China,20% OOB test data,2000,NA,unitless,0.19,NA,NA,NA,NA,NA,Page 15,spline model
+41,MAE,China,20% OOB test data,2000,NA,unitless,0.16,NA,NA,NA,NA,NA,Page 15,spline model
+42,R-squared,China,80% training data,2000,NA,unitless,0.93,NA,NA,NA,NA,NA,Page 15,RFs_lag2 model
+43,RMSE,China,80% training data,2000,NA,unitless,0.04,NA,NA,NA,NA,NA,Page 15,RFs_lag2 model
+44,MAE,China,80% training data,2000,NA,unitless,0.03,NA,NA,NA,NA,NA,Page 15,RFs_lag2 model
+45,AIC,China,80% training data,2000,NA,unitless,2.11,NA,NA,NA,NA,NA,Page 15,RFs_lag2 model
+46,R-squared,China,20% OOB test data,2000,NA,unitless,0.44,NA,NA,NA,NA,NA,Page 15,RFs_lag2 model
+47,RMSE,China,20% OOB test data,2000,NA,unitless,0.11,NA,NA,NA,NA,NA,Page 15,RFs_lag2 model
+48,MAE,China,20% OOB test data,2000,NA,unitless,0.08,NA,NA,NA,NA,NA,Page 15,RFs_lag2 model
+49,R-squared,China,80% training data,2000,NA,unitless,0.38,NA,NA,NA,NA,NA,Page 15,cubic_lag2 model
+50,RMSE,China,80% training data,2000,NA,unitless,0.11,NA,NA,NA,NA,NA,Page 15,cubic_lag2 model
+51,MAE,China,80% training data,2000,NA,unitless,0.09,NA,NA,NA,NA,NA,Page 15,cubic_lag2 model
+52,AIC,China,80% training data,2000,NA,unitless,13.40,NA,NA,NA,NA,NA,Page 15,cubic_lag2 model
+53,R-squared,China,20% OOB test data,2000,NA,unitless,0.01,NA,NA,NA,NA,NA,Page 15,cubic_lag2 model
+54,RMSE,China,20% OOB test data,2000,NA,unitless,0.20,NA,NA,NA,NA,NA,Page 15,cubic_lag2 model
+55,MAE,China,20% OOB test data,2000,NA,unitless,0.16,NA,NA,NA,NA,NA,Page 15,cubic_lag2 model
+56,R-squared,China,80% training data,2000,NA,unitless,0.42,NA,NA,NA,NA,NA,Page 15,spline_lag2 model
+57,RMSE,China,80% training data,2000,NA,unitless,0.11,NA,NA,NA,NA,NA,Page 15,spline_lag2 model
+58,MAE,China,80% training data,2000,NA,unitless,0.09,NA,NA,NA,NA,NA,Page 15,spline_lag2 model
+59,AIC,China,80% training data,2000,NA,unitless,12.59,NA,NA,NA,NA,NA,Page 15,spline_lag2 model
+60,R-squared,China,20% OOB test data,2000,NA,unitless,0.00,NA,NA,NA,NA,NA,Page 15,spline_lag2 model
+61,RMSE,China,20% OOB test data,2000,NA,unitless,0.21,NA,NA,NA,NA,NA,Page 15,spline_lag2 model
+62,MAE,China,20% OOB test data,2000,NA,unitless,0.16,NA,NA,NA,NA,NA,Page 15,spline_lag2 model
+63,GDP Change,China,Projection,2000,No CC,%,31,NA,NA,NA,NA,NA,Page 15,Explanatory effect of the projection using RFs model.
+64,GDP Change,China,Projection,2000,No CC,%,4,NA,NA,NA,NA,NA,Page 15,Explanatory effect of the projection using cubic model.
+65,GDP Change,China,Projection,2000,No CC,%,3,NA,NA,NA,NA,NA,Page 15,Explanatory effect of the projection using spline model.
+66,National GDP growth,China,Temperature rise,2023,No CC,%,-3,NA,NA,NA,NA,NA,Page 16,Marginal effect of temperature rise using cubic regression with lagged effects.
+67,National GDP growth,China,Temperature rise,2023,No CC,%,-10,NA,NA,NA,NA,NA,Page 16,Marginal effect of temperature rise using cubic regression with lagged effects. (R2 = 1.00)
+68,National GDP growth,China,Temperature rise,2023,No CC,%,6,NA,NA,NA,NA,NA,Page 16,Marginal effect of temperature rise using spline regression with lagged effects.
+69,National GDP growth,China,Temperature rise,2023,No CC,%,-4,NA,NA,NA,NA,NA,Page 16,Marginal effect of temperature rise using spline regression with lagged effects. (R2 = 0.87)
+70,National GDP growth,China,Temperature rise,2023,No CC,%,0.87,NA,NA,NA,NA,NA,Page 16,Marginal effect of temperature rise using Random Forests with lagged effects.
+71,National GDP growth,China,Temperature rise,2023,No CC,%,0.43,NA,NA,NA,NA,NA,Page 16,Marginal effect of temperature rise using Random Forests with lagged effects. (R2 = 0.98)
+72,R-squared,China,bootstrap with train,2023,bootstrap with all,%,-12,NA,NA,NA,NA,NA,Page 18,Change in mean explanatory effect using RF
+73,RMSE,China,bootstrap with train,2023,bootstrap with all,%,13,NA,NA,NA,NA,NA,Page 18,Mean accuracy loss using RF
+74,R-squared,China,cubic,2023,bootstrap with all,%,-32,NA,NA,NA,NA,NA,Page 18,Change in mean explanatory effect
+75,RMSE,China,cubic,2023,bootstrap with all,%,13,NA,NA,NA,NA,NA,Page 18,Change in mean accuracy loss
+76,R-squared,China,spline,2023,bootstrap with all,%,-40,NA,NA,NA,NA,NA,Page 18,Change in mean explanatory effect
+77,RMSE,China,spline,2023,bootstrap with all,%,25,NA,NA,NA,NA,NA,Page 18,Change in mean accuracy loss
+78,National GDP,China,Temperature rise 0.5°C-6.5°C,2023,No CC,Percentage change per 1°C,1,NA,NA,NA,NA,NA,Page 21,"The marginal prediction of temperature on national GDP changes is based on the performance of random forests. Year specified is the publication year, as the paper does not specify an evaluation year."
+79,National GDP,China,Temperature rise 0.5°C-6.5°C,2023,No CC,Percentage change per 1°C,-3,NA,NA,NA,NA,NA,Page 21,"The marginal prediction of temperature on national GDP changes is based on the performance of cubic regression. Year specified is the publication year, as the paper does not specify an evaluation year."
+80,National GDP,China,Temperature rise 0.5°C-6.5°C,2023,No CC,Percentage change per 1°C,6,NA,NA,NA,NA,NA,Page 21,"The marginal prediction of temperature on national GDP changes is based on the performance of linear spline regression. Year specified is the publication year, as the paper does not specify an evaluation year."

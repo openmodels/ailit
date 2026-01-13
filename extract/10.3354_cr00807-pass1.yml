@@ -1,0 +1,116 @@
+Drivers of Risk:
+  1: Decreasing trend in precipitation.
+  2: Rainfall changes and increasing precipitation in the Pampas are contributing
+    to changes in land use patterns, agricultural expansion, and heightened concerns
+    about future climate variability.
+  5: Rainfall decrease.
+  7: Decadal climate variability, specifically drier conditions towards the end of
+    the simulated sequence.
+  8: Decreasing precipitation trends; Changes in rainfall; Higher radiation levels;
+    Decreases in minimum temperatures; Water becoming a limiting resource.
+  9: Decreasing precipitation.
+  10: Decreasing rainfall trends, particularly impacting climatically marginal regions;
+    climate variability; limited adoption of adaptation strategies; trade-offs between
+    productivity, stability, and sustainability in agroecosystems
+Highlights:
+  1: Decreased precipitation may significantly impact marginal agricultural regions
+    (Pilar) more than productive regions (Pergamino). Adaptation can mitigate some
+    negative impacts.
+  5: Quantifies the impacts of rainfall decrease on current agricultural practices
+    and explores adaptive responses by hypothetically modelling farmer decisions about
+    land allocation.
+  7: The analysis quantifies the impact of climate variability on production income
+    and the probability of negative economic returns for key crops in the Pampas region.
+  8: Decreasing precipitation trends had quite different impacts on the economic profits
+    of current practices at each location; profits in Pilar showed a clear reduction
+    while profits for summer crops in Pergamino changed only slightly; the risk of
+    economic losses (PNER) increased substantially in Pilar due to climate change,
+    while it remained close to zero in Pergamino.
+  9: Adaptation, even delayed, is better than no adaptation in maintaining farm-wide
+    economic returns and stabilizing the probability of negative returns in Pilar.
+  10: Decreasing rainfall can lead to economic losses for farmers, particularly in
+    climatically marginal regions like Pilar; Adaptation strategies, even delayed
+    ones, can help reduce the negative impacts; Climatically marginal regions are
+    more sensitive to changes; Unfavorable climate trends may endanger future viability
+    of continuous agriculture in marginal regions.
+Methodology:
+  1: Assess the potential impacts of a plausible decreasing trend in precipitation
+    on the economic sustainability of 2 contrasting agricultural systems (Pergamino
+    and Pilar) using crop models and exploring adaptation options. The time scale
+    is decades.
+  2: The analysis uses historical climate records to define plausible future climate
+    scenarios, employs a semi-parametric weather generator for downscaling, and simulates
+    agricultural outcomes using crop growth models and economic inputs.
+  5: Dynamic, process-level crop models (DSSAT) simulate crop growth and development.
+    Economic profits per hectare are computed as the difference between gross income
+    (simulated yields * median crop prices from 2000-2005) and costs (direct and indirect).
+    PNER is computed as the proportion of simulations with negative economic profits.
+    This is applicable for the Pampas region.
+  7: "Crop models are used to simulate profits for different cropping cycles under\
+    \ varying weather realizations. Three adaptive responses are simulated: a 'na\xEF\
+    ve' farmer, a 'clairvoyant' farmer, and a farmer who adapts based on the previous\
+    \ 4 cycles. Optimal land allocations are identified using a genetic algorithm."
+  8: Genetic Algorithm (GA) to optimize land allocation for maximizing economic profits
+    under climate change scenarios; Consideration of Crop Production Theory (CPT)
+    value function; Simulation of crop yields and profits over a 24-year sequence;
+    Exhaustive search procedure for validation.
+  9: Simulation of farmer adaptation strategies (instant, 4-year delayed, and no adaptation)
+    to climate conditions over cropping cycles (5-24) in Pilar, Argentina.
+  10: "Simulation of farmer adaptation strategies (na\xEFve, clairvoyant, delayed)\
+    \ to decreasing precipitation, assessing impacts on profits and economic risks\
+    \ in Pilar and Pergamino; the results presented only cover two locations within\
+    \ Argentina and are applicable for decadal climate variability given technological\
+    \ innovations."
+More Notes:
+  1: The study focuses on the Pampas region of Argentina.
+  5: The study assumes a constant economic context (crop prices and input costs) to
+    isolate the effects of changing climate.
+  7: The study focuses on farm-level adaptation strategies rather than nation-wide
+    adaptation. The adaptive responses considered include changes in land allocation.
+  9: The analysis focuses on two locations in the Pampas (Pilar and Pergamino), but
+    only results for Pilar are discussed on this page. In Pergamino, there are no
+    marked differences in profits or economic risks between the adaptation and no
+    adaptation situations.
+  10: The study acknowledges the role of technological innovation (e.g., drought-tolerant
+    crops) as an adaptation measure; it highlights the need for salient scientific
+    knowledge to inform decision-making and policy.
+Outcome(s) of Interest:
+  1: Economic returns of crop production; farm profits; production risks.
+  5: Economic profits per hectare, Probability of Negative Economic Returns (PNER).
+  7: Production income ($/ha) and probability of negative production incomes.
+  8: Annual economic profits for different crop/management conditions; Crop Production;
+    Risk of economic losses (PNER).
+  9: Farm-wide economic returns, probability of negative farm-wide economic returns
+    (a metric of production risk).
+  10: Economic losses and lower profits for farmers due to decreasing rainfall; viability
+    of continuous agriculture in marginal regions
+Quantitative material:
+  1: Crop economic returns in Pergamino would not change noticeably with decreased
+    precipitation; Pilar would experience a marked decrease in profits and an increase
+    in production risks with decreased precipitation.
+  5: "Projected annual precipitation totals in Pilar are shown in Fig. 3, with a proposed\
+    \ decreasing trend of -6.6 mm/year. Cost calculations are based on a representative\
+    \ 600 ha farm operated by its owner with indirect costs assumed to be $70 ha\u2013\
+    1 for both locations."
+  7: Figure 4 shows the temporal evolution of economic returns and the probability
+    of negative economic returns for soybean, maize, and wheat/soybean cropping systems
+    in Pergamino and Pilar regions.
+  8: "Wheat/soybean double crop in Pilar started with an average profit of about $80\
+    \ ha\u20131 and reached average profits close to zero by the end of the 24 yr\
+    \ sequence; Maize in Pilar decreased in economic returns to 75% of the initial\
+    \ value by the end of the 24 yr sequence; Soybean in Pilar average economic returns\
+    \ decreased to about 40 % of the initial value; Income assumed to be $170 ha\u2013\
+    1 ($230 ha\u20131) for Pilar (Pergamino); PNER for maize in Pilar increased from\
+    \ 0.15 to 0.55 throughout the 24 yr sequence; PNER for full-cycle soybean in Pilar\
+    \ rose from 0.05 to 0.20; The chance of negative profits for the wheat/soybean\
+    \ double crop in Pilar increased from 0.35 to 0.65."
+  9: Figure 5 displays the temporal evolution of farm-wide economic returns and the
+    probability of negative farm-wide economic returns under different adaptation
+    strategies. In the absence of adaptation, the probability of economic failure
+    increases rapidly with decreasing precipitation, reaching about 0.35 towards the
+    end of the sequence (initially around 0.20).
+  10: "Simulated yield decreases for maize in Pilar range from 76 to 93 kg ha\u2013\
+    1 yr\u20131; Projected decreases in full-cycle soybean yields in Pilar are 20\
+    \ to 25 kg ha\u20131 yr\u20131; Wheat/soybean economic losses double from once\
+    \ in 3 yr to twice in 3 yr; Maize economic losses shift from once every 6 or 7\
+    \ yr to 5 of 10 yr in Pilar"

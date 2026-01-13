@@ -1,0 +1,37 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,National GDP,China,1°C warming,2000,No CC,%,1,NA,NA,NA,NA,NA,Page 1,Based on Random Forest model. Year is approximate midpoint of sample.
+1,National GDP,China,1°C warming,2000,No CC,%,-3,NA,NA,NA,NA,NA,Page 1,Based on multivariate cubic regression. Year is approximate midpoint of sample.
+2,National GDP,China,1°C warming,2000,No CC,%,-6,NA,NA,NA,NA,NA,Page 1,Based on linear spline regression. Year is approximate midpoint of sample.
+3,Optimal Temperature,China,NA,2000,NA,°C,15,NA,NA,NA,NA,NA,Page 1,Optimal temperature estimate from both Random Forest and multivariate cubic regression. Year is approximate midpoint of sample.
+4,Optimal Temperature,China,NA,2000,NA,°C,21,NA,NA,NA,NA,NA,Page 1,Optimal temperature estimate from linear spline regression. Year is approximate midpoint of sample.
+5,National GDP,China,1°C warming,2005,No CC,%,1,NA,NA,NA,NA,NA,Page 3,Result from Random Forest (RF) simulation.
+6,National GDP,China,1°C warming,2005,No CC,%,-3,NA,NA,NA,NA,NA,Page 3,Result from cubic regression simulation.
+7,National GDP,China,1°C warming,2005,No CC,%,-6,NA,NA,NA,NA,NA,Page 3,Result from linear spline regression simulation.
+8,GDP,China,1°C warming,2005,No CC,%,0.0087,NA,NA,NA,NA,NA,Page 11,"Based on RF model, linear simulation. Approximately 1% marginal propensity to GDP change."
+9,GDP,China,1°C warming,2005,No CC,%,-0.78,NA,NA,NA,NA,NA,Page 11,"Based on Duan et al. [15], 27-year panel dataset of 274 prefecture cities."
+10,GDP,Poorer Countries,1°C warming,2005,No CC,%,-1.3,NA,NA,NA,NA,NA,Page 11,Based on Dell et al. [12].
+11,GDP,Caribbean-basin Countries,1°C warming,2005,No CC,%,-2.5,NA,NA,NA,NA,NA,Page 11,Based on Hsiang [25].
+12,GDP,Global,1°C warming,2005,No CC,%,-7,NA,NA,NA,NA,NA,Page 11,Based on ZGK.
+13,Per capita income growth rate,India,1°C warming,2005,No CC,%,-4.7,NA,NA,NA,NA,NA,Page 11,"Based on Sandhani [38], district per-capita income."
+14,GDP growth,China,Temperature rise to 1°C,2005,No CC,%,0.6,NA,NA,NA,NA,NA,Page 13,"Projected impact of a 1°C temperature rise on per capita GDP growth, highlighted as a key outcome."
+15,GDP growth,China,Temperature rise to 6°C,2005,No CC,%,0.6,NA,NA,NA,NA,NA,Page 13,Projected impact of a 6°C temperature rise on per capita GDP growth; geographical variations and indicated potential benefits in northern China.
+16,National GDP,China,Temperature rise,2005,No CC,%,1,NA,NA,NA,NA,NA,Page 14,"Based on Random Forests (RFs) model, warming below 6.5°C. The year 2005 is the final year of the study period."
+17,National GDP,China,Temperature rise,2005,No CC,%,-3,NA,NA,NA,NA,NA,Page 14,"Based on cubic regression model, warming below 6.5°C. The year 2005 is the final year of the study period."
+18,National GDP,China,Temperature rise,2005,No CC,%,6,NA,NA,NA,NA,NA,Page 14,"Based on spline regression model, warming below 6.5°C. The year 2005 is the final year of the study period."
+19,Per capita GDP growth,China,Temperature rise,2005,No CC,index,0,NA,NA,NA,NA,NA,Page 14,RFs present lower but more evenly distributed per capita GDP growth compared to the benchmark models. Value is 0 because the growth is not quantified.
+20,National GDP,China,1°C warming scenario,2005,No CC,percentage change,1,NA,NA,NA,NA,NA,Page 15,"RF models suggest a modest impact, compared to other models which indicate larger changes."
+21,National GDP,China,1°C warming scenario,2005,No CC,percentage change,-3,NA,NA,NA,NA,NA,Page 15,Cubic regression models indicate a larger negative impact.
+22,National GDP,China,1°C warming scenario,2005,No CC,percentage change,-6,NA,NA,NA,NA,NA,Page 15,Spline regression models indicate the largest negative impact among modeled approaches.
+23,National GDP,China,"Temp rise w/ lags, cubic",2000,No CC,%,-10,NA,NA,NA,NA,NA,16,"Marginal effect of temperature rise, unspecified year so assuming middle of sample"
+24,National GDP,China,"Temp rise w/ lags, spline",2000,No CC,%,-4,NA,NA,NA,NA,NA,16,"Marginal effect of temperature rise, unspecified year so assuming middle of sample"
+25,National GDP,China,"Temp rise w/ lags, RFs",2000,No CC,%,0.43,NA,NA,NA,NA,NA,16,"Marginal association with temperature rise, unspecified year so assuming middle of sample"
+26,National GDP,China,"Temp rise, cubic",2000,No CC,%,-3,NA,NA,NA,NA,NA,16,"Marginal effect of temperature rise, unspecified year so assuming middle of sample"
+27,National GDP,China,"Temp rise, spline",2000,No CC,%,-6,NA,NA,NA,NA,NA,16,"Marginal effect of temperature rise, unspecified year so assuming middle of sample"
+28,National GDP,China,"Temp rise, RFs",2000,No CC,%,0.87,NA,NA,NA,NA,NA,16,"Marginal association with temperature rise, unspecified year so assuming middle of sample"
+29,National GDP,China,Equal Temperature Rise,2005,Historical Experience,%,1,NA,NA,NA,NA,NA,21,Marginal prediction from Random Forests for every 1°C temperature rise within 6.5°C warming.
+30,National GDP,China,Equal Temperature Rise,2005,Historical Experience,%,-3,NA,NA,NA,NA,NA,21,Marginal prediction from Cubic Regression for every 1°C temperature rise within 6.5°C warming.
+31,National GDP,China,Equal Temperature Rise,2005,Historical Experience,%,6,NA,NA,NA,NA,NA,21,Marginal prediction from Linear Spline Regression for every 1°C temperature rise within 6.5°C warming.
+32,Log per capita GDP,China,Cell-level analysis,2005,N/A,°C,15,NA,NA,NA,NA,NA,21,Optimal temperature for log per capita GDP changes in cells.
+33,Cell GDP changes,China,Training sample,2005,N/A,%,5,NA,NA,NA,NA,85,21,Impacts in RFs.
+34,Cell GDP changes,China,Training sample,2005,N/A,%,-10,NA,NA,NA,NA,103,21,Impacts in Cubic model.
+35,Cell GDP changes,China,Training sample,2005,N/A,%,-11,NA,NA,NA,NA,120,21,Impacts in Spline model.

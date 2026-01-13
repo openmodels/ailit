@@ -1,0 +1,137 @@
+Drivers of Risk:
+  1: Climate variability, sudden shocks to resource availability, network topology.
+  2: Climate variability, extreme weather events (wildfires, droughts), pest outbreaks,
+    anthropogenic climate change.
+  6: Climate variability scenarios involving resource availability changes over time,
+    modeled as sine waves. Scenarios include low (5%) and high (50%) amplitude variations,
+    with periods of 6 years (high frequency, representing ENSO) and 70 years (low
+    frequency, representing AMO). Sudden shocks are also examined, where a node suddenly
+    stops exporting food.
+  7: Amplitude and frequency of resource production variability; in-phase and out-of-phase
+    variability of resources; Network topology (size, centrality)
+  10: Climate variability (amplitude and frequency); shocks to nodes in the food trade
+    network; resource availability decreases.
+  13: Shocks applied to nodes with varying centrality in a food trade network; Restriction
+    on exports; Extreme climate variability; Dependency on fewer nodes in the trade
+    network.
+  14: Long-term climate variability, shocks (unspecified nature, but related to food
+    trade), income inequalities across countries.
+  15: Climate variability (specifically, the amplitude and frequency of variations
+    in food production), network topology (structure of trade networks), and shocks
+    to the food trade network.
+Highlights:
+  1: Redistribution of resources increases the maximum population that can be supported.
+    Topology is the key factor determining the carrying capacity of a node. Central
+    nodes achieve a higher carrying capacity and are less susceptible to long-term
+    resource variability and shocks.
+  2: Import-dependent and water-scarce countries are most vulnerable to shocks. Developing
+    countries experience the highest losses in import volume due to sudden decreases
+    in export volume in the network. Increasing number and diversity of trading partners
+    and increasing food buffer stocks can increase resilience against shocks.
+  7: Resource variability (amplitude and frequency) significantly impacts NEP and
+    GEP. Lower frequencies and lower amplitude variability result in higher GEP with
+    in-phase variability. Out-of-phase variability increases NEP and GEP compared
+    to in-phase variability. Higher amplitudes and lower frequencies result in more
+    variation of GEP over time.
+  10: Larger small-world networks are more efficient at distributing resources. Central
+    nodes are more resilient to shocks. Dependency on a shock node increases population
+    loss. A shock applied to a central node has a larger impact on overall GEP.
+  13: Population loss is larger when a shock is applied to a node with higher centrality.
+    Dependency on fewer nodes makes a node more vulnerable to a shock. Networks with
+    larger small-world properties are more effective in mitigating climate variability,
+    and more central nodes are less vulnerable to long-term resource variability and
+    shocks.
+  14: Increasing network size (more trading partners) benefits all nodes in a food
+    trade network. Increasing the number of links to a node increases its resilience.  A
+    larger network is more efficient in redistributing resources, increasing the carrying
+    capacity of the network. Trade shocks disproportionately affect poor, import-dependent
+    countries.
+  15: Resource redistribution can increase carrying capacities and population size
+    when resource variability is out of phase between network parts; this effect is
+    stronger with increasing network size.
+Methodology:
+  1: A model of population growth limited by resource availability in a trading network
+    is used. Resources are redistributed based on supply and distance. Resource variability
+    is modeled with wave parameters mimicking biomass production changes from climate
+    variability. Random perturbations are applied to resources to study resilience.
+  2: Combination of empirical and modelling approaches to study the effect of shocks
+    on food availability in real-world food trade networks.
+  6: A food trade network model is used to analyze the effects of climate variability
+    and network topology on food trade resilience. Resource availability at nodes
+    varies according to sine wave functions representing climate variability. The
+    analysis considers in-phase and out-of-phase climate variability scenarios. The
+    impact of shocks (nodes stopping exporting food) on hub, peripheral, and median-closeness
+    centrality nodes are studied.
+  7: Model results from simulations of a food trade network
+  10: Network analysis is used to model the evolution and resilience of a food trade
+    network over time. Simulations are performed to assess the impact of climate variability
+    and shocks.
+  13: Uses a model studying the effects of network topology and climate variability
+    on food trade networks, specifically focusing on population dynamics after a shock
+    to a node with varying centrality. The model simulates trade in a free-trade system
+    where nodes reserve resources for export.
+  14: Agent-based modeling of food trade networks, simplified gravity of trade equation.
+    The model allows assessment of the effects on the long-term dynamics that are
+    relevant for population growth and multi-decadal climate variability.
+  15: A model simulates resource redistribution in a small-world network to study
+    the effects of climate variability, network topology, and shocks on population
+    growth.
+More Notes:
+  1: The model uses cities or countries as nodes in a trading network.
+  2: Trade can increase the carrying capacity of a trade network without any increase
+    in production.
+  6: The study examines how resource variability impacts the carrying capacity of
+    the food trade network and considers scenarios with both in-phase and out-of-phase
+    resource variability to mimic climate phenomena like ENSO and NAO.
+  7: The study focuses on the impact of resource variability and network topology
+    on population within a food trade network, which can be used as a proxy for economic
+    activity. The study seems to suggest that diversification (out-of-phase variability)
+    provides resilience.
+  10: The paper uses NEP and GEP as measures, which could be related to economic activity
+    or welfare within the network's nodes, though not directly stated as GDP or productivity.
+    Closeness centrality and distance to the shock node determine population loss
+    after a shock. 'Nodes' represent countries or regions in a food trade network.
+  13: The study highlights the decreased importance of food reserves in resilience
+    to shocks in recent decades, due to decreased stock sizes. It also notes that
+    the model setup differs from some other models because the exported resources
+    are not counted toward the carrying capacity of the node.
+  14: The paper focuses on the structure and resilience of food trade networks as
+    impacted by climate variability and shocks, using a simplified model to isolate
+    effects. Empirical complexities in real-world trade data limit isolating generalizable
+    effects of climate variability, network topology, and shocks on carrying capacity.
+  15: Central nodes (cities or countries with high connectivity in the trade network)
+    are less vulnerable to resource variability and shocks due to greater access to
+    resources through trade.
+Outcome(s) of Interest:
+  1: Population growth (limited by resource availability), carrying capacity of a
+    network, equitable access to resources.
+  2: Food supply, food prices, import volume, export volume.
+  7: Node Equilibrium Population (NEP), Global Equilibrium Population (GEP)
+  10: GEP (Global Equilibrium Population) loss is used as a proxy for macroeconomic
+    impact; NEP (Node Equilibrium Population)
+  13: Population loss after a shock in a food trade network; Carrying capacity of
+    a trading network.
+  14: Resilience of food trade networks, carrying capacity of food trade networks.
+  15: Carrying capacities and population size are used as indicators of the effect
+    of climate variability, network topology and shocks.
+Quantitative material:
+  1: Fluctuations in carrying capacity depend on the amplitude and frequency of resource
+    variability.
+  2: Global population will reach 9 billion by 2050 with 65% residing in cities.
+  7: Low Amplitude High Frequency (LAHF) variability causes a 4.3% decrease in GEP
+    compared to the baseline; Low Amplitude Low Frequency (LALF) variability causes
+    a 3.5% decrease in GEP; High Amplitude High Frequency (HAHF) variability results
+    in a 46.7% decrease in GEP compared to the baseline; High Amplitude Low Frequency
+    (HALF) variability results in a 42.3% decrease in GEP; GEP increases with increasing
+    network size under out-of-phase variability; Variation in GEP was 99% lower under
+    LAHF than under HALF
+  10: Coefficient of variation of GEP is 18% lower in a 100-node network compared
+    to a 10-node network under the out of phase HALF scenario.
+  13: 'GEP loss in non-shock nodes when a shock is applied to a node with lowest centrality:
+    270; GEP loss in non-shock nodes when a shock is applied to a node with median
+    centrality: 278; GEP loss in non-shock nodes when a shock is applied to a node
+    with highest centrality: 285.'
+  14: No specific quantitative results on macroeconomic outcomes are present on this
+    page.
+  15: Resource variability scenarios were set to 5% and 50% of the average value for
+    food production.

@@ -1,0 +1,155 @@
+Drivers of Risk:
+  1: Increased risks of wildfires as a consequence of climate change; Impact of burned
+    areas.
+  2: An increase in the frequency and severity of forest fires due to climate change,
+    under the A1B scenario.
+  3: Changes in climate, such as increased temperature and reduced precipitation,
+    as well as increased frequency and intensity of heatwaves and forest fires.
+  7: Burned areas, temperature, precipitation
+  8: Burned areas, temperature increases, reduction in rainfall.
+  9: Temperature (third quartile), Precipitation (third quartile)
+  10: Increase in burned areas due to climate change, affecting the tourism sector
+  11: Increased burned areas due to climate change (under A1B scenario)
+  13: Increased burned areas due to fires.
+  16: Wildfires impact tourism behaviors and arrivals.
+Highlights:
+  1: Finds a considerable negative impact of burned areas on the number of tourist
+    arrivals (domestic and inbound); Projects significant increases in economic costs
+    due to burned areas on tourism in Portugal in 2030 and 2050.
+  2: Burned areas have a considerable negative impact on the number of tourist arrivals,
+    with significant economic costs to the tourism sector.
+  3: The paper emphasizes the link between climate change, increased temperatures,
+    and forest fires in Portugal.
+  7: 'Burned areas have a significant and persistent negative impact on both domestic
+    and inbound tourism. The impact of burned areas is quite persistent: the current
+    impact constitutes less than half of the total cumulative impact.'
+  8: Burned areas negatively affect tourist arrivals, and this effect can persist
+    into subsequent periods. Increased temperature and reduced rainfall lead to an
+    increase in burned areas.
+  9: Increased temperature leads to increased burned area, while increased precipitation
+    leads to decreased burned area. Future projections indicate an increase in burned
+    areas for most municipalities in Portugal, with some facing substantial increases
+    by 2050.
+  10: Burned area projections indicate a reduction in domestic tourist arrivals in
+    many Portuguese municipalities in 2030 and 2050. The impact is spatially heterogeneous,
+    with some municipalities benefiting and others experiencing reductions of varying
+    degrees.
+  11: Significant reductions in domestic and inbound tourist arrivals are projected
+    in Portugal by 2030 and 2050 due to increased burned areas. The Porto and Lisbon
+    metropolitan areas are particularly vulnerable. Hotel revenue losses are estimated.
+  13: Burned areas have a negative and persistent impact on tourist arrivals in Portugal,
+    reducing the number of visitors in the following periods. The study estimates
+    the losses in tourist arrivals for each municipality in 2030 and 2050 under the
+    A1B climate scenario.
+  16: Significant negative impact of burned areas on tourist arrivals.
+Methodology:
+  1: Uses data for 278 municipalities in Portugal for the 2000-2016 period to estimate
+    the impact of forest fires on tourism; Provides predictions for 2030 and 2050.
+  2: The study uses data from 2000 to 2016 on 278 municipalities to estimate the impact
+    of burned areas on tourist arrivals, providing predictions for 2030 and 2050.
+  3: No specific methodology for analyzing macroeconomic or fiscal outcomes is described
+    on this page.
+  7: Uses data on tourist arrivals, burned areas, population density, and crime rate
+    in 278 municipalities in Portugal from 2000 to 2016, combined with weather data.
+    Employs a Heckman procedure to correct for non-random missing values.
+  8: Regression analysis with fixed effects (Time, Municipality, and Municipality
+    trend) to determine the impact of burned areas on tourist arrivals. Also regression
+    analysis to model the impact of temperature and precipitation on burned areas.
+    Projections for future temperature and precipitation are taken from Palma (2017)
+    based on the A1B scenario (rapid economic growth, population peak in 2050, new
+    technology, reduction in regional differences in per capita income).
+  9: Regression analysis with time fixed effects, municipality fixed effects, and
+    municipality trends, using data on 3,983 observations. The analysis uses the third
+    quartile of temperature and precipitation.
+  10: The study estimates the future cost for the tourism sector due to increased
+    burned areas, focusing on domestic tourist arrivals. Results are based on the
+    A1B scenario and are interpreted with respect to the average temperature and precipitation
+    of the period studied.
+  11: Projections based on burned area projections under the A1B scenario, related
+    to average temperature and precipitation.
+  13: Econometric model using municipality-level data in Portugal to quantify the
+    impact of burned areas on tourist arrivals. Burned area projections for the A1B
+    scenario in 2030 and 2050 are used. Robustness checks include introducing temperature
+    and precipitation variables and using Seemingly Unrelated Regressions (SUR) to
+    address simultaneity bias.
+  16: Fixed-effects panel data analysis with robust standard errors accounting for
+    heteroskedasticity, autocorrelation, and spatial correlation.
+More Notes:
+  3: Tourism is highlighted as significant for the economy, contributing substantially
+    to GDP and exports.
+  7: The lag of the dependent variable (tourist arrivals) is significant, suggesting
+    a 'word of mouth' effect.
+  8: The analysis focuses on Portugal.
+  9: The analysis initially included wind speed, but this variable was excluded due
+    to illogical results, potentially due to a lack of control for wind direction.
+    The R-squared value for the regression is 0.18.
+  10: The focus is exclusively on domestic tourism, and the analysis simplifies the
+    exposure of results for each municipality using figures.
+  11: Some municipalities may benefit from weather condition changes, but the number
+    is small and decreases over time. The greatest impacts are observed in the Porto
+    metropolitan area and municipalities near Spain.
+  13: The results represent lower bound estimates as they only consider tourist arrivals
+    and not other affected sectors.
+No relevant information:
+  5: This page focuses on the impact of forest fires on tourism and recreation demand
+    at a local level, and does not discuss macroeconomic or macro-fiscal outcomes,
+    nor nation-wide adaptation costs/benefits.
+Outcome(s) of Interest:
+  1: Estimated annual costs to the Portuguese economy due to the impact of burned
+    areas on tourism (domestic and inbound).
+  2: Estimated annual costs to the Portuguese economy due to increased burned areas
+    range between e17.03 and e24.18 million for domestic tourist arrivals and between
+    e18.26 and e38.08 million for inbound tourist arrivals in 2030, with costs increasing
+    by at least a factor of four by 2050.
+  3: No specific macroeconomic or fiscal outcomes related to climate change adaptation
+    are explicitly mentioned.
+  7: Number of domestic and inbound tourist arrivals
+  8: Negative impact of burned areas on the number of tourist arrivals (both domestic
+    and inbound).
+  9: Share of burned area
+  10: Impacts on domestic tourist arrivals
+  11: Reduction in domestic and inbound tourist arrivals, losses of Hotels' Revenues
+  13: Losses in domestic and inbound tourism.
+Quantitative material:
+  1: Estimated annual costs to the Portuguese economy due to burned areas in 2030
+    range between e17.03 and 24.18 million for domestic tourist arrivals and between
+    e18.26 and 38.08 million for inbound ones; in 2050, those costs will increase
+    at least fourfold.
+  2: Predicted reduction in domestic and inbound tourist arrivals in Portugal by 2030
+    is up to 2% and 0.5%, respectively, worsening to 2-4% and 0.5-1% by 2050.
+  3: Forest fires have burned about 40% of Portugal from 1975 to 2007.
+  7: A 1 per cent increase in burned areas in a given year reduces the number of domestic
+    and inbound tourist arrivals in that year and in the following year by 3.53 and
+    1.12 per cent, respectively.
+  8: "A 1% increase in burned area leads to a statistically significant decrease in\
+    \ tourist arrivals (coefficients of -1.6634 and -0.4199 are reported, with significance\
+    \ levels of 5% and 10% respectively), temperature increases of 1\xB0C during the\
+    \ third quarter increases the share of burned areas by 0.14 per cent, and a reduction\
+    \ in the amount of rainfall by 10 mm increases the share of burned areas by 0.1\
+    \ per cent. These weather factors contribute to an additional 12,909 and 9,921\
+    \ hectares burned, respectively."
+  9: A 0.0014 increase in the share of burned area for each unit increase in temperature
+    (significant at the 5% level) and a -0.0001 decrease in the share of burned area
+    for each unit increase in precipitation (significant at the 10% level). Majority
+    of municipalities will face a 0-0.5 percent increase in burned areas and a few
+    will face a 1-1.32 percent increase in 2030 and the situation will be exaggerated
+    in 2050.
+  10: 'In 2030, 193 municipalities will face a reduction in domestic tourist arrivals
+    in the 0-2% range, 74 in the 2-4% range, and 1 in the above 4% range. Some municipalities
+    benefit from climate change in 2030 but fewer do so in 2050. Specific numbers
+    for the benefits in 2030 (largest: 1.086 percentage points, smallest: 0.10 percentage
+    points, mean: 0.47 percentage points) and 2050 (largest: 0.816, smallest: 0.05
+    and 0.26, respectively) are reported for municipalities that benefit.'
+  11: Projected reduction ranges for domestic tourist arrivals in 2030 and 2050 (0-2%,
+    2-4%, >4% for domestic; -0.35-0%, 0-0.5%, 0.5-1%, 1-1.48% for inbound). Number
+    of municipalities affected within each range. Estimates of Hotels' Revenue losses
+    under 'Realistic' scenarios in 2030 and 2050 (2.6% and 5.7%).
+  13: Losses in 2030 range between 0.59 and 0.84 percent for domestic tourism and
+    between 0.63 and 1.31 percent for inbound tourism compared to 2016 hotel revenues;
+    losses increase by a factor of about three for domestic tourist arrivals and about
+    six for inbound tourist arrivals in 2050. Majority of municipalities will face
+    a 0-2 percent reduction in domestic tourist arrivals in 2030 and a 2-4 percent
+    reduction in 2050. The reduction in inbound tourist arrivals will range between
+    0-0.5 percent in 2030 and 0.5-1 percent in 2050.
+  16: Table A1 shows estimated coefficients for various factors' impacts on domestic
+    and inbound tourist arrivals, including burned area with a negative effect.

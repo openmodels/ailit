@@ -1,0 +1,155 @@
+Drivers of Risk:
+  3: Climate change impacts on crop yields (influenced by local climate variables
+    like precipitation, temperature, and drought, as well as large-scale climate patterns
+    like ENSO, NAO, and IOD), export bans by major crop producers, and reliance on
+    a few exporters for food imports.
+  4: Climate (implied), though not directly stated as a risk driver on this page.
+  5: Palmer Drought Severity Index (PDSI), Air Temperature Anomalies (ATa), Sea Surface
+    Temperature Anomalies (SSTa)
+  8: Unusual favorable or extreme climatic patterns are identified as drivers of crop
+    yield anomalies.
+  13: Local climate variability (ATa, ATa-lag, PDSI, PDSI-lag)
+  14: 'Local climate variability (represented by Principal Components PC1-PC3), assessed
+    with one-year lag, concurrent, and one-year lead conditions; the image presents
+    this variability under two indices: ATa and PDSI.'
+  23: Climate extremes (floods and droughts), increasing demand for meat and dairy,
+    disconnected food production and consumption regions, local climatic patterns,
+    large-scale climatic patterns and climatic oscillations (TSA, SAM, QBO, ENSO,
+    NAO).
+  24: Climate variability (specifically ENSO, NAO, SAM or PDO), cropland coverage
+    changes, limitations in yield data separating rain-fed and irrigated crops, other
+    factors impacting crop productivity (technological advances, seeds improvement,
+    using fertilizers, farm ing practices, political issues, social strife and civil
+    unrest, strategies applied for food security at regional scales, regional shortages
+    of energy and water).
+  33: No relevant information
+Highlights:
+  1: Identifying the most important modes of crop yield variability and their association
+    with climate, and identifying co-varying countries and joint dependencies between
+    crop yields.
+  3: Countries dependent on crop imports are vulnerable to export bans imposed by
+    major producers during climate-related food crises, potentially leading to widespread
+    hunger. Identifying countries with similar/dissimilar yield patterns can help
+    in trading excess crops during food scarcity. Recognizing the climatic variables
+    that drive these synergistic variabilities across countries is of great importance.
+  4: Identifies co-varying crop producers and joint dependencies between crops. Presents
+    the relationship between the main PCs and local climate and co-varying countries.
+    Discusses joint dependencies between crop yield variability.
+  8: The study identifies countries with large loading values (LLVC) as significantly
+    important because they co-vary similarly/oppositely and explain the variance of
+    each PC the most.
+  13: Local climate variability significantly impacts productivity in maize, rice,
+    sorghum, and soybean croplands, with varying degrees of impact depending on the
+    crop, region, type of climate variable (ATa, PDSI, lag), and Principal Component.
+  14: More than half of maize croplands in France, Hungary, Romania, South Africa,
+    US and Pakistan, rice in Brazil, Bangladesh, South Korea, sorghum in South Africa,
+    Canada, US, Indonesia and Viet Nam and soybean in Italy, Romania, Turkey, Canada,
+    Mexico, US, Argentina, Viet Nam and Japan impacted by local climate in at least
+    one PC.
+  23: Local climate variability significantly impacts maize, rice, sorghum, and soybean
+    croplands in various regions. Large-scale climate patterns influence crop yield
+    variability. ENSO and NAO are dominant climate oscillation patterns in the first
+    three PCs of the crops.
+  24: Identified co-varying countries (especially import-dependent ones) could take
+    advantage of the favorable impacts of climatic patterns in other countries to
+    mitigate negative impacts on crop yields. This could improve global food security
+    through strategic trading partnerships in emergencies.
+  33: No relevant information
+Methodology:
+  4: Robust Principal Component Analysis (RPCA) is used to decompose yield time series
+    of maize, rice, sorghum and soybean (MRSS) from 1961 to 2013. The modes or principal
+    components (PC) are used to assess the association between crop yields and climate
+    and to identify co-varying crop producers and joint dependencies between crops.
+  5: Detrending yield values using a seven-year moving window. Using Palmer Drought
+    Severity Index (PDSI) that integrates precipitation and temperature and is highly
+    correlated with soil moisture content.
+  7: The L matrix exhibits detrended yields without outliers, while the S matrix contains
+    simultaneous anomalous values.
+  8: Robust Principal Component Analysis (RPCA) is used to decompose yield anomalies.  Correlation
+    analysis is mentioned as a method to find links between PCs with other variables.
+    The study analyzes data from 1964 to 2010.
+  13: Statistical analysis correlating local climate variability (ATa, PDSI, and their
+    one-year lags) with crop yield variabilities in different Principal Components
+    (PCs). Applicable to MRSS (maize, rice, sorghum, soybean) croplands.
+  14: Analysis of the influence of different principal components on specified crops
+    across various regions and temporal conditions (lag, concurrent, and lead scenarios);
+    using bar charts to represent these impacts.
+  23: Analysis of historical correlations between climate patterns and crop yield
+    variability to understand crop yield variability and joint dependencies between
+    countries. Spatial coverage of croplands used in the study is based on the year
+    2000.
+  24: Focuses on climate's impact on crop yields. Identifies co-varying countries
+    based on climatic patterns and their impacts on crop yields. Uses statistical
+    forecasts (e.g., from NOAA) to predict climatic patterns like PDO.
+  33: No relevant information
+More Notes:
+  1: The paper focuses on crop yields, which could be a precursor to macroeconomic
+    or fiscal outcomes, but the direct link is not established on this page. The emphasis
+    is on identifying relationships and dependencies.
+  3: The paper focuses on the relationship between climate and crop yields at both
+    local and global scales, and how this affects food security and trade. It highlights
+    the complexity of separating the influence of climate on crops from other variables
+    due to spatial and inter-annual variability.
+  5: Detrended yield values are from 1964-2010. PDSI and other climatic variables
+    are from 1963 to 2010, to allow for a one-year lag in association between PCs
+    and climatic variables.
+  8: The S matrix contains zeros because large yield spikes do not happen frequently
+    across global countries. The loading values of the first three PCs approximately
+    fit a normal density distribution.
+  13: The study identifies specific regions and crops most vulnerable to different
+    types of climate variability.
+  14: The paper identifies major crop exporters (ME) and major importers (MI) and
+    notes which countries co-vary conversely in different PCs. The focus appears to
+    be on the interconnectedness of crop yields between exporting and importing nations
+    due to climate variability. The image provides a breakdown of the influence of
+    various climate indices (ATa and PDSI) via Principal Components on specific crop
+    yields in various regions and lead/lag times, however no actual data is available.
+  23: The study acknowledges limitations due to the coarse nature of country-scale
+    crop yield datasets and the use of cropland coverage from the year 2000.
+  24: The study acknowledges that its findings on cropland coverage and impacted areas
+    might not be entirely accurate due to changes in cropland coverage, especially
+    in countries like Brazil. The study focuses only on climate and does not separate
+    the impacts of other factors influencing crop yield. The temporal scope is related
+    to forecasting long range climate patterns.
+  33: No relevant information
+No relevant information:
+  11: This page does not contain any information on macroeconomic or macro-fiscal
+    outcomes, costs, or benefits of climate change adaptation at a national level.
+    It focuses on the statistical relationship between climate variables and crop
+    yield variabilities.
+  15: This page focuses on crop production, climate variability, and trade, but does
+    not mention macroeconomic or fiscal outcomes, nor does it discuss the costs and
+    benefits of adaptation at a national level.
+  16: No relevant information
+  39: This page focuses on climate variability and crop yield patterns, but it does
+    not provide specific information on macroeconomic or fiscal outcomes, quantitative
+    data, or the methodologies used to analyze those outcomes at a national level.
+    It mainly describes the visual elements of a map.
+Outcome(s) of Interest:
+  1: No relevant information
+  3: Food security, hunger, and the potential for food crises due to climate-related
+    impacts on crop yields and trade.
+  4: Co-occurrence of yield deficits/surpluses across the globe.
+  5: Detrended yield value
+  8: Global crop yield variability is decomposed into principal components (PCs),
+    aiming to understand factors affecting crop yields across countries.
+  13: Productivity loss in maize, rice, sorghum, and soybean croplands.
+  14: Crop yield variability in major global crop exporters impacting major importers.
+  23: Crop yield variability, specifically for maize, rice, sorghum, and soybean.
+  24: Crop productivity/yield impacts, global food security.
+  33: No relevant information
+Quantitative material:
+  1: No relevant information
+  3: Mentions that export bans in main crop producers would put about 200 million
+    people at risk of hunger.
+  5: Yt = yt - mean(yt-3,t+3) / std(yt-3,t+3); PDSI ranges from -10 to +10; Gridded
+    monthly self-calibrated PDSI at 2.5-degree resolution; Monthly temperature anomalies
+    data at 0.5-degree resolution; Monthly Extended Reconstructed Sea Surface Temperature
+    (ERSST) version 4 dataset at 2.5-degree resolution.
+  8: The first three PCs explain 24%-31% of the total yields variance of the L matrix
+    (persistent yield anomalies).
+  13: Percentages of MRSS croplands impacted by local climate variability in PC1 to
+    PC3, for different crops and regions.
+  14: Percentages of MRSS croplands impacted by local climate in at least one PC;
+    assessment of how ATa and PDSI impact crop yield under different principal components.
+  33: No relevant information

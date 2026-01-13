@@ -1,0 +1,73 @@
+Drivers of Risk:
+  2: The salience of past flooding events and NFIP participation are suggested as
+    important regional drivers of housing prices, with tracts experiencing greater
+    post-flood changes in active insurance policies showing larger decreases in mean
+    home values.
+  4: Flood hazards (high surge elevations, extreme rainfall).
+  7: Changes to the flooding regime
+  8: Flood awareness and memory of past floods impact housing market values, potentially
+    through changes in NFIP policy participation.
+  9: Precipitation and storm surge flood hazard; community perceptions; memory of
+    past flooding; NFIP participation.
+Highlights:
+  2: The initial economic impact of Hurricane Sandy was largely absorbed by the National
+    Flood Insurance Program, but the region exhibited a long-term decline in home
+    values.
+  4: Flood events cause community flood awareness (A) and preparedness (P) to increase,
+    and population density (D) to decrease.
+  7: Predicted changes to the flooding regime may result in sustained decreases in
+    property values.
+  8: Increases in NFIP participation correlate with perceived increased risks, which
+    may drive down housing values over time.
+  9: The immediate impact of 2012 Hurricane Sandy on the housing market was largely
+    absorbed by the NFIP, but the region experienced a sustained decline in housing
+    values afterwards.  There are significant correlations between model parameters
+    representing changes in housing values post-floods and those describing community
+    behavior and perceptions.  Simulating time-varying housing prices improved the
+    representation of NFIP losses and policy uptake.
+Methodology:
+  2: A socio-environmental model was used to study the temporal impacts of flooding
+    on mean housing values across 496 coastal census tracts of New York, Connecticut,
+    and New Jersey, demonstrating results from 1970 to 2021.
+  4: An SE model is used to study relationships between housing price (HP) dynamics
+    and community awareness of flooding, simulating annual economic losses (L), population
+    density (D), community flood awareness (A), and flood preparedness (P) based on
+    a time series of peak annual flood hazards.
+  7: The study developed a SE model to assess consequences of flooding.
+  8: Analysis is based on correlation plots using calibrated statistical models, examining
+    the relationship between flood awareness, NFIP participation, and housing market
+    values.
+  9: 'Developed a Socio-Economic (SE) model to assess the impact of floods on future
+    HPs, which then feedbacks to the estimate of future flood loss. The model incorporates
+    both precipitation and storm surge flood hazard and includes four HP response
+    scenarios: (1) a model assuming no impact, and models assuming initial losses
+    followed by (2) a sigmoid recovery, (3) an ITS recovery, and (4) a K-shaped recovery.
+    The ITS recovery model best captured flooding dynamics in the study region.'
+More Notes:
+  7: The coastal communities of the study region remain highly vulnerable to flooding
+    under climate change; Regional precipitation will likely be characterized by more
+    intense rainfall interspersed with extended droughts; The region is likely to
+    experience more frequent flooding and economic loss.
+Outcome(s) of Interest:
+  4: "The SE model simulates annual economic losses (L) based on peak annual flood\
+    \ hazards (W), housing density (D), and a hazard to loss ratio (\u03B2R)."
+  7: Property values are impacted by flooding.
+  8: Participation in flood insurance affects housing market values, which indirectly
+    influences perceptions of economic risk.
+  9: Impact of floods on future house prices (HPs), which then feeds back to the estimate
+    of future flood loss; socio-economic disparities in flood risk related to home
+    value; capacity for communities to recover; NFIP losses and policy uptake.
+Quantitative material:
+  4: From 1979 to 2021, the average annual number of flood insurance claims submitted
+    through NFIP in this region was 3,476 claims per year with an average annual claim
+    total of $112 million.
+  7: NFIP (National Flood Insurance Program) absorbs immediate negative consequences
+    of flooding; flooding insurance claims between 1970 and 2020 are plotted; Sigmoid,
+    ITS, and K-shaped recovery models display simulated vs. actual housing prices;
+    Error bars represent variability or uncertainty in observed data.
+  9: The immediate impact of 2012 Hurricane Sandy on the housing market was largely
+    absorbed by the NFIP; significant correlations between model parameters representing
+    changes in housing values post-floods and those describing community behavior
+    and perceptions; census tracts with greater change in insurance uptake following
+    floods witnessed larger decreases in mean home values compared to those with more
+    stable NFIP participation.

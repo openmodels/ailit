@@ -1,0 +1,94 @@
+Drivers of Risk:
+  1: Storm surges, intensified by climate change, sea level rise, and increased storm
+    intensity pose risks to coastal populations and economies.
+  3: Storm surge events triggered by tropical cyclones.
+  4: Storm surges
+  5: Storm surges from tropical cyclones, coastal topography (slope), maximum relative
+    water level rise.
+  6: Storm surges, Tropical cyclones, Maximum relative water level rise
+  7: Storm surges associated with extreme precipitation and strong winds.
+  8: Storm surge intensity, affected areas, terrain and landforms in disaster areas,
+    other natural factors, disaster prevention facilities, and implementation of disaster
+    prevention and reduction measures.
+Highlights:
+  3: Assesses potential storm surge impacts on population and GDP at a global scale.
+  4: The study focuses on storm surge impacts, using tide gauge records and spatial
+    analysis to assess potential inundation areas, which implicitly affects economic
+    activity, though those effects are not quantified on this page.
+  5: High risk areas for population exposure to storm surges are located in the Caribbean
+    region, the Bay of Bengal, and East Asia.
+  6: High economic losses are mainly distributed in some coastal areas of England,
+    other developed countries in Europe, the Yangtze River Delta in China, the eastern
+    coast of the United States, and the Gulf of Mexico.
+  7: This study examined the potential global impact of storm surges on populations
+    and economies.
+  8: Identifies countries most at risk from storm surge impacts in terms of inundated
+    area, affected population, and affected GDP. Illustrates the distribution of GDP
+    along coastlines via a world map to visualize potential economic exposure.
+Methodology:
+  1: Potential inundated areas are projected using information diffusion theory and
+    historical sea-level observation records, considering coastal morphology and tropical
+    cyclone tracks.
+  3: Uses fuzzy information processing and a Markov chain process to assess storm
+    surge impact. Combines hazard, environment, and exposure data in a GIS environment
+    to estimate the area inundated by storm surge and the potential affected population
+    and GDP.
+  4: The paper uses tide gauge records to calculate the annual maximum relative water
+    level (storm surge intensity). It then uses inverse distance weighted interpolation
+    to extrapolate the expected annual maximum of relative water level rise. Area-altitude
+    analysis is used to calculate the potential maximum inundated area. The method
+    relies on diffusion function and fuzzy subset theory for probability distribution
+    analysis.
+  5: The expected annual maximum of relative water level rise is interpolated using
+    the inverse distance weighted interpolation method. Potential maximum inundated
+    area is calculated from slope data. Affected population and GDP are calculated
+    by superimposing global population density and GDP distribution data on the inundated
+    area map.
+  6: Uses historical storm surge disaster records from the Global Risk Data Platform
+    (GRDP) from 1975 to 2007 to produce a country ranking of risk based on inundated
+    areas, affected population, and GDP loss.
+  7: Uses available and recent global datasets from various sources to examine the
+    potential global impact of storm surges on populations and economies; does not
+    use a global storm surge simulation model.
+  8: Simulated potential annual maximum inundated area based on yearly expected value
+    of maximum relative water level rise at each tide gauge, then calculated the population
+    and GDP potentially affected annually by storm surges. The comparison with historical
+    storm surge losses indicates that the results in this study are reliable.
+More Notes:
+  4: The page focuses on modeling storm surge intensity and potential inundation area
+    but does not directly address macroeconomic or macro-fiscal outcomes.
+  5: The study divides global coastlines into plain-storm, plain-nostorm, bedrock-storm,
+    bedrock-nostorm coastal areas. It further divides storm coasts into 10 zones based
+    on cyclone origin and paths.
+  6: The study validates its results by comparing country rankings derived from the
+    GRDP data with country rankings from their own study. Bay of Bengal has high population
+    exposure risk, but not high economic risk due to underdeveloped economies.
+  7: The sample size for potential population and GDP impacts is 57 countries and
+    the top 10% countries are listed in Table 2 (not provided).
+  8: The study acknowledges limitations due to the absence of a global database on
+    shoreline protection, which prevents incorporating the effect of existing manmade
+    protection measures and natural coastal protective features.
+Outcome(s) of Interest:
+  3: Potential affected population and GDP globally due to storm surges.
+  4: No relevant information
+  5: GDP effects are considered by calculating potentially affected GDP from storm
+    surges.
+  6: Affected GDP, Economic losses, Economic risk
+  7: Potential population and GDP impacts from storm surges are examined.
+  8: GDP affected by storm surges.
+Quantitative material:
+  3: Data includes global population density, GDP distribution, and historical tropical
+    cyclone tracks.
+  4: No relevant information
+  5: Maximum relative water level rise of 300 cm or more is estimated for 17 stations
+    (5.4% of all stations).
+  6: Maximum relative water level rise (cm), Number of stations with different maximum
+    relative water level rise, Country ranking of risk of 57 countries according to
+    the sum of inundated areas, affected population, and GDP loss
+  7: Significant correlation is found at the 0.01 confidence level (bilateral) between
+    inundated area and population impact, with a correlation coefficient of 0.72.
+    Country rankings of population and GDP impacts are moderately correlated at the
+    0.01 confidence level (bilateral), with correlation coefficients of 0.47 and 0.57.
+  8: Table 2 lists the top 10% countries of potential inundated area, potential affected
+    population, and potential affected GDP by storm surges. Figure 7 presents the
+    expected economic risk of storm surge impact of the world.

@@ -1,0 +1,82 @@
+Drivers of Risk:
+  3: The model considers unemployment, business cycles, and climate traits (temperature
+    anomalies) as drivers of migration risk.
+  4: "Anomaly in temperature (k_{i,t}), Existence of armed conflict (\u03D1_{i,t}),\
+    \ Size of diasporas (m_{ij,t}), Expected inflow of net migration (E_t[n_{ij,t+1}])"
+  6: Climate change impacts migration through country characteristics, with regional
+    characteristics playing a role in migration decisions.
+  7: Wars, migration (specifically asylum-associated migrants).
+  8: Temperature anomaly (climate change), wars (armed conflicts).
+  9: Temperature anomalies (climate change impacts) are considered a driver of immigration.
+  11: No relevant information
+Highlights:
+  4: Governments react to migration inflows based on nominal GDP, expected net migration,
+    and the size of diasporas. Higher GDP eases immigration rules, while increased
+    expected net migration tightens them. Large diasporas also lead to harsher migration
+    policies.
+  8: Temperature anomaly negatively impacts asylum-associated migration, suggesting
+    adaptive expectations where people plan to emigrate after climate change issues
+    manifest.
+  9: The study finds a positive and statistically significant relationship between
+    temperature anomalies and immigration in low-income countries. This suggests that
+    climate change forces people from lower-income states to leave their homes.
+  11: First study analyzing bilateral migration between Germany and the rest of the
+    world.
+Methodology:
+  3: The paper presents a model of migration based on the Rational-Choice Approach,
+    focusing on bilateral migration flows between Germany and the rest of the world
+    (155 nations) from 1995 to 2019. It models individual migration decisions based
+    on expected income, country-specific attributes, and migration costs. Expected
+    income is determined by average salary, employment probability, and business cycle.
+  4: "Panel regressions; modeling a government\u2019s reaction function to migration\
+    \ inflow."
+  6: The study uses a panel consisting of 155 nations from 1995 to 2019, analyzing
+    the migration data retrieved from OECD International Migration Database.
+  7: Fixed effects regression, ordinary OLS, and PPML are the estimation methods;
+    Hodrick-Prescott Filter to decompose GDP per capita into trend and cyclical parts.
+  8: Fixed effects estimations of log(Immigration) using panel data. Models consider
+    regular and asylum migration, with and without HDI components.
+  9: Fixed effects regression analysis is used to estimate the relationship between
+    immigration and various factors, including temperature anomalies, in low-income
+    countries. The analysis considers regular and asylum immigration, with and without
+    HDI components. Results are applicable to low-income countries.
+  11: Analyzes bilateral migration between Germany and the rest of the world; suggests
+    extending the analysis to other nations and considering non-linearities and demographic
+    evolution.
+More Notes:
+  4: 'The analysis assumes that costs are fed through two channels: spatial distance
+    and diaspora size.'
+  6: The paper discusses human development factors such as educational levels and
+    health services impacting migration and relates these to migration flows through
+    Human Development Indicators.
+  7: Uses Malaysia's temperature data as a proxy for Brunei Darussalam.
+  8: The paper uses immigration volume as a proxy for individual migration decisions.
+    It finds that the impact of climate change on migration decisions differs for
+    regular migrants versus asylum seekers.
+  9: The paper contrasts its findings with some literature suggesting a negative relationship
+    between climate change impacts and immigration in low-income countries.  It argues
+    that despite potential reduced agricultural productivity, people are motivated
+    to move due to climate-related factors like droughts or starvation.
+  11: The study focuses on migration patterns and their drivers, with a specific interest
+    in how government policy impacts migration. The paper suggests considering demographic
+    shifts in home countries as a factor influencing migratory decisions.
+Outcome(s) of Interest:
+  4: Nominal GDP (Y_{j,t})
+  7: GDP per capita, GNI per capita, unemployment rates, life expectancies at birth,
+    educational levels.
+  8: Immigration volume (as a proxy for migration decisions).
+  9: The study examines the impact of temperature anomalies (Temp. Anomaly) on log(Immigration)
+    in low-income countries.
+  11: No relevant information
+Quantitative material:
+  7: Uses data from World Bank and Human Development Reports. GNI difference of >=
+    45,195 US Dollar compared to Germany is used to define low-income countries.
+  8: 'The temperature anomaly has a statistically significant negative impact on asylum-associated
+    migration volume: a surge of 1 degree in the anomaly shortens the migration volume
+    by about 26%.'
+  9: The table provides regression results (fixed effects estimation) showing the
+    coefficients and standard errors for Temp. Anomaly and other variables influencing
+    log(Immigration). For example, in Model 2.0, Temp. Anomaly has a coefficient of
+    0.188 with a standard error of (0.105), which is statistically significant at
+    p < 0.1.
+  11: No relevant information

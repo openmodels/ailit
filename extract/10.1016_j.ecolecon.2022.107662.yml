@@ -1,0 +1,145 @@
+Drivers of Risk:
+  2: Weather fluctuations, specifically temperature increases and changes in precipitation.
+  3: Temperature changes and rainfall fluctuations
+  4: Climate change impacts livestock production via altered reproduction, feed conversion
+    ratio, diseases, and migration of herders leading to communal clashes.
+  6: Average temperature (oC), Total precipitation (mm)
+  7: Temperature and precipitation changes
+  8: Temperature and precipitation fluctuations.
+  9: The primary shocks or changes impacting the outcomes are temperature fluctuations
+    and precipitation changes, affecting cereal and beef production.
+  10: Temperature and precipitation changes.
+  11: Temperature and precipitation changes due to climate change.
+Highlights:
+  2: Climate change is projected to significantly reduce animal output in the future.
+  3: Temperature changes have a robust negative effect on global livestock production,
+    while rainfall fluctuations have a positive impact. The negative effect of temperature
+    is more concentrated in hot, poor, and agricultural-dependent countries.
+  4: No relevant information
+  6: Temperature has a negative and statistically significant relationship with beef
+    production; a 1 oC increase in temperature will lead to a 9.7% reduction in beef
+    production. The impact of temperature is higher in tropical regions than in temperate
+    regions.
+  7: Temperature changes are more severe in hot, poor, and agriculture-dependent countries.
+    The positive effect of precipitation changes in these regions attenuates the negative
+    impact of temperature rise on beef production.
+  8: Annual weather fluctuations have a statistically significant impact on beef production.
+    There is a negative impact of temperature on cereal yields and production, more
+    pronounced in hot countries. A 1 degree Celsius increase in temperature is associated
+    with a 3.7% drop in cereal yields. A 1 degree Celsius higher temperature is associated
+    with a 7.6% drop in global cereal production. Increased precipitation is associated
+    with increased cereal yield.
+  9: Higher temperatures negatively affect cereal yields, with the impact being more
+    pronounced in tropical countries. The analysis suggests limited evidence of medium-term
+    adaptation in beef production to these weather changes.
+  10: Climate change, particularly warming, negatively affects livestock production,
+    especially in poor and tropical regions, impacting food security; temperature
+    changes have a larger effect than rainfall changes; agricultural-dependent countries
+    are more affected by warming than non-agricultural economies.
+  11: Climate change is predicted to negatively impact beef production. The model
+    suggests damage estimates even when accounting for adaptation, though the absence
+    of adaptation should be considered with reference to the country-level unit of
+    observation.
+Methodology:
+  2: Re-examines the relationship between weather changes and global livestock production.
+  3: Panel data analysis using group fixed effect to account for omitted variables.
+    Employs national livestock production and local weather fluctuations from 187
+    countries. Accounts for omitted variable bias and allows for substantial variation
+    through which to identify the effects of short-term weather shocks on livestock
+    production.
+  4: The analysis uses country-level cattle production data, weather data, and climate
+    change prediction data to examine climate impacts on cattle production using a
+    reduced-form framework.
+  6: Error-corrected ACCESS SSP3.70, errors adjusted for spatial (1000 km) and serial
+    (3-years) correlation. Using live animal indicator (cattle stock) as outcome variable.
+  7: Panel data analysis with country fixed effects and region-specific trends, standard
+    errors adjusted for spatial and serial correlation. The sample period is 1961-2017.
+  8: "Regression analysis with country fixed effects and region-specific trends. Standard\
+    \ errors adjusted for spatial (1,000km) and serial (3-years) correlation. Different\
+    \ model specifications are tested for robustness, including excluding outlier\
+    \ countries, excluding Sub-Saharan Africa (SSA), using only SSA data, and using\
+    \ a balanced panel. Sample period is 1961\u20132017."
+  9: The analysis uses a panel data econometric model with fixed effects and region-specific
+    trends, examining the period from 1961 to 2017, and considers temperature and
+    precipitation data to estimate their impact on cereal production.
+  10: Panel data analysis from 1961 to 2017 examining the impact of weather fluctuations
+    on global livestock production; uses long differences and panel estimates to analyze
+    the impacts of weather variation on beef production.
+  11: Panel data model is used, but does not account for adaptation to gradual changes
+    in climate. Long differences method was also used to account for adaptation, but
+    did not dampen the damage estimate from the model. The paper applies econometric
+    techniques to understand the interaction between weather factors and livestock
+    production.
+More Notes:
+  3: The methodology does not account for adaptation or inter-seasonal changes in
+    weather, so the results should be seen as ''middle-of-the-road'' estimates. Adaptation
+    often occurs at a smaller spatial unit (farm or household level) rather than national
+    level.
+  4: No relevant information
+  6: Figures in bracket are percentage changes from historical figures.
+  7: The quadratic term of temperature is significant across all specifications, indicating
+    a potential nonlinear relationship between temperature and beef production.
+  8: The paper investigates the channel through which weather changes affect beef
+    production by analyzing the impact of temperature and precipitation on crop production.
+    Results suggest that the negative impact of temperature on crop production may
+    affect beef production through reduced availability of feed for cattle.
+  10: The study acknowledges limitations related to the panel data method not accounting
+    for inter-annual farmer tradeoffs and potentially capturing short-run inventory
+    changes rather than long-run climate change impacts.
+  11: The model does not account for heterogeneity in several channels through which
+    climate change affects animals productivity. The model's limitations include the
+    complexity of real-world agricultural processes.
+Outcome(s) of Interest:
+  2: Impacts on livestock production, specifically beef production.
+  3: Global livestock production
+  4: No relevant information
+  6: Log animal production (tonnes)
+  7: Beef production
+  8: Impact of temperature and precipitation changes on beef production and cereal
+    yields/production.
+  9: The paper does not directly discuss specific macroeconomic or fiscal outcomes
+    but touches on the potential impacts on agricultural productivity, specifically
+    cereal and beef production, which could indirectly influence GDP and economic
+    stability.
+  10: Impacts on beef production.
+  11: Aggregate impact on beef production (in logs).
+Quantitative material:
+  2: Climate change will reduce animal output by a further 20% in the mid-century
+    and an additional 40% by the end of the century assuming no adaptation other than
+    the degree of adaptation observed in the historical period.
+  3: Climate change will reduce animal output by a further 20% in the mid-century
+    and an additional 40% by the end of the century.
+  4: No relevant information
+  6: Historical data (1961-2017) and predicted medium-term (2041-2060) and long-term
+    (2061-2100) changes in average temperature, total precipitation, and log animal
+    production are provided for the world and various regions (East Asia & Pacific,
+    Europe & Central Asia, Latin America & Caribbean, Middle East & North Africa,
+    North America, South Asia, Sub-Saharan Africa) including means, mins, maxs and
+    SD.
+  7: "A 1\xB0C increase in temperature has a four times larger adverse effect in agricultural\
+    \ economies than in non-agricultural ones; A 1 mm increase in annual precipitation\
+    \ would lead to a 2.1% increase in beef production in tropical countries, but\
+    \ a 1.9% decline in temperate regions; An extra mm of annual precipitation would\
+    \ generate a 3% improvement in beef production in agriculture-dependent countries,\
+    \ with no significant effect in a non-agricultural country."
+  8: Table 3 presents coefficients for the impact of lagged temperature and precipitation,
+    log temperature, weather interaction, and various robustness checks (excluding
+    outlier countries, SSA, using only SSA, balanced panel) on beef production. Table
+    4 presents coefficients for the impact of temperature and precipitation changes
+    on cereal yields (ton/ha) and cereal production (kg).
+  9: Yes, there is quantitative information on the impact of temperature and precipitation
+    on cereal yields and production, with regression coefficients provided for different
+    categories including aggregate, tropical, poor, and agriculture-dependent countries.
+  10: "A 1\xB0C increase in temperature will lead to a 9.7% reduction in beef production\
+    \ on average, with most of this effect centered in tropical countries; Poorer\
+    \ countries would also experience a 27% reduction as opposed to 4% in countries\
+    \ with higher income levels; an additional mm increase in annual precipitation\
+    \ would lead to a 2.1% increase in production in tropical countries but a 1.9%\
+    \ decrease in temperate ones; The predicted loss in global beef production due\
+    \ to climate change in 2060 ranges from 11% (in temperate regions) to 36% (in\
+    \ tropical areas)."
+  11: "Maps showing spatial distribution of predicted climate change impact on beef\
+    \ production as log changes relative to a 1981\u20132010 baseline for mid-term\
+    \ (2041-2060) and long-run (2081-2100) climate change under SSP3-7.0 scenario;\
+    \ temperature increases of 0-0.2\xB0C to >0.8\xB0C in various regions are displayed\
+    \ on the maps."

@@ -1,0 +1,59 @@
+Drivers of Risk:
+  6: Tropical cyclone wind speed (34 kn, 64 kn, 96 kn) and the historical evolution
+    of population and assets patterns.
+  8: Tropical cyclone (TC) properties, specifically wind speed thresholds (34 kn,
+    64 kn, 96 kn) impacting exposed population.
+  9: Tropical cyclone exposure
+Highlights:
+  6: Exposure estimates are sensitive to wind speed thresholds and patterns of population
+    and assets. The study also identifies that fast-developing countries' asset values
+    might be overestimated for earlier years due to the lack of data on national assets/GDP
+    ratios.
+  8: Provides a valuable additional resource to the community studying TC-related
+    impacts, in particular for non-experts in this field. Avoids present-endogeneity
+    issues by creating a TC exposure database based on physical storm properties.
+  9: A global historical data set of tropical cyclone exposure data sets (TCE-DAT)
+Methodology:
+  6: The study uses a global historical data set (TCE-DAT) to estimate tropical cyclone
+    exposure based on wind speed thresholds and historical population and asset patterns.
+    It compares TCE-DAT estimates with the HURDAText archive for validation, using
+    the United States as a test region.  Wind speed is indirectly estimated based
+    on minimum central pressure using the Holland08 model.
+  8: Creation of a global historical tropical cyclone exposure database (TCE-DAT)
+    based on physical storm properties using freely available input data and the CLIMADA
+    modeling tool (module ISIMIP). Comparison of exposed population estimates derived
+    from the Holland08 wind field model and the observed HURDAText database.
+  9: Creation of a global historical data set of Tropical Cyclone Exposure Data (TCE-DAT);
+    Harmonization of past GDP observations with future projections according to the
+    Shared Socio-economic Pathways
+More Notes:
+  6: The study acknowledges uncertainties related to socioeconomic data, such as linear
+    interpolation between decennial time steps and the approximation of local assets
+    using GDP at the grid level.
+  8: The dataset aims to provide new insights for global and region-specific vulnerability
+    assessments.
+  9: The paper acknowledges funding through the Leibniz Competition and thanks Daisuke
+    Murakami and Yoshiki Yamagata for improving and adapting their gridded GDP data.
+No relevant information:
+  4: This page focuses on the creation of a global tropical cyclone exposure dataset
+    (TCE-DAT) and the wind field modeling used to generate it. It does not directly
+    address macroeconomic or macro-fiscal outcomes, costs, or benefits of adaptation
+    at a national level. The page primarily describes the methodology for estimating
+    wind fields associated with tropical cyclones.
+Outcome(s) of Interest:
+  6: Exposed population and exposed assets to tropical cyclones are measured, which
+    are then used to infer macroeconomic or fiscal outcomes.
+  8: Long-run economic consequences of natural disasters in general.
+  9: Continuous national Gross Domestic Product (GDP) time series
+Quantitative material:
+  6: The page provides graphs illustrating the annual global TC exposure for different
+    thresholds of wind speed (34kn, 64kn, 96kn) for population (in billions) and assets
+    (in trillion PPP dollars). Pearson correlation of r=0.86 between TCE-DAT and HURDAText
+    maximum recorded wind speed.
+  8: 'Correlation coefficients (r) for exposed population estimates between HURDAText
+    and Holland08 datasets at different wind speed thresholds: r = 0.83 (34 kn), r
+    = 0.54 (64 kn), r = 0.75 (96 kn). Box plots indicating exposure in millions of
+    people for Holland08 and HURDAText at different wind speed thresholds.'
+  9: "Spatially-explicit Gross Cell Product (GCP) time series: past observations (1850\u2013\
+    2000) harmonized with future projections according to the Shared Socioeconomic\
+    \ Pathways (2010\u20132100)"

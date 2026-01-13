@@ -1,0 +1,180 @@
+Drivers of Risk:
+  6: Drought impacts health outcomes and increases health expenditures.
+  7: Increasing prevalence of drought-like conditions due to poorly distributed rainfall,
+    deforestation, cultivation of water-intensive crops, and increased unregulated
+    industrial activity.
+  8: Drought incidence.
+  14: Rainfall deficits relative to historical averages.
+  15: Drought severity and its impacts on health are considered as primary risks,
+    with the empirical analysis using province fixed-effects to model this relationship.
+  16: Rainfall shortage (drought severity varying between 55 and 993 mm) across different
+    regions of Vietnam, with varying annual precipitation exceeding 1000 mm in most
+    districts.
+  17: Drought severity
+  18: Drought severity (3-month average)
+  20: Drought severity, demographic factors (age, gender), economic factors (consumption,
+    income sources, asset index).
+  21: Drought, dependency on the agricultural sector (income), asset position of households,
+    availability of off-farm income sources
+  22: Drought severity
+  24: Drought severity, 3-month average drought (1/0), Health shocks on the household
+  25: Drought is the main driver of risk, leading to increased illness.
+  26: Drought-related illnesses impact rural economies, especially those dependent
+    on agriculture.
+  27: Drought-related health shocks can pose non-negligible financial costs.
+Highlights:
+  6: Drought leads to a deterioration of health conditions, particularly for the working-age
+    population, and significantly higher health expenditures in rural Vietnam.
+  8: Identification of population groups most vulnerable to drought shocks to inform
+    economic and social policy.
+  15: Health expenditures per capita vary significantly, indicating high variability
+    in spending on health, which may reflect economic burdens.
+  17: Individuals who live in a district that was more affected by drought on average
+    show a significantly higher likelihood of suffering from a health shock.
+  18: Drought severity has a statistically significant impact on the probability of
+    illness at the household member level. However, there is no significant association
+    between BMI levels or BMI drops and drought for individuals above the age of 15.
+  20: Drought severity is positively and significantly associated with illness and
+    rice price. Age and gender are significant determinants of vulnerability to drought-related
+    illness. Higher total consumption per capita is associated with lower illness.
+    The effect of drought on individual illness prevails in households with a greater
+    dependency on agriculture as an income source.
+  21: Drought impacts health through its adverse effects on the agricultural sector
+    (income). Drought on average triggers rice prices upwards.
+  22: Drought severity is significantly associated with illness. The relationship
+    between drought and illness is moderated by various insurance mechanisms (HCFP,
+    private health insurance, social networks) and ethnic fractionalization/minority
+    status.  Specifically, participation in the HCFP scheme appears to reduce the
+    negative impact of drought on illness, while ethnic fractionalization and being
+    part of an ethnic minority can increase the negative impact of drought on illness.
+  24: Drought severity and health shocks significantly impact household health expenditures.
+    Income and budget constraints seem to play a moderating role. Age and gender impact
+    health expenditures
+  25: Drought-related illness has a significant impact on household health expenditures,
+    especially in lower-income households.
+  26: Drought increases likelihood of illness and health expenditures in rural Vietnam,
+    especially among working-age population.
+  27: Increased health insurance coverage and assistance to cope with drought are
+    likely to limit health damages and prevent families from falling into poverty.
+    Rainfall insurance schemes can provide effective protection against health costs
+    of rainfall shortages.
+Methodology:
+  6: The paper uses panel data from 2007 to 2013 and an Instrumental Variable (IV)
+    approach to quantify the effect of drought on monetary health expenditures.
+  8: 'Two-part empirical analysis: 1) Regression on the determinants of falling ill
+    for household members, including drought incidence, socio-demographic factors,
+    and interactions. 2) Analysis of monetary costs of drought on health outcomes
+    and household expenditures.'
+  14: Constructs a drought severity indicator based on the cumulative total of absolute
+    negative deviations in rainfall from historic averages, using 3-month rolling
+    windows. This indicator is benchmarked against other drought indices.
+  15: Province-specific fixed-effects are used to model the relationship between drought
+    and health, accounting for differences in absolute rainfall, and the drought indicator
+    is normalized between zero and one.
+  17: OLS regressions with socio-demographic controls, province and survey wave fixed
+    effects. Standard errors are clustered at the household-level.
+  18: OLS regressions with standard errors clustered at the household level, including
+    Wave and Province fixed effects. Analysis is performed across individuals and
+    across four survey waves.
+  20: OLS regressions with household-level clustered standard errors. The models include
+    wave and province fixed effects.
+  21: Household-level estimates of the reduced-form relation between subjective rice
+    price valuations and drought using household survey data and province fixed effects.
+  22: OLS regressions with household-level clustered standard errors, Wave-FE, and
+    Province-FE. Other control variables are included as in Table 2 (not shown). Drought
+    severity is measured as a 3-month average.
+  24: Tobit, IV-Tobit, regressions with fixed effects (Wave-FE, Province-FE). Results
+    are applicable to the specific context and time period of the data used in the
+    analysis.
+  25: IV-Tobit estimation is used, with the share of ill household members instrumented
+    by the severity of drought. This is used to address endogeneity issues. The analysis
+    uses a sample of rural households in Vietnam.
+  26: Household panel data combined with local rainfall data establishes a link between
+    low rainfall periods and drought-related health expenditures.
+  27: IV estimations are used to assess the monetary burden on the household budget
+    due to drought-related health shocks in rural Vietnam.
+More Notes:
+  6: The adverse effects of drought on health are more pronounced among households
+    with high agricultural dependency and limited access to coping mechanisms. A government-subsidized
+    health insurance scheme can reduce the adverse effects of drought on health.
+  8: Focus is on the short-term consequences of drought in Vietnam. The analysis aims
+    to identify who is most in need of protection by economic and social policy.
+  14: The study uses district-level rainfall data matched to household survey data
+    to assess drought severity. The three-month window is used because it is suitable
+    for agricultural drought indices.
+  16: The paper uses a hypothetical lending question to proxy the existence of an
+    informal insurance network, finding that slightly more than half of the respondents
+    indicate to turn to informal assistance from their social network in cases of
+    hardship.
+  17: The study uses variation in rainfall conditions over time and drought severity
+    within provinces to explain variation in health outcomes.
+  18: The effect of drought on illness, while statistically significant, is relatively
+    small (2 percentage points) compared to the average illness rate of 14% in the
+    sample population for a one standard deviation change in drought severity.
+  20: The analysis focuses on the micro-level impacts of drought on individual health
+    and rice prices, rather than directly assessing macroeconomic or macro-fiscal
+    outcomes. The model incorporates lagged variables to account for the time lag
+    between exposure and outcomes. The 'Drought *' interaction terms indicate how
+    the effect of drought varies depending on other factors.
+  22: The paper uses illness as a dependent variable. It's important to note that
+    illness is a proxy for vulnerability to drought and not a direct macroeconomic
+    or macro-fiscal outcome. The analysis also includes interaction terms between
+    drought severity and various insurance and social factors, highlighting how these
+    factors can moderate the impact of drought. The ethnic fractionalization index
+    is based on village-level data.
+  24: The page appears to be from a table presenting regression results. The dependent
+    variable is related to health expenditures and independent variables are related
+    to drought, demographics, income, and fixed effects. Significance levels are indicated
+    by asterisks (*, **, ***). Many coefficients are negative (indicating an inverse
+    relationship) or positive (indicating a positive relationship). There are no direct
+    macroeconomic impacts on GDP, productivity, interest, or inflation in this excerpt
+    of the paper.
+  27: The study emphasizes the need for future research to focus on the transmission
+    channels between drought and health to identify short-term impacts and potential
+    lasting conditions.
+Outcome(s) of Interest:
+  6: No relevant information
+  7: "Drought in 2005 in Vietnam caused estimated economic damage of 110 million USD,\
+    \ roughly 0.2% of the country\u2019s GDP."
+  8: Health conditions and household expenditures.
+  17: Individual-level health outcomes
+  18: Health conditions at the household member level, specifically illness, BMI,
+    BMI Shock, Weight-for-Age (WfA), and weight.
+  20: Rice price and Individual illness
+  21: Health vulnerability to drought-like conditions, rice prices
+  22: Illness (as a proxy for vulnerability to drought)
+  24: Health expenditures in parentheses (PPPUSD), Illness related expenditures
+  25: No direct macroeconomic or fiscal outcomes are mentioned, but health expenditure
+    is studied as a result of drought.
+  27: Health and financial costs for households, particularly those vulnerable to
+    poverty, are affected by drought.
+Quantitative material:
+  6: Drought-related health shocks can cause additional expenditures that make up
+    around one fifth of what a typical household normally spends on food items.
+  7: Economic damage from the 2005 drought estimated at 110 million USD, or 0.2% of
+    GDP.
+  16: Out-of-pocket food expenditures lie between 33 and 2162 PPP USD. Hypothetical
+    lending question of 15 million Vietnamese Dong (VND) (approximately 705 USD).
+    Drought severity varies between 55 and 993 mm. Two thirds of the people have access
+    to some kind of health insurance, i.e., either the free health insurance program
+    for the poor (57 %) or some form of private health insurance scheme (7 %).
+  18: Living in the most drought-affected district increases the probability of illness
+    by about nine percentage points compared to living in the least drought-affected
+    district. A one standard deviation increase in drought severity (0.21) causes
+    the propensity of illness to rise by two percentage points.
+  20: The table presents regression coefficients and standard errors for the effects
+    of drought and various demographic and economic factors on illness and rice price.
+    Significance levels are indicated by asterisks (* p<0.1, ** p<0.05, *** p<0.01).
+    Adjusted R-squared values are also provided.
+  21: A one standard deviation change in drought intensity is associated with an increase
+    of 0.02 PPP USD in rice prices, roughly 3 % of the mean price in the sample.
+  22: Yes, coefficients and standard errors for various regression models are presented
+  24: Various coefficients and standard errors are presented for regressions involving
+    drought severity, health shocks, and demographic factors (age, gender, household
+    size, dependency ratio) on health expenditures.
+  25: Drought-related illness increases health expenditures by roughly 144 PPP USD
+    for all income groups, and by roughly 90 PPP USD for the lower part of the wealth
+    distribution. A change from least to most drought-affected district increases
+    likelihood of illness by approximately 23 percentage points.
+  27: Drought-related health shocks can pose non-negligible financial cost for many
+    households vulnerable to poverty

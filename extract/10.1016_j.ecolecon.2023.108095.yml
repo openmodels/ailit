@@ -1,0 +1,95 @@
+Drivers of Risk:
+  1: Drought, measured using the Standardized Precipitation Evapotranspiration Index.
+  7: Drier conditions during the growing season can lower the demand for land ownership.
+  8: Drought conditions and above-average precipitation levels.
+  14: SPEI (Standardized Precipitation-Evapotranspiration Index, current), poverty
+    status, gender of household head, farm size.
+  16: SPEI (Standardized Precipitation-Evapotranspiration Index) at current, lag 1,
+    and lag 2 periods; Categorical SPEI measures of dry, wet, and normal conditions
+    at current, lag 1, and lag 2 periods
+  17: SPEI (Standardized Precipitation-Evapotranspiration Index) at current, lag 1,
+    and lag 2 periods, categorized as Dry, Wet, or Normal
+Highlights:
+  1: Drought exposure limits the operating space for farmers wishing to purchase land
+    in Uganda. Effects persist over time and are robust to different specifications.
+  7: Owner-cum-users, who have both use and ownership rights to land, tend to have
+    younger, better-educated household heads and are more likely to be male.
+  8: Drought persistently lowers demand for land ownership; increased precipitation
+    raises demand, supporting the hypothesis that agricultural prospects drive land
+    value perceptions.
+  14: SPEI has a statistically significant positive effect on willingness to acquire
+    land ownership rights. This effect is heterogeneous depending on poverty status,
+    gender, and farm size, though interactions may or may not be significant.
+  16: Current and lagged SPEI significantly affects households' willingness to purchase
+    land and the amount they are willing to pay; specifically, dry spells are associated
+    with lower willingness to purchase land and amount households are willing to pay,
+    while wet spells have positive effects.
+  17: Lagged SPEI variables, particularly Lag 1 and Lag 2, are often statistically
+    significant predictors of both willingness to purchase land and the amount households
+    are willing to pay. Negative coefficients for 'Dry' SPEI categories indicate that
+    drought conditions negatively affect willingness to purchase and the amount households
+    are willing to pay.
+Methodology:
+  1: Household fixed effects approach using three waves of the Uganda National Panel
+    Survey combined with an indicator for drought.
+  7: The analysis estimates the effect of exposure to drought on willingness to acquire
+    land ownership using linear probability models with inverse hyperbolic sine transformation
+    and OLS estimation.
+  8: Analysis performed using OLS regression with continuous and categorical SPEI
+    measures, based on data from UNPS, CHIRPS, and CHIRTS, and focused on willingness
+    to pay for land ownership.
+  14: Estimated with OLS, with standard errors clustered at the district level and
+    attrition weights applied. Household FE, Wave FE, and Month FE are included. Data
+    from UNPS (waves 2005/06, 2009/10, and 2010/11), CHIRPS for precipitation, and
+    CHIRTS for temperature.
+  16: OLS regression, Probit model with bias correction for fixed effects, and Poisson
+    quasi-maximum likelihood models are used to estimate the relationships between
+    SPEI and the outcomes of interest, with household, wave, and month fixed effects.
+    The analysis is performed using UNPS data from 2005/06, 2009/10, and 2010/11,
+    along with CHIRPS precipitation and CHIRTS temperature data.
+  17: Probit and Tobit correlated random effects models are used. Data spans UNPS
+    waves 2005/06, 2009/10, and 2010/11, with precipitation data from CHIRPS and temperature
+    data from CHIRTS. Models 1-4 are probit, models 5-8 are tobit.
+More Notes:
+  1: The study focuses on the context of Uganda, where many households hold use rights
+    to land and face the decision of whether to acquire full ownership rights.
+  7: Households with use rights but not full ownership have smaller farms, more fragmented
+    land, and face longer distances to their parcels.
+  16: Robustness tests were performed by including third lags of SPEI and lead SPEI,
+    excluding Mailo land, and using Probit and Poisson models, and models are controlled
+    for household fixed effects and other time-related fixed effects.
+  17: The analysis includes both 'within' and 'between' effects of SPEI, potentially
+    capturing short-term and long-term impacts, respectively. Time-invariant household
+    controls are included in all models. The dependent variables here are at the household
+    level, not nation-wide.
+No relevant information:
+  11: The provided tables focus on household-level data and determinants of panel
+    survey participation in Uganda (UNPS). They do not directly address macroeconomic
+    or macro-fiscal risks of climate change or the costs and benefits of national-level
+    adaptation. The focus is on land ownership, household characteristics, and survey
+    methodology.
+Outcome(s) of Interest:
+  1: Households' willingness to acquire land ownership rights and the price households
+    are willing to pay for land.
+  7: No relevant information
+  8: Drought conditions lower the willingness of households to acquire full ownership
+    rights for land, suggesting a potential impact on land-related economic activities.
+  14: No relevant information
+  16: Willingness to purchase land, Amount households are willing to pay
+  17: Willingness to purchase land; Amount households are willing to pay
+Quantitative Material:
+  8: No specific macroeconomic or fiscal outcomes quantified on this page.
+Quantitative material:
+  1: Exposure to drought lowers households' intentions to purchase land and substantially
+    reduces the price households are willing to pay for land.
+  7: Exposure to drier conditions has a statistically significant negative impact
+    on the demand for land ownership at the 5% level.
+  14: The table shows coefficient estimates for the impact of SPEI and its interactions
+    with poverty status, gender of household head, and farm size on the willingness
+    to acquire land ownership rights. R-squared values are also presented.
+  16: The tables report regression coefficients, standard errors, R-squared values,
+    and sample sizes (N) associated with the impact of SPEI on the willingness to
+    purchase land and the amount households are willing to pay.
+  17: Coefficients, standard errors, and significance levels (*p < 0.10, **p < 0.05,
+    ***p < 0.01) are provided for each SPEI variable and its impact on the dependent
+    variables. AIC values and sample size (N=1671) are also included.

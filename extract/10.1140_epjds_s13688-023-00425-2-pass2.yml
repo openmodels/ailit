@@ -1,0 +1,267 @@
+Drivers of Risk:
+  1: Temperature changes due to climate change.
+  3: Temperature changes (impacts of climate change).
+  4: Temperature and precipitation
+  5: Temperature (Tir) and precipitation (Pir)
+  6: Temperature (T) and Precipitation (P), including lagged effects
+  7: Temperature, precipitation.
+  8: Temperature rises are the drivers of risk.
+  10: Temperature changes impacting per capita GDP growth.
+  11: "Temperature increases (0.5\xB0C-6.5\xB0C)."
+  13: Temperature rise is the primary driver impacting economic growth, as assessed
+    by the changes in per capita GDP growth in different models.
+  14: Temperature rise
+  16: Temperature rise
+  17: No relevant information
+  18: Temperature changes; correlated time and climate variables
+  19: "Temperature increases, specifically scenarios of 1\xB0C and 6\xB0C warming\
+    \ relative to 2005 levels, are the drivers of risk."
+  20: "Temperature changes due to climate warming (1\xB0C and 6\xB0C scenarios)"
+  21: Temperature rise
+  22: Temperature variations due to climate change
+Highlights:
+  1: "An optimal temperature of 15\xB0C, 15\xB0C or 21\xB0C for each model. Marginal\
+    \ predictions of national GDP changes by approximately 1%, \u20133%, or \u2013\
+    6% for models with 1\xB0C warming."
+  3: Random Forests (RFs) indicate modest national GDP shifts (around 1%), while cubic
+    and spline regressions suggest larger changes (-3% and -6%). RFs show more robust
+    explanation and consistent stability but extrapolation poses a challenge.
+  4: Temperature should be accounted for in economic projections under climate change.
+    The research contributes to modeling methods in climate econometrics and quantifying
+    the temperature impact on economic growth.
+  6: The model considers both temperature and precipitation, their nonlinear effects,
+    and lagged effects on per capita GDP growth.
+  7: Random Forests (RFs) exhibit superior performance compared to other machine learning
+    models. The paper focuses on presenting the results of RFs.
+  8: The paper focuses on quantifying and mapping the impact of temperature rises
+    on national and per capita GDP growth in China.
+  10: "The mean impact of temperature effects on per capita GDP change shows an inverted\
+    \ U-shaped trend with a peak at approximately 15\xB0C."
+  11: "The paper finds an approximately 1% change in output due to temperature fluctuations,\
+    \ based on their simulations. The linear simulation is for warming by 1\xB0C,\
+    \ and the national GDP changes by 0.0087."
+  13: The analysis indicates that warming predominantly benefits GDP growth in northern
+    China, with areas of growth expanding from southern to northern China as temperatures
+    rise.
+  14: "The models have marginal predictions of a GDP change of approximately 1% in\
+    \ RFs, \u20133% in cubic, and 6% in spline for warming below 6.5\xB0C. RFs outperform\
+    \ traditional regressions in terms of R2, RMSE, MAE, and AIC."
+  15: Random Forests (RFs) offer better model performance compared to cubic and spline
+    regression methods in capturing complex and non-linear patterns, making them suitable
+    for investigating climatic impacts on economic research.
+  16: The marginal effect of temperature rise on national GDP accumulation varies
+    depending on the modeling method used (traditional regressions vs. RFs). RFs show
+    more stable results. Bootstrapping supports RFs as a good modeling method.
+  17: Random Forests (RFs) have better prediction performance based on RMSE and R-squared.
+    The bandwidths in the density plot suggest a consistency of performance in RFs.
+    A similar result is shown in the boxplots considering the impact in the input
+    sample.
+  18: Random Forests (RFs) have a smaller loss in explanatory power and less reduction
+    in prediction accuracy than traditional regression methods during the train-split
+    process.
+  19: Random Forests (RFs) have limited extrapolation ability and tend to predict
+    an average of previously observed values when faced with unseen temperatures,
+    causing their predicted values for per capita GDP growth to fall within the range
+    of the training data. Traditional models (cubic regression and spline models)
+    have direct extrapolation abilities that can extend beyond the training range.
+    Traditional models can validate causal inferences before Random Forests are used.
+  20: "Random Forests might underestimate the negative economic impact of climate\
+    \ change. Extrapolation is a potential source of error in predicting the impact\
+    \ of climate change, particularly under higher warming scenarios (6\xB0C)."
+  21: "The study finds that a 1\xB0C temperature rise in China could lead to a 1%\
+    \ (RF), -3% (cubic regression) or 6% (linear spline) change in national GDP."
+  22: Incorporating temperature into economic projections is significant amidst climate
+    change. Machine learning methods should be explored in climate impact analyses.
+Methodology:
+  1: Uses random forests, multivariate cubic regression, and linear spline regression
+    to examine the direct impacts of temperature on economic development. The performance
+    comparison suggests that random forests have stable model performance and better
+    prediction performance in bootstrapping.
+  3: Uses Random Forests (RFs), Multivariate Cubic Regression (cubic), and Linear
+    Spline Regression (spline) to model the impact of temperature on economic development
+    in China, using 1-degree latitude by 1-degree longitude sub-national quinquennial
+    variations over 20 years (1985-2005).
+  4: A Cobb-Douglas type production function (CD-C) is employed to model the relationship
+    between temperature and per capita GDP growth in cells. The analysis uses data
+    from 1985-2005 aggregated into 5-year intervals.
+  5: Panel regressions are used to estimate the effects of temperature and precipitation
+    on per capita GDP growth, controlling for cell and time fixed effects. The model
+    examines the nonlinear impact of temperature and precipitation on economic activity.
+    The regressions use the log first difference of the quinquennial per capita GDP.
+  6: Panel regressions are used to model the impact of temperature and precipitation
+    on per capita GDP growth, including fixed effects for cell and time. Lagged effects
+    of temperature and precipitation are also considered.
+  7: "Random Forests (RFs), Decision Tree (DT), Gradient Boosting Machines (GBM),\
+    \ Support Vector Regression (SVR), cubic regression, and linear spline regression\
+    \ are used to model the relationship between temperature and economic outcomes.\
+    \ A train-test-split setting (80% training, 20% validation) is used for RFs. A\
+    \ thought experiment is conducted where temperature is increased by \u03C4 \xB0\
+    C among all cells, while other variables are held constant at their 2005 values."
+  8: The impacts of temperature on national GDP growth are computed based on projected
+    GDP changes in cells after temperature rises, using the formula in equation (17).
+    The analysis examines geographic distribution using contour maps of per capita
+    GDP growth. Random Forests (RFs) and benchmark regressions are used, with performance
+    evaluated using R2, RMSE, MAE, and AIC.
+  10: Analysis performed using random forests, polynomial regression (cubic), and
+    linear spline regression focusing on temperature effects on GDP growth at the
+    cell level with cell-fixed effects, year-fixed effects, and precipitation as controls.
+  11: The paper conducts a thought experiment assuming equal temperature increases
+    among all cells. It uses equations to simulate potential per capita GDP changes,
+    aggregates GDP in cells to obtain national GDP, and compares outcomes with actual
+    GDP in the base year to obtain national GDP change under the temperature rise
+    scenario.
+  13: The analysis is performed using econometric models, specifically RFs, cubic,
+    and spline models, to estimate the impact of temperature rise on GDP growth at
+    the cell level for a future date around 2080.
+  14: Comparison of three models (Random Forests (RFs), cubic regression, and spline
+    regression) to assess the impact of temperature rise on national and cell-level
+    GDP in China. Out-of-box (OOB) data is used to validate model performance in prediction.
+  15: The analysis uses Random Forests (RFs), multiple linear regression (cubic),
+    and linear spline regression (spline) to evaluate model performance in predicting
+    outcomes related to climate impacts with RFs showing better performance.
+  16: Traditional regressions and Random Forests (RFs) are used to model the impact
+    of temperature on GDP. Bootstrapping is used to simulate the impact of samples
+    and test robustness on model performance.
+  17: The paper uses bootstrapping (500 samples) to compare the performance of three
+    models (random forests, cubic regression, and linear spline regression). It assesses
+    performance via boxplots of training and testing errors and kernel densities of
+    prediction errors. It also uses RMSE and R-squared to assess prediction performance.
+  18: Compares Random Forests (RFs) with traditional regressions (cubic and spline)
+    in the context of temperature-economic growth studies. Uses bootstrap with all
+    and bootstrap with train splits to assess model performance.
+  19: The study uses Random Forests (RFs), cubic regressions, and spline models to
+    predict the impact of temperature increases on per capita GDP growth (gy). The
+    applicability is limited by the extrapolation limitations of RFs, particularly
+    for temperature values outside the training sample.
+  20: The study uses traditional regressions and machine learning techniques (Random
+    Forests, cubic splines) to predict per capita GDP growth under different warming
+    scenarios, comparing predicted values against the range of the training data.
+    Assesses the robustness of the model, including tests of serial correlation, cross-sectional
+    independence, and heteroskedasticity.
+  21: The authors used a thought experiment involving an equal temperature rise among
+    cells (1-degree latitude by 1-degree longitude subnational quinquennial variations)
+    and aggregated cell GDP to estimate the economic impact at a national level for
+    China.
+  22: Machine learning techniques are used to model the predictive impact of temperature
+    on economic growth.
+More Notes:
+  1: "The extrapolation problem in random forests causes underestimation of climate\
+    \ impact in 5% of cells under 6\xB0C warming. The study suggests considering temperature\
+    \ in economic projections under climate change scenarios and the use of more machine\
+    \ learning methods in climate impact assessment. The analysis uses subnational\
+    \ data in China."
+  3: Causality remains an issue for RFs and requires in-depth literature review and
+    causality checks.
+  4: The study uses geographically scaled economic data (GECON 4.0) and climate data
+    from the CORDEX East Asia project. Raw economic data are winsorized to avoid the
+    influence of extreme values.
+  6: The paper uses five-year averages for the data.
+  8: The paper uses a 'cell' based approach to model GDP, summing across all cells
+    to determine national GDP. The R package ggplot2 is used for visualization.
+  10: Empirical models do not include lagged effects and cover quinquennial variations
+    between 1985 and 2005.
+  14: "The optimal temperature for economic activity varies across models: approximately\
+    \ 15\xB0C \u2013 16\xB0C for the cubic model and RFs, and 21\xB0C for the spline\
+    \ model."
+  16: The study investigates the lagged effects of climate variables (temperature
+    and precipitation) on economic outcomes. The inclusion of lags does not significantly
+    improve the overall explanatory ratio and model performance.
+  17: The analysis investigates the impact of sample size on model performance. The
+    bootstrap performance test includes sampling, splitting datasets, original dataset
+    handling, performance computing, and testing/comparing with the original dataset.
+  18: Applying tree-based regressions to amalgamate correlated time and climate variables
+    may result in inaccuracies in estimating the climate sensitivity of economic growth
+    due to challenges related to overfitting, the identification of trends in time
+    series, and the absence of causality. The log-first difference is applied to remove
+    time trends.
+  19: The study compares the distribution of predicted per capita GDP growth values
+    from RFs and traditional models to the training sample to assess the impact of
+    extrapolation limitations. The training sample (N=2560) is used as a baseline
+    for comparison.
+  20: The study acknowledges limitations including a short time horizon, lack of spatial
+    autocorrelation considerations, and lack of location-by-time dummies. Recommends
+    regression-enhanced RFs or artificial neural networks with no direct constraints
+    on extrapolation for future research.
+  21: The Random Forest (RF) model is considered more reliable than cubic or linear
+    spline regressions due to better performance and stability. Extrapolation beyond
+    the sample temperature range leads to underestimation of the overall climate change
+    economic impact. Causal inference should be validated by traditional methods before
+    implementing RFs.
+  22: The study uses the Geographically Scaled Economic Database (GEcon 4.0) and climate
+    data from the Coordinated Regional Climate Downscaling Experiment (CORDEX) East
+    Asia project. The study was supported by the National Key R&D program of China.
+No relevant information:
+  23: No relevant information
+Outcome(s) of Interest:
+  1: Impact of temperature on economic growth, specifically GDP.
+  3: National GDP changes due to temperature impacts.
+  4: GDP change per capita
+  5: "per capita GDP growth (\u0394log yir)"
+  6: Per capita GDP growth (gyir)
+  7: Economic growth, cell per capita GDP change, GDP growth distribution.
+  8: National GDP growth and per capita GDP change are the outcomes of interest.
+  10: Per capita GDP change at the cell level due to temperature effects.
+  11: National GDP change under temperature rise scenarios.
+  13: This page examines the impact of temperature rise on per capita GDP growth,
+    with a focus on significant differential impacts across geographical regions in
+    China.
+  14: National GDP, Cell per capita GDP growth
+  16: National GDP accumulation
+  17: No relevant information
+  18: Economic development (GDP growth)
+  19: Per capita GDP growth (gy) is the outcome of interest.
+  20: Per capita GDP growth
+  21: National GDP changes
+  22: Economic growth
+Quantitative material:
+  1: "Marginal predictions of national GDP changes by approximately 1%, \u20133%,\
+    \ or \u20136% for models with 1\xB0C warming."
+  3: "Random Forests (RFs) reveal modest shifts in national GDP, hovering around 1%,\
+    \ whereas cubic and spline simulations show more substantial changes at \u2013\
+    3% and \u20136%, respectively."
+  4: Summary statistics for temperature, precipitation, and GDP change per capita
+    are provided in Table 1.
+  6: Equations provided to model the relationships between temperature, precipitation,
+    and per capita GDP growth.
+  7: "Temperature ranges in the temperature rise scenarios are set to \u03C4 = 0.5\xB0\
+    C to 6.5\xB0C, with intervals of 0.5\xB0C. Maximum temperature rise to \u03C4\
+    \ = 6.5\xB0C since the average temperature changes by 6.62\xB0C in China under\
+    \ the RCP8.5 scenario by 2100 compared to the 2005 temperature in CORDEX East\
+    \ Asia."
+  8: "Equation (17) shows how to compute the impacts of temperature on national GDP\
+    \ growth. The accumulated national GDP in China is GDP\u03C4 0+\u03C4 = \u2211\
+    Ni=1 GDPi,\u03C4 0+\u03C4. The paper examines the geographic distribution of the\
+    \ impacts of temperature on economic growth using contour maps of per capita GDP\
+    \ growth under temperature rise scenarios of 1\xB0C and 6\xB0C. Per capita GDP\
+    \ growth values of 0, 0.6, and 1 are set as contour lines in the graph."
+  10: Estimated per capita GDP growth varies between 5% and 85%.
+  11: "A linear simulation for warming by 1\xB0C results in national GDP changes by\
+    \ 0.0087 (y = 0.0087x + 0.5904, R2 = 0.98) in RFs, which is an approximately 1%\
+    \ marginal propensity to GDP change."
+  13: "Quantitative projections of per capita GDP growth under scenarios of a 1\xB0\
+    C to 6\xB0C temperature rise relative to 2005 levels are presented."
+  14: "Linear equations regressing national GDP changes on temperature: y = 0.0087x\
+    \ + 0.5904 (R2 =0.98) in RFs, y = \u20130.0312 x + 0.5984 (R2 =0.93) in cubic,\
+    \ and y = 0.0601x + 0.527 (R2 = 0.89) in spline. Marginal predictions of GDP change\
+    \ for warming below 6.5\xB0C: approximately 1% in RFs, \u20133% in cubic, and\
+    \ 6% in spline."
+  15: Table 2 presents model performance metrics including R2, RMSE, MAE, and AIC
+    for RFs, cubic, and spline methods, showing RFs perform better.
+  16: "Marginal effect of temperature rise changes from \u20133% to \u201310% in cubic\
+    \ and 6% to \u20134% in spline regressions; RFs change from 0.87% to 0.43%."
+  17: The paper computes changes in mean accuracy and mean explanatory effects using
+    an equation based on R-squared values from bootstrap training with a training
+    dataset versus the original dataset.
+  18: RFs (Random Forests) mean R-squared decreases from 0.70 to 0.62 in bootstrap
+    with train split; RMSE changes from 0.08 to 0.09, a mean accuracy loss of 13%.
+  19: "The analysis involves simulating per capita GDP growth (gy) under 1\xB0C and\
+    \ 6\xB0C warming scenarios and comparing the predicted values from different models\
+    \ (RFs, cubic regression, spline models) to a training sample."
+  20: "Under 6\xB0C warming, Random Forests (RFs) mispredict 8% (86/1078) of cells\
+    \ compared to cubic and 42% (450/1078) of cells compared to spline due to extrapolation,\
+    \ where the 'cells' are spatial units in China. 0.5% of cells (5/1078) and 5%\
+    \ of cells (51/1078) have temperatures beyond the maximum temperature in the training\
+    \ sample for 1\xB0C warming and 6\xB0C warming, respectively."
+  21: "Marginal predictions of temperature on the national GDP changes are 1% (random\
+    \ forests), \u20133% (cubic regression), and 6% (linear spline regression) for\
+    \ every 1\xB0C temperature rise for warming within 6.5\xB0C."

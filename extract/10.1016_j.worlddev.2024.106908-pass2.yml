@@ -1,0 +1,516 @@
+Drivers of Risk:
+  1: Climate change.
+  5: Climate change, natural disasters, vulnerability to climate change, high debt
+    levels in emerging and low-income developing countries
+  6: Climate change vulnerability, preparedness to climate change
+  7: Fiscal discipline, long-term growth, debt-to-GDP ratio, financial volatility,
+    local and foreign monetary policy conditions, local inflation rates, deficit-to-GDP
+    ratios, terms-of-trade and their volatility, fiscal variables, political factors,
+    quality of domestic institutions, level of the spread itself (sovereign risk).
+  10: Climate change preparedness and vulnerability, as well as international commonality
+    and natural disasters.
+  11: Vulnerability and readiness to climate change, natural disasters, inflation,
+    terms of trade, debt-to-GDP ratio, economic complexity, natural resource rents,
+    and institutional quality.
+  12: Natural disasters
+  15: Inflation, consumption share, VIX in international markets, debt-related variables
+    (revenues, fiscal balances, interest paid by debt, and credit ratings), institutional
+    variables (rule of law, regulatory quality, voice and accountability), and political
+    factors (fractionalization or polarization indices).
+  17: Inflation rate, real growth, terms of trade, economic complexity indicator,
+    debt-to-GDP ratio, natural resource rents as a percentage of GDP, Rule of Law
+    indicator, vulnerability and readiness indicators (ND-GAIN indicator), natural
+    disasters.
+  19: Global macroeconomic forces, economic and climate-related determinants
+  21: Number of people affected by disasters, Number of deaths due to disasters, Economic
+    damage as a % of GDP, Natural resources rents as % of GDP, Rule of law, Terms
+    of trade change, Readiness Indicator, Vulnerability Indicator, Economic Complexity
+    Indicator
+  23: Natural disasters.
+  25: Climate change (implied as ND-GAIN indexes and EMDAT natural disaster dummy
+    variables are used as variables)
+  28: Debt-to-GDP ratio, inflation, vulnerability to climate change, institutions
+    (Rule of Law), Rents (% of GDP), Terms of Trade, Real GDP Growth, Economic Complexity,
+    Readiness, Common Factor
+  29: "Heightened preparedness for climate change adaptation (as measured by the readiness\
+    \ indicator of the ND-Gain), vulnerability to climate change, inflation, World\
+    \ Bank\u2019s Rule of Law estimate, higher terms of trade, greater economic complexity."
+  30: Inflation, debt-to-GDP ratio
+  31: Physical risks associated with extreme weather events; Transition risks associated
+    with policies aimed at fostering a climate-resilient and sustainable economy.
+  32: Climate change vulnerability (positive influence) and climate change readiness
+    (negative influence, offsetting vulnerability)
+  33: Climate risk is driven by vulnerability to climate change, which impacts countries
+    with riskier profiles for short-term maturities and low-risk countries at longer
+    maturities.
+  34: Common factor, Readiness, Vulnerability, Economic complexity, Real GDP growth,
+    Inflation, Terms of trade, Rents (% GDP), Rule of law, Debt (% GDP).
+  35: Volatility in terms of trade, specialization in commodities and low-value-added
+    goods, market fluctuations.
+  37: The role of natural disasters in determining yield spreads is emphasized as
+    an upcoming topic.
+  38: Natural disasters are introduced as a determinant of sovereign risk.
+  39: Natural disasters, measured in different ways (economic loss as a percentage
+    of GDP, number of deaths, number of people affected), are the primary drivers
+    of risk. Geophysical and weather-related disasters are considered separately.
+  40: Occurrence of natural disasters, Readiness, Vulnerability, Economic complexity,
+    Real GDP growth, Inflation, Terms of trade, Rents (% GDP), Rule of law, Debt (%
+    GDP)
+  41: Common factor, Readiness, Vulnerability, Economic complexity, Real GDP growth,
+    Inflation, Terms of trade, Rents (% GDP), Rule of law, Debt (% GDP), and incorporation
+    of natural disasters.
+  42: Natural disasters in category 3
+  43: Idiosyncratic components of a model and country-specific natural disasters (three
+    clusters of countries).
+  44: Natural disasters, vulnerability to climate change, readiness for climate change,
+    inflation, terms of trade, debt-to-GDP ratio, economic complexity, natural resource
+    rents, institutional quality
+  45: Natural disasters (economic losses and human losses); Vulnerability to climate
+    change; Readiness to climate change
+  46: Climate change vulnerability, natural disasters, and economic losses to GDP
+    are identified as drivers that could exacerbate sovereign risk.
+  50: Natural disasters, climate change, macroeconomic factors
+  54: Implied. The values of sovereign debt spreads are given with respect to the
+    US government bond yield, so changes in investor behavior are a relevant driver.
+Highlights:
+  5: Sovereign risk exhibits asymmetric reactions to its determinants across the conditional
+    distribution of credit spreads; Investing in climate change preparedness proves
+    effective in mitigating vulnerability to climate change, in terms of sovereign
+    risk, particularly for countries with low spreads and long-term debt; For countries
+    with high spreads and short-term debt, climate change readiness alone is insufficient
+    to offset vulnerability effects; The actual occurrence of natural disasters is
+    less influential than vulnerability to climate change in determining spreads.
+  6: Climate change vulnerability significantly impacts shorter debt maturities, especially
+    for high-risk countries with elevated borrowing costs; International efforts should
+    recognize the distinct impact of climate change on interest payments for debt.
+  7: The study considers a nonlinear relationship between explanatory factors and
+    sovereign spreads, governed by the level of the spread itself. Determinants of
+    spreads hold more relevance for different segments of the spread distribution,
+    while others are virtually unimportant at specific quantiles.
+  10: Climate change vulnerability has a more significant effect on short-term borrowing
+    costs for high-risk countries; long-term maturities are more affected in low-risk
+    countries.
+  11: Climate change has a highly asymmetric impact on emerging and low-income developing
+    countries compared to developed countries. Spreads predominantly react to vulnerability
+    and readiness to climate change as a general concept, rather than the actual occurrence
+    of natural disasters.
+  15: RF is chosen over linear factor models (like Tall-Wide estimator or latent factor
+    model) because it can preserve the nonlinear features of data relationships. The
+    inclusion of categorical and continuous variables in our dataset advocates for
+    the use of RF over the factor-based alternatives.
+  17: The model analyzes the relationship between various indicators (including climate
+    change vulnerability and readiness) and sovereign risk, measured by yield spreads.
+  19: Panel quantile models are essential for estimating the direct effects of economic
+    and climate-related determinants on spreads. The inclusion of the factor structure
+    is driven by the need to tailor the methodology from a statistical medicine context
+    to an international macroeconomic setting.
+  23: Countries experiencing natural disasters may be more susceptible to climate
+    risk vulnerabilities and may be incentivized to enhance preparedness; Sovereign
+    spreads are used as a measure of risk.
+  27: The dynamics between the spread series are effectively preserved throughout
+    the imputation process. Correlations between spreads at 5 and 10 years exhibit
+    a slight reduction after imputation, while correlations between short-term maturity
+    spreads at 1 and 2 years tend to slightly increase.
+  28: Higher debt-to-GDP ratio, inflation, and increased vulnerability to climate
+    change contribute to higher sovereign yield spreads. Improved institutions contribute
+    to lower spreads.
+  29: Heightened preparedness for climate change adaptation contributes to lower spreads
+    across all maturities; vulnerability to climate change and inflation have substantial
+    positive effects on sovereign risk; common market trends must be accounted for.
+  30: The impact of inflation on sovereign risk is asymmetric across different quantiles
+    of spreads, with a more pronounced effect when sovereign risk is already high.
+  31: There is a positive relationship between vulnerability and sovereign risk, comparable
+    in magnitude to the effect of inflation.
+  32: Climate change vulnerability positively influences sovereign borrowing costs,
+    but this can be offset by proportionate increases in climate change preparedness.
+    The effect of vulnerability is most pronounced at the 90th quantile of the 2-year
+    spread.
+  33: Market places a high price on climate risk for short-term maturities; climate
+    change vulnerability is a rollover risk for high-risk countries and a long-term
+    solvency risk for advanced economies.
+  34: The effects of climate change risks vary across the quantiles of the spreads
+    distribution, which is particularly important for emerging and low-income countries.
+  35: Economic complexity is a reliable predictor of future fiscal crises and lower
+    borrowing costs. The impact of economic complexity tends to be more pronounced
+    for higher quantiles (except for very short 1-year maturity). Annual real growth
+    rate is consistently significant across all maturities and quantiles.
+  37: Institutional quality, measured by the Rule of Law, negatively affects yield
+    spreads, particularly for long maturities and at lower quantiles. There is significant
+    differentiation in yield spreads based on idiosyncratic components.
+  38: Natural disasters diminish governments' capacity to borrow from abroad and depress
+    overall welfare, constraining governments' access to financial markets and increasing
+    sovereign spreads.
+  39: The correlation within categories of disaster measurement is high, but the correlation
+    between different ways of measuring the effects of disasters is low.
+  40: Incorporating natural disasters into the model improves the statistical significance
+    of several variables, particularly for 5-year maturities (not on this page). Rule
+    of Law becomes significant on five occasions. The debt-to-GDP ratio loses significance
+    in two specifications. Overall, the model adjustment appears to improve with the
+    incorporation of natural disasters, with no changes in the magnitudes or signs
+    of the effects provided in Table 3 and discussed earlier.
+  41: Natural disasters are generally insignificant across quantiles and maturities.
+    Variables achieving significance in the updated model specification (incorporating
+    natural disasters) are highlighted in green, while those that lose significance
+    are highlighted in red, compared to models without natural disasters.
+  42: Natural disasters in category 3 are frequently significant and positive as a
+    GDP loss.
+  43: Increments in disasters in the third category lead to higher spreads in six
+    cases. Surprisingly, when disasters (measured by deaths and population affected)
+    are significant, they tend to *reduce* spreads, with negative effects on spreads
+    occurring frequently in category 1 (people exposed) and category 2 (deaths). However,
+    there is one exception with a positive impact on 2-year spreads for the second
+    cluster of countries, second disaster category, and 90th percentile.
+  44: Sovereign spreads respond differently to economic determinants depending on
+    whether the spreads are very high or very low. Climate change poses an asymmetric
+    risk to emerging and low-income developing countries. Spreads predominantly react
+    to vulnerability and readiness to climate change as a general concept, rather
+    than the actual occurrence of natural disasters.
+  45: The effect of natural disasters on sovereign risk is very small or insignificant
+    once one controls for traditional determinants of sovereign risk; Readiness to
+    climate change is most effective at reducing sovereign risk at long-term maturities;
+    For countries with high spreads relying on short-term debt, increments in readiness
+    tend to be smaller than the effects of vulnerability
+  46: Natural disasters may cause an upward shift in spread distribution, increasing
+    sovereign risk across maturities and spread levels.
+  50: Climate change and natural disasters impact sovereign risk. Several papers explore
+    determinants of sovereign yield spreads and bond yields.
+  54: Shows the central tendency (mean, median) and dispersion (standard deviation,
+    min/max) of various macroeconomic and fiscal variables across the sample. The
+    large standard deviation for real GDP per capita suggests substantial variation
+    across the countries included in the analysis.
+Methodology:
+  1: Working paper; likely an econometric or modeling approach given the focus on
+    sovereign risk and climate change preparation.
+  5: Panel-quantile regressions
+  6: Novel and comprehensive empirical framework to evaluate the effects of macroeconomic,
+    institutional, external sector, fiscal factors, natural disasters and climate
+    change-related fundamentals across the entire conditional spread distribution;
+    analysis of debt dynamics as inherently nonlinear.
+  7: Employs panel quantile models to examine the relationship between explanatory
+    factors and sovereign spreads, considering the level of the spread itself. The
+    analysis distinguishes between emerging and low-income economies and advanced
+    economies. The results are applicable to analyzing sovereign risk in emerging
+    and low-income countries under a global ecological transition.
+  10: Analysis includes 68 countries and explores determinants of sovereign spreads,
+    employing quantile regression to assess impacts at different spread quantiles.
+  11: Models incorporate the occurrence of natural disasters into the determination
+    of sovereign spreads. Analysis considers asymmetric responses across the spread
+    distribution to various determinants.
+  12: Factor-augmented panel quantile regression, Random Forest machine learning algorithm
+    for imputation
+  13: The paper develops a model for imputing sovereign yield data, particularly focusing
+    on addressing missing data points across countries and maturities. It uses maximum
+    likelihood estimation with mixture distributions and incorporates a time-varying
+    market factor derived from yield spreads using principal component analysis (PCA).
+  14: Selects 66 variables to describe spread dynamics, including dummy variables
+    for fiscal rules, crises, and quality of fiscal rules, as well as continuous variables
+    like real GDP growth rate.
+  15: Uses Random Forest (RF) to complete missing values in a dataset by treating
+    missing values as the target variable. Aims to predict sovereign yield spreads
+    using a range of macroeconomic, fiscal, and institutional variables.
+  17: Quantile regression for longitudinal data (panel data models), both distribution-free
+    (fixed effects) and likelihood-based methods are considered. Distribution free
+    methods treat individual-specific intercepts as location shift parameters common
+    to all conditional quantiles. Likelihood framework treats individual-specific
+    parameters as independent and identically distributed random variables.
+  18: The paper uses a linear quantile mixed model (LQMM) to analyze the data. The
+    model incorporates random effects to account for unobserved heterogeneity between
+    individuals/countries and dependence between repeated measurements over time.
+    The model uses an Asymmetric Laplace Density (ALD) and estimates the mixing distribution
+    non-parametrically using Non-Parametric Maximum Likelihood (NPML).
+  19: Panel quantile models, Principal Component Analysis (PCA) to estimate time-varying
+    common factors, likelihood estimation, includes factor structure for modelling
+    unobserved heterogeneity.
+  23: Empirical model incorporating macroeconomic, fiscal, and institutional covariates;
+    Includes binary variables for natural disasters to assess climate risk vulnerabilities.
+  25: Random Forest (RF) imputation is used to fill in missing data for spreads.
+  27: The analysis uses a panel quantile factor model to determine the impacts of
+    the determinants of sovereign spreads across various maturities and quantiles
+    of the spreads distribution. Missing data is imputed using a Random Forest (RF)
+    method. Statistical significance is evaluated using a block-bootstrap procedure.
+  28: Quantile regression analysis of sovereign yield spreads using scaled variables.
+    Variables were scaled to have zero mean and unitary variance. The model examines
+    the impact of determinants on sovereign yield spreads across different quantiles
+    and maturities.
+  29: Uses quantiles of spreads and examines the significance of variables across
+    quantiles and maturities; incorporates a common factor using PCA to account for
+    common market shocks.
+  30: Quantile regression analysis of sovereign bond spreads
+  31: Examining vulnerability and preparedness in the context of climate change and
+    its impact on sovereign risk.
+  32: Quantile regression analysis examining the determinants of sovereign yield spreads
+    with respect to the US at short maturities. Variables are scaled to have zero
+    mean and unit variance for comparison.
+  34: Quantile regression is used to analyze the determinants of sovereign yield spreads
+    at different points in the distribution. All variables are scaled to have zero
+    mean and unit variance.
+  35: The study uses economic complexity as a predictor of future fiscal crises and
+    analyzes its impact on borrowing costs across different maturities and quantiles.
+    The role of real growth rate of economies on fiscal revenues is also examined.
+  37: Panel quantile regression is used to model yield spreads. The approach is robust
+    to outliers because it is based on order statistics. The impact of institutional
+    quality (Rule of Law) is assessed.
+  38: The idiosyncratic components of the model are modeled as a mixture of three
+    distributions described by the location parameters presented in the table. EMDAT
+    indicators are utilized, presenting high correlation within the same category
+    (from 1 to 3) and low correlation between categories.
+  39: The paper uses a model with a location equation to incorporate three disaster
+    variables simultaneously. This approach captures the heterogeneous characteristics
+    of disaster occurrences and considers their impact on yield distribution.
+  40: The analysis uses a model that explicitly considers the occurrence of natural
+    disasters in determining cross-country heterogeneity in sovereign debt markets,
+    using quantile regressions.
+  41: The analysis uses a regression model to assess the impact of various factors
+    on sovereign yield spreads. The variables have been standardized to have zero
+    mean and unit variance. The table reports modeling outcomes of country-idiosyncratic
+    effects.
+  42: Quantile regression is used to estimate the impact of natural disasters on some
+    outcome. The analysis appears to consider different 'spread' periods (1, 2, and
+    5 years) which may represent the time horizon over which the effect is measured.
+  43: The idiosyncratic components of the model are modeled as a mixture of three
+    distributions, and analysis includes natural disaster variables for three country
+    clusters. The table displays the results of these components and variables on
+    the spread. The time frame is 'Spread 10 Years'.
+  44: The paper models sovereign spreads, integrating natural disasters and other
+    macroeconomic, institutional, and fiscal variables. It analyzes asymmetric responses
+    across the spread distribution to determinants.
+  45: Econometric analysis controlling for macroeconomic, institutional, and fiscal
+    variables; Analysis focuses on the effect of natural disasters, vulnerability,
+    and readiness on sovereign risk
+  50: Bayesian Approach, Linear Quantile Regression Models, Mixed Hidden Markov Quantile
+    Regression Models
+  55: Analysis based on a sample of countries. Countries and maturities with a larger
+    amount of missing data were excluded from the analysis.
+More Notes:
+  1: The title suggests the paper explores asymmetric sovereign risk, implying that
+    the impact of climate change on sovereign risk might be different depending on
+    whether governments are preparing for it or not.
+  5: The study focuses on the interaction between climate change vulnerability, preparedness,
+    and sovereign risk, considering the role of a country's fiscal capacity.
+  6: The impact of vulnerability, preparedness, and other determinants are not uniform
+    across the spread distribution; adverse effects of climate change will disproportionately
+    affect countries with initially higher spreads and reliance on mainly short-term
+    debt.
+  11: Economic losses from natural disasters increase spreads, while the number of
+    people exposed to disasters reduces spreads, possibly due to international aid
+    flows.
+  13: The paper focuses on a statistical methodology for handling missing data in
+    sovereign yield data and does not directly analyze the macroeconomic or macro-fiscal
+    risks of climate change, nor does it estimate the costs and benefits of adaptation.
+    The methodology aims to avoid biases that may arise from neglecting a general
+    market factor that affects all spreads.
+  14: RF is used to impute missing data, addressing the issue of developed countries
+    being overrepresented in high-quality datasets.
+  15: The paper incorporates information on all available maturities (beyond 10 years).
+  17: The ND-GAIN indicator, assessing a country's exposure to and socio-economic
+    capacity to face climate change, is included as an explanatory variable.
+  18: The model allows for the inclusion of natural disaster variables (see section
+    4.3). The paper specifies time-fixed effects per country.
+  21: The table summarizes the main variables used in the study, including their description,
+    sources, and summary statistics. EMDAT, WEO-IMF, World Bank, ND-Gain Web Page,
+    and Harvard Growth Lab Web Page are sources for the study's variables. Spreads
+    are calculated using Bloomberg data.
+  23: The analysis excludes 2020 and 2021 due to the COVID-19 pandemic's influence
+    on international debt markets; The inclusion of countries like Germany, Japan,
+    and the UK, which sometimes have lower sovereign spreads than the US, influences
+    the minimum spread.
+  25: "The study uses the ND-GAIN index, which comprises readiness and vulnerability\
+    \ components. A higher readiness value indicates better preparedness, while a\
+    \ higher vulnerability value indicates a greater likelihood of climate events.\
+    \ There is a positive correlation between the ND-GAIN and readiness index and\
+    \ a country\u2019s level of development, while there is a negative correlation\
+    \ between the vulnerability index and development."
+  28: The variables used in the model align with a broad consensus in the literature
+    and demonstrate the expected signs according to theoretical expectations.
+  30: Increases in inflation can lead to immediate improvements in debt-to-GDP ratios,
+    potentially mitigating the positive causal effect of inflation on sovereign yields.
+  32: The study diverges from Beirne, Renzhi, and Volz (2021) by highlighting the
+    importance of climate change readiness, whereas they emphasize vulnerability.
+  34: The results offer a framework for understanding the mitigating effects of climate
+    change preparation.
+  37: The paper finds outliers in 2-year spreads at the 90th quantile. The institutional
+    quality result is found to be a long-term structural determinant, particularly
+    in market scenarios characterized by low volatility.
+  38: The study claims to be the first to introduce natural disasters as a determinant
+    of sovereign risk in a comprehensive sample of countries.
+  39: The authors incorporate three disaster variables into the location equation
+    to capture the heterogeneous characteristics of disaster occurrences and their
+    impact on the yield distribution across quantiles and maturities.
+  40: The page references Table 3, suggesting the model builds upon previous work.
+    The model is applied to sovereign debt markets, suggesting a focus on government
+    borrowing costs.
+  41: The table shows the impact of determinants on sovereign yield spreads across
+    all maturities ranging from 1 to 10 years and three quantiles of the spreads distribution
+    (0.1, 0.5, and 0.9). All variables have been standardized to have zero mean and
+    unit variance.
+  42: The natural disasters are indexed numerically, for example, 'Natural D. 1.1',
+    but there is no indication in the text what these codes represent.
+  43: Spreads are higher in six cases due to increments in disasters in the third
+    category. The table shows coefficients for different components and disasters
+    on spreads, but it's not entirely clear what each component represents. The natural
+    disaster variables are categorized into three clusters of countries, suggesting
+    some regional differentiation in disaster impacts.
+  44: The paper focuses on the immediate consequences of natural disasters on sovereign
+    debt dynamics, unlike approaches that explore total effects inclusive of intermediate
+    impacts stemming from the macroeconomic environment.
+  50: This page lists titles and publication information, implying the papers investigate
+    the listed concepts. NGFS report provides macro-financial stability implications
+    of climate change, but this page is just bibliographic information about the paper.
+No relevant information:
+  4: No relevant information
+  22: No relevant information
+Outcome(s) of Interest:
+  1: Potentially sovereign risk, borrowing costs, and government preparation related
+    to climate change.
+  5: Sovereign risk, funding costs for governments
+  6: Sovereign risk spreads, cost of national funding, interest payments for debt
+  7: Sovereign risk, sovereign yields, sovereign bond spreads.
+  10: Impact of climate change vulnerability on borrowing costs in international debt
+    markets, particularly through the effect on sovereign spreads.
+  11: Government borrowing costs (sovereign spreads).
+  12: Sovereign debt
+  15: Sovereign yield spreads
+  17: Yield spreads, sovereign risk.
+  19: Sovereign credit spreads
+  21: Value sovereign spread with respect to the US at 1, 2, 5, and 10 year maturities,
+    Real GDP growth, Inflation rate, Gross debt as % of GDP
+  23: Sovereign spreads (difference between a country's borrowing costs and a benchmark
+    rate).
+  25: Spreads, likely referring to sovereign bond spreads, are being analyzed; Imputation
+    of missing observations of spreads.
+  27: Sovereign spreads with respect to the United States for 1-year, 2-year, 5-year,
+    and 10-year maturities.
+  28: Sovereign yield spreads (1, 2, 5, and 10 year maturities)
+  29: Sovereign risk (measured as spreads across all maturities), erosion of the real
+    value of bonds.
+  30: Sovereign bond yields, debt-to-GDP ratios
+  31: Strain on fiscal budgets due to lost tax revenues and increased expenditures
+    for relief and reconstruction after extreme weather events; Strain on public finances
+    due to investments in mitigation efforts; Implications for revenue generation
+    due to climate mitigation policies like carbon taxes; Impact on the value of sovereign
+    bonds based on management of natural capital.
+  32: Sovereign borrowing costs (yield spreads at short maturities of 1 and 2 years)
+  33: Climate change vulnerability affects sovereign spreads, influencing borrowing
+    costs.
+  34: Sovereign yield spreads with respect to the US at long maturities (5 years,
+    10 years).
+  35: Borrowing costs, fiscal crises, fiscal revenues.
+  37: Government borrowing costs (yield spreads) are the outcome of interest.
+  38: Sovereign risk, specifically sovereign spreads (the difference between the interest
+    rate a country pays on its debt and the risk-free rate).
+  39: The paper analyzes the impact of natural disasters on the location of the yield
+    distribution across quantiles and maturities, influencing idiosyncratic country-specific
+    components of a model.
+  40: Sovereign debt markets and spreads (1-year and 2-year maturities)
+  41: Sovereign yield spreads (across maturities ranging from 1 to 10 years).
+  42: GDP loss
+  43: Impact on sovereign debt spreads (borrowing costs).
+  44: Sovereign spreads (government borrowing costs)
+  45: Sovereign risk (measured by spreads); debt spreads
+  46: Increased borrowing costs for European countries could arise, particularly for
+    maturities exceeding 5 years, reflecting their solvency position.
+  50: Sovereign credit risk, sovereign bond yields, sovereign yield spreads, determinants
+    of sovereign spreads, fiscal risks associated with natural disasters
+  54: Debt spike, Real GDP per capita, Sovereign spread (20Y and 30Y maturity) with
+    respect to the US.
+  55: Sovereign spreads (ValSpread_1Y, ValSpread_2Y, ValSpread_5Y, ValSpread_10Y)
+Quantitative Material:
+  33: 'Impact of vulnerability on sovereign spreads: 0.14 and 0.27 for 1- and 2-year
+    yields at highest quantile, 0.12 and 0.13 for five and ten years at lower quantiles.'
+Quantitative material:
+  5: No quantitative information is provided on this page.
+  6: Climate change vulnerability becomes notably significant for shorter maturities,
+    especially those equal to or less than two years.
+  10: A one-unit standard deviation increase in the ND-GAIN climate vulnerability
+    index correlates with a 27% rise in the 90th quantile of the 2-year spread and
+    7% in the 10th quantile for both 2-year and 1-year spreads.
+  11: Effects of natural disasters are relatively modest compared to those of vulnerability
+    and readiness to climate change indicators.
+  17: "Equation (3):  \U0001D444(\U0001D466 |\U0001D44F,\U0001D6FD,\U0001D465) = \U0001D44F\
+    \ + \U0001D465'\U0001D6FD; Equation (4): \U0001D466 = \U0001D44F + \U0001D465\
+    '\U0001D6FD + \U0001D700 where \U0001D444(\U0001D700|\U0001D44F,\U0001D6FD,\U0001D465\
+    ) = 0"
+  19: The first principal component explains 42.8% of the variability in the 272 series
+    of spreads (4 for each of the 68 countries).
+  21: Provides summary statistics (mean, median, standard deviation, max, min) for
+    all listed indicators.
+  23: Minimum spread is negative across all maturities; Sample consists of 68 countries
+    (44% advanced, 56% emerging or low-income); Data starts in 2000, excluding 2020
+    and 2021.
+  25: ND-GAIN readiness index ranges from 0.20 (Nigeria 2014) to 0.81 (Singapore 2014);
+    ND-GAIN vulnerability index ranges from 0.25 (Switzerland 2015) to 0.60 (Uganda
+    2004).
+  27: Figure 3 presents the correlation among sovereign spreads with respect to the
+    United States for 1-year, 2-year, 5-year, and 10-year maturities, before and after
+    imputation. Includes specific correlation values between spreads at different
+    maturities.
+  28: Increased vulnerability to climate change contributes to higher spreads across
+    all maturities.
+  29: Common factor impact ranges between -3 and -6 percent with a slightly larger
+    impact at the center of the distribution.
+  30: Impact of inflation on 1-year spreads falls from 0.27 to 0.17-0.18 when transitioning
+    from the 90th quantile to the 50th and 10th quantiles. For the 2-year spread,
+    this phenomenon is even more pronounced, decreasing from 0.21 to 0.12 to 0.08.
+    For 10-year maturities, the effects diminish from 0.20 to 0.13 to 0.09 as we transition
+    from the 90th quantile to the 50th and, finally, to the 10th quantile. The effect
+    of the debt-to-GDP ratio, when significant, ranges between 8 and 11 percent (of
+    one standard deviation in the debt-to-GDP ratio) for the median and the 90th quantile
+    of the 2-year spread. The influence of the debt-to-GDP ratio on 10-year maturities,
+    when significant, ranges between 6 and 8 percent of one standard deviation in
+    spreads for the lower quantiles.
+  31: Observes a distinct positive relationship between vulnerability and sovereign
+    risk, comparable in magnitude to the effect of inflation (as measured by the scaled
+    quantile slopes of the indicators); Association is particularly pronounced at
+    the highest quantiles of spreads.
+  32: Table 3 provides estimates, standard errors, z-values, and p-values for the
+    impact of various factors (including vulnerability and readiness) on 1-year and
+    2-year sovereign yield spreads at the 0.1, 0.5, and 0.9 quantiles.
+  34: The table shows estimates, standard errors, z-values, and p-values for the effect
+    of the drivers of risk on sovereign yield spreads at 5-year and 10-year maturities,
+    and at the 0.1, 0.5, and 0.9 quantiles of the spread distribution.
+  35: Effects of economic complexity on borrowing costs range between -0.24 and -0.07
+    across various maturities and quantiles; Effects of annual real growth rate range
+    between -5 and -10%.
+  37: For 1-year spreads at the 0.9 quantile, results reveal three groups centered
+    around spreads with means of zero, 0.36 standard deviations, and 1.17 standard
+    deviations.
+  38: Table 3 presents estimates, standard errors, z-values, and p-values for idiosyncratic
+    components of a model related to sovereign spreads at different quantiles (0.9,
+    0.5, 0.1) and for different time horizons (1 year, 2 years, 5 years, and 10 years).
+  39: Correlation coefficients between different measures of natural disasters are
+    provided (e.g., correlation between disasters measured as a percentage of economic
+    loss to GDP and the number of deaths is 0.17). The correlation coefficients for
+    various combinations of disaster metrics are reported in the table.
+  40: Table 5 provides estimates, standard errors, z-values, and p-values for the
+    impact of various factors on sovereign debt spreads at different quantiles (0.1,
+    0.5, 0.9) and maturities (1 year, 2 years).
+  41: The table provides coefficients, standard errors, t-statistics, and p-values
+    for the impact of various determinants on sovereign yield spreads at different
+    quantiles (0.1, 0.5, 0.9) and maturities (5 and 10 years).
+  42: Table 6 presents estimates, standard errors, z-values, and p-values for 'Idiosyncratic
+    Components Results Including Natural Disasters' for different quantiles (0.9,
+    0.5, 0.1) and spread years (1, 2, and 5). The table includes specific estimates
+    for 'Natural D. 1.1', 'Natural D. 1.2', 'Natural D. 1.3', 'Natural D. 2.1', 'Natural
+    D. 2.2', 'Natural D. 2.3', 'Natural D. 3.1', 'Natural D. 3.2', and 'Natural D.
+    3.3'.
+  43: The table presents spreads (presumably percentage points) at different quantiles
+    (0.9, 0.5, 0.1) for a 10-year spread horizon. It also provides coefficients associated
+    with each component and natural disaster variable. Significant coefficients are
+    bolded and shaded. The effects are generally small and below 4 percent in absolute
+    terms, except for the notable exception for positive impacts on the 2-year spreads.
+  44: The paper analyzes the 0.9 and 0.1 quantiles of the sovereign spread distribution
+  45: Effects of natural disasters are relatively modest compared to those of vulnerability
+    and readiness to climate change indicators; Readiness indicators are most effective
+    in reducing sovereign risk at long-term maturities (5 and 10 years), but the impact
+    diminishes at shorter maturities; Increase in readiness can potentially offset
+    heightened vulnerability to climate change, particularly at the lower quantiles
+    of the spread distribution; Increments in readiness tend to be smaller than the
+    effects of vulnerability for countries with high spreads relying on short-term
+    debt
+  50: None explicitly stated in the provided text, though studies likely contain quantitative
+    analysis.
+  54: Provides summary statistics (Mean, Median, Std.Dev, Max, Min) for several macroeconomic
+    and fiscal indicators, including debt spike, real GDP per capita, credit ratings
+    (Fitch, Moody's, S&P), fiscal rule quality, and sovereign bond yield spreads.
+  55: Figure shows the frequency of missing observations per country for 1, 2, 5,
+    and 10 year maturities. The total number of years in the sample is 20.

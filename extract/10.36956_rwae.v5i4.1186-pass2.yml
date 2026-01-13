@@ -1,0 +1,124 @@
+Category:
+  13: Extracted Information
+Drivers of Risk:
+  1: Global warming (measured by CO2 emissions) is identified as a driver of food
+    insecurity. Also inflation, foreign direct investment (FDI), GDP per capita, population
+    growth, food imports, and arable land.
+  6: Global warming
+  8: Food Imports (%), FDI (US$), CO2 Emissions (Metric Tons per Capita), Arable Land
+    (Hectares), GDP per Capita (US$), Population Growth Rate (Millions)
+  10: CO2 emissions (as a proxy for global warming), income inequality, FDI inflows
+  12: Changes in Population Growth, Infant Mortality, GDP per capita, Food Import,
+    Foreign Direct Investment, CO2 Emissions per capita, and Agricultural Land
+  13: Climate change (CO2 emissions, global warming); Rainfall variability; Temperature
+    extremes; Global commodity price shifts; Climate-induced food shortages
+Highlights:
+  1: The research finds a positive long-term correlation between food insecurity and
+    climate change in West Africa.
+  6: The study aims to establish the effect of global warming on food security in
+    West African countries.
+  7: All variables show positive skewness, suggesting right-skewed distributions with
+    longer tails on the right side.
+  8: CO2 emissions, population growth, arable land, and food imports have statistically
+    significant relationships with the prevalence of malnutrition. Specifically, a
+    1% increase in CO2 emissions leads to an 18.3% increase in malnutrition. Higher
+    import levels aggravate food insecurity.
+  10: Increased CO2 emissions correlate with higher per capita GDP and higher incidence
+    of malnutrition in West Africa. Increased FDI inflows should lead to decreased
+    food insecurity in theory, but its impact on West Africa is complex. Income inequality
+    exacerbates food insecurity in West Africa.
+  12: 'Several unidirectional causal relationships were found, including: Population
+    Growth causing Prevalence of Malnutrition, Prevalence of Malnutrition causing
+    Infant Mortality, GDP per capita causing Population Growth, Population Growth
+    causing GDP per capita, CO2 Emissions per capita causing Population Growth, Population
+    Growth causing CO2 Emissions per capita, Agricultural Land causing Population
+    Growth, Population Growth causing Agricultural Land, Infant Mortality causing
+    GDP per capita, GDP per capita causing Infant Mortality, Agricultural Land causing
+    Infant Mortality, Food Import causing Foreign Direct Investment, Agricultural
+    Land causing CO2 Emissions per capita, and CO2 Emissions per capita causing Agricultural
+    Land.'
+  13: A causal link exists between food insecurity and global warming in West Africa;
+    Climate-smart agriculture program is recommended to tackle malnutrition induced
+    by climate change.
+Methodology:
+  1: The study employs Kao co-integration, FMOLS (Fully Modified Ordinary Least Squares),
+    and GLM (Generalized Linear Model) techniques to analyze secondary panel data.
+  6: Panel data analysis using Fully Modified Ordinary Least Squares (FMOLS) and Generalized
+    Linear Model (GLM) econometric techniques, covering 11 West African countries
+    from 2000 to 2020.
+  7: Descriptive statistics were used to assess data dispersion and identify potential
+    outliers. Skewness and kurtosis analysis were conducted to understand data distribution
+    characteristics. Jarque-Bera test was used to assess the normality of distributions.
+  8: Panel unit root tests, Kao co-integration test, and panel FMOLS (Fully Modified
+    Ordinary Least Squares) estimation are used to analyze the relationship between
+    malnutrition and other macroeconomic variables. The analysis is conducted on West
+    African countries.
+  10: Panel unit root tests and Kao co-integration test, GLM estimates (mentioned
+    but not detailed on this page); results apply to West Africa
+  12: 'Panel Granger causality tests were performed to examine the causal relationships
+    between the variables. Wald test and Heteroscedasticity Test: PesaranCD are also
+    implemented.'
+  13: Empirical panel data study from 2000 to 2020 using Kao co-integration, FMOLS,
+    GLM, and panel Granger causality techniques; Histogram normality test (Jarque-Bera
+    test).
+More Notes:
+  1: The study is focused on West Africa and the agricultural sector's vulnerability
+    to climate change.
+  6: Control variables include food prices, per capita GDP, population growth rate,
+    food import and arable land.
+  7: The analysis focuses on West African countries.
+  8: The study uses logarithmic transformations of variables, allowing coefficients
+    to be interpreted as elasticities. The analysis finds evidence of a long-run equilibrium
+    between the prevalence of malnutrition and the selected predictor variables.
+  10: The paper finds a significant long-term linkage between CO2 emissions and food
+    insecurity in West Africa.
+  12: The data used appears to be panel data. The Wald test indicates that each variable
+    in the model is significant. The Heteroskedasticity Pesaran CD test indicates
+    no cross-sectional dependence among the residuals, indicating the observations
+    in the panel are independent of each other. Residuals are found to be normally
+    distributed.
+  13: Study limitations include data unavailability in certain West African countries,
+    potential constraints on generalising region-specific findings, and the exclusion
+    of some socioeconomic factors; The study suggests establishing a climate-resilience
+    agricultural fund, focusing on policies of improved income, implementing a climate-resilient
+    infrastructure initiative, and prioritizing agricultural research.
+No relevant information:
+  4: No relevant information
+Outcome(s) of Interest:
+  1: Food insecurity (measured as malnutrition prevalence) is studied as an outcome.
+  6: Food insecurity (FISEC) is the dependent variable, serving as a proxy for the
+    prevalence of malnutrition.
+  7: Food prices serve as a proxy for the inflation rate in each West African country,
+    with increases indicating worsening food insecurity.
+  8: Prevalence of Malnutrition (%) is analyzed in relation to other macroeconomic
+    factors.
+  10: Food insecurity, GDP per capita
+  12: LNPREVMALNUTRI (Log of Prevalence of Malnutrition), LNPG (Log of Population
+    Growth), LNINF (Log of Infant Mortality), LNGDPPCAPITA (Log of GDP per capita),
+    LNFIMPORT (Log of Food Import), LNFDI (Log of Foreign Direct Investment), LNCO2_EMISSIONS__PER_CAP
+    (Log of CO2 Emissions per capita), LNAL (Log of Agricultural Land)
+  13: Food security; Malnutrition rates; Agricultural productivity; Regional food
+    shortages; Economic stability of West African countries
+Quantitative material:
+  1: Panel data from 2000 to 2020 is used. The study provides evidence of a positive
+    long-term correlation between food insecurity and climate change.
+  6: "LNFISEC = \u03B1 + A1LN(CLC it) + A2LN(PG it) + A3LN(INF it) + A4LN(GDPpcapita\
+    \ it) + A5LN(FDI it) + A6LN(FIMPORT it) + A7LN(AL it) + \u03F5it"
+  7: Descriptive statistics (Table 2) indicate GDP per capita showing the highest
+    variability at 905.7437.
+  8: Provides summary statistics (Mean, Median, Maximum, Minimum, Std. Dev., Skewness,
+    Kurtosis, Jarque-Bera, Probability, Sum, SumSq. Dev., Obs.) for Prevalence of
+    Malnutrition (%), Population Growth Rate (Millions), Food Imports (%), FDI (US$),
+    CO2 Emissions (Metric Tons per Capita), Arable Land (Hectares), and GDP per Capita
+    (US$). A 1% change in LNCO2_EMISSIONS will lead to an 18.3% change in the prevalence
+    of malnutrition (LNPREVMALNUTRI).
+  10: The study uses panel unit root tests (LLC, IPS, FISHER-ADF, PP-FISHER) and a
+    Kao co-integration test to analyze the relationships between variables. The Kao
+    test shows a t-statistic of -4.7260 (Prob. 0.0000). The Augmented Dickey-Fuller
+    Test Equation shows RESID(-1) coefficient of -1.564280 (t-statistic -5.9183, Prob.
+    0.0000).
+  12: F-Statistics, Probabilities (p-values) and number of Observations (Obs.) from
+    Granger causality tests.
+  13: Jarque-Bera test statistic of 1.294674 with a probability of 0.523438 (normality
+    test of error term); Statistical summary of standardized residuals (mean, median,
+    max, min, standard deviation, skewness, kurtosis)

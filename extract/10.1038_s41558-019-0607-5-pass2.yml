@@ -1,0 +1,114 @@
+Drivers of Risk:
+  2: Climate-related damages impacting global banking stability, reducing banks' balance
+    sheets, and contributing to economic instability.
+  3: Climate change impacts on labor productivity and capital stock. Financial crises
+    in the banking system exacerbating downturns. Non-performing loans due to climate-induced
+    firm bankruptcies. Temperature anomaly.
+  4: Climate damages affecting firms' solvency and workers' productivity, leading
+    to non-performing loans and financial instability.
+  5: Climate change impacts leading to labour and capital damages, financial distress,
+    temperature anomaly at 2100, banks' allowance to lend.
+  7: Anthropogenic emissions leading to temperature increases, which in turn cause
+    damages to firms' labor or capital production factors, leading to bankruptcies
+    and financial instability.
+Highlights:
+  2: Increasing banking crises frequency due to climate change, significant fiscal
+    burden from bank bailouts, underestimation of climate impacts if financial system
+    is omitted, moderate mitigation by macroprudential regulation.
+  3: Climate change negatively impacts economic growth, driven by damages to labor
+    productivity and capital stock, leading to increased bank bailouts and public
+    debt. Financial distress accounts for a significant portion of the growth reduction,
+    and macroprudential regulation plays a pivotal role in climate risk management.
+  4: Climate change can significantly impact financial stability, potentially leading
+    to substantial bailout costs (30% of GDP in SSP5 scenario) and increased public
+    debt. Banking systems can amplify damages. Climate damages affecting the microeconomic
+    behaviour of firms and workers cause a significant amount of additional non-performing
+    loans, threatening solvency of financial institutions.
+  5: Climate change leads to labour and capital damages and can induce financial distress,
+    affecting global GDP growth. Climate change can induce bank bailouts, resulting
+    in public costs (as % of GDP) which are impacted by bank lending allowances and
+    temperature anomalies at 2100.
+  7: The major modelling innovation is the inclusion of a financial system of multiple
+    heterogeneous banks. The paper isolates the effects of climate-induced financial
+    instability. It estimates the public costs of banking fragility associated with
+    climate change under a business-as-usual scenario.
+Methodology:
+  2: "Agent-based climate\u2013macroeconomic model calibrated on stylized facts, future\
+    \ scenarios, and climate impact functions; includes simulation of heterogeneous\
+    \ economic agents."
+  3: Monte Carlo simulation with 500 runs to analyze macroeconomic, financial, and
+    climate indicators under different climate impact scenarios and SSPs. The analysis
+    appears to look at long-term trends from the present to 2100.
+  4: "Model simulations (500 runs) projecting climate-induced effects on the banking\
+    \ sector and public finances under different scenarios (capital stock damages,\
+    \ labour productivity damages, and labour and capital damages). 10-year averages\
+    \ are reported. Comparison is made against a baseline with no climate change.\
+    \ Robustness tests are also done and Supplementary results are provided. The model\
+    \ accounts for climate damages on firms\u2019 solvency."
+  5: "Simulations are performed for 25-year periods from 2000 to 2099. A parameter\
+    \ space is constructed using \xB110% ranges around baseline values and randomly\
+    \ sampled 100 times. For each combination of parameter values, a Monte Carlo exercise\
+    \ of 100 runs is performed. A Gaussian kernel density plot is provided for each\
+    \ clustered 25-year period of GDP growth."
+  7: "The paper uses a Dystopian Schumpeter meeting Keynes (DSK) agent-based simulation\
+    \ model calibrated on a SSP5\u2013RCP8.5 scenario. It performs Monte Carlo analyses\
+    \ with 500 model runs to generate average results. The model is calibrated on\
+    \ a coupled SSP5\u2013Representative Concentration Pathway (RCP) 8.5 scenario.\
+    \ The model is validated through stylized fact replication at both the microeconomic\
+    \ and macroeconomic levels."
+More Notes:
+  3: The paper compares scenarios with different climate impacts (labor productivity,
+    capital stock) and SSPs to a baseline scenario without climate change. There is
+    evidence of a non-linear relationship between bailouts and GDP losses.
+  4: Counter-cyclical capital buffers may not be effective when damages surge. The
+    results might overestimate bailout costs because of a baseline with relatively
+    many crises, and also completely neglect extraordinar y support from the government
+    to absorb losses. Contractionary fiscal policy is inadequate in restoring financial
+    stability.
+  7: The model does not allow for analytical, closed-form solutions due to non-linearities.
+    The government bails out insolvent banks. Contagion effects due to interbank exposure
+    are absent, potentially leading to an underestimation of costs.
+  9: This page is a reporting summary from a Nature Research paper, focusing on statistical
+    methods, software, and data availability. It does not directly present results
+    of the analysis, but provides context for the methodology used in the associated
+    research.
+Outcome(s) of Interest:
+  2: "Climate change increases frequency of banking crises by 26\u2013248%, adds a\
+    \ fiscal burden of about 5\u201315% of GDP per year, and doubles the public debt\
+    \ to GDP ratio."
+  3: "GDP growth, firm insolvency likelihood, banks\u2019 equity-to-total asset ratio,\
+    \ public bailouts per 10 years, cost of bailouts per year (% GDP), average debt-to-GDP\
+    \ ratio."
+  4: Average number of bailouts, bailout costs as a share of GDP, public debt-to-GDP
+    ratio.
+  5: Global GDP growth rate, public costs of bank bailouts (as % of GDP).
+  7: The paper evaluates the impacts of climate change on the financial system and
+    the real economy, focusing on potential banking crises, credit crunches, and macroeconomic
+    dynamics like output losses and productivity growth. It also considers the public
+    cost of bailing out insolvent banks.
+Quantitative material:
+  2: "Estimated increase in frequency of banking crises (26\u2013248%), fiscal burden\
+    \ increase (5\u201315% of GDP per year), public debt to GDP ratio doubling."
+  3: GDP growth reduction to 2.0-2.9% from 3.5% in the baseline. Firm insolvency likelihood
+    increases to 32.4-38.8% from 15.2%. Cost of bailouts increase to 15.7-25.0% of
+    GDP from 10.3%. Debt-to-GDP ratio increases to 1.38-1.77 from 0.83. Public bailout
+    frequency increases by a factor of 1.52 to 2.43. In an SSP1 future, firm insolvency
+    increases by 33% and bailout frequency increases by 9%. In an SSP1 future, the
+    ratio of public debt to GDP averages 250% in the year 2100. 20% of growth rate
+    reduction is attributable to financial distress. Public costs of climate-induced
+    bailouts increase approximately linearly with temperature anomaly.
+  4: Yearly average bailout costs of 30% of GDP in an SSP5 future, compared to 10.3%
+    with no climate change. Historical average of 3.5 financial crises per year globally
+    with fiscal costs averaging 12% of GDP.
+  5: "Fig. 2 shows Kernel densities of yearly growth rates of global GDP pooled per\
+    \ 25\u2009yr period in the baseline scenario with no climate change and in the\
+    \ scenario with labour and capital damages. Fig. 2 also shows Box plots of yearly\
+    \ growth rates in the labour and capital damages scenario in the presence and\
+    \ absence of financial distress. Fig. 3 shows public costs of bank bailouts (as\
+    \ % of GDP) in the baseline scenario in the absence of climate change damages\
+    \ and in the scenario with both labour and capital damages, depending on banks'\
+    \ allowance to lend and temperature anomaly at 2100."
+  7: "The model uses a quadratic damage function calibrated on the DICE 2016R model,\
+    \ with c1 = 0 and c2 = 0.0022. This implies damages of 2.1% at +3\xB0C and 8.5%\
+    \ at +6\xB0C. It also assumes a temperature rise of 1.8\xB0C for each emitted\
+    \ 1,000 GtC."

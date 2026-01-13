@@ -1,0 +1,101 @@
+Drivers of Risk:
+  4: Climate change (CO2 level, average annual temperature, rainfall), Primary energy
+    consumption per capita, Total fertilizers by nutrients
+  7: Carbon dioxide (CO2) levels, average annual temperature, rainfall, primary energy
+    consumption per capita, total fertilizers by nutrients used in agricultural sector
+    (X).
+  8: "CO2 emissions (metric tons per capita), Temperature (\xB0C), Average annual\
+    \ rainfall (mm per year), Primary energy consumption (gigajoules per capita),\
+    \ Total fertilizers by nutrients used in agricultural sector (tones)."
+  10: Not explicitly stated on this page, but the analysis investigates cointegration
+    between lnAGR and other (unstated) variables, suggesting that changes in these
+    other variables drive changes in agricultural output.
+  11: CO2 emission level, Temperature, Rainfall
+  12: CO2 emissions (lnCO2), Temperature (lnTEMP), Rainfall (lnRF), Energy consumption
+    (lnEC), Fertilizer expenditure (lnFE).
+Highlights:
+  4: Examines consequences of climate change on agricultural productivity under short-term
+    and long-term distinction, especially for certain Asian countries.
+  9: Results indicate mixed evidence of non-stationarity at levels, but all variables
+    are stationary at first differences, i.e., integrated of order one, or I(1).
+  10: The evidence suggests that there is a long-run relationship (cointegration)
+    between lnAGR and the other variables used in the model.
+  11: CO2 emissions and temperature have a significant negative impact on agricultural
+    productivity in the long run, while rainfall has a positive impact.
+  12: In the long run, increases in CO2 emissions and temperature are negatively associated
+    with agricultural productivity, while increases in rainfall, energy consumption,
+    and fertilizer expenditure are positively associated with agricultural productivity
+    (based on the PMG results). In the short run, the impacts of CO2 emissions and
+    energy consumption on agricultural productivity have significant effects, with
+    opposite signs compared to the long-run effects.
+Methodology:
+  4: Advanced panel data techniques include three different tests, namely, mean group
+    (MG), pooled mean group (PMG), and dynamic fixed effect (DFE) estimators; Focusing
+    on the short and long-run effect of three climate variables as CO2 level, average
+    annual temperature and rainfall on agricultural productivity in Asian countries.
+  7: Autoregressive distributed lag (ARDL) model estimation using mean group (MG),
+    pooled mean group (PMG), and dynamic fixed effect (DFE) estimators; Hausman h-test
+    to determine the most efficient model.
+  8: Panel ARDL estimators are used to estimate short-run and long-run relationships
+    between agricultural productivity and climate change variables. Unit root tests
+    are conducted to verify the stationarity of the variables, ensuring they are not
+    I(2) to avoid spurious results. All variables are transformed into natural logarithmic
+    forms to alleviate multicollinearity.
+  9: The analysis involves testing for non-stationarity using panel unit root tests
+    (Im, Pesaran and Shin; Levin Lin and Chu) and investigating potential long-run
+    relationships using Pedroni's panel residual cointegration technique.
+  10: Panel cointegration tests (Pedroni and Kao) are used to investigate the long-run
+    relationship between lnAGR and other variables, allowing for cross-sectional dependence
+    and heterogeneity. The analysis uses automatic lag length selection based on SIC
+    with a max lag of 9. Significance is indicated at the 1% level.
+  11: Panel econometric analysis using Pooled Mean Group (PMG), Mean Group (MG), and
+    Dynamic Fixed Effects (DFE) estimators. Hausman tests were used to determine the
+    most appropriate estimator. Results are applicable in the long run.
+  12: The analysis uses panel data econometrics to model the dynamic relationship
+    between agricultural productivity and climate-related variables. Three different
+    estimators (PMG, MG, and DFE) are employed. The Hausman test is used to compare
+    the consistency and efficiency of the estimators. The results are applicable to
+    the specific countries and time period included in the dataset (Country=11, Observation=396).
+More Notes:
+  4: The study focuses on selected Asian countries.
+  7: The MG model allows all coefficients to vary and be heterogeneous. The PMG model
+    allows short-run coefficients to be heterogeneous but constrains long-run estimates.
+    The DFE model assumes all slope coefficients are homogeneous.
+  10: The specific variables other than lnAGR included in the model are not listed
+    on this page. The analysis considers both models with and without a deterministic
+    trend. The authors state that Panel-ADF and Group-ADF statistics are more reliable
+    in a constant plus trend specification.
+  12: "The table includes statistical significance indicators (*, **, ***) at the\
+    \ 10%, 5%, and 1% levels, respectively. The short-run coefficients are for the\
+    \ change (\u2206) in the logged variables. The signs and significance of coefficients\
+    \ vary across the different estimators."
+No relevant information:
+  16: No relevant information
+  17: No relevant information
+Outcome(s) of Interest:
+  4: Agricultural productivity
+  7: Real agricultural value added in agriculture, forestry and fishing (y).
+  8: Agricultural productivity, measured as agriculture, forestry and fishing value
+    added per unit of input (constant US$).
+  10: lnAGR (log of agricultural output) is the dependent variable, implying a focus
+    on agricultural productivity.
+  11: Agricultural productivity
+  12: Agricultural productivity.
+Quantitative material:
+  4: No quantitative information on the outcomes of interest on this page
+  8: Panel data set of 11 Asian countries (China, India, Indonesia, Japan, Malaysia,
+    Pakistan, Philippines, South Korea, Sri Lanka, Thailand and Vietnam) over the
+    period 1980-2016 (407 observations).
+  9: Table 1 shows results of unit root tests with variables largely becoming stationary
+    at first difference.
+  10: Table 2 presents Pedroni residual cointegration test statistics and Table 3
+    presents Kao residual cointegration test statistics, including t-statistics and
+    p-values. For example, the Kao ADF t-statistic is -2.464727 with a p-value of
+    0.0069.
+  11: A 1% increase in CO2 emission level would lead to a reduction in agricultural
+    productivity by 1.94%; A 1% increase in temperature would cause to lower productivity
+    by 2.28%; A 1% increase in rainfall increases productivity by 0.95%.
+  12: Table 4 presents coefficients, standard errors, and significance levels for
+    long-run and short-run relationships between agricultural productivity and the
+    drivers of risk, estimated using Pooled Mean Group (PMG), Mean Group (MG), and
+    Dynamic Fixed Effects (DFE) models.

@@ -1,0 +1,53 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Food Prices,118 Countries,Dry Spells,2016,No drought,Percentage Points,-0.1,NA,NA,NA,NA,NA,Page 17,Each additional dry spell day beyond 28 days during the hottest part of the year is associated with approximately 0.1 percentage point lower growth in the FAO CPI. The effects are best interpreted as direct effects of dry spells.
+1,FAO CPI growth,118 Countries,Historical,2016,No dry spell,correlation,-0.045,NA,2.5%,-0.087,97.5%,-0.004,p. 34,Correlation between dry spell exposure and crop production growth
+2,FAO CPI growth,118 Countries,Drought,2016,No dry spell,correlation,-0.058,NA,2.5%,-0.108,97.5%,-0.012,p. 34,Correlation between dry spell exposure and crop production growth under drought
+3,FAO CPI growth,118 Countries,No Drought,2016,No dry spell,correlation,-0.021,NA,2.5%,-0.093,97.5%,0.045,p. 34,"Correlation between dry spell exposure and crop production growth, no drought"
+4,FAO CPI growth,118 Countries,More Arid,2016,No dry spell,correlation,-0.055,NA,2.5%,-0.109,97.5%,-0.005,p. 34,"Correlation between dry spell exposure and crop production growth, more arid"
+5,FAO CPI growth,118 Countries,Less Arid,2016,No dry spell,correlation,-0.009,NA,2.5%,-0.042,97.5%,0.018,p. 34,"Correlation between dry spell exposure and crop production growth, less arid"
+6,FAO CPI Growth Rate,118 Countries,Historical,2016,No Dry Spell,Growth Rate,0.0003,0.0004,NA,NA,NA,NA,36,Additional day in 7+ day dry spell.
+7,FAO CPI Growth Rate,118 Countries,Historical,2016,No Dry Spell,Growth Rate,0.0005,0.0004,NA,NA,NA,NA,36,Additional day in 14+ day dry spell.
+8,FAO CPI Growth Rate,118 Countries,Historical,2016,No Dry Spell,Growth Rate,-0.0009,0.0005,NA,NA,NA,NA,36,Additional day in 21+ day dry spell. p<0.1.
+9,FAO CPI Growth Rate,118 Countries,Historical,2016,No Dry Spell,Growth Rate,-0.0012,0.0005,NA,NA,NA,NA,36,Additional day in 28+ day dry spell. p<0.05
+10,FAO CPI Growth Rate,118 Countries,Historical,2016,No Dry Spell,Growth Rate,-0.0013,0.0005,NA,NA,NA,NA,36,Additional day in 35+ day dry spell. p<0.05
+11,FAO CPI Growth Rate,118 Countries,Historical,2016,No Heatwave,Growth Rate,-0.0386,0.0074,NA,NA,NA,NA,36,Additional day in 9+ day heatwave. p<0.01.
+12,FAO CPI Growth Rate,118 Countries,Historical,2016,No Drought,Growth Rate,0.0085,0.0034,NA,NA,NA,NA,36,Additional SPEI. p<0.05
+13,FAO CPI Growth Rate,118 Countries,Historical,2016,No Drought,Growth Rate,0.0088,0.0035,NA,NA,NA,NA,36,Additional SPEI. p<0.1
+14,FAO CPI Growth Rate,118 Countries,Aridity < 0.65,2016,No CC,,0.0005,0.0006,NA,NA,NA,NA,38,Estimated effect of an additional dry spell day.
+15,FAO CPI Growth Rate,118 Countries,Aridity > 0.65,2016,No CC,,-0.0013,0.0005,NA,NA,NA,NA,38,Estimated effect of an additional dry spell day. Statistically significant at p<0.05
+16,FAO CPI Growth Rate,118 Countries,SPEI < 0,2016,No CC,,-0.0005,0.0006,NA,NA,NA,NA,38,Estimated effect of an additional dry spell day.
+17,FAO CPI Growth Rate,118 Countries,SPEI > 0,2016,No CC,,-0.0016,0.0005,NA,NA,NA,NA,38,Estimated effect of an additional dry spell day. Statistically significant at p<0.01
+18,FAO CPI Growth Rate,118 Countries,Irrigation < Median,2016,No CC,,-0.0006,0.0008,NA,NA,NA,NA,38,Estimated effect of an additional dry spell day. Statistically significant at p<0.1
+19,FAO CPI Growth Rate,118 Countries,Irrigation > Median,2016,No CC,,-0.0009,0.0006,NA,NA,NA,NA,38,Estimated effect of an additional dry spell day. Statistically significant at p<0.1
+20,Cereal Yield Growth Rate,118 Countries,Irrigation < Median,2016,No CC,,-0.0062,0.0034,NA,NA,NA,NA,38,Estimated effect of an additional dry spell day. Statistically significant at p<0.1
+21,Cereal Yield Growth Rate,118 Countries,Irrigation > Median,2016,No CC,,0.0040,0.0036,NA,NA,NA,NA,38,Estimated effect of an additional dry spell day.
+22,Cereal Yield Growth Rate,118 Countries,Irrigation < Median,2016,No CC,,-0.0064,0.0033,NA,NA,NA,NA,38,Estimated effect of an additional dry spell day. Statistically significant at p<0.1
+23,Cereal Yield Growth Rate,118 Countries,Irrigation > Median,2016,No CC,,0.0036,0.0034,NA,NA,NA,NA,38,Estimated effect of an additional dry spell day.
+24,Crop Production,Global (ex SSA),Dry/Heat Durations,1979,No Dry Spell,percentage points per day,-0.0012,0.0005,NA,NA,NA,NA,41,"Dry spell min 28d, heat min 3d, p<0.05"
+25,Crop Production,Global (ex SSA),Dry/Heat Durations,1979,No Dry Spell,percentage points per day,-0.0012,0.0005,NA,NA,NA,NA,41,"Dry spell min 35d, heat min 3d, p<0.05"
+26,Crop Production,Global (ex SSA),Dry/Heat Durations,1979,No Dry Spell,percentage points per day,-0.0008,0.0005,NA,NA,NA,NA,41,"Dry spell min 21d, heat min 6d, p<0.1"
+27,Crop Production,Global (ex SSA),Dry/Heat Durations,1979,No Dry Spell,percentage points per day,-0.0011,0.0005,NA,NA,NA,NA,41,"Dry spell min 28d, heat min 6d, p<0.05"
+28,Crop Production,Global (ex SSA),Dry/Heat Durations,1979,No Dry Spell,percentage points per day,-0.0012,0.0005,NA,NA,NA,NA,41,"Dry spell min 35d, heat min 6d, p<0.05"
+29,Crop Production,Global (ex SSA),Dry/Heat Durations,1979,No Dry Spell,percentage points per day,-0.0009,0.0005,NA,NA,NA,NA,41,"Dry spell min 21d, heat min 9d, p<0.1"
+30,Crop Production,Global (ex SSA),Dry/Heat Durations,1979,No Dry Spell,percentage points per day,-0.0012,0.0005,NA,NA,NA,NA,41,"Dry spell min 28d, heat min 9d, p<0.05"
+31,Crop Production,Global (ex SSA),Dry/Heat Durations,1979,No Dry Spell,percentage points per day,-0.0013,0.0005,NA,NA,NA,NA,41,"Dry spell min 35d, heat min 9d, p<0.05"
+32,Crop Production,Global (ex SSA),Dry/Heat Durations,1979,No Dry Spell,percentage points per day,-0.0009,0.0005,NA,NA,NA,NA,41,"Dry spell min 21d, heat min 12d, p<0.1"
+33,Crop Production,Global (ex SSA),Dry/Heat Durations,1979,No Dry Spell,percentage points per day,-0.0012,0.0005,NA,NA,NA,NA,41,"Dry spell min 28d, heat min 12d, p<0.05"
+34,Crop Production,Global (ex SSA),Dry/Heat Durations,1979,No Dry Spell,percentage points per day,-0.0013,0.0005,NA,NA,NA,NA,41,"Dry spell min 35d, heat min 12d, p<0.01"
+35,Crop production growth,118 countries,Historical,1979,No dry spell,%,-0.0012,0.0005,NA,NA,NA,NA,41,"Effect of current year dry spell day, significant at p<0.05"
+36,Crop production growth,118 countries,Historical,1980,No dry spell (1-year lag),%,0.0011,0.0006,NA,NA,NA,NA,41,"Effect of 1-year lag dry spell day, significant at p<0.05"
+37,Crop production growth,118 countries,Historical,1981,No dry spell (1-year lag),%,0.0010,0.0006,NA,NA,NA,NA,41,"Effect of 1-year lag dry spell day in column (2), significant at p<0.1"
+38,Crop production growth,118 countries,Historical,1982,No dry spell (2-year lag),%,-0.0004,0.0005,NA,NA,NA,NA,41,Effect of 2-year lag dry spell day
+39,Crop production growth,118 countries,Historical,1983,No dry spell (3-year lag),%,-0.0002,0.0004,NA,NA,NA,NA,41,Effect of 3-year lag dry spell day in column(3)
+40,Crop production growth,118 countries,Historical,1984,No dry spell (4-year lag),%,0.0003,0.0004,NA,NA,NA,NA,41,Effect of 4-year lag dry spell day
+41,Crop production growth,118 countries,Historical,1985,No dry spell (5-year lag),%,-0.0002,0.0005,NA,NA,NA,NA,41,Effect of 5-year lag dry spell day
+42,Crop production growth,118 countries excl SSA,Historical Climate,2016,No dry spell day,growth rate,-0.0010,0.0005,NA,NA,NA,NA,46,"Split-sample, below median aridity (Aridity Index ≤ 0.997),  p<0.05, Total effect of an additional dry spell day."
+43,Crop production growth,118 countries excl SSA,Historical Climate,2016,No dry spell day,growth rate,0.0002,0.0008,NA,NA,NA,NA,46,"Split-sample, above median aridity (Aridity Index > 0.997),  p>0.1, Total effect of an additional dry spell day."
+44,Crop production growth,118 countries excl SSA,Historical Climate,2016,No dry spell day,growth rate,-0.0017,0.0005,NA,NA,NA,NA,46,"Split-sample, SPEI ≤ 0,  p<0.01, Total effect of an additional dry spell day."
+45,Crop production growth,118 countries excl SSA,Historical Climate,2016,No dry spell day,growth rate,0.000001,0.0012,NA,NA,NA,NA,46,"Split-sample, SPEI > 0,  p>0.1, Total effect of an additional dry spell day."
+46,Crop production growth,118 countries excl SSA,Historical Climate,2016,No dry spell day,growth rate,-0.0012,0.0005,NA,NA,NA,NA,46,"Interaction terms, below median aridity (Aridity Index ≤ 0.997), p<0.05, Total effect of an additional dry spell day."
+47,Crop production growth,118 countries excl SSA,Historical Climate,2016,No dry spell day,growth rate,0.0003,0.0007,NA,NA,NA,NA,46,"Interaction terms, above median aridity (Aridity Index > 0.997), p>0.1, Total effect of an additional dry spell day."
+48,Crop production growth,118 countries excl SSA,Historical Climate,2016,No dry spell day,growth rate,-0.0014,0.0005,NA,NA,NA,NA,46,"Interaction terms, SPEI ≤ 0, p<0.01, Total effect of an additional dry spell day."
+49,Crop production growth,118 countries excl SSA,Historical Climate,2016,No dry spell day,growth rate,-0.0008,0.0005,NA,NA,NA,NA,46,"Interaction terms, SPEI > 0, p>0.1, Total effect of an additional dry spell day."
+50,Crop production growth,118 countries excl SSA,Historical Climate,2016,No dry spell day,growth rate,-0.0017,0.0005,NA,NA,NA,NA,See main review notes,"Alternative estimate from the main review, SPEI ≤ 0,  p<0.01, Total effect of an additional dry spell day."
+51,Crop production growth,118 countries excl SSA,Historical Climate,2016,No dry spell day,growth rate,-0.0014,0.0005,NA,NA,NA,NA,See main review notes,"Alternative estimate from the main review, SPEI ≤ 0, p<0.01, Total effect of an additional dry spell day."

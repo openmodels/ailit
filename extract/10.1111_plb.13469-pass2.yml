@@ -1,0 +1,40 @@
+Drivers of Risk:
+  1: Droughts, specifically climate change-type droughts (longer, warmer, and more
+    frequent), and previous-year soil moisture anomaly.
+  4: Decreasing trends in soil moisture anomaly are significant in plots for Norway
+    spruce, European larch, and minor tree species. Millennial drought events in 2003
+    and 2018 are associated with mortality peaks in 2005 and 2019 for several conifer
+    species.
+Highlights:
+  1: "Overall and species-speci\uFB01c increasing trends in mortality rates, accompanied\
+    \ by decreasing soil moisture. Previous-year soil moisture anomaly identified\
+    \ as the most important driver of mortality patterns in conifers. Mortality patterns\
+    \ in European forests are currently reaching a concerning upward trend which could\
+    \ be further accelerated by global change-type droughts in the near future."
+  4: Linearly increasing trends in annual mortality rates were significant for several
+    tree species. Conifers showed characteristic mortality peaks after drought events.
+Methodology:
+  1: Use of the ICP Forest crown defoliation dataset to retrospectively monitor tree
+    mortality for all major conifers, major broadleaves, as well as a pooled dataset
+    of minor tree species in Europe. Employed a high-resolution drought index which
+    can assess soil moisture anomaly based on a hydrological water-balance and runoff
+    model. Generalized linear mixed model.
+  4: The analysis used the R package brms (version 2.16.3) based on the probabilistic
+    programming language Stan. Models were run with four MCMC chains and compared
+    using approximate leave-one-out cross validation.
+More Notes:
+  1: The study emphasizes the need for forest monitoring to guide future forest management
+    plans due to the potential for climate change-type droughts to affect the entire
+    continent, not just specific regions.
+  4: The study investigates the temporal dynamics and trends in annual mortality rate
+    and soil moisture anomaly by species, providing a comparison of these trends using
+    line graphs from 1990 to 2020.
+Outcome(s) of Interest:
+  1: European forests are an important source for timber production, human welfare,
+    income, protection and biodiversity.
+  4: No relevant information
+Quantitative material:
+  1: Analysed more than three million observations gathered during the last 25 years.
+  4: Linearly increasing trends in annual mortality rates were significant for Norway
+    spruce, oak, European beech, Scots pine, European larch, as well as for the remaining
+    minor tree species (P < 0.05).

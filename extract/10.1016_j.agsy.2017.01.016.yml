@@ -1,0 +1,263 @@
+Drivers of Risk:
+  2: Climate change uncertainty, payment rate uncertainty (policy uncertainty).
+  3: Climate change (increased weather variability, heat waves, dry spells, prolonged
+    growing season); Policy uncertainty (farm subsidies)
+  7: Climate change and related uncertainty, alongside policy-related uncertainty,
+    are impacting agricultural sector characteristics.
+  8: Sub-optimal temperatures, water deficit, nitrogen deficit, climate change (implicitly
+    through impact on temperature, water, nitrogen), input and output prices, subsidies
+  11: Climate and policy uncertainty affecting crop yields, agricultural production,
+    land use, and social welfare.
+  12: Impact of climate and policy uncertainty on the agricultural sector, specifically
+    through changes in crop yield due to climate projections and policy payment rates.
+  13: Climate uncertainty (represented by different GCMs and the SRES A1B emission
+    scenario) impacting crop yields.
+  14: Changes in minimum and maximum air temperature, precipitation, global solar
+    radiation and evapotranspiration, CO2 concentration
+  15: Projected future climate conditions impacting grass and spring wheat yields
+  16: Climate change impacts on timothy grass and cereal yields, stochastic levels
+    of direct payments (budget support to agriculture).
+  17: Projected climate conditions (specifically using GCM GISS-AOM and HADCM3), changes
+    in crop yields (timothy grass and spring wheat).
+  19: Climate uncertainty and policy uncertainty impact production levels.
+  21: Climate uncertainty, policy uncertainty.
+  22: Climate uncertainty, policy uncertainty
+  23: Climate uncertainty (affecting yields), policy uncertainty (affecting payment
+    rates)
+  24: Uncertainty in world market prices and domestic producer prices due to market
+    regulations.
+  26: Climate and policy uncertainty impacting the farming sector in Norway.
+  27: No relevant information
+  31: Climate change (temperature, precipitation changes); SRES emissions scenarios;
+    soil extrapolation.
+  35: Technical progress, Nominal world market prices
+  39: Climate uncertainty (C) and policy uncertainty (P).
+  40: Climate uncertainty (C) and policy uncertainty (P) related to climate change.
+Highlights:
+  2: Climate change can lead to lower cereal production, unchanged grass production,
+    and higher farm incomes on average. Combining climate change and policy uncertainty
+    increased mean farm income compared to only one source of uncertainty, but negatively
+    affected land use and farm labour. Ignoring either climate change or policy uncertainty
+    can lead to errors in agricultural production, land use, and welfare studies.
+  3: Climate change poses risks to agriculture through increased weather variability,
+    but also offers potential benefits like prolonged growing seasons. Policy uncertainty
+    related to farm subsidies is also a significant risk factor for farmers. The paper
+    focuses on these risks as they relate to farm profits and welfare.
+  8: The models simulate the impact of climate-related factors (temperature, water,
+    nitrogen) on agricultural outputs and farm income. Jordmod models the Norwegian
+    agricultural sector with optimization models for farms that maximize farm income
+    subject to various constraints.
+  13: No relevant information
+  14: Four GCMs were selected because they resulted in timothy grass yields covering
+    the range of yields simulated by 15 GCMs under the A1B greenhouse gas emission
+    scenario.
+  15: Climate change will impact grass and spring wheat yields, and there is a current
+    yield gap between simulated and actual yields in Norway that is accounted for
+    in the modelling
+  16: Climate change is projected to lead to an 11% increase in mean cereal yields
+    by 2050 in the economic model. Policy uncertainty related to direct payments to
+    agriculture is considered.
+  17: Simulated timothy grass yield and spring wheat grain yield were significantly
+    higher under the 2046-2065 climate projections than under the baseline 1961-1990
+    climate scenarios, except for timothy grass yield under GISS-AOM.
+  19: Animal production is less affected by climate and policy uncertainty than crop
+    production; milk quotas mitigate production changes despite payment or yield fluctuations.
+  21: Climate and policy uncertainty can significantly reduce agricultural area under
+    unfavorable conditions. Policy uncertainty makes land rents much more volatile
+    compared to climate uncertainty alone.
+  22: Climate uncertainty and policy uncertainty both increase average agricultural
+    income, but climate uncertainty leads to higher income volatility. Social welfare
+    at the sector level is quite stable across scenarios.
+  23: Climate uncertainty has significant effects on production, land use and farm
+    income; climate change may increase average farm income but also increases its
+    variance, potentially requiring policies to stabilize farm income.
+  24: Uncertainty in policy might become dominant if larger standard deviations are
+    assumed; positive effects of climate change on agricultural yields noted in northern
+    Europe.
+  26: Higher sensitivity to climate and policy uncertainty for producers suggests
+    adaptation could benefit this group more than consumers.
+  27: No relevant information
+  31: Uncertainties in projected climate change impacts on European agriculture and
+    ecosystems; effects of climate change on global food production.
+  39: The table shows the decomposition of animal production under different scenarios
+    of uncertainty (Climate, Policy, and both). There are some differences in the
+    means and especially the standard deviations of animal production depending on
+    the scenario considered.
+  40: Both climate and policy uncertainty can significantly affect agricultural area
+    and labour use. The standard deviation is higher under Climate & Policy uncertainty
+    than under either uncertainty alone for agricultural area.
+  41: The profitability of land and milk quotas vary under different uncertainties;
+    maximum, minimum, and mean values are given for these scenarios.
+Methodology:
+  2: Stochastic version of Jordmod (price-endogenous spatial economic sector model
+    of Norwegian agriculture) used with crop yield simulations from CSM-CERES-Wheat
+    and LINGRA under IPCC A1B emission scenario for 2050 using four Global Climate
+    Models (GCM). Uncertainty in payment rates are based on changes in past agricultural
+    support levels. Compared three uncertainty scenarios with a deterministic scenario.
+  3: The paper uses modelling, including LINGRA, CSM-CERES-Wheat, and DSSAT models,
+    to assess the effects of climate change on agriculture in Norway.
+  7: CSM-CERES-wheat and LINGRA models simulate growth and yield of wheat and timothy
+    grass based on weather, soil, and crop management practices.
+  8: Crop models (LINGRA, CSM-CERES-Wheat) simulate crop growth based on weather and
+    soil data; Jordmod is a price-endogenous, spatial, comparative-static, partial
+    equilibrium model for the agricultural sector that includes farm optimization
+    models which maximize farm income.
+  11: The analysis uses a modelling framework with contrasting scenarios concerning
+    climate and policy uncertainty, utilizing models like Jordmod, LINGRA, and CSM-CERES-wheat.
+  12: The analysis uses scenario development with model runs to explore different
+    effects of climate and policy uncertainties by varying parameters; five model
+    runs are used for each scenario to span out distribution of social welfare.
+  13: Crop simulations (wheat and timothy grass) using CSM-CERES-wheat and LINGRA
+    models, driven by historical and projected climate data from different GCMs under
+    the A1B emission scenario. The LARS-WG tool was used to generate daily weather
+    data. The analysis is applicable to South-Eastern Norway (spring wheat) and various
+    locations in Norway (timothy grass).
+  14: The LINGRA and CSM CERES-wheat models were run for 100 years of independent
+    and stochastic daily weather data generated from four GCMs to simulate crop yields.
+    The choice of GCMs was made to cover the range of yield uncertainty under the
+    A1B scenario.
+  15: LINGRA simulation model used to simulate grass and spring wheat yields under
+    historical and projected climate conditions; Yields calibrated to fit Jordmod
+    model; Harvesting schedule designed for dairy cow milk production; relative yield
+    changes for future climate projections based on current yield gaps.
+  16: Simulation of timothy grass yields for different locations, adjustment of original
+    yield functions in Jordmod for wheat, rye, barley and oat based on simulated wheat
+    yields under climate change scenarios. Stochastic direct payments based on past
+    budget support development. Comparing scenario outcomes with a "certainty" model
+    run with mean yields and mean payment rates.
+  17: Crop simulation under projected climate conditions (2046-2065 climate scenarios
+    compared to 1961-1990 baseline), but applied to an economic model (Jordmod) with
+    a shorter timeframe (year 2030) due to uncertainty in exogenous parameters. Technical
+    progress is modeled as annual reduction in input costs independent of yields.
+  21: Comparison of different scenarios (fixed average climate and policy, climate
+    uncertainty, policy uncertainty, combined climate and policy uncertainty) to evaluate
+    impact of uncertainty on agricultural outcomes.
+  23: Scenario analysis varying policy and climate within defined ranges to assess
+    effects on the agricultural sector.
+  24: Analysis based on scenarios assuming unchanged border protection and exploring
+    climate projections with differing future conditions.
+  26: Cascade approach using crop model outputs as inputs for an economic model.
+  27: No relevant information
+  31: Climate modeling; agricultural simulation; scenario analysis (SRES emissions).
+  35: The analysis uses exogenous variables such as Inflation, Population growth,
+    Technical progress, Real interest rate and Nominal world market prices.
+  38: Uses simulation model, Jordmod, for estimating animal production under various
+    uncertainty scenarios.
+  39: Simulation with Jordmod.
+  40: The analysis is performed using a model called 'Jordmod' to simulate agricultural
+    input use. It looks at a range of possibilities from max to min outcomes.
+More Notes:
+  2: The study focuses on Norwegian agriculture. It simulates climate impacts for
+    2050 under a specific emission scenario (A1B).
+  3: The study seems to focus on the agricultural sector in Norway, which is only
+    a component of the overall economy. The introduction primarily discusses the impact
+    of climate change on crop yields and farm income, and the potential effect of
+    policy on these.
+  8: The text focuses on the agricultural sector and the models used to analyze it.
+    It does not directly mention GDP, budget balance, or other broad macroeconomic
+    or fiscal outcomes. The page focuses primarily on microeconomic modelling in the
+    agriculture sector.
+  11: Each scenario uses a combination of various model simulations to create a pseudo-stochastic
+    distribution of social welfare outcomes.
+  13: This page focuses on the impact of climate change on agricultural yields (wheat
+    and timothy grass) in Norway, which could be an input into a larger macroeconomic
+    model but by itself doesn't present anything relevant to national-level costs/benefits
+    or macroeconomic/macro-fiscal outcomes.
+  14: The analysis focuses on the impact of climate variables on crop yields, specifically
+    timothy grass and spring wheat, in northern Europe, particularly southeastern
+    Norway.
+  15: The paper seems to be describing a crop yield simulation model that feeds into
+    an economic model (Jordmod). The relevant outcome would be the simulated crop
+    yield changes due to climate change.
+  16: The economic model used is Jordmod, which is comparative-static and has no explicit
+    time dimension.
+  21: The study focuses on the agricultural sector in Norway. Agricultural area in
+    Norway is scarce, limiting the potential for expansion even under favorable conditions.
+  22: The analysis focuses on the agricultural sector, specifically cereal and dairy
+    farmers, and how climate and policy uncertainty affect their incomes and production
+    patterns. A decrease in cereal production can increase the mean agricultural income
+    due to the lower income of cereal farmers compared to dairy farmers.
+  23: The study focuses on the agricultural sector in Norway. Well-functioning trade
+    and international markets mitigate the effect of uncertainty on consumers.
+  26: Nitrogen intensity is a potential feedback mechanism; shift from cereal to forage
+    production as a climate adaptation strategy.
+  27: No relevant information
+  31: The page primarily focuses on agricultural impacts of climate change, which
+    can have macroeconomic and fiscal consequences through trade, food security, and
+    agricultural subsidies.
+  35: Technical progress is an own assumption, while other exogenous variables are
+    obtained from Statistics Norway (2010) and OECD and FAO (2011).
+  39: The table focuses on animal production, which is a sector-specific outcome,
+    and not on overall macroeconomic or macro-fiscal variables. The model is "Jordmod".
+  40: The page focuses on agricultural input use, which is only indirectly relevant
+    to macroeconomic or fiscal outcomes. The source of calculations is noted as 'Own
+    calculations'.
+Outcome(s) of Interest:
+  2: Farm incomes, cereal production, grass production, crop yield volatility, land
+    use, farm labour.
+  3: Farm profits and welfare; crop yields
+  8: Farm income, crop yields (wheat, rye, barley, oats), milk yields
+  13: No relevant information
+  14: timothy grass yield in northern Europe; spring wheat yield
+  15: No relevant information
+  16: Implied an 11 per cent increase in the mean yields for cereals in 2050 in the
+    economic model compared to the base year.
+  19: Climate and policy uncertainty affect production levels differently across animal
+    and crop production.
+  21: Agricultural area, cereal production, grass production, person-years in agriculture,
+    land rents, rents on milk quotas, profitability in farming.
+  22: Agricultural income per person-year, social welfare (sector level), land rents,
+    quota rents
+  23: Farm income, land use, domestic production, imports, consumer surplus
+  26: Potential economic costs and benefits associated with adaptation measures in
+    Norwegian agriculture, specifically shifting production types.
+  27: No relevant information
+  31: Effects of climate change on global food production; impact on simulated spring
+    wheat grain yield.
+  35: Inflation, Population growth, Real interest rate, Nominal world market prices
+  39: Animal production (beef, sheep, pork, and poultry) in 1000 t.
+  40: Agricultural area (1 000 ha) and Labour use (1 000 person-years)
+Quantitative material:
+  2: Climate change resulted in on average 9 % lower cereal production, unchanged
+    grass production and more volatile crop yield as well as 4 % higher farm incomes
+    on average compared to the deterministic scenario.
+  3: No quantitative information on macroeconomic or macro-fiscal outcomes on this
+    page.
+  8: Non-linear relationships between nitrogen fertilizer inputs and cereal/grass
+    yields, and between feed quantity and milk yields
+  13: No relevant information
+  14: CO2 levels set to 380 ppm for 1961-1990 and 532 ppm for 2046-2065
+  15: "Yield gap of 36 \u2013 58 per cent depending on the region between simulated\
+    \ grass yields and reported grass yield from statistical Norway (1961-1990 climate);\
+    \ Yield gap of 40 \u2013 50 (30 \u2013 40) per cent for rainfed barley in Denmark\
+    \ and Germany, respectively."
+  16: "11% increase in mean cereal yields in 2050; \xB1 4.3 per cent around the mean\
+    \ for budget support deviation."
+  21: Maximum land rent (6 324 Nkr per ha), minimum land rent (1 811 Nkr per ha).
+  22: Climate uncertainty and policy uncertainty increased the mean income to a similar
+    extent, but volatility was higher under climate uncertainty. When both sources
+    of uncertainty were combined, the highest income was about 25 per cent higher
+    than the lowest income, but this difference fell to about 15 (8) per cent when
+    climate (policy) uncertainty was concerned. In all three scenarios, the highest
+    value of social welfare was at most 3 per cent higher than the lowest value. The
+    maximum value of quota rents in the C&P scenario was only 20 per cent higher than
+    the minimum value.
+  23: Climate change projections led to higher simulated yields and higher simulated
+    income for the average farmer.
+  27: No relevant information
+  31: Projected mid-21st century climate impact on spring wheat yield; global food
+    production changes under different scenarios.
+  35: "Inflation: 2.25% per annum; Population growth: 1.01% per annum; Technical progress:\
+    \ 0.25% (1.0 %) input savings per annum at farm level (food industry level); Real\
+    \ interest rate: 1.75 % per annum; Nominal world market prices: 1.0 \u2013 5.0\
+    \ % per annum"
+  38: Table presents simulated animal production data for milk and meat under different
+    conditions (certainty, climate uncertainty, policy uncertainty, and both uncertainties).
+  39: Mean, min, max and standard deviation of beef, sheep, pork and poultry production
+    under different scenarios (Certainty, C, P, and C&P).
+  40: 'Simulations showing the minimum, maximum, mean and standard deviation of agricultural
+    area and labour use under different scenarios: Certainty, Climate uncertainty,
+    Policy uncertainty, and a combination of Climate and Policy uncertainty.'
+  41: 'The table includes numerical data on land rents and milk quota rents under
+    different scenarios: certainty, climate uncertainty, policy uncertainty, and a
+    combination of both.'

@@ -1,0 +1,131 @@
+Drivers of Risk:
+  2: Climate risk (as measured by a climate risk index).
+  6: Climate risk index.
+  7: Corruption Perceptions Index (CPI), Political Stability Index (PSI), Financial
+    Freedom Index (FFI); Implicitly, climate risks are considered drivers of risk
+    as the paper attempts to assess their impact on the economy.
+  8: Extreme weather events (storms, floods, and heat waves) as captured by the Climate
+    Risk Index (CRI), which includes direct economic losses as a share of GDP and
+    the number of deaths.
+  9: Climate Risk Index (CRI).
+  10: Climate risk (implicitly included as one of the explanatory factors in the competitiveness
+    analysis), macroeconomic factors such as economic growth, inflation rate, control
+    of corruption, political stability, and financial freedom.
+  12: Climate risk.
+  13: Climate risk
+Highlights:
+  2: Climate risks negatively affect stock market capitalization. Climate risk increases
+    sovereign risk when sovereign risk is already low. Climate risk has a small impact
+    on competitivity.
+  6: The study aims to identify at what levels of the stock market capitalization
+    or sovereign risk, the impact of climate risk is statistically significant, using
+    quantiles regression.
+  8: The Climate Risk Index (CRI) is stationary, meaning it can be used in regression
+    analysis without causing spurious results.
+  9: Climate Risk Index (CRI) is independent of other explanatory factors included
+    in the analysis (GDP, inflation, unemployment).
+  10: Sovereign CDS influenced by macroeconomic factors such as economic growth, inflation
+    rate, control of corruption, political stability, and financial freedom.
+  12: Increasing climate risk has a negative impact on stock market capitalization,
+    particularly across the 25th to 75th quantiles. The impact is not significant
+    for countries with very low or very high market capitalization. Traders' expectations
+    about stock market transactions are influenced by their perception of climate
+    risk. Climate risk impacts a country's ability to deliver goods and services to
+    competitive markets (national competitiveness).
+  13: Climate risk has a negative but statistically insignificant correlation with
+    a country's global competitiveness (i.e., probability of being in the top 25%).
+    Climate risk does not strongly impact countries with low or very high levels of
+    market capitalization. Climate risk leads to increased country risk, only in cases
+    of low budget deficit.
+Methodology:
+  1: Panel data approach
+  2: Panel data approach using quantile and logistic regression on a sample of 22
+    countries (16 EU members and 6 OECD members) during the 2008-2019 period.
+  6: Quantiles regression and LOGIT regression. Quantiles regression is novel to the
+    field.
+  7: Panel data approach using econometric methods on a sample of 22 EU and OECD countries
+    from 2008 to 2019.
+  8: The study uses stationary variables in an empirical analysis. The Levin, Lin
+    and Chu (2002) test is used to test for stationarity. The analysis uses a correlation
+    matrix and Variance Influence Factor (VIF) to check for multicollinearity.
+  9: Panel data approach, quantile regression for panel data. Quantile regression
+    is used when the dependent variable has an asymmetric distribution or when explaining
+    values in the tails of the distribution.
+  10: Logistic regression (LOGIT model) to identify determinants of competitiveness
+    and the extent to which climate risk influences its level. Quantile regression
+    to analyze the determinants of sovereign CDS.
+  12: Quantile regression is used to assess the impact of climate risk on stock market
+    capitalization. A LOGIT model is used to assess the impact of climate risk on
+    competitiveness.
+  13: Panel data approach is used to assess the impact of climate risk on the economy;
+    Quantile regressions are used to analyze the effect of market capitalization on
+    climate risks; Logistic regression is used to highlight the impact of climate
+    risk on the global competitiveness of a country.
+More Notes:
+  1: The paper assesses climate risk impact on the economy but this page only provides
+    bibliographic information. The full article would need to be reviewed to extract
+    specific findings.
+  2: The study considers the influence of the European Green Pact and standardization
+    of the global price of CO2 on competitiveness.
+  6: Data limitations led to the elimination of some countries from the study, but
+    the sample size is considered consistent and able to generate reliable estimates.
+    The study selects countries with statistical data on the climate risk index and
+    adds economic and financial variables used in previous studies. The working methods
+    are chosen to provide a persuasive picture of the interactions between climate
+    risk and dependent variables.
+  7: The paper focuses on the assessment of climate risk impact on the economy, but
+    this page primarily describes the data used in the analysis. The paper uses a
+    set of economic, social and political variables to represent the impacts of climate
+    risks, which are not explicitly listed here, but implied to be relevant to the
+    selected countries.
+  8: The study aims to analyze the financial and competition implications of the EU's
+    Green Deal, but this page focuses on the statistical properties of the variables
+    used in the analysis, specifically the Climate Risk Index.
+  9: The study investigates the impact of climate risk on sovereign risk, the capital
+    market, and the degree of competitiveness in a given country.
+  10: The paper uses a binary variable for competitiveness (top 25% vs. below). The
+    quantile regression analysis of CDS considers different quantiles to represent
+    low vs. high sovereign risk environments.
+  12: The impact of climate risk on market capitalization is monotonically decreasing
+    from the 25th to the 90th quantile.
+  13: The study identifies the inability to accurately estimate the impact of climate
+    change on sovereign risk in all countries or those with high sovereign risk as
+    a limitation. The study proposes developing an indicator to allow significant
+    assessment of the impact of climate risk at the level of competitiveness.
+Outcome(s) of Interest:
+  2: Sovereign risk (CDS level), stock market capitalization as a percentage of GDP,
+    and global competitivity.
+  6: Stock market capitalization, sovereign risk, and competitiveness.
+  7: Sovereign Risk (CDS), Stock market capitalisation as percentage of GDP (MC),
+    Global competitiveness (GCI), GDP per capita (GDPc), Inflation rate (INF), Unemployment
+    rate (UNE)
+  9: Sovereign CDS (credit default swaps, related to sovereign risk), Stock market
+    capitalization, GDP, inflation, unemployment.
+  10: Competitiveness index of a country and sovereign CDS (Credit Default Swaps)
+    as a measure of sovereign risk.
+  12: Stock market capitalization; National competitiveness (ability of countries
+    to deliver goods and services to competitive markets).
+  13: Global competitiveness of a country; Market capitalization; Sovereign risk;
+    Country risk; Budget deficit
+Quantitative material:
+  1: Vol. 24, Iss. 61, pp. 597-612
+  2: Negative relationship between climate risks and the evolution of stock market
+    capitalization as a percentage of GDP. Climate risk leads to an increase in sovereign
+    risk only across inferior quantiles (when the CDS level is small). Level of competitiveness
+    of a country is influenced to a small extent by the level of climate risk.
+  6: Sample of 263 observations used for analysis.
+  7: The study uses panel data from 22 EU and OECD countries over 12 years (2008-2019).
+    CDS quotations are computed as the annual average of the credit quality. GCI is
+    a dummy variable equal to 1 if a country in a certain year ranks in the top 25%
+    of the considered economies.
+  9: Correlation matrix showing correlations between GDPc, INF, UNE, CPI, PSI, FFI,
+    and CRI.
+  10: Results of quantile regression on sovereign CDS (Table no. 4).
+  12: Figure no. 1 shows quantile estimates for climate risk on market capitalization,
+    with values ranging from 0 to -0.006. Table 6 presents LOGIT estimates with coefficients
+    for various variables including GDPc (0.00002), INF (0.03697), UNE (0.16519***),
+    COR (0.13538***), POL (-1.26508**), FINF (-0.06868), and CRI (-0.00524).
+  13: A negative coefficient of -0.00524 is found, suggesting that an increase in
+    climate risk reduces the probability that a country will enter the top 25% of
+    countries depending on the level of global competitiveness. The C coefficient
+    is -7.32689***, and the McFadden R2 is 0.1287.

@@ -1,0 +1,328 @@
+Drivers of Risk:
+  2: Average temperature and rainfall
+  4: The shocks impacting outcomes include climate change components such as temperature
+    and precipitation changes.
+  7: Historical weather variables (monthly mean temperature and monthly accumulated
+    precipitation).
+  8: Long-term weather conditions (annual mean temperature)
+  9: Decadal average of county annual mean temperature and decadal average of county
+    annual accumulated precipitation
+  10: Decadal averages of annual accumulated precipitation, high temperatures
+  11: Decadal average of weather variables (temperature or precipitation) in county
+  12: 10-year average of annual mean temperature and annual accumulated precipitation.
+  14: Long-term weather conditions such as temperature and precipitation impacts are
+    analyzed.
+  15: Long-term weather conditions, specifically annual mean temperature and annual
+    accumulated precipitation, are the drivers impacting farm value.
+  16: Short-term weather conditions measured by annual mean temperature (T) and accumulated
+    precipitation (P).
+  17: Changes in decadal temperature and precipitation.
+  18: Short-term weather conditions (average temperature and accumulated precipitation
+    in one year before each census year)
+  19: Decadal temperature (T) and precipitation (P)
+  20: Annual and decadal average weather variables (temperature and precipitation),
+    extreme weather conditions.
+  21: Decadal and annual temperature (T) and precipitation (P) changes
+  25: Average temperature and annual accumulated precipitation in the state of birth.
+  26: Annual mean temperature and accumulated precipitation in each state
+  29: Annual mean temperature and annual accumulated precipitation.
+  30: Hotter and wetter weather.
+  34: Weather variables (implied)
+  36: Decadal average of annual mean temperature and decadal average of annual accumulated
+    precipitation.
+  37: Decadal temperature, decadal precipitation, annual temperature, and annual precipitation.
+Highlights:
+  2: In the late 1800s, farm value per acre had an inverse U-shape relationship with
+    average temperature. This negative effect of heat attenuated or reversed in recent
+    decades, with farm value per acre increasing monotonically with average temperature
+    in the second half of the twentieth century. A similar pattern is seen for rainfall.
+  4: The production-function approach might overestimate agricultural damage without
+    considering adaptation and substitution, as adaptive activities can mitigate negative
+    impacts.
+  8: County farm value has adapted to the permanent features of local weather over
+    time in the United States.
+  10: Relevance of temperature to farm value gradually changed across decades; negative
+    association between temperature and farm value weakened throughout the early twentieth
+    century, becoming marginally increasing in recent decades; Inverse U-shape relationship
+    between precipitation and farm value observed until the early twentieth century,
+    attenuating over time and county farm value increasing with precipitation levels
+    in recent decades; Adaptation to hot and wet weather can be clearly observed across
+    longer time periods, and the pattern of adaptation has occurred very gradually.
+  11: "The effect of variation in long term temperature and rainfall on farm value\
+    \ rapidly changed until the mid-twentieth century. High temperatures and rainfall\
+    \ became more beneficial to farm value as time passed. \u0215t remains stable\
+    \ after the period between 1960 and 1970."
+  12: Adaptation to hot and rainy weather slowed in recent decades. County fixed effects
+    models estimate smaller effects of weather on farm value relative to 1870 than
+    year or state-by-year fixed effects models, suggesting that non-weather county
+    characteristics correlated with weather conditions explain the observed patterns.
+  13: The study notes that there has been a statistically significant cross-century
+    change in the effect of weather on farm value.
+  14: The table provides statistically significant coefficients showing the negative
+    impact of certain temperature and precipitation changes on farm values across
+    different time periods.
+  15: "The interaction term (T-Tm) \xD7 (P-Pm) \xD7 D19 is statistically significant,\
+    \ suggesting that the effect of temperature and precipitation on farm value differed\
+    \ significantly between the 19th and 20th centuries."
+  16: "The effect of temperature and precipitation on farm output value per acre changed\
+    \ between the 19th and 20th centuries, as captured by the interaction terms (T\
+    \ \xD7 D19 and P \xD7 D19).  The effect of the interaction term between temperature\
+    \ and precipitation ((T-Tm) x (P-Pm)) is also estimated."
+  17: Adaptation occurred more rapidly in hotter areas over time; Adaptation to precipitation
+    was evident in wetter areas.
+  18: Adaptation of farm output value to weather occurred more-or-less steadily across
+    decades.
+  19: Significant negative impacts of temperature and precipitation changes on farm
+    value and output value are reported, showing the economic consequences of weather
+    variability in agriculture.
+  20: Adaptation in the relationship between annual temperature and farm output value
+    is estimated more substantially for small-scale agricultural counties, suggesting
+    that the adaptation to weather widely occurred across the broad scale of agriculture.
+  21: Temperature and precipitation changes have statistically significant negative
+    effects on farm value and output value. The results are robust to different specifications
+    and controls.
+  25: The study investigates the impact of early-life weather conditions on adult
+    income by comparing cohorts born before 1900 and after 1930. The paper examines
+    both short-term (weather fluctuations around the year of birth) and long-term
+    (accumulated or lifetime effect of weather) impacts.
+  26: Figure 4 summarizes regressions of cohort outcomes on early life weather conditions
+    around the year of birth and occupational income in adulthood.
+  29: Adaptation to weather effects occurred throughout early 20th century, impacting
+    individual and agricultural productivity.
+  30: "Adaptation in U.S. agriculture has substantially mitigated the adverse effects\
+    \ of hotter and wetter weather over time. Today\u2019s relationships between weather/climate\
+    \ and economic outcomes may be poor guides to the future because these relationships\
+    \ have been unstable over historical time scales."
+  34: Using county boundary-adjusted data does not cause critical problems in estimating
+    fixed effects models.
+  36: The effect of long-term temperature and precipitation on farm value is analyzed
+    with and without county-boundary adjustments.
+  37: Adaptation has occurred, with the magnitude of adaptation estimated as somewhat
+    smaller when using a balanced panel of counties with no boundary changes compared
+    to the baseline estimation.
+Methodology:
+  2: Analysis of U.S. historical data spanning about 140 years, using geospatial data
+    on average weather conditions and historical weather information matched to economic
+    variables at the county and state levels. Cross-sectional and panel/fixed effects
+    models are discussed.
+  4: The paper discusses the use of agronomic models of production functions and hedonic
+    price models to analyze the impact of climate change on agriculture.
+  7: Geostatistical technique called 'Kriging' is used to estimate weather variables
+    for counties without historical weather stations.
+  8: Cross-sectional analysis using scatter plots to investigate the historical relationships
+    between county average farm value and weather conditions. Panel data analysis
+    (unbalanced) to address potential biases from county boundary changes.
+  9: The analysis uses farm statistics from historical census records and Kriging
+    interpolated weather variables. Lowess fit curves and linear fit lines are used
+    to model the relationship between farm value and weather variables.
+  10: Bivariate cross-sectional analysis; Fixed effects model to complement the cross-sectional
+    results; uses data for the 10 years prior to the year of census
+  11: Weighted ordinary least squares regressions using Kriging process to calculate
+    standard errors and inverse of standard errors as regression weights; county and
+    state-by-year fixed effects
+  12: Weighted regressions of the logarithm of county average farm value on 10-year
+    average temperature/precipitation prior to each census year (1880-2000), standard
+    controls, and interactions with census year dummies (reference year 1870). Fixed
+    effects models (year, state-by-year, and county) are used.
+  13: The analysis is conducted using weighted regressions of county farm value on
+    decadal weather variables, accounting for state fixed effects, and controlling
+    for interactions between control variables and a census year dummy.
+  14: The analysis uses a difference-in-differences approach focusing on county farm
+    value per acre with fixed effects for state, state-century, state-year, and county
+    when including both temperature and precipitation.
+  15: The study uses a regression analysis to estimate the century difference in the
+    response of county farm value to long-term weather conditions. It compares decades
+    ending in 1870-1900 with decades ending in 1970-2000. The regressions control
+    for county population density, ratio of white populations, ratio of farmland to
+    total county area, and number of farmers per farmland acre.
+  16: The analysis uses panel data and regression analysis to estimate the relationship
+    between short-term weather conditions (temperature and precipitation) and county
+    average farm output value per acre. Models include various fixed effects (State,
+    State x Century, State x Year, County). The sample covers the 19th and 20th centuries.
+    Significance levels (*, **, ***) are provided for the coefficients.
+  17: Regression analysis of county farm value on decadal temperature and precipitation,
+    and the interaction of the two; Analysis of the value of county farm output.
+  18: "Panel regression comparing 1870\u20131900 to 1970\u20132000, adding state-by-year\
+    \ and county fixed effects."
+  19: Regression analysis using county-level data from 1860-2000. Panels A and B estimate
+    the relationship between county farm value and decadal weather variables, while
+    panels C and D do so with county farm output value. Uses alternative weather variables
+    and examines the influence of large-scale agricultural counties. Regression weights
+    are applied. Controls for the ratio of farmland acres out of total county area.
+    Counties are clustered into groups.
+  20: Regression analysis controlling for weather variables and using different weighting
+    schemes (ratio of farmland to total county area). Restrictions placed on the regression
+    to counties with large-scale agriculture and those with small-scale agriculture.
+  21: Regression analysis using county-level data from US agricultural censuses. The
+    paper tests the sensitivity of the results to different measures of farm value
+    and output, double-counting of corn and hay production, and discounting crop values.
+  25: "The study uses data from the 1880 and 1900\u20131990 IPUMS datasets to analyze\
+    \ native adult white males born between 1860 and 1960. The analysis examines the\
+    \ relationship between weather conditions in early life (average temperature and\
+    \ precipitation in the state of birth) and adult income. The study employs regression\
+    \ analysis to determine how weather conditions around the time of birth affect\
+    \ adult income."
+  26: Regression analysis of cohort outcomes on early life weather conditions, controlling
+    for state of birth, year of birth, and census year fixed effects. Data spans birth
+    years 1860-1960, using U.S. censuses from 1880 and 1900-1990. Regression equation
+    (3) models the relationship between occupational income and weather variables.
+  29: Use of cross-sectional and fixed effects models to evaluate impacts of climate
+    change on income.
+  30: Examines U.S. agricultural adaptation to weather over the past century-and-a-half
+    using cross-sectional and panel fixed effect approaches.
+  32: Uses Kriging estimation to estimate annual and decadal weather variables for
+    randomly selected counties and compares them with actual values.
+  34: Panel data analysis at the county level from 1870 to 2000 with fixed effects
+    regressions.
+  36: Regression analysis using county-level data from the US. Results are presented
+    graphically in Figure 2. Standard errors are clustered. County fixed effects are
+    included.
+  37: Panel regressions are used to estimate the relationship between county farm
+    value/output value and weather variables interacted with a dummy variable indicating
+    census years in the nineteenth century. The analysis is performed using the full
+    sample, a balanced panel of counties with no boundary changes from 1870 to 2000,
+    and a sample of non-Southern counties. Standard errors are clustered on the county
+    level.
+More Notes:
+  2: The United States is well-suited for this analysis due to sufficient weather
+    variability across areas and the availability of conformable data on weather and
+    economic variables over a long stretch of time.
+  4: Adaptation and technological advancements can alter the response of crop yields
+    to climate factors over time.
+  7: The study uses data from 1870 to 2000 for farm value and farm output value, due
+    to data quality concerns for earlier periods.
+  8: The study's results do not specifically address the over-time instability of
+    relationships outside the United States. The analysis uses data from 1880 to 2000,
+    adjusting for county boundary changes.
+  10: The hedonic approach does not determine whether adaptation resulted from a change
+    in climate effect or changes in other agricultural, socioeconomic, or demographic
+    characteristics.
+  12: County boundary adjustments were made to the data in the panel fixed effects
+    analysis.
+  15: "The study acknowledges the potential endogeneity of policy and infrastructure\
+    \ variables related to adaptation but chooses not to control for them, arguing\
+    \ that these factors are part of the adaptation story. Weighted regressions are\
+    \ used, where the regression weight is the inverse value of the weather estimates\u2019\
+    \ standard errors."
+  16: Standard errors are clustered on the county level.
+  17: The paper explores the impact of weather variables (temperature and precipitation)
+    on farm value and output, using historical data to infer adaptation. The analysis
+    considers the interaction between temperature and precipitation.
+  18: The magnitude of the adaptation to the weather is similar to what they estimated
+    using farm value and long-term weather variables in a previous subsection.
+  19: The paper uses inverse value of decadal, annual census estimation for the years
+    listed in the tables, except in column (4), which uses the inverse value of the
+    annual estimations.
+  21: The analysis focuses on the impact of temperature and precipitation on farm
+    productivity, using different measures to address potential biases. The standard
+    errors of regression coefficients are clustered on county.
+  26: The study focuses on native adult white males. The x-axis in Figure 4 represents
+    the calendar year minus the year of birth, indicating the timing of weather fluctuations
+    relative to birth. The model aims to capture the impact of early-life weather
+    on later-life occupational income.
+  32: The paper tests the validity of Kriging estimation for weather variables.
+  34: The analysis is limited by the availability of controls. County-level IDUP output
+    value data are missing for 1910-1930.
+  37: The study examines the level of agricultural adaptation to weather. The dependent
+    variables (farm value and farm output value) are measured at the county level,
+    so the results are not directly national.
+No relevant information:
+  31: No relevant information
+Outcome(s) of Interest:
+  2: Farm productivity (measured as farm value per acre)
+  7: Farm productivity at the county level, measured by farm value per farmland acre
+    and farm output value per farmland acre.
+  8: County average of farm value per acre, individual income (measured by occupational
+    income score)
+  9: County average farm value per acre (logarithm)
+  10: County farm value
+  11: Logarithm of county's average farm value per acre measured at census year
+  12: County average farm value per acre (logarithm).
+  15: County average farm value per acre is the dependent variable, representing an
+    economic outcome related to agricultural productivity.
+  16: County average farm output value per acre
+  17: County farm value (as a ratio of late twentieth century value to late nineteenth
+    century value); Value of county farm output.
+  18: County farm output value
+  19: County farm value (Panels A & B), county farm output value (Panels C & D)
+  20: Agricultural outcomes, farm output value, farm value per farmland acre, output
+    value per county area.
+  21: Farm value and farm output value (measures of farm productivity)
+  25: Adult income (measured as average occupational income score, transformed into
+    natural logarithms) is analyzed as an outcome related to early-life weather conditions.
+  26: Occupational income score transformed into natural logarithms, at the cohort
+    level
+  29: Increase in adult income related to changes in temperature and precipitation.
+  30: Farm value and farm output value.
+  34: Farm productivity
+  36: ln(county average farm value per acre)
+  37: County farm value and county farm output value.
+Quantitative material:
+  7: Monthly mean temperatures and monthly accumulated precipitation by county from
+    1860 to 2000 are estimated.
+  8: Logarithm of each county's average farm value per acre against its decadal average
+    of annual mean temperature (Fahrenheit) is plotted for six selected decades.
+  9: Figure 1 shows the relationship between the logarithm of county average farm
+    value per acre and decadal averages of temperature and precipitation from 1880
+    to 2000.
+  10: Quadratic relationship between temperature and farm value with a peak of around
+    50 degrees Fahrenheit in the late nineteenth century; precipitation threshold
+    around 35 inches, above which farm value is depressed
+  11: "The coefficients \u0215t estimate the extent to which the response of farm\
+    \ value at census year t to local temperature or precipitation differed from its\
+    \ level in 1880"
+  12: Figure 2 presents estimated effects of long-term temperature and precipitation
+    on county farm value per acre, showing regression coefficients over time. R-squared
+    values are provided for some regressions (e.g., R2 = .04 for year FE with temperature,
+    R2 = .05 for year FE with precipitation, R2 = .01 for precipitation with county
+    FE).
+  14: Quantitative information includes statistical coefficients on county average
+    farm value per acre in response to temperature and precipitation changes over
+    different time periods.
+  15: "Panel C shows a coefficient of 0.0011*** in column (3) and -0.0007** in column\
+    \ (4) for the interaction term (T-Tm) \xD7 (P-Pm) \xD7 D19, with standard errors\
+    \ of (0.0003) in both columns. These represent the estimated effect of temperature\
+    \ and precipitation on farm value, interacted with a dummy for the 19th century."
+  16: Table 2 presents regression results showing the impact of temperature (T) and
+    precipitation (P) on the natural log of county average farm output value per acre.
+    Coefficients and standard errors are provided.
+  17: Cross-century difference in farm value as a ratio is estimated to be 13.7 for
+    the average county and 19.1 for a hot county due to temperature changes; cross-century
+    difference in farm value as a ratio is estimated to be 1.6 for a county with average
+    annual precipitation and 1.9 for a wet county due to precipitation changes.
+  18: Hot and rainy short term weather was less favorable for producing agricultural
+    output in the late nineteenth century than it was in the late twentieth century.
+  19: Regression coefficients for the impact of temperature and precipitation on farm
+    value and output value, along with standard errors and significance levels. Includes
+    number of observations.
+  20: The coefficients of precipitation interacted with the nineteenth century dummy
+    are estimated to be somewhat smaller than those of the baseline estimation in
+    Panels B and D when using farm value or output value per county area.
+  21: "T \xD7 D coefficients ranging from -0.0375 to -0.0513, significant at the 1%\
+    \ level. P \xD7 D coefficients ranging from -0.0033 to -0.0162, significant at\
+    \ varying levels (1%, 5%, 10%)."
+  25: The paper presents regressions and plots of adult income against average temperature
+    and precipitation. The x-axis shows the state-of-birth average temperature or
+    precipitation, while the y-axis represents the cohort group's average income score.
+    State abbreviations denote the position of each point, and a solid line is the
+    best-fit regression line.
+  26: Figure 4 shows the estimated regression coefficient on the interaction of temperature
+    or precipitation and a dummy for calendar year minus year of birth, with error
+    bars reflecting 95% confidence intervals.
+  29: A one-degree increase in temperature leading to a 0.47% increase in adult income
+    (statistically insignificant); one-inch increase in precipitation resulting in
+    respective 0.7% and 0.12% increase in income during specified periods.
+  30: Farm value and farm output value substantially declined as the region became
+    hotter and wetter in the late nineteenth century; the adverse effects have been
+    almost completely attenuated in recent decades.
+  32: Correlation coefficients between estimated and actual values are provided for
+    annual mean temperature (0.9699 left, 0.9683 right) and annual accumulated precipitation
+    (0.9284 left, 0.9791 right).
+  34: Sample means of farm-productivity measure and controls by census year are reported
+    in Appendix Table 2.
+  36: Regression coefficients and standard errors for the relationship between weather
+    variables and farm value per acre for each decade from 1880 to 2000, with and
+    without county-boundary adjustments. R-squared values are provided for each regression.
+  37: 'The coefficients on the interaction terms T x D and P x D in regressions, reported
+    in Appendix Table 4, Panels A-D. For example, Panel A, Column (1): T x D = -0.0470***
+    (0.0056).'

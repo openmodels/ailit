@@ -1,0 +1,35 @@
+,Impacted Sector,Solution,Country(ies),Scenario,Quantification,Expression,Type of Value,Sample,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Industry,Reverse osmosis treatment,The Netherlands,Stoom,AdaptationCost,AdaptationCost,Economic,Need,EUR / yr,0,NA,NA,NA,NA,NA,Page 1767,"Assumes adaptation maintains production stop probability at 1/100 yr under future scenarios; Value is placeholder indicating *some* cost, but unquantified on this page."
+1,Drinking Water,Reverse osmosis treatment,The Netherlands,Stoom,AdaptationCost,AdaptationCost,Economic,Need,EUR / yr,0,NA,NA,NA,NA,NA,Page 1767,"Assumes drinking water companies increase consumer prices to cover adaptation costs due to inelastic demand; Value is placeholder indicating *some* cost, but unquantified on this page."
+2,Agriculture,Irrigation,The Netherlands,Stoom,Shadow price of water,MonetaryBenefits,Economic,Need,EUR / m3,0,NA,NA,NA,NA,NA,Page 1767,"Shadow price derived from agricultural impact model outcomes as a regression between crop evapotranspiration and crop yield minus additional irrigation costs; Value is placeholder indicating *some* benefit, but unquantified on this page."
+3,All,Water Level Management,The Netherlands,Stoom,Shadow price of water,MonetaryBenefits,Economic,Need,EUR / m3,0,NA,NA,NA,NA,NA,Page 1767,"Water shortages are monetized for flushing and water level management using a shadow price of water. Implicit assumption that the value of water for nature and infrastructure is greater or equal to the marginal value for agriculture; Value is placeholder indicating *some* benefit, but unquantified on this page."
+4,All,Any,The Netherlands,Stoom,AdaptationCost,AdaptationCost,Various,Need,%,4.5,NA,NA,NA,NA,NA,Page 1768,Discount rate used for public infrastructure investments with substantial fixed costs (high end).
+5,All,Any,The Netherlands,Any,Societal Welfare,MonetaryBenefits,Economic,Need,Binary,1,NA,NA,NA,NA,NA,Page 1768,"A policy action is positively evaluated from a societal welfare perspective if the avoided drought risk is greater than or equal to costs (monetized and non-monetized effects included). 1 if it is positively evaluated, 0 if not."
+6,All,Any,The Netherlands,Reference,Drought Risk,BaselineImpact,Economic,Need,EUR million / year,372,NA,NA,NA,NA,NA,Section 3.1,Current drought risk.
+7,All,Any,The Netherlands,Stoom,Drought Risk,BaselineImpact,Economic,Need,EUR million / year,611,NA,NA,NA,NA,NA,Section 3.1,Drought risk in 2050.
+8,All,Any,The Netherlands,Warm,Drought Risk,BaselineImpact,Economic,Need,EUR million / year,607,NA,NA,NA,NA,NA,Section 3.1,"Warm scenario, with limited socio-economic growth, in 2050."
+9,Agriculture,Any,The Netherlands,Stoom,Drought Risk,BaselineImpact,Economic,Need,EUR million / year,155,NA,NA,NA,NA,NA,p. 1770,Increase in drought risk by 2050 due to climate change.
+10,Shipping,Any,The Netherlands,Stoom,Drought Risk,BaselineImpact,Economic,Need,EUR million / year,72,NA,NA,NA,NA,NA,p. 1770,"Increase in drought risk by 2050 due to climate change, mainly due to low-flow periods in the Rhine."
+11,Drinking Water,Any,The Netherlands,Stoom,Drought Risk,BaselineImpact,Economic,Need,EUR million / year,9,NA,NA,NA,NA,NA,p. 1770,Increase in drought risk by 2050 due to climate change.
+12,Industry,Any,The Netherlands,Stoom,Drought Risk,BaselineImpact,Economic,Need,EUR million / year,3,NA,NA,NA,NA,NA,p. 1770,Increase in drought risk by 2050 due to climate change.
+13,All,Increased Water Supply,The Netherlands,Stoom,Avoided Drought Risk,MonetaryBenefits,Economic,Need,EUR million / year,7.06,NA,NA,NA,NA,NA,p. 1770,Lower estimate of avoided drought risk in 2050 assuming all policy actions are implemented.
+14,Shipping,Changed River Distribution,The Netherlands,Stoom,Drought Risk,BaselineImpact,Economic,Need,EUR million / year,0.15,NA,NA,NA,NA,NA,p. 1770,Negative impact of changing river distribution. Using the midpoint of the range.
+15,All,Demand Reduction,The Netherlands,Reference,Risk Reduction,MonetaryBenefits,Economic,Need,Percent,25,NA,NA,NA,NA,NA,p. 1770,"One sluice will reduce water demand by 25%, reducing costs for demand reduction."
+16,Agriculture,Adaptation,The Netherlands,Reference,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,305,NA,NA,NA,NA,NA,Table 3,Current policy
+17,Shipping,Adaptation,The Netherlands,Reference,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,66,NA,NA,NA,NA,NA,Table 3,Current policy
+18,Drinking water,Adaptation,The Netherlands,Reference,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,0,NA,NA,NA,NA,NA,Table 3,Current policy; value reported as - implies close to 0
+19,Industry,Adaptation,The Netherlands,Reference,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,1,NA,NA,NA,NA,NA,Table 3,Current policy
+20,All,Adaptation,The Netherlands,Reference,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,372,NA,NA,NA,NA,NA,Table 3,Current policy
+21,Agriculture,Adaptation,The Netherlands,Stoom2050,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,460,NA,NA,NA,NA,NA,Table 3,
+22,Shipping,Adaptation,The Netherlands,Stoom2050,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,138,NA,NA,NA,NA,NA,Table 3,
+23,Drinking water,Adaptation,The Netherlands,Stoom2050,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,9,NA,NA,NA,NA,NA,Table 3,
+24,Industry,Adaptation,The Netherlands,Stoom2050,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,4,NA,NA,NA,NA,NA,Table 3,
+25,All,Adaptation,The Netherlands,Stoom2050,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,611,NA,NA,NA,NA,NA,Table 3,
+26,Agriculture,Adaptation,The Netherlands Southwest,Reference,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,32,NA,NA,NA,NA,NA,Table 3,Current policy
+27,All,Adaptation,The Netherlands Southwest,Reference,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,33,NA,NA,NA,NA,NA,Table 3,Current policy
+28,Agriculture,Adaptation,The Netherlands Southwest,Stoom2050,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,51,NA,NA,NA,NA,NA,Table 3,
+29,All,Adaptation,The Netherlands Southwest,Stoom2050,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,62,NA,NA,NA,NA,NA,Table 3,
+30,Agriculture,Adaptation,The Netherlands North,Reference,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,149,NA,NA,NA,NA,NA,Table 3,Current policy
+31,All,Adaptation,The Netherlands North,Reference,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,149,NA,NA,NA,NA,NA,Table 3,Current policy
+32,Agriculture,Adaptation,The Netherlands North,Stoom2050,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,217,NA,NA,NA,NA,NA,Table 3,
+33,All,Adaptation,The Netherlands North,Stoom2050,Drought Risk,BaselineImpact,Monetary,Need,million EUR / yr,219,NA,NA,NA,NA,NA,Table 3,

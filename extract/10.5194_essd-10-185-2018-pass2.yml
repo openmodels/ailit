@@ -1,0 +1,117 @@
+Drivers of Risk:
+  1: Tropical cyclones
+  2: TC maximum wind speed is the primary driver of risk considered in the exposure
+    assessment.
+  5: Tropical cyclones (TCs), climate variability (e.g., ENSO), potential underreporting
+    of TCs in earlier periods.
+  6: Tropical cyclones (TCs) of varying wind speeds (34, 64, and 96 knots) are the
+    primary drivers of risk, with exposure levels differing based on the intensity
+    and frequency of these events. The study considers both historical and projected
+    population and asset patterns, indicating that demographic and economic development
+    trends also influence exposure.
+  7: Tropical cyclone exposure, with wind speeds above specified thresholds, impacting
+    population and assets.
+  8: Tropical cyclone (TC) properties and wind speed thresholds (34 kn, 64 kn, 96
+    kn) are drivers of risk.
+  9: Tropical cyclones (exposure data sets).
+Highlights:
+  1: The dataset (TCE-DAT) covers the period 1950 to 2015 and is freely available.
+  2: The paper introduces the TCE-DAT, a globally consistent dataset of TC exposure
+    from 1950 to 2015, providing estimates of exposed population and assets by individual
+    landfalling TCs.
+  5: TC reporting in IBTrACS has improved significantly since 1980, reaching comprehensive
+    global coverage.
+  6: The study highlights that the 34 knots wind speed threshold consistently shows
+    the highest economic exposure, and 96 knots the least, suggesting that more frequent,
+    less intense storms can cause significant aggregate damage due to their wider
+    reach.
+  7: A new and comprehensive data set TCE-DAT for global historical TC exposure between
+    1950 and 2015 is provided.
+  8: This work provides a valuable additional resource to the community studying TC-related
+    impacts, in particular for non-experts in this field. The TC exposure database
+    is based on physical storm properties.
+  9: Creation of a global historical dataset of tropical cyclone exposure data sets
+    (TCE-DAT) and associated GDP data.
+Methodology:
+  1: A simplified wind field model is applied to estimate areas exposed to wind speeds
+    above 34, 64, and 96 knots. Spatially explicit data on population densities and
+    GDP are used to estimate the number of people and the sum of assets exposed to
+    wind speeds above these thresholds.
+  2: The paper uses the CLIMADA model to estimate exposure to TCs based on wind fields
+    and socioeconomic data. It defines risk as a function of hazard, exposure, and
+    vulnerability. Exposure is quantified as the number of potentially affected people
+    and the sum of potentially affected assets. A step-like vulnerability function
+    is used, assigning a value of zero below a certain wind speed threshold and one
+    above.
+  5: Uses IBTrACS archive and Holland08 wind field model to generate wind fields and
+    analyze TC activity. TCE-DAT provides wind speed information and exposed population
+    and assets at the grid level.
+  6: The study uses the TCE-DAT model to estimate TC exposure based on historical
+    TC tracks and socioeconomic data. They validate the model using the HURDAText
+    archive for the United States, comparing model estimates with observational records
+    of storm size and wind speed at landfall.
+  7: Overlays estimated wind fields with gridded information about population and
+    assets to assess exposure.
+  8: The TCE-DAT database was created using only freely available input data and established
+    methods, and the freely available modeling tool CLIMADA with module ISIMIP. The
+    analysis involves comparing exposed population data estimated using the Holland08
+    wind field model and the observed HURDAText database at different wind speed thresholds.
+  9: Data collection and harmonization of GDP data with climate and socioeconomic
+    pathways.
+More Notes:
+  1: The paper aims to provide data to assess the contribution of climatological versus
+    socioeconomic drivers of changes in exposure to tropical cyclones, estimate changes
+    in vulnerability, and build improved exposure-based predictors to estimate societal
+    impacts.
+  2: The paper focuses on physical exposure and does not directly quantify damages
+    or economic impacts. TCE-DAT complements other datasets like EM-DAT and NATCAT
+    by providing exposure estimates that can be combined with damage data to assess
+    historical vulnerabilities.
+  5: The analysis is limited by the accuracy of the wind field model and potential
+    underreporting of TCs before 1980. The analysis only considers wind fields and
+    maximum sustained wind speed.
+  6: The study acknowledges uncertainties in socioeconomic data, particularly in the
+    distribution of GDP, and the use of 2016 national assets/GDP ratios to approximate
+    asset structure for all years between 1950 and 2015, which might overestimate
+    asset values for fast-developing countries in earlier years.
+  7: The Holland08 wind field model has some limitations, but exposure estimates for
+    other parts of the world and other time periods can be used to approximate exposure
+    given the lack of observed wind fields.
+  8: The paper aims to avoid present endogeneity issues relevant for econometric assessments
+    of TC impacts by creating the TC exposure database. The database only uses data
+    of exposed population and assets, i.e., relying only on TC properties, which are
+    not available elsewhere.
+  9: The TCE-DAT data collection is available via GFZ Data Services.
+Outcome(s) of Interest:
+  1: Long-term effects on GDP
+  2: The paper does not directly address macroeconomic or fiscal outcomes. It focuses
+    on estimating the population and assets exposed to tropical cyclones (TCs).
+  5: Mentions TC risk analysis, suggesting potential for examining economic costs
+    associated with TCs.
+  6: The study indirectly relates TC exposure to economic impacts by calculating exposed
+    assets in trillion 2005 U.S. dollars (purchasing power parity), which can be interpreted
+    as potential economic losses from TC damage.
+  7: Exposed population and exposed assets by event and country for tropical cyclones
+    with wind speeds above 34, 64, and 96 knots.
+  8: Long-run economic consequences of natural disasters in general are of interest.
+  9: National Gross Domestic Product (GDP) time series.
+Quantitative material:
+  1: Damages of USD29 billion on average per year over the last 20 years; About 22
+    million directly affected people on average per year over the last 20 years.
+  5: Presents data on annual numbers of TC landfalls by ocean basin from 1950 to 2011.
+  6: The study presents quantitative data on exposed population (in billions) and
+    exposed assets (in trillion 2005 U.S. dollars) for different TC wind speed thresholds
+    (34, 64, 96 knots) between 1970 and 2015, including projections for the year 2050
+    based on a fixed 2015 population and assets.
+  7: Data set contains spatially explicit exposure at the grid level and aggregated
+    exposed population and exposed assets by event and country for 5335 events based
+    on 2713 TCs, separating exposure to wind speeds above 34, 64, and 96kn, for the
+    period between 1950 and 2015.
+  8: 'Correlation coefficients between the datasets (HURDAText and Holland08) are
+    provided for different wind speed thresholds: 0.83 (34 kn), 0.54 (64 kn), and
+    0.75 (96 kn).'
+  9: "Provides continuous national GDP time series data from 1850-2005 harmonized\
+    \ with future projections according to the Shared Socio-economic Pathways (2006-2100).\
+    \ Also provides spatially-explicit Gross Cell Product (GCP) time series: past\
+    \ observations (1850\u20132000) harmonized with future projections according to\
+    \ the Shared Socioeconomic Pathways (2010\u20132100)."

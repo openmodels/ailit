@@ -1,0 +1,163 @@
+Drivers of Risk:
+  1: Climate change, sea surface temperature anomalies, market prices by taxonomic
+    group, and fuel costs.
+  2: Climate change and economic change are the main drivers affecting the technical
+    efficiency of the global artisanal fishing fleet. Other drivers mentioned are
+    unsustainable yields, increases in the price of fish products, exogenous drivers
+    (e.g., climatic, costs and prices) that influence fishing.
+  3: Sea surface temperature anomalies, short-term periodic changes in climatic conditions,
+    extreme temperature anomalies.
+  4: Annual sea surface temperature (SST) anomalies from a country's Exclusive Economic
+    Zone (EEZ) is used as a predictor variable.
+  5: Catch price, fuel costs, and Sea Surface Temperature (SST).
+  6: Fuel price increases, SST anomalies (sea surface temperature), crustacean prices.
+  10: Drivers of risk include sea surface temperature warming, climate variability
+    and weather extremes, increasing fuel prices, expansion of regional tuna fisheries,
+    changes in market forces (e.g., competitive pricing of imported foods), and internally
+    driven changes in market forces affecting artisanal vessels.
+  11: Fuel price, SST, crustaceans, large pelagic, mixed pelagic, marine fishes, molluscs,
+    and diadromous fishes
+  13: Economic cycles affecting fishing costs and demand, ongoing global warming,
+    and sea surface temperature (SST) anomalies are identified as drivers of risk
+    to artisanal fishing efficiency.
+Highlights:
+  1: Temperature anomalies affected countries differently; some enhanced production,
+    others had to adapt to negative impacts of seawater warming; efficiency decreases
+    are related to rises in global marine fish price.
+  2: Artisanal fisheries are important for employment and nutrition, especially in
+    developing countries, but are often unregulated and less studied than industrial
+    fisheries. Countries with years of low technical efficiency in fishing are also
+    those with a high vulnerability to climate-induced change and low adaptive capacity
+    (low GDP).
+  3: The paper explores how sea surface temperature anomalies affect the technical
+    efficiencies of artisanal fleets globally and how changing market conditions affect
+    technical efficiency.
+  5: Elasticities of technical efficiency with respect to catch price, fuel costs
+    and SST varied widely depending on the country. Elasticities were inelastic.
+  6: Fuel price increases generally had a positive effect on technical efficiency,
+    with regional variations; SST anomalies had varying effects by region, with some
+    regions showing positive effects and others negative; Crustacean prices had the
+    largest positive effects on technical efficiency.
+  9: The table highlights statistically significant estimates (*** p < 0.001, ** p
+    < 0.01, * p < 0.05, . p < 0.1) for each country.
+  10: Key findings include the negative impact of climate change and fuel price increases
+    on fisheries' technical efficiency and the potential for distributional changes
+    of species affecting the allocation of catches between countries. The North American/Europe
+    region has benefited from SST increases and technical efficiency improvements.
+    Artisanal vessels may be forced to alter production strategies due to market forces.
+  11: The study shows a positive coefficient for fuel price and a negative coefficient
+    for marine fish price, which is non-intuitive in terms of the effects on technical
+    efficiency.
+  13: Economic (prices, costs) and environmental (SST anomalies) factors significantly
+    explain past changes in global artisanal fleets' technical efficiency, but these
+    effects vary regionally.
+Methodology:
+  1: Examined historical changes in technical efficiency within the global artisanal
+    fishing fleets in relation to sea surface temperature anomalies, market prices
+    by taxonomic group, and fuel costs.
+  2: The study aims to fill the gap in the literature by focusing on the global artisanal
+    fishing fleet and how technical efficiency is affected under climate and economic
+    change, using global catch reconstruction time series and satellite remote sensing
+    to address changes in stock levels.
+  3: Data Envelopment Analysis (DEA) is used to estimate technical efficiency, which
+    is the ratio of catch to potential catch. A second stage statistical approach
+    (Hoff, 2007) is used to predict technical efficiency scores subject to market
+    dynamics (costs and prices) and sea surface temperature anomalies. Bias-corrected
+    deterministic technical efficiency scores are provided to improve statistical
+    validity.
+  4: Ordinary Least Squares (OLS) regression is used to fit a statistical model to
+    explain differences in bias-corrected technical efficiency scores. The study period
+    used to determine the mean SST differences were from 1950-2014, using a baseline
+    period from 1981-2010.
+  5: "A two-stage bootstrap method (Simar and Wilson, 2007) was used to correct for\
+    \ the right-skewed distribution of efficiency scores and bias-correct estimates.\
+    \ The first stage bootstrapped efficiency scores, and the second stage modeled\
+    \ these scores with predictor variables using another bootstrap. Model selection\
+    \ was performed systematically fitting all possible combinations of available\
+    \ uncorrelated variables using the R package \u2018glmulti\u2019."
+  6: Regression models (AIC, DAIC, Wt(AIC) used for model selection) to analyze the
+    drivers of technical efficiency in artisanal fisheries.
+  10: The study uses a Data Envelopment Analysis (DEA) methodology. The authors state
+    that estimating the differences between weather events affecting capacity utilization
+    and technical efficiency could potentially be estimated via two different DEA
+    models.
+  11: Analysis of the country-level marginal effect elasticities of various factors
+    on technical efficiency in fishing. The results are applicable to understanding
+    the impact of these factors on fishing efficiency.
+  13: The paper presents an examination of the global artisanal fleet to understand
+    factors influencing fishing efficiency concerning resource users, market dynamics,
+    and climate change. The analysis goes a step further than studies focusing on
+    catches and profits, to understand how the technical efficiency of fisheries can
+    be compromised by global changes.
+More Notes:
+  1: The paper examines the impact of climate change and economic factors on the technical
+    efficiency of global artisanal fishing fleets.
+  2: Excess capacity in a fishing fleet may be important for countries to have for
+    adaptive reasons, such as preparedness to address maintenance issues or to respond
+    to cyclic weather systems.
+  3: The DEA process is criticized for being nonparametric, as it does not account
+    for random error, resulting in the underestimation of the efficiency scores due
+    to serial correlation.
+  4: Fisheries technical efficiency is modeled as a function of SST anomalies, fuel
+    prices, and the prices of various fish and seafood categories.
+  5: Maximum values are used instead of means to compare elasticities across countries,
+    and country effects are considered. A positive coefficient for fuel price was
+    found, suggesting that higher prices drive higher efficiencies. A positive coefficient
+    for SST shows positive changes in technical efficiency to warmer-than-average
+    years.
+  6: The analysis covers the last 6 decades and considers country-level effects.
+  10: The paper acknowledges that incorporating weather extreme events into future
+    studies could provide further insights into the risks affecting at-sea operations
+    and fisheries' technical efficiency. Improved education, communication, and navigation
+    technologies are expected to increase technical efficiency over time.
+  11: Government subsidies, particularly for fuel, are identified as a potential driver
+    of excess capacity in fishing fleets.
+  13: The paper highlights the importance of understanding the effects of economic
+    and environmental factors on fisheries for many of the world's poorest countries
+    that rely on fisheries for nutrition and food security. The analysis emphasizes
+    the need to understand how different artisanal fishing systems respond to dynamic
+    global environmental and societal change.
+No relevant information:
+  14: No relevant information
+Outcome(s) of Interest:
+  1: Production declines, long-term collapses in production, increases in the price
+    of fish products, excess levels of fishing capacity.
+  2: The study focuses on the global artisanal fishing fleet and how technical efficiency
+    is affected under climate and economic change, which has implications for employment,
+    health, well-being, dietary needs, and fisheries livelihoods and economies.
+  3: Altered fishing patterns, price collapses, and closures of fisheries.
+  4: Annual technical efficiency (TE) estimates of fisheries is used as a dependent
+    variable.
+  5: Technical efficiency of artisanal fishing fleets.
+  6: Technical efficiency of artisanal fisheries.
+  9: The table presents estimates related to an unspecified economic "term" for a
+    range of countries.
+  10: The paper analyzes the impact of environmental changes (e.g., SST warming, fuel
+    price increases) on the technical efficiency of fisheries, which can be linked
+    to economic outcomes such as fish market prices, supply/demand, and the profitability
+    of fishing fleets.
+  11: Technical efficiency in fishing
+  13: Economic security for maintaining jobs, livelihoods, and wellbeing is mentioned
+    as potentially affected by changes in seafood production.
+Quantitative material:
+  1: Historical changes (1950-2014) in technical efficiency within the global artisanal
+    fishing fleets.
+  2: Mentions that global government subsidies for fisheries represent US$35.4 billion
+    annually (but cites Sumaila et al., 2019, for this figure).
+  3: Technical efficiency scores derived from Data Envelopment Analysis by year, country,
+    and sector (artisanal for 105 countries over the period 1950-2014).
+  5: All elasticities were found to be inelastic, i.e., less than a 1% change in technical
+    efficiency from a 1% change in exogenous predictor variables. Largest global negative
+    effect ~ -0.1% on technical efficiency (e.g., a 1% change in marine prices results
+    in a 0.1% decrease in fishing efficiency) was found because of an increase in
+    marine fish prices in Oceania and South America.
+  6: Fuel price increases had a positive effect on the technical efficiency of artisanal
+    fleets in most regions (~0.1% in Oceania; ~0.12% in Europe).
+  9: The table provides quantitative estimates for the economic "term," bias, standard
+    error (std.error), bias-corrected estimate (bc), lower confidence limit (lcl),
+    and upper confidence limit (ucl) for each country.
+  11: Country-level marginal effect elasticities (percentage change in technical efficiency
+    for a 1% change in the predictor variables)
+  13: The global artisanal fleet was estimated to account for over 34 million tonnes
+    of global marine catches in 2012. A 1% shock on seafood production in China (which
+    landed ~9 million tonnes in its EEZ in 2010) could have dramatic effects.

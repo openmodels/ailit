@@ -1,0 +1,86 @@
+Drivers of Risk:
+  2: Climate change and environmental hazards.
+  5: The public impact of adoption of adaptation strategies (strategy A) on the local
+    environmental indicator of each region, represented by parameters d_j (domestic
+    effects) and f_j (foreign effects). These externalities might depend on technological
+    factors or policies. Negative public effects from adopting strategy A can lead
+    to maladaptation.
+  12: Public effects, represented by coefficients dN, dS, fS, fN > 0, are negative.
+    This implies that the adoption of strategy A (environmental maladaptation technology)
+    has negative consequences for the well-being of the regions.
+  14: Environmental dumping, adoption of maladaptation technology, exogenous factors
+    (e.g., new policies like green taxes) that shift environmental burden from one
+    country to another, carbon taxes, stricter environmental regulation, international
+    trade and offshoring, CO2 emissions.
+  20: Negative or positive externalities from adaptation technologies on both same-region
+    and cross-region agents; Self-interest considerations of agents; Maladaptation
+    technology shifting environmental load; Mitigation technology adoption.
+Highlights:
+  2: Global externalities lead to under-adoption of mitigation strategies and over-adoption
+    of maladaptation strategies.
+  5: Adoption of adaptation strategies creates externalities, and negative externalities
+    can lead to maladaptation. The share of agents adopting a technology increases
+    if it provides higher payoffs than not adopting.
+  12: The paper explores scenarios where agents in each region coordinate on one of
+    two strategies (A or NA). In certain scenarios, vertices of Q are attractive,
+    where each region adopts a single strategy. Other scenarios, with different conditions,
+    show multistability.
+  14: Shifting environmental burden from one country to another might worsen the well-being
+    of all agents. A green tax or policy in a more developed region decreases the
+    domestic effect on the local resource but increases the foreign effect on the
+    resource of the other region, further degrading it. Overall well-being effects
+    of shifting pollution cannot be assessed a priori, as they depend on the relative
+    magnitude of domestic effect reduction and foreign effect increase.
+  20: Maladaptation technology can be over-adopted, resulting in lower well-being
+    for all; Mitigation technology can be under-adopted, as full adoption would be
+    Pareto optimum.
+Methodology:
+  2: The paper studies the dynamics of mitigation and maladaptation.
+  12: The analysis examines the average level of well-being in two regions (N and
+    S) based on the weighted average of the well-being of agents adopting strategy
+    A and NA. The weights are determined by the share of adopters in each region.
+  14: Theoretical model analyzing the adoption dynamics of an environmental maladaptation
+    technology with negative public effects, comparative dynamics analysis.
+  20: Model of two regions where agents adopt environmental adaptation technology
+    considering domestic and foreign public effects; Focus on maladaptation and mitigation
+    technologies.
+More Notes:
+  5: The analysis does not delve into the specific technological or policy factors
+    that determine the public effects (d_j and f_j), assuming they are exogenously
+    determined. The model focuses on the dynamics of adoption based on payoff differences.
+  12: The paper uses a model with two regions (N and S) and two strategies (A and
+    NA). The variable 'x' represents the share of adopters of strategy A in region
+    N, and 'z' represents the share of adopters of strategy A in region S. The figures
+    mentioned (1, 2, 3, 4, and 5) visually represent different multistability scenarios
+    with attractors, repellers and saddles.
+  14: The model allows studying the adoption dynamics of an environmental maladaptation
+    technology with negative public effects and which asymmetrically degrades the
+    environmental quality indicator of one of the two regions. This specifically refers
+    to adoption dynamics of a technology, not adaptation.
+  20: The model excludes altruism and does not restrict the initial distribution of
+    the system; the analysis is not a complete analysis of all possible specifications,
+    but focuses on two salient characterisations.
+No relevant information:
+  10: This page focuses on a theoretical model of technology adoption in two regions
+    (N and S), with environmental quality and public effects influencing adoption
+    decisions. It does not directly address macroeconomic or fiscal outcomes related
+    to climate change adaptation at a national level. The model discusses stationary
+    states and their stability based on the interplay of technology efficiency, environmental
+    quality, and domestic/foreign public effects, but it lacks specific details that
+    can inform the cost/benefit analysis of climate adaptation policies at a national
+    level.
+Outcome(s) of Interest:
+  2: The paper studies the dynamics of mitigation and maladaptation, focusing on the
+    under-adoption of mitigation strategies and over-adoption of maladaptation strategies
+    due to global externalities.
+  5: No relevant information
+  12: Average level of well-being in two regions (N and S), considering the adoption
+    of strategies A (adopting environmental maladaptation technology) and NA (not
+    adopting it).
+  14: Well-being of agents in developed and less developed regions, environmental
+    quality in each region.
+  20: Level of well-being; Adoption of environmental adaptation technology (over-
+    or under-adopted relative to Pareto-optimum).
+Quantitative material:
+  5: "P_t^N = -d_N * x_t - f_N * z_t; P_t^S = -f_S * x_t - d_S * z_t; \u0394\u03A0\
+    ^j(x_t, z_t) = ln(E^j + p^j + P_t^j) - C"

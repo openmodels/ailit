@@ -1,0 +1,93 @@
+Drivers of Risk:
+  1: Climate change (specifically temperature changes); Projected growth of Gross
+    Domestic Product per capita
+  3: Changes in climate and tourist preferences are considered as risks impacting
+    international tourism flows.
+  7: Temperature (TempI, TempJ, Temp2I, Temp2J), Precipitation (PrecI, PrecJ), Coastline
+    (CoastI, CoastJ)
+  8: Changing climate conditions and tourist preferences influence tourism flows.
+  10: Change in temperatures.
+  12: Climate change, specifically global warming, and GDP per capita growth.
+Highlights:
+  1: Traditional warm destinations are expected to experience a greater loss of attractiveness,
+    while high-latitude countries are expected to become more attractive due to climate
+    change; Tourists' climate preferences have changed over the last 15 years.
+  3: Climate change can impact international tourism flows, affecting the economy
+    of countries reliant on tourism.
+  7: Origin country coastline (CoastI) has a positive impact on promoting tourist
+    departures. Destination country coastline (CoastJ) has a larger impact than origin
+    country coastline. Good weather (implied by temperature, not directly a measure
+    of climate risk) is also required for tourism.
+  8: Tourism attractiveness increases for colder countries, while warmer origin countries
+    see more international departures.
+  10: Current warmer traditional destinations will be affected.
+  12: Global warming is generally negative for warm destinations in terms of competitiveness.
+    Climate change would imply a loss of attractiveness for traditional winter resorts
+    and warmer destinations, but increase attractiveness for high latitude countries.
+    There is an inverted u-shape relationship between temperature at the destination
+    and tourism demand, revealing optimal climatic conditions for tourism. There is
+    a u-shape relationship between temperature in the origin country and tourism demand,
+    revealing optimal climatic conditions for remaining at home.
+  13: The model projects international tourism demand but acknowledges limitations
+    such as ignoring potential saturation effects on income elasticity and changes
+    in preferences and demographics.
+Methodology:
+  1: A demand model for international tourism is estimated, including classic determinants
+    and allowing a time-varying climatic sensitivity of tourists; Scenarios A2, B1,
+    and B2 are used to project climate conditions and GDP per capita.
+  3: "The study uses a large database of international tourism flows from 178 countries\
+    \ between 1995\u20132010, considering variables like geographical distance, economic\
+    \ size, and cultural relationships."
+  4: Uses a gravity model to analyze international tourism flows, where tourism is
+    considered a special type of trade in services. The model considers factors like
+    income and distance, and introduces climatic variables.
+  7: OLS estimation of Equations 3 and 4 with Huber-White estimator to obtain robust
+    standard errors and origin, destination, and year fixed effects
+  8: Analysis is based on dynamic tourism data from 1995 to 2010, considering temperature
+    preferences.
+  10: Compares tourist arrivals in 2080 to those in 2007 considering only the effect
+    of temperature change under climate scenarios A2, B1, and B2.
+  12: The analysis uses an unspecified estimation method to extrapolate estimates
+    for A2, B1, and B2 climate change scenarios. Applicable to evaluating tourism
+    demand responses in the context of global warming.
+  13: The paper uses a national-scale model with annual data to project international
+    tourism demand, using constant elasticities and sensitivity analyses on parameters.
+    The model does not consider domestic tourism.
+More Notes:
+  1: Tourism represents 9.1% of the total world Gross Domestic Product.
+  4: The paper aims to project international tourism flows for different climate change
+    scenarios using a database of international tourism flows and potential determinants.
+  7: The dependent variable for Equations 3 and 4 is not specified on this page. Significance
+    levels are denoted by *, **, and *** for 1%, 5%, and 10% respectively. The data
+    has 130,114 observations.
+  8: The study highlights changing trends in tourist destinations and origins based
+    on climatic conditions.
+  10: Supplementary material S2 contains a complete table of international tourism
+    arrival data.
+  12: The paper suggests increased climate sensitiveness by international tourism
+    and increased propensity to travel abroad from the warmest countries.
+  13: The model's projections are subject to uncertainty inherent in social phenomena.
+    The model is based on tourism data collected according to UN-WTO recommendations.
+Outcome(s) of Interest:
+  1: Loss of competitiveness for traditional warm tourist destinations; Increased
+    attractiveness for high latitude countries in terms of international tourism flows;
+    Impact on international tourism flows
+  7: No relevant information
+  8: No relevant information
+  10: Percentage variation in tourist arrivals.
+  12: Impact on international tourism arrivals due to climate change.
+  13: No relevant information
+Quantitative material:
+  1: Analysis uses data from 1995 to 2010 for international tourism movement between
+    178 countries.
+  7: Coefficients and t-statistics are reported for various variables including temperature,
+    precipitation, and coastline, in relation to the dependent variable in Equations
+    3 and 4 (not defined on this page).
+  8: "Temperature turning points at destinations are 15.7 \xBAC and origins are 14.7\
+    \ \xBAC on average."
+  10: Percentage change in tourist arrivals for 2080 compared to arrivals in 2007
+    under climate change scenarios A2, B1, and B2.
+  12: Table 2 presents estimated changes in international tourism arrivals for top
+    tourist countries under climate change scenarios A2, B1, and B2, with and without
+    considering GDPpc growth.
+  13: No relevant information

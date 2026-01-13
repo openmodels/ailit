@@ -1,0 +1,196 @@
+Drivers of Risk:
+  3: Temperature shocks (deviations from historical averages) proxy climate change;
+    Severe climate change.
+  4: Temperature shocks (deviations from historical averages), climate change regimes
+    (high vs. low temperature)
+  7: High temperature shocks.
+  8: Temperature shocks used as a proxy for climate change.
+  9: Temperature shocks are calculated as temperature deviations from historical average
+    temperatures.
+  10: Quarterly temperature shocks, computed as temperatures that deviate from historical
+    30/25/20-year moving averages
+  11: Temperature shocks (tempv_30, tempv_25, tempv_20 representing deviations from
+    30/25/20-year moving averages) and monetary policy (M2)
+  12: Temperature shocks (high vs. low regimes).
+  13: Temperature shocks deviations from historical 30/25/20-year moving averages
+    affect economic outputs.
+  14: Temperature shocks are considered as they have potential immediate impacts on
+    economic variables, including monetary policy impacts.
+  16: Temperature shocks are impacting monetary policy efficiency, varying by high
+    and low regimes of tempv_30, tempv_25, and tempv_20.
+  17: High- and low-temperature shocks that deviate from 20/25/30-year moving averages.
+  18: High-temperature shocks lead to increased risks for banks, causing a climate-induced
+    credit constraint.
+  19: Temperature shocks (tempv_H, tempv_30, tempv_25, tempv_20), monetary policy
+    shocks.
+  21: Temperature shocks measured as deviations from historical averages are impacting
+    non-performing loan ratios and monetary policy efficiency.
+  22: Temperature shocks; Climate change
+  25: Climate change, natural disasters, temperatures, cyclones, weather, environmental
+    degradation
+Highlights:
+  3: "Climate change regime-dependent monetary policy is characterized; Expansionary\
+    \ monetary policy is less efficient and the negative impact of tight monetary\
+    \ policy is enhanced when climate change is severe; Climate-induced credit constraint\
+    \ of commercial banks explains the results; Higher temperature shocks lead to\
+    \ increases in banks\u2019 non-performing loan ratios, resulting in larger credit\
+    \ constraints and a weakened bank credit channel of monetary policy transmissions."
+  4: The influence of monetary policy on economic output is climate change regime-dependent.
+    Temperature shocks weaken the efficiency of expansionary monetary policy and worsen
+    the effects of contractionary monetary policy. Asymmetries in monetary policy
+    effects are more apparent under high-temperature regimes. Climate change affects
+    the effectiveness of monetary policy by increasing credit constraints for commercial
+    banks (through increased loan default rates and non-performing loan ratios).
+  7: "High temperatures weaken firm profitability, which deteriorates firm balance\
+    \ sheets and firms\u2019 ability to repay loans from banks, increasing non-performing\
+    \ loan ratios."
+  8: The paper investigates how climate change affects the influence of monetary policy
+    through temperature shocks as a threshold variable.
+  11: The paper uses a TVAR model to analyze the impact of temperature shocks (deviations
+    from historical averages) on macroeconomic variables like GDP and CPI, also taking
+    into consideration monetary policy (M2).
+  12: High temperature regimes weaken the efficiency of monetary expansions and worsen
+    the effects of monetary tightening on GDP. Monetary policy transmission is temperature-regime
+    dependent.
+  13: Climate change leads to larger fluctuations in economic outputs and prolongs
+    divergence from steady states.
+  14: The study reveals different impacts of monetary policy on GDP when subjected
+    to high and low temperature shocks.
+  16: Monetary policy effectiveness is lower under higher temperature shocks.
+  17: Use of different time frames (20, 25, 30 years) for temperature deviations to
+    show how monetary policy shocks affect GDP under varying temperature regimes.
+  18: Climate change impacts the effectiveness of monetary policy due to increased
+    credit constraints under high-temperature regimes.
+  19: The impulse responses show how output (GDP_ind) reacts to monetary policy shocks
+    differently under high and low-temperature shock regimes. The graphs suggest that
+    the impact of monetary policy on output is conditional on the temperature regime.
+  21: Temperature increases weaken the efficiency of monetary expansions and exacerbate
+    negative effects of monetary tightening; temperature shocks increase the non-performing
+    loan ratio of banks.
+  22: Climate change weakens the credit channel of monetary policy transmission. Tight
+    monetary policy has stronger effects in both high- and low-temperature regimes,
+    especially under high-temperature regimes. Central banks should incorporate climate
+    change into their monetary policy framework.
+  25: Climate risks and natural disasters can significantly impact economic production,
+    financial stability, and firm investment.
+Methodology:
+  3: Threshold Vector Autoregression model (TVAR) is used to estimate the impact of
+    expansionary and tight monetary shocks on economic output under high and low regimes
+    of temperature shocks.
+  4: Uses a Time-Varying Auto Regression (TVAR) framework to analyze the impact of
+    monetary policy on output under different temperature regimes. Analyzes the generalized
+    impulse responses of output to positive and negative monetary shocks under high-
+    and low-temperature regimes. Uses M2 as the monetary policy variable.
+  7: Focuses on the credit channel of monetary policy in China, analyzing the role
+    of banks in transmitting the impact of climate change on monetary policy.
+  8: A TVAR model is used to assess regime-dependent nonlinear effects of monetary
+    policy under climate change.
+  9: The authors use temperature shocks and a TVAR model to calculate impulse responses
+    for each regime. They calculate temperature shocks in China by selecting meteorological
+    stations, taking quarterly averages of daily temperatures, and removing the trend
+    by subtracting historical averages.
+  10: "Time-varying vector autoregression (TVAR) model, augmented Dickey\u2013Fuller\
+    \ (ADF) test for stationarity"
+  11: Augmented Dickey-Fuller (ADF) unit root test to check for stationarity; TVAR
+    (Threshold Vector Autoregression) model to estimate the relationship between temperature
+    shocks, monetary policy, price level and output. Nonlinearity tests of B. E. Hansen
+    (1999) and Lo and Zivot (2001) to test the appropriateness of the TVAR model.
+  12: Time-Varying Autoregression (TVAR) model with two regimes based on temperature
+    shocks, analyzing Generalized Impulse Response Functions (GIRFs) to assess output
+    responses to positive and negative monetary policy shocks. Applicable for short-term
+    (20 quarters) analysis of monetary policy effects under different temperature
+    regimes.
+  13: TVAR models and impulse response analysis used to assess economic responses
+    to monetary policy and temperature shocks.
+  14: The analysis uses a TVAR model with alternative orderings of endogenous variables,
+    focusing on impulse responses to monetary policy under temperature shocks.
+  16: TVAR model analyzing impulse responses to monetary and fiscal policy shocks
+    under temperature deviations from historical moving averages.
+  17: Use of a Threshold Vector Autoregression (TVAR) model to assess the impulse
+    responses of GDP to temperature and monetary policy shocks.
+  18: The paper uses a TVAR model to examine impulse responses of GDP to monetary
+    policy shocks under temperature variations.
+  19: TVAR (Time-Varying Autoregressive) model and regressions are used. Specifically,
+    the study models the growth rate of bank loan scale and non-performing loan ratio
+    of banks as functions of temperature shocks and other control variables.
+  21: Analysis utilizes temperature shocks as proxies for climate change and employs
+    TVAR models and GIRFs to assess monetary policy effects under different temperature
+    regimes.
+  22: Time-Varying Coefficient Autoregressive (TVAR) model. Applicable to China.
+  25: Cross-country analysis, dynamic simultaneous equations panel analysis, threshold-VAR
+    approach, VAR models, impulse response analysis, threshold cointegration
+More Notes:
+  3: The paper investigates whether climate change affects the efficiency of monetary
+    policy in China.
+  4: The paper suggests that policymakers should consider climate change in monetary
+    policy formulations. Expansionary monetary policy could be more aggressive when
+    temperatures are higher, and contractionary monetary policy could be more conservative
+    when climate change is severe.
+  7: The paper proposes a climate-induced credit constraint where high temperatures
+    increase bank non-performing loan ratios, making banks more risk averse and dampening
+    the efficiency of monetary policies.
+  9: The temperature data used spans from 2004Q2 to 2021Q4.
+  11: 'The sample period for the analysis is 2004Q2 to 2021Q4. The ADF tests suggest
+    the variables are stationary. Nonlinearity tests indicate that using a TVAR model
+    is reasonable (significant p-values for 1vs2 and 1vs3 tests) in some cases. '
+  19: The paper also investigates the impact of temperature shocks on bank lending
+    and non-performing loans.
+  22: The study focuses on the banking sector's role in monetary policy transmission
+    in China. The authors suggest future research should investigate the role of capital
+    markets in developed economies and explore other climate change proxies like precipitation,
+    drought, and floods.
+  25: The references cover a range of macroeconomic and financial topics, including
+    the effects of climate change, natural disasters, and monetary policy. Several
+    studies focus on specific countries or regions like China, the Caribbean, and
+    Central America.
+Outcome(s) of Interest:
+  3: Economic output is affected by climate change through the influence of monetary
+    policy.
+  4: Economic output (GDP), Price level (CPI)
+  7: Firm profitability is negatively affected.
+  8: The efficiency of monetary policy affected by climate change, potentially impacting
+    interest rates and economic growth.
+  10: GDP (year-on-year growth rate of gross domestic product), consumer price index
+    (CPI)
+  11: GDP, CPI (price level)
+  12: GDP response to monetary policy shocks.
+  13: Macroeconomic outcomes examined include GDP effects in response to temperature
+    and monetary policy shocks.
+  14: The paper examines the impact of monetary policy shocks on GDP growth under
+    different temperature regimes.
+  16: Impulse responses show GDP effects from monetary policy shocks under different
+    temperature shock regimes.
+  17: Analyzes the impact of temperature shocks on GDP using the impulse response
+    to monetary policy shocks.
+  18: High temperatures are linked to weakened firm profitability, increased bank
+    loan default probabilities, and higher non-performing loan ratios, affecting monetary
+    policy efficiency.
+  19: GDP indicator (GDP_ind), growth rate of bank loan scale, non-performing loan
+    ratio of banks.
+  22: Labor productivity; TFP growth; Firm profitability; Non-performing loan ratio
+    of banks; Effectiveness of monetary policy (expansionary and tight)
+  25: Economic production, total factor productivity, firm investment, income inequality
+Quantitative material:
+  4: No specific quantitative values are provided on this page; it describes the methodology
+    and qualitative findings.
+  11: Summary statistics (mean, standard deviation, min, max) for temperature shocks
+    (tempv_30, tempv_25, tempv_20), M2, GDP, and CPI; ADF test statistics and critical
+    values; LR statistics and p-values for nonlinearity tests.
+  12: GDP increases by at most approximately 0.4% under low temperature regimes after
+    positive monetary policy shocks; output only increases by approximately 0.1% following
+    the monetary shock under high regimes; under low regimes of temperature shocks,
+    the output falls by at most approximately 0.5% after a negative monetary policy
+    shock, and under high regimes, it falls by at most approximately 0.9%.
+  13: Impulse responses of GDP variably influenced by temperature deviations, depicted
+    in line graphs.
+  16: Output increases by 0.3% in low regime and 0.2% in high regime after a positive
+    monetary shock with 20-year historical temperature averages.
+  17: Graphical representations showing impulse responses of GDP to temperature shocks.
+  19: Impulse responses of output (GDP_ind) to monetary policy shocks under different
+    temperature regimes. The graphs show the magnitude and direction of GDP_ind responses
+    to both positive and negative monetary policy shocks when temperatures deviate
+    from historical moving averages (30, 25, and 20 years).
+  22: No quantitative information on the outcomes of interest on this page.
+  25: Some articles provide quantitative relationships or estimates (e.g., GDP effects,
+    financial impacts of disasters), but the specific numbers are not extracted in
+    this list.

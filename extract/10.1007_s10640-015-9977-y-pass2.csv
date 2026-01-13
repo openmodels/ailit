@@ -1,0 +1,47 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Public Expenditure,Russia,Mild warming,2020,No CC,USD billion,3,NA,NA,NA,NA,NA,1,Savings due to mild temperature increase (1-2°C).
+1,Public Expenditure,Russia,Mild warming,2020,No CC,USD billion,4,NA,NA,NA,NA,NA,1,Savings due to mild temperature increase (1-2°C).
+2,Expenditures,Russia,Mild warming,2020,2000,USD Billion,-3,NA,NA,NA,NA,NA,3,"Savings in regional government expenditures due to warming, without any adaptation measures. Range is from -2 to -4, so I picked the midpoint."
+3,Regional Expenditures,Russia,Historical,2002,No CC,% change/capita,-3,NA,NA,NA,NA,NA,p.15,"1 degree C increase, linear model, annual lagged temp."
+4,Nationwide Expenditures,Russia,Historical,2002,No CC,% change,-2.6,NA,NA,NA,NA,NA,p.16,"Pop weighted avg, full data, 1 degree C increase."
+5,Nationwide Expenditures,Russia,Historical,2002,No CC,% change,-1.5,NA,NA,NA,NA,NA,p.16,"Pop weighted avg, cut data, 1 degree C increase."
+6,Housing Expenditures,Russia,Historical,2002,Warming Costs,deg C,4,NA,NA,NA,NA,NA,p.16,Avg temp where warming savings become net costs.
+7,Expenditures,Russia,Observed historical,2009,No CC,%,-33,NA,NA,NA,NA,NA,Page 17,The LD model result suggests a theoretical decrease of about a third in real expenditures per capita with a +1°C increase in regional average temperature.
+8,Total expenditures,Russia,Full data,2005,1995-2001 avg to 2002-2009 avg,coefficient,-0.342,0.122,NA,NA,NA,NA,Page 18,Long-difference (LD) estimations.
+9,Total expenditures,Russia,Cut tails,2005,1995-2001 avg to 2002-2009 avg,coefficient,-0.321,0.140,NA,NA,NA,NA,Page 18,Long-difference (LD) estimations with data excluding 5 % of both tails from temperature and precipitation variables.
+10,Housing expenditures,Russia,Full data,2005,1995-2001 avg to 2002-2009 avg,coefficient,-0.002,0.001,NA,NA,NA,NA,Page 18,Long-difference (LD) estimations. p < 0.1
+11,Housing expenditures,Russia,Cut tails,2005,1995-2001 avg to 2002-2009 avg,coefficient,-0.003,0.001,NA,NA,NA,NA,Page 18,Long-difference (LD) estimations with data excluding 5 % of both tails from temperature and precipitation variables. p < 0.05
+12,Total expenditures,Russia,Full data,2005,1995-2001 avg to 2002-2009 avg,coefficient,0.017,0.003,NA,NA,NA,NA,Page 18,Long-difference (LD) estimations.
+13,Total expenditures,Russia,Cut tails,2005,1995-2001 avg to 2002-2009 avg,coefficient,0.018,0.004,NA,NA,NA,NA,Page 18,Long-difference (LD) estimations with data excluding 5 % of both tails from temperature and precipitation variables.
+14,Housing expenditures,Russia,Cut tails,2005,1995-2001 avg to 2002-2009 avg,coefficient,0.015,0.008,NA,NA,NA,NA,Page 18,Long-difference (LD) estimations with data excluding 5 % of both tails from temperature and precipitation variables. p < 0.05
+15,Total Expenditure,Russia,B1,2020,No CC,USD billion,-3.1,NA,NA,NA,NA,NA,Page 19,The result refers to the non-linear FE models using full data for the 2020s. It is presented as a relative change in real terms from 2000 expenditures.
+16,Total Expenditure,Russia,A2,2020,No CC,USD billion,-2.7,NA,NA,NA,NA,NA,Page 19,The result refers to the non-linear FE models using full data for the 2020s. It is presented as a relative change in real terms from 2000 expenditures.
+17,Total Expenditure,Russia,B1,2020,No CC,USD billion,-1.8,NA,NA,NA,NA,NA,Page 19,This value pertains to the change in expenditures using the cut data set.
+18,Total Expenditure,Russia,A2,2020,No CC,USD billion,-1.6,NA,NA,NA,NA,NA,Page 19,This value pertains to the change in expenditures using the cut data set.
+19,Regional Budget Expenditures,Russia,Warming ~1°C,2020,Baseline,USD,2000000000,NA,NA,NA,NA,NA,20,"Lower bound estimate of savings, non-discounted US dollars, cumulative between 2000 and 2020s"
+20,Regional Budget Expenditures,Russia,Warming ~1°C,2020,Baseline,USD,4000000000,NA,NA,NA,NA,NA,20,"Upper bound estimate of savings, non-discounted US dollars, cumulative between 2000 and 2020s"
+21,Regional Budget Expenditures,Russia,Warming ~1°C,2000,Baseline,USD,1000000000,NA,NA,NA,NA,NA,20,"Roughly half of the savings, non-discounted US dollars, cumulative between 2000 and 2020s, accrued by the end of the 2000s."
+22,Regional Budget Expenditures,Russia,1°C Temp Increase,2020,Baseline,%,-2.6,NA,NA,NA,NA,NA,20,"Population-weighted estimate, decrease in regional budget expenditures in real terms. Using 2020 as a representative year."
+23,Total expenditures,Russia,"LD, Growing DD, Full",2001,Precipitation,NA,-0.0005,0.0008,NA,NA,NA,NA,23,Coefficient for precipitation in regression model.
+24,Total expenditures,Russia,"LD, Growing DD, Cut",2001,Precipitation,NA,0.0000,0.0007,NA,NA,NA,NA,23,Coefficient for precipitation in regression model.
+25,Housing expenditures,Russia,"LD, Growing DD, Full",2001,Growing DD,NA,-0.0009,0.0006,NA,NA,NA,NA,23,Coefficient for growing degree days in regression model.
+26,Housing expenditures,Russia,"LD, Growing DD, Cut",2001,Growing DD,NA,-0.0007,0.0006,NA,NA,NA,NA,23,Coefficient for growing degree days in regression model.
+27,Total expenditures,Russia,"LD, Heating DD, Full",2001,Precipitation,NA,-0.0004,0.0007,NA,NA,NA,NA,23,Coefficient for precipitation in regression model.
+28,Total expenditures,Russia,"LD, Heating DD, Cut",2001,Precipitation,NA,-0.0005,0.0008,NA,NA,NA,NA,23,Coefficient for precipitation in regression model.
+29,Housing expenditures,Russia,"LD, Heating DD, Full",2001,Precipitation,NA,-0.0020,0.0012,NA,NA,NA,NA,23,Coefficient for precipitation in regression model. * significant at the 10% level
+30,Housing expenditures,Russia,"LD, Heating DD, Cut",2001,Precipitation,NA,-0.0017,0.0014,NA,NA,NA,NA,23,Coefficient for precipitation in regression model.
+31,Total expenditures,Russia,"LD, Cooling DD, Full",2001,Precipitation,NA,-0.0006,0.0008,NA,NA,NA,NA,23,Coefficient for precipitation in regression model.
+32,Total expenditures,Russia,"LD, Cooling DD, Cut",2001,Precipitation,NA,-0.0007,0.0009,NA,NA,NA,NA,23,Coefficient for precipitation in regression model.
+33,Housing expenditures,Russia,"LD, Cooling DD, Full",2001,Precipitation,NA,-0.0019,0.0013,NA,NA,NA,NA,23,Coefficient for precipitation in regression model.
+34,Housing expenditures,Russia,"LD, Cooling DD, Cut",2001,Precipitation,NA,-0.0018,0.0014,NA,NA,NA,NA,23,Coefficient for precipitation in regression model.
+35,Total expenditures,Russia,"Fixed Effects, Full",2001,Temperature,NA,-0.342,0.119,NA,NA,NA,NA,23,Coefficient for temperature in regression model. *** significant at the 1% level
+36,Total expenditures,Russia,"Fixed Effects, Cut",2001,Temperature,NA,-0.321,0.137,NA,NA,NA,NA,23,Coefficient for temperature in regression model. ** significant at the 5% level
+37,Housing expenditures,Russia,"Fixed Effects, Full",2001,Temperature,NA,-0.228,0.178,NA,NA,NA,NA,23,Coefficient for temperature in regression model.
+38,Housing expenditures,Russia,"Fixed Effects, Cut",2001,Temperature,NA,-0.216,0.193,NA,NA,NA,NA,23,Coefficient for temperature in regression model.
+39,Total expenditures,Russia,"Fixed Effects, Full",2001,Precipitation,NA,-0.001,0.001,NA,NA,NA,NA,23,Coefficient for precipitation in regression model.
+40,Total expenditures,Russia,"Fixed Effects, Cut",2001,Precipitation,NA,-0.001,0.001,NA,NA,NA,NA,23,Coefficient for precipitation in regression model.
+41,Housing expenditures,Russia,"Fixed Effects, Full",2001,Precipitation,NA,-0.002,0.001,NA,NA,NA,NA,23,Coefficient for precipitation in regression model. * significant at the 10% level
+42,Housing expenditures,Russia,"Fixed Effects, Cut",2001,Precipitation,NA,-0.003,0.001,NA,NA,NA,NA,23,Coefficient for precipitation in regression model. ** significant at the 5% level
+43,Total expenditures,Russia,"Fixed Effects, Full",2001,Industrial growth,NA,0.017,0.003,NA,NA,NA,NA,23,Coefficient for industrial growth in regression model. *** significant at the 1% level
+44,Total expenditures,Russia,"Fixed Effects, Cut",2001,Industrial growth,NA,0.018,0.004,NA,NA,NA,NA,23,Coefficient for industrial growth in regression model. *** significant at the 1% level
+45,Housing expenditures,Russia,"Fixed Effects, Cut",2001,Industrial growth,NA,0.015,0.007,NA,NA,NA,NA,23,Coefficient for industrial growth in regression model. ** significant at the 5% level

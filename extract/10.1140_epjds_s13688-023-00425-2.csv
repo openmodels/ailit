@@ -1,0 +1,41 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,GDP change per capita,China,NA,1990,NA,log first difference,0.36,0.14,1%,0.05,99%,0.7,Table 1,Based on data from 1990-2005
+1,GDP change per capita,China,NA,1995,NA,log first difference,0.36,0.14,1%,0.05,99%,0.7,Table 1,Based on data from 1990-2005
+2,GDP change per capita,China,NA,2000,NA,log first difference,0.36,0.14,1%,0.05,99%,0.7,Table 1,Based on data from 1990-2005
+3,GDP change per capita,China,NA,2005,NA,log first difference,0.36,0.14,1%,0.05,99%,0.7,Table 1,Based on data from 1990-2005
+4,Precipitation,East Asia,NA,1990,NA,cm,34.81,26.92,1%,4.28,99%,134.63,Table 1,Based on data from 1985-2005
+5,Precipitation,East Asia,NA,1995,NA,cm,34.81,26.92,1%,4.28,99%,134.63,Table 1,Based on data from 1985-2005
+6,Precipitation,East Asia,NA,2000,NA,cm,34.81,26.92,1%,4.28,99%,134.63,Table 1,Based on data from 1985-2005
+7,Precipitation,East Asia,NA,2005,NA,cm,34.81,26.92,1%,4.28,99%,134.63,Table 1,Based on data from 1985-2005
+8,Temperature,East Asia,NA,1990,NA,°C,4.76,8.49,1%,-9.96,99%,23.94,Table 1,Based on data from 1985-2005
+9,Temperature,East Asia,NA,1995,NA,°C,4.76,8.49,1%,-9.96,99%,23.94,Table 1,Based on data from 1985-2005
+10,Temperature,East Asia,NA,2000,NA,°C,4.76,8.49,1%,-9.96,99%,23.94,Table 1,Based on data from 1985-2005
+11,Temperature,East Asia,NA,2005,NA,°C,4.76,8.49,1%,-9.96,99%,23.94,Table 1,Based on data from 1985-2005
+12,GDP,China,RCP8.5,2100,2005 temperature,°C,6.62,NA,NA,NA,NA,NA,Page 7,Average temperature change
+13,Optimal Temperature,China,NA,2023,No CC,°C,16,NA,NA,NA,NA,NA,Page 11," ""Estimated using GEcon4.0 economic data in poor countries including China"""
+14,GDP Change,China,1°C warming,2023,No CC,% change,-0.78,NA,NA,NA,NA,NA,Page 11,Based on a 27-year panel dataset of 274 prefecture cities.
+15,GDP Change,Poorer countries,1°C warming,2023,No CC,% change,-1.3,NA,NA,NA,NA,NA,Page 11,
+16,GDP Change,Caribbean-basin countries,1°C warming,2023,No CC,% change,-2.5,NA,NA,NA,NA,NA,Page 11,
+17,GDP Change,Global,1°C warming,2023,No CC,% change,-7,NA,NA,NA,NA,NA,Page 11,Reported by ZGK.
+18,Per-capita income growth rate,India,1°C warming,2023,No CC,% change,-4.7,NA,NA,NA,NA,NA,Page 11,Estimated for district per-capita income in India.
+19,GDP Change,China,1°C warming,2023,Base year,% change,1,NA,NA,NA,NA,NA,Page 11,"Linear simulation using Random Forests, approximately 1% change."
+20,GDP growth (per capita),China,Temperature rise by 1°C,2005,No CC,%,0.6,NA,NA,NA,NA,NA,"Page 13, Fig 3 (b)-(d)","Threshold level, areas where per capita GDP growth exceeds this value will expand."
+21,GDP growth (per capita),China,Temperature rise by 6°C,2005,No CC,%,0.6,NA,NA,NA,NA,NA,"Page 13, Fig 3 (b)-(d)","Threshold level, areas where per capita GDP growth exceeds this value will expand."
+22,GDP growth,China,Temperature rise (below 6.5°C),2023,No CC,%,1,NA,NA,NA,NA,NA,NA,Page 14
+23,GDP growth,China,Temperature rise (below 6.5°C),2023,No CC,%,-3,NA,NA,NA,NA,NA,NA,Page 14
+24,GDP growth,China,Temperature rise (below 6.5°C),2023,No CC,%,6,NA,NA,NA,NA,NA,NA,Page 14
+25,GDP,China,Temperature rise,2050,No CC,%,-3,NA,NA,NA,NA,-10,Page 16,Based on cubic regression with lagged effects. Value Changes from -3 to -10. Year is illustrative
+26,GDP,China,Temperature rise,2050,No CC,%,6,NA,NA,NA,NA,-4,Page 16,Based on spline regression with lagged effects. Value Changes from 6 to -4. Year is illustrative
+27,GDP,China,Temperature rise,2050,No CC,%,0.87,NA,NA,NA,NA,0.43,Page 16,Based on RF regression with lagged effects. Value Changes from 0.87 to 0.43. Year is illustrative
+28,GDP growth,China,Temperature rise of 1°C,2023,No CC,%,1,NA,NA,NA,NA,NA,Highlights,Using Random Forests. National level impact based on cell-level data aggregation. Year is publication year.
+29,GDP growth,China,Temperature rise of 6.5°C,2023,No CC,%,6.5,NA,NA,NA,NA,NA,Highlights,Using Random Forests. National level impact based on cell-level data aggregation. Max temp rise scenario is based on RCP8.5 projections. Year is publication year.
+30,GDP Change,China,Temp rise 0.5-6.5°C,2023,Historical experience,%,1,NA,NA,NA,NA,NA,Page 21,Marginal prediction of Random Forest model for every 1°C temperature rise.
+31,GDP Change,China,Temp rise 0.5-6.5°C,2023,Historical experience,%,-3,NA,NA,NA,NA,NA,Page 21,Marginal prediction of Cubic Regression model for every 1°C temperature rise.
+32,GDP Change,China,Temp rise 0.5-6.5°C,2023,Historical experience,%,6,NA,NA,NA,NA,NA,Page 21,Marginal prediction of Linear Spline Regression model for every 1°C temperature rise.
+33,Optimal Temperature,China,NA,2023,NA,°C,15,NA,NA,NA,NA,NA,Page 21,Optimal temperature for log per capita GDP changes in cells.
+34,GDP Change,China,Training Sample,2023,NA,%,5,NA,NA,NA,NA,NA,Page 21,Lower Bound of Cell GDP change impact of temperature changes using Random Forests.
+35,GDP Change,China,Training Sample,2023,NA,%,85,NA,NA,NA,NA,NA,Page 21,Upper Bound of Cell GDP change impact of temperature changes using Random Forests.
+36,GDP Change,China,Training Sample,2023,NA,%,-10,NA,NA,NA,NA,NA,Page 21,Lower Bound of Cell GDP change impact of temperature changes using Cubic Regression.
+37,GDP Change,China,Training Sample,2023,NA,%,103,NA,NA,NA,NA,NA,Page 21,Upper Bound of Cell GDP change impact of temperature changes using Cubic Regression.
+38,GDP Change,China,Training Sample,2023,NA,%,-11,NA,NA,NA,NA,NA,Page 21,Lower Bound of Cell GDP change impact of temperature changes using Spline Regression.
+39,GDP Change,China,Training Sample,2023,NA,%,120,NA,NA,NA,NA,NA,Page 21,Upper Bound of Cell GDP change impact of temperature changes using Spline Regression.

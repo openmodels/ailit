@@ -1,0 +1,149 @@
+Drivers of Risk:
+  5: Changes in the distribution of outdoor temperature (F0), other climate variables
+    (e.g., humidity)
+  6: "Changes in the probability distribution of experiencing temperature (f(t) changing\
+    \ from F0(t) to F\u03C4(t) due to climate change)."
+  8: Global warming/Climate change (warmer summers and winters).
+  12: Temperature fluctuations, specifically very cold and hot days, impacting electricity
+    consumption.
+  13: Weather shocks, temperature changes
+  16: Cooling Degree Days (CDDs) as a result of climate change.
+  18: Predicted shifts in climate for EU member countries and the relatively high
+    incomes.
+  20: Cooling degree days (CDD), income levels.
+  21: Climate affects energy consumption via short-run weather shocks (intensive margin)
+    and long-run adaptation through changing durable goods (extensive margin).
+  29: Temperature changes (implied)
+Highlights:
+  6: Climate change alters the distribution of temperatures, affecting energy expenditures
+    needed to maintain desired indoor temperatures. Welfare effects of climate change
+    can be measured by changes in these expenditures, considering both the cost of
+    energy and adjustments in durable goods. Panel data provides better estimates
+    of this effect.
+  8: Global warming will result in fuel switching in the United States with more homes
+    heating with electricity. Warmer summers result in more electricity and oil consumption,
+    while warmer winters will result in less natural gas consumption for households.
+    Commercial firms are expected to increase electricity consumption and decrease
+    oil consumption as temperatures increase.
+  9: Cross-sectional approaches may be biased due to unobservable differences and
+    non-random sorting. Time-series approaches offer an alternative to assess weather's
+    impact on energy consumption.
+  12: The study finds a U-shaped response function where electricity consumption is
+    higher on very cold and hot days.
+  13: Panel data is the most promising method for estimating the effect of weather
+    on energy expenditures.
+  16: "Ignoring the adoption decision of air conditioners would lead to an underestimation\
+    \ of future electricity consumption. Higher CDDs lead to increased adoption of\
+    \ air conditioners and higher use. Adding the extensive margin adjustment results\
+    \ in increases that are signi\uFB01cant and matter when making forecasts. Technological\
+    \ progress and uncertainty in durable goods efficiency play a role in consumer\
+    \ decisions."
+  20: Air conditioner adoption is climate-dependent and income-dependent. Adoption
+    rates are low in many developing countries but rise significantly at income levels
+    of $25,000.
+  21: Understanding of air conditioner penetration by country is limited, making projections
+    of future penetration under different climate, income and price scenarios a challenging
+    but important task.
+  29: Temperature slope coefficients are estimated for different climate zones, represented
+    by a representative city for that climate zone.
+Methodology:
+  5: Theoretical model of household utility maximization subject to budget constraints,
+    considering energy prices, durables prices, and temperature distribution
+  6: "The paper proposes using changes in energy expenditures as a proxy for the welfare\
+    \ effects of climate change. It distinguishes between a comprehensive measure\
+    \ (\u2206W) considering changes in both energy and durables and an intensive margin\
+    \ measure (\u2202W/\u2202t) focusing on the immediate impact of temperature changes\
+    \ on energy expenditures. Panel data estimates are highlighted as preferable to\
+    \ time series data for estimating the effect of temperature on energy expenditure."
+  8: Discrete-continuous choice model where fuel choice is endogenous to climate change.
+    The first step estimates a multinomial logit model, and the second equation is
+    of conditional demand.
+  9: The paper discusses and critiques cross-sectional and time-series approaches
+    to analyzing the effects of weather and climate on energy consumption. Cross-sectional
+    studies are criticized for potential omitted variable bias due to non-random sorting
+    of households into different climate zones and the assumption that the year of
+    the sample reflects long-run expectations. Time-series studies, specifically univariate
+    time-series data, are discussed as an alternative, with examples focusing on electricity
+    load and energy demand.
+  12: The study uses state and census division fixed effects and flexible functions
+    of precipitation, population, and income to model log consumption with temperature
+    data entering as the number of days in a temperature bin.
+  13: Panel data estimation of the effect of weather on energy expenditures, estimating
+    separate models for each climate zone. Could be improved by understanding the
+    likelihood of relevant weather events in a given climate zone.
+  16: Estimates a relationship between saturation and cooling degree days using an
+    equation, and also estimates an equation between state per capita electricity
+    consumption and CDDs, HDDs, and wind speed. Another study estimates a discrete-time,
+    infinite horizon dynamic consumer optimization problem.
+  18: Uses cross sectional US data to parameterize relationships which determine climate
+    dependent saturation levels in other countries.
+  20: Cross-sectional regression analysis using appliance penetration data (mostly
+    from the World Bank's LSMS database) and cooling degree days (CDD). First, a relationship
+    between climate maximum (saturation level) and CDD is estimated using US city
+    data. This is then used to predict saturation levels for developing countries.
+    Air conditioner diffusion is modeled as a function of income, conditional on the
+    climate maximum.
+  29: Estimation of temperature slope coefficients using percentile and equidistant
+    temperature bins, normalized to the 60-65 temperature bin coefficient.
+More Notes:
+  6: The paper acknowledges several caveats to its welfare measure, including price
+    responses to climate change, transition costs, discounting of future costs, exclusion
+    of direct utility effects of climate, and the possibility of relocation. The analysis
+    focuses on the household level.
+  9: The paper highlights the potential for bias in cross-sectional studies when assessing
+    the effects of climate change on energy-related outcomes, suggesting caution in
+    their application without a better understanding of the magnitude of the bias.
+  13: The paper focuses on short-run responses to weather and does not address long-run
+    adaptation. The data is only for California and may not be representative of other
+    regions or countries. There is a need for more research on how building characteristics
+    (air conditioning, fuel choice, insulation) vary with climate.
+  16: One study's relationship between saturation and cooling degree days does not
+    control for observables like income and lacks standard errors, limiting its robustness.
+  18: Data on air conditioner usage and adoption in Europe are scarce.
+  19: The page discusses the potential for increased energy demand in Europe due to
+    climate change driving increased air conditioner use. It does not explicitly discuss
+    macroeconomic or fiscal outcomes or adaptation costs/benefits but rather frames
+    the issue as one of changing energy consumption patterns, particularly peak demand,
+    and the need for better data collection and analysis.
+  20: The analysis uses a climate-dependent saturation level (Climate Maximum) based
+    on US data as a frontier for developing country adoption.
+  21: The paper reviews literature on the relationship between climate and the energy
+    sector, focusing on empirical papers published in peer-reviewed economics journals
+    on how climate affects energy expenditures.
+  29: This page references Auffhammer and Aroonruengsawat (forthcoming), suggesting
+    a replication of their analysis. The normalization to the 60-65 temperature bin
+    likely serves as a baseline or comparison point across climate zones.
+No relevant information:
+  15: This page primarily discusses air conditioning adoption in the US and does not
+    directly address the macroeconomic or macro-fiscal impacts of climate change or
+    adaptation at a national level.
+Outcome(s) of Interest:
+  5: Household energy expenditures
+  6: "Welfare effects of climate change (\u2206W) measured by changes in energy expenditures\
+    \ and durable goods, and the intensive margin welfare effect of temperature change\
+    \ (\u2202W/\u2202t) measured by changes in energy expenditures with temperature."
+  8: American energy expenditures will likely increase due to climate change.
+  12: Increase in residential energy consumption by 11 percent under 'business-as-usual'
+    climatic predictions for 2099.
+  13: Energy expenditures
+  16: Increased electricity consumption at a state and city level.
+  18: Future electricity demand in the European Union.
+  20: Air conditioner adoption/penetration rates in developing countries.
+  21: Energy expenditures are affected by climate.
+  29: No relevant information
+Quantitative material:
+  6: "Equation (3) provides a formula for calculating \u2206W as a function of changes\
+    \ in energy expenditures and durable goods. Equation (4) presents the formula\
+    \ for intensive margin welfare effects. Equation (5) provides a formula for calculating\
+    \ \u2206Wpanel based on panel data estimates."
+  8: Warmer households in Vaage (2000) are found to spend 30 percent less on fuel.
+  16: Los Angeles' per capita residential electricity consumption is projected to
+    increase by eight percent in July for a 20 percent increase in CDD, compared to
+    a five percent increase if market saturation were assumed to remain constant.
+  20: Explains 70 percent of the variation in the transformed dependent variable (log(Climate
+    Maximum/Saturation -1)) with a regression based on 24 observations. Air conditioner
+    penetration rates are very low and clustered around zero for a number of countries.
+    At income levels of $25,000 the adoption rates seem to rise drastically.
+  29: The figure displays estimated temperature slope coefficients for each of the
+    fourteen percentile bins (blue) and the equidistant bins (red) against the midpoint
+    of each bin.

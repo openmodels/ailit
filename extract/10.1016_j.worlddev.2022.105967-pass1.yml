@@ -1,0 +1,135 @@
+Drivers of Risk:
+  2: Changes in weather variables (vapor pressure deficit, wet day frequency, and
+    temperature). Climate change in the mid-future.
+  3: Temperature increase and vapor pressure deficit (VPD) are associated with millet
+    yield loss; Increase in wet day frequency improves millet output.
+  5: Average temperature (TEMP), wet day frequency (WDF), vapor pressure deficit (VPD).
+  7: "Average Temperature (\xB0C), Average Wet Days Frequency (WDF), Average Vapor\
+    \ Pressure Deficit (VPD) (kPa)"
+  9: High temperature values reduce millet output marginally in the following year,
+    but not the year after; VPD is negatively related to millet yield.
+  10: Temperature (TEMP), Water Deficit Factor (WDF), Vapor Pressure Deficit (VPD)
+  11: Weather shocks in an MPA can affect yields due to free trading among contiguous
+    MPAs.
+  12: Changes in weather variables (precipitation, temperature, VPD) due to climate
+    change.
+  14: Amplified damage from warming and diminished benefits from reduced rainfall.
+    Unmitigated warming. Flooding.
+  15: No relevant information
+Highlights:
+  2: Own-location weather variables have significant contemporaneous impacts on millet
+    yield. Vapor pressure deficit, wet day frequency and temperature are important
+    determinants of millet yield. Spatial and temporal spillovers exacerbate and attenuate
+    wet day cumulative effect, respectively. Local crop production is affected by
+    neighboring countries' production.
+  3: Increase in temperature leads to significant millet yield loss in SSA. Poor countries
+    are at the receiving end of the adverse effects of weather shocks on millet yield.
+  9: Control for spatial effects indicates larger impacts of temperature and WDF on
+    millet yield compared to non-spatial effects; indirect effects, though smaller,
+    are not negligible.
+  10: Temperature increase would adversely affect poor countries more than rich countries
+    (weakly significant). The direct and indirect effects estimates using 4-NN spatial
+    weights are not significantly different from those following the inverse distance
+    matrix in baseline estimates.
+  11: The study finds no evidence of adaptation affecting millet yield in SSA over
+    the period of study and emphasizes that results should be interpreted cautiously.
+  12: 'There is evidence of future regional warming from the GCMs. The trend in predicted
+    WDF varies across the GCMs: PCM predicts an increase, while others predict a decrease.'
+  14: Warming reduces millet yield, while increased wet days improve millet output.
+    Accounting for spatial effects amplifies the effect of wet day frequency. No evidence
+    of adaptation to gradual changes in climate over the period considered using national
+    data and long differences approaches.
+  15: No relevant information
+Methodology:
+  2: "Spatial panel data approach for 1970\u20132016, spatio-temporal econometrics\
+    \ techniques, forecast how crop production would respond to climate change."
+  3: Spatio-temporal panel data model to control for the effect of space and time,
+    including spatial lags of the dependent variable and regressors with errors clustered
+    at location level, and temporal lags of the regressors.
+  5: "The paper uses weather observations of millet main producing areas (MPAs) in\
+    \ all countries in the sample by taking a simple average of all the grid cells\
+    \ overlaying the MPAs and weighs the weather data by the proportion of area harvested\
+    \ for each crop relative to the country\u2019s total land area to account for\
+    \ heteroskedasticity."
+  7: Panel data analysis including time trend and country fixed effects is used. Spatial
+    autocorrelation is accounted for using inverse distance spatial weights matrix
+    with cutoff at 910 km, 4-nearest neighbor (4-NN) spatial weights, and spatial
+    weights based on the prevailing economic network. Models are re-estimated using
+    different spatial weights matrix to check the robustness of results.
+  9: The analysis uses spatial models, estimating direct and indirect effects of temperature,
+    and analyzes temporal lag effects based on weather variables.
+  10: Panel data analysis with spatial econometrics. Models include time trend and
+    its quadratic term, spatial weight is inverse distance, with errors clustered
+    at the MPA level. Robustness checks include different model specifications like
+    linear time trend only, no time trend, dropping South Africa, adding 3 temporal
+    lags, and using 4-NN as spatial weights. The analysis also considers the income
+    classification of SSA countries and interacts this with temperature and WDF.
+  11: The study uses long differences (LD) and flexible long differences (FLD) models
+    to estimate the impact of average weather conditions on millet yield.
+  12: "The authors use daily weather measures from three Global Climate Models (GCMs)\
+    \ under the RCP 8.5 scenario for the period 2040-2069. They derive changes in\
+    \ weather variables by differencing the projected average weather measures over\
+    \ 2040-2069 for a given grid cell over that of a relevant historical (baseline)\
+    \ period (1981\u20132010), re-calibrate the baseline model with inputs from bootstrapped\
+    \ runs, and then integrate the predicted climatic changes into the response function\
+    \ from Eq. (1) while controlling for statistical (or regression) uncertainty."
+  14: "Spatio-temporal panel data model to estimate the effect of annual weather fluctuations\
+    \ on millet yield in sub-Saharan Africa (SSA) for 1970\u20132016. Uses region-specific\
+    \ weather realizations from major production areas of millet producing countries."
+  15: No relevant information
+More Notes:
+  2: Focuses on sub-Saharan Africa and pearl millet yield.
+  3: Analysis focuses on millet, but the analysis was extended to other cereal crops
+    (results available on request). The study uses weather observations from each
+    country's main production area (MPA). The growing season used is specific to each
+    country.
+  5: The authors are introducing vapor pressure deficit (VPD) as a new weather measure
+    into the empirical literature of climate change impacts in Sub-Saharan Africa
+    (SSA).
+  7: The study focuses on the impact of weather fluctuations on millet yields, and
+    intentionally excludes several controls (such as GDP and institutional measures)
+    to avoid an 'over-controlling problem' due to their potential as outcomes of climate.
+  10: Adaptation is a critical challenge of panel model analysis, as the use of country
+    fixed effects and time trends absorbs long-run atmospheric conditions. The paper
+    acknowledges that panel models assume that the relationship modeled remains unchanged
+    even with climate change.
+  14: The beneficial effect of CO2 on crop fertilization, not accounted for in this
+    study, may attenuate the negative impact, but might not be significant for millet.
+    Uncertainties in Global Climate Models (GCMs) projections should be considered
+    when interpreting results.
+  15: The cited paper by L.E. Emediegwu, A. Wossink and A. Hall in World Development
+    158 (2022) 105967 is potentially relevant.
+Outcome(s) of Interest:
+  2: No relevant information
+  3: No relevant information
+  5: Country-level millet average yield (ton/ha).
+  7: Millet yield (ton/ha)
+  10: Millet yield
+  12: Impacts of climate change on millet yield in Sub-Saharan Africa (SSA).
+  14: Negative impact on millet output in Sub-Saharan Africa (SSA).
+  15: No relevant information
+Quantitative material:
+  2: No relevant information
+  3: For a temperature increase of 2.3oC in the region, millet yield will go down
+    by an additional 20% if all other aspects of the state of the world persist to
+    2070.
+  7: 'Millet Yield (ton/ha): Mean 0.714, SD 0.360, Min 0.04, Max 1.951; Average Temp
+    (oC): Mean 24.9, SD 3.74, Min 15.8, Max 31.5; Average WDF: Mean 11.51, SD 5.20,
+    Min 0.03, Max 23.60; Average VPD (kPa): Mean 1.286, SD 0.619, Min 0.392, Max 3.307;
+    Observations = 1457; Countries = 31; Years = 47.'
+  9: A temperature rise is associated with a fall in millet yield, with the total
+    effect of temperature is /C0 0.158, while that of WDF is 0.023.
+  10: Direct and indirect effects of TEMP, WDF, and VPD on millet yield are quantified
+    in various model specifications, including baseline, linear time trend, no time
+    trend, no South Africa, 3 lags, and 4-NN spatial weights. These are reported with
+    coefficient estimates and standard errors. Temporal effects of TEMP and WDF are
+    also quantified. The effects of TEMP and WDF are also considered for poor countries,
+    and the interaction coefficients are estimated.
+  12: Projected changes in wet day frequency (WDF), maximum temperature (Th), minimum
+    temperature (Tl), and vapor pressure deficit (VPD) are used to model millet yield
+    impacts.
+  14: Millet yield will go down by an additional 26% by the mid-century assuming land
+    use remains the same due to unmitigated warming. Current climate models estimate
+    an additional 26% loss compared to estimates from observational data, resulting
+    in 48% to 55% loss for all models by mid-century.
+  15: No relevant information

@@ -1,0 +1,173 @@
+Drivers of Risk:
+  2: Climate change leading to uncertainties in water availability, and population
+    growth increasing water demand.
+  8: Population growth increases demand for water supplies. Sustainability reductions
+    increase demand for water supplies. Drier climates increase demand for water supplies.
+  10: Population growth, climate change (Low & Wet, Central, High & Dry scenarios).
+  11: Climate change (implied via 'climatic scenarios'), population growth, per capita
+    consumption (demand), infrastructure capacity.
+  12: Population growth and climate change (specifically drought) drive water demand
+    and necessitate adaptation.
+  14: Climate change (leading to drier climates), population growth (increasing water
+    demand), and socio-economic scenarios are key drivers of risk in water management.
+  17: Changes in water use, leakage, and future flows hydrology.
+  19: Minimum residual flow, licensed maximum abstraction for river, drought conditions,
+    population growth, and climate change (specifically drier climates) drive the
+    risk to water supply.
+  22: "\u0394C (change in capacity)"
+  23: Linear extrapolation of existing water resource infrastructure costs may be
+    unsound if the relationships are non-linear; significant local factors which influence
+    cost; future technologies alter costs; cost estimates given by water companies
+    do not include all construction and maintenance costs; operating costs are based
+    on the maximum capacity of any asset investments (which might over-estimate costs
+    of options).
+Highlights:
+  2: Balanced approach involving inter-basin water transfers, local solutions, and
+    scalable demand management strategies best addresses water trilemma.
+  8: System Efficiency (SE) and System Restructure (SR) strategies are the only two
+    that have demand management and leakage reduction that actually reduce total water
+    use in the face of population growth.  In the No Build (NB) strategy water supplied,
+    CO2e emissions and the reliability measure increase for the scenarios with higher
+    population growth rates and drier climates.
+  10: Water shortages are projected in the 'high and dry' scenario and many in the
+    'central' scenario if only 2015 infrastructure is available in 2040.
+  11: Widespread reduction in per capita consumption alone is not able to prevent
+    reliability issues in all WRZs in all climate and population scenarios. The Capacity
+    Expansion strategy, while able to achieve similar reliability as the Minimum Intervention
+    strategy, results in more water being abstracted and higher emissions. Even with
+    no limits on spending, the Capacity Expansion strategy cannot guarantee water
+    security. National Planning strategy can potentially provide water security across
+    the nation.
+  12: System Restructure (SR) and System Efficiency (SE) were the most preferred adaptation
+    strategies overall.
+  17: The GBWIM model can be used to assess future water resources from a supply/demand
+    perspective under a range of investment strategies.
+  19: The analysis focuses on quantifying water supply yields and how different management
+    strategies can offset the impact of demand growth under varying climate and population
+    scenarios.
+  22: Presents a framework for costing different water management options and selecting
+    investments based on minimizing total present value costs.
+  23: The optimization module aims to find the minimum cost investment in water resource
+    infrastructure.
+  25: Water companies face sustainability reductions in water supply starting in various
+    years. Different population and climate scenarios impact net demand growth, requiring
+    different water supply management strategies.
+Methodology:
+  2: Simulation of future river flow projections using an aggregated national water
+    resource model to test policies for managing demand and supply.
+  8: The impact of three scenarios (low, central, high population growth) and five
+    water management strategies on the supply/demand balance in 2040 is modeled. An
+    ELECTRE III method was used with sensitivity analysis involving calculating the
+    average ELECTRE ranking across preference sets and scenarios.
+  10: Modeling water balance for companies in 2040 under different scenarios and adaptation
+    strategies.
+  11: Simulation of water balances for each water company in 2040 under different
+    socio-economic and climatic scenarios; comparison of different investment strategies
+    (Minimum Intervention, System Efficiency, Capacity Expansion, National Planning,
+    Standard Response) involving different approaches to demand management and infrastructure
+    investment. The geographic boundaries of water companies are shown in the images.
+  12: Multi-criteria decision analysis (MCDA) using the ELECTRE III algorithm was
+    performed to rank strategies, with sensitivity analysis across 240 runs and three
+    scenarios.
+  14: The paper uses a streamlined model of water supply-demand balance at a water
+    resource zone level, incorporating storage, demand, leakage management, inter-zonal
+    transfers, and geographically explicit estimates of changing water demand. The
+    model examines various water management strategies across different scenarios
+    and stakeholder preferences, and allows any number of strategies for examination
+    across many different scenarios, strategies and stakeholder preference sets.
+  17: The GBWIM model tracks the water balance and availability of water at the WRZ
+    scale, aggregating estimates of surface and groundwater availability. It simulates
+    the effect of investment in water infrastructure and changes in water use and
+    leakage. Baseline water supply projections are converted into supply quantities
+    available for future abstraction under different investment strategies.
+  19: The paper uses a model to calculate water yields based on minimum residual flows,
+    licensed abstractions, and drought return periods. Reservoir yields are calculated
+    using an iterative numerical approach considering reservoir storage and input
+    abstractions. The time frame shown for net demand growth in one chart is 2015-2040.
+  22: Costing of reservoir expansions and water transfers using regression models
+    for Capex and Opex. An optimal planning decision algorithm minimises the Total
+    Present Value Costs per unit of water supplied.
+  23: The analysis uses an optimization model to find the minimum cost investment
+    across different water supply management options, considering capital and operating
+    expenditures, discounted at 5%. Implemented interventions increase water supply
+    from the following year onwards.
+  25: "ELECTRE III MCDA (Multi-Criteria Decision Analysis) is used. Analysis utilizes\
+    \ Water Resource Management Plans (WRMP) 2014 and Water UK\u2019s \u201Cbase\u201D\
+    \ scenario. Sensitivity analysis involves a 50% increase and decrease in ELECTRE\
+    \ III parameter values."
+More Notes:
+  8: "The study considers alternative preference sets: \u201CSecurity & Cost\u201D\
+    , \u201CNo Preference\u201D, and \u201CGreen is Good\u201D, each with different\
+    \ weightings for Reliability, Total Cost, Water Supplied, and CO2 emissions."
+  10: The 'System Efficiency' strategy assumes lower per capita consumption reductions
+    than some other studies. The range of water balances presented is not as extreme
+    as those presented in the WaterUK report due to less extreme drought scenarios.
+  11: The analysis focuses on the water sector and the impacts of climate change and
+    population growth on water supply and demand, considering different adaptation
+    strategies.
+  12: The System Restructure (SR) strategy achieves no water restrictions with a combination
+    of demand management and traditional/emerging investment options. The System Efficiency
+    (SE) strategy performs better on environmental criteria.
+  14: The model provides a consistent methodology for analysing water management strategies
+    for all water companies. Inter-company transfers can provide water security, but
+    relying solely on them may lead to cost overruns due to infrastructure requirements
+    in multiple regions. The paper acknowledges limitations and calls for further
+    improvements to the fidelity of the analysis.
+  17: The model uses the Future Flows Hydrology (FFH) dataset and water company data
+    to estimate deployable outputs within each Water Resource Zone (WRZ). The model
+    uses sub-catchment areas for river abstractions.
+  19: The analysis is specific to water supply and does not directly address macroeconomic
+    or macro-fiscal outcomes. The geographic focus appears to be the UK based on the
+    water company maps.
+  22: "The discount rate is set at 5%. Water transfers (TR) are modelled as a function\
+    \ of distance water is transferred (km) (parameter \u07DC)."
+  23: The analysis focuses on the water sector and uses simplifying assumptions regarding
+    cost estimation and operating costs. The options module records each implemented
+    option by year and quantity of water provided/saved.
+  25: The study focuses on water supply management in England and Wales. The map images
+    show geographical boundaries of water companies. The bar chart illustrates the
+    impact of demand growth, sustainability reductions, and management strategies
+    on water supply under different scenarios. The maps using the color gradient depict
+    the data in different visualizations across geographic areas.
+Outcome(s) of Interest:
+  8: No relevant information
+  10: "Cumulative Opex (\xA3bn) under different scenarios and strategies."
+  11: Reliability of water supplies, water abstracted, CO2e emissions, costs of demand
+    management, water security
+  12: No restrictions on water usage were examined under different adaptation strategies.
+  14: The study aims to secure affordable and sustainable water resources at a national
+    scale.
+  17: No relevant information
+  19: Water supply yields (river and reservoir) under different conditions are the
+    outcome of interest.
+  22: Total Present Value Costs (Total PVC) per unit of water supplied for an investment
+    I
+  23: No relevant information
+  25: No relevant information
+Quantitative material:
+  8: No relevant information
+  10: "Cumulative Opex (\xA3bn) for different strategies (NB, MI, CE, NP, SE, SR)\
+    \ under Low & Wet, Central, and High & Dry scenarios (see table provided in prompt)."
+  11: 2% increase in domestic per capita consumption (MI strategy), 20% decrease in
+    domestic per capita consumption (SE strategy, approx. 30 Ml/person/day), 4% rise
+    in average per capita consumption (CE strategy), net demand growth (million liters
+    per day) shown in bar chart
+  12: The table provides quantitative information on public water supplies gained
+    (Ml/day) from various investment options under different strategies up to 2040.
+    The scenarios considered central population and climate.
+  17: "These supply quantities or \u2018yields\u2019 are defined as the deployable\
+    \ outputs,orlongtermmaximumwateravailableforabstraction,withineachWRZ."
+  19: Equations are provided to calculate river yield (Yr), reservoir input abstraction
+    (Qin,R), and stored water (St) at time t. Charts illustrate the effects of various
+    strategies on managing water supply under different population and climate conditions.
+  22: "Values for Capex and Opex parameters (intercept and slope) for various water\
+    \ management options (Reservoir, Desalination plant, Transfers, Leakage Reduction,\
+    \ Aquifer Recharges, Demand Reductions, Effluent Re-uses, New Ground water) are\
+    \ provided in Table A1 in '000\xA3/Ml. Energy use for each asset type is given\
+    \ in kWh/Ml."
+  23: The model uses a discount rate of 5%; initial estimates of per capita demand,
+    deployable output and leakage are provided for 2015 in Table A2 (not shown).
+  25: Water supply sustainability reductions (ML/year) for specific water companies,
+    starting in specific years (Table A4). Net demand growth (million liters per day)
+    shown in bar chart for different population and climate scenarios. ELECTRE III
+    MCDA analysis weighting values.

@@ -1,0 +1,167 @@
+Drivers of Risk:
+  1: Climate change (both positive and negative shocks).
+  2: Physical risks (increased frequency and severity of climate disasters) and transition
+    risks (market volatility caused by climate policies and the shift to a low-carbon
+    economy) are the main drivers of risk.
+  5: Positive and negative shocks to average temperature (climate change).
+  6: Positive and negative climate change (climate shocks)
+  7: Climate change (proxied by average temperature)
+  8: Temperature increase sequence (TEMP_i) and temperature decrease sequence (TEMP_d)
+  9: Increases in average temperature (TEMP_i).
+  10: Temperature changes (both increases and decreases), climate policies (including
+    the speed of transition to a low-carbon economy)
+  11: Positive and negative climate changes, including changes in temperature, impact
+    financial stability.
+  12: Temperature (TEMP), Carbon Dioxide Concentration
+  13: CO2 emissions (both positive and negative changes), climate disasters
+  14: Negative climate shocks (related to transition risks due to climate policies
+    and regulations)
+  17: Global warming
+  18: Climate change
+Highlights:
+  1: Both positive and negative climate shocks do harm to financial stability; the
+    effect of positive and negative climate shocks differ in the short and long term.
+  2: The study focuses on the impact of climate change on financial stability in China
+    and aims to provide empirical evidence that is lacking in existing research. It
+    considers both short-term and long-term perspectives and uses the NARDL model
+    for analysis.
+  5: The study investigates the long-term and short-term transmission effects of increasing
+    and decreasing average temperatures on financial stability.
+  6: The long-term impact of climate shocks on financial stability can be asymmetric.
+    The short-term transmission effect of climate change on financial stability can
+    be asymmetric. The paper explores the effect of climate change on China's financial
+    stability.
+  7: "China\u2019s financial stability index shows a rising trend, indicating that\
+    \ the stability of the Chinese financial system is constantly improving; However,\
+    \ China\u2019s financial stability index has obvious volatility characteristics."
+  9: Higher temperatures have a negative effect on China's financial stability.
+  10: "Effects of climate change on financial stability are asymmetric; Transition\
+    \ risk (too fast conversion to a low-carbon economy) can have a greater impact\
+    \ on financial stability than natural disasters caused by climate change; There\
+    \ is a long-term nonlinear relationship between climate change and \uFB01nancial\
+    \ stability."
+  11: The long-term damage of climate change on financial stability is greater than
+    short-term effects.
+  12: Climate change has a long-term negative asymmetry path to financial stability,
+    though the degree of negative asymmetry is not large. The NARDL model's parameters
+    and variance are stable.
+  13: Both positive and negative changes in CO2 emissions have a statistically significant
+    impact on financial stability (FS). Statistically significant asymmetry effects
+    between positive and negative changes in climate conditions and the stability
+    of the financial system.
+  14: Climate change has a greater long-term impact on financial stability compared
+    with short-term impact.
+  17: Global warming has increased global economic inequality (Diffenbaugh and Burke,
+    2019)
+  18: Climate change impacts on farmland value in Bangladesh.
+Methodology:
+  1: Vector autoregression model and NARDL model to assess the nonlinear asymmetric
+    effect of climate change on financial stability.
+  2: The paper empirically tests the relationship between climate change and financial
+    stability in China using the NARDL model to discuss the asymmetric transmission
+    effect of climate change on financial stability from short-term and long-term
+    perspectives.
+  5: The paper uses a Non-linear Autoregressive Distributed Lag (NARDL) model to analyze
+    the asymmetric impact of positive and negative temperature shocks (climate change)
+    on financial stability.
+  6: Wald statistics are used to test for short-term and long-term asymmetry in the
+    impact of climate shocks on financial stability. Asymmetric dynamic multipliers
+    are calculated to observe the asymmetric transmission path of climate change to
+    financial stability. Monthly data from 2002 to 2018 is used.
+  7: "Factor analysis to integrate into China\u2019s Financial Stability Index (FS).\
+    \ Bartlett test and KMO test to determine whether the sample data selected is\
+    \ suitable for factor analysis. Weighted average method used to calculate China\u2019\
+    s financial stability index based on variance contribution rate of each common\
+    \ factor. The data period is 2002 to 2018."
+  8: Vector autoregression (VAR) model is used to analyze the asymmetric impact of
+    climate change on China's financial stability; Unit root tests (ADF and PP) are
+    performed; Lag length criterion is used to determine the optimal lag order of
+    the VAR model
+  9: Two VAR models with second order lags are built for sequence TEMP_i and sequence
+    TEMP_d. Unit root tests (ADF and PP) are conducted. Lag order selection is based
+    on LogL, LR, FPE, AIC, SC, and HQ criteria.
+  10: VAR model (for short-term effects); NARDL model (for long-term and short-term
+    nonlinear and asymmetric effects); NARDL model lag order p=1 and q=1 according
+    to Jeffrey (2019); Unit root test used to check data stationarity.
+  11: The analysis utilizes a Nonlinear Autoregressive Distributed Lag (NARDL) model
+    to estimate asymmetric long-term coefficients between climate change and financial
+    stability.
+  12: NARDL (Nonlinear Autoregressive Distributed Lag) model; Cumulative sum of squares
+    recursive residuals test to confirm model stability. Robustness test using carbon
+    dioxide concentration as an indicator of climate change. Analysis is performed
+    on monthly carbon dioxide data from NOAA.
+  13: Nonlinear Autoregressive Distributed Lag (NARDL) model. Asymmetry and co-integration
+    tests are performed. Robustness tests are also conducted. First difference operator
+    is used. Positive and negative partial sums are used to represent the positive
+    and negative changes in climate conditions.
+More Notes:
+  1: Focuses on the nexus between climate change and financial stability from a nonlinear
+    and asymmetric perspective.
+  2: The paper aims to quantify the influence of climate change on financial stability
+    and argues that addressing climate change's impact on the financial system is
+    critical.
+  6: The paper uses nine indicators covering financial development, macroeconomic
+    situation, and the functioning of financial markets to measure China's financial
+    stability. Min-Max standardization is used to process the data.
+  7: Negative indicators are inverted to ensure all indicators have the same direction
+    of influence on financial stability index. Average temperature data from 173 stations
+    used as proxy for climate change.
+  9: TEMP_i and TEMP_d are temperature variables, with TEMP_d being a second order
+    lag of some temperature variable.
+  10: Analysis focuses on financial stability in China.
+  11: Asymmetric dynamic cumulative effect shows that after the 30th period, the impact
+    of climate shocks stabilizes, reaching a long-term equilibrium.
+  12: The paper suggests positive climate shocks contribute to asymmetry, which has
+    a negative impact on financial stability.
+  13: "Superscripts \u2018\xFE\u2019 and \u2018\u2014\u2019 indicate positive and\
+    \ negative partial sums, respectively. 'D' indicates the first difference operator.\
+    \ 'b + ' and 'b - ' are the estimated asymmetric long-term coefficients associated\
+    \ with positive and negative changes, respectively. Significance levels are denoted\
+    \ by *, **, and *** at 10%, 5%, and 1%, respectively."
+Outcome(s) of Interest:
+  1: Financial stability in China.
+  2: Financial system stability is affected by climate change.
+  5: Financial stability.
+  6: Financial stability
+  7: Financial stability index (FS) for China
+  8: Financial stability index (FS)
+  9: Financial stability is negatively impacted by temperature increases.
+  10: Financial stability
+  11: The financial stability index decreases due to both positive and negative climate
+    shocks, with long-term effects being larger than short-term effects.
+  12: Financial Stability (FS)
+  13: Financial stability (FS)
+  14: Financial stability
+  17: Global economic inequality
+  18: Farmland value
+Quantitative material:
+  1: Uses monthly data from 2002 to 2018.
+  5: The model includes coefficients (b+, b-) that represent the long-term transmission
+    effects of temperature increases and decreases on financial stability. It also
+    includes parameters (p+j, p-j) that reflect the short-term transmission effects
+    of temperature shocks on financial stability.
+  6: Formulas for asymmetric dynamic multipliers (M+h and M-h) are provided in equations
+    (9) and (10) to quantify the impact of positive and negative climate change on
+    financial stability over time.
+  7: 'KMO test statistic value is 0.610, p-value of Bartlett test is 0.000. Three
+    common factors explain 80.7% of the information in the financial stability index
+    system,  Eigenvalues for the first three factors: 4.089, 2.158, and 1.013 with
+    variance contribution rates of 0.454, 0.240, and 0.113 respectively.'
+  8: Descriptive statistics for FS, TEMP, TEMP_i, and TEMP_d are provided (Mean, Std.
+    Dev., Min, Max, Obs)
+  9: Figure 2 shows the impulse response of financial stability to TEMP_i. A shock
+    to TEMP_i has a significant negative impact on financial stability, increasing
+    from periods 1 to 5, reaching its maximum in the fifth period, and then entering
+    a stable state.
+  10: "TEMP_d has the largest effect on \uFB01nancial stability, reaching /C0 0.049\
+    \ in the sixth period; An increase in average temperature of 1\xB0C will lead\
+    \ to a drop of 0.044 in China's \uFB01nancial stability index in the long-term."
+  11: "A 1\xB0C drop in average temperature will cause the financial stability index\
+    \ to fall by 0.048 in the long-term."
+  12: Figure 4 shows the cumulative effect of temperature (TEMP) on financial stability
+    (FS) over 40 time periods, ranging from -0.04 to 0.04. Negative asymmetry in the
+    long-term negative path to financial stability exists.
+  13: Regression coefficients, standard deviations, t-statistics, and p-values for
+    various CO2 emission variables on financial stability (FS). Cumulative effects
+    of CO2 on FS are displayed in Figure 6.
+  18: Climate change impacts on farmland value in Bangladesh.

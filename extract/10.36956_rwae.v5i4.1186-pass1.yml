@@ -1,0 +1,124 @@
+Drivers of Risk:
+  1: Global warming, CO2 emissions, population growth, agricultural sector's vulnerability
+    to atmospheric changes.
+  6: Global warming (CLC)
+  8: CO2 emissions, Food Imports, Arable Land
+  9: Malnutrition (LNPREVMALNUTRI), Population growth (LNPG), Inflation (LNINF), Foreign
+    Direct Investment (LNFDI), CO2 emissions per capita (LNCO2EMISSIONSPERCAP), Agricultural
+    land (LNAL), Imports (LNFIMPORT)
+  10: CO2 emissions; Global warming; FDI inflows
+  11: Shocks impacting the outcomes include population growth, climate change-induced
+    agricultural disruptions, and dependency on food imports.
+  12: LNPG (Log of public governance), LNINF (Log of infrastructure), LNGDPPCAPITA
+    (Log of GDP per capita), LNFIMPORT (Log of food import), LNFDI (Log of foreign
+    direct investment), LNCO2_EMISSIONS__PER_CAP (Log of CO2 emissions per capita),
+    LNAL (Log of agricultural land)
+  13: Climate change (CO2 emissions, global warming, rainfall variability, temperature
+    extremes)
+Highlights:
+  1: Positive long-term correlation between food insecurity and climate change in
+    West Africa.
+  6: The study investigates the effect of global warming on food security in West
+    African countries.
+  8: CO2 emissions have a statistically significant positive relationship with malnutrition
+    prevalence. A 1% change in CO2 emissions is associated with an 18.3% change in
+    malnutrition prevalence.
+  9: No causal relationship between GDP per capita and malnutrition was found using
+    the Granger causality test. A strong relationship between independent and dependent
+    variables as implied by the rejection of Equation (15) H0 using the Generalised
+    Linear Model.
+  10: Increased CO2 emissions correlate with higher per capita GDP but worsen food
+    insecurity in West Africa. There is a negative long-run relationship between food
+    insecurity and FDI inflows in GLM estimates.
+  11: A positive relationship exists between food imports and insecurity, highlighting
+    a dependency on external markets. Population growth correlates with food insecurity,
+    and there's a negative relationship between arable land availability and food
+    insecurity.
+  12: LNPG unidirectionally causes LNPREVMALNUTRI. LNPREVMALNUTRI unidirectionally
+    causes LNINF. LNFIMPORT and LNPREVMALNUTRI are interdependent. LNGDPPCAPITA and
+    LNCO2_EMISSIONS__PER_CAP unidirectionally cause each other. LNAL and LNCO2_EMISSIONS__PER_CAP
+    unidirectionally cause each other.
+  13: A causal link exists between food insecurity and global warming in West Africa
+Methodology:
+  1: Uses secondary panel data from 2000 to 2020 and employs the Kaoco-integration,
+    FMOLS and GLM techniques.
+  6: Panel data analysis using Fully Modified Ordinary Least Squares (FMOLS) and Generalized
+    Linear Model (GLM). Data covers the period from 2000 to 2020 for 11 West African
+    countries.
+  8: Panel Unit Root Tests, Kao co-integration test, Panel FMOLS (Fully Modified Ordinary
+    Least Squares) estimation. Results apply to West African countries studied.
+  9: Correlation analysis, panel unit root tests (LLC, IPS, Fisher-type ADF, PP),
+    Kao's co-integration test, Panel Granger Causality test, Generalised Linear Model
+    (GLM).
+  10: Panel unit root tests (first difference); Kao co-integration test; GLM estimates
+  11: The analysis is performed using grouped mean panel FMOLS and GLM regression
+    methods to examine the relationship between economic variables and factors like
+    food insecurity and climate change impacts.
+  12: 'Panel Granger causality tests. Wald Test, Heteroscedasticity Test: PesaranCD,
+    Jarque-Bera test.'
+  13: Empirical panel data study employing the Kao co-integration, FMOLS, GLM, and
+    panel granger causality techniques; Jarque-Bera test used for normality testing
+    of error term
+More Notes:
+  1: Study focuses on West Africa.
+  6: 'The model includes control variables: food prices, per capita GDP, population
+    growth rate, food import and arable land. The study tests the null hypothesis
+    (H0) that a causative link exists between global warming and food insecurity,
+    against the alternative hypothesis (H1) that there is no causative link.'
+  8: The paper examines the relationship between malnutrition prevalence and various
+    macroeconomic factors. The analysis appears focused on malnutrition as the main
+    outcome of interest, with some of the other variables being potential drivers.
+  10: The analysis focuses on West Africa. The positive correlation between CO2 emissions
+    and malnutrition is considered surprising by the authors.
+  11: The findings emphasize the relationship between global warming, economic factors,
+    and food security, suggesting the necessity for encompassing, climate-resilient
+    plans.
+  12: The analysis uses logged variables. The Wald test indicates that each variable
+    in the model is significant at 0.05. Heteroscedasticity tests indicate no cross-sectional
+    dependence among the residuals, and the residuals are normally distributed.
+  13: The study recommends establishing a Climate-Smart Agriculture Program, a climate-resilience
+    agricultural fund, focusing on policies of improved income consistent with game
+    theory, and a Climate-Resilient Infrastructure Initiative, including a cross-border
+    food reserve system
+Outcome(s) of Interest:
+  1: Food insecurity, malnutrition prevalence, economic growth (GDP per capita), inflation.
+  6: Food insecurity (FISEC), used as a proxy for the prevalence of malnutrition in
+    the economy.
+  8: GDP per capita
+  9: GDP per capita (LNGDPPCAPITA)
+  10: Food insecurity; GDP per capita
+  11: The analysis indicates that inflation exacerbated by climate change-induced
+    agricultural disruptions compounds food insecurity issues.
+  12: LNPREVMALNUTRI (Log of prevalence of malnutrition)
+  13: Food insecurity in West Africa
+Quantitative material:
+  1: Panel data from 2000 to 2020; econometric analysis provides evidence of a positive
+    long-term correlation between food insecurity and climate change.
+  6: Equation (16) presents a model for food insecurity (LNFISEC) as a function of
+    several variables, including global warming (LN(CLC it)). It specifies hypothesized
+    relationships (positive or negative) between the variables A1 > 0; A2 < 0; A3
+    < 0; A4 > 0; A5 > 0; A6 < 0; A7 < 0.
+  8: 'Table 2 presents summary statistics (Mean, Median, Maximum, Minimum, Std. Dev.,
+    Skewness, Kurtosis, Jarque-Bera, Probability, Sum, SumSq. Dev., Obs.) for Prevalence
+    of Malnutrition (%), Population Growth Rate, Food Imports (%), FDI (US$), CO2
+    Emissions (Metric Tons per Capita), Arable Land (Hectares), and GDP per Capita
+    (US$).
+
+    FMOLS estimation indicates that a 1% change in CO2 emissions will lead to an 18.3%
+    change in the prevalence of malnutrition.'
+  9: Correlation analysis (Table 3) showing correlations between malnutrition, population
+    growth, inflation, GDP per capita, foreign direct investment, CO2 emissions per
+    capita, agricultural land, and imports. Panel unit root test results (Table 4)
+    including LLC, IPS, FISHER-ADF, and PP-FISHER tests with p-values.
+  10: Kao co-integration test shows a significant long-term linkage between CO2 emissions
+    and food insecurity in West Africa.  A t-statistic > 2 indicates the significance
+    of global warming as a driver of food security challenges in West Africa.
+  11: The FMOLS results indicate specific coefficients for variables such as LNCO2_EMISSIONS
+    (183.938), LNPG (286.3820), and LNFIMPORT (4.3814) with significance reported
+    at different levels.
+  12: 'The table presents F-Statistics and Probabilities (p-values) from Granger causality
+    tests. Example: LNPG does not Granger Cause LNPREVMALNUTRI, F-Statistic = 8.08795,
+    Prob = 0.0071'
+  13: Panel data study from 2000 to 2020; Histogram normality test (Jarque-Bera test)
+    with Jarque-Bera statistic = 1.294674 and Probability (p-value) = 0.523438; Standardized
+    residuals with statistics provided for sample period 2015 to 2020

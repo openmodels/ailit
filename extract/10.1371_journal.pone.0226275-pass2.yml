@@ -1,0 +1,189 @@
+Drivers of Risk:
+  1: Storm surge and sea level rise affecting coastal communities and ecosystems.
+  2: Storm surge, sea-level rise, changes in natural habitats (coastal wetlands and
+    marshes).
+  3: Coastal flooding, hurricanes, sea level rise (SLR), storm wind-driven wave effects.
+  4: Coastal flood hazards from storm surge and sea level rise (SLR) are the primary
+    drivers of risk identified in this study area.
+  5: Storm surge, waves, sea level rise, hurricanes (specifically, Hurricane Sandy
+    and synthetic storms from the USACE NACCS database).
+  6: Sea level rise (SLR), storms (Sandy, 50-year storm, 25-year storm).
+  7: Storm events, future land use/land cover (LULC) conditions, sea level rise (SLR),
+    marsh migration.
+  8: Sea level rise, storms (25-year, 50-year, Sandy).
+  9: Storm events (Hurricane Sandy), sea level rise conditions.
+  10: Storm events (25-year, 50-year, Hurricane Sandy), Sea Level Rise (SLR).
+  12: Storm surge; sea level rise; extreme flooding events.
+  14: Sea-level rise; related stresses; storm surge; wave erosion.
+Highlights:
+  1: Salt marshes can reduce up to 14% of flood depth and property damage during low-intensity
+    storm events; monetary avoidance of up to $13.1 million in residential property
+    damage during '50-year storm' and up to $32.1 million during Hurricane Sandy under
+    current sea level conditions.
+  2: The study estimates the value of flood protection services provided by protected
+    coastal wetlands and marshes in three coastal counties in New Jersey. The study
+    also integrates the natural variability of coastal storm surge and impacts of
+    SLR on natural habitats into the economic valuation of flood protection services.
+  3: Quantifies the capacity and value of natural habitats to protect communities
+    from recurrent coastal flooding. Improves upon existing literature by using parcel-level
+    property values, accounting for wave effects, and incorporating SLR impacts. Provides
+    insights for valuing natural habitats and supporting restoration initiatives.
+  7: Natural habitats like coastal wetlands and marshes provide shoreline protection,
+    reducing flood damages to residential properties. Sea level rise is expected to
+    decrease the amount of marsh available.
+  8: Natural habitats can significantly reduce flooding and property damage. The impact
+    is greater in terms of flood depth reduction under future conditions (13.9%) compared
+    to current conditions (4.8%), while number of flooded parcels reduced is greater
+    under current conditions (23.1% fewer) compared to future conditions (3.7% fewer).
+  9: Natural habitats reduce flood elevation and property damage during storm events;
+    the percentage change in avoided damage is highest under the 50-year storm event;
+    flood protection value in absolute terms is highest for the 50-year storm and
+    Hurricane Sandy under current and 2050 conditions.
+  10: Natural habitats can protect up to $13.1 million of residential property damage
+    in the current condition and $32.1 million in the future scenario (2050) in the
+    study area during selected storm events; The per square kilometer value of flood
+    protection services varies from $53,000 to $138,000 under current and future conditions.
+  12: Natural habitats can reduce both storm surge flood depth and property damage
+    under current and future marsh conditions and under sea level rise; Natural habitats
+    may offer better protection from relatively frequent, low intensity storms; Ecosystem
+    service values (flood protection) are conservative estimates.
+  14: Natural habitats, particularly coastal wetlands and marshes, provide valuable
+    services in reducing storm surge and wave impacts, offering coastal resilience
+    and flood protection.
+Methodology:
+  1: Combination of coastal storm surge modeling (ADCIRC+SWAN) and economic analysis;
+    SLAMM used for habitat transformation projections; counterfactual land cover approach
+    for flooding estimation.
+  2: The study uses the Advanced Circulation model (ADCIRC) coupled with the Simulating
+    Waves Nearshore model (SWAN) to compute storm surge flooding for historical and
+    synthetic storms. The Sea Level Affecting Marshes Model (SLAMM) simulates changes
+    in natural habitats due to SLR. Flood depths are combined with parcel-level property
+    data to compute flood damages. The reduction in damages due to the presence of
+    natural habitats is estimated based on the value of protected residential properties.
+    This analysis is applied to three coastal counties in New Jersey, adjacent to
+    the Jacques Cousteau National Estuarine Research Reserve (JCNERR).
+  3: Uses parcel-level property values for damage estimation, accounts for storm wind-driven
+    wave effects, incorporates SLR impacts on coastal wetlands and marshes. Interdisciplinary
+    team (coastal engineers, marine and social scientists) collaborated with natural
+    resources managers. Spatially explicit results.
+  4: The study uses the coupled ADCIRC and SWAN models to simulate coastal flooding
+    from storm surge and waves. ADCIRC computes water surface elevation and current
+    velocity, while SWAN computes the wave spectrum, considering wave breaking, shoaling,
+    refraction, and wind-induced wave generation. The models use the same computational
+    mesh, domain, and boundary. Land use and land cover information from the C-CAP
+    database are used to represent wetlands and marshes and their dissipation mechanisms
+    through frictional drag coefficients.
+  5: The study uses historical and synthetic storm data to model coastal flooding
+    variations, applying SLAMM to project natural habitat changes due to sea-level
+    rise (SLR) in 2050. The modeling approach considers storm surge and wave dynamics,
+    including the representation of vegetated canopies through frictional parameters,
+    but acknowledges limitations in explicitly accounting for vegetation heights and
+    density.
+  6: The SLAMM (Sea Level Affecting Marshes Model) model is used to simulate the impact
+    of sea level rise (SLR) on coastal ecosystems. It uses coastal elevation, land
+    use/land cover (LULC), tidal and shoreline information, wave action, accretion
+    rate, and the rate of SLR to model changes in coastal ecosystems, such as wetland
+    conversions and shoreline modification. The model applies different threshold
+    values for tidal range, salinity, and proximity to shoreline to determine whether
+    coastal marshes can sustain their elevation relative to sea level or if they will
+    migrate inland, convert into other land cover, or submerge under the sea. The
+    model was set up with a start date of 2010 and run to 2050.
+  7: The damages avoided method is used, simulating flood elevations for 'habitat
+    present' and 'habitat absent' scenarios using the ADCIRC+SWAN model. The difference
+    in residential flood damages between the two scenarios is the value of avoided
+    damages. Flood damages are estimated using depth-damage functions, property data,
+    and mean flood depth.
+  8: ADCIRC+SWAN model used to estimate flood depths and property damage. SLAMM (Sea
+    Level Affecting Marshes Model) simulated land cover change. Analysis applicable
+    to current conditions and future (2050 SLR) scenarios.
+  9: Uses the ADCIRC+SWAN model to simulate flooding with and without habitat present
+    under current and future conditions.
+  10: Parcel-level property damage estimation with and without the presence of natural
+    habitats (coastal wetlands and marshes) under current and future (2050 SLR) scenarios
+    for selected storm events. Analysis focused on three coastal counties in New Jersey
+    adjacent to the JCNERR.
+  12: Model formulation used to estimate the potential of natural habitats to relatively
+    reduce flood depth; analysis based on the relative difference between two scenarios
+    using the same model; analysis based on three storm events.
+  14: Broad-scale modelling of coastal wetlands; DIVA Wetland Change Model; hydrodynamic
+    and geospatial framework; choice experiment; field-based numerical model investigation
+    of wave propagation across marshes.
+More Notes:
+  3: Study area includes JCNERR and portions of Ocean, Burlington, and Atlantic Counties
+    in New Jersey. The JCNERR is a protected area with more than 45,000 hectares of
+    terrestrial and estuarine ecosystems.
+  5: The study focuses on modeling storm surge and wave impacts on coastal areas and
+    habitats, considering the role of natural habitats in coastal resilience. It selects
+    storms based on recommendations from protected area managers and uses the SLAMM
+    model to project future habitat changes due to SLR. The study acknowledges limitations
+    in current modeling approaches and focuses on improving parameterization.
+  6: The study acknowledges uncertainties and limitations in projecting future SLR
+    and coastal landscape or salt marshes response to the projected SLR. It utilizes
+    available data and recommendations by natural resources managers of the JC NERR
+    based on their natural habitats restoration initiatives to develop the future
+    scenario.
+  8: The table shows the simulated land cover change and the estimated flood depth
+    and property damage changes from each storm event under current and future scenarios.
+    The statistically significant increases are flagged.
+  9: The analysis focuses on the JCNERR area and its findings might not be generalizable
+    to other regions without considering local environmental conditions.
+  10: The value of protective services for Sandy and the 50-year storm increased in
+    the SLR scenario, but decreased for the 25-year storm. Results suggest that one
+    square kilometer of natural habitats can reduce residential property damages in
+    the study area from $34,000 to $53,000 per square kilometer under current conditions
+    and from $7,000 to $138,000 per square kilometer under future conditions for the
+    selected storm events.
+  12: Study focuses on flood protection provided by natural habitats; Findings emphasize
+    on primary data collection in coastal wetlands and marshes during storm events
+    for improved quantification of their flood reduction capacity; The study analyzed
+    only the protection to residential structures, which suggests that these ecosystem
+    service values are conservative estimates.
+  14: The research covers a range of methodologies and geographic locations (US Gulf
+    Coast, Southeast Louisiana, Southern Thailand, Chesapeake Bay) indicating broad
+    applicability but also the need for context-specific assessments.
+Outcome(s) of Interest:
+  2: Flood damage to residential properties.
+  3: Avoided damages to property values from coastal flooding due to natural habitats;
+    Flood protection service valuation in future scenarios; Valuing natural habitats
+    for coastal resilience.
+  7: Value of reduced/avoided flood damages to residential properties due to coastal
+    wetlands and marshes is used as a measure of the ecosystem service of shoreline
+    protection.
+  8: Reduction in flooding, reduction in parcel-level flood depths, decrease in property
+    damages.
+  9: Reduction in property damage due to natural habitats, avoided damage costs during
+    storm events.
+  10: Avoided property damage due to natural habitats; Flood protection value.
+  12: Storm surge flood depth reduction; property damage reduction; protection to
+    residential structures.
+  14: Valuing natural habitats for enhancing coastal resilience; coastal flood protection;
+    storm surge reduction and attenuation.
+Quantitative material:
+  3: "Uses parcel-level property values to estimate avoided damages; A recent study\
+    \ [39] suggested that wave setup contributed to 17% of the peak water level during\
+    \ most of the hurricane events during 1988\u20132015 in the US coast."
+  5: The study uses synthetic storms with a 4% ('25-year storm') and 2% ('50-year
+    storm') probability of occurrence in any given year. It also considers a 400-year
+    storm event (Hurricane Sandy).
+  6: SLAMM estimated a total 0.1332m of SLR in the year 2050 for the study area. A
+    1.7 millimeters per year of SLR is used based on the IPCC's Special Report on
+    Emissions Scenarios A1F1. An average of 4 millimeters per year of accretion is
+    applied in the model.
+  7: Total marsh area is predicted to reduce by 5.4% due to SLR and marsh migration;
+    transitional salt marshes and irregularly flooded marshes are predicted to decrease
+    by around 38% and 36%, respectively.
+  9: Coastal wetlands and marshes can lower flood elevation by a maximum of 0.2 to
+    0.4 meters; averaged reduction in flood elevation and depth varies from 0.03 to
+    0.06m; presence of natural habitats can reduce total property damage up to 13.8%
+    under current conditions and up to 6.1% in future conditions; avoided damage ranges
+    from $8,500,000 to $13,000,000 under current conditions and $1,500,000 to $32,000,000
+    under 2050 conditions.
+  10: Property damage with and without natural habitats present for different storm
+    scenarios and SLR scenarios; Flood protection value in dollars; Percentage change
+    in damages avoided; Unit value of flood protection services (dollars per square
+    kilometer).
+  12: Large difference between maximum and average reduction in flood elevation due
+    to presence of the natural habitats.
+  14: Studies quantify the attenuation of storm surge components by coastal wetlands,
+    wave attenuation over saltmarshes, and the value of wetlands in protecting against
+    storm surges.

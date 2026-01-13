@@ -1,0 +1,133 @@
+Drivers of Risk:
+  1: Shocks in GDP due to climate change impacts.
+  2: Shocks or changes impacting the outcomes include climate change shocks to GDP,
+    economic growth model variables, investment returns, health effects, and adaptation
+    processes.
+  3: Climate change impacts (specifically, their effects on productivity); General
+    shocks to GDP.
+  4: Climate change, structural breaks in GDP series, shocks (oil price shock of 1973,
+    the 1980s debt crisis, and the disintegration of the USSR in the 1990s), large-scale
+    discontinuity in the climate system, rate of climate change
+  5: Sea level rise, global temperature increase
+  7: Climate change impacts under RCP4.5 and RCP8.5 emissions scenarios, with different
+    levels of persistence parameter 'a'.
+  8: Direct and indirect impacts of climate change, persistence of economic shocks,
+    temperature increases, climate change scenarios (RCP4.5 and RCP8.5).
+  9: Climate change impacts under the RCP4.5 and RCP8.5 emissions scenarios
+  10: Climate change impacts treated as direct shocks to GDP; large persistence of
+    shocks is ignored or underestimated in most projections.
+  11: Climate change, natural disasters.
+Highlights:
+  1: Potential larger losses from climate change than previously estimated due to
+    persistence of shocks.
+  2: Macroeconomic impacts of climate change can be persistent due to various factors,
+    and adaptation measures can alter these impacts. The interaction between climate
+    and economic dynamics is crucial.
+  3: Climate change impacts could be highly persistent and lead to higher cost estimates;
+    Economic impacts of climate change are highly sensitive to different levels of
+    persistence; Costs of climate change presented in the literature could be seriously
+    underestimated.
+  4: Structural breaks in GDP data significantly affect the persistence of shocks
+    and the estimated economic impacts of climate change. The persistence of shocks
+    assumed in some Integrated Assessment Models (IAMs) is not supported by the observed
+    data.
+  5: Sea level rise has a permanent effect on GDP level. Climate change damages are
+    included for agriculture, sea level rise, other market sectors, human health,
+    nonmarket amenity impacts, human settlements and ecosystems, and catastrophes.
+  7: Estimates suggest significant regional variations in economic impacts under different
+    scenarios; impacts are expressed as multiples of 2001 GDP, highlighting varying
+    regional vulnerability and potential costs of inaction.
+  8: Estimated economic impacts are highly sensitive to the persistence of GDP shocks;
+    assuming higher persistence results in significantly larger losses.
+  9: IAMs often implicitly assume a lack of persistence in climate shocks, which needs
+    to be made explicit. The exact level of persistence and dynamics of climate change
+    impacts are unknown.
+  10: Estimates of climate change costs are highly sensitive to the inclusion of a
+    memory parameter, which can significantly alter projections.
+Methodology:
+  1: Analyzing persistence of generic shocks in observed GDP series for different
+    world regions and comparing it to IAMs; investigating implications for growth
+    under two RCP scenarios.
+  2: The analysis is performed using Integrated Assessment Models (IAMs) to study
+    the persistence of impacts through various approaches like impulse response functions.
+  3: Empirical approach based on econometrics literature; Augmented Dickey-Fuller
+    (ADF) test for unit roots; Analysis of the persistence of shocks to GDP for 12
+    groups of countries using data from the Maddison database (1950-2008).
+  4: Unit root tests (Kim and Perron), Perron and Yabu procedure for structural change,
+    Autoregressive models (AR(p) and AR(1)), Integrated Assessment Models (PAGE, FUND,
+    DICE)
+  5: Uses the DICE (Dynamic Integrated Climate-Economy) model, a Solow growth model
+    with a Cobb-Douglas production function. Equations provided define the relationships.
+    The DICE model damage function is specified.  The model considers both equilibrium
+    and disequilibrium dynamics.
+  7: Utilizes impact functions with varying persistence parameters in IAMs to estimate
+    economic impacts from climate change scenarios; the methodology involves projecting
+    GDP impacts across different levels of shock persistence.
+  8: Analysis uses the PAGE2002 model with simulations of 5000 realizations, incorporating
+    the persistence of climate shocks with various parameters.
+  9: Uses Integrated Assessment Models (IAMs) to model climate change impacts as an
+    aggregated direct shock to baseline GDP.
+  10: The analysis includes simulations with various persistence values of climate
+    shocks using different assumptions for memory parameters.
+  11: Integrated assessment modeling, econometric analysis of macroeconomic time series,
+    cost-benefit analysis.
+More Notes:
+  2: IAMs typically represent the effects of climate change as direct shocks to GDP,
+    with differing impacts on long-term economic growth depending on the treatment
+    of temporal dynamics.
+  3: The analysis assumes climate change shocks would have a persistence level similar
+    to general shocks to GDP, which is uncertain.
+  4: The page discusses the persistence of climate change shocks in GDP and in integrated
+    assessment models (IAMs) like PAGE, FUND, and DICE. The FUND model has persistence
+    from the dynamic specification of its agricultural and sea level rise impact modules.
+  5: The impact module of DICE/RICE has zero persistence as any shock at time t has
+    no impact at time t + s for s > 0, however, the model dynamics impart a certain
+    level of persistence to shocks in GDP.
+  8: Regional differences in the impacts of climate change are significant and vary
+    based on the persistence of shocks and adaptation measures.
+  9: The parameter 'a' is relevant to how the impacts on GDP are calculated. The authors
+    highlight the extreme assumption of 'zero persistence' in some IAMs, which implies
+    autonomous, large, effective, costless reactive adaptation and limitless resilience
+    capacities.
+  11: Mentions various models and studies related to climate change economics and
+    macroeconomics, including DICE model and studies on the macroeconomic consequences
+    of disasters.
+Outcome(s) of Interest:
+  1: The persistence of shocks in GDP due to climate change and the potential economic
+    costs.
+  2: Macroeconomic outcomes such as GDP effects, productivity loss, and potential
+    impacts on capital accumulation due to climate change and adaptation measures.
+  3: GDP, total factor productivity (TFP), and the costs of climate change.
+  4: GDP effects due to climate change, impacts associated to the occurrence of a
+    large-scale discontinuity in the climate system, damage in agricultural production
+  5: GDP level, Output, Total Factor Productivity
+  7: Provides estimates of economic impacts of climate change expressed as multiples
+    of GDP for different regions under various climate scenarios.
+  8: Economic impacts expressed as a percentage of GDP, net present value of impacts
+    over 100 years, sensitivity to persistence of GDP shocks.
+  9: Impacts as percent of GDP
+  10: Estimates of the economic impacts of climate change under RCP4.5 and RCP8.5
+    emissions scenarios are presented with varying persistence values.
+  11: GDP effects, economic costs and benefits of climate change.
+Quantitative material:
+  3: Estimates of autoregressive coefficients (ranging from 0.87 to 0.97); Half-life
+    of shocks (ranging from 5 to 23 years); Cumulative impulse response (CIR) values
+    (ranging from 7.63 to 32.26).
+  4: SAR estimates range from 0.46 to 0.90 with a mean of 0.70 when structural breaks
+    are accounted for.  A unit shock in Western Europe would produce a CIR of 25.57
+    without accounting for the break, but only 1.85 when accounting for the trend
+    break. The CIR values range from 1.85 to 23.81, with a mean of 5.87.
+  5: Equations for calculating climate damage as a fraction of output (Eq. 5), Output
+    (Eq. 6), Capital accumulation (Eq. 7), Population (Eq. 8), Growth of population
+    (Eq. 9), Total Factor Productivity (Eq. 10), Growth of Total Factor Productivity
+    (Eq. 11)
+  7: Quantitative estimates of impacts across regions as multiples of GDP for 2001,
+    under various scenarios, persistence levels, and using net present value (NPV).
+  8: Estimates show mean economic impacts of climate change ranging from 1.28% to
+    12.49% of initial GDP with different parameters.
+  9: Figure 2 shows impacts as percent of GDP for different values of parameter 'a'
+    (with mean, 5th, and 95th percentiles). Figure 3 shows estimates of global and
+    regional climate change impacts under the RCP4.5 and RCP8.5 emissions scenarios
+    and for different values of 'a'.
+  10: Estimates are sensitive to a memory parameter; varying values of persistence
+    are used to demonstrate differences in the present value of climate change costs.

@@ -1,0 +1,259 @@
+Drivers of Risk:
+  1: Higher summer temperatures (specifically in January).
+  2: Temperature and rain precipitation fluctuations
+  3: Climate change
+  5: Changes in temperature and precipitation.
+  6: Climate change impacts on yearly precipitation and temperature.
+  7: Changes in yearly precipitation and temperature across different macrozones in
+    Chile (North, Central, South, Metropolitan).
+  8: Changes in yearly minimum, maximum and mean in precipitation and temperature
+  9: Temperature and precipitation are highlighted as influencing factors, with additional
+    consideration of international shocks such as financial crises or commodity demand.
+  10: Temperature and precipitation (quarterly averages)
+  12: Global temperature changes under different RCP scenarios; specific shocks include
+    temperature increases affecting industry performance.
+  13: "Global temperature increase (0.26\xB0C, 1.0\xB0C, 1.3\xB0C, 1.4\xB0C, 2.0\xB0\
+    C, 1.8\xB0C, 2.2\xB0C, 3.7\xB0C) after 1985 or 2017."
+  14: Temperature increase
+  15: Climate change, particularly temperature increases, is the primary driver impacting
+    various industries.
+  16: "Temperature increase (1.0\xB0C, 1.3\xB0C, 1.4\xB0C, 2.0\xB0C for 2050; 1.0\xB0\
+    C, 1.8\xB0C, 2.2\xB0C, 3.7\xB0C for 2100)."
+  17: Higher temperatures, particularly in January, and to a lesser extent fluctuations
+    in precipitation.
+Highlights:
+  1: Higher summer temperatures have a negative impact on Agriculture-Silviculture
+    and Fishing. Climate change did not have a big impact on the Chilean economy during
+    the period studied (1985-2017). Stress test exercises suggest significant GDP
+    reductions in 2050 and 2100 under negative scenarios.
+  2: Climate change has a statistically significant impact during the Summer season
+    for the Agriculture and Fishing sectors in Chile. Main econometric results imply
+    a low impact of climate change in Chile over the past 35 years.
+  3: Examines the impact of climate change on economic output across industries in
+    Chile.
+  5: Financial Services and Commerce are more prevalent in the capital region than
+    at the national level, while Mining has almost no value for the capital region,
+    even if it represents the largest economic sector in the nation. Mean precipitation
+    has been falling in Chile over time, while mean temperatures have increased substantially.
+  6: Mean temperatures are increasing in all macrozones, and mean precipitation is
+    decreasing in Central, South and Metropolitan macrozones.
+  7: Significant decreases in maximum and mean precipitation across most Chilean macrozones
+    between 1950 and 2017, with some regional variations.
+  8: "The results document a decrease in precipitation and an increase in temperatures\
+    \ for Chile and all its macrozones (except the North) between 1980\u20131989 and\
+    \ 2010\u20132017. Mean temperatures for the Central, South and Metropolitan macrozones\
+    \ increased by 0.52, 0.33 and 0.67 Celsius degrees, respectively, between 1980\u2013\
+    1989 and 2010\u20132017 with surface weights, while maximum temperatures increased\
+    \ by 1.11, 0.37 and 1.07 Celsius degrees."
+  9: Warmer temperatures and changes in precipitation affect economic growth and productivity
+    across various industries in Chile.
+  10: A statistically negative impact of temperature on the Agriculture-Silviculture
+    and Fishing sectors is observed. A statistically significant negative impact for
+    the temperature of the January month in Agriculture-Silviculture, Fishing, Electricity,
+    Gas, and Water (EGA), and Construction sectors.
+  12: Climate change could negatively impact industries such as Agriculture, Fishing,
+    Manufacture, and others in Chile, with specific percentage reductions in GDP growth
+    rates.
+  13: Under the assumption that all model's coefficients are applicable, Fishing,
+    Mining, Home Ownership, and Public Administration are the only industries negatively
+    impacted by climate change in 2050 and 2100. Fishing GDP almost disappears by
+    2100 with a 1.0C increase. With all coefficients, Mining and Home Property would
+    decrease by 55% and 25.5% respectively. However, climate change has a strong positive
+    impact on other sectors, with increases in total Chilean GDP across scenarios.
+    Under the assumption that only statistically significant coefficients are applicable,
+    Agriculture, Fishing, Manufacture, EGA, Construction and Commerce are the only
+    industries negatively impacted at the horizons of 2050 and 2100. Climate change
+    would have a positive impact on all other economic sectors and total Chilean GDP.
+  14: Agriculture, Fishing, Manufacture, EGA, Construction and Commerce are the only
+    industries hurt by climate change at the horizons of 2050 or 2100. The negative
+    impact of climate change on the total GDP could range between 9% and 14.8% in
+    2050 and between 16.8% and 29.6% in 2100 when only statistically significant and
+    negative values are considered.
+  15: The construction industry faces a potential decline of 12.7% to 23.8% by 2050.
+    Mining may positively impact GDP, mitigating overall negative effects from other
+    industries.
+  16: Climate change could imply a deterioration between 6.8% and 12.9% on total Chilean
+    GDP in 2050, and between 15.5% and 42.3% by 2100.
+  17: Climate change has had a statistically significant negative effect on economic
+    activity in Chile, primarily due to higher temperatures. The Agriculture-Silviculture
+    and Fishing sectors are most affected by high summer temperatures. While some
+    sectors are negatively impacted, others may experience positive effects from temperature
+    increases. Projections of GDP change by 2050 and 2100 vary significantly based
+    on whether all model coefficients or only statistically significant coefficients
+    are considered.
+Methodology:
+  1: Region-industry panel data for Chile over the period 1985 to 2017.
+  2: Econometric model using annual frequency GDP data for 12 economic sectors across
+    15 regions of Chile over the period 1985 to 2017, including temperature and precipitation
+    for each season as control variables, industry-region growth lag, time fixed-effects
+    at the year level, and fixed-effects for the regions.
+  3: "Uses National Accounts data publicly available from the Central Bank of Chile;\
+    \ Creates a 15 region and 12 industry panel series for 1985-2007 by assuming constant\
+    \ industry-level GDP shares of divided regions I and X; Adjusts GDP data reported\
+    \ in four separate series (1985\u20131996, 1996\u20132003, 2003\u20132008, 2008\u2013\
+    2017) with base years 1986, 1996, 2003, and 2013, respectively, by harmonizing\
+    \ the data using adjustment factors based on the ratio of GDP in adjacent series."
+  5: "The study uses weather data from the University of Delaware Air Temperature\
+    \ and Precipitation dataset (1900\u20132017) with a grid size of 0.5 degree latitude\
+    \ x 0.5 degree longitude, aggregated to the regional level using geospatial software\
+    \ (QGIS). Regional weather series are created as a weighted average of the weather\
+    \ series of each grid, where the weight is equal to the share of the grid that\
+    \ intersects the region. GDP data is combined with weather data."
+  6: The authors created 4 macrozones to summarize regional heterogeneities. Weighted
+    averages of temperature and precipitation by regional GDP and surface area are
+    calculated. The distribution of precipitation and temperature is compared between
+    1950-1985 and 1985-2017, and specifically decades 1950-1959, 1980-1989, and 2010-2017.
+  7: Analysis of precipitation and temperature data (minimum, maximum, mean) weighted
+    by surface area and regional GDP for each macrozone (North, Central, South, Metropolitan)
+    during the period 1950-2017.
+  8: "The analysis compares averages for precipitation and temperature across different\
+    \ periods (1950-1959, 1980-1989, and 2010-2017) and macrozones in Chile, weighting\
+    \ results by region\u2019s surface area and regional GDP in 2017."
+  9: Panel structure econometric model with fixed-effects for region-industry and
+    year-industry, incorporating lagged GDP growth and weather variables.
+  10: OLS with fixed-effects by time and region, separate regressions by industry.
+    Robust standard errors clustered by year and region.
+  12: Modeling of climate change impact using RCP scenarios; regression analysis with
+    industry-level GDP impacts based on temperature changes, considering statistical
+    significance and negative effects.
+  13: The analysis simulates the impact of climate change on different industries
+    in Chile, calculating the effect on GDP and growth rates, using regression coefficients
+    from Table 5. The analysis is performed for past (1985-2017) and future (2050,
+    2100) time horizons, considering different temperature increase scenarios.
+  14: Simulations were performed to assess the impact of climate change on the industry,
+    overall GDP, and growth rates in Chile. Statistically significant coefficients
+    from a monthly model (Table 5 in the source publication) are used. Two tables
+    were created by using only significant coefficients(Table 8) and then by only
+    using significant and negative coefficients(Table 9).
+  15: The analysis uses a model predicting climate change impact on GDP and an exercise
+    applying US state industry coefficients to Chilean contexts.
+  16: Simulations using climate change temperature coefficients estimated for the
+    USA industry (post-1997) from Colacito, Hoffmann and Phan (2019), with some coefficients
+    from pre-1997 data also used in Table 11. The applicability is for Chile.
+  17: Panel data regression analysis using annual region-industry data for Chile from
+    1985 to 2017. Climate change projections are based on the average of global climate
+    paths published by the United Nations. Stress tests used both the 2014 and 2021
+    IPCC scenarios.
+More Notes:
+  2: The paper uses a dataset specific for Chile and its regions-industries, unlike
+    most studies that use international level datasets.
+  3: The study uses data from 1985-2017, divided into four time series with different
+    base years. It addresses a change in regional divisions in 2007 by creating a
+    consistent panel data set.
+  5: 'The paper uses two weighting methods: by surface area and by GDP of each region,
+    when aggregating to the national level. GDP weighted measures are considered more
+    accurate for activities like agriculture, transports and services. Surface area
+    weights are a better proxy for the impact on natural habitats and biodiversity.'
+  6: The four macrozones are North Chile (regions I, II, III, IV, XV), Central Chile
+    (regions V, VI, VII, VIII), South Chile (regions IX, X, XI, XII, XIV), and Metropolitan
+    Region (region XIII).
+  7: The page describes trends in precipitation and temperature, suggesting a potential
+    link to economic output but does not directly quantify that link. The paper's
+    main contribution on this page is a description of climate trends.
+  8: "The North macrozone experienced a large increase in temperature between 1950\u2013\
+    1959, followed by a strong decrease between 1980\u20131989 and 2010\u20132017."
+  10: The analysis is performed on Chilean data and covers 35 years. Lagged industry
+    GDP growth is included in each regression. The results are presented as reduced-form
+    coefficients.
+  13: The authors acknowledge that the large positive impacts on some sectors are
+    unlikely to materialize in reality due to the coefficients not being fixed over
+    time. It is more realistic that these positive impacts decline over time and can
+    turn into negative effects.
+  14: EGA stands for Electricity, Gas and Water. Industry sectors are (1) Agriculture
+    and Forestry, (2) Fishing, (3) Mining, (4) Manufacturing, (5) EGA, (6) Construction,
+    (7) Commerce, Restaurants, and Hotels, (8) Transport and Communications, (9) Financial
+    Services, (10) Home Ownership, (11) Personal Services, (12) Public Administration.
+    The analysis uses RCP 2.6, 4.5, 6.0, and 8.5 scenarios.
+  15: The paper notes potential biases with very optimistic or pessimistic forecasts
+    depending on model coefficients applied.
+  16: The study focuses on the impact of climate change on various industries in Chile,
+    including Agriculture and Forestry, Fishing, Mining, Manufacturing, EGA, Construction,
+    Commerce, Restaurants, and Hotels, Transport and Communications, Financial Services,
+    Home Ownership, Personal Services, and Public Administration.
+  17: The study acknowledges that unavailability of regional-industry GDP data at
+    a quarterly or monthly frequency makes statistical identification harder. The
+    fraction of GDP represented by economically affected sectors falls over time,
+    limiting the impact of climate change on GDP.
+No relevant information:
+  21: This page primarily consists of references. The main body of the paper is not
+    present, therefore there is no concrete relevant information present.
+Outcome(s) of Interest:
+  1: GDP reduction in Agriculture-Silviculture and Fishing, Construction, and Electricity,
+    Gas, and Water.
+  2: GDP effects across industries in Chile
+  3: Impact of climate change on economic output across industries in Chile; Regional-industry
+    level GDP
+  5: Impact of climate change on economic output (GDP) across industries in Chile.
+  6: No relevant information
+  7: Impact of climate change on economic output across industries in Chile (implied,
+    but not directly quantified on this page).
+  8: Impact of climate change on economic output across industries in Chile
+  9: The paper investigates the impact of temperature and precipitation on log GDP
+    growth in Chile across different industries and regions.
+  10: Regional industry GDP
+  12: Impact of climate change on GDP growth rate and GDP level of industries in Chile.
+  13: Impact on GDP growth rate and GDP level relative to a no-warming scenario.
+  14: Impact on GDP growth rate in 2017 relative to no warming after 1985; Impact
+    on GDP level in 2050 relative to no warming after 2017; Impact on GDP level in
+    2100 relative to no warming after 2017
+  15: The impact of climate change on the total Chilean GDP is predicted to be positive
+    for 2050 and 2100 if using all model coefficients; small in 2050 using only statistically
+    significant coefficients; and moderately negative in both years using only negative
+    and statistically significant coefficients.
+  16: Impact on GDP level in 2050 and 2100 relative to no warming after 2017, at both
+    industry and overall GDP level.
+  17: GDP effects across industries and total national GDP.
+Quantitative material:
+  1: One Celsius degree increase in January implies a 3% and 12% GDP reduction in
+    Agriculture and Fishing, respectively. Chilean GDP would fall between -14.8% and
+    -9% in 2050 and between -29.6% and -16.8% in 2100.
+  2: Each Celsius degree of temperature increase in January implies a GDP reduction
+    of 3% for the Agriculture sector and 12% for the Fishing sector.
+  3: "Uses regional-industry level GDP series for Chile over the period 1985\u2013\
+    2017; Presents fraction (%) of the value of each industry in national GDP (1985\u2013\
+    2017) for 12 industries; Metropolitan Region of Santiago represents around 40%\
+    \ of national GDP and population."
+  5: "Table 2 shows the fraction (%) of the value of each industry for the GDP of\
+    \ each region in Chile (1985\u20132017). For example, Agriculture and Forestry\
+    \ accounts for 0.1% of the GDP in Region I, and 13.3% of the GDP in Region XIV.\
+    \ Mining accounts for 37.1% of the GDP in Region I, and 2.7% of the GDP in Region\
+    \ XV."
+  6: "Mean precipitation has been falling in the Central, South and Metropolitan macrozones.\
+    \ Mean temperatures have been increasing across all the macrozones. There are\
+    \ fluctuations in precipitation and temperature between 1950\u20131959, 1980\u2013\
+    1989 and 2010\u20132017. The mean precipitation weighted by surface area decreased\
+    \ substantially between 1950\u20131959 and 1980\u20131989 and also decreased slightly\
+    \ between 1980\u20131980 and 2010\u20132017."
+  7: Decreases in maximum and mean precipitation across all macrozones (except the
+    North) between 1950-1959 and 1980-1989, and again between 1980-1980 and 2010-2017,
+    with and without GDP region weights.
+  8: Table 3 provides quantitative data on changes in precipitation (cm/month) and
+    temperature (Celsius) between 1950-1959 & 1980-1989, and 1980-1989 & 2010-2017
+    for Chile and its macrozones (North, Central, South, Metro), weighted by regional
+    surface area and regional GDP in 2017, including minimum, maximum, and mean values
+  9: The model uses log GDP growth as the dependent variable, influenced by weather
+    variables like average temperature and precipitation.
+  10: Table 4 presents coefficients for the impact of temperature and precipitation
+    on regional industry GDP.
+  12: "Yes, GDP growth rate impacts for each industry under temperature increase of\
+    \ 1\xB0C are provided, such as -3% for Agriculture, -12.1% for Fishing, and so\
+    \ on."
+  13: "Simulated impact (in %) of climate change on industry, overall GDP, and growth\
+    \ rates in Chile for 1985\u20132017 and future years (2050 and 2100) under different\
+    \ temperature increases."
+  14: "Table 8 provides quantitative estimates of the impact of climate change on\
+    \ GDP growth rate in 2017 and GDP level in 2050 and 2100 under various temperature\
+    \ increase scenarios. For example, a 1.0\xB0C temperature increase could result\
+    \ in a -2.3% impact on GDP level in 2050. Table 9 shows the same variables with\
+    \ negative values"
+  15: Predicted changes in GDP for different scenarios including declines between
+    0.8% or less, and specific industry impacts such as Construction decline between
+    12.7% and 23.8%.
+  16: Table 10 and 11 provide simulated impact (in %) of climate change on industry
+    and overall GDP level and growth rates in Chile for the future under different
+    temperature increase scenarios.
+  17: Each additional Celsius degree of temperature decreases GDP by -3% in Agriculture,
+    -8.8% in Fishing, -2.2% in Manufacturing, -3.9% in Energy-Gas-Water, -0.3% in
+    Construction, and -0.7% in Commerce (considering only statistically significant
+    coefficients). Projections for GDP impact in 2050 range from -2.3% to +0.4% and
+    in 2100 range from +3.2% to +193.2% (using only statistically significant coefficients).

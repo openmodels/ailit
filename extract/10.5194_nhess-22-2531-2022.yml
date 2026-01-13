@@ -1,0 +1,165 @@
+Drivers of Risk:
+  1: Extreme temperatures due to climate change, specifically increasing heat events.
+  2: Environmental heat exposure
+  3: Daily maximum temperature (Tmax), hourly wet bulb globe temperature (WBGT).
+  4: Increased Wet Bulb Globe Temperature (WBGT) due to climate change, impacting
+    outdoor and indoor working conditions.
+  5: Climate change, temperature increases
+  6: Climate change, specifically heat stress due to rising temperatures under different
+    Representative Concentration Pathways (RCPs).
+  8: Heat events, climate change (specifically RCP8.5 high-greenhouse-gas emissions
+    pathway)
+  9: Climate change, increasing temperature, heat stress, heatwaves, environmental
+    summer heat exposure
+  10: Climate change, heat exposure, rising temperatures, heatwaves.
+  11: Climate change, extreme heat, warming climate, heatwaves.
+Highlights:
+  1: Heat exposure in Switzerland currently causes ~658 deaths and CHF 665 million
+    in labor productivity losses annually; under RCP8.5, productivity losses could
+    triple by the end of the century.
+  2: Detailed impact assessment and future projections for excess mortality and losses
+    in labour productivity in Switzerland at the kilometre level for distinct population
+    groups and activity classes.
+  3: Increased daily maximum temperature leads to increased heat-related mortality,
+    especially for those 75 and older.  Heat impacts labour productivity as measured
+    by WBGT.
+  4: Increased WBGT leads to a significant loss in labour productivity, with the relationship
+    quantified using impact functions and a Monte Carlo simulation.
+  5: Heat-related deaths in Switzerland are projected to increase significantly under
+    climate change, particularly under RCP8.5. The elderly population (>= 75 years)
+    is disproportionately affected.
+  6: Labour productivity losses are projected to increase significantly under higher
+    RCP scenarios, with the southern cantons and Basel being most impacted. High physical
+    activity workers face a disproportionately higher percentage of the losses.
+  8: The monetary costs of heat and mortality are already substantial and could double
+    (mortality) or triple (labor productivity) by the end of the century under RCP8.5
+    in Switzerland.
+  9: Climate change impacts occupational health and productivity (Kjellstrom et al.,
+    2009a, 2009b)
+  10: Several studies focus on the impact of heat on mortality and labour productivity,
+    including economic losses. Some studies use projections and scenarios to estimate
+    future impacts.
+  11: Heat-related mortality is attributable to recent human-induced climate change;
+    Extreme heat leads to labor productivity losses and associated economic costs.
+Methodology:
+  1: High-resolution spatial analysis based on the IPCC risk framework (hazard, exposure,
+    vulnerability) and a Monte Carlo simulation; considers no socio-economic changes.
+  2: Uses the IPCC risk framework, implemented in the open-source CLIMADA impact modelling
+    platform (Aznar-Siguan and Bresch, 2019), combining hazard, exposure, and vulnerability
+    to quantify socio-economic impacts of natural hazards, with a Monte Carlo simulation
+    to assess the uncertainties.
+  3: Uses CH2018 Climate Scenarios for Switzerland (downscaled EURO-CORDEX data).
+    Computes heat-related mortality by linking daily maximum temperature to excess
+    mortality based on Ragettli et al. (2017) impact functions for two age categories
+    (under 75, 75+). Calculates the impact of heat on labour productivity using hourly
+    wet bulb globe temperature (WBGT).
+  4: The analysis uses CH2018 climate data, EnergyPlus for thermal dynamic analysis
+    of buildings, company structure statistics from FSO, and impact functions based
+    on various studies and ISO standards to model the relationship between WBGT and
+    labour productivity loss. Monte Carlo simulation is employed to address uncertainties
+    in climate data and impact functions. The study differentiates between low, moderate,
+    and high physical activity levels and whether work is conducted inside or outside
+    buildings.
+  5: Uses Monte Carlo simulations (1000 iterations) to integrate uncertainties related
+    to impact functions (vulnerability). Uses RCP scenarios (2.6, 4.5, 8.5) and considers
+    different time horizons (2035, 2050, 2065, 2080).
+  6: Monte Carlo simulation is used to estimate labour productivity losses under different
+    RCP scenarios (2.6, 4.5, and 8.5) for the years 2035, 2050, 2065, and 2080. The
+    analysis considers different levels of physical activity (low and high) and their
+    impact on labour productivity.
+  8: IPCC risk framework, spatially explicit modeling, Monte Carlo simulation, keeps
+    socio-economic factors constant
+  9: Meta-analysis of performance response under thermal stressors (Hancock et al.,
+    2007), globally consistent adaptation options appraisal tool (Bresch and Aznar-Siguan,
+    2021).
+  10: "Meta-regression (Lay et al., 2021), time series analysis (Mart\xEDnez-Solanas\
+    \ et al., 2021), modelling (S\xF8rland et al., 2020)."
+  11: Systematic review of economic impact assessment of heat-related productivity
+    loss; Modeling of heat stress from climate-based indicators; Empirical analysis
+    of the impact of temperature on cognitive performance using National College Entrance
+    Examination data in China.
+More Notes:
+  1: The study focuses on Switzerland and considers only the impact of heat on mortality
+    and labor productivity; uncertainties in the model are large, but the trend in
+    impacts is unequivocal.
+  2: The study models heat-related impacts in Switzerland using high-resolution datasets,
+    including CH2018 Climate Scenarios (NCCS, 2018) and geographical distribution
+    of population and workers per hectare.
+  3: Analysis focuses on Switzerland. Mortality analysis uses warm season (May-September)
+    data from 1995-2013 for eight Swiss cities. Population data from the Swiss Federal
+    Statistical Office (FSO) is used at the hectare level. Deaths are assumed evenly
+    distributed throughout the warm season.
+  4: The study focuses on Switzerland and utilizes specific datasets related to Swiss
+    climate, building types, and labor statistics. The analysis considers different
+    climate scenarios (RCP2.6 and RCP8.5).
+  5: The study uses previous research on performance in office tasks at different
+    temperatures as indicator, and also uses ISO standards for some aspects of impact
+    on labour productivity.
+  6: Uncertainties in the labour productivity model are larger than those in the mortality
+    model due to the estimation of hourly WBGT (Wet Bulb Globe Temperature).
+  8: Model could be used to analyse adaptation measures and their effectiveness.
+  9: Several references concern temperature extremes and heatwaves, indicating a focus
+    on the impact of rising temperatures on mortality and productivity.
+  10: Many of the papers focus on European countries, with some also examining India
+    and South Africa, suggesting a global scope.
+  11: Several cited papers are relevant to quantifying the macroeconomic impacts of
+    climate change, particularly through the impact of heat stress on health and labor
+    productivity. WHO reports on heat-health action plans and warning systems could
+    be relevant for adaptation strategies. Focus is mainly on the effects of heat,
+    not other aspects of climate change (sea level rise, flood) and there is no cost/benefit
+    analysis for adaptation
+Outcome(s) of Interest:
+  1: Economic costs caused by losses in labour productivity.
+  2: Losses in labour productivity can have important repercussions on the overall
+    economy (Carleton and Hsiang, 2016; Kjellstrom et al., 2018; Dunne et al., 2013;
+    Kjellstrom et al., 2009a; Zhao et al., 2021).
+  3: Mortality (heat-related deaths), labour productivity loss.
+  4: Labour productivity loss due to heat exposure, expressed as a percentage.
+  5: Labour productivity
+  6: Labour productivity loss in Switzerland.
+  8: Monetary costs of heat, labour productivity, mortality
+  9: Mortality, labor productivity, temperature-related excess mortality
+  10: Mortality, labour productivity, economic losses due to reduced outdoor worker
+    productivity.
+  11: Mortality, labor productivity loss, economic impact of heat-related labor productivity
+    loss, costs from labor losses due to extreme heat.
+Quantitative material:
+  1: Economic costs of labor productivity losses amount to around CHF 665 million
+    (approx. USD 700 million) per year in Switzerland currently; Mortality of about
+    658 deaths are associated with heat exposure each year; Under RCP8.5, these values
+    may double (mortality) or triple (labor productivity) by the end of the century;
+    Under RCP2.6 impacts are expected to slightly increase and peak around mid-century.
+  2: Increase in mortality of 5.4% was reported in Switzerland in the summer of 2015.
+  3: Equation (1) defines the Attributable Fraction (AF) of deaths due to heat. Equation
+    (2) calculates total heat-related deaths per year at a cell level. Figure 2 shows
+    the relationship between daily maximum temperature and relative risk of daily
+    mortality for people aged 75+.
+  4: Equation (3) describes the calculation of total labor productivity loss (ILabour
+    Productivity) as a function of exposed salary value (E cell) and hourly predicted
+    loss in labor productivity (Loss(WBGThour)) for a given WBGT. Figure 3 illustrates
+    the relationship between WBGT and percentage of labour productivity loss for moderate
+    physical activity.
+  5: Mentions 658 heat-related deaths per year in Switzerland in the baseline (2020,
+    RCP8.5). Projects deaths increasing to 934 in 2050 and exceeding 1500 in 2080
+    under RCP8.5. Gives uncertainty ranges for RCP8.5 in 2050 (241-1883 deaths).
+  6: Baseline labour productivity loss is estimated at CHF 665 million per year (approx.
+    USD 700 million) in 2020 under RCP8.5. In 2050, this increases to CHF 1.1 billion
+    under RCP8.5, an increase of 65% compared to today. This corresponds to about
+    0.24% of the total yearly exposed salary value. The 95th percentile in 2050 for
+    the RCP8.5 is CHF4 billion per year.
+  8: Monetary costs of heat and the effects on mortality are substantial already today.
+    The magnitude of these impacts may double (for mortality) or even triple (for
+    labour productivity) by the end of the century should we remain on the current
+    high-greenhouse-gas emissions pathway (RCP8.5).
+  9: The Lancet Planetary Health, 1, e360-e367, https://doi.org/10.1016/S2542-5196(17)30156-0
+    (Gasparrini et al., 2017) provides projections of temperature-related excess mortality
+    under climate change scenarios.
+  10: "Study on economic losses of heat-induced reductions in outdoor worker productivity\
+    \ in Europe (Orlov et al., 2019); Projections of temperature-attributable mortality\
+    \ in Europe (Mart\xEDnez-Solanas et al., 2021); Study on heat exposure and work\
+    \ productivity in rice harvesters in India (Sahu et al., 2013); Climate change\
+    \ and development in South Africa: the impact of rising temperatures on economic\
+    \ productivity and labour availability (Shayegh et al., 2020)."
+  11: Mentions studies estimating the burden of heat-related mortality and costs from
+    labor losses due to extreme heat; Includes specific values in the form of DOI
+    numbers pointing to specific research

@@ -1,0 +1,221 @@
+Drivers of Risk:
+  2: Global warming (higher temperatures).
+  3: Global warming (persistent increases in temperature).
+  5: Increasing temperatures (global warming)
+  7: Increasing temperatures (global warming), economic downturns depressing agricultural
+    production, increased migration costs
+  9: Increasing Temperatures
+  12: Global warming (indicated by increasing temperatures). Urbanization rate.
+  13: Global warming, as measured by mean temperature.
+  18: Global warming and urbanization
+  21: "\u2206 Temperature (\u2206 T), \u2206 Urbanization (\u2206 U)"
+  22: Increase in temperature (global warming)
+  23: Temperature changes (short-run and long-run).
+  24: "Global warming (temperature changes \u2206T) and urbanization (\u2206U)."
+  31: Initial temperature; Initial urbanization; Initial GDP p.c.; Initial employment
+    in agriculture; Initial urban bias; Cluster (poor conditions)
+  33: Temperature changes (global warming)
+  34: Global warming, increasing temperatures, other weather and climate phenomena
+    (heat waves, droughts, flood events), adverse initial conditions (lower levels
+    of adaptive capability and higher levels of vulnerability to climate change)
+Highlights:
+  2: Higher temperatures correlate with higher urbanization rates in the long run,
+    especially in poorer, agriculture-dependent countries with an urban bias and in
+    initially non-urban countries in hotter climate zones.
+  3: "Higher temperatures are related to higher urbanization rates (and thus rural\u2013\
+    urban migration) in the long run."
+  5: Global warming influences the relative attractiveness of rural and urban areas,
+    affecting internal migration and urbanization patterns.
+  7: Increasing temperatures may be related to lower levels of urbanization (H2).
+    Increasing temperatures are related to urbanization more strongly in the long
+    than in the short run (H3).
+  9: The relationship between increasing temperatures and urbanization is stronger
+    in countries with a larger agricultural sector and in countries with a more pronounced
+    urban bias.
+  12: Rapid urbanization and global warming have occurred since the 1950s.
+  13: Temperature data shows significant cross-sectional dependence, which requires
+    the use of econometric methods robust to cross-sectional dependence.
+  14: The data series for urbanization and temperature are non-stationary in levels
+    but become stationary after first-differencing, showing evidence of I(1) behavior.
+  18: The table presents results for different specifications (1-7) with varying sets
+    of controls and fixed effects, suggesting an attempt to assess the robustness
+    of the findings.
+  21: Temperature and urbanization changes have statistically significant coefficients.
+  22: Increasing temperatures are linked to more urbanization in the long run. The
+    long-run association is more pronounced than the short-run association.
+  23: Higher temperatures are associated with less urbanization in the short run,
+    but more urbanization in the long run.
+  24: "Temperature changes (\u2206T) and urbanization (\u2206U) have a statistically\
+    \ significant negative association with the unspecified outcome 'l' across different\
+    \ model specifications."
+  31: Initial temperature, Initial urbanization, Initial GDP p.c., Initial employment
+    in agriculture, Initial urban bias, and Cluster have statistically significant
+    effects on urbanization.
+  33: There is a long-run positive relationship between warming and urbanization.
+  34: "Increasing temperatures may fuel urbanization to a dangerous extent in countries\
+    \ that lack the capacity to absorb rural\u2013urban migration. A substantial reduction\
+    \ of greenhouse gas emissions ought to reduce the overall impact of global warming\
+    \ on human life, also with respect to its unhealthy interaction with urbanization.\
+    \ To reduce the rural push due to increasing temperatures, the vulnerability of\
+    \ rural areas to global warming should be lowered."
+Methodology:
+  2: Panel vector error correction models; analyzes long-run and short-term relationships.
+  3: Country-level panel data analysis (118 countries, 1960-2016) linking temperature
+    to urbanization rates.
+  5: Applies a push-pull framework of internal migration based on Lee (1966)
+  7: Theoretical discussion proposing hypotheses about the relationship between temperature
+    increases and urbanization levels.
+  9: Panel data analysis using a sample of 118 countries from 1960-2016. The dataset
+    needs to be fully balanced.
+  12: We average all weather data on temperature for a specific country and year of
+    interest, correcting for differences in grid sizes and elevation between weather
+    stations within the same grid.
+  13: Uses the bias-adjusted LM test of Pesaran et al. (2008) and the test for weak
+    cross-sectional dependence of Pesaran (2015) to assess cross-sectional dependence
+    in temperature and urbanization data.
+  14: Panel unit root tests developed by Pesaran (2007), Herwartz and Siedenburg (2008),
+    and Demetrescu and Hanck (2012) are used to test for unit roots in urbanization
+    and temperature data. Tests for panel cointegration are also used. These tests
+    are robust to cross-sectional dependence and serial correlation; the latter two
+    are also robust to heteroskedasticity.
+  18: Fixed effects regression models are used with different specifications, including
+    controls for education, democracy, and dependency. Driscoll-Kray standard errors
+    are used in some specifications. The models include country-fixed effects, time-fixed
+    effects, and regional fixed effects. Different specifications include interactions
+    between time-fixed effects and low-income countries and between regional fixed
+    effects and low-income countries.
+  21: Dynamic fixed-effects and OLS estimations are used to analyze short-run and
+    long-run impacts. The analysis includes control variables like population size,
+    GDP p.c. (per capita), democracy, and education.
+  22: Regression analysis (specifically, cointegration analysis) of the relationship
+    between temperature and urbanization over time. They address omitted variable
+    bias using the Oster (2019) method to assess selection on unobservables. The model
+    is dynamically stable with respect to the cointegration relationship.
+  23: The study uses a baseline model with robustness checks including additional
+    controls, alternative variable measurements, and lagged variables. The analysis
+    considers short-run and long-run effects.
+  24: Dynamic fixed-effects regression models are used to analyze the relationship
+    between temperature changes, urbanization, and the outcome 'l'. Different model
+    specifications include controls for population size, GDP per capita, education,
+    and various urbanization measures.
+  29: The analysis is performed using a k-means cluster analysis to group countries
+    by initial conditions like urbanization, temperature, economic development, agricultural
+    employment, and urban bias, and a series of panel vector error correction models
+    is used to examine the interaction between these variables and temperature on
+    urbanization changes.
+  31: Dynamic panel-data analysis using a 2-step GMM system estimator; includes time
+    and country-fixed effects; considers short-run and long-run effects; controls
+    for population size, GDP p.c., democracy, and other factors.
+  33: Dynamic fixed-effects estimates are reported, with error correction included.
+    The model controls for population size, GDP per capita, and democracy. Driscoll-Kraay
+    standard errors are used.
+  34: Empirical analysis of the relationship between increasing temperatures and urbanization,
+    considering other agro-climatic variables as robustness checks.
+More Notes:
+  2: The paper suggests that warming contributes to losses in agricultural productivity
+    and pro-urban shifts in public goods provision. The relationship between temperature
+    and urbanization is partly mediated through these channels (rural push and urban
+    pull).
+  3: The relationship between global warming and urbanization is more pronounced in
+    countries with economic and institutional underdevelopment and strong dependence
+    on agriculture. The relationship matters more to initially non-urban countries
+    in hotter climate zones. Global warming promotes migration by contributing to
+    poorer rural conditions (e.g., affecting agricultural production) and increased
+    attractiveness of urban centers.
+  5: The paper focuses on the relationship between global warming and urbanization
+    through the channels of agriculture and the provision of public goods.
+  7: The paper argues that temperature increases can disincentivize rural-urban migration
+    by increasing migration costs and worsening liquidity constraints. The effect
+    of temperature on migration is expected to be more pronounced in the long run
+    due to cumulative socio-economic effects.
+  9: The study excludes very small island countries, countries that gained independence
+    in the 1980s and 1990s, and city-states.
+  12: The sample consists of unspecified countries. The study period is 1960-2016.
+    The relationship between urbanization and temperature rise is mentioned, but no
+    further analysis of their interaction or impact is provided on this page.
+  13: The paper explores the relationship between global warming and urbanization,
+    and the cross-sectional dependence identified is important for the subsequent
+    empirical analysis using econometric methods.
+  18: The dependent variable is not explicitly mentioned.
+  21: The table shows estimates from several regression models (1, 2, 3), with different
+    specifications. The meaning of FWNCD is not defined on this page.
+  22: The association between temperature and urbanization becomes less pronounced
+    (though remains statistically significant) when additional controls are added
+    to the model, suggesting possible omitted variable bias or that covariates mediate
+    the relationship.
+  23: The study uses alternative measures of temperature (weighted by population size
+    or agricultural land) and urbanization (logged urbanization rate, logged total
+    urban population) for robustness.
+  24: "The dependent variable 'l' is not clearly defined on this page. There are nine\
+    \ different specifications, varying in the urbanization measure used. The table\
+    \ header mentions 'Climate datMeasurSamShorShor\u2211 \u2206 U\u2211 \u2206 TLong-rErTFWNDynamic\
+    \ fixp.c.; tiv*' but the definitions of these columns are not apparent from the\
+    \ page alone."
+  31: The effects are moderated by urbanization, and the table shows the coefficients
+    when urbanization is considered as a moderator.
+  33: The analysis considers cross-sectional dependence, non-stationarity, and cointegration.
+    The impact of temperature changes is moderated by initial conditions (1=poor starting
+    conditions). Mediators considered are value added in agriculture and public goods
+    provision equity.
+  34: "The paper suggests that the relationship between global warming and urbanization\
+    \ is particularly strong in comparatively poorer economies that may lack the economic\
+    \ and institutional resources to adequately adapt. The positive relationship between\
+    \ temperature and urbanization partly reflects how global warming increases the\
+    \ rural push (by impairing agriculture) and the urban pull (via an increased demand\
+    \ for public goods that are more likely to be supplied in the urban centers),\
+    \ thus incentivizing rural\u2013urban migration especially in the long run."
+No relevant information:
+  11: This page focuses on justifying the use of urbanization rate as a proxy for
+    rural-urban migration, and does not contain information on macroeconomic or fiscal
+    outcomes, costs/benefits of adaptation, or quantitative results.
+Outcome(s) of Interest:
+  2: Agricultural productivity loss.
+  3: Agricultural productivity loss.
+  7: Urbanization levels, rural-urban migration
+  9: Urbanization
+  12: No relevant information
+  13: No relevant information
+  18: No relevant information
+  21: No relevant information
+  22: Urbanization rate
+  23: Urbanization rate; total urban population.
+  24: "The impact of temperature changes (\u2206T) and urbanization (\u2206U) on an\
+    \ unspecified outcome ('l')"
+  31: "Urbanization (\u2206 urbanization)"
+  33: Agriculture value added, Public goods rural vs. urban, Urbanization
+  34: Economic growth and development (potentially affected via urbanization); costs
+    and benefits of urbanization.
+Quantitative material:
+  2: Analyzes 118 countries between 1960 and 2016.
+  3: No quantitative information on the outcomes of interest on this page.
+  13: Trend line equation for mean temperature (temp_mean = -22.95 + 0.021 * year),
+    R^2 = 0.80 (for the trend of temperature over time)
+  18: Several regression results are presented with coefficient estimates, standard
+    errors (in parentheses), significance levels (*, **, ***), R-squared values, and
+    number of observations.
+  21: "The page presents coefficient estimates, standard errors (in parentheses),\
+    \ confidence intervals (in brackets), and p-values for various regressions. The\
+    \ dependent variable is not explicitly stated. It includes coefficients for \u2206\
+    \ Temperature (\u2206 T) and \u2206 Urbanization (\u2206 U) and a constant, along\
+    \ with information on the number of observations, R-squared, and ADF tests."
+  22: "A 1 \xB0C increase in temperature is associated with a long-run increase of\
+    \ urbanization by approximately 5.19 percentage points. Examples are provided\
+    \ for Ecuador and Nigeria between 1960 and 2016."
+  23: Higher temperatures are associated with less urbanization in the short run;
+    higher temperatures are associated with higher levels of urbanization in the long
+    run.
+  24: "Several regression models (1-9) estimate the relationship between temperature\
+    \ changes (\u2206T), urbanization (\u2206U), and an unspecified outcome 'l'. Coefficients\
+    \ for \u2206T are negative and statistically significant (***p<0.01, **p<0.5,\
+    \ *p<0.1) across different model specifications. The coefficients for \u2206U\
+    \ are also generally negative and significant. The R-squared (Ye) values range\
+    \ from 0.84 to 0.89."
+  31: Yes, the table provides coefficients, standard errors (in parentheses), and
+    significance levels (***p<0.01, **p<0.5, *p<0.1) for various drivers of risk on
+    urbanization.
+  33: The table provides coefficients representing the estimated effects of temperature
+    changes on agriculture value added, public goods provision, and urbanization,
+    both in the short run and the long run, with associated standard errors and significance
+    levels. For example, a 1 degree temperature change in the long run when moderator
+    = 1 is associated with a -6.312 change in Agriculture value added.
+  34: No specific quantitative estimates presented on this page.

@@ -1,0 +1,58 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Storm Surge Damages,US,Business-as-usual,2050,No CC,billion USD/year,42,NA,NA,NA,NA,108,11,Based on CIRA estimates
+1,Crop Yields,US,Business-as-usual,2020,No CC,billion USD/year,-2.5,NA,NA,-3.5,NA,3.5,11,Based on Risky Business Project estimates; Values are negative because the estimates indicate impacts
+2,Crop Yields,US,Business-as-usual,2040,No CC,billion USD/year,-3.6,NA,NA,-7.8,NA,7.8,11,Based on Risky Business Project estimates; Values are negative because the estimates indicate impacts
+3,Crop Yields,US,Business-as-usual,2050,No CC,billion USD/year,66,NA,NA,NA,NA,NA,11,Based on Risky Business Project estimates
+4,Crop Yields,US,Business-as-usual,2080,No CC,billion USD/year,-3.9,NA,NA,NA,NA,24,11,Based on Risky Business Project estimates; Values are negative because the estimates indicate impacts
+5,Economic Impacts,US,Business-as-usual,2050,No CC,billion USD/year,-0.5,NA,NA,NA,NA,2.5,11,CIRA estimates; Values are negative because the estimates indicate impacts
+6,Economic Impacts,US,Business-as-usual,2100,No CC,billion USD/year,6.5,NA,NA,NA,NA,100,11,CIRA estimates; Upper end reads 'over $100 billion'
+7,Economic Impacts,US,Mitigation,2100,Business-as-usual,billion USD/year,-3.8,NA,NA,NA,NA,16,11,CIRA estimates; Values are negative because the estimates indicate impacts
+8,Adaptation Benefits,US,Business-as-usual,2100,No CC,billion USD,990,NA,NA,NA,NA,NA,11,CIRA Estimates
+9,Costs of Inaction,US,Business-as-usual,2100,Adaptation,billion USD,4000,NA,NA,NA,NA,NA,11,CIRA Estimates; Reads 'over $4 trillion'
+10,Energy expenditure,US,RCP 8.5,2020,Business as usual,billion,90,NA,NA,0.5,NA,22,12,2020 to 2039
+11,Energy expenditure,US,RCP 8.5,2040,Business as usual,billion,1.7,NA,NA,11,NA,53,12,2040 to 2059
+12,Energy expenditure,US,RCP 8.5,2040,Business as usual,billion,5.2,NA,NA,NA,NA,NA,12,2040 to 2059
+13,Energy expenditure,US,RCP 8.5,2080,Business as usual,billion,5.3,NA,NA,45,NA,156,12,2080 to 2099
+14,Energy expenditure,US,RCP 8.5,2080,Business as usual,billion,11,NA,NA,NA,NA,NA,12,2080 to 2099
+15,Labor productivity,US,RCP 8.5,2020,Business as usual,billion,-0.5,NA,NA,-24,NA,0.3,12,2020 to 2039
+16,Labor productivity,US,RCP 8.5,2040,Business as usual,billion,-24,NA,NA,-24,NA,1,12,2040 to 2059
+17,Labor productivity,US,RCP 8.5,2080,Business as usual,billion,93,NA,NA,1.0,NA,536,12,2080 to 2099
+18,Agricultural Yields,US,RCP 8.5,2030,No CC,billion USD,-2.5,NA,NA,NA,NA,NA,13,"Average of 2020-2039, direct cost is negative meaning a benefit"
+19,Agricultural Yields,US,RCP 8.5,2030,No CC,billion USD,3.5,NA,NA,NA,NA,NA,13,"Average of 2020-2039, direct cost is positive"
+20,Agricultural Yields,US,RCP 8.5,2050,No CC,billion USD,-3.6,NA,NA,NA,NA,NA,13,"Average of 2040-2059, direct cost is negative meaning a benefit"
+21,Agricultural Yields,US,RCP 8.5,2050,No CC,billion USD,7.8,NA,NA,NA,NA,NA,13,"Average of 2040-2059, direct cost is positive"
+22,Agricultural Yields,US,RCP 8.5,2090,No CC,billion USD,-3.9,NA,NA,NA,NA,NA,13,"Average of 2080-2099, direct cost is negative meaning a benefit"
+23,Agricultural Yields,US,RCP 8.5,2090,No CC,billion USD,24,NA,NA,NA,NA,NA,13,"Average of 2080-2099, direct cost is positive"
+24,Cumulative Impacts,US,Business-as-usual,2100,Adaptation,$,990,NA,NA,NA,NA,NA,14,Discounted at 3% to 2015
+25,Cumulative Impacts,US,GHG Mitigation Policy,2100,Adaptation,$,-84,-100,NA,NA,NA,NA,14,Compared to BAU. Discounted at 3% to 2015.
+26,Cumulative Impacts,US,Business-as-usual,2100,No Adaptation,$,4000,NA,NA,NA,NA,NA,14,Discounted through 2100
+27,Coastal Property,US,Unspecified,2050,Sea level,$,-66,NA,NA,NA,NA,-106,14,Existing property below sea level. Excludes adaptation action.
+28,Coastal Property,US,Unspecified,2100,Sea level,$,-238,NA,NA,NA,NA,-507,14,Existing property below sea level. Excludes adaptation action.
+29,Storm Surge Damages,US (United States),Climate change,2024,Current risk,$ billions,42,NA,NA,NA,NA,NA,Page 15,Sea level rise effect
+30,Storm Surge Damages,US (United States),Climate change,2024,Current risk,$ billions,108,NA,NA,NA,NA,NA,Page 15,Hurricane activity changes
+31,Economic welfare,US,Various models,2050,No CC,$ billion per year,0.5,NA,NA,NA,NA,NA,16,Primary model result
+32,Economic welfare,US,Various models,2100,No CC,$ billion per year,-6.5,NA,NA,NA,NA,NA,16,Primary model result
+33,Economic welfare,US,Various models,2100,No CC,$ billion per year,-15.0,NA,NA,NA,NA,NA,16,"Alternative models, low end of range"
+34,Economic welfare,US,Various models,2100,No CC,$ billion per year,-100,NA,NA,NA,NA,NA,16,"Alternative models, high end of range"
+35,Economic welfare,US,Various models,2050,No CC with no mitigation,$ billion per year,3.3,NA,NA,NA,NA,NA,16,"Preferred model, with mitigation"
+36,Economic welfare,US,Various models,2100,No CC with no mitigation,$ billion per year,9.4,NA,NA,NA,NA,NA,16,"Preferred model, with mitigation"
+37,Economic welfare,US,Various models,2100,No CC with no mitigation,$ billion per year,14.5,NA,NA,NA,NA,NA,16,"Alternative models with mitigation, low end of range"
+38,Economic welfare,US,Various models,2100,No CC with no mitigation,$ billion per year,84,NA,NA,NA,NA,NA,16,"Alternative models with mitigation, high end of range"
+39,Economic welfare,US,Various models,2100,No CC with no mitigation,$ billion per year,2.5,NA,NA,NA,NA,NA,16,"Mitigation, flooding damage model"
+40,Adaptation Costs,US,Unspecified,2050,No Adaptation,USD,260000000000,NA,NA,NA,NA,NA,18,Cumulative impacts discounted at 3%
+41,Bridge Costs,US,Unspecified,2050,No Adaptation,USD,160000000000,NA,NA,NA,NA,NA,18,Cumulative impacts discounted at 3%
+42,Road Costs,US,Unspecified,2050,No Adaptation,USD,80000000000,NA,NA,NA,NA,NA,18,Cumulative impacts discounted at 3%
+43,Drainage Costs,US,Unspecified,2050,No Adaptation,USD,20000000000,NA,NA,NA,NA,NA,18,Cumulative impacts discounted at 3%
+44,Mitigation Benefit,US,Unspecified,2050,No Mitigation,USD,-85000000000,NA,NA,NA,NA,NA,18,Discounted
+45,Electricity demand,US,Reference scenario,2050,Today's climate,%,1.5,NA,NA,NA,NA,NA,431,Increase in electricity demand
+46,Electricity demand,US,Reference scenario,2050,Today's climate,%,6.5,NA,NA,NA,NA,NA,431,Increase in electricity demand
+47,Power system costs,US,Reference scenario,2050,Today's climate,%,1.7,NA,NA,NA,NA,NA,431,Cumulative costs discounted at 3% from 2015 to 2050
+48,Power system costs,US,Reference scenario,2050,Today's climate,%,8.3,NA,NA,NA,NA,NA,431,Cumulative costs discounted at 3% from 2015 to 2050
+49,Energy Expenditure,US,RCP 8.5,2030,No CC,$ billion,0.5,NA,NA,NA,NA,12,22,Average of 2020-2039; Econometrically derived estimates
+50,Energy Expenditure,US,RCP 8.5,2050,No CC,$ billion,8,NA,NA,NA,NA,30,22,Average of 2040-2059; Econometrically derived estimates
+51,Energy Expenditure,US,RCP 8.5,2090,No CC,$ billion,33,NA,NA,NA,NA,89,22,Average of 2080-2099; Econometrically derived estimates
+52,Labor Productivity,US,RCP 8.5,2030,No CC,$ billion,-0.5,NA,NA,NA,NA,22,22,Average of 2020-2039; high risk and low risk combined
+53,Labor Productivity,US,RCP 8.5,2050,No CC,$ billion,11,NA,NA,NA,NA,53,22,Average of 2040-2059; high risk and low risk combined
+54,Labor Productivity,US,RCP 8.5,2090,No CC,$ billion,45,NA,NA,NA,NA,156,22,Average of 2080-2099; high risk and low risk combined
+55,GDP,US,RCP 8.5,2075,No CC,%,-0.8,NA,NA,NA,NA,-3.5,p. 28,"Direct costs only, late-century results"
+56,GDP,US,RCP 8.5,2075,No CC,%,-0.8,NA,NA,NA,NA,-1.9,p. 28,"Macroeconomically processed effect, late-century results"

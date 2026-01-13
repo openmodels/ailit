@@ -1,0 +1,60 @@
+Drivers of Risk:
+  2: Climate-related hazards (droughts, floods, cyclones, landslides, sea-level rise,
+    forest fires, extreme temperatures, and extreme rainfall).
+  4: Droughts, cyclones, extreme rainfall, extreme temperature, forest fire, flood,
+    landslide, and sea-level rise.
+  6: Climate hazards (droughts, forest fires, floods, landslides, sea-level rise).
+    These hazards can disrupt local production and/or interstate trade of food.
+  7: Climate disasters occurring simultaneously across Indian states, sub-national
+    climate hazards, pandemic restrictions disrupting food supply chains.
+Highlights:
+  4: Droughts present a greater risk to Indian food supply than other climate hazards,
+    whereas landslides and sea-level rise present the lowest risk. The patterns of
+    risk across states and climate hazards varied depending on risks to food.
+  6: All Indian states are exposed to all eight climate hazards through their imported
+    food supplies. Uttar Pradesh, Madhya Pradesh, West Bengal, Gujarat and Andhra
+    Pradesh contribute to more than half of the climate hazard risk posed interstate
+    food trade in India.
+  7: Quantifies climate hazard risks to Indian food supply by distinguishing risks
+    to locally produced food and imported food. Comparative risk values can identify
+    hotspots for policy interventions.
+Methodology:
+  2: A composite indicator of exposure, hazard, and vulnerability is calculated to
+    quantify risk to the food supply. Interstate trade flows are modelled using state-level
+    data to estimate the source of food supply for each food item.
+  4: The study quantifies climate hazard risk to food supply in Indian states by considering
+    risks at food supply source. The BAMMtools package in R is used for the heatmap
+    color coding. The analysis covers the period 2000-2020.
+  6: The study uses trade data, modelling supply and demand balance and minimising
+    transport costs, and hazard presence scores. Quantifies relationships at the state
+    level. Considers sub-national geographical variation in climate hazard risks to
+    food supply from local production and food supply that is imported.
+  7: Assessment of hazard presence in the total land area of the state and the use
+    of HDI as a composite indicator of vulnerability. Supply and demand balance model
+    based on 2011-12 data.
+More Notes:
+  2: The analysis focuses on the supply risks associated with Indian production and
+    consumption only. Data from 2011-12 is used for the trade model.
+  4: The analysis distinguishes between risks to locally produced food and food imported
+    from other Indian states. The presence of each climate hazard is relative to frequency
+    and intensity.
+  6: The study acknowledges limitations due to data availability, exclusion of foreign
+    imports, PDS, and animal-sourced food products, state-level aggregation, and nutritional
+    content of food groups.
+  7: The study relies on recent historical data, so risks are likely to change with
+    climate change. Trade patterns estimated in the study are likely to change. The
+    study does not indicate the actual risk or likelihood of adverse impact, but rather
+    the priority states and hazards for risk management.
+Outcome(s) of Interest:
+  2: Food supply risk, defined as the potential of climate hazards to cause adverse
+    effects on the volume of food available for human consumption.
+  4: Climate hazard risk to per capita food supply.
+  6: National food security, state/national economies, food prices.
+  7: Potential adverse effects on Indian food supply due to climate disasters.
+Quantitative material:
+  4: Climate hazard risk to per capita food supply is quantified, with heatmap color-coded
+    according to natural jenks. Uttar Pradesh (R=3.8), Madhya Pradesh (R=1.7), West
+    Bengal (R=1.7), Gujarat (R=1.5) and Andhra Pradesh (R=1.3) are identified as major
+    states impacting interstate food trade.
+  6: Mentions Uttar Pradesh exports contributing to 20% of the climate hazard risk
+    of interstate food trade.

@@ -1,0 +1,117 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Rice Crops,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,%,-35,NA,NA,NA,NA,NA,6,Percentage of crops destroyed in Barisal region.
+1,Mortality,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,people,300000,NA,NA,NA,NA,NA,6,Total mortality due to the cyclone.
+2,People Affected,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,people,4000000,NA,NA,NA,NA,NA,6,Number of people directly affected by the cyclone.
+3,Damage,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,Millions of 1970 USD,-86.4,NA,NA,NA,NA,NA,6,Total estimated damage.
+4,Damage,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,Millions of 2006 USD,-450,NA,NA,NA,NA,NA,6,"Total estimated damage, converted to 2006 USD."
+5,Deaths,Bangladesh,1974 Famine,1974,No Famine,millions,-0.45,NA,NA,NA,NA,NA,7,Lower bound of estimated deaths from starvation and diseases due to the 1974 famine.
+6,Deaths,Bangladesh,1974 Famine,1974,No Famine,millions,-1.5,NA,NA,NA,NA,NA,7,Upper bound of estimated deaths from starvation and diseases due to the 1974 famine.
+7,Food Aid,Bangladesh,1971 Cyclone,1971,No Cyclone,% population,16.5,NA,NA,NA,NA,NA,7,% pop relying on aid for half food 3mo after cyclone.
+8,Health,Bangladesh,1970 Cyclone Exposure,1970,Control regions,percentage points,-14.9,NA,NA,NA,NA,NA,13,Probability of good health during adulthood.
+9,Health,Bangladesh,1970 Cyclone Exposure,1970,Control regions,%,-53.6,NA,NA,NA,NA,NA,13,Duration of good health over entire lifetime.
+10,Schooling,Bangladesh,1970 Cyclone Exposure,1970,Control regions,percentage points,-21.8,NA,NA,NA,NA,NA,13,Probability of completing at least 5th grade.
+11,Schooling,Bangladesh,1970 Cyclone Exposure,1970,Control regions,%,-49,NA,NA,NA,NA,NA,13,Years of schooling.
+12,Solvency,Bangladesh,1970 Cyclone Exposure,1970,Control regions,percentage points,-12.5,NA,NA,NA,NA,NA,13,Probability of solvency.
+13,Expenditure,Bangladesh,1970 Cyclone Exposure,1970,Control regions,%,-26.5,NA,NA,NA,NA,NA,13,Per-capita expenditure.
+14,Schooling,Bangladesh,1970 Cyclone Exposure,1970,Urban households,percentage points,-60.8,NA,NA,NA,NA,NA,15,Effect on rural household heads in severely affected regions completing at least 5th grade; cohorts born 1969-1971.
+15,Schooling,Bangladesh,1970 Cyclone Exposure,1970,Rural households,%,117,NA,NA,NA,NA,NA,15,Effect on urban household heads in severely affected regions on years of schooling; cohorts born 1969-1971.
+16,Health,Bangladesh,1970 Cyclone Exposure,1970,No CC,index,0.141,0.112,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort' on the 'Healthy' outcome.
+17,Health,Bangladesh,1970 Cyclone Exposure,1970,No CC,Ln(Health),0.489,0.406,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort' on Ln(Health) outcome.
+18,Health,Bangladesh,1970 Cyclone Exposure,1970,No CC,index,-0.189,0.098,NA,NA,NA,NA,23,Coefficient for 'Cyclone Region 2' on the 'Healthy' outcome. Significant at 10%.
+19,Health,Bangladesh,1970 Cyclone Exposure,1970,No CC,Ln(Health),-0.676,0.352,NA,NA,NA,NA,23,Coefficient for 'Cyclone Region 2' on the Ln(Health) outcome. Significant at 10%.
+20,Health,Bangladesh,1970 Cyclone Exposure,1970,No CC,index,-0.056,0.064,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort × Cyclone Region 1' on the 'Healthy' outcome.
+21,Health,Bangladesh,1970 Cyclone Exposure,1970,No CC,Ln(Health),-0.201,0.226,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort × Cyclone Region 1' on the Ln(Health) outcome.
+22,Health,Bangladesh,1970 Cyclone Exposure,1970,No CC,index,-0.149,0.086,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort × Cyclone Region 2' on the 'Healthy' outcome. Significant at 10%.
+23,Health,Bangladesh,1970 Cyclone Exposure,1970,No CC,Ln(Health),-0.536,0.308,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort × Cyclone Region 2' on the Ln(Health) outcome. Significant at 10%.
+24,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No CC,index,0.098,0.087,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort' on the 'Educated' outcome.
+25,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No CC,Ln(Schooling),0.151,0.166,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort' on Ln(Schooling) outcome.
+26,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No CC,index,0.298,0.144,NA,NA,NA,NA,23,Coefficient for 'Cyclone Region 2' on the 'Educated' outcome. Significant at 5%.
+27,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No CC,Ln(Schooling),0.761,0.284,NA,NA,NA,NA,23,Coefficient for 'Cyclone Region 2' on the Ln(Schooling) outcome. Significant at 5%.
+28,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No CC,index,-0.030,0.089,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort × Cyclone Region 1' on the 'Educated' outcome.
+29,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No CC,Ln(Schooling),0.081,0.189,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort × Cyclone Region 1' on the Ln(Schooling) outcome.
+30,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No CC,index,-0.218,0.101,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort × Cyclone Region 2' on the 'Educated' outcome. Significant at 5%.
+31,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No CC,Ln(Schooling),-0.490,0.190,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort × Cyclone Region 2' on the Ln(Schooling) outcome. Significant at 5%.
+32,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No CC,index,0.134,0.088,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort' on the 'Solvent' outcome.
+33,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No CC,Ln(Expenditure),0.083,0.085,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort' on Ln(Expenditure) outcome.
+34,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No CC,index,0.395,0.093,NA,NA,NA,NA,23,Coefficient for 'Cyclone Region 2' on the 'Solvent' outcome. Significant at 1%.
+35,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No CC,Ln(Expenditure),0.632,0.136,NA,NA,NA,NA,23,Coefficient for 'Cyclone Region 2' on the Ln(Expenditure) outcome. Significant at 1%.
+36,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No CC,index,0.011,0.063,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort × Cyclone Region 1' on the 'Solvent' outcome.
+37,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No CC,Ln(Expenditure),-0.029,0.090,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort × Cyclone Region 1' on the Ln(Expenditure) outcome.
+38,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No CC,index,-0.125,0.053,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort × Cyclone Region 2' on the 'Solvent' outcome. Significant at 5%.
+39,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No CC,Ln(Expenditure),-0.265,0.121,NA,NA,NA,NA,23,Coefficient for 'Cyclone Cohort × Cyclone Region 2' on the Ln(Expenditure) outcome. Significant at 5%.
+40,Expenditure,Bangladesh,1970 Cyclone Exposure,1970,No CC,-,0.393,0.434,NA,NA,NA,NA,24,Rural × Cyclone Cohort × Cyclone Region 1
+41,Expenditure,Bangladesh,1970 Cyclone Exposure,1970,No CC,-,0.292,0.268,NA,NA,NA,NA,24,Rural × Cyclone Cohort × Cyclone Region 2
+42,Expenditure,Bangladesh,1970 Cyclone Exposure,1970,No CC,-,0.051,0.493,NA,NA,NA,NA,24,Parental Schooling × Cyclone Cohort × Cyclone Region 1
+43,Expenditure,Bangladesh,1970 Cyclone Exposure,1970,No CC,-,0.127,0.387,NA,NA,NA,NA,24,Parental Schooling × Cyclone Cohort × Cyclone Region 2
+44,Expenditure,Bangladesh,1970 Cyclone Exposure,1970,No CC,NA,-0.220,0.094,NA,NA,NA,NA,27,Coefficient on Placebo Cyclone Cohort × Cyclone Region 1 in Ln(Expenditure) regression. Significant at 5% level.
+45,Health,Bangladesh,1970 Cyclone Exposure,1970,No CC,NA,0.445,0.208,NA,NA,NA,NA,27,Coefficient on Placebo Cyclone Cohort × Cyclone Region 2 in Ln(Health) regression. Significant at 5% level.
+46,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No CC,NA,0.936,0.232,NA,NA,NA,NA,27,Coefficient on Placebo Cyclone Cohort × Cyclone Region 2 in Ln(Schooling) regression. Significant at 1% level.
+47,Expenditure,Bangladesh,1970 Cyclone Exposure,1970,No CC,NA,0.482,0.145,NA,NA,NA,NA,27,Coefficient on Placebo Cyclone Cohort × Cyclone Region 2 in Ln(Expenditure) regression. Significant at 1% level.
+48,Health,Bangladesh,1970 Cyclone Exposure,1970,No CC,NA,0.125,0.058,NA,NA,NA,NA,27,Coefficient on Placebo Cyclone Cohort × Cyclone Region 2 in Healthy regression. Significant at 5% level.
+49,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No CC,NA,0.327,0.120,NA,NA,NA,NA,27,Coefficient on Placebo Cyclone Cohort × Cyclone Region 2 in Solvent regression. Significant at 5% level.
+50,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No CC,NA,-0.144,0.102,NA,NA,NA,NA,27,Coefficient on Placebo Cyclone Cohort × Cyclone Region 1 in Educated regression.
+51,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No CC,NA,-0.006,0.073,NA,NA,NA,NA,27,Coefficient on Placebo Cyclone Cohort × Cyclone Region 1 in Solvent regression.
+52,Health,Bangladesh,1970 Cyclone Exposure,1970,No CC,NA,-0.078,0.071,NA,NA,NA,NA,27,Coefficient on Placebo Cyclone Cohort × Cyclone Region 1 in Healthy regression.
+53,Health,Bangladesh,1970 Cyclone Exposure,1970,No CC,NA,-0.256,0.248,NA,NA,NA,NA,27,Coefficient on Placebo Cyclone Cohort × Cyclone Region 1 in Ln(Health) regression.
+54,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No CC,NA,-0.221,0.259,NA,NA,NA,NA,27,Coefficient on Placebo Cyclone Cohort × Cyclone Region 1 in Ln(Schooling) regression.
+55,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No CC,NA,0.401,0.128,NA,NA,NA,NA,27,Coefficient on Placebo Cyclone Cohort × Cyclone Region 2 in Educated regression. Significant at 1% level.
+56,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.117,0.115,NA,NA,NA,NA,37,Coefficient on 'Cyclone' in Eq. (1) for 'Healthy' outcome. Not significant.
+57,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.141,0.112,NA,NA,NA,NA,37,Coefficient on 'Cyclone' in Eq. (2) for 'Healthy' outcome. Not significant.
+58,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.408,0.421,NA,NA,NA,NA,37,Coefficient on 'Cyclone' in Eq. (1) for 'Ln(Health)' outcome. Not significant.
+59,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.489,0.406,NA,NA,NA,NA,37,Coefficient on 'Cyclone' in Eq. (2) for 'Ln(Health)' outcome. Not significant.
+60,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.060,0.075,NA,NA,NA,NA,37,Coefficient on 'Cyclone' in Eq. (1) for 'Educated' outcome. Not significant.
+61,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.098,0.087,NA,NA,NA,NA,37,Coefficient on 'Cyclone' in Eq. (2) for 'Educated' outcome. Not significant.
+62,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.089,0.161,NA,NA,NA,NA,37,Coefficient on 'Cyclone' in Eq. (1) for 'Ln(Schooling)' outcome. Not significant.
+63,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.151,0.166,NA,NA,NA,NA,37,Coefficient on 'Cyclone' in Eq. (2) for 'Ln(Schooling)' outcome. Not significant.
+64,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.032,0.058,NA,NA,NA,NA,37,Coefficient on 'Cyclone' in Eq. (1) for 'Solvent' outcome. Not significant.
+65,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.134,0.088,NA,NA,NA,NA,37,Coefficient on 'Cyclone' in Eq. (2) for 'Solvent' outcome. Not significant.
+66,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.309,0.108,NA,NA,NA,NA,37,Coefficient on 'Cyclone' in Eq. (1) for 'Ln(Expenditure)' outcome. *** denotes significance at the 1% level.
+67,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.083,0.085,NA,NA,NA,NA,37,Coefficient on 'Cyclone' in Eq. (2) for 'Ln(Expenditure)' outcome. Not significant.
+68,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.118,0.129,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 1' in Eq. (1) for 'Healthy' outcome. Not significant.
+69,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.038,0.146,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 1' in Eq. (2) for 'Healthy' outcome. Not significant.
+70,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.408,0.466,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 1' in Eq. (1) for 'Ln(Health)' outcome. Not significant.
+71,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.133,0.528,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 1' in Eq. (2) for 'Ln(Health)' outcome. Not significant.
+72,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.072,0.211,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 1' in Eq. (1) for 'Educated' outcome. Not significant.
+73,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.032,0.242,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 1' in Eq. (2) for 'Educated' outcome. Not significant.
+74,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.136,0.434,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 1' in Eq. (1) for 'Ln(Schooling)' outcome. Not significant.
+75,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.089,0.516,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 1' in Eq. (2) for 'Ln(Schooling)' outcome. Not significant.
+76,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.143,0.137,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 1' in Eq. (1) for 'Solvent' outcome. Not significant.
+77,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.065,0.146,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 1' in Eq. (2) for 'Solvent' outcome. Not significant.
+78,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.154,0.193,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 1' in Eq. (1) for 'Ln(Expenditure)' outcome. Not significant.
+79,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.046,0.175,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 1' in Eq. (2) for 'Ln(Expenditure)' outcome. Not significant.
+80,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.212,0.090,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 2' in Eq. (1) for 'Healthy' outcome. ** denotes significance at the 5% level.
+81,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.189,0.098,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 2' in Eq. (2) for 'Healthy' outcome. * denotes significance at the 10% level.
+82,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.764,0.327,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 2' in Eq. (1) for 'Ln(Health)' outcome. ** denotes significance at the 5% level.
+83,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.676,0.352,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 2' in Eq. (2) for 'Ln(Health)' outcome. * denotes significance at the 10% level.
+84,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.274,0.127,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 2' in Eq. (1) for 'Educated' outcome. ** denotes significance at the 5% level.
+85,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.298,0.144,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 2' in Eq. (2) for 'Educated' outcome. ** denotes significance at the 5% level.
+86,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.708,0.251,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 2' in Eq. (1) for 'Ln(Schooling)' outcome. *** denotes significance at the 1% level.
+87,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.761,0.284,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 2' in Eq. (2) for 'Ln(Schooling)' outcome. ** denotes significance at the 5% level.
+88,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.350,0.090,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 2' in Eq. (1) for 'Solvent' outcome. *** denotes significance at the 1% level.
+89,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.395,0.093,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 2' in Eq. (2) for 'Solvent' outcome. *** denotes significance at the 1% level.
+90,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.571,0.145,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 2' in Eq. (1) for 'Ln(Expenditure)' outcome. *** denotes significance at the 1% level.
+91,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.632,0.136,NA,NA,NA,NA,37,Coefficient on 'Cyclone Region 2' in Eq. (2) for 'Ln(Expenditure)' outcome. *** denotes significance at the 1% level.
+92,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.012,0.056,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 1' in Eq. (1) for 'Healthy' outcome. Not significant.
+93,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.056,0.064,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 1' in Eq. (2) for 'Healthy' outcome. Not significant.
+94,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.037,0.200,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 1' in Eq. (1) for 'Ln(Health)' outcome. Not significant.
+95,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.201,0.226,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 1' in Eq. (2) for 'Ln(Health)' outcome. Not significant.
+96,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.092,0.083,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 1' in Eq. (1) for 'Educated' outcome. Not significant.
+97,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.030,0.089,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 1' in Eq. (2) for 'Educated' outcome. Not significant.
+98,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.243,0.169,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 1' in Eq. (1) for 'Ln(Schooling)' outcome. Not significant.
+99,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.081,0.189,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 1' in Eq. (2) for 'Ln(Schooling)' outcome. Not significant.
+100,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.033,0.055,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 1' in Eq. (1) for 'Solvent' outcome. Not significant.
+101,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.011,0.063,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 1' in Eq. (2) for 'Solvent' outcome. Not significant.
+102,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,0.043,0.078,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 1' in Eq. (1) for 'Ln(Expenditure)' outcome. Not significant.
+103,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.029,0.090,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 1' in Eq. (2) for 'Ln(Expenditure)' outcome. Not significant.
+104,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.118,0.060,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 2' in Eq. (1) for 'Healthy' outcome. * denotes significance at the 10% level.
+105,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.149,0.086,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 2' in Eq. (2) for 'Healthy' outcome. * denotes significance at the 10% level.
+106,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.413,0.219,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 2' in Eq. (1) for 'Ln(Health)' outcome. * denotes significance at the 10% level.
+107,Health,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.536,0.308,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 2' in Eq. (2) for 'Ln(Health)' outcome. * denotes significance at the 10% level.
+108,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.173,0.076,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 2' in Eq. (1) for 'Educated' outcome. ** denotes significance at the 5% level.
+109,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.218,0.101,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 2' in Eq. (2) for 'Educated' outcome. ** denotes significance at the 5% level.
+110,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.384,0.131,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 2' in Eq. (1) for 'Ln(Schooling)' outcome. *** denotes significance at the 1% level.
+111,Schooling,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.490,0.190,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 2' in Eq. (2) for 'Ln(Schooling)' outcome. ** denotes significance at the 5% level.
+112,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.033,0.042,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 2' in Eq. (1) for 'Solvent' outcome. Not significant.
+113,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.125,0.053,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 2' in Eq. (2) for 'Solvent' outcome. ** denotes significance at the 5% level.
+114,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.128,0.095,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 2' in Eq. (1) for 'Ln(Expenditure)' outcome. Not significant.
+115,Consumption,Bangladesh,1970 Cyclone Exposure,1970,No Cyclone,,-0.265,0.121,NA,NA,NA,NA,37,Coefficient on 'Cyclone Cohort x Cyclone Region 2' in Eq. (2) for 'Ln(Expenditure)' outcome. ** denotes significance at the 5% level.

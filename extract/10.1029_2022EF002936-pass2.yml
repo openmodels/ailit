@@ -1,0 +1,130 @@
+Drivers of Risk:
+  1: Climate change, particularly temperature increases, and air pollution (particulate
+    and ozone pollution) significantly impact crop yields.
+  4: Climate factors (temperature) and pollution factors (AOD - aerosol optical depth)
+  5: Climate (temperature, precipitation) and pollution factors (aerosol optical depth
+    (AOD), surface ozone) impact crop yields.
+  6: Aerosol Optical Depth (AOD), Surface Ozone, Temperature, Precipitation.
+  8: Climate change (temperature and precipitation variations) and pollution (aerosol
+    optical depth (AOD) and surface ozone).
+  9: Aerosol variations, surface ozone levels, temperature increases, and precipitation
+    changes.
+  10: Temperature increase, precipitation changes, air pollution (particulate matter,
+    ozone), global warming.
+Highlights:
+  1: Pollution mitigation currently outweighs the negative effects of climate change
+    on crop yields, but future climate change is expected to reduce yields despite
+    pollution mitigation.
+  4: The study quantifies the different impacts of aerosol pollutants to crop yields
+    before and after 2010. They find that the first order polynomial year variable
+    is positive, indicating that the yield is increasing along the time, and the quadratic
+    year variable is negative for all crops, which implies that the increasing rate
+    of the yield is becoming level off.
+  5: Rice production has a quasi-linear increase from 1980-2018; maize production
+    increased faster after 2005; winter wheat accounts for 90% of total China wheat
+    production.
+  6: Particulate pollution reduces solar radiation, lowering plant photosynthesis
+    and reducing crop yield. Winter wheat exhibits the largest sensitivity to particulate
+    pollution.
+  8: Reduction in aerosols in recent years stands out as a key driver of crop variations
+    on the interannual timescale. Climate change is found to have a moderate reducing
+    effect on wheat yield in 2006-2018, but generally smaller than 2%. Pollution mitigation
+    effects dominate crop yield variations for rice and winter wheat regions.
+  9: "Temperature increase is found to be the most critical factor for all three crop\
+    \ types. The temporal evolutions and trends for rice and maize largely resemble\
+    \ those of the temperature changes during 2020\u20132050. Winter wheat's net yield\
+    \ trend during 2020\u20132050 is positive, mainly determined by the future aerosol\
+    \ reduction."
+  10: Recent abatement of anthropogenic emission results in a net crop gain, masking
+    crop loss due to increased temperature and precipitation. Air pollution control
+    policy has a co-benefit from agriculture and food perspectives. Global warming
+    will outweigh benefits of pollution control, posing a great threat to global food
+    security.
+Methodology:
+  1: Crop yield prediction models based on historical crop data, climate, and pollution
+    records are used to assess the impacts on agriculture in China.
+  4: Statistical yield model. Uses bootstrapping method with 1,000 crop models generated
+    from 75% observations each year to determine 90% CIs. Dominance analysis is used
+    to calculate the fractional contribution of different factors based on the residuals
+    of the base model, which only includes yearly and provincial dummies. The country-averaged
+    yield predictions are estimated by the statistical yield model holding at the
+    current technology stage.  Future projections are obtained by resampling 1,000
+    times the yield model with bootstrapping from historical observations.
+  5: Regression model used to assess crop responses to climate and pollution factors.
+    Two alternative models were used, but did not make a significant difference.
+  6: Crop yield models are derived from historical data (1980-2018) to assess the
+    impacts of air pollution and climate change. Dominance analysis is used to determine
+    the percentage contribution of each factor to spatial variations in crop yields.
+    Bootstrap resampling is used for confidence intervals.
+  8: Panel regression model used to estimate crop yield based on historical climate
+    and pollution data. Future yield changes are predicted using CMIP6 climate models
+    under the SSP5-8.5 emission scenario, holding technology constant at 2015-2020
+    levels. Bootstrapping is used to calculate error bars.
+  9: "The future change in yield is estimated from the difference between projected\
+    \ growing-season climate or pollution scenarios in 2021\u20132050 and the averaged\
+    \ scenarios in 2015\u20132020, under RCP8.5."
+  10: Robust statistical models are developed to predict crop yields based on temperature,
+    precipitation, AOD, and surface ozone. Machine learning is used to predict ozone
+    concentrations. The models account for technological innovations and policy practices.
+    Analysis uses data from 1980 onward.
+More Notes:
+  4: The model assumes equal weight to different provinces regardless of their share
+    in the national crop production, therefore, their estimation is interpreted as
+    an overall average impact.  Interaction terms and non-linear fitting are also
+    tested, but no significant increase in R^2 was found after adding interaction
+    terms. Non-linear trends are added to the model using first and second order of
+    polynomials regarding to years.
+  5: The study focuses on the single-rice system, which accounts for more than 65%
+    of total rice production in China.
+  6: The study focuses on China, specifically the China Plain (wheat), Yangtze River
+    Basin (rice), North China Plain and Northeast China (maize). AOD generally increased
+    from 1980-2010, then decreased. Surface ozone showed small increasing trends before
+    2013, followed by an abrupt and steep increase since 2014.
+  8: "The analysis focuses on the impact of climate and pollution on crop yields,\
+    \ without directly linking these changes to macroeconomic or fiscal outcomes.\
+    \ The study isolates the effects of temperature, precipitation, aerosol, and surface\
+    \ ozone levels on future yields under the assumption that the technology is held\
+    \ as equivalent to the current years (2015\u20132020)."
+  9: "The ozone concentration data used in the CMIP6 model outputs was converted to\
+    \ MDA8 using the empirical relationship: MDA8 = MM \xD7 1.3 + 6.2."
+  10: The study calls for consideration of air pollution impacts on agriculture and
+    crop yield when projecting future food production and for accurate long-term projections
+    of particulate and ozone pollution to assess future crop yield and to develop
+    adaptation strategies. CO2 fertilization effect and nitrogen deposition can be
+    captured by the model.
+Outcome(s) of Interest:
+  4: Crop yield changes (relative yield changes - RYCs)
+  5: Annual production and yields (production per area) of rice, maize, and wheat
+    in China's 31 provinces are analyzed from 1980 to 2018.
+  6: Crop yield reduction due to air pollution and climate variations.
+  8: Crop yield changes for rice, maize, and winter wheat, serving as a proxy for
+    agricultural productivity.
+  9: Crop yield changes for rice, maize, and winter wheat.
+  10: Crop yield (rice, maize, winter wheat), food security.
+Quantitative material:
+  1: "During 2010\u20132018, particulate pollution mitigation in China led to a net\
+    \ crop yield increase of 0.5%\u20131.9%, and predicted future reductions in maize\
+    \ and rice yields of 0.6 to 2.8% per decade by 2050 due to temperature increases."
+  4: "Estimates relative yield changes (RYCs, unit: %) in 2006\u20132010 (or 2014\u2013\
+    2018) compared to 1980\u20131984 (or 2006\u20132010) due to individual factors\
+    \ for the largest 10 production provinces of each crop. Calculates 90% confidence\
+    \ intervals (CIs) of each coefficient derived from the 5th and 95th percentiles\
+    \ by repeating the model 1,000 times using 75% bootstrap sampling of provinces\
+    \ for each year."
+  5: Planted fraction (%) of rice, maize, and wheat in 10x10 km cells; climatology
+    of MERRA2 aerosol optical depth (AOD) at 550 nm; climatology of surface ozone
+    MDA8; time series of total crop production (Megatonnes) for each crop type from
+    1980 to 2018.
+  6: "Crop yield is reduced by 1.7%\u20135.9% per 0.1 increase in AOD. The mean AOD\
+    \ during the growing season is 0.34, 0.35, and 0.42 for rice, maize, and wheat,\
+    \ respectively. The mean MDA8 ozone during the growing season is 47.1, 49.7, and\
+    \ 37.8 ppbv for rice, maize, and wheat, respectively."
+  8: "Relative yield change (RYC) is quantified for different regions and crops, including\
+    \ median estimates and 5%-95% percentile error bars. Mentions a projected 2\xB0\
+    C increase in global temperature by the 2050s under SSP5-8.5 scenario compared\
+    \ to 1995-2014."
+  9: For rice by 2050, the ozone-induced yield loss is projected at -1.1%, and the
+    aerosol-induced yield gain at +1.9%. Temperature increases can cause trends of
+    -0.8%, -2.5%, and -0.6% per decade for rice, maize, and wheat, respectively.
+  10: The study quantifies crop yield responses to different climate and pollution
+    factors during different time periods.

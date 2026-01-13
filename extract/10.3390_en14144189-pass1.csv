@@ -1,0 +1,27 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Energy Consumption Transition,101 countries/regions,Varying governance quality,2019,No CC,unitless index,0.150,0.090,NA,NA,NA,NA,11,Climate Risk Index (CRI) is the driver; vae is Voice and Accountability
+1,Energy Consumption Transition,101 countries/regions,Varying governance quality,2019,No CC,unitless index,0.313,0.094,NA,NA,NA,NA,11,Climate Risk Index (CRI) is the driver; pve is Political Stability and Absence of Violence/Terrorism
+2,Energy Consumption Transition,101 countries/regions,Varying governance quality,2019,No CC,unitless index,0.297,0.103,NA,NA,NA,NA,11,Climate Risk Index (CRI) is the driver; gee is Government Effectiveness
+3,Energy Consumption Transition,101 countries/regions,Varying governance quality,2019,No CC,unitless index,0.199,0.097,NA,NA,NA,NA,11,Climate Risk Index (CRI) is the driver; rqe is Regulatory Quality
+4,Energy Consumption Transition,101 countries/regions,Varying governance quality,2019,No CC,unitless index,0.280,0.095,NA,NA,NA,NA,11,Climate Risk Index (CRI) is the driver; rle is Rule of Law
+5,Energy Consumption Transition,101 countries/regions,Varying governance quality,2019,No CC,unitless index,0.289,0.094,NA,NA,NA,NA,11,Climate Risk Index (CRI) is the driver; cce is Control of Corruption
+6,Energy Consumption Transition,101 countries/regions,Varying governance quality,2019,No CC,unitless index,-0.120,0.080,NA,NA,NA,NA,11,Interaction term between Climate Risk Index (CRI) and vae (Voice and Accountability)
+7,Energy Consumption Transition,101 countries/regions,Varying governance quality,2019,No CC,unitless index,-0.269,0.088,NA,NA,NA,NA,11,Interaction term between Climate Risk Index (CRI) and pve (Political Stability and Absence of Violence/Terrorism)
+8,Energy Consumption Transition,101 countries/regions,Varying governance quality,2019,No CC,unitless index,-0.079,0.101,NA,NA,NA,NA,11,Interaction term between Climate Risk Index (CRI) and gee (Government Effectiveness)
+9,Energy Consumption Transition,101 countries/regions,Varying governance quality,2019,No CC,unitless index,-0.030,0.091,NA,NA,NA,NA,11,Interaction term between Climate Risk Index (CRI) and rqe (Regulatory Quality)
+10,Energy Consumption Transition,101 countries/regions,Varying governance quality,2019,No CC,unitless index,-0.197,0.089,NA,NA,NA,NA,11,Interaction term between Climate Risk Index (CRI) and rle (Rule of Law)
+11,Energy Consumption Transition,101 countries/regions,Varying governance quality,2019,No CC,unitless index,-0.157,0.087,NA,NA,NA,NA,11,Interaction term between Climate Risk Index (CRI) and cce (Control of Corruption)
+12,GDP,101 countries/regions,Varying governance quality,2019,No CC,ln(USD per capita),0.271,0.132,NA,NA,NA,NA,11,Impact of ln(GDP per capita) on Energy Consumption Transition in model (1)
+13,GDP,101 countries/regions,Varying governance quality,2019,No CC,ln(USD per capita),0.817,0.147,NA,NA,NA,NA,11,Impact of ln(GDP per capita) on Energy Consumption Transition in model (2)
+14,GDP,101 countries/regions,Varying governance quality,2019,No CC,ln(USD per capita),0.670,0.175,NA,NA,NA,NA,11,Impact of ln(GDP per capita) on Energy Consumption Transition in model (3)
+15,GDP,101 countries/regions,Varying governance quality,2019,No CC,ln(USD per capita),0.309,0.159,NA,NA,NA,NA,11,Impact of ln(GDP per capita) on Energy Consumption Transition in model (4)
+16,GDP,101 countries/regions,Varying governance quality,2019,No CC,ln(USD per capita),0.321,0.179,NA,NA,NA,NA,11,Impact of ln(GDP per capita) on Energy Consumption Transition in model (5)
+17,GDP,101 countries/regions,Varying governance quality,2019,No CC,ln(USD per capita),0.468,0.167,NA,NA,NA,NA,11,Impact of ln(GDP per capita) on Energy Consumption Transition in model (6)
+18,Energy consumption transition,Resource-rich countries,Short-term CRI,2019,No CC,Coefficient,0.376,0.121,NA,NA,NA,NA,13,Statistically significant at p < 0.01
+19,Energy consumption transition,Resource-poor countries,Short-term CRI,2019,No CC,Coefficient,0.126,0.141,NA,NA,NA,NA,13,Not statistically significant
+20,Energy consumption transition,Resource-rich countries,Long-term CRI,2019,No CC,Coefficient,0.290,0.141,NA,NA,NA,NA,13,Statistically significant at p < 0.05
+21,Energy consumption transition,Resource-poor countries,Long-term CRI,2019,No CC,Coefficient,0.347,0.145,NA,NA,NA,NA,13,Statistically significant at p < 0.05
+22,Energy consumption transition,Economy-low countries,Short-term CRI,2019,No CC,Coefficient,0.576,0.102,NA,NA,NA,NA,13,Statistically significant at p < 0.01
+23,Energy consumption transition,Economy-high countries,Short-term CRI,2019,No CC,Coefficient,0.192,0.155,NA,NA,NA,NA,13,Not statistically significant
+24,Energy consumption transition,Economy-low countries,Long-term CRI,2019,No CC,Coefficient,0.724,0.111,NA,NA,NA,NA,13,Statistically significant at p < 0.01
+25,Energy consumption transition,Economy-high countries,Long-term CRI,2019,No CC,Coefficient,-0.078,0.161,NA,NA,NA,NA,13,Not statistically significant

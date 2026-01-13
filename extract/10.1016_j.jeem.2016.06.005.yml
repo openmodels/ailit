@@ -1,0 +1,219 @@
+Drivers of Risk:
+  1: No relevant information
+  6: Weather variations (temperature and precipitation) and climate-induced yield
+    shocks.
+  7: Temperature and precipitation of origin countries, agricultural dependence of
+    origin countries, lagged GDP per capita for both origin and destination countries.
+  8: Temperature rise impacts agricultural countries by inducing outmigration.
+  10: Temperature changes.
+  11: Changes in cereal yields (an indicator of agricultural productivity), which
+    are in turn influenced by temperature and precipitation.
+  16: No relevant information
+  17: Adverse climate factors (C) affecting agricultural productivity (A) and expected
+    amenities (p) in the farming country (FC).
+  27: Temperature and precipitation changes in the origin country (country i) impacting
+    international migration.
+  28: Temperature increases, agricultural dependence.
+  29: Temperature, Precipitation, Interaction of Temperature and Agriculture, Interaction
+    of Precipitation and Agriculture
+  31: Cereal yield changes, potentially driven by temperature and precipitation.
+  34: Climate variables, specifically Monthly mean temperature (Degree Celsius) and
+    Monthly total precipitation (Millimeters), and economic structure
+  35: Temperature and Precipitation
+Highlights:
+  1: No relevant information
+  6: Agriculture is an important intermediate link between climate and international
+    migration. Climate-induced yield shocks lead to outmigration, particularly in
+    agricultural countries.
+  7: Adverse climate change (specifically temperature increases) triggers more outmigration
+    from agriculture-dependent countries.
+  8: Main outcome is that agricultural countries are more likely to experience outmigration
+    when temperature rises.
+  10: Positive temperature effects on outmigration from agricultural countries are
+    only detected in the migration routes to their top 25% migration destination countries.
+  11: Cereal yields are negatively associated with outmigration only in the top 25%
+    agricultural countries. Unobserved omitted variables jointly determining cereal
+    yields and migration would bias the OLS estimates towards zero.
+  16: No relevant information
+  17: Adverse climate factors decrease agricultural productivity and expected amenities
+    in FC, which leads to outmigration from FC. The magnitude of outmigration depends
+    on the impact of climate change on agricultural productivity and amenities, the
+    productivity of the non-agricultural sector, and labor's output elasticity.
+  27: Temperature, especially when interacted with agricultural dependence, has a
+    statistically significant positive impact on the international migration rate.
+  28: The interaction between temperature and agricultural dependence is a statistically
+    significant driver of migration flows, as shown by the coefficients and significance
+    levels in the table. The effect is robust to several alternative specifications
+    and control variables.
+  29: Temperature and Precipitation interact with Agriculture to affect migration
+    patterns differently depending on the size of migration flows between origin and
+    destination countries.
+  31: Cereal yield has a statistically significant negative impact on the outcome
+    of interest. The coefficient is consistently negative and statistically significant
+    across various robustness checks.
+  34: Countries more dependent on agriculture (column 4) have lower GDP per capita,
+    lower cereal yields, higher monthly mean temperature, higher monthly total precipitation
+    and a much higher percentage of agriculture value added in GDP than countries
+    less dependent on agriculture (column 1).
+  35: Temperature has a statistically significant negative impact on cereal yields
+    in agriculture-dependent countries (columns 2, 3, and 4). Precipitation has a
+    statistically significant positive impact on cereal yields in the most agriculture-dependent
+    countries (column 4).
+Methodology:
+  1: No relevant information
+  6: Reduced-form model linking origin country weather variations to international
+    outmigration, controlling for income and other factors. Instrumental variables
+    approach to estimate the yield-migration relationship, using temperature and precipitation
+    as instruments for cereal yields. Panel data analysis covering 42 OECD destination
+    countries and 163 origin countries over the period of 1980-2010.
+  7: Reduced-form regression analysis with country-pair fixed effects and origin and
+    destination country specific linear time trends. The model examines the relationship
+    between migration rates and contemporaneous temperature and precipitation, agricultural
+    dependence, and lagged GDP per capita.
+  8: Robustness checks using different control variables, regression techniques, dependent
+    and independent variables, and sample thresholds for defining agricultural countries.
+  10: The authors use regression analysis, including Two-Stage Least Squares Regression,
+    and split the sample into quartiles based on destination country popularity.
+  11: Fixed-effects two-stage least-squares (FE-2SLS) using temperature and precipitation
+    as instruments for cereal yields. Applicable to countries categorized based on
+    agricultural dependence.
+  16: A theoretical model is presented where people migrate from a fictitious country
+    (FC) to the rest-of-the-world (ROTW) based on wage levels and non-pecuniary utility.
+    The model includes a production function that depends on labor force (population),
+    capital, and productivity in agricultural and non-agricultural sectors.
+  17: Derives an equation (Eq. 6) for the change in outmigration (dN/dC) with respect
+    to climate change based on a model where wage is determined by the marginal productivity
+    of labor. Uses first order conditions and derivatives to analyze the relationship
+    between climate change, agricultural productivity, amenities, and outmigration
+    from a farming country (FC).
+  27: The analysis uses a reduced-form regression model with country-pair fixed effects
+    and origin/destination country-specific linear time trends. Robust standard errors
+    are clustered by country pairs.
+  28: 'Reduced-form model, panel data regression, robustness checks involving controlling
+    for lagged temperature/precipitation, migration stocks/rates, country-specific
+    time trends, and fixed effects. Uses different definitions of agriculture-dependent
+    countries (top 33%, 25%, 20%). Robust standard errors clustered by country pairs. '
+  29: Regression analysis with country-pair fixed effects and destination/origin country-specific
+    linear time trends; Sample split into quartiles based on migration stock from
+    each origin to destination country; Robust standard errors clustered by country
+    pairs
+  31: The analysis uses instrumental variables (IV) regressions, specifically FE-2SLS
+    and FE-LIML, to estimate the impact of cereal yields. Robustness checks include
+    using temperature or precipitation as sole instruments, using lagged variables,
+    controlling for GDP per capita, using the natural logarithm of migration flows,
+    and restricting the sample to the top agricultural countries.
+  34: Countries are divided into four equal-sized groups based on the share of agriculture
+    value added in GDP (lower quartile, median, and upper quartile). Summary statistics
+    are provided for each group and for all countries.
+  35: Regression analysis with robust standard errors clustered by country. Countries
+    are divided into four groups based on the share of agriculture value added in
+    GDP (lower quartile, median, and upper quartile).
+More Notes:
+  1: No relevant information
+  6: Agricultural dependence is defined as a dummy variable, where the top 25% agriculture-dependent
+    countries are assigned with 1. Agriculture-dependent countries are defined as
+    those with a relatively high share of agriculture value added in GDP.
+  7: The study distinguishes between agricultural and non-agricultural countries in
+    their response to climate change. The paper models motivations for migration,
+    which *potentially* inform projections of long-term climate change impacts.
+  8: Temperature has both contemporaneous and lagged effects on migration; migration
+    may be influenced by existing ethnic networks.
+  10: The authors control for precipitation as a possible confounding factor. The
+    paper implies that temperature tends to intensify migration mostly in the already
+    established migration routes.
+  11: Weak instrument concern because F-statistics are less than 10, although the
+    rule of thumb may not be as relevant here due to the use of robust standard errors
+    clustered at the country level.
+  16: The paper appears to be setting up a migration model within a small open economy
+    framework, likely to explore how environmental factors (potentially impacting
+    agricultural productivity) could influence migration and overall economic output.
+    The connection to climate change adaptation is not explicit on this page, but
+    is implied through the impact on agricultural productivity.
+  17: The model simplifies by assuming climate only directly affects the agricultural
+    sector. In reality, climate change may have effects on non-agricultural sectors.
+    The paper also assumes a competitive labor market.
+  27: The paper focuses on the impact of climate variables on international migration,
+    not directly on macroeconomic or fiscal outcomes. The 'Agriculture' variable is
+    a dummy indicating high agriculture-dependent countries. The model controls for
+    GDP per capita in both origin and destination countries.
+  28: The dependent variable is migration flows, and the table focuses on the impact
+    of temperature increases in agriculture-dependent countries on these flows. Some
+    specifications use the natural logarithm of migration flows as the dependent variable.
+    The paper examines origin and destination countries.
+  29: Lagged GDP per capita is included as a control variable
+  31: The coefficients are reported for the most agriculture-dependent countries,
+    and the robustness checks in Panels A-E are based on the top 25% agricultural
+    countries.
+  34: Outmigration is higher in countries with both the lowest and highest agriculture
+    dependence (columns 1 and 3). This suggests a non-linear relationship between
+    agricultural dependence and outmigration, but this is not explicitly explored
+    in the paper.
+  35: The table presents first-stage results. The dependent variable is the natural
+    logarithm of cereal yields.
+No relevant information:
+  12: This page focuses on the relationship between weather, cereal yields, and migration,
+    without explicitly linking these to macroeconomic or fiscal outcomes at a national
+    level or estimating the costs/benefits of adaptation.
+  33: This page focuses on migration patterns and characteristics of agricultural
+    vs. non-agricultural countries. It does not directly address macroeconomic or
+    macro-fiscal risks of climate change, nor does it provide cost-benefit analyses
+    of adaptation at a national level.
+  38: No relevant information
+Outcome(s) of Interest:
+  1: No relevant information
+  6: Indirectly, outmigration from countries is considered as an outcome, which could
+    affect the labor supply and productivity in both origin and destination countries.
+  7: Migration rate (migration flow from one origin country to one destination country
+    divided by the origin country population).
+  8: No specific macroeconomic or fiscal outcomes related to GDP, productivity, or
+    public finance are discussed on this page.
+  11: International outmigration.
+  16: No relevant information
+  17: Equilibrium wage level (w_c), Outmigration from the farming country (FC) (represented
+    by changes in N(C))
+  27: No relevant information
+  28: Implied macroeconomic outcome related to migration flows associated with temperature
+    increases.
+  29: No relevant information
+  31: No relevant information
+  34: Total outmigration (millions), Average annual outmigration rate (%), GDP per
+    capita (2005 US dollar), Cereal yields (Kilogram per hectare), Percentage of agriculture,
+    value added in GDP
+  35: Cereal yields (specifically, the natural logarithm of cereal yields)
+Quantitative material:
+  1: No relevant information
+  6: The effect of temperature on outmigration is positive and statistically significant
+    only in the most agriculture-dependent countries. Outmigration is highly responsive
+    to climate-induced yield shocks, but only in agricultural countries.
+  7: "1\xB0C increase in temperature implies a 5% increase in outmigration from the\
+    \ top 25% agricultural countries (significant at the 1% level), as compared to\
+    \ only 0.4% increase (statistically insignificant) in outmigration from the non-agricultural\
+    \ countries."
+  8: Differential temperature effects become larger and more statistically significant
+    as the threshold for identifying agricultural countries increases (33%, 25%, 20%).
+  11: Estimated elasticity of outmigration rate with respect to cereal yields in the
+    top 25% agricultural countries is about -2.4. For a country with 0.1% annual outmigration
+    rate, a 10% reduction in cereal yields would raise the annual outmigration rate
+    by around 24%, or to 0.124%.
+  16: No relevant information
+  27: Table presents regression coefficients showing the impact of temperature and
+    precipitation on the natural logarithm of migration rate. For example, in Model
+    2, a 1-unit increase in temperature, interacted with agriculture dependence, increases
+    the log migration rate by 0.047 (p<0.01).
+  28: The table provides coefficient estimates for the interaction term between temperature
+    and agricultural dependence on migration flows, along with standard errors and
+    significance levels for various specifications. The coefficient values range from
+    approximately 0.005 to 0.079 depending on the model specification.
+  29: Temperature coefficient ranges from -0.001 to 0.019; Temperature x Agriculture
+    coefficient ranges from -0.007 to 0.063; Precipitation coefficient ranges from
+    -0.001 to 0.001; Precipitation x Agriculture coefficient ranges from 0.001 to
+    0.002; Adjusted R-squared ranges from 0.8855 to 0.9302
+  31: Yes, the table provides coefficients for cereal yields in relation to the outcome
+    of interest.
+  34: Total outmigration, Average annual outmigration rate, GDP per capita, Cereal
+    yields, Percentage of agriculture, value added in GDP, Monthly mean temperature,
+    and Monthly total precipitation for four country groups and all countries, with
+    standard deviations.
+  35: The table provides coefficients for Temperature and Precipitation on cereal
+    yields, standard errors, number of observations, number of countries, adjusted
+    R-squared, F statistics, and p-values.

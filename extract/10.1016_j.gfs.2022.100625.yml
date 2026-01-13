@@ -1,0 +1,59 @@
+Drivers of Risk:
+  1: Climate-related hazards (droughts, forest fires, floods, extreme rainfall, landslides,
+    cyclones, extreme temperatures, sea level rise)
+  2: Climate-related hazards such as droughts, floods, cyclones, landslides, extreme
+    temperatures, and sea-level rise impacting Indian food supply.
+  4: Droughts, cyclones, extreme rainfall, extreme temperature, forest fire, flood,
+    landslide, and sea-level rise are identified as climate hazards.
+  5: Climate hazards impacting domestic food production and interstate trade, and
+    the reliance on food imports from other states.
+Highlights:
+  1: Climate hazard risks to food supply vary across states and by hazard type. Largest
+    climate hazard risks to state food supply are in Bihar, Madhya Pradesh, and Assam.
+    For 14 states, the climate hazard risk is greater for imported food supply than
+    for locally produced supply. Five states contribute to more than half of the climate
+    hazard risk in interstate food trade.
+  2: India's food supply is vulnerable to climate hazards with 82% of the population
+    exposed to at least one hazard, impacting national food security.
+  4: Droughts pose a greater risk to Indian food supply than other climate hazards,
+    while landslides and sea-level rise pose the lowest risk. Risk patterns vary across
+    states and climate hazards.
+  5: Northern and central Indian states face high climate hazard risk to per capita
+    food supply. The percentage of risk due to imports varies across states, with
+    western and southern regions showing mid-range risks. Interstate trade of food
+    contributes to climate hazard risk of food supply.
+Methodology:
+  1: Risk assessment using historical climatological and geological data, supply and
+    demand balance model to estimate source of food supply.
+  2: State-level climate hazard presence data from 2000 combined with food production
+    and interstate trade data to quantify food supply risk.
+  4: The study quantifies climate hazard risk to food supply by considering risks
+    at the food supply source in Indian states from 2000-2020.
+  5: Maps and chord diagrams are used to visualize climate hazard risk to food supply
+    and interstate trade; chord diagram created with circlize package in R.
+More Notes:
+  1: The study focuses on food security and supply chains within India, assessing
+    the impact of climate hazards on both local production and interstate trade of
+    food items.
+  4: The analysis focuses on the impact of climate hazards on food supply within India,
+    differentiating between locally produced and imported food. The identification
+    of key exporting states and number of importing states is included.
+  5: The analysis identifies regional vulnerabilities in food supply chains related
+    to climate hazards.
+Outcome(s) of Interest:
+  1: Adverse effects on national food supply, affecting both local production and
+    interstate trade.
+  4: Climate hazards pose a risk to food supply in Indian states, which can impact
+    the per capita food supply that is produced locally or imported.
+  5: Climate hazard risk to per capita food supply.
+Quantitative material:
+  1: Risks were estimated using the most recent data available on hazard presence,
+    vulnerability, and volume of per capita food supply that is exposed to hazards
+    (2000-2020). Supply and demand balance model for 30 major food items using government
+    data from 2011-12.
+  4: Figures 1 and 2 visually represent percentage land area affected by climate hazards
+    and climate hazard risk to per capita food supply, respectively. The paper quantifies
+    climate hazard risk to food supply, with droughts presenting a greater risk than
+    landslides and sea-level rise.
+  5: Climate hazard risk to per capita food supply is categorized into quartiles (low
+    to high). Percentage of risk attributable to imports from other states.

@@ -1,0 +1,131 @@
+Drivers of Risk:
+  3: Climate change impacts our food systems; short-term, periodic changes in climatic
+    conditions; extreme and prolonged temperature anomalies affecting abundance, composition
+    and geographical ranges of commercial species and damaging ecosystems like corals,
+    kelps, and seagrasses.
+  7: Fuel, Sea Surface Temperature (SST), and various types of fisheries (crustacean,
+    large pelagic, marine, mixed pelagic, mollusc, diadromous) are included as drivers.
+  10: Sea surface temperature warming, climate variability and weather extremes, increasing
+    fuel index, competitive pricing of imported foods, number of industrial tuna vessels
+    offloading fish, internally driven changes in market forces.
+  11: Fuel price, sea surface temperature (SST), and the abundance of crustaceans,
+    large pelagic fish, mixed pelagic fish, marine fishes, molluscs, and diadromous
+    fishes.
+  13: Economic cycles affecting fishing costs and demand; Ongoing global warming;
+    Climate extreme events in the sea; Fluctuations in Sea Surface Temperature (SST)
+    anomalies.
+Highlights:
+  3: Focuses on sea surface temperature anomalies as an indicator of climatic change
+    and explores how they affect technical efficiencies of artisanal fleets globally.
+  7: The table highlights the statistical significance of various drivers. For example,
+    fuel, crustacean, and diadromous are highly significant (***), while SST and large_pelagic
+    are significant (*). Several countries also have significant coefficients, indicating
+    country-specific effects on the outcome.
+  9: Many countries show statistically significant (**) or highly statistically significant
+    (***) estimates, suggesting a noteworthy impact on the unspecified economic term.
+    Several countries have negative estimates with high significance (e.g., Suriname,
+    Tuvalu, Trinidad Tob), while others have positive estimates with high significance
+    (e.g., Taiwan, USA, Vanuatu).
+  10: North American/Europe region has benefited from SST and technical efficiency
+    leading to increased fisheries since the 1990s when fuel costs were low.
+  11: Fuel price has a positive coefficient and marine fish price has a negative coefficient
+    regarding their effects on technical efficiency.
+  13: Economic (prices, costs) and environmental (SST anomalies) factors significantly
+    explain past changes in global artisanal fleets technical efficiency; These effects
+    vary regionally (some regions increase efficiency with higher prices/SST, others
+    decrease).
+Methodology:
+  1: Examined historical changes (1950-2014) in technical efficiency within the global
+    artisanal fishing fleets in relation to sea surface temperature anomalies, market
+    prices by taxonomic group, and fuel costs.
+  3: Uses Data Envelopment Analysis (DEA) to estimate technical efficiency of artisanal
+    fleets, combining it with market dynamics and sea surface temperature anomalies
+    in a second-stage statistical approach. Bootstrapping is used to improve statistical
+    validity of the DEA scores. The DEA analysis is conducted at the exclusive economic
+    zones (EEZs) level.
+  7: The analysis uses Ordinary Least Squares (OLS) regression and bootstrapped OLS
+    (bias-corrected) to estimate the relationship between the drivers and the outcome
+    variable. Significance levels are indicated by asterisks (*, **, ***).
+  10: The analysis uses Data Envelopment Analysis (DEA) models to estimate the differences
+    between weather events affecting capacity utilization and technical efficiency,
+    potentially leading to an unbiased estimate of capacity utilization using the
+    ratio of the two models.
+  11: The paper calculates country-specific elasticities for various predictor variables
+    using global maps. The marginal effect elasticities represent the impact of a
+    1% change in each variable on technical efficiency.
+  13: Examination of the global artisanal fleet to improve understanding of factors
+    influencing fishing efficiency; analysis of economic and environmental factors
+    affecting technical efficiency of fisheries. The approach involves teasing apart
+    cause and effect parameters related to resource users, market dynamics, and climate
+    change; results applicable to understanding past changes in global artisanal fleets'
+    technical efficiency.
+More Notes:
+  1: The study focuses on the artisanal fishing sector and its response to climate
+    and economic changes.
+  3: The paper aims to provide knowledge for fisheries enforcement under changing
+    economics and environmental conditions by monitoring changes in technical efficiency
+    influenced by climatic, cost, and price factors.
+  7: The table presents only a portion of the regression results, likely from Model
+    1. The outcome variable, data source, and full model specification are needed
+    for complete interpretation.  The country variables appear to be indicator variables
+    representing the impact of being in a particular country.
+  8: The asterisks (e.g., *, **, ***) likely indicate statistical significance levels,
+    but the exact meaning of each level is not defined on this page. The table is
+    continued from a previous page.
+  9: Without the context of the full paper, the precise interpretation of the 'term',
+    the units of measurement, and the specific adaptation measures being evaluated
+    are unclear.  The table provides point estimates and confidence intervals, but
+    understanding the underlying model and assumptions is crucial for proper interpretation.
+  10: Artisanal vessels may be forced to alter their production strategies due to
+    market forces, potentially leading to social and economic consequences for coastal
+    communities. Climate induced changes may affect allocation of catches between
+    country EEZs.
+  11: The analysis indicates that government subsidies, particularly fuel subsidies
+    for fishing fleets (e.g., the Chinese fleet), contribute to excess capacity.
+  13: The paper focuses on technical efficiency of fisheries, going beyond just catches
+    and profits.
+Outcome(s) of Interest:
+  1: Impacts are already leading to sudden declines, long-term collapses in production,
+    or increases in the price of fish products, which can further exacerbate excess
+    levels of fishing capacity.
+  3: Altered fishing patterns, price collapses, and closures of fisheries, which can
+    have significant socio-economic implications.
+  7: The table presents coefficients from a regression model. While the specific outcome
+    variable is not explicitly stated on this page, the table contains regression
+    estimates related to various 'fuel' and 'SST' (Sea Surface Temperature), and fisheries-related
+    variables (crustacean, large_pelagic, marine, mixed_pelagic, mollusc, diadromous),
+    along with country-specific effects. It's possible the outcome is related to economic
+    activity or a measure of fisheries productivity, given the drivers considered.
+  8: The table presents estimates related to an unspecified term/outcome for various
+    countries; the table includes estimates, bias, standard error, bias-corrected
+    estimates (bc), lower confidence limits (lcl) and upper confidence limits (ucl).
+  9: The table presents estimates related to some kind of economic term (unspecified)
+    for a range of countries.
+  10: Technical efficiency of fisheries is affected, impacting supply, demand, and
+    market prices of fish.
+  11: Technical efficiency of fishing fleets.
+  13: Economic security for maintaining jobs, livelihoods and wellbeing; Food security.
+Quantitative material:
+  1: Examined historical changes (1950-2014) in technical efficiency within the global
+    artisanal fishing fleets in relation to sea surface temperature anomalies, market
+    prices by taxonomic group, and fuel costs.
+  3: Uses data from 1950-2014.
+  7: The table contains coefficient estimates, standard errors, bias, bias-corrected
+    estimates, lower confidence limits (lcl), and upper confidence limits (ucl) for
+    each variable.
+  8: 'The table provides quantitative estimates, standard errors, and confidence intervals
+    for an unspecified ''term'' for a range of countries. Examples: Faeroe Is: estimate=0.172680,
+    std.error=0.030065, lcl=0.111556, ucl=0.229396; Fiji: estimate=-0.172897, std.error=0.041657,
+    lcl=-0.253579, ucl=-0.093303'
+  9: The table provides quantitative estimates, standard errors, bias, bias-corrected
+    estimates (bc), lower confidence limits (lcl), and upper confidence limits (ucl)
+    for each country listed. Significance levels are also indicated with asterisks.
+  10: Figure 1 displays maximum global elasticities by region, showing the percentage
+    change in technical efficiency resulting from a 1% change in the exogenous predictor.
+    Figure 3E shows a global trend in fuel index increases.
+  11: Country-level marginal effect elasticities (a 1% change) calculated on continuous
+    predictor variables. Colors on the maps represent percentage change in technical
+    efficiency.
+  13: China landed ~9 million tonnes of seafood within its EEZ in 2010 (Pauly and
+    Le Manach, 2015). Therefore, the overall impact of a positive or negative 1% shock
+    on this scale in China could have dramatic effects on their seafood production

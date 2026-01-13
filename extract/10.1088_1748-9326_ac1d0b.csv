@@ -1,0 +1,117 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Social Cost of Carbon,Global,SSP2-RCP4.5,2021,PAGE09,Multiple of PAGE09 SCCO2,2,NA,NA,NA,NA,NA,Abstract,PAGE-ICE yields SCCO2 values about two times higher than PAGE09 due to climate and economic updates.
+1,Social Cost of Carbon,Global South,SSP2-RCP4.5,2021,PAGE09,Multiple of PAGE09 SCCO2,3,NA,NA,NA,NA,NA,Abstract,Economy feedbacks demonstrate a manifold increase in the SCCO2 resulting from an empirically derived estimate of partially persistent economic damages. Almost entirely due to higher damages in the Global South. Reported with a conservative multiple.
+2,Social Cost of Carbon,Global,SSP2-RCP4.5,2021,NA,Qualitative Change,0,NA,NA,NA,NA,NA,Abstract,"Including an estimate of interannual temperature variability increases the width of the SCCO2 distribution, with particularly strong effects in the tails and a slight increase in the mean SCCO2."
+3,SCCO2,Global,SSP2-RCP4.5,2020,No CC,USD,5000,NA,5%,0,50%,0,Figure 4,Estimated SCCO2 exceeds $5000 for some runs impacted by damage persistence in lower-income regions.
+4,SCCO2,Global,SSP2-RCP4.5,2020,No CC,USD,2500,NA,0%,0,50%,0,Figure 4,SCCO2 remains high unless persistence lowers annually by >2% through adaptation.
+5,SCCO2,Global,SSP2-RCP4.5,2020,No CC,USD,600,NA,NA,NA,NA,NA,Page 7 text,Reductions in persistence of at least 3% per year required for SCCO2 less than $600.
+6,SCCO2,Global,SSP2-RCP4.5,2020,No CC,USD,21,NA,NA,NA,NA,NA,Page 7 text,Mean increase of $21 (6.5%) due to annual temperature variability.
+7,SCCO2,Global,SSP2-4.5,2100,No CC,US$ per tCO2,0,NA,5%,NA,95%,NA,Figure 6,"Based on PAGE09, PAGE-ICE, and PAGE with interannual temperature variability. Distributions shown as boxplots with whiskers at 5th and 95th percentiles. Setting Value to zero as specific number is not mentioned."
+8,SCCO2,Global,SSP2-4.5,2100,No CC,US$ per tCO2,0,NA,5%,NA,95%,NA,Figure 6,"Based on PAGE-ICE with growtheffects, and PAGE with both growtheffects and interannual variability. Distributions shown as boxplots with whiskers at 5th and 95th percentiles. Setting Value to zero as specific number is not mentioned."
+9,Economic damages,Global,SSP2-4.5,2100,No CC,Percentage of GDP,0,NA,5%,NA,95%,NA,Figure 5,"Impact of variability on projected current damages in 2100 expressed as a percentage of GDP in that year, separately for the three damage modules affected by temperature anomalies (Discontinuity, Market, Non-economic). Distributions are shown as boxplots, so 5th and 95th percentile information can be extracted. Setting Value to zero as specific number is not mentioned."
+10,Social Cost of Carbon,Global,SSP2-4.5,2020,No CC,2015 USD/tCO2,0,NA,NA,NA,NA,NA,Figure A2,SCCO2 varies based on pulse size; no specific values reported on page 12.
+11,Social Cost of Carbon,Global,SSP2-4.5,2020,No CC,2015 USD/tCO2,0,NA,NA,NA,NA,NA,Figure A2,PAGE-ICE model shows SCCO2 that is generally higher than PAGE09 versions; no specific values reported on page 12.
+12,Social Cost of Carbon,Global,SSP2-4.5,2020,No CC,2015 USD/tCO2,0,NA,NA,NA,NA,NA,Figure A2,PAGE (annual temperatures) no variability model shows SCCO2 that declines initially; no specific values reported on page 12.
+13,Social Cost of Carbon,Global,SSP2-4.5,2020,No CC,2015 USD/tCO2,0,NA,NA,NA,NA,NA,Figure A2,PAGE with annual variability model shows SCCO2 that is lower than PAGE (annual temperatures) with no variability; no specific values reported on page 12.
+14,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,100.88,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'tcr_transientresponse' (transient climate response) by one standard deviation.
+15,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-63.29,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'ptp_timepreference' (time preference) by one standard deviation.
+16,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,35.77,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'frt_warminghalflife' (warming half-life) by one standard deviation.
+17,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-31.06,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'impf_coeff_lin' (linear impact function coefficient) by one standard deviation.
+18,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,26.78,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'a1_percentco2oceanlong' (percent of CO2 absorbed by ocean - long term) by one standard deviation.
+19,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,23.51,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'pow_NonMarketExponent' (non-market impact exponent) by one standard deviation.
+20,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-22.63,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'emuc_utilityconvexity' (utility convexity) by one standard deviation.
+21,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,21.84,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'w_NonImpactsatCalibrationTemp' (non-market impacts at calibration temperature) by one standard deviation.
+22,Social Cost of Carbon,Africa,SSP2-4.5,2020,Mean parameter values,$2015,13.68,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'ampf_amplification_Africa' (amplification of impacts in Africa) by one standard deviation.
+23,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-12.15,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'tcal_CalibrationTemp' (calibration temperature) by one standard deviation.
+24,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,9.21,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'iben_NonMarketInitialBenefit' (non-market initial benefit) by one standard deviation.
+25,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,8.84,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'stay_fractionCO2emissionsinatm' (fraction of CO2 emissions remaining in atmosphere) by one standard deviation.
+26,Social Cost of Carbon,Southeast Asia,SSP2-4.5,2020,Mean parameter values,$2015,6.61,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'ampf_amplification_SEAsia' (amplification of impacts in Southeast Asia) by one standard deviation.
+27,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,5.91,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'ipow_NonMarketIncomeFxnExponent' (non-market income function exponent) by one standard deviation.
+28,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-4.32,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'sltau_SLresponsetime' (sea level rise response time) by one standard deviation.
+29,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,4.16,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'W_SatCalibrationSLR' (sea level rise impact at calibration point) by one standard deviation.
+30,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,4.12,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'pow_SLRImpactFxnExponent' (sea level rise impact function exponent) by one standard deviation.
+31,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,4.05,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'sltemp_SLtemprise' (sea level rise temperature sensitivity) by one standard deviation.
+32,Social Cost of Carbon,Africa,SSP2-4.5,2020,Mean parameter values,$2015,3.73,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'rtl_abs_0_realizedabstemperature_Africa' (absolute temperature at which temperature impacts begin in Africa) by one standard deviation.
+33,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,2.77,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'ind_slopeSEforcing_indirect' (slope of indirect climate forcing) by one standard deviation.
+34,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,2.71,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'ipow_MarketIncomeFxnExponent' (market income function exponent) by one standard deviation.
+35,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,2.67,NA,NA,NA,NA,NA,Table A1,Impact of increasing 't2_timeco2oceanshort' (time constant for CO2 absorption - short term) by one standard deviation.
+36,Social Cost of Carbon,Southeast Asia,SSP2-4.5,2020,Mean parameter values,$2015,2.16,NA,NA,NA,NA,NA,Table A1,Impact of increasing 'rtl_abs_0_realizedabstemperature_SEAsia' (absolute temperature at which temperature impacts begin in SE Asia) by one standard deviation.
+37,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,617.53,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'tdis_tolerabilitydisc' (tolerable temperature before discontinuity) by one standard deviation.
+38,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,104.61,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'ptp_timepreference' (time preference) by one standard deviation.
+39,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-82.96,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'tcr_transientresponse' (transient climate response) by one standard deviation.
+40,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,52.43,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'emuc_utilityconvexity' (utility convexity) by one standard deviation.
+41,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-34.02,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'frt_warminghalflife' (warming half-life) by one standard deviation.
+42,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,31.19,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'impf_coeff_lin' (linear impact function coefficient) by one standard deviation.
+43,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-27.95,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'a1_percentco2oceanlong' (percent of CO2 absorbed by ocean - long term) by one standard deviation.
+44,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-21.64,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'w_NonImpactsatCalibrationTemp' (non-market impacts at calibration temperature) by one standard deviation.
+45,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-20.11,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'pow_NonMarketExponent' (non-market impact exponent) by one standard deviation.
+46,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,14.99,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'tcal_CalibrationTemp' (calibration temperature) by one standard deviation.
+47,Social Cost of Carbon,Africa,SSP2-4.5,2020,Mean parameter values,$2015,-12.77,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'ampf_amplification_Africa' (amplification of impacts in Africa) by one standard deviation.
+48,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-9.19,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'iben_NonMarketInitialBenefit' (non-market initial benefit) by one standard deviation.
+49,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-9.04,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'stay_fractionCO2emissionsinatm' (fraction of CO2 emissions remaining in atmosphere) by one standard deviation.
+50,Social Cost of Carbon,Southeast Asia,SSP2-4.5,2020,Mean parameter values,$2015,-6.30,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'ampf_amplification_SEAsia' (amplification of impacts in Southeast Asia) by one standard deviation.
+51,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-5.88,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'sltemp_SLtemprise' (sea level rise temperature sensitivity) by one standard deviation.
+52,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-5.01,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'ipow_NonMarketIncomeFxnExponent' (non-market income function exponent) by one standard deviation.
+53,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-4.14,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'W_SatCalibrationSLR' (sea level rise impact at calibration point) by one standard deviation.
+54,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,3.93,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'sltau_SLresponsetime' (sea level rise response time) by one standard deviation.
+55,Social Cost of Carbon,Africa,SSP2-4.5,2020,Mean parameter values,$2015,-3.73,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'rtl_abs_0_realizedabstemperature_Africa' (absolute temperature at which temperature impacts begin in Africa) by one standard deviation.
+56,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-3.58,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'pow_SLRImpactFxnExponent' (sea level rise impact function exponent) by one standard deviation.
+57,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-3.13,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'ind_slopeSEforcing_indirect' (slope of indirect climate forcing) by one standard deviation.
+58,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-2.81,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 't2_timeco2oceanshort' (time constant for CO2 absorption - short term) by one standard deviation.
+59,Social Cost of Carbon,Southeast Asia,SSP2-4.5,2020,Mean parameter values,$2015,-2.15,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'rtl_abs_0_realizedabstemperature_SEAsia' (absolute temperature at which temperature impacts begin in SE Asia) by one standard deviation.
+60,Social Cost of Carbon,Global,SSP2-4.5,2020,Mean parameter values,$2015,-2.07,NA,NA,NA,NA,NA,Table A2,Impact of decreasing 'ipow_MarketIncomeFxnExponent' (market income function exponent) by one standard deviation.
+61,Damage Persistence,Global panel data,NA,2015,Immediate Impact,%,52.8,NA,NA,NA,NA,NA,Page 19,Based on Burke et al (2015) regression with one temperature lag; Quadratic lag coefficient significant at the 5% level.
+62,Damage Persistence,Global panel data,NA,2015,Immediate Impact," ""%""",27.8,NA,NA,NA,NA,NA,Page 19,A model with two lags would strongly reduce a point estimate.
+63,Damage Persistence,Global panel data,NA,2015,Immediate Impact," ""%""",10.3,NA,NA,NA,NA,NA,Page 19,A model with four lags would suggest a persistence
+64,Damage Persistence,Global panel data,NA,2015,NA,%,-41,NA,10%,-41,NA,NA,Page 19,Including a second lag would extend the 90% confidence interval
+65,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,Percentage points,0.0127,NA,NA,NA,NA,NA,Table B1,Coefficient for Temperature. p<0.001
+66,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,Percentage points,0.0136,NA,NA,NA,NA,NA,Table B1,Coefficient for Temperature. p<0.001
+67,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,Percentage points,0.0106,NA,NA,NA,NA,NA,Table B1,Coefficient for Temperature. p<0.01
+68,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,Percentage points,0.00949,NA,NA,NA,NA,NA,Table B1,Coefficient for Temperature. p<0.01
+69,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,Percentage points,0.00933,NA,NA,NA,NA,NA,Table B1,Coefficient for Temperature. p<0.05
+70,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,Percentage points,0.00920,NA,NA,NA,NA,NA,Table B1,Coefficient for Temperature. p<0.05
+71,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,Percentage points,-0.000487,NA,NA,NA,NA,NA,Table B1,Coefficient for Temperature squared. p<0.001
+72,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,Percentage points,-0.000517,NA,NA,NA,NA,NA,Table B1,Coefficient for Temperature squared. p<0.001
+73,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,Percentage points,-0.000456,NA,NA,NA,NA,NA,Table B1,Coefficient for Temperature squared. p<0.001
+74,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,Percentage points,-0.000441,NA,NA,NA,NA,NA,Table B1,Coefficient for Temperature squared. p<0.001
+75,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,Percentage points,-0.000446,NA,NA,NA,NA,NA,Table B1,Coefficient for Temperature squared. p<0.001
+76,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,Percentage points,-0.000459,NA,NA,NA,NA,NA,Table B1,Coefficient for Temperature squared. p<0.001
+77,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,Percentage points,0.000244,NA,NA,NA,NA,NA,Table B1,Coefficient for L.Temperature squared. p<0.05
+78,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,Percentage points,0.000228,NA,NA,NA,NA,NA,Table B1,Coefficient for L5.Temperature squared. p<0.05
+79,Damage Persistence,Global panel data,SSP2-4.5,2015,No CC,%,100,NA,NA,NA,NA,NA,Table B1,Resulting rho for 0 temperature lags
+80,Damage Persistence,Global panel data,SSP2-4.5,2015,No CC,%,52.81,NA,NA,NA,NA,NA,Table B1,Resulting rho for 1 temperature lag
+81,Damage Persistence,Global panel data,SSP2-4.5,2015,No CC,%,27.82,NA,NA,NA,NA,NA,Table B1,Resulting rho for 2 temperature lags
+82,Damage Persistence,Global panel data,SSP2-4.5,2015,No CC,%,28.36,NA,NA,NA,NA,NA,Table B1,Resulting rho for 3 temperature lags
+83,Damage Persistence,Global panel data,SSP2-4.5,2015,No CC,%,10.25,NA,NA,NA,NA,NA,Table B1,Resulting rho for 4 temperature lags
+84,Damage Persistence,Global panel data,SSP2-4.5,2015,No CC,%,20.81,NA,NA,NA,NA,NA,Table B1,Resulting rho for 5 temperature lags
+85,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,%,0,NA,5%,-73.40,95%,91.34,Table B1,5th and 95th Monte Carlo percentiles for 1 temperature lag
+86,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,%,0,NA,5%,-101.57,95%,87.77,Table B1,5th and 95th Monte Carlo percentiles for 2 temperature lags
+87,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,%,0,NA,5%,-143.72,95%,106.52,Table B1,5th and 95th Monte Carlo percentiles for 3 temperature lags
+88,GDP Growth,Global panel data,SSP2-4.5,2015,No CC,%,0,NA,5%,-94.44,95%,94.79,Table B1,5th and 95th Monte Carlo percentiles for 4 temperature lags
+89,GDPpc Growth,Low GDPpc Countries,NA,2021,No CC,percentage points,0.0236,NA,NA,NA,NA,NA,Table B3,Coefficient for Temperature (1 temperature lag)
+90,GDPpc Growth,Low GDPpc Countries,NA,2021,No CC,percentage points,-0.0007,NA,NA,NA,NA,NA,Table B3,Coefficient for Temperature Squared (1 temperature lag)
+91,GDPpc Growth,Low GDPpc Countries,NA,2021,No CC,percentage points,-0.0150,NA,NA,NA,NA,NA,Table B3,Coefficient for L.Temperature (2 temperature lags)
+92,GDPpc Growth,Low GDPpc Countries,NA,2021,No CC,percentage points,0.0004,NA,NA,NA,NA,NA,Table B3,Coefficient for L.Temperature Squared (2 temperature lags)
+93,GDPpc Growth,Low GDPpc Countries,NA,2021,No CC,percentage points,-0.0165,NA,NA,NA,NA,NA,Table B3,Coefficient for L2.Temperature (3 temperature lags)
+94,GDPpc Growth,Low GDPpc Countries,NA,2021,No CC,percentage points,0.0003,NA,NA,NA,NA,NA,Table B3,Coefficient for L2.Temperature Squared (3 temperature lags)
+95,GDPpc Growth,Low GDPpc Countries,NA,2021,No CC,percentage points,0.0061,NA,NA,NA,NA,NA,Table B3,Coefficient for L3.Temperature (4 temperature lags)
+96,GDPpc Growth,Low GDPpc Countries,NA,2021,No CC,percentage points,-0.0002,NA,NA,NA,NA,NA,Table B3,Coefficient for L3.Temperature Squared (4 temperature lags)
+97,GDPpc Growth,Low GDPpc Countries,NA,2021,No CC,percentage points,0.0021,NA,NA,NA,NA,NA,Table B3,Coefficient for L4.Temperature (5 temperature lags)
+98,GDPpc Growth,Low GDPpc Countries,NA,2021,No CC,percentage points,0.0001,NA,NA,NA,NA,NA,Table B3,Coefficient for L4.Temperature Squared (5 temperature lags)
+99,GDPpc Growth,Low GDPpc Countries,NA,2021,No CC,percentage points,0.0083,NA,NA,NA,NA,NA,Table B3,Coefficient for L5.Temperature (6 temperature lags)
+100,GDPpc Growth,Low GDPpc Countries,NA,2021,No CC,percentage points,-0.0003,NA,NA,NA,NA,NA,Table B3,Coefficient for L5.Temperature Squared (6 temperature lags)
+101,Damage Persistence,Low GDPpc Countries,NA,2021,No CC,%,100.00,NA,NA,NA,NA,NA,Table B3,"Resulting ρ, 1 temperature lag"
+102,Damage Persistence,Low GDPpc Countries,NA,2021,No CC,%,42.48,NA,NA,NA,NA,NA,Table B3,"Resulting ρ, 2 temperature lags"
+103,Damage Persistence,Low GDPpc Countries,NA,2021,No CC,%,-16.29,NA,NA,NA,NA,NA,Table B3,"Resulting ρ, 3 temperature lags"
+104,Damage Persistence,Low GDPpc Countries,NA,2021,No CC,%,-15.89,NA,NA,NA,NA,NA,Table B3,"Resulting ρ, 4 temperature lags"
+105,Damage Persistence,Low GDPpc Countries,NA,2021,No CC,%,-69.83,NA,NA,NA,NA,NA,Table B3,"Resulting ρ, 5 temperature lags"
+106,Damage Persistence,Low GDPpc Countries,NA,2021,No CC,%,-94.29,NA,NA,NA,NA,NA,Table B3,"Resulting ρ, 6 temperature lags"
+107,Damage Persistence,Low GDPpc Countries,NA,2021,No CC,%,0,NA,5%,-146.71,95%,135.33,Table B3,5th and 95th Monte Carlo percentile for 2 temperature lags
+108,Damage Persistence,Low GDPpc Countries,NA,2021,No CC,%,0,NA,5%,-894.45,95%,905.03,Table B3,5th and 95th Monte Carlo percentile for 3 temperature lags
+109,Damage Persistence,Low GDPpc Countries,NA,2021,No CC,%,0,NA,5%,-923.95,95%,1022.92,Table B3,5th and 95th Monte Carlo percentile for 4 temperature lags
+110,Damage Persistence,Low GDPpc Countries,NA,2021,No CC,%,0,NA,5%,-1246.10,95%,1345.78,Table B3,5th and 95th Monte Carlo percentile for 5 temperature lags
+111,Damage Persistence,Low GDPpc Countries,NA,2021,No CC,%,0,NA,5%,-1081.44,95%,1332.94,Table B3,5th and 95th Monte Carlo percentile for 6 temperature lags
+112,Social Cost of Carbon,Global,SSP2-4.5,2100,Zero decay,USD/tCO2,337,NA,NA,NA,NA,NA,Figure B9,Mean SCCO2 based on 50000 Monte Carlo runs. Default setting of zero decay.
+113,Social Cost of Carbon,Global,SSP2-4.5,2100,1% decay,USD/tCO2,659,NA,NA,NA,NA,NA,Figure B9,Mean SCCO2 based on 50000 Monte Carlo runs.
+114,Social Cost of Carbon,Global,SSP2-4.5,2100,2% decay,USD/tCO2,409,NA,NA,NA,NA,NA,Figure B9,Mean SCCO2 based on 50000 Monte Carlo runs.
+115,Social Cost of Carbon,Global,SSP2-4.5,2100,No persistence,USD/tCO2,308.5,NA,NA,NA,NA,NA,Page 27,SCCO2 is virtually identical to the default PAGE-ICE model with no persistence (average of 305 and 312)

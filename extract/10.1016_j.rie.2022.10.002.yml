@@ -1,0 +1,65 @@
+Drivers of Risk:
+  4: "Climate-related anomaly (ki,t), cultural connection with homeland, (kappa1ij),\
+    \ and armed conflict (\u03D1i,t) are drivers influencing migration. Migration\
+    \ inflows impact government policy. Spatial distance and diaspora size are drivers\
+    \ of migration costs."
+  5: Business cycle changes (economic recovery or downturn) drive migration flows,
+    which in turn affect GDP.
+  6: Climate change (rising temperatures, natural disasters)
+  7: Wars (internal and external conflicts).
+  8: Temperature anomaly and armed conflicts are key drivers affecting migration volumes,
+    with temperature anomalies reducing asylum-associated migration and armed conflicts
+    significantly increasing it.
+Highlights:
+  4: Governments react to migration inflows, diaspora size, and GDP when setting migration
+    policies. Migration costs decrease with diaspora size and increase with spatial
+    distance.
+  5: Economic recovery (positive business cycle) increases immigration due to higher
+    expected income and a more relaxed policy environment. Stricter migration policies
+    can be relaxed by a boosting business cycle.
+  6: There is a threshold where the contribution of GDP expansion is large enough
+    that immigration increases; rising temperature can bring advantages for nations
+    in colder zones in terms of more productive agriculture; marginal effect of domestic
+    climates on migration may be positive, but it may not be positive if the yields
+    deceed the insurance premium
+  8: A temperature anomaly decreases asylum-associated migration by about 26%, while
+    diaspora size increases immigration volume. Armed conflicts significantly increase
+    asylum immigration by 73% and regular immigration by 110% from low-income countries.
+Methodology:
+  4: Panel regressions are used, but the 'kappa1ij' (cultural connection) variable
+    cancels out in the regression. The model analyzes the government's reaction function
+    to migration inflow (zj,t) based on GDP, expected net migration inflow, and diaspora
+    size.
+  5: The paper uses a model of migration based on utility maximization, Gumbel distributions,
+    and McFadden's results to derive equations relating migration flows to economic
+    conditions and policy responses. The analysis focuses on the marginal effects
+    of changes in business cycles on migration. The model considers the impact of
+    expected net migration and diasporas on policy restrictiveness, modulated by GDP.
+  6: Decomposition of marginal effects to compare GDP expansion and business cycle
+    changes relative to the expansion of the total amount of migrants; analysis of
+    the effect of temperature anomalies on migration flows; considering Human Development
+    Indicators (HDI) components separately.
+  7: Fixed effects regressions (within estimator, ordinary OLS, PPML), Hodrick-Prescott
+    Filter to decompose GDP per capita. Analysis is done for developed and developing
+    countries.
+  8: Fixed effects estimations are used to analyze the impact of various factors on
+    immigration, focusing on both regular and asylum-associated migration under different
+    model assumptions.
+More Notes:
+  6: The analysis focuses on the impact of climate change on migration flows and its
+    connection to HDI and GDP.
+  7: Uses Malaysia's temperature data as a proxy for Brunei Darussalam.
+Outcome(s) of Interest:
+  4: No explicit macroeconomic outcomes are named on this page, but the text suggests
+    GDP (Yj,t) is influenced by migration policy and migration flows. Potential underemployment
+    and underproduction gaps are also mentioned as potential consequences.
+  5: GDP effects are considered in relation to migration flows.
+  6: GDP expansion
+  7: GDP per capita, GNI per capita, unemployment rates, life expectancy at birth.
+Quantitative material:
+  4: No specific quantitative estimates of macroeconomic impacts are provided on this
+    page.
+  5: Equations (14) - (20.2) describe quantitative relationships between migration,
+    GDP, and policy responses.
+  7: Mentions regressions with heteroscedastic-robust errors. Presents equations (26),
+    (27), (28), and (29).

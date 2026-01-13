@@ -1,0 +1,49 @@
+,Outcome,Country(ies),Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Green Agricultural Development,China,2008 snow disaster,2008,Pre-disaster level,%,-3.07,NA,NA,NA,NA,NA,Page 1,Indicates a decrease in GAD level.
+1,Green Agricultural Development,China,2008 snow disaster,2008,No CC,index,-0.008,NA,NA,NA,NA,NA,8,Coefficient of Rainsi x Postt in column (1) of Table 4.
+2,Green Agricultural Development,China,2008 snow disaster,2008,No CC,index,-0.013,NA,NA,NA,NA,NA,8,Coefficient of Rainsi x Postt in column (2) of Table 4.
+3,GAD Index,China,2008 snow disaster,2008,No disaster,index points,-0.012,0.001,NA,NA,NA,NA,9,Based on column (5) of Table 4.  This represents a 3.07% decrease relative to an average GAD index of 0.39.
+4,Green Agricultural Development,China,2008 snow disaster,2008,No disaster,-,-0.012,0.001,NA,NA,NA,NA,10,"Coefficient of Rainsi x Postt (rainfall fluctuation interacted with a post-disaster indicator) is significantly negative at the 1% level. Result includes time fixed effects, individual fixed effects, and control variables."
+5,Green Agricultural Development,China,Time Trend,2008,No disaster,-,-0.012,0.001,NA,NA,NA,NA,10,Coefficient of Rainsi x Postt (rainfall fluctuation interacted with a post-disaster indicator) is significantly negative at the 1% level. Result includes time trend.
+6,Green Agricultural Development,China,Excluding Municipalities,2008,No disaster,-,-0.012,0.001,NA,NA,NA,NA,10,"Coefficient of Rainsi x Postt (rainfall fluctuation interacted with a post-disaster indicator) is significantly negative at the 1% level. Excluding Beijing, Tianjin, Shanghai, and Chongqing."
+7,Green Agricultural Development,China,Land Transfer Policy,2008,No disaster,-,-0.011,0.001,NA,NA,NA,NA,10,Coefficient of Rainsi x Postt (rainfall fluctuation interacted with a post-disaster indicator) is significantly negative at the 1% level. Controlling for land transfer policies.
+8,Green Agricultural Development,China,Rainfall1,2008,No disaster,-,-0.012,0.001,NA,NA,NA,NA,10,Coefficient of Rainsi x Postt (rainfall fluctuation interacted with a post-disaster indicator) is significantly negative at the 1% level. Including Rainfall1.
+9,Green Agricultural Development,China,Rainfall2,2008,No disaster,-,-0.013,0.001,NA,NA,NA,NA,10,Coefficient of Rainsi x Postt (rainfall fluctuation interacted with a post-disaster indicator) is significantly negative at the 1% level. Including Rainfall2.
+10,Green Agricultural Development,China,Land transfer policy,2008,Pre-disaster,,-0.011,NA,NA,NA,NA,NA,11,Coefficient of Rainsi x Postt after controlling for land transfer policy.
+11,Green Agricultural Development,China,Rainfall fluctuations,2008,Pre-disaster,,-0.012,NA,NA,NA,NA,NA,11,Coefficient of Rainsi x Postt after controlling for rainfall fluctuations.
+12,Green Agricultural Development,China,PSM-DID,2008,Pre-disaster,,-0.013,0.001,NA,NA,NA,NA,11,PSM-DID result for the impact of snow disaster on GAD.
+13,Green Agricultural Development,China,Identify2,2008,Pre-disaster,,-0.024,0.002,NA,NA,NA,NA,11,Identify2 model result for the impact of snow disaster on GAD.
+14,Green Agricultural Development,China,2SLS-Rainfall,2008,Pre-disaster,,-0.034,0.004,NA,NA,NA,NA,11,Two-stage least squares model with rainfall as an instrument.
+15,Green Agricultural Development,China,2SLS-lat&lon,2008,Pre-disaster,,-0.041,0.002,NA,NA,NA,NA,11,Two-stage least squares model with latitude and longitude as instruments.
+16,Input Index,China,Index2,2008,Pre-disaster,,-0.006,0.0004,NA,NA,NA,NA,11,Impact on input index.
+17,Green Agricultural Development,China,Seven provinces impacted,2008,Other provinces,index,-0.024,NA,NA,NA,NA,NA,12,Coefficient of Rainsi x Postt
+18,Green Agricultural Development,China,Snow disaster,2008,2007 rainfall,index,-0.034,NA,NA,NA,NA,NA,12,"Coefficient of Rainsi x Postt, using 2SLS with 2007 rainfall fluctuations as IV"
+19,Green Agricultural Development,China,Snow disaster,2008,Lat/Long IV,index,-0.041,NA,NA,NA,NA,NA,12,"Coefficient of Rainsi x Postt, using 2SLS with latitude and longitude as IV"
+20,Green Agricultural Development,China,Snow disaster,2008,Excluding productivity,index,-0.006,NA,NA,NA,NA,NA,12,"Coefficient of Rainsi x Postt, new GAD index excluding factors such as agricultural productivity and agricultural endowment"
+21,GAD Index,China,"Snow Disaster, Humid",2018,Pre-Disaster,Index Points,-0.008,0.001,NA,NA,NA,NA,14,10 years after the snow disaster
+22,GAD Level,China,"Snow Disaster, Humid",2018,Pre-Disaster,%,-2.12,NA,NA,NA,NA,NA,14,10 years after the snow disaster
+23,GAD Index,China,"Snow Disaster, Semi-Humid",2018,Pre-Disaster,Index Points,-0.017,0.002,NA,NA,NA,NA,14,10 years after the snow disaster
+24,GAD Level,China,"Snow Disaster, Semi-Humid",2018,Pre-Disaster,%,-4.29,NA,NA,NA,NA,NA,14,10 years after the snow disaster
+25,GAD Index,China,"Snow Disaster, Semi-Arid",2018,Pre-Disaster,Index Points,0.008,0.003,NA,NA,NA,NA,14,10 years after the snow disaster
+26,GAD Level,China,"Snow Disaster, Semi-Arid",2018,Pre-Disaster,%,-2.0,NA,NA,NA,NA,NA,14,10 years after the snow disaster
+27,GAD Index,China,"Snow Disaster, Poor",2018,Pre-Disaster,Index Points,-0.005,0.002,NA,NA,NA,NA,14,10 years after the snow disaster
+28,GAD Level,China,"Snow Disaster, Poor",2018,Pre-Disaster,%,-1.28,NA,NA,NA,NA,NA,14,10 years after the snow disaster
+29,GAD Index,China,"Snow Disaster, Non-Poor",2018,Pre-Disaster,Index Points,-0.018,0.001,NA,NA,NA,NA,14,10 years after the snow disaster
+30,GAD Level,China,"Snow Disaster, Non-Poor",2018,Pre-Disaster,%,-4.63,NA,NA,NA,NA,NA,14,10 years after the snow disaster
+31,GAD Level,China,Snow Disaster,2018,Pre-Disaster,%,-3.07,NA,NA,NA,NA,NA,14,Average GAD level fall across all counties 10 years after the snow disaster
+32,Green Agricultural Development,China,2008 snow disaster,2008,No CC,Coefficient,-0.010,0.001,NA,NA,NA,NA,Page 15,The value is specific to agricultural counties.
+33,Green Agricultural Development,China,2008 snow disaster,2008,No CC,Coefficient,-0.014,0.002,NA,NA,NA,NA,Page 15,The value is specific to non-agricultural counties.
+34,Green Agricultural Development,China,2008 snow disaster,2008,No CC,Coefficient,-0.031,0.002,NA,NA,NA,NA,Page 15,The value is specific to the eastern region.
+35,Green Agricultural Development,China,2008 snow disaster,2008,No CC,Coefficient,-0.015,0.002,NA,NA,NA,NA,Page 15,The value is specific to the middle region.
+36,Arable Land Use,China,2008 snow disaster,2008,Pre-disaster,%,-2.013,0.266,NA,NA,NA,NA,Page 16,"Specifically, after the snow disaster, the utilization rate of cultivated land dropped by an average of 2.01%."
+37,Energy Consumption,China,2008 snow disaster,2008,Pre-disaster,index,0.003,0.0003,NA,NA,NA,NA,Page 16,"The snow disaster has increased the energy consumption index of agricultural production by 0.003. Considering that the average energy consumption of agricultural production is 0.037, the snow disaster has increased the energy consumption of agricultural production by 8%."
+38,Fertilizer Input,China,2008 snow disaster,2008,Pre-disaster levels,%,1.3,NA,NA,NA,NA,NA,p. 17,Fertilizer input per hectare increased.
+39,Pesticide Input,China,2008 snow disaster,2008,Pre-disaster levels,%,4.7,NA,NA,NA,NA,NA,p. 17,Pesticide input per hectare increased.
+40,Ag Output,China,2008 snow disaster,2008,Pre-disaster levels,%,6.8,0.004,NA,NA,NA,NA,p. 17,Output of major agricultural products increased.
+41,Ag Output/Capita,China,2008 snow disaster,2008,Pre-disaster levels,%,6.8,0.004,NA,NA,NA,NA,p. 17,Per capita output of agricultural products increased.
+42,Primary Industry Value,China,2008 snow disaster,2008,Pre-disaster levels,%,-1.9,0.002,NA,NA,NA,NA,p. 17,Primary industry value-added decreased.
+43,Ag Product Unit Value,China,2008 snow disaster,2008,Pre-disaster levels,%,-8.15,NA,NA,NA,NA,NA,p. 17,Calculated result: Value of agricultural products per unit fell by 8.15%.
+44,Green Agricultural Development,China,2008 snow disaster,2008,No snow disaster,index,-0.010,0.002,NA,NA,NA,NA,19,"Coefficient of Rainsi x Postt in Table A1, column (1), with county fixed effects."
+45,Green Agricultural Development,China,2008 snow disaster,2008,No snow disaster,index,-0.010,0.001,NA,NA,NA,NA,19,"Coefficient of Rainsi x Postt in Table A1, column (2), with time fixed effects."
+46,Green Agricultural Development,China,2008 snow disaster,2008,No snow disaster,index,-0.012,0.001,NA,NA,NA,NA,19,"Coefficient of Rainsi x Postt in Table A1, column (3), with county and time fixed effects."
+47,Green Agricultural Development,China,2008 Snow Disaster,2021,No climate shock,index,-0.011,0.001,NA,NA,NA,NA,20,Coefficient of Rain * Post in column (4) of Table A2; adding effective irrigation rate and education as controls
