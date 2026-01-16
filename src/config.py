@@ -1,6 +1,6 @@
 from lib import commands, checks
 
-count_perrun = 21000
+abstract_count = 1000
 openai_config = 'batch'
 gemini_config = 'fast'
 
@@ -9,15 +9,14 @@ searches = ["/Users/admin/Library/CloudStorage/GoogleDrive-jrising@udel.edu/My D
 response_file = "../responses.csv"
 verdict_file = "../verdicts.csv"
 
-abstract_prompt = "I am performing a global review and analytical synthesis of the macroeconomic and macro-fiscal risks of climate change and the costs and benefits of adaptation at a national level."
-exclude_codes = {'XC': "Not related to climate risks",
+abstract_prompt = "I am performing a review of direct climate impacts for the U.S. National Climate Assessment."
+exclude_codes = {'XC': "Not related to climate impacts",
                  'XV': "Not valued in economic terms",
-                 'XN': "Not nation-scale or multinational (not macroeconomic or related to nation-wide adaptation)",
+                 'XU': "No United States specific information",
                  'XA': "No new analysis (using previously-published work)",
                  'XO': "Excluded for another reason (please specify)"}
-include_codes = {'RE': "Reports macroeconomic outcomes (GDP effects, productivity loss, interest, inflation, etc.)",
-                 'RF': "Reports fiscal outcomes (budget balance, borrowing costs, public expenditure or revenue, etc.)",
-                 'RA': "Reports both economic costs and/or benefits (or related measures like ROI, NPV) of nation-wide adaptation"}
+include_codes = {'RO': "Reports observed direct impacts (e.g., infrastructure damage, worker injuries, crop loss, human health, ecosystems)",
+                 'RP': "Reports projected direct impacts (e.g., in 2050)"}
 
 ## Question
 questionsource = verdict_file.replace(".csv", "-further.csv")

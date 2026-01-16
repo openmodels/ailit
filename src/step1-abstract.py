@@ -47,7 +47,7 @@ def get_prompts(knowndoi, searches, maxcount):
     return prompts
 
 if openai_config == 'batch':
-    responses = openai_batch.main_flow(openaigpt.client, response_file + "-batch.jsonl", "../waiting.pkl", lambda: get_prompts(knowndoi_openai, searches, count_perrun))
+    responses = openai_batch.main_flow(openaigpt.client, response_file + "-batch.jsonl", "../waiting.pkl", lambda: get_prompts(knowndoi_openai, searches, abstract_count))
     for doi, response in responses.items():
         knowndoi_openai.add(doi)
         add_response(response_file, doi, 'openai', response)
@@ -70,11 +70,11 @@ for search in searches:
             add_response(response_file, row['DOI'], 'openai', response)
             knowndoi_openai.add(row['DOI'])
             count += 1
-        if count >= collate_count:
+        if count >= abstract_count:
             break
 
 if openai_config == 'batch':
-    responses = openai_batch.main_flow(openaigpt.client, response_file + "-batch.jsonl", "waiting.pkl", lambda: get_prompts(knowndoi_openai, searches, count_perrun))
+    responses = openai_batch.main_flow(openaigpt.client, response_file + "-batch.jsonl", "waiting.pkl", lambda: get_prompts(knowndoi_openai, searches, abstract_count))
     for doi, response in responses.items():
         knowndoi_openai.add(doi)
         add_response(response_file, doi, 'openai', response)

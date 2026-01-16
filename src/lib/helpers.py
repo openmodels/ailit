@@ -8,7 +8,7 @@ def add_response(response_file, doi, source, response):
             
     with open(response_file, 'a') as fp:
         writer = csv.writer(fp)
-        writer.writerow([doi, source, response])
+        writer.writerow([doi, source, response.replace("\n", " ")])
 
 def iterate_search(source):
     if source[-4:] == '.csv':
@@ -32,8 +32,8 @@ def iterate_search(source):
 
 def get_knowns(response_file):
     if not os.path.exists(response_file):
-        knowndoi_gemini = []
-        knowndoi_openai = []
+        knowndoi_gemini = set()
+        knowndoi_openai = set()
     else:
         responses = pd.read_csv(response_file)
         knowndoi_gemini = set(responses.DOI[responses.Source == 'gemini'])
@@ -46,7 +46,7 @@ def get_knowns(response_file):
                     query = json.loads(line.strip())
                     knowndoi_openai.add(query['custom_id'])
                     
-        return knowndoi_gemini, knowndoi_openai
+    return knowndoi_gemini, knowndoi_openai
 
 def get_summaries(summary_file, dopass):
     dopass_suffix = f"-pass{dopass}" if dopass > 0 else ""

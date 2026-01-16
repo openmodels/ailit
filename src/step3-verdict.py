@@ -33,8 +33,12 @@ def interpret_response(response):
     return ("Ambiguous", 3)
 
 if question_file:
-    passfail_df = pd.read_csv(question_file)
-    passfail = {row['DOI']: row['Outcome'] for index, row in passfail_df.iterrows()}
+    if not os.path.exists(question_file):
+        print("Missing " + question_file + ". Ignoring.")
+        passfail = {}
+    else:
+        passfail_df = pd.read_csv(question_file)
+        passfail = {row['DOI']: row['Outcome'] for index, row in passfail_df.iterrows()}
 else:
     passfail = {}
 
