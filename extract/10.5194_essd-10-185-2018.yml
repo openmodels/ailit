@@ -1,0 +1,81 @@
+Drivers of Risk:
+  2: TC maximum wind speed
+  3: The analysis focuses on tropical cyclones (TCs) as a driver of risk, specifically
+    those making landfall based on wind field estimates.
+  5: "TC activity, underlying climate variability (e.g., driven by the El Ni\xF1o\u2013\
+    Southern Oscillation (ENSO))"
+  6: Changes in TC wind speed thresholds impact population and assets exposures, with
+    exposure fluctuating due to modifications in wind field and landfall occurrence.
+  7: Comparison of tropical cyclones exposure based on different wind speed datasets,
+    highlighting the impact of unique storms like Superstorm Sandy.
+  9: No relevant information
+Evaluation overview:
+  2: "Exposure in TCE-DAT is de\uFB01ned per TC event as the number of potentially\
+    \ affected people and the sum of potentially affected assets purely due to TC\
+    \ maximum wind speed."
+  5: No relevant information
+  6: This page evaluates global tropical cyclone (TC) exposure in terms of population
+    and assets over time for various wind speed thresholds.
+  7: The page provides an overview of TC exposure in terms of exposed population and
+    assets at different wind speed thresholds.
+  9: No relevant information
+Highlights:
+  2: Provides a globally consistent data set of TC exposure, named TCE-DAT.
+  4: The final TCE-DAT, created by overlaying the estimated wind fields and the distributions
+    of assets and population, provides spatially explicit exposure data for each TC
+    and aggregated data of all nonzero country- and TC-specific exposure values.
+  5: TC reporting in the IBTrACS database has improved significantly over time, reaching
+    comprehensive global coverage by 1980; Number of landfalling TCs shows greater
+    variability due to underlying climate variability.
+  6: Projections suggest significant increases in population and asset exposure to
+    TC over decades, with assets showing dramatic growth.
+  7: Good agreement in exposure estimates between two data sets, despite known limitations
+    of the generic wind field model used in Holland08.
+  9: No relevant information
+Methodology:
+  2: The data set is created using only publicly available data sources and running
+    the open-source economics of climate adaptation (ECA) tool CLIMADA.
+  3: "Asset distributions are estimated using GDP data and national assets/GDP ratios\
+    \ assumed constant from 1950\u20132015."
+  4: The paper uses the Holland08 wind field model to generate continuous wind fields
+    from IBTrACS data to estimate surface winds around tropical cyclone centers. The
+    model includes both a static circular wind field and a translational wind speed
+    component. The Holland08 model implementation is available within the CLIMADA
+    ISIMIP module.
+  5: "Uses the Holland08 wind field model to derive wind fields based on statistical\
+    \ properties of observed TCs; Defines exposures solely using the storm\u2019s\
+    \ wind field and maximum sustained wind speed."
+  6: The analysis compares historical and projected TC exposure using TCE-DAT estimates
+    based on historical evolution and fixed 2015 patterns, validated against HURDAText
+    archive.
+  7: The analysis uses the Holland08 wind field model and HURDAText to estimate exposure,
+    comparing the estimated wind fields with gridded population and assets data.
+  9: No relevant information
+More Notes:
+  2: TCE-DAT extends and complements estimates from the Global Assessment Report on
+    Disaster Risk Reduction (GAR2015) which provides a statistical assessment of exposure
+    given fixed socioeconomic conditions.
+  4: 'The paper describes the creation of a global tropical cyclone exposure data
+    set (TCE-DAT), which includes two data types: TCE-hist (socioeconomic information
+    matches the year of landfall) and TCE-2015 (socioeconomic patterns are fixed at
+    2015 values). Aggregated TCE-DAT provides estimates of exposed population and
+    exposed assets by event and by country for 34, 64, and 96kn wind speed.'
+  5: IBTrACS data before 1980 is incomplete, particularly in the Indian Ocean and
+    Southern Pacific Oceans; The Holland08 wind field model is a gross approximation
+    and may not accurately capture wind fields of unusual TCs (e.g., Superstorm Sandy).
+  9: No relevant information
+Quantitative material:
+  2: TCE-DAT covers the period from 1950 to 2015 and provides estimates of exposed
+    population and exposed assets by 2713 individual landfalling TCs with at least
+    34-knot (kn) 1min sustained wind speed above land documented by the International
+    BestTrack Archive for Climate Stewardship (IBTrACS).
+  4: "The implementation limits translational wind speed component to 30kn for TCs\
+    \ with subtropical transition. It also discards 1min sustained wind speeds below\
+    \ 34kn (17.5ms\u22121)."
+  5: Mentions TCE-DAT provides exact wind speed information and exposed population
+    and assets for each grid coordinate above land.
+  6: Quantitative graphs show fluctuations and increases in exposed population (billions)
+    and exposed assets (trillions of 2005 U.S. dollars) over time from 1970 to 2015.
+  7: Scatter plot and bar chart data present correlation coefficients and differences
+    in TC counts at varying wind speed thresholds.
+  9: No relevant information

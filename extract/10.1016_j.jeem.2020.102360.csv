@@ -1,0 +1,34 @@
+,Outcome,Region,Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Global output,Global,RCP8.5,2100,No CC,%,-7,NA,NA,NA,NA,NA,Page 1,Lower bound estimate.
+1,Global output,Global,RCP8.5,2100,No CC,%,-14,NA,NA,NA,NA,NA,Page 1,Upper bound estimate.
+2,Social cost of carbon,Global,RCP8.5,2020,No CC,$/tCO2,73,NA,NA,NA,NA,NA,Page 1,Lower bound estimate based on temperature-induced productivity losses.
+3,Social cost of carbon,Global,RCP8.5,2020,No CC,$/tCO2,142,NA,NA,NA,NA,NA,Page 1,Upper bound estimate based on temperature-induced productivity losses.
+4,Social cost of carbon,Global,RCP8.5,2030,No CC,$/tCO2,92,NA,NA,NA,NA,NA,Page 1,Lower bound estimate based on temperature-induced productivity losses.
+5,Social cost of carbon,Global,RCP8.5,2030,No CC,$/tCO2,181,NA,NA,NA,NA,NA,Page 1,Upper bound estimate based on temperature-induced productivity losses.
+6,GRP,Global,Historical,2005,1995,%,2,NA,NA,NA,NA,NA,10,"Lower bound, averaged between 1955 and 2014."
+7,GRP,Global,Historical,2005,1995,%,4,NA,NA,NA,NA,NA,10,"Upper bound, averaged between 1955 and 2014."
+8,GRP,Global,Historical,1960,1950,%,2,NA,NA,NA,NA,NA,10,"Lower bound, averaged between different decades"
+9,GRP,Global,Historical,1960,1950,%,4,NA,NA,NA,NA,NA,10,"Upper bound, averaged between different decades"
+10,Gross Regional Product,Global,RCP8.5,2099,No CC,%,-11,NA,NA,NA,NA,NA,12,"Panel estimate, surface weighted"
+11,Gross Regional Product,Global,RCP8.5,2099,No CC,%,-14,NA,NA,NA,NA,NA,12,"Panel estimate, population weighted"
+12,Gross Regional Product,Global,RCP8.5,2099,No CC,%,-6,NA,NA,NA,NA,NA,12,Cross-sectional estimate
+13,Gross Regional Product,Global,RCP8.5,2099,No CC,%,-8,NA,NA,NA,NA,NA,12,Cross-sectional estimate
+14,GRP,Global,RCP 8.5,2099,2015-2019,%,-6.6,NA,NA,NA,NA,NA,13,"Based on cross-sectional estimate, unweighted"
+15,GRP,Global,RCP 8.5,2099,2015-2019,%,-8.1,NA,NA,NA,NA,NA,13,"Based on cross-sectional estimate, surface area weighted"
+16,GRP,Global,RCP 8.5,2099,2015-2019,%,-7.4,NA,NA,NA,NA,NA,13,"Based on cross-sectional estimate, weighted by output (GRP)"
+17,GRP,Global,RCP 8.5,2099,2015-2019,%,-7.4,NA,NA,NA,NA,NA,13,"Based on cross-sectional estimate, population weighted"
+18,GRP,Global,RCP 8.5,2099,2015-2019,%,-11.4,NA,NA,NA,NA,NA,13,"Based on panel estimate, unweighted"
+19,GRP,Global,RCP 8.5,2099,2015-2019,%,-11.2,NA,NA,NA,NA,NA,13,"Based on panel estimate, surface area weighted"
+20,GRP,Global,RCP 8.5,2099,2015-2019,%,-13.4,NA,NA,NA,NA,NA,13,"Based on panel estimate, weighted by output (GRP)"
+21,GRP,Global,RCP 8.5,2099,2015-2019,%,-14.2,NA,NA,NA,NA,NA,13,"Based on panel estimate, population weighted"
+22,GRP,Global,RCP 8.5,2099,No CC 2015-2019,%,-7,NA,NA,NA,NA,NA,14,Based on panel regression estimate
+23,GRP,Global,RCP 8.5,2099,No CC 2015-2019,%,-14,NA,NA,NA,NA,NA,14,Based on cross-sectional estimate
+24,GRP,Hot region,NA,2023,No CC,% / degree C,-3,NA,NA,NA,NA,NA,14,1°C increase can decrease GRP by about 3%
+25,Social Cost of Carbon,Global,DICE-2016,2020,Nordhaus (2018),$ / tCO2,3,NA,NA,NA,NA,NA,15,Panel based damage functions imply the optimal carbon price in 2020 is almost four times higher than assessed by Nordhaus in 2018.
+26,Social Cost of Carbon,Global,DICE-2016,2100,Nordhaus (2018),Ratio,2.7,NA,NA,NA,NA,NA,15,Output-weighted comparison of carbon prices.
+27,Social Cost of Carbon,Global,DICE-2016,2100,Nordhaus (2018),Ratio,2.9,NA,NA,NA,NA,NA,15,Population-weighted comparison of carbon prices.
+28,GRP,Poor Countries,RCP8.5,2099,No CC,Log GRP,-0.3,NA,NA,NA,NA,NA,15,"Based on Figure 4, change in log GRP is negative in regions with low baseline GRP per capita."
+29,Gross Regional Product,Hot Regions,Present Day,2020,No CC,% / degree C,-3.5,NA,NA,NA,NA,NA,18,Annual mean temperature of 25 degrees C
+30,Production,Global,RCP8.5,2099,No further warming,%,-7,NA,NA,NA,NA,NA,18,
+31,Production,Global,RCP8.5,2099,No further warming,%,-14,NA,NA,NA,NA,NA,18,
+32,Output,Tropical Regions,RCP8.5,2099,No further warming,%,-20,NA,NA,NA,NA,NA,18,

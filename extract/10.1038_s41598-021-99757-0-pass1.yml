@@ -1,0 +1,193 @@
+Drivers of Risk:
+  1: Changes in climate trajectories and socio-economic progress impacting future
+    heat-related mortality and health risks.
+  2: Changes in daily temperature, Representative Concentration Pathways (RCPs), and
+    Socio-economic Pathways (SSPs).
+  4: The study considers changes in climate (e.g., temperature) and GDP/capita as
+    drivers of risk.
+  6: The main drivers of risk are changes in climate variables leading to increases
+    in exposure days (EXD) and the magnitude of climate change (MAG), specifically
+    related to temperature.
+  7: Heat exposure frequency (EXD), magnitude of heat exposure (MAG), summer temperatures.
+  8: Shocks include changes in future heat exposure, influenced by different RCP/SSP
+    scenarios.
+  9: The primary drivers of risk are climate change (represented by RCP scenarios)
+    and socio-economic pathways (represented by SSP scenarios), which influence heat
+    exposure.
+  10: The primary drivers of risk are future temperature, humidity, and socio-economic
+    factors represented by Shared Socioeconomic Pathways (SSPs) and Representative
+    Concentration Pathways (RCPs).
+  11: The primary drivers of risk are daily mean temperature (tas) and daily mean
+    humidity (hurs), which are used to calculate apparent temperature (AT), as well
+    as daily mean wind speed (sfcWind) for temperature corrections. Socioeconomic
+    factor GDP/capita is also used.
+  12: The primary driver of risk is daily mean apparent temperature (ATmean) exceeding
+    the city-specific MMT, under various RCP/SSP climate change scenarios.
+  13: No relevant information
+Evaluation overview:
+  1: The paper evaluates the future heat-related mortality due to climate change and
+    the role of human adaptation through long-term changes in minimum mortality temperatures
+    (MMT).
+  2: Evaluates changes in heat-related mortality risk in major world cities by analyzing
+    adaptation to heat, heat exposure, and future changes in these measures.
+  4: The paper evaluates the change in adaptation and exposure in cities under different
+    RCP/SSP scenarios, focusing on mortality related to future heat.
+  6: The paper evaluates changes in exposure days (EXD) and magnitude of change in
+    climate (MAG) in major world cities under different climate scenarios.
+  7: Mortality
+  8: The paper evaluates future adaptation and heat exposure in 3820 cities worldwide
+    considering a range of climate trajectories.
+  9: This paper evaluates heat exposure in cities.
+  10: The paper evaluates future heat-related mortality (HMR) in cities.
+  11: The study evaluates the frequency of days exceeding minimum mortality temperatures
+    (MMTs) and the magnitude of MMT exceedance in cities.
+  13: No relevant information
+Highlights:
+  1: "RCP8.5 scenario requires uninterrupted high economic growth by 2100 to mitigate\
+    \ health effects, whereas a 2\xB0C-compatible trajectory does not depend heavily\
+    \ on fast economic growth."
+  2: Adaptation and exposure changes are diverse, especially under RCP8.5/SSP5 conditions.
+    Higher forcing levels generally lead to higher adaptation and adaptation rates,
+    but also amplify heat exposure frequency and magnitude.
+  4: A large projected GDP/capita does not automatically lead to a better bearable
+    situation regarding future heat and related mortality for urban populations. Adaptation
+    gains are solely driven by GDP/capita changes in Western Europe, North America,
+    East Asia, Oceania and coastal South America.
+  6: "In a fossil-fuel dependent future (RCP8.5/SSP5), some cities may have to cope\
+    \ with 50 to 92 additional EXD until 2090\u20132099. Cities in the Sahel, the\
+    \ Middle East into Pakistan and India, in northern and southern Africa, in the\
+    \ Southwestern USA and in northern Mexico show high increments in /Delta1MAG (+\
+    \ 2 C to +6 C) until 2090\u20132099 under the RCP8.5/SSP5 scenario. The paper\
+    \ highlights disparities in future exposure between different climate scenarios\
+    \ (RCP2.6/SSP1 vs. RCP8.5/SSP5). In RCP8.5/SSP5, a total of 2285 (60%) cities\
+    \ in their sample will profit from an EXD reduction"
+  7: Lower forcing (RCP2.6/SSP1) yields a larger reducing effect on heat exposure
+    parameters for more cities. Higher adaptation can be achieved by RCP8.5/SSP5 compared
+    to RCP2.6/SSP1. High increases in heat exposure coincide with small adaptation
+    increments in the Middle East, Pakistan, parts of the USA, and northern Mexico.
+  8: Under RCP2.6/SSP1, 3207 cities will see reduced EXD days, while under RCP8.5/SSP5,
+    2285 cities will see a reduction; under RCP2.6/SSP1, 3074 cities experience reduced
+    MAG, and 1968 cities under RCP8.5/SSP5.
+  9: "Minimum forcing RCP2.6 reduces heat exposure in the majority of cities until\
+    \ the future decade (2090\u20132099), while a stable and sustainable socio-economic\
+    \ pathway SSP1 will equip most world cities with a moderately high adaptation.\
+    \ A rapid socio-economic growth based on fossil fuels along with high forcing\
+    \ (RCP8.5/SSP5) will reach higher adaptation levels in 2100 for most cities against\
+    \ a sustainable future, though, fewer cities will profit from decreases in heat\
+    \ exposure. A future according to RCP8.5/SSP5 would critically endanger cities\
+    \ in arid and semi-arid climates."
+  10: The study highlights the importance of considering socio-economic factors in
+    assessing future adaptation to heat. It also proposes a method to determine the
+    future HMR's slope based on changes in heat exposure frequency and magnitude.
+    A sustainable pathway avoids exposure for most cities endangered in a RCP8.5/SSP5
+    future.
+  11: The re-calibrated model using gridded climate data preserves the relative importance
+    of independent variables as in a previous study.
+  12: The study determines the delta change in MMTs between the end and the beginning
+    of the century, the delta changes in EXD, and the delta change in mean MAG for
+    each city by subtracting the city-specific decadal mean.
+  13: No relevant information
+Methodology:
+  1: The analysis involves modeling MMT as a function of climate change and socio-economic
+    progress across 3820 cities, assuming shifts in temperature-mortality curves.
+  2: Combines four RCPs from Global Circulation Models (GCMs) with five SSPs. Uses
+    the Scenario Matrix. Assesses changes in adaptation to heat for 3820 cities worldwide
+    from 2000 to 2100.
+  4: "The analysis uses RCP/SSP combinations to project future conditions and calculates\
+    \ changes in climate variables, GDP/capita, \u0394EXD, and \u0394MMT across cities.\
+    \ The study identifies the primary contributors to \u0394MMT, comparing the weighted\
+    \ influence of single variables versus the sum of other variables. Results are\
+    \ applicable for the period 2000-2100."
+  6: The analysis projects changes until 2090-2099 under different scenarios (RCP2.6/SSP1
+    and RCP8.5/SSP5) and calculates the change in exposure days (/Delta1EXD) and magnitude
+    of change in climate (/Delta1MAG). The map was created in R using the tmap package.
+  7: Analysis uses RCP2.6/SSP1 and RCP8.5/SSP5 scenarios to project changes in heat
+    exposure frequency in 3,820 major cities worldwide until 2100 (specifically, comparing
+    1991-2000 to 2090-2099). Adaptation is also incorporated. The map in Figure 5
+    was created using R (version 3.6.2) and the tmap package (version 2.3-2).
+  8: Assessment of heat exposure and adaptation uses climate scenarios RCP2.6/SSP1
+    and RCP8.5/SSP5, impacting cities worldwide until 2100.
+  9: "The approach presented here takes stock of urban populations\u2019 adaptation\
+    \ and exposure to heat in 3820 cities across the globe for the full spectrum of\
+    \ climate trajectories and socio-economic pathways. The paper includes analysis\
+    \ of RCP2.6 paired with SSP1 and RCP8.5 paired with SSP5."
+  10: The analysis uses climate data from CMIP5 experiments via ISIMIP for four GCMs
+    under different RCPs and SSPs. It assesses adaptation and exposure changes until
+    the end of the century. The authors assume instantaneous adaptation to heat and
+    no changes in health conditions or heat-related mortality.
+  11: The study uses a re-calibrated multivariate non-linear model to estimate MMTs
+    for cities based on climatic, topographic, and socio-economic variables. It uses
+    historical (1965-1995) and future (2064-2094) climate data to estimate MMTs for
+    2000 and 2099, respectively. The model is calibrated using gridded climate data
+    from the ISIMIP project and socio-economic data from the World Bank and IIASA/OECD.
+    The apparent temperature (AT) is calculated using daily mean temperature and dew
+    point temperature.
+  12: The paper uses historic and projected MMTs as thresholds to determine critical
+    heat exposure. It counts the number of days ATmean exceeds the MMT annually for
+    both a historic reference period (1991-2000) and a future period (2090-2099) under
+    different RCP/SSP scenarios. The delta changes in EXD and MAG are then calculated.
+    All calculations are performed in R.
+  13: No relevant information
+More Notes:
+  2: Defines 'adaptation' as a positive change in Maximum Mortality Temperature (MMT).
+    Exposure is measured as frequency and magnitude of MMT exceedance by daily temperature.
+    The analysis considers both adaptation and exposure to assess the potential to
+    cope with heat. The paper aims to determine the 'lesser of two evils' regarding
+    changes in mortality under different scenarios.
+  4: The study suggests that SSP5 combinations (excluding RCP8.5) show high socio-economic
+    levels and perform well concerning exposure reductions. The paper contrasts RCP2.6/SSP1
+    and RCP8.5/SSP5 scenarios, which represent optimistic socio-economies with contrary
+    future exposures.
+  7: The paper emphasizes viewing adaptation and exposure jointly.
+  10: The study focuses on ensemble means across GCMs. It notes that SSPs and instantaneous
+    adaptation are potential sources of uncertainty.
+  12: The study considers long-term physiological acclimatisation by using long-term
+    climate variables to calculate MMTs. The feasibility of pairing RCP2.6 and SSP5
+    is questioned. The study uses MMTs valid around the years 2000 and 2100. Adaptation
+    likely does not change significantly from one year to another.
+  13: No relevant information
+Quantitative material:
+  1: By 2100, the risk to human health is expected to decline in 60% to 80% of cities
+    against contemporary conditions.
+  2: "Projected changes in MMT (Maximum Mortality Temperature), frequency of heat\
+    \ exposure (EXD), and exposure magnitude (MAG) between 2000 and 2100 for 3820\
+    \ cities worldwide; mean /Delta1MMT of 7.9 \xB0C is reached by RCP8.5/SSP5, the\
+    \ highest forcing level and the most rapid unsustainable economic growth; This\
+    \ also yields the highest absolute mean MMT for the city sample, 34.4 \xB0C. The\
+    \ lowest mean /Delta1MMT (3.7 \xB0C) and the lowest absolute mean MMT (30.2 \xB0\
+    C) are displayed for RCPs 4.5 with SSP3; /Delta1EXDs of \u2212 5.2 and \u2212\
+    \ 1.4 for RCPs 4.5 and 6.0, respectively; a relatively large mean reduction of\
+    \ \u2212 16.6 /Delta1EXD until the future decade is present for RCP2.6/SSP1; It\
+    \ ranges between \u2212 0.2 C in RCP2.6/SSP1 and +0.2 C in RCP8.5/SSP5"
+  4: "The study provides quantitative data on the change in exceedance days (\u0394\
+    EXD) and Maximum Mortality Temperature (\u0394MMT) between 1991-2000 and 2090-2099\
+    \ under different RCP/SSP scenarios. Specific examples of \u0394MMT changes for\
+    \ various cities under RCP2.6/SSP1 and RCP8.5/SSP5 are given. Projected GDP/capita\
+    \ values for different SSPs in 2100 are also provided (e.g., Int$ 101 205 for\
+    \ SSP5)."
+  6: "The paper provides quantitative estimates of changes in EXD and MAG under RCP2.6/SSP1\
+    \ and RCP8.5/SSP5 scenarios, including specific values for individual cities (e.g.,\
+    \ /Delta1MAG of \u2212 3.5 C for Copiap\xF3, Chile in the sustainable scenario).\
+    \ It mentions cities potentially facing 50 to 92 additional EXD under RCP8.5/SSP5."
+  7: Under RCP8.5/SSP5, 1150 (30%) cities will experience additional EXD and 1459
+    (38%) a larger MAG by 2100. 705 (18%) cities will face more than one fourth of
+    the year being EXD and 185 (5%) cities half the year being EXD. For five cities
+    almost the entire year is projected to be EXD (> 350 EXD). Under RCP2.6/SSP1,
+    224 (6%) cities will face additional EXD and 338 (9%) a higher MAG. 3207 cities
+    (84%) will profit from less EXD and 3074 (80%) from a lower MAG. No changes in
+    EXD or MAG will affect 389 (10%) and 408 (11%) cities, respectively.
+  8: The analysis presents quantitative information such as the number and percentage
+    of cities experiencing changes in extreme heat days (EXD) and changes in magnitude
+    (MAG) of heat exposure from 1991-2000 to 2090-2099 under RCP2.6/SSP1 and RCP8.5/SSP5.
+  9: In a RCP8.5/SSP5 future, 5.1 times as many cities will face more frequent heat
+    exposures and 4.3 times as many will experience higher exposure magnitudes than
+    in RCP2.6/SSP1.
+  10: The paper calculates the change in heat exposure frequency (/Delta1EXD) and
+    magnitude (/Delta1MAG) and proposes a functional relationship to estimate the
+    change in future heat-related mortality (/Delta1MORT).
+  11: The RMSE of the re-calibrated model ranked at 3.2 degrees Celsius, while the
+    RMSE of the original model was 2.8 degrees Celsius.
+  12: The paper calculates the change in the number of exposure days (/Delta1EXD)
+    and the change in the mean exceedance magnitude (/Delta1MAG) between 1991-2000
+    and 2090-2099 for 3820 cities under 15 different RCP/SSP combinations.
+  13: No relevant information

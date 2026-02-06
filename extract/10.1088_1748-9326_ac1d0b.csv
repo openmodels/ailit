@@ -1,0 +1,240 @@
+,Outcome,Region,Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,SCCO2,Global,SSP2-4.5,2020,PAGE09,$2015 USD/tonne,158,NA,NA,NA,NA,NA,6,PAGE09 value
+1,SCCO2,Global,SSP2-4.5,2020,AR5,$2015 USD/tonne,217,NA,NA,NA,NA,NA,6,Increase from PAGE09 after AR5 Updates
+2,SCCO2,Global,SSP2-4.5,2020,SLR,$2015 USD/tonne,228,NA,NA,NA,NA,NA,6,Increase from PAGE09 after updating SLR distribution
+3,SCCO2,Global,SSP2-4.5,2020,PF,$2015 USD/tonne,244,NA,NA,NA,NA,NA,6,Increase from PAGE09 after including permafrost feedback
+4,SCCO2,Global,SSP2-4.5,2020,Albedo,$2015 USD/tonne,239,NA,NA,NA,NA,NA,6,Reduction from albedo feedback
+5,SCCO2,Global,SSP2-4.5,2020,Disc,$2015 USD/tonne,213,NA,NA,NA,NA,NA,6,Reduction due to updated discontinuity impacts
+6,SCCO2,Global,SSP2-4.5,2020,Horiz,$2015 USD/tonne,239,NA,NA,NA,NA,NA,6,Increase from longer time horizon to 2300
+7,SCCO2,Global,SSP2-4.5,2020,GDP,$2015 USD/tonne,245,NA,NA,NA,NA,NA,6,Increase from updated baseline GDP
+8,SCCO2,Global,SSP2-4.5,2020,Vuln,$2015 USD/tonne,281,NA,NA,NA,NA,NA,6,Increase from common vulnerability between market and non-market sectors
+9,SCCO2,Global,SSP2-4.5,2020,Final,$2015 USD/tonne,307,NA,NA,NA,NA,NA,6,Final mean SCCO2 for PAGE-ICE
+10,SCCO2,Global,SSP2-4.5,2020,Final,$2015 USD/tonne,307,NA,25%,147,75%,349,6,Final PAGE-ICE; interquartile range shown
+11,SCCO2,Global,SSP2-4.5,2020,Final,$2015 USD/tonne,307,NA,5%,82,95%,831,6,Final PAGE-ICE; 5-95% range shown
+12,GDP Damages Persistence,Global,Historical Data,2015,No CC,Percent,50.1,NA,25%,34.5,75%,69.0,6,Based on Burke et al 2015
+13,GDP,World,SSP2-4.5,2100,No persistence,%,-30,NA,NA,NA,NA,NA,7,Mean global GDP is 30% lower
+14,GDP growth,Global South,SSP2-4.5,2200,No persistence,%,0,NA,NA,NA,NA,NA,7,"Economic contraction, growth loss exceeds GDP growth rate"
+15,Poverty Risk,India+,Persistence,2100,NA,%,12,NA,NA,NA,NA,NA,7,Subsistence level derived from World Bank's international poverty line.
+16,Poverty Risk,Africa+,Persistence,2100,NA,%,11,NA,NA,NA,NA,NA,7,Subsistence level derived from World Bank's international poverty line.
+17,Poverty Risk,Latin America,Persistence,2100,NA,%,4,NA,NA,NA,NA,NA,7,Subsistence level derived from World Bank's international poverty line.
+18,GDP,Russia+,Persistence,2100,NA,%,52,NA,NA,NA,NA,NA,7,Mean economic output is 52% higher
+19,SCCO2,Global,Fixed 10%,2020,No persistence,times,15,NA,NA,NA,NA,NA,7,Fifteenfold increase in mean SCCO2
+20,Social Cost of CO2,Global South,SSP2-RCP4.5,2020,No CC,$,5000,NA,5%,NA,NA,NA,8,If current persistence is only 20% and decreases by an annual 0.5%
+21,Social Cost of CO2,Global,SSP2-4.5,2020,No CC,$,600,NA,NA,NA,NA,NA,8,Reduction by at minimum 3% per year would be needed to see a SCCO2 of less than $600 (appendix B.6)
+22,Social Cost of CO2,Global,SSP2-4.5,2020,No CC,$,2500,NA,NA,NA,NA,NA,8,"If current persistence is around 50%, then the level of persistence would need to decrease by more than 2% per year via adaptation effort to reduce the model’s SCCO2 to below $2500"
+23,Social Cost of CO2,Global,SSP2-4.5,2020,No variability,$,21,NA,NA,NA,NA,NA,8,Mean increase of $21 (6.5%)
+24,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,100.88,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in tcr_transientresponse.
+25,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-63.29,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in ptp_timepreference.
+26,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,35.77,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in frt_warminghalflife.
+27,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-31.06,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in impf_coeff_lin.
+28,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,26.78,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in a1_percentco2oceanlong.
+29,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,23.51,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in pow_NonMarketExponent.
+30,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-22.63,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in emuc_utilityconvexity.
+31,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,21.84,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in w_NonImpactsatCalibrationTemp.
+32,Social Cost of Carbon Dioxide,Africa,SSP2-4.5,2020,Mean Parameter Values,USD,13.68,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in ampf_amplification_Africa.
+33,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-12.15,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in tcal_CalibrationTemp.
+34,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,9.21,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in iben_NonMarketInitialBenefit.
+35,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,8.84,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in stay_fractionCO2emissionsinatm.
+36,Social Cost of Carbon Dioxide,Southeast Asia,SSP2-4.5,2020,Mean Parameter Values,USD,6.61,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in ampf_amplification_SEAsia.
+37,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,5.91,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in ipow_NonMarketIncomeFxnExponent.
+38,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-4.32,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in sltau_SLresponsetime.
+39,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,4.16,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in W_SatCalibrationSLR.
+40,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,4.12,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in pow_SLRImpactFxnExponent.
+41,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,4.05,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in sltemp_SLtemprise.
+42,Social Cost of Carbon Dioxide,Africa,SSP2-4.5,2020,Mean Parameter Values,USD,3.73,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in rtl_abs_0_realizedabstemperature_Africa.
+43,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,2.77,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in ind_slopeSEforcing_indirect.
+44,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,2.71,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in ipow_MarketIncomeFxnExponent.
+45,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,2.67,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in t2_timeco2oceanshort.
+46,Social Cost of Carbon Dioxide,Southeast Asia,SSP2-4.5,2020,Mean Parameter Values,USD,2.16,NA,NA,NA,NA,NA,14,Impact of a one standard deviation increase in rtl_abs_0_realizedabstemperature_SEAsia.
+47,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,617.53,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in tdis_tolerabilitydisc.
+48,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,104.61,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in ptp_timepreference.
+49,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-82.96,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in tcr_transientresponse.
+50,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,52.43,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in emuc_utilityconvexity.
+51,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-34.02,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in frt_warminghalflife.
+52,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,31.19,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in impf_coeff_lin.
+53,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-27.95,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in a1_percentco2oceanlong.
+54,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-21.64,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in w_NonImpactsatCalibrationTemp.
+55,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-20.11,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in pow_NonMarketExponent.
+56,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,14.99,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in tcal_CalibrationTemp.
+57,Social Cost of Carbon Dioxide,Africa,SSP2-4.5,2020,Mean Parameter Values,USD,-12.77,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in ampf_amplification_Africa.
+58,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-9.19,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in iben_NonMarketInitialBenefit.
+59,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-9.04,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in stay_fractionCO2emissionsinatm.
+60,Social Cost of Carbon Dioxide,Southeast Asia,SSP2-4.5,2020,Mean Parameter Values,USD,-6.30,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in ampf_amplification_SEAsia.
+61,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-5.88,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in sltemp_SLtemprise.
+62,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-5.01,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in ipow_NonMarketIncomeFxnExponent.
+63,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-4.14,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in W_SatCalibrationSLR.
+64,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,3.93,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in sltau_SLresponsetime.
+65,Social Cost of Carbon Dioxide,Africa,SSP2-4.5,2020,Mean Parameter Values,USD,-3.73,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in rtl_abs_0_realizedabstemperature_Africa.
+66,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-3.58,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in pow_SLRImpactFxnExponent.
+67,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-3.13,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in ind_slopeSEforcing_indirect.
+68,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-2.81,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in t2_timeco2oceanshort.
+69,Social Cost of Carbon Dioxide,Southeast Asia,SSP2-4.5,2020,Mean Parameter Values,USD,-2.15,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in rtl_abs_0_realizedabstemperature_SEAsia.
+70,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,Mean Parameter Values,USD,-2.07,NA,NA,NA,NA,NA,14,Impact of a one standard deviation decrease in ipow_MarketIncomeFxnExponent.
+71,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,48,NA,25%,14,75%,50,16,PAGE09 model. Includes SCCO2 values of zero. Alternative emissions pathway aligned with staying below 1.5°C.
+72,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,121,NA,5%,5,95%,121,16,PAGE09 model. Includes SCCO2 values of zero. Alternative emissions pathway aligned with staying below 1.5°C.
+73,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,51,NA,25%,14,75%,51,16,PAGE09 model. Includes SCCO2 values of zero. Alternative emissions pathway aligned with staying below 1.5°C.
+74,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,5,NA,5%,5,95%,126,16,PAGE09 model. Includes SCCO2 values of zero. Alternative emissions pathway aligned with staying below 1.5°C.
+75,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,129,NA,25%,31,75%,115,16,PAGE09 model. Includes SCCO2 values of zero.
+76,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,13,NA,5%,13,95%,323,16,PAGE09 model. Includes SCCO2 values of zero.
+77,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,140,NA,25%,35,75%,138,16,PAGE09 model. Includes SCCO2 values of zero.
+78,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,14,NA,5%,14,95%,430,16,PAGE09 model. Includes SCCO2 values of zero.
+79,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,185,NA,25%,89,75%,192,16,PAGE-ICE model
+80,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,51,NA,5%,51,95%,383,16,PAGE-ICE model
+81,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,202,NA,25%,97,75%,215,16,PAGE-ICE model
+82,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,56,NA,5%,56,95%,469,16,PAGE-ICE model
+83,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,306,NA,25%,148,75%,347,16,PAGE-ICE model
+84,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,83,NA,5%,83,95%,823,16,PAGE-ICE model
+85,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,190,NA,25%,92,75%,217,16,PAGE-ICE model
+86,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,51,NA,5%,51,95%,503,16,PAGE-ICE model
+87,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,11787,NA,25%,76,75%,14675,16,PAGE with growth effects. Includes SCCO2 values of zero.
+88,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,0,NA,5%,0,95%,54689,16,PAGE with growth effects. Includes SCCO2 values of zero.
+89,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,9760,NA,25%,66,75%,12373,16,PAGE with growth effects. Includes SCCO2 values of zero.
+90,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,0,NA,5%,0,95%,43722,16,PAGE with growth effects. Includes SCCO2 values of zero.
+91,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,3372,NA,25%,0,75%,1781,16,PAGE with growth effects. Includes SCCO2 values of zero.
+92,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,0,NA,5%,0,95%,19370,16,PAGE with growth effects. Includes SCCO2 values of zero.
+93,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,1662,NA,25%,0,75%,426,16,PAGE with growth effects. Includes SCCO2 values of zero.
+94,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,0,NA,5%,0,95%,9704,16,PAGE with growth effects. Includes SCCO2 values of zero.
+95,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,178,NA,25%,80,75%,189,16,PAGE (annual temperatures) no variability
+96,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,45,NA,5%,45,95%,382,16,PAGE (annual temperatures) no variability
+97,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,214,NA,25%,107,75%,245,16,PAGE (annual temperatures) no variability
+98,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,63,NA,5%,63,95%,482,16,PAGE (annual temperatures) no variability
+99,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,326,NA,25%,177,75%,400,16,PAGE (annual temperatures) no variability
+100,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,97,NA,5%,97,95%,748,16,PAGE (annual temperatures) no variability
+101,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,202,NA,25%,104,75%,247,16,PAGE (annual temperatures) no variability
+102,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,55,NA,5%,55,95%,488,16,PAGE (annual temperatures) no variability
+103,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,179,NA,25%,33,75%,250,16,PAGE with annual variability
+104,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,-142,NA,5%,-142,95%,643,16,PAGE with annual variability
+105,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,221,NA,25%,67,75%,304,16,PAGE with annual variability
+106,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,-105,NA,5%,-105,95%,742,16,PAGE with annual variability
+107,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,347,NA,25%,105,75%,517,16,PAGE with annual variability
+108,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,-149,NA,5%,-149,95%,1082,16,PAGE with annual variability
+109,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,216,NA,25%,34,75%,342,16,PAGE with annual variability
+110,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,-175,NA,5%,-175,95%,754,16,PAGE with annual variability
+111,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,176,NA,25%,61,75%,207,16,PAGE with alternative annual variability model
+112,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,-22,NA,5%,-22,95%,519,16,PAGE with alternative annual variability model
+113,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,216,NA,25%,89,75%,259,16,PAGE with alternative annual variability model
+114,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,-2,NA,5%,-2,95%,619,16,PAGE with alternative annual variability model
+115,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,328,NA,25%,137,75%,449,16,PAGE with alternative annual variability model
+116,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,-10,NA,5%,-10,95%,902,16,PAGE with alternative annual variability model
+117,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,202,NA,25%,72,75%,285,16,PAGE with alternative annual variability model
+118,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,-40,NA,5%,-40,95%,582,16,PAGE with alternative annual variability model
+119,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,10849,NA,25%,85,75%,15909,16,PAGE (annual) with growth effects. Includes SCCO2 values of zero.
+120,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,0,NA,5%,0,95%,39242,16,PAGE (annual) with growth effects. Includes SCCO2 values of zero.
+121,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,9487,NA,25%,95,75%,14103,16,PAGE (annual) with growth effects. Includes SCCO2 values of zero.
+122,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,0,NA,5%,0,95%,31807,16,PAGE (annual) with growth effects. Includes SCCO2 values of zero.
+123,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,4439,NA,25%,0,75%,6871,16,PAGE (annual) with growth effects. Includes SCCO2 values of zero.
+124,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,0,NA,5%,0,95%,21093,16,PAGE (annual) with growth effects. Includes SCCO2 values of zero.
+125,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,2754,NA,25%,0,75%,2956,16,PAGE (annual) with growth effects. Includes SCCO2 values of zero.
+126,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,0,NA,5%,0,95%,14081,16,PAGE (annual) with growth effects. Includes SCCO2 values of zero.
+127,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,10780,NA,25%,62,75%,15414,16,PAGE with annual variability and growth effects. Includes SCCO2 values of zero.
+128,Social Cost of Carbon Dioxide,Global,SSP1-1.9,2020,No CC,$2015 USD/tCO2,-33,NA,5%,-33,95%,46514,16,PAGE with annual variability and growth effects. Includes SCCO2 values of zero.
+129,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,9491,NA,25%,41,75%,13641,16,PAGE with annual variability and growth effects. Includes SCCO2 values of zero.
+130,Social Cost of Carbon Dioxide,Global,SSP1-2.6,2020,No CC,$2015 USD/tCO2,-102,NA,5%,-102,95%,39545,16,PAGE with annual variability and growth effects. Includes SCCO2 values of zero.
+131,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,4377,NA,25%,0,75%,4336,16,PAGE with annual variability and growth effects. Includes SCCO2 values of zero.
+132,Social Cost of Carbon Dioxide,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,0,NA,5%,0,95%,24481,16,PAGE with annual variability and growth effects. Includes SCCO2 values of zero.
+133,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,2675,NA,25%,0,75%,1647,16,PAGE with annual variability and growth effects. Includes SCCO2 values of zero.
+134,Social Cost of Carbon Dioxide,Global,SSP5-8.5,2020,No CC,$2015 USD/tCO2,0,NA,5%,0,95%,16109,16,PAGE with annual variability and growth effects. Includes SCCO2 values of zero.
+135,Consumption,India+,NA,2015,NA,$2015/capita,740.65,NA,NA,NA,NA,NA,16,Extreme poverty threshold used as a lower bound for per capita consumption in the model. This is 17% of the 2015 per capita consumption for India+.
+136,Damage Persistence,Global,Unspecified,2015,Immediate Impact,%,52.8,NA,NA,NA,NA,NA,18,Estimated using Burke et al (2015) regression with one temperature lag; Implicit rho.
+137,Damage Persistence,Global,Unspecified,2015,Immediate Impact,%,27.8,NA,NA,NA,NA,NA,18,"Estimated from model with two lags, strongly reduces persistence."
+138,Damage Persistence,Global,Unspecified,2015,Immediate Impact,%,10.3,NA,NA,NA,NA,NA,18,"Estimated from model with four lags, suggests lower persistence."
+139,Damage Persistence,Global,Unspecified,2015,Immediate Impact,NA,-41,NA,90%,NA,NA,NA,18,90% confidence interval considering second lag.
+140,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0236,NA,NA,NA,NA,NA,p. 24,"Temperature coefficient from Burke et al (2015), 0 temperature lags. t-statistic in parentheses"
+141,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0007,NA,NA,NA,NA,NA,p. 24,"Temperature squared coefficient from Burke et al (2015), 0 temperature lags. t-statistic in parentheses"
+142,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0246,NA,NA,NA,NA,NA,p. 24,"Temperature coefficient from Burke et al (2015), 1 temperature lag. t-statistic in parentheses"
+143,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0007,NA,NA,NA,NA,NA,p. 24,"Temperature squared coefficient from Burke et al (2015), 1 temperature lag. t-statistic in parentheses"
+144,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0150,NA,NA,NA,NA,NA,p. 24,"L.Temperature coefficient from Burke et al (2015), 1 temperature lag. t-statistic in parentheses"
+145,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0004,NA,NA,NA,NA,NA,p. 24,"L.Temperature squared coefficient from Burke et al (2015), 1 temperature lag. t-statistic in parentheses"
+146,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0096,NA,NA,NA,NA,NA,p. 24,"Temperature coefficient from Burke et al (2015), 2 temperature lags. t-statistic in parentheses"
+147,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0004,NA,NA,NA,NA,NA,p. 24,"Temperature squared coefficient from Burke et al (2015), 2 temperature lags. t-statistic in parentheses"
+148,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0035,NA,NA,NA,NA,NA,p. 24,"L.Temperature coefficient from Burke et al (2015), 2 temperature lags. t-statistic in parentheses"
+149,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0002,NA,NA,NA,NA,NA,p. 24,"L.Temperature squared coefficient from Burke et al (2015), 2 temperature lags. t-statistic in parentheses"
+150,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0165,NA,NA,NA,NA,NA,p. 24,"L2.Temperature coefficient from Burke et al (2015), 2 temperature lags. t-statistic in parentheses"
+151,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0003,NA,NA,NA,NA,NA,p. 24,"L2.Temperature squared coefficient from Burke et al (2015), 2 temperature lags. t-statistic in parentheses"
+152,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0048,NA,NA,NA,NA,NA,p. 24,"Temperature coefficient from Burke et al (2015), 3 temperature lags. t-statistic in parentheses"
+153,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0003,NA,NA,NA,NA,NA,p. 24,"Temperature squared coefficient from Burke et al (2015), 3 temperature lags. t-statistic in parentheses"
+154,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0049,NA,NA,NA,NA,NA,p. 24,"L.Temperature coefficient from Burke et al (2015), 3 temperature lags. t-statistic in parentheses"
+155,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0003,NA,NA,NA,NA,NA,p. 24,"L.Temperature squared coefficient from Burke et al (2015), 3 temperature lags. t-statistic in parentheses"
+156,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0180,NA,NA,NA,NA,NA,p. 24,"L2.Temperature coefficient from Burke et al (2015), 3 temperature lags. t-statistic in parentheses"
+157,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0003,NA,NA,NA,NA,NA,p. 24,"L2.Temperature squared coefficient from Burke et al (2015), 3 temperature lags. t-statistic in parentheses"
+158,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0061,NA,NA,NA,NA,NA,p. 24,"L3.Temperature coefficient from Burke et al (2015), 3 temperature lags. t-statistic in parentheses"
+159,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0002,NA,NA,NA,NA,NA,p. 24,"L3.Temperature squared coefficient from Burke et al (2015), 3 temperature lags. t-statistic in parentheses"
+160,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0029,NA,NA,NA,NA,NA,p. 24,"Temperature coefficient from Burke et al (2015), 4 temperature lags. t-statistic in parentheses"
+161,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0003,NA,NA,NA,NA,NA,p. 24,"Temperature squared coefficient from Burke et al (2015), 4 temperature lags. t-statistic in parentheses"
+162,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0043,NA,NA,NA,NA,NA,p. 24,"L.Temperature coefficient from Burke et al (2015), 4 temperature lags. t-statistic in parentheses"
+163,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0002,NA,NA,NA,NA,NA,p. 24,"L.Temperature squared coefficient from Burke et al (2015), 4 temperature lags. t-statistic in parentheses"
+164,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0206,NA,NA,NA,NA,NA,p. 24,"L2.Temperature coefficient from Burke et al (2015), 4 temperature lags. t-statistic in parentheses"
+165,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0004,NA,NA,NA,NA,NA,p. 24,"L2.Temperature squared coefficient from Burke et al (2015), 4 temperature lags. t-statistic in parentheses"
+166,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0049,NA,NA,NA,NA,NA,p. 24,"L3.Temperature coefficient from Burke et al (2015), 4 temperature lags. t-statistic in parentheses"
+167,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0002,NA,NA,NA,NA,NA,p. 24,"L3.Temperature squared coefficient from Burke et al (2015), 4 temperature lags. t-statistic in parentheses"
+168,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0021,NA,NA,NA,NA,NA,p. 24,"L4.Temperature coefficient from Burke et al (2015), 4 temperature lags. t-statistic in parentheses"
+169,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0001,NA,NA,NA,NA,NA,p. 24,"L4.Temperature squared coefficient from Burke et al (2015), 4 temperature lags. t-statistic in parentheses"
+170,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0040,NA,NA,NA,NA,NA,p. 24,"Temperature coefficient from Burke et al (2015), 5 temperature lags. t-statistic in parentheses"
+171,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0002,NA,NA,NA,NA,NA,p. 24,"Temperature squared coefficient from Burke et al (2015), 5 temperature lags. t-statistic in parentheses"
+172,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0009,NA,NA,NA,NA,NA,p. 24,"L.Temperature coefficient from Burke et al (2015), 5 temperature lags. t-statistic in parentheses"
+173,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0001,NA,NA,NA,NA,NA,p. 24,"L.Temperature squared coefficient from Burke et al (2015), 5 temperature lags. t-statistic in parentheses"
+174,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0240,NA,NA,NA,NA,NA,p. 24,"L2.Temperature coefficient from Burke et al (2015), 5 temperature lags. t-statistic in parentheses"
+175,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0004,NA,NA,NA,NA,NA,p. 24,"L2.Temperature squared coefficient from Burke et al (2015), 5 temperature lags. t-statistic in parentheses"
+176,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0046,NA,NA,NA,NA,NA,p. 24,"L3.Temperature coefficient from Burke et al (2015), 5 temperature lags. t-statistic in parentheses"
+177,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0002,NA,NA,NA,NA,NA,p. 24,"L3.Temperature squared coefficient from Burke et al (2015), 5 temperature lags. t-statistic in parentheses"
+178,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0020,NA,NA,NA,NA,NA,p. 24,"L4.Temperature coefficient from Burke et al (2015), 5 temperature lags. t-statistic in parentheses"
+179,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0002,NA,NA,NA,NA,NA,p. 24,"L4.Temperature squared coefficient from Burke et al (2015), 5 temperature lags. t-statistic in parentheses"
+180,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,0.0083,NA,NA,NA,NA,NA,p. 24,"L5.Temperature coefficient from Burke et al (2015), 5 temperature lags. t-statistic in parentheses"
+181,GDPpc Growth,Low GDP Countries,Historical,2015,No CC,%,-0.0003,NA,NA,NA,NA,NA,p. 24,"L5.Temperature squared coefficient from Burke et al (2015), 5 temperature lags. t-statistic in parentheses"
+182,Damage Persistence,Low GDP Countries,Historical,2015,No CC,%,100.00,NA,5%,NA,95%,NA,p. 24,"Resulting ρ, 0 temperature lags. Author’s calculations based on the data provided by Burke et al (2015)."
+183,Damage Persistence,Low GDP Countries,Historical,2015,No CC,%,42.48,NA,5%,-146.71,95%,135.33,p. 24,"Resulting ρ, 1 temperature lags. Author’s calculations based on the data provided by Burke et al (2015)."
+184,Damage Persistence,Low GDP Countries,Historical,2015,No CC,%,-16.29,NA,5%,-894.45,95%,905.03,p. 24,"Resulting ρ, 2 temperature lags. Author’s calculations based on the data provided by Burke et al (2015)."
+185,Damage Persistence,Low GDP Countries,Historical,2015,No CC,%,-15.89,NA,5%,-923.95,95%,1022.92,p. 24,"Resulting ρ, 3 temperature lags. Author’s calculations based on the data provided by Burke et al (2015)."
+186,Damage Persistence,Low GDP Countries,Historical,2015,No CC,%,-69.83,NA,5%,-1246.10,95%,1345.78,p. 24,"Resulting ρ, 4 temperature lags. Author’s calculations based on the data provided by Burke et al (2015)."
+187,Damage Persistence,Low GDP Countries,Historical,2015,No CC,%,-94.29,NA,5%,-1081.44,95%,1332.94,p. 24,"Resulting ρ, 5 temperature lags. Author’s calculations based on the data provided by Burke et al (2015)."
+188,GDP Growth,High GDP Countries,Historical,2015,No CC,% / degree C,0.0085,NA,NA,NA,NA,NA,24,Temperature coefficient from baseline regression model with no lags (column 1); statistically significant at p < 0.05
+189,GDP Growth,High GDP Countries,Historical,2015,No CC,% / degree C^2,-0.0003,NA,NA,NA,NA,NA,24,Temperature squared coefficient from baseline regression model with no lags (column 1); statistically significant at p < 0.05
+190,GDP Growth,High GDP Countries,Historical,2015,No CC,%,100.00,NA,NA,NA,NA,NA,24,Resulting rho (damage persistence) from baseline regression model with no lags (column 1).
+191,GDP Growth,High GDP Countries,Historical,2015,No CC,% / degree C,0.0092,NA,NA,NA,NA,NA,24,Temperature coefficient from regression model with 1 lag (column 2); statistically significant at p < 0.05
+192,GDP Growth,High GDP Countries,Historical,2015,No CC,% / degree C^2,-0.0004,NA,NA,NA,NA,NA,24,Temperature squared coefficient from regression model with 1 lag (column 2); statistically significant at p < 0.05
+193,GDP Growth,High GDP Countries,Historical,2015,No CC,%,61.97,NA,NA,-95.71,NA,147.38,24,"Resulting rho (damage persistence), 5th and 95th Monte Carlo percentile from regression model with 1 lag (column 2)."
+194,GDP Growth,High GDP Countries,Historical,2015,No CC,% / degree C,0.0084,NA,NA,NA,NA,NA,24,Temperature coefficient from regression model with 2 lags (column 3); statistically significant at p < 0.05
+195,GDP Growth,High GDP Countries,Historical,2015,No CC,% / degree C^2,-0.0004,NA,NA,NA,NA,NA,24,Temperature squared coefficient from regression model with 2 lags (column 3); statistically significant at p < 0.05
+196,GDP Growth,High GDP Countries,Historical,2015,No CC,%,1.21,NA,5%,-323.86,95%,117.18,24,"Resulting rho (damage persistence), 5th and 95th Monte Carlo percentile from regression model with 2 lags (column 3)."
+197,GDP Growth,High GDP Countries,Historical,2015,No CC,% / degree C,0.0082,NA,NA,NA,NA,NA,24,Temperature coefficient from regression model with no lags (column 6); statistically significant at p < 0.05
+198,GDP Growth,High GDP Countries,Historical,2015,No CC,% / degree C^2,-0.0004,NA,NA,NA,NA,NA,24,Temperature squared coefficient from regression model with no lags (column 6); statistically significant at p < 0.05
+199,GDP Growth,High GDP Countries,Historical,2015,No CC,%,0.22,NA,5%,-229.34,95%,109.67,24,"Resulting rho (damage persistence), 5th and 95th Monte Carlo percentile from regression model with 5 lags (column 6)."
+200,GDP per capita Growth,Global,Historical Data,2015,No CC,%,0.025169,NA,NA,NA,NA,NA,26,"Unfiltered temperature, Below GDPpc median"
+201,GDP per capita Growth,Global,Historical Data,2015,No CC,%,-0.000749,NA,NA,NA,NA,NA,26,"Unfiltered temperature squared, Below GDPpc median"
+202,GDP per capita Growth,Global,Historical Data,2015,No CC,%,0.031177,NA,NA,NA,NA,NA,26,"3 year filter, Below GDPpc median"
+203,GDP per capita Growth,Global,Historical Data,2015,No CC,%,-0.000842,NA,NA,NA,NA,NA,26,"3 year filter temperature squared, Below GDPpc median, p<0.05"
+204,GDP per capita Growth,Global,Historical Data,2015,No CC,%,0.019792,NA,NA,NA,NA,NA,26,"5 year filter, Below GDPpc median"
+205,GDP per capita Growth,Global,Historical Data,2015,No CC,%,-0.000549,NA,NA,NA,NA,NA,26,"5 year filter temperature squared, Below GDPpc median"
+206,GDP per capita Growth,Global,Historical Data,2015,No CC,%,0.034540,NA,NA,NA,NA,NA,26,"10 year filter, Below GDPpc median"
+207,GDP per capita Growth,Global,Historical Data,2015,No CC,%,-0.000806,NA,NA,NA,NA,NA,26,"10 year filter temperature squared, Below GDPpc median"
+208,GDP per capita Growth,Global,Historical Data,2015,No CC,%,0.008412,NA,NA,NA,NA,NA,26,"Unfiltered temperature, Above GDPpc median, p<0.05"
+209,GDP per capita Growth,Global,Historical Data,2015,No CC,%,-0.000330,NA,NA,NA,NA,NA,26,"Unfiltered temperature squared, Above GDPpc median, p<0.05"
+210,GDP per capita Growth,Global,Historical Data,2015,No CC,%,0.006184,NA,NA,NA,NA,NA,26,"3 year filter, Above GDPpc median"
+211,GDP per capita Growth,Global,Historical Data,2015,No CC,%,-0.000230,NA,NA,NA,NA,NA,26,"3 year filter temperature squared, Above GDPpc median"
+212,GDP per capita Growth,Global,Historical Data,2015,No CC,%,0.004519,NA,NA,NA,NA,NA,26,"5 year filter, Above GDPpc median"
+213,GDP per capita Growth,Global,Historical Data,2015,No CC,%,-0.000135,NA,NA,NA,NA,NA,26,"5 year filter temperature squared, Above GDPpc median"
+214,GDP per capita Growth,Global,Historical Data,2015,No CC,%,0.000073,NA,NA,NA,NA,NA,26,"10 year filter, Above GDPpc median"
+215,GDP per capita Growth,Global,Historical Data,2015,No CC,%,0.000010,NA,NA,NA,NA,NA,26,"10 year filter temperature squared, Above GDPpc median"
+216,SCCO2,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,305,NA,NA,NA,NA,NA,27,Annual decay of damage persistence of 4%-5%
+217,SCCO2,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,312,NA,NA,NA,NA,NA,27,Annual decay of damage persistence of 4%-5%
+218,SCCO2,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,3372,NA,NA,NA,NA,NA,27,zerodecay from application of empirical distribution
+219,SCCO2,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,6595,NA,NA,NA,NA,NA,27,"zerodecay from application of empirical distribution, interactions with damage cap"
+220,SCCO2,Global,SSP2-4.5,2020,No CC,$2015 USD/tCO2,4094,NA,NA,NA,NA,NA,27,"zerodecay from application of empirical distribution, interactions with damage cap"
+221,Temperature Variability,EU,SSP2-4.5,2000,Detrended Temps,°C,0.415,NA,NA,NA,NA,NA,Table C1,"Variability of median local temperatures, avg. 1986-2015"
+222,Temperature Variability,Russia+,SSP2-4.5,2000,Detrended Temps,°C,0.440,NA,NA,NA,NA,NA,Table C1,"Variability of median local temperatures, avg. 1986-2015"
+223,Temperature Variability,USA,SSP2-4.5,2000,Detrended Temps,°C,0.364,NA,NA,NA,NA,NA,Table C1,"Variability of median local temperatures, avg. 1986-2015"
+224,Temperature Variability,China+,SSP2-4.5,2000,Detrended Temps,°C,0.265,NA,NA,NA,NA,NA,Table C1,"Variability of median local temperatures, avg. 1986-2015"
+225,Temperature Variability,India+,SSP2-4.5,2000,Detrended Temps,°C,0.201,NA,NA,NA,NA,NA,Table C1,"Variability of median local temperatures, avg. 1986-2015"
+226,Temperature Variability,Africa and Middle East,SSP2-4.5,2000,Detrended Temps,°C,0.196,NA,NA,NA,NA,NA,Table C1,"Variability of median local temperatures, avg. 1986-2015"
+227,Temperature Variability,Latin America,SSP2-4.5,2000,Detrended Temps,°C,0.154,NA,NA,NA,NA,NA,Table C1,"Variability of median local temperatures, avg. 1986-2015"
+228,Temperature Variability,Other OECD,SSP2-4.5,2000,Detrended Temps,°C,0.362,NA,NA,NA,NA,NA,Table C1,"Variability of median local temperatures, avg. 1986-2015"
+229,Temperature Variability,Global,SSP2-4.5,2000,Detrended Temps,°C,0.110,NA,NA,NA,NA,NA,Table C1,"Variability of median local temperatures, avg. 1986-2015"
+230,Temperature Variability,EU,SSP2-4.5,2000,Detrended Temps,°C,0.352,0.0191,NA,NA,NA,NA,Table C1,"Variability of mean local temperatures; Uncertainty in observations, avg. 1986-2015"
+231,Temperature Variability,Russia+,SSP2-4.5,2000,Detrended Temps,°C,0.397,0.0302,NA,NA,NA,NA,Table C1,"Variability of mean local temperatures; Uncertainty in observations, avg. 1986-2015"
+232,Temperature Variability,USA,SSP2-4.5,2000,Detrended Temps,°C,0.392,0.0304,NA,NA,NA,NA,Table C1,"Variability of mean local temperatures; Uncertainty in observations, avg. 1986-2015"
+233,Temperature Variability,China+,SSP2-4.5,2000,Detrended Temps,°C,0.260,0.0594,NA,NA,NA,NA,Table C1,"Variability of mean local temperatures; Uncertainty in observations, avg. 1986-2015"
+234,Temperature Variability,India+,SSP2-4.5,2000,Detrended Temps,°C,0.200,0.0399,NA,NA,NA,NA,Table C1,"Variability of mean local temperatures; Uncertainty in observations, avg. 1986-2015"
+235,Temperature Variability,Africa and Middle East,SSP2-4.5,2000,Detrended Temps,°C,0.182,0.0502,NA,NA,NA,NA,Table C1,"Variability of mean local temperatures; Uncertainty in observations, avg. 1986-2015"
+236,Temperature Variability,Latin America,SSP2-4.5,2000,Detrended Temps,°C,0.156,0.0542,NA,NA,NA,NA,Table C1,"Variability of mean local temperatures; Uncertainty in observations, avg. 1986-2015"
+237,Temperature Variability,Other OECD,SSP2-4.5,2000,Detrended Temps,°C,0.353,0.0430,NA,NA,NA,NA,Table C1,"Variability of mean local temperatures; Uncertainty in observations, avg. 1986-2015"
+238,Temperature Variability,Global,SSP2-4.5,2000,Detrended Temps,°C,0.113,0.0216,NA,NA,NA,NA,Table C1,"Variability of mean local temperatures; Uncertainty in observations, avg. 1986-2015"

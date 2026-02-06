@@ -1,0 +1,170 @@
+Drivers of Risk:
+  3: Global warming, historical land-use changes, changes in socio-economic conditions
+    (SSP2), differential bioenergy requirements associated with the transformation
+    of the energy system.
+  7: Climate change (from RCP2.6 and RCP6.0), population projections, socio-economic
+    conditions, land use changes, irrigation patterns, fertilizer input, nitrogen
+    deposition, changing diets under economic development, climate-change effects
+    on crop yields, and bioenergy demand.
+  8: "Global-mean-temperature projections from IPSL-CM5A-LR and HadGEM2-ES under RCP2.6\
+    \ exceed 1.5\u25E6C relative to pre-industrial levels in the second half of the\
+    \ 21st century; GFDL-ESM2M stays below 1.5\u25E6C until 2100; MIROC5 stabilizes\
+    \ at about 1.5\u25E6C during the second half of the 21st century."
+  10: The dataset includes variables such as precipitation (total precipitation including
+    rainfall and snowfall), temperature (near-surface air temperature, daily maximum
+    and minimum), surface radiation (downwelling longwave and shortwave), and wind
+    speed, all of which are drivers of climate change impacts.
+  13: Sea-level rise is identified as an important factor for climate-related impacts
+    on coastal infrastructure and ecosystems.
+  15: Population changes and changes in national GDP are considered as drivers, in
+    addition to climate change and land use patterns.
+  16: Changes in reservoir management, water withdrawal and consumption for domestic,
+    industrial, and irrigation purposes, and fertilizer application rates.
+  19: The paper focuses on anthropogenic climate change and greenhouse gas emissions,
+    and resulting climate-sensitive impacts.
+  20: Changes in climate (temperature, precipitation), CO2 concentration, land use,
+    nitrogen deposition, fertilizer input, irrigation, water abstraction, dams and
+    reservoirs, forest management, population, GDP, coastal protection, and fishing
+    catch data.
+  21: Climate change (RCP2.6 and RCP6.0), CO2 concentrations, and land use/human influences.
+Evaluation overview:
+  3: "Impacts of global warming of 1.5\u25E6C above pre-industrial levels, temperature-related\
+    \ mortality, and global terrestrial biodiversity."
+  7: "Impact indicators such as \u201Cnumber of people affected by \uFB02ood events\u201D\
+    \ or \u201Cnumber of people affected by long-term changes going beyond a certain\
+    \ range of the reference distribution\u201D are evaluated."
+  8: No relevant information
+  15: No relevant information
+  16: No relevant information
+  17: No relevant information
+  19: "The impacts of 1.5\xB0C and 2\xB0C warming, and the 1\xB0C of global warming\
+    \ that has occurred between pre-industrial times and the present day, are being\
+    \ evaluated across various sectors."
+  20: Impacts of climate change on various sectors, including biomes, forestry, permafrost,
+    energy, health, and fisheries.
+Highlights:
+  3: Provides the scientific basis for an aggregation of impacts across sectors and
+    analysis of cross-sectoral interactions.
+  7: "The study aims to assess the impacts of 1.5\xB0C global warming, including the\
+    \ effects of reaching 1.5\xB0C, returning to 1.5\xB0C, and stabilizing at that\
+    \ level, considering both climate and socioeconomic changes. It also aims to provide\
+    \ a basis for developing simplified models for scaling impacts to other global-mean-temperature\
+    \ and CO2 pathways."
+  8: Four GCMs provide a fractional range coverage close to the mean fractional range
+    coverage across randomly chosen four-member sets of CMIP5 GCMs.
+  13: The paper presents a strategy for disaggregation of land use types, separating
+    crops used for food, feed, and bioenergy to preserve cropland area calculations.
+  15: Uses SSP2 storyline to create population and GDP projections for use in ISIMIP2b.
+  16: Reservoir management is assumed to be fixed at 2005 levels in future projections.
+  17: No relevant information
+  18: ISIMIP2b aims for multi-model integration between sectors to better represent
+    the links and feedbacks that occur in the observed Earth system, a significant
+    change from previous assessments where sectors were assessed in isolation.
+  19: "The ISIMIP2b scenario design enables an assessment of the impacts of 1.5 and\
+    \ 2\xB0C warming, as well as the impacts of the 1\xB0C of global warming that\
+    \ has already occurred."
+Methodology:
+  1: "The paper describes the simulation protocol for the Inter-Sectoral Impact Model\
+    \ Intercomparison Project (ISIMIP2b) to assess impacts of 1.5\xB0C global warming."
+  3: "The Inter-Sectoral Impact Model Intercomparison Project (ISIMIP) provides tailored,\
+    \ cross-sectorally consistent impact projections. It involves simulation protocols\
+    \ designed to separate impacts of historical warming, quantify impacts of additional\
+    \ warming up to 1.5\u25E6C, and assess climate effects based on climate scenarios\
+    \ while accounting for simultaneous changes in socio-economic conditions."
+  7: "Simulations are run under different scenarios: pre-industrial climate with future\
+    \ human influences, future climate and human influences under RCP2.6 and RCP6.0,\
+    \ and an extension of RCP2.6 simulations to 2299 with human influences fixed at\
+    \ 2100 levels. Bias-adjusted climate input data at daily temporal and 0.5\u25E6\
+    \ horizontal resolution is used, based on CMIP5 output of GFDL-ESM2M, HadGEM2-ES,\
+    \ IPSL-CM5A-LR, and MIROC5."
+  8: "Uses four GCMs (GFDL-ESM2M, IPSL-CM5A-LR, MIROC5, and HadGEM2-ES) under RCP2.6\
+    \ and RCP6.0 from 2006 to 2099, with some models extending to 2299; Analysis includes\
+    \ recycling pre-industrial control climate data for HadGEM2-ES, IPSL-CM5A-LR,\
+    \ and MIROC5 to fill the entire 1661\u20132299 period."
+  9: "The reference dataset for bias adjustment is EWEMBI, covering the globe at 0.5\u25E6\
+    \ horizontal and daily temporal resolution from 1979 to 2013."
+  10: The paper describes the data sources and bias adjustment methods used to create
+    the EWEMBI dataset, which includes various climate variables like temperature,
+    precipitation, radiation, and wind speed. Bias adjustment methods include quantile
+    mapping and rescaling climatologies. The study also mentions using adjusted humidity
+    calculations and providing unadjusted sea-level pressure and wind data.
+  11: Future LU projections are based on the MAgPIE model, considering bioenergy demand,
+    greenhouse gas prices, and SSP2 storyline.
+  13: Sea-level rise patterns are constructed from individual components, using GCM
+    data and incorporating glacier, ice sheet, and land water storage contributions.
+  15: Historical GDP data is extrapolated from national income and GDP time series
+    using data from Penn World Tables and the Maddison project. Missing data is filled
+    using data from Penn World Tables and World Development Indicators. Future projections
+    of national GDP are taken from the SSP database and linearly interpolated. Gridded
+    GDP data is downscaled using population data from HYDE3.2 for the historical period
+    and SSP2 gridded population projections for the future period.
+  16: The paper describes the representation of socio-economic drivers in historical
+    simulations and future projections, specifically related to water resources and
+    fertilizer use. Future projections for water are based on SSP2 with RCP6.0, with
+    identical data used for RCP2.6, acknowledging that the difference between the
+    RCPs is expected to be small. Water data is generated by individual modeling groups
+    using land use and irrigation patterns. Future projections for fertilizer is provided
+    by the LUH2-ISIMIP2b dataset, which differs for SSP2+RCP2.6 and SSP2+RCP6.0.
+  18: The ISIMIP2b protocol provides a consistent and documented framework for assessing
+    impacts at the global scale using multiple GCMs, impact models, and sectors. It
+    includes a pre-industrial reference and full coverage of the historical period.
+    The time line of ISIMIP2b was chosen to meet the critical deadlines of the IPCC
+    Special Report.
+  19: The paper discusses the ISIMIP2b protocol and the simulations that arise from
+    it. The study looks at pre-industrial times to the present day.
+  20: Compares simulations with pre-industrial climate and stable greenhouse gas concentrations
+    to simulations with climate change and direct human influences on climate-sensitive
+    indicators. Uses various climate and CO2 concentration scenarios (picontrol, historical,
+    rcp26, rcp60, 2005co2, 2299rcp26) and socio-economic scenarios (1860soc, histsoc,
+    2005soc, 2015soc, rcp26soc, rcp60soc, 2100rcp26soc, 2100ssp2soc, ssp2soc_adapt,
+    nosoc). Applicable for assessing climate-sensitive impacts and potential trade-offs
+    of mitigation measures.
+  21: The table describes the experimental setup for global and regional water model
+    simulations within the ISIMIP2b framework. It outlines seven different experiments
+    with varying climate and land use scenarios (RCP2.6 and RCP6.0), covering historical
+    (1861-2005) and future (2006-2299) time periods. The experiments differ in whether
+    climate change and land-use/human influences are held constant or allowed to vary
+    according to the RCP scenarios. Land use is typically held constant after 2005
+    or 2100.
+More Notes:
+  8: Selection of GCMs heavily constrained by CMIP5 data availability, requiring daily
+    output for atmospheric variables covering pre-industrial control, historical,
+    and RCP scenarios; IPSL-CM5A-LR and GFDL-ESM2M are given priority for impact modeling.
+  10: The paper acknowledges an inconsistency in wind data adjustment and advises
+    caution when comparing models using adjusted total wind velocity to those using
+    non-adjusted wind components.
+  15: Mentions other external drivers such as dams/reservoirs, irrigation, fertilizer
+    application, nitrogen deposition, fishing intensities, and forest management,
+    and provides information on how these drivers are represented in models.
+  16: "The ISIMIP2a varsoc scenario is mentioned. The combination SSP2\u2013RCP2.6\
+    \ was not considered in the Water Futures and Solutions project. Some datasets\
+    \ are mandatory for harmonization across models, while others are provided for\
+    \ support."
+  18: The simulations include 'nosoc' runs for exploration of the effects of climate
+    change compared to pre-industrial climate, allowing for a better assessment of
+    the relative importance of human impacts versus climate impacts.
+  19: The table provides a list of ISIMIP focus regions with their corresponding coordinates,
+    river basins, or region names for regional water simulations; coordinates for
+    regional lake simulations; coordinates for regional forestry simulations; and
+    coordinates for ocean regions.
+  20: Acknowledges the difficulty in completely disentangling the effects of human
+    activity on climate and climate-sensitive impacts, but aims to represent socio-economic
+    drivers on impact indicators.
+Quantitative material:
+  3: Impact projections based on low-emissions Representative Concentration Pathway
+    RCP2.6 and a no-mitigation pathway RCP6.0 with socio-economic conditions fixed
+    at 2005 levels, and long-term impacts up to 2299.
+  8: "Global-mean-temperature change returns to 1.5\u25E6C or even slightly lower\
+    \ by 2299 in HadGEM2-ES, it only reaches about 2\u25E6C in IPSL-CM5A-LR by 2299."
+  10: The page references relative mean value (m) and relative variance (v) as quantitative
+    components of beta distribution equations and provides equations defining the
+    variables.
+  15: Presents time series data for global population and global GDP from historical
+    periods to future projections following the SSP2 storyline.
+  16: Future water withdrawal and consumption data is provided until 2050, after which
+    values should be kept constant. The paper uses crop-specific fertilizer input
+    per hectare of cropland in kilograms.
+  17: No relevant information
+  19: Zonal and Meridional extents for various regional water simulations, regional
+    lake simulations, regional forestry simulations, and ocean regions are provided
+    in the table.

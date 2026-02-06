@@ -1,0 +1,116 @@
+Drivers of Risk:
+  4: The drivers of risk include changes in climate variables and GDP/capita. Specific
+    shocks include future heat exposure.
+  6: Changes in adaptation until 2100 are evaluated in RCP8.5/SSP5 scenarios, impacting
+    extreme degree days (EXD) and mean annual temperature gradient (MAG) in cities.
+  7: The primary driver of risk identified is climate change leading to increased
+    heat exposure, as projected under different climate scenarios (RCP2.6/SSP1 and
+    RCP8.5/SSP5).
+  8: Changes in future heat exposure magnitude
+  9: The drivers of risk are climate trajectories (RCPs) and socio-economic pathways
+    (SSPs). Specifically mentioned are RCP2.6/SSP1 and RCP8.5/SSP5.
+  11: Changes in climate variables, specifically daily mean temperature and humidity,
+    and socio-economic factors such as GDP/capita.
+  12: Daily mean apparent temperature (ATmean) is the primary driver of heat exposure
+    risk. The study uses RCP/SSP combinations to project future climate scenarios.
+  13: The papers referenced explore the impact of climate change, global warming,
+    heat waves, and temperature (including summer temperatures) on mortality and health.
+Evaluation overview:
+  4: The paper evaluates changes in adaptation and exposure related to heat and its
+    related mortality for urban populations.
+  7: The paper discusses changes in future heat exposure frequency, specifically evaluating
+    outcomes like increased heat exposure frequency (EXD) and magnitude (MAG) in cities
+    worldwide, with implications for mortality.
+  8: Future adaptation and heat exposure for 3820 cities worldwide
+  9: The study evaluates heat exposure in cities.
+  11: The study estimates Minimum Mortality Temperatures (MMTs) for historic and future
+    scenarios across cities.
+  12: Human heat adaptation in cities is evaluated by assessing critical heat exposure
+    exceeding the MMT (a measure for human heat adaptation in cities).
+  13: The papers referenced here seem to focus on temperature-related mortality impacts,
+    heat adaptation as indicated by minimum mortality temperatures, and health effects
+    of weather conditions.
+Highlights:
+  4: SSP5 generates the highest future mean country-based GDP/capita, but a high GDP/capita
+    does not automatically lead to a better bearable situation regarding future heat
+    and its related mortality for urban populations. Adaptation gains (Delta1MMT)
+    are generally larger in the northern hemisphere (especially Western Europe) than
+    in subtropical and tropical cities.
+  6: In a RCP8.5/SSP5 future, a significant number of cities experience increases
+    in EXD and MAG; these increments show intensified climate outcomes in certain
+    regions.
+  7: Key outcomes include potential substantial worsening of heat exposure under RCP8.5/SSP5,
+    with many cities facing increased mortality, and a better outlook under RCP2.6/SSP1
+    with reduced heat exposure in most cities.
+  8: "For the first time, future adaptation and heat exposure for\_3820 cities worldwide\
+    \ have been assessed jointly. Assessment envisages potential adaptation and exposure\
+    \ changes until 2100"
+  9: RCP2.6/SSP1 is beneficial for urban populations' health regarding heat exposure
+    compared to RCP8.5/SSP5.
+  11: "The model is re-calibrated to preserve the importance of all variables with\
+    \ a minor increase in RMSE from 2.8\xB0C to 3.2\xB0C."
+  12: The study assesses changes in critical heat exposure in cities by comparing
+    historical (1991-2000) and future (2090-2099) periods, considering human heat
+    adaptation.
+Methodology:
+  4: "The analysis is performed for a city sample under different RCP/SSP combinations,\
+    \ projecting changes from 1991-2000 to 2090-2099. The results are applicable for\
+    \ understanding the interplay between socioeconomic pathways and climate change\
+    \ impacts on urban areas by the end of the 21st century. The greatest weighted\
+    \ variable change (climate or GDP/capita) was identified for each city and compared\
+    \ to the aggregated weight of the remaining variables\u2019 changes to determine\
+    \ primary contributors to MMT."
+  6: Analysis for RCP8.5/SSP5 scenarios includes regional assessments in world cities
+    from 2000-2100 using tmap package in R version 3.6.2.
+  8: Assessment of future adaptation and heat exposure jointly using RCPs 2.6, 4.5,
+    6.0 and 8.5 and SSPs 1-5 until 2100.
+  9: The approach assesses urban populations' adaptation and exposure to heat in 3820
+    cities across the globe. The analysis compares changes from 1991-2000 to 2090-2099.
+  11: The analysis uses a generalized multivariate non-linear model to estimate MMTs
+    based on climate, topographic, and socio-economic variables, with calibration
+    done using gridded climate data from ISIMIP project for historic and future periods.
+  12: "The study uses historic and projected MMTs for 3820 cities under different\
+    \ RCP/SSP combinations.  It calculates the number of days ATmean exceeds MMT,\
+    \ then computes the mean number of exposure days (EXD) for the historical period\
+    \ (1991-2000) and future period (2090-2099). Delta changes (\u0394EXD and \u0394\
+    MAG) are calculated by subtracting historical values from future values.  The\
+    \ analysis is performed in R."
+  13: The references include the use of climate change scenarios (RCPs and SSPs),
+    Inter-Sectoral Impact Model Intercomparison Project (ISIMIP2b) simulations, statistical
+    computing in R, and modeling methods for heat-related mortality.
+More Notes:
+  8: EXD and MAG are not defined on this page, so it is hard to understand precisely
+    what the numbers mean.
+  9: Arid and semi-arid climates (e.g., southwestern USA, northern Mexico, Brazil,
+    Sahel, Arabian Peninsula, Middle East, Pakistan, and India) are likely to experience
+    increased heat-related mortality under RCP8.5/SSP5. Socio-economic growth only
+    contributes to future heat adaptation as long as it is generated sustainably.
+  11: The combination of RCP 2.6 with SSP3 is excluded from future MMT estimations.
+  12: The study acknowledges that the feasibility of combining RCP2.6 and SSP5 is
+    questionable and largely neglected in their analysis. They account for long-term
+    physiological acclimatization by employing long-term climate variables. Adaptation
+    likely does not change significantly from one year to another.
+  13: This page only contains references, so the information is a summary of what
+    those references likely cover. The Krummenauer study was supported by the Potsdam
+    Graduate School (PoGS).
+  14: This page contains copyright and licensing information, and does not contain
+    any scientific results.
+Quantitative material:
+  4: The paper provides quantitative information on the change in exceedance days
+    from 1991-2000 to 2090-2099, changes in mean mortality temperature (MMT) between
+    2000-2100, and GDP/capita in 2000 and projected for 2100 under different SSPs.
+    It also gives specific cities and their changes in MMT.
+  6: "RCP8.5/SSP5 scenarios show EXD increases of 0-92 in northwestern Mexico, Brazil,\
+    \ Pakistan, and India, while positive \u03941MAG increments are observed up to\
+    \ +5.4\xB0C in some cities."
+  7: The analysis indicates that under RCP8.5/SSP5, 30% of cities will experience
+    additional EXD, whereas under RCP2.6/SSP1, 6% of cities will face additional EXD.
+    RCP2.6/SSP1 is expected to lead to reduced EXD by 84% of cities by 2090-2099.
+  8: "Changes in exposure from 1991-2000 to 2090-2099 under RCP2.6/SSP1 and RCP8.5/SSP5\
+    \ for 3820 world cities; e.g., Days reduction/increase in EXD, Reduction/Increase\
+    \ in MAG [\xB0C], Percent of year EXD, >350 EXD"
+  9: Under RCP8.5/SSP5, 5.1 times as many cities will face more frequent heat exposures
+    and 4.3 times as many will experience higher exposure magnitudes than in RCP2.6/SSP1.
+  12: "The analysis quantifies the annual number of days exceeding the MMT (EXD),\
+    \ the delta change in EXD (\u0394EXD), the exceedance magnitude (MAG), and the\
+    \ delta change in MAG (\u0394MAG) between 1991-2000 and 2090-2099."

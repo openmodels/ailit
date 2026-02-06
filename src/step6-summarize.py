@@ -23,31 +23,43 @@ def pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command):
                 return "Unknown"
         if command == "STATUS":
             return "Step 5"
-        if command in ["SUMMARIZE", "BRIEF"]:
+        if command in ["SUMMARIZE", "BRIEF", "SUMMARIZE2", "BRIEF2"]:
             namematch = commands.extract_alphanumeric_and_spaces(col)
             allpages = {}
             for key, values in columninfo.items():
                 if commands.extract_alphanumeric_and_spaces(key) == namematch:
                     allpages.update(values)
 
-            if len(allpages) == 0:
-                return "NA"
+            if command in ["SUMMARIZE", "BRIEF"]:
+                # No abstract, so no additional information
+                if len(allpages) == 0:
+                    return "NA"
                     
-            if len(allpages) == 1:
-                return list(allpages.values())[0]
+                if len(allpages) == 1:
+                    return list(allpages.values())[0]
 
-            texts = '\n'.join([f"Page {num}: {text}" for num, text in allpages.items()])
-            if command == "SUMMARIZE":
-                instruct = "Please summarize this information as a single concise notes, avoiding phrases like 'This paper ...'."
+            if len(allpages) > 0:
+                texts = '\n'.join([f"Page {num}: {text}" for num, text in allpages.items()])
+                material = f"The following notes were extracted from pages from a paper that is potentially relevant to my review:\n===\n{texts}\n===\n"
+                if command in ["SUMMARIZE", "SUMMARIZE2"]:
+                    instruct = f"{material}\nPlease summarize this information as a single concise notes, avoiding phrases like 'This paper ...'."
+                else:
+                    instruct = f"{material}\nPlease provide a brief keywords as the summary, rather than full sentences."
             else:
-                instruct = "Please provide a brief keywords as the summary, rather than full sentences."
-            
-            prompt = f"""{abstract_prompt} Right now, I want to summarize material related to '{col}'. The following notes were extracted from pages from a paper that is potentially relevant to my review:
-===
-{texts}
-===
+                ## Just the case if abstract was available
+                if command in ["SUMMARIZE", "SUMMARIZE2"]:
+                    instruct = "Using the abstract, please briefly relate this information as a single concise notes, avoiding phrases like 'This paper ...'."
+                else:
+                    instruct = "Using the abstract, provide a brief keywords as the summary, rather than full sentences."
 
-{instruct} Specify the summary in triple backticks, like this: ```Synopsis here.```."""
+            if command in ["BRIEF2", "SUMMARIZE2"]:
+                abstract_prompt2 = abstract_prompt + " Here is the abstract of a paper: " + row['Abstract'] + "\n\n"
+            else:
+                abstract_prompt2 = abstract_prompt
+                
+            prompt = f"""{abstract_prompt2} Right now, I want to summarize material related to '{col}'.
+
+{instruct} Specify the summary of {col} in triple backticks as a single line, like this: ```Synopsis here.```."""
 
             return interaction.get_internaltext([{"role": "user", "content": prompt}], 3).strip()
 
@@ -74,7 +86,7 @@ for dopass in range(dopass_count):
     for search in searches:
         if getout:
             break
-        for row in iterate_search(search):
+        for row in iterate_search(search, filter_config):
             if row.DOI in knowndoi:
                 continue
             verdictrow = verdicts[verdicts.DOI == row.DOI]
@@ -98,21 +110,22 @@ for dopass in range(dopass_count):
                 # Step 2: Produce summary rows
                 results = {'DOI': row.DOI}
                 pass2_summarize(targetpath, row, columninfo, column_defs_summary['All'], results)
-                if results['NEXT'][0] != "N/A":
-                    nextset = results['NEXT'][0]
-                    del results['NEXT']
-                    if 'Any' in column_defs_summary:
-                        pass2_summarize(targetpath, row, columninfo, column_defs_summary['Any'], results)
+                if 'NEXT' in results:
+                    if results['NEXT'][0] != "N/A":
+                        nextset = results['NEXT'][0]
+                        del results['NEXT']
+                        if 'Any' in column_defs_summary:
+                            pass2_summarize(targetpath, row, columninfo, column_defs_summary['Any'], results)
                     
-                    while nextset:
-                        pass2_summarize(targetpath, row, columninfo, column_defs_summary[nextset], results)
-                        if results.get('NEXT', ['N/A'])[0] != 'N/A':
-                            nextset = results['NEXT'][0]
-                            del results['NEXT']
-                        else:
-                            nextset = None
-                else:
-                    del results['NEXT']
+                        while nextset:
+                            pass2_summarize(targetpath, row, columninfo, column_defs_summary[nextset], results)
+                            if results.get('NEXT', ['N/A'])[0] != 'N/A':
+                                nextset = results['NEXT'][0]
+                                del results['NEXT']
+                            else:
+                                nextset = None
+                    else:
+                        del results['NEXT']
 
                 for col in allcols:
                     if col != 'NEXT' and col not in results:

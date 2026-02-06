@@ -4,11 +4,21 @@ from lib import interaction
 from lib.helpers import *
 from config import *
 
-with open(question_file, 'w') as fp:
+if os.path.exists(question_file):
+    answers = pd.read_csv(question_file)
+    dones = set(answers.DOI)
+else:
+    with open(question_file, 'w') as fp:
+        writer = csv.writer(fp)
+        writer.writerow(['DOI', 'Outcome'])
+    dones = []
+
+with open(question_file, 'a') as fp:
     writer = csv.writer(fp)
-    writer.writerow(['DOI', 'Outcome'])
 
     for row in iterate_search(questionsource):
+        if row['DOI'] in dones:
+            continue
         print(row['DOI'])
         
         title = row['Title']

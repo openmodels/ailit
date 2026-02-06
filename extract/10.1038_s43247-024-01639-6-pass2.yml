@@ -1,0 +1,135 @@
+Drivers of Risk:
+  1: Changes in climate (temperature and humidity), urbanization, and population growth
+  2: The primary driver of risk is climate, specifically temperature and humidity,
+    which affect mosquito survival and viral propagation.
+  3: Changes in temperature and relative humidity, represented by the climate suitability
+    Index P, and population growth are analyzed as drivers of changes in DENV transmission.
+  4: Climate effects, population effects
+  5: Changes in climate suitability (defined as average suitability from 1979-1983
+    vs 2018-2022), human population growth, and non-climatic factors (e.g., herd immunity).
+  6: Increases in dengue climate suitability due to changes in climate and population
+    growth, particularly in densely populated urban environments.
+  7: Population growth in areas with high climate suitability and poor urban planning
+    are driving increased DENV transmission risk.
+  11: No relevant information
+Evaluation overview:
+  1: Dengue virus transmission and population at risk of dengue
+  2: The paper evaluates climate suitability for dengue virus transmission and its
+    impact on dengue incidence.
+  3: No relevant information
+  4: Dengue virus transmission suitability, land area and population changes.
+  5: Dengue incidence and changes in climate suitability for dengue virus transmission.
+  6: The page evaluates shifts in land area with high climate suitability for dengue
+    virus transmission based on population density, economic income group, and climate
+    zone.
+  7: This page discusses the increasing public health burden due to the spread of
+    dengue (DENV) to new areas with high climate suitability.
+  11: No relevant information
+Highlights:
+  1: Expansion in climate suitability in North America, East Asia, and the Mediterranean
+    basin. In the Global South, increase largely driven by population growth in areas
+    with historically favorable climate suitability, while in the Global North this
+    increase predominantly occurred in previously unfavorable areas with limited population
+    growth.
+  2: Climate suitability is concentrated in tropical and near-equatorial regions.
+    There is a correlation between climate suitability and dengue incidence across
+    different countries (Taiwan, Vietnam, Brazil, Colombia, Costa Rica, Thailand).
+  3: The study presents the average climate suitability per pixel from 1979 to 2022,
+    highlighting areas that remain suitable for transmission throughout the year and
+    also accounts for areas.
+  4: Areas of high climate suitability generally had higher dengue incidence than
+    areas of low climate suitability across municipalities in Brazil and Colombia.
+  5: Population growth is responsible for a larger increase in people living in high-risk
+    areas than climate change alone, except in the Global North.
+  6: The most significant increases in dengue climate suitability occurred in high-density
+    urban areas and regions with historically high suitability, while some regions
+    like Europe saw little change.
+  7: A substantial increase in global populations living in high climate suitability
+    areas for DENV transmission, leading to expected increases in DENV activity in
+    the Global South.
+  11: No relevant information
+Methodology:
+  1: Examined how shifts in temperature, humidity, and human population growth have
+    contributed to changes in the geographical distribution and size of the global
+    population living in areas with high climate suitability from 1979 to 2022, using
+    estimates of dengue transmission suitability based on historical temperature and
+    humidity data.
+  2: The analysis uses mechanistic and statistical modeling approaches, including
+    species distribution modeling, to estimate associations between climate variables
+    and dengue or vector observations. Mechanistic models aim at quantifying transmission
+    potential based on mosquito-viral traits and climate interactions. Statistical
+    approaches estimate associations between climate variables and dengue or vector
+    observations. The applicability of the results spans from 1979 to 2022 for climate
+    suitability and varies by country for incidence data (e.g., 2000-2014 for Brazil,
+    2007-2017 for Colombia).
+  3: The study uses Index P, a mechanistic dengue suitability measure for Ae. aegypti
+    mosquitoes based on temperature and relative humidity, to estimate monthly time
+    series of global climate suitability from 1979 to 2022 at a spatial resolution
+    of approximately 11 km. Trends were analyzed using monthly Index P time series
+    from 1979-2022, with significance assessed using a false discovery rate (FDR)
+    < 0.10.
+  4: Uses reported dengue case counts for countries with dengue surveillance data
+    to characterize the relationship between estimated climate suitability and observed
+    dengue incidence. Climate suitability was considered high when it exceeded a threshold
+    of 0.5.
+  5: "Censored linear regression model for each country was fitted with mean annual\
+    \ incidence as the outcome, climate suitability as a binary independent variable,\
+    \ and population density and population size as covariates.  A random-effects\
+    \ model was used for meta-analysis across countries. Long-term trends in monthly\
+    \ time series of suitability were quantified using a seasonal Mann\u2013Kendall\
+    \ test."
+  6: Analysis uses a dengue suitability measure incorporating temperature and humidity
+    effects on mosquito-viral traits, applied globally for periods 1979-1983 and 2017-2022.
+  7: The study considers empirical effects of temperature and humidity on transmission
+    suitability but acknowledges limitations due to other factors like precipitation,
+    altitude, and urbanization.
+  8: Technical validation involves correlation with reported dengue case data in Brazil,
+    Thailand, Colombia, Costa Rica, and Taiwan for various periods.
+  9: Uncertainty was addressed using 1000 samples to estimate credible intervals for
+    Index P distributions.
+  11: No relevant information
+More Notes:
+  2: The paper acknowledges limitations of both mechanistic and statistical approaches,
+    including sparse reporting in low-transmission areas, difficulty capturing nonlinear
+    interactions, and reliance on single minimum/maximum values for climate-based
+    limits. It also mentions that models are often developed on locally-specific parameter
+    estimates, which limits their applicability.
+  3: The study focuses on Ae. aegypti mosquitoes due to their primary role in vector-human
+    transmission of dengue virus and the availability of detailed empirical data on
+    meteorological variables and vector-viral traits.
+  4: The study identifies areas where reported dengue cases are lower than expected
+    from the estimated climate suitability, potentially due to factors such as low
+    population density, poor surveillance, and limited connectivity.
+  10: This page contains only the references section of the paper. Therefore, it does
+    not contain any primary analysis or results. The information would have to be
+    gleaned from the paper itself.
+  11: The page contains references, acknowledgements, author contributions, competing
+    interests, additional information (supplementary information, correspondence),
+    peer review information, reprints and permissions information, publisher's note,
+    and open access license information. The paper focuses on climate and vector-borne
+    diseases (specifically Dengue and Yellow Fever), and mentions Indian Ocean temperature
+    anomalies predict long-term global dengue trends. The authors received no funding
+    for the research.
+Quantitative material:
+  1: Estimated that the population in areas with high climate suitability has grown
+    by approximately 2.5 billion globally from 1979 to 2022.
+  2: "The paper presents data on mean yearly dengue incidence (cases per 100,000 population)\
+    \ across municipalities/provinces/cantons in Brazil, Colombia, Costa Rica, Taiwan,\
+    \ Thailand, and Vietnam. It also presents climate suitability on an Index P scale,\
+    \ categorized into low (<0.5) and high (\u22650.5)."
+  3: The study quantifies local and global changes in climate suitability for DENV
+    transmission using a monthly time resolution and a spatial resolution of approximately
+    11 km. It uses a color scale where dark blue indicates decreases in climate suitability
+    [(-1, -0.010]], light blue = [[-0.010, -0.005)], [-0.005, -0.0001)], and colors
+    indicating increasing suitability such as light orange = [[0.0001, 0.005)], medium
+    orange = [[0.005, 0.010)], dark orange = [[0.010, 1]].
+  4: "Estimated changes in land area and population with high climate suitability\
+    \ from 1979\u20131983 to 2018\u20132022."
+  5: Population and climate effects independently contributed 2.16 billion and 182
+    million more people in high-risk areas, respectively, globally.
+  6: Quantitative changes in high climate suitability areas are reported, e.g., global
+    increase from 58.5% to 66.2% in high-density areas and from 48.1% to 63.6% in
+    very high-density areas.
+  7: Approximately 70% of populations in Africa and Asia are living in areas with
+    a high risk of dengue infection, a 15% increase relative to four decades earlier.
+  11: No relevant information

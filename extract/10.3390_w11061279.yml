@@ -1,0 +1,227 @@
+Drivers of Risk:
+  1: Changes in climate, specifically increases in extreme precipitation events.
+  2: Changes in precipitation extremes and future dates are impacting outcomes.
+  3: The study focuses on annual precipitation maxima in the northeastern U.S., with
+    an emphasis on local maxima occurring along the northern Appalachian Mountains.
+  4: Changes in precipitation (amount and occurrence)
+  6: The page details the impact of different threshold values for generating PDS,
+    which affects the estimation of precipitation frequency.
+  7: Rain gauge station data, downscaled model data (UWPD and LOCA), different thresholds
+    for PDS analysis (PDS2, PDS3, PDS qt98), and AMS.
+  8: Biases in model data can lead to dry or wet estimates for extreme precipitation
+    frequency (PF) events.
+  9: PF estimates (likely peak flow estimates, inferred from context about return
+    periods)
+  10: The analysis deals with precipitation as a driver, specifically looking at risk
+    factors related to biases in modeled data for PF estimates.
+  11: Downscaled climate data (UWPD, LOCA, BCCAv2, NA-CORDEX) for different return
+    periods.
+  12: The changes in PF are driven by climate changes under the RCP4.5 scenario, indicating
+    how future precipitation events might deviate from historical patterns.
+  13: Projected changes in peak flow (PF) under climate change scenarios (RCP8.5 and
+    RCP4.5).
+  15: "Changes in GEV distribution parameters (\xB5, \u03C3, \u03BE) estimated from\
+    \ projected future climate data (RCP4.5 and RCP8.5 scenarios) affect exceedance\
+    \ probabilities of historical precipitation events."
+  17: Increased point precipitation frequency (PF) due to climate change, specifically
+    under RCP4.5 and RCP8.5 scenarios.
+  18: Extreme precipitation events are the primary driver of risk.
+Evaluation overview:
+  1: Extreme precipitation events and their frequency estimates in the Northeastern
+    US.
+  2: Estimates of precipitation frequency (PF) are evaluated in the context of hydrology
+    design and infrastructure construction.
+  4: No relevant information
+  7: Evaluation of the performance of downscaled model data in reproducing observed
+    features of mean Annual Maximum Series (AMS), Peaks-Over-Threshold (PDS), and
+    Probable Maximum Flood (PF) estimates for different return periods.
+  9: No relevant information
+  10: The paper evaluates the skill of different downscaled data sets in estimating
+    precipitation frequency (PF), with a focus on correlation coefficients and RMSE.
+  11: Peak flow (PF) estimates
+  12: The paper evaluates future changes in precipitation frequency (PF) for 25-year
+    and 100-year return periods under the RCP4.5 emission scenario.
+  13: No relevant information
+  15: Extreme precipitation events (maximum daily precipitation).
+  17: Extreme precipitation events in the Northeastern US
+  18: The study focuses on extreme precipitation events and their projected changes,
+    with the goal of informing design decisions to protect socio-economic and environmental
+    interests.
+Highlights:
+  1: Extreme precipitation event frequency estimates are likely to increase in the
+    Northeastern US under both RCP4.5 and RCP8.5 scenarios, with differences in magnitudes
+    and spatial distributions between the two data sets and scenarios. A 100-year
+    event could become a 27-year event under RCP4.5 and a 19-year event under RCP8.5.
+  2: The goal is to find the data sets with the best overall historical accuracies
+    to produce projected PF estimates and to quantify how the exceedance probabilities
+    of the historical PF estimates are likely to change in the future under certain
+    emission scenarios.  The results will examine and highlight the need to reevaluate
+    the existing PF estimates in the light of climate change.
+  4: No relevant information
+  6: The comparison of PF estimates from AMS and PDS provides a more comprehensive
+    understanding of how downscaled data simulate observed features.
+  7: UWPD data generally has less than 10% error compared to observations for AMS
+    and PDS, without systematic biases. LOCA data shows systematic dry biases, with
+    errors exceeding 20% for most stations.
+  8: UWPD data capture major features of observed precipitation frequency estimates,
+    especially for shorter return periods.
+  9: LOCA data consistently underestimates PF estimate values across all the return
+    periods, indicating a dry bias. LOCA data can capture the observed spatial variations
+    relatively well. Standard deviations of the LOCA data are smaller than for the
+    UWPD data. UWPD data tends to overestimate PF estimates.
+  10: The UWPD data set outperformed others for all return periods in terms of skill,
+    with LOCA being the second best after bias correction.
+  11: UWPD data were shown to capture major features of the observed PF estimates
+    the best. LOCA data is widely used by government reports.
+  12: Key outcomes highlight mean change ratios; e.g., UWPD for 25-year events shows
+    9.14% change for 2006-2053 and 14.80% for 2054-2100.
+  13: Under the RCP4.5 scenario, the analysis shows a 9% mean increase in peak flow
+    estimates for a 25-year return period in the first half of the 21st century. The
+    magnitude of change varies geographically, with areas like New Jersey and southeast
+    New York experiencing smaller changes, and areas north of Maine experiencing larger
+    changes.
+  15: Projected exceedance probabilities for historical extreme precipitation events
+    are larger in the future. A 100-year event may become a 35-year event (first half
+    21st century) and a 27-year event (second half) under RCP4.5. Under RCP8.5, a
+    100-year event may become a 19-year event.
+  17: "PF estimates are likely to continue increasing in the Northeastern US, regardless\
+    \ of the emission scenario. The largest increases are projected in the northernmost\
+    \ part of the domain, while the southern areas show smaller increases. An event\
+    \ with a current exceedance probability of 0.01 (a 100-year event) may have an\
+    \ exceedance probability for the second half of the 21st century of \u22480.04."
+Methodology:
+  1: Analysis of observed and modeled daily precipitation frequency (PF) estimates
+    in the Northeastern US using annual maximum series (AMS) and partial duration
+    series (PDS) methods, employing four CMIP5 downscaled data sets. The two data
+    sets with the best historical accuracy were used to project PF estimates under
+    RCP4.5 and RCP8.5.
+  2: "The study uses downscaled CMIP5 model output to analyze point PF estimates for\
+    \ rain gauge stations in the Northeastern US. It compares modeled PF estimates\
+    \ with observational PF estimates and among different models for a historical\
+    \ period (1960\u20132005). Models that better reproduce historical data are used\
+    \ to project future PF estimates under RCP4.5 and RCP8.5."
+  3: "The analysis examines observational data from 753 rain gauge stations with over\
+    \ 80% data coverage from 1960\u20132005, to ensure consistent comparisons with\
+    \ climate model outputs."
+  4: "Uses the University of Wisconsin Probabilistic Downscaling (UWPD) dataset, a\
+    \ statistically downscaled product based on CMIP5 model output for the Central\
+    \ and Eastern United States and Southern Canada at a 0.1x0.1 degree resolution.\
+    \ The downscaling is probabilistic, using large-scale climate model variables\
+    \ to determine the likelihood of potential values of downscaled variables. Precipitation\
+    \ downscaling is divided into estimating the probability of precipitation occurrence\
+    \ (logistic regression with a logit link function) and estimating precipitation\
+    \ amount if the day is wet (generalized gamma distribution with parameters conditioned\
+    \ on the large scale). Station data from NWS's Cooperative Observer Program (1950\u2013\
+    2009) and Environment Canada\u2019s Canadian Daily Climate Data (1950\u20132007)\
+    \ were used to train the statistical models. Large-scale atmospheric state was\
+    \ obtained from the NCEP\u2013NCAR reanalysis. Separate fits were performed for\
+    \ each calendar month to account for seasonality."
+  5: Probability of Frequency (PF) estimates are based on annual maximum series (AMS)
+    and partial duration series (PDS) of daily precipitation data.
+  6: The analysis uses both Annual Maximum Series (AMS) and Partial Duration Series
+    (PDS) for estimating precipitation frequency (PF) and compares the two by mapping
+    PDS return periods to adjusted AMS return periods.
+  7: The closest model grid point to a rain gauge station was selected as its representation
+    in the model. The analysis compares the 1960 to 2005 climatology (averages) of
+    observed AMS and PDS with UWPD and LOCA data. Difference ratios are calculated
+    as (model - observation)/observation.
+  8: PF estimates across return periods of 2, 25, and 100 years are compared between
+    downscaled data (UWPD and LOCA) and observed data.
+  9: Comparison of PF estimates based on observations with those from UWPD (Unified
+    Wind Power Density) and LOCA downscaled data for return periods of 2, 25, and
+    100 years; assessment using R, RMSE, and AIC.
+  10: The analysis compares observed precipitation data with different downscaled
+    data sets using correlation coefficients and RMSE as metrics, employing methods
+    like AMS and PDS to calculate PF estimates.
+  11: The analysis compares four downscaled datasets (UWPD, LOCA, BCCAv2, NA-CORDEX)
+    for their ability to estimate peak flows. The best-performing dataset (UWPD) is
+    selected for future projections (2006-2100), with parallel calculations using
+    LOCA. Analysis is performed using Annual Maximum Series (AMS).
+  12: Analysis is performed by comparing future projections (2006-2053 and 2054-2100)
+    with historical precipitation frequency data using UWPD and LOCA methodologies.
+  13: Analysis based on UWPD data. Results are applicable for the first half of the
+    21st century under RCP4.5, and across multiple decades under RCP8.5. Examines
+    peak flow estimates for 25-year and 100-year return periods.
+  15: "Uses the Generalized Extreme Value (GEV) distribution to model annual maximum\
+    \ daily precipitation. Estimates GEV parameters (\xB5, \u03C3, \u03BE) from historical\
+    \ and projected data using methods like maximum likelihood or L-moments. Calculates\
+    \ exceedance probabilities using the CDF of the GEV distribution. Compares historical\
+    \ exceedance probabilities to future exceedance probabilities for the same historical\
+    \ precipitation event."
+  17: "The study examined point precipitation frequency (PF) estimates for the periods\
+    \ of 1960\u20132005, 2006\u20132053, and 2054\u20132100 in the Northeastern US\
+    \ using downscaled data sets (LOCA, BCCAv2, and NA-CORDEX) and a probabilistic\
+    \ downscaled dataset developed specifically for this study (UWPD). The analysis\
+    \ evaluates the ability of these datasets to reproduce observed PF estimate features.\
+    \ Results are applicable to the Northeastern US."
+More Notes:
+  2: The study uses four downscaled CMIP5 precipitation data sets, including three
+    commonly used ones and a fourth probabilistic dataset. The UWPD dataset uses 24
+    IPCC models. The paper is organized to present data, methodology, comparisons,
+    projections, discussion, and conclusions.
+  4: The parameters of the generalized gamma distribution depend on daily varying
+    large-scale atmospheric conditions. The parameters of the probability density
+    functions are interpolated in space. Random numbers are drawn from the PDFs to
+    generate a 'realization' of the small scale.
+  5: The NA-CORDEX dataset is dynamically downscaled and not fully generated yet.
+  7: The range of observed AMS climatology is 40 to 120 mm, with larger values typically
+    along the coast and smaller values inland. The spatial distributions of PDS are
+    similar to each other. Some results for BCCAv2 and NA-CORDEX data will also be
+    provided at the end of this section, although they are not discussed on this page.
+  9: The analysis compares two downscaling methods (UWPD and LOCA) against observational
+    data, assessing their ability to reproduce peak flow estimates at different return
+    periods. The figures also examine AMS, PDS2, PDS3 and PDS qF98, possibly different
+    models or variations within UWPD.
+  11: 'The projected data (2006-2100) is divided into two periods: 2006-2053 and 2054-2100
+    due to a trend in the 95-year period.'
+  13: The maps show that higher mean change ratios occur in the latter period (2054-2100)
+    than in the earlier period (2006-2053) under RCP8.5.
+  15: Analysis is performed for the Northeastern US using UWPD and LOCA data.
+  17: The paper also presents domain-averaged return periods with their uncertainties
+    for various time periods and RCP scenarios for the UWPD and LOCA datasets. The
+    Atlantic Ocean to the east, the Great Lakes to the west, and the Appalachian Mountains
+    to the south play a role in the regional climate.
+Quantitative material:
+  1: "An event with a current exceedance probability of 0.01 (a 100-year event) may\
+    \ have an exceedance probability for the second half of the 21st century of \u2248\
+    0.04 (a 27-year event) under the RCP4.5 scenario and \u22480.05 (a 19-year event)\
+    \ under RCP8.5."
+  2: PF estimates are compared for a historical period (1960-2005) using downscaled
+    CMIP5 precipitation data and observational data, with the goal of producing projected
+    PF estimates under RCP4.5 and RCP8.5 scenarios.
+  4: No relevant information
+  5: Bias correction factors were applied with values of 1.05 for BCCAv2, 1.09 for
+    0.22 degrees NA-CORDEX, and 1.16 for 0.44 degrees NA-CORDEX.
+  6: For example, a PDS return period of 2 years is equated to an AMS return period
+    of 2.54 years.
+  7: UWPD data has less than 10% error compared with observational results for both
+    AMS and PDS. LOCA data shows systematic dry biases with difference ratio magnitudes
+    of over 20% for AMS and PDS, especially PDS qt98.
+  8: The RMSE for UWPD PF estimates is approximately 4.5 mm for 2-year return, 13
+    mm for 25-year return, and 25 mm for 100-year return periods.
+  9: Spatial correlation coefficients between LOCA data and observations are quite
+    high.
+  10: The correlation coefficients (R) and RMSE values for various precipitation frequency
+    datasets are provided, indicating the accuracy of different downscaling methods.
+  11: PF correlations between observed data and downscaled data; RMSE of PF estimates
+    for downscaled data.
+  12: The analysis provides percentage change ratios from historical data, with detailed
+    maps showing changes for 25-year and 100-year return periods using different methodologies
+    (UWPD and LOCA).
+  13: Under RCP4.5 for the first half of the 21st century, PF estimates increase by
+    a mean relative ratio of 0.09 (9%) for a 25-year return period. Some areas experience
+    smaller changes (0%-5%) while others experience larger changes (20%-30%).
+  15: "Historical 2-year event (60 mm rainfall) exceedance probability changes from\
+    \ 0.5 to \u22480.59 (first half 21st century) and 0.65 (second half) under RCP4.5\
+    \ using UWPD data. Historical 25-year event (107 mm) changes from \u22480.04 to\
+    \ \u22480.07 (first half) and 0.09 (second half). Historical 100-year event (138\
+    \ mm) changes from \u22480.01 to \u22480.03 (first half) and \u22480.04 (second\
+    \ half) under RCP4.5 using UWPD data.  Under RCP8.5, the 100-year event exceedance\
+    \ probability may increase to 0.05 (second half) with UWPD data."
+  17: Under the RCP4.5 scenario, for the UWPD data set, the average projected increases
+    to the 100-year event are 10.79% for the first half of the 21st century and 16.90%
+    for the second half. The corresponding increases under RCP8.5 are 14.18% for the
+    first half of the 21st century and 26.75% for the second half.
+  18: "Under RCP4.5, the probability of exceeding the UWPD 27-year event is \u2248\
+    0.04. Under RCP8.5, the probability of exceeding the UWPD 19-year event is \u2248\
+    0.05, according to the UWPD data."

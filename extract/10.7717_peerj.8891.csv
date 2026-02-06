@@ -1,0 +1,36 @@
+,Outcome,Region,Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Carbon Revenue,Ghana,Carbon pricing $5/tCO2eq,2020,Observed NEE,$/acre/year,2.4,NA,NA,NA,NA,NA,1,Based on 0.48 tCO2eq/acre/yr NEE sequestration rates. Assume 2020 as the year.
+1,Carbon Revenue,Ghana,Carbon pricing $36/tCO2eq,2020,Observed NEE,$/acre/year,17.28,NA,NA,NA,NA,NA,1,Based on 0.48 tCO2eq/acre/yr NEE sequestration rates. Assume 2020 as the year.
+2,Carbon Revenue,"MA, USA",Carbon pricing $5/tCO2eq,2020,Observed NEE,$/acre/year,78,NA,NA,NA,NA,NA,1,Based on 15.60 tCO2eq/acre/yr NEE sequestration rates. Assume 2020 as the year.
+3,Carbon Revenue,"MA, USA",Carbon pricing $36/tCO2eq,2020,Observed NEE,$/acre/year,561.6,NA,NA,NA,NA,NA,1,Based on 15.60 tCO2eq/acre/yr NEE sequestration rates. Assume 2020 as the year.
+4,NEE,Harvard Forest,Observed,2010,Baseline,tCO2eq,-0.53,NA,NA,NA,NA,NA,11,Minimum annual NEE observed at Harvard Forest. Note the negative sign already implies a reduction.  Value is net sequestered CO2.
+5,NEE,Harvard Forest,Observed,2008,Baseline,tCO2eq,-9.09,NA,NA,NA,NA,NA,11,Maximum annual NEE observed at Harvard Forest. Note the negative sign already implies a reduction.  Value is net sequestered CO2.
+6,NEE,Harvard Forest,Observed,2000,Baseline,tCO2 acre-1 yr-1,-4.5,2.3,NA,NA,NA,NA,11,Mean and standard deviation of annual NEE for Harvard Forest over 24 years. Note the negative sign already implies a reduction. Value is net sequestered CO2. Using 2000 as a rough midpoint of the 24-year period.
+7,NEE,Ankasa Park,Observed,2013,Baseline,tCO2eq,-6.74,NA,NA,NA,NA,NA,11,Minimum annual NEE observed at Ankasa Park. Note the negative sign already implies a reduction.  Value is net sequestered CO2.
+8,NEE,Ankasa Park,Observed,2011,Baseline,tCO2eq,-15.2,NA,NA,NA,NA,NA,11,Maximum annual NEE observed at Ankasa Park. Note the negative sign already implies a reduction. Value is net sequestered CO2.
+9,NEE,Ankasa Park,Observed,2012,Baseline,tCO2 acre-1 yr-1,-10.2,3.6,NA,NA,NA,NA,11,Mean and standard deviation of annual NEE for Ankasa Park over 4 years. Note the negative sign already implies a reduction. Value is net sequestered CO2. Using 2012 as a rough midpoint of the 4-year period.
+10,Revenue,Harvard Forest,Observed,2010,2009,tCO2eq,4.79,NA,NA,NA,NA,NA,11,Reversal of NEE relative to 2009 at Harvard Forest.
+11,Revenue,Harvard Forest,Observed,2011,2009,$,4790.00,NA,NA,NA,NA,NA,11,"Calculated revenue loss in 2010 at $10/tCO2eq for the NEE reversal. This should be considered negative, although it is not explicitly stated."
+12,NEE,Harvard Forest,Observed,2012,Baseline,tCO2eq,-5.04,NA,NA,NA,NA,NA,11,NEE two years after reversal; should be considered negative in this context. Value is net sequestered CO2.
+13,Revenue,Harvard Forest,Observed,2012,Baseline,$,4510000,NA,NA,NA,NA,NA,11,"Calculated revenue in the two years after the reversal at $10/tCO2eq. The numbers appear to have an extra three 0's, it should be $45,100"
+14,NEE Slope,Harvard Forest,Observed,2015,1990,- CO2 eq. acre-1 yr-2,-8.3987,NA,NA,NA,NA,NA,17,Based on equation y = -8.3987x + 16874.7 displayed in Figure 4(b)
+15,NEE Slope,Ankasa Park,Observed,2015,1990,- CO2 eq. acre-1 yr-2,-4.9185,NA,NA,NA,NA,NA,17,Based on equation y = -4.9185x + 8904.74 displayed in Figure 4(b)
+16,Landowner Revenue,"Harvard Forest, USA",$5/tCO2eq Carbon Price,2020,No CC,Millions USD,0.23,NA,NA,NA,NA,NA,18,Case 1: upfront payment of 10%
+17,Landowner Revenue,"Harvard Forest, USA",$10/tCO2eq Carbon Price,2020,No CC,Millions USD,2.51,NA,NA,NA,NA,NA,18,Case 1: upfront payment of 10%
+18,Landowner Revenue,"Harvard Forest, USA",$15/tCO2eq Carbon Price,2020,No CC,Millions USD,9.23,NA,NA,NA,NA,NA,18,Case 1: upfront payment of 10%
+19,Landowner Revenue,"Harvard Forest, USA",$36/tCO2eq Carbon Price,2020,No CC,Millions USD,25.36,NA,NA,NA,NA,NA,18,Case 1: upfront payment of 10%
+20,Landowner Revenue,"Ankasa Park, Africa",$5/tCO2eq Carbon Price,2020,No CC,Millions USD,1.96,NA,NA,NA,NA,NA,18,Case 1: upfront payment of 10%
+21,Landowner Revenue,"Ankasa Park, Africa",$10/tCO2eq Carbon Price,2020,No CC,Millions USD,5.04,NA,NA,NA,NA,NA,18,Case 1: upfront payment of 10%
+22,Landowner Revenue,"Ankasa Park, Africa",$15/tCO2eq Carbon Price,2020,No CC,Millions USD,10.57,NA,NA,NA,NA,NA,18,Case 1: upfront payment of 10%
+23,Landowner Revenue,"Ankasa Park, Africa",$36/tCO2eq Carbon Price,2020,No CC,Millions USD,11.79,NA,NA,NA,NA,NA,18,Case 1: upfront payment of 10%
+24,Landowner Revenue,"Harvard Forest, USA",$5/tCO2eq Carbon Price,2020,No CC,Millions USD,0.23,NA,NA,0.23,NA,0.24,18,"Case 2: upfront payment of 8% + royalty of 6%, variance of 20%"
+25,Landowner Revenue,"Harvard Forest, USA",$10/tCO2eq Carbon Price,2020,No CC,Millions USD,2.51,NA,NA,1.88,NA,3.28,18,"Case 2: upfront payment of 8% + royalty of 6%, variance of 20%"
+26,Landowner Revenue,"Harvard Forest, USA",$15/tCO2eq Carbon Price,2020,No CC,Millions USD,9.23,NA,NA,5.04,NA,11.15,18,"Case 2: upfront payment of 8% + royalty of 6%, variance of 20%"
+27,Landowner Revenue,"Harvard Forest, USA",$36/tCO2eq Carbon Price,2020,No CC,Millions USD,25.36,NA,NA,12.84,NA,33.94,18,"Case 2: upfront payment of 8% + royalty of 6%, variance of 20%"
+28,Landowner Revenue,"Ankasa Park, Africa",$5/tCO2eq Carbon Price,2020,No CC,Millions USD,1.67,NA,NA,1.56,NA,1.83,18,"Case 2: upfront payment of 8% + royalty of 6%, variance of 20%"
+29,Landowner Revenue,"Ankasa Park, Africa",$10/tCO2eq Carbon Price,2020,No CC,Millions USD,4.91,NA,NA,3.82,NA,5.98,18,"Case 2: upfront payment of 8% + royalty of 6%, variance of 20%"
+30,Landowner Revenue,"Ankasa Park, Africa",$15/tCO2eq Carbon Price,2020,No CC,Millions USD,11.57,NA,NA,7.04,NA,13.94,18,"Case 2: upfront payment of 8% + royalty of 6%, variance of 20%"
+31,Landowner Revenue,"Ankasa Park, Africa",$36/tCO2eq Carbon Price,2020,No CC,Millions USD,11.79,NA,NA,8.37,NA,15.06,18,"Case 2: upfront payment of 8% + royalty of 6%, variance of 20%"
+32,Revenue,Harvard Forest,Mixed Carbon Products,2020,Ex-theory Model,$,16380000,NA,NA,NA,NA,NA,20,Illustrates potential revenue from carbon credits; variance of 20% assumed.
+33,Revenue,Ankasa Park,Mixed Carbon Products,2020,Ex-theory Model,$,7610000,NA,NA,NA,NA,NA,20,Illustrates potential revenue from carbon credits; variance of 20% assumed.
+34,NEE,Harvard Forest,Drought,2010,Baseline NEE,tCO2eq,-0.53,NA,NA,NA,NA,NA,22,"Associated with drought, demonstrates the requirement for ecosystem respiration measurement for NEE."

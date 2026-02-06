@@ -48,6 +48,16 @@ Specify the answer as one of the following: {optiontexts}. Put the answer in bra
 
     return interaction.get_action([{"role": "user", "content": prompt}], options + ['N/A'])
 
+def ai_select2(row, xtt, question, cols, options, abstract_prompt):
+    if 'Abstract' in cols:
+        extras = ["Here is the abstract of a paper: " + row['Abstract']]
+        cols = cols[cols != 'Abstract']
+
+    if extras:
+        abstract_prompt = abstract_prompt + " " + "\n\n".join(extras) + "\n\n"
+
+    return ai_select(xtt, question, cols, options, abstract_prompt)
+
 def ai_summary(xtt, question, cols, abstract_prompt):
     namematches = list(map(extract_alphanumeric_and_spaces, cols))
     allpages = {}

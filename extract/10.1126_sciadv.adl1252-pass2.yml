@@ -1,0 +1,137 @@
+Drivers of Risk:
+  1: Climate change, expansion of the wildland-urban interface, and questionable wildfire
+    management practices.
+  2: Wildland fire-associated PM2.5 concentrations drive mortality risk.
+  4: Wildland fire smoke and fire-only PM2.5 concentrations.
+  5: Modeled wildland fire PM2.5 estimates
+  6: Wildland fires leading to PM2.5 exposure.
+  7: The primary driver of risk is exposure to fire-specific PM2.5, particularly from
+    wildfires (though prescribed burns are also included).
+  8: Wildfire smoke exposure is the primary driver of risk, specifically wildfire
+    PM2.5 concentrations.
+  9: Wildland fire PM2.5 emissions are the primary driver of risk considered in this
+    study.
+  11: The driver of risk is PM2.5 concentration from wildland fire smoke.
+  13: Wildfires and PM2.5 air pollution.
+Evaluation overview:
+  1: Mortality attributable to PM2.5 from wildland fires.
+  2: This paper evaluates premature deaths due to wildland fire PM2.5 exposure in
+    California.
+  4: Mortality impacts across California due to fire-only PM2.5 (adults ages 25+).
+  5: Total deaths attributable to fire - only PM2.5
+  6: Economic valuation of mortality impacts from wildland fires.
+  7: The paper evaluates mortality impacts, specifically focusing on long-term wildfire
+    impacts in California.
+  8: The paper evaluates the long-term mortality risk associated with exposure to
+    wildfire PM2.5, compared to undifferentiated PM2.5.
+  9: This study characterizes the harmful impacts of PM2.5 from wildland fire smoke
+    on the health of the California population during the 11-year period of 2008 to
+    2018, focusing on mortality outcomes.
+  11: This paper evaluates the mortality burden and economic valuation of health burden
+    from exposure to PM2.5 due to wildland fire smoke in California.
+  13: The study evaluates health impacts of wildfire smoke exposure, including mortality.
+Highlights:
+  1: Wildfires account for a greater mortality and economic burden than indicated
+    by earlier studies.
+  2: The importance of wildfire management will only grow in the coming decades as
+    aridification intensifies with climate change.
+  4: Mortality impacts from wildland fire smoke are substantial; Elevated number of
+    fires in 2008, 2017, and 2018 along with a large increase in mortality impacts;
+    Mortality impacts are more widespread throughout population centers such as Los
+    Angeles County, the San Joaquin Valley, and the Bay Area as smoke can be transported
+    to these areas.
+  5: Modeled wildland fire-only PM2.5 estimates follow anticipated spatial and temporal
+    trends with respect to the patterns of fire activity in the state.
+  6: The use of a wildfire-specific dose-response coefficient increases the magnitude
+    of the results. Capping fire-only PM2.5 concentrations at the 99.9th percentile
+    reduces attributed deaths, but impacts remain substantial.
+  7: The use of fire-only PM2.5 estimates from the CMAQ model and highly resolved
+    health data at the ZIP code level are identified as strengths. The application
+    of a fire-specific dose-response coefficient accounting for increased toxicity
+    of wildfire smoke is also a key contribution.
+  8: Wildfire PM2.5 may have heightened toxicity compared to undifferentiated PM2.5.
+    Studies relying solely on acute estimates from undifferentiated PM2.5 may underestimate
+    the effects of wildfire PM2.5. Epidemiological findings suggest wildfire smoke
+    is up to 10 times more harmful than PM from other sources, and that wildfire PM2.5
+    appears to have larger effects on mortality than undifferentiated PM2.5.
+  9: The study estimates a substantial mortality burden associated with wildfire PM2.5
+    exposure in California, with significant economic valuation.
+  13: Deep learning is used to estimate PM2.5 from wildfires.
+Methodology:
+  1: Used Community Multiscale Air Quality modeling system wildland fire PM2.5 estimates,
+    ZIP code-level mortality data, and an estimated wildfire-specific dose-response
+    coefficient. The study period is from 2008 to 2018 in California.
+  2: The study uses modeled wildland fire-associated PM2.5 concentrations, California
+    Department of Public Health (CDPH) mortality data, and a calculated chronic dose-response
+    coefficient for wildfire PM2.5 exposures and mortality to estimate premature deaths
+    due to wildland fires. The analysis covers an 11-year period from 2008 to 2018
+    in California.
+  4: "Mortality estimated using wildfire-specific and undifferentiated chronic dose-response\
+    \ values for 2008 to 2018; Modeled PM2.5 concentrations capped at the 99.9th percentile\
+    \ value of all fire-only concentrations; short-term dose-response values to estimate\
+    \ \u03B2 WL"
+  5: Modeled wildland fire PM2.5 estimates at the 12-km grid scale for 2008 to 2018,
+    estimate associated premature mortality using a chronic dose-response value for
+    wildfire exposure, and calculate the associated economic valuation.
+  6: The study uses a wildfire-specific dose-response value to estimate mortality
+    impacts and compares it to undifferentiated PM2.5 dose-response values. It also
+    uses modeled air quality estimates and analyzes the effect of capping high PM2.5
+    concentrations.
+  7: The study uses 11 years of CMAQ model data to estimate fire-only PM2.5 concentrations.
+    A dose-response function is created that combines long-term effects from undifferentiated
+    PM2.5 and acute studies of wildfire PM2.5. The analysis uses total mortality from
+    all causes of death.
+  8: The paper uses a CTM to separate annual wildfire PM2.5 concentrations from other
+    sources. It also adjusts existing estimates of long-term exposure to undifferentiated
+    PM2.5 to account for potentially different dose-response functions of wildfires.
+    The paper compares estimates of mortality based on the adjusted and unadjusted
+    PM2.5 concentrations.
+  9: "The analysis applies CMAQ estimates of wildland fire PM2.5 to estimate mortality\
+    \ outcomes using high-resolution health data over an 11-year period and applies\
+    \ a chronic dose-response value for wildfire-specific PM2.5 exposure. Fire-only\
+    \ PM2.5 is calculated as the difference between simulations with all emissions\
+    \ and simulations with nonfire emissions only. The model simulations for 2008\
+    \ to 2012 are the same as those used by Rappold et\_al. (91) and Fann et\_al.\
+    \ (32)."
+  11: "The analysis uses a dose-response value (\u03B2WL) and the change in PM2.5\
+    \ concentration from wildland fire smoke (\u0394PM2.5ij) to calculate the mortality\
+    \ burden. A Monte Carlo distribution is used to estimate the final dose-response\
+    \ value. It also applies the EPA's VSL to estimate the total valuation of the\
+    \ health burden."
+  13: The study uses ensemble-based deep learning for estimating PM2.5 over California
+    and links it with mortality data. Results are applicable to California.
+More Notes:
+  4: The fire-only mortality analysis was conducted from 2008-2018 in California.
+    The specific locations and density of fires impacts mortality.
+  6: The study analyzes 11 years of data (2008-2018).
+  7: The study acknowledges limitations associated with using modeled data, including
+    potential overprediction of PM2.5 during fire events. The authors address overprediction
+    concerns by removing modeled data outside of the 99.9th percentile. They also
+    note that the CMAQ model runs do not isolate wildfire emissions from prescribed
+    burns, but anticipate prescribed burns have a minor role for the study period.
+    The dose-response value was calculated using existing dose-response values because
+    a long-term wildfire-specific estimate does not exist.
+Quantitative material:
+  1: Estimate of 52,480 to 55,710 premature deaths attributable to wildland fire PM2.5
+    over the 11-year period (2008-2018) in California, equating to an economic impact
+    of $432 to $456 billion.
+  4: Wildland fires responsible for ~19% of PM2.5-associated deaths overall and up
+    to 42% in high-fire years; Premature deaths attributable to all sources PM2.5
+    are five times larger than mortality impacts from solely wildland fire impacts.
+  5: Deaths account for nearly 19% of total deaths attributable to all sources PM2.5
+    in the state during this 11-year period.
+  6: "The study estimates mortality valuation in billion $ for 2008-2018, presenting\
+    \ both a base case and a scenario with modeled values capped at the 99.9th percentile\
+    \ (exceeding 143 \u03BCg/m3)."
+  7: The paper mentions approximately twice the mortality impact (more than 100,000
+    deaths) attributable to fire-PM2.5 over the 11-year period in a sensitivity analysis
+    using a different dose-response value from a global study.
+  9: The study estimates that between 52,480 and 55,710 premature deaths are attributable
+    to fire-only PM2.5 exposures, with an associated economic valuation of $432 billion
+    to $456 billion.
+  11: The paper calculates a 95% CI for the estimated dose-response value of PM2.5.
+    It also uses a Value of Statistical Life (VSL) of $8.7 million in 2015 dollars.
+    It uses a 3% discount rate over an 11-year period.
+  13: The study uses modeled air quality data (available at https://doi.org/10.5061/dryad.sxksn03b3)
+    and publicly available mortality data for California (https://cal-vida.cdph.ca.gov/
+    and https://data.chhs.ca.gov/dataset/death-profiles-by-zip-code).

@@ -1,0 +1,209 @@
+Drivers of Risk:
+  1: Climate change (water runoffs), electricity prices, market liberalization
+  2: Climate change influence on hydropower potential and electricity price fluctuations.
+  3: Runoff, wholesale electricity prices, and supply schedules
+  4: 'Three GHG emission scenarios are considered: A1B, A2, and RCP3PD (also named
+    RCP2.6).'
+  5: Climate change impacts on runoff due to temperature and precipitation changes,
+    glacier melt, and snow cover.
+  7: Uncertainty of future prices, interannual and intra-annual variability. The models
+    also consider that price is attracted by production cost, and shocks may perturb
+    the price.
+  8: "Water intake [m3 s\u22121]"
+  9: Changes in runoff due to glacier melt and precipitation patterns, air temperature
+  10: GHG emission scenarios, downscaling methods (EDDM and DCM).
+  11: Changes in runoff due to melting glaciers (affected by GHG emission scenarios),
+    interannual variability of electricity prices.
+  12: The drivers of risk are different GHG emission scenarios (A1B, A2, RCP3PD),
+    downscaling methods (MRy, MRs, MRJD, EDDM, DCM), and initial ice volume. Electricity
+    price is also a factor.
+  13: Uncertainty in runoff and electricity prices are key drivers of risk. Price
+    is the most important factor for determining future revenue, but also the least
+    predictable. GHG emissions and electricity prices are key considerations. Initial
+    ice volume and downscaling methods are also risk factors.
+  14: GHG emission scenarios, downscaling methods, and socio-economic variables are
+    drivers of uncertainty.
+  15: Runoff and electricity prices are drivers of risk affecting hydropower revenue.
+    Uncertainty in energy price is identified as more critical than runoff uncertainty.
+  18: Mentions climate change, warming climate, and hydro-climatic contexts.
+Evaluation overview:
+  1: Hydropower revenue
+  2: Assessment of the impact of water runoff and wholesale electricity price evolution
+    on hydropower plant revenue.
+  3: Hydropower revenue
+  4: No relevant information
+  5: The paper evaluates the impact of climate change on hydropower revenue.
+  7: The outcome being evaluated is long-term uncertainty of hydropower revenue.
+  8: No relevant information
+  9: Hydropower revenue
+  10: Glacier evolution and runoff into the Mauvoisin reservoir.
+  11: Evaluates long-term uncertainty of hydropower revenue.
+  12: This study evaluates the impact of climate change on annual revenue (in 10^6
+    euros) for various climate models, downscaling methods, and initial ice volume.
+  13: The paper evaluates the long-term uncertainty of hydropower revenue.
+  14: The paper evaluates the uncertainty in runoffs, electricity prices, and revenue.
+  15: Hydropower revenue is the outcome being evaluated.
+  18: Mentions impacts on hydropower, water system performance, and runoff from glacierized
+    basins.
+Highlights:
+  1: 'Greenhouse gas scenarios may represent a low source of uncertainty, unlike electricity
+    prices. Main uncertainties are case study related and depend on the investigated
+    variables. The nature of uncertainty evolves: Runoff uncertainty goes from variability
+    to epistemic; electricity price uncertainty exhibits the reverse.'
+  2: GHG emission scenarios show limited impact on long-term uncertainty; greatest
+    uncertainty is related to electricity prices.
+  4: No relevant information
+  7: The analysis quantifies the impact of price uncertainty, interannual/intra-annual
+    variability, and shock events on hydropower revenue using three different models.
+  8: No relevant information
+  9: Operators have taken advantage of glacier melting, which increases the annual
+    volume of water. This trend will persist for the next 20 years, after which annual
+    runoff will decrease. By 2100, glaciers are expected to disappear in the catchment
+    area. The reservoir may mitigate the effects resulting from the runoff seasonality.
+  10: Runoff increases slightly until 2040 compared to present-day conditions and
+    decreases afterwards. GHG emission scenario largely affects the warming, but represents
+    a low source of uncertainty in terms of runoff. The downscaling method affects
+    the mean runoff more than the GCM-RCM choice.
+  11: "Climate change affects mean annual revenue, but variation between GHG emission\
+    \ scenarios is low (2071\u20132100); Runoff resulting from melting glacier will\
+    \ be low because of glacier exhaustion (A1B and A2) or air temperature."
+  12: Uncertainty from different GCM-RCMs is higher than the difference between GHG
+    emission scenarios, implying that studies based on few climate models have high
+    epistemic uncertainty. Initial ice volume uncertainty is lower than that from
+    downscaling methods. EDDM downscaling tends to smooth revenue evolution. Electricity
+    price models are conservative and do not show strong trends.
+  13: The uncertainty in electricity prices is a major factor impacting long-term
+    hydropower revenue predictions, more so than GHG emission scenarios. The level
+    of uncertainty should be factored into climate and energy policy, and scenario
+    planning should be used.
+  14: Runoff uncertainty evolves with time, shifting from variability to epistemic
+    in the long run. Electricity price uncertainty follows the reverse trend, shifting
+    from epistemic to variability in the long run. Revenue uncertainty is a combination
+    of both epistemic and variability. Information about the nature and level of uncertainty
+    is valuable to decision-makers.
+  15: Uncertainty analysis is a critical issue for the future of hydropower. Decision-makers
+    cannot avoid uncertainty. Specific tools must be developed to tackle uncertainty
+    in hydropower revenue forecasting. Managing variability is essential for accounting
+    for epistemic uncertainty.
+  18: Focus on climate change impacts on hydropower management and potential, water
+    resource management, and glacier dynamics.
+Methodology:
+  1: Mixed method (quantitative and qualitative). Quantitative uses established models
+    in natural sciences and economics with various scenarios and datasets. Qualitative
+    analysis discerns three dimensions of uncertainty.
+  2: Mixed methods approach considering both quantitative and qualitative uncertainty
+    analysis; uses a variety of scenarios and models.
+  3: 'Simulates future hydropower revenue. Uses a three-dimensional approach to uncertainty:
+    Location, Level, and Nature. Analyzes long-term trends with socio-economic components,
+    uncoupled from purely quantitative results.'
+  4: "Climate data is provided by the ENSEMBLES project (2013) for 10 combinations\
+    \ of global and regional climate models (GCM-RCM), which have a grid of 25 km\
+    \ \xD7 25 km."
+  5: The study uses downscaled climate scenarios (DCM and EDDM) to force a glacio-hydrological
+    model (GERM) that simulates runoff. Future time series are downscaled from climate
+    scenarios and past meteorological data is from MeteoSwiss stations (1980-2100).
+    The glacier and runoff model requires calibration of parameters based on past
+    ice volume changes, mass balance, and runoff records. Wholesale electricity prices
+    are modeled using EEX German electricity spot prices.
+  6: The models consider the logarithm of prices to maintain stable variance and use
+    ARMA(1,1)-GARCH(1,1) for short-term volatility due to its suitability for high
+    volatility markets.
+  7: Three mean-reversing models (MRy, MRs, MRJD) are used to analyze price fluctuations.
+    MRy assumes a stable yearly price with consistent intra-annual profiles. MRs allows
+    for seasonal price changes. MRJD considers production cost attraction and price
+    shocks using a jump diffusion model.
+  8: The study optimizes hydropower plant management using a local search method (Threshold
+    Accepting) over a two-year time horizon, validating the first year and moving
+    the window for subsequent optimization. It assumes a clear-sighted manager with
+    perfect knowledge of future prices and runoff. The objective function maximizes
+    profit, considering water flow, hydraulic head, and electricity spot price. The
+    optimization is subject to constraints on reservoir content limits.
+  9: A management model was validated using historical data by comparing simulated
+    and actual hourly, weekly, and seasonal production, and lake level patterns. The
+    study considers 10 GCM-RCM with 10 paths for each.
+  10: 'Analysis uses a large set of GCM-RCMs and compares two downscaling methods:
+    EDDM and DCM.  Results are applicable to runoff into the Mauvoisin reservoir under
+    different GHG emission scenarios (A1B, A2, RCP3PD) from 2021-2100.'
+  11: Uses price models validated against historical prices, checking daily, weekly,
+    and seasonal variations; Compares trends from different scenarios rather than
+    reviewing numbers in isolation to investigate uncertainty.
+  12: The analysis uses different GCM-RCMs, downscaling methods, and initial ice volume
+    assumptions to project annual revenue from electricity generation. The models
+    are conservative and do not consider drift in electricity prices.
+  13: The paper compares various models and scenarios to assess uncertainty, classifying
+    it as statistical, scenarios, and ignorance, and distinguishing between epistemic
+    and variability uncertainty. The analysis considers different GHG emission scenarios
+    and price models for the period 2071-2100, and compares it to a baseline period
+    of 1981-2010.
+  14: The analysis uses a large panel of GCM-RCM to limit uncertainty in runoff estimates.
+    Statistical methods are used for parameter determination. The paper discusses
+    uncertainty over different time horizons (medium-term and long-run).
+  15: The paper uses a model that integrates runoff and electricity prices to evaluate
+    revenue. It then carries out an uncertainty analysis.
+  18: Includes modeling of management strategy, physically based glacier surface melt
+    models, optimization heuristics, and scenario analysis.
+More Notes:
+  4: Downscaling is necessary because the horizontal resolution of 25km x 25km is
+    insufficient to consider local characteristics, especially in mountain areas.
+  7: The equations provide the mathematical formulation of the models.
+  8: The paper focuses on trends in hydropower plant management rather than forecasting
+    exact future revenue. The assumption of perfect foresight is used for computational
+    efficiency.
+  9: The case study is based on the Mauvoisin hydropower plant in the Swiss Alps.
+    A new pumped-storage may even be built from 2040 on the surface released by the
+    glacier, therefore increasing energy production on the site.
+  10: Studies based on few GCM-RCMs suffer of high epistemic uncertainty.
+  12: Annual revenue is not linearly related to annual runoff.
+  13: The paper emphasizes the importance of considering various uncertainties, including
+    those related to climate, energy policy, models, and inputs (runoff, electricity
+    prices). The nature of uncertainty changes over time, from epistemic in the medium
+    term to variability in the long term.
+  14: The paper distinguishes between epistemic uncertainty (reducible through improved
+    models) and variability (addressable through business and regulatory strategies).
+    It suggests that different tools are needed to manage different levels of uncertainty
+    (statistical, scenario-based, and ignorance).
+  18: The focus is primarily on water resources and hydropower, particularly in alpine
+    and glacierized regions. Several papers by Gaudard et al. appear relevant.
+Quantitative material:
+  1: The paper assesses how climate change and market fluctuation affect annual revenue,
+    focusing on uncertainty rather than forecasting.
+  2: Simulations based on a comprehensive range of parameters including 3 GHG emission
+    scenarios, 10 combinations of climate models, 2 downscaling methods, 2 initial
+    ice volumes, and 3 electricity price models.
+  3: The quantitative model computes the expected annual revenue and its standard
+    deviation.
+  4: "A1B: +1.7 \u25E6C to +4.4 \u25E6C between 1980\u20131999 and 2090\u20132099;\
+    \ A2: +2 \u25E6C to 5.4 \u25E6C; RCP3PD: +0.3 \u25E6C to 1.7 \u25E6C between 1986\u2013\
+    2005 and 2081\u20132100."
+  5: "Initial ice volume estimations of 4.41 \xB1 1.02 km3 and later measurements\
+    \ of 3.69 \xB1 0.31 km3 (-16%)."
+  7: "Models produce a daily mean price [e MWh\u22121]."
+  8: No relevant information
+  9: "Mean multi-year production is 1040 GWh (years 1999\u20132009), 53 % in winter\
+    \ and 47 % in summer. Under the warmest scenario (A2), a mean local air temperature\
+    \ of +2 \u25E6C is expected for the period 2091\u20132100 (at 2921 m a.s.l.),\
+    \ which is 3.7 \u25E6C warmer than the historical records for 2000-2009. Scenario\
+    \ A1B provides a medium situation with +1.4 \u25E6C for 2091\u20132100. The coolest\
+    \ scenario, RCP3PD, stabilizes temperature at -0.7 \u25E6C. Mean precipitation\
+    \ remains at 3.7 mm day\u22121. The gap between extreme GCM-RCM predictions for\
+    \ the A1B scenario at the end of the century is about 2 \u25E6C for air temperature\
+    \ and 0.4 mm day\u22121 for precipitation."
+  10: "Mean recorded runoff was 292 \xD7 106 m3 for 1981\u20132010. Runoff for 2021\u2013\
+    2050 is 302, 300 and 297 \xD7 106 m3 for A1B, A2 and RCP3PD, respectively. For\
+    \ 2071\u20132100, runoff is 243, 245 and 242 \xD7 106 m3. The mean runoff for\
+    \ 2071\u20132100 goes from 224 \xD7 106 m3 to 260 \xD7 106 m3 across GCM-RCMs.\
+    \ EDDM forecasts a mean runoff of 262 \xD7 106 m3 for 2071\u20132100, while DCM\
+    \ results in 19 \xD7 106 m3 lower runoff."
+  11: "Interannual runoff variability between 26 and 31 \xD7 10^6 m3 with DCM, increasing\
+    \ to 36 \xD7 10^6 m3 with EDDM; Overestimating initial ice volume leads to a first\
+    \ phase runoff increase of about 10% and then a decrease to a mean annual runoff\
+    \ of 241 \xD7 10^6 m3 y\u22121; Electricity prices: 41 (9.7), 46 (6.1), and 40\
+    \ (2.0) eMWh\u22121 for MRy, MRs, and MRJD respectively (interannual variability\
+    \ in brackets); Historical mean price was about 39 (10.3) e MWh\u22121."
+  12: The table provides mean and standard deviation (in brackets) of annual revenue
+    (in 10^6 euros) for different time periods (1981-2010, 2021-2050, 2071-2100) under
+    various climate scenarios and downscaling methods.
+  13: Correlation coefficient between mean runoff and revenue is 0.16, while it is
+    0.91 for mean annual price and revenue.
+  18: Mentions estimating water system performance, simulations of glacier response,
+    ice volume distribution, and assessing climate change impacts on global hydropower.

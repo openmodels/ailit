@@ -1,0 +1,202 @@
+Drivers of Risk:
+  1: Restrictions on agricultural trade and climate impacts on crop yields.
+  3: Climate change impacts are considered drivers of risk, along with a constraint
+    of zero cereal import dependency.
+  4: The study considers climate change impacts on crop yields, specifically using
+    climate outputs from the Hadley Centre Global Environmental Model [HadGEM] under
+    RCP8.5.
+  5: The scenarios explore impacts of global zero cereal import dependency constraints
+    and climate change effects on cereal yield.
+  6: Climate change impacts on yields; Import dependency constraint (simulated restrictions
+    on cereal trade).
+  7: Climate change is identified as having a small effect on the CIDR (Comparative
+    Import Disadvantage Ratio) in the four selected regions (USA, Brazil, Middle East,
+    and Western Africa).
+  8: Climate change and trade perturbations impact cereal production and consumption,
+    with varying effects for different regions.
+  9: Global cereal import dependency impacts regional cereal production and consumption.
+  11: Climate change and constrained cereal trade.
+  12: Shocks impacting outcomes include constraints in cereal trade and climate change
+    impacts.
+  13: The drivers of risk are climate change (CC) and constrained trade scenarios
+    (ID and IC), impacting crop yields and trade patterns.
+  14: Climate change impacts on crop yields and constraints on global cereal trade
+    are the primary drivers of risk.
+  15: Impacts on outcomes are driven by import dependency constraints, climate change
+    effects, and domestic shocks such as droughts or floods.
+Evaluation overview:
+  1: Agricultural commodity trade implications for crop producers, consumers, crop
+    prices, water and land uses, and other human systems.
+  3: Analyzes the multi-sector outcomes (agriculture, bioenergy, water) of constrained
+    cereal trade and climate change impacts.
+  4: The study evaluates the agriculture, bioenergy, and water implications of constrained
+    cereal trade and climate change impacts.
+  5: The analysis evaluates impacts on cereal import dependency and global cereal
+    trade under constraints and climate change scenarios.
+  6: Global cereal consumption and land allocation for cereal crops.
+  7: Evaluates the agriculture, bioenergy, and water implications of constrained cereal
+    trade and climate change impacts, focusing on cereal import/export, consumption
+    and land allocation.
+  8: There is no clear evaluation overview provided on this page.
+  9: No specific information provided regarding overall outcomes like mortality or
+    productivity loss.
+  11: The paper evaluates the impact of constrained cereal trade and climate change
+    on agriculture, bioenergy, and water implications in the USA, focusing on variables
+    like production, consumption, exports, imports, revenue, caloric intake, water
+    consumption, and ethanol production.
+  12: The page provides an overview of agricultural production and trade impacts in
+    2050, focusing on changes in cereal and non-cereal crops in the Middle East.
+  13: The analysis evaluates the impact of constrained cereal trade and climate change
+    on agriculture, bioenergy, and water resources, focusing on trade revenue, producer
+    revenue, consumer food expenditure, caloric consumption, and water consumption.
+  14: The study evaluates the agriculture, bioenergy, and water implications of constrained
+    cereal trade and climate change impacts.
+  15: The paper evaluates the impact of constrained cereal trade and climate change
+    on global trade quantity of cereals, production, and consumption.
+Highlights:
+  1: Most regions experience larger changes in cereal consumption due to cereal import
+    dependency constraints than due to the impacts of climate change on agricultural
+    yields. Climate change results in rising domestic prices and declining consumption
+    of cereal crops.
+  4: The study analyzes the spatial pattern of model outcomes (e.g., crop land allocation,
+    crop production, global trade, and consumption) under the influence of global
+    zero cereal import dependency and the associated economic changes. It also explores
+    implications for irrigation water consumption and crop-based ethanol production.
+  5: Despite large decreases in cereal trade, total cereal production and consumption
+    decrease only 3.1%-4.1% from 2025-2050, with climate change accelerating this
+    trend.
+  6: Climate change and import dependency constraints lead to decreases in global
+    cereal consumption. The combined impact is roughly additive. Climate change impacts
+    on yields are negative, leading to increased land allocation for cereal crops
+    to compensate. Import dependency constraints alone decrease the land allocated
+    to cereal crops.
+  7: Regions that are major cereal exporters (USA, Brazil, Argentina, Australia_NZ)
+    show the largest decrease in cereal export under trade restrictions (ID scenario).
+    Major cereal importers (Middle East, Northern and Western Africa) show the largest
+    decrease in cereal import under the ID scenario. Cereal importers increase cereal
+    production in ID scenario and exporters decrease production.
+  8: Trade perturbations generally have a larger impact than climate change on cereal
+    production and consumption, except for the USA where changes are comparable.
+  9: Changes in cereal production and consumption vary by region; dependency on cereal
+    imports affects domestic decisions under future scenarios.
+  11: Constrained cereal trade and climate change significantly impact cereal production,
+    trade revenue, and water consumption in the USA by 2050. There are also impacts
+    to other crops and ethanol production.
+  12: Key outcomes include significant changes such as a 78.6% decrease in cereal
+    imports and a 2639% increase in cereal exports for the Middle East.
+  13: Constrained cereal trade and climate change significantly impact trade revenue,
+    producer revenue, consumer food expenditure, caloric consumption and water resources,
+    with varying effects on the USA and the Middle East depending on whether they
+    are net importers or exporters. The USA experiences losses in cereal export revenue
+    and producer revenue under constrained trade, while the Middle East experiences
+    reductions in cereal import expenditures. Water consumption shifts, with decreased
+    irrigation in the USA and increased irrigation in the Middle East.
+  14: In the Middle East, trade can mitigate some negative climate change impacts
+    on crop yields; irrigation water consumption changes are smaller with climate
+    change than with trade restrictions. In the USA, climate change leads to a larger
+    increase in irrigation water for non-cereal crops compared to the decrease from
+    trade restrictions. Trade constraints lead to a near complete elimination of corn
+    ethanol production in the Middle East. Cereal net importers reduce corn ethanol
+    production with trade constraints, while net exporters increase production.
+  15: Reducing import dependency could lower sensitivity to international supply chain
+    fluctuations but increase susceptibility to domestic shocks; there are potential
+    negative impacts on economic well-being, such as trade and producer revenues.
+Methodology:
+  1: Systematic perturbations in two dimensions (agricultural trade restrictions and
+    climate impacts on crop yields) are introduced to explore the interaction of agricultural-bioenergy-water
+    systems under the broader economy using long-term projections.
+  3: Uses a modified version of GCAM (Global Change Assessment Model) version 5.3,
+    an open-source, global-scale integrated assessment model. It is a market equilibrium
+    model that captures economic decisions and dynamic interactions between multiple
+    systems, operating at 32 geopolitical regions and 235 water basins. The model
+    calibration periods span from 1975 to 2015. A net-zero cereal import requirement
+    is enforced in GCAM by modifying the cereal import dependency ratio.
+  4: The analysis is performed using the GCAM model. The cereal import constraint
+    is enforced by introducing a cereal production credit system. Climate change impacts
+    on crop yields are estimated using the Persephone model, which emulates crop yield
+    changes based on yield response sensitivities seen in the Agricultural Model Intercomparison
+    and Improvement Project [AgMIP]. The corresponding harvest area for each crop
+    is endogenously decided in GCAM using a nested logit architecture in the land-use
+    sector. The climate change scenario used is RCP8.5.
+  5: The analysis uses four scenarios within the GCAM model, solving for markets so
+    supply and demand are balanced, to explore changes from 2015 to 2050.
+  6: The analysis uses the GCAM model. The base year for the model is 2015, and results
+    are presented for 2050. The analysis considers scenarios with climate change (CC),
+    import dependency constraint (ID), and their combined impact (IC), relative to
+    a reference scenario (RF).
+  7: The analysis uses four model scenarios (RF, ID, CC, IC) to project changes from
+    2015-2050 in 5-year time steps. The analysis focuses on regional differences by
+    evaluating USA, Brazil, Middle East, and Western Africa.
+  8: The analysis compares import and export quantities under different scenarios
+    and the impact of climate change and trade perturbations on cereal production
+    and consumption.
+  9: Analysis examines cereal trade and climate change impacts on cereal import dependency
+    and various related factors in 2050.
+  11: The analysis uses a model (GCAM) to project outcomes in 2050 under different
+    scenarios (RF, ID, CC, IC) related to climate change and trade constraints.
+  13: The analysis compares different scenarios (RF, ID, CC, IC) to assess the impacts
+    on trade, production, consumption, and water use.
+  14: The study analyzes the individual and combined impacts of climate change and
+    trade constraints on multiple sectoral outcomes through 2050, using one realization
+    of climate change impacts and one alternative trade perturbation scenario.
+More Notes:
+  1: The individual and interactive effects of trade perturbations and climate change
+    vary greatly across regions, which are also affected by the regional ability to
+    increase agricultural production through intensification or extensification.
+  3: The paper acknowledges the extreme nature of the zero cereal import dependency
+    constraint and emphasizes that the objective is to understand linkages in the
+    coupled systems rather than specific policy analysis.
+  6: The import dependency ratio (CIDR) is used to quantify the reliance on cereal
+    imports. The map (Fig 1a) illustrates CIDR across GCAM regions in 2015.
+  8: Trade changes are visualized using a circular chord diagram illustrating import/export
+    changes among regions using colored chords.
+  9: No additional notes from this page.
+  11: The paper also examines the sugarcane ethanol production in Brazil, although
+    the US relies on corn based ethanol production.
+  15: The paper suggests that import dependency constraints and climate change may
+    have a compounded effect on agricultural systems.
+Quantitative material:
+  1: Global trade of cereals decreases ~50% in 2050 compared to the baseline with
+    import dependency ratio of zero; cereal production and consumption decreases by
+    4%; global irrigation water consumption increases 3%; corn ethanol production
+    decreases 7% in 2050.
+  3: The model projects out to 2100 in 5-year time steps.
+  5: Relative to the RF scenario, total cereal imports in scenarios ID and IC decrease
+    nearly by half in 2025, with further decreases in later periods.
+  6: Global cereal consumption decrease in 2050 due to climate change is about 3.5%
+    compared to a reference scenario. Combined impact of import dependency constraint
+    and climate change on global cereal consumption is roughly a 7.5% decrease. Import
+    dependency constraint decreases global land allocated to cereal crops by 3.6%
+    on average.
+  7: 'CIDR changes are quantified: In 2050, the CIDR is 2 percentage points higher
+    in CC than RF for USA and Western Africa, with minimal changes for Brazil and
+    Middle East.'
+  8: The USA shows a -12% change in cereal production and a +9% change in consumption
+    due to trade perturbations in ID scenario for 2050.
+  9: Fig. 4 shows percent change in cereal production versus consumption in 2050,
+    comparing different scenarios (ID, CC, IC) to RF.
+  11: The table provides quantitative results for various key variables in 2050 for
+    the USA, including percent changes compared to a reference case (RF). Examples
+    include changes in cereal production (-11.8% to -20.4%), non-cereal production
+    (-0.6% to -2.3%), cereal consumption (8.9% to -9.0%), and net trade revenue for
+    cereals (-94.5% to -11.2%).
+  12: The table offers quantitative data including percent changes in cereal and non-cereal
+    production, imports, exports, and other key variables in 2050.
+  13: Net export revenue from cereals in the USA decreases under the ID scenario,
+    with an approximate 50% loss in total crop export revenue relative to the reference
+    scenario (RF). In the CC scenario, total crop export revenue loss for the USA
+    is roughly 30%. The combined effects in IC are a trade revenue loss of nearly
+    75%. The Middle East experiences a 94% reduction in cereal net import expenditures
+    in ID, partially offset by increased non-cereal trade expenditures, resulting
+    in a total reduction in crop trade expenditures of 42%. The effects of import
+    dependency constraints on USA cereal producer revenue are -18%, while trade revenue
+    is -94%. Irrigation water consumption decreases by roughly 8% in the USA and increases
+    by 21% in the Middle East due to cereal import dependency constraints. Staple
+    caloric consumption changes are less than 0.5% for both regions and all scenarios.
+  14: Cereal crop consumption decreases, while non-cereal crop consumption increases
+    in the USA and Brazil. In the Middle East and USA, corn ethanol production changes
+    by -14% and -18% respectively under climate change, but changes by 96% and 11%
+    with trade constraints.
+  15: Global trade quantity of cereals decreases to almost half under global zero
+    cereal import dependency, while in the Middle East, irrigation water consumption
+    increases by 21% due to import dependency constraints and climate change.

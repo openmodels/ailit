@@ -1,0 +1,152 @@
+Drivers of Risk:
+  1: "Minimum temperature, fluctuating temperatures above and below 0\xB0C, and windchill\
+    \ during the cold period."
+  2: Temperature and precipitation during the winter period; rainfall and temperature
+    during the winter season; meteorological factors.
+  3: Daily minimum and maximum temperatures, precipitation, wind velocity, solar radiation,
+    vapor pressure deficit, and evapotranspiration are used to characterize winter
+    harshness and identify cold periods (CP).
+  4: Meteorological variables (Table 2, Table 3), including temperature-related metrics
+    (minimum, mean, and maximum temperatures), precipitation, wind, and solar radiation,
+    are used to predict survival risk.
+  5: Cold periods, specifically related to variables like 'Colder' (likely referring
+    to number of cold days), 'cET' (cumulative evapotranspiration), 'ncycle' (number
+    of freeze-thaw cycles), 'Colder_pct' (percentage of cold days), 'maxTmean' (maximum
+    mean temperature), and 'meanWindchill' (mean windchill).
+  6: Meteorological survival clusters (poor, medium, high) defined by cold period
+    (CP, mean temperature below 0oC) are impacting canola survival.
+  7: "Meteorological variables during the cold period (CP), including Colder (5 days),\
+    \ ncycle (24 cycles), cET (465 mm cumulative ET), meanWindchill (-3.6\u25E6C),\
+    \ Colder_pct (3%), and maxTmean (13.4\u25E6C)."
+  8: "Minimum temperature, fluctuations in temperature above or below 0\xB0C, and\
+    \ wind chill temperature. Number of days with temperatures between -10\xB0C and\
+    \ -15\xB0C."
+  10: No relevant information
+  12: This page does not specify any shocks or changes impacting outcomes.
+Evaluation overview:
+  1: Winter survival of canola (Brassica napus L.) plants.
+  2: Winter survival of winter canola germplasm, plant establishment, and yield performance.
+  3: Winter survival ratings were measured as a visual estimate of the percentage
+    of plants alive in spring relative to those present before the winter period.
+  4: Survival of canola germplasm is evaluated as a function of meteorological factors.
+  5: Evaluates meteorological survival clusters of canola (high, medium, and poor).
+  6: Winter survival of canola genotypes is being evaluated.
+  7: Winter survival of canola genotypes, ranging from 0 to 100%.
+  8: Winter survival of canola.
+  10: No relevant information
+  12: This page does not provide an overview of outcomes related to direct climate
+    impacts.
+Highlights:
+  1: Meteorological variables related to minimum temperature, fluctuating temperatures,
+    and windchill were the main factors accounting for winter kill. Areas of adaptation
+    for current canola germplasm were defined. Four genotype survival groups were
+    identified.
+  2: Determine the area of adaptation of current winter canola germplasm based on
+    winter survival.
+  3: The study aims to estimate the contribution of genotype, environment, and their
+    interaction to canola winter survival based on meteorological variables during
+    the cold period.
+  4: The study aims to estimate the area of adaptation of canola germplasm based on
+    the risk of survival as predicted by meteorological variables.
+  5: Identifies key meteorological variables that significantly influence canola survival
+    during cold periods and shows regional differences in survival clusters across
+    the US.
+  6: Genotype by environment (GxE) interaction is an important determinant of survival,
+    being twice as large as G. Environmental factors (E) explain the majority of the
+    variation in winter canola survival.
+  7: 'Four genotype-specific behaviors were identified: tolerant, semi-tolerant, semi-susceptible,
+    and susceptible. Tolerant genotypes showed significantly greater survival (40%)
+    in poor meteorological survival clusters compared to other groups (17-19%).'
+  8: Identified key meteorological variables affecting winter canola survival. Determined
+    areas with potential for near 100% winter survival. Found that broadly-adapted
+    genotypes are semi-tolerant or semi-susceptible to winter kill.
+  10: This page contains a list of maize genotypes, their decade of release (1990s,
+    2000s, 2010s), and their type (open-pollinated or hybrid).
+  12: No specific outcomes related to climate impact analysis are highlighted.
+Methodology:
+  1: A regression tree analysis was performed on a winter survival dataset from the
+    National Winter Canola Variety Trials from 2003 until 2018 (190 site-years) and
+    auxiliary meteorological data over the last 40 years. Probabilities of different
+    winter survival conditions were calculated for 94 US sites.
+  2: Analysis of a dataset compiled from the National Winter Canola Variety Trials
+    (NWCVT).
+  3: Daily weather data from Google Climate Engine (1979-2019) were used to create
+    secondary weather variables, identify the beginning and end of the cold period,
+    build a model to predict meteorological survival clusters, and predict the probability
+    of occurrence over 40 years.  A series of analyses divided into seven steps were
+    conducted to estimate the contribution of genotype (G), environment (E), and interaction
+    (GxE) to the overall variance for canola winter survival (S).
+  4: A multi-step process is used, including mixed models, cluster analysis (k-means),
+    and conditional inference trees to model meteorological survival class (MSc) as
+    a function of meteorological factors. Long-term daily weather records (1979-2019)
+    are used.
+  5: Uses a conditional inference tree to classify meteorological survival clusters
+    based on summarized meteorological variables from 190 site-years. The analysis
+    covers the period 1979-2019, with sites included in the National Winter Canola
+    Variety Trial dataset.
+  6: Mixed-effect models were used to analyze genotype survival across meteorological
+    survival clusters. Pairwise comparisons were performed with alpha=0.05. Tree models
+    and cluster analyses were also employed. Analyses were conducted in the R framework
+    using packages lme4, partykit, and stats. The study only used years with a cold
+    period (CP).
+  7: A conditional inference tree was used to classify site-year cold periods (CPs)
+    into seven terminal nodes based on meteorological variables. The model was used
+    to classify each CP for all 94 sites during the 1979-2019 period.
+  10: No relevant information
+  12: No specific methodology for analysis of climate impacts is detailed.
+More Notes:
+  1: The research aims to identify meteorological factors underpinning winter canola
+    survival, build probabilistic response models, and define areas of adaptation.
+  2: Focuses on understanding how meteorological factors impact winter survival and
+    yield to facilitate winter canola production in new areas.
+  3: "The cold period (CP) is defined as the period when temperatures were below 0\xB0\
+    C.  Windchill calculations were performed following the equation presented by\
+    \ Osczevski and Bluestein (2005)."
+  4: The conditional inference tree model uses maximum depth and alpha as hyperparameters,
+    optimized via leave-one-out cross-validation. Three survival classes (poor, medium,
+    and high) are defined using k-means clustering of environment BLUEs for survival.
+  5: The decision tree visually represents how different meteorological conditions
+    lead to varying levels of canola survival, which can provide insights into climate-related
+    risks for canola production.
+  6: Four distinct genotype survival behaviors across meteorological survival clusters
+    were identified (tolerant, semi-tolerant, semi-susceptible, susceptible).
+  7: The study uses data from the National Winter Canola Variety Trial. The distribution
+    of different genotype survival groups varies geographically across the US, with
+    latitude being a factor.
+  10: The 'Genotype group' column suggests some genotypes are 'Semi-susceptible' to
+    something. This list may be a part of a study on climate impacts on maize.
+  12: No relevant information.
+No relevant information:
+  11: This page primarily lists canola genotypes, release decades, and types (hybrid/open-pollinated).
+    It doesn't provide information related to climate impact evaluation, drivers of
+    risk, quantitative results, methodologies, or key outcomes regarding climate change.
+Quantitative material:
+  1: "Cold periods were classified into three clusters with high (96%), medium (70%),\
+    \ and low (28%) average plant winter survival. A map defines areas of adaptation,\
+    \ and a large area south of 35\xB0N latitude in the US was identified with greater\
+    \ potential for overwintering success. Four distinct genotype survival groups\
+    \ were identified (tolerant, semi-tolerant, semi-susceptible, and susceptible)."
+  2: Data from 2003 to 2018 across 94 unique sites, with auxiliary weather data for
+    each site-year were assembled and analyzed.
+  3: The study calculates various metrics related to temperature (minimum, mean, maximum,
+    DeltaT), precipitation, wind velocity, solar radiation, vapor pressure deficit,
+    and evapotranspiration during the cold period, including cumulative values, counts
+    of days within specific temperature ranges, and percentages relative to the total
+    days of winter duration.
+  4: Table 3 provides summary statistics (minimum, mean, median, maximum, and coefficient
+    of variation) for meteorological variables during the cold period and canola survival
+    percentage.
+  5: Provides proportions of site-years within each meteorological survival cluster
+    (high, medium, and poor) at each node of the decision tree, represented by bar
+    graphs. Pie charts show the proportion of cold periods classified into high, medium,
+    and poor meteorological survival clusters over a 40-year period (1979-2019) for
+    each site.
+  6: G, E and GxE explained 3%, 71%, and 7% of the variation in winter canola survival,
+    respectively. Model residuals account for 19%.
+  7: Overall winter survival averaged 84%. Conditional inference tree model accuracy
+    was 58% overall, with 48%, 40%, and 60% accuracy for poor, medium, and high meteorological
+    survival clusters, respectively.
+  8: Found that meteorological variables explained mean winter survival across 190
+    site-years.
+  10: No relevant information
+  12: No quantitative information is specifically provided.

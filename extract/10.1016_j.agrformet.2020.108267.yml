@@ -1,0 +1,96 @@
+Drivers of Risk:
+  3: Meteorological variables during the cold period (CP), including temperature (mean,
+    min, max, delta), precipitation, wind velocity, solar radiation, vapor pressure
+    deficit, and evapotranspiration.
+  4: Meteorological variables are the drivers of risk. Table 3 lists meteorological
+    variables during the cold period including days, temperature, and precipitation.
+  5: Meteorological variables like cold temperatures, extreme temperature counts,
+    and wind chill impact the survival clusters.
+  6: "Meteorological survival clusters (poor, medium, high) based on simulation of\
+    \ cold period (CP, mean temperature below 0\xB0C). Essentially, cold stress during\
+    \ winter."
+  7: "Meteorological variables such as Colder (5 days), ncycle (24 cycles), cET (465\
+    \ mm cumulative ET), meanWindchill (-3.6\u25E6C), Colder_pct (3%), and maxTmean\
+    \ (13.4\u25E6C) are identified as relevant drivers of winter canola survival."
+  11: No relevant information
+Evaluation overview:
+  3: Winter survival of canola, measured as the percentage of plants alive in spring
+    relative to those present before winter.
+  4: Survival of canola germplasm is the outcome being evaluated, specifically its
+    risk level.
+  5: The analysis evaluates meteorological survival clusters of canola based on cold
+    periods.
+  6: Winter survival of canola genotypes
+  7: Winter canola survival is evaluated, ranging from 0 to 100%.
+  11: No relevant information
+Highlights:
+  3: The study identifies meteorological variables that characterize winter harshness
+    and impact canola winter survival.
+  4: The analysis predicts meteorological survival class based on meteorological covariates
+    and estimates the area of adaptation of canola germplasm based on survival risk,
+    using long-term weather data.
+  5: The decision tree identifies distinct clusters of canola survival based on meteorological
+    conditions, with geographic variation across the U.S.
+  6: Genotype by environment interaction (GxE) is an important determinant of canola
+    winter survival, but the environment (E) has a much larger effect.
+  7: 'Four different genotype-specific behaviors were identified: tolerant, semi-tolerant,
+    semi-susceptible, and susceptible, with varying survival rates depending on the
+    meteorological survival cluster (poor, medium, high).'
+  11: No relevant information
+Methodology:
+  3: Daily weather data from Google Climate Engine (1979-2019) is used to calculate
+    secondary weather variables and identify the cold period (CP). Statistical analyses
+    are performed to estimate the contribution of genotype, environment, and their
+    interaction to canola winter survival.
+  4: A multi-step process is used to model and predict canola survival based on meteorological
+    variables. This includes random-effect models, mixed models, cluster analysis
+    of environment BLUEs for survival, conditional inference tree methodology, and
+    integrating meteorological survival class with meteorological predictors. Step
+    5 utilizes long-term daily weather records (1979-2019) to estimate area of adaptation.
+  5: Analysis is performed using a conditional inference tree leveraging meteorological
+    variables from cold periods across 190 site-years.
+  6: Mixed-effect models were used to analyze winter survival data, accounting for
+    genotype, meteorological survival cluster, and their interaction. Tree models
+    and cluster analyses were also employed. Analyses were conducted within the R
+    framework using lme4, partykit, and stats packages.
+  7: A conditional inference tree was used to classify site-year cold periods into
+    meteorological survival clusters based on meteorological variables, using data
+    from 94 sites during 1979-2019.
+  11: No relevant information
+More Notes:
+  3: "The cold period (CP) is defined as the period when temperatures are below 0\xB0\
+    C. Windchill is calculated using a specific formula. A log transformation is applied\
+    \ to the winter survival data due to its non-normal distribution."
+  4: The modeling approach focuses on the cold period's impact on survival. The paper
+    uses a conditional inference tree method with hyperparameters (maximum depth and
+    alpha) tuned via leave-one-out cross-validation.
+  6: The study identified four distinct genotype survival groups (tolerant, semi-tolerant,
+    semi-susceptible, and susceptible).
+  7: The map displays the distribution of each genotype survival group across the
+    US based on the National Winter Canola Variety Trial sites.
+  9: This page is an appendix listing crop genotype groups, their names, decade of
+    release, and type (open-pollinated or hybrid). It does not contain information
+    directly relevant to assessing climate impacts for the National Climate Assessment
+    but could be part of a larger study.
+  10: This page is a table listing different genotypes of crops, their decade of release,
+    and whether they are open-pollinated or hybrid. It does not provide information
+    on climate impacts, risk drivers, or quantitative results. Therefore, there is
+    no relevant information for most categories.
+Quantitative material:
+  3: Includes counts and percentages of days within specific temperature and temperature
+    difference ranges during the cold period. Also includes minimum, mean, and maximum
+    values for temperature and temperature difference. Cumulative values for precipitation,
+    evapotranspiration, solar radiation, vapor pressure deficit, and growing degree
+    days are also calculated.
+  4: Table 3 provides summary statistics (minimum, mean, median, maximum, and coefficient
+    of variation) for meteorological variables related to canola survival during the
+    cold period.
+  5: Node and leaf bar plots in the decision tree classify survival as high, medium,
+    or poor with specific thresholds for variables.
+  6: G, E and GxE explained 3%, 71%, and 7% of the variation in winter canola survival,
+    respectively. The rest of the variation was pooled into model residuals (19%).
+    Survival percentages of different genotypes across meteorological survival clusters
+    are shown in figures.
+  7: Tolerant genotype survival group had a significant greater survival (40%) in
+    the poor meteorological survival cluster.
+  11: No relevant information

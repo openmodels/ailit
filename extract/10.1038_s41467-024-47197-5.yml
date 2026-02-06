@@ -1,0 +1,160 @@
+Drivers of Risk:
+  1: Climate change, specifically increases in the intensity, duration, and frequency
+    of heat spells and increasing concentrations of older adults.
+  2: "The study analyzes the impact of ambient temperature distributions, frequency,\
+    \ intensity, and duration of extreme heat events. It uses temperature projections\
+    \ from CMIP6 downscaled, bias-corrected model output. Specific metrics include\
+    \ cooling degree days (CDDs) above 24\xB0C, annual count of hot days (#HDs) exceeding\
+    \ 37.5\xB0C, and the 95th percentile of the 20-year daily maximum temperature\
+    \ distribution (TMAX95)."
+  3: The outcome changes are impacted by increasing hot days and higher maximum temperatures,
+    driven by climate change and demographic shifts.
+  4: The study considers changes in total population growth, demographic shifts in
+    age structure, and heat exposure as drivers of climate-related health risks. The
+    shocks impacting the outcome are summer temperatures, as indicated by the metrics
+    CDDs,
+  5: "Summer temperatures (specifically, days exceeding 37.5\xB0C) and changes in\
+    \ CDD and HD levels are key drivers of risk. Population aging and growth patterns\
+    \ are also drivers."
+  6: Summer temperatures, climate change scenarios (SSP2(45) and 5(85)), shift in
+    the age structure of population in areas where extreme temperatures are already
+    high.
+  8: Daily temperatures from climate models (CMIP6) under different SSP and RCP scenarios
+    are used to drive the risk assessment.
+  9: "Heat exposure metrics including cooling degree days (CDD), 95th percentile of\
+    \ daily maximum temperatures (TMax95th), and count of days with a maximum temperature\
+    \ of 37.5\xB0C or higher (#HD)."
+  10: The paper decomposes exposure change into contributions of population and meteorology,
+    specifically looking at population hot days frequency (PHD). The drivers considered
+    are age structure, population size, and climate change-driven increases in heat.
+  13: No relevant information
+Evaluation overview:
+  1: The paper evaluates heat exposure of older adults and its impact on their health
+    and well-being.
+  2: This study focuses on heat exposure, health, and well-being, specifically on
+    chronic and acute heat exposure for different age groups, including older adults
+    (69+).
+  3: The paper evaluates acute heat exposure by examining population exposed to high
+    temperatures and potential physiological impacts, particularly focusing on populations
+    aged 69+.
+  4: The study evaluates heat exposures for individuals aged 69+, focusing on Cooling
+    Degree Days (CDDs), Hot Days (#HD), and the 95th percentile of acute extreme heat
+    exposure (TMAX95).
+  5: "The paper evaluates population exposure to heat based on metrics like Cooling\
+    \ Degree Days (CDD), Heating Degree Days (HD), and exceedance of maximum temperature\
+    \ thresholds (TMAX95 > 37.5 \xB0C)."
+  6: Chronic and acute heat exposures of older adults.
+  8: The paper evaluates the exposure of different age groups to heat, with a focus
+    on older adults (69+) and their vulnerability to heat extremes.
+  9: Comparison of downscaled elderly population data with previous projection studies.
+  10: This paper evaluates the error in age-stratified population projections, specifically
+    focusing on the population aged 69+.
+  13: No relevant information
+Highlights:
+  1: Heat exposure for older adults is increasing significantly, particularly in Asia
+    and Africa.
+  2: "The study visualizes bivariate global maps of the fraction of the population\
+    \ aged 69+, average yearly Cooling Degree Day exposure (CDDs), and the temperatures\
+    \ corresponding to the 95th percentile of local extreme heat exposure (TMAX95)\
+    \ for current climate and circa 2050 under SSP2(45). It also maps annual days\
+    \ with TMAX > 37.5\xB0C (#HD)."
+  3: By 2050, the highest exposure increase is observed for the population aged 69+,
+    with significant growth in Asia and Africa; the global heat-exposed population
+    aged 69+ is projected to grow considerably.
+  4: Older individuals will experience growing acute heat exposure, which may increase
+    demand for indoor thermal regulation and increase cost/health risk for people
+    who cannot afford them. Europe shows some of the largest changes in exposure,
+    with the average number of hot days (#HDs) increasing and the number of CDDs more
+    than tripling.
+  5: Cumulative heat exposure of older individuals will at least triplicate in all
+    continents by 2050. Climate change will be the prevailing mechanism of change
+    in temperate regions while population aging is the defining driver in warmer regions.
+    Asia will experience far more exposure due to large and aging population.
+  6: Climate change has a strong impact on the frequency of acute heat exposure, but
+    a relatively negligible impact on the burden of the intensity of acute exposures,
+    which is mostly affected by the shift in the age structure of population in areas
+    where extreme temperatures are already high.
+  8: The paper emphasizes the need to consider the distinctive needs of large and
+    rapidly growing populations of older adults in adaptation solutions.
+  9: Projected 2050 elderly population for the United States aligns closely with some
+    estimates but shows significant bias with others.
+  10: The table shows the error associated with different SSPs in different geographical
+    areas, giving a sense of uncertainty ranges in the models.
+  13: No relevant information
+Methodology:
+  1: The paper combines age-stratified demographic projections with downscaled temperature
+    projections to mid-century.
+  2: The study constructs global gridded age-stratified demographic projections for
+    different population scenarios, benchmarked against previous region-specific model-ling
+    work. It combines these projections with temperature projections from CMIP6 models.
+    Temperature exposure metrics are developed at the same spatial resolution.
+  3: The analysis uses future projections based on SSP-RCP scenarios, demographic
+    modeling, and General Circulation Models (GCMs) from CMIP6 to estimate changes
+    by 2050.
+  4: The analysis uses CMIP6 global climate models (excluding 'hot models') to project
+    heat exposures for the 69+ population under different SSP scenarios, comparing
+    these to historical data. It looks at cumulative distributions and region-specific
+    exposure boxplots.
+  5: The analysis uses GCMs and SSP scenarios (1(26), 2(45), 3(70), and 5(85)) to
+    project future exposure levels to heat by age group and region from 2020-2050.
+    Country-level results are presented in the SI Appendix.
+  6: The analysis uses climate scenarios (SSP2(45) and SSP5(85)) to project heat exposure
+    metrics. Results are applicable to the year 2050 under those scenarios.
+  8: The methodology involves downscaling and projecting age-stratified population
+    data, using WorldPop as a base and incorporating SSP-consistent population projections.
+    A consistent imputation method is used for global projections. The analysis is
+    performed using R.
+  9: Uses gridded population projections and compares SSP and non-SSP scenarios for
+    various global regions.
+  10: The analysis uses grid cells as the fundamental unit of analysis and aggregates
+    exposure, population, and meteorology to regional geographies. It decomposes fractional
+    change in regional-scale exposure into weighted averages of grid-cell level shifts
+    in age structure, population size, and meteorology. The formulas (7a, 7b, 7c,
+    8, 9, 10, 11) detail the decomposition and calculation of population exposure.
+    The results are applicable to current and potential future climates.
+  13: ''
+More Notes:
+  4: "The purple lines in the figure panels indicate critical thresholds of 1200 CDDs/yr\
+    \ and 37.5\xB0C. The analysis decomposes the drivers of heat exposure change into\
+    \ population growth, age structure changes, and heat exposure changes."
+  5: The SI Appendix contains figures for SSP1(26), 3(70), and 5(85), as well as country-level
+    results. The analysis accounts for both climate and socio-demographic heterogeneities.
+  6: The study focuses on the impact on the older adult population (69+).
+  8: The paper acknowledges limitations related to uncertainties in future population
+    size and spatial distribution, and the potential for autonomous adaptation.
+  9: Comparison of demographic projections indicates regional differences, with notable
+    consistency for India under SSP2.
+  13: ''
+No relevant information:
+  12: No relevant information
+Quantitative material:
+  1: "Chronic exposure to heat doubles across all warming scenarios; >23% of the global\
+    \ population aged 69+ will inhabit climates whose 95th percentile of daily maximum\
+    \ temperature exceeds 37.5 \xB0C, compared with 14% today, exposing an additional\
+    \ 177\u2013246 million older adults to dangerous acute heat."
+  2: The study computes the geographic intersection of current (2020) and projected
+    mid-century (2050) changes in global and regional populations of adults age 69+
+    and chronic and acute heat exposures. It quantifies chronic exposure to high average
+    temperatures and the frequency and intensity of acute exposure to extreme high
+    temperatures.
+  3: "The paper provides projections, such as the global average of hot days increasing\
+    \ from 10 to 19\u201321 days/year and the 95th percentile of daily maximum temperature\
+    \ growing from 32 to 35\xB0C."
+  4: The study presents quantitative information on yearly CDD exposure, yearly
+  5: The analysis quantifies the number of individuals exposed to given levels of
+    CDD, HD, and TMAX95, including differences between SSP2(45) and current population
+    projections. It also projects Person Degrees (PDDs) for cumulative heat exposure.
+    The page also mentions that heat exposure in Asia will be nearly four times higher
+    than other regions due to large, aging and hot population.
+  6: 'Provides median and interquartile ranges for various heat exposure metrics (CDD24,
+    TMAX95, #HDs, PDDs,PHDs,PD95s) across different regions (Africa, Asia, Australia,
+    Europe, N. America, S. America, World) under historical climate, SSP2(45), and
+    SSP5(85) scenarios for the year 2050.'
+  8: The study projects gridded population by age (specifically <69 and 69+) for the
+    year 2050 under different SSP scenarios.
+  9: Metrics include Absolute Percentage Error (APE) and Mean Absolute Percentage
+    Error (MAPE) to evaluate differences between datasets.
+  10: The table provides total error (in millions of people 69+), percent error, and
+    mean local percent error for population projections under different SSP scenarios
+    for the United States, European Union, United Kingdom, China, and India.
+  13: No relevant information

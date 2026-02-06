@@ -1,0 +1,19 @@
+,Outcome,Region,Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Sea Surface Temperature,North Pacific,Historical,1970,Pre-industrial,FAR values,0.98,NA,NA,NA,NA,NA,Page 1,Human influence on North Pacific sea surface temperature (SST) was first detectable in the 1970s.
+1,Sea Surface Temperature,North Pacific,Historical,2017,Pre-industrial,FAR values,1,NA,NA,NA,NA,NA,Page 1,Assuming 2014-2020 average has FAR close to 1
+2,Sea Surface Temperature,North Pacific,Historical,2023,Pre-industrial climate,Frequency,0.0625,NA,NA,NA,NA,NA,Page 1,Converted 'every 5-40 years' to a point estimate.
+3,Catch,Gulf of Alaska,FAR >= 0.98,2000,Long-term log mean,Standard deviations,-1.4,NA,NA,NA,NA,NA,Page 1,Sockeye salmon migrating to sea in years with strong evidence for human effects on temperature produce catches 1.4 standard deviations below the long-term log mean. Representing 'Year with strong evidence' with a placeholder year 2000
+4,SST Anomaly,Eastern Bering Sea,Observed,2023,Pre-industrial,Standard Deviations,5.08,NA,NA,NA,NA,NA,6,Largest annual SST anomaly to date of any of the regions considered. This is the year the paper was published. Assuming the observation is from the most recent year.
+5,Warming,North Pacific,SSP2-4.5,2039,Pre-industrial,Degrees Celsius,1.5,NA,NA,NA,NA,NA,6,Projected timing
+6,Warming,North Pacific,SSP2-4.5,2060,Pre-industrial,Degrees Celsius,2.0,NA,NA,NA,NA,NA,6,Projected timing
+7,Warming,North Pacific,SSP5-8.5,2032,Pre-industrial,Degrees Celsius,1.5,NA,NA,NA,NA,NA,6,Projected timing
+8,Warming,North Pacific,SSP5-8.5,2044,Pre-industrial,Degrees Celsius,2.0,NA,NA,NA,NA,NA,6,Projected timing
+9,Sockeye Salmon Catch,Gulf of Alaska,Observed,2019,Moderate FAR (0.33-0.91),%,-39,NA,NA,NA,NA,NA,6,Decline in raw catch relative to years with FAR between 0.33 and 0.91. Relates to years 2017-2022 where FAR = 0.98-0.99. Middle of the range is selected for the year.
+10,SST Risk Ratio,North Pacific,Historical,2020,Pre-1950,Risk Ratio,50000,NA,NA,NA,NA,NA,Page 7,All regions show increased Risk Ratios over time with significant spikes post-1980; precise value estimated from the graph.
+11,SST Risk Ratio,Eastern Bering Sea,Historical,2020,Pre-1950,Risk Ratio,50000,NA,NA,NA,NA,NA,Page 7,Marked increase in risk after 1980 with notable peaks near 2010; strong human influence on SST in this region.
+12,SST Risk Ratio,Gulf of Alaska,Historical,2020,Pre-1950,Risk Ratio,50000,NA,NA,NA,NA,NA,Page 7,"Spikes in risk ratio between 1980 and 2020, particularly around 1990 and 2010; affected by human-caused warming."
+13,SST Risk Ratio,British Columbia Coast,Historical,2020,Pre-1950,Risk Ratio,50000,NA,NA,NA,NA,NA,Page 7,Increase beginning around 1980; less pronounced but still noted.
+14,SST Risk Ratio,Northern California Current,Historical,2020,Pre-1950,Risk Ratio,50000,NA,NA,NA,NA,NA,Page 7,Significant rises in risk ratio beginning around 1980.
+15,SST Risk Ratio,Southern California Current,Historical,2020,Pre-1950,Risk Ratio,50000,NA,NA,NA,NA,NA,Page 7,More pronounced rises around 2000 and 2015; consistent increases since 1980.
+16,Log catch anomaly,Gulf of Alaska,Observed,2017,No CC,Log catch anomaly/SST,-1,NA,80%,-1.2,95%,-0.8,Page 8,Reductions in sockeye salmon catch observed above SST values of 2.08 in 2017; Posterior means are approximate.
+17,Sockeye Salmon Catch,North Pacific,NA,2022,FAR >= 0.98,NA,-1.4,NA,NA,NA,NA,NA,9,Value is a decline in log-transformed sockeye salmon catch.

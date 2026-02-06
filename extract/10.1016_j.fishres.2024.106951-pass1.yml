@@ -1,0 +1,158 @@
+Drivers of Risk:
+  2: Potential future changes in environmental conditions, including temperature and
+    ocean pH, as well as emissions scenarios, are considered as impacting factors
+    for the stock assessment.
+  6: This page describes fishing mortality (F) as a driver.
+  8: The key driver impacting outcomes is the change in summer sea surface temperature,
+    which influences recruitment and growth.
+  9: Summer sea surface temperature (SST) impacts growth (L1.5) and recruitment deviations,
+    influencing fish stock sustainability.
+  10: Increases in temperature are identified as a driver of risk, leading to lower
+    recruitment of Pacific cod.
+  11: The impact of environmental variables on recruitment and the stock-recruitment
+    relationship is considered, with particular attention to the absence of links
+    between environment and recruitment.
+  12: Summer sea surface temperature (SST) impacts growth and recruitment, affecting
+    spawning biomass. Earth System Model uncertainty.
+  13: Environmental variables, specifically warming and marine heatwaves in the Bering
+    Sea
+  14: Temperature and pH on growth and recruitment of Pacific cod are drivers of risk.
+  16: Future levels of climate warming.
+Evaluation overview:
+  2: The paper evaluates the consequences of adopting various harvest control rules
+    and climate-enhanced stock assessments for EBS Pacific cod in relation to future
+    stock status and fishing mortality.
+  6: The paper evaluates different assessment model configurations for fisheries management,
+    focusing on the impact of harvest control rules on net revenue and sustainable
+    yields of EBS Pacific cod.
+  8: The paper evaluates the projected changes in spawning biomass of Pacific cod
+    in the eastern Bering Sea under various environmental scenarios, particularly
+    focusing on declines after 2040.
+  9: The outcome being evaluated is the effect of sea surface temperature (SST) on
+    cod productivity, specifically focusing on growth (L1.5) and recruitment.
+  10: The paper evaluates the impact of climate change (specifically temperature increases)
+    on Pacific cod spawning biomass and catch.
+  11: The assessment focuses on model configurations for Pacific cod in the Gulf of
+    Alaska, specifically looking at recruitment and biomass projections.
+  12: The paper evaluates the time-trajectory of spawning biomass relative to the
+    unfished level for different catch series.
+  13: Spawning biomass of EBS (eastern Bering Sea) Pacific cod.
+  14: Probability of spawning biomass dropping below four threshold levels and the
+    distribution for the relative profit are evaluated for catch time-series.
+  16: Declines in biomass and catch for Eastern Bering Sea (EBS) Pacific cod.
+Highlights:
+  2: The analysis suggests that climate-aware management through conventional harvest
+    control rules can help guide stock management without needing fundamental changes
+    to management structures while integrating environmental variables in the analysis.
+  8: Results from more pessimistic scenarios show substantial decreases in biomass,
+    particularly when threshold harvest strategies are not applied.
+  9: Higher risks to cod biomass are associated with scenarios using MIROC ssp126,
+    while scenarios like GFDL ssp585 help maintain cod stock above thresholds.
+  10: Increases in temperature will lead to lower recruitment despite higher weight-at-age,
+    and harvest control rules not accounting for climate change may fail to conserve
+    the stock.
+  11: Significant model uncertainty exists which could affect projections more than
+    environmental scenarios; the exact configuration of assessment models could be
+    critical.
+  12: Accounting for Earth System Model uncertainty is important in resource analysis
+    and management. Projected biomass and catch differ under different environmental
+    models, even under the same emission scenario.
+  13: The spawning area of EBS Pacific cod may expand in the southern part of the
+    eastern Bering Sea under warming, but there is low potential for spawning in the
+    northern part where Pacific cod redistributed during recent marine heatwaves.
+  14: Updating projections based on climate-enhanced stock assessments and reviewing
+    relationships between environmental variables and population parameters should
+    be a standard part of stock assessment.
+  16: "Results indicate declines in biomass and catch for EBS Pacific cod will increase\
+    \ with future levels of climate warming; Basing catch limits on the null environmental\
+    \ model or MIROC ssp126 is predicted to lead to population crash; NPFMC 40\u2013\
+    5 harvest control rule attenuates biomass declines relative to a constant FMEY\
+    \ harvest control rule through reduced catch; Climate effects in the scenarios\
+    \ with the highest warming rates exceed the benefit of the harvest control rule\
+    \ by the end of the century (under GFDL, and MIROC ssp585 forcing scenarios)."
+Methodology:
+  2: The analysis uses a climate-enhanced stock assessment approach employing Earth
+    System Models and emission scenarios to project future environmental variables
+    related to stock dynamics.
+  4: The paper details a methodology for projecting future catch series of a stock
+    assessment model, accounting for uncertainty in model structure, environmental
+    variables, and Earth System Model/emissions scenarios. It uses a Bayesian framework
+    with NUTS MCMC sampling and penalized likelihood.
+  6: The analysis uses assessment models with different configurations to evaluate
+    harvest control rules, including the North Pacific Fishery Management Council
+    Tier 3 40-5 harvest control rule and a constant FMEY strategy. The FMEY strategy
+    calculates net revenue based on equilibrium catch, price, and fishing costs. The
+    harvest control rules relate to achieving sustainable yields but does not explicitly
+    account for the economic factors associated with fishing that can be related to
+    optimum yield. Economic data from trawl catcher/processors that fish for Pacific
+    cod and other groundfish in the eastern Bering Sea and Gulf of Alaska is used.
+  8: The analysis uses different assessment model configurations and emission scenarios
+    (e.g., MIROC ssp126, GFDL ssp585) to project future states of cod stocks.
+  9: Analysis involves projections from models based on MLEs focusing on environmental
+    scenarios (e.g., MIROC ssp126 and GFDL ssp585), with uncertainty in parameters
+    and recruitment deviations considered.
+  10: The analysis uses environmental models to project spawning biomass and catch
+    under different temperature scenarios, and considers different assessment model
+    configurations and harvest control rules. The results are applicable until 2099
+    based on current models and assumptions.
+  11: Projections use models from the US North Pacific Fishery Management Council,
+    highlighting the need for broader models including the CEATTLE model and potential
+    stock-recruitment relationships.
+  12: The analysis uses assessment model configurations, with projections based on
+    MLE parameter estimates and catch limits from MIROC ssp126 and GFDL ssp585 scenarios.
+    Model selection approaches were used to select the relationships between population
+    parameters and environmental variables. The results are applicable to the years
+    1977-2022 for model fitting, with projections extending beyond that period.
+  13: Projections accounting for parameter uncertainty and process error are used
+    to model spawning biomass from 1980-2010. Assumes stationarity in the relationship
+    between environmental conditions and recruitment.
+  14: "The analysis uses 28 catch time-series based on a 40\u20135 control rule for\
+    \ projections, considering parameter uncertainty and future process error. Different\
+    \ catch limits (ssp) from different climate models are applied."
+  16: Uses Stock Synthesis to conduct assessments for many years of a long projection
+    period for potential operating models; considers effects of feedback control and
+    climate adaptation using management strategy evaluation.
+More Notes:
+  10: The analysis suggests that even with perfect information about stock status,
+    declines in biomass and catch are likely if current harvest control rules continue.
+    The harvest control rules are based on FMEY rather than FMSY, leading to conservative
+    management outcomes.
+  11: Future work could improve projections by integrating stock-recruitment relationships
+    and expanding environmental scenarios.
+  12: The climate change signals simulated by Earth System Models only differ significantly
+    across the models and emission scenarios in the longer-term future (after the
+    mid-21st century). The projections assume relationships between population parameters
+    and environmental variables.
+  13: The analysis does not account for potential biological adaptation to climate
+    change or changes in the relationship between environmental variables and recruitment.
+  14: Increased temperature was found to also be associated with increased metabolic
+    demand and mortality, and with decreased availability and energy content of prey.
+Quantitative material:
+  2: The paper discusses the projected catch series based on the ensemble of Earth
+    System Models and alternative emission scenarios, aiming to account for the range
+    of uncertainties.
+  4: The methodology involves 1000 draws from posterior distributions, five MCMC chains
+    of length 1200 (discarding the first 200), and thinning by conducting projections
+    for every 5th vector, resulting in 5000 parameter vectors.
+  6: "The page provides specific values for the price of cod (\u0303p = 1,563 $/t)\
+    \ and the daily cost of fishing (\u0303c = 66,543 $/d). It also mentions a recruitment\
+    \ variation parameter (\u03C3R = 0.6642). Estimated total parameters of model\
+    \ configurations 1-4 are 504, 463, 466, and 464 respectively."
+  8: Quantitative projections indicate that spawning biomass will fall below 40% of
+    unfished levels and possibly below 20% under certain scenarios.
+  9: "Histograms show SST impacts with L\u221E values ranging from 0.05 to 0.25 and\
+    \ recruitment deviations from -0.2 to 0.6."
+  10: The graphs show projected time trajectories of spawning biomass and catch from
+    1977-2099 under different environmental scenarios, however specific quantitative
+    data for each model is not included in the text.
+  11: Projections are based on the assumption of mean recruitment without environmental
+    links, identified as overly optimistic when biomass is declining.
+  12: The graphs show distributions of spawning biomass over time relative to unfished
+    levels, with median (blue line), 50% (light shaded area), and 90% (dark shaded
+    area) confidence intervals. Green and red lines represent 40% and 20% of average
+    unfished biomass when climate effects are ignored.
+  13: The probability of being below 20% of unfished spawning biomass is provided
+    as bars in the upper right corner of a figure.
+  14: The figure includes probabilities, medians, 50% intervals, and 90% intervals.
+  16: Catch limits based on GFDF ssp585 generally keeps the stock above the threshold
+    of 20% of unfished spawning biomass.

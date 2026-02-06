@@ -1,0 +1,177 @@
+,Outcome,Region,Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Welfare,All regions,UWI,2017,BAU,percent,4.3,NA,NA,NA,NA,NA,Page 1,Optimal UWI policy welfare gain requiring substantial inter-generational and inter-regional net transfers. Assumed 2017 since it is the calibration year.
+1,Welfare,All regions,Limited UWI,2017,BAU,percent,4.0,NA,NA,NA,NA,NA,Page 1,UWI policy limiting burden to less than 10 percent on a consumption-equivalent basis delivers this welfare gain. Assumed 2017 since it is the calibration year.
+2,GDP,Most regions,High-damage scenarios,2017,No CC,percent,-1,NA,NA,NA,NA,NA,Page 1,Describes that in high-damage scenarios GDP will be dramatically reduced in most regions. -1 is a placeholder for 'Negative' so it is numeric. Assumed 2017 since it is the calibration year.
+3,GDP,Global,BAU,2100,No CC,%,-14,NA,NA,NA,NA,NA,2,High-damage calibration
+4,GDP,Global,UWI,2100,No CC,%,-9,NA,NA,NA,NA,NA,2,High-damage calibration
+5,GDP,India,BAU,2100,No CC,%,-38.5,NA,NA,NA,NA,NA,2,High-damage calibration
+6,GDP,India,UWI,2100,No CC,%,-26.2,NA,NA,NA,NA,NA,2,High-damage calibration
+7,GDP,U.S.,BAU,2100,No CC,%,-13.9,NA,NA,NA,NA,NA,2,High-damage calibration
+8,GDP,U.S.,UWI,2100,No CC,%,-8.0,NA,NA,NA,NA,NA,2,High-damage calibration
+9,GDP,China,BAU,2100,No CC,%,-13.7,NA,NA,NA,NA,NA,2,High-damage calibration
+10,GDP,China,UWI,2100,No CC,%,-7.8,NA,NA,NA,NA,NA,2,High-damage calibration
+11,GDP,Canada,BAU,2100,No CC,%,2.5,NA,NA,NA,NA,NA,2,High-damage calibration
+12,GDP,Canada,UWI,2100,No CC,%,-0.6,NA,NA,NA,NA,NA,2,High-damage calibration
+13,GDP,Canada,BAU,2100,No CC,%,2.5,NA,NA,NA,NA,NA,3,Increased GDP
+14,GDP,Russia,BAU,2100,No CC,%,3.6,NA,NA,NA,NA,NA,3,Increased GDP
+15,GDP,India,BAU,2100,No CC,%,-38.6,NA,NA,NA,NA,NA,3,GDP reduction
+16,GDP,South Asian Pacific,BAU,2100,No CC,%,-33.4,NA,NA,NA,NA,NA,3,GDP reduction
+17,GDP,Sub-Saharan Africa,BAU,2100,No CC,%,-33.0,NA,NA,NA,NA,NA,3,GDP reduction
+18,GDP,Middle East and North Africa,BAU,2100,No CC,%,-30.9,NA,NA,NA,NA,NA,3,GDP reduction
+19,GDP,Global,BAU,2100,No CC,%,-14.7,NA,NA,NA,NA,NA,3,GDP reduction
+20,Temperature,Global,BAU,2100,Pre-industrial,Degrees Celsius,3.1,NA,NA,NA,NA,NA,3,Increase in mean surface temperature
+21,Gas Consumption,Global,UWI,2103,2017-end date for fossil fuels,%,86.2,NA,NA,NA,NA,NA,3,Cumulative reduction in gas consumption
+22,Oil Consumption,Global,UWI,2103,2017-end date for fossil fuels,%,84.4,NA,NA,NA,NA,NA,3,Cumulative reduction in oil consumption
+23,Coal Consumption,Global,UWI,2103,2017-end date for fossil fuels,%,98.1,NA,NA,NA,NA,NA,3,Cumulative reduction in coal consumption
+24,Temperature,Global,UWI,2100,Pre-industrial,Degrees Celsius,2.1,NA,NA,NA,NA,NA,3,Increase in mean surface temperature
+25,GDP Loss,Global,BAU,2100,No CC,%,-16.7,NA,NA,NA,NA,NA,3,Peak global GDP loss
+26,GDP Loss,Global,UWI,2100,No CC,%,-9.3,NA,NA,NA,NA,NA,3,Peak global GDP loss
+27,GDP Loss,Regional,BAU,2100,No CC,%,-43.9,NA,NA,NA,NA,NA,3,"Maximum peak GDP loss - using the maximum loss region, assumes it applies to 2100"
+28,GDP Loss,Regional,BAU,2100,No CC,%,-2.1,NA,NA,NA,NA,NA,3,"Minimum peak GDP loss - using the minimum loss region, assumes it applies to 2100"
+29,GDP Loss,Regional,UWI,2100,No CC,%,-27.8,NA,NA,NA,NA,NA,3,"Maximum peak GDP loss - using the maximum loss region, assumes it applies to 2100"
+30,GDP Loss,Regional,UWI,2100,No CC,%,-0.5,NA,NA,NA,NA,NA,3,"Minimum peak GDP loss - using the minimum loss region, assumes it applies to 2100"
+31,Welfare,Global,UWI,2017,BAU,%,4.3,NA,NA,NA,NA,NA,3,"Consumption compensating variation, base year"
+32,Consumption,Generations,UWI,2017,BAU,%,15,NA,NA,NA,NA,NA,3,"Largest net transfers to current generations in three regions, base year"
+33,Welfare,India,UWI,2200,BAU,percent,-40,NA,NA,NA,NA,NA,4,Net negative transfers equivalent to 40% of lifetime consumption.
+34,Welfare,Middle East,UWI,2200,BAU,percent,-30,NA,NA,NA,NA,NA,4,Net negative transfers equivalent to 30% of lifetime consumption.
+35,Welfare,"LatAm excl. MX,BR",UWI,2200,BAU,percent,-30,NA,NA,NA,NA,NA,4,Net negative transfers equivalent to 30% of lifetime consumption.
+36,Welfare,Sub-Saharan Africa,UWI,2200,BAU,percent,-30,NA,NA,NA,NA,NA,4,Net negative transfers equivalent to 30% of lifetime consumption.
+37,Welfare,Brazil,UWI,2200,BAU,percent,-30,NA,NA,NA,NA,NA,4,Net negative transfers equivalent to 30% of lifetime consumption.
+38,Welfare,S Asian Pacific,UWI,2200,BAU,percent,-30,NA,NA,NA,NA,NA,4,Net negative transfers equivalent to 30% of lifetime consumption.
+39,Welfare,US,UWI,2200,BAU,percent,-15,NA,NA,NA,NA,NA,4,Net negative transfers equivalent to almost 15% of lifetime consumption.
+40,Welfare,Japan/SK/HK,UWI,2200,BAU,percent,-15,NA,NA,NA,NA,NA,4,Net negative transfers equivalent to almost 15% of lifetime consumption.
+41,Welfare,China,UWI,2200,BAU,percent,-15,NA,NA,NA,NA,NA,4,Net negative transfers equivalent to almost 15% of lifetime consumption.
+42,Welfare,South Africa,UWI,2200,BAU,percent,-15,NA,NA,NA,NA,NA,4,Net negative transfers equivalent to almost 15% of lifetime consumption.
+43,Welfare,Australia,UWI,2200,BAU,percent,-15,NA,NA,NA,NA,NA,4,Net negative transfers equivalent to almost 15% of lifetime consumption.
+44,Welfare,New Zealand,UWI,2200,BAU,percent,-15,NA,NA,NA,NA,NA,4,Net negative transfers equivalent to almost 15% of lifetime consumption.
+45,Welfare gain,Global,UWI,2100,BAU,percent,4.3,NA,NA,NA,NA,NA,4,Overall welfare gain from UWI policy.
+46,Welfare gain,Global,UWIF,2100,BAU,percent,7.7,NA,NA,NA,NA,NA,4,Overall welfare gain from UWIF policy.
+47,Welfare,India,UWIF,2200,BAU,percent,-38.2,NA,NA,NA,NA,NA,4,Net negative transfers equivalent to 38.2% of lifetime consumption.
+48,Welfare,India,UWI,2285,BAU,percent,35.6,NA,NA,NA,NA,NA,4,Welfare gain for generation born in 2285 with UWIL policy.
+49,GDP Share,China,BAU,2100,Present,percent,17,NA,NA,NA,NA,NA,4,Increase in share of World GDP by 2100.
+50,GDP Share,US,BAU,2100,Present,percent,-9,NA,NA,NA,NA,NA,4,Decrease in share of World GDP by 2100.
+51,Welfare gain,Global,"UWI, no China",2100,"UWI, global",percent,-60,NA,NA,NA,NA,NA,4,Welfare gain reduction if China does not participate in UWI carbon policy.
+52,Welfare gain,Global,"UWI, delayed",2100,"UWI, current",percent,-35,NA,NA,NA,NA,NA,4,Reduction in welfare gain if implementation is delayed for 20 years.
+53,Temperature,Global,BAU,2200,Pre-industrial,degrees Celsius,4.4,NA,NA,NA,NA,NA,page 14,Upper range of global average temperature rise by 2200 under BAU scenarios.
+54,Damages,World,6x,2200,No CC,% of World Output,-17,NA,NA,NA,NA,NA,page 14,Global damages in the 6x damage scenario.
+55,Damages,India,6x,2200,No CC,% of GDP,-40,NA,NA,NA,NA,NA,page 14,Output loss in India in the 6x damage scenario.
+56,Damages,US,6x,2200,No CC,% of Output,-16,NA,NA,NA,NA,NA,page 14,Output loss in the US in the 6x damage scenario.
+57,Damages,China,6x,2200,No CC,% of Output,-16,NA,NA,NA,NA,NA,page 14,Output loss in China in the 6x damage scenario.
+58,Damages,Japan/South Korea/Hong Kong,6x,2200,No CC,% of Output,-16,NA,NA,NA,NA,NA,page 14,Output loss in Japan/South Korea/Hong Kong in the 6x damage scenario.
+59,Damages,GBR,6x,2200,No CC,% of GDP,-2.1,NA,NA,NA,NA,NA,page 14,Small damages in GBR in the 6x damage scenario.
+60,Climate Gains,Russia,BAU,2200,No CC,% of GDP,3.9,NA,NA,NA,NA,NA,page 14,Russia's climate gains under BAU conditions.
+61,Climate Gains,Canada,BAU,2200,No CC,% of GDP,2.6,NA,NA,NA,NA,NA,page 14,Canada's climate gains under BAU conditions.
+62,Carbon Tax,Global,1x damage,2017,No CC,$ per ton CO2,22.8,NA,NA,NA,NA,NA,16,Initial optimal tax absent transfers
+63,Carbon Tax,Global,6x damage,2017,No CC,$ per ton CO2,111.7,NA,NA,NA,NA,NA,16,Initial optimal tax absent transfers
+64,Carbon Tax,Global,"UWI, 1x damage",2017,No CC,$ per ton CO2,22.4,NA,NA,NA,NA,NA,16,Optimal initial tax under UWI
+65,Carbon Tax,Global,"UWI, 6x damage",2017,No CC,$ per ton CO2,87.5,NA,NA,NA,NA,NA,16,Optimal initial tax under UWI
+66,Welfare Gains,Global,6x UWI,2017,No CC,percent,4.3,NA,NA,NA,NA,NA,16,"Welfare gains for all generations across all regions, initial year"
+67,Welfare Gains,Global,4x UWI,2017,No CC,percent,3.0,NA,NA,NA,NA,NA,16,"Welfare gains for all generations across all regions, initial year"
+68,Welfare Losses,Global,6x damage,2017,No Transfers,percent,-18.0,NA,NA,NA,NA,NA,16,"Welfare losses for some generations without transfers, initial year"
+69,Welfare Gains,Global,6x damage,2017,No Transfers,percent,47.6,NA,NA,NA,NA,NA,16,"Welfare gains for some generations without transfers, initial year"
+70,Consumption,India,6x UWI,2217,No CC,percent,-40,NA,NA,NA,NA,NA,16,Consumption surrender under UWI policy
+71,Optimal Tax,Global,1x No Transfers,2017,No CC,$ per ton of CO2,22.8,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 1x, no transfers"
+72,Optimal Tax,Global,1x UWI,2017,No CC,$ per ton of CO2,22.4,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 1x, UWI"
+73,Optimal Tax,Global,1x UWIF,2017,No CC,$ per ton of CO2,22.6,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 1x, UWIF"
+74,Optimal Tax,Global,1x UWIL,2017,No CC,$ per ton of CO2,22.4,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 1x, UWIL"
+75,Optimal Tax,Global,2x No Transfers,2017,No CC,$ per ton of CO2,43.9,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 2x, no transfers"
+76,Optimal Tax,Global,2x UWI,2017,No CC,$ per ton of CO2,39.3,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 2x, UWI"
+77,Optimal Tax,Global,2x UWIF,2017,No CC,$ per ton of CO2,42.2,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 2x, UWIF"
+78,Optimal Tax,Global,2x UWIL,2017,No CC,$ per ton of CO2,39.9,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 2x, UWIL"
+79,Optimal Tax,Global,4x No Transfers,2017,No CC,$ per ton of CO2,80.6,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 4x, no transfers"
+80,Optimal Tax,Global,4x UWI,2017,No CC,$ per ton of CO2,66.4,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 4x, UWI"
+81,Optimal Tax,Global,4x UWIF,2017,No CC,$ per ton of CO2,75.2,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 4x, UWIF"
+82,Optimal Tax,Global,4x UWIL,2017,No CC,$ per ton of CO2,68.3,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 4x, UWIL"
+83,Optimal Tax,Global,6x No Transfers,2017,No CC,$ per ton of CO2,111.7,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 6x, no transfers"
+84,Optimal Tax,Global,6x UWI,2017,No CC,$ per ton of CO2,87.5,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 6x, UWI"
+85,Optimal Tax,Global,6x UWIF,2017,No CC,$ per ton of CO2,101.9,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 6x, UWIF"
+86,Optimal Tax,Global,6x UWIL,2017,No CC,$ per ton of CO2,91.4,NA,NA,NA,NA,NA,p. 17,"Initial optimal tax, damage case 6x, UWIL"
+87,Tax Growth Rate,Global,No Transfers,2067,2017,percent per year,1.8,NA,NA,NA,NA,NA,p. 17,"Average growth rate of optimal tax over the next 50 years, damage case 1x, no transfers"
+88,Tax Growth Rate,Global,UWI,2067,2017,percent per year,1.8,NA,NA,NA,NA,NA,p. 17,"Average growth rate of optimal tax over the next 50 years, damage case 1x, UWI"
+89,Tax Growth Rate,Global,UWIF,2067,2017,percent per year,1.8,NA,NA,NA,NA,NA,p. 17,"Average growth rate of optimal tax over the next 50 years, damage case 1x, UWIF"
+90,Tax Growth Rate,Global,UWIL,2067,2017,percent per year,1.8,NA,NA,NA,NA,NA,p. 17,"Average growth rate of optimal tax over the next 50 years, damage case 1x, UWIL"
+91,Welfare,Global,1x No Transfers,2017,No CC,percent,-9.1,NA,NA,NA,95%,-8.0,p. 17,"Welfare gains, damage case 1x, no transfers"
+92,Welfare,Global,1x UWI,2017,No CC,percent,0.6,NA,NA,NA,NA,NA,p. 17,"Welfare gains, damage case 1x, UWI"
+93,Welfare,Global,1x UWIF,2017,No CC,percent,0.0,NA,NA,NA,95%,0.9,p. 17,"Welfare gains, damage case 1x, UWIF"
+94,Welfare,Global,1x UWIL,2017,No CC,percent,0.6,NA,NA,NA,NA,NA,p. 17,"Welfare gains, damage case 1x, UWIL"
+95,Welfare,Multiple regions,UWI,2017,BAU,percent,4.3,NA,NA,NA,NA,NA,18,Uniform welfare gain across regions that do not exceed limits
+96,Welfare,Multiple regions,UWIL,2017,BAU,percent,4.0,NA,NA,NA,NA,NA,18,Welfare gain for multiple regions not exceeding the 10% limit
+97,Temperature,Global,BAU,2100,Pre-industrial,degrees Celsius,2.0,NA,NA,NA,NA,NA,19,"The model projects that with carbon taxation, the rise in global temperature stays within or near the 2.0-degree limit set in the Paris Agreement."
+98,GDP,India,BAU,2100,No CC,percent,-10,NA,NA,NA,NA,NA,19,Climate damages in India are extremely large.
+99,GDP,ANZ,BAU,2100,No CC,percent,-20,NA,NA,NA,NA,NA,19,Maximal climate damages drop from 20 percent to just above 10 percent.
+100,GDP,China,BAU,2100,No CC,percent,-16,NA,NA,NA,NA,NA,19,Damages drop from above 16 percent to around 8 percent of GDP with carbon tax.
+101,GDP,US,BAU,2100,No CC,percent,-16,NA,NA,NA,NA,NA,19,Damages drop from above 16 percent to around 8 percent of GDP with carbon tax.
+102,GDP,Russia,BAU,2100,No CC,percent,0,NA,NA,NA,NA,NA,19,Climate damages in Russia are negative. Assuming 0 as negligible impact.
+103,GDP,Canada,BAU,2100,No CC,percent,0,NA,NA,NA,NA,NA,19,Climate damages in Canada are negative. Assuming 0 as negligible impact.
+104,Emissions,China,BAU,2037,BAU with no Policy,years earlier,55,NA,NA,NA,NA,NA,19,"China stops using all fossil fuels in roughly 20 years with carbon tax compared to 75 years under BAU, hence is 55 years earlier."
+105,Emissions,Russia,BAU,2100,BAU with no Policy,years earlier,80,NA,NA,NA,NA,NA,19,Russia stops emitting carbon roughly 80 years earlier than in BAU due to the carbon policy.
+106,Consumption,India,UWI,2217,No CC,percent of regional GDP,-40.0,NA,NA,NA,NA,NA,23,Indians born in 200 years would be required under the UWI policy to surrender around 40 percent of their consumption to help service outstanding carbon-policy debt.
+107,Consumption,BRA,UWI,2217,No CC,percent of regional GDP,-20.0,NA,NA,NA,NA,NA,23,Future generations need to transfer more than 20 percent of their consumption to other regions and generations.
+108,Consumption,SAP,UWI,2217,No CC,percent of regional GDP,-20.0,NA,NA,NA,NA,NA,23,Future generations need to transfer more than 20 percent of their consumption to other regions and generations.
+109,Consumption,MENA,UWI,2217,No CC,percent of regional GDP,-20.0,NA,NA,NA,NA,NA,23,Future generations need to transfer more than 20 percent of their consumption to other regions and generations.
+110,Consumption,SLA,UWI,2217,No CC,percent of regional GDP,-20.0,NA,NA,NA,NA,NA,23,Future generations need to transfer more than 20 percent of their consumption to other regions and generations.
+111,Consumption,SSA,UWI,2217,No CC,percent of regional GDP,-20.0,NA,NA,NA,NA,NA,23,Future generations need to transfer more than 20 percent of their consumption to other regions and generations.
+112,Share of World GDP,USA,6x damage scenario; Optimal,2100,2017,%,14.84,NA,NA,NA,NA,NA,Page 24,USA's share of world GDP under the Optimal 6x damage scenario in 2100 is projected to decrease compared to 2017.
+113,Share of World GDP,CHI,6x damage scenario; BAU,2100,2017,%,32.61,NA,NA,NA,NA,NA,Page 24,China's share of world GDP is projected to significantly increase by 2100 in the BAU scenario.
+114,Share of World GDP,IND,6x damage scenario; UWI,2100,"BAU scenario, same year",%,6.43,NA,NA,NA,NA,NA,Page 24,"India's share of world GDP is projected to reach 6.43% under the UWI policy in 2100, compared to 5.38% without it."
+115,Social Cost of Carbon (SCC),India,6x damage scenario BAU,2017,No CC,USD,10.58,NA,NA,NA,NA,NA,Page 26,The SCC for India under the 6x damage scenario BAU case.
+116,Social Cost of Carbon (SCC),Brazil,6x damage scenario BAU,2017,No CC,USD,3.12,NA,NA,NA,NA,NA,Page 26,The SCC for Brazil under the 6x damage scenario BAU case.
+117,Social Cost of Carbon (SCC),Global,6x damage scenario BAU,2017,No CC,USD,111.69,NA,NA,NA,NA,NA,Page 26,The global SCC under the 6x damage scenario BAU case.
+118,GDP,ANZ,NA,2017,US,index,7.85,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+119,Energy Consumption,ANZ,NA,2017,US,index,7.16,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+120,CO2 emissions,ANZ,NA,2017,US,index,8.41,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+121,GDP,BRA,NA,2017,US,index,10.57,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+122,Energy Consumption,BRA,NA,2017,US,index,12.87,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+123,CO2 emissions,BRA,NA,2017,US,index,10.28,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+124,GDP,CND,NA,2017,US,index,8.47,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+125,Energy Consumption,CND,NA,2017,US,index,15.41,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+126,CO2 emissions,CND,NA,2017,US,index,12.01,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+127,GDP,CHI,NA,2017,US,index,62.29,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+128,Energy Consumption,CHI,NA,2017,US,index,142.65,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+129,CO2 emissions,CHI,NA,2017,US,index,195.75,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+130,GDP,EEU,NA,2017,US,index,1.33,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+131,Energy Consumption,EEU,NA,2017,US,index,5.89,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+132,CO2 emissions,EEU,NA,2017,US,index,5.96,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+133,GDP,GBR,NA,2017,US,index,13.70,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+134,Energy Consumption,GBR,NA,2017,US,index,8.41,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+135,CO2 emissions,GBR,NA,2017,US,index,7.75,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+136,GDP,IND,NA,2017,US,index,13.60,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+137,Energy Consumption,IND,NA,2017,US,index,31.18,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+138,CO2 emissions,IND,NA,2017,US,index,42.79,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+139,GDP,JSHK,NA,2017,US,index,36.28,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+140,Energy Consumption,JSHK,NA,2017,US,index,37.75,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+141,CO2 emissions,JSHK,NA,2017,US,index,44.67,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+142,GDP,MENA,NA,2017,US,index,21.65,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+143,Energy Consumption,MENA,NA,2017,US,index,56.05,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+144,CO2 emissions,MENA,NA,2017,US,index,60.74,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+145,GDP,MEX,NA,2017,US,index,5.95,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+146,Energy Consumption,MEX,NA,2017,US,index,8.09,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+147,CO2 emissions,MEX,NA,2017,US,index,8.75,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+148,GDP,RUS,NA,2017,US,index,8.11,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+149,Energy Consumption,RUS,NA,2017,US,index,33.59,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+150,CO2 emissions,RUS,NA,2017,US,index,34.30,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+151,GDP,SAF,NA,2017,US,index,1.80,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+152,Energy Consumption,SAF,NA,2017,US,index,5.81,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+153,CO2 emissions,SAF,NA,2017,US,index,8.81,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+154,GDP,SAP,NA,2017,US,index,12.83,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+155,Energy Consumption,SAP,NA,2017,US,index,20.81,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+156,CO2 emissions,SAP,NA,2017,US,index,24.69,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+157,GDP,SLA,NA,2017,US,index,10.72,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+158,Energy Consumption,SLA,NA,2017,US,index,15.79,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+159,CO2 emissions,SLA,NA,2017,US,index,14.52,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+160,GDP,SOV,NA,2017,US,index,1.85,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+161,Energy Consumption,SOV,NA,2017,US,index,9.06,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+162,CO2 emissions,SOV,NA,2017,US,index,10.53,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+163,GDP,SSA,NA,2017,US,index,5.13,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+164,Energy Consumption,SSA,NA,2017,US,index,4.94,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+165,CO2 emissions,SSA,NA,2017,US,index,4.90,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+166,GDP,US,NA,2017,US,index,100.00,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+167,Energy Consumption,US,NA,2017,US,index,100.00,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+168,CO2 emissions,US,NA,2017,US,index,100.00,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+169,GDP,WEU,NA,2017,US,index,81.79,NA,NA,NA,NA,NA,29,GDP index is relative to the US
+170,Energy Consumption,WEU,NA,2017,US,index,67.98,NA,NA,NA,NA,NA,29,Energy consumption index is relative to the US
+171,CO2 emissions,WEU,NA,2017,US,index,63.20,NA,NA,NA,NA,NA,29,CO2 emission index is relative to the US
+172,GDP,Global,DICE,2017,Krusell–Smith,%,0,NA,NA,NA,NA,NA,32,Figure 13 compares global damages as a share of GDP between the DICE and Krusell-Smith models; damage share not reported on this page.
+173,Welfare,Global,UWI,2017,BAU,%,4.3,NA,NA,NA,NA,NA,Notes,Optimal UWI policy achieves a 4.3 percent welfare gain but requires substantial inter-generational and inter-regional net transfers.
+174,Oil Consumption,Global,6x damage specification,2017,No CC,quad Btu,0,NA,NA,NA,NA,NA,34,"Based on Figure 14. The figure presents oil consumption under different policies (BAU, UWI, UWIF, UWIL) in the 6x damage scenario from 2017 onwards, but without specific values available to extract. The y-axis represents oil consumption in quad Btu, and the x-axis represents years from 2017. Quantitative information is presented in the graph, but not in tabular format or explicit number. Assumed to be zero change relative to no climate change, as that is the base year and starting point."
+175,Gas Consumption,Global,6x damage specification,2017,No CC,quad Btu,0,NA,NA,NA,NA,NA,35,"The provided text describes a figure depicting gas consumption under different policies and a 6x damage specification, starting in 2017, but does not provide specific quantitative data. Assuming gas consumption is non-zero in the absence of specific values, I'm representing this with '0' relative to no climate change as a placeholder. This should be updated with actual data from the figure."

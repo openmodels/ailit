@@ -10,7 +10,13 @@ def add_response(response_file, doi, source, response):
         writer = csv.writer(fp)
         writer.writerow([doi, source, response.replace("\n", " ")])
 
-def iterate_search(source):
+def iterate_search(source, filter_config={}):
+    for row in iterate_search_helper(source):
+        if 'MinYear' in filter_config:
+            if row['Year'] >= filter_config['MinYear']:
+                yield row
+        
+def iterate_search_helper(source):
     if source[-4:] == '.csv':
         df = pd.read_csv(source)
         for index, row in df.iterrows():
@@ -64,3 +70,23 @@ def get_summaries(summary_file, dopass):
         knowndoi = []
 
     return done, knowndoi
+
+def determine_passfail(outcomes):
+    # Convert outcomes to a list and make it a set for easy checks
+    outcomes_set = set(outcomes)
+    
+    if 'Passed' in outcomes_set and 'Failed' not in outcomes_set:
+        return 'Passed'
+    if 'Failed' in outcomes_set and 'Passed' not in outcomes_set:
+        return 'Failed'
+    if 'Passed' in outcomes_set and 'Failed' in outcomes_set:
+        return 'Ambiguous'
+    
+    # Calculate modal outcome if possible
+    value_counts = outcomes.value_counts()
+
+    if value_counts.iloc[0] > (value_counts.iloc[1] if len(value_counts) > 1 else 0):
+        return value_counts.index[0]
+    
+    # If no modal, default to Unknown
+    return 'Unknown'

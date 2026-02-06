@@ -1,0 +1,140 @@
+Drivers of Risk:
+  1: Climate change emission scenarios (SSP1-2.6 and SSP5-8.5)
+  2: Climate change, specifically global warming and increasing CO2 levels, and invasive
+    species are identified as drivers of risk.
+  3: Climatic variables from the WorldClim database (19 bioclimatic variables from
+    1970-2000).
+  4: No relevant information
+  5: No relevant information
+  6: Temperature seasonality (bio_4), annual average temperature (bio_1), and annual
+    precipitation (bio_12) are identified as important environmental variables influencing
+    the occurrence of Aceria guerreronis.
+  7: Climate change (future predictions under SSP2.6 and SSP8.5)
+  8: Climate conditions in 2040 and 2060 under shared socio-economic pathway (SSP2.6).
+  11: "The key climatic factors influencing the distribution of A. guerreronis are\
+    \ temperature (ideal range 9.3-33.6\xB0C, detrimental above 40\xB0C, can survive\
+    \ brief frost), drought, and high temperatures. The model predicts a contraction\
+    \ of suitable areas from SSPs 2.6 to 8.5 due to rising global temperatures and\
+    \ a shift of ecological range in certain areas."
+  14: Climate change, invasive species, and environmental change are discussed as
+    drivers of risk.
+Evaluation overview:
+  1: Significant economic losses
+  2: Economic copra losses and coconut fruit yield reductions are being evaluated.
+  3: The potential distribution of the coconut mite (Aceria guerreronis).
+  4: No relevant information
+  5: No relevant information
+  6: No relevant information
+  7: Habitat suitability for Aceria guerreronis (coconut mite)
+  8: Predicted future distribution of Aceria guerreronis (a pest) under climate change
+    scenarios.
+  11: The paper evaluates the potential distribution of the coconut mite (A. guerreronis)
+    and how climate change impacts this distribution.
+  14: The listed papers cover impacts on species distributions, crop loss, pest management,
+    and extinction/survival of species.
+Highlights:
+  1: The MaxEnt model predicts the habitat suitability for A. guerreronis outside
+    its present distribution, with suitable habitats in Oceania, Asia, Africa, and
+    the Americas.
+  2: The coconut mite (Aceria guerreronis) is an invasive pest that poses a serious
+    threat to the coconut industry worldwide, and climate change affects its distribution.
+  3: Provides information for the implementation of quarantine measures and highlight
+    the need for policy formulation regarding coconut mite distribution.
+  4: MaxEnt model provided satisfactory results with an AUC value of 0.975 for predicting
+    the distribution of *Aceria guerreronis*.
+  5: Persistent correlation between Aceria guerreronis occurrence and environmental
+    conditions such as seasonality of temperature and annual precipitation.
+  6: Temperature seasonality, annual average temperature, and annual precipitation
+    are the best predictors of Aceria guerreronis occurrence.
+  7: Future predictions show an expansion of habitat suitability from the current
+    time to the future under SSP2.6. Major coconut-producing countries like Indonesia,
+    India, Sri Lanka, Brazil, Vietnam, and the Philippines will continue to remain
+    suitable in the future under SSP2.6.  Under SSP8.5, the model predicts that suitable
+    areas for A. guerreronis will decrease from 2040 to 2060, but the areas with medium
+    to high suitability will mainly be found on the west and east coasts of Africa,
+    the east coast of South America, south and east coasts of Asia, and the north
+    coast of Oceania.
+  8: The model predicts shifts in habitat suitability for Aceria guerreronis under
+    future climate conditions, with variations depending on the dataset used (all
+    occurrences, excluding Ghana, only Ghana).
+  11: Climate change will significantly impact the global distribution of A. guerreronis.
+    The model predicts an expansion of habitat suitability outside the known distribution,
+    particularly in Indonesia, Vietnam, Papua New Guinea, Mexico, Thailand, and Myanmar.
+    The model also predicts that regions currently unsuitable for coconut mites (e.g.,
+    Brazil, India, Australia, Nigeria, and Kenya) will become suitable habitats by
+    2040.
+Methodology:
+  1: Machine learning algorithm based on maximum entropy (MaxEnt), AR6
+  2: Species distribution models (SDMs), particularly Maximum Entropy (MaxEnt), are
+    used to predict habitat suitability based on environmental data. SDMs are identified
+    as useful tools for evaluating potential pest responses to climate change at large
+    spatial and temporal scales.
+  3: Used MaxEnt to model and map regions suitable for coconut mites, using climatic
+    data from WorldClim. Spatial filtering using the R package spThin was used to
+    reduce spatial autocorrelation. The Maximum Test Sensitivity Plus Specificity
+    (MTSPS) threshold was used to extract suitable/unsuitable areas.
+  4: "MaxEnt model based on 19 bioclimatic datasets; 80% of occurring sites used as\
+    \ training data, 20% as test data; four suitability classes (unsuitable: 0-MTSPS;\
+    \ low: MTSPS-0.5; medium: 0.5 \u20130.7 and high: 0.7 \u20131.0) used to predict\
+    \ future areas."
+  5: Environmental niche models were developed using MaxEnt model and jackknife tests
+    to evaluate contribution of environmental variables.
+  6: The analysis uses a jackknife test of regularized training gain and a jackknife
+    of AUC to assess the relative importance of environmental variables. Response
+    curves are generated to show the relationship between environmental variables
+    and Aceria guerreronis occurrence, based on regularized training gain. The model
+    is based on 10 replicates (for response curves).
+  7: Species distribution modeling based on current distribution and future climate
+    scenarios (SSP2.6 and SSP8.5).
+  8: Species distribution modeling was used to predict habitat suitability based on
+    climate scenarios and occurrence data of Aceria guerreronis. The model was run
+    using all occurrences, occurrences excluding Ghana, and only Ghana occurrences.
+  11: The study uses bioclimatic variables and elevation datasets to model the distribution
+    of A. guerreronis under two socioeconomic pathways (SSPs 2.6 and 8.5), projecting
+    from the current time to 2060. The authors used a filtering method to reduce spatial
+    aggregation of records in their models.
+  14: MaxEnt modeling is used in several studies to predict species distributions
+    under climate change scenarios.
+More Notes:
+  1: Areas with the highest risk have annual average temperature of around 25 degrees
+    Celsius, mean annual precipitation of about 1459 mm, mean precipitation seasonality
+    close to 64%, average variation of daytime temperature of about 8.6 degrees Celsius,
+    and mean seasonality of temperature of about 149.7 degrees Celsius.
+  3: Occurrence data was gathered from a nationwide survey in Ghana (April 2019 -
+    February 2021) and supplemented by a literature search and online databases.
+  4: The study models the distribution of *Aceria guerreronis*, a species illustrated
+    in the figure. The maps (A, B, C) depict the initial, thinned, and final occurrences
+    used for modelling.
+  5: The analysis primarily focuses on the predicted distribution of A. guerreronis,
+    with no direct mention of broader climate-related impacts.
+  6: The paper examines the impact of climate variables on the occurrence of the species
+    Aceria guerreronis, likely a pest based on the journal title. The analysis focuses
+    on identifying key environmental drivers and quantifying their influence on the
+    species distribution using training gain and AUC. Logistic output responses of
+    the species to temperature seasonality, annual average temperature, and annual
+    precipitation are shown.
+  7: The analysis appears to be focused on habitat suitability rather than direct
+    impacts such as coconut yield or mortality.
+  8: The maps show that the spatial distribution of suitable habitats for the pest
+    will likely shift across South America, Africa, and Asia in 2040 and 2060.
+  11: The model predictions are consistent with the historical records of the pest.
+    The authors acknowledge limitations, including the lack of consideration of host
+    plants in the model, anthropogenic activities, and other factors like geographic
+    barriers and land-use changes. The authors suggest the model should be continually
+    run when A. guerreronis records are updated.
+Quantitative material:
+  1: Habitat suitability will decrease from 2040 to 2060
+  2: "Significant economic copra losses associated with mite infestations ranged from\
+    \ 10% to 16% in West Africa, 0%\u201330% in Mexico, and 0%\u201331.5% in St. Lucia."
+  3: Mentions a suitability index ranging from 0 to 1, where 0 indicates inadequacy
+    and 1 optimal suitability. Also, Pearson correlation coefficients with values
+    >= 0.7 for variable selection. AUC values are used to evaluate model performance.
+  4: MaxEnt model with AUC value of 0.975
+  5: Environmental variables like seasonality of temperature and annual average temperature
+    contribute 84.61% to the model, with rainfall conditions contributing 15.38%.
+  6: AUC values range from 0.72 to 0.98 for the jackknife of AUC analysis.
+  7: Model predicts a reduction in habitat suitability from 2040 to 2060 under SSP8.5.
+  8: Projections of habitat suitability (high, medium, low, unsuitable) are presented
+    visually in maps for 2040 and 2060 under SSP2.6, but no specific numbers are given.
+  11: The study predicts a shift in the ecological range of A. guerreronis such that
+    areas presently highly suitable will become less so by 2060.

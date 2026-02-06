@@ -155,10 +155,16 @@ if __name__ == '__main__':
             doisummaries.append(rows)
 
         doisummaries = pd.concat(doisummaries, ignore_index=True)
-        dropped = doisummaries[doisummaries[extract_fromsummary] == ""]
+        if extract_fromsummary == 'All':
+            dropped = []
+        else:
+            dropped = doisummaries[doisummaries[extract_fromsummary] == ""]
         
         for key, columns in merge_columns.items():
-            applied = doisummaries[doisummaries[extract_fromsummary] == key]
+            if extract_fromsummary == 'All':
+                applied = doisummaries
+            else:
+                applied = doisummaries[doisumkey == key]
             applied = applied[columns.keys()]
 
             if len(applied) <= len(dropped):
@@ -197,7 +203,7 @@ if __name__ == '__main__':
                         rows = pd.read_csv(detailpath)
                         rows = rows.loc[:, ~rows.columns.str.startswith('Unnamed')]
                         detaileds.append(rows)
-                    except:
+                    except Exception as ex:
                         print(f"Failed to read {detailpath}.")
 
             if len(detaileds) == 0:
@@ -209,7 +215,10 @@ if __name__ == '__main__':
                 else:
                     paperinfo = [f"  {key}: {value.iloc[0]}" for key, value in newrow.items() if not pd.isna(value.iloc[0]) and not key[:7] == "Unnamed"]
                     instructs = column_defs_extract[key]
-                    request = extract_request[key]
+                    if isinstance(extract_request, str):
+                        request = extract_request
+                    else:
+                        request = extract_request[key]
                 
                     validrows = merge_extract(verdictrow, detaileds, "\n".join(paperinfo), request, instructs)
                     validrows2 = pd.DataFrame(validrows)

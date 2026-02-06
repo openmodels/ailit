@@ -1,0 +1,145 @@
+Driver of Risk:
+  6: Sea level rise linked to climate change and its impact on coastal water levels,
+    flooding, and damage in New York, New Jersey, and Connecticut.
+Drivers of Risk:
+  1: Sea level rise driven by anthropogenic climate change is a key factor contributing
+    to increased flooding and economic damages from Hurricane Sandy.
+  2: Climate-related anthropogenic sea level rise (ASLR).
+  3: Global temperature timeseries, stable or cooling temperatures (counterfactual
+    scenarios), natural forcing only experiments
+  4: Anthropogenic sea level rise (ASLR) and coastal flooding from Hurricane Sandy.
+  5: Anthropogenic sea level rise (ASLR) and total climate-linked sea level rise.
+  7: The study examines the impact of coastal flooding due to sea-level rise (ASLR)
+    during Hurricane Sandy.
+  8: Storms, sea-level rise
+  9: No relevant information
+Evaluation overview:
+  1: This study evaluates the economic damages from Hurricane Sandy attributable to
+    sea level rise caused by anthropogenic climate change.
+  2: Flood impacts of cyclonic coastal storms, specifically damages from Hurricane
+    Sandy.
+  3: Global Mean Sea Level Rise (GMSL) and Anthropogenic Sea Level Rise (ASLR)
+  4: Damages from Hurricane Sandy, focusing on repair, response, and restoration costs.
+  5: Property damage, population exposure, and housing unit exposure to sea level
+    rise in the tri-state area (New York, New Jersey, Connecticut) and New York City.
+  7: Property damage is calculated using the standard HAZUS-MH method from the U.S.
+    Federal Emergency Management Agency, based on depth-damage curves which denote
+    the vulnerability of a specific asset to different flood depths.
+  8: Damage assessment
+  9: No relevant information
+Highlights:
+  1: The study provides a quantitative attribution of a significant portion of Hurricane
+    Sandy's damages to human-induced sea level rise.
+  2: Human-caused sea level rise has contributed to damages associated with past coastal
+    floods and will increasingly aggravate damages in the future. The approach demonstrated
+    here may be applied to quantify those damages. Median ASLR for New York is 87%,
+    91%, and 92% of median global ASLR under low-, central- and high-attribution scenarios,
+    respectively.
+  3: Semi-empirical estimates for both global and New York ASLR have a high overlap
+    with budget-based findings. Modeled historical results are broadly consistent
+    with sea level observations.
+  4: Climate-mediated anthropogenic sea level rise significantly contributed to damages
+    from Hurricane Sandy. Spatial bias correction is important. Simpler models can
+    serve as useful proxies.
+  5: Anthropogenic sea level rise (ASLR) leads to increased flood extent and depth,
+    resulting in greater exposure of people and housing units and increased property
+    damage.
+  6: Sea level rise provides a strong foundation for event and impact attribution,
+    with the study advancing progress by measuring additional exposure and damage
+    associated with events like Hurricane Sandy.
+  7: Damages and exposures for precise amounts of ASLR (i.e., different percentiles
+    of different budget-based, semi-empirical, or integrated scenarios) are interpolated
+    between results for various water levels (from 4, 8, 10, 12, 14, 16, 20, and 24
+    cm of ASLR).
+  9: No relevant information
+Methodology:
+  1: The approach used in the study can be applied to impact assessments for past
+    and future coastal storms.
+  2: "Used a high-resolution dynamic flood model and spatially varying error correction\
+    \ to simulate Sandy's peak flood under actual and counterfactual sea level conditions.\
+    \ Global mean sea level (GMSL) increased 17.9 \xB1 4.5 cm (1\u03C3) over 1900\u2013\
+    2012.  Estimates for anthropogenic sea level rise (ASLR) were developed through\
+    \ 2012. Budget-based attribution of sea level rise was performed, constructing\
+    \ a global mean sea-level-rise budget for the study period (based on contributions\
+    \ from land-ice melt, ocean thermal expansion, and land-water-storage changes),\
+    \ which was then applied with GRD sea level \uFB01ngerprints to develop a New\
+    \ York budget. Semi-empirical estimates were also developed, updating K16 and\
+    \ finding that human-caused sea level rise contributed to damages associated with\
+    \ other past coastal \uFB02oods and will increasingly aggravate damages in the\
+    \ future as sea levels continue to rise, driven by anthropogenic warming. Under\
+    \ the central scenario, 9.8 cm (6.4\u201313.7 cm) of global mean sea level rise\
+    \ and 8.9 cm (5.2\u201313.1 cm) of New York-area rise are attributable to human\
+    \ causes mediated by climate change (Table 1)."
+  3: Semi-empirical modeling based on global temperature reconstructions and CMIP5
+    climate model simulations; comparison of historical and counterfactual GMSL estimates
+    to attribute anthropogenic contributions
+  4: Hydrodynamic modeling and spatial bias correction to simulate Sandy's flood with
+    actual sea level as a baseline and then with lower sea levels to assess the impact
+    of ASLR. A common damage model is then applied. Compares results with and without
+    spatial bias correction and simplifications to the full model (hydrodynamic simulation
+    plus damage modeling, or simulation alone).
+  5: Total ensemble ASLR estimates are derived from sea-level-budget reconstruction
+    and semi-empirical modeling. Hydrodynamic simulation and spatial bias correction
+    are used along with flood-depth-based assessment of property damage.
+  6: The analysis applies a relationship between global and New York sea-level rise
+    using a budget approach, employing semi-empirical models and simulations to estimate
+    damage during past and potential future storms.
+  7: Hydrodynamic flood simulations are performed using the U.S. Army Corps of Engineers
+    Coastal Storm Modeling System (CSTORM-MS). The study combines budget-based and
+    semi-empirical modeling approaches to develop a total ensemble of sea level rise
+    scenarios, and estimates the fraction of damages attributable to ASLR.
+  8: Damage assessment was performed using HAZUS-MH software version MR4; standard
+    GIS software was used.
+  9: No relevant information
+More Notes:
+  3: The study estimates anthropogenic contributions to sea level rise by comparing
+    historical sea level rise with counterfactual scenarios (stable or cooling temperatures).
+    The study also investigates the methodology of K16.
+  4: The study focuses on the tri-state area of New York, New Jersey, and Connecticut.
+    Riverine flood damages were considered negligible due to low rainfall during the
+    storm.
+  5: The study uses independent methodologies for estimating attributable sea level
+    rise, a best practice in extreme event attribution science. The study's findings
+    are consistent with observations and budgeted/modeled total global mean sea level
+    rise.
+  7: The study utilizes a spatially coherent bias correction to correct for errors
+    in flood modeling. The code for performing spatial bias corrections and other
+    analyses is publicly available on GitHub, although some code related to exposure
+    assessment is not publicly available due to licensing restrictions.
+  8: The paper appears to be related to Hurricane Sandy, given the numerous references
+    to it.
+  9: This page includes references, acknowledgements, author contributions, competing
+    interests, additional information (supplementary materials, correspondence), peer
+    review information, reprints/permissions, publisher's note, and the open access
+    license. It does not appear to have any details about the study's methodology,
+    results, or other information that is relevant to assessing direct climate impacts
+    beyond what might be gleaned from the titles of the cited works.
+Quantitative material:
+  1: "Extension of the flood area due to sea level rise affected 71 thousand additional\
+    \ people (40\u2013131 thousand, 5th\u201395th percentiles)."
+  2: Estimated that climate-mediated ASLR drove multi-billions of dollars of damage
+    from Hurricane Sandy.
+  3: 'Estimates of ASLR for 1900-2012, with medians and 5th-95th percentile ranges;
+    example, ''Total ensemble'': 9.6 cm (5.6-15.6 cm)'
+  4: "13% (7.5\u201323%) of Sandy damages in the tri-state area (New York, New Jersey,\
+    \ and Connecticut) are attributable to climate-mediated ASLR, amounting to $8.1B\
+    \ ($4.7B\u2013$14B). $1.5B ($0.9B\u2013$2.5B) in damages attributable to total\
+    \ ensemble ASLR in New York City. Global total ensemble ASLR estimate is 10.5\
+    \ cm (6.6\u201317.1 cm) and the New York-area estimate is 9.6 cm (5.6\u201315.6\
+    \ cm)."
+  5: "Estimates of attributable sea level rise (ASLR) leading to: percentage increase\
+    \ in property damage, population exposure (thousands), and housing exposure (thousands)\
+    \ for the tri-state area, New York City, New Jersey, and Connecticut; Additional\
+    \ 71 (40\u2013131) thousand more people and 36 (21\u201366) thousand more housing\
+    \ units exposed in the tri-state area; 9.2% (5.3\u201317%) and 8.8% (5.0\u2013\
+    16%) increases in population and housing exposure, respectively, in the tri-state\
+    \ area; Example: 13.0% (7.5\u201322.5%) attributable damage in Tri-State Area;\
+    \ Example: 9.2% (5.3\u201317.1%) attributable population in Tri-State Area; Example:\
+    \ 8.8% (5.0\u201316.0%) attributable housing in Tri-State Area"
+  7: "Sandy historical run is implemented with a mean sea level offset of +10 cm,\
+    \ ensemble of counterfactual runs includes mean sea level perturbations, relative\
+    \ to the historical run, of \u221224, \u221220, \u221216, \u221214, -12, -10,\
+    \ -8, and -4 cm, bias-corrected modeled maximum water levels have a reduced mean\
+    \ bias of \u22120.1 cm and RMSE of 22.3 cm."
+  8: No relevant information
+  9: No relevant information

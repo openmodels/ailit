@@ -1,0 +1,72 @@
+,Outcome,Region,Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Growth rate,Global,Historical,1997,No dry spells,% change/day,0,NA,NA,NA,NA,NA,12,"β1 is the marginal direct effect of an additional dry spell day across all cropped areas in a country on growth in the FAO CPI. This value is unknown from this page, but is a regression coefficient that would appear as a number in the actual results."
+1,Crop Production,Global,Baseline,2016,Additively Separable Effects,% point growth / dry spell day,-0.1,NA,NA,NA,NA,NA,17,FAO CPI used as a proxy for crop production. Effect is interpreted as direct effect of dry spells due to conditioning on drought. Based on 1979-2016 data.
+2,Crop production,Global,Historical,2016,No dry spell,growth/day,-0.00,NA,NA,NA,NA,NA,18,The main effect of an additional day in a 28+ day dry spell on growth in crop production is negative. Study period 1979-2016.
+3,Crop production growth,Global,Historical,1979,All data,corr,-0.045,NA,2.5%,-0.087,97.5%,-0.004,34,Correlation between dry spell exposure and crop production growth
+4,Crop production growth,Global,Historical,1979,SPEI <= 0,corr,-0.058,NA,2.5%,-0.108,97.5%,-0.012,34,Correlation between dry spell exposure and crop production growth during drought conditions (SPEI <= 0)
+5,Crop production growth,Global,Historical,1979,SPEI > 0,corr,-0.021,NA,2.5%,-0.093,97.5%,0.045,34,Correlation between dry spell exposure and crop production growth when not in drought conditions (SPEI > 0)
+6,Crop production growth,Global,Historical,1979,SPEI diff,corr diff,-0.037,NA,2.5%,-0.122,97.5%,0.036,34,Difference in correlation between dry spell exposure and crop production growth during and not during drought conditions
+7,Crop production growth,Global,Historical,1979,AI < med,corr,-0.055,NA,2.5%,-0.109,97.5%,-0.005,34,Correlation between dry spell exposure and crop production growth in regions with aridity index below median
+8,Crop production growth,Global,Historical,1979,AI > med,corr,-0.009,NA,2.5%,-0.042,97.5%,0.018,34,Correlation between dry spell exposure and crop production growth in regions with aridity index above median
+9,Crop production growth,Global,Historical,1979,AI diff,corr diff,-0.046,NA,2.5%,-0.106,97.5%,0.012,34,Difference in correlation between dry spell exposure and crop production growth in regions with aridity index below and above median
+10,Crop Production,Global,Historical,2000,No Dry Spell,FAO CPI / dry spell day,-0.0003,0.0004,NA,NA,NA,NA,35,7+ day dry spell
+11,Crop Production,Global,Historical,2000,No Dry Spell,FAO CPI / dry spell day,-0.0005,0.0004,NA,NA,NA,NA,35,14+ day dry spell
+12,Crop Production,Global,Historical,2000,No Dry Spell,FAO CPI / dry spell day,-0.0009,0.0005,NA,NA,NA,NA,35,"21+ day dry spell, p<0.1"
+13,Crop Production,Global,Historical,2000,No Dry Spell,FAO CPI / dry spell day,-0.0012,0.0005,NA,NA,NA,NA,35,"28+ day dry spell, p<0.05"
+14,Crop Production,Global,Historical,2000,No Dry Spell,FAO CPI / dry spell day,-0.0013,0.0005,NA,NA,NA,NA,35,"35+ day dry spell, p<0.05"
+15,Crop production,Global,Historical,2016,No heat wave,unitless,-0.0016,0.0006,NA,NA,NA,NA,36,"Effect of dry spell days alone (main effect), heat waves defined as 3+ day heat waves"
+16,Crop production,Global,Historical,2016,No heat wave,unitless,-0.0013,0.0005,NA,NA,NA,NA,36,"Effect of dry spell days alone (main effect), heat waves defined as 6+ day heat waves"
+17,Crop production,Global,Historical,2016,No heat wave,unitless,-0.0012,0.0005,NA,NA,NA,NA,36,"Effect of dry spell days alone (main effect), heat waves defined as 9+ day heat waves"
+18,Crop production,Global,Historical,2016,No heat wave,unitless,-0.0012,0.0005,NA,NA,NA,NA,36,"Effect of dry spell days alone (main effect), heat waves defined as 12+ day heat waves"
+19,Crop production,Global,Historical,2016,No dry spell,unitless,-0.0098,0.0019,NA,NA,NA,NA,36,"Effect of heat wave days alone (main effect), heat waves defined as 3+ day heat waves"
+20,Crop production,Global,Historical,2016,No dry spell,unitless,-0.0228,0.0044,NA,NA,NA,NA,36,"Effect of heat wave days alone (main effect), heat waves defined as 6+ day heat waves"
+21,Crop production,Global,Historical,2016,No dry spell,unitless,-0.0414,0.0077,NA,NA,NA,NA,36,"Effect of heat wave days alone (main effect), heat waves defined as 9+ day heat waves"
+22,Crop production,Global,Historical,2016,No dry spell,unitless,-0.0476,0.0112,NA,NA,NA,NA,36,"Effect of heat wave days alone (main effect), heat waves defined as 12+ day heat waves"
+23,Crop production,Global,Historical,2016,No interaction,unitless,0.0004,0.0001,NA,NA,NA,NA,36,"Interaction of dry spell days and heat wave days, heat waves defined as 3+ day heat waves"
+24,Crop production,Global,Historical,2016,No interaction,unitless,0.0008,0.0002,NA,NA,NA,NA,36,"Interaction of dry spell days and heat wave days, heat waves defined as 6+ day heat waves"
+25,Crop production,Global,Historical,2016,No interaction,unitless,0.0019,0.0003,NA,NA,NA,NA,36,"Interaction of dry spell days and heat wave days, heat waves defined as 9+ day heat waves"
+26,Crop production,Global,Historical,2016,No interaction,unitless,0.0026,0.0031,NA,NA,NA,NA,36,"Interaction of dry spell days and heat wave days, heat waves defined as 12+ day heat waves"
+27,Crop production,Global,Historical,2016,No joint exposure,unitless,0.0025,0.0136,NA,NA,NA,NA,36,"Joint exposure of dry spell and heat wave days, heat waves defined as 3+ day heat waves"
+28,Crop production,Global,Historical,2016,No joint exposure,unitless,-0.0214,0.0460,NA,NA,NA,NA,36,"Joint exposure of dry spell and heat wave days, heat waves defined as 6+ day heat waves"
+29,Crop production,Global,Historical,2016,No joint exposure,unitless,-0.0746,0.1074,NA,NA,NA,NA,36,"Joint exposure of dry spell and heat wave days, heat waves defined as 9+ day heat waves"
+30,Crop production,Global,Historical,2016,No joint exposure,unitless,-0.1845,0.0913,NA,NA,NA,NA,36,"Joint exposure of dry spell and heat wave days, heat waves defined as 12+ day heat waves"
+31,CPI,Global,Observed,2016,Low Aridity,CPI growth/dry spell day,0.0005,0.0006,NA,NA,NA,NA,37,Aridity index less than 0.65
+32,CPI,Global,Observed,2016,High Aridity,CPI growth/dry spell day,-0.0013,0.0005,NA,NA,NA,NA,37,Aridity index greater than 0.65
+33,CPI,Global,Observed,2016,Low Drought,CPI growth/dry spell day,-0.0005,0.0006,NA,NA,NA,NA,37,SPEI less than 0
+34,CPI,Global,Observed,2016,High Drought,CPI growth/dry spell day,-0.0016,0.0005,NA,NA,NA,NA,37,SPEI greater than 0
+35,CPI,Global,Observed,2016,Low Irrigation,CPI growth/dry spell day,-0.0006,0.0008,NA,NA,NA,NA,37,Area equipped for irrigation less than median
+36,CPI,Global,Observed,2016,High Irrigation,CPI growth/dry spell day,-0.0009,0.0006,NA,NA,NA,NA,37,Area equipped for irrigation greater than median
+37,Cereal Yield,Global,Observed,2016,Low Irrigation,Yield growth/dry spell day,-0.0062,0.0034,NA,NA,NA,NA,37,"Area equipped for irrigation less than median, crop area weights"
+38,Cereal Yield,Global,Observed,2016,High Irrigation,Yield growth/dry spell day,0.0040,0.0036,NA,NA,NA,NA,37,"Area equipped for irrigation greater than median, crop area weights"
+39,Cereal Yield,Global,Observed,2016,Low Irrigation,Yield growth/dry spell day,-0.0064,0.0033,NA,NA,NA,NA,37,"Area equipped for irrigation less than median, production weights"
+40,Cereal Yield,Global,Observed,2016,High Irrigation,Yield growth/dry spell day,0.0036,0.0034,NA,NA,NA,NA,37,"Area equipped for irrigation greater than median, production weights"
+41,Crop Production,Global,Historical,2016,No Dry Spell Day,-,-0.0012,0.0005,NA,NA,NA,NA,41,Effect of an additional dry spell day in current year. Specification includes 28+ day dry spells and 9+ day heat waves. p<0.05. Year is end of time series.
+42,Crop Production,Global,Historical,2015,No Dry Spell Day,-,0.0011,0.0006,NA,NA,NA,NA,41,Effect of an additional dry spell day with a 1-year lag. Specification includes 28+ day dry spells and 9+ day heat waves. p<0.1. Year is end of time series - 1 year.
+43,Crop production,Global,Historical,2016,No dry spell day,VA/capita/dry spell day,-0.0013,0.0007,NA,NA,NA,NA,42,Minimum dry spell duration of 28 days and a minimum heat wave duration of 9 days. p<0.1
+44,Crop production,Global,Historical,2016,No dry spell day,VA/capita/dry spell day,-0.0012,0.0005,NA,NA,NA,NA,42,Minimum dry spell duration of 28 days and a minimum heat wave duration of 9 days.  Weighted temporally using cropped area by month from MIRCA2000. p<0.05
+45,Crop production,Global,Historical,2016,No dry spell day,VA/capita/dry spell day,-0.0011,0.0005,NA,NA,NA,NA,42,Minimum dry spell duration of 28 days and a minimum heat wave duration of 9 days.  SPEI is quantified just prior to the first of the 90-hottest day per cell. p<0.05
+46,Crop production,Global,Historical,2016,No dry spell day,VA/capita/dry spell day,-0.0011,0.0005,NA,NA,NA,NA,42,Minimum dry spell duration of 28 days and a minimum heat wave duration of 9 days. Adjust for counts of days in 10F temperature bins in addition to average temperature. p<0.05
+47,Crop production,Global,Historical,2016,No dry spell day,VA/capita/dry spell day,-0.0011,0.0005,NA,NA,NA,NA,42,Minimum dry spell duration of 28 days and a minimum heat wave duration of 9 days. Cubic precipitation and temperature terms. p<0.05
+48,Crop production,Global,Historical,2016,No dry spell day,VA/capita/dry spell day,-0.0010,0.0005,NA,NA,NA,NA,42,Minimum dry spell duration of 28 days and a minimum heat wave duration of 9 days. Linear rather than quadratic per-country trends. p<0.05
+49,Crop production,Global,Historical,2016,No dry spell day,VA/capita/dry spell day,-0.0014,0.0005,NA,NA,NA,NA,42,Minimum dry spell duration of 28 days and a minimum heat wave duration of 9 days. Cubic rather than quadratic per-country trends. p<0.05
+50,Crop production,Global,Historical,2016,No dry spell day,VA/capita/dry spell day,-0.0012,0.0005,NA,NA,NA,NA,42,Minimum dry spell duration of 28 days and a minimum heat wave duration of 9 days. Add 1-year lags of all environmental variables. p<0.05
+51,Crop production,Global,Historical,2016,No dry spell day,VA/capita/dry spell day,-0.0007,0.0005,NA,NA,NA,NA,42,"Minimum dry spell duration of 28 days and a minimum heat wave duration of 9 days. Add lagged log value added per capita in agriculture, fisheries, and forestry."
+52,Crop production,Global,Historical,2016,No dry spell day,VA/capita/dry spell day,-0.0008,0.0005,NA,NA,NA,NA,42,Minimum dry spell duration of 28 days and a minimum heat wave duration of 9 days. Same as (9) but instrument for the added term using lagged log GDP per capita.
+53,Crop production,Global,Historical,2016,No dry spell day,log(VA)/dry spell day,-0.0010,0.0007,NA,NA,NA,NA,42,"Minimum dry spell duration of 28 days and a minimum heat wave duration of 9 days. Use log of value added per capita in agriculture, fisheries, and forestry as an alternate outcome."
+54,Crop production,Global,Historical,2000,Baseline,Crop prod./day,-0.0009,NA,2.5%,-0.0018,97.5%,-0.00002,43,"Minimum dry spell duration 21+ days, controlled direct effect, also includes heat wave days, SPEI accounted for. Averaged between 1979-2016."
+55,Crop production,Global,Historical,2000,Baseline,Crop prod./day,-0.0012,NA,2.5%,-0.0021,97.5%,-0.0003,43,"Minimum dry spell duration 28+ days, controlled direct effect, also includes heat wave days, SPEI accounted for. Averaged between 1979-2016."
+56,Crop production,Global,Historical,2000,Baseline,Crop prod./day,-0.0013,NA,2.5%,-0.0023,97.5%,-0.0004,43,"Minimum dry spell duration 35+ days, controlled direct effect, also includes heat wave days, SPEI accounted for. Averaged between 1979-2016."
+57,Crop Production,Global,Historical,2016,No CC,FAO CPI / dry spell day,-0.0012,0.0005,NA,NA,NA,NA,44,"Hottest 90 days, Unweighted, estimates from 1979 to 2016"
+58,Crop Production,Global,Historical,2016,No CC,FAO CPI / dry spell day,-0.0007,0.0004,NA,NA,NA,NA,44,"Hottest 120 days, Unweighted, estimates from 1979 to 2016"
+59,Crop Production,Global,Historical,2016,No CC,FAO CPI / dry spell day,-0.0001,0.0001,NA,NA,NA,NA,44,"Full Year, Unweighted, estimates from 1979 to 2016"
+60,Crop Production,Global,Historical,2016,No CC,FAO CPI / dry spell day,-0.0013,0.0007,NA,NA,NA,NA,44,"Hottest 90 days, MIRCA2000 Weighted, estimates from 1979 to 2016"
+61,Crop Production,Global,Historical,2016,No CC,FAO CPI / dry spell day,-0.0007,0.0004,NA,NA,NA,NA,44,"Hottest 120 days, MIRCA2000 Weighted, estimates from 1979 to 2016"
+62,Crop Production,Global,Historical,2016,No CC,FAO CPI / dry spell day,-0.0002,0.0001,NA,NA,NA,NA,44,"Full Year, MIRCA2000 Weighted, estimates from 1979 to 2016"
+63,Crop production,Global,Historical,2000,No dry spell,Units unspecified,-0.0010,0.0005,NA,NA,NA,NA,46,Effect of an additional dry spell day in areas with below-median aridity (p<0.05).
+64,Crop production,Global,Historical,2000,No dry spell,Units unspecified,0.0002,0.0008,NA,NA,NA,NA,46,Effect of an additional dry spell day in areas with above-median aridity.
+65,Crop production,Global,Historical,2000,No dry spell,Units unspecified,-0.0017,0.0005,NA,NA,NA,NA,46,Effect of an additional dry spell day in areas with SPEI <= 0 (p<0.01).
+66,Crop production,Global,Historical,2000,No dry spell,Units unspecified,1E-6,0.0012,NA,NA,NA,NA,46,Effect of an additional dry spell day in areas with SPEI > 0.
+67,Crop production,Global,Historical,2000,No dry spell,Units unspecified,-0.0012,0.0005,NA,NA,NA,NA,46,Interaction term. Effect of an additional dry spell day in areas with below-median aridity (p<0.05).
+68,Crop production,Global,Historical,2000,No dry spell,Units unspecified,0.0003,0.0007,NA,NA,NA,NA,46,Interaction term. Effect of an additional dry spell day in areas with above-median aridity.
+69,Crop production,Global,Historical,2000,No dry spell,Units unspecified,-0.0014,0.0005,NA,NA,NA,NA,46,Interaction term. Effect of an additional dry spell day in areas with SPEI <= 0 (p<0.01).
+70,Crop production,Global,Historical,2000,No dry spell,Units unspecified,-0.0008,0.0005,NA,NA,NA,NA,46,Interaction term. Effect of an additional dry spell day in areas with SPEI > 0.

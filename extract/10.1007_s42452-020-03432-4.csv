@@ -1,0 +1,57 @@
+,Outcome,Region,Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Rice Yield,Tropics,Temp +5C,2000,Temp +0 to +3C,%,10,NA,NA,NA,NA,NA,12,Ceteris paribus.
+1,Crop Yield,U.S.,Climate Change,2050,Extrapolated trends,%,-5,NA,NA,NA,NA,NA,12,For corn
+2,Crop Yield,U.S. Southern Half,Climate Change,2050,Extrapolated trends,%,-25,NA,NA,NA,NA,NA,12,For soybeans
+3,Soybean Yield,45 countries,Historical (1961-2013),2013,Varies by Country,Yield / ppm CO2,0.0978,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2 term, no GDP/capita or Human Capital Index"
+4,Soybean Yield,45 countries,Historical (1961-2013),2013,Varies by Country,Yield / ppm CO2,0.0998,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2 term, with GDP/capita"
+5,Soybean Yield,45 countries,Historical (1961-2013),2013,Varies by Country,Yield / ppm CO2,0.0705,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2 term, with GDP/capita and Human Capital Index"
+6,Soybean Yield,45 countries,Historical (1961-2013),2013,Varies by Country,Yield / (ppm CO2)^2,-0.0001,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2-squared term, no GDP/capita or Human Capital Index"
+7,Soybean Yield,45 countries,Historical (1961-2013),2013,Varies by Country,Yield / (ppm CO2)^2,-0.0001,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2-squared term, with GDP/capita"
+8,Soybean Yield,45 countries,Historical (1961-2013),2013,Varies by Country,Yield / (ppm CO2)^2,-0.0001,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2-squared term, with GDP/capita and Human Capital Index"
+9,Soybean Yield,45 countries,Historical (1961-2013),2013,Varies by Country,Yield / deg C,0.139,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on Temperature term, no GDP/capita or Human Capital Index"
+10,Soybean Yield,45 countries,Historical (1961-2013),2013,Varies by Country,Yield / deg C,0.0918,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on Temperature term, with GDP/capita"
+11,Soybean Yield,45 countries,Historical (1961-2013),2013,Varies by Country,Yield / deg C,0.0921,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on Temperature term, with GDP/capita and Human Capital Index"
+12,Soybean Yield,45 countries,Historical (1961-2013),2013,Varies by Country,Yield / (deg C)^2,-0.0009,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on Temperature-squared term, no GDP/capita or Human Capital Index"
+13,Soybean Yield,45 countries,Historical (1961-2013),2013,Varies by Country,Yield / (deg C)^2,-0.0010,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on Temperature-squared term, with GDP/capita"
+14,Soybean Yield,45 countries,Historical (1961-2013),2013,Varies by Country,Yield / (deg C)^2,-0.0009,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on Temperature-squared term, with GDP/capita and Human Capital Index"
+15,Soybean Yield,45 countries,Historical (1961-2013),2013,Varies by Country,Yield /(ppm CO2*deg C),-0.0004,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2 * Temp term, no GDP/capita or Human Capital Index"
+16,Soybean Yield,45 countries,Historical (1961-2013),2013,Varies by Country,Yield /(ppm CO2*deg C),-0.0003,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2 * Temp term, with GDP/capita"
+17,Soybean Yield,45 countries,Historical (1961-2013),2013,Varies by Country,Yield /(ppm CO2*deg C),-0.0003,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2 * Temp term, with GDP/capita and Human Capital Index"
+18,Rapeseed Yield,35 countries,Historical (1961-2013),2013,Varies by Country,Yield / ppm CO2,0.0192,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2 term, no GDP/capita or Human Capital Index"
+19,Rapeseed Yield,35 countries,Historical (1961-2013),2013,Varies by Country,Yield / ppm CO2,0.0182,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2 term, with GDP/capita"
+20,Rapeseed Yield,35 countries,Historical (1961-2013),2013,Varies by Country,Yield / ppm CO2,0.0233,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2 term, with GDP/capita and Human Capital Index"
+21,Rapeseed Yield,35 countries,Historical (1961-2013),2013,Varies by Country,Yield / (ppm CO2)^2,-0.0000,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2-squared term, no GDP/capita or Human Capital Index"
+22,Rapeseed Yield,35 countries,Historical (1961-2013),2013,Varies by Country,Yield / (ppm CO2)^2,0.0000,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2-squared term, with GDP/capita"
+23,Rapeseed Yield,35 countries,Historical (1961-2013),2013,Varies by Country,Yield / (ppm CO2)^2,-0.0000,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2-squared term, with GDP/capita and Human Capital Index"
+24,Rapeseed Yield,35 countries,Historical (1961-2013),2013,Varies by Country,Yield / deg C,0.0888,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on Temperature term, no GDP/capita or Human Capital Index"
+25,Rapeseed Yield,35 countries,Historical (1961-2013),2013,Varies by Country,Yield / deg C,0.1680,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on Temperature term, with GDP/capita"
+26,Rapeseed Yield,35 countries,Historical (1961-2013),2013,Varies by Country,Yield / deg C,0.1710,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on Temperature term, with GDP/capita and Human Capital Index"
+27,Rapeseed Yield,35 countries,Historical (1961-2013),2013,Varies by Country,Yield / (deg C)^2,-0.0023,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on Temperature-squared term, no GDP/capita or Human Capital Index"
+28,Rapeseed Yield,35 countries,Historical (1961-2013),2013,Varies by Country,Yield / (deg C)^2,-0.0022,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on Temperature-squared term, with GDP/capita"
+29,Rapeseed Yield,35 countries,Historical (1961-2013),2013,Varies by Country,Yield / (deg C)^2,-0.0023,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on Temperature-squared term, with GDP/capita and Human Capital Index"
+30,Rapeseed Yield,35 countries,Historical (1961-2013),2013,Varies by Country,Yield /(ppm CO2*deg C),-0.0002,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2 * Temp term, no GDP/capita or Human Capital Index"
+31,Rapeseed Yield,35 countries,Historical (1961-2013),2013,Varies by Country,Yield /(ppm CO2*deg C),-0.0004,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2 * Temp term, with GDP/capita"
+32,Rapeseed Yield,35 countries,Historical (1961-2013),2013,Varies by Country,Yield /(ppm CO2*deg C),-0.0004,NA,NA,NA,NA,NA,"p.17, Table 5","Coefficient on CO2 * Temp term, with GDP/capita and Human Capital Index"
+33,Wheat Yield,Unspecified,CO2 = 300 ppm,1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,"Yield increases with temperature up to a point, then declines."
+34,Wheat Yield,Unspecified,CO2 = 354.1 ppm (average),1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,"Yield increases with temperature up to a point, then declines."
+35,Wheat Yield,Unspecified,CO2 = 450 ppm,1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,"Yield increases with temperature up to a point, then declines."
+36,Wheat Yield,Unspecified,CO2 = 550 ppm,1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,"Yield increases with temperature up to a point, then declines. Higher peak yield than other CO2 levels."
+37,Rapeseed Yield,Unspecified,CO2 = 300 ppm,1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,Yield decreases with temperature.
+38,Rapeseed Yield,Unspecified,CO2 = 356.4 ppm (average),1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,Yield decreases with temperature.
+39,Rapeseed Yield,Unspecified,CO2 = 450 ppm,1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,Yield decreases with temperature.
+40,Rapeseed Yield,Unspecified,CO2 = 550 ppm,1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,Yield decreases with temperature.
+41,Maize Yield,Unspecified,CO2 = 300 ppm,1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,"Yield increases with temperature up to a point, then declines."
+42,Maize Yield,Unspecified,CO2 = 353.5 ppm (average),1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,"Yield increases with temperature up to a point, then declines."
+43,Maize Yield,Unspecified,CO2 = 450 ppm,1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,"Yield increases with temperature up to a point, then declines."
+44,Maize Yield,Unspecified,CO2 = 550 ppm,1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,"Yield increases with temperature up to a point, then declines. Higher peak yield than other CO2 levels."
+45,Sorghum Yield,Unspecified,CO2 = 300,1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,Yield generally declines as temperature increases.
+46,Sorghum Yield,Unspecified,CO2 = 353.7 (average),1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,"Yield peaks at moderate temperatures, then declines."
+47,Sorghum Yield,Unspecified,CO2 = 450,1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,Yield rises to a peak around 30°C before declining.
+48,Sorghum Yield,Unspecified,CO2 = 550,1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,Maintains higher yields at a wider range of temperatures and declines more gradually.
+49,Rice Yield,Unspecified,CO2 = 300,1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,"Parabolic shape, peaking at a certain temperature. Yield drops below zero at very low and high temperatures."
+50,Rice Yield,Unspecified,CO2 = 352.8 (average),1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,"Parabolic shape, peaking at a certain temperature. Yield drops below zero at very low and high temperatures."
+51,Rice Yield,Unspecified,CO2 = 450,1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,"Parabolic shape, peaking at a certain temperature. Yield drops below zero at very low and high temperatures."
+52,Rice Yield,Unspecified,CO2 = 550,1990,Varies with temperature,ton/ha,0,NA,NA,NA,NA,NA,Figure 4,"Parabolic shape, peaking at a certain temperature. Yield drops below zero at very low and high temperatures. Peak yield is higher and shifts to the right."
+53,Crop Yield,U.S.,Unspecified,2050,Extrapolated Trends,%,-5,NA,NA,NA,NA,NA,27,Corn
+54,Crop Yield,U.S.,Unspecified,2050,Extrapolated Trends,%,-25,NA,NA,NA,NA,NA,27,Corn
+55,Crop Yield,U.S. Southern Half,Unspecified,2050,Extrapolated Trends,%,-25,NA,NA,NA,NA,NA,27,Soybeans

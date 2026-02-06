@@ -1,0 +1,85 @@
+Drivers of Risk:
+  1: Global warming and rapidly growing human population exacerbate the risk of land
+    degradation and desertification.
+  2: Drying trends are impacting global land area.
+  3: Changes in aridity, specifically the expansion of drylands and changes in the
+    areal coverage of different dryland subtypes (dry subhumid, semiarid, arid, and
+    hyper-arid).
+  4: Changes in dryland subtypes, with drying areas mainly in eastern Siberia, northeastern
+    China, western Asia, central Africa, and Canada.
+  5: Warming and drying trends, dryland expansion, increased vapour pressure deficit,
+    decreased soil moisture, increased sensible heat flux, decreased latent heat flux,
+    temperature extremes, erosion-induced land degradation.
+  6: Warming trends over drylands, particularly in arid regions, are twice as great
+    as those over humid regions.
+Evaluation overview:
+  1: Global dryland expansion rate and its areal change are evaluated.
+  2: Drying trends are being evaluated using the aridity index (AI).
+  3: No relevant information
+  5: Gross primary production (GPP) is evaluated as a function of the aridity index
+    (AI).
+  6: Increased poverty, degradation of land and ecosystems, soil loss and further
+    desertification.
+Highlights:
+  1: Drylands projected to cover half of the global land surface by the end of the
+    century; increasing aridity will lead to enhanced warming and affect water scarcity
+    and land degradation.
+  2: CMIP5-EM simulations severely underestimate the expansion of drylands in the
+    historical period.
+  4: Drylands are expected to dominate the global land surface, with drier subtypes
+    covering a larger area than those becoming wetter.
+  5: Drylands are warming faster than humid regions and the global mean. GPP is positively
+    correlated with AI. Drylands are projected to expand significantly by the end
+    of the century, particularly in developing countries. Warming and drying reinforce
+    each other through a positive feedback cycle affecting carbon storage and emissions.
+  6: Drylands in developing countries are more sensitive to climatic and environmental
+    changes as well as to human-induced perturbations compared to developed countries.
+Methodology:
+  1: Bias-correction of CMIP5 projections using historical data to account for main
+    trends and correct projections.
+  2: The analysis compares observed data (1948-2005) with CMIP5-EM historical simulations.
+  3: The analysis uses CPC observations and CMIP5-EM projections (historical, RCP8.5,
+    and RCP4.5), with corrections applied to the CMIP5-EM data. Seven-year running
+    means are used to emphasize aridity trends. Future period is divided into three
+    30-year intervals to study the temporal evolution of the drylands.
+  5: Analysis is based on CRU observations and CMIP5-EM simulations for temperature
+    trends (1948-2005). GPP is analyzed regionally from 2000 to 2010.
+  7: Uses Principal Component Analysis (PCA) to reduce the dimensionality of CMIP5
+    and observed datasets. Regression is used to establish a relationship between
+    CMIP5 PCs and observed PCs, which is then used to correct CMIP5 projections. A
+    leave-one-out cross-validation is conducted to choose the cumulative number of
+    leading PCs.
+More Notes:
+  2: The corrected CMIP5-EM simulations more closely align with observations compared
+    to the original CMIP5-EM.  There is quantitative information of the percentage
+    change of global land area undergoing subtype changes.
+  3: No relevant information
+  5: CMIP5 models cannot fully reproduce the warming and drying pattern due to the
+    absence of global carbon cycle processes in some models.
+  6: The correction method suggests that the drylands will acceleratingly expand and
+    the situation may be worse, especially in developing countries.
+  7: "The study uses a correction method to adjust climate model simulations to have\
+    \ the same climatology of 1961\u20131990 as the observations. The method's validity\
+    \ is verified by a posteriori independent validation."
+Quantitative material:
+  1: Projected dryland area increase of 23% under RCP8.5 and 11% under RCP4.5; observed
+    AI decreased with a net trend of -0.050 per 58 years; CMIP5-EM showed a mean trend
+    of -0.012 per 58 years.
+  2: The observed data shows 66% of global land area with a drying trend during 1948-2005,
+    while CMIP5-EM simulation shows 59%.
+  3: "The corrected area coverage is 56% of the global land area in 2100 under RCP8.5,\
+    \ which is 23% larger relative to observed climatology (1961\u20131990). Under\
+    \ RCP4.5, the total coverage is 50%. Dryland subtypes' proportions are specified\
+    \ for both scenarios."
+  4: 78% of increased drylands occur in developing countries.
+  5: "Average temperature increase in drylands is 1.17 \xB0C per 58 years, approximately\
+    \ 2.1 and 1.5 times greater than the increase in humid regions and in the global\
+    \ mean, respectively. GPP in arid regions is approximately one-fifth of that in\
+    \ humid regions. Drylands will expand by 23% and 11% relative to the 1961\u2013\
+    1990 baseline under RCP8.5 and RCP4.5 by the end of the twenty-first century.\
+    \ Newly expanded dryland areas, 78% will be located in developing countries."
+  6: By 2025, drylands may occupy 48% of the global land surface and sustain 51% of
+    the global population growth from 2000 to 2025, 50% of which will occur in developing
+    countries, compared with only 1% in developed countries.
+  7: "Statistical downscaling of CMIP5 model fields to a 0.5\xB0 x 0.5\xB0 resolution\
+    \ to match observational datasets."

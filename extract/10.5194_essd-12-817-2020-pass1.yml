@@ -1,0 +1,150 @@
+Drivers of Risk:
+  1: The paper does not directly address specific climate change drivers of risk on
+    this page. It focuses on developing a methodology for estimating asset exposure,
+    which is a component of risk assessment alongside hazard and vulnerability.
+  4: Exposure data relates to direct impacts on tangible structures; nonfinancial
+    wealth as an approximation.
+  6: No relevant information
+  7: No relevant information
+  8: No relevant information
+  11: No relevant information
+  12: No relevant information
+  14: No relevant information
+Evaluation overview:
+  1: The paper evaluates the disaggregation skill of the LitPop method for estimating
+    subnational gross domestic product (GDP) by comparing it to reported gross regional
+    product (GRP) values.
+  2: GDP and GRP are used to evaluate the methodology by assessing the subnational
+    disaggregation skill for varied combinations.
+  6: No relevant information
+  7: No relevant information
+  8: No relevant information
+  11: No relevant information
+  12: No relevant information
+  13: This page focuses on evaluating different exponent combinations used in asset
+    exposure data for global physical risk assessment. It does not directly evaluate
+    climate change impacts like mortality or productivity loss, but rather the quality
+    of the underlying asset exposure data.
+  14: No relevant information
+Highlights:
+  1: LitPop offers global consistency, scalability, openness, replicability, and a
+    low entry threshold. The combination of nightlight and population data improves
+    the spatial distribution of macroeconomic indicators compared to using either
+    data type alone. The data is available for 224 countries.
+  2: The LitPop methodology is published on GitHub as part of the open-source event-based
+    probabilistic impact model CLIMADA.
+  6: "For the Pearson correlation coefficient (\u03C1), Lit1Pop1 shows the best overall\
+    \ median of \u03C1 (0.94) with the lowest interquartile range (IQR) of 0.09."
+  7: Disaggregation proportional to Lit1Pop1 can be considered the most adequate combination
+    of Lit and Pop for the subnational downscaling of GDP.
+  8: The LitPop methodology allows for the creation of globally consistent and spatially
+    highly resolved estimates of gridded asset exposure value.
+  9: LitPop performs well in GDP disaggregation at the subnational level, with Lit1Pop1
+    selected for best absolute deviation performance.
+  10: The approach allows estimation for any target year at various resolutions based
+    on data availability, with specific adaptations for countries lacking data.
+  11: The asset exposure data are not suitable for applications with a local or sector-specific
+    focus without further validation.
+  12: No relevant information
+  13: "The table provides a quantitative comparison of how well different exponent\
+    \ combinations fit the data for different countries based on \u03C1, \u03B2, and\
+    \ RMSF. The data is statistically significant with p<0.05."
+  14: "The study compares different methods of spatially disaggregating asset exposure\
+    \ values, using nightlight intensity and population count, and evaluates these\
+    \ methods using skill metrics such as correlation (\u03C1), beta (\u03B2), and\
+    \ root-mean-square fraction (RMSF)."
+Methodology:
+  2: Disaggregates national total asset values to obtain a gridded asset exposure
+    product. Physical asset stock values are disaggregated proportionally to a digital
+    number computed from nightlight intensity and population data per grid cell.
+  3: The analysis disaggregates total asset value and GDP per country to grid-level
+    data using gridded nightlight and population data.
+  4: Produced capital values from 140 countries used for asset exposure; for 87 other
+    countries, nonfinancial wealth derived from GDP and GDP-to-wealth ratios.
+  5: GDP is disaggregated to grid level, re-aggregated to model GRP, and compared
+    to reference values to compute skill metrics.
+  6: "The LitPop methodology is applied to compute gridded asset exposure data for\
+    \ 224 countries and areas worldwide, using exponents m=n=1. Reported GRP data\
+    \ for 507 regions in 14 countries is used to evaluate the model's ability to disaggregate\
+    \ national GDP to subnational regions. Skill metrics, including Pearson correlation\
+    \ coefficient (\u03C1), slope of linear regression (\u03B2), and root-mean-squared\
+    \ fraction (RMSF), are computed to assess the disaggregation skill. Ten combinations\
+    \ of m and n in LitmPopn were assessed: Lit1Pop1, Lit1, Lit2, Lit3, Lit4, Lit5,\
+    \ Pop1, Pop2, Lit2Pop1, and Lit3Pop1."
+  7: National total asset values were disaggregated proportional to the distribution
+    of Lit1Pop1 for 224 countries and areas, scaled to a resolution of 600 arcsec
+    (underlying gridded data is 30 arcsec ~ 1km).
+  8: The LitPop methodology is used to disaggregate GDP to create spatially resolved
+    estimates of gridded asset exposure value. It relies on globally available data
+    like nightlights and population.
+  9: The analysis involves evaluating disaggregation skill by correlating GDP and
+    GRP as indirect measures due to lack of subnational asset value data.
+  10: The methodology allows for disaggregation proportional to socioeconomic indicators
+    and can be modified to include alternative data sources.
+  11: Asset exposure data are estimated globally with consistency, flexibility, and
+    openness, integrated into the CLIMADA repository, for use in economic disaster
+    risk modeling and climate change adaptation studies. The evaluation was limited
+    to GDP in 14 OECD countries.
+  12: The paper uses GRP data from various national and international statistical
+    offices, as accessed in January/February 2019, to estimate asset exposure. The
+    data pertains to different years, ranging from 2012 to 2017, depending on the
+    country.
+  13: "The analysis compares different exponent combinations using linear correlation\
+    \ (\u03C1) and RMSF. Statistical significance is assessed with a p-value lower\
+    \ than 0.05. Best fit is determined by \u03C1=1, \u03B2=1, and RMSF=1."
+  14: Asset exposure value is spatially distributed proportionally to nightlight intensity
+    of 2016 and population count as of 2015.
+More Notes:
+  1: The asset exposure data resulting from the methodology is publicly available
+    in the ETH Research Repository. The code is published on GitHub as part of the
+    CLIMADA software. The paper addresses the challenge of limited availability of
+    asset exposure data at the global scale.
+  6: 'GRP is normalized to ensure comparability of skill metrics between different
+    countries using the equation: nGRPi=GRPi/GDP.'
+  7: Nightlight intensity data can misrepresent actual value distribution, especially
+    in urban areas, due to saturation and blooming.
+  8: The disaggregation skill evaluation is limited to 14 OECD countries. The Mexico
+    example illustrates limitations, particularly in highly centralized countries
+    like Mexico City, where the disaggregation approach fails to accurately reproduce
+    reference nGRP for the capital metropolitan region.
+  11: Future research could integrate higher resolution population data and ancillary
+    data sources for validation against subnational asset value and empirical asset
+    stock inventories to improve accuracy. Regional validation could inform the choice
+    of the most appropriate downscaling functionality for different income groups
+    and world regions.
+  12: The table lists the countries included in the study, the number of administrative
+    regions (level 1) within each country, their World Bank income group in 2016,
+    and the source of the Gross Regional Product (GRP) data used. The URLs provided
+    show where the data was accessed.
+  14: The paper evaluates how well different proxies (nightlights and population)
+    correlate with nGRP data, but the actual nGRP data itself or the implications
+    of the nGRP data for the National Climate Assessment are not specified.
+No relevant information:
+  10: ''
+Quantitative material:
+  1: The paper compares disaggregated GDP to reported GRP values for 14 industrialized
+    and newly industrialized countries to evaluate disaggregation skill.
+  6: "Total physical asset values of 2014 were disaggregated proportionally to Lit1Pop1\
+    \ to a grid with the spatial resolution of approximately 1km. Total asset values\
+    \ in the dataset sum up to 2.51\xD710^14 (251 trillion) current US dollars in\
+    \ 2014."
+  7: "The interquartile range (IQR) of the skill metric \u03B2 for Lit1Pop1 is 0.12\
+    \ (median = 1.03)."
+  8: "Skill metric \u03C1=0.76 for Lit1Pop1 for Mexico subnational GDP disaggregation.\
+    \ Modeled nGRP values for Mexico districts using Litm range from 11.2% (m=1) to\
+    \ 17.6% (m=5), 20.8% for Pop1, and 26.5% for Lit1Pop1. Reference nGRP for Distrito\
+    \ Federal is 17.4% and M\xE9xico district is 8.7%, combined reference nGRP of\
+    \ 26.1%."
+  9: "The analysis involves metrics such as \u03C1 and \u03B2, and RMSF to assess\
+    \ data distribution effectiveness."
+  11: No relevant information
+  12: The table indicates that GRP data for 507 regions in 14 countries were used
+    in total.
+  13: "The page presents tables of \u03C1 (linear correlation), \u03B2, and RMSF (Root\
+    \ Mean Square Fractional Error) for 10 different exponent combinations and 14\
+    \ countries, including the USA."
+  14: "The table presents median and IQR values for three skill metrics (\u03C1, \u03B2\
+    , RMSF) across 14 countries, comparing modeled and reference nGRP for various\
+    \ combinations of nightlight intensity (Lit) and population count (Pop). Ranges\
+    \ for \u03C1 are between 0.81 and 0.94. Ranges for \u03B2 are between 0.62 and\
+    \ 1.24. Ranges for RMSF are between 1.37 and 2.65."

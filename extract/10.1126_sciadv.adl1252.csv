@@ -1,0 +1,28 @@
+,Outcome,Region,Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Premature deaths,California,CMAQ,2018,No wildfire PM2.5,deaths,52480,NA,NA,NA,NA,NA,1,Lower bound estimate; 2008-2018 total.
+1,Premature deaths,California,CMAQ,2018,No wildfire PM2.5,deaths,55710,NA,NA,NA,NA,NA,1,Upper bound estimate; 2008-2018 total.
+2,Economic impact,California,CMAQ,2018,No wildfire PM2.5,USD,432000000000,NA,NA,NA,NA,NA,1,"Lower bound; 2008-2018 total, VSL used."
+3,Economic impact,California,CMAQ,2018,No wildfire PM2.5,USD,456000000000,NA,NA,NA,NA,NA,1,"Upper bound; 2008-2018 total, VSL used."
+4,Premature deaths,California,Average,2018,No CC,deaths,3600,NA,NA,NA,NA,NA,Page 2,Attributed to wildfires in 2018.
+5,Total damages,California,Average,2018,No CC,USD billion,148,NA,NA,NA,NA,NA,Page 2,"Health costs, capital, and other indirect losses."
+6,PM2.5 contribution,California,Average,2008,No CC,percent,49.0,NA,NA,NA,NA,NA,"Table 1, Page 2",Fire-only PM2.5 to total PM2.5.
+7,PM2.5 contribution,California,Average,2018,No CC,percent,45.3,NA,NA,NA,NA,NA,"Table 1, Page 2",Fire-only PM2.5 to total PM2.5.
+8,Mortality,California,base case,2010,No CC,deaths,1240,NA,2.5%,110,97.5%,2370,3,"Impact due to fire-only PM2.5 exposure, using wildfire-specific dose-response value (βWL)"
+9,Mortality,California,base case,2018,No CC,deaths,12850,NA,2.5%,1150,97.5%,23730,3,"Impact due to fire-only PM2.5 exposure, using wildfire-specific dose-response value (βWL)"
+10,Mortality,California,base case,2018,No CC,deaths,55710,NA,2.5%,4960,97.5%,103410,3,"Total for 11-year period; impact due to fire-only PM2.5 exposure, using wildfire-specific dose-response value (βWL). Using 2018 as the year of peak deaths."
+11,Mortality,California,mod cap,2018,No CC,deaths,52480,NA,2.5%,4610,97.5%,98340,3,"Total for 11-year period; impact due to fire-only PM2.5 exposure, using wildfire-specific dose-response value (βWL); mod cap scenario excludes fire-only PM2.5 concentrations falling outside the 99.9th percentile. Using 2018 as the year of peak deaths."
+12,Mortality,California,base case,2018,No CC,deaths,36140,NA,2.5%,24740,97.5%,44320,3,"Total for 11-year period; impact due to fire-only PM2.5 exposure, using undifferentiated chronic PM2.5 dose-response value (βL). Using 2018 as the year of peak deaths."
+13,Mortality,California,mod cap,2018,No CC,deaths,33890,NA,2.5%,23130,97.5%,41650,3,"Total for 11-year period; impact due to fire-only PM2.5 exposure, using undifferentiated chronic PM2.5 dose-response value (βL); mod cap scenario excludes fire-only PM2.5 concentrations falling outside the 99.9th percentile. Using 2018 as the year of peak deaths."
+14,Deaths,California,Base case,2010,No wildfires,deaths,2,NA,NA,NA,NA,NA,4,"~90% of all ZIP codes were estimated to experience between 0 and 2 deaths in 2010, which was a low-fire year."
+15,Deaths,California,Base case,2018,No wildfires,deaths,15,NA,NA,NA,NA,NA,4,"Almost 10% of ZIP codes experienced more than 15 deaths in 2018, the year with the highest number of deaths attributable to fire-only PM2.5."
+16,Deaths,California,Base case,2013,No wildfires,deaths,55710,NA,NA,NA,NA,NA,4,Total estimated deaths attributable to fire-only PM2.5 from 2008-2018 using wildfire-specific dose-response values (Fig 2). Using the central year of the range.
+17,Deaths,California,Global dose-response,2013,No wildfires,deaths,103930,NA,NA,NA,NA,NA,4,Total estimated deaths attributable to fire-only PM2.5 from 2008-2018 using a global dose-response value (based on 0- to 2-day moving average of PM2.5). Using the central year of the range.
+18,Deaths,California,Lag-specific estimate,2013,No wildfires,deaths,108920,NA,NA,NA,NA,NA,4,Total deaths attributable to fire- PM2.5 are estimated for lag matching 0-day (tables S7 and S8). Using the central year of the range.
+19,Deaths,California,Lag-specific estimate,2013,No wildfires,deaths,76920,NA,NA,NA,NA,NA,4,Total deaths attributable to fire- PM2.5 are estimated for lag matching 1-day (tables S7 and S8). Using the central year of the range.
+20,Deaths,California,Undifferentiated PM2.5,2013,No wildfires,deaths,290540,NA,NA,NA,NA,NA,4,Premature deaths attributable to all sources PM2.5 over the 11-year period. Using the central year of the range.
+21,Premature deaths,California,Base case,2018,No wildfire PM2.5,deaths,12150,NA,NA,NA,NA,NA,6,From wildfire PM2.5 exposure. Using wildfire-specific dose-response.
+22,Premature deaths,California,Modified cap,2018,No wildfire PM2.5,deaths,12850,NA,NA,NA,NA,NA,6,From wildfire PM2.5 exposure. Using wildfire-specific dose-response. PM2.5 capped at 99.9th percentile.
+23,Premature deaths,California,Base case,2018,No wildfire PM2.5,deaths,52480,NA,NA,NA,NA,NA,9,"Attributable to fire-only PM2.5 exposures, 2008-2018 total"
+24,Premature deaths,California,Base case,2018,No wildfire PM2.5,deaths,55710,NA,NA,NA,NA,NA,9,"Attributable to fire-only PM2.5 exposures, 2008-2018 total"
+25,Economic valuation,California,Base case,2018,No wildfire PM2.5,billion $,432,NA,NA,NA,NA,NA,9,Associated with premature deaths; 2008-2018 total
+26,Economic valuation,California,Base case,2018,No wildfire PM2.5,billion $,456,NA,NA,NA,NA,NA,9,Associated with premature deaths; 2008-2018 total

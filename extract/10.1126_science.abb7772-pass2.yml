@@ -1,0 +1,66 @@
+Drivers of Risk:
+  2: The primary driver of risk examined is changing atmospheric CO2 concentrations.
+  4: Declining foliar nitrogen (N) and phosphorus (P) concentrations, changes in atmospheric
+    N and P depositions, and limitations in water availability are identified as drivers
+    impacting GPP.
+  5: Water availability (represented by terrestrial water storage (TWS)) is a key
+    driver.  Also, nitrogen and phosphorus availability.
+  7: Limiting effects of plant nutrients such as nitrogen and phosphorus on the carbon
+    fertilization effect (CFE).
+Evaluation overview:
+  2: This paper evaluates the global temporal trend of the light use efficiency parameter
+    'b', related to light-saturated photosynthesis per unit CO2.
+  4: This paper evaluates Gross Primary Productivity (GPP) and its sensitivity to
+    increasing CO2 concentrations (represented by 'b').
+  5: The paper evaluates terrestrial photosynthesis and land carbon uptake.
+  7: Vegetation photosynthesis at the global scale.
+Highlights:
+  2: The key finding is a declining trend of the light use efficiency parameter 'b'
+    globally, which suggests decreasing light-saturated photosynthesis per unit CO2
+    with increasing CO2 concentrations. The decreases were notable across all climate
+    zones and vegetation types.
+  4: TRENDY models likely underestimate the decrease in 'b' inferred from satellite
+    datasets. Declining foliar nutrient concentrations and underestimated sensitivity
+    of GPP to water availability may explain the divergence between TRENDY models
+    and satellite-derived estimates. Areas with declining atmospheric nutrient supplies
+    likely had larger decreases in 'b'.
+  5: Terrestrial photosynthesis may not increase as much as models project, potentially
+    reducing land-based climate mitigation. GPP is more sensitive to water availability
+    variations than assumed by TRENDY models. There is a significant and spatially
+    extensive decline in carbon fixation efficiency (CFE).
+  7: There has been a decline over recent decades in the contribution of CFE to vegetation
+    photosynthesis.
+Methodology:
+  2: The study used linear and nonlinear multiple regression approaches to estimate
+    'b' from satellite GPP proxies at each pixel across the globe from 1982 to 2015
+    using 15-year moving windows. The Mann-Kendall test was used to estimate the trend
+    of 'b' pixel by pixel.
+  4: The study used TRENDY GPP data from S2 and S3 scenarios to estimate trends in
+    'b' using regression approaches. A linear spatial mixed-effects model was used
+    to investigate the relationship between the trend of b and foliar N or P concentrations.
+    Analysis was performed using a moving window of 15 years to assess sensitivities
+    of GPP to Total Water Storage (TWS) in different climate zones.
+  5: The study uses satellite GPP proxies and TRENDY GPP (multi-model mean) with a
+    15-year moving window to analyze sensitivity of GPP to TWS in arid, temperate,
+    and dry tropical zones.
+  7: Explored the temporal dynamics of CFE on vegetation photosynthesis at the global
+    scale over recent decades.
+More Notes:
+  2: Data from eddy covariance flux towers and pixels with large land-cover changes
+    were excluded. The authors compared results from satellite GPP proxies, a revised
+    EC-LUE GPP, and a multimodel mean GPP determined from the TRENDY v6 ensemble.
+  5: The declines in CFE may result from decreased CO2-induced photosynthesis stimulation,
+    drought stress, and complex interactions between nutrients, water, and CO2. The
+    models fail to adequately detect the sharp declining trend in CFE identified from
+    satellite data.
+  7: The declining trend of CFE has not been adequately accounted for in carbon cycle
+    models, potentially leading to underestimation of future warming.
+Quantitative material:
+  4: "Foliar N concentrations decreased at a rate of -0.24 \xB1 0.06% year-1 and foliar\
+    \ P concentrations decreased at a rate of -0.55 \xB1 0.06% year-1. The temporal\
+    \ trends of b remained unaltered, with a value of approximately \u22120.12 \xB1\
+    \ 0.12% 100 ppm \u22121 year \u22121 for both TRENDY S2 and S3 simulations."
+  5: "Satellite GPP proxies exhibited significantly increasing trends for arid (2.93\
+    \ \xB1 0.38% year\u22121), temperate (2.12 \xB1 0.39% year\u22121), and dry tropical\
+    \ (2.30 \xB1 0.57% year\u22121) ecosystems."
+  7: No specific quantitative information extracted.

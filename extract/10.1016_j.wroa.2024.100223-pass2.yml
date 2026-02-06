@@ -1,0 +1,123 @@
+Drivers of Risk:
+  1: Water scarcity driven by climate change, specifically through insufficient rainfall
+    or drought, impacts economic sectors reliant on water.
+  2: Temporary water scarcity events, specifically a single month-long event in May
+    and a scenario with water scarcity in both May and August.
+  4: The analysis examines the impact of drought conditions and water scarcity.
+  5: Temporal water scarcity events.
+  6: Month-long water scarcity events in May, and in both May and August, with the
+    latter being more severe.
+  7: The driver of risk is temporal water scarcity events.
+  9: Reduced freshwater availability during water scarcity events is the primary driver
+    impacting agriculture, chemical and pharmaceutical manufacturing, and electricity
+    generation sectors.
+  10: No relevant information
+Evaluation overview:
+  1: The paper provides an overview of the socio-economic impacts of water scarcity
+    on sectors like agriculture, food, and electricity production, assessing the broader
+    economic resilience.
+  2: Macro-level socio-economic impacts of water scarcity, specifically impacts on
+    GDP, investment, employment, and water use.
+  4: The analysis focuses on the effects of varying levels of investment foresight
+    on economic resilience in the face of water scarcity, considering GDP, employment,
+    and water use.
+  5: Impact of different investment behavior models on sector effects of GDP, investment,
+    and water use during temporal water scarcity events.
+  6: Economic resilience to water scarcity.
+  7: This page evaluates the impact of water scarcity on GDP, employment, and water
+    use in Germany.
+  9: The document provides an overview of the impacts on GDP, employment, and water
+    use across various sectors during a temporal water scarcity event.
+  10: No relevant information
+Highlights:
+  1: Sectors like agriculture, food, and electricity production could face negative
+    impacts from water scarcity, but some sectors may benefit from competitiveness
+    effects.
+  2: The study investigates how different investment behaviors (perfect foresight,
+    myopic expectations, and imperfect foresight) affect the macro-economy during
+    and after temporary water scarcity. It highlights the importance of proactive
+    measures and quantifies the varying outcomes of investment strategies at the individual
+    sector level.
+  4: Firms with foresight perform better during water scarcity events. Some sectors
+    benefit from competitiveness effects, cushioning adverse economic implications
+    but potentially increasing water use via catch-up effects. Agriculture, food,
+    and electricity sectors are negatively impacted by drought. Policies promoting
+    anticipation and preparedness among firms are recommended.
+  5: Most impacts appear negative, as indicated by the dominance of red and orange
+    shades in the chart showing sector effects. The model incorporates two types of
+    water - green (Wg) and blue (Wb) - and three types of land capital - crops (Tc),
+    pastures (Tp), and other (To).
+  6: Simulates the impact of water scarcity events on the German economy under different
+    investment behavior assumptions.
+  7: The level of economic openness (Armington elasticity) has a relatively small
+    effect on the overall results, primarily influencing the magnitude of the impacts.
+    Higher economic openness tends to have a slight positive effect on GDP and water
+    usage, but a negative impact on employment. Firms with perfect foresight perform
+    better than those with myopic or imperfect foresight. Imperfect foresight leads
+    to over-investment and the most significant negative impacts.
+  9: Agriculture is the most affected sector due to its high reliance on freshwater,
+    while industries like electrical and vehicle manufacturing experience some positive
+    effects due to changes in consumer spending.
+  10: No relevant information
+Methodology:
+  1: The analysis uses a dynamic multisectoral model, incorporating behavioural and
+    resilience aspects to assess the socio-economic effects of water scarcity.
+  2: Uses the DEMACRO-ESS model, a general equilibrium (CGE) model focused on Germany,
+    to simulate the impact of water scarcity under different investment behavior specifications
+    (perfect foresight, myopic expectations, and imperfect foresight). Results applicable
+    to Germany, potentially indicative for other European nations. Simulations use
+    monthly time steps.
+  4: The analysis is based on a custom-built dynamic multi-sectoral CGE model called
+    DEMACRO-ESS, parameterized on a 2020 Social Accounting Matrix (SAM) for Germany
+    at monthly frequency. It explores potential future events and government policies
+    through controlled experimentation and sensitivity analysis.
+  5: DEMACRO-ESS simulation; nested Constant Elasticity of Substitution (CES) production
+    functions; Armington links for trade and intermediates; Leontief coefficients
+    for intermediate purchases; incorporates green and blue water, and crop, pasture,
+    and other land types as natural capital.
+  6: "Computable general equilibrium (CGE) modelling analysis using the AMOS modelling\
+    \ framework, with three investment behavior models (perfect foresight, myopic,\
+    \ imperfect foresight) resulting in six comprehensive sets of simulation results.\
+    \ Scenarios are incorporated by introducing reduction in water efficiency (\u03C8\
+    \ W,i in Eq. (1)) for the respective months."
+  7: The analysis uses the DEMARCO-ESS model and varying Armington trade elasticities
+    to conduct a sensitivity analysis, applicable to understanding the impact of water
+    scarcity in Germany under different levels of economic openness.
+  9: 'The analysis uses the DEMACRO-ESS simulation model with three different investment
+    scenarios: Myopic, Imperfect foresight, and Perfect foresight.'
+  10: No relevant information
+More Notes:
+  2: The paper focuses on engineering resilience. It acknowledges limitations of myopic
+    models and highlights the value of foresight models. It integrates an imperfectly
+    competitive labor market closure that allows for wage bargaining behavior.
+  4: The model considers neo-Keynesian characteristics. Results should be interpreted
+    as scenarios rather than precise predictions. The analysis could be improved by
+    extending it to a multi-country context.
+  5: Investment behavior models considered are Myopic (MY), Imperfect foresight (IM),
+    and Perfect foresight (PE).
+  6: The labor force is fixed, but employment is variable. A bargained real wage function
+    is used to reflect behavioral aspects within the aggregate labor market.
+  7: The analysis assumes business-as-usual conditions for Germany's trade partners,
+    which may not be valid if neighboring countries are also experiencing water scarcity.
+  9: The indirect impacts of water scarcity show that sectors not reliant on freshwater
+    can still be significantly affected due to their interconnectedness with agriculture.
+  10: No relevant information
+Quantitative material:
+  2: A decrease of 0.14% in GDP and a 0.17% decline in employment in the myopic expectations
+    model.
+  4: Qualitative sectoral effects for GDP, employment, and water use are presented
+    in Fig. 2, with corresponding quantitative results in Appendices B and C. The
+    magnitude of effects varies across scenarios.
+  5: Heatmap visualizing sector effects with a qualitative scale (red - extremely
+    negative, orange & yellow - less negative, light green - close to zero yet negative,
+    green - positive results); Appendices B and C contain corresponding quantitative
+    results.
+  6: 30% decrease in water efficiency during May in the first scenario. 30% decrease
+    in water efficiency in May and 35% in August in the second scenario.
+  7: The analysis provides cumulative percentage change impacts on GDP, employment,
+    and water use across all time periods for different Armington trade elasticities
+    (1.7, 2.7, and 3.7) under two scenarios. Table A2 shows GDP impacts at selected
+    time periods.
+  9: Quantitative data include cumulative percentage change impacts on GDP, employment,
+    and water use across different sectors under different investment behavior scenarios.
+  10: No relevant information

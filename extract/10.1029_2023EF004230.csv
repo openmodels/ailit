@@ -1,0 +1,22 @@
+,Outcome,Region,Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,TC Intensification Rate,Global,Historical,2020,1979,kt per 24-hr,3,NA,NA,NA,NA,NA,1,Global mean increase in TC intensification rate in regions close to the coast
+1,TC Intensification Rate,Global,Observed,1999,2020,kt/6-hr,-0.78,NA,NA,NA,NA,NA,5 of 16,"Global mean TC intensification rate for 1979-1999 is 0.37 kt/6-hr, while for 2000-2020 it is 1.15 kt/6-hr. The result is statistically significant at the 5% level."
+2,TC Intensification Rate,US East and Gulf Coasts,Observed,2020,Offshore,kt/6-hr,0.72,NA,NA,NA,NA,NA,5 of 16,Nearshore Intensification rate: 2.72 kt/6-hr. Offshore intensification rate: 0.35 kt/6-hr.
+3,TC Intensification Rate,Mexican West Coast,Observed,2020,Offshore,kt/6-hr,0.49,NA,NA,NA,NA,NA,5 of 16,Nearshore Intensification rate: 0.73 kt/6-hr. Offshore intensification rate: 0.24 kt/6-hr. Changes are not statistically significant.
+4,TC Intensification Rate,East Asian Coast,Observed,2020,Offshore,kt/6-hr,0.49,NA,NA,NA,NA,NA,5 of 16,Nearshore Intensification rate: 1.03 kt/6-hr. Offshore intensification rate: 0.53 kt/6-hr.
+5,TC Intensification Rate,South Asian Coast,Observed,2020,Offshore,kt/6-hr,0.84,NA,NA,NA,NA,NA,5 of 16,Nearshore Intensification rate: 1.44 kt/6-hr. Offshore intensification rate: 0.60 kt/6-hr. Changes are not statistically significant.
+6,TC Intensification Rate,Southeast African Coast,Observed,2020,Offshore,kt/6-hr,1.30,NA,NA,NA,NA,NA,5 of 16,Nearshore Intensification rate: 1.88 kt/6-hr. Offshore intensification rate: 0.58 kt/6-hr.
+7,TC Intensification Rate,Australian Coast,Observed,2020,Offshore,kt/6-hr,0.86,NA,NA,NA,NA,NA,5 of 16,Nearshore Intensification rate: 1.69 kt/6-hr. Offshore intensification rate: 0.83 kt/6-hr.
+8,Vertical Wind Shear,Global Nearshore,1979-2020,2020,1979,ms-1year-1,-0.026,NA,NA,NA,NA,NA,6,Global Nearshore defined as within 200 nautical miles. Represents the trend over the specified period.
+9,Vertical Wind Shear,Global Offshore,1979-2020,2020,1979,ms-1year-1,-0.011,NA,NA,NA,NA,NA,6,Global Offshore is area outside the nearshore zone. Represents the trend over the specified period.
+10,Relative Humidity,Global Nearshore,1979-2020,2020,1979,%year-1,0.057,NA,NA,NA,NA,NA,6,Global Nearshore defined as within 200 nautical miles. Represents the trend over the specified period.
+11,Sea Surface Temperature,Global Coastal,Historical,2020,1980,°C / year,0.014,NA,NA,NA,NA,NA,Page 7,Trend from 1979-2020. p-value=0.00.
+12,Sea Surface Temperature,Global Offshore,Historical,2020,1980,°C / year,0.006,NA,NA,NA,NA,NA,Page 7,Trend from 1979-2020. p-value=0.00.
+13,Vertical Wind Shear,Global Coastal,Historical,2020,1980,m s⁻¹ / year,-0.026,NA,NA,NA,NA,NA,Page 7,Trend from 1979-2020. p-value=0.00.
+14,Vertical Wind Shear,Global Offshore,Historical,2020,1980,m s⁻¹ / year,-0.006,NA,NA,NA,NA,NA,Page 7,Trend from 1979-2020. p-value=0.03.
+15,Relative Humidity,Global Coastal,Historical,2020,1980,% / year,0.057,NA,NA,NA,NA,NA,Page 7,Trend from 1979-2020. p-value=0.00.
+16,Relative Humidity,Global Offshore,Historical,2020,1980,% / year,0.011,NA,NA,NA,NA,NA,Page 7,Trend from 1979-2020. p-value=0.37.
+17,TC Intensification,Global Nearshore,Historical,2020,1979,N/A,1,NA,NA,NA,NA,NA,Page 7,Increase is likely driven by environmental changes. Exact unit change not specified. 1 represents increase.
+18,TC Intensification Rate,Nearshore Regions,SSP585,2050,1979,kt/6-hr,0.03,NA,NA,NA,NA,NA,8,Historical period = 1979-2014; Future period = 2015-2050.  Mean intensification rate is weaker in HighResMIP relative to observations.
+19,TC Intensification Rate,Nearshore Regions,SSP585,1979,No CC,kt/6-hr,-0.07,NA,NA,NA,NA,NA,8,"Historical period = 1979-2014. This appears to be a typographical error in the paper, so the sign is changed for consistency with the text of the paper stating that the rate *increases* from -0.07 to 0.03."
+20,Vertical Wind Shear,N. Trop-Extratrop Oceans,SSP585,2090,2015-2034,Correlation Coefficient,0.63,NA,NA,NA,NA,NA,Page 10,Pattern correlation coefficient of VWS changes between CMIP6 ensemble mean and SWM's solution.

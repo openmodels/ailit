@@ -1,0 +1,223 @@
+Drivers of Risk:
+  2: The paper examines the impact of future climate and ocean productivity projections,
+    specifically thermal and sea ice conditions, primary productivity fluctuations,
+    and redistribution of marine biodiversity.
+  3: Changes in SST, Sea Ice Concentration (SIC), sea bottom temperatures, and primary
+    production are modeled based on CMIP6 GCMs under different SSPs.
+  4: Climate layers (WSIC, WSST, WSBT, and SSBT), SNPP (likely sea surface net primary
+    productivity), and bathymetry.
+  5: Combined fluctuations in future climate and primary productivity
+  6: The analysis assumes potential changes in subsidies to fishing sectors and global
+    fuel prices that can increase fishing costs, and changes in global supply through
+    aquaculture and demand for seafood impacting future prices and welfare.
+  8: Drivers of risk include changes in physical and biogeochemical variables, particularly
+    warming sea temperatures (winter sea bottom and surface), loss of winter sea ice,
+    and changes in primary production.
+  10: Climate change scenarios (SSP126, SSP245, SSP370, SSP585) impacting the abundance-weighted
+    center of gravity of commercial fish species.
+  12: Climate scenarios (SSP126, SSP245, SSP370, SSP585).
+  13: The drivers of risk are changes in cumulative maximum catch potential (MCP)
+    under different SSPs, which are influenced by factors impacting species abundance
+    and distribution.
+  14: The primary driver of risk is future climate change, specifically examining
+    different Shared Socioeconomic Pathways (SSPs).
+  15: Future climate change, extreme warming, sea ice loss
+  17: Climate changes are driving shifts in fish stock distributions, changes in sea
+    ice and cold pool extent, and poleward shifts of warm-adapted taxa.
+  18: Climate-driven changes in species abundance are the primary driver of risk considered.
+    Also, warming, sea ice loss, and ocean net primary production.
+  19: This paper likely addresses climate change impacts on fisheries, given the focus
+    on future redistribution of fishery resources.
+  21: Climate change (inferred from citations analyzing climate impacts on fisheries)
+Evaluation overview:
+  2: The paper evaluates changes in the abundance of commercially-important marine
+    fish and invertebrate species, maximum catch, revenue, and abundance changes.
+  3: Future redistribution of fishery resources suggests biological and economic trade-offs.
+  4: Redistribution of fishery resources
+  5: Future redistribution of fishery resources suggests biological and economic trade-offs.
+  6: The page discusses the evaluation of the future redistribution of fishery resources,
+    suggesting biological and economic trade-offs by analyzing maximum catch potential
+    (MCP) as a proxy for maximum sustainable yield (MSY).
+  8: The paper evaluates the redistribution of fishery resources and associated bioeconomic
+    changes.
+  10: Future redistribution of fishery resources suggests biological and economic
+    trade-offs.
+  12: Future redistribution of fishery resources suggests biological and economic
+    trade-offs.
+  13: This study evaluates the redistribution of fishery resources and suggests biological
+    and economic trade-offs.
+  14: This study evaluates the impact of climate change on fishery resources, specifically
+    examining the maximum catch potential (MCP), maximum revenue potential (MRP),
+    and maximum profit potential (MPP).
+  15: Fishery resource redistribution, biological and economic trade-offs for major
+    commercial fisheries
+  17: Future redistribution of fishery resources suggests biological and economic
+    trade-offs, including potential overexploitation and declines in economically
+    valuable cold-adapted species.
+  18: The paper evaluates the potential impacts of climate-driven changes in species
+    abundance on potential catch, revenue, and profit in fisheries.
+  19: Future redistribution of fishery resources suggests biological and economic
+    trade-offs.
+  21: Future redistribution of fishery resources suggests biological and economic
+    trade-offs
+Highlights:
+  2: Climate change has resulted in ecological surprises such as the recent collapse
+    of valuable fisheries resources (e.g., snow crab and Pacific cod), resulting in
+    significant loss of livelihoods and revenue streams.
+  4: Machine learning algorithms outperform conventional regression models in predicting
+    species distribution and abundance.
+  5: Changes in projected abundances (2021-2100) reflect changes in fish biomass.
+  8: There is an increasing overlap in areas of peak abundance within the present-day
+    fishing grounds in both US and Russian waters.
+  10: Visualization of the projected paths and directional shifts of species distributions
+    across the Bering Sea under different climate scenarios, indicating potential
+    future changes in fish distribution.
+  12: Projected changes in cumulative maximum catch potential (MCP) were lowest under
+    SSP126, moderate under SSP245 and SSP370, and highest under SSP585.
+  13: Future redistribution of fishery resources will lead to biological and economic
+    trade-offs. There are differences in abundance trends with distance away from
+    major landing ports in the Eastern Bering Sea (EBS).
+  14: Under most scenarios, MRP and MPP are projected to decline. MCP may initially
+    increase in some scenarios/time periods, but generally decreases over time. Declines
+    in MCP, MRP, and MPP are greater in Russian waters than in US fishing grounds.
+  15: Projected increases in MCP in the NEBS and Chukchi Sea under extreme warming
+    do not necessarily translate to significant increases in MRP and MPP, changes
+    in catch composition can alter the potential economic benefits from fisheries,
+    shifts in marine resources largely influence revenue and profit potential
+  17: Shifting marine fisheries resources between the US and Russian EEZs raises governance
+    and management issues for transboundary fish stocks and elevated risks of fisheries
+    conflicts. Projected decreases in walleye pollock and Pacific cod in the US EEZ
+    are likely to affect commercial landings as abundance shifts to the Russian EEZ.
+    Enhanced geographical overlap in species distributional ranges could lead to ecological
+    competition and overfishing.
+  18: Well-managed marine ecosystems like the EBS can experience limited economic
+    impact in the near-term (2021-2040) under low to moderate levels of climatic changes.
+    Mitigation and conservation efforts may be needed under more extreme conditions.
+    Climate-smart solutions are needed to manage and conserve fisheries resources
+    to support food and nutritional security.
+  21: Improved fisheries management could offset many negative effects of climate
+    change (from citation 58)
+Methodology:
+  2: The paper uses a bioeconomic model analysis to assess species-specific abundance
+    changes of major fisheries resources in the Pacific Arctic. The climate projections
+    used are from the state-of-the-art climate models of the Coupled Model Intercomparison
+    Project 6 (CMIP6).
+  3: "Present-day climate data (2000-2019) from online repositories, including AVHRR-OI\
+    \ SST and SIC data from NOAA NCEI, and sea bottom temperatures and primary production\
+    \ from CMEMS are used. Future climate layers are calculated from corresponding\
+    \ monthly averages of four down-scaled CMIP6 GCMs (CESM2-WACCM, CNRM-ESM2-1, IPSL-CM6ALR,\
+    \ and MPI-ESM1.2HR) under SSP126, SSP245, SSP370, and SSP585 scenarios. The delta\
+    \ method is implemented for spatial data down-scaling of future climate layers\
+    \ by computing the pixel-wise difference between historical present (2000\u2013\
+    2014) and future (2021\u20132100) coarsely-resolved values."
+  4: Species abundance data from NOAA Fisheries and the Arctic ecosystem integrated
+    survey were used to develop two machine-learning models (random forest, RF; and
+    boosted regression trees, BRT) to predict present and projected future patterns
+    of species abundance.
+  5: Species abundance was predicted using RF and BRT models for future time periods
+    (2061-2080, 2081-2100) under different SSPs (SSP126, SSP245, SSP370, SSP585).
+  6: The analysis uses species-specific population growth rates and estimated species
+    abundance from ensemble models to compute MCP and assesses economic impacts by
+    maintaining constant prices and costs, with results applicable from the present
+    day (2000-2019) to future periods (2021-2100).
+  8: "The analysis uses species distribution models based on environmental variables\
+    \ (depth, bottom temperatures, summer net primary production) to project future\
+    \ species abundance and distribution, focusing on the Bering Sea. Present-day\
+    \ fishing grounds were identified as pixels of high aggregated fishing effort\
+    \ (\u2265 1000 fishing hrs) using annually aggregated fishing effort data from\
+    \ 2012 to 2020 from the global fishing watch online repository"
+  10: Modeled abundance used to compute taxon-specific COGs throughout the Bering
+    Sea basin, separated by land masses. Trajectories mapped on land for species with
+    abundances close to the coasts.
+  12: "Spatial abundance distributions were analyzed for present (2000\u20132019)\
+    \ and future (2041\u20132060; 2081\u20132100) periods under the SSP585 scenario."
+  13: The analysis uses models to predict future MCP under different SSPs and compares
+    the results relative to the present (2000-2019). The results are applicable to
+    the time periods 2041-2060 and 2081-2100. The study also considers distances from
+    major landing ports.
+  14: The analysis uses modeling to project changes in MCP, MRP, and MPP based on
+    different climate scenarios. The results are applicable to the study area, with
+    specific mentions of US fishing grounds, Russian waters, the Eastern Bering Sea
+    (EBS), and Chukchi Sea.
+  15: "Bioeconomic analyses applied to spatio-temporal projections of species abundance,\
+    \ considering SSP126 and SSP585 scenarios;  analysis considers distances from\
+    \ major fishing ports like Dutch Harbor and Port of Nome, using 100-km buffer\
+    \ zones for present (2000\u20132019) and future (2021\u20132100) periods"
+  17: The analysis uses scenario-based projections of climate changes to assess potential
+    availability of commercially exploited fisheries in the EBS and Chukchi Sea, using
+    taxon-specific abundance projections from machine learning models. Biological
+    estimates for present and future periods are computed using published species-specific
+    biological parameters for US BSAI species stocks. Results are applicable for devising
+    climate-ready adaptation and conservation measures.
+  18: The economic analysis is intended as a simple first-cut attempt, using ex-vessel
+    prices and fishing costs based on published regional values. The analysis assumes
+    constant economic parameters over time.
+  19: The paper involves data curation, formal analysis, methodology development,
+    resource utilization, supervision, validation, visualization, and writing by the
+    listed authors.
+  21: Uses machine learning techniques for global models and predictions of plant
+    diversity (from citation 43). Mentions boosted regression trees (citations 46,
+    47, and 52), random forests (citation 44), and species distribution models (citations
+    48, 49, and 50).
+More Notes:
+  4: The analysis uses data from 2000-2019 for present-day conditions and projects
+    into the future periods 2021-2040 and 2041-2060.
+  5: Analysis assumes conservatively managed fisheries and constant species-specific
+    biological parameters based on historical averages.
+  8: The study uses SSP585 as an extreme shared socio-economic pathway scenario.
+  10: The Bering Sea is divided into the Northern Bering Sea (NBS) and Southeastern
+    Bering Sea (SEBS). Some trajectories are mapped on land because the calculations
+    for COGs are throughout the basin and some species have a center of gravity close
+    to the coasts.
+  12: Changes in maximum catch, revenue, and profit potential show a tendency to increase
+    with scenario severity and longer projected time horizons.
+  13: The study specifically focuses on eight major fisheries. The US-Russia EEZ boundary
+    is considered. The study mentions changes in low-catch and high-economic value
+    species such as snow crab and Greenland halibut.
+  14: The study contrasts low (SSP126) and high (SSP585) future climate scenarios,
+    showing significant and steep declines in MRPs and MPPs in the latter. Fluctuations
+    in abundance of target species increased with the degree of future climate change.
+  15: The study reveals divergent patterns of future MCPs relative to the present,
+    impacting future fishing fleet mobility.
+  17: The analysis recognizes uncertainties from simple biological and economic assumptions
+    and the limited subset of fisheries included.
+  18: The paper acknowledges limitations related to projecting biological parameters
+    into the future, the dynamic nature of economic parameters, and uncertainties
+    in Earth System Model projections of species distributions, abundance, and ocean
+    net primary production (NPP).
+Quantitative material:
+  2: Alaska fisheries harvests accounted for 60.26% of the total US commercial harvests
+    and 32.09% of the US ex-vessel value in 2020. The global capture fisheries production
+    had an approximate value of 141 billion USD in 2020.
+  3: This study models changes in distributions and abundances of eight commercially
+    important species that account for over 65% of the total landings in the Bering
+    Sea-Aleutian Islands between 2000 and 2019.
+  4: The study uses abundance data (expressed as catch per unit effort, CPUE, in kg/km2)
+    of eight commercially-important species in the eastern Bering Sea
+  5: Predictions/projections of species abundance were computed as the weighted average
+    of RF and BRT models.
+  8: "The highest rates of shift in the COG of abundance are projected for Greenland\
+    \ halibut (> 80 km/decade) and the lowest for walleye pollock (31.64 km/decade)\
+    \ under the SSP585 scenario for the late-century period (2076\u20132100)."
+  10: "Projected shifts in the abundance-weighted center of gravity (COG) for eight\
+    \ commercial species from the present (2000\u20132019) to future periods (2021\u2013\
+    2100) under different SSP scenarios."
+  12: "MCP decreased minimally by 4.22% basin-wide under SSP585 during the late-century\
+    \ (2081\u20132100) period."
+  13: "Predicted future (2041\u20132060; 2081\u20132100) percent changes in the cumulative\
+    \ maximum catch potential (MCP) under (a) SSP126, (b) SSP245, and (c) SSP370,\
+    \ and (d) SSP585 relative to the present (2000\u20132019). Small abundance decline\
+    \ translated to drops in MRP and MPP by about 37% and 47%, respectively. MCP peaks\
+    \ were observed at 400 km away from Dutch harbor."
+  14: "The table provides percentage changes in MCP, MRP, and MPP relative to present\
+    \ (2000\u20132019) across different time periods (2021\u20132040, 2041\u20132060,\
+    \ 2061\u20132080, 2081\u20132100) under SSP126, SSP245, SSP370, and SSP585 scenarios."
+  15: MCP (Minimum Convex Polygon) changes within the US EEZ, MRP (Marginal Revenue
+    Product), MPP (Marginal Profit Product) changes
+  17: Projects increases in Maximum Catch Potential (MCP) in the Northeast Bering
+    Sea (NEBS) and Chukchi Sea. Projects decreases in abundance of walleye pollock
+    and Pacific cod within the US Exclusive Economic Zone (EEZ).
+  18: Mentions future projections under contrasting time periods and climate scenarios
+    (see Supporting Information S1 File), and the time frame of 2021-2040.
+  21: Projected change in global fisheries revenues under climate change (from citation
+    62)

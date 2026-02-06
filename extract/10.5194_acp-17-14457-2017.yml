@@ -1,0 +1,177 @@
+Drivers of Risk:
+  1: Daily global mean temperature, daily indices of synoptic-scale meteorology (T,
+    Q, and Z), and spatiotemporally averaged soil moisture (SM).
+  2: Changes in sensible and latent heat fluxes impact equivalent potential temperature;
+    land cover change and soil moisture modification due to irrigation impact surface
+    energy partitioning.
+  3: "High summertime temperatures (Te and \u03B8e), soil moisture, land cover changes,\
+    \ land management, and large-scale climate modes (e.g., Interdecadal Pacific Oscillation)\
+    \ and aerosol radiative forcing."
+  4: Variability in synoptic-scale circulation (e.g., anticyclonic conditions) and
+    large-scale advection of static energy are identified as drivers.
+  5: "Synoptic-scale meteorology and soil moisture are predictors for maximum and\
+    \ minimum \u03B8e."
+  7: "Soil moisture, temperature, latitude, and longitude are used as predictors for\
+    \ daily maximum and minimum equivalent potential temperature (\u03B8e)."
+  8: The primary focus is on the predictive capability of models regarding maximum
+    and minimum potential temperature variations.
+  9: Soil moisture (SM) influences surface energy partitioning and near-surface temperature
+    (T) and specific humidity (q) regimes, and static energy.
+  10: "Extreme maximum equivalent potential temperature (\u03B8e), specifically exceedance\
+    \ of 347K, is a key driver. Soil moisture (SM) is identified as a predictor."
+  11: "The study identifies soil moisture (SM) as a key driver impacting near-surface\
+    \ temperature (T) and specific humidity (q), particularly during daytime under\
+    \ conditions of positive net radiation. Variability in minimum and maximum \u03B8\
+    e over eastern North America is also a focus."
+  12: "Extreme minimum and maximum \u03B8e (near-surface static energy) are drivers\
+    \ of risk."
+Evaluation overview:
+  1: Heat-related excess mortality and morbidity.
+  2: Near-surface static energy variability is being evaluated.
+  3: "The study focuses on understanding and predicting variations in near-surface\
+    \ static energy (\u03B8e) and its relationship to extreme heat events and warming\
+    \ holes."
+  5: "Daily maximum and minimum equivalent potential temperature (\u03B8e) are used\
+    \ as predictands in downscaling models."
+  7: No relevant information
+  8: "The page evaluates the performance of different downscaling models for predicting\
+    \ daily maximum and minimum potential temperatures (\u03B8e) in the United States."
+  9: No relevant information
+  10: No relevant information
+  11: "This paper focuses on evaluating the model performance in predicting near-surface\
+    \ static energy (\u03B8e), which is relevant to heatwave analysis and has direct\
+    \ applications to climate change impact analyses such as human heat stress."
+  12: No relevant information
+Highlights:
+  1: "ANNs outperform linear models, SM is key in dictating the partitioning of net\
+    \ radiation into sensible and latent heat, and dictating trends in near-surface\
+    \ T and \u03B8e."
+  2: The total static energy of the near-surface atmosphere has significantly increased
+    since the 1970s due to increases in net radiation and temperature-associated increases
+    in specific humidity.
+  3: "The study identifies warming holes along the border of Iowa, Nebraska, and South\
+    \ Dakota, and centered on Mississippi and Alabama, attributing the lack of warming\
+    \ to changing land-surface characteristics and enhanced soil moisture availability.\
+    \ The eastern USA is characterized by high summertime Te (and \u03B8e), and in\
+    \ situ data have indicated trends in Te exceed those in T alone."
+  5: "MO and IA exhibit anomalously high mean maximum \u03B8e compared with grid cells\
+    \ at the same latitudes, reflecting the advection of air with high T and q from\
+    \ the south by the Great Plains low-level jet and the presence of abundant soil\
+    \ moisture."
+  7: Linear models (MLR) perform the worst. All model architectures exhibit high correlation
+    coefficients (r>0.8) with independent data over most of the domain.
+  8: Models using artificial neural networks with three hidden layers show strong
+    correlation with observed temperature data, reflected in closely clustered scatter
+    plot points around a 1:1 reference line.
+  9: Including soil moisture in the ANN model (ANN-HL3-SM) enhances model performance.
+    Soil moisture plays a key role in dictating the surface energy balance and in
+    the suppression of daily maximum temperature while increasing maximum static energy.
+  10: "Including soil moisture (SM) as a predictor in the ANN model enhances HR in\
+    \ regions with high variance in extreme \u03B8e without a significant increase\
+    \ in FAR. All model forms performed worst over eastern TX and South Carolina (SC)."
+  11: "Increased model complexity enhances the skill of model predictions of \u03B8\
+    e. Soil moisture directly impacts near-surface T and q during the daytime. ANN\
+    \ models outperform those that do not permit interaction of the predictor variables.\
+    \ More complex models with multiple hidden layers are better able to capture the\
+    \ day-to-day variability in \u03B8e, particularly in regions with high variability."
+  12: "ANN-HL3-SM models exhibit relatively high skill in predicting the occurrence\
+    \ of extreme minimum and maximum \u03B8e, outperforming simpler models. Soil moisture\
+    \ (SM) plays a key role in dictating the presence and intensity of warming holes."
+Methodology:
+  1: "Developed non-linear statistical models (Artificial Neural Networks - ANNs)\
+    \ for summertime daily maximum and minimum equivalent potential temperature (\u03B8\
+    e) over the eastern USA."
+  2: Nonlinear (machine learning) models are applied to predictors including daily
+    global mean temperature, synoptic scale conditions (PCA of upper-air variables),
+    and soil moisture.
+  3: "The study uses MERRA-2 reanalysis data for summer days (June, July, and August)\
+    \ during 1980\u20132015 over the eastern USA. It employs globally averaged daily\
+    \ mean air temperature and indices of synoptic-scale meteorology (T850, q850,\
+    \ Z500) converted to z-scores and subjected to rotated PCA."
+  4: The study uses Principal Component Analysis (PCA) to identify synoptic modes
+    of variability based on spatial fields of T850, q850 and Z500 sampled once per
+    day at 20:00 UTC. 15 components are retained after Varimax rotation. It also uses
+    a 90-day running mean of soil moisture (SM) integrated over 3x3 grid cells as
+    a predictor.
+  5: "Daily minimum and maximum \u03B8e are derived using an equation applied to hourly\
+    \ T at 2m, q at 2m, and surface pressure (P). The domain is truncated to accommodate\
+    \ spatial averaging for the soil moisture predictor. PCA is used to define synoptic\
+    \ modes of variability."
+  7: The study uses multiple linear regression (MLR) and artificial neural networks
+    (ANN) with varying hidden layers (0, 1, and 3) to predict daily maximum and minimum
+    equivalent potential temperature. Models are trained on 70% of the data, validated
+    on 15%, and independently evaluated on the remaining 15%. Soil moisture is considered
+    as a predictor in some models, using either total columnar soil moisture (PRMC)
+    or surface soil moisture (WGETTOP).
+  8: The analysis employs different predictive models, including multiple linear regression
+    and various configurations of artificial neural networks (ANNs) with varying numbers
+    of hidden layers and inclusion/exclusion of soil moisture data.
+  9: "The study uses Artificial Neural Networks (ANNs) to model daily maximum and\
+    \ minimum static energy (\u03B8e) using various predictors, including an index\
+    \ of global temperatures and soil moisture (SM). The analysis focuses on the central\
+    \ US. Models are evaluated by comparing predicted and observed values using metrics\
+    \ like Root Mean Square Error (RMSE) and correlation (r)."
+  10: "Multiple linear regression (MLR) and artificial neural network (ANN) models\
+    \ are used to predict the occurrence of extreme maximum \u03B8e. The ANN models\
+    \ include one with and one without soil moisture (SM) as a predictor. The analysis\
+    \ is based on MERRA-2 reanalysis data. Models are evaluated based on hit rate\
+    \ (HR) and false alarm rate (FAR)."
+  11: "The study uses a hierarchy of statistical models (ANN and MLR) with increasing\
+    \ complexity to predict daily minimum and maximum \u03B8e using variables commonly\
+    \ available from reanalyses and climate models. The analysis is applied to reanalysis\
+    \ data over the eastern USA."
+  12: "Multiple linear regression (MLR) and artificial neural network (ANN) models\
+    \ with three hidden layers, with and without soil moisture (SM) as a predictor,\
+    \ are used to predict extreme minimum and maximum \u03B8e. Results are applicable\
+    \ to the central and eastern USA."
+More Notes:
+  1: "The models are particularly marked in regions with high variability in minimum\
+    \ and maximum \u03B8e."
+  5: The study uses MERRA-2 reanalysis data. The evaluation of MERRA-2 SM is focused
+    on agricultural locations due to limited direct measurements of SM.
+  7: "The study domain is within 97.5\xB0\u2013 65\xB0W, 25\xB0\u201350\xB0N and the\
+    \ study period is JJA, 1980\u20132015."
+  9: "The weights on the index of global temperatures are large in land grid cells\
+    \ close to the Gulf of Mexico and around the Great Lakes. Models may underestimate\
+    \ the total variance in maximum \u03B8e leading to underestimation of extreme\
+    \ maximum \u03B8e."
+  10: "False alarm rates for predicting extreme maximum \u03B8e> 347K are generally\
+    \ low (below 0.25 for over 94% of grid cells for the ANN-HL3-SM model). Models\
+    \ miss a substantial fraction of extreme \u03B8e events, even the best performing\
+    \ ANN (ANN-HL3-SM) exhibits a modal grid-cell HR of 0.6-0.7."
+  12: "The importance of the predictors varies spatially. The framework has greater\
+    \ skill for maximum \u03B8e than minimum \u03B8e. Models including SM have a smaller\
+    \ RMSE than the temporal variability of \u03B8e."
+Quantitative material:
+  1: "Median hit rate for maximum \u03B8e > 347 K is > 0.60, while the median false\
+    \ alarm rate is \u22480.08."
+  3: Up to 60% of the variance of summer temperatures in Mississippi and Alabama has
+    been ascribed to soil moisture and cloud cover.
+  4: "MERRA-2 SM exhibits an unbiased root mean square error (RMSE) of 0.05 m3m\u2212\
+    3."
+  5: "Variance of daily maximum \u03B8e is largest over IA and southern MN, while\
+    \ the variance of minimum \u03B8e is greatest over IL."
+  7: "The table shows root mean square error (RMSE) and Pearson correlation coefficient\
+    \ (r) for various models predicting daily maximum and minimum equivalent potential\
+    \ temperature. For example, MLR has RMSE of 4.05 K and r of 0.849 for maximum\
+    \ \u03B8e, while ANN-HL3-TOP has RMSE of 3.97 K and r of 0.856 for maximum \u03B8\
+    e."
+  8: Quantitative results include Pearson correlation and mean root mean square error
+    (RMSE) values for model predictions compared to observed data.
+  9: "92% of grid cells for ANN-HL3-SM exhibit RMSE < 5K for maximum \u03B8e and 91%\
+    \ exhibit RMSE < 5K for minimum \u03B8e. Over two-thirds of all grid cells (1332\
+    \ of 1962) exhibit lower RMSE in the ANN model with three hidden layers and including\
+    \ SM (i.e., ANN-HL3-SM) than in any of the other models (e.g., MLR). RMSE for\
+    \ maximum \u03B8e is increased in models excluding SM in all grid cells within\
+    \ MO, and all but one grid cell each in IA and IL."
+  10: "Mean Hit Rate (HR) values for predicting extreme maximum \u03B8e> 347K are\
+    \ 59% for the linear model (MLR), 60% for the ANN with soil moisture (ANN-HL3-SM),\
+    \ and 56% for the ANN without soil moisture (ANN-HL3)."
+  11: "Domain-averaged RMSE for minimum and maximum \u03B8e is smallest in the most\
+    \ complex models (ANN-HL3-SM, RMSE < 4 and < 4.3K, respectively, cf. mean maximum\
+    \ \u03B8e \u2248 333K and mean minimum \u03B8e \u2248 321K). Correlation coefficients\
+    \ exceed 0.8 for 84% of grid cells for ANN-HL3-SM applied to maximum \u03B8e and\
+    \ 81% for minimum \u03B8e. 92% of grid cells for ANN-HL3-SM exhibit a RMSE < 5K\
+    \ for maximum \u03B8e and 91% for minimum \u03B8e."
+  12: "The ANN-HL3-SM model has a domain-averaged median hit rate for maximum \u03B8\
+    e > 347K that is > 0.60, while the median FAR is \u22480.08."

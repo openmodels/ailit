@@ -38,13 +38,16 @@ Specify the results in a list with single lines of text in a YAML dictionary (ea
 
     return columninfo
 
-verdicts = pd.read_csv(verdict_file)
+if not os.path.exists(extract_dir):
+    os.makedirs(extract_dir)
+
+verdicts = pd.read_csv(verdict_file.replace(".csv", "-further.csv"))
 count = 0
 for dopass in range(dopass_count):
     print(f"Pass {dopass+1}")
     dopass_suffix = f"-pass{dopass}" if dopass > 0 else ""
     for index, row in verdicts.iterrows():
-        if row.priority >= priority_limit:
+        if row.Priority >= priority_limit:
             fileroot = re.sub(r'[^\w\.\-]', '_', row.DOI)
             targetpath = os.path.join(pdfs_dir, fileroot + '.pdf')
             extractpath = os.path.join(extract_dir, fileroot + dopass_suffix + '.yml')

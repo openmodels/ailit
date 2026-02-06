@@ -34,7 +34,9 @@ def submit_single_abstract_gemini(doi, title, abstract, keywords):
 
 knowndoi_gemini, knowndoi_openai = get_knowns(response_file)
 
+anymore = False
 def get_prompts(knowndoi, searches, maxcount):
+    global anymore
     prompts = {}
     count = 0
     for search in searches:
@@ -44,6 +46,8 @@ def get_prompts(knowndoi, searches, maxcount):
                 count += 1
                 if count == maxcount:
                     break
+    if len(prompts) > 0:
+        anymore = True
     return prompts
 
 if openai_config == 'batch':
@@ -71,6 +75,7 @@ for search in searches:
             knowndoi_openai.add(row['DOI'])
             count += 1
         if count >= abstract_count:
+            anymore = True
             break
 
 if openai_config == 'batch':
@@ -78,3 +83,6 @@ if openai_config == 'batch':
     for doi, response in responses.items():
         knowndoi_openai.add(doi)
         add_response(response_file, doi, 'openai', response)
+
+if not anymore:
+    print("No more abstracts to process.")

@@ -1,0 +1,194 @@
+Drivers of Risk:
+  1: Non-stationary HS characteristics and population exposure; Anthropogenic warming;
+    Increased frequency, severity, and spatiotemporal extent of extreme temperature
+    and humidity; Population growth.
+  2: Changes in variance and higher-order moments of the temperature distribution,
+    interactions with humidity, and population exposure.
+  3: Daily maximum air temperature (Tmax) and daily mean relative humidity (RH) drive
+    heat stress. Future scenarios RCP4.5 and RCP8.5 are used to project changes in
+    heat stress.
+  4: The primary driver of risk is extreme summer heat stress (HS), considering 1-,
+    3-, and 7-day events.
+  5: Extreme summer Heat Stress (HS) events, including 40-year return values of annual
+    extreme summer HS events, decadal trends in warm tail spread (WTS), population
+    exposure, and climate scenarios.
+  6: Indicator variables (n=3) at each grid location (m=210, resolution 2x2) in the
+    CONUS, and climate scenarios (S=5). Unspecified, but are used to construct xsij
+    values.
+  7: The paper examines the impact of climate change on heat stress exposure, focusing
+    on changes in temperature projections.
+  8: The primary drivers of risk are increasing temperature and absolute humidity.
+    The study specifically examines extreme heat stress severity based on daily maximum
+    Heat Index (HI) using 1-day, 3-day, and 7-day rolling averages. Future projections
+    are based on the RCP8.5 emission scenario.
+  9: The analysis focuses on changes in summer heat severity, specifically using metrics
+    like 40YHI (40-year return level of Heat Index) and WTS (daily summer heat severity).
+  10: Climate change and population changes.
+  11: Shocks or changes impacting outcomes include increased greenhouse gas emissions,
+    socioeconomic pathways, and changes in population exposure to heat stress.
+  12: Global-mean warming and population growth identified as key drivers of increased
+    PI risk from extreme heat.
+Evaluation overview:
+  1: Potential impact (PI) of summer heat stress (HS) for the contiguous United States
+    (CONUS).
+  2: HS (heat stress) is used as a qualitative term which describes the effect of
+    extreme heat on the human body, whereas the HI (heat index) is applied as a metric
+    to quantify the HS. Study focuses on the PI (potential impact) of summer (JJA)
+    annual most severe HS in the present and several future climate scenarios.
+  3: Health risks are the outcome being evaluated, specifically heat stress (HS) quantified
+    using the heat index (HI).
+  4: The paper evaluates the severity of high-end heat stress (HS) events, specifically
+    the 40-year return value of the Heat Index (40YHI).
+  5: Potential Impact (PI) of summer extreme Heat Stress (HS), estimated for the CONUS
+    grid points.
+  6: Extreme Heat Stress (HS) risk, using a composite indicator (PI)
+  8: The paper evaluates the severity of extreme heat stress (HS) and its potential
+    impact, focusing on regions within CONUS (Continental United States). The paper
+    references mortality rates associated with high heat stress.
+  9: Changes in population exposure and extreme summer heat severity characteristics
+    are evaluated.
+  10: Heat stress projections across the United States.
+  11: The page evaluates changes in population exposure and risk of potential impact
+    of high-end summer heat stress (HS) across different scenarios.
+  12: Evaluates the risk increase of population impact (PI) from extreme heat stress
+    (HS) in the CONUS.
+Highlights:
+  1: "Potential impact of short-to-medium duration (1\u20137 days) heat stress events\
+    \ is likely to double in the US by 2060\u20132099; The largest increase in HS\
+    \ risk is projected across the coastal Pacific Northwest, central California,\
+    \ and Great Lakes; In the coastal East and many parts of the West, population\
+    \ growth alone is responsible for a large share of the increases."
+  2: "PI of extreme heat events is best informed through a metric that integrates\
+    \ HS characteristics and the total population potentially impacted (\u201Cpopulation\
+    \ exposure\u201D). Compare PI for multiple scenarios and time periods at a grid-cell\
+    \ level across CONUS, allowing us to determine the changes in risk for specified\
+    \ levels of severity, and for short-duration variations."
+  4: The study focuses on estimating high-end heat stress severity using a non-stationary
+    GEV framework to model the 40-year return value of the Heat Index.
+  5: The study focuses on the disproportionate societal impacts of the most severe
+    extreme heat events. The composite indicator of PI was estimated by aggregation
+    of these indicators.
+  6: Geometric aggregation helps ensure that risk is not underestimated, especially
+    for high-end scenarios.
+  7: Projections show increasing severity and geographic spread of heat stress over
+    time, with higher intensity under RCP8.5 scenarios.
+  8: Extreme HS severity is projected to intensify over the Gulf of Mexico and Southeast
+    Atlantic coastal regions, spreading over the entire East, Midwest, and Great Plains
+    under the RCP8.5 emission scenario. A significant increasing trend in annual HS
+    severity is noteworthy over much of the western, south-eastern, and north-eastern
+    CONUS during the recent past, with such trends expected over the whole CONUS and
+    indeed the globe in future climate scenarios. HS severity under RCP4.5 increases
+    until the near-future period and then stabilizes.
+  9: There's a relatively higher rate of increase in WTS across the Great Lakes in
+    the RCP8.5 (far-future) scenario, indicating a greater potential for heat waves.
+    Decreases in WTS trends are likely in the far-future in the RCP4.5 scenarios.
+  10: Visualization provides a detailed comparison of projected heat stress indices
+    across time and scenarios, highlighting regional variations and the differing
+    impacts of climate change and population dynamics.
+  11: In the RCP8.5-SSP5 scenario, there is a significant increase in population exposure
+    to severe 40YHI and variable summer extremes; a marked increase in risk ratio
+    of potential impacts in specific U.S. regions.
+  12: Finds a substantial increase in PI risk from extreme heat in parts of the CONUS;
+    PI risk potentially doubles in some areas due to population growth alone.
+Methodology:
+  1: Applies the IPCC risk framework; Uses observations, climate projections from
+    the CMIP5 model ensemble, and historical and future population estimates to examine
+    present and projected future potential impact of summer heat stress for the contiguous
+    United States.
+  2: Climate change risk assessment framework using vulnerability, potential impact
+    (PI) and adaptive capacity. Nonstationary frequency analysis using Generalized
+    extreme value (GEV) approaches. Analysis of CMIP5 climate projections in combination
+    with projected changes in population exposure under the shared socioeconomic pathways
+    (SSPs). Comparison of PI for multiple scenarios and time periods at a grid-cell
+    level across CONUS.
+  3: "Heat index (HI) is calculated using Tmax and RH. RH is derived from dew point\
+    \ temperature (Td) for historical data and specific humidity (q) and surface pressure\
+    \ (Ps) for model simulations. Bias correction is applied to model-calculated HI\
+    \ based on historical reanalysis data. Data is regridded to a 2\xB0 spatial resolution\
+    \ within CONUS. Population data is used from 2000-2020 (using 2015 as the representative\
+    \ year)."
+  4: "The analysis uses a non-stationary Generalized Extreme Value (GEV) framework\
+    \ applied to annual maxima of summer HI (AM-HI) to estimate the 40YHI. The analysis\
+    \ covers the historical period (1980-2019), near-future (2020-2059), and far-future\
+    \ (2060-2099) under different climate scenarios (present, RCP4.5, and RCP8.5).\
+    \ The GEV model incorporates non-stationarity by allowing the location (\u03BC\
+    ) and scale (\u03C3) parameters to vary with time (linearly or quadratically for\
+    \ \u03BC, linearly for \u03C3), while keeping the shape parameter (\u03BE) constant.\
+    \ Population data are interpolated to annual estimates and aggregated to a 2\xB0\
+    \ grid resolution."
+  5: Uses non-stationary frequency analysis with GEV models selected based on Bayesian
+    Information Criteria (BIC) and Likelihood Ratio Test (LRT). The PI is estimated
+    by combining indicators of population exposure with HS characteristics (40YHI
+    and decadal trends in the spread of the warm tail) for five climate scenarios
+    and three HS durations (1, 3, and 7 days), using an indicator-based assessment
+    technique to determine a composite indicator.
+  6: A decision matrix (xsij) is constructed from indicator variables for each grid
+    location and climate scenario. A composite indicator is calculated using geometric
+    aggregation of normalized variables (rsij) with equal weights (1/3). Risk Ratio
+    (RR) is then calculated for the composite indicator. This is applicable for events
+    of durations 1 day, 3 days, and 7 days.
+  7: Changes in heat stress exposure are investigated using a Relative Risk (RR) framework,
+    considering climate change and population changes separately and in interaction.
+  8: The study uses a reanalysis dataset for historical data and model-ensemble averages
+    from 9 CMIP5 global climate models (GCMs) for future projections. Model-computed
+    HI values are bias-corrected. It analyzes annual maximum magnitude of summer extreme
+    HS severity for short, medium and long duration events. The study also investigates
+    extreme summer HS characteristics and trends in WTS (likely related to wet-bulb
+    temperature).
+  9: The analysis uses climate scenarios (RCP8.5 and RCP4.5) to project future conditions
+    and examines spatial patterns of decadal trends in WTS. Ellipses represent probability
+    density functions, and trends are examined using spatial plots.
+  10: The analysis uses different climate projection models or scenarios (RCP4.5,
+    SSP2, etc.) and considers the total effect, climate change effect, population
+    effect, and interaction effect on heat stress.
+  11: Analysis is based on mean population estimates and risk ratios (RR) using gridded
+    mean population estimates fixed to the 2015 population, and examines scenarios
+    SSP2 and SSP5 with RCP4.5 and RCP8.5 levels of emissions.
+  12: Utilizes a Generalized Extreme Value (GEV) approach to assess risks across different
+    event types and durations.
+More Notes:
+  1: Focuses on short-to-medium duration (1-7 days) heat stress events.
+  3: The study uses a decomposition approach to assess the relative importance of
+    climate and population changes on health risks.
+  4: The paper uses the Block Maxima (BM) method to focus on yearly maxima of summer
+    HI. The SSP2 and SSP5 scenarios were selected to reflect moderate and highest
+    socioeconomic challenges that extreme heat may pose.
+  5: "The scale parameter (\u03C3) in the GEV model is modeled with an exponential\
+    \ function to ensure only positive values are considered. Procedures used in the\
+    \ non-stationary frequency analysis are discussed in Appendix section A.3 and\
+    \ A.4 in the Supporting Information."
+  6: The paper uses min-max normalization to scale indicator variables to a 0-1 range
+    before aggregation. The decision matrix uses n=3 indicator variables, S=5 climate
+    scenarios, and m=210 grid locations in the CONUS.
+  8: The paper emphasizes that the variable of interest, heat stress, shows different
+    trends in the Midwest and South than observed when analyzing extreme temperatures
+    alone. Spatial structures are smoothed out in future projections due to model
+    averaging.
+  9: The study suggests particular challenges for heat acclimation and adaptation
+    in the Great Lakes region.
+  10: The page includes maps and box plots to present the projected heat stress indices
+    and their drivers.
+  12: The study emphasizes the importance of considering factors like population density
+    by age, health, and socioeconomic status for adaptation and mitigation strategies.
+Quantitative material:
+  1: "PI of short-to-medium duration (1\u20137 days) HS events is likely to increase\
+    \ more than three-fold across densely populated regions by late this century (2060\u2013\
+    2099) under the highest emissions scenario; Climate change alone more than doubles\
+    \ the impact in the coastal Pacific Northwest, central California, and the Great\
+    \ Lakes region."
+  3: Uses climate models (CMIP5) and population data (GPWv4) to quantify heat stress
+    impacts. Historical analysis covers 1979-2019, projections extend to 2100.
+  4: The paper estimates the magnitude of the 40YHI, which represents the heat index
+    value expected to be exceeded only once every 40 years, corresponding to an annual
+    exceedance probability of 0.025. Population estimates from SSP2 and SSP5 are used.
+  5: Calculation of 40-year return values of annual extreme summer HS events.
+  6: Risk Ratio (RR) for the composite indicator of PI is calculated. The composite
+    indicator is a geometric aggregation of normalized indicator values. The normalization
+    is performed with the min-max method to a 0-1 range.
+  9: "The figures show changes in 40YHI, WTS trends in \xB0C/decade, and population\
+    \ exposure."
+  10: Maps show the total projected increase in heat stress indices under different
+    scenarios for three future periods, with color gradients indicating varying levels
+    of increased heat stress.
+  11: The analysis highlights a likely more than 3x increase in the risk of potential
+    impact in some regions under the RCP8.5-SSP5 scenario.

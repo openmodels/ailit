@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
         summaries = pd.read_csv(dopass_summary_file)
         for index, row in summaries.iterrows():
-            if row[extract_fromsummary] in column_defs_extract:
+            if extract_fromsummary == 'All' or row[extract_fromsummary] in column_defs_extract:
                 fileroot = re.sub(r'[^\w\.\-]', '_', row.DOI)
                 targetpath = os.path.join(pdfs_dir, fileroot + '.pdf')
                 extractpath = os.path.join(extract_dir, fileroot + dopass_suffix + '.yml')
@@ -85,8 +85,14 @@ if __name__ == '__main__':
                         continue
                         
                     paperinfo = [f"  {key}: {value}" for key, value in row.items() if not pd.isna(value) and not key[:7] == "Unnamed"]
-                
-                    df = pass3_extract(targetpath, column_defs_extract[row[extract_fromsummary]], extract_request[row[extract_fromsummary]], xtt, "\n".join(paperinfo))
+
+                    if extract_fromsummary == 'All':
+                        column_defs = column_defs_extract['All']
+                        request = extract_request
+                    else:
+                        column_defs = column_defs_extract[row[extract_fromsummary]]
+                        request = extract_request[row[extract_fromsummary]]
+                    df = pass3_extract(targetpath, column_defs, request, xtt, "\n".join(paperinfo))
                     if df is not None:
                         df.to_csv(detailpath)
                     else:

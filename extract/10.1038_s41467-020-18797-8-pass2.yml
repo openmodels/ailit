@@ -1,0 +1,83 @@
+Drivers of Risk:
+  2: "Annual global mean temperature anomaly (\u0394T)."
+  3: The drivers of risk are temperature trajectories produced by deterministic and
+    stochastic models under different RCP scenarios (RCP8.5, RCP6.0, RCP4.5, and RCP2.6),
+    and equilibrium climate sensitivity (ECS). Internal temperature variability also
+    drives risk.
+  4: The primary drivers of risk are temperature variability and uncertainty in equilibrium
+    climate sensitivity (ECS). Specific RCP scenarios (8.5, 6.0, 4.5, 2.6) are used
+    to project future climate conditions. Temperature autocorrelation (persistence
+    of temperature deviations) is also considered.
+Evaluation overview:
+  2: Economic damages from climate change, measured as a share of global annual output.
+  3: The paper evaluates damages in Trillions of USD, and also calculates the risk
+    premium, which is what a social planner would be willing to pay to avoid inter-annual
+    temperature variability.
+  4: The paper evaluates economic damages from climate change, measured in Trillions
+    of USD. It focuses on the costs associated with aleatory (random) uncertainty
+    in climate projections, both with and without considering epistemic (knowledge-based)
+    uncertainty.
+Highlights:
+  2: Adding realistic temperature variability creates substantial uncertainty in future
+    damages, equivalent to trillions of dollars of previously uncounted for economic
+    costs of climate change. Benefits of adaptation are much greater than previously
+    believed.
+  3: Inter-annual temperature variability and uncertainty about climate sensitivity
+    significantly increase the cost of climate change. The risk premia, representing
+    the willingness to pay to avoid temperature variability, are substantial. The
+    risk premia measures the additional cost of living with aleatory uncertainty as
+    compared to living in a deterministic world. Epistemic uncertainty magnifies the
+    cost of variability.
+  4: Adding temperature variability to simple integrated assessment models results
+    in greater economic damages. The interaction between aleatory and epistemic uncertainty
+    leads to a significant additional risk premium. The authors suggest current damage
+    estimates are conservative due to high discount rates and simplified handling
+    of temperature autocorrelation.
+Methodology:
+  2: "Uses a stochastic model that extends standard deterministic models by incorporating\
+    \ variability in global mean temperature (GMT). The model includes effective heat\
+    \ capacity (C), forcing (F), feedback parameter (\u03BB), and variance of a zero-mean\
+    \ Gaussian noise process (\u03C32Q). The annual damages are then discounted and\
+    \ summed across all future years to give an estimate of total economic damages."
+  3: The analysis uses deterministic and stochastic temperature models with different
+    RCP forcings. It calculates damages based on ensembles of 10,000 temperature trajectories
+    and a discount rate of 4.25%. The risk premia are calculated by evaluating the
+    difference between the expected utility of the deterministic trajectory and that
+    of the ensemble of stochastic trajectories.
+  4: "The analysis uses a stochastic energy balance model (EBM) to generate ensembles\
+    \ of temperature trajectories, considering both aleatory and epistemic uncertainty\
+    \ related to the equilibrium climate sensitivity (ECS). The ECS is assumed to\
+    \ be log-normally distributed with a most likely value of 3\xB0C. Risk premia\
+    \ are calculated as the difference between expected utility of damages for ensembles\
+    \ with and without aleatory uncertainty."
+More Notes:
+  2: The paper distinguishes between deterministic and stochastic models, arguing
+    that deterministic models underestimate the uncertainty and therefore the economic
+    costs of climate change.
+  3: The paper distinguishes between risk premia and the social cost of carbon (SCC).
+    It finds that high draws from the ECS distribution produce both greater mean warming
+    and greater variability. The effect of a higher ECS on the variance of temperature
+    would be weaker if a fluctuation-dissipation theorem applied.
+  4: The paper suggests that the benefits of adaptation to climate change are much
+    greater than previously believed, and that societies lacking foresight may be
+    particularly vulnerable to longer periods of extreme climatic conditions, such
+    as multi-year droughts. Autocorrelation in temperatures, which is not fully captured
+    in current integrated assessment models, can lead to disproportionately large
+    damages.
+Quantitative material:
+  2: "Deterministic model forecasts $486 trillion in total damages for the forcing\
+    \ scenario RCP8.5. Stochastic model assigns a 5% chance to damages exceeding $563\
+    \ trillion (16% higher). 5\u201395% range for the stochastic model is (\u2212\
+    13%, +16%) of the deterministic forecast for RCP8.5. For RCP2.6, the 5\u201395%\
+    \ range for the stochastic model is (\u221230%, +52%) of the deterministic forecast\
+    \ of $30 trillion."
+  3: Damages range from $3 Trillion (RCP2.6) to $32 Trillion (RCP8.5) in the deterministic
+    model. Risk premia range from 4% to 40% of current global output.  The addition
+    of stochasticity can represent from 6% to 13% in additional damages. The risk
+    premium to remove aleatory uncertainty under RCP2.6 forcing is $9 trillion when
+    epistemic uncertainty about ECS is included. Under RCP8.5 forcing, this risk premium
+    is $46 trillion.
+  4: Risk premiums are calculated for different RCP scenarios. For example, under
+    RCP8.5, the aleatory-only risk premium is 32 Trillion USD, and the risk interaction
+    effect (aleatory x epistemic) is 14 Trillion USD, resulting in a total of 46 Trillion
+    USD (58%). Similar values are given for other RCP scenarios.

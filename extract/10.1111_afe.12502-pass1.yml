@@ -1,0 +1,129 @@
+Drivers of Risk:
+  1: Climate change emission scenarios (SSP1-2.6 and SSP5-8.5) impact the future distribution
+    of A. guerreronis.
+  2: Climate change plays an important role in the distribution of species. Greenhouse
+    gas emissions due to anthropogenic activities are associated with global warming.
+    Increasing CO2 levels can have a significant impact on plants and pathogens.
+  4: No relevant information
+  5: Seasonality of temperature, annual average temperature, average variation of
+    daytime temperature, and annual precipitation are key environmental variables
+    influencing coconut mite (A. guerreronis) distribution.
+  6: Temperature seasonality (bio_4), annual average temperature (bio_1), and annual
+    precipitation (bio_12) are important environmental variables influencing the occurrence
+    of Aceria guerreronis.
+  7: Climate change (SSP2.6 and SSP8.5 scenarios) impacts habitat suitability for
+    Aceria guerreronis.
+  8: The analysis is focused on the impacts of climate change, specifically within
+    the SSP1-2.6 scenario, on the habitat suitability for Aceria guerreronis.
+  9: Climate conditions in 2040 and 2060 under SSP8.5, environmental variables that
+    had the strongest influence on coconut mite habitat suitability
+  10: Thermal parameters like seasonality of temperature and annual average temperature,
+    more than annual precipitation, are the main factors influencing the potential
+    spread of the coconut mite Aceria guerreronis.
+Evaluation overview:
+  1: The paper evaluates the potential geographical distribution of the invasive coconut
+    mite, Aceria guerreronis, which causes significant economic losses.
+  2: Significant economic copra losses are associated with mite infestations.
+  4: No relevant information
+  5: No relevant information
+  6: No relevant information
+  7: No relevant information
+  8: The analysis predicts the future distribution of Aceria guerreronis under the
+    SSP1-2.6 climate scenario for 2040 and 2060.
+  9: Economically important pest of coconut wherever it occurs; global potential distribution
+    maps of its expansion are essential for economic and quarantine purposes worldwide,
+    especially for areas where the pest has not been reported.
+  10: No specific information about the outcome evaluation such as mortality or productivity
+    loss.
+Highlights:
+  1: The model predicts habitat suitability for A. guerreronis outside its present
+    distribution and shows a decrease in habitat suitability from 2040 to 2060.
+  3: The study aims to inform quarantine measures and highlight policy formulation
+    needs for coconut mite distribution.
+  4: The MaxEnt model provided satisfactory results in predicting the distribution
+    of Aceria guerreronis.
+  5: The model predicts highly suitable areas for A. guerreronis are primarily centered
+    on the west and east coasts of Africa, the south and east coasts of Asia, the
+    north coast of Oceania, the east coast of South America, and the south coast of
+    North America.
+  6: Temperature seasonality, annual average temperature, and annual precipitation
+    are identified as key predictors of Aceria guerreronis occurrence. Light green
+    bars generally show higher values in both jackknife tests, suggesting the variables
+    on their own provide more information to the model than variables in combination.
+  7: The model predicts an expansion of habitat suitability from the current time
+    to the future under SSP2.6, with major coconut-producing countries continuing
+    to be suitable. Under SSP8.5, the model predicts a decrease in suitable areas
+    from 2040 to 2060.
+  8: There is a predicted expansion of suitable habitats for Aceria guerreronis by
+    2060, as shown by an increase in suitable areas in the given maps.
+  9: Predicted future distribution of Aceria guerreronis in the shared socio-economic
+    pathway (SSP8.5) of climate conditions in 2040 and 2060; some areas have changed
+    in suitability between 2040 and 2060, with an increase in regions shifting towards
+    higher suitability levels; a general trend towards increased suitability in specific
+    areas as the timeline progresses from 2040 to 2060.
+  10: The main distribution zones of the coconut mite Aceria guerreronis are influenced
+    more by temperature parameters than by rainfall.
+Methodology:
+  1: The analysis is performed using a machine learning algorithm based on maximum
+    entropy (MaxEnt) and is applicable to the periods 2040 and 2060.
+  2: Species distribution models (SDMs) employ computer algorithms to predict the
+    habitat suitability of a species across geographical space and time based on environmental
+    data. Maximum Entropy (MaxEnt) employs presence-only data to predict the distribution
+    of species based on the theory of maximum entropy.
+  3: Spatial filtering applied using R software package spThin to reduce spatial autocorrelation.
+  4: The MaxEnt model was used based on 19 bioclimatic datasets to predict areas of
+    suitability for Aceria guerreronis. 80% of occurrence sites were used as training
+    data, and 20% were used to test the resulting models. Future areas are classified
+    as unsuitable (0-MTSPS), low (MTSPS-0.5), medium (0.5-0.7), and high (0.7-1.0)
+    suitability.
+  5: MaxEnt model was used to predict the potential distribution of the coconut mite
+    based on 19 environmental variables. The model's performance was evaluated using
+    a jackknife test and response curves.
+  6: Uses jackknife tests of regularized training gain and AUC to assess the relative
+    importance of environmental variables. Response curves are generated using an
+    unspecified model for Aceria guerreronis occurrence, with averages computed over
+    10 replicates.
+  7: Species distribution modeling predicts habitat suitability for Aceria guerreronis
+    under current and future climate scenarios (SSP2.6 and SSP8.5) from 2040 to 2060.
+  8: The study uses models to predict habitat suitability for Aceria guerreronis,
+    comparing scenarios using all occurrences vs. only Ghana occurrences.
+  9: MaxEnt model to predict the current and future distributions of A. guerreronis;
+    considers presence records only
+  10: The analysis evaluates the potential distribution and spread of Aceria guerreronis
+    based on thermal parameters and precipitation.
+More Notes:
+  4: This study focuses on modeling the distribution of Aceria guerreronis, a pest
+    that can impact agricultural production, although this is not explicitly stated
+    on this page.
+  5: The thermal conditions contributed 84.61% and rainfall conditions 15.38% to the
+    model.
+  6: The plots show the relationship between Aceria guerreronis and different climate-related
+    variables, showing preferences or thresholds in temperature seasonality, average
+    temperature, and precipitation levels, although the directionality is not consistent
+    (e.g. temperature seasonality decreases probability of occurence while annual
+    temperature increases it).
+  7: The areas that will remain medium to high suitability are mainly found on the
+    west and east coasts of Africa, east coast of South America, south and east coasts
+    of Asia, and north coast of Oceania.
+  9: The invasive coconut mite is most likely a South American native travelled with
+    the seeds to Africa and Asia.
+  10: No additional notes.
+Quantitative material:
+  1: "The paper provides specific climatic conditions where the mite is most at risk:\
+    \ annual average temperature around 25\xB0C, mean annual precipitation about 1459\
+    \ mm, and other climatic parameters."
+  2: "Economic copra losses associated with mite infestations ranged from 10% to 16%\
+    \ in West Africa, 0%\u201330% in Mexico, and 0%\u201331.5% in St. Lucia. Economic\
+    \ losses due to invasive species between 2001 and 2003 in China were US$ 14.45\
+    \ billion. Annual losses in the USA and Australia are around US$ 120 billion and\
+    \ 13.6, respectively."
+  4: The MaxEnt model had an AUC value of 0.975.
+  5: Seasonality of temperature contributes 43.28%, annual average temperature 22.35%,
+    average variation of daytime temperature 18.98%, and annual precipitation 12.86%
+    to the model predicting coconut mite distribution.
+  6: AUC values for environmental variables range from 0.72 to 1.0, as shown in jackknife
+    analysis.
+  7: No relevant information
+  9: "AUC value of more than 0.9, suggesting that the model\u2019s predictions are\
+    \ reliable."
+  10: No quantitative information is provided on this page.
