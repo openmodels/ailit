@@ -27,7 +27,8 @@ Only include information specifically contributed by this paper, not material re
 
 Specify the results in a list with single lines of text in a YAML dictionary (each line should read "Category": "Extracted Information"), and only include those entries for this page where there is concrete relevant information. This page may have no relevant information, in which case report 'No relevant information'."""
 
-        response = interaction.aiengine.chat_response([{"role": "user", "content": prompt}])
+        chat = [{"role": "user", "content": prompt}]
+        response = interaction.aiengine.chat_response(chat)
         columns = interaction.extract_yaml_dict(response)
 
         if isinstance(columns, dict):
@@ -35,6 +36,11 @@ Specify the results in a list with single lines of text in a YAML dictionary (ea
                 if column not in columninfo:
                     columninfo[column] = {}
                 columninfo[column][pagenum] = columns[column]
+
+            sourcematerial = interaction.get_sourcematerial(chat, response)
+            if 'sourcematerial' not in columninfo:
+                columninfo['sourcematerial'] = {}
+            columninfo['sourcematerial'][pagenum] = sourcematerial
 
     return columninfo
 
