@@ -1,0 +1,49 @@
+,Outcome,Region,Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,GHG emissions,Global,STEPS,2030,No CC,million tonnes CO2-eq,-700,NA,NA,NA,NA,NA,Page 2,Net GHG emissions avoided by EV adoption.
+1,GHG Emissions Reduction,Unspecified,STEPS,2035,ICEVs,Unspecified,0,NA,NA,NA,NA,NA,3,"Net GHG emissions avoided by 2035; sign specified as a placeholder and is qualitative, cannot get numerical data"
+2,GHG Emissions Reduction,Unspecified,APS,2035,ICEVs,Unspecified,0,NA,NA,NA,NA,NA,3,"Announced Pledges Scenario; net GHG emissions avoided by 2035; sign specified as a placeholder and is qualitative, cannot get numerical data"
+3,GHG Emissions Reduction,Unspecified,NZE,2035,ICEVs,Unspecified,0,NA,NA,NA,NA,NA,3,"Net Zero Emissions Scenario; even greater reductions projected, showcasing the potential for EVs to drive substantial emissions savings as electricity grids continue to decarbonize; sign specified as a placeholder and is qualitative, cannot get numerical data"
+4,CO2 Emissions,Unspecified,Unspecified,2024,Gasoline cars,grams/mile,-150,NA,NA,NA,NA,NA,3,"Gasoline cars emit >350g CO2 per mile driven over lifetime, while BEVs create ~200g. This is a relative comparison, not a projection."
+5,LCCO2 Emissions,Beijing,NA,2024,ICEV,Tons,3.477,NA,NA,NA,NA,NA,18,BEV Emissions higher than ICEV
+6,LCCO2 Emissions,Yunnan,NA,2024,ICEV,Tons,-18.318,NA,NA,NA,NA,NA,18,BEV Emissions lower than ICEV
+7,Oil demand,Global,EV growth,2030,No EVs,million barrels / day,-6,NA,NA,NA,NA,NA,21,Projected displacement of oil due to EV adoption.
+8,CO2 emissions,Global,Widespread EV adoption,2035,No EVs,gigatonnes,-1.8,NA,NA,NA,NA,NA,21,Potential reduction of CO2 emissions due to widespread EV adoption.
+9,EV Share,Norway,Observed EV Adoption,2020,ICEVs,%,54.3,NA,NA,NA,NA,NA,21,Market share of EVs in new car sales.
+10,CO2,China's Yangtze River Delta,NA,2024,ICEVs,NA,-1,NA,NA,NA,NA,NA,23,Significant CO2 mitigation reported in [90]; assumed mitigation is reported as negative emissions.
+11,Carbon Footprint,Qatar,Gas-based grid,2024,ICEVs,NA,-1,NA,NA,NA,NA,NA,23,Substantial transportation carbon footprint cuts reported in [91]; assumed reduction is reported as negative change.
+12,Emissions,Great Britain,NA,2024,ICEVs,NA,-1,NA,NA,NA,NA,NA,23,Significant emissions cuts reported in [99] from EV vans; assumed reduction is reported as negative change.
+13,NOx,Great Britain,NA,2024,ICEVs,NA,-1,NA,NA,NA,NA,NA,23,Significant NOx reductions reported in [99] from EV vans; assumed reduction is reported as negative change.
+14,Carbon emissions,China's Yangtze River Delta,Region-specific,2024,ICEVs,tonnes CO2-equivalent,2.44,NA,NA,NA,NA,NA,24,"Increase from battery production, based on IVL Swedish Environmental Research Institute estimate of 61kgCO2e/kWh for a 40kWh battery; absolute value is positive."
+15,Carbon emissions,UK,Current mix,2024,ICEVs,tonnes CO2-equivalent/year,-2,NA,NA,NA,NA,NA,24,Based on CarbonBrief analysis for Nissan Leaf. Up to 3 tonnes of CO2 savings.
+16,Carbon emissions,UK,Current mix,2024,ICEVs,tonnes CO2-equivalent/year,-3,NA,NA,NA,NA,NA,24,Based on CarbonBrief analysis for Nissan Leaf. Up to 3 tonnes of CO2 savings.
+17,GHG emissions,United States,BEV,2024,Gasoline counterparts,%,-60,NA,NA,NA,NA,NA,25,Lifecycle GHG emissions reduction
+18,GHG emissions,United States,BEV,2024,Gasoline counterparts,%,-68,NA,NA,NA,NA,NA,25,Lifecycle GHG emissions reduction
+19,Lifecycle emissions,Global,Nissan Leaf,2024,Comparable ICE vehicle,tonnes CO2-equivalent,-28,NA,NA,NA,NA,NA,25,"Nissan Leaf lifetime emissions are around 29 tonnes of CO2-equivalent, whereas a comparable ICE vehicle emits approximately 57 tonnes of CO2-equivalent."
+20,Lifecycle emissions,Global,Base case BEV,2024,ICEV,tCO2e,-22.9,NA,NA,NA,NA,NA,25,"Base case BEV scenario shows total lifecycle emissions of approximately 19 tCO2e, while the ICEV exhibits a much higher total lifecycle emission of 41.9 tCO2e"
+21,Lifecycle emissions,Global,High-GHG BEV,2024,ICEV,tCO2e,-20.8,NA,NA,NA,NA,NA,25,"High-GHG minerals case increases BEV lifecycle emissions to about 21.1 tCO2e, relative to the ICEV which is 41.9 tCO2e"
+22,GHG Emissions,Worldwide,Stated Policies,2023,ICEVs,Ratio,0.5,NA,NA,NA,NA,NA,26,BEVs emit roughly half the GHG over their lifetime compared to ICEVs when sold in 2023.
+23,GHG Emissions,Worldwide,Stated Policies,2035,ICEVs,Ratio,0.4,NA,NA,NA,NA,NA,26,BEVs in 2035 will have emissions about two-and-a-half times lower than ICEVs.
+24,GHG Emissions,Worldwide,Announced Pledges,2035,ICEVs,Ratio,0.33,NA,NA,NA,NA,NA,26,BEVs in 2035 will have emissions about three times lower than ICEVs.
+25,Well-to-tank Emissions,Worldwide,Announced Pledges,2035,2023,Percent,-75,NA,NA,NA,NA,NA,26,"Well-to-tank emissions are expected to decrease significantly, by up to 75% in the Announced Pledges Scenario, due to cleaner electricity generation."
+26,Environmental Impact,Unspecified,Pyrometallurgical Recycling,2024,Hydrometallurgical Recycling,Unspecified,2.32E-11,NA,NA,NA,NA,NA,28,"The overall environmental impact for pyrometallurgical recycling is reported as 2.17 x 10^-11 when recycling 1000 kg of batteries, versus a reported impact of -1.50 x 10^-12 for hydrometallurgical recycling.  The value of 2.32E-11 is the result of adding the absolute values of the two values."
+27,Environmental Impact,Unspecified,Hydrometallurgical Recycling,2024,Pyrometallurgical Recycling,Unspecified,-2.32E-11,NA,NA,NA,NA,NA,28,"The overall environmental impact for pyrometallurgical recycling is reported as 2.17 x 10^-11 when recycling 1000 kg of batteries, versus a reported impact of -1.50 x 10^-12 for hydrometallurgical recycling. The value of -2.32E-11 is the result of adding the absolute values of the two values and multiplying by -1."
+28,CO2 Emissions,Unspecified,Direct Physical Recycling,2024,Traditional Methods,kg CO2-eq/kWh,-37.2,NA,NA,NA,NA,NA,28,"Direct physical recycling offers about a 32% reduction in emissions compared to traditional methods, equal to 37.2 kg CO2-eq/kWh."
+29,CO2 Emissions,Unspecified,Pyrometallurgical Recycling,2024,Unspecified,kg CO2,0.224,NA,NA,NA,NA,NA,28,CO2 emissions from pyrometallurgical recycling are approximately 0.224 kg CO2 per battery pack.
+30,Energy Consumption,Unspecified,Pyrometallurgical Recycling,2024,Unspecified,kWh,7.64,NA,NA,NA,NA,NA,28,Energy required for recycling one battery pack is approximately 7.64 kWh for pyrometallurgical recycling.
+31,Energy Consumption,Unspecified,Hydrometallurgical Recycling,2024,Unspecified,kWh,7.76,NA,NA,NA,NA,NA,28,Energy required for recycling one battery pack is approximately 7.76 kWh for hydrometallurgical recycling.
+32,CO2 Emissions,Not specified,Not specified,2024,Baseline,kg CO2 eq per ton,-526.78,NA,NA,NA,NA,NA,Page 29,Silica-based tires reduce carbon emissions compared to carbon black tires.
+33,Global Warming Potential,Not specified,Not specified,2024,Baseline,%,-4.3,NA,NA,NA,NA,NA,Page 29,Reductions in Global Warming Potential from transitioning to silica-based tires.
+34,Carbon Emissions,Not specified,Not specified,2024,Carbon black tires,%,-23.46,NA,NA,NA,NA,NA,Page 29,Graphene use in tires reduces carbon emissions significantly compared to carbon black.
+35,Carbon Emissions,Global,Graphene 25%,2024,Traditional Tires,%,-5.92,NA,NA,NA,NA,NA,30,Emissions reduction from tire production.
+36,Carbon Emissions,Global,Graphene 50%,2024,Traditional Tires,%,-11.62,NA,NA,NA,NA,NA,30,Emissions reduction from tire production.
+37,Carbon Emissions,Global,Graphene 75%,2024,Traditional Tires,%,-17.76,NA,NA,NA,NA,NA,30,Emissions reduction from tire production.
+38,Carbon Emissions,Global,Graphene 100%,2024,Traditional Tires,%,-23.46,NA,NA,NA,NA,NA,30,Emissions reduction from tire production.
+39,Carbon Emissions,Global,Graphene use,2024,Carbon Black,%,-98.81,NA,NA,NA,NA,NA,30,Emissions reduction from the carbon black component itself.
+40,Particulate Emissions,Global,Control strategies,2024,Without control,%,-90,NA,NA,NA,NA,NA,30,Reduction in particulate emissions from tires in EVs.
+41,CO2 Reduction,Global,Silica tires,2024,Carbon Black tires,kg CO2 eq,526.78,NA,NA,NA,NA,NA,30,Lifecycle comparison of carbon black and silica in tires
+42,Cumulative Energy Demand,Global,Silica tires,2024,Carbon Black tires,NA,0,NA,NA,NA,NA,NA,30,Lifecycle comparison of carbon black and silica in tires
+43,Cumulative Energy Demand,Global,Graphene use,2024,Carbon Black,NA,0,NA,NA,NA,NA,NA,30,"Graphene improves strength, thermal conductivity, and tire performance."
+44,Particulates,Global,Emission Control,2024,Without control,%,-90,NA,NA,NA,NA,NA,30,Strategy improves comfort while reducing emissions.
+45,Travel Distance,Unspecified,FCEV simulated refueling,2024,ICEVs,km,650,NA,NA,NA,NA,NA,34,Distance enabled by refueling 4.34kg of hydrogen in 280s for an FCEV with an 80 kW fuel cell and a 2.64 kWh lithium-ion battery (based on 2024 study)
+46,Hydrogen Refueling Time,Unspecified,FCEV simulated refueling,2024,ICEVs,s,280,NA,NA,NA,NA,NA,34,Time to refuel 4.34kg of hydrogen in an FCEV with an 80 kW fuel cell and a 2.64 kWh lithium-ion battery (based on 2024 study)
+47,Hydrogen Refueling Mass,Unspecified,FCEV simulated refueling,2024,ICEVs,kg,4.34,NA,NA,NA,NA,NA,34,Mass refueled in 280s for an FCEV with an 80 kW fuel cell and a 2.64 kWh lithium-ion battery (based on 2024 study)

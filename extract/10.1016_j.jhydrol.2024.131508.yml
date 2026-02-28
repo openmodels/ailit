@@ -1,0 +1,27 @@
+Drivers of Risk:
+  1: Urban floods resulting from rainfall (pluvial flood)
+Evaluation overview:
+  1: No relevant information
+Highlights:
+  1: Developed a Near Real-Time flood mapping system with high-resolution (10-meter)
+    for detailed flood extent predictions.
+Methodology:
+  1: Developed a deep learning model (U-Net) for predicting near-real time urban flood
+    extents using a CNN network. Used daily rainfall and Sentinel-1 imagery for the
+    period 2014-2023. Integrated terrain-related spatial data. Ground truthing was
+    performed. AxisGISPro 3.0.3 is used for preprocessing tasks to produce raster
+    maps and flood inventory maps.
+More Notes:
+  1: No relevant information
+Quantitative material:
+  1: 'Model demonstrates an accurate prediction capability with a Ground Truth Index
+    of 84.05%. Input Data Sensitivity Analysis: Slope + HSG + Imperviousness + Rainfall:
+    Precision 94.07, Recall 86.00, F1Score 89.85, Overall Accuracy 93.73; Slope +
+    Imperviousness + Rainfall: Precision 93.47, Recall 85.76, F1Score 89.45, Overall
+    Accuracy 93.35; Slope + HSG + Rainfall: Precision 93.22, Recall 85.59, F1Score
+    89.28, Overall Accuracy 93.18; HSG + Imperviousness + Rainfall: Precision 92.85,
+    Recall 85.34, F1Score 88.97, Overall Accuracy 92.90; Imperviousness + Rainfall:
+    Precision 92.14, Recall 84.97, F1Score 88.42, Overall Accuracy 92.75; HSG + Rainfall:
+    Precision 91.93, Recall 84.42, F1Score 88.05, Overall Accuracy 92.60; Slope +
+    Rainfall: Precision 91.67, Recall 84.25, F1Score 87.82, Overall Accuracy 92.45;
+    Rainfall: Precision 90.03, Recall 83.27, F1Score 86.52, Overall Accuracy 91.57.'

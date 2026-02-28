@@ -1,0 +1,31 @@
+,Outcome,Region,Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Soybean Failures,Americas,SSP1-2.6,2100,Climate Variability,times,11,NA,NA,NA,NA,NA,1,Increase in frequency compared to changes in climate variability only.
+1,Soybean Failures,Americas,SSP5-8.5,2100,Climate Variability,times,16,NA,NA,NA,NA,NA,1,Increase in frequency compared to changes in climate variability only.
+2,Soybean Failures,Americas,SSP1-2.6,2100,Climate Variability,%,4,NA,NA,NA,NA,NA,1,Increase in magnitude compared to changes in climate variability only.
+3,Soybean Failures,Americas,SSP5-8.5,2100,Climate Variability,%,15,NA,NA,NA,NA,NA,1,Increase in magnitude compared to changes in climate variability only.
+4,Soybean Losses,US,2012,2012,Modeled,Mt,7.2,NA,NA,NA,NA,NA,More Notes,Simulated 2012 losses with a hybrid crop and machine learning model.
+5,Soybean Losses,Brazil,2012,2012,Modeled,Mt,4.9,NA,NA,NA,NA,NA,More Notes,Simulated 2012 losses with a hybrid crop and machine learning model.
+6,Soybean Losses,Argentina,2012,2012,Modeled,Mt,9,NA,NA,NA,NA,NA,More Notes,Simulated 2012 losses with a hybrid crop and machine learning model.
+7,Soybean Production Anomaly,"US, Brazil, Argentina",Historical,2012,2000-2015 Climatology,Mt,-21.1,NA,NA,NA,NA,NA,6,Aggregate loss across the three countries using the hybrid model.
+8,Soybean Production Anomaly,US,Historical,2012,2000-2015 Climatology,Mt,-7.2,NA,NA,NA,NA,NA,6,Loss using the hybrid model.
+9,Soybean Production Anomaly,Brazil,Historical,2012,2000-2015 Climatology,Mt,-4.9,NA,NA,NA,NA,NA,6,Loss using the hybrid model.
+10,Soybean Production Anomaly,Argentina,Historical,2012,2000-2015 Climatology,Mt,-9,NA,NA,NA,NA,NA,6,Loss using the hybrid model.
+11,Number of 2012 Analog Events,Americas,SSP5-8.5,2060,2012 event,count,82,NA,NA,NA,NA,NA,6,"High occurrence of 2012 analogs, with projections crossing the 2012 threshold around 2060."
+12,Soybean Production Anomaly,Americas,SSP5-8.5,2060,2012 event,percent,-17,NA,NA,NA,NA,NA,6,"Mean production losses larger than the original event for the SSP5-8.5, with projections around 2060."
+13,Number of 2012 Analog Events,Americas,SSP1-2.6,2060,2012 event,count,43,NA,NA,NA,NA,NA,6,"Fewer analogs are observed, with comparison around 2060."
+14,Soybean Production Anomaly,Americas,SSP1-2.6,2060,2012 event,percent,-6,NA,NA,NA,NA,NA,6,"Mean production losses larger than the original event for the SSP1-2.6, around 2060."
+15,Number of 2012 Analog Events,Americas,SSP1-2.6,2060,Adaptation,count,4,NA,NA,NA,NA,NA,6,"Low number of 2012 analogs in adaptation scenario, projecting trends to 2060."
+16,Number of 2012 Analog Events,Americas,SSP5-8.5,2060,Adaptation,count,5,NA,NA,NA,NA,NA,6,"Low number of 2012 analogs in adaptation scenario, projecting trends to 2060."
+17,Soybean Production Anomaly,Americas,SSP5-8.5,2060,"2012 event, Adaptation",percent,-2.3,NA,NA,NA,NA,NA,6,"Changes in losses are not significant in adaptation scenario, around 2060."
+18,Soybean Production Anomaly,Americas,SSP1-2.6,2060,"2012 event, Adaptation",percent,-2.2,NA,NA,NA,NA,NA,6,"Changes in losses are not significant in adaptation scenario, around 2060."
+19,Soybean Production,US,Adaptation Scenario,2012,2012 Event,Mt,-1.5,NA,5%, -4.1,95%,1.0,7,Average across nine 2012 analogs; confidence interval reported
+20,Soybean Production,Brazil,Adaptation Scenario,2012,2012 Event,Mt,-0.5,NA,5%, -5.9,95%,4.8,7,Average across nine 2012 analogs; confidence interval reported
+21,Soybean Production,Argentina,Adaptation Scenario,2012,2012 Event,Mt,-0.6,NA,5%, -4.0,95%,2.8,7,Average across nine 2012 analogs; confidence interval reported
+22,Soybean Yield,US,SSP1-2.6/SSP5-8.5,2040,2012,Mt,-2.7,NA,5%,-3.1,95%,-2.2,Page 8,The value is a change in soybean yield relative to 2012 losses in the US. 2040 is representative of mid-century projections.
+23,Soybean Yield,Brazil,SSP1-2.6/SSP5-8.5,2040,2012,Mt,-2.5,NA,5%,-3.7,95%,-1.4,Page 8,The value is a change in soybean yield relative to 2012 losses in Brazil. 2040 is representative of mid-century projections.
+24,Soybean Yield,Argentina,SSP1-2.6/SSP5-8.5,2040,2012,Mt,-2.4,NA,5%,-3.2,95%,-1.6,Page 8,The value is a change in soybean yield relative to 2012 losses in Argentina. 2040 is representative of mid-century projections.
+25,Soybean Yield Anomaly,Americas,SSP1-2.6,2100,Mean Climate Trends,ratio,-0.04,NA,NA,NA,NA,NA,9,Risk of 2012 analogs is substantially lower without mean climate trends
+26,Soybean Yield Anomaly,Americas,SSP5-8.5,2100,Mean Climate Trends,ratio,-0.15,NA,NA,NA,NA,NA,9,Risk of 2012 analogs is substantially lower without mean climate trends
+27,Production Anomaly,US,2012 analogs,2012,2012 event,Megatonne,-2.0,NA,NA,NA,NA,NA,Image of Page 9,Based on the magnitude of country-level analogues in Figure 5.
+28,Production Anomaly,Brazil,2012 analogs,2012,2012 event,Megatonne,-2.0,NA,NA,NA,NA,NA,Image of Page 9,Based on the magnitude of country-level analogues in Figure 5.
+29,Production Anomaly,Argentina,2012 analogs,2012,2012 event,Megatonne,-2.1,NA,NA,NA,NA,NA,Image of Page 9,Based on the magnitude of country-level analogues in Figure 5.

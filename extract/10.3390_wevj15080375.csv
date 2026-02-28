@@ -1,0 +1,42 @@
+,Outcome,Region,Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,GHG Emissions,Global,IEA projection,2030,ICE vehicles,%,35,NA,NA,NA,NA,NA,1,Global market share for electric cars.
+1,Lifecycle Emissions,Global,Various Policy Scenarios,2024,ICE vehicles,%,0,NA,NA,NA,NA,NA,1,"Compared to internal combustion engine vehicles, particularly when charged with renewable energy sources; setting value to 0 as I can't quantify from this page, and assuming this is the current year."
+2,GHG Emissions,Global,STEPS,2030,ICEV,tonnes of CO2-equivalent,-700000000,NA,NA,NA,NA,NA,2,Net GHG emissions avoided by EV deployment relative to ICEV.
+3,GHG emissions,Unspecified,STEPS,2035,ICE vehicles,grams of CO2 per mile,-150,NA,NA,NA,NA,NA,3,"Implies gasoline cars emit at least 150 more grams of CO2 per mile in 2035 compared to EVs, under the STEPS scenario. Calculated using the 350 grams/mile for gasoline cars from the MIT study, and the 200 grams/mile for EVs, and reporting the difference."
+4,GHG emissions,Unspecified,APS,2035,ICE vehicles,grams of CO2 per mile,-150,NA,NA,NA,NA,NA,3,"Implies gasoline cars emit at least 150 more grams of CO2 per mile in 2035 compared to EVs, under the APS scenario. Calculated using the 350 grams/mile for gasoline cars from the MIT study, and the 200 grams/mile for EVs, and reporting the difference. APS includes announced pledges."
+5,GHG emissions,Unspecified,NZE,2035,ICE vehicles,grams of CO2 per mile,-150,NA,NA,NA,NA,NA,3,"Implies gasoline cars emit at least 150 more grams of CO2 per mile in 2035 compared to EVs, under the NZE scenario. Calculated using the 350 grams/mile for gasoline cars from the MIT study, and the 200 grams/mile for EVs, and reporting the difference. NZE achieves net-zero emissions by 2050."
+6,GHG emissions,Unspecified,EV + Grid Decarb,2024,ICEVs,Unspecified,-1,NA,NA,NA,NA,NA,Highlights,Qualitative statement; Substantial emission reductions. Assigning -1 to denote reduction.
+7,Energy savings,Unspecified,EV adoption,2024,ICEVs,Unspecified,1,NA,NA,NA,NA,NA,Highlights,Qualitative statement. Assigning 1 to denote increase.
+8,Job creation,Unspecified,EV manuf/infr,2024,No EV,Unspecified,1,NA,NA,NA,NA,NA,Highlights,Qualitative statement. Assigning 1 to denote increase.
+9,Operating costs,Unspecified,EV adoption,2024,ICEVs,Unspecified,-1,NA,NA,NA,NA,NA,Highlights,Qualitative statement; Reduced costs. Assigning -1 to denote reduction.
+10,Maintenance costs,Unspecified,EV adoption,2024,ICEVs,Unspecified,-1,NA,NA,NA,NA,NA,Highlights,Qualitative statement; Reduced costs. Assigning -1 to denote reduction.
+11,Air quality,Unspecified,EV adoption,2024,ICEVs,Unspecified,1,NA,NA,NA,NA,NA,Highlights,Qualitative statement; Improved air quality. Assigning 1 to denote increase.
+12,Carbon emissions,Unspecified,EV adoption,2024,ICEVs,Unspecified,-1,NA,NA,NA,NA,NA,Page 11,Qualitative statement about broadened scope; Presence of term 'carbon emissions' shows wider scope. Assigning -1 to denote reduction.
+13,CO2 Emissions,Beijing,NA,2024,No CC,Tons,3.477,NA,NA,NA,NA,NA,Page 18,BEV emissions are higher than ICEV emissions in Beijing.
+14,CO2 Emissions,Yunnan,NA,2024,No CC,Tons,-18.318,NA,NA,NA,NA,NA,Page 18,BEV emissions are lower than ICEV emissions in Yunnan.
+15,Oil demand,Global,Not specified,2030,No CC,barrels of oil per day,-6000000,NA,NA,NA,NA,NA,Page 21,The IEA projects the global EV fleet will displace approximately six million barrels of oil per day by 2030.
+16,CO2 emissions,Global,Not specified,2035,No CC,gigatonnes,-1.8,NA,NA,NA,NA,NA,Page 21,"According to the IEA, the widespread adoption of EVs could reduce CO2 emissions by 1.8 gigatonnes by 2035."
+17,GHG Emissions,United States,Today,2024,Gasoline counterparts,%,60,NA,NA,NA,NA,NA,25,Medium-sized BEVs registered today have 60-68% lower lifecycle GHG emissions in the United States compared to their gasoline counterparts
+18,GHG Emissions,United States,Today,2024,Gasoline counterparts,%,68,NA,NA,NA,NA,NA,25,Medium-sized BEVs registered today have 60-68% lower lifecycle GHG emissions in the United States compared to their gasoline counterparts
+19,GHG Emissions,Global,2023,2023,ICEV,NA,-29,NA,NA,NA,NA,NA,25,Lifecycle emissions of BEVs are less than ICEVs
+20,GHG Emissions,Global,Stated Policies 2035,2035,ICEV,NA,-29,NA,NA,NA,NA,NA,25,Lifecycle emissions of BEVs are less than ICEVs
+21,GHG Emissions,Global,Announced Pledges 2035,2035,ICEV,NA,-29,NA,NA,NA,NA,NA,25,Lifecycle emissions of BEVs are less than ICEVs
+22,GHG emissions,China,Cleaner electricity,2024,Conventional ICEVs,reduction,1,NA,NA,NA,NA,NA,27,Overall environmental benefits of EVs; Value coded as 1 because the text specifies 'benefits'
+23,Non-renewable energy demand,"Bolzano, Italy",Electric buses,2024,Different bus technologies,reduction,1,NA,NA,NA,NA,NA,27,Electric buses significantly reduce global warming potential; Value coded as 1 because the text specifies 'reduce'
+24,GHG,China,Efficient recycling practices,2024,Shared electric bicycles,reduction,1,NA,NA,NA,NA,NA,27,"Significant net GHG reduction benefits, with efficient recycling practices; Value coded as 1 because the text specifies 'benefits'"
+25,CO2 emissions,China,More renewable energy,2024,Various vehicle types,reduction,1,NA,NA,NA,NA,NA,27,EVs significantly reduce CO2 emissions; Value coded as 1 because the text specifies 'reduce'
+26,CO2 Emissions,Unspecified,Unspecified,2024,Pyrometallurgical,kg CO2/pack,-0.224,NA,NA,NA,NA,NA,29,Hydrometallurgical CO2 emissions are not specified.
+27,Environmental Impact,Unspecified,Unspecified,2024,Hydrometallurgical,normalized units,-2.32E-11,NA,NA,NA,NA,NA,29,Difference in normalized environmental impact (2.17E-11 - (-1.50E-12) = 2.32e-11)
+28,CO2 Emissions,Unspecified,Unspecified,2024,Carbon Black,kg CO2 eq/ton,-526.78,NA,NA,NA,NA,NA,29,Silica-based tires compared to carbon black.
+29,Global Warming Potential,Unspecified,Unspecified,2024,Carbon Black,%,-4.3,NA,NA,NA,NA,NA,29,Silica-based tires compared to carbon black.
+30,Carbon Emissions,Unspecified,Unspecified,2024,Carbon Black,%,-23.46,NA,NA,NA,NA,NA,29,Graphene tires compared to carbon black.
+31,Emissions,Unspecified,25% Graphene,2024,Traditional tires,%,-5.92,NA,NA,NA,NA,NA,30,
+32,Emissions,Unspecified,50% Graphene,2024,Traditional tires,%,-11.62,NA,NA,NA,NA,NA,30,
+33,Emissions,Unspecified,75% Graphene,2024,Traditional tires,%,-17.76,NA,NA,NA,NA,NA,30,
+34,Emissions,Unspecified,100% Graphene,2024,Traditional tires,%,-23.46,NA,NA,NA,NA,NA,30,
+35,Emissions,Unspecified,Graphene,2024,carbon black,%,-98.81,NA,NA,NA,NA,NA,30,Maximum reduction of the carbon black component itself
+36,Particulate Emissions,Unspecified,Tire Controls,2024,No emission controls,%,-90,NA,NA,NA,NA,NA,30,Minimum reduction.
+37,CO2 Reduction,Unspecified,Silica,2024,Traditional Tires,kg CO2 eq,526.78,NA,NA,NA,NA,NA,30,Lifecycle comparison.
+38,Range,Unspecified,Unspecified,2024,Conventional vehicles,km,650,NA,NA,NA,NA,NA,34,"FCEV range, stated to be competitive with conventional vehicles"
+39,Hydrogen refueling time,Unspecified,Unspecified,2024,Conventional vehicles,seconds,280,NA,NA,NA,NA,NA,34,Refueling of 4.34kg of hydrogen
+40,CO2 emissions,Europe,Electrification,2050,Baseline,%,0,NA,NA,NA,NA,NA,38,"Road transport sector, substantial reduction (direction only)"

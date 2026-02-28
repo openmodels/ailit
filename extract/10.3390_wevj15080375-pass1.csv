@@ -1,0 +1,43 @@
+,Outcome,Region,Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,GHG emissions,Global,STEPS,2030,ICEV,Mt CO2e,700,NA,NA,NA,NA,NA,2,net GHG emissions avoided
+1,Lifecycle emissions,Global,NA,2024,ICEV,ratio,0.5,NA,NA,NA,NA,NA,2,of a medium-size battery electric vehicle (BEV); assumed present
+2,GHG Emissions,Unspecified,STEPS,2035,ICEVs,Unspecified,0,NA,NA,NA,NA,NA,3,"Net GHG emission reductions avoided by 2035 are significant, but not numerically quantified. Setting the value to 0 as it is qualitatively 'Significant' (positive)."
+3,GHG Emissions,Unspecified,APS,2035,ICEVs,Unspecified,0,NA,NA,NA,NA,NA,3,"The APS scenario shows further reductions compared to STEPS scenario, but not numerically quantified. Setting the value to 0 as it is qualitatively 'Further reductions' (positive)."
+4,GHG Emissions,Unspecified,NZE,2050,ICEVs,Unspecified,0,NA,NA,NA,NA,NA,3,"Even greater reductions compared to APS, but not numerically quantified. Setting the value to 0 as it is qualitatively 'Evengreater reductions' (positive)."
+5,CO2 Emissions,Unspecified,NZE,2023,ICEVs,grams/mile,150,NA,NA,NA,NA,NA,3,"EV emits 200 grams of CO2 per mile, ICEV emits 350 grams of CO2 per mile. The comparison, while based on lifetime emissions, is entered with the 2023 context for reporting purposes."
+6,Energy savings,Malaysia,EV vs ICEV,2024,ICEVs,%,0,NA,NA,NA,NA,NA,16,"Based on AIMSUN software modeling, highlighting potential significant energy savings with EV adoption over ICEVs. The value is set to 0 since the result is qualitative, but indicates positive savings."
+7,Energy consumption,NA,Seasonal changes,2024,No adaptation,%,0,NA,NA,NA,NA,NA,16,"Describes reduced energy consumption through adaptation to seasonal changes in bus operations, without specifying numeric values. The value is set to 0 since the result is qualitative, but indicates positive savings."
+8,Energy Efficiency,Norway,Current,2024,ICEVs,%,82.5,NA,NA,80,NA,85,Page 17,Well-to-wheel efficiency of electric two-wheelers compared to conventional scooters and motorcycles; reported as a range so take the average.
+9,Energy Efficiency,Norway,Current,2024,ICEVs,%,78.5,NA,NA,76,NA,81,Page 17,Well-to-wheel efficiency of electric three-wheelers compared to conventional LPG and diesel autos; reported as a range so take the average.
+10,Energy Efficiency,Norway,Current,2024,ICEVs,%,37,NA,NA,NA,NA,NA,Page 17,Energy savings of full EVs such as the Nissan Leaf compared to the 2024 Nissan Sentra.
+11,Energy Efficiency,Norway,Current,2024,ICEVs,%,70,NA,NA,NA,NA,NA,Page 17,Energy savings for light commercial vehicles like the Mercedes-Benz eVito Tourer Long compared to the Mercedes-Benz Vito 119 CDI.
+12,Energy Efficiency,Norway,Current,2024,ICEVs,%,48.8,NA,NA,NA,NA,NA,Page 17,Energy savings for heavy commercial vehicles like the Volvo FH Electric compared to the Volvo FH Diesel.
+13,Lifecycle CO2 Emissions,Norway,Current,2024,ICEVs,Relative,-1,NA,NA,NA,NA,NA,Page 17,BEVs in Norway exhibit lower lifecycle CO2 emissions compared to ICEVs. Using -1 to represent relatively lower emissions.
+14,Lifecycle CO2 Emissions,China,Current,2024,ICEVs,Relative,1,NA,NA,NA,NA,NA,Page 17,BEVs in China may have higher lifecycle CO2 emissions than efficient ICEVs like the Honda Insight. Using +1 to represent relatively higher emissions.
+15,Emissions,Beijing,No specific scenario,2024,No CC,Tons,3.477,NA,NA,NA,NA,NA,Page 18,BEV emissions in Beijing are reported as higher than ICEV emissions by 3.477 tons.
+16,Emissions,Yunnan,No specific scenario,2024,No CC,Tons,-18.318,NA,NA,NA,NA,NA,Page 18,BEV emissions in Yunnan are reported as lower than ICEV emissions by 18.318 tons.
+17,Oil demand,Global,EV adoption,2030,ICEVs,barrels/day,-6000000,NA,NA,NA,NA,NA,21,Projected displacement by global EV fleet.
+18,CO2 emissions,Global,Widespread EV adoption,2035,ICEVs,gigatonnes,-1.8,NA,NA,NA,NA,NA,21,
+19,Fuel consumption,Norway,EV adoption,2020,Pre-EV adoption,NA,0,NA,NA,NA,NA,NA,21,"EVs accounted for 54.3% of new car sales, implying a decrease in gasoline and diesel consumption, but the exact quantitative impact is not specified."
+20,CO2-equivalent Emissions,China’s Yangtze River Delta,Unspecified,2024,ICE Vehicles,Unspecified,1,NA,NA,NA,NA,NA,24,Qualitative indication of emissions reductions based on region-specific policies and energy contexts; positive value used as placeholder.
+21,CO2-equivalent Emissions,Qatar,Unspecified,2024,ICE Vehicles,Unspecified,1,NA,NA,NA,NA,NA,24,Qualitative indication of emissions reductions based on region-specific policies and energy contexts; positive value used as placeholder.
+22,GHG Emissions,Unspecified,Unspecified,2024,ICE Vehicles,tonnes CO2-equivalent,2.44,NA,NA,NA,NA,NA,24,"Emissions from the production of a 40 kWh battery for the Nissan Leaf, according to IVL Swedish Environmental Research Institute (61kgCO2e/kWh)."
+23,CO2-equivalent Emissions,UK,Current electricity mix,2024,ICE Vehicles,tonnes CO2-equivalent/year,2,NA,NA,NA,NA,NA,24,"Savings from Nissan Leaf, CarbonBrief analysis. The actual reported range is 2 to 3 tonnes."
+24,CO2-equivalent Emissions,UK,Current electricity mix,2024,ICE Vehicles,tonnes CO2-equivalent/year,3,NA,NA,NA,NA,NA,24,"Savings from Nissan Leaf, CarbonBrief analysis. The actual reported range is 2 to 3 tonnes."
+25,GHG Emissions,United States,No CC,2024,No CC,tonnes CO2-equivalent,29,NA,NA,NA,NA,NA,Page 25,"Lifecycle emissions for Nissan Leaf compared to a comparable ICE vehicle over 150,000 km."
+26,GHG Emissions,Global,Base Case BEV,2024,No CC,tonnes CO2-equivalent,19,NA,NA,NA,NA,NA,Page 25,Global average lifecycle emissions for mid-size BEVs in base case scenario.
+27,GHG Emissions,Global,High-GHG Minerals Case BEV,2024,No CC,tonnes CO2-equivalent,21.1,NA,NA,NA,NA,NA,Page 25,Global average lifecycle emissions for mid-size BEVs in high-GHG minerals case.
+28,GHG Emissions,Global,No CC,2024,No CC,tonnes CO2-equivalent,41.9,NA,NA,NA,NA,NA,Page 25,Global average lifecycle emissions for ICEVs.
+29,GHG emissions,Global,Stated Policies,2035,2023,Ratio (BEV/ICEV),0.4,NA,NA,NA,NA,NA,Page 26,BEVs emissions are about 2.5 times lower than ICEVs under the Stated Policies Scenario in 2035.
+30,GHG emissions,Global,Announced Pledges,2035,2023,Ratio (BEV/ICEV),0.33,NA,NA,NA,NA,NA,Page 26,BEVs emissions are over 3 times lower than ICEVs under the Announced Pledges Scenario in 2035.
+31,Well-to-tank emissions,Global,Announced Pledges,2035,2023,Percent reduction,75,NA,NA,NA,NA,NA,Page 26,Well-to-tank emissions are expected to decrease by up to 75% due to cleaner electricity generation.
+32,GHG emissions,China,Cleaner electricity,2024,ICEVs,NA,-1,NA,NA,NA,NA,NA,27,"BEVs offer significant emission reductions compared to ICEVs, especially with cleaner electricity."
+33,Energy Demand,"Bolzano, Italy",Electric buses,2024,Other bus technologies,NA,-1,NA,NA,NA,NA,NA,27,Electric buses reduce non-renewable energy demand compared to other bus technologies.
+34,Global warming potential,"Bolzano, Italy",Electric buses,2024,Other bus technologies,NA,-1,NA,NA,NA,NA,NA,27,Electric buses reduce global warming potential compared to other bus technologies.
+35,GHG reduction,China,Efficient recycling,2024,No recycling,NA,1,NA,NA,NA,NA,NA,27,Significant net GHG reduction benefits with efficient recycling practices for shared electric bicycles.
+36,CO2 emissions,China,More renewable energy,2024,Various vehicle types,NA,-1,NA,NA,NA,NA,NA,27,"EVs significantly reduce CO2 emissions, especially with more renewable energy."
+37,GHG Emissions,Not specified,Not specified,2024,No CC,%,-5.92,NA,NA,NA,NA,NA,Page 30,This is for a scenario where carbon black is replaced with 25% graphene.
+38,GHG Emissions,Not specified,Not specified,2024,No CC,%,-11.62,NA,NA,NA,NA,NA,Page 30,This is for a scenario where carbon black is replaced with 50% graphene.
+39,GHG Emissions,Not specified,Not specified,2024,No CC,%,-17.76,NA,NA,NA,NA,NA,Page 30,This is for a scenario where carbon black is replaced with 75% graphene.
+40,GHG Emissions,Not specified,Not specified,2024,No CC,%,-23.46,NA,NA,NA,NA,NA,Page 30,This is for a scenario where carbon black is replaced with 100% graphene.
+41,Tire Particulate,Not specified,Not specified,2024,No CC,%,-90,NA,NA,NA,NA,NA,Page 30,This is for the implementation of tire particle control strategies in EVs.

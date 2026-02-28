@@ -1,0 +1,156 @@
+Drivers of Risk:
+  2: Increases in temperature, CO2, precipitation, altered weather systems (drought,
+    flooding, heat shock).
+  3: Abiotic and biotic stresses, elevated CO2 levels, high temperatures, drought
+    stress, flooding.
+  5: Climate scenarios imposed during growth, including control 2020, control 2050,
+    2050 + flood, 2050 + drought, and 2050 + heat shock.
+  6: The climate scenarios assessed include 2020 conditions, 2050 conditions, and
+    changes such as flooding, drought, and heat shock.
+  7: Climate change scenarios (drought, flood, heat shock) in 2050 are compared to
+    control conditions (2020 and 2050).
+  8: The drivers of risk are drought, flood, and heat shock conditions simulated in
+    the experiment.
+  9: Drought, heat stress, floods, and elevated CO2 are identified as factors affecting
+    plant physiology and forage quality.
+  10: Heat shock, flood climate scenarios, and drought impact grass growth and chemistry.
+  11: Flood, drought, and heat shock as climate stressors.
+  12: Acute flood and drought.
+Evaluation overview:
+  2: Ruminant production; forage quality and rumen fermentation.
+  3: Forage degradation in the rumen and its effect on ruminant feeding strategies.
+  5: Physiological characteristics of grass varieties and gas production were evaluated.
+  6: The paper evaluates the impact of different climate scenarios on plant chemistry,
+    gas production during rumen fermentation, and other parameters.
+  7: Fermentation profiles, Dry Matter Degradation (DMD), and production of various
+    gases (total gas, CO2, methane), volatile fatty acids (VFAs), ammonia, and pH
+    are evaluated.
+  8: The study evaluates the impact of climate scenarios (control, drought, flood,
+    heat shock) on fermentation profiles and volatile organic compound (VOC) profiles
+    of grass exposed to rumen fluid.
+  9: The study evaluates the impact of climate change on plant physiology, specifically
+    focusing on forage quality and ruminant production.
+  10: No relevant information
+  11: The effect of climate scenarios (flood, drought, heat shock) on the in vitro
+    digestibility of forage grasses and rumen fermentation.
+  12: Impact of altered environmental conditions on plant growth and subsequent effects
+    on rumen fermentation when ingested.
+Highlights:
+  2: All varieties consistently showed decreased digestibility linked to decreased
+    methane production as a result of drought or an acute flood treatment. Little
+    effect of elevated temperature or CO2 compared with controls (2020).
+  3: Plants respond to abiotic and biotic stresses with physiological, biochemical,
+    metabolic and molecular mechanisms. Pre-exposure to environmental stresses primes
+    plant cells such that the subsequent response is altered (stress memory).
+  5: Grass varieties were clearly affected by the climate scenarios imposed during
+    growth, indicating that the extent of the stress imposed was sufficient to elicit
+    a physiological response.
+  6: Distinct effects of climate scenarios on plant chemical properties were observed;
+    flooding led to significantly reduced gas production, drought resulted in lower
+    CO2 and methane production.
+  7: Climate change scenarios significantly affect fermentation profiles, DMD, and
+    gas production. Drought, flood, and heat shock generally lead to lower DMD and
+    VFA production, and altered gas compositions compared to control conditions. The
+    acetate to propionate ratio (C2:C3) was lowest in control 2020 and 2050 + drought
+    and highest in 2050 + flood.
+  8: Climate scenario was a significant predictor of VOC profiles overall. Random
+    forest analysis correctly classified at least 66% of samples in each climate scenario.
+    The most important VOCs were not necessarily the most abundant.
+  9: Sulphurous compounds are the most abundant group, where drought and heat stress
+    increase water soluble carbohydrate and protein levels, while floods reduce crude
+    protein and water soluble carbohydrate levels.
+  10: Climate conditions impact grass growth and rumen fermentation. Heat shock and
+    flood climate scenarios resulted in lower chlorophyll levels, indicating affected
+    photosynthesis. Heat-shocked material separated from controls based on FTIR data,
+    indicating high levels of stress.
+  11: Flood conditions had the greatest effect on reducing total gas production; drought
+    and heat shock led to lower methane levels; stress growth conditions could be
+    distinguished from high background variability by analysis of volatile organic
+    compounds.
+  12: Acute flood and drought caused decreased digestibility in forages. VOCs associated
+    with plant stress responses were detected during fermentation, indicating post-ingestion
+    plant metabolism is a component of the functional rumen system. Isoprene production
+    is inhibited at increased CO2 concentrations.
+Methodology:
+  2: 'Models of near future climate change (2050) are used. Ten forage grass varieties
+    screened in five climate scenarios: current (2020), future (2050), future plus
+    flooding, drought, or heat shock. Varietal differences in fermentation were detected.'
+  3: Ten different forage grass varieties were grown for 3 months in five different
+    climate scenarios (present-day and future potential) in growth chambers, replicated
+    three times at 1-week intervals.
+  5: Grasses were subjected to different climate scenarios, and various analyses were
+    performed including chemical analysis (VFA, ammonia, FTIR), gas chromatography,
+    and statistical modeling (ANOVA, general linear models, multivariate linear model,
+    Random Forest).
+  6: Analysis is performed using FTIR spectra and in vitro rumen fermentation; DFA
+    was used to detect cluster differences; results applicable to plant chemistry
+    under climate change scenarios.
+  7: Fermentation was conducted for 48 hours. Data was analyzed using ls means with
+    Tukey adjustment (P < 0.05). DFA (Discriminant Function Analysis) was used to
+    analyze liquid and pellet FTIR.
+  8: The analysis uses random forest classification to differentiate VOC samples by
+    growth condition (climate scenario). Fermentation profiles (VFA, ammonia, pH)
+    were analyzed to characterize the response to environmental conditions. Statistical
+    significance was determined using ls means with Tukey adjustment (P<0.05).
+  9: The analysis uses random forest classification to identify compounds important
+    in distinguishing climate scenarios, based on the mean relative abundance in each
+    growth condition at 24 hours post incubation.
+  10: VOC profiles were analyzed from grass varieties exposed to rumen fluid under
+    different climate scenarios (control, drought, flood, heat shock). FTIR data was
+    used and clustering was done based on treatment.
+  11: In vitro gas production technique used to analyze fermentation of feeds by a
+    rumen microbial inoculum, Fourier Transform Infrared (FTIR) profiles, and volatile
+    organic compounds (VOCs) analysis. The results are applicable to understanding
+    how future climate scenarios might affect forage digestibility and rumen fermentation.
+  12: Investigated the effects of forage growth under altered climate conditions on
+    rumen fermentation. VOCs were analyzed to detect plant stress responses during
+    fermentation. The study compared grass varieties grown under control, drought,
+    and heat shock conditions.
+More Notes:
+  3: The study aims to determine how responses to the growth environment, including
+    'stress memory', may affect forage degradation in the rumen and, therefore, to
+    understand how ruminant feeding strategies might be affected by climate change.
+  5: The analysis accounted for dry matter (DM) variations and biological replicates
+    in the models. Analysis of VOC data using AMDIS and Gavin software, followed by
+    statistical analysis in R.
+  8: The MDS ordination plots (Figure 4) visually represent the VOC profile differences
+    between climate scenarios, biological replicates, and grass varieties. Table 5
+    shows the error rate for the random forest classification, indicating the percentage
+    of misclassified samples for each climate scenario.
+  10: The study suggests that the plant response to climate has consequences for the
+    activity of the rumen microbiota.
+  11: Breeding forage grasses for resilience to flooding may be important for maximizing
+    nutritional value. Stress treatments affected in vitro rumen fermentation.
+Quantitative material:
+  2: "Climate change models of the near future (2050) predict increases in temperature\
+    \ of 4\u20136 \xB0C in the UK, atmospheric CO2 from 400 to 500 ppm, increases\
+    \ in precipitation (up to 33% more)."
+  5: Mean biomass values for grasses in each climate scenario (control 2020, control
+    2050, 2050 + flood, 2050 + drought and 2050 + heat shock) were 14.4 g, 10.2 g,
+    8.6 g, 6.0 g and 5.8 g DM respectively (SD = 3.61).
+  6: The paper provides measurements like chlorophyll content, crude protein, water-soluble
+    carbohydrates, and fiber components (NDF, ADF, ADL) under different climate scenarios,
+    with significant changes noted.
+  7: Climate scenario affected Dry Matter Degradation (DMD) with future scenarios
+    significantly less than control 2020. VFA production was lower (P < 0.05) in drought,
+    flood, and heat shock scenarios compared to control 2020. Ammonia concentration
+    was lowest (P < 0.05) in control 2020 and 2050 compared to all other climate scenarios.
+    Acetate production was lowest (P < 0.05) in 2050 + drought compared to all other
+    climate scenarios, whereas propionate concentration was highest (P < 0.05) in
+    control 2020 with decreasing values for control 2050, 2050 + heat shock, 2050
+    + drought and 2050 + flood respectively. Butyrate concentration was highest (P
+    < 0.05) in control 2020 and 2050 + drought and lowest in 2050 + flood and 2050
+    + heat shock with an intermediate value for control 2050. The acetate to propionate
+    ratio (C2:C3) was lowest (P < 0.05) in control 2020 and 2050 + drought and highest
+    in 2050 + flood with intermediate values for control 2050 and 2050 + heat shock.
+  8: Table 4 shows the effect of the climate scenarios on the fermentation endpoint
+    profile. For example, DMD (Dry Matter Digestibility) decreased from 77.5 g/100g
+    in the 2020 control to 54.6 g/100g in the 2050 drought scenario.
+  9: Quantitative data includes the relative abundance of specific chemical compounds
+    under different climate scenarios and the percentage of sulphurous compounds,
+    alkenes, acids, and ketones in the samples.
+  10: Relative abundance is on an arbitrary scale where each sample sums to 100.
+  11: Decreased in vitro dry matter digestibility (DMD) due to future climate scenarios;
+    altered acetate:propionate and propionate:butyrate ratios; changes in volatile
+    organic compound (VOC) profiles.
+  12: Ethanol constituted on average 1.7% total area in the present rumen samples.

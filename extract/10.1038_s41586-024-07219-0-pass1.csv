@@ -1,0 +1,32 @@
+,Outcome,Region,Scenario,Year,Relative to,Units,Value,SD,Low Quantile,Low Value,High Quantile,High Value,Result Source,More Notes
+0,Income,Global,Unspecified,2050,No CC,%,-19,NA,5%,-29,95%,-11,1,likely range accounting for physical climate and empirical uncertainty
+1,Income,Global,CMIP-6,2049,No CC,%,-19,NA,66%,11,66%,29,552,Population-weighted average. Permanent income reduction.
+2,Damages,Global,SSP2,2049,No CC,tril. 2005 intl. $,38,NA,66%,19,66%,59,552,Global annual damages.
+3,Income,North America,CMIP-6,2049,No CC,%,-11,NA,NA,NA,NA,NA,552,Median income reduction.
+4,Income,Europe,CMIP-6,2049,No CC,%,-11,NA,NA,NA,NA,NA,552,Median income reduction.
+5,Income,South Asia,CMIP-6,2049,No CC,%,-22,NA,NA,NA,NA,NA,552,Median income reduction.
+6,Income,Africa,CMIP-6,2049,No CC,%,-22,NA,NA,NA,NA,NA,552,Median income reduction.
+7,Income,Global,SSP5-RCP8.5,2050,No CC,Percentage change,-19,NA,34%,-29,10%,-11,Page 3,Projected income reduction by 2050 due to climate change impacts under a high-emission scenario.
+8,Income,Global,SSP2-RCP2.6/8.5,2049,No CC,%,-19,NA,5%,-5,95%,-21,4,From median projected reduction in sub-national income per capita across emission scenarios
+9,Economic Damages,Global,Avg Temp Only,2049,Annual Avg Temp,percentage points,-4.9,NA,5%,-2.4,95%,-8.7,4,accounting for daily temperature variability causes the largest increase in overall damages relative to empirical frameworks
+10,Economic Damages,Global,Precip Only,2049,Annual Avg Temp,percentage points,-0.01,NA,5%,-0.37,95%,0.33,4,Accounting for precipitation causes smaller increases in overall damages
+11,Economic Damages,Global,Wet Days Only,2049,Annual Avg Temp,percentage points,-0.34,NA,5%,0.07,95%,0.90,4,Accounting for number of wet days
+12,Economic Damages,Global,Extreme Precip Only,2049,Annual Avg Temp,percentage points,-0.36,NA,5%,0.13,95%,0.65,4,Accounting for extreme daily precipitation
+13,Income,Lower Latitudes,Increasing Temp,2049,No CC,%,0,NA,NA,NA,NA,NA,4,Damages are larger at lower latitudes but direction is ambiguous
+14,Income,Global,RCP8.5,2049,No CC,%,-19,NA,5%,-29,95%,-11,6,Damages until 2049 are committed
+15,Income per capita,Global,RCP8.5,2050,No CC,Percentage change,0,NA,NA,NA,NA,NA,Page 14,"The page discusses projections under RCP8.5 scenario, showing impacts on economic growth rates. Extended Data Fig. 3 illustrates these outcomes. No specific value is stated in the text."
+16,Income per capita,Global,RCP8.5,2100,No CC,Percentage change,0,NA,NA,NA,NA,NA,Page 14,"Future damages are analyzed under different empirical specifications including growth and level effects. Graph details are provided for analysis, but no specific value is stated in the text."
+17,Income per capita,North America,RCP8.5,2100,No CC,Percentage change,0,NA,NA,NA,NA,NA,Page 14,"The regional impacts for North America are depicted in graph b, showing variation under different scenarios. No specific value is stated in the text."
+18,Income per capita,Europe,RCP8.5,2100,No CC,Percentage change,0,NA,NA,NA,NA,NA,Page 14,"The regional impacts for Europe are depicted in graph c, showing variation under different scenarios. No specific value is stated in the text."
+19,Income per capita,Central Asia/Russia,RCP8.5,2100,No CC,Percentage change,0,NA,NA,NA,NA,NA,Page 14,"The regional impacts for Central Asia/Russia are depicted in graph d, showing variation under different scenarios. No specific value is stated in the text."
+20,Income per capita,Middle East/North Africa,RCP8.5,2100,No CC,Percentage change,0,NA,NA,NA,NA,NA,Page 14,"The regional impacts for Middle East/North Africa are depicted in graph e, showing variation under different scenarios. No specific value is stated in the text."
+21,Income per capita,South Asia,RCP8.5,2100,No CC,Percentage change,0,NA,NA,NA,NA,NA,Page 14,"The regional impacts for South Asia are depicted in graph f, showing variation under different scenarios. No specific value is stated in the text."
+22,Income per capita,Southeast/East Asia,RCP8.5,2100,No CC,Percentage change,0,NA,NA,NA,NA,NA,Page 14,"The regional impacts for Southeast/East Asia are depicted in graph g, showing variation under different scenarios. No specific value is stated in the text."
+23,Income per capita,South America,RCP8.5,2100,No CC,Percentage change,0,NA,NA,NA,NA,NA,Page 14,"The regional impacts for South America are depicted in graph h, showing variation under different scenarios. No specific value is stated in the text."
+24,Income per capita,Sub-Saharan Africa,RCP8.5,2100,No CC,Percentage change,0,NA,NA,NA,NA,NA,Page 14,"The regional impacts for Sub-Saharan Africa are depicted in graph i, showing variation under different scenarios. No specific value is stated in the text."
+25,Income per capita,Oceania,RCP8.5,2100,No CC,Percentage change,0,NA,NA,NA,NA,NA,Page 14,"The regional impacts for Oceania are depicted in graph j, showing variation under different scenarios. No specific value is stated in the text."
+26,Income,Global,SSP2; RCP8.5,2050,No CC,%,-19,NA,NA,NA,NA,NA,Highlights,Likely range 11-29% reduction
+27,Mitigation Costs,Global,2°C warming limit,2050,No CC,ratio,6,NA,NA,NA,NA,NA,Highlights,Damages outweigh 2°C mitigation costs sixfold; year assigned arbitrarily
+28,Damages,Global,RCP8.5,2049,No CC,Percentage,-19,NA,2.5%,-29,97.5%,-11,Page 16,Damages are projected as percentage reductions in per capita terms with varying climate variables.
+29,Income,Global,RCP2.6/RCP8.5,2050,No CC,%,0,NA,10%,NA,90%,NA,"p. 17, Extended Data Fig. 6",Difference in committed damages between upper and lower GDP quartiles is centered around zero. Negative values mean that the lower GDP quartile has a larger damage.
+30,Income,Global,RCP2.6/RCP8.5,2050,No CC,%,0,NA,10%,NA,90%,NA,"p. 17, Extended Data Fig. 6",Difference in committed damages between upper and lower cumulative emission quartiles is centered around zero. Negative values mean that the lower emissions quartile has a larger damage.

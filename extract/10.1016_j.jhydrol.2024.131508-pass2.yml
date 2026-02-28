@@ -1,0 +1,20 @@
+Drivers of Risk:
+  1: Urban floods resulting from rainfall (pluvial flood)
+Evaluation overview:
+  1: No relevant information
+Highlights:
+  1: Developed a deep learning model for near real-time urban flood mapping with 84.05%
+    ground truth index. Achieved high-resolution (10-meter) for detailed flood extent
+    predictions. Extended model's application beyond traditional flood mapping to
+    develop a Near Real-Time flood mapping system. Enabled more comprehensive flood
+    mapping across various conditions and areas.
+Methodology:
+  1: A deep learning model using a CNN network (U-Net) is developed for predicting
+    near-real time urban flood extents resulting from rainfall. The model incorporates
+    terrain-related spatial data, daily rainfall and Sentinel-1 imagery. Model trained
+    and tested using 70%/30% split.
+More Notes:
+  1: Sensitivity analysis shows the model's performance based on different input data
+    combinations, indicating the relative importance of each factor.
+Quantitative material:
+  1: Ground Truth Index of 84.05%

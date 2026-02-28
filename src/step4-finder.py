@@ -54,14 +54,14 @@ async def main():
         if row.Priority >= priority_limit:
             targetpath = os.path.join(pdfs_dir, re.sub(r'[^\w\.\-]', '_', row.DOI) + '.pdf')
             statuspath = targetpath[:-4] + '.txt'
-            print(targetpath)
             if os.path.exists(statuspath):
                 if not is_file_older_than_days(statuspath, refresh_days):
-                    print("Recent attempt.")
+                    # print("Recent attempt.")
                     continue
             if os.path.exists(targetpath):
-                print("Exists.")
+                # print("Exists.")
                 continue
+            print(targetpath)
 
             found_any = True
             

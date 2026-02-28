@@ -1,0 +1,238 @@
+Drivers of Risk:
+  1: The impacts considered include changes in average temperature, daily temperature
+    variability, total annual precipitation, number of wet days, and extreme daily
+    rainfall.
+  2: Temperature and precipitation changes, using lagged effects.
+  3: Changes in all climate variables, with damages primarily arising through changes
+    in average temperature.
+  4: Changes in annual mean temperature, daily temperature variability, total annual
+    precipitation, the annual number of wet days (>1 mm), and extreme daily rainfall.
+  6: The study considers changes in climatic conditions, including average temperature,
+    rainfall changes, and day-to-day temperature variability.  It also acknowledges
+    the exclusion of other factors like heatwaves, sea-level rise, tropical cyclones,
+    tipping points, ecosystem damage, and human health impacts.
+  7: Extreme precipitation, high-temperature extremes, extreme heat, coastal flooding,
+    cyclones, climate tipping point, greenhouse forcing, weather extremes.
+  8: Annual average temperature, daily temperature variability, total annual precipitation,
+    the annual number of wet days, and extreme daily rainfall.
+  10: The analysis considers future climate changes as shocks impacting regional GRPpc
+    growth rate.
+  11: The percentage difference in global per capita GDP between the SSP2 baseline
+    and the SSP2-RCP2.6 emission scenario.
+  12: Shocks impacting outcomes include annual mean temperature, daily temperature
+    variability, total annual precipitation, number of wet days, and extreme daily
+    precipitation.
+  13: Climate variables such as annual mean temperature, daily temperature variability,
+    total annual precipitation, number of wet days, and extreme annual precipitation
+    are evaluated for their impact on economic growth.
+  14: Climate change impacts under the RCP8.5 emissions scenario, mitigation costs
+    under RCP2.6.
+  16: Annual mean temperature, daily temperature variability, total annual precipitation,
+    the number of wet days, and extreme daily precipitation.
+  17: Extreme emission scenarios (RCP 2.6 and RCP8.5) are considered as drivers of
+    risk.
+  18: Average annual temperature, daily temperature variability, total annual precipitation,
+    number of wet days, and extreme daily precipitation.
+  19: Annual mean temperature, Daily temp. variability, Total annual precipitation,
+    Annual no. wet days, Precipitation extremes.
+  20: Not explicitly stated on this page, but the studies referenced likely consider
+    climate variables impacting economic outcomes.
+Evaluation overview:
+  1: The paper evaluates the reduction in world income committed by climate change
+    within the next 26 years.
+  2: Macroeconomic damages from physical climate change.
+  3: Projected reduction in income per capita from changes in all climate variables
+    is being evaluated.
+  4: Economic damages of climate change, specifically reduction in sub-national income
+    per capita.
+  6: The paper evaluates economic damages resulting from climate change, specifically
+    impacts on aggregate monetary output (GDP).
+  7: Economic damages, mortality consequences, values of natural capital, food supply
+    chains, economic welfare loss, economic activity, income, land use and food production.
+  8: Impacts on macroeconomic output, specifically gross regional product per capita
+    (GRPpc).
+  11: Estimates of mitigation costs of emission mitigation
+  12: The study evaluates the effects of various climate variables on sub-national
+    economic growth rates in the U.S.
+  14: Impacts of climate change on economic growth (per capita income).
+  15: No relevant information
+  16: Climate damages in 2049
+  17: Committed damages are evaluated based on GDP and cumulative historical emissions.
+  18: Macroeconomic growth.
+  19: Sub-national economic growth rates in percentage points.
+  20: Economic damage from future climate change.
+Highlights:
+  1: Climate-related economic damages outweigh mitigation costs by sixfold within
+    the next 26 years, with higher heterogeneity and increase in damages from climatic
+    components.
+  2: "Committed damages comprise a permanent income reduction of 19% on average globally\
+    \ (population-weighted average) in comparison with a baseline without climate-change\
+    \ impacts (with a likely range of 11\u201329%). North America and Europe show\
+    \ median income reductions of approximately 11%, while South Asia and Africa show\
+    \ median income reductions of approximately 22%."
+  3: Committed climate damages are larger than mitigation costs; damages diverge strongly
+    across emission scenarios after 2049, conveying the clear benefits of mitigation
+    from a purely economic point of view; future changes in average temperature are
+    the most unprecedented from the perspective of the historical fluctuations to
+    which the economy is accustomed and therefore will cause the most damage.
+  4: Climate models seem to underestimate future changes in temperature variability
+    and extreme precipitation in response to anthropogenic forcing.
+  6: Economic damages until 2049 are committed and outweigh mitigation costs; damages
+    diverge after mid-century, reemphasizing the benefits of mitigation. Accounting
+    for spatial spillovers can amplify the overall magnitude and heterogeneity of
+    impacts.
+  7: Several studies address economic impacts of climate change, including damages,
+    mortality, and effects on natural capital and food supply chains. Some focus on
+    specific drivers like extreme weather events and tipping points.
+  8: Identified independent impacts on economic growth rates from the climate variables.
+    Found impacts of daily temperature variability, total annual precipitation, the
+    number of wet days and extreme daily rainfall on macroeconomic output.
+  10: Spatial and temporal lags models are used to explore direct and spill-over climate
+    impacts on GRPpc growth.
+  11: Mitigation cost estimates before 2020 in two IAMs are mostly negligible.
+  12: The study constrains persistence of climate impacts on economic growth, showing
+    non-cumulative effects at different lagged periods for various climate variables.
+  13: Information criteria suggest optimal lags for precipitation variables are approximately
+    four, while temperature variables range from eight to ten lags, indicating non-overfitting
+    when these lags are included.
+  14: The paper provides estimates of future damages under RCP8.5 for global and regional
+    per capita income. The preferred specification provides a robust lower bound on
+    the persistence of climate impacts on economic growth.
+  16: "Contribution of different climate variables to overall effects of an increase\
+    \ in annual mean temperature of 1\xB0C at different baseline temperatures."
+  17: Differences in committed damages are shown based on GDP and cumulative emissions.
+    For "Difference by GDP," the plot shows a range primarily above 0, indicating
+    positive differences in damages. For "Difference by cumulative emissions," the
+    plot also shows differences, but the general distribution is wider compared to
+    GDP.
+  18: Several plausible physical mechanisms supported by empirical evidence exist
+    for most climate variables' impact on macroeconomic growth; the exception is 'number
+    of wet days,' where mechanisms are listed but empirical evidence is currently
+    lacking.
+  19: The significance of a climate variable's effect should be assessed based on
+    both its coefficient and its interaction term. Marginal effects with confidence
+    intervals are plotted in Extended Data Fig. 1.
+  20: '''This study'' predicts significantly higher economic damages (61.6%) by 2100
+    under RCP8.5 compared to the other studies listed.'
+Methodology:
+  1: The methodology involves using fixed-effects panel regression models with climate
+    and income data from over 1,600 regions worldwide over the past 40 years.
+  2: Uses fixed-effects distributed lag models with first-differenced climate variables,
+    combined with CMIP-6 climate model projections. Monte Carlo simulations are used
+    to estimate uncertainty. The analysis projects the exogenous impact of climate
+    conditions on the economy relative to baselines specified by socio-economic projections,
+    assuming ceteris paribus. Models with 8-10 lags for temperature and 4 for precipitation
+    are sampled.
+  3: Empirical models of climate impacts on economic output are used with uncertainty
+    estimated from a Monte Carlo procedure sampling physical climate models and empirical
+    models with different lags. Mitigation costs are taken from three integrated assessment
+    models (IAMs) in the IPCC AR6 database.
+  6: The study uses empirical impact models based on observed data, limiting out-of-sample
+    extrapolation by capping moderating variables at the 95th percentile of the historical
+    distribution. The assessment focuses on damages committed until mid-century (around
+    2049). Spatial spillovers are assessed using a spatial-lag model.
+  8: Uses historical climate data (1979-2019) from the W5E5 database (bias-adjusted
+    ERA-5) and future climate data (2015-2100) from 21 CMIP-6 models under RCP8.5
+    and RCP2.6, bias-adjusted and statistically downscaled. Historical economic data
+    comes from the DOSE database (1960-2019). Future socio-economic data is taken
+    from the SSP2 scenario. Analyzes the impact of climate variables on economic output
+    using empirical models and Monte Carlo simulations to address multicollinearity.
+  9: Baseline model assumes immediate impact on growth rate and only a permanent effect
+    on the level of output, avoiding assumptions of infinite persistence.
+  10: Projections are based on block-bootstrapped fixed-effects regressions run by
+    region 1,000 times to provide a range of parameter estimates.
+  11: Obtain IPCC estimates of the aggregate costs of emission mitigation from the
+    AR6 Scenario Explorer and Database hosted by IIASA using five IAMs that provide
+    data for SSP2 baseline and SSP2-RCP2.6 scenario.
+  12: The analysis uses a panel-based fixed-effects distributed lag model with first-differenced
+    climate variables to evaluate economic growth impacts over time, with results
+    applicable over lagged periods.
+  13: Analysis is performed using a panel-based fixed-effects distributed lag model
+    with incremental lag removal to assess climate effects on economic growth; Bayesian
+    and Akaike information criteria are employed to prevent overfitting.
+  14: 'The analysis uses three empirical specifications: a ''preferred specification''
+    which provides a lower bound on the persistence of climate impacts on economic
+    growth rates, a ''pure growth effects'' specification, and a ''pure level effects''
+    specification. The results are applicable to understanding potential future economic
+    impacts under RCP8.5.'
+  16: Empirical models using block-bootstrap resampling with 1,000 resamples from
+    three different models, using 8, 9, or 10 lags of temperature terms.
+  17: Quartiles are defined using population weighting. Uncertainty sampling accounts
+    for uncertainty arising from the choice of lags in empirical models, uncertainty
+    in empirical model parameter estimates, as well as climate model projections.
+  18: The page summarizes plausible physical mechanisms that underlie the impact of
+    different climate variables on macroeconomic growth, supported by empirical evidence
+    (except for 'number of wet days').
+  19: Regression analysis (equation 4) with ten lags for each climate variable, clustered
+    standard errors by region. Applicable for the period 1979-2019.
+  20: '''This study'' uses fixed-effects panel regressions with five climate variables
+    and eight to ten lags, and damage is calculated under RCP8.5 by 2100.'
+More Notes:
+  2: The study uses a conservative approach by assuming level effects as the model
+    prior, avoiding assumptions of infinite persistence of climate impacts on growth.
+  3: "The study compares the magnitude of future damages against mitigation costs,\
+    \ rather than to conduct a formal cost\u2013benefit analysis of transitioning\
+    \ from one emission path to another. The results are presented globally and for\
+    \ North America, Europe, Central Asia/Russia, Middle East/North Africa, South\
+    \ Asia, Southeast/East Asia, South America, Sub-Saharan Africa and Oceania."
+  4: The spatial distribution of committed damages reflects a complex interplay between
+    future changes in climatic components and historical economic vulnerability.
+  6: The authors acknowledge that the damage estimates are conservative because they
+    exclude several important channels and spatial spillovers, and that further analysis
+    is needed to address spatial, trade-connected, and temporally lagged spillovers.
+    Adaptation may provide an opportunity to reduce committed damages.
+  11: Data and code available at specified URLs.
+  14: The paper compares different empirical specifications to assess the persistence
+    of climate impacts on economic growth. The graphs also include the mitigation
+    costs under RCP2.6.
+  15: No relevant information
+  16: "T\u0305 refers to annual mean temperature, T' refers to daily temperature variability,\
+    \ P refers to total annual precipitation, Pwd refers to number of wet days, and\
+    \ Pext refers to extreme daily precipitation."
+  17: The very likely and likely ranges follow the likelihood classification adopted
+    by the IPCC.
+  18: The use of the number of wet days in the main empirical models is guided primarily
+    by the empirical evidence indicating robust impacts on economic growth.
+  19: Formulas for climate variables and their interaction terms are defined as in
+    equation (4).
+  20: The table compares 'This study' to other panel-based empirical studies based
+    on resolution, number of climate variables, baseline specification, and number
+    of lags.
+Quantitative material:
+  1: "Projected income reduction of 19% within the next 26 years, with a likely range\
+    \ of 11\u201329% due to physical climate and empirical uncertainty."
+  2: Projected global damages are statistically indistinguishable across the two most
+    extreme emission scenarios until 2049 (at the 5% significance level).
+  3: Climate damages under high-emission scenarios (SSP5-RCP8.5) and low-emission
+    scenarios (SSP2-RCP2.6) are compared; committed climate damages are larger than
+    the median mitigation costs in 2050 by a factor of approximately six; damages
+    strongly diverge across emission scenarios after 2049.
+  4: "Accounting for precipitation causes smaller increases in overall damages, which\
+    \ are\u2014nevertheless\u2014equivalent to approximately 1.2 trillion international\
+    \ dollars: 0.01 percentage points (\u22120.37\u20130.33 percentage points), 0.34\
+    \ percentage points (0.07\u20130.90 percentage points) and 0.36 percentage points\
+    \ (0.13\u20130.65 percentage points) from total annual precipitation, the number\
+    \ of wet days and extreme daily precipitation, respectively."
+  6: The paper projects reductions in income of 19% and notes that historically, empirical
+    models explained less than 5% of the variance.
+  7: Large potential reduction in economic damages under UN mitigation targets, frequency
+    of extreme precipitation increases extensively with event rareness under global
+    warming, globally unequal effect of extreme heat on economic growth.
+  8: The paper notes that the magnitude of estimated damages varies based on accounting
+    for price changes in different orders but the conclusions are consistent.
+  11: Global mitigation costs as the percentage difference in global per capita GDP
+    between the SSP2 baseline and the SSP2-RCP2.6 emission scenario.
+  12: "The analysis presents point estimates showing effects of a 1\xB0C or one standard\
+    \ deviation increase in climate variables on growth rates."
+  14: Percentage change in income per capita from 2020-2100 under different climate
+    scenarios and empirical specifications.
+  16: "Percentage reduction in damages by 2040 in dollars per capita (plot a), and\
+    \ cumulative marginal effect (% point per \xB0C) (plot b)."
+  17: The y-axis shows the difference in committed damages between upper and lower
+    quartiles in percentage points, ranging from -10 to 30. The bars indicate the
+    median, 10th and 90th percentiles.
+  19: Regression coefficients for the effect of climate variables on sub-national
+    economic growth rates, with standard errors and significance levels (p < 0.05,
+    p < 0.01, p < 0.001) reported for lags 0 to 10. R2, within-region R2, AIC, BIC,
+    and sample size (N=3845) are also provided.
+  20: Predicted economic damages under RCP8.5 by 2100 are 61.6% for 'This study'.
