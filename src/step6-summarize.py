@@ -8,7 +8,12 @@ from config import *
 # Step 2: Summarize certain columns (we will pass these on to other calls)
 def pass2_summarize(targetpath, row, columninfo, coldefs, results):
     for col, command in coldefs.items():
-        results[col] = [pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command)] # wrap in a list for Pandas
+        response, sourcematerials = pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command)
+        results[col] = [response] # wrap in a list for Pandas
+        if 'sourcematerial' in results:
+            results['sourcematerial'][0] = results['sourcematerial'][0] + '; ' + sourcematerial
+        else:
+            results['sourcematerial'] = [sourcematerial]
 
 def pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command):
     # Special commands
@@ -22,13 +27,9 @@ def pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command):
             else:
                 return "Unknown"
         if command == "STATUS":
-            return "Step 5"
+            return "Step 6"
         if command in ["SUMMARIZE", "BRIEF", "SUMMARIZE2", "BRIEF2"]:
-            namematch = commands.extract_alphanumeric_and_spaces(col)
-            allpages = {}
-            for key, values in columninfo.items():
-                if commands.extract_alphanumeric_and_spaces(key) == namematch:
-                    allpages.update(values)
+            allpages, sourcematerials = get_colmaterial(xtt, [col])
 
             if command in ["SUMMARIZE", "BRIEF"]:
                 # No abstract, so no additional information
@@ -40,7 +41,8 @@ def pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command):
 
             if len(allpages) > 0:
                 texts = '\n'.join([f"Page {num}: {text}" for num, text in allpages.items()])
-                material = f"The following notes were extracted from pages from a paper that is potentially relevant to my review:\n===\n{texts}\n===\n"
+                sourcematerials = '\n'.join([f"Page {num}: {text}" for num, text in sourcematerials.items()])
+                material = f"The following notes were extracted from pages from a paper that is potentially relevant to my review:\n===\n{texts}\n===\nFor context, here is extracted source material from those pages:\n===\n{sourcematerials}\n===\n"
                 if command in ["SUMMARIZE", "SUMMARIZE2"]:
                     instruct = f"{material}\nPlease summarize this information as a single concise notes, avoiding phrases like 'This paper ...'."
                 else:
@@ -61,9 +63,13 @@ def pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command):
 
 {instruct} Specify the summary of {col} in triple backticks as a single line, like this: ```Synopsis here.```."""
 
-            return interaction.get_internaltext([{"role": "user", "content": prompt}], 3).strip()
+            chat = [{"role": "user", "content": prompt}]
+            response = interaction.get_internaltext(chat, 3).strip()
 
-        return command
+            sourcematerial = interaction.get_sourcematerial(chat, "```" + response + "```", 3)
+            return response, sourcematerial
+
+        return command, None
 
     ## Run the command
     return command(row, columninfo)

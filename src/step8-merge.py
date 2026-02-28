@@ -159,7 +159,10 @@ if __name__ == '__main__':
             dropped = []
         else:
             dropped = doisummaries[doisummaries[extract_fromsummary] == ""]
-        
+
+        sourcematerial = doisummaries.sourcematerial
+        del doisummaries['sourcematerial']
+            
         for key, columns in merge_columns.items():
             if extract_fromsummary == 'All':
                 applied = doisummaries

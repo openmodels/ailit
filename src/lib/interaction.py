@@ -198,5 +198,5 @@ def get_csvtext_validated(chat, nattempts, instructs):
     return [] # Failed
 
 def get_sourcematerial(chat, response):
-    chat2 = chat_push(chat_push(chat, 'assistant', response), 'user', "Great. Now, please provide quotes or evidence from the material provided above that justifies or provides necessary context for the answer you gave.\n\nSpecify this source material in triple backticks as a single line, like this: ```Source material here.```.")
+    chat2 = chat_push(chat_push(chat, 'assistant', response), 'user', "Great. Now, please provide quotes or evidence from the material provided above that justifies or provides necessary context for the answer you gave.\n\nSpecify this source material in triple backticks as a single line, like this: ```Source material here.```. Only provide one combined source material block in your response.")
     return get_internaltext(chat2, 3)

@@ -17,10 +17,12 @@ def pass3_extract(pdfpath, instructs, request, xtt, paperinfo):
     for pagenum, info in xtt[extract_fromcollate].items():
         page = reader.pages[pagenum - 1]
         print(f"Page {pagenum}")
-        rows = pass3_extract_page(pdfpath, page, instructs, request, columninfo, headerstr, paperinfo, pagenum)
+        rows, sourcematerial = pass3_extract_page(pdfpath, page, instructs, request, columninfo, headerstr, paperinfo, pagenum)
         
         if rows:
-            allrows.append(pd.DataFrame(rows))
+            df = pd.DataFrame(rows)
+            df['sourcematerial'] = sourcematerial
+            allrows.append(df)
 
     if allrows:
         return pd.concat(allrows, ignore_index=True)
@@ -49,8 +51,12 @@ Specify the result as a CSV, provided in triple quotes. Your response should sta
 This page may have no relevant information, in which case report the header with no following rows."""
 
     chat = [{"role": "user", "content": prompt}]
-
-    return interaction.get_csvtext_validated(chat, 3, instructs)
+    response = interaction.get_csvtext_validated(chat, 3, instructs)
+    if response:
+        sourcematerial = interaction.get_sourcematerial(chat, "```" + response + "```", 3)
+        return response, sourcematerial
+    else:
+        return response, None
     
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
