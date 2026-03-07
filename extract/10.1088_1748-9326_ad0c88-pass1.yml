@@ -1,0 +1,460 @@
+Drivers of Risk:
+  1: Sea surface temperature (SST) changes in the North Pacific, attributed to human
+    influence.
+  2: The paper investigates the impact of human influence on sea surface temperature
+    (SST) anomalies in the North Pacific basin and regional ecosystems.
+  3: Sea surface temperature (SST) climatology, interannual SST variability, and interannual
+    SST autocorrelation
+  4: Ocean warming and changes in sea surface temperature (SST) are identified as
+    key drivers impacting sockeye salmon productivity.
+  5: Human-induced climate change is a driver of increased sea surface temperature
+    (SST) anomalies in the North Pacific and regional ecosystems.
+  6: Anthropogenic influence leading to extreme sea surface temperature (SST) anomalies
+    in regions like the Eastern Bering Sea and Gulf of Alaska.
+  7: Annual and three-year running mean sea surface temperature (SST)
+  8: Warming sea surface temperatures (SST) driven by human influence are identified
+    as a key driver affecting sockeye salmon catch.
+  9: Human-induced warming of the North Pacific is significantly increasing SST, making
+    extreme warming events tens of thousands of times more likely.
+  10: Warming of the entire North Pacific expected for the 15 year window centered
+    on the year of interest (i.e. the year of the observed ERSST anomaly for which
+    we are evaluating probability)
+  12: Sea surface temperature (SST) during ocean entry years is used as a factor.
+  13: Projected sea surface temperature (SST) increases across various regions such
+    as North Pacific, Eastern Bering Sea, and Gulf of Alaska.
+  14: No relevant information
+  15: "Changes in PDO-climate and PDO-salmon relationships (Litzow et al. 2020 [27]);\
+    \ marine heatwaves (Laufk\xF6tter et al. 2020 [31], Barbeaux et al. 2020 [53]);\
+    \ record-breaking low sea-ice extent (Stabeno and Bell 2019 [59]); extreme ocean\
+    \ temperatures (Jacox et al. 2018 [43])"
+Evaluation overview:
+  1: Impacts of human-induced ocean warming on ecosystem services, specifically sockeye
+    salmon fisheries in the Gulf of Alaska.
+  2: The evaluation explores the changing human influence on marine climate over time
+    to understand impacts on ecosystem services, such as fisheries.
+  3: No relevant information
+  4: The paper focuses on the impact of climate change on the Gulf of Alaska sockeye
+    salmon fishery, particularly productivity loss due to ocean warming.
+  5: No relevant information
+  7: No relevant information
+  8: Evaluates the impact of warming sea surface temperatures on the Gulf of Alaska
+    sockeye salmon commercial fishery, specifically looking at log commercial catch
+    anomalies.
+  9: The paper evaluates the impact of climate change on North Pacific sea surface
+    temperatures (SST) and the subsequent effects on sockeye salmon fishery productivity.
+  10: No relevant information
+  12: Sockeye salmon catch analysis is performed using historical commercial harvests.
+  14: No relevant information
+  15: No relevant information
+Highlights:
+  1: Human influence on regional ocean temperatures could first be detected in the
+    1970s and grew until 2014-2020; Temperatures have reached levels that were likely
+    impossible in the preindustrial climate at the basin scale; Strongest evidence
+    for human influence is in the northernmost ecosystems (Eastern Bering Sea and
+    Gulf of Alaska).
+  2: A key finding is the use of attribution statistics to contextualize climate change
+    and support adaptation decision-making by understanding human influence on marine
+    climate.
+  3: "Evaluates the relationship between observations and CMIP6 output by plotting\
+    \ ERSST anomalies against weighted mean CMIP6 anomalies, with the range of most\
+    \ likely outcomes plotted as \xB1 twice the weighted SD."
+  4: "North Pacific SST is firmly attributed to human activities with FAR \u2265 0.99\
+    \ for three-year running mean SST since 2003. The last years without human influence\
+    \ were post-1976/77."
+  5: Modelled and observed temperature changes show increasing SST anomalies in the
+    North Pacific basin and five regional ecosystems. The study finds a north-south
+    gradient in reaching high levels of attributable risk, with northern ecosystems
+    showing earlier and higher FAR values.
+  6: Largest annual SST anomaly recorded in the Eastern Bering Sea with anomalies
+    now expected every ~40 years; Gulf of Alaska FAR values show frequent large anomalies
+    due to human influence.
+  7: "Temperatures at or above the threshold were rare to uncommon events in historical\
+    \ climates but the critical threshold is close to the median value in the current\
+    \ climate and is projected to represent cooler-than-normal conditions at 1.5 \
+    \ \u25E6 C\u20132.0   \u25E6 C warming."
+  8: Human influence on North Pacific climate extends to the 1970s or early 1980s.
+    Recent temperatures for the entire North Pacific have reached levels attributed
+    to human activities. There is a relationship between increased anthropogenic warming
+    effects at ocean entry (high FAR values) and changes to fishery production (log
+    catch anomaly). A SST value above 2.08 has been observed to negatively affect
+    Sockeye catch.
+  9: "Deleterious temperatures for sockeye salmon are now expected as often as not,\
+    \ and economically viable catches will become rare as warming exceeds 1.5\xB0\
+    C, suggesting immediate adaptation actions are necessary."
+  10: No relevant information
+  11: The Southern California Current slightly underperforms with 79.3% precision
+    as opposed to the target of 80% for weighted prediction.
+  12: Combined model weights, scaled by the mean weight for each region, are compared.
+  14: No relevant information
+  15: Ecosystem response persists after a prolonged marine heatwave (Suryan et al.
+    2021 [39]); evidence suggests potential transformation of the Pacific Arctic ecosystem
+    is underway (Huntington et al. 2020 [61])
+Methodology:
+  1: Climate attribution techniques (Bayesian estimates of Fraction of Attributable
+    Risk (FAR) and Risk Ratio (RR)) applied to sea surface temperature time series
+    (1950-2022) from five regional North Pacific ecosystems, using 23 global climate
+    models.
+  2: The analysis uses attribution time series and calculated FAR and RR based on
+    SST anomalies from CMIP6 models, comparing preindustrial and current probabilities.
+  3: "Uses 23 CMIP6 models under historical, SSP2-4.5, and SSP5-8.5 runs; applies\
+    \ a weighting approach based on bias and trend in SST climatology, interannual\
+    \ SST variability, and interannual SST autocorrelation; uses a binomial Bayesian\
+    \ regression model to generate multi-model estimates for preindustrial and \u2018\
+    present\u2019 conditions, weighting probabilities from each CMIP6 model."
+  4: The analysis uses Bayesian regression models for assessing the relationship between
+    SST and productivity and FAR values; CMIP6 models provide warming projections.
+  5: The study uses CMIP6 runs (Historical, SSP2-4.5, SSP5-8.5) to model SST anomalies
+    and calculates the Fraction of Attributable Risk (FAR) for annual and three-year
+    running mean SST from 1950-2022.
+  6: Bayesian posteriors were used with a 95% credible interval to determine when
+    FAR values for SST could not be distinguished from zero.
+  7: "Multi-model estimates of the Risk Ratio (RR) for annual and three-year running\
+    \ mean sea surface temperature (SST) with 95% credible intervals, 1950\u20132022."
+  8: Bayesian regression is used to analyze the relationship between SST, FAR, and
+    log commercial catch anomalies. The analysis considers catch years from fish experiencing
+    moderate anthropogenic temperature effects to those experiencing more pronounced
+    anthropogenic warming. The study looks at data from 1960-2019.
+  9: The analysis uses observational time series and attribution statistics to assess
+    the influence of anthropogenic forcing on multi-year scale SST changes rather
+    than focusing solely on extreme events.
+  10: Calculates Fraction of Attributable Risk (FAR) and Risk Ratio (RR) values using
+    CMIP6 model outputs, weighted by model skill and independence in representing
+    climatology, variability, autocorrelation, and trends in Sea Surface Temperature
+    (SST). Uses Bayesian smoothed regression to isolate the warming signal from high-frequency
+    noise in observed mean North Pacific SST time series.
+  11: The analysis uses model weighting based on bias, trend, standard deviation,
+    and autocorrelation; optimized using a perfect model setup.
+  12: Historical commercial harvest data from Alaska Department of Fish and Game is
+    analyzed.  SST values are weighted by the mean proportion of sockeye entering
+    the ocean in a particular year, calculated from age-structured data.  CMIP6 model
+    weights are calculated based on skill and independence.
+  13: Normalized combined model weightings for CMIP6 models are used for hindcasting
+    and projecting North Pacific warming rates, utilizing weakly informative priors
+    for model parameters.
+  14: The analysis involves weighting of North Pacific warming hindcasts and projections,
+    using skill weight, independence weight, and combined weight.
+  15: Quantifying climate through changes in PDO-climate and PDO-salmon relationships
+    (Litzow et al. 2020 [27]); attribution timeseries track the evolution of human
+    influence on North Pacific sea surface temperature (Litzow et al. 2023 [62])
+More Notes:
+  1: Attribution time series may be helpful indicators for better defining the human
+    role in observed climate change impacts and may thus help researchers, managers,
+    and stakeholders to better understand and plan for the effects of climate change.
+  3: 'The study area is the North Pacific basin and five regional ecosystems: Eastern
+    Bering Sea (EBS), Gulf of Alaska (GOA), British Columbia Coast (BCC), Northern
+    California Current (NCC), Southern California Current (SCC).'
+  4: The study evaluates climate risks to fisheries by estimating probabilities through
+    resampling CMIP6 model data at different warming increments.
+  5: The trend and pattern in reaching these high levels of attributable risk varied
+    among regions.
+  6: Reduction in return times for extreme SST values; documented decline in sockeye
+    salmon catches related to recent warming.
+  7: The study uses CMIP6 emissions scenarios to project future SST events.
+  8: "The paper uses climate attribution time series to document the \u2018shifting\
+    \ baseline\u2019 syndrome regarding human influence on North Pacific climate.\
+    \ The proportion of risk ascribed to human activities has grown from detectable\
+    \ to overwhelming. "
+  9: The paper identifies potential tipping points for sockeye salmon's preferred
+    temperature range and emphasizes uncertainties in model projections due to non-linear
+    regional climate responses.
+  10: The study focuses on tracking the evolution of human influence on North Pacific
+    sea surface temperature from 1950-2022.
+  12: 'The study considers six regions: North Pacific, Eastern Bering Sea, Gulf of
+    Alaska, British Columbia Coast, Northern California Current, and Southern California
+    Current.'
+  14: The page includes a graph showing the variation of skill weight, independence
+    weight, and combined weight across different model numbers.
+  15: This page contains a list of citations, mostly related to climate change impacts
+    on marine ecosystems, particularly in the North Pacific and Bering Sea, with a
+    focus on salmon, marine heatwaves, and sea ice extent. Litzow et al. features
+    prominently as an author
+Quantitative material:
+  1: FAR > 0.98 for at least one year in all regions studied; Extreme regional SST
+    values expected every 1000-10000 years in the preindustrial climate are expected
+    every 5-40 years in the current climate; Sockeye salmon migrating to sea in years
+    with FAR >= 0.98 produce catches 1.4 standard deviations below the long-term logmean.
+  2: The study calculates the Fraction of Attributable Risk (FAR) and Risk Ratio (RR)
+    to quantify the human influence on climate-related events.
+  3: "SST anomalies (in \u02DAC) with respect to the pre-1950 mean"
+  4: Probabilities derived for SST critical thresholds and FAR values are greater
+    than 0.98, indicating strong anthropogenic impact on SST.
+  5: FAR > 0.5 (anomalies twice as likely due to human influence) for three-year running
+    mean SST in every year since 1984 (Eastern Bering Sea) and 1984 (British Columbia
+    Coast).
+  6: Annual SST FAR values in Gulf of Alaska and British Columbia Coast exceeded 0.98
+    since 2015; Eastern Bering Sea experienced a 5.08 SD SST anomaly.
+  7: "FAR values in the high-anthropogenic state (FAR  \u2A7E 0.98) correspond with\
+    \ a critical threshold of three-year running mean SST 2.08 SD above the pre-1950\
+    \ climatology."
+  8: The paper presents data on the fraction of attributable risk (FAR) and its relationship
+    to log commercial catch anomalies, as well as probability densities for three-year
+    running mean SST values at different levels of North Pacific warming.
+  10: "The probability of a given anomaly for \u2018present\u2019 conditions was then\
+    \ calculated as the proportion of anomalies equal to or greater than the observed\
+    \ anomaly within the relevant span of North Pacific warming that corresponded\
+    \ with the 15 year window centered on the observation year."
+  11: Model weights calculated vary with regions and parameters, achieving desired
+    precision with 80% of true values between 10th and 90th quantiles.
+  12: Uses a weighted average of SST values across the range of ocean entry years.
+    Model weights are calculated.
+  13: Graphs show increasing SST trend from 1950 to 2100 with colored line weights
+    indicating different model weights.
+  14: The line graph provides quantitative information on skill weight, independence
+    weight, and combined weight for North Pacific warming hindcasts and projections.
+  15: No relevant information
+sourcematerial:
+  1: "\n\"WeusetheGulfofAlaskasockeyesalmonfisherytoshowhowattributiontimeseriesmaybeusedtocontextualizethe\
+    \ impactsofhuman-inducedoceanwarmingonecosystemservices. Climate attribution time\
+    \ series track the evolutionof human influence on North Pacificsea surface temperature\
+    \ Regionalresultsindicatethestrongestevidenceforhumaninfluenceinthenorthernmost\
+    \ ecosystems(EasternBeringSeaandGulfofAlaska),thoughallregionsshowedFARvalues\
+    \ > 0.98 foratleastoneyear.ExtremeregionalSSTvaluesthatwereexpectedevery1000\u2013\
+    10000yearsinthe preindustrialclimateareexpectedevery5\u201340yearsinthecurrentclimate.Welinknegativewarming\
+    \ effectsonsockeyefisherycatchestoincreasinghumaninfluenceonregionaltemperatures\
+    \ (increasingFARvalues),andwefindthatsockeyesalmonmigratingtoseainyearswiththe\
+    \ strongestevidenceforhumaneffectsontemperature(FAR \u2A7E 0.98)producecatches1.4standard\
+    \ deviationsbelowthelong-termlogmean. UsingBayesianestimatesoftheFractionofAttributableRisk\
+    \ (FAR)andRiskRatio(RR)derivedfrom23globalclimatemodels,weshowthathumaninfluence\
+    \ onregionaloceantemperaturescouldfirstbedetectedinthe1970sandgrewuntil2014\u2013\
+    2020 temperatures. FARandRRvaluesshowthattemperatureshavereachedlevelsthatwerelikelyimpossibleinthe\
+    \ preindustrialclimate,indicatingthatthequestionofattributionisalreadyobsoleteatthebasin\
+    \ scale.Regionalresultsindicatethestrongestevidenceforhumaninfluenceinthenorthernmost\
+    \ ecosystems(EasternBeringSeaandGulfofAlaska) Attributiontimeseriesmaybehelpfulindicatorsfor\
+    \ betterdefiningthehumanroleinobservedclimatechangeimpacts,andmaythushelpresearchers,\
+    \ managers,andstakeholderstobetterunderstandandplanfortheeffectsofclimatechange.\"\
+    \n"
+  2: "Ocean warming has profound consequences for fisheries production and other critical\
+    \ ecosystem services globally ... Here, we apply EEA techniques to time series\
+    \ of sea surface temperature (SST) observations for the North Pacific basin and\
+    \ five regional ecosystems during 1950\u20132022 ... Our overall objective is\
+    \ to use attribution time series to measure changes in human influence on marine\
+    \ climate over time as an approach for recognizing and understanding the impacts\
+    \ of human-induced climate change on ecosystem services. Our specific goals are\
+    \ to: (1) build attribution time series to document the evolution of human influence\
+    \ on North Pacific and regional SST ...\nThepreindustrialprobabilityisthelikelihoodthat\
+    \ a given event might occur in a counterfactual world without human influence\
+    \ on the climate, while the current probability is the likelihood for the same\
+    \ event in the factual world with human influences ... A RR value of 10, for example,\
+    \ is evidence that a given class of event is ten times more likely to occur due\
+    \ to human influence on the climate ...\nFor each SST observation, preindustrial\
+    \ probabilities were estimated for each CMIP6 model as the proportion of SST anomalies\
+    \ from preindustrial runs producing anomalies as large as or greater than the\
+    \ observed SST anomaly. Present-day probabilities were calculated for each model\
+    \ using combined historical and SSP5-8.5 runs ...\nOur overall objective is to\
+    \ use attribution time series to measure changes in human influence on marine\
+    \ climate over time ... and by providing estimates of climate risk to that service\
+    \ during historical, current, and next-decade climate states.\n... document the\
+    \ evolution of human influence on North Pacific and regional SST; (2) evaluate\
+    \ changes in the expected return time for extreme SST events ... and (3) demonstrate\
+    \ the potential of attribution statistics for contextualizing climate change and\
+    \ informing adaptation decision-making ... FAR and RR values for ERSSTv5 SST observations\
+    \ from 1950\u20132022 averaged over six areas: the North Pacific basin poleward\
+    \ of 20 \u25E6 N, and five northeast Pacific regional ecosystems.\nOur regional\
+    \ focus is motivated by the scale over which fisheries are typically managed.\
+    \ We calculated FAR and RR from individual ensemble members for 23 Coupled Model\
+    \ Intercomparison Project Phase 6 (CMIP6) models ... using normalized SST anomalies\
+    \ relative to the pre-1950 time series."
+  3: "Source material here.\nEnviron. Res. Lett.19(2024)014014 MALitzow etal...  Selection\
+    \ of these variables was motivated by their status as fundamental physical properties\
+    \ that areimportantbothforFARcalculationsandforbiological responses....  Toevaluatethe\
+    \ relationship between observations and CMIP6 outputusingthisweightingapproach,weplottedERSST\
+    \ anomalies (in \u02DAC) with respect to the pre-1950 mean foreachregionagainstweightedmeanCMIP6anomalies\
+    \ from the model ensemble for historical, SSP2- 4.5, and SSP5-8.5 runs, with the\
+    \ range of most likely outcomesforeachCMIP6runplottedas \xB1 twicethe weightedSD.\n"
+  4: "yaml\nEvaluation overview: \"Gulf of Alaska commercial sockeye salmon (Oncorhynchus\
+    \ nerka) fishery as a case study to show how attribution time series can contextualize\
+    \ the human role in observed climate change impacts on ecosystem services.\"\n\
+    Drivers of Risk: \"Productivity in this species...shows strong response to ocean\
+    \ temperature...such that three-year running mean SST is a better predictor of\
+    \ productivity than annual SST.\"\nQuantitative material: \"All five regions,\
+    \ plus the overall North Pacific, have reached temperatures that can be attributed\
+    \ to human activities with high confidence (i.e. FAR > 0.98).\"\nMethodology:\
+    \ \"Bayesian regression model relating catch to three-year running mean SST...fitting\
+    \ a second Bayesian regression model to FAR values corresponding to three-year\
+    \ SST...multi-model probability of extreme events was estimated with a weighted\
+    \ Bayesian regression.\"\nHighlights: \"North Pacific SST has effectively become\
+    \ fixed in an anthropogenic state, with FAR \u2A7E 0.99 for three-year running\
+    \ mean SST since 2003...The last years when regional SST was at levels equally\
+    \ likely with or without human influence...are clustered in the years following\
+    \ the well-described 1976/77 shift.\"\nMore Notes: \"We then defined the probability\
+    \ density by resampling the multi-model population of anomalies from each warming\
+    \ increment, weighting each model based on the weighting criteria described above.\"\
+    \n"
+  5: '"heatwaves that presented unprecedented climate perturbations to northeast Pacific
+    ecosystems" and "The two northernmost ecosystems have shown FAR > 0.5 (anomalies
+    twice as likely due to human influence) for three-year running mean SST in every
+    year since 1984" from the text and "CMIP6 runs (Historical, SSP2-4.5, SSP5-8.5)
+    and ERSSTv5 observations" from Figure 2 description justify entries under "Drivers
+    of Risk," "Quantitative material," and "Methodology." The description of "the
+    north-south gradient in reaching these high levels of attributable risk" and the
+    FRA values in the text highlight the "Highlights" entry. Additionally, the note
+    about "the trend and pattern in reaching these high levels of attributable risk
+    varied among regions" justifies the "More Notes" entry.'
+  6: "yaml\nDrivers of Risk: \"Anthropogenic influence is seen...Eastern Bering Sea...exceeded\
+    \ FAR values of 0.99\"\nQuantitative material: \"Eastern Bering Sea has experienced\
+    \ the largest annual SST anomaly to date... (5.08 SD), and projected return times\
+    \ indicate that anomalies this large should be expected every \u223C 40 years\"\
+    \nMethodology: \"Table 2. Timing for the final year in each region during which\
+    \ FAR values for SST observations at two temporal scales (annual and three-year\
+    \ running mean) could not be distinguished from zero, as determined by Bayesian\
+    \ posteriors with 95% credible intervals that included 0.\"\nHighlights: \"The\
+    \ strongest evidence for anthropogenic influence is seen in the northernmost region\
+    \ (Eastern Bering Sea)...Gulf of Alaska has experienced the smallest observed\
+    \ anomaly of any of the regions (2.98 SD), and anomalies this large are expected\
+    \ every \u223C 5 years.\"\nMore Notes: \"We found a rapid decrease in expected\
+    \ return times for extreme SST values...Regression of sockeye salmon catches on\
+    \ SST confirmed the documented negative response of the fishery to recent warming\"\
+    \n"
+  7: "yaml\nEvaluation overview: No relevant information\nDrivers of Risk: Annual\
+    \ and three-yearrunningmeanseasurfacetemperature(SST)with95%credibleintervals,1950\u2013\
+    2022.\nQuantitative material: The FAR values in the high-anthropogenic state (FAR\
+    \ \u2A7E 0.98) correspond with a critical threshold of three-year running mean\
+    \ SST 2.08 SD above the pre-1950 climatology.\nMethodology: AttributiontimeseriesfortheNorthPacificOceanandregionalecosystems:multi-modelestimatesoftheRiskRatio(RR)forannualandthree-yearrunningmeanseasurfacetemperature(SST)with95%credibleintervals,1950\u2013\
+    2022.\nHighlights: Temperaturesatorabovethethresholdwererare to uncommon events\
+    \ in historical climates (0% of three-yearrunningmeanSSTvaluesinthepreindustrial\
+    \ climate, 1.4% between 1950 and 0.5 \u25E6C warming,20%for0.5\u25E6 C\u20131.0\
+    \ \u25E6Cofwarming).Butthecriticalthresholdis closetothe median valueinthe current\
+    \ climate (49% of values above the threshold for 1.0 \u25E6C\u20131.5 \u25E6 Cofwarming).Andthecriticalthreshold\
+    \ is projected to represent cooler-than-normal conditions at 1.5 \u25E6 C\u2013\
+    2.0 \u25E6 C warming (80% of values at or abovethethreshold;figure 6(D)).\nMore\
+    \ Notes: Estimated timing that differentNorthPacificwarminglevelshavebeenorwillbereachedforobserveddata(ERSSTv5)andtwoCMIP6emissionsscenarios.\n"
+  8: Temporal evolution of climate change is discussed with the context of adaptation
+    and mitigation planning. The study presents an analysis of human impacts on temperature
+    changes, influencing the Gulf of Alaska sockeye salmon fishery. Bayesian regression
+    methods are used to analyze the relationship between SST, FAR, and catch anomalies.
+    The study covers data from 1960-2019, revealing trends in human influence since
+    the 1970s or early 1980s. The study finds that post-2014 marine heatwaves in the
+    North Pacific are linked to increased anthropogenic warming, with high FAR values
+    impacting fishery production. The 'shifting baseline' syndrome is highlighted
+    as a challenge for adaptation due to persistent, increasing human influence on
+    North Pacific climate. Recent temperatures reaching certain levels indicate overwhelming
+    human influence, affecting North Pacific SST and, by extension, sockeye salmon
+    catch. A specific SST threshold above 2.08 is identified, beyond which sockeye
+    catch is negatively affected.
+  9: "Source material\nEvaluation overview: \"We conclude that the question of attribution\
+    \ has already become obsolete at the scale of the entire North Pacific. ... how\
+    \ has the performance of this fishery changed during higher temperatures ... overwhelming\
+    \ likely to be the result of anthropogenic forcing? ... This case study is made\
+    \ possible by the long history of research establishing a causal link between\
+    \ SST and sockeye salmon productivity.\"\nDrivers of Risk: \"tens of thousands\
+    \ of times more likely to occur due to human activities ... North Pacific warming\
+    \ exceeds 1.5 \u25E6C.\"\nMethodology: \"evidence for human influence on North\
+    \ Pacific temperatures is consistently stronger for three-year running mean SST\
+    \ than for annual SST values\" and \"our estimates show negligible uncertainty\
+    \ for regional FAR time series from roughly the 1990s onwards.\"\nHighlights:\
+    \ \"Our results indicate that deleterious temperatures should be expected as often\
+    \ as not in the current climate, and that temperatures that appear necessary for\
+    \ healthy catches will become rare once North Pacific warming exceeds 1.5 \u25E6\
+    C.\"\nMore Notes: \"warming since 2014 may be approaching a tipping point at which\
+    \ the envelope of preferred temperatures for sockeye salmon will no longer be\
+    \ available in the Gulf of Alaska\" and \"non-linearities can produce surprising\
+    \ outcomes at regional scales that may be poorly predicted by global models.\"\
+    \n"
+  10: " \n\"We began estimating the relevant amount of warming by fitting a Bayesian\
+    \ smoothed regression to the observed mean North Pacific SST time series in order\
+    \ to isolate the warming signal from high-frequency noise... Similar regression\
+    \ models were fit to North Pacific SST outputs for each CMIP6 run, and a span\
+    \ of warming values identical to the warming in the 15 year window centered on\
+    \ the observation of interest was used to define \u2018present\u2019 conditions...\
+    \ The probability of a given anomaly for \u2018present\u2019 conditions was then\
+    \ calculated as the proportion of anomalies equal to or greater than the observed\
+    \ anomaly within the relevant span of North Pacific warming that corresponded\
+    \ with the 15 year window centered on the observation year.\"\n\n\"CMIP6 model\
+    \ outputs for calculating FAR and RR values were weighted with an approach that\
+    \ rewards model skill and independence.... Model weighting was based on skill\
+    \ and independence for bias in climatology, and variability, autocorrelation,\
+    \ and the trend in SST.\"\n\n\"Warming of the entire North Pacific expected for\
+    \ the 15 year window centered on the year of interest (i.e. the year of the observed\
+    \ ERSST anomaly for which we are evaluating probability).\"\n\n\"Climate attribution\
+    \ time series track the evolution of human influence on North Pacific sea surface\
+    \ temperature.\"\n"
+  11: "yaml\nMethodology: \"We used a perfect model setup to tune the values of \u03C3\
+    \ D and \u03C3 S to achieve the desired precision in weighted model estimates.\
+    \ In this setup, each of the 23 CMIP6 models is in turn treated as the \u2018\
+    truth\u2019.\"\nQuantitative material: \"All regions reached the desired threshold\
+    \ of 80% of \u2018true\u2019 values falling between the 10th and 90th quantiles\
+    \ of weighted prediction with these combinations of except for the Southern California\
+    \ Current, which reached 79.3% (figure A1).\"\nHighlights: \"All regions reached\
+    \ the desired threshold of 80% of \u2018true\u2019 values falling between the\
+    \ 10th and 90th quantiles of weighted prediction with these combinations of except\
+    \ for the Southern California Current, which reached 79.3% (figure A1).\"\n"
+  12: "We only considered a value of \u03C3S = 0.4, and the resulting plot indicated\
+    \ selection of a value of \u03C3D = 0.82 (figure A5). Weights calculated with\
+    \ these two values of the shape parameters resulted in a greater influence of\
+    \ independence skill than was observed in the model weights that were used throughout\
+    \ the rest of the study (figure A6). 1.3. Sockeye salmon catch analysis Historical\
+    \ commercial harvests of sockeye salmon were obtained for the Chignik, Kodiak,\
+    \ Cook Inlet, Prince William Sound, and Southeast Alaska Management Areas from\
+    \ the Alaska Department of Fish and Game [32]. The South Alaska Peninsula was\
+    \ excluded from analysis because the majority of sockeye salmon harvests from\
+    \ that Management Area are for fish returning to Bering Sea natal streams. Sockeye\
+    \ salmon spend varying number of years in the oceans (typically 1\u20135), which\
+    \ results in catches in a single year being comprised of fish that entered the\
+    \ ocean across multiple years. To calculate a single SST value for each catch\
+    \ year, we used a weighted average of SST values across the range of ocean entry\
+    \ years comprising the catch year, where the weights were the mean proportion\
+    \ of sockeye entering the ocean in a particular year. The sockeye salmon ocean\
+    \ entry proportions were calculated from age-structured data. Environ. Res. Lett.19(2024)014014\
+    \ MALitzow et al Figure A2. Skill weight, independence weight, and combined weight\
+    \ for 23 CMIP6 models in the six study regions. Models are sorted independently\
+    \ by combined weight in each region. Figure A3. Combined model weights, scaled\
+    \ by the mean weight for each region, such that a weight of 1(dashed horizontal\
+    \ line) is equal to the unweighted case. Models are sorted independently by weight\
+    \ for each region. This image displays a series of six line graphs arranged in\
+    \ a 2x3 grid format. Each graph compares three different datasets (denoted by\
+    \ their colors) across 20 model numbers on the x-axis. The y-axis of each graph\
+    \ is labeled \"Value\" and ranges from 0 to 1. Here's a detailed breakdown: 1.\
+    \ North Pacific: - Displays three lines: skill weight (green), independence weight\
+    \ (blue), and combined weight (orange). - Skill and independence weights fluctuate,\
+    \ while the combined weight shows a general declining trend. 2. Eastern Bering\
+    \ Sea: - Again shows the same three lines. - Skill weight and independence weight\
+    \ fluctuate significantly, with combined weight decreasing steadily. 3. Gulf of\
+    \ Alaska: - Similar pattern with three datasets. - Noticeable fluctuations in\
+    \ skill and independence weights; combined weight declines more smoothly. 4. British\
+    \ Columbia Coast: - Skill and independence weights have notable variations, while\
+    \ combined weight declines steeply. 5. Northern California Current: - Exhibits\
+    \ similar behavior as previous graphs, with more pronounced fluctuations in the\
+    \ skill and independence weights. 6. Southern California Current: - Skill and\
+    \ independence weights show some fluctuations. - Combined weight follows a smoother\
+    \ declining trend than the others. Each graph provides insights into how the skill,\
+    \ independence, and combined weights perform across different regions, with combined\
+    \ weights generally showing a declining trend. Legends and axis labeling are uniform\
+    \ across the graphs for easy comparison. This image depicts a set of six line\
+    \ graphs arranged in a 3x2 grid. Each graph shows a plot of \"Model Weight\" on\
+    \ the vertical axis against \"Model Number\" on the horizontal axis. The graphs\
+    \ appear to represent different regions, as listed below: 1. North Pacific 2.\
+    \ Eastern Bering Sea 3. Gulf of Alaska 4. British Columbia Coast 5. Northern California\
+    \ Current 6. Southern California Current Common Features: - Axes: All graphs have\
+    \ consistent axes. The vertical axis is labeled \"Model Weight\" and ranges approximately\
+    \ from 0 to 2.5. The horizontal axis is labeled \"Model Number\" and spans from\
+    \ 0 to 25. - Dashed Line: A horizontal dashed line is present in each graph, positioned\
+    \ at the 0.5 mark on the vertical axis. - Line Plots: Each graph features a line\
+    \ plot with circular markers at each point indicating a specific \"Model Weight\"\
+    \ for \"Model Number.\" The trend in all graphs is generally downward, indicating\
+    \ a decrease in \"Model Weight\" as \"Model Number\" increases. Specific Observations:\
+    \ - The starting \"Model Weight\" values in all plots are above 1.0, and they\
+    \ decrease gradually across the model numbers. - By the end of each graph, the\
+    \ \"Model Weight\" trends toward values below the dashed line, around 0.5. - The\
+    \ overall pattern shows a similar downward trajectory across all regions, though\
+    \ the exact plots and slopes vary slightly between graphs. These graphs likely\
+    \ present a comparison of model performance or selection across different geographic\
+    \ marine regions. 12"
+  13: "Source material: FigureA4.ObservedSST(blacklines)plottedagainsthistorical/SSP5-8.5runsfor23CMIP6models.Normalizedcombinedmodelweightforeachmodelineachregionisindicatedbylinecolor.\
+    \ Each graph has: - Y-Axis: Sea Surface Temperature (SST) in degrees Celsius.\
+    \ - X-Axis: Time, ranging from the year 1950 to 2100. - Multiple colored lines\
+    \ representing different model simulations of SST changes over time, with varying\
+    \ line weights indicating different model weights: - Gray: Model weight < 0.5\
+    \ - Orange: Model weight 0.5 - 0.75 - Light brown: Model weight 0.75 - 1.25 -\
+    \ Darker brown: Model weight 1.25 - 1.5 - Red: Model weight 1.5 - 2 - Dark red:\
+    \ Model weight > 2 Overall, the graphs show a trend of increasing SST across all\
+    \ regions, with more significant rises projected towards the end of the century.\
+    \ FigureA5.Resultsofperfectmodelsetupforselectingtheshapeparameters \u03C3D forweightingCMIP6modelstohindcastandprojectNorthPacificwarmingrate(figure5\
+    \ (B)inMainText).Plottedlineindicatestheproportionof\u2018true\u2019valuesfallingbetween10thand90thquantilesofweightedpredictionfordifferentvaluesof\
+    \ \u03C3 D with\u03C3 S = 0.4.Thedashedhorizontallineindicatesthetargetproportion.\
+    \ adult return data (48 years, return years 1967\u20132014) text),weusedweaklyinformativepriorsforallmodel\
+    \ parameters [65 ]. These included a Student-t distribution (3 degrees of freedom,\
+    \ mean = 0, SD = 3) for the intercept, slope, smooth standard deviation and error\
+    \ standard deviation, and a normal distribution (mean = 0, SD = 0.5) for the autocorrelation\
+    \ parameter."
+  14: null
+  15: null

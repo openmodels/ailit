@@ -1,0 +1,230 @@
+Drivers of Risk:
+  2: Flooding events (specifically Hurricane Sandy), flood insurance (NFIP participation),
+    and community risk perception are drivers of risk for housing prices.
+  3: Hurricane Sandy and community perceptions of flooding risk in New Jersey, New
+    York, and Connecticut.
+  4: "Drivers include storm surge, riverine, and pluvial flooding with tropical storms\
+    \ and Nor\u2019easter cyclones impacting flood risk."
+  5: The paper modifies the model to separate the effects of surge- and rainfall-driven
+    flooding events on the study region.
+  6: Flood events, particularly Hurricane Sandy and minor floods, impact housing prices.
+  7: Flooding events, including intense rainfall, droughts, and coastal storm surge
+    are identified as drivers of risk.
+  8: Flooding events and perceptions of flood risk, as well as NFIP participation.
+  9: Precipitation and storm surge flood hazard.
+  10: The paper considers climate change and changes in flooding hazards along the
+    U.S. coasts.
+Evaluation overview:
+  2: Home values and economic recovery for communities are evaluated in the context
+    of flooding.
+  4: The study provides an overview of insurance claims and housing values related
+    to flood dynamics.
+  7: Housing prices (HP) and flooding insurance claims are evaluated.
+  8: The impact of flooding on housing prices (HPs).
+  9: Impact of floods on future house prices (HPs).
+  10: No relevant information
+Highlights:
+  2: The initial economic impact of Hurricane Sandy was largely absorbed by the NFIP,
+    but the region then exhibited a long-term decline in home values. NFIP participation
+    and the salience of past flooding events are important regional drivers of housing
+    prices.
+  3: Perceptions of risk have shaped home value recovery post-Hurricane Sandy, rather
+    than actual hazard regimes.
+  4: In 2012, the historical highest flood losses were due to Hurricane Sandy, with
+    75,247 claims submitted.
+  6: Hurricane Sandy resulted in a gradual rise in housing prices with a decline in
+    the immediate impact of flooding; ITS model showed limited initial impact on housing
+    prices followed by gradual decline.
+  7: The SE model suggests the immediate negative consequences of an isolated intense
+    flooding event may continue to be absorbed by NFIP.
+  8: NFIP participation appears to have shielded the housing market from a substantial
+    immediate economic loss, but may have unintentionally conditioned housing values
+    on perceived risks. Increases in NFIP participation are correlated with short-term
+    perceptions of increased risk and long-term decline in housing values. There is
+    variation in correlations across the states, which may be due to differences in
+    social vulnerability.
+  9: The ITS recovery model best captured flooding dynamics in the study region. Census
+    tracts with greater change in insurance uptake following floods witnessed larger
+    decreases in mean home values compared to those with more stable NFIP participation.
+  10: No relevant information
+Methodology:
+  2: A socio-environmental (SE) model and interrupted time series model were used
+    to study the temporal impact of flooding on mean housing values. The modeling
+    exercise demonstrated that the initial economic impact of Hurricane Sandy was
+    largely absorbed by the National Flood Insurance Program (NFIP).
+  3: Community perceptions of flooding were estimated using a socio-environmental
+    (SE) model applied to census tracts, validated with socio-economic datasets.
+  4: Analysis is performed using a SE model simulating community responses to peak
+    annual flood hazards, examining economic losses, population density, community
+    awareness, and flood preparedness.
+  5: The analysis involved adapting the SE model to include sigmoid, interrupted time
+    series, and K-shaped recovery models for temporal changes in housing patterns
+    due to flooding impacts, and calibrating for each census tract using data from
+    1970 to 2021.
+  6: Uses ITS model calibrated with NFIP claims and housing market data to simulate
+    housing price dynamics post-flooding.
+  7: The paper develops and compares three models (Sigmoid recovery model, ITS model,
+    and K-shaped recovery model) to simulate housing price responses to flooding events.
+  8: Correlation analysis of calibrated SE model parameters (awareness, preparedness,
+    and memory of floods) across census tracts, focusing on the relationship between
+    these parameters and housing prices after flooding. Analysis is applicable to
+    the study region and the states of New Jersey, New York and Connecticut over the
+    time period that the data was collected on.
+  9: 'Developed a SE model to assess the impact of floods on future HPs, which then
+    feedbacks to the estimate of future flood loss. Includes four HP response scenarios:
+    no impact, sigmoid recovery, ITS recovery, and K-shaped recovery. The ITS recovery
+    model best captured flooding dynamics in the study region.'
+  10: No relevant information
+More Notes:
+  2: The study suggests that understanding the relationships between housing prices,
+    flood insurance, and community perceptions could support more equitable distribution
+    of resources and improved policy interventions to reduce flooding risk.
+  8: The variations in correlations may be related to the number of tracts from each
+    state considered in the analysis.
+  9: The model incorporates both precipitation and storm surge flood hazard. The model
+    code is publicly available (https://github.com/jknigh0813/SocioHydro_Model).
+  10: No relevant information
+Quantitative material:
+  2: The study examines the temporal impacts of flooding on mean housing values across
+    496 coastal census tracts in New York, Connecticut, and New Jersey from 1970 to
+    2021. Tracts with greater post-flood change in active insurance policies exhibited
+    larger decreases in mean home values than those with more stable NFIP participation.
+  3: Study focused on 496 coastal census tracts in New York, New Jersey, and Connecticut.
+  4: The average annual number of flood insurance claims from 1979 to 2021 was 3,476,
+    with an annual claim total average of $112 million.
+  5: The Kling-Gupta Efficiency (KGE) is calculated between various metrics, such
+    as simulated awareness and NFIP policies, as a quantitative measure.
+  7: The paper presents annual time series of NFI reported flooding insurance claims.
+  8: Correlations between SE model parameters (alertness, preparedness, decay rates
+    of hope and precautionary measures) across census tracts in the study region and
+    individual states (New Jersey, New York, and Connecticut), with indications of
+    statistical significance (p < 0.05, p < 0.01, p < 0.001).
+  9: Immediate impact of 2012 Hurricane Sandy on the housing market was largely absorbed
+    by the NFIP, however, the region experienced a sustained decline in housing values
+    afterwards.
+  10: No relevant information
+sourcematerial:
+  2: "Source material here.\nHow flooding affects home values can determine the path\
+    \ of economic recovery for communities and have lasting impacts on national and\
+    \ global financial systems.\nTo explore this, we used a socio-environmental (SE)\
+    \ model and studied the temporal impacts of flooding on mean housing values across\
+    \ 496 coastal census tracts of New York, Connecticut, and New Jersey, US, from\
+    \ 1970 to 2021. The modeling exercise demonstrated that the initial economic impact\
+    \ of Hurricane Sandy was largely absorbed by the National Flood Insurance Program\
+    \ (NFIP); however, the region then exhibited a long-term decline in home values,\
+    \ which was well described by an interrupted time series model. We found significant\
+    \ correlations between SE model parameters describing HP change and those describing\
+    \ tract-scale behaviors and perceptions, suggesting that the salience of past\
+    \ flooding events and NFIP participation may be important regional drivers of\
+    \ HPs.\nTracts with greater post-flood change in active insurance policies exhibited\
+    \ larger decreases in mean home values than those with more stable NFIP participation.\n\
+    An improved understanding of relationships between HPs, flood insurance, and community\
+    \ perceptions could support more equitable distribution of resources and improved\
+    \ policy interventions to reduce flooding risk. \n"
+  3: 'Source material here: OurstudyfocusesoncoastalcommunitiesinNewJersey, New York,
+    and Connecticut, US that wereimpacted by Hurricane Sandy to understand if HPchanges
+    observed across the region could be attributedtocommunity-scaleperceptionsofrisk.
+    Thisstudycenteredon496coastalcensustractsacrossNew York, New Jersey, and Connecticut
+    (figure 1 ). Wefirst estimated community perceptions of flooding with aSE model
+    applied to 496 census tracts. Calibrationof an SE model to SE datasets allows
+    for estimation of community flood perceptions (Barendrechtet al 2019 , Knighton
+    et al 2021 ). The SE model-ing was validated with publicly available socioeco-nomic
+    datasets of population density (US census),flood insurance claims and policies
+    (US NFIP),and HP estimates (National Historical GeographicInformation System and
+    Zillow). Across the northeastern US, there is evidencethat recent changes in coastal
+    housing prices (HPs)have been driven more by perceptions of risk ratherthan actual
+    hazard regimes (Bakkensen and Barrage2022 ).'
+  4: "Source material here.\nEvaluation overview: \"This region has a documented history\
+    \ of flooding from storm surge, riverine, and pluvial flooding...We studied relationships\
+    \ between HP dynamics and community awareness of flooding with a SE model...\"\
+    \n\nDrivers of Risk: \"...flooding from storm surge, riverine, and pluvial flooding...The\
+    \ spring season is characterized by moderately intense precipitation on snow,\
+    \ potentially inducing riverine or pluvial flooding. Late summer and fall are\
+    \ characterized by heavy tropical storms that bring both intense precipitation\
+    \ and wind-driven storm surge. Nor\u2019easter cyclones are most common during\
+    \ the winter season and can cause elevated storm surge and intense precipitation.\"\
+    \n\nQuantitative material: \"From 1979 to 2021, the average annual number of flood\
+    \ insurance claims submitted through NFIP in this region was 3,476 claims 1year\u2212\
+    \ 1 with an average annual claim total of $112 million.\"\n\nMethodology: \"We\
+    \ studied relationships between HP dynamics and community awareness of flooding\
+    \ with a SE model...This model simulates annual economic losses (L), population\
+    \ density (D), community flood awareness (A), and flood preparedness (P) based\
+    \ on a time series of peak annual flood hazards...\"\n\nHighlights: \"Historical\
+    \ NFIP flood losses were highest with 75247 claims in 2012, due to rainfall and\
+    \ storm surge from Hurricane Sandy...\"\n"
+  5: "markdown\nDrivers of Risk: \"For application to the study region, we modified\
+    \ this model to separate the effects of surge- and rainfall-driven flooding events,\
+    \ which yielded a significant improvement in simulations across the study region.\"\
+    \n\nQuantitative material: \"The difference between normalized total annual NFIP\
+    \ claims and simulated L were summarized with the Kling-Gupta Efficiency (KGE)(equation\
+    \ 1), where r is the linear correlation coefficient between simulated and observed\
+    \ values.\"\n\nMethodology: \"The SE model was also adapted to include three separate\
+    \ approaches to simulating temporal changes in HPs due to flooding impacts: a\
+    \ sigmoid recovery, an interrupted time series (ITS) recovery, and a K-shaped\
+    \ recovery... We calibrated the SE model for each census tract individually with\
+    \ data spanning 1970\u20132021.\"\n"
+  6: 'Source material: IntegrationofhousingmodelsintoanSEmodelsup-ports an exploration
+    of relationships between housing market values, external flooding hazards, and
+    perceptions of future risk...Calibration of the models to observed NFIP claims,
+    policies, population density, and mean HPs demon-stratedthattheITSmodelprovidedthemostaccurate
+    representationofflooding dynamicsacrossthe study region(seesectionS3forfurtherdetails)...After
+    Hurricane Sandy in 2012, HPs continued to rise, but more gradually than in the
+    preceding 30 years (figure S2) (U.S. Census Bureau 2022b), which has been proposed
+    as evidence of the limited effect of flooding on coastal property values (Murfin
+    and Spiegel 2020 ). Our findings generally support the idea that the region exhibited
+    a lower immedi-ate impact of flooding on housing values; however, we observed
+    a clear drop in relative HPs (figures 3 and S2)...CalibrationoftheITS model similarly
+    reproduced the case of a limited ini-tialimpactonHPsfollowedbyaperiodinwhichHPs
+    steadilydeclined(figure 3 (c)).'
+  7: Source material here. "Figure3.Annualtimeseriesof(a)NFIPreportedfloodinginsuranceclaimsanddistributionsofactualandsimulatedmeanHPs"
+    "The coastal communities of the study region remain highly vulnerable to flooding
+    under climate change...Future regional precipitation will likely be characterized
+    by more intense rainfall interspersed with extended droughts...the region is likely
+    to experience more frequent flooding and economic loss." "Figure3.Annualtimeseriesof(a)NFIPreportedfloodinginsuranceclaims"
+    "Figure3.Annualtimeseriesof...simulatedmeanHPs across all census tracts for the(b)sigmoidrecoverymodel,(c)ITSmodel,and(d)theK-shapedrecoverymodel."
+    "The SE model developed in this research suggests that the immediate negative
+    consequences of an isolated intense flooding event may continue to be absorbed
+    by NFIP;"
+  8: "yaml\nEvaluation overview: \"While NFIP appears to have shielded the housing\
+    \ market from a substantial immediate economic loss (figure 3) it possibly had\
+    \ the unintended consequence of conditioning housing values on perceived risks\
+    \ (figure 4).\"\nDrivers of Risk: \"awareness in response to flooding losses (\u0251\
+    \         A) and the      actual changes to flood hazards.\" ... \"that increases\
+    \ in the participation in NFIP across the study region was driving short-term\
+    \ perceptions of increased risk which then steadily drove down hous- ing values\
+    \ over the next decade\"\nQuantitative material: \"Figure 4. Correlation plot\
+    \ of calibrated SE model parameters across (a) all census tracts in the study\
+    \ region, (b) New Jersey census tracts, (c) New York census tracts, and (d) Connecticut\
+    \ census tracts.\" ... \"Asterisks (*, **, ***) denote levels of statistical significance\"\
+    \nMethodology: \"Correlation plot of calibrated SE model parameters across (a)\
+    \ all census tracts in the study region, (b) New Jersey census tracts, (c) New\
+    \ York census tracts, and (d) Connecticut census tracts.\" ... \"Variations in\
+    \ correlations across the states may be due to differences in social vulnerability,\
+    \ which in turn drives variations in NFIP participation\"\nHighlights: \"While\
+    \ NFIP appears to have shielded the housing market from a substantial immediate\
+    \ economic loss (figure 3) it possibly had the unintended consequence of conditioning\
+    \ housing values on perceived risks (figure 4).\" ... \"Together, these correlations\
+    \ possibly suggest that increases in the participation in NFIP across the study\
+    \ region was driving short-term perceptions of increased risk which then steadily\
+    \ drove down hous- ing values over the next decade\" ... \"Variations in correlations\
+    \ across the states may be due to differences in social vulnerability, which in\
+    \ turn drives variations in NFIP participation\"\nMore Notes: \"Alternately, the\
+    \ variations may be related to the number of tracts (n) considered from each state,\
+    \ where more tracts in NY could support more robust statistical inferences (figure\
+    \ 4).\"\n"
+  9: 'Evaluation overview: "We developed a SE model to assess the impact of floods
+    on future HPs, which then feedbacks to the estimate of future flood loss." Drivers
+    of Risk: "The model incorporates both precipitation and storm surge flood hazard
+    and includes four HP response scenarios." Quantitative material: "We found that
+    the immediate impact of 2012 Hurricane Sandy on the housing market was largely
+    absorbed by the NFIP; however, the region experienced a sustained decline in housing
+    values afterwards." Methodology: "The ITS recovery model best captured flooding
+    dynamics in the study region. The model incorporates both precipitation and storm
+    surge flood hazard and includes four HP response scenarios: (1) a model assuming
+    no impact, and models assuming initial losses followed by (2) a sigmoid recovery,
+    (3) an ITS recovery, and (4) a K-shaped recovery." Highlights: "The ITS recovery
+    model best captured flooding dynamics in the study region. Census tracts with
+    greater change in insurance uptake following floods witnessed larger decreases
+    in mean home values compared to those with more stable NFIP participation." More
+    Notes: "All model code is publicly available (https://github.com/jknigh0813/SocioHydro_Model)."'
+  10: null

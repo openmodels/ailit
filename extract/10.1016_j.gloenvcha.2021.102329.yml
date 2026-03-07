@@ -1,0 +1,331 @@
+Drivers of Risk:
+  2: Natural disasters are considered classic exogenous shocks. The page discusses
+    flooding, landslides, windstorms, tsunamis, hurricanes, droughts, earthquakes,
+    and extreme geophysical events.
+  3: The paper highlights inequality as a driver that amplifies the damages from natural
+    disasters and emphasizes that unequal societies are more vulnerable.
+  4: Floods, storms, droughts, extreme temperatures, wildfires, and landslides are
+    identified as significant shocks impacting outcomes.
+  5: "Frequency of disasters (wet and dry typologies), cumulative effect of repeated\
+    \ exposure to extreme events, Oceanic Ni\xF1o Index (ONI) indicating El Ni\xF1\
+    o and La Ni\xF1a conditions."
+  6: Natural disasters, including dry and wet disasters, are considered drivers of
+    risk impacting the mortality and affected population.
+  7: "Natural disasters (dry and wet), El Ni\xF1o and La Ni\xF1a, socioeconomic variables\
+    \ (GDP per capita, HDI), public budget composition, country profile (land cover,\
+    \ rural population), social norms (quality of institutions, marginalization of\
+    \ ethnic groups), geographical factors (latitude)."
+  8: The number of people hit by natural disasters (HIT) is used as a driver of income
+    inequality. GDP per capita, Human Development Index (HDI and NHDI), Public Expenditure,
+    Institutional Quality, and Ethnic Marginalization are also considered as drivers
+    of inequality.
+  9: "The analysis identifies geographical and climatic factors, including the El\
+    \ Ni\xF1o and La Ni\xF1a events, as drivers impacting the number of people hit\
+    \ by natural disasters."
+  10: Wet disasters have a higher impact on income inequality than dry disasters.
+    The frequency of disasters disproportionately affects poorer societies with higher
+    income inequality. Repeated floods and storms create a vulnerability-disaster
+    trap.
+  11: Recurrent climate-related disasters (floods, storms, droughts) triggered by
+    rapidly changing climate conditions are a key driver.
+  12: No relevant information
+Evaluation overview:
+  2: This provides an overview of economic development, disaster risk (associated
+    with flooding, landslides, and windstorms), growth, inequality, poverty, and vulnerability
+    to catastrophic events.
+  3: The paper examines the impacts of disasters as the sum of death toll and people
+    affected, using the Emergency Events Database (EM-DAT).
+  4: The analysis includes the frequency and impact of climate-related natural disasters
+    globally with focus on different typologies like floods, droughts, and storms.
+  5: Damages due to natural disasters, and income inequality (Gini coefficient).
+  6: The paper evaluates the impact of natural disasters on mortality and population
+    affected, normalized by previous year's population.
+  7: Evaluates the impact of natural disasters (measured by the number of people hit)
+    and inequality (Gini index).
+  8: The outcome being evaluated is the number of people affected by natural disasters,
+    as measured by the HIT variable, and income inequality, as measured by the Gini
+    index.
+  9: The analysis evaluates the number of persons affected by different types of disasters,
+    divided into dry and wet disasters.
+  10: Evaluates the impact of different types of disasters (all, dry, wet) on income
+    inequality, measured by the Gini index.
+  11: The study examines the impact of climate change-induced disasters on countries,
+    population groups, and income groups, focusing on their ability to recover and
+    prepare for future events, specifically in relation to natural disasters between
+    1992 and 2018.
+  12: No relevant information
+Highlights:
+  2: The impact of natural disasters is uneven across segments of the population within
+    a country. Income inequality exacerbates the impacts of catastrophic events. Lack
+    of access to mitigation and prevention measures is important.
+  3: The paper posits that unequal societies suffer greater physical damages and engage
+    in a vulnerability-disaster trap where damages from natural disasters further
+    widen income inequality.
+  4: The data shows floods affect the most people globally, followed by droughts and
+    storms.
+  5: Damages due to natural disasters are hypothesized to be harsher in unequal societies
+    and lead to increasing inequality. Institutional quality (adaptation deficit)
+    can ensure a better resilience and adaptation capacity to disasters.
+  7: Gini index is positively and significantly correlated with the number of people
+    hit by natural disasters.
+  8: "Increased inequality is a positive predictor of the number of people affected\
+    \ by natural disasters. An increase in the number of people affected by disasters\
+    \ leads to a substantial rise in inequality. The human development level (NHDI)\
+    \ is initially a positive predictor of exposure to risk, but when controlled for\
+    \ gender equality (GNHDI), the quadratic form is negative and significant (models\
+    \ 4\u20135), indicating an inverted U-shaped relation between the development\
+    \ level and the magnitude of impacts. The share of public consumption expenditure\
+    \ on GDP (Public exp) is positively associated with a higher number of persons\
+    \ affected by damages, while investment expenditures in nonfinancial assets (Public\
+    \ inv) is significantly and negatively related to the magnitude of impacts."
+  9: "La Ni\xF1a has a significant positive effect on the number of people affected\
+    \ by wet disasters, while no significant effect of El Ni\xF1o is found."
+  10: Wet disasters have a greater impact on income inequality than dry disasters.
+    Ethnic marginalization exacerbates income inequality in the event of frequent
+    wet disasters. The impact of past shocks is statistically significant only for
+    wet events. There is a negative and statistically significant interaction between
+    income level and cumulative frequency of disasters, indicating that wealthier
+    countries are more resilient to disasters.
+  11: Countries with higher levels of inequality that have been affected more frequently
+    by extreme climatic events may be trapped in a vicious cycle, unable to restore
+    a fair distribution of income and resources.
+  12: No relevant information
+Methodology:
+  3: "The analysis is based on a panel database of 149 countries over the period 1992\u2013\
+    2018, focusing on climate-related natural disasters, like floods, landslides,\
+    \ storms, droughts, extreme temperatures, and wildfires."
+  5: Uses a system of simultaneous equations and a Three-Stage Least Square (3SLS)
+    estimator to analyze the relationship between damages due to natural disasters
+    and income inequality. This approach addresses the potential correlation of error
+    terms between equations, unlike standard OLS. The analysis controls for various
+    factors including government resilience propensity, disaster patterns, geographical
+    location, climate variables (ONI), and country-based control variables (surface
+    area, rural population, institutional quality, ethnic inequality).
+  6: The analysis uses exogenous instruments to address endogeneity, including distance
+    from the Equator and value added in agriculture as percentage of GDP.
+  7: "Uses a system of equations (2 and 3), instrumental variable approach (distance\
+    \ from the equator), fixed effects, and controls for El Ni\xF1o/La Ni\xF1a. The\
+    \ estimation is controlled using the Akaike Information Criterion (AIC) and the\
+    \ Bayesian Information Criterion (BIC)."
+  8: Panel data analysis is used to estimate the relationship between inequality (Gini
+    index) and the number of people affected by natural disasters (HIT), controlling
+    for various socioeconomic factors. Standard errors, p-values, AIC, BIC, RMSE,
+    and VIF are reported to assess the statistical significance and robustness of
+    the results. The analysis uses data from 3419-3544 observations.
+  9: The analysis uses a regression model to evaluate the impact of various factors
+    on the normalized number of persons affected by disasters, incorporating lagged
+    variables and categorical division of disasters.
+  10: Panel data regression analysis is used to assess the impact of disasters on
+    income inequality. The models control for GDP per capita, HDI, public expenditure,
+    institutional quality, and ethnic marginalization.
+  11: The study empirically explores the relationship between natural disasters and
+    socioeconomic factors, specifically inequality, using data from 1992 to 2018;
+    relationships are shown by stratifying by the Gini index.
+  12: No relevant information
+More Notes:
+  3: The paper includes three hypotheses linking natural disasters, inequality, and
+    resilience, suggesting a self-reinforcing dynamic between these factors.
+  5: The paper uses continent dummies to control for multi-collinearity, excluding
+    Europe as the benchmark.
+  6: The paper highlights the issue of endogeneity in studying the impact of disasters
+    on socioeconomic factors, suggesting the use of lagged values as a common practice.
+  7: The paper attempts to disentangle the effects of dry and wet disasters, and checks
+    for multicollinearity using Variance Inflation Factor (VIF).
+  8: The paper tests three hypotheses related to the relationship between inequality
+    and natural disasters.
+  10: The study finds evidence of a 'vulnerability-disaster trap' where the effects
+    of disasters on income inequality are persistent and self-reinforcing.
+  11: The authors emphasize the importance of understanding natural disasters as a
+    combination of climatic and socioeconomic factors and advocate for adaptation
+    mechanisms and equitable access to precautionary and recovery measures.
+  12: This page contains declarations of competing interest and acknowledgements of
+    funding. It also contains the start of a list of references, none of which belong
+    to the primary paper.
+Quantitative material:
+  4: The page features data and visualizations quantifying the number of disaster
+    events and people affected by different types of disasters, with detailed numbers
+    for each disaster type.
+  5: Mentions using data from the Ethnic Power Relations (EPR) database by Vogt et
+    al. (2015) to compute a measure of ethnic inequality representing the cumulative
+    size of discriminated ethnic groups with respect to total population.
+  6: Descriptive statistics provide data on the number of disasters and affected population,
+    with mean values for variables related to disasters and socioeconomic indicators.
+  7: Table 2a presents regression results examining the drivers of the magnitude of
+    disasters, with coefficients, standard errors, and significance levels for various
+    variables.
+  8: A 1% increase in the Gini index in a country at the 75th percentile corresponds
+    to 3.7% more people hit by natural disasters than in a country at the 25th percentile.
+  9: Estimates provided in Table 3a include statistical outcomes of the variables
+    affecting the number of persons hit by disasters, with several coefficients and
+    significance values.
+  10: "Table 3b presents regression results showing the relationship between climatic\
+    \ and geographical controls and the Gini index, with coefficients, standard errors,\
+    \ and significance levels for various variables. Stock Wet Disasters i,t-1 applied\
+    \ to the disaster equation with four quartile inequality groups from model 9.\
+    \ Fig. 5 reports marginal impacts of the stock of past wet disasters on the number\
+    \ of people hit (normalised by number of inhabitants in the previous year) over\
+    \ three thresholds: first quartile Gini < 0.34; second quartile Gini in the range\
+    \ 0.34\u201338.5; third quartile Gini in the range 38.6\u201343.7; fourth quartile\
+    \ Gini > 43.7."
+  11: The plots show a positive correlation between the stock of wet disasters at
+    time t-1 and the natural logarithm of the number of affected people at time t,
+    across different quartiles of the Gini index (inequality levels).
+  12: No relevant information
+sourcematerial:
+  2: "  \n\"The relationship between economic development and disaster risk associated\
+    \ to flooding, landslides and windstorms has an inverted U shape.\" \n\n\"Another\
+    \ issue of interest is that the impact of natural disasters is uneven across segments\
+    \ of the population within a country.\"\n\n\"Research on the impact of natural\
+    \ disasters had seldom considered inequality as a factor for vulnerability.\"\n\
+    \n\"Lack of access to mitigation and prevention measures is to natural disasters\
+    \ what \u2018entitlement relations\u2019 are to famines.\"\n\n\"Uneven distribution\
+    \ of income, of power and of political representation across social groups leads\
+    \ to unequal access to prevention and recovery measures, and to financial resources.\"\
+    \n"
+  3: "represents the impacts of disasters as the sum of death toll and people affected\
+    \ by each event. These variables are built using the Emergency Events Database\
+    \ (EM-DAT), developed by the Centre for Research on the Epidemiology of Disasters\
+    \ (CRED), the most comprehensive source on natural catastrophes (Wirtz et al.,\
+    \ 2014). Our conjecture is that inequality hinders reconstruction and recovery\
+    \ thus further reducing access to basic services to the poorest segments of the\
+    \ population. Our analysis is based on a panel database of 149 countries over\
+    \ the period 1992\u20132018. To test Hypothesis 1, the dependent variable HIT\
+    \ represents the impacts of disasters as the sum of death toll and people affected\
+    \ by each event. Hypothesis 1. Unequal societies suffer greater physical damages\
+    \ due to natural disasters. Hypothesis 3. Unequal societies suffer from a vulnerability-disaster\
+    \ trap whereby damages due to natural disasters further widen income inequality\
+    \ and further reduce resilience. Our conjecture is that inequality hinders reconstruction\
+    \ and recovery thus further reducing access to basic services to the poorest segments\
+    \ of the population. Accordingly, we test the simultaneous validity of the two\
+    \ causal relations discussed in the literature: first, that natural disasters\
+    \ affect inequality and, second, that income distribution affects resilience to\
+    \ the damages caused by natural disasters. Such an exercise is articulated in\
+    \ three hypotheses."
+  4: null
+  5: null
+  6: " \n\"Evaluation overview\": \"HIT i,t: No. death toll +affected normalised by\
+    \ previous year population\"\n\"Drivers of Risk\": \"Disasters frequency variables\
+    \ including 'No. disasters i,t', 'No. dry disasters i,t', and 'No. wet disasters\
+    \ i,t' measure this impact.\"\n\"Quantitative material\": \"Descriptive statistics\
+    \ give context with values such as mean, standard deviation, min, and max for\
+    \ variables, e.g., 'No. disasters i,t' has a mean of 1.82.\"\n\"Methodology\"\
+    : \"The paper discusses concerns of endogeneity, stating 'extreme events are cumulative\
+    \ and GDP and public expenditures are unlikely to be independent from the impact\
+    \ of disasters,' and employs exogenous instruments such as 'distance from the\
+    \ Equator' and 'share of value added in agriculture as percentage of GDP.'\"\n\
+    \"More Notes\": \"The common practice of employing lagged values as instruments\
+    \ for endogenous variables is questioned; endogeneity issues are addressed by\
+    \ stating 'we employ lagged values as instruments for endogenous variables.'\"\
+    \n"
+  7: " \nEvaluates the impact of natural disasters (measured by the number of people\
+    \ hit) and inequality (Gini index).\n - Given that we use the distance from the\
+    \ Equator as instrumental vari[...].the variance in disaster risk related to the\
+    \ specific global geographical zone[...].the number of people hit by natural disasters\
+    \ normalized by ith country\u2019 s population of the previous year; Ginii,t is\
+    \ Gini index;\n\nNatural disasters (dry and wet), El Ni\xF1o and La Ni\xF1a, socioeconomic\
+    \ variables (GDP per capita, HDI), public budget composition, country profile\
+    \ (land cover, rural population), social norms (quality of institutions, marginalization\
+    \ of ethnic groups), geographical factors (latitude).\n - To control for climatic\
+    \ effects we use two variables that represent the years in which El Ni \u02DC\
+    no or La Ni \u02DCna prevail, respectively.[...]Finally, we control for potentially\
+    \ divergent impacts due to different types of disasters by splitting the dependent\
+    \ variable into the number of people hit in consequence of dry disasters (D_HIT)\
+    \ or wet disasters (W_HIT).[...]set of socioeconomic variables representing the\
+    \ adaptation demand (GDP per capita and the different HDI computations);[...]set\
+    \ of covariates describing the composition of the public budget related to the\
+    \ adaptation supply;[...](land cover and the share of rural population), surface\
+    \ area of country i.[...]set of variables that capture the impact of social norms\
+    \ represented here by the quality of institutions and the marginalisation degree\
+    \ of ethnic groups.\n\nTable 2a presents regression results examining the drivers\
+    \ of the magnitude of disasters, with coefficients, standard errors, and significance\
+    \ levels for various variables.\n - Baseline models for testing Hypotheses 1\u2013\
+    \ 2-3 (Dependent variable: Normalised Total of Number of persons hit).\n\nUses\
+    \ a system of equations (2 and 3), instrumental variable approach (distance from\
+    \ the equator), fixed effects, and controls for El Ni\xF1o/La Ni\xF1a. The estimation\
+    \ is controlled using the Akaike Information Criterion (AIC) and the Bayesian\
+    \ Information Criterion (BIC).\n - we use the distance from the Equator as instrumental...[...]Finally,\
+    \ we control for potentially divergent impacts due to different types of disasters\
+    \ by splitting the dependent variable into the number of people hit[...]To control\
+    \ for climatic effects we use two variables that represent the years in which\
+    \ El Ni \u02DCno or La Ni \u02DCna prevail, respectively... where the latter is\
+    \ penalised with respect to the former due to the number of parameters. Multicollinearity\
+    \ is tested with the Variance Inflation Factor (VIF) applied to each equation\
+    \ of the system.[...]General estimation fit is controlled with the Akaike Informa-\
+    \ tion Criterion (AIC) and the Bayesian Information Criterion (BIC)[...].\n\n\
+    Gini index is positively and significantly correlated with the number of people\
+    \ hit by natural disasters.\n - The set of socioeconomic variables representing\
+    \ the adaptation demand (GDP per capita and the different HDI computations); GNHDI\
+    \ i,t is the set of socioeconomic variables. Also in the model are time-invariant\
+    \ controls, \u03B4 i, and potential effects that are valid across all sta- tistical\
+    \ units but are specific to selected years. The intercepts \u03B1 0 and \u03B3\
+    \ 0 are included since country fixed effects are treated as instrumental variables\
+    \ and not directly included among the explanatory variables.[...]Table 2a. Baseline\
+    \ models for testing Hypotheses 1\u20132-3 (Dependent variable: Normalised Total\
+    \ of Number of persons hit).\n\nThe paper attempts to disentangle the effects\
+    \ of dry and wet disasters, and checks for multicollinearity using Variance Inflation\
+    \ Factor (VIF).\n - Finally, we control for potentially divergent impacts due\
+    \ to different types of disasters by splitting the dependent variable into the\
+    \ number of people hit in consequence of dry disasters (D_HIT) or wet disasters\
+    \ (W_HIT). [...]Multicollinearity is tested with the Variance Inflation Factor\
+    \ (VIF) applied to each equation of the system[...] \n "
+  8: "The outcome being evaluated is the number of people affected by natural disasters,\
+    \ as measured by the HIT variable, and income inequality, as measured by the Gini\
+    \ index. An increase in inequality is a positive predictor of the number of people\
+    \ affected by natural disasters. We interpret this as an outcome of unequal access\
+    \ to precaution and prevention measures as well as to health services in the aftermath\
+    \ of an event, as per H1. To quantify the effect, on average in the eight models\
+    \ reported in Table 2a, a 1% increase in the Gini index in a country at the 75th\
+    \ percentile corresponds to 3.7% more people hit by natural disasters than in\
+    \ a country at the 25th percentile. Accordingly, inequality per se causes a relative\
+    \ increase in impacts and damages provoked by disasters. Further, the positive\
+    \ sign of HIT in the inequality equation corroborates H2. An increase in the number\
+    \ of people affected by disasters entails a substantial rise of inequality, with\
+    \ the coefficient of HIT ranging between 68.5 in model 6 to 95.3 in model 1 that\
+    \ includes only base controls. The interquartile range on average is 17.5%, revealing\
+    \ that people living in places with higher exposure risks to damages might also\
+    \ suffer from further inequality. Looking specifically at the four main dimensions,\
+    \ our preferred measure of adaptation demand (GDP per capita) is, as expected,\
+    \ negative but statistically significant only in the first two specifications.\
+    \ On the other hand, the human development level (NHDI) is a positive predictor\
+    \ of higher exposure to risk. The addition of the quadratic term of the simple\
+    \ Human Development Index (NHDI_sq) in model (3) does not affect our results.\
+    \ Conversely, along with recent findings by Chowdhury et al. (2021) and Paudel\
+    \ and Ryu (2018), when we control for gender equality (GNHDI) in access to basic\
+    \ opportunities (i.e., education, health, and access to the labour market) the\
+    \ quadratic form is negative and significant (models 4\u20135), thus indicating\
+    \ an inverted U-shaped relation between the development level and the magnitude\
+    \ of impacts. The share of public consumption expenditure on GDP (Public exp)\
+    \ is positively associated with a higher number of persons affected by damages.\
+    \ On average, such a threshold corresponds to a gender-corrected development index\
+    \ of about 0.81, which is the score of all developed economies and of Azerbaijan,\
+    \ Barbados, Bhutan, Fiji, Kyrgyzstan, Mongolia, Qatar, Tajikistan, Vietnam. Standard\
+    \ errors in parentheses. * p < 0.1, ** p < 0.05, *** p < 0.01. No. Observations\
+    \ 3544 3544 3544 3469 3419 3444 3419 3419."
+  9: null
+  10: 'Source material here.
+
+    Evaluation overview: "we find that the effect on income inequality is much higher
+    than in the case of dry disasters (Table 3b)."
+
+    Drivers of Risk: "countries under strain from repeated floods and storms struggle
+    to escape the vulnerability-disaster trap... exposure, in terms of number of persons
+    hit by wet disasters, is on average higher."
+
+    Quantitative material: "Table 3b presents regression results showing the relationship
+    between climatic and geographical controls and the Gini index... The effect of
+    inequality on the number of people affected is slightly higher in the case of
+    wet disasters relative to dry disasters."
+
+    Methodology: "In particular, the impact of past shocks (Table 3a, model 7) is
+    statistically significant only for wet events..."
+
+    Highlights: "First, marginalisation in ethnic groups (Ethnic marg) affects income
+    distribution in the event of frequent and repeated wet disasters (Table 3b)."
+
+    More Notes: "This indicates that the trap is a vicious cycle, with self-reinforcing
+    mechanisms that should deserve careful consideration when designing and implementing
+    adaptation and development strategies."
+
+    '
+  11: null
+  12: Source material here.

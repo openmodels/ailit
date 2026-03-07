@@ -1,0 +1,195 @@
+Drivers of Risk:
+  2: The paper discusses impacts from future natural hazards such as changing climate
+    conditions, sea level rise, and increasing intensity/frequency of storms.
+  4: Future exposure to natural hazards driven by increases in urbanization, socioeconomic
+    growth, and land-use choices.
+  5: Research indicates that physical vulnerability can increase due to unplanned
+    or informal modifications and maintenance challenges, while it can decrease through
+    adaptation measures.
+  6: The analysis mentions climate-induced events like floods and wind-related damage
+    as key drivers of risk.
+  7: Dynamic nature of hazard, exposure, and vulnerability; Natural climate variability;
+    Epistemic (i.e., modelling) uncertainties; Uncertainties in future population;
+    Eventual success of any adopted adaptation measures
+  8: The page addresses increased risks due to natural hazards in the context of increasing
+    human populations, urbanization, and changing climatic conditions.
+  9: The paper identifies multiple hazards including fire, flood, and wind as key
+    drivers of risk in the proposed framework.
+  10: No relevant information
+Evaluation overview:
+  2: The paper provides an overview of methods to quantify and model risk from natural
+    hazards in the future.
+  6: The text discusses various metrics for evaluating climate change impact, such
+    as asset losses, economic cost, and societal risk.
+  7: No relevant information
+  8: This page discusses modeling the risks from natural hazards and how it is essential
+    for assessing outcomes like asset damage, business interruption, welfare losses,
+    and travel-time delays.
+  9: The paper outlines a proposed stakeholder-centered end-to-end risk modeling framework,
+    illustrating an overview of risk assessment outcomes including socio-economic
+    and network risks.
+  10: No relevant information
+Highlights:
+  2: The paper highlights the necessity of accounting for long-term implications and
+    dynamic changes in hazard risk assessments.
+  5: The study highlights dynamic increases in structural vulnerability driven by
+    informal modifications, environment-induced deterioration, and damage accumulation
+    from cascading hazard events.
+  6: It highlights the evaluation of both direct and indirect losses due to natural
+    hazards and the consideration of broader societal impacts.
+  7: Decision makers have an opportunity to influence the risks of tomorrow through
+    their choices on implementing strategies/policies that control future risk drivers.
+  8: Key challenges identified include limited hazard coverage, shortages of computational
+    capacity, data constraints, and the need for innovative assessment methods. The
+    page calls for developing a comprehensive methodology accommodating multiple stakeholders
+    and hazards.
+  9: It advances conventional risk assessment by accounting for multiple hazards,
+    flexible risk metrics, and stakeholder perspectives in risk quantification.
+  10: No relevant information
+Methodology:
+  2: The paper outlines the use of climate models and scenarios for future climate
+    conditions as inputs to risk assessments.
+  3: The analysis involves using a combination of emission scenarios and climate models,
+    which are downscaled to generate events and calculate their local intensities.
+  4: SLEUTH model and other bottom-up procedures for modeling urban growth and land-use.
+  5: The paper discusses using models like Markov chains and time-dependent fragility
+    functions to assess the probability of building transitions and damage accumulation
+    in infrastructure.
+  6: The text refers to using risk metrics to bridge quantitative risk assessment
+    and decision-making, suggesting an analytical and empirical approach.
+  7: Discusses challenges in modelling future risk from natural hazards, explicitly
+    accounting for the dynamic nature of hazard, exposure, and vulnerability.
+  8: The analysis involves reviewing current state-of-the-art approaches for quantifying
+    future natural-hazard risks, emphasizing multi-hazard outlooks and the need for
+    more integrated risk metrics.
+  9: The analysis is performed using a new risk assessment approach that includes
+    feedback loops to incorporate stakeholder perspectives, enabling a flexible selection
+    of risk metrics.
+  10: No relevant information
+More Notes:
+  7: Notes the wide range of inconsistent approaches in the literature for calculating
+    future loss projections.
+  9: The page focuses on a theoretical framework applicable to future natural hazards,
+    suggesting an enhanced risk evaluation process.
+  10: This page is a list of references and does not contain any original research.
+Quantitative material:
+  4: Graphs provide projected trends of urbanization, GDP forecasts, and changes in
+    the number of land-use hotspots over time.
+  6: No explicit quantitative data details are provided on this page, but it mentions
+    various indices and expected costs.
+  7: No relevant information
+  10: No relevant information
+sourcematerial:
+  2: "Global population is projected to increase to almost 11 billion by 2100 [...]\
+    \ We de\uFB01ne the term \u2018risk\u2019 as the convolution of hazard, exposure,\
+    \ and vulnerability. [...] These changes are set against a backdrop of ever-increasing\
+    \ wealth disparities between the world's rich and poor [...] Despite the evident\
+    \ necessity, most studies of natural-hazard risks do not consider its long-term\
+    \ evolutionary nature, relying instead on past or static observations [...] The\
+    \ primary purpose of this paper is to provide an overview of state-of-practice\
+    \ methods and approaches that feature in efforts of the literature to quantify\
+    \ and model risk from natural hazards in tomorrow's world [...] The quantification\
+    \ of tomorrow's natural hazards commonly involves accounting for future climactic\
+    \ conditions [...] Therefore, climate change projections are frequently used as\
+    \ input to models for heat-, drought-, wind-, \uFB01re-, and \uFB02ood-related\
+    \ risk assessments."
+  3: '`
+
+    Methodology: The analysis involves using a combination of emission scenarios and
+    climate models, which are downscaled to generate events and calculate their local
+    intensities.
+
+    Source material: "Information on possible scenarios of future emissions are combined
+    with climate models that are then appropriately downscaled to provide finer resolution
+    data for hazard analysis in the region of interest. The downscaled climate models
+    are used to simulate values for dynamic weather variables, from which hazardous
+    events can be derived. Then, local intensities associated with these events are
+    calculated."
+
+    '
+  4: "yaml\n\"Drivers of Risk\": \"Future exposure to natural hazards will be driven\
+    \ by increases in population (such as urbanisation, i.e., the movement of people\
+    \ from rural to urban areas), socioeconomic growth (e.g., Angel et al., 2011),\
+    \ as well as choices on land use (e.g., Santini and Valentini, 2011) (Fig. 2).\"\
+    \n\"Quantitative material\": \"Fig. 2. Future exposure to natural hazards will\
+    \ be in\uFB02 uenced by increases in urbanisation, socioeconomic growth, and \uFB02\
+    \ uctuations in land-use choices.\"\n\"Methodology\": \"Bottom-up procedures can\
+    \ include the use of cellular automata (CA) or agent-based modelling (ABM). An\
+    \ example of this kind of approach is the SLEUTH (Slope, Land cover, Excluded\
+    \ regions, Urban land cover, Transportation, and Hillshade) model (Chaudhuri and\
+    \ Clarke, 2013).\"\n"
+  5: null
+  6: "Source material here.\n\"Risk metrics act as a crucial bridge between the quantitative\
+    \ risk assessment and the decision-making process that they are used to inform...quantifying\
+    \ natural-hazard risk have concentrated on measuring risk in terms of conventional\
+    \ asset losses...expressed the impacts of flooding to a facility as the expected\
+    \ cumulative damage cost over its lifetime.\"\n\"Tomorrow's risk from natural\
+    \ hazards may also be presented in terms of its direct effect on the human population...considered\
+    \ the direct and indirect losses associated with projected wind-related damage\
+    \ to residential buildings.\" \n\"High-level preliminary assessments have used\
+    \ relative risk indices to identify potentially future natural-hazard risk hotspots...Other\
+    \ authors...focused exclusively on insured property losses.\"\n\"Risk metrics\
+    \ act as a crucial bridge between the quantitative risk assessment and the decision-making\
+    \ process that they are used to inform...In addition to quantifying direct economic\
+    \ losses, this model describes the consequences of sea-level rise in terms of\
+    \ three socially-focused indicators.\"\n\"Wider perspectives on risk have been\
+    \ offered by some authors, who have quantified the impacts of future natural-hazard\
+    \ events in terms of multiple metrics and/or based on a broader network-level\
+    \ perspective. Stewart et al. (2014) considered both the direct and indirect losses\
+    \ (in the form of, for example, residential clean-up, alternative household accommodation,\
+    \ disaster response and relief, injuries and fatalities, and business and economic\
+    \ disruption) associated with projected wind-related damage to residential buildings.\"\
+    \n"
+  7: "Decision makers of today have a notable opportunity to positively influence\
+    \ the risks of tomorrow, through their choices on implementing strategies/policies\
+    \ that control future risk drivers. However, the selection of appropriate risk-management\
+    \ interventions strongly relies on our ability to model tomorrow's risks from\
+    \ natural hazards, explicitly accounting for the dynamic nature of hazard, exposure,\
+    \ and vulnerability. One of the main challenges to modelling future risk that\
+    \ has been identified in the literature is the signi\uFB01cant inherent uncertainty\
+    \ in each of these components of tomorrow's risk (e.g., Hemmati et al., 2020).\
+    \ Some of the unknowns related to future risk, such as natural climate variability,\
+    \ cannot be (completely) reduced with new knowledge. Epistemic (i.e., modelling)\
+    \ uncertainties are captured by leveraging a combination (ensemble) of different\
+    \ models in a given risk assessment, which poses its own dif\uFB01culties. Further\
+    \ exacerbated by comparable unknowns in terms of future population (Cohen, 2004),\
+    \ the point in time at which an updated vulnerability measure may be introduced\
+    \ (Kwadijk et al., 2010), and the eventual success of any adopted adaptation measures\
+    \ (Dilling et al., 2015), for example. The combined effects of these uncertainties\
+    \ can inhibit the utility of future risk assessments in decision-making processes\
+    \ (e.g., Wilby and Dessai, 2010), which may help to explain why disaster risk\
+    \ managers tend to frame their risk perceptions in terms of today\u2019s - rather\
+    \ than tomorrow's - hazards (Dilling et al., 2015). Despite clear and numerous\
+    \ efforts to model individual risk components associated with future natural-hazard\
+    \ events, there remains a lack of a commonly accepted analytical framework for\
+    \ complete end-to-end risk quanti\uFB01cation. This is reflected in the wide range\
+    \ of inconsistent approaches found in the literature for calculating future loss\
+    \ projections, which incorporate various degrees of complexity (e.g., Jurgilevich\
+    \ et al., 2017)."
+  8: null
+  9: 'Source material here. The paper outlines a proposed stakeholder-centered end-to-end
+    risk modeling framework, illustrating an overview of risk assessment outcomes
+    including socio-economic and network risks: "account for: (1) multiple hazards;
+    (2) a flexible suite of risk metrics that can account for both socio-economic
+    and technical networks; and (3) stakeholder perspectives and priorities towards
+    different dimensions of risk." The paper identifies multiple hazards including
+    fire, flood, and wind as key drivers of risk in the proposed framework: "Multi-Hazard
+    Simulation: Features various hazard icons like fire, flood, and wind, representing
+    the simulation of different potential risks." The analysis is performed using
+    a new risk assessment approach that includes feedback loops to incorporate stakeholder
+    perspectives, enabling a flexible selection of risk metrics: "Feedback loops to
+    the risk calculations (including exposure inputs and the vulnerability component)
+    enable stakeholder perspectives, plans, and priorities to be accounted for in
+    the final quantification and selection of risk metrics." It advances conventional
+    risk assessment by accounting for multiple hazards, flexible risk metrics, and
+    stakeholder perspectives in risk quantification: "The conventional risk assessment
+    approach...is advanced to account for: (1) multiple hazards; (2) a flexible suite
+    of risk metrics...and (3) stakeholder perspectives and priorities..." The page
+    focuses on a theoretical framework applicable to future natural hazards, suggesting
+    an enhanced risk evaluation process: "Outline of a proposed idealised stakeholder-centred
+    end-to-end risk modelling framework for future natural hazards."
+
+    '
+  10: 'This page is a list of references and does not contain any original research.
+
+    '

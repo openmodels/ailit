@@ -1,0 +1,572 @@
+Drivers of Risk:
+  1: Climate-induced factors impacting grain yield.
+  3: The paper identifies anomalous warm conditions, long and warm dry spells, and
+    anomalous wet or dry conditions as shocks impacting grain yields.
+  4: High temperatures, low precipitation (dry spells), excessive precipitation (waterlogging,
+    lodging), and extreme or co-occurring adverse growing conditions (heat and water
+    stress).
+  5: Anomalies in average temperature and precipitation, and via the occurrence of
+    dry spells; seasonal or shorter-term conditions that reduce monoculture yields
+    below local averages.
+  6: Key climatic indices affecting yield are average temperature, cumulative precipitation,
+    longest dry spell, and the temperature during these dry periods.
+  7: Yield anomalies are influenced by climatic conditions including temperature anomalies
+    (T), precipitation anomalies (P), consecutive dry spells (CDD), and temperature
+    during dry spells (TDD).
+  12: The analysis considers impacts from changing temperature anomalies and precipitation
+    anomalies, as well as the number of consecutive dry days and temperature during
+    that period, on crop yields.
+  13: Intra-seasonal climatic conditions such as temperature (TDD) and consecutive
+    dry days (CDD) impact yield outcomes, specifically in relation to species diversity
+    and monocultures.
+  14: The drivers of risk are warming temperatures and changes in precipitation, impacting
+    cereal yields in monocultures and cereal-only rotations.
+  15: Climatic conditions such as temperature, length of dry spells, and precipitation
+    directly impact grain yields.
+  16: Warming and changes in precipitation levels are identified as shocks impacting
+    crop yields.
+  17: Long and warm dry spells and co-occurring low precipitation and high temperatures
+    impact cereal yields.
+  19: Includes compound hot-dry extremes and climate variability impacting US crops.
+  20: Excessive rainfall, drought, high temperature, and climate variation are impacting
+    maize yields and crop production.
+  21: Climate-induced yield losses; drought years.
+Evaluation overview:
+  1: Crop rotational diversity can mitigate climate-induced grain yield losses.
+  3: This paper evaluates how diversified crop rotations can mitigate climate-induced
+    grain yield losses.
+  4: Crop yield and yield losses.
+  5: Yield losses due to detrimental climatic conditions, and grain yield benefits
+    from increasing crop rotation diversity (CRD).
+  6: This page provides insight into yield anomalies of winter and spring small grains
+    and maize related to climatic indices and crop diversity.
+  7: This page discusses yield anomalies of various crops, with a focus on the impact
+    of species diversity and climatic conditions on yields.
+  12: The study evaluates yield differences in spring small grains, winter small grains,
+    and maize under varying climatic conditions and species diversity.
+  13: The paper evaluates the yield benefits of species diversity under varying climatic
+    conditions and how species diversity can compensate for monoculture yield losses
+    induced by climate anomalies.
+  14: This paper evaluates how functional richness in crop rotations compensates for
+    yield losses due to climatic changes, such as warming and changes in precipitation.
+  15: The paper evaluates the impact of crop rotation diversity (CRD) on grain yields
+    under varying climatic conditions.
+  16: The analysis provides an overview of crop yield responses to climatic conditions
+    within diverse crop rotation systems.
+  17: The paper evaluates cereal yields and productivity loss due to climate impacts.
+  19: Focuses on crop yield under climate change, particularly impacts on US agriculture
+    due to temperature and precipitation changes.
+  20: Maize yields and crop production in the United States are being evaluated.
+  21: Grain yield losses are evaluated.
+Highlights:
+  1: Crop rotational diversity is a strategy that can reduce the negative impacts
+    of climate change on grain yields.
+  3: Increased crop rotational diversity compensates for yield losses from adverse
+    climatic conditions; adding crop species benefits maize yields significantly under
+    detrimental conditions.
+  5: Yield losses due to detrimental climatic conditions are hypothesized to be mitigated
+    with increasing CRD. Grain yield benefits from increasing CRD are hypothesized
+    to be more pronounced under detrimental than average or high-yielding climatic
+    conditions.
+  6: Interactions between climate conditions and crop diversity are explored to assess
+    yield variations, highlighting the compound effects of temperature and precipitation
+    on yield outcomes.
+  7: Yield anomalies of small grains increase from low to intermediate species diversity
+    but decline at higher diversity levels; maize yields consistently increase with
+    species diversity.
+  12: The most important outcome is that species diversity can lead to maximum yield
+    benefits of 508 kg/ha to 1601 kg/ha depending on crops and conditions; however,
+    benefits diminish under certain low-yielding conditions.
+  13: Species diversity can compensate for yield losses in monocultures due to warming
+    and reduced precipitation; for instance, increasing diversity from 1 (monoculture)
+    to 1.65 to 4.57 compensates for various described anomalies.
+  14: Increasing functional richness in crop rotations can mitigate yield losses in
+    cereal crops due to climate change.
+  15: Species-diverse and functionally rich rotations enhance grain yields under all
+    growing conditions, potentially providing benefits equivalent to improved climatic
+    conditions.
+  16: Warming reduces yields in all crops, irrespective of crop rotation diversity
+    and precipitation.
+  17: Diversifying crop rotations can decrease cereal yield vulnerability to climatic
+    conditions.
+  19: Crop rotational diversification increases agricultural resilience; increasing
+    crop diversity mitigates weather impacts.
+  20: Excessive rainfall and drought have significant impacts on maize yields in the
+    United States. Climate variation is a major factor in global crop yield variability.
+  21: Crop rotational diversity can mitigate climate-induced grain yield losses.
+Methodology:
+  4: Analysis of meteorological and grain yield data of spring and winter small grains,
+    and maize in relation to climatic conditions and over time. The applicability
+    of the results is related to long-term experiments in North America and Europe.
+  5: Analysis of 21 LTEs in Europe and 11 in North America, using crop yield data
+    from long-term experiments (LTEs) spanning 10-63 years. Data includes spring small
+    grains, winter small grains and maize. Crop rotation diversity is measured using
+    species diversity (Simpson's reciprocal diversity index) and functional richness
+    (count of functional groups). Statistical analysis considers Group as a variable
+    to account for variation relative to replicate and treatment effects. Excludes
+    yields that have been detrended.
+  6: The analysis uses mixed-effect models to explore yield anomalies in relation
+    to climate variables and crop diversity, incorporating different climatic and
+    temporal interaction terms.
+  7: The analysis uses mixed-effects statistical models fitted using the 'lme4' package
+    in R, accounting for interactions between variables such as diversity and climatic
+    indices.
+  12: The analysis uses model predictions based on fitted equations to evaluate yield
+    differences as a function of temperature and precipitation anomalies, and dry
+    days and temperature anomalies, setting yield anomaly baselines based on site-
+    and crop-specific long-term averages.
+  13: The analysis uses modeled yields in relation to climatic anomalies in temperature
+    and precipitation to assess the effects on species diversity and monoculture yields.
+  14: The analysis utilizes model-predicted yield differences and compares them against
+    baseline anomalies related to temperature and precipitation changes.
+  15: The analysis uses model predictions to evaluate yield differences based on functional
+    richness and climatic anomalies, such as consecutive dry days (CDD) and temperature
+    degree days (TDD), over specific time frames.
+  17: Data from 32 long-term experiments across Europe and North America were analyzed.
+  19: Utilizes meta-analyses and numerical simulations with climate and crop models
+    for understanding impacts.
+  21: The article by Costa, A., et al. (2024) analyzes how crop rotational diversity
+    can mitigate climate-induced grain yield losses. Wright et al. (2021) looks at
+    the effects of stress gradients and biodiversity on monoculture vulnerability
+    during drought years.
+More Notes:
+  5: Focuses on rain-fed crops. LTEs included at least two different crop rotations,
+    but not necessarily a monoculture.
+Quantitative material:
+  3: It quantifies the maize yield benefits of adding three crop species to monocultures
+    under detrimental climatic conditions, exceeding yields by up to 553 kg/ha.
+  4: Yield benefits peaked at between two and four crop species in the rotation, depending
+    on climatic conditions and crop, and declined at higher species diversity.
+  5: Yield anomalies are considered as mean-centred yield data obtained by subtracting
+    the indicator crop-specific long-term mean yield from individual yield observations
+    at each LTE.
+  12: Quantitative data includes model-predicted yield differences such as maximum
+    yield benefits attainable via species diversity and specific yield benefits under
+    high-yielding and low-yielding conditions for small grains and maize.
+  13: Quantitative details include the specific yield differences in kilograms per
+    hectare (e.g., maize showing yield reduction by 486 kg/ha under warming conditions)
+    and changes in species diversity levels to compensate for these losses.
+  14: There are quantitative estimates of yield compensation; for example, increasing
+    functional richness from 1 to 2 provided yield surpluses for crops like maize
+    and grains.
+  15: Yields increased with higher CRD, showing that yield benefits can match improved
+    climatic conditions with decreased temperature and dry spells or increased precipitation.
+  19: Discusses increase in crop losses to insect pests and soybean yield impacts
+    due to hot-dry extremes.
+  20: Excessive rainfall leads to maize yield loss of a comparable magnitude to extreme
+    drought in the United States; Climate variation explains a third of global crop
+    yield variability.
+  21: Reports on research that increasing crop rotational diversity can enhance cereal
+    yields (Smith et al., 2023).
+sourcematerial:
+  1: 'Source material here.
+
+    Crop rotational diversity can mitigate climate-induced grain yield losses
+
+    '
+  3: "Source material here.\nEvaluation overview: \"Diversified crop rotations have\
+    \ been suggested to reduce grain yield losses from the adverse climatic conditions\
+    \ increasingly common under climate change.\"\nDrivers of Risk: \"Species-diverse\
+    \ and functionally rich rotations more than compensated yield losses from anomalous\
+    \ warm conditions, long and warm dry spells, as well as from anomalous wet (for\
+    \ small grains) or dry (for maize) conditions.\"\nQuantitative material: \"For\
+    \ instance, the maize yield benefits of adding three crop species to monocultures\
+    \ under detrimental climatic conditions exceeded the average yield of monocultures\
+    \ by up to 553\u2009kg/ha under non-detrimental climatic conditions.\"\nHighlights:\
+    \ \"Species-diverse and functionally rich rotations more than compensated yield\
+    \ losses\" and \"Increased crop functional richness improved yields under high\
+    \ temperature, irrespective of precipitation.\"\n"
+  4: "  \nClimate change negatively affects crop production... Both high temperature\
+    \ and low precipitation can independently or simultaneously lower crop productivity...\
+    \ High precipitation can reduce crop yields through waterlogging and lodging...\
+    \ Crop yields can thus be negatively affected by both dry spells and excessive\
+    \ precipitation... Even short periods of extreme conditions or co-occurring adverse\
+    \ but not extreme growing conditions, like heat and water stress, can severely\
+    \ reduce yields...\n\nConversely, yield benefits peaked at between two and four\
+    \ crop species in the rotation, depending on climatic conditions and crop, and\
+    \ declined at higher species diversity...\n\n...yield losses due to climate change...\
+    \ increasing crop diversity by including more crops and/or cover crops in the\
+    \ rotation could increase yields in several crops...\n\n...crop species diversity\
+    \ could be adjusted to maximize yield benefits... Diversifying rotations with\
+    \ functionally distinct crops is an adaptation of cropping systems to global warming\
+    \ and changes in precipitation.\n\n...higher crop rotation diversity (CRD) reduced\
+    \ maize yield losses in unfavourable years in several North American long-term\
+    \ experiments...\n"
+  5: "                                                                           \
+    \                                                                            \
+    \                                          \u2003\u2002\u2003        |\u2003 \
+    \   3 of 19\nfrom\t       32\t           European\t     and\t     North\t    \
+    \ American\t     long-\tterm\t       (10\u201363\u2009years)\t  fieldwere not\
+    \ the focus of this study, but greatly affect crop yields, we\nexperiments\t \
+    \    (LTEs)\t   (Smith\t      et\t    al.,\t           2023). We characterized\
+    \ growing                  combined\t      them\t         with\t      replicates\t\
+    \     into\t      the\t      variable\t      \u201CGroup\u201D\t    to\t     \
+    \ simul-\nseason conditions both via anomalies in average temperature and    \
+    \                                             taneously take into account the\
+    \ variation relative to replicate and\nprecipitation, and via the occurrence of\
+    \ dr y spells. We define det-                                            treatment\
+    \ effects (see Section    2.4   ).\t   For\t    example,\t   a\t      LTE\t  \
+    \    with\t      repli-\nrimental\t   climatic\t     conditions\t     as\t   \
+    \  seasonal\t   or\t    shorter-\tterm\t         conditions\t         cates\t\
+    \    (1,\t  2,\t  etc.)\t   and\t      two\t      fertilizer\t    treatments\t\
+    \    (A\t       and\t      B)\t   would\t      have\nthat reduce monoculture yields\
+    \ below local averages. Our t wo main                                        \
+    \      several\tdistinct\tGroups:\tA1,\tB1,\tA2,\tB2,\tetc.\nhypotheses were:\
+    \ (1) yield losses due to detrimental climatic con-                          \
+    \                       We chose cereal crops as indicator crops because they\
+    \ are key in\nditions are mitigated with increasing CRD, and (2) grain yield ben-\
+    \                                             human and animal nutrition, widely\
+    \ grown, economically important\nefits from increasing CRD are more pronounced\
+    \ under detrimental                                                 and well represented\
+    \ in our dat aset . We analysed spring small grains,\nthan\t      average\t  \
+    \   or\t    high-\tyielding\t     climatic\t     conditions.\t  We\t     also\t\
+    \      explored     winter\t   small\t  grains\t    and\t     maize\t     separately,\t\
+    \  because\t     we\t     expected\t    sub-\nhow changes in grain yield across\
+    \ gradients of climatic conditions                                           \
+    \   stantial differences in yield outcomes based on physiological and\ndiffer\
+    \ depending on whether functional richness or species diversity              \
+    \                              phenological\t dissimilarities\t and\t previous\t\
+    \ results\t (Fan\t et\t al.,\t 2016;\nis used to characterize CRD. Our findings\
+    \ could support designing                                               Kadam\t\
+    \        et\t    al.,\t        2 0 14;\t   Marini\t  et\t    al.,\t        2020\
+    \ ). Small grain yield data were\nclimate-\tresilient\tcropping\tsystems.    \
+    \                                                                        only\
+    \ available from the European LTEs and maize from the North\n                \
+    \                                                                            \
+    \                    American LTEs. All yield data of the individual crops refer\
+    \ to grain\n                                                                 \
+    \                                               dr y matter. To reduce yield variabilit\
+    \ y due to crop species and geo-\n2\u2003        |    \u2003    METHODS      \
+    \                                                                            \
+    \   graphic\t      location,\t    we\t       considered\t       yield\t      \
+    \ anomalies\t      as\t      mean-\tcentred\n                                \
+    \                                                                            \
+    \    yield\t      data\t     obtained\t      by\t     subtracting\t     the\t\
+    \     indicator\t    crop-\tspecific\t     long-\n2  .1\u2003         |\u2003\
+    \        Crop yield data                                                     \
+    \                   term mean yield from individual yield obser vations at each\
+    \ LTE. We\n                                                                  \
+    \                                              did not detrend the yield anomalies\
+    \ (and climatic indices; see below)\nOur dataset comprised 21 LTEs in Europe and\
+    \ 11 in Nor th America,                                               to be able\
+    \ to capture the net ef fect s of the interactions of diversit y\nfor\t    a\t\
+    \     total\t   of\t    941\t      site-\tyear\t    combinations,\t  117\t   \
+    \   rotations\t     and\t      27,402with technological improvement s and climate\
+    \ change occurred over\nobservations and spanning a wide gradient of climates,\
+    \ from                                                     the duration of the\
+    \ LTEs.\nMediterranean\t     to\t     Sub-\tarctic\t     ones.\t  All\t  crops\t\
+    \    were\t     rain-\tfed.\t  Crop\t     ro-\ntations ranged from continuous\
+    \ monocultures, that is, a single crop\nspecies grown ever y growing season, to\
+    \ increasingly diverse rota-\ntions,\t  that\t    is,\t  up\t      to\t      six\t\
+    \     crop\t      species\t    grown\t      in\t      succession\t      over\t\
+    \    a\t     cer-\ntain\t     number\t    of\t   growing\t     seasons.\t  Some\t\
+    \     experiments\t    also\t      included\t     a\t\nfallow period (7% of rotations),\
+    \ cover crops (28% of rotations) and                                    \nmore\
+    \ than one crop grown during the same growing season, that                   \
+    \                      \nis,\t   intercropping\t      and\t      undersowing\t\
+    \      (26%\t         of\t    rotations).\t   Experiments\t         \nincluded\
+    \ at least two different crop rotations, but not necessarily a               \
+    \                         \nmonoculture.\t  For\t   robust\t   inference,\t  we\t\
+    \     restricted\t     the\t     analyses\t    to\t     ex-         \nperiments\t\
+    \    that\t    had\t      been\t      in\t      place\t     for\t    at\t    least\t\
+    \    10\u2009years.\t  This\t    ensured         \nthat a minimum of two full\
+    \ rotation cycles of the longest rotation                                    \
+    \             \nwere\t     completed\t     for\t   all\t  LTEs,\t  except\t  \
+    \ for\t   Woodside\t     LTE,\t  for\t   which\t     the\t     \nlast\t4\u2009\
+    years  \tof  \tthe  \tsecond  \trotation  \tcycle  \twere  \tmissing.  \tFurthermore,\
+    \  \t         \nto avoid confounding ef fect s bet ween rotations and other manage-\
+    \                                             \nment\tpractices,\twe\tselected\t\
+    experiments\twhere\tall\tcrop\trotations\tre-          \nceived similar treatment\
+    \ s or adaptive management was applied (e.g.,                                \
+    \             \napplications of pesticides or herbicides as needed). Details on\
+    \ the                                             \nLTE\texperimental  \tdesign,\
+    \  \tclimatic  \tconditions  \tand  \tdiversity  \tlevels  \tare  \t         \
+    \        \nsummarized in the Supplementar y Information (    Table S1). Additional\
+    \                                         \ninformation is repor ted in Smith\
+    \ etal.(                                      2023), which used the same     \n\
+    yield\tdataset,\tbut\tdid\tnot\texplore\tthe\trole\tof\tclimatic\tconditions.\t\
+    \                                                \n In most LTEs, each phase of\
+    \ the rotation was present ever y year,                                      \
+    \        \nwith\t      the\t      exception\t      of\t    El\t   Enc\xEDn\t \
+    \     and\t      Foggia\t      LTEs,\t   where\t      the\t      indica-\ntor\
+    \ crop\u2014winter wheat in both cases\u2014was harvested once every         \
+    \                                           \n2\u2009years.\t   Yields\t     were\t\
+    \      collected\t      for\t    10\u201363\u2009years,\t   except\t    for\t\
+    \    El\t   Enc\xEDn       \nand\t      Foggia\t      LTEs\t     for\t    which\t\
+    \      7\u2009years\t     of\t    data\t      spanning\t      14\u2009years\t\
+    \     were\navailable.\t   Some\t      experiments\t     included\t      treatments\t\
+    \     applied\t      to\t      all\t   ro-      \ntations,\t  related\t     to,\t\
+    \  for\t   example,\t  amount\t   of\t   fertilizer,\t  tillage\t     intensity\
+    \           \nand management of residues. Since the effects of these options \
+    \                                                \nwere not the focus of this\
+    \ study, but greatly affect crop yields, we                                  \
+    \         \ncombined them with replicates into the variable \u201CGroup\u201D\
+    \ to simultane-                                          \nously take into account\
+    \ the variation relative to replicate and\ntreatment effects (see Section    2.4\
+    \   ). We chose cereal crops as indicator crops because they are          \nkey\
+    \ in human and animal nutrition, widely grown, economically important\nand well\
+    \ represented in our dat aset . We analysed spring small grains,\nwinter\t   small\t\
+    \  grains\t    and\t     maize\t     separately,\t  because\t     we\t     expected\t\
+    \     sub-       \nst antial differences in yield outcomes based on physiological\
+    \ and                                             \nphenological\t dissimilarities\t\
+    \ and\t previous\t results\t (Fan\t et\t al.,\t 2016;    \nKadam\t        et\t\
+    \    al.,\t        2 0 14;\t   Marini\t  et\t    al.,\t        2020 ). Small grain\
+    \ yield data were                                     \nonly available from the\
+    \ European LTEs and maize from the North\nAmerican LTEs. All yield data of the\
+    \ individual crops refer to grain\ndr y matter. To reduce yield variabilit y due\
+    \ to crop species and geo-\ngraphic\t      location,\t    we\t       considered\t\
+    \       yield\t       anomalies\t      as\t      mean-\tcentred\nyield\t     \
+    \ data\t     obtained\t      by\t     subtracting\t     the\t     indicator\t\
+    \    crop-\tspecific\t     long- \nterm mean yield from individual yield obser\
+    \ vations at each LTE. We         \ndid not detrend the yield anomalies (and climatic\
+    \ indices; see below)     \nto be able to capture the net ef fect s of the interactions\
+    \ of diversit y   \nwith technological improvement s and climate change occurred\
+    \ over      \nthe duration of the LTEs.                                      \
+    \                                                                            \
+    \                                                                            \
+    \                                             \u2003\u2002\u2003        |\u2003\
+    \    3 of 19\n"
+  6: 'Source material here.
+
+    We explored how yield anomalies of winter and spring small grains and maize vary
+    with CRD, and pairs of climatic indices via two sets of mixed-effect models.
+
+
+    To summarize the growing conditions, we considered two sets of climatic indices:
+    (i) growing season climatic indices, represented by average maximum daily temperature
+    and cumulated precipitation during each growing season, and (ii) intra-seasonal
+    climatic indices, quantifying potentially short but detrimental conditions expected
+    to become more common.
+
+
+    We differentiated t and year to separate yield variations explained by technological
+    improvements over time and legacy effects of rotations since their implementation,
+    captured by t, from variations due to LTE-specific effects of sampling year on
+    yield, captured by year.
+
+
+    Temperature and precipitation can have compound effects on yield outcome. We therefore
+    included the interaction between the climatic indices, X1: X2 (T:P or TDD:CDD),
+    as a fixed effect. Further, we considered a quadratic dependence on the temperature
+    index, X1^2, because several plant processes have an intermediate thermal optimum.
+
+    '
+  7: 'yaml
+
+    Evaluation overview: "With fixed climatic conditions, yield anomalies (and hence
+    yields) of small grains generally increased from low to intermediate species diversity
+    (D; Equation 1) and declined at higher levels of diversity, while for maize yields
+    increased up to the maximum species diversity present in the dataset (Figures
+    1 and 2)."
+
+    Drivers of Risk: "The relationship between CRD and grain yield anomalies depended
+    on climatic conditions and their interaction, and on the indicator crop (Tables
+    1 and 2)."
+
+    Methodology: "The mixed-effects statistical models were fitted using the ''lme4''
+    package version 1.1-26...in R version 4.1.0. The R statements are reported in
+    the Supplementary Information...The model assumptions were checked by visual interpretation
+    of the residual plots using the ''DHARMa'' package in R."
+
+    Highlights: "With fixed climatic conditions, yield anomalies (and hence yields)
+    of small grains generally increased from low to intermediate species diversity
+    (D; Equation 1) and declined at higher levels of diversity, while for maize yields
+    increased up to the maximum species diversity present in the dataset."
+
+    '
+  12: " \nEvaluation overview: The evaluation of yield differences is demonstrated\
+    \ in the description: \"Model-predicted yield difference from baseline yield anomaly\
+    \ for (a) spring small grains, (b) winter small grains and (c) maize, as a function\
+    \ of species diversity, growing season average daily maximum temperature anomalies\
+    \ (T) and cumulated precipitation anomalies (P) based on fitted Equation (2).\"\
+    \n\nDrivers of Risk: This is captured through the study's consideration of climate\
+    \ impacts, as indicated by: \"as a function of species diversity, growing season\
+    \ average daily maximum temperature anomalies (T) and cumulated precipitation\
+    \ anomalies (P)\" and \"the anomalies of the highest number of consecutive dry\
+    \ days (CDD) and average temperatures during that period (TDD).\"\n\nQuantitative\
+    \ material: The specific quantitative yields and benefits noted are: \"the largest\
+    \ possible benefit of species diversity... reduced to 393 kg/ha... and 722 kg/ha\
+    \ for spring and winter small grains respectively\" and \"for maize, the maximum\
+    \ yield benefits attainable via species diversity... were 1601 kg/ha.\"\n\nMethodology:\
+    \ The methodological approach is outlined as: \"Model-predicted yield difference...\
+    \ based on fitted Equation (2)\" and the use of different quartiles for analysis\
+    \ of climatic conditions: \"within the first quartile, the long-term average and\
+    \ the third quartiles of CDD.\"\n\nHighlights: The key outcomes presented include:\
+    \ \"the maximum yield benefits attainable via species diversity were 508 kg/ha...\
+    \ and 973 kg/ha... for spring and winter small grains respectively... for maize,\
+    \ the maximum yield benefits attainable... were 1601 kg/ha.\"\n"
+  13: 'Source material here.
+
+    The maximum yield benefits attainable via species diversity required higher species
+    diversity to compensate monoculture yield losses...anomalies in CDD and TDD, in
+    directions dependent on the indicator crop (Figure 2; Table 2). Maximum yield
+    benefits attainable via species diversity for spring small grains increased with
+    TDD...For winter small grains, the maximum yield benefits attainable via species
+    diversity decreased as TDD increased under average and high CDD...For maize, the
+    difference between monoculture yields and the maximum yield benefit attainable
+    via species diversity decreased as CDD and TDD increased...Warming caused a yield
+    reduction in monocultures that could be balanced by relatively small increases
+    in species diversity (Figure 1)...Co-occurring warming and negative precipitation
+    anomalies led to even higher yield losses than warming alone for maize...
+
+    '
+  14: "yaml\nEvaluation overview: \"This paper evaluates how functional richness in\
+    \ crop rotations compensates for yield losses due to climatic changes, such as\
+    \ warming and changes in precipitation.\"\n- Evidence: \"Similar to species diversity,\
+    \ modest increases in functional richness compensated for yield losses associated\
+    \ with warming occurring at functional richness 1, that is, cereal-only rotations.\"\
+    \n- Evidence: \"Increasing CRD mitigated staple cereal yield losses occurring\
+    \ in monocultures and cereal-only rotations due to detrimental climatic conditions...\"\
+    \n\nDrivers of Risk: \"The drivers of risk are warming temperatures and changes\
+    \ in precipitation, impacting cereal yields in monocultures and cereal-only rotations.\"\
+    \n- Evidence: \"...yield losses associated with warming occurring at functional\
+    \ richness 1...\"\n- Evidence: \"...yield losses in monocultures and cereal-only\
+    \ rotations due to detrimental climatic conditions...\"\n\nQuantitative material:\
+    \ \"There are quantitative estimates of yield compensation; for example, increasing\
+    \ functional richness from 1 to 2 provided yield surpluses for crops like maize\
+    \ and grains.\"\n- Evidence: \"For example, a functional richness of 2, that is,\
+    \ adding one non-cereal crop to the rotation was sufficient to balance the expected\
+    \ yield loss of cereal-only rotations under an increase in T...\"\n- Evidence:\
+    \ \"...functional richness of 2, that is, adding one non-cereal crop to the rotation...gave\
+    \ a surplus of 199\u2009kg/ha...for spring grains, 389\u2009kg/ha...for winter\
+    \ small grains and 526\u2009kg/ha...for maize...\"\n\nMethodology: \"The analysis\
+    \ utilizes model-predicted yield differences and compares them against baseline\
+    \ anomalies related to temperature and precipitation changes.\"\n- Evidence: \"\
+    FIGURE 3\u2003Model-predicted yield difference from baseline yield anomaly for...in\
+    \ response to functional richness, growing season average daily maximum temperature\
+    \ anomalies...and cumulated precipitation anomalies...\"\n- Evidence: \"...the\
+    \ baseline of yield anomaly...deviations from the site- and crop-specific local\
+    \ mean, of a rotation with functional richness 1, that is, cereal- only, under\
+    \ long- term average of T and P...\"\n\nHighlights: \"Increasing functional richness\
+    \ in crop rotations can mitigate yield losses in cereal crops due to climate change.\"\
+    \n- Evidence: \"Increasing CRD mitigated staple cereal yield losses occurring\
+    \ in monocultures and cereal-only rotations...\"\n- Evidence: \"...increasing\
+    \ CRD could support climate change adaptation of cereal production under European\
+    \ and North American growing conditions.\"\n"
+  15: 'Source material here.
+
+    The paper discusses the effect of crop rotation diversity (CRD) on grain yields,
+    stating: "We expanded on this by explicitly considering climatic conditions and
+    CRD levels... Yields increased over time and more so at the CRD that maximized
+    yields."
+
+    Regarding drivers of risk: "Increasing CRD can provide grain yield benefits comparable
+    with improved climatic conditions, for example, decreasing temperature and length
+    and temperature of dry spells for both small grains and maize, and increasing
+    precipitation for maize."
+
+    For quantitative material: "The maximum attainable yield via diversification under
+    detrimental conditions exceeded the average yield of monocultures under favourable
+    conditions."
+
+    On methodology: "FIGURE 4 Model-predicted yield difference from baseline yield
+    anomaly... model predictions within the first quartile, the long-term average
+    and the third quartile of CDD."
+
+    Highlighting findings: "These results confirm that species-diverse and functionally
+    rich rotations enhance grain yields under all growing conditions."
+
+    '
+  16: 'yaml
+
+    Evaluation overview: "The statistical models had a low degree of explained variation...allow
+    for robust conclusions on CRD-yield responses to historical climatic conditions."
+
+    Drivers of Risk: "Warming reduced yields in all crops irrespective of CRD and
+    precipitation. At higher than average precipitation, the yield reductions from
+    warming were higher in winter small grains than in spring small grains and maize,
+    irrespective of CRD."
+
+    Highlights: "Increasing crop functional richness enhanced yield anomalies, and
+    hence yields, with no sign of decline, for all crops under high temperature and
+    irrespective of precipitation."
+
+    Highlights: "For winter small grains, the yield-maximizing species diversity decreased
+    in warmer and drier conditions. Spring small grains showed the opposite pattern."
+
+    Highlights: "For maize, the species diversity that maximized yields did not change
+    across climatic conditions and coincided with the highest level included in the
+    data."
+
+    Highlights: "Warming reduced yields in all crops irrespective of CRD and precipitation."
+
+    '
+  17: 'Source material here.
+
+    Evaluation overview: "We showed that diversifying crop rotations can decrease
+    the vulnerability of cereal yields to detrimental climatic conditions, based on
+    primary data from 32 long-term experiments across Europe and North America."
+
+
+    Drivers of Risk: "Maize yields responded most negatively to co-occurring low cumulative
+    precipitation and high average temperatures, and to long and warm dry spells,
+    across all CRDs."
+
+
+    Methodology: "We showed that diversifying crop rotations can decrease the vulnerability
+    of cereal yields to detrimental climatic conditions, based on primary data from
+    32 long-term experiments across Europe and North America."
+
+
+    Highlights: "We showed that diversifying crop rotations can decrease the vulnerability
+    of cereal yields to detrimental climatic conditions."
+
+    '
+  19: 'Source material here: "the water regulation functions of soils: A qualitative
+    synthesis of meta-analyses relevant to European agriculture. Impacts of compound
+    hot-dry extremes on US soybean yields. Soil-dependent responses of US crop yields
+    to climate variability and depth to groundwater. Severity of drought and heat
+    wave crop losses tripled over the last five decades in Europe. Increase in crop
+    losses to insect pests in a warming climate. meta-analysis relevant to European
+    agriculture. new generation of climate and crop models. Long-term evidence shows
+    that crop-rotation diversification increases agricultural resilience to adverse
+    growing conditions in North America. Increasing crop diversity mitigates weather
+    variations and improves yield stability."'
+  20: "Source material here.\nLi, Y., Guan, K., Schnitkey, G. D., DeLucia, E., & Peng,\
+    \ B. (2019). Excessive rainfall leads to maize yield loss of a comparable magnitude\
+    \ to extreme drought in the United States. Global Change Biology, 25(7), 2325\u2013\
+    2337. https://doi.org/10.1111/GCB.14628\nLobell, D. B., Roberts, M. J., Schlenker,\
+    \ W., Braun, N., Little, B. B., Rejesus, R. M., & Hammer, G. L. (2014). Greater\
+    \ sensitivity to drought accompanies maize yield increase in the U.S. Midwest.\
+    \ Science, 344(6183), 516\u2013519. https://doi.org/10.1126/science.1251423\n\
+    Lobell, D. B., Schlenker, W., & Costa-Roberts, J. (2011). Climate trends and global\
+    \ crop production since 1980. Science, 333(6042), 616\u2013620. https://doi.org/10.1126/science.1204531\n\
+    Ray, D. K., Gerber, J. S., Macdonald, G. K., & West, P. C. (2015). Climate variation\
+    \ explains a third of global crop yield variability. Nature Communications, 6,\
+    \ 1\u20139. https://doi.org/10.1038/ncomms6989\n"
+  21: " \nSimpson, E. H. (1949). Measurement of diversity. Nature, 163(4148), 688.\
+    \ Wang, L., Cutforth, H., Lal, R., Chai, Q., Zhao, C., Gan, Y., & Siddique, K.\
+    \ H. M. (2018). \u201CDecoupling\u201D land productivity and greenhouse gas footprints:\
+    \ A review. Land Degradation & Development, 29(12), 4348\u20134361. / 10.1038/163688a0\
+    \ Singh, B. K., Delgado- Baquerizo, M., Egidi, E., Guirado, E., Leach, J. E.,\
+    \ Liu, H., & Trivedi, P. (2023). Climate change impacts on plant pathogens, food\
+    \ security and paths forward. Nature Reviews Microbiology , 21(10), 640\u2013\
+    656. Smith, M. E., Vico, G., Costa, A., Bowles, T., Gaudin, A. C. M., Hallin,\
+    \ S., Watson, C. A., Alarc\xF2n, R., Berti, A., Blecharczyk, A., Calder\xF3n,\
+    \ F., Culman, S., Deen, W., Drury, C. F., Garcia y Garcia, A., Garc\xEDa- D\xED\
+    az, A., Hern\xE1ndez Plaza, E., Jonczyk, K., J\xE4ck, O., \u2026 Bommarco, R.\
+    \ (2023). Increasing crop rotational diversity can enhance cereal yields. Communications\
+    \ Earth & Environment , 4(1), 1\u20139. Sprunger, C. D., Martin, T., & Mann, M.\
+    \ (2020). Systems with greater perenniality and crop diversity enhance soil biological\
+    \ health. Agricultural & Environmental Letters, 5(1), e20030. Tanaka, D. L., Anderson,\
+    \ R. L., & Rao, S. C. (2005). Crop sequencing to improve use of precipitation\
+    \ and synergize crop growth. Agronomy Journal, 97(2), 385\u2013 390. Troy, T.\
+    \ J., Kipgen, C., & Pal, I. (2015). The impact of climate extremes and irrigation\
+    \ on US crop yields. Environmental Research Letters , 10(5), 054013. UNFCCC. (2016).\
+    \ Adoption of the Paris Agreement. 21st conference of the parties. United Nations.\
+    \ Vogel, E., Donat, M. G., Alexander, L. V., Meinshausen, M., Ray, D. K., Karoly,\
+    \ D., Meinshausen, N., & Frieler, K. (2019). The effects of cli- mate extremes\
+    \ on global agricultural yields. Environmental Research Letters, 14(5), 054010.\
+    \ Zhang, K., Maltais- Landry, G., & Liao, H. L. (2021). How soil biota regulate\
+    \ C cycling and soil C pools in diversified crop rotations. Soil Biology and Biochemistry\
+    \ , 156, 108219. Zscheischler, J., van den Hurk, B., Ward, P. J., & Westra, S.\
+    \ (2020). Multivariate extremes and compound events. In Climate ex - tremes and\
+    \ their implications for impact and risk assessment (pp. 59\u201376). Elsevier.\
+    \ Wright, A. J., Mommer, L., Barry, K., & van Ruijven, J. (2021). Stress gra -\
+    \ dients and biodiversity: Monoculture vulnerability drives stronger biodiversity\
+    \ effects during drought years. Ecology, 102(1), e03193. Costa, A., Bommarco,\
+    \ R., Smith, M. E., Bowles, T., Gaudin, A. C. M., Watson, C. A., Alarc\xF3n, R.,\
+    \ Berti, A., Blecharczyk, A., Calderon, F. J., Culman, S., Deen, W., Drury, C.\
+    \ F., Garcia y Garcia, A., Garc\xEDa- D\xEDaz, A., Hern\xE1ndez Plaza, E., Jonczyk,\
+    \ K., J\xE4ck, O., \u2026 Vico, G. (2024). Crop rotational diversity can mitigate\
+    \ climate- induced grain yield losses. Global Change Biology, 30, e17298.\n"

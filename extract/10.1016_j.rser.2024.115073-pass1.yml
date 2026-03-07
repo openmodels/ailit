@@ -1,0 +1,353 @@
+Drivers of Risk:
+  2: Solar irradiance, ambient temperature, atmospheric conditions (clouds, aerosols,
+    pollutants, and dust), terrain effects (albedo, snow), extreme weather events
+    (wildfires, hailstorms, solar eclipses), and long-term irradiance changes driven
+    by climate change and air pollutants.
+  3: Environmental factors impacting solar PV performance include solar irradiance,
+    ambient air temperature, atmospheric conditions, terrain effects, extreme events,
+    and long-term changes.
+  4: Solar irradiance (GHI and DNI) varying with time, location, climate, season,
+    and topography; solar zenith angle.
+  5: Spectral distribution of solar irradiance affects PV module performance; environmental
+    factors like air mass, cloud cover, and water content affect Average Photon Energy
+    (APE); ambient air temperature impacts PV module temperature.
+  6: Solar insolation, ambient air temperature, high temperature leading to degradation
+    and lower lifetimes.
+  7: Temperature increase impacts solar modules by reducing open-circuit voltage and
+    efficiency.
+  8: Elevated module temperatures and atmospheric conditions such as cloud cover are
+    identified as factors impacting PV panel output.
+  10: Dust accumulation on PV systems in desert regions.
+  11: Dust accumulation and humidity inversely impact solar PV power output.
+  12: Wind affects PV efficiency through cooling, soiling, and structural risk, with
+    complex interactions occurring between wind and PV systems.
+  13: Changes in albedo (due to ice melt, land cover changes), snow cover (accumulation,
+    melting), increased frequency and scale of wildfires, increased severity of hailstorms.
+  14: Hurricanes, hailstorms, and solar eclipses are identified as drivers affecting
+    solar PV installations, causing physical damage and temporary power loss.
+  15: The impact of solar eclipses and climate change factors like increased humidity,
+    wildfires, hailstorms, and temperature rise on solar PV performance.
+  16: Aerosol load, temperature variations, cloud cover changes, dust accumulation,
+    and extreme weather events are impacting solar PV performance.
+Evaluation overview:
+  2: Solar photovoltaic (PV) output, productivity, and capacity factor.
+  3: The paper reviews key environmental factors affecting solar PV performance, synthesizing
+    current knowledge and exploring mitigation strategies.
+  4: Impacts on solar PV module performance (electricity output, open-circuit voltage,
+    short-circuit current, cell temperature, and efficiency).
+  5: No relevant information
+  6: Solar PV output
+  7: The paper evaluates the impact of temperature on power output and efficiency
+    of various solar module technologies.
+  8: This paper does not specifically address a single outcome; it evaluates the performance
+    of different PV technologies under temperature variations.
+  10: No relevant information
+  11: No direct overview of outcomes provided.
+  13: The impact of climate-related factors (albedo, snow cover, wildfires, hailstorms)
+    on solar PV system performance and energy generation.
+  14: The paper examines the impact of climatic events such as hurricanes, hailstorms,
+    and solar eclipses on solar PV installations, noting damage and power output reductions.
+  15: The paper discusses the impact of solar eclipses on PV system capacity factors,
+    specifically highlighting a reduction in productivity during the eclipse events.
+  16: No specific overview of outcomes like mortality or productivity loss; focus
+    is on environmental impacts on solar PV performance.
+Highlights:
+  2: Optimizing PV systems for diverse climates and mitigating environmental impacts
+    on productivity is important to the continued success of solar photovoltaics;
+    highlights the need for tailored strategies to maintain performance in varied
+    and evolving environmental contexts.
+  3: PTC assessments provide more conservative estimates of solar PV performance,
+    suggesting ratings around one-tenth lower than under STC.
+  4: Solar irradiance directly impacts electricity output from PV modules; Higher
+    irradiance can impair performance, especially in hotter climates; Irradiance has
+    a linear effect on current and log-linear effect on voltage.
+  5: PV module performance is sensitive to the spectral distribution of solar irradiance
+    (specifically APE), with different PV technologies (a-Si:H, CIGS) responding differently
+    to spectral shifts; Module operating temperature is determined by the balance
+    of heat generation and heat loss to the environment.
+  6: Irradiance has a stronger effect on current, temperature predominantly affects
+    voltage. Solar modules at high temperature experience more rapid degradation and
+    lower lifetimes.
+  7: Higher temperatures reduce power output and efficiency of solar modules, with
+    specific temperature coefficients for different technologies.
+  8: CdTe has the lowest temperature coefficient, making it well-suited for hot climates;
+    the decrease in electrical efficiency per degree Celsius rise is quantified for
+    various panel types.
+  10: Cleaning is a major operating expense in desert regions, but can significantly
+    increase PV capacity.
+  11: Electrostatic cleaning reduced power loss from 5.9% to 4.6% in Jordan; transparent
+    self-cleaning dust shields remove 90% of dust in under 30 minutes.
+  12: Wind cooling enhances PV efficiency, reduces dust/snow but also poses structural
+    risks with high speeds.
+  14: Despite major hurricanes, some solar PV systems can withstand the events with
+    minimal impact; for example, solar installations in Babcock Ranch maintained power
+    during Hurricane Ian.
+  15: Solar eclipses can cause significant short-term reductions in solar PV productivity,
+    especially in areas with high PV capacity and no grid connections to other markets.
+  16: Aerosol load reduction and its link to improved solar irradiance, and the need
+    to adapt solar PV systems to local environmental conditions for optimum performance.
+Methodology:
+  2: Comprehensive review examining six key influences on solar PV performance.
+  3: The paper evaluates solar PV performance under Standard Test Conditions (STC)
+    and Photovoltaics for Utility Scale Application Test Conditions (PTC), highlighting
+    differences due to actual environmental conditions.
+  4: Analysis of solar irradiance intensity on PV module performance, current-voltage
+    (I-V) and power-voltage (P-V) curves.
+  5: The paper discusses the use of Average Photon Energy (APE) to assess the effect
+    of solar spectrum distribution on outdoor PV module performance.
+  7: Analysis based on I-V and P-V characteristics and temperature coefficient data
+    of solar PV modules.
+  8: The analysis discusses performance variations under varying temperature conditions
+    using temperature coefficients for different PV technologies.
+  10: Classification of cleaning methods into mechanical, self-cleaning, electrostatic,
+    and natural.
+  11: Utilization of self-cleaning and electrostatic cleaning methods in dust removal
+    from solar panels.
+  12: Discussion includes the effects of wind dynamics on solar photovoltaic farms,
+    looking at the balance of cooling versus soiling and structural impacts.
+  15: The analysis visualizes capacity factor trends using line graphs over specified
+    periods around solar eclipses in Western Australia and the United States, with
+    5-minute and 1-hour resolution data.
+  16: Analysis includes correlation studies on aerosol emissions and solar irradiance
+    based on satellite data from the 1980s onward.
+More Notes:
+  2: The paper is a review article published in Renewable and Sustainable Energy Reviews.
+  4: Discusses the influence of solar irradiance on various PV cell performance characteristics.
+  5: "The paper mentions that spectral distribution, as reflected in APE, is often\
+    \ overlooked in PV modules\u2019 performance assessment."
+  6: The paper presents figures showing the relationship between irradiance and solar
+    cell parameters (short-circuit current density, open-circuit voltage, efficiency,
+    performance ratio, series resistance, shunt resistance), and spectral irradiance
+    with different average photon energy (APE) values.
+  8: All PV systems experience performance degradation accelerated by increased temperatures;
+    NOCT provides a more realistic assessment of module operating temperatures.
+  10: The choice of cleaning method depends on dust particle size.
+  11: Relevance to climate impacts through emphasis on solar PV efficiency under environmental
+    conditions.
+  15: Implications for power grid management in high PV capacity regions during eclipse
+    events are highlighted.
+Quantitative material:
+  2: "Raising module temperature reduces efficiency by 0.4\u20130.5 % per degree Celsius.\
+    \ Atmospheric conditions can reduce electricity output by up to 60 %."
+  3: Global installed solar PV capacity exceeded 1000 GW in 2023, growing by over
+    20% annually.
+  4: "Solar cell efficiency initially rises, plateauing around 600 W/m2 before declining\
+    \ slightly up to 1000 W/m2. The performance ratio falls by 7\u20139% at 150 W/m2."
+  5: "PV modules convert 6\u201320% of incident sunlight into electricity."
+  6: Real-world power delivery can deviate by up to 10 %.
+  7: Includes temperature coefficients for power, open-circuit voltage, and short-circuit
+    current for various solar modules.
+  8: "CdTe technology typically has a temperature coefficient of -0.24% to -0.26%\
+    \ per \xB0K; c-Si panels have coefficients ranging from -0.425% to -0.470% per\
+    \ \xB0K; Thin Film technology coefficients vary between -0.27% to -0.40% per \xB0\
+    K."
+  10: "Cleaning can increase PV capacity factors by 50\u2013100 % even if only performed\
+    \ quarterly."
+  11: Self-cleaning coatings can achieve a cleaning efficiency of 72% and wave motion
+    can remove 80% of dust in 2 minutes.
+  14: The 2017 solar eclipse reduced solar power generation in Texas from 7.2 GW to
+    1.5 GW within 40 minutes before recovering to 5.9 GW in the next 40 minutes, demonstrating
+    ramp rates of -8.5 and +6.7 GW per hour.
+  15: An example is given with capacity factor changes during an April 2023 eclipse
+    in Western Australia and a 2017 eclipse in the U.S., with a slight detail about
+    the timeline and observed variations.
+  16: Global decrease in aerosol loading linked to a rise in solar irradiance of 0.1%
+    per year from 1983 to 2001.
+sourcematerial:
+  2: "The global expansion of solar photovoltaics (PV) is central to the global energy\
+    \ transition. This review examines six key influences: solar irradiance, ambient\
+    \ temperature, atmospheric conditions, terrain effects, extreme weather events,\
+    \ and long-term irradiance changes. First, solar irradiance has strong geographic\
+    \ and temporal variability, making it the most significant factor. Second, raising\
+    \ module temperature reduces efficiency by 0.4\u20130.5 % per degree Celsius,\
+    \ limiting productivity in hotter climates. Third, atmospheric conditions (clouds,\
+    \ aerosols, pollutants, and dust) can reduce electricity output by up to 60 %,\
+    \ especially in desert regions. Fourth, terrain factors like albedo and snow present\
+    \ mixed effects, with increased reflection boosting output but snow obstructing\
+    \ panels. Fifth, extreme weather like wildfires and hailstorms cause substantial\
+    \ damage, while solar eclipses lead to large but short-lived output losses. Finally,\
+    \ long-term changes in solar irradiance, driven by climate change and air pollutants,\
+    \ present future challenges for maintaining PV efficiency. Optimizing PV systems\
+    \ for diverse climates and mitigating environmental impacts on productivity is\
+    \ important to the continued success of solar photovoltaics. This review highlights\
+    \ the need for tailored strategies to maintain performance in varied and evolving\
+    \ environmental contexts."
+  3: null
+  4: "Source material here.\nEvaluation overview: Solar irradiance [34] directly impacts\
+    \ electricity output from PV modules, varying with time, location, climate, season,\
+    \ and topography [35]. It affects PV cell performance characteristics, including\
+    \ open-circuit voltage, short-circuit current, cell temperature, and efficiency\
+    \ [28].\nDrivers of Risk: Both measures are important to PV system performance,\
+    \ as fixed-tilt systems mainly depend on GHI [24], whereas tracking systems benefit\
+    \ more from DNI [25]. The solar zenith angle (the angle between the sun and the\
+    \ vertical) has the strongest influence irradiance levels [26].\nQuantitative\
+    \ material: Solar cell efficiency initially rises, plateauing around 600 W/m2\
+    \ before declining slightly up to 1000 W/m2. The performance ratio (normalised\
+    \ efficiency) is relatively constant across all types of solar cell above 400\
+    \ W/m2 but falls by 7\u20139% at 150 W/m2 [40].\nMethodology: Several works have\
+    \ studied the effects of solar irradiance intensity on PV module performance [39,40].\
+    \ Fig. 5 shows the solar module\u2019s current-voltage (I-V) and power-voltage\
+    \ (P-V) curves as a function of irradiance.\nHighlights: Solar irradiance [34]\
+    \ directly impacts electricity output from PV modules, varying with time, location,\
+    \ climate, season, and topography [35]. Higher irradiance can impair performance,\
+    \ especially in hotter climates (see Section 3) [37]. Irradiance has a linear\
+    \ effect on current and log-linear effect on voltage.\nMore Notes: Solar cell\
+    \ efficiency initially rises, plateauing around 600 W/m2 before declining slightly\
+    \ up to 1000 W/m2. The performance ratio (normalised efficiency) is relatively\
+    \ constant across all types of solar cell above 400 W/m2 but falls by 7\u2013\
+    9% at 150 W/m2 [40]. Series resistance increases with falling irradiance, but\
+    \ the absolute power loss from this is lessened by the current also being lower.\n"
+  5: "Source material\nPV modules are sensitive to the spectral distribution of solar\
+    \ irradiance [42]. The Average Photon Energy (APE) metric assesses the effect\
+    \ of solar spectrum distribution on outdoor PV module performance [42]. ... APE\
+    \ incorporates environmental factors like air mass, cloud cover, and water content\
+    \ [44]. ... This heating effect means cell temperatures correlate more strongly\
+    \ with irradiation than ambient air temperature [65,66], although higher ambient\
+    \ temperatures hinder cooling and thus increase cell temperatures. A typical PV\
+    \ module converts 6\u201320 % of incident sunlight into electricity [63], and\
+    \ incoming solar irradiance that is not converted or reflected generates heat,\
+    \ increasing the PV module\u2019s temperature [64]. The Average Photon Energy\
+    \ (APE) metric assesses the effect of solar spectrum distribution on outdoor PV\
+    \ module performance [42]. ... APE incorporates environmental factors like air\
+    \ mass, cloud cover, and water content [44]. PV modules are sensitive to the spectral\
+    \ distribution of solar irradiance [42]. ... Blue-rich spectra improve the performance\
+    \ of hydrogenated amorphous silicon (a-Si:H) ... but negatively affect copper\
+    \ indium gallium selenide sulphide (CIGS) modules [49]. ... Module operating temperature\
+    \ is determined by the balance of heat generation and heat loss to the environment.\
+    \ Despite its importance, spectral distribution, as reflected in APE, is often\
+    \ overlooked in PV modules\u2019 performance assessment [59,60].\n"
+  6: "\nEvaluation overview: 'Solar insolation and ambient air temperature are the\
+    \ two main environmental factors affecting solar PV output [71].'\nDrivers of\
+    \ Risk: 'Solar insolation and ambient air temperature are the two main environmental\
+    \ factors affecting solar PV output [71]. Furthermore, solar modules at high temperature\
+    \ experience more rapid degradation and lower lifetimes [69,70].'\nQuantitative\
+    \ material: 'Real-world power delivery can deviate by up to 10 %.'\nHighlights:\
+    \ 'Whereas irradiance has a stronger effect on current, temperature predominantly\
+    \ affects voltage. Furthermore, solar modules at high temperature experience more\
+    \ rapid degradation and lower lifetimes [69,70].'\nMore Notes: 'Fig. 6. Relationships\
+    \ between irradiance and various operating parameters of solar cells [40]. (a)\
+    \ shows the linear relationship for short-circuit current density, (b) shows the\
+    \ logarithmic relationship for open-circuit voltage, (c) and (d) show the relationship\
+    \ with efficiency and performance ratio. (e) shows series resistance (Rs) and\
+    \ (f) shows shunt resistance (Rsh), which decrease with irradiance [40]. Lines\
+    \ refer to a standard reference B-doped silicon crystal (Ref.), and compensated\
+    \ silicon crystals created with electronic grade silicon doped with boron (C1)\
+    \ and phosphorus (C2). Fig. 7. Spectral irradiance with different APE values.\
+    \ Spectral irradiances in two wavelength bands with varying APE values: 350\u2013\
+    1050 nm and 300\u20131300 nm. Total irradiances in these wavelength ranges were\
+    \ 792 and 923 W/m2. APE: Average Photon Energy [47].'\n"
+  7: "  \n\"The I-V and P-V characteristics in Fig. 9 demonstrate a slight increase\
+    \ in short-circuit current and a large decrease in open-circuit voltage as temperature\
+    \ rises, reducing power output and thus efficiency.\"  \n\n\"...power output decreases\
+    \ near-linearly with temperature...\"\n\n\"Summary of the temperature coefficients\
+    \ from 21,000 commercially-available solar PV modules, aggregated by cell technology.\"\
+    \n\n\"Temperature Coefficient of Power (% per \xB0K)...CdTe: Shows a range with\
+    \ the median slightly below 0%...CIGS: Wider spread with a median around -0.4%...Mono-Si:\
+    \ Narrower spread; median approximately -0.4%...Multi-Si: Similar to Mono-Si but\
+    \ slightly higher median...Thin Film: Broad spread with a higher median.\"\n\n\
+    \"The image displays two line graphs representing the electrical performance of\
+    \ a system, likely a photovoltaic module, at different temperatures.\"\n"
+  8: null
+  10: "markdown\nDust accumulation on PV systems in desert regions. Evidence: \"Cleaning\
+    \ is a major operating expense in desert regions [133]...\"\n\nCleaning can increase\
+    \ PV capacity factors by 50\u2013100 % even if only performed quarterly. Evidence:\
+    \ \"Cleaning is a major operating expense ... but can increase PV capacity factors\
+    \ by 50\u2013100 % even if only performed quarterly [92].\"\n\nClassification\
+    \ of cleaning methods into mechanical, self-cleaning, electrostatic, and natural.\
+    \ Evidence: \"Cleaning methods can be classified under four broad categories ...\
+    \ (i) mechanical, (ii) self-cleaning, (iii) electrostatic, and (iv) natural.\"\
+    \n\nCleaning is a major operating expense in desert regions, but can significantly\
+    \ increase PV capacity. Evidence: \"Cleaning is a major operating expense ...\
+    \ but can increase PV capacity factors...\"\n\nThe choice of cleaning method depends\
+    \ on dust particle size. Evidence: \"...the choice of cleaning method depends\
+    \ on dust particle size [127].\"\n"
+  11: null
+  12: " \nWind affects PV efficiency through cooling, soiling, and structural risk,\
+    \ with complex interactions occurring between wind and PV systems. Wind increases\
+    \ efficiency by cooling modules, especially during peak sunlight hours [168,169],\
+    \ and reduces soiling by blowing away accumulation of dust and snow [131,170].\
+    \ However, wind can also deposit dust or snow [118, 134], and keeps particles\
+    \ airborne, causing light scattering [170]. Extreme winds conditions can compromise\
+    \ structural security [171,172], requiring adequate design margins.\n"
+  13: "Global warming is reducing the Earth\u2019s albedo, as ice melt replaces reflective\
+    \ surfaces with darker sea or land surface, meaning less incoming irradiance is\
+    \ reflected, thus contributing further to global warming [179].\n\nIn Michigan,\
+    \ US increased annual energy loss from 5 % to 34 % due to snow coverage [199].\
+    \ For obstructed systems, yearly energy losses remain at 30\u201334 %, regardless\
+    \ of tilt angle [199].\n\nThe increased reflection from higher albedo surfaces\
+    \ increases the insolation incident on solar modules, leading to increased energy\
+    \ generation [186].\n\nModule tilt is the most influential factor in determining\
+    \ energy loss due to snow cover [197,198]. Reducing module tilt from 40\u25E6\
+    to 30\u25E6in Utah, US (a high snowfall area) increased daily output losses by\
+    \ 6\u201319 % [197], and reducing module tilt from 45\u25E6to 0\u25E6(lying horizontally)\
+    \ in Michigan, US increased annual energy loss from 5 % to 34 % due to snow coverage.\n\
+    \nIn California, the extreme wildfires in September 2020 reduced solar energy\
+    \ production by 30 % [212].\n\nSmoke from Canadian wildfires in June 2023 reduced\
+    \ solar generation by up to 60 % in New England [213], and by 25 % in Mid-Atlantic\
+    \ and Midwestern states [214].\n\nNew York was particularly affected, losing ~1.5\
+    \ GW of solar production between 6 June and 7 June 2023 [214].\n\nEnergy losses\
+    \ from snow cover in Munich, Germany amount to 0.3\u20132.7 % [196], whereas in\
+    \ Russia losses exceed 40 % with 4 mm thick snow coverage [192].\n\nClimate change\
+    \ is increasing the severity of hailstorms and expanding the areas of the world\
+    \ affected [216\u2013218].\n\nWildfires produce large quantities of aerosols that\
+    \ reduce solar PV performance by blocking sunlight.\n\nSnowfall significantly\
+    \ affects solar PV modules, especially in regions with extended periods of snow\
+    \ coverage including Canada, Russia, and northern US states. Snow cover has complex\
+    \ effects on PV generation due to the interaction of snow lying on the modules\
+    \ and reflected light from surrounding snow-covered surfaces [190]."
+  14: null
+  15: 'yaml
+
+    "Evaluation overview": "This caused significant impacts as Western Australia has
+    a high share of rooftop solar PV systems, and no grid connections to other markets
+    [239]. The impact on state-wide capacity factors is shown in Fig. 21 alongside
+    the impact of the 2017 US eclipse."
+
+    "Drivers of Risk": "Climate change will affect many of the factors that reduce
+    solar PV performance, including increasing humidity and frequency of wildfires
+    and hailstorms as discussed in the previous sections."
+
+    "Quantitative material": "The impact on state-wide capacity factors is shown in
+    Fig. 21, alongside the impact of the 2017 US eclipse."
+
+    "Methodology": "Fig. 21. Average capacity factor of PV systems during total solar
+    eclipses compared to their surrounding days in (a) Western Australia and (b) the
+    United States. (a) shows state-wide capacity factors measured with 5-min resolution,
+    aggregated across Western Australia. Data from APVI [242]. (b) shows the region-wide
+    capacity factors measured with 1-h resolution, aggregated across Central Midwest
+    states in yellow (Kansas, Missouri, Iowa, Illinois, and Indiana) and South-eastern
+    states in orange (Kentucky, Tennessee, North Carolina, South Carolina, and Georgia)."
+
+    "Highlights": "Should a similar occurrence transpire in regions with more concentrated
+    PV capacity, such as California (42 GW installed) [240], or Japan (83 GW installed)
+    [5], the impact on power system operations could be difficult to manage."
+
+    "More Notes": "The next major eclipses that will affect solar PV production will
+    be in Spain on 12 August 2026, Chile and Argentina on 6 February 2027, North Africa
+    and Middle East countries on 2 August 2027, Indonesia and Australia on 22 July
+    2028, and Northern China on 1 June 2030 [241]."
+
+    '
+  16: 'yaml
+
+    Evaluation overview: "This review examined the many environmental factors that
+    influence solar PV performance."
+
+    Drivers of Risk: "solar irradiance, temperature, cloud cover, dust and pollutants,
+    snow cover, albedo, and extreme weather events."
+
+    Quantitative material: "The global decrease in aerosol loading, particularly SO2
+    and black carbon emissions falling 0.13 %/yr, has been linked to the rise in solar
+    irradiance of 0.1 %/yr from 1983 to 2001 [265]."
+
+    Methodology: "Since the advent of the satellite era in the 1980s, more accurate
+    aerosol concentration records have clarified the relationship between aerosol
+    load and the observed increase in solar irradiance since the late 20th century
+    [264]."
+
+    Highlights: "This more direct evidence strongly indicates that aerosol load driving
+    the decadal changes in solar irradiance, and so efforts to improve air quality
+    such as reducing the SO2 limit on shipping fuel [271] will likely improve solar
+    PV capacity factors in future [264]."
+
+    '

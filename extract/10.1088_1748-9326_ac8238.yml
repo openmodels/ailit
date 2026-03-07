@@ -1,0 +1,139 @@
+Drivers of Risk:
+  2: Increase in greenhouse gas concentrations resulting in radiative forcing
+  3: Radiative forcing F resulting from greenhouse gases, aerosols, ozone precursors,
+    land use change, and other anthropogenic influences
+  5: The temperature-dependent feedback model suggests a dampening nonlinearity in
+    the climate system, potentially underestimating future warming. Radiative forcing
+    and climate feedbacks are also drivers.
+  6: Drivers of risk include temperature changes and associated climate feedback mechanisms
+    under different socioeconomic pathways.
+Evaluation overview:
+  2: No relevant information
+  3: No relevant information
+  5: The paper evaluates temperature projections and economic damages resulting from
+    climate change.
+  6: The paper focuses on economic damages projected under various socioeconomic pathways
+    and how structural uncertainty impacts these projections.
+  7: Structural uncertainty in reduced complexity climate models is evaluated for
+    its impact on physical and socioeconomic projections.
+Highlights:
+  2: Structural uncertainty in climate projections is significant and dominates over
+    parametric uncertainty and overall non-socioeconomic uncertainty in economic projections
+    of climate change damages
+  3: Physical structural uncertainty is substantial in climate economics calculations
+    and climate projections, potentially underestimating reported uncertainties.
+  4: The analysis delineates parametric uncertainty for each model structure and structural
+    uncertainty over all predicted outcomes.
+  5: "Structural uncertainty is dominant for temperature projections under SSP4-6.0\
+    \ and SSP3-7.0. The sign of \u03BBT is well-constrained as positive, indicating\
+    \ a dampening nonlinearity. Historical T observations are consistent with high-radiative\
+    \ forcing and high-feedback parameter sets."
+  6: Structural uncertainty is a significant factor in climate and economic projections,
+    even with simple climate models.
+  7: Structural uncertainty plays an important role in reduced complexity climate
+    models' total uncertainty, which must be accounted for in physical projections,
+    especially socioeconomic projections.
+Methodology:
+  2: Bayesian approach to quantify structural uncertainty using energy-balance model
+    representations
+  3: Quantifies structural uncertainty in a simple Energy Balance Model (EBM) using
+    a computational Bayesian approach involving model specification, prior distributions,
+    likelihood computations based on observations, and posterior distribution sampling
+    for probabilistic projections.
+  4: The importance of structural uncertainty is quantified by comparing the interquartile
+    range of multi-model projections to those of the preferred model structure.
+  5: The paper uses a statistical model to analyze climate feedbacks and projects
+    future temperatures and economic damages. It considers different model structures
+    and quantifies structural uncertainty. The analysis uses shared socioeconomic
+    pathways (SSP4-6.0 and SSP3-7.0).
+  6: The analysis uses a single-equation energy-balance model to evaluate structural
+    uncertainty and its impact on economic and physical climate projections.
+  7: The study considers single nonlinear terms at a time, exploring the sensitivity
+    of model selection to changes in paleo-periods considered. It uses publicly available
+    data from cited sources and the code is available on GitHub.
+More Notes:
+  2: Structural uncertainty is crucial to consider in integrated assessment models
+    and climate projections
+  3: The approach is generalisable to climate models with additional complexity.
+  7: The authors suggest considering mixtures or combinations of nonlinearities, or
+    a nonlinear term that accounts for the pattern effect.
+Quantitative material:
+  2: No relevant information
+  3: Structural uncertainty is much larger than parametric uncertainty for projections
+    of T
+  5: "p(\xB5 = 4) = 0.45, p(\u03BD > 0|\xB5 = 4) = 0.98, u(T(2100)) = 2.0 (SSP4-6.0),\
+    \ u(T(2300)) = 2.7 (SSP4-6.0), u(T(2100)) = 2.3 (SSP3-7.0), u(T(2300)) = 4.1 (SSP3-7.0)"
+  6: "The paper provides quantitative economic damage projections in trillions of\
+    \ 2019 USD over the period 2020\u20132300 with various discount rates."
+sourcematerial:
+  2: "Climateprojectionsareuncertain;thisuncertaintyiscostlyandimpedesprogressonclimate\n\
+    policy.Thisuncertaintyisprimarilyparametric(whatnumbersdoweplugintoourequations?),\n\
+    structural(whatequationsdoweuseinthefirstplace?),andduetointernalvariability(natural\n\
+    variabilityintrinsictotheclimatesystem).Theformerandlatterarestraightforwardto\n\
+    characteriseinprinciple,thoughmaybecomputationallyintensiveforcomplexclimatemodels.\n\
+    Thesecondismorechallengingtocharacteriseandisthereforeoftenignored.Wedevelopeda\n\
+    Bayesianapproachtoquantifystructuraluncertaintyinclimateprojections,usingtheidealised\n\
+    energy-balancemodelrepresentationsofclimatephysicsthatunderpinmanyeconomists\u2019\
+    \nintegratedassessmentmodels(IAMs)(andthereforetheirpolicyrecommendations)....\n\
+    increase the concentration of  greenhouse  gases  in  the  atmosphere,  resulting\n\
+    in radiative forcing    F  (Wm\u2212    2) on the Earth sys-\ntem....\nMoreover,modelsotherthanthemostlikelyonecontainamajorityoftheposteriorprobability,indicatingthatstructuraluncertaintyisimportantforclimate\n\
+    projections.Indeed,inprojectionsusingsharedsocioeconomicpathwayssimilartocurrent\n\
+    emissionsreductionstargets,structuraluncertaintydwarfsparametricuncertaintyintemperature.\n\
+    Consequently,structuraluncertaintydominatesoverallnon-socioeconomicuncertainty\n\
+    ineeconomicprojectionsofclimatechangedamages,...\nThese results indicate that\
+    \ considering structural\nuncertainty is crucial for IAMs in particular, and for\
+    \ climate projections in general.\n"
+  3: null
+  4: null
+  5: " \nFigure 1 shows the posterior for \xB5 and the posteriors of the associated\
+    \ nonlinear parameters resulting from the analysis above... temperature-dependent\
+    \ feedback model (i.e. \xB5 = 4) has more probability mass... p(\xB5 = 4) = 0.45...\
+    \ the sign of \u03BBT... is well-constrained as positive, i.e. p(\u03BD > 0|\xB5\
+    \ = 4) = 0.98... dampening nonlinearity... warmer the Earth gets, more radiative\
+    \ forcing is required to warm it... temperature projections under shared socioeconomic\
+    \ pathway SSP4-6.0; in this case u(T(2100)) = 2.0 and u(T(2300)) = 2.7, indicating\
+    \ that structural uncertainty is far larger than parametric uncertainty... even\
+    \ more pronounced for SSP3-7.0... u(T(2100)) = 2.3 and u(T(2300)) = 4.1... interquartile\
+    \ range of damage calculations using the approach and default assumptions from\
+    \ [10].\n... This dampening nonlinearity is likely due to a pattern effect...\
+    \ robust feature of the climate system... historical T observations are more consistent\
+    \ with a high-radiative forcing and corresponding high-feedback parameter set...\
+    \ \n55% of the posterior mass is in the remaining models, i.e. p(\xB5 \u2260 4)\
+    \ = 0.55... importance of structural uncertainty... indeed structural uncertainty\
+    \ is dominant for temperature projections... methods proposed in this work would\
+    \ be of significant value in achieving more robust assessments of the structural\
+    \ uncertainty... The primacy of structural uncertainty in temperature projections\
+    \ propagates into economic damages resulting from climate change as well... indicates\
+    \ an important role for structural uncertainty...\n"
+  6: "Environ. Res. Lett.17(2022)084025 BBCael etal Figure3.Top: median (squares)\
+    \ and interquartile range (errorbars) of damages projected under the socioeconomic\
+    \ pathways SSP4-6.0 and SSP3-7.0 for the temperature-dependent feedback model\
+    \ and the multi-model ensemble, in trillions of 2019USD. Damages are calculated\
+    \ over the period 2020\u20132300, with the default 4.255% discount rate and Weitzman\
+    \ damage function [25] from [10]. Bottom: u (i.e. ratio of structural vs. parametric\
+    \ uncertainty) for economic damages using different damage functions (shape),\
+    \ shared socioeconomic pathways (color), and discount rates (un/filled points),\
+    \ versus the corresponding ratio of median multi-model versus \u03BBT model damage\
+    \ estimates. u>1 in all cases, as shown by the dashed black line for u= 1. These\
+    \ results demonstrate the importance of characterising structural uncertainty\
+    \ for physical and economic projections of climate. While we have focused on arguably\
+    \ the simplest representation of climate physics, even this single-equation energy-balance\
+    \ model is used in a variety of applications for which structural uncertainty\
+    \ has real physical and economic consequences."
+  7: "yaml\n\"Evaluation overview\": \"that structural uncertainty plays an important\
+    \ role in reduced complexity climate models\u2019 total uncertainty, which must\
+    \ be accounted for in their physical projections,and especially in the socioeconomic\
+    \ projections that use such simple representations of climatephysics.\"\n\"Methodology\"\
+    : \"We have also only considered a single nonlinear term at a time; it may also\
+    \ be fruitful to consider mixtures or combinations of these nonlinearities, or\
+    \ a nonlinear term that accounts for the pattern effect by having a \u03BB term\
+    \ that first increases and then correspondingly decreases. In any case, we have\
+    \ shown here All data used here are publicly available at the sources cited in\
+    \ the text. Code is available at github. com/bbcael.\"\n\"Highlights\": \"that\
+    \ structural uncertainty plays an important role in reduced complexity climate\
+    \ models\u2019 total uncertainty, which must be accounted for in physical projections,\
+    \ especially socioeconomic projections that use such simple representations of\
+    \ climate physics.\"\n\"More Notes\": \"it may also be fruitful to consider mixtures\
+    \ or combinations of these nonlinearities, or a nonlinear term that accounts for\
+    \ the pattern effect by having a \u03BB term that first increases and then correspondingly\
+    \ decreases.\"\n"

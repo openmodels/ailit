@@ -1,0 +1,337 @@
+Drivers of Risk:
+  2: Environmental factors such as solar irradiance variability, higher module temperatures,
+    atmospheric conditions, terrain effects, extreme weather events, and long-term
+    irradiance changes are identified as significant influencers of PV productivity.
+  3: Shocks or changes impacting outcomes include varying solar irradiance, ambient
+    air temperature, atmospheric conditions, terrain effects, extreme events, and
+    long-term changes.
+  4: Solar irradiance directly impacts electricity output from PV modules, varying
+    with time, location, climate, season, and topography.
+  5: Spectral distribution of solar irradiance impacts PV module performance, influenced
+    by environmental factors like air mass, cloud cover, and water content, with higher
+    Average Photon Energy (APE) indicating a blue-shift and lower values a red-shift.
+  6: Solar insolation and ambient air temperature are the two main environmental factors
+    affecting solar PV output.
+  7: Temperature elevation at the module surface.
+  8: Increased module temperatures and elevated cell temperatures impact PV efficiency
+    and accelerate degradation.
+  9: Atmospheric aerosols and dust deposition impact solar PV efficiency by scattering
+    and absorbing sunlight.
+  10: Aerosol levels are indicated to be higher particularly over parts of Africa,
+    the Middle East, and South Asia, with notable regions such as the Sahara Desert,
+    northern India, and eastern China, impacting aridity and dust emissions.
+  11: Factors impacting dust accumulation on solar PV modules, such as location, installation,
+    dust type, and environmental factors. Humidity's effect on solar PV includes reduced
+    light intensity and cell degradation.
+  12: Wind impacts the efficiency and structural integrity of PV systems by cooling
+    modules and potentially depositing or clearing dust and snow.
+  13: Snow cover, wildfires, hailstorms.
+  15: The primary driver of risk is the occurrence of solar eclipses, which temporarily
+    reduce solar irradiance, impacting solar PV productivity.
+  16: Aerosol load, temperature, dust accumulation, cloud formation, and extreme weather
+    impact solar PV efficiency.
+  19: Dust accumulation and deposition on solar panels are identified as factors negatively
+    impacting solar PV system performance.
+Evaluation overview:
+  2: The paper provides an overview of factors affecting solar photovoltaic (PV) output,
+    focusing on environmental impacts on PV productivity.
+  3: The paper provides an overview of environmental factors affecting solar PV performance
+    and the implications for future solar PV output.
+  4: No relevant information
+  5: No relevant information
+  6: No relevant information
+  7: Power output and efficiency of various solar cell technologies.
+  8: The paper evaluates the impact of temperature on photovoltaic (PV) module efficiency
+    and performance degradation over time.
+  9: No relevant information
+  11: The impact of dust accumulation on PV module performance, particularly in terms
+    of power loss due to dust and humidity.
+  13: The performance and energy generation of solar PV systems.
+  15: The paper evaluates the impacts of solar eclipses on solar PV capacity factors,
+    specifically analyzing the events in Western Australia in 2023 and the US in 2017.
+  16: Focuses on environmental factors affecting solar PV performance, such as solar
+    irradiance, temperature, cloud cover, dust, pollutants, snow cover, albedo, and
+    extreme weather.
+  19: The paper discusses the impact of dust on the efficiency and performance of
+    solar photovoltaic systems.
+Highlights:
+  2: Key influences on PV output include solar irradiance, module temperature, atmospheric
+    conditions, terrain effects, extreme weather, and long-term irradiance changes,
+    highlighting the need for tailored strategies to maintain PV performance.
+  3: Key findings include the centrality of solar PV in the global electricity transition
+    and the impacts of environmental factors on power production.
+  4: Increased solar irradiance reduces parasitic resistance losses. Irradiance has
+    a linear effect on current and log-linear effect on voltage.
+  5: Thin-film PV systems are particularly sensitive to daily and seasonal changes
+    in spectral distribution.
+  6: Irradiance has a stronger effect on current, temperature predominantly affects
+    voltage. Solar modules at high temperature experience more rapid degradation and
+    lower lifetimes.
+  7: Temperature has a stronger effect on open-circuit voltage than on short-circuit
+    current. Power output decreases nearly linearly with temperature.
+  8: "PV module efficiency decreases with higher temperatures and degradation rate\
+    \ doubles for every 10\xB0C increase."
+  9: Dust and atmospheric aerosols are significant factors affecting solar PV efficiency,
+    reducing power generation.
+  10: The global distribution of aerosol levels from 2019 to 2023 is depicted, showing
+    higher concentrations in specific regions that could contribute to dust emissions
+    and aridity.
+  11: Electrostatic cleaning provides dust removal without water or labor; humidity
+    lowers light intensity but can improve module efficiency by lowering temperature.
+  12: Wind can increase PV module efficiency by cooling and reduce soiling by blowing
+    away dust and snow, but extreme winds can compromise structural security.
+  13: Snow cover reduces solar PV performance, with the extent of reduction varying
+    by region and module tilt. Wildfires reduce solar PV performance by blocking sunlight
+    with aerosols. Climate change is increasing the frequency/scale of wildfires and
+    severity of hailstorms.
+  15: Solar eclipses significantly affect regions with high solar PV capacity, such
+    as Western Australia, where capacity factors dropped during the eclipse.
+  16: Higher temperatures reduce PV efficiency and dust accumulation can significantly
+    affect efficiency in desert regions.
+  19: The accumulation of dust on PV panels reduces their efficiency and energy output.
+Methodology:
+  3: The review synthesizes current knowledge on environmental factors affecting solar
+    PV, exploring technologies and strategies to mitigate adverse effects.
+  4: Parameters are measured using the STC and PTC standards (in the context of Figure
+    2).
+  5: The Average Photon Energy (APE) metric assesses the effect of solar spectrum
+    distribution on outdoor PV module performance; it is the ratio of integrated irradiance
+    to photon flux density.
+  6: No relevant information
+  7: Analysis of commercially available solar PV modules (n=21,000) using data from
+    the CEC database [17] to determine temperature coefficients. The statistical analysis
+    includes median, interquartile range, and 5th/95th percentiles.
+  8: The paper discusses standard temperature coefficients and the Nominal Operating
+    Cell Temperature (NOCT) as a measure of cell temperature under specific conditions.
+  9: No relevant information
+  11: Cleaning techniques for mitigating dust accumulation include electrostatic,
+    mechanical, natural, and self-cleaning methods. Effects of humidity on PV output
+    are specifically analyzed.
+  13: Observational studies and analysis of existing PV systems. Applicability is
+    regional, based on climate and environmental factors like snow cover, wildfire
+    risk, and hail frequency.
+More Notes:
+  4: "The Earth\u2019s elliptical orbit around the sun also causes minor annual fluctuations\
+    \ in solar insolation."
+  5: Cell temperatures correlate more strongly with irradiation than ambient air temperature,
+    although higher ambient temperatures hinder cooling.
+  6: "Fig. 6 shows the relationship between irradiance and various operating parameters\
+    \ of solar cells, including short-circuit current density, open-circuit voltage,\
+    \ efficiency, performance ratio, series resistance, and shunt resistance. Fig.\
+    \ 7 shows spectral irradiance with different Average Photon Energy (APE) values\
+    \ in two wavelength bands: 350\u20131050 nm and 300\u20131300 nm."
+  7: The paper focuses on the impact of temperature on solar cell performance, a key
+    factor influencing renewable energy generation under changing climate conditions.
+  9: These effects are location-dependent, highlighting variations in risk based on
+    environmental conditions and proximity to dust sources.
+Quantitative Material:
+  9: Aerosols can reduce PV capacity factors by up to 20% and dust deposition can
+    reduce power output by up to 60% in desert regions.
+Quantitative material:
+  2: "The efficiency of PV modules reduces by 0.4\u20130.5% per degree Celsius increase\
+    \ in temperature; atmospheric conditions can reduce electricity output by up to\
+    \ 60%, especially in desert regions."
+  3: Global installed solar capacity exceeded 1000 GW in 2023, with solar PV accounting
+    for 5.5% of global electricity generation in 2023.
+  4: Solar cell efficiency initially rises, plateauing around 600 W/m2 before declining
+    slightly up to 1000 W/m2.
+  5: "PV modules convert 6\u201320% of incident sunlight into electricity."
+  6: Real-world power delivery can deviate by up to 10 %
+  7: Temperature coefficients for maximum power production, open-circuit voltage,
+    and short-circuit current for CdTe, CIGS, Mono-cSi, Multi-cSi, and Thin film solar
+    modules are summarized in Figure 10.
+  8: "Commercial c-Si cells experience a 0.45% efficiency drop per \xB0C rise in temperature;\
+    \ a-Si cells have a 0.25% drop; CdTe has a temperature coefficient of -0.24% to\
+    \ -0.26% per \xB0K."
+  10: The map of aerosol optical thickness includes a color bar representing percentage
+    ranges from 10% to 70% for aerosol optical thickness over various regions.
+  11: Electrostatic cleaning can reduce power loss in PV modules from 5.9% to 4.6%.
+    Transparent self-cleaning dust shields remove 90% of dust in under 30 minutes.
+  13: In Michigan, US increased annual energy loss from 5 % to 34 % due to snow coverage.
+  15: Graphs show capacity factors with specific reductions during eclipse dates,
+    illustrating decreases in solar PV performance.
+  16: "Decreasing solar PV efficiency by 0.4\u20130.5% per 1\xB0C temperature increase\
+    \ and up to 60% efficiency reduction due to dust in desert regions."
+sourcematerial:
+  2: "Source material here: \"This review examines six key influences: solar irradiance,\
+    \ ambient temperature, atmospheric conditions, terrain effects, extreme weather\
+    \ events, and long-term irradiance changes...Optimizing PV systems for diverse\
+    \ climates and mitigating environmental impacts on productivity is important to\
+    \ the continued success of solar photovoltaics. First, solar irradiance has strong\
+    \ geographic and temporal variability, making it the most significant factor.\
+    \ Second, raising module temperature reduces efficiency by 0.4\u20130.5 % per\
+    \ degree Celsius, limiting productivity in hotter climates. Third, atmospheric\
+    \ conditions (clouds, aerosols, pollutants, and dust) can reduce electricity output\
+    \ by up to 60 %, especially in desert regions. Fourth, terrain factors like albedo\
+    \ and snow present mixed effects, with increased reflection boosting output but\
+    \ snow obstructing panels. Fifth, extreme weather like wildfires and hailstorms\
+    \ cause substantial damage, while solar eclipses lead to large but short-lived\
+    \ output losses. Finally, long-term changes in solar irradiance, driven by climate\
+    \ change and air pollutants, present future challenges for maintaining PV efficiency.\
+    \ This review highlights the need for tailored strategies to maintain performance\
+    \ in varied and evolving environmental contexts.\""
+  3: null
+  4: null
+  5: "Source material here.\n\"PV modules are sensitive to the spectral distribution\
+    \ of solar irradiance [42]. The Average Photon Energy (APE) metric assesses the\
+    \ effect of solar spectrum distribution on outdoor PV module performance [42].\
+    \ It represents the average energy of photons in the spectrum and is the ratio\
+    \ of integrated irradiance to photon flux density [43]. APE incorporates environmental\
+    \ factors like air mass, cloud cover, and water content [44]. APE values vary\
+    \ with location and season and indicate the spectral shift: higher values suggest\
+    \ a blue-shift, while lower values indicate a red-shift [45,46]. APE influences\
+    \ the open-circuit current even under constant solar irradiance [43]. Fig. 7 shows\
+    \ spectral irradiances with different APE values in three wavelength ranges [47].\"\
+    \n \n\"A typical PV module converts 6\u201320% of incident sunlight into electricity\
+    \ [63], and incoming solar irradiance that is not converted or reflected generates\
+    \ heat, increasing the PV module\u2019s temperature [64]. This heating effect\
+    \ means cell temperatures correlate more strongly with irradiation than ambient\
+    \ air temperature [65,66], although higher ambient temperatures hinder cooling\
+    \ and thus increase cell temperatures.\"\n \n\"Thin-film PV systems are particularly\
+    \ sensitive to daily and seasonal changes in spectral distribution [49,51]. Amorphous\
+    \ silicon (a-Si) cells, with narrow blue-rich absorption bands, are particularly\
+    \ affected [52, 53]. Seasonal variations have a large impact on a-Si cells [54],\
+    \ and crystalline silicon (c-Si), copper indium diselenide, gallium arsenide (GaAs),\
+    \ and cadmium telluride (CdTe) devices also show distinct spectral responses,\
+    \ making them more sensitive to fluctuations [55\u2013 58]. This sensitivity is\
+    \ more pronounced for a-Si and GaAs devices outside mid-latitudes [56]. Despite\
+    \ its importance, spectral distribution, as reflected in APE, is often overlooked\
+    \ in PV modules\u2019 performance assessment [59,60].\"\n"
+  6: 'yaml
+
+    Evaluation overview: No relevant information
+
+    Drivers of Risk: "Solar insolation and ambient air temperature are the two main
+    environmental factors affecting solar PV output."
+
+    Quantitative material: "Real-world power delivery can deviate by up to 10 %"
+
+    Methodology: No relevant information
+
+    Highlights: "Irradiance has a stronger effect on current, temperature predominantly
+    affects voltage. Solar modules at high temperature experience more rapid degradation
+    and lower lifetimes."
+
+    More Notes: "Fig. 6 shows the relationship between irradiance and various operating
+    parameters of solar cells. Fig. 7 shows spectral irradiance with different Average
+    Photon Energy (APE) values in two wavelength bands."
+
+    '
+  7: 'Source material here.
+
+    1. Evaluation overview: "which routinely exceeds standard test conditions (STC)."
+
+    2. Drivers of Risk: "from rated capacity due to temperature elevation at the module
+    surface,"
+
+    3. Quantitative material: "Fig. 10. Summary of the temperature coefficients from
+    21,000 commercially-available solar PV modules, aggregated by cell technology."
+
+    4. Methodology: "Data from the CEC database [17]. The thick line denotes the median
+    coefficient, the shaded area denotes the interquartile range, and whiskers extend
+    to the 5th and 95th percentiles."
+
+    5. Highlights: "temperature has a stronger effect on open-circuit voltage than
+    the increase in short-circuit current. (right) shows that power output decreases
+    near-linearly with temperature."
+
+    6. More Notes: "The impact of temperature on performance is evident, with lower
+    temperatures resulting in better electrical performance."
+
+    '
+  8: "plaintext\nSource material:\n- \"Commercial c-Si cells typically experience\
+    \ 0.45 % drop in efficiency per \u25E6C rise in temperature, compared to 0.25\
+    \ % per \u25E6C for a-Si.\"\n- \"Fig. 10 shows that CdTe technology typically\
+    \ has a temperature coefficient in the range of -0.24 % to -0.26 % per \u25E6\
+    K, meaning efficiency drops less than other technologies at high temperatures.\"\
+    \n- \"Elevated temperatures accelerate the degradation of PV cells and other system\
+    \ components... The degradation rate of PV modules approximately doubles for every\
+    \ 10 \u25E6C increase in operating temperature.\"\n- \"Fig. 11. The Nominal Operating\
+    \ Cell Temperature (NOCT) for commercially-available solar PV modules, aggregated\
+    \ by cell technology.\"\n- \"These coefficients are critical to understanding\
+    \ PV system performance in real-world applications, as operating temperatures\
+    \ vary widely between locations and over time, and temperature coefficients vary\
+    \ between technologies and specific manufacturer designs and products.\"\n"
+  9: "Source material here. Atmospheric aerosols scatter and absorb sunlight reducing\
+    \ the amount reaching the Earth\u2019s surface. ... Dust deposition is the third\
+    \ major factor that affects the efficiency of a PV module, after solar irradiance\
+    \ and temperature ..., Dust on the module surfaces reduces incoming irradiance\
+    \ by scattering or absorbing the incident sunlight. ... Atmospheric aerosols reduce\
+    \ PV capacity factors by up to 20 % dependent on world region ... Dust deposition\
+    \ can reduce power output by up to 60 % in desert regions. ... Dust and atmospheric\
+    \ aerosols are significant factors affecting solar PV efficiency, reducing power\
+    \ generation. ... Factors affecting dust deposition include environmental conditions\
+    \ (wind speed, proximity to dust sources, concentration of dust, and weather conditions)."
+  10: null
+  11: "Source material here.\n- \"dust ... reduced power loss from 5.9 % in naturally\
+    \ cleaned modules to 4.6 %\" \n- \"Transparent self-cleaning dust shields ...\
+    \ removing 90 % of dust in under 30 min\"\n- \"Factors impacting dust accumulation\
+    \ on solar PV modules\"\n- \"Humidity generally exhibits an inverse relationship\
+    \ with solar PV power output\"\n- \"Natural cleaning is ineffective in regions\
+    \ with limited rainfall and frequent dust storms\"\n- \"Electrostatic cleaning\
+    \ is suitable in regions facing water scarcity, offering swift removal of dust\
+    \ with less energy and no need for water and human intervention\"\n"
+  12: 'yaml
+
+    Drivers of Risk: "Wind increases efficiency by cooling modules, especially during
+    peak sunlight hours [168,169], and reduces soiling by blowing away accumulation
+    of dust and snow [131,170]. However, wind can also deposit dust or snow [118,
+    134], and keeps particles airborne, causing light scattering [170]. Extreme winds
+    conditions can compromise structural security [171,172], requiring adequate design
+    margins."
+
+    Highlights: "Wind increases efficiency by cooling modules, especially during peak
+    sunlight hours [168,169], and reduces soiling by blowing away accumulation of
+    dust and snow [131,170]. However, extreme winds conditions can compromise structural
+    security [171,172], requiring adequate design margins."
+
+    '
+  13: null
+  15: "  \nEvaluation overview: \"The impact on state-wide capacity factors is shown\
+    \ in Fig. 21, alongside the impact of the 2017 US eclipse.\"\nDrivers of Risk:\
+    \ \"Should a similar occurrence transpire in regions with more concentrated PV\
+    \ capacity, such as California (42 GW installed) or Japan (83 GW installed), the\
+    \ impact on power system operations could be difficult to manage.\"\nQuantitative\
+    \ material: \"Fig. 21. Average capacity factor of PV systems during total solar\
+    \ eclipses compared to their surrounding days in (a) Western Australia and (b)\
+    \ the United States.\"\nHighlights: \"This caused significant impacts as Western\
+    \ Australia has a high share of rooftop solar PV systems, and no grid connections\
+    \ to other markets.\"\n"
+  16: "  \n\"Evaluation overview: \"Focuses on environmental factors affecting solar\
+    \ PV performance, such as solar irradiance, temperature, cloud cover, dust, pollutants,\
+    \ snow cover, albedo, and extreme weather.\"\n- \"This review examined the many\
+    \ environmental factors that influence solar PV performance. The individual and\
+    \ combined effects of several key factors must be understood and mitigated to\
+    \ optimize PV output: solar irradiance, temperature, cloud cover, dust and pollutants,\
+    \ snow cover, albedo, and extreme weather events.\"\n\nDrivers of Risk: \"Aerosol\
+    \ load, temperature, dust accumulation, cloud formation, and extreme weather impact\
+    \ solar PV efficiency.\"\n- \"The individual and combined effects of several key\
+    \ factors must be understood and mitigated to optimize PV output: solar irradiance,\
+    \ temperature, cloud cover, dust and pollutants, snow cover, albedo, and extreme\
+    \ weather events.\"\n\nQuantitative material: \"Decreasing solar PV efficiency\
+    \ by 0.4\u20130.5% per 1\xB0C temperature increase and up to 60% efficiency reduction\
+    \ due to dust in desert regions.\"\n- \"Higher temperatures reduce PV efficiency,\
+    \ with a typical loss of 0.4\u20130.5% loss per 1\xB0C increase.\"\n- \"Dust accumulation\
+    \ can reduce efficiency by up to 60% in desert regions, which is important as\
+    \ these are among the regions with highest potential for PV production.\"\n\n\
+    Highlights: \"Solar irradiance is the most significant factor affecting PV performance\
+    \ with the strongest impact near the equator.\"\n- \"Solar irradiance is the most\
+    \ significant factor affecting PV performance, with the strongest impact near\
+    \ the equator.\"\n"
+  19: 'yaml
+
+    "Evaluation overview": "The paper discusses the impact of dust on the efficiency
+    and performance of solar photovoltaic systems. Source material: Elminir HK, Ghitas
+    AE, Hamid RH, El-Hussainy F, Beheary MM, Abdel-Moneim KM. Effect of dust on the
+    transparent cover of solar collectors."
+
+    "Drivers of Risk": "Dust accumulation and deposition on solar panels are identified
+    as factors negatively impacting solar PV system performance. Source material:
+    Khan RA, Farooqui SA, Khan MH, Sarfraz M, Luqman M, Khan MF. Dust deposition on
+    PV module and its characteristics."
+
+    "Highlights": "The accumulation of dust on PV panels reduces their efficiency
+    and energy output. Source material: Maghami MR, Hizam H, Gomes C, Radzi MA, Rezadad
+    MI, Hajighorbani S. Power loss due to soiling on solar panel: a review."
+
+    '

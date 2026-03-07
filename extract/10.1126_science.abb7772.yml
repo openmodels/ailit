@@ -1,0 +1,123 @@
+Drivers of Risk:
+  2: CO2 concentrations impacting light-use efficiency (LUE)
+  4: Emerging nutrient limitations, atmospheric nitrogen (N) and phosphorus (P) depositions,
+    and water availability constraints are impacting GPP outcomes.
+  5: Water availability (TWS), nutrient (N and P) limitations
+  7: Limiting effects of plant nutrients such as nitrogen and phosphorus on the carbon
+    fertilization effect.
+Evaluation overview:
+  2: No relevant information
+  4: The paper explores trends in gross primary productivity (GPP), focusing on the
+    decline in the percentage increase of GPP per 100-ppm increase in CO2.
+  5: Terrestrial photosynthesis (GPP)
+  7: Contribution of carbon fertilization effect (CFE) to vegetation photosynthesis.
+Highlights:
+  2: The global median of b significantly decreased from 1982 to 2015. Grasslands
+    and plants in cold climate zones exhibited a larger declining trend of b.
+  4: Increasing nutrient limitations and model underestimation of water sensitivity
+    are proposed as explanations for TRENDY models not capturing the decline in GPP
+    as seen in satellite data.
+  5: Terrestrial photosynthesis may not increase as much as models project, possibly
+    reducing the potential of land-based climate mitigation.
+  7: There has been a decline over recent decades in the contribution of CFE to vegetation
+    photosynthesis, perhaps owing to the limiting effects of plant nutrients. This
+    declining trend has not been adequately accounted for in carbon cycle models.
+    CFE thus has limitations for long-term mitigation of climate change, and future
+    warming might currently be underestimated.
+Methodology:
+  2: Linear and nonlinear multiple regression approaches were used to estimate b from
+    satellite GPP proxies at each pixel across the globe; Mann-Kendall test used to
+    estimate trend of b
+  4: The analysis uses regression approaches and TRENDY simulation scenarios to estimate
+    trends and a linear spatial mixed-effects model to investigate the relationship
+    between foliar nutrient concentrations and GPP trends.
+  5: Used terrestrial water storage (TWS) data to represent water availability; analyzed
+    arid, temperate, and dry tropical climate zones; used a moving window of 15 years;
+    compared satellite GPP proxies and TRENDY GPP model outputs.
+  7: Explored the temporal dynamics of CFE on vegetation photosynthesis at the global
+    scale.
+More Notes:
+  2: b values for different vegetation physiology and biome types were aligned with
+    experimental results; Decreases in b across all the climate zones and vegetation
+    types were notable.
+  4: The analysis identifies issues with current models in capturing nutrient constraints
+    and water sensitivity impacting GPP.
+  5: The sensitivity of GPP to TWS was relatively constant across the three zones
+    for the multimodel mean of the TRENDY GPP, whereas satellite GPP proxies exhibited
+    significantly increasing trends.
+Quantitative material:
+  2: "Global median of b decreased at a rate of \u22120.92 \xB1 0.12% 100 ppm\u2212\
+    1 year\u22121 (p <0.01) during 1982 to 2015"
+  4: "The rate of decline in foliar N and P concentrations is reported as \u22120.24\
+    \ \xB1 0.06% year\u22121 and \u22120.55 \xB1 0.06% year\u22121, respectively."
+  5: "Satellite GPP proxies exhibited significantly increasing trends for arid (2.93\
+    \ \xB1 0.38% year\u22121), temperate (2.12 \xB1 0.39% year\u22121), and dry tropical\
+    \ (2.30 \xB1 0.57% year\u22121) ecosystems."
+  7: Decline over recent decades in the contribution of CFE to vegetation photosynthesis.
+sourcematerial:
+  2: "yaml\nEvaluation overview: No relevant information\nDrivers of Risk: \"CO2 concentrations\
+    \ impacting light-use efficiency (LUE). Justification: 'Global temporal trend\
+    \ of b from observations and models; Results showed that the estimated b values\
+    \ for different vegetation physiology and biome types were also aligned with experimental\
+    \ results.'\"\nQuantitative material: \"Global median of b decreased at a rate\
+    \ of \u22120.92 \xB1 0.12% 100 ppm\u22121 year\u22121 (p <0.01) during 1982 to\
+    \ 2015. Justification: 'and found that b significantly decreased at a rate of\
+    \ \u22120.92 \xB1 0.12% 100 ppm\u22121 year\u22121 (p <0.01) during 1982 to 2015\
+    \ (Fig. 1A).'\"\nMethodology: \"Linear and nonlinear multiple regression approaches\
+    \ were used to estimate b from satellite GPP proxies at each pixel across the\
+    \ globe; Mann-Kendall test used to estimate trend of b. Justification: 'Linear\
+    \ and nonlinear multiple regression approaches were used to estimateb from satellite\
+    \ GPP proxies at each pixel across the globe (12, 13, 20). We next calculated\
+    \ the time series of b with 15-year moving windows during 1982 to 2015. The Mann-Kendall\
+    \ test was used to estimate the trend ofb pixel by pixel'\"\nHighlights: \"The\
+    \ global median of b significantly decreased from 1982 to 2015. Grasslands and\
+    \ plants in cold climate zones exhibited a larger declining trend of b. Justification:\
+    \ 'This decrease was also evident after excluding the crop areas (fig. S9). Compared\
+    \ with the global median of the declining trend in b, grasslands and plants in\
+    \ cold climate zones exhibited a larger declining trend of b'\"\nMore Notes: \"\
+    b values for different vegetation physiology and biome types were aligned with\
+    \ experimental results; Decreases in b across all the climate zones and vegetation\
+    \ types were notable. Justification: 'Results showed that the estimated b values\
+    \ for different vegetation physiology and biome types were also aligned with experimental\
+    \ results (7), e.g., the b values of C4 plants were much smaller than those of\
+    \ C3 plants (supplementary text S3 and fig. S8). nevertheless, the decreases in\
+    \ b across all the climate zones and vegetation types were notable (fig. S10).'\"\
+    \n"
+  4: " \nGiven that we defined b as the percent increase in GPP per 100-ppm increase\
+    \ in CO2...we found clear positive correlations between the models that included\
+    \ C-N cycle interactions...The role of N limitation on b has been widely suggested\
+    \ by experimental evidence...The second hypothesis to explain the divergence of\
+    \ the b trend between the TRENDY models and the satellite-derived estimates stated\
+    \ that these models underestimated the sensitivity of GPP to water availability...Using\
+    \ 410 groups of ground-based foliar N and P observations...we found a general\
+    \ decrease in foliar N and P concentrations, with mean values of \u22120.24 \xB1\
+    \ 0.06% year\u22121 and \u22120.55 \xB1 0.06% year\u22121, respectively...To test\
+    \ this hypothesis, we applied a linear spatial mixed-effects model... \n"
+  5: "yaml\nEvaluation overview: \"Ultimately, these results indicate that terrestrial\
+    \ photosynthesis may not increase as much as models project...\"\nDrivers of Risk:\
+    \ \"We used the terrestrial water storage (TWS) data to represent the availability\
+    \ of water to plants...the foliar key nutrients (N and P)...\"\nQuantitative material:\
+    \ \"satellite GPP proxies exhibited significantly increasing trends for arid (2.93\
+    \ \xB1 0.38% year\u22121), temperate (2.12 \xB1 0.39% year\u22121), and dry tropical\
+    \ (2.30 \xB1 0.57% year\u22121) ecosystems...\"\nMethodology: \"using a moving\
+    \ window of 15 years (supplementary text S15). We used the terrestrial water storage\
+    \ (TWS) data to represent the availability of water to plants and selected arid,\
+    \ temperate, and dry tropical climate zones as the research areas (fig. S35),\
+    \ as the GPP in these zones was found to be highly sensitive to TWS (fig. S36).\
+    \ We observed that the sensitivity of GPP to TWS was relatively constant across\
+    \ these three zones for the multimodel mean of the TRENDY GPP...\"\nHighlights:\
+    \ \"Ultimately, these results indicate that terrestrial photosynthesis may not\
+    \ increase as much as models project, possibly reducing the potential of land-based\
+    \ climate mitigation...\"\nMore Notes: \"We observed that the sensitivity of GPP\
+    \ to TWS was relatively constant across these three zones for the multimodel mean\
+    \ of the TRENDY GPP, whereas the TWS sensitivities derived from satellite GPP\
+    \ proxies exhibited significantly increasing trends...\"\n"
+  7: 'Source material here: One source of uncertainty in climate science is how the
+    carbon fertilization effect (CFE) will contribute to mitigation of anthropogenic
+    climate change. Wang et al. explored the temporal dynamics of CFE on vegetation
+    photosynthesis at the global scale. There has been a decline over recent decades
+    in the contribution of CFE to vegetation photosynthesis, perhaps owing to the
+    limiting effects of plant nutrients such as nitrogen and phosphorus. This declining
+    trend has not been adequately accounted for in carbon cycle models. CFE thus has
+    limitations for long-term mitigation of climate change, and future warming might
+    currently be underestimated.'

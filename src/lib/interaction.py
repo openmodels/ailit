@@ -47,8 +47,11 @@ def get_stringcommand(chat, nattempts):
     aiengine.failure()
     return None, None
 
-def get_internaltext(chat, nattempts, max_tokens=None, fallback_check=None):
-    pattern = r'```(.*?)```'
+def get_internaltext(chat, nattempts, max_tokens=None, fallback_check=None, allowedtype=None):
+    if allowedtype:
+        pattern = r'```(?:' + allowedtype + r'\s+)?(.*?)```'
+    else:
+        pattern = r'```(.*?)```'
     
     for attempt in range(nattempts):
         response = aiengine.chat_response(chat, max_tokens=max_tokens)
@@ -65,7 +68,7 @@ def get_internaltext(chat, nattempts, max_tokens=None, fallback_check=None):
             aiengine.failure()
             continue
         if len(matches) > 1:
-            chat = chat_push(chat_push(chat, 'assistant', response), 'user', "Sorry, I see multiple ```text``` blocks within this response. Can you try again?")
+            chat = chat_push(chat_push(chat, 'assistant', response), 'user', "Sorry, I see multiple ```text``` blocks within this response. Just provide one. Can you try again?")
             aiengine.failure()
             continue
         
@@ -108,7 +111,7 @@ def make_csvcheck(required_header):
 def get_csvtext(chat, nattempts, required_header, max_tokens=None):
     csvcheck = make_csvcheck(required_header)
     for attempts in range(nattempts):
-        response = get_internaltext(chat, nattempts, max_tokens=4096*2, fallback_check=csvcheck)
+        response = get_internaltext(chat, nattempts, max_tokens=4096*2, fallback_check=csvcheck, allowedtype='csv')
 
         message = csvcheck(response)
         if message is not None:
@@ -197,6 +200,7 @@ def get_csvtext_validated(chat, nattempts, instructs):
 
     return [] # Failed
 
-def get_sourcematerial(chat, response):
-    chat2 = chat_push(chat_push(chat, 'assistant', response), 'user', "Great. Now, please provide quotes or evidence from the material provided above that justifies or provides necessary context for the answer you gave.\n\nSpecify this source material in triple backticks as a single line, like this: ```Source material here.```. Only provide one combined source material block in your response.")
-    return get_internaltext(chat2, 3)
+def get_sourcematerial(chat, response, nattempts=3):
+    chat2 = chat_push(chat_push(chat, 'assistant', response), 'user', "Thank you. Please write quotes or evidence from the material provided above that justifies or provides necessary context for the answer you gave.\n\nSpecify this source material in triple backticks as a single line, like this: ```Source material here.```. Only provide one isolated, combined source material block in your response.")
+    print(chat2)
+    return get_internaltext(chat2, nattempts)

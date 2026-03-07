@@ -1,0 +1,38 @@
+Drivers of Risk:
+  1: The drivers of risk include urban flooding due to rainfall in dynamic urban environments
+    influenced by climate change.
+Evaluation overview:
+  1: The paper evaluates the capability of a deep learning model for near real-time
+    urban flood mapping in Miami-Dade County, FL.
+Highlights:
+  1: The deep learning model successfully predicts urban flood extents with high-resolution
+    (10-meter) spatial data and extends mapping capability over various conditions.
+Methodology:
+  1: The analysis utilizes a deep learning U-Net model with Sentinel-1 imagery and
+    other spatial data from 2014 to 2023 for flood extent prediction.
+More Notes:
+  1: The research addresses limitations of previous flood mapping studies by incorporating
+    terrain and rainfall data, enhancing spatial-temporal resolution through the use
+    of Sentinel-1 imagery.
+Quantitative material:
+  1: The model's prediction capability is quantified with a Ground Truth Index of
+    84.05%, and precision of 94.07%, recall of 86.00%, F1 Score of 89.85, and an overall
+    accuracy of 93.73% using specific input data.
+sourcematerial:
+  1: " \nEvaluation overview: \"Objectives: Developing a deep learning model for predicting\
+    \ near-real time urban flood extents resulting from rainfall (pluvial flood) using\
+    \ a CNN network (U-Net).\"\nDrivers of Risk: \"Overview: Urban flooding is not\
+    \ easily trackable because of: Dynamic urban environments, Impacts of climate\
+    \ change, Insufficient flood event data.\"\nQuantitative material: \"Results:\
+    \ Ground Truthing Model demonstrates an accurate prediction capability with a\
+    \ Ground Truth Index of 84%. Results: Sensitivity Analysis Input Data Slope +\
+    \ HSG + Imperviousness + Rainfall Precision 94.07 Recall 86.00 F1Score 89.85 Overall\
+    \ Accuracy 93.73.\"\nMethodology: \"Objectives: Developing a deep learning model\
+    \ for predicting near-real time urban flood extents using a CNN network (U-Net).\
+    \ Data: Utilizing daily rainfall and Sentinel-1 imagery. Study Area: Urban Areas\
+    \ of Miami-Dade County, Florida.\"\nHighlights: \"Conclusion: Extended the model's\
+    \ application beyond traditional flood mapping to develop a Near Real-Time flood\
+    \ mapping system. Achieved high-resolution (10-meter) for detailed flood extent\
+    \ predictions.\"\nMore Notes: \"Objectives: Addressing the limitations of spatial-temporal\
+    \ resolution found in previous studies by: Providing a more accurate and comprehensive\
+    \ urban flood mapping. Incorporating terrain-related spatial data.\"\n"

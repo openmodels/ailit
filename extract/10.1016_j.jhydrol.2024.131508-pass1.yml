@@ -1,0 +1,44 @@
+Drivers of Risk:
+  1: Urban floods resulting from rainfall (pluvial flood).
+Evaluation overview:
+  1: No relevant information
+Highlights:
+  1: Developed a deep learning model for near real-time flood mapping with a ground
+    truth index of 84.05%; Extended the model's application beyond traditional flood
+    mapping; Enabled more comprehensive flood mapping across various conditions and
+    areas; Achieved high-resolution (10-meter) for detailed flood extent predictions.
+Methodology:
+  1: Developed a deep learning model using a CNN network (U-Net) for predicting near-real
+    time urban flood extents resulting from rainfall. The model uses data from 2014-2023,
+    incorporating terrain-related spatial data, daily rainfall, and Sentinel-1 imagery.  Spatial
+    data (Digital Elevation Model (DEM), Hydrologic Soil Group, and Imperviousness)
+    and Rainfall data into Raster Maps is preprocessed in ArcGIS Pro 3.0.3. Sentinel-1A
+    data is preprocessed using SNAP 9.0.0 to generate Flood Inventory Maps.  Model
+    performance is verified by comparing the generated maps against ground truth data.
+More Notes:
+  1: Sensitivity analysis was performed using different combinations of input data
+    (Slope, HSG, Imperviousness, Rainfall) to assess their impact on model performance.
+    The highest overall accuracy (93.73%) was achieved using all four inputs.
+Quantitative material:
+  1: Model demonstrates an accurate prediction capability with a Ground Truth Index
+    of 84.05%.
+sourcematerial:
+  1: "Methodology: U-Net Schematic Problem Statement: Urban Flood Mapping Methods\
+    \ Objectives \u2022 Developing a deep learning model for predicting near-real\
+    \ time urban flood extents resulting from rainfall (pluvial flood) using a CNN\
+    \ network (U-Net). \u2022 Addressing the limitations of spatial-temporal resolution\
+    \ found in previous studies by: o Providing a more accurate and comprehensive\
+    \ urban flood mapping over an extended period (2014-2023). o Incorporating terrain-related\
+    \ spatial data. o Utilizing daily rainfall and Sentinel-1 imagery. Results: Ground\
+    \ Truthing Model demonstrates an accurate prediction capability with a Ground\
+    \ Truth Index of 84%. Results: Sensitivity Analysis Conclusion \u2022 Extended\
+    \ the model's application beyond traditional flood mapping to develop a Near Real-Time\
+    \ flood mapping system. \u2022 Enabled more comprehensive flood mapping across\
+    \ various conditions and areas. \u2022 Achieved high-resolution (10-meter) for\
+    \ detailed flood extent predictions. Study Area: Urban Areas of Miami-Dade County,\
+    \ Florida Data Identification and Collection \u2022 Data Identification and Collection\
+    \ Flood Influencing Data o Two types of data are noted: Spatial Data and Multiple\
+    \ Rainfall Gauges. \u2022 Spatial Data o Includes Digital Elevation Model (DEM),\
+    \ Hydrologic Soil Group, and Imperviousness. \u2022 Multiple Rainfall Gauges o\
+    \ Processes utilising rainfall measurement data. Input Data Slope + HSG + Imperviousness\
+    \ + Rainfall Overall Accuracy 93.73"

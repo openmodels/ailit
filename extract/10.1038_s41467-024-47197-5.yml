@@ -1,0 +1,306 @@
+Drivers of Risk:
+  1: Climate change increasing heat exposures, global population aging
+  2: "Chronic exposure to high average temperatures (using cooling degree days above\
+    \ 24\xB0C) and acute exposure to extreme high temperatures (using annual count\
+    \ of hot days > 37.5\xB0C and the 95th percentile of the 20-year daily maximum\
+    \ temperature distribution)."
+  3: The main drivers of risk discussed are the increase in the number of hot days,
+    rising maximum temperatures, and demographic changes towards an aging population.
+  4: Future climate-related risks are influenced by total population growth, demographic
+    changes in the age structure, and heat exposure.
+  5: Climate change and population aging are identified as the main drivers of increased
+    heat exposure risks, particularly affecting older adults.
+  6: Value changes in population age structure and climate scenarios SSP2(45) and
+    5(85) affecting heat exposure determinants.
+  7: Impacts on outcomes are driven by factors such as climate change, population
+    growth, and aging populations, especially in areas with insufficient resources
+    to deal with heat extremes.
+  8: The main shock impacting outcomes is climate change-driven enhancement of the
+    urban heat island effect and heat extremes.
+  9: 'The meteorological indicators (CDD, TMax95th, #HD) vary by SSP scenario.'
+  12: The primary driver identified is climate change, particularly rising temperatures,
+    which increases heat exposure and related mortality risks among the elderly.
+  13: No relevant information
+Evaluation overview:
+  1: Heat exposure of older adults
+  2: No relevant information
+  3: No explicit overview of the final outcomes like mortality or productivity loss
+    is provided.
+  5: The paper evaluates acute exposure impacts on population groups, specifically
+    in terms of cumulative heat exposure and temperature thresholds.
+  6: The paper evaluates the impacts of climate change on chronic and acute heat exposures
+    among older adults.
+  7: This page discusses the evaluation of exposure determinants to heat extremes,
+    specifically focusing on Billion Person Degree Days (PDDs), Billion Person Hot
+    Days (PHDs), and Billion Person Degrees (PD95th).
+  8: The paper evaluates the effectiveness of adaptation measures in moderating morbidity
+    and mortality risk due to climate impacts, particularly for older adults.
+  9: "Population heat exposures are evaluated using cooling degree days (CDD), the\
+    \ 20-year average 95th percentile of daily maximum temperatures (TMax95th), and\
+    \ the 20-year average count of days with a dry bulb maximum temperature of 37.5\xB0\
+    \ C (#HD)."
+  12: The paper assesses heat-related mortality risk, particularly in relation to
+    climate change predictions and population aging.
+  13: No relevant information
+Highlights:
+  1: Chronic heat exposure doubles by mid-century, disproportionately impacting older
+    adults, especially in Asia and Africa.
+  2: 'Visualizes bivariate global maps of the fraction of the population aged 69+
+    in the current climate and circa 2050 under SSP2, and their heat exposures (CDDs,
+    TMAX95, #HD).'
+  3: "The analysis projects a significant increase in the population aged 69+ exposed\
+    \ to extreme heat, from a current 239 million in Asia to 588\u2013748 million\
+    \ by 2050; the global heat-exposed population aged 69+ is projected to grow under\
+    \ future climate scenarios."
+  4: Older populations are exposed to increasing heat extremes, which may significantly
+    raise energy use and costs, especially in regions with a growing older demographic.
+  5: Climate change will be the prevailing mechanism of exposure change in Europe
+    and North America, while population aging is the defining driver in warmer areas.
+  6: Projected acceleration of both chronic and acute heat exposures raises health
+    concerns for older adults due to their reduced capacity to thermoregulate.
+  7: A key outcome is that areas with aging populations and rising heat exposures
+    will face increased demand for social and health services, necessitating policy
+    interventions.
+  8: Older adults are disproportionately vulnerable to the effects of heat extremes
+    due to health conditions, disabilities, and social factors. The study emphasizes
+    the need to incorporate considerations for elderly populations in adaptation strategies.
+  9: Projected elderly population in 2050 for the United States closely aligns with
+    estimates from ref. 77, while it has a more significant bias in relation to the
+    estimates of ref. 78.
+  12: The study highlights the vulnerability of the elderly to heat-related mortality
+    under climate change scenarios, with particular emphasis on how aging populations
+    in specific regions, including the U.S., may be at increased risk as temperatures
+    rise.
+  13: No relevant information
+Methodology:
+  1: Combines age-stratified demographic projections with downscaled temperature projections
+    to mid-century.
+  2: Constructs global gridded age-stratified demographic projections for different
+    population scenarios and combines them with temperature projections from CMIP6
+    models to quantify chronic and acute heat exposure for different age groups across
+    the world. Benchmarks population projections against previous region-specific
+    models to assess consistency. Computes geographic intersection of current (2020)
+    and projected mid-century (2050) changes in global and regional populations of
+    adults age 69+, and chronic and acute heat exposures.
+  3: The analysis uses socio-demographic and radiative forcing scenarios, specifically
+    SSP-RCP combinations, to forecast changes by around the year 2050.
+  4: Analysis is based on CMIP6 global climate models with exclusions of hot models,
+    focusing on population-weighted exposures and critical heat thresholds.
+  8: The analysis is performed using gridded age-stratified population data with population
+    projections under five different SSP scenarios, relying on WorldPop data and open-source
+    R software for projections.
+  9: The study downscales demographic projections to 2050 and compares them to existing
+    projections at sub-national spatial resolutions for several regions, including
+    the US, EU, India, UK, and China. The comparison is based on metrics of APE and
+    MAPE, besides reporting the total absolute error at different levels of spatial
+    aggregation.
+  12: The analysis uses projections and models to assess future heat-related mortality
+    under different climate change scenarios, focusing on population aging and regional
+    vulnerabilities.
+  13: The experiments were conceived and the methodology designed by G.F. and I.S.W.;
+    I.S.W. processed the climate data; G.F. conducted the experiments and generated
+    the figures. G.F., I.S.W., E.D.C. and D.C. analysed the results and wrote the
+    manuscript.
+More Notes:
+  1: Effects are most severe in Asia and Africa, which also have the lowest adaptive
+    capacity. Facilitates regional heat risk assessments and inform public health
+    decision-making.
+  2: The study focuses on older adults (69+). The results are presented as global
+    maps showing the intersection of aging populations and heat exposure.
+  3: The paper highlights the differential regional and age group impacts, with larger
+    cumulative exposure changes in Africa, Asia, and South America compared to North
+    America and Europe.
+  9: The limitation of the population projection approach is its assumption of geographically
+    homogeneous, within-country trends by age stratum.
+  13: This article is licensed under a Creative Commons Attribution 4.0 International
+    License, which permits use, sharing, adaptation, distribution and reproduction
+    in any medium or format, as long as appropriate credit is given.
+Quantitative material:
+  1: "Chronic exposure to heat doubles across all warming scenarios; >23% of the global\
+    \ population aged 69+ will inhabit climates whose 95th percentile of daily maximum\
+    \ temperature exceeds the critical threshold of 37.5 \xB0C, compared with 14%\
+    \ today, exposing an additional 177\u2013246 million older adults to dangerous\
+    \ acute heat."
+  2: "Presents maps visualizing the fraction of the population aged 69+ exposed to\
+    \ annual Cooling Degree Days (CDDs), the temperatures corresponding to the 95th\
+    \ percentile of local extreme heat exposure (TMAX95), and annual days with TMAX\
+    \ > 37.5\xB0C (#HD)."
+  3: "There is quantitative information indicating a surge in the frequency of hot\
+    \ days globally from 10 to 19\u201321 days/year and a rise in TMAX95 from 32\xB0\
+    C to about 35\xB0C."
+  4: 'Exposure metrics such as 69+ population-weighted CDDs, #HDs, and TMAX95 are
+    considered; quantitative data on regional frequency distributions and cumulative
+    distributions for various SSP scenarios are given.'
+  5: Cumulative heat exposure of older individuals is projected to at least triplicate
+    in all continents by 2050, irrespective of the scenario considered.
+  6: Table 1 provides quantitative data on heat exposure determinants such as CDDs,
+    PDDs, TMAX95, and more, under different scenarios including historical climate
+    and projections for 2050.
+  7: The analysis provides quantitative data on Billion Person Degree Days, Billion
+    Person Hot Days, and Billion Person Degrees across different regions and scenarios.
+  9: 'Formulas are provided for calculating CDD, TMAX95, and #HD for each grid cell.'
+  12: No specific quantitative results are provided on this page; the page references
+    various studies but does not give its own numeric conclusions.
+  13: No relevant information
+sourcematerial:
+  1: "Source material here.\nTheglobalpopulationisagingatthesametimeasheatexposuresareincreasingduetoclimatechange.Agestructure,anditsbiologicalandsocio-economicdrivers,determinepopulations\u2019\
+    vulnerabilitytohightemperatures.Herewecombineage-strati\uFB01eddemographicprojectionswithdownscaledtemperatureprojectionstomid-centuryand\uFB01\
+    ndthatchronicexposuretoheatdoublesacrossallwarmingscenarios.Moreover,>23%oftheglobalpopulationaged69+willinhabitclimateswhose95thpercentileofdailymaximumtemperatureexceedsthecriticalthresholdof37.5\xB0\
+    C,comparedwith14%today,exposinganadditional177\u2013246millionolderadultstodangerousacuteheat.EffectsaremostsevereinAsiaandAfrica,whichalsohavethelowestadaptivecapacity.Ourresultsfacilitateregionalheatriskassessmentsandinformpublichealthdecision-making.\n"
+  2: "yaml\nEvaluation overview: No relevant information\nDrivers of Risk: \"temperature\
+    \ projections from the Coupled Model Intercomparison Project Phase 6 (CMIP6) downscaled,\
+    \ bias-corrected model output50 to quantify chronic exposure to high average temperatures\
+    \ and the frequency and intensity of acute exposure to extreme high temperatures\"\
+    \nQuantitative material: \"Figure 1 visualises bivariate global maps of the fraction\
+    \ of population aged 69+, the average yearly Cooling Degree Day exposure (CDDs),\
+    \ the temperatures corresponding to the 95th percentile of local extreme heat\
+    \ exposure (TMAX95). E, F Annual days with TMAX > 37.5\xB0 C (#HD).\"\nMethodology:\
+    \ \"Building on our approach developed for the United States49,we construct global\
+    \ gridded age-strati\uFB01ed demographic projections for different population\
+    \ scenarios (see Methods) and combine them with temperature projections from the\
+    \ Coupled Model Intercomparison Project Phase 6 (CMIP6) downscaled, bias-corrected\
+    \ model output50 to quantify chronic exposure to high average temperatures and\
+    \ the fre- quency and intensity of acute exposure to extreme high temperatures\
+    \ for different age groups across the world. Our gridded population projections\
+    \ are benchmarked against previous region-speci\uFB01cmodel- structureling work\
+    \ to assess their consistency (see Methods). We develop tem- perature exposure\
+    \ metrics at the same spatial resolution. For cumulativeexposures we use annual\
+    \ cooling degree days (CDDs) above the 24\xB0 C threshold. For acute exposures\
+    \ metrics we use the annual count of hot days (#HDs: days with maximum temperature\
+    \ exceeding 37.5\xB0 C) and the 95th percentile of the 20 y daily maximum temperature\
+    \ distribution(TMAX95). From the resulting dataset we compute the geographic intersection\
+    \ of current (2020) and projected mid-century (2050) changes in global and regional\
+    \ populations of adults age 69+, and chronic and acute heat exposures.\"\nHighlights:\
+    \ \"Figure 1 visualises bivariate global maps of the fraction of population aged\
+    \ 69+, the average yearly Cooling Degree Day exposure (CDDs), the temperatures\
+    \ corresponding to the 95th percentile of local extreme heat exposure (TMAX95).\
+    \ E, F Annual days with TMAX > 37.5\xB0 C (#HD).\"\nMore Notes: \"populations\
+    \ of adults age 69+, and chronic and acute heat exposures.\"\n"
+  3: null
+  4: "Source material: Panels (B, D, F): boxplots of region-speci\uFB01 c older individuals-weighted\
+    \ exposure to a given amount of median CDDs, #HD, and TMAX95. Panels (A, C, E):\
+    \ cumula- tive counts of aged 69+ individuals worldwide exposed to a given amount\
+    \ of median Cooling Degree Days in a year (CDDs), the number of Hot Days, #HD,\
+    \ and the corresponding to 95th percentile of acute extreme heat exposure (TMAX95).\
+    \ Historical vs. 2050 for SSPs 1(26), 2(45), 3(70), and 5(85), CMIP6 global climate\
+    \ models (GCMs) (hot models70 excluded) range; multi-model median in bold lines.\
+    \ The three key drivers in\uFB02uencing the future climate-related risks posed\
+    \ to human health, namely total population growth, demographic changes in the\
+    \ age structure, and heat exposure will evolve following context-speci\uFB01c,\
+    \ and potentially heterogeneous, trends55. Historical vs. 2050 for SSPs 1(26),\
+    \ 2(45), 3(70), and 5(85), CMIP6 global climate models (GCMs) (hot models70 excluded)\
+    \ range; multi-model median (diamond). Such growing acute exposure is a cause\
+    \ for great concern - in particular for older individuals - and it will likely\
+    \ drive up the demand for and use of indoor thermal regulation appliances, with\
+    \ signi\uFB01cant private and social costs for energy use and its externalities53\
+    \ and health repercussions for those who cannot afford them20,54."
+  5: "yaml\nEvaluation overview: \"Fig. 3 | Regional and age-group-speci\uFB01 c trends\
+    \ in the cumulative and intensity days with TMAX95 > 37.5 \xB0C, age strati\uFB01\
+    \ cation, faceted by region, difference of acute exposure of population groups:\
+    \ 2020\u20132050.\"\nDrivers of Risk: \"Climate change will be the prevailing\
+    \ mechanism of change in more temperate nations of Europe and North America. Population\
+    \ aging will be the de\uFB01 ning driver of future exposure in the warmer co untri\
+    \ es of Afr ic a, As ia , a nd South Ameri ca .\"\nQuantitative material: \"Cumulative\
+    \ heat exposure of older individuals (PDDs) will at least triplicate in all continents\
+    \ by 2050, irrespective of the scenario con- sidered.\"\nHighlights: \"Climate\
+    \ change will be the prevailing mechanism of change in more temperate nations\
+    \ of Europe and North America. Population aging will be the de\uFB01 ning driver\
+    \ of future exposure in the warmer co untri es of Afr ic a, As ia , a nd South\
+    \ Ameri ca .\"\n"
+  6: "  \n\"Evaluation overview\": \"The paper evaluates the impacts of climate change\
+    \ on chronic and acute heat exposures among older adults.\", Source material:\
+    \ \"Our projected acceleration of both chronic and acute heat exposures of older\
+    \ adults raises a serious concern for global public health...\"\n\"Drivers of\
+    \ Risk\": \"Value changes in population age structure and climate scenarios SSP2(45)\
+    \ and 5(85) affecting heat exposure determinants.\", Source material: \"Moreover,\
+    \ we observe that climate change has a strong impact on the frequency of acute\
+    \ exposure... which is mostly affected by the shift in the age structure of population\
+    \ in areas where extreme temperatures are already high.\"\n\"Quantitative material\"\
+    : \"Table 1 provides quantitative data on heat exposure determinants such as CDDs,\
+    \ PDDs, TMAX95, and more, under different scenarios including historical climate\
+    \ and projections for 2050.\", Source material: \"Table 1 | Evolution of older\
+    \ heat exposure determinants under historical climate and current demographics,\
+    \ and under scenarios SSP2(45) and 5(85). CDDs, TMAX95, #HDs, PDDs, PHDs, PD95th\
+    \ report the median and the interquartile range in brackets.\"\n\"Highlights\"\
+    : \"Projected acceleration of both chronic and acute heat exposures raises health\
+    \ concerns for older adults due to their reduced capacity to thermoregulate.\"\
+    , Source material: \"Our projected acceleration of both chronic and acute heat\
+    \ exposures of older adults raises a serious concern for global public health...\"\
+    \n"
+  7: 'Source material here.
+
+    "Panel (A, B): Billion Person Degree Days (PDDs) decomposition, by region and
+    global. Panel (C, D): Billion Person Hot Days (PHDs) decomposition, by region
+    and global. Panel (E, F): Billion Person Degrees (PD95th) decomposition, by SSP
+    scenario."
+
+    "physical limitations, insufficient housing or economic resources, and in both
+    agendas to both understand and work to address the interconnections between them."
+
+    "climate change, population growth, Aging, Historical... impacts, and their indirect
+    costs on society more broadly."
+
+    "requiring novel policy interventions."
+
+    "Areas with aging populations and rising heat exposures are thus likely to face
+    considerable demands for social and health services, requiring novel policy interventions."
+
+    '
+  8: "Source material here.\n1. Evaluation overview: \"Quantifying both the costs\
+    \ of these alternatives, and their effectiveness in terms of moderating morbidity\
+    \ and mortality risk, is an area of research that is ripe for investigation.\"\
+    \n2. Drivers of Risk: \"Increasing building albedo and/or enlarging green spaces\
+    \ and tree canopy cover to counteract climate change-driven enhancement of the\
+    \ urban heat island effect.\"\n3. Methodology: \"Age-strati\uFB01ed gridded population\
+    \ counts are derived from WorldPop and Pezzuolo et al. on a 1-km grid for the\
+    \ year 2020... The analysis is carried out in the R scientific computing environment...\"\
+    \n4. Highlights: \"Many 69+ individuals are disproportionately vulnerable to the\
+    \ effects of heat extremes due to chronic health conditions and illnesses, physical,\
+    \ sensory, or cognitive disabilities, and social isolation, marginalization, and\
+    \ lacking access to healthcare or resources for private adaptation.\"\n"
+  9: "Source material: We consider three meteorological indicators that vary by SSP\
+    \ scenario. The \uFB01rst is cooling degree days (CDD), a measure of individuals\u2019\
+    \ cumulative (chronic) heat exposure. The second is the 20-year average 95th percentile\
+    \ of daily maximum temperatures (TMax95th), a measure of the intensity of individuals\u2019\
+    \ acute exposure to heat extremes. The third is the 20-year average count of days\
+    \ with a dry bulb maximum temperature of 37.5\xB0 C (#HD), which indicates the\
+    \ frequency of acute \u201Cextreme hot days\u201D exposure. We consider three\
+    \ meteorological indicators that vary by SSP scenario. CDDg ,t = X d \xF0t \xDE\
+    \ max\xBD0, Tg ,d \xF0t \xDE /C0 T ? /C138; TMAX 95g = P\xBDfT maxg ,d\xF0t \xDE\
+    \ g,95/C138; #HDg = Xd g \xF0t 2 20y\xDE\xBDTMAX g ,d\xF0t \xDE \u2265 TMAX ?\
+    \ /C138. To compare the results of our grid-cell level age-strati\uFB01ed demographic\
+    \ projections downscaling to 2050, we carry out a comparative analysis for a set\
+    \ of regions where demographic projection studies have been produced and made\
+    \ available at a sub-national spatial resolution. This exercise is based on comparing\
+    \ such existing projections with the 2020 individuals aged >69 counts obtained\
+    \ with our global method described above at each sub-national unit. Projection\
+    \ datasets used for this comparison include two distinct sources for the United\
+    \ States of America77,78 the European Union79, India80, the United Kingdom81,\
+    \ and China82. ...metrics of APE and MAPE (Absolute Percentage Error and Mean\
+    \ Absolute Percentage Error), besides reporting the total absolute error at different\
+    \ levels of spatial aggregation. For the United States our projected elderly population\
+    \ in 2050 closely aligns with estimates from ref. 77, while it has a more signi\uFB01\
+    cant bias in relation to the estimates of ref. 78...The limitation of this approach\
+    \ is its assumption of geographically homogeneous, within-country trends by age\
+    \ stratum."
+  12: "  \nSource material here. Evaluation overview: The page mentions studies assessing\
+    \ \"future heat-related mortality under climate change scenarios\" and \"population\
+    \ aging and heat exposure in the 21st century\" for U.S. regions. Drivers of Risk:\
+    \ The phrases \"heat stress,\" \"heat-related mortality,\" and \"climate change\
+    \ scenarios\" indicate climate change and rising temperatures are key risk drivers.\
+    \ Methodology: The page discusses \"projections of temperature-related excess\
+    \ mortality under climate change scenarios\" and assessments of mortality risk\
+    \ \"for major European cities\" also adapted to study U.S. regions, suggesting\
+    \ use of modeling. Highlights: The mention of \"aging will amplify the heat-related\
+    \ mortality risk under a changing climate\" indicates a key finding related to\
+    \ demographic vulnerability. This page also references the study \"on heat exposure\
+    \ in the 21st century\" stating \"which U.S. regions are at greatest risk.\"\n"
+  13: "  \n\"Methodology\": \"G.F. and I.S.W. conceived the experiments and designed\
+    \ the metho- dology; I.S.W. processed the climate data; G.F. conducted the experi-\
+    \ ments and generated the \uFB01 gures. G.F., I.S.W., E.D.C. and D.C. analysed\
+    \ the results and wrote the manuscript.\"\n\n\"More Notes\": \"Open Access This\
+    \ article is licensed under a Creative Commons Attribution 4.0 International License,\
+    \ which permits use, sharing, adaptation, distribution and reproduction in any\
+    \ medium or format, as long as you give appropriate credit to the original author(s)\
+    \ and the source, provide a link to the Creative Commons licence, and indicate\
+    \ if changes were made.\"\n"

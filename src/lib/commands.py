@@ -19,7 +19,7 @@ def get_colmaterial(xtt, cols):
                     allpages[num] = text
     sourcematerials = {}
     for num, text in allpages.items():
-        sourcematerials[num] = columninfo['sourcematerial'][num]
+        sourcematerials[num] = xtt['sourcematerial'][num]
 
     return allpages, sourcematerials
 
@@ -45,14 +45,20 @@ def short_authors(authors):
     else:
         return f"{author_list[0]} et al.", None
 
-def ai_select(xtt, question, cols, options, abstract_prompt):
+def ai_select(row, xtt, question, cols, options, abstract_prompt):
     allpages, sourcematerials = get_colmaterial(xtt, cols)
-            
-    texts = '\n'.join([f"Page {num}: {text}" for num, text in allpages.items()])
-    sourcematerials = '\n'.join([f"Page {num}: {text}" for num, text in sourcematerials.items()])
+
     optiontexts = ' or '.join([f"[{option}]" for option in options + ['N/A']])
 
-    prompt = f"""{abstract_prompt} Right now, I want to get an answer to the following question: '{question}' The following notes were extracted from pages from a paper that is potentially relevant to my answer:
+    if len(allpages) > 0:
+        texts = '\n'.join([f"Page {num}: {text}" for num, text in allpages.items()])
+        sourcematerials = '\n'.join([f"Page {num}: {text}" for num, text in sourcematerials.items()])
+
+        prompt = f"""{abstract_prompt} I am currently reviewing a paper.
+
+Here is an abstract of the paper: {row['Abstract']}
+
+Right now, I want to get an answer to the following question: '{question}' The following notes were extracted from pages from a paper that is potentially relevant to my answer:
 ===
 {texts}
 ===
@@ -62,30 +68,33 @@ For context, here is extracted source material from those pages:
 ===
 
 Specify the answer as one of the following: {optiontexts}. Put the answer in brackets, like this: [N/A]."""
+    else:
+        prompt = f"""{abstract_prompt}  I am currently reviewing a paper.
 
+Right now, I want to get an answer to the following question: '{question}' I only have the abstract to provide material on this. Here it is:
+
+{row['Abstract']}
+
+Specify the answer as one of the following: {optiontexts}. Put the answer in brackets, like this: [N/A]."""
+        
     chat = [{"role": "user", "content": prompt}]
     response = interaction.get_action(chat, options + ['N/A'])
     
     sourcematerial = interaction.get_sourcematerial(chat, "```" + response + "```", 3)
     return response, sourcematerial
 
-def ai_select2(row, xtt, question, cols, options, abstract_prompt):
-    if 'Abstract' in cols:
-        extras = ["Here is the abstract of a paper: " + row['Abstract']]
-        cols = cols[cols != 'Abstract']
-
-    if extras:
-        abstract_prompt = abstract_prompt + " " + "\n\n".join(extras) + "\n\n"
-
-    return ai_select(xtt, question, cols, options, abstract_prompt)
-
-def ai_summary(xtt, question, cols, abstract_prompt):
+def ai_summary(row, xtt, question, cols, abstract_prompt):
     allpages, sourcematerials = get_colmaterial(xtt, cols)
 
-    texts = '\n'.join([f"Page {num}: {text}" for num, text in allpages.items()])
-    sourcematerials = '\n'.join([f"Page {num}: {text}" for num, text in sourcematerials.items()])
+    if len(allpages) > 0:
+        texts = '\n'.join([f"Page {num}: {text}" for num, text in allpages.items()])
+        sourcematerials = '\n'.join([f"Page {num}: {text}" for num, text in sourcematerials.items()])
 
-    prompt = f"""{abstract_prompt} Right now, I want to get an answer to the following question: '{question}' The following notes were extracted from pages from a paper that is potentially relevant to my answer:
+        prompt = f"""{abstract_prompt} I am currently reviewing a paper.
+
+Here is an abstract of the paper: {row['Abstract']}
+
+Right now, I want to get an answer to the following question: '{question}' The following notes were extracted from pages from a paper that is potentially relevant to my answer:
 ===
 {texts}
 ===
@@ -95,7 +104,15 @@ For context, here is extracted source material from those pages:
 ===
 
 Please provide a short, concise answer. Specify the synopsis in triple backticks, like this: ```Answer here.```."""
+    else:
+        prompt = f"""{abstract_prompt} I am currently reviewing a paper.
 
+Right now, I want to get an answer to the following question: '{question}' I only have the abstract to provide material on this. Here it is:
+
+{row['Abstract']}
+
+Please provide a short, concise answer. Specify the synopsis in triple backticks, like this: ```Answer here.```."""
+        
     chat = [{"role": "user", "content": prompt}]
     response = interaction.get_internaltext(chat, 3).strip()
 

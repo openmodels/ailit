@@ -1,0 +1,475 @@
+Drivers of Risk:
+  1: Increases in temperature affecting weight-at-age (positive) and recruitment (negative).
+  2: Environmental variables (e.g., temperature, ocean pH) are considered as drivers
+    affecting the length of age-1.5 animals (L1.5) and mean recruitment of Pacific
+    cod.
+  3: Environmental variables are a key source of uncertainty when making projections.
+    The paper identifies Earth Systems Models and emission scenarios to use, focusing
+    on those that performed well with respect to sea ice in the Bering Sea, but also
+    bracketed the range of historical conditions (warm, moderate, and cool running).
+  4: Environmental variables are linked to time-varying parameters in the assessment
+    model, influencing future recruitment deviations.
+  5: Sea surface temperature (SST) in summer, sea surface or bottom temperature during
+    the spawning season, ocean pH (surface and bottom) during the spawning season.
+  6: The focus is on economic and fishery management factors, as well as the productivity
+    of the Pacific cod stock.
+  7: Summer sea surface temperature (SST) is identified as a key environmental variable
+    affecting growth and recruitment.
+  8: Summer sea surface temperatures are identified as significant environmental drivers
+    affecting recruitment and spawning biomass.
+  9: Sea surface temperature (SST) is identified as a driver impacting growth and
+    recruitment, potentially leading to reduced biomass and fishery sustainability.
+  10: Increased temperature impacts recruitment negatively and influences weight-at-age
+    positively.
+  11: Uncertainty in recruitment due to lack of integration with environmental variables.
+  13: Assumes stationarity in environmental conditions which can impact spawning biomass.
+  14: The study explores the effects of temperature and pH on growth and recruitment
+    of Pacific cod. Increased temperature is associated with increased metabolic demand
+    and mortality, and decreased availability and energy content of prey.
+  15: Environmental variables are considered as proxies for the actual mechanisms
+    driving population dynamics.
+  16: Future levels of climate warming and the associated scenarios, such as MIROC
+    ssp126 and GFDL ssp585, impact the outcomes.
+Evaluation overview:
+  1: Impacts on Pacific Cod (Gadus macrocephalus) populations and fishery economics
+    in the eastern Bering Sea, considering biomass, catch, and profits.
+  2: The paper extends the stock assessment for Eastern Bering Sea (EBS) Pacific cod,
+    focusing on the effects of environmental variables on biological parameters and
+    future catch.
+  3: No relevant information
+  4: No relevant information
+  5: Analysis of population parameters for Pacific cod in the eastern Bering Sea.
+  6: The paper evaluates harvest control rules for EBS Pacific cod, focusing on sustainable
+    yields and economic factors.
+  7: The analysis evaluates outcomes such as spawning biomass decline and economic
+    metrics like catch averages and profit ratios.
+  8: Analysis focuses on the impact of environmental drivers on the spawning biomass
+    of Pacific cod in the eastern Bering Sea.
+  9: The paper examines climate impacts on fish stock outcomes such as growth, recruitment,
+    and spawning biomass under different environmental scenarios.
+  10: The analysis evaluates the impact of environmental scenarios on Pacific cod
+    stock outcomes, focusing on spawning biomass and catch.
+  11: Focuses on the assessment of model uncertainties related to EBS Pacific cod
+    projections and environmental scenarios.
+  13: No specific overview of an outcome like mortality or productivity loss is provided.
+  14: The paper evaluates the probability of spawning biomass dropping below four
+    threshold levels and relative profit.
+  15: Thermal stress on groundfish populations
+  16: The paper evaluates biomass and catch declines for EBS Pacific cod under future
+    climate warming levels.
+Highlights:
+  1: Temperature increases increase weight-at-age but reduce recruitment, with the
+    negative effects on recruitment outweighing the positive effects on weight-at-age.
+    Current harvest control rules may not conserve the stock under climate change.
+    Basing future catches on the environmental scenario that leads to the poorest
+    outcomes (GFDL ssp585) generally keeps the stock above the threshold of 20 % of
+    unfished spawning biomass under most climate scenarios and also achieves long-term
+    profits.
+  2: The framework considers uncertainty related to model choice, environmental variable
+    relationships, Earth System Models and emissions scenarios, parameter uncertainty,
+    and process error. The projected catch series are used to evaluate the consequences
+    of setting catch limits based on potentially incorrect model configurations, Earth
+    System Models, and harvest control rules.
+  3: "Catch time-series reflect \u201Cperfect information\u201D given a model configuration,\
+    \ set of environmental variables, and harvest control rule. Additional risk arises\
+    \ if management is based on one catch time-series when the true population model\
+    \ differs from that used to construct the catch series."
+  4: Focuses on projecting future catch series based on different assessment model
+    configurations and environmental scenarios. Aims to capture parameter and model
+    uncertainty. Parameters related to future recruitment and L1.5's link to environmental
+    variables are highlighted as particularly influential.
+  5: Larval Pacific cod sensitivity to CO2 levels, potential impacts of temperature
+    on yolk sac absorption, feeding conditions, growth rates, hatch rates, and recruitment.
+  6: Discusses a new harvest control rule aiming to maximize net revenue as an alternative
+    to the NPFMC Tier 3 rule.
+  7: Summer SST is the most significant environmental driver impacting growth and
+    recruitment, reducing expected recruitment despite faster growth.
+  8: Projected declines in Pacific cod biomass are more severe under higher emissions
+    scenarios (e.g., GFDL ssp585) and when no threshold harvest strategy is applied.
+  9: Environmental scenarios indicate the need for adaptive catch limits to manage
+    risk, as unfished spawning biomass can fall significantly with unchanged catch
+    limits and high SST.
+  10: Current harvest control rules may lead to declines in biomass and catch if continued;
+    sloped harvest control rules benefit conservation and utilization.
+  11: Model uncertainty for EBS Pacific cod is significant and not fully reflected
+    in the four models used.
+  13: Projecting potential changes in EBS Pacific cod spawning area due to climate
+    change.
+  14: The paper suggests updating projections based on climate-enhanced stock assessments
+    and reviewing consistency of relationships between environmental variables and
+    population parameters. There are differences in post-predictive loss (PPL) amongst
+    the evaluated models.
+  16: Climate effects with the highest warming rates may exceed the benefit of harvest
+    control rules by the end of the century under certain scenarios.
+Methodology:
+  1: Framework for projections includes structural model uncertainty (population dynamics
+    model, Earth System Models, emission scenarios), process error in future recruitment,
+    and uncertainty in the parameter estimates of the population dynamics model. Applied
+    to Pacific cod in the eastern Bering Sea using a harvest control rule that maximizes
+    the difference between revenue and variable costs.
+  2: The paper uses multiple assessment model configurations and Earth System Models/emission
+    scenarios to project future catch series, accounting for uncertainty related to
+    model configuration and future climate conditions. It outlines a best practices
+    framework for conducting projections for extended, or "climate-enhanced", single-species
+    models.
+  3: The analysis unifies multiple stock assessment configurations and the uncertainty
+    of the parameters of an assessment given a model configuration. Parameter vectors
+    are sampled from a Bayesian posterior distribution to quantify uncertainty. Downscaled
+    historical and future climate scenarios are used, bias-corrected to a high-resolution
+    hindcast. Projections of climate-enhanced stock assessments are conducted for
+    harvest control rules setting fishing mortality based on stock status relative
+    to reference points. Time variation of parameters are considered either additively
+    or multiplicatively as a function of environmental variables with added noise.
+  4: "Uses a Bayesian assessment framework with NUTS MCMC sampling (Monnahan et al.,\
+    \ 2016) for model projections, accounting for uncertainty in model structure and\
+    \ environmental variables. Employs AIC for model selection. Projections are based\
+    \ on 1000 draws from posterior distributions with convergence defined as all effective\
+    \ sample sizes above 500 and \u0302R values less than 1.022 (Vehtari et al., 2021)."
+  5: Uses a high-resolution oceanographic model (Bering10K ROMSNPZ) to hindcast physical
+    and lower trophic level conditions. Bias correction using delta-corrected timeseries.
+    CMIP6 Earth System Models (GFDL-ESM4, CESM-CAM6, and MIROC-ES2L) are downscaled.
+    Future emission scenarios are SSP126 and SSP585.
+  6: Evaluates harvest rules using Bayesian analyses fixing base values or annual
+    deviations; considers past data up to 2020 and projections up to 2099.
+  7: Projections explore structural uncertainty, structural error, and process/parameter
+    uncertainty through deterministic and probabilistic approaches involving multiple
+    model configurations and environmental scenarios.
+  8: The analysis involves multiple assessment model configurations and environmental
+    scenarios, utilizing projections like CESM and GFDL for different SSP emissions
+    scenarios.
+  9: The analysis is performed using posterior distribution sampling and projections
+    based on maximum likelihood estimates across environmental and fishing scenarios.
+  10: Utilizes environmental scenarios and different assessment model configurations
+    to project future spawning biomass and catch; results pertain to the 40-5 control
+    rule.
+  11: Projections assume future recruitment without stock-recruitment relationship
+    and consider a hypothesis on environmental variables for growth and recruitment.
+  13: Accounts for parameter uncertainty and process error in spawning biomass projections.
+  15: Alternative models with assumptions that reflect other processes should be explored.
+    An alternative approach is to not link an environmental variable to a population
+    parameter directly, but instead allow for annual parameter deviations and add
+    a component to the likelihood function to reflect that environmental variables
+    may provide indices of these deviations.
+  16: The analysis involves projecting catch and biomass declines using harvest control
+    rules and environmental models, considering null environmental models and scenarios
+    like GFDL and MIROC ssp.
+More Notes:
+  3: The eastern Bering Sea Pacific cod stock assessment is used as an example, modeled
+    with an age-structured population dynamics model. The assessment model configurations
+    differ in terms of which parameters are time-varying and the data used for parameter
+    estimation.
+  4: Some parameters were fixed to their maximum likelihood estimates due to poorly
+    informed posterior distributions.
+  5: Data availability for Pacific cod assessment includes retained catch, index (survey
+    and CPUE), length-composition (fishery and survey), and ages (survey) from 1980-2020
+  6: The economic value of the cod fishery is assessed through analysis of decomposition
+    of profits for trawl catcher/processors.
+  11: The page emphasizes the need for expanded model configurations to better assess
+    environmental impacts and uncertainties.
+  13: Potential for changes in relationships between environmental variables and recruitment
+    is acknowledged.
+  15: The analysis assumes environmental variables are measured without error. Cumulative
+    impacts of environmental variables on biological processes should be considered
+    by future analyses.
+Quantitative material:
+  1: Decline in biomass and catch are expected if current harvest control rules continue
+    to be used, which also lead to lower profits for the fishery.
+  2: The paper mentions that the inclusion of environmental variables does not markedly
+    impact the main outputs of the assessment (e.g., time-trajectories of spawning
+    biomass and recruitment) because these are determined primarily by the monitoring
+    data.
+  3: No relevant information
+  4: No relevant information
+  5: Uses dynamically downscaled hindcasts, historical runs, and projections from
+    Earth System Models to generate environmental time series.
+  6: Specific parameters such as unfished recruitment, fishing mortality, and catchability
+    are estimated quantitatively.
+  7: "The paper provides \u0394AIC values and AIC weights for environmental models,\
+    \ indicating the influence of different environmental variables on fishery stock\
+    \ projections."
+  8: Projections predict Pacific cod spawning biomass will decline, falling below
+    40% of unfished levels by 2040, with some scenarios predicting stocks below 20%.
+  9: Projections show probability distributions for spawning biomass, with high probability
+    of declining below 20% of unfished biomass depending on catch limits and environmental
+    scenarios.
+  10: The analysis provides estimated and projected trajectories for spawning biomass
+    and catch from 1977 to 2099 under various scenarios.
+  13: References probability of being below 20% of unfished spawning biomass.
+  14: The paper presents probabilities of spawning biomass dropping below threshold
+    levels, distributions for relative profit (medians, 50% intervals, and 90% intervals),
+    and post-predictive loss values across different models.
+  15: The bar charts have a y-axis ranging from 0 to 20. The line chart has a y-axis
+    ranging from -0.5 to 0.5.
+  16: Projections show basing catch limits on MIROC ssp126 may lead to population
+    crash, while GFDL ssp585 may keep stock above the threshold of 20% unfished spawning
+    biomass.
+sourcematerial:
+  1: null
+  2: "Source material here: This paper extends the stock assessment for EBS cod by\
+    \ allowing environmental variables to capture variation in two biological parameters\
+    \ driving the population dynamics (the length of age-1.5 animals, L1.5, and the\
+    \ mean recruitment). Several alternative (yet) plausible environmental variables\
+    \ are considered to assess the extent to which including environmental drivers\
+    \ in the assessment leads to better fits to the available data. The inclusion\
+    \ of environmental variables does not markedly impact the main outputs of the\
+    \ assessment (e.g., time-trajectories of spawning biomass and recruitment) because\
+    \ these are determined primarily by the monitoring data. Future catch series are\
+    \ developed based on projections from multiple assessment model configurations\
+    \ and Earth System Models/emission scenarios to account for the range of uncertainty\
+    \ described above. This paper therefore outlines a best practices framework for\
+    \ conducting projections for extended, or \u201Cclima-process uncertainty and\
+    \ parameter/estimation uncertainty. This framework considers uncertainty related\
+    \ to which model of the population dynamics is correct, which parameters are related\
+    \ to the environmental variables (such as temperature and ocean pH), and which\
+    \ Earth System Models and emissions scenarios should be used to determine future\
+    \ values for the environmental variables, as well as parameter uncertainty, and\
+    \ past and future process error in population parameters (such as recruitment\
+    \ and growth). Consequently, the resulting projected catch series reflect the\
+    \ uncertainty related to the assessment model configuration as well as future\
+    \ climate conditions. The projected catch series are then used to evaluate the\
+    \ consequences of setting catch limits based on one assessment model configuration,\
+    \ one Earth System Model/emission scenario and one harvest control rule when that\
+    \ assessment model configuration and Earth System Model/emission scenario may\
+    \ not be correct."
+  3: "yaml\nEvaluation overview: No relevant information\nDrivers of Risk: A key source\
+    \ of uncertainty when making projections based on environmental variables is how\
+    \ the environmental variables are to be projected. Therefore, the next step of\
+    \ the framework is to identify which Earth Systems Models and emission scenarios...to\
+    \ use...through coordination with the Alaska Climate Integrated Modeling project...we\
+    \ use a set of downscaled historical and future climate scenarios based on Earth\
+    \ System Models that performed well with respect to sea ice in the Bering Sea,\
+    \ but also bracketed the range of historical conditions (warm, moderate, and cool\
+    \ running).\nQuantitative material: No relevant information\nMethodology: We thus\
+    \ unify two approaches to quantifying uncertainty in stock assessments, namely\
+    \ considering multiple stock assessment configurations and the uncertainty of\
+    \ the parameters of an assessment given a model configuration...quantified by\
+    \ sampling parameter vectors from a Bayesian posterior distribution...we use a\
+    \ set of downscaled historical and future climate scenarios based on Earth System\
+    \ Models...The projections of the climate-enhanced stock assessment are conducted\
+    \ for a set of harvest control rules that set fully-selected fishing mortality...p\
+    \ y  =   p base +\u03B1    E  y +\u03B5   y  \u03B5 y  \u223C  N    (0       \
+    \    ;\u03C32)  (1a); p y  =   p base e\u03B1 Ey+\u03B5  y  \u03B5   \u223C  N\
+    \    (0           ;\u03C32) (1b)\nHighlights: These catch time-series reflect\
+    \ \u201Cperfect information\u201D given a model configuration, set of environmental\
+    \ variables and harvest control rule. However, additional risk will arise if management\
+    \ is based on one catch time-series when the true population model differs from\
+    \ that used to construct the catch series...\nMore Notes: The actual stock assessment\
+    \ of EBS Pacific cod (Barbeaux et al., 2022) is based on a single-sex age-structured\
+    \ population dynamics model...The assessment model configurations differ in terms\
+    \ of which parameters are time-varying and the data used for parameter estimation...\n"
+  4: "yaml\nEvaluation overview: No relevant information\nDrivers of Risk: \"...\u03B1\
+    \ is the parameter that links the parameter p to the environmental variable E...\"\
+    \ and \"...those related to future recruitment deviations about mean recruitment\
+    \ and the parameters that link recruitment and L1.5 to the environmental variables.\"\
+    \nQuantitative material: No relevant information\nMethodology: \"The Bayesian\
+    \ sampling was based on the NUTS MCMC algorithm (Monnahan et al., 2016)...Convergence\
+    \ was defined as all effective sample sizes above 500 and \u0302R values less\
+    \ than 1.022 (Vehtari et al., 2021).\" and \"Use of Akaike Information Criterion\
+    \ (AIC) is employed to select an environmental model from several scenarios.\"\
+    \nHighlights: \"Given the focus on projections, these parameters are likely to\
+    \ be less influential than the parameters that were estimated during the Bayesian\
+    \ sampling process, in particular those related to future recruitment deviations\
+    \ about mean recruitment and the parameters that link recruitment and L1.5 to\
+    \ the environmental variables.\" and \"an aim of this paper is to capture parameter\
+    \ as well as model uncertainty given this is best practice for stock assessments.\
+    \ Consequently, the model projections (Fig. 2B) are based on deriving alternative\
+    \ catch series from 1000 draws from posterior distributions.\"\nMore Notes: \"\
+    Consequently, it was necessary to fix some of the parameters to their maximum\
+    \ likelihood estimates (mainly those parameters related to selectivity, survey\
+    \ catchability, but also the initial fishing mortality, the parameters determining\
+    \ ageing error and the extent of uncertainty associated with the composition data,\
+    \ and the base level for L1.5 parameter; Table 1 asterisks) when applying the\
+    \ NUTS algorithm to obtain convergence of the Bayesian sampling algorithm (Monnahan\
+    \ et al., 2019).\"\n"
+  5: "Source material here.\nThe analyses consider models related to possible environmental\
+    \ drivers of the population parameters for Pacific cod (environmental models hereafter),\
+    \ as well as a null environmental model (0) without environmental drivers: L1.5\
+    \ is related to sea surface temperature (SST) in summer (June-August) in the southern\
+    \ Bering Sea... deviations in recruitment about mean recruitment are related to\
+    \ sea surface or bottom temperature during the spawning season of March and April...\
+    \ deviations in recruitment about mean recruitment are related to ocean pH (surface\
+    \ and bottom) during the spawning season (March and April) in the southern Bering\
+    \ Sea. We use environmental time-series based on dynamically downscaled hindcasts\
+    \ (boundary conditions forced by CORE-CFS), historical runs (unique to each Earth\
+    \ System Model), and projections from the output of a high-resolution oceanographic\
+    \ model... a high-resolution oceanographic model for the eastern Bering Sea at\
+    \ 10 km horizontal resolution (Bering10K ROMSNPZ), which includes hindcasts of\
+    \ the physical and lower trophic level conditions in the region during 1970\u2013\
+    2022, historical timeseries for each Earth System Model (1980 - 2015), and projected\
+    \ conditions under future emission scenarios from 2022 to 2100... based on this\
+    \ analysis we used the delta-corrected timeseries... The CMIP6 Earth System Models\
+    \ (i) downscaled through the ROMSNPZ Bering Sea model were GFDL-ESM4, CESM-CAM6,\
+    \ and MIROC-ES2L... The future CMIP6 emission scenarios (k) were Shared Socioeconomic\
+    \ Pathways 1\u20132.6. (ssp126) and 5\u20138.5 (ssp585)... Hurst et al. (2019)\
+    \ found some sensitivity of behaviour, growth, and lipid composition of larval\
+    \ Pacific cod to CO2 levels... higher temperatures may lead to high yolk sac absorption\
+    \ and poor feeding conditions (Shotwell et al., 2022)... laboratory studies on\
+    \ larval cod have shown a relationship between the growth rates and temperature\
+    \ (Laurel et al., 2008), and temperature impacts on cod hatch rates and recruitment\
+    \ have also been documented (Laurel and Rogers, 2020; Litzow et al., 2022). Fig.\
+    \ 3. Data available for the assessment of eastern Bering Sea Pacific cod. Note\
+    \ that only one of the models (4) makes use of the fishery CPUE data.' and based\
+    \ on the data categories in the figure.\n"
+  6: "The evaluation of harvest control rules is mentioned in: \"The management advice\
+    \ for EBS Pacific cod is based on the North Pacific Fishery Management Council\
+    \ Tier 3 40\u20135 harvest control rule ... does not explicitly account for the\
+    \ economic factors associated with fishing ... We thus considered a different\
+    \ harvest control rule that aimed to set the target fishing mortality to that\
+    \ predicted to maximize net revenue.\"\n\nEconomic and productivity factors as\
+    \ drivers of risk are highlighted here: \"This harvest control rule relates to\
+    \ achieving sustainable yields but does not explicitly account for the economic\
+    \ factors associated with fishing that can be related to optimum yield (OY) under\
+    \ the USA Magnuson-Stevens Act.\"\n\nQuantitative estimates are drawn from the\
+    \ specification of models and parameters: \"The specifications of the four assessment\
+    \ model configurations ... The parameters indicated by asterisks are fixed at\
+    \ their MLEs for the Bayesian analyses ... Total estimated parameters 504.\"\n\
+    \nMethodology is referenced through the applied Bayesian analyses: \"For the Bayesian\
+    \ analyses, the base value is estimated but the annual deviations are set to the\
+    \ MLEs ... Recruitment deviations (future) Estimated (2021-2099).\"\n\nThe highlight\
+    \ on the alternative harvest control rule for EBS Pacific cod and its focus on\
+    \ net revenue is found in: \"We thus considered a different harvest control rule\
+    \ that aimed to set the target fishing mortality to that predicted to maximize\
+    \ net revenue.\"\n\nThe analysis of the economic value of the cod fishery is described\
+    \ with: \"A decomposition of profits for these vessels, by area, species, and\
+    \ gear, forms the empirical basis for evaluating the economic value of the cod\
+    \ fishery in the eastern Bering Sea.\"\n"
+  7: "yaml\nEvaluation overview: \"The conservation-related performance metrics used\
+    \ to summarize the outcomes of the analyses were the probability of the spawning\
+    \ biomass dropping below 20 % of the unfished spawning biomass... while the economic\
+    \ performance metrics were the average catch over the first 20 and last 20 years\
+    \ of the projection period and the ratio of the average profit over the last 20\
+    \ years (2080\u20132099) of the projection period relative to the average profit\
+    \ over the first 10 years of the projection period (2023\u20132032) and the annual\
+    \ average variation in catch during the first 20 and last 20 years of the projection\
+    \ period.\"\nDrivers of Risk: \"Of the models including environmental drivers,\
+    \ that which assumes that summer SST is related to the annual deviations in L1.5\
+    \ and those in recruitment about mean recruitment leads to the lowest value for\
+    \ AIC (Model 2; Table 2). Summer SST is the \u201Cbest\u201D environmental variable\
+    \ for both of these population parameters.\"\nQuantitative material: \"Values\
+    \ for \u0394 AIC and the AIC weights for the models with different selections\
+    \ related to environmental drivers of growth and recruitment. (a) \u0394 AIC...\
+    \ (b) AIC weights.\"\nMethodology: \"The first set of projections involved exploring\
+    \ structural uncertainty in the climate coupling by projecting the four assessment\
+    \ model configurations (Table 1) based on the maximum likelihood estimates (MLEs)\
+    \ of their parameters for the six environmental scenarios...The second set of\
+    \ projections was focused on exploring the effects of structural error through\
+    \ projecting the 56 catch series for the MLE estimates of the parameters for 24\
+    \ models...The third set of projections was focused on quantifying process and\
+    \ parameter uncertainty by sampling the posterior distributions for the 24 future\
+    \ states.\"\nHighlights: \"Of the models including environmental drivers...Summer\
+    \ SST is the \u201Cbest\u201D environmental variable for both of these population\
+    \ parameters...The best fit model with environmental drivers implies that increasing\
+    \ sea surface temperature in summer...will lead to faster growth (larger L1.5)\
+    \ but lower expected recruitment. The effect of temperature on recruitment is\
+    \ stronger than that of temperature on growth.\"\n"
+  8: 'The paper discusses the projected decline in Pacific cod in the eastern Bering
+    Sea, noting that "the catches and spawning biomass of Pacific cod in the eastern
+    Bering Sea will decline over time, particularly after about 2040." It identifies
+    "summer sea surface temperatures" as a key environmental driver affecting Pacific
+    cod recruitment, as noted in the scatter plot descriptions and the relationship
+    between recruitment and SST. Quantitatively, it is mentioned that "even the more
+    optimistic ones (i.e., ssp126), result in a spawning biomass below the target
+    level of 40% of the unfished level by the end of the projection period," with
+    some scenarios projecting it to "drop below 20% of unfished spawning biomass."
+    The methodology is described as involving "the impact of assessment model configuration
+    on the performance metrics...based on the output of MIROC for the ssp126 emission
+    scenario." The highlights include that "projections based on CESM ssp585 and GFDL
+    ssp585" are particularly pessimistic, and the scenario outcomes depend heavily
+    on whether a "threshold harvest strategy is...applied."
+
+    '
+  9: "yaml\nEvaluation overview: \"The consequences of future climate impacts on cod\
+    \ in the north Pacific have been examined using extended single-species models...\"\
+    \nDrivers of Risk: \"Posterior distributions for the effect of summer sea surface\
+    \ temperature on L1.5 (a, c) and expected recruitment (b, d), and the time-trajectories\
+    \ of summer sea surface temperature for the six environmental scenarios (e: ssp126,\
+    \ f: ssp585).\"\nQuantitative material: \"Figs. 10 and 11 show the probability\
+    \ of the spawning biomass being below four thresholds based on the projections\
+    \ that account for assessment model, environmental scenario, and parameter uncertainty\
+    \ and future process error. As expected from Figs. 6\u2013 9, there is little\
+    \ effect of assessment model configuration on risk, in contrast to whether future\
+    \ catch limits are based on models that account for environmental drivers.\"\n\
+    Methodology: \"Fig. 9 shows the same information as Fig. 8 except that it also\
+    \ reflects the impact of parameter uncertainty via samples from the posterior\
+    \ distribution and process error. The results for the null environmental model\
+    \ and those where the catches from MIROC ssp126 are applied are less pessimistic\
+    \ when account is taken of these uncertainties...\"\nHighlights: \"In contrast,\
+    \ basing future catches on the environmental scenario that leads to the poorest\
+    \ outcomes (GFDL ssp585) keeps the stock generally above the threshold of 20%\
+    \ of unfished spawning biomass.\"\n"
+  10: "The analysis evaluates the impact of environmental scenarios on Pacific cod\
+    \ stock outcomes, focusing on spawning biomass and catch: \"Estimated (1977\u2013\
+    \ 2023) and projected (2024\u2013 2099) time-trajectories of spawning biomass\
+    \ and catch under six environmental scenarios based on the best fit environmental\
+    \ model.\"\n\nIncreased temperature impacts recruitment negatively and influences\
+    \ weight-at-age positively: \"Results highlight that increases in temperature\
+    \ will lead to lower recruitment while concurrently leading to higher weight-at-age.\"\
+    \n\nThe analysis provides estimated and projected trajectories for spawning biomass\
+    \ and catch from 1977 to 2099 under various scenarios: \"Estimated (1977\u2013\
+    \ 2023) and projected (2024\u2013 2099) time-trajectories of spawning biomass\
+    \ and catch under six environmental scenarios.\"\n\nUtilizes environmental scenarios\
+    \ and different assessment model configurations to project future spawning biomass\
+    \ and catch; results pertain to the 40-5 control rule: \"Results are shown for\
+    \ four assessment model configurations 1\u2013 4 (rows). The results in this figure\
+    \ pertain to the 40\u2013 5 control rule.\"\n\nCurrent harvest control rules may\
+    \ lead to declines in biomass and catch if continued; sloped harvest control rules\
+    \ benefit conservation and utilization: \"The harvest control rules considered\
+    \ in this paper...fail to conserve the stock in many cases...suggest that declines\
+    \ in biomass and catch will take place if the current harvest control rules continue\
+    \ to be used...we observed benefits in terms of both conservation and utilization\
+    \ performance of adopting a sloped (or threshold) harvest control rule.\"\n"
+  11: null
+  13: 'Quotes or Evidence: "The projection accounts for parameter uncertainty and
+    process error", "bars in the upper right corner reflect the probability of being
+    below 20% of unfished spawning biomass", "stationarity in the relationship between
+    environmental conditions and recruitment", "assumes stationarity in the relationship
+    between environ- mental conditions and recruitment and does not account for potential",
+    "Recent studies indicate that the spawning area of EBS Pacific cod may expand",
+    "relationships may change over time", "past experience with relationships between
+    environmental variables and recruitment (Myers, 1998) suggests that such relationships
+    may change over time."
+
+    '
+  14: "yaml\nEvaluation overview: \"Probability of spawning biomass dropping below\
+    \ four threshold levels (rows 1 to 4 and the distribution for the relative profit;\
+    \ medians, 50% intervals, and 90% intervals) for the 28 catch time-series\"\n\
+    Drivers of Risk: \"We explored the effects of temperature and pH on growth and\
+    \ recruitment of Pacific cod. However, increased temperature was found to also\
+    \ be associated with increased metabolic demand ... and mortality ... and with\
+    \ decreased availability and energy content of prey\"\nQuantitative material:\
+    \ \"Probability of spawning biomass dropping below four threshold levels (rows\
+    \ 1 to 4 and the distribution for the relative profit; medians, 50% intervals,\
+    \ and 90% intervals) for the 28 catch time-series\"; \"The image is a series of\
+    \ bar plots and a line plot comparing different models labeled from \"Null Model\"\
+    \ to \"Model=4,\" each with six columns...The y-axis label of the bar plots rows\
+    \ is \"Post pred. loss (PPL),\" and for the line plot, it is \"Relative PPL.\"\
+    \"\nMethodology: \"for the 28 catch time-series based on the 40\u2013 5 control\
+    \ rule for the projections for the best fit model that account for parameter uncertainty\
+    \ and future process error. LRP denotes the limit reference point of 0.2B0. ssp\
+    \ refers to the catch limit used in the simulation (e.g., \u201C MIROC ssp126\u201D\
+    \ refers to simulations where the catch limit from \u201C MIROC 126\u201D was\
+    \ applied to all models in the corresponding simulation year).\"; \"updating projections\
+    \ based on climate-enhanced stock assessments\"\nHighlights: \"updating projections\
+    \ based on climate-enhanced stock assessments and reviewing consistency of relationships\
+    \ between environmental variables and population parameters should be a standard\
+    \ part of the assessment process for stocks likely to be subject to future environmental-\
+    \ and climate-driven dynamics.\"; \"Displays error bars extending vertically from\
+    \ a central line...The x-axis label indicates models, ranging from Null Model\
+    \ to Model=4.\"\n"
+  15: null
+  16: "Source material here.\nEvaluation overview: \"our results indicate declines\
+    \ in biomass and catch for EBS Pacific cod, will increase with future levels of\
+    \ climate warming\"\nDrivers of Risk: \"declines in biomass and catch for EBS\
+    \ Pacific cod, will increase with future levels of climate warming\" and \"basing\
+    \ catch limits on the null environmental model or MIROC ssp126 ... is predicted\
+    \ to lead to population crash.\"\nQuantitative material: \"basing catch limits\
+    \ on the null environmental model or MIROC ssp126 ... is predicted to lead to\
+    \ population crash\" and \"setting catch limits based GFDF ssp585 generally keeps\
+    \ the stock above the threshold of 20% of unfished spawning biomass.\"\nMethodology:\
+    \ \"The projections are undertaken under the assumption of \u201Cset and forget\u201D\
+    \ management\" and \"our method provides best practices for more fully quantifying\
+    \ uncertainty in climate-enhanced assessment methods.\"\nHighlights: \"The NPFMC\
+    \ 40\u20135 harvest control rule attenuates biomass declines relative to a constant\
+    \ FMEY harvest control rule\" and \"Climate effects in the scenarios with the\
+    \ highest warming rates exceed the benefit of the harvest control rule by the\
+    \ end of the century (under GFDL, and MIROC ssp585 forcing scenarios).\"\n"

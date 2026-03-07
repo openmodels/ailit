@@ -1,0 +1,484 @@
+Drivers of Risk:
+  1: Simultaneous soybean failures are driven mostly by changes in mean climate conditions
+    rather than changes in climate variability.
+  2: The paper identifies adverse weather conditions, particularly extreme weather
+    and climate variability, as drivers of crop growth failures.
+  4: The paper considers temperature and precipitation as drivers of soybean yield
+    variability, focusing on a 3-month season around the soybean maturity date. Country-specific
+    factors such as management practices are also considered.
+  5: Trends in mean climate (temperature and precipitation) and in climate variability.
+  6: Future climatic forcing conditions, particularly increasing CO2 concentrations
+    and associated climate sensitivity, drive the risk of soybean yield losses.
+  7: The driving climatic anomalies are drier conditions in the first and second months,
+    wetter in the last month, warmer temperatures in the second and third months,
+    and cooler in the first month, creating a scenario of hotter and drier-than-average
+    conditions except for the third month, which has slightly wet conditions.
+  8: The paper highlights climatic conditions, specifically precipitation and temperature
+    anomalies, as key factors impacting the 2012 analog events.
+  9: Shocks impacting outcomes include compounding hot and dry conditions during the
+    soybean reproductive season.
+  10: The study investigates simultaneous yield losses through crop yield anomalies
+    in important growing regions under different climate scenarios.
+  11: The analysis considers the omission of CO2 fertilization effects, uses three
+    GCMs with different climate sensitivities, and evaluates scenarios reflecting
+    extreme climate conditions to assess risk impacts.
+  12: Long-term mean effects of climate change are the primary driver of increased
+    risk of simultaneous extreme soybean losses. Climate variability is expected to
+    increase regionally in all three countries, but not the joint occurance of extreme
+    losses in the Americas.
+Evaluation overview:
+  1: The study evaluates the increase in simultaneous soybean failures due to climate
+    change, focusing on yield losses and their impact on supply chains.
+  2: The study evaluates the impact of climate change on extreme simultaneous soybean
+    failures in the Americas.
+  4: The paper evaluates soybean yield losses in South America.
+  5: Weather-induced crop failures, specifically simultaneous soybean failures.
+  6: Projected soybean yields are evaluated, focusing on the number and magnitude
+    of events analogous to the 2012 drought-induced yield loss.
+  7: This page evaluates soybean yield anomalies in an adaptation scenario, comparing
+    losses with respect to historical climatology and the 2012 event.
+  8: The outcome being evaluated includes the occurrence and frequency of country-level
+    and aggregated 2012 analogs impacting soybean yields across the US, Brazil, and
+    Argentina.
+  9: The study provides an overview of the impact of climate conditions on soybean
+    production, focusing on yield anomalies and crop failures in the US, Brazil, and
+    Argentina.
+  11: The paper focuses on the impacts on soybean yields and production in the US,
+    Brazil, and Argentina under different scenarios without long-term trends in the
+    adaptation scenario.
+  12: Extreme soybean losses in the Americas, specifically focusing on simultaneous
+    extreme losses.
+Highlights:
+  1: Adaptation of crop production practices to long-term mean climate trends can
+    reduce future risk of simultaneous soybean losses across the Americas.
+  2: The study explores the frequency and magnitude of extreme soybean failures in
+    the Americas, evaluating both synchronized and localized yield declines.
+  4: The paper investigates the risk of future soybean failures by identifying analogs
+    to historical extreme events (specifically the 2012 yield loss event).
+  5: The hybrid model outperforms other models for the three metrics considered (R^2,
+    MAE, RMSE) when analyzed across three countries and individually. The hybrid model
+    obtains the lowest sum of absolute errors for the 2012 event.
+  6: Without adaptation, 2012-like yield losses become more frequent and severe, particularly
+    under high-forcing scenarios (SSP5-8.5). Adaptation significantly reduces the
+    frequency and magnitude of these analogs, making them approximately 11-16 times
+    less likely. Trends in mean climate dominate the risk of 2012 analogs.
+  7: Impact analogs in the adaptation scenario show increased damages for the US,
+    Brazil, and Argentina compared to the 2012 event, demonstrating variability in
+    climatic conditions.
+  8: Key outcomes include increased frequency and losses of country-level analogs
+    for soybean failures, with the US having the highest number of occurrences.
+  9: Successful adaptation to changes in mean climate has the potential to minimize
+    climate change-caused impacts on soybean failures, with increased losses expected
+    under future conditions.
+  10: The results suggest that the frequency of simultaneous crop yield failures in
+    the US, Brazil, and Argentina is projected over the century, with certain scenarios
+    highlighting different levels of future risks.
+  11: Expansion of soybean areas contributes to deforestation in the Amazon, impacting
+    precipitation and natural vegetation that offers resilience against weather extremes.
+  12: The increase in risk of simultaneous extreme soybean losses is mainly driven
+    by long-term mean climate change effects, not changes in climate variability concerning
+    joint occurances in the Americas. Adaptation to mean climate change can minimize
+    these risks.
+Methodology:
+  1: A hybrid crop model, combining a process-based model with machine learning, is
+    used to simulate soybean production and assess risks under different future climate
+    scenarios.
+  2: The study uses a hybrid model combining process-based and statistical models
+    to link weather conditions to crop yields, and examines future scenarios including
+    trends in mean climate and climate variability.
+  3: Yields from 1979 to 2015 are selected based on data availability from the U.S.,
+    Brazil, and Argentina.
+  4: A hybrid model is developed by combining simulated soybean yields from EPIC-IIASA
+    and climate indices as predictors in a multilayer perceptron (MLP) model, which
+    is calibrated to observed soybean yields. The MLP uses a grid-search algorithm
+    for hyperparameter tuning. The paper uses impact analogs, identifying years with
+    larger negative yield anomalies than observed in 2012, to assess future risk.
+  5: 'Two hypothetical scenarios are applied: (a) ''no adaptation scenario'' where
+    future yields are defined relative to present day, including trends in both mean
+    climate and climate variability, and (b) ''adaptation scenario'' where future
+    yields are expressed according to future baselines, excluding trends in mean climate.
+    The hybrid model simulates crop yield variability and is applied to the ''adaptation
+    scenario''. For the ''no adaptation'' scenario, mean trends from EPIC-IIASA model
+    are added to hybrid model outputs.'
+  6: The analysis uses a hybrid crop model to simulate soybean yields under different
+    Shared Socioeconomic Pathways (SSPs) and adaptation scenarios, comparing future
+    yields to the 2012 event. The results are based solely on the hybrid model outputs
+    due to its success in simulating soybean yields and representing extreme weather.
+    An 'analog event' is defined as an annual yield value at or below the 2012 yield.
+  7: The analysis uses impact analogs in an adaptation scenario, evaluating how similar
+    events to 2012 would affect country-level soybean yields.
+  8: The analysis compares past climatological anomalies with a specific 2012 event
+    to determine analog occurrences and simulate future conditions.
+  9: The analysis uses climate model simulations driven by future emission scenarios
+    and a hybrid model to simulate climate conditions on yields; results are particularly
+    applicable at the local scale and during extreme weather years.
+  10: "The analysis combines Global Gridded Crop Models (GFDL-esm4, IPSL-cm6a-lr,\
+    \ UKESM1-0-ll) with different Shared Socioeconomic Pathways (SSPs 1\u20132.6,\
+    \ 5\u20138.5) to project the frequency and probability of key events over the\
+    \ century."
+  11: Soybean harvest areas from 2012 are utilized without regard to expansion; the
+    analysis includes rainfed areas and limitations due to omission of irrigation
+    expansion effects; scenarios explore impacts from extreme climate conditions using
+    a limited set of GCMs and SSPs.
+  12: The study uses simulations to assess the impact of climate change (mean and
+    variability) on soybean losses, and highlights the utility of historic events
+    (like the 2012 crop failure) as a framework. Mentions the use of dedicated analysis
+    techniques.
+More Notes:
+  5: "The hybrid model uses total monthly precipitation (prcptot, mm) and average\
+    \ daily maximum temperature (txm, \xB0C) as inputs."
+  6: The study acknowledges that the global gridded crop model (GGCM) ensemble members
+    vary in their climate sensitivity to CO2, which influences the projected soybean
+    yields.
+  12: The data and code used in the experiment are publicly available at the provided
+    DOIs.
+No relevant information:
+  14: No relevant information
+Quantitative material:
+  1: "Long-term trends in mean climate increase the frequency of 2012 analogs by 11\u2013\
+    16 times and the magnitude by 4\u201315% depending on the global climate scenario."
+  4: The paper uses coefficient of determination (R2), Mean Absolute Error (MAE),
+    and Root Mean Squared Error (RMSE) to evaluate model performance. It also uses
+    yield anomalies compared to a 2000-2015 climatology to identify impact analogs.
+  5: Table 1 shows the Coefficient of Determination (R^2), Mean Absolute Error (MAE),
+    and Root Mean Squared Error (RMSE) for different models (EPIC-IIASA, Stat-EPIC,
+    Stat-clim, and Hybrid model).
+  6: For SSP5-8.5 (no adaptation), 82 annual yield values are at or below the 2012
+    yield, with mean losses 17% larger than the 2012 event. For SSP1-2.6 (no adaptation),
+    43 analogs are observed, with mean production losses 6% larger than the original
+    event. The adaptation scenario shows only nine analogs, with losses 2.3% (SSP5-8.5)
+    and 2.2% (SSP1-2.6) larger than the 2012 event.
+  7: "Quantitative data includes yield changes represented in ton/ha and production\
+    \ losses for the US, Brazil, and Argentina, with average losses of \u22121.5 Mt,\
+    \ \u22120.5 Mt, and \u22120.6 Mt compared to the 2012 event."
+  8: "Quantitative information includes average losses increased by \u22122.7 Mt in\
+    \ the US, \u22122.5 Mt in Brazil, and \u22122.4 Mt in Argentina with respect to\
+    \ 2012 yields."
+  9: The risk of 2012 analogs is substantially lower in an adaptation scenario, being
+    roughly 11 and 16 times less frequent and 4% and 15% less intense for SSP1-2.6
+    and SSP5-8.5, respectively.
+  12: No specific quantitative information is provided on this page, beyond references
+    to 'increase of risk'.
+sourcematerial:
+  1: "Source material here.\nEvaluation overview: While soybeans are among the most\
+    \ consumed crops in the world, most of its production lies in the US, Brazil,\
+    \ and Argentina...In this study, we explore climate change impacts on simultaneous\
+    \ extreme crop failures as the one from 2012.\nDrivers of Risk: We find long-term\
+    \ trends in mean climate increase the frequency of 2012 analogs by 11\u201316\
+    \ times...Conversely, anomalies like the 2012 event due to changes in climate\
+    \ variability show an increase in frequency in each country individually, but\
+    \ not simultaneously across the Americas.\nQuantitative material: We find long-term\
+    \ trends in mean climate increase the frequency of 2012 analogs by 11\u201316\
+    \ times and the magnitude by 4\u201315% compared to changes in climate variability\
+    \ only depending on the global climate scenario.\nMethodology: We develop a hybrid\
+    \ model, coupling a process-based crop model with a machine learning model, to\
+    \ improve the simulation of soybean production. We assess the frequency and magnitude\
+    \ of events with similar or higher impacts than 2012 under different future scenarios...\n\
+    Highlights: We deduce that adaptation of the crop production practice to the long-term\
+    \ mean trends of climate change may considerably reduce the future risk of simultaneous\
+    \ soybean losses across the Americas.\n"
+  2: 'Source material here: In this study, we explore how climate change affects extreme
+    simultaneous soybean failures in the Americas, such as the 2012 event. Specifically,
+    we develop a hybrid model to link weather conditions to crops yields and then
+    adopt the concept of impact analogs to identify events in the future with similar
+    or larger impacts than the 2012 event. The paper identifies adverse weather conditions,
+    particularly extreme weather and climate variability, as drivers of crop growth
+    failures. Adverse weather conditions are common causes of crop failures. Climate
+    change affects both long-term trends of mean climate and climate variability...extreme
+    weather events, caused by climate variability, are not easily anticipated. We
+    analyze potential changes in analog frequency and magnitude and the driving climatic
+    conditions. Results are shown both for the combined production regions (US, Brazil,
+    Argentina) and separately for each individual country, representing both synchronized
+    and localized crop yield decline.'
+  3: "Source material here.\n\"We limited our analysis to areas with rainfed soybeans\
+    \ to better capture the interactions between climate and crops. We used the SPAM2010\
+    \ data set... to select the rainfed harvest areas... We resampled the data set\
+    \ a 0.5\xB0\xD70.5\xB0 grid to match the other data sets using the first order\
+    \ conservative remapping scheme.\"\n\n\"To build the hybrid model, we used simulated\
+    \ climate data, simulated yields, and observed yields. Historical and bias-corrected\
+    \ projected climate data were obtained from the Intersectoral Impact Model Intercomparison\
+    \ Project...\"\n\n\"The projections cover the 2016\u20132100 period and are based\
+    \ on three global climate models (GCMs)... which are bias-corrected using GSWP3-W5E5\
+    \ as described in Lange (2019).\"\n\n\"The future projections are forced by two\
+    \ Shared Socioeconomic Pathways (SSPs) and Representative Concentration Pathway\
+    \ (RCP) combinations: SSP1-2.6 (low-emission future) and SSP5-8.5 (high-emission\
+    \ future).\"\n\n\"Simulated yields were sourced from the process-based GGCM EPIC-IIASA...\
+    \ All crop model simulations considered CO2 fertilization effect on crop growth.\"\
+    \n\n\"Observed yields from census data were used to train the hybrid model...\
+    \ Observed crop data in Brazil required additional data cleansing... The observed\
+    \ yield and harvest areas data sets for the three countries were resampled from\
+    \ the county level to a 0.5\xB0\xD70.5\xB0 grid...\"\n\n\"We selected observed\
+    \ data from 1979 to 2015 based on data availability for the three countries (later\
+    \ also used to train and validate the hybrid model).\"\n"
+  4: "  \n\"to assess the future risk of soybean failures.\" \n\"impact analogs to\
+    \ assess the future risk of soybean failures.\"\n\"seasonal differences between\
+    \ the regions\"\n\"temperature and precipitation...soybeans reach the maturity\
+    \ date\"\n\"The hybrid model is built by combining the simulated soybean yields\
+    \ from EPIC-IIASA and the climate indices obtained in the previous step as predictors\"\
+    \n\"temperature and available water\"\n\"The statistical model used is a multilayer\
+    \ perceptron (MLP)\"\n\"coefficient of determination (R2)...Mean Absolute Error\
+    \ (MAE) and Root Mean Squared Error (RMSE)\" \n\"impact analogs to assess the\
+    \ future risk of soybean failures...difference between the annual soybean production\
+    \ aggregated across the three countries...and the mean aggregated production across\
+    \ the three countries\"\n\"2012 analogs\"\n\"The weights of the neurons define\
+    \ their importance in the network\"\n\"We adopted the concept of impact analogs\
+    \ to assess the future risk of soybean failures\"\n"
+  5: "Source material here.\nEvaluation overview: \"We explore separately the contribution\
+    \ of trends in mean climate and in climate variability in the occurrence of simultaneous\
+    \ soybean failures.\"\nDrivers of Risk: \"The contribution of trends in mean climate\
+    \ and in climate variability... the addition of direct climatic information to\
+    \ the process-based model output...\"\nQuantitative material: \"Table 1 Out of\
+    \ Sample Performance of the Models for Three Metrics: Coefficient of Determination\
+    \ (R^2, No Unit), Mean Absolute Error (MAE, (ton/ha)^2), and Root Mean Squared\
+    \ Error (RMSE, ton/ha).\"\nMethodology: \"By applying two hypothetical scenarios:\
+    \ (a) future yields are defined relative to a present day reference... refers\
+    \ to it as 'no adaptation scenario'; (b) future yields are expressed according\
+    \ to future baselines... refers to it as the 'adaptation scenario.' The hybrid\
+    \ model was designed to simulate the variability of crop yields, and was applied\
+    \ to the 'adaptation scenario.'\"\nHighlights: \"The hybrid model outperforms\
+    \ the other models for each of the three metrics considered when the three countries\
+    \ are analyzed together... the hybrid model obtains the lowest sum of absolute\
+    \ errors for the 2012 event...\"\nMore Notes: \"We selected total monthly precipitation\
+    \ (prcptot, mm) and average daily maximum temperature (txm, \xB0C) to be used\
+    \ in the hybrid model.\"\n"
+  6: " \nEvaluation overview: This evaluation is reflected in the passage discussing\
+    \ projected soybean yields and the investigation of \"the total number of analog\
+    \ events of the 2012 event for both adaptation and no adaptation scenarios.\"\n\
+    Drivers of Risk: The document states that \"the occurrence of analogs is heavily\
+    \ dependent on the future climatic forcing conditions.\" It also mentions \"differences\
+    \ in climate sensitivity to increasing CO2 concentrations\" as a factor affecting\
+    \ projections.\nQuantitative material: Quantitative information includes specifics\
+    \ like \"a high occurrence of 2012 analogs (82 annual yield values at or below\
+    \ the 2012 yield)\" and losses \"17% larger than the original event for the SSP5-8.5%,\
+    \ and 6% for the SSP1-2.6.\" The adaptation scenario notes, \"mean losses 2.3%\
+    \ and 2.2% larger than the 2012 event\" for SSP5-8.5 and SSP1-2.6, respectively.\n\
+    Methodology: The document mentions, \"Therefore, the hybrid model is the most\
+    \ successful model at simulating soybean yields\" and discusses the use of SSPs\
+    \ and crops models to predict future outcomes.\nHighlights: Important outcomes\
+    \ such as \"2012 analogs are approximately 11 and 16 times more likely to occur\
+    \ in the no adaptation scenario than in the adaptation scenario\" highlight the\
+    \ difference in risks between scenarios.\nMore Notes: The passage acknowledges\
+    \ differences in \"Equilibrium Climate Sensitivity (ECS)\" of models used, such\
+    \ as \"GFDL-esm4\" and \"UKESM1-0-II,\" impacting projections.\n"
+  7: " \nEvaluation overview: \"We run a spatial analysis of the nine impact analogs\
+    \ in the adaptation scenario to determine the losses in each country. On average,\
+    \ the three countries show production losses with respect to the historical climatology\
+    \ during analog years.\"\n\nDrivers of Risk: \"The average climatic conditions\
+    \ of the analogs are drier than the 2012 event during the first and second months\
+    \ of the season, but wetter in the last month of the season. The analogs are on\
+    \ average warmer than the 2012 event during the second and third months, but colder\
+    \ in the first month. With respect to the historical climatology, the 2012 analogs\
+    \ climatic conditions are on average hotter and drier, except for average temperature\
+    \ levels and slightly wet conditions in the third month of the season.\"\n\nQuantitative\
+    \ material: \"When compared to the 2012 event, analogs losses in the US, Brazil\
+    \ and Argentina increase on average (in brackets the 95% confidence interval)\
+    \ by \u22121.5\_Mt (\u22124.1\_Mt, 1.0\_Mt), \u22120.5\_Mt (\u22125.9\_Mt, 4.8\_\
+    Mt), \u22120.6\_Mt (\u22124.0\_Mt, 2.8\_Mt), respectively.\"\n\nMethodology: \"\
+    We run a spatial analysis of the nine impact analogs in the adaptation scenario...\
+    \ It demonstrates the different ways that extreme impacts result from anomalous\
+    \ weather conditions, which highlights the usefulness of impact analogs.\"\n\n\
+    Highlights: \"Thus, the expected damages associated with 2012 analogs are shown\
+    \ to increase in the three countries when compared to the 2012 event.\"\n"
+  8: null
+  9: null
+  10: "The analysis combines Global Gridded Crop Models (GFDL-esm4, IPSL-cm6a-lr,\
+    \ UKESM1-0-ll) with different Shared Socioeconomic Pathways (SSPs 1\u20132.6,\
+    \ 5\u20138.5) to project the frequency and probability of key events over the\
+    \ century. Previous studies show that La Ni\xF1a phases are negatively correlated\
+    \ with soybean growing conditions in the US and southeast South America, but positively\
+    \ correlated in the central Brazil region, potentially offsetting simultaneous\
+    \ soybean failures in the three countries (Anderson et al., 2018). The image consists\
+    \ of six bar graphs labeled from (a) to (f), representing projections for different\
+    \ climate models and scenarios over time from 2020 to 2100. Each graph is a combination\
+    \ of Global Gridded Crop Models (GGCMs) (GFDL-esm4, IPSL-cm6a-lr, UKESM1-0-ll)\
+    \ and SSPs (1\u20132.6, 5\u20138.5). This, and also our results show, that the\
+    \ joint analysis of crop yield anomalies in each of the important growing regions\
+    \ is necessary to robustly assess future risk of simultaneous soybean failures."
+  11: 'Source material here: We limit our analysis to soybean yields and production...
+    As a consequence of the removal of long-term trends in the adaptation scenario,
+    the effects of CO2 fertilization are also not considered, only for the no adaptation
+    scenario. Furthermore, we selected three GCMs with different climate sensitivities
+    and considered the two most extreme SSP scenarios to obtain a diverse set of future
+    scenarios. While these scenarios show clear signals in mean climate, there is
+    sampling uncertainty in the occurrence and magnitude of extreme events. We use
+    soybean harvest areas documented for the year 2012 throughout all simulations,
+    without regarding expansions of harvesting area... We focus on rainfed harvest
+    areas based on data from 2010. Expansion of ir rigation areas in subsequent years
+    could lead to changes in the sensitivity of the studied area to weather variability...
+    However, the expansion of soybeans is a significant matter, as deforestation in
+    the Amazon has been associated with soybean expansion...and preserving natural
+    vegetation helps protecting soybeans from weather extremes.'
+  12: 'Source material: In conclusion, we find that the increase of risk of simultaneous
+    extreme soybean losses, such as the 2012 event, is primarily driven by the long-term
+    mean effects of climate change. Extreme soybean losses due to changes in climate
+    variability are expected to increase regionally in all three countries, but a
+    change in the joint occurrence of extreme soybean losses in the Americas due to
+    climate variability is not evident from our simulations. Therefore, successful
+    adaptation measures to mean climate change can help minimize the increase of risk
+    of simultaneous extreme soybean losses in the Americas. The use of historic events
+    (such as the 2012 aggregated crop yield failure) provides a useful framework for
+    these analyses. The observed soybean yield and harvested area data collected,
+    combined and processed for this work and the future projections under different
+    climate change levels are publicly available at https://doi.org/10.7910/DVN/Q8D85C,
+    https://doi.org/10.7910/DVN/Q8D85C (Goulart, 2022). ISIMIP2a Simulation Data from
+    Agricultural Sector, GFZ Data Services (Arneth et al., 2017, https://doi.org/10.5880/PIK.2017.006).
+    The code used for this experiment is available at: https://doi.org/10.5281/zenodo.7746911
+    (Goulart, 2023).'
+  14: "\n                                                                        \
+    \                 Earth\u2019s Future                                        \
+    \                                                       10.1029/2022EF003106\n\
+    \                                                              Ray, D. K., Gerber,\
+    \ J. S., Macdonald, G. K., & West, P.\_ C. (2015). Climate variation explains\
+    \ a third of global crop yield variability. Nature\n                         \
+    \                                         Communications, 6, 1\u20139. https://doi.org/10.1038/ncomms6989\n\
+    \                                                              Ray, D. K., West,\
+    \ P.\_C., Clark, M., Gerber, J. S., Prishchepov, A. V., & Chatterjee, S. (2019).\
+    \ Climate change has likely already affected global\n                        \
+    \                                          food production. PLoS One, 14(5), 1\u2013\
+    18. https://doi.org/10.1371/journal.pone.0217148\n                           \
+    \                                   Rosenzweig, C., Ruane, A. C., Antle, J., Elliott,\
+    \ J., Ashfaq, M., Chatta, A. A., et\_al. (2018). Coordinating AgMIP data and models\
+    \ across global\n                                                            \
+    \      and regional scales for 1.5 c and 2.0 c assessments. Philosophical Transactions\
+    \ of the Royal Society A: Mathematical, Physical & Engineering\n             \
+    \                                                     Sciences, 376(2119), 20160455.\
+    \ https://doi.org/10.1098/rsta.2016.0455\n                                   \
+    \                           Schauberger, B., Archontoulis, S., Arneth, A., Balkovic,\
+    \ J., Ciais, P., Deryng, D., et\_al. (2017). Consistent negative response of US\
+    \ crops to high\n                                                            \
+    \      temperatures in observations and crop models. Nature Communications, 8(1),\
+    \ 13931. https://doi.org/10.1038/ncomms13931\n                               \
+    \                               Schewe, J., Gosling, S. N., Reyer, C., Zhao, F.,\
+    \ Ciais, P., Elliott, J., et\_ al. (2019). State-of-the-art global models underestimate\
+    \ impacts from\n                                                             \
+    \     climate extremes. Nature Communications, 10(1), 1\u201314. https://doi.org/10.1038/s41467-019-08745-6\n\
+    \                                                              Shahhosseini, M.,\
+    \ Hu, G., Huber, I., & Archontoulis, S. V. (2021). Coupling machine learning and\
+    \ crop modeling improves crop yield prediction\n                             \
+    \                                     in the us corn belt. Scientific Reports,\
+    \ 11(1), 1\u201315. https://doi.org/10.1038/s41598-020-80820-1\n             \
+    \                                                 Snowdon, R. J., Wittkop, B.,\
+    \ Chen, T.-W., & Stahl, A. (2021). Crop adaptation to climate change as a consequence\
+    \ of long-term breeding. Theo-\n                                             \
+    \                     retical and Applied Genetics, 134(6), 1613\u20131623. https://doi.org/10.1007/s00122-020-03729-3\n\
+    \                                                              Song, X.-P., Hansen,\
+    \ M. C., Potapov, P., Adusei, B., Pickering, J., Adami, M., et\_al. (2021). Massive\
+    \ soybean expansion in south America since\n                                 \
+    \                                 2000 and implications for conservation. Nature\
+    \ Sustainability, 4(9), 784\u2013792. https://doi.org/10.1038/s41893-021-00729-z\n\
+    \                                                              Stevenson, S.,\
+    \ Coats, S., Touma, D., Cole, J., Lehner, F., Fasullo, J., & Otto-Bliesner, B.\
+    \ (2022). Twenty-first century hydroclimate: A continually\n                 \
+    \                                                 changing baseline, with more\
+    \ frequent extremes. Proceedings of the National Academy of Sciences of the United\
+    \ States of America,                                                         \
+    \                                                  119(12),\n                \
+    \                                                  e2108124119. https://doi.org/10.1073/pnas.2108124119\n\
+    \                                                              Stockle, C. O.,\
+    \ Williams, J. R., Rosenberg, N. J., & Jones, C. (1992). A method for estimating\
+    \ the direct and climatic effects of rising atmospheric\n                    \
+    \                                              carbon dioxide on growth and yield\
+    \ of crops: Part I\u2014Modification of the epic model for climate change analysis.\
+    \ Agricultural Systems,                                                      \
+    \                                                      38(3),\n              \
+    \                                                    225\u2013238. https://doi.org/10.1016/0308-521X(92)90067-X\n\
+    \                                                              USDA. (2022). National\
+    \ agricultural statistics service. National Agricultural Statistics Service. Retrieved\
+    \ from https://data.nal.usda.gov/dataset/\n                                  \
+    \                                nass-quick-stats\n                          \
+    \                                    van der Wiel, K., & Bintanja, R. (2021).\
+    \ Contribution of climatic changes in mean and variability to monthly temperature\
+    \ and precipitation\n                                                        \
+    \          extremes. Communications Earth & Environment, 2(1), 1\u201311. https://doi.org/10.1038/s43247-020-00077-4\n\
+    \                                                              van der Wiel, K.,\
+    \ Selten, F. M., Bintanja, R., Blackport, R., & Screen, J. A. (2020). Ensemble\
+    \ climate-impact modelling: Extreme impacts from\n                           \
+    \                                       moderate meteorological conditions. Environmental\
+    \ Research Letters, 15(3), 034050. https://doi.org/10.1088/1748-9326/ab7668\n\
+    \                                                              Vogel, E., Donat,\
+    \ M. G., Alexander, L. V., Meinshausen, M., Ray, D. K., Karoly, D., et\_ al. (2019).\
+    \ The effects of climate extremes on global\n                                \
+    \                                  agricultural yields. Environmental Research\
+    \ Letters, 14(5), 054010. https://doi.org/10.1088/1748-9326/ab154b\n         \
+    \                                                     Vogel, J., Rivoire, P.,\
+    \ Deidda, C., Rahimi, L., Sauter, C. A., Tschumi, E., et\_al. (2021). Identifying\
+    \ meteorological drivers of extreme impacts: An\n                            \
+    \                                      application to simulated crop yields. Earth\
+    \ System Dynamics, 12(1), 151\u2013172. https://doi.org/10.5194/esd-12-151-2021\n\
+    \                                                              Warszawski, L.,\
+    \ Frieler, K., Huber, V., Piontek, F., Serdeczny, O., & Schewe, J. (2014). The\
+    \ inter-sectoral impact model intercomparison project\n                      \
+    \                                            (ISI-MIP): Project framework. Proceedings\
+    \ of the National Academy of Sciences of the United States of America,       \
+    \                                          111(9), 3228\u20133232. https://\n\
+    \                                                                  doi.org/10.1073/pnas.1312330110\n\
+    \                                                              Williams, J. R.\
+    \ (1995). The EPIC model. In V. P. Singh (Ed.), Computer models of watershed hydrology\
+    \ (pp.\_  909\u20131000). Water Resources\n                                  \
+    \                                Publications.\n                             \
+    \                                 Wing, I. S., De Cian, E., & Mistry, M. N. (2021).\
+    \ Global vulnerability of crop yields to climate change. Journal of Environmental\
+    \ Economics and\n                                                            \
+    \      Management, 109, 102462. https://doi.org/10.1016/j.jeem.2021.102462\n \
+    \                                                             Wolski, P., Lobell,\
+    \ D., Stone, D., Pinto, I., Crespo, O., & Johnston, P. (2020). On the role of\
+    \ anthropogenic climate change in the emerging food\n                        \
+    \                                          crisis in southern Africa in the 2019\u2013\
+    2020 growing season. Global Change Biology, 26(5), 1\u20132. https://doi.org/10.1111/gcb.15047\n\
+    \                                                              Xie, W., Xiong,\
+    \ W., Pan, J., Ali, T., Cui, Q., Guan, D., et\_ al. (2018). Decreases in global\
+    \ beer supply due to extreme drought and heat.       Nature\n                \
+    \                                                  Plants, 4(11), 964\u2013973.\
+    \ https://doi.org/10.1038/s41477-018-0263-1\n                                \
+    \                              Xu, J., Gao, J., de Holanda, H. V., Rodr\xEDguez,\
+    \ L. F., Caixeta-Filho, J. V., Zhong, R., et\_al. (2021). Double cropping and\
+    \ cropland expansion boost\n                                                 \
+    \                 grain production in Brazil. Nature Food, 2(4), 264\u2013273.\
+    \ https://doi.org/10.1038/s43016-021-00255-3\n                               \
+    \                               Yu, Q., You, L., Wood-Sichra, U., Ru, Y., Joglekar,\
+    \ A. K. B., Fritz, S., et\_ al. (2020). A cultivated planet in 2010\u2014Part\
+    \ 2: The global gridded\n                                                    \
+    \              agricultural-production maps. Earth System Science Data, 12(4),\
+    \ 3545\u20133572. https://doi.org/10.5194/essd-12-3545-2020\n                \
+    \                                              Zampieri, M., Ceglar, A., Dentener,\
+    \ F., & Toreti, A. (2017). Wheat yield loss attributable to heat waves, drought\
+    \ and water excess at the global,\n                                          \
+    \                        national and subnational scales. Environmental Research\
+    \ Letters, 12(6), 064008. https://doi.org/10.1088/1748-9326/aa723b\n         \
+    \                                                     Zhang, D., Zang, G., Li,\
+    \ J., Ma, K., & Liu, H. (2018). Prediction of soybean price in China using QR-RBF\
+    \ neural network model. Computers and\n                                      \
+    \                            Electronics in Agriculture, 154, 10\u201317. https://doi.org/10.1016/j.compag.2018.08.016\n\
+    \                                                              Zhao, C., Liu,\
+    \ B., Piao, S., Wang, X., Lobell, D. B., Huang, Y., et\_al. (2017). Temperature\
+    \ increase reduces global yields of major crops in four\n                    \
+    \                                              independent estimates. Proceedings\
+    \ of the National Academy of Sciences of the United States of America,       \
+    \                                                                            \
+    \                                                  114(35), 9326\u20139331. https://doi.\n\
+    \                                                                  org/10.1073/pnas.1701762114\n\
+    \                                                              Zhu, X., & Troy,\
+    \ T. J. (2018). Agriculturally relevant climate extremes and their trends in the\
+    \ World\u2019s major growing regions.   Earth's Future,            6(4),\n   \
+    \                                                               656\u2013672.\
+    \ https://doi.org/10.1002/2017EF000687\n                                     \
+    \                         Zilli, M., Scarabello, M., Soterroni, A. C., Valin,\
+    \ H., Mosnier, A., Lecl\xE8re, D., et\_al. (2020). The impact of climate change\
+    \ on Brazil\u2019s agriculture.\n                                            \
+    \                      Science of the Total Environment, 740, 139384. https://doi.org/10.1016/j.scitotenv.2020.139384\n\
+    \                                                              Zscheischler, J.,\
+    \ Orth, R., & Seneviratne, S. (2017). Bivariate return periods of temperature\
+    \ and precipitation explain a large fraction of European\n                   \
+    \                                               crop yields. Biogeosciences Discussions,\
+    \ 14, 3309\u20133320. https://doi.org/10.5194/bg-14-3309-2017\n              \
+    \                                                References From the Supporting\
+    \ Information\n                                                              Folberth,\
+    \ C., Elliott, J., M\xFCller, C., Balkovic, J., Chryssanthacopoulos, J., Izaurralde,\
+    \ R. C., et\_ al. (2016). Uncertainties in global crop model\n               \
+    \                                                   frameworks: Effects of cultivar\
+    \ distribution, crop management and soil handling on crop yield estimates. Biogeosciences\
+    \ Discussions, 1\u201330.\n                                                  \
+    \                https://doi.org/10.5194/bg-2016-527\nGOULART ET\_AL.        \
+    \                                                                            \
+    \                                                                            \
+    \                                                            14 of 14\n"
