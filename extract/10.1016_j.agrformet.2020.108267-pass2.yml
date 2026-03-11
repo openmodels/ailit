@@ -1,0 +1,307 @@
+Drivers of Risk:
+  1: "Meteorological variables such as minimum temperature, fluctuating temperatures\
+    \ around 0\xB0C, and windchill during cold periods are identified as key factors\
+    \ affecting winter kill of canola."
+  2: Temperature and precipitation during the winter period are critical for effective
+    winter survival of winter canola.
+  3: Winter harshness characterized by various meteorological variables like temperature,
+    wind, and precipitation impacts canola winter survival.
+  4: Meteorological variables, specifically cold period variables such as minimum
+    temperature, number of days with certain temperature thresholds, wind, precipitation,
+    evapotranspiration, solar radiation, vapor pressure deficit, and growing degree
+    days (Table 3).
+  5: The decision tree analysis highlights meteorological variables such as colder
+    temperatures, cumulative evapotranspiration, and mean windchill as impacting survival
+    outcomes.
+  6: Meteorological survival clusters categorized as poor, medium, and high impact
+    genotype survival.
+  7: "Meteorological variables during the cold period (CP) such as Colder (5 days),\
+    \ ncycle (24 cycles), cET (465 mm cumulative ET), meanWindchill (-3.6\u25E6C),\
+    \ Colder_pct (3%), and maxTmean (13.4\u25E6C)."
+  12: No relevant information
+Evaluation overview:
+  1: The paper provides an overview of winter survival response of canola in the US,
+    specifically evaluating plant survival rates across different winter conditions.
+  2: No relevant information
+  3: The paper evaluates canola winter survival, which is visually estimated as the
+    percentage of plants alive in spring compared to those present before winter.
+  4: Survival of canola germplasm.
+  5: The paper evaluates meteorological survival clusters for canola across various
+    U.S. locations based on cold period weather data.
+  6: The study evaluates winter survival of different canola genotypes across meteorological
+    survival clusters.
+  7: Winter survival of canola, ranging from 0 to 100%.
+  12: No relevant information
+Highlights:
+  1: "A large area south of 35\xB0N latitude in the US is identified as having greater\
+    \ potential for overwintering success; canola genotypes are categorized into tolerant,\
+    \ semi-tolerant, semi-susceptible, and susceptible groups based on survival under\
+    \ different meteorological conditions."
+  2: Significant breeding efforts have increased the winter hardiness of canola genotypes.
+  4: The study predicts meteorological survival class based on meteorological covariates
+    (MSce) and estimates the area of adaptation of canola germplasm based on the risk
+    of survival.
+  5: Key insights include the geographical distribution of survival clusters across
+    the U.S., depicted through a U.S. map with pie charts indicating the proportion
+    of clusters.
+  6: Environmental factors (E) explain the majority (71%) of the variation in canola
+    winter survival.
+  7: 'Canola winter survival was determined by meteorological survival cluster and
+    its interaction with genotype. Four different genotype-specific behaviors were
+    identified: tolerant, semi-tolerant, semi-susceptible, and susceptible.'
+  12: No relevant information
+Methodology:
+  1: The analysis uses regression tree analysis on a winter survival dataset from
+    National Winter Canola Variety Trials and 40 years of meteorological data to model
+    survival probabilities and define adaptation areas.
+  2: The analysis models winter canola survival based on meteorological factors and
+    builds probabilistic response models using historical meteorological data from
+    various site-years.
+  3: Meteorological data is used to create and analyze secondary variables, identify
+    cold periods, and build prediction models for canola winter survival across 40
+    years.
+  4: A multi-step process involving mixed models, cluster analysis (k-means), conditional
+    inference trees, and long-term weather data (1979-2019). Conditional inference
+    trees model meteorological survival class (MSc) as a function of meteorological
+    factors. Leave-one-out cross-validation is used for model parameterization and
+    performance estimation. K-means algorithm is used to cluster environment BLUEs
+    for survival into three groups.  Step 5 utilizes long-term daily weather records
+    (1979-2019 period)
+  5: The paper employs a conditional inference tree to classify site-years into meteorological
+    survival clusters using weather-related variables from data collected over 40
+    years.
+  6: Analysis conducted using mixed-effect models and tree models within the R framework.
+  7: A conditional inference tree classified site-year cold periods (CPs) into seven
+    terminal nodes based on meteorological variables. The classification model was
+    then used to classify each CP for 94 sites during 1979-2019 into meteorological
+    survival clusters.
+  12: No relevant information
+More Notes:
+  2: The paper emphasizes the need for understanding meteorological impact on winter
+    survival to facilitate crop diversification and increase the adaptation area.
+  6: Genotype-environment interaction (GxE) has twice the effect on survival compared
+    to genotype (G) alone.
+  7: The map (Fig. 6) shows the distribution of genotype survival groups across the
+    US. Tolerant genotypes had significantly greater survival (40%) in the poor meteorological
+    survival cluster compared to other groups (17-19%).
+  12: No relevant information
+Quantitative material:
+  1: The study categorizes cold periods into three clusters with average plant winter
+    survival rates of high (96%), medium (70%), and low (28%); probabilities for these
+    conditions are mapped for 94 US sites.
+  2: No relevant information
+  3: The analysis includes quantitative measures such as mean, minimum, and maximum
+    temperatures, and precipitation, related to winter conditions.
+  4: Table 3 provides summary statistics (minimum, mean, median, maximum, and coefficient
+    of variation) for various meteorological variables during the cold period in relation
+    to survival.
+  5: The analysis includes quantitative data on thresholds for various meteorological
+    variables used to split nodes in the decision tree, though specific percentages
+    are not detailed on this page.
+  6: G, E, and GxE explained 3%, 71%, and 7% of the variation in canola survival,
+    respectively.
+  7: Overall winter survival averaged 84%. Conditional inference tree model accuracy
+    was 58% overall, with 48% for poor, 40% for medium, and 60% for high meteorological
+    survival clusters.
+  12: No relevant information
+sourcematerial:
+  1: "Winter survival response of canola to meteorological variables and adaptative\
+    \ areas for current canola germplasm in the United States: The environment plays\
+    \ a key role influencing survival, but in-depth evaluation of meteorological factors\
+    \ has not been conducted. This research study aimed to: i) identify meteorological\
+    \ factors underpinning winter canola survival, ii) build probabilistic response\
+    \ models based on historical meteorological data for different severities of winter\
+    \ kill across the US, and iii) define areas of adaptation of current germplasm.\
+    \ A regression tree analysis indicated that meteorological variables related to\
+    \ minimum temperature, fluctuating temperatures above and below 0\xB0C, and windchill\
+    \ during the cold period were the main factors accounting for winter kill. Cold\
+    \ periods across all site-years were classified into three clusters: cold periods\
+    \ with high (96%), medium (70%), and low (28%) average plant winter survival.\
+    \ For 94 US sites, the probabilities of these conditions were calculated and summarized\
+    \ in a map that defined areas of adaptation: a large area south of 35\xB0N latitude\
+    \ for the US was identified with greater potential for overwintering success.\
+    \ Based on the response under multiple meteorological conditions, four distinct\
+    \ genotype survival groups were identified (tolerant, semi-tolerant, semi-susceptible,\
+    \ and susceptible)."
+  2: ' Drivers of Risk: "Temperature and precipitation during the winter period are
+    critical for effective winter survival." Methodology: "The specific aims of this
+    research study were to: i) model winter canola survival based on meteorological
+    factors, ii) build probabilistic response models based on historical meteorological
+    data for different severities of winter kill." Highlights: "A significant breeding
+    effort has increased the winter hardiness of canola genotypes." More Notes: "Because
+    of the complexity of the trait, a comprehensive understanding of how meteorological
+    factors impact winter survival and yield should be pursued to facilitate winter
+    canola production in new areas." '
+  3: " \nEvaluation overview: \"Winter survival is a visual estimate of the percentage\
+    \ of plants alive in spring relative to those present before the winter period.\"\
+    \nDrivers of Risk: \"Secondary weather variables to characterize winter harshness\"\
+    \ and \"Meteorological data was utilized to: i) create secondary weather variables\
+    \ to characterize winter harshness.\"\nQuantitative material: \"The variable set\
+    \ included daily minimum and maximum temperatures (\u25E6C), precipitation (mm),\
+    \ wind velocity (m s\"), solar radiation (W m\"), vapor pressure deficit (kPa),\
+    \ and evapotranspiration (mm).\"\nMethodology: \"Daily weather data were extracted\
+    \ from Google Climate Engine... for the period 1979-2019 (40 years) for each site\"\
+    \ and \"We used a log transformation. Once variance components were estimated\
+    \ (step 1), a mixed linear model was utilized to estimate the E and GxE effects\
+    \ (step 2).\"\n"
+  4: " \nEvaluation overview: \"survival classes using cluster analyses...\" and \"\
+    ...meteorological survival class as a function of meteorological predictors...\"\
+    \  \nDrivers of Risk: \"Summary statistics for meteorological variables during\
+    \ the cold period.\"  \nQuantitative material: \"Table 3 Summary statistics for\
+    \ meteorological variables during the cold period.\"  \nMethodology: \"Step 2\
+    \ used a mixed model...\" and \"using conditional inference tree methodology...\"\
+    \ and \"using long-term daily weather records (1979-2019 period)\"  \nHighlights:\
+    \ \"to estimate the area of adaptation of current canola germplasm based on the\
+    \ risk of survival\" and \"Using the classification tree was possible to predict\
+    \ meteorological survival class based on meteorological covariates (MSce).\" \
+    \ \n"
+  5: 'The paper evaluates meteorological survival clusters for canola across various
+    U.S. locations based on cold period weather data: "Terminal node bars represent
+    the proportion (left y-axis) of site-years within each meteorological survival
+    cluster (from left to right at each node: high, medium, and poor) at that node."
+
+
+    Drivers of Risk: "The decision tree analysis highlights meteorological variables
+    such as colder temperatures, cumulative evapotranspiration, and mean windchill
+    as impacting survival outcomes." Described through details on nodes and splits:
+    "Node 1: Splits based on the variable ''Colder''... Node 12: Splits based on ''meanWindchill''."
+
+
+    Quantitative material: "The analysis includes quantitative data on thresholds...
+    though specific percentages are not detailed on this page." Evidence is seen in
+    statements such as "Node 2: Further splits based on ''cET'' <= 464.5."
+
+
+    Methodology: "The paper employs a conditional inference tree to classify site-years
+    into meteorological survival clusters... over 40 years." Illustrated in both structure
+    descriptions and, "US map with the sites included in the National Winter Canola
+    Variety Trial dataset... over a period of 40 years (1979-2019)."
+
+
+    Highlights: "Key insights include the geographical distribution of survival clusters...
+    depicted through a U.S. map with pie charts." Shown in the description of the
+    map: "Key features include: Clusters: The pie charts... different survival cluster:
+    Green for ''High''... Distribution: The pie charts are scattered across the U.S."'
+  6: 'Source material here: This study sought to understand the contribution of G,
+    E and GxE on the determination of total variation on winter survival of canola.
+    Results from the analyses of variance components showed that G, E and GxE explained
+    3%, 71%, and 7% of the variation in winter canola survival, respectively. The
+    original data set (n=23,225) was integrated with predictions for MSc. Only genotypes
+    present at least once in each of poor, medium, and high, meteorological survival
+    clusters were kept. All analyses were conducted within the R framework (R Core
+    Team, 2019). Mixed model analyses were solved using the function lmer from package
+    lme4 (Bates et al., 2015). Tree models were developed using the function ctree
+    (Hothorn et al., 2006) included in the package partykit (Hothorn, 2015). The effect
+    of GxE is twice as large as G indicating that GxE is an important determinant
+    of survival.'
+  7: "Source material here.\nEvaluation overview: \"Overall, winter survival averaged\
+    \ 84%, but ranged from 0 to 100%, indicating a broad range of variation (Table\
+    \ 3).\"\nDrivers of Risk: \"The most relevant variables classifying the CP of\
+    \ 190 site-years into meteorological survival clusters and its specific binary\
+    \ splits of the final tree model were in the order of importance from high to\
+    \ low: i) Colder (5 days), ii) ncycle (24 cycles), iii) cET (465 mm cumulative\
+    \ ET), iv) meanWindchill (-3.6\u25E6C), v) Colder_pct (3%), and vi) maxTmean (13.4\u25E6\
+    C).\"\nQuantitative material: \"Overall, winter survival averaged 84%... The leave-one-out\
+    \ cross-validation procedure resulted in a model fit with overall accuracy of\
+    \ 58%. Accuracy for the poor, medium, and high meteorological survival clusters\
+    \ were 48%, 40%, and 60%, respectively.\"\nMethodology: \"The classification model\
+    \ was used to classify each CP for all 94 sites during the 1979-2019 period, into\
+    \ one of the meteorological survival clusters.\"\nHighlights: \"Canola winter\
+    \ survival was determined by meteorological survival cluster alone and as part\
+    \ of the interaction with genotype (p< 0.0001). BLUEs for genotype plus genotype\
+    \ by Sr interaction led to the identification of four different genotype-specific\
+    \ behaviors: tolerant (7 genotypes), semi-tolerant (129 genotypes), semi-susceptible\
+    \ (56 genotypes), and susceptible (10 genotypes) (Fig. 4).\"\nMore Notes: \"The\
+    \ image is a map of the contiguous United States with a series of oval markers\
+    \ representing different locations across various states... In the poor meteorological\
+    \ survival cluster, only the tolerant genotype survival group had a significant\
+    \ greater survival (40%), while the other genotype survival groups ranged from\
+    \ 17% to 19% survival.\"\n"
+  12: "\nM.A. Secchi et al.\nL\xA8a\xA8aniste, P., J\u02DCoudu, J., Eremeev, V., M\xA8\
+    aeorg, E., 2007. Sowing date influence on winter                             \
+    \   Salmon, S.C., 1918. A PRELIMINARY NOTE ON SOIL MOISTURE AND TEMPERATURE\n\
+    \     oilseed rape overwintering in Estonia. Acta Agric. Scand. Sect. B Soil Plant\
+    \  Sci. 57,                                      FACTORS IN THE WINTER-KILLING\
+    \ OF GRAIN CROPS. Science (80-.) 47 (1207).\n     342\u2013        348. https://doi.org/10.1080/09064710601029554.\
+    \                                                                 https://doi.org/10.1126/science.47.1207.173.\n\
+    Levitt, J., 1972. Responses of  plants to environmental stresses. Academic Press,\
+    \ New                                      Schilling, B.S., 2004. PhD thesis.\
+    \ University of Saskatchewan, Saskatoon, SK Canada,\n     York.              \
+    \                                                                            \
+    \                             p. 163.\nLevitt, J., 1956. The hardiness of plants.\
+    \  Acad. Press, New York, NY.                                                \
+    \     Sovero, M., 1993. Rapeseed, a new oilseed crop for the United States. J.\
+    \ Janick J.E.\nCharrad, Malika, Ghazzali, Nadia, Veronique Boiteau, A.N., 2014.\
+    \ NbClust: An R Package                                           Simon (eds.),\
+    \ New Crop. Wiley, New York. p. 302-307.\n     for Determining the Relevant Number\
+    \ of Clusters in a Data Set. Journal of Statistical                          \
+    \       Stamm, M., Berrada, A., Buck, J., Cabot, P., Claassen, M., Cramer, G.,\
+    \ Dooley, S.J.,\n     Software 61 (6), 1\u2013        36.                    \
+    \                                                                          Godsey,\
+    \ C., Heer, W., Holman, J., Johnson, J., Kochenower, R., Krall, J., Ladd, D.,\n\
+    Messina,  C.D., Technow, F., Tang, T., Totir, R., Gho, C., Cooper, M., 2018. Leveraging\
+    \                                          Moore, J., O\u2019    Neill, M.K.,\
+    \ Pearson, C., Phillips, D.V., Rife, C.L., Santra, D., Sidwell, R.,\n     biological\
+    \ insight and environmental variation to improve phenotypic prediction:      \
+    \                                      Sij, J., Sta, D., W., W., 2012.  Registration\
+    \ of \u2018Riley\u2019          winter canola. J. Plant Reg 6,\n     Integrating\
+    \ crop growth models (CGM) with whole genome prediction (WGP). Eur. J.       \
+    \                                     243\u2013        245.\n     Agron. 100,\
+    \ 151\u2013        162. https://doi.org/10.1016/j.eja.2018.01.007.           \
+    \                                    Stamm, M., Cramer, G., Dooley, S.J., Holman,\
+    \ J., Phillips, D., Rife, C., Santra, D.K., 2015.\nMourtzinis, S., Rattalino Edreira,\
+    \ J.I., Conley, S.P., Grassini, P., 2017. From grid to field:                \
+    \                   Registration of  \u2018Griffin\u2019          winter canola.\
+    \  J. Plant Reg 9, 144\u2013        148.\n     Assessing  quality of  gridded\
+    \ weather data for agricultural applications. Eur. J.                        \
+    \            Stamm, M., Dooley, S., Aiken, R., Angadi, S., Asfeld, E., Baldwin,\
+    \ B., Begna, S., Bell, J.,\n     Agron. 82, 163\u2013        172. https://doi.org/10.1016/j.eja.2016.10.013.\
+    \                                                      Berg, S., Blair, M., Braden,\
+    \ I., Brown, J., Cabot, P., Cebert, E., Damicone, J.,\nOsczevski, R., Bluestein,\
+    \ M., 2005. The new wind chill equivalent temperature chart.                 \
+    \                            Darby, H., Davis, J., Dinkla, G., Esser,  A., Holman,\
+    \ J., Job, A.,  Johnson, J., Jones-\n     Bull. Am. Meteorol. Soc 86, 1453\u2013\
+    \        1458. https://doi.org/10.1175/BAMS-86-10-1                          \
+    \               Diamond, S., Hol, J., Z., S., 2019. National Winter Canola Variety\
+    \ Trial.SRP1150.\n     453.                                                  \
+    \                                                                      Kans. Ag.\
+    \ Exp. St. and Coop. Ext. Ser..\nR Core Team, 2019.  R: A language and environment\
+    \ for statistical computing. R                                             Stamm,\
+    \ M.J., and S.L. Watson, 2013. Winter Canola Production in Kansas: Producer\n\
+    \     Foundation for  Statistical Computing, Vienna, Austria.                \
+    \                                                     Experiences. Kansas State\
+    \ University Agricultural Experiment Station and\nRapacz, M., 2002. Cold-deacclimation\
+    \ of  oilseed rape (Brassica napus var. oleifera) in                         \
+    \                 Cooperative Extension Service. MF3093. https://bookstore.ksre.ksu.edu/pubs/M\n\
+    \     response to fluctuating temperatures and photoperiod. Ann. Bot 89, 543\u2013\
+    \        549. https                                   F3093.pdf.\n     ://doi.org/10.1093/aob/mcf090.\
+    \                                                                            \
+    \            Trischuk, R.G., Schilling, B.S., Low, N.H., Gray, G.R., Gusta, L.V.,\
+    \ 2014. Cold acclimation,\nRapacz, M., 1998. The after-effects of temperature\
+    \ and irradiance during early growth of                                      \
+    \   de-acclimation and re-acclimation of spring canola, winter canola and winter\
+    \ wheat :\n     winter oilseed rape (Brassica napus L. var. oleifera, cv. Gorczanski)\
+    \ seedlings on the                                      The role of carbohydrates,\
+    \ cold-induced stress proteins and vernalization. Environ.\n     progress of their\
+    \ cold acclimation. Acta Physiol. Plant 20, 73\u2013        78. https://doi.org/10.\
+    \                              Exp. Bot. 106, 156\u2013        163. https://doi.org/10.1016/j.envexpbot.2014.02.013.\n\
+    \     1007/s11738-998-0046-9.                                                \
+    \                                               USDA-NASS, 2019. Acreage ISSN:\
+    \  1949-1522.\nRenard, D., Tilman, D., 2019. National food production stabilized\
+    \ by crop diversity.                                       Hurry, V.M., Strand,\
+    \ \xC5., Tobi\xE6son, M., Gardestr\xA8om, P.,   \xA8Oquist, G., 1995. Cold hardening\n\
+    \     Nature 571, 257\u2013        260. https://doi.org/10.1038/s41586-019-1316-y.\
+    \                                                     of spring and winter wheat\
+    \ and rape results in differential effects on growth, carbon,\nRife, C.L., Auld,\
+    \ D.L., Sunderman, H.D., Heer, W.F., Baltensperger, D.D., Nelson, L.A.,      \
+    \                                    metabolism and carbohydrate content. Plant\
+    \  Physiol. 109, 697\u2013        706.\n     Johnson, D.L., Bordovsky, D., M.,\
+    \ H.C., 2001. Registration of  \u2018Wichita\u2019          rapeseed.        \
+    \                   Waalen, W., \xD8            vergaard, S.I., \xC5ssveen, M.,\
+    \ Eltun, R., Gusta, L.V, 2013. Winter survival of\n     Crop Sci 41, 263\u2013\
+    \        264.                                                                \
+    \                               winter rapeseed and winter turnip rapeseed in\
+    \ field  trials, as explained by PPLS\nRife, C.L., Zenali,  H., 2003. Cold tolerance\
+    \ in oilseed rape over  varying acclimation                                  \
+    \        regression. Eur. J. Agron. 51, 81\u2013        90. https://doi.org/10.1016/j.eja.2013.06.004.\n\
+    \     durations. Crop Sci 43, 96\u2013        100.\n"

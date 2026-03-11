@@ -1,0 +1,468 @@
+Drivers of Risk:
+  1: Anthropogenic climate change (ACC) manifested as changes in temperature and precipitation.
+  2: Global average annual temperature and annual precipitation
+  3: Weather changes, specifically green-season average temperature (T) and precipitation
+    (P), are impacting agricultural productivity outcomes.
+  4: Warmer temperatures during the green season are detrimental to TFP growth.
+  5: Anthropogenic Climate Change (ACC), specifically temperature variables (Tmax,
+    Tmean, Tmin).
+  6: ACC is the primary driver of risk, with the study focusing on the effect of changes
+    to the climate system due to human influence.
+  8: Temperature and precipitation changes are the primary drivers of risk considered.
+  9: Changes in seasonal weather conditions, specifically temperature (Tmax, Tmin,
+    or Tmean) and precipitation. Also considers weather data aggregated over cropland
+    or cropland and pasture.
+  13: Changes in green-season average temperature (T) and total precipitation (P).
+  15: Impacts of changes in green-season average temperature (T) and total precipitation
+    (P) on agricultural productivity.
+  17: Changes in green-season average temperature (T) and green-season total precipitation
+    (P)
+  19: Changes in green-season temperatures (T) and precipitation (P) impact agricultural
+    productivity.
+  21: Changes in green-season average temperature (T) and total precipitation (P).
+  23: Green-season average temperature (T) and green-season total precipitation (P)
+  25: Changes in green-season average temperature (T) and green-season total precipitation
+    (P).
+  27: Green-season average temperature (T) and green-season total precipitation (P)
+  28: Weather variables
+Evaluation overview:
+  1: Global agricultural total factor productivity (TFP).
+  2: Agricultural Total Factor Productivity (TFP)
+  3: The page evaluates the impact of weather changes on agricultural productivity,
+    specifically focusing on Total Factor Productivity (TFP) growth.
+  4: The paper provides an overview of the impact of anthropogenic climate change
+    (ACC) on global agricultural total factor productivity (TFP) growth from 1961
+    to 2020.
+  5: Impact on global average Total Factor Productivity (TFP) and agricultural output.
+  6: The paper evaluates the impact of anthropogenic climate change (ACC) on agricultural
+    output, measured through Total Factor Productivity (TFP).
+  8: Agricultural Total Factor Productivity (TFP) growth is the outcome being evaluated.
+  9: Evaluates the impact of anthropogenic climate change (ACC) on agricultural Total
+    Factor Productivity (TFP) growth.
+  13: Agricultural productivity (country-level TFP).
+  15: Examines the response of country-level total factor productivity (TFP) in agriculture
+    to changes in green-season temperature and precipitation.
+  17: Agricultural productivity (country-level TFP)
+  19: The analysis evaluates the response of agricultural productivity (country-level
+    Total Factor Productivity, TFP) to weather changes.
+  21: Agricultural productivity (country-level TFP).
+  23: Agricultural productivity (country-level TFP)
+  25: Changes in country-level total factor productivity (TFP) of agriculture.
+  27: Agricultural productivity (country-level TFP)
+  28: Global impact of anthropogenic climate change
+Highlights:
+  1: ACC has reduced global agricultural TFP by about 21% since 1961, equivalent to
+    losing the last 7 years of productivity growth.
+  2: Average agricultural TFP has more than doubled since 1961, but there is wide
+    cross-country variation.
+  3: A robust relationship is found between agricultural TFP growth and weather changes,
+    with notable slower growth in some countries like Sub-Saharan Africa.
+  4: Higher temperatures have become more damaging to TFP growth over time; the impact
+    of ACC equates to a loss of about 7 years of productivity growth; and the temperature
+    response is steeper in recent decades (1989-2015) compared to earlier ones (1962-1988).
+  5: ACC has a negative impact on global average TFP. Impacts vary by region, with
+    warmer regions being more affected. Agriculture is growing increasingly sensitive
+    to ongoing climate change. Analyzing output rather than TFP makes global impacts
+    of ACC appear more severe. Ignoring input responses leads to an overestimation
+    of the negative impacts.
+  6: The study suggests that ACC is increasingly reducing agricultural output, with
+    a detectable and sizeable impact as of 2020. The findings raise questions about
+    the sufficiency of current investments in agricultural research to sustain productivity
+    growth rates.
+  8: The paper aims to derive a response function that relates agricultural TFP to
+    weather variables. The estimates are then used to simulate the effect of climate
+    change on global agricultural TFP. Placebo checks are used to evaluate whether
+    the estimated relationships are spurious.
+  9: Most model variations have relatively little bearing on the baseline result.
+    Revenue regression weights and the 'green season' for weather aggregation represent
+    the two most consequential modeling choices, pointing to slightly larger damage.
+    The impact distributions for FAO regions are based on 10,000 draws from the universe
+    of cumulative ACC impacts computed for all 288 model specifications, weighted
+    by the reciprocal of their out-of-sample MSE.
+  13: Response functions show how agricultural productivity changes with temperature
+    and precipitation; Placebo tests validate the significance of T and P coefficients.
+  17: Shows the response of agricultural productivity to weather changes for 1962-1988,
+    including the distribution of green-season average temperature and precipitation
+    across countries. Shows placebo checks using random mismatched data.
+  21: The response of agricultural productivity to weather is analyzed. Placebo checks
+    are performed to test the robustness of the results.
+  23: Shows response functions of TFP to temperature and precipitation, and results
+    of placebo checks.
+  25: Presents response functions showing the relationship between TFP changes and
+    green-season temperature and precipitation. Includes placebo checks to assess
+    the robustness of the findings.
+  27: Response functions show the relationship between temperature/precipitation and
+    agricultural productivity; Placebo checks suggest the observed relationships are
+    not due to random chance.
+  28: Higher bars indicate better model fit (reduction in out-of-sample MSE of a 10-fold
+    cross-validation relative to a model that excludes weather variables).
+Methodology:
+  1: Econometric model linking country-level TFP growth with weather change, using
+    a quadratic function of average temperature and total precipitation over the green
+    season; uses country-fixed and year-fixed effects.
+  2: Analysis uses Global Meteorological Forcing Dataset (GMFD) observations and CMIP6
+    (seven GCMs) modelled variables.
+  3: The analysis involves assessing TFP growth response functions to weather changes
+    and performing placebo checks by randomly mismatching or reshuffling weather data
+    by years or countries.
+  4: The study estimates the effects of temperature and precipitation on TFP growth
+    using econometric models and counterfactual weather trajectories from the CMIP6
+    climate models.
+  5: Econometric models with 96 variations are used. Models consider different functional
+    forms (Quadratic, Cubic), regression weights (Equal, Revenue), aggregation weights
+    (Cropland, Cropland and pasture), growing seasons (Calendar year, Green season),
+    and heterogeneity (Pooled, By latitude (3)). Tenfold cross-validation is used.
+    Analysis primarily based on TFP, but also considers output. Some analysis restricted
+    to 1989-2015 period. Regional impacts are constructed by weighting econometric
+    models based on how well they fit the data.
+  6: The analysis uses econometric models to estimate the impact of climate uncertainty
+    (from GCMs), econometric uncertainty (from the estimation), and specification
+    uncertainty (from the choice of the econometric model). The analysis does not
+    remove the direct effect of rising CO2 concentrations on agricultural production.
+    TFP estimates are used to measure agricultural output.
+  8: The analysis uses an econometric model regressing changes in TFP on first differences
+    of green-season average temperature and precipitation, controlling for country
+    and year fixed effects. It uses a bias-corrected spatial disaggregation (BCSD)
+    approach to downscale climate model data.
+  9: Uses econometric models with variations in functional form (quadratic or cubic),
+    weighting (equal or revenue), data aggregation (cropland or cropland & pasture,
+    calendar year vs. green season vs. green/brown seasons), and regional response
+    functions (global vs. latitudinal regions). Compares weather trajectories with
+    and without ACC from various GCMs in CMIP6. Models are bootstrapped and results
+    averaged across GCMs. Also employs 'reshuffled' datasets to test significance.
+  13: Panel data analysis with country-level TFP and weather data. Placebo checks
+    are performed by randomly mismatching or reshuffling TFP and weather data by years
+    and by country.
+  15: Uses response functions and placebo checks with bootstrapped datasets to evaluate
+    the impacts of temperature and precipitation changes on TFP.
+  17: "Analysis based on data from 1962\u20131988. Response functions are centered\
+    \ vertically so that the exposure-weighted marginal effect is zero. Bootstrapping\
+    \ is used to generate confidence bands. Placebo checks are performed by randomly\
+    \ reshuffling TFP and weather data by years and by country."
+  19: The response functions of agricultural productivity changes are analyzed against
+    weather changes from 1989 to 2015, and data is reshuffled for placebo checks.
+  21: Analysis performed on data from 1962-1988, excluding 10% of coldest countries.
+    The response functions are centered vertically so that the exposure-weighted marginal
+    effect is zero. Placebo checks are performed by randomly mismatching TFP and weather
+    data by years and by country.
+  23: Regression analysis of country-level TFP changes against green-season average
+    T and P for 1989-2015, using year-by-region block bootstraps. Includes placebo
+    checks with reshuffled datasets by year and country.
+  25: "Analysis of agricultural productivity response to weather for 1962\u20131988,\
+    \ excluding 10% of hottest countries. Uses year-by-region block bootstraps to\
+    \ generate confidence bands. Includes placebo checks with reshuffled data by years\
+    \ and by country."
+  27: Regression analysis of country-level TFP on green-season temperature and precipitation
+    from 1989-2015; Placebo checks using reshuffled data to test the robustness of
+    the relationships; Year-by-region and country block bootstrapping to estimate
+    confidence intervals
+  28: Econometric models, 10-fold cross-validation (whereby years of data are sampled
+    together).
+More Notes:
+  2: Small countries are over-represented in the simple averages of country-level
+    variables.
+  5: The estimates should not be interpreted as the effect of a world without fossil
+    fuels on global agricultural production; rather, the counterfactual removes the
+    effect that fossil fuels and other anthropogenic influences have on climate.
+  8: The analysis focuses on the 'green season', a 5-month period centered around
+    the greenest month of the year, or two seasons (green and brown) based on NDVI
+    data. Measurement error in TFP growth is unlikely to be correlated with year-to-year
+    weather changes and would not bias the result. Classical measurement error in
+    temperature or precipitation would induce attenuation bias.
+  9: Measurement error in weather variables might bias results, but comparisons across
+    datasets show minimal discrepancies. Data and code are available at a permanent
+    online repository.
+  13: Country-level distribution of green-season average T over the sample period
+    is provided.
+  15: Includes analyses excluding the hottest countries to assess the generalizability
+    of the response function.
+  20: This page contains very limited information. The text refers to "Extended Data
+    Fig. 6" and instructs the reader to "See next page for caption," implying the
+    actual relevant information is on the subsequent page. The image itself is abstract
+    and does not provide any usable information.
+  23: The distribution of green-season average T across countries is shown.
+  25: The analysis focuses on green-season averages and totals for temperature and
+    precipitation, respectively. It examines the sensitivity of the response functions
+    by excluding the hottest countries. The placebo tests involve reshuffling TFP
+    and weather data to test for spurious relationships.
+No relevant information:
+  16: No relevant information
+  26: No relevant information
+Quantitative material:
+  1: ACC has reduced global agricultural TFP by about 21% since 1961.
+  2: Average agricultural TFP has more than doubled since 1961.
+  3: Response functions of TFP growth to changes in weather variables include confidence
+    bands based on 500-year-by-region block bootstraps and 10,000 reshuffled datasets
+    for robustness checks.
+  4: "The cumulative impact of ACC on global agricultural TFP growth over the 1961\u2013\
+    2020 period is about -20.8%, with a 90% confidence interval between -39.1% and\
+    \ -10.1%."
+  5: 'Average mean impact of ACC is -16.9% with a standard deviation of 5.9%. Impact
+    on Africa: -34.0%, Near East and North Africa: -30.0%, Latin America and the Caribbean:
+    -25.9%, North America: -12.5%, Europe and Central Asia: -7.1%. Output reduction
+    due to ACC is around 27.6%.'
+  6: The paper presents impact estimates for global regions and countries, including
+    95%, 90%, and 80% confidence intervals. The colored map represents the ensemble
+    mean impact for each country. The paper suggests that ACC is increasingly reducing
+    agricultural output, culminating in a detectable and sizeable impact as of 2020.
+  8: "The paper estimates a global TFP increase of 76% over 1961\u20132015 using their\
+    \ approach, compared to a 71% rise reported by the USDA."
+  9: "Computes the cumulative impact of ACC on global agricultural TFP since 1961.\
+    \ Shows the 2,000 trajectories of the cumulative impact of ACC for all years in\
+    \ 1962\u20132020, as well as the distribution of those impacts on 2020 (Figure\
+    \ 3a). Counterfactual TFP level trajectories are contrasted with the observed\
+    \ TFP level trajectory (Figure 3b)."
+  13: Response functions show changes in country-level TFP to changes in green-season
+    average T and total P; 90% and 95% confidence bands are based on 500 year-by-region
+    block bootstraps.
+  17: Response functions of changes in country-level TFP to changes in green-season
+    average T and P; 90 and 95% confidence bands are provided.
+  21: Response function of changes in country-level TFP to changes in green-season
+    average T/P. The coloured bands represent 90 and 95% confidence bands based on
+    500 year-by-region block bootstraps.
+  23: Response functions of changes in country-level TFP to changes in green-season
+    average T and P, with 90% and 95% confidence bands.
+  25: Response functions of changes in country-level TFP to changes in green-season
+    average T and P, including confidence bands.
+  27: Response functions of changes in country-level TFP to changes in green-season
+    average T and total P; 90 and 95% confidence bands based on bootstraps; distribution
+    of green-season average T over the sample period
+  28: "Average mean impact of the 288 models out of the 298 that do not exclude observations,\
+    \ plus and minus a standard deviation (\u221216.9\u2009\xB1\u20095.9%)."
+sourcematerial:
+  1: " \nEvaluation overview: \"We quantify the impact of ACC on global agricultural\
+    \ productivity since 1961 (ref. 34). Instead of focusing on crop yield or agricultural\
+    \ output, we rely on a measure of agricultural TFP.\"\n\nDrivers of Risk: \"This\
+    \ increase affects the global weather patterns that are essential to agriculture17,18.\
+    \ However, the impacts of this ACC on the agricultural sector have not yet been\
+    \ quantified, as most research has focused on future impacts\u2026\"\n\nQuantitative\
+    \ material: \"Our baseline model indicates that ACC has reduced global agricultural\
+    \ TFP by about 21% since 1961, a slowdown that is equivalent to losing the last\
+    \ 7 years of productivity growth.\"\n\nMethodology: \"We develop a robust econometric\
+    \ model of weather effects on global agricultural total factor productivity (TFP)\
+    \ and combine this model with counterfactual climate scenarios\u2026 estimating\
+    \ an econometric model linking country-level TFP growth with weather change. Our\
+    \ model characterizes f as a quadratic function of average temperature (T) and\
+    \ total precipitation (P) over the 5-month period centred around the greenest\
+    \ month of the year of each country or \u2018green season\u2019.\"\n\nHighlights:\
+    \ \"Our baseline model indicates that ACC has reduced global agricultural TFP\
+    \ by about 21% since 1961, a slowdown that is equivalent to losing the last 7\
+    \ years of productivity growth.\"\n"
+  2: null
+  3: We find a robust relationship between agricultural TFP growth and weather changes
+    (Fig. 2 and Supplementary Table 1). Response functions are centred vertically
+    so that the exposure-weighted marginal effect is zero. a substantial range of
+    variation in /uni0394ln TFPit across countries for any given year. We also observe
+    that TFP has grown much more slowly in certain countries, particularly in Sub-Saharan
+    Africa (Fig. 1c). Response function of TFP growth to changes in green-season average
+    T (a) and P (b). Results of placebo checks whereby TFP and weather data are randomly
+    mismatched or reshuffled by years (c,e) or country (d,f). The coloured bands represent
+    90% and 95% confidence bands based on 500 year-by-region block bootstraps. The
+    distribution represents the linear and quadratic T (c,d) or P (e,f) coefficients
+    based on 10,000 reshuffled datasets.
+  4: "Source material:\nThe temperature response function is roughly linear and downward-sloping\
+    \ (Fig. 2a), indicating that warmer temperatures over the green season are detrimental\
+    \ to TFP growth. ... We demonstrate that this relationship is not likely spurious\
+    \ ...\nA critical question for climate change adaptation is whether agriculture\
+    \ is becoming more or less sensitive to climatic extremes. ... and find that the\
+    \ temperature response function is noticeably steeper for the latter half (Supplementary\
+    \ Figs. 4 and 5). This indicates that higher temperatures have become more damaging.\
+    \ ...\nThe cumulative impact of ACC on global agricultural TFP growth over the\
+    \ 1961\u20132020 period is about \u221220.8% with a 90% confidence interval between\
+    \ \u221239.1% and \u221210.1% (Fig. 3a). ...\nOur baseline global finding of the\
+    \ impact of ACC on global agricultural productivity is robust to a wide range\
+    \ of specifications of the econometric model. ...\nSpecifically, we find that\
+    \ the global TFP level projected to be reached in 2020 in our world with ACC would\
+    \ have been reached in 2013 in a world without ACC, ...\n"
+  5: "Source material: Impact estimates for 96 model variations, where lines indicate\
+    \ 90% (dark) and 95% (light) confidence intervals around the ensemble mean estimate\
+    \ for a particular model for the baseline model (Fig. 3a, blue) and alternative\
+    \ models (grey). ... Overall, the 288 models that do not exclude obser vations\
+    \ point to an average mean impact of \u221216.9% with a standard deviation of\
+    \ 5.9% ... A potential concern is that certain countries may overinfluence our\
+    \ estimates ... However, basing our analysis on the latter part of the sample\
+    \ (1989\u2013 2015) points to even larger damage ... Our global results conceal\
+    \ sizeable regional and cross-country disparities ... Impact is greater for warm\
+    \ regions such as Africa (\u221234.0%), ... Near East and North Africa (\u2212\
+    30.0%) ... analysing output rather than TFP, makes global impacts of ACC appear\
+    \ more severe. The temperature response function is steeper for output than for\
+    \ TFP ... Our estimates should not be interpreted as the effect of a world without\
+    \ fossil fuels on global agricultural production. Agriculture has benefitted tremendously\
+    \ from agricultural research and carbon-intensive inputs that would not have been\
+    \ as available without fossil fuels. The counterfactual in our study only removes\
+    \ the effect that fossil fuels and other anthropogenic influences have on climate."
+  6: "  \nSource material here.\nthe climate system. For instance, our estimates do\
+    \ not remove the direct effect that rising CO2 concentrations have on agricultural\
+    \ production or the presence of agricultural research or carbon-intensive inputs.\
+    \ In addition, the reader may be rightfully concerned about measurement error\
+    \ of our TFP metric. TFP estimates are notoriously difficult to construct and\
+    \ require considerable background work, sometimes using imperfect data sources.\
+    \ However, as long as the measurement error remains uncorrelated with year-to-year\
+    \ changes in TFP growth, which seems plausible, such errors do not bias our econometric\
+    \ estimates but simply render them more imprecise. Moreover, the TFP metric we\
+    \ rely upon likely mismeasures certain inputs, such as irrigation water use. Our\
+    \ own analysis shows that ignoring all measured inputs overstates ACC impacts,\
+    \ so the present analysis is a first step while more detailed international TFP\
+    \ statistics are produced. In conclusion, our study suggests that ACC is increasingly\
+    \ reducing agricultural output as we drift away from a climate system without\
+    \ human influences, cumulating into a detectable and sizeable impact as of 2020.\
+    \ Given recent localized productivity slowdowns, the long lags in agricultural\
+    \ research and the rapid pace of ACC, our findings raise the question of whether\
+    \ current levels of investments in agricultural research are sufficient to sustain\
+    \ twentieth-century rates of productivity growth in the twenty-first century.\n"
+  8: "Evaluation overview: \"To help map our conceptual framework to the USDA TFP\
+    \ estimates, we consider the following relationship between aggregate output,\
+    \ aggregate input, weather and technological knowledge Yit \xBC ef\xF0Zit\xDE\
+    AitXitUit... By definition, TFP for country i at time t is Yit/Xit, so that the\
+    \ percentage change in TFP for country i at time t is approximated as /uni0394ln\
+    \ TFPit \xBC /uni0394ln\xF0Yit\xDE/C0/uni0394ln\xF0Xit\xDE\xBC/uni0394lnAit\xFE\
+    /uni0394fZ\xF0\xDE\xFE/uni0394lnUit.\" Drivers of Risk: \"Our baseline model regresses\
+    \ /uni0394ln TFPit on first differences of green-season average temperature and\
+    \ precipitation: /uni0394ln TFPit\xBC\u03B21/uni0394Tit\xFE\u03B22/uni0394T2it\xFE\
+    \u03B23/uni0394Pit\xFE\u03B24/uni0394P2it\xFE\u03B1i\xFE\u03B8t\xFE/uni03F5it.\"\
+    \ Quantitative material: \"For instance, our approach indicates a global TFP increase\
+    \ of 76% over 1961\u20132015 whereas the USDA indicates a 71% rise.\" Methodology:\
+    \ \"Empirically, our econometric models seek to control for /uni0394ln Ait through\
+    \ country and year fixed effects (/uni03B1 and /uni03B8, respectively) and model\
+    \ /uni0394itf(Z) in various ways...To aggregate these modelled weather trajectories\
+    \ to the country level using the same approach as above, we first downscale these\
+    \ data from their native GCM grid to the GMFD grid using the bias-corrected spatial\
+    \ disaggregation (BCSD) approach49.\" Highlights: \"Weather parameters /uni03B2\
+    \ are subsequently used in a simulation to derive the effect of ACC on global\
+    \ agricultural TFP...The placebo checks shown in Fig. 2c\u2013f evaluate whether\
+    \ the estimated relationship is spurious.\" More Notes: \"The baseline econometric\
+    \ model relies on weather variables aggregated over the \u2018green season\u2019\
+    , a 5-month period centred around the greenest month of year of each country based\
+    \ on normalized difference vegetation index (NDVI) climatology data53...Importantly,\
+    \ note that measurement error in /uni0394ln TFPit would need to be correlated\
+    \ with /uni0394Tit and/or /uni0394Pit to induce any form of bias in the estimation\
+    \ of ^\u03B2...classical measurement error in /uni0394Tit and/or /uni0394Pit would\
+    \ induce attenuation bias, reducing the magnitude of our findings.\""
+  9: " \n\"Impact of ACC. We compute the impact of ACC on each country\u2019s agricultural\
+    \ TFP growth...\" \n\n\"The adoption of revenue regression weights and a \u2018\
+    green season\u2019 for weather aggregation represent... larger damage.\"\n\n\"\
+    This corresponds to 3 \xD7 2 \xD7 2 \xD7 2 \xD7 2 \xD7 3 \xD7 2 = 288 variations\
+    \ of the model...\"\n\n\"We perform 10,000 regressions based on datasets that\
+    \ are mismatched by year and by country...\"\n\n\"the distribution of the cumulative\
+    \ ACC impacts for each FAO region shown in Fig. 5a is based on 10,000 draws from\
+    \ the universe of cumulative ACC impacts...\"\n\n\"Measurement error affects all\
+    \ econometric analyses, and its consequences are well understood55\"\n"
+  13: The response of agricultural productivity to weather without 10% of coldest
+    countries. a, Response function of changes in country-level TFP to changes in
+    green-season average T. Response functions are centered vertically so that the
+    exposure-weighted marginal effect is zero. The baseline response function with
+    all countries is shown in dashed lines. The coloured bands represent 90 and 95%
+    confidence bands based on 500 year-by-region block bootstraps. b, Panel shows
+    the result of a placebo check whereby TFP and weather data are randomly mismatched
+    or reshuffled by years. c, Same as previous panel but based on datasets reshuffled
+    by country. d, Response function of changes in country-level TFP to changes in
+    green-season total P. The blue bars represent the country-level distribution of
+    green-season average T over the sample period. The average green-season T is indicated
+    for a select number of large countries. e, Same as panel B but for P coefficients.
+    f, Same as panel c but for P coefficients.
+  15: Extended Data Fig. 3 | The response of agricultural productivity to weather
+    without 10% of hottest countries. a, Response function of changes in country-level
+    TFP to changes in green-season average T. Response functions are centered vertically
+    so that the exposure-weighted marginal effect is zero. The coloured bands represent
+    90 and 95% confidence bands based on 500 year-by-region block bootstraps. The
+    blue bars represent the country-level distribution of green-season average T over
+    the sample period. The average green-season T is indicated for a select number
+    of large countries. b, Panel shows the result of a placebo check whereby TFP and
+    weather data are randomly mismatched or reshuffled by years. c, Same as previous
+    panel but based on datasets reshuffled by country. d, Response function of changes
+    in country-level TFP to changes in green-season total P. e, Same as panel B but
+    for P coefficients. f, Same as panel c but for P coefficients.
+  16: 'plaintext
+
+    NATURE CLIMATE CHANGE                                                                                                         ARTICLES
+
+    Extended Data Fig. 4 | See next page for caption.
+
+    NATURE CLIMATE CHANGE | www.nature.com/natureclimatechange
+
+
+    The image shows a series of gray, elongated, oval shapes arranged vertically.
+    Each shape has a speckled or textured appearance, suggesting a gradient or scattering
+    effect. The shapes are evenly spaced down the length of the image, creating a
+    pattern against the white background.
+
+    '
+  17: The page discusses the response of agricultural productivity (country-level
+    TFP) to weather changes, indicating the outcome being evaluated. It specifically
+    mentions changes in green-season average temperature (T) and total precipitation
+    (P) as impacting factors. The presence of response functions and confidence bands
+    provides quantitative information. The methodology is explained with reference
+    to the data from 1962-1988, including the use of bootstraps and placebo checks
+    through randomly reshuffled data. The main points of the analysis include the
+    presentation of the response of agricultural productivity to these weather changes
+    and the checks performed with mismatched data for validation.
+  19: "The response of agricultural productivity to weather for 1989\u20132015. a,\
+    \ Response function of changes in country-level TFP to changes in green-season\
+    \ average T. c, Same as previous panel but based on datasets reshuffled by country.\
+    \ d, Response function of changes in country-level TFP to changes in green-season\
+    \ total P. e, Same as panel B but for P coefficients."
+  20: 'The following is a page from a paper that is potentially relevant to my review:
+
+    ===
+
+    NATURE CLIMATE CHANGE                                                                                                         ARTICLES
+
+    Extended Data Fig. 6 | See next page for caption.
+
+    NATURE CLIMATE CHANGE | www.nature.com/natureclimatechange
+
+    ===
+
+    In addition, the page has the following images, as described below:
+
+    ===
+
+    The image contains five diagonal gray streaks against a white background. The
+    streaks are evenly spaced apart and aligned in a single vertical column. Each
+    streak is thickest at the center and tapers towards the ends, giving it an elongated,
+    oval shape. The edges of the streaks are somewhat diffused, creating a softened
+    effect. These streaks appear to be uniformly angled in the same direction.
+
+    ===
+
+    '
+  21: null
+  23: "   \n"
+  25: "yaml\nEvaluation overview: \"Changes in country-level total factor productivity\
+    \ (TFP) of agriculture.\"\nDrivers of Risk: \"Changes in green-season average\
+    \ temperature (T) and green-season total precipitation (P).\"\nQuantitative material:\
+    \ \"Response functions of changes in country-level TFP to changes in green-season\
+    \ average T and P, including confidence bands.\"\nMethodology: \"Analysis of agricultural\
+    \ productivity response to weather for 1962\u20131988, excluding 10% of hottest\
+    \ countries. Uses year-by-region block bootstraps to generate confidence bands.\
+    \ Includes placebo checks with reshuffled data by years and by country.\"\nHighlights:\
+    \ \"Presents response functions showing the relationship between TFP changes and\
+    \ green-season temperature and precipitation. Includes placebo checks to assess\
+    \ the robustness of the findings.\"\nMore Notes: \"The analysis focuses on green-season\
+    \ averages and totals for temperature and precipitation, respectively. It examines\
+    \ the sensitivity of the response functions by excluding the hottest countries.\
+    \ The placebo tests involve reshuffling TFP and weather data to test for spurious\
+    \ relationships.\"\n\n"
+  26: '
+
+    The provided page contains only a figure caption reference ("Extended Data Fig.
+    9 | See next page for caption.") and a visual description of five gray ovals.
+    There is no text describing methodology, results, or any other relevant information
+    for the specified categories.
+
+    '
+  27: "Source material: Response function of changes in country-level TFP to changes\
+    \ in green-season average T.; changes in green-season total P.; Response functions\
+    \ are centered vertically so that the exposure-weighted marginal effect is zero.;\
+    \ The coloured bands represent 90 and 95% confidence bands based on 500 year-by-region\
+    \ block bootstraps.; The blue bars represent the country-level distribution of\
+    \ green-season average T over the sample period.; The response of agricultural\
+    \ productivity to weather for 1989\u20132015 without 10% of hottest countries.;\
+    \ Panel shows the result of a placebo check whereby TFP and weather data are randomly\
+    \ mismatched or reshuffled by years.; The distribution represents the linear and\
+    \ quadratic T coefficients based on 10,000 reshuffled datasets.; Same as previous\
+    \ panel but based on datasets reshuffled by country.; Response function of changes\
+    \ in country-level TFP to changes in green-season average T.; Panel shows the\
+    \ result of a placebo check whereby TFP and weather data are randomly mismatched\
+    \ or reshuffled by years."
+  28: null

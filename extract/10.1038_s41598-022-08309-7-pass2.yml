@@ -1,0 +1,323 @@
+Drivers of Risk:
+  1: Future climate change scenarios
+  2: Increases in temperature, CO2, precipitation, and altered weather systems (flooding,
+    drought, heat shock)
+  3: Abiotic and biotic stresses, elevated CO2, drought stress, high temperatures,
+    and flooding.
+  5: Climate scenarios imposed during growth, including control 2020, control 2050,
+    2050 + flood, 2050 + drought, and 2050 + heat shock.
+  6: The analysis identifies changes in climate scenarios, such as flooding, drought,
+    and heat shock as factors impacting grass variety chemistry and gas production.
+  7: The analysis explores the effects of different climate scenarios, including drought,
+    floods, and heat shock, on fermentation processes.
+  8: Climate changes such as drought, flood, and heat shock impact VOC profiles.
+  9: The shocks impacting the VOC profiles include drought, flood, and heat shock,
+    simulated under 2050 climate conditions, compared to control 2020 and 2050 conditions.
+  10: Heat shock, flood, drought, and elevated CO2 climate scenarios.
+  11: Periods of flooding or drought during plant growth are impacting digestibility
+    and methane production.
+  12: Severe weather events such as acute flood and drought.
+Evaluation overview:
+  1: Forage grass growth under future climate change scenarios affects fermentation
+    and ruminant efficiency.
+  2: Ruminant production, forage quality, and rumen fermentation
+  5: The study evaluates the physiological response of different grass varieties to
+    various climate scenarios during growth.
+  6: The paper evaluates the impact of different climate scenarios on plant chemistry,
+    specifically crude protein, WSC, chlorophyll, Fv/Fm ratio, NDF, ADF, and ADL,
+    as well as gas production during in vitro rumen fermentation.
+  7: The paper evaluates the impact of climate scenarios on gas production during
+    fermentation, specifically examining total gas, CO2, and CH4 production.
+  8: Volatile organic compound (VOC) profiles are evaluated under different climate
+    scenarios and conditions.
+  9: This study evaluates changes in grass volatile organic compound (VOC) profiles
+    under different climate scenarios and their potential impact on forage quality
+    and ruminant production.
+  10: Impact on rumen fermentation due to climate-driven changes in grass growth.
+  11: Reduced in vitro digestibility caused by future climate scenarios would lead
+    to reduced animal performance.
+  12: Impact of climate change on rumen fermentation, specifically the effects of
+    altered environmental conditions on forage growth and subsequent impact on rumen
+    fermentation.
+Highlights:
+  2: Little effect of elevated temperature or CO2 compared with controls (2020). All
+    varieties consistently showed decreased digestibility linked to decreased methane
+    production as a result of drought or an acute flood treatment. Efforts to breed
+    future forage varieties should target tolerance of acute stress rather than long
+    term climate.
+  5: Grass varieties were clearly affected by the climate scenarios imposed during
+    growth. There was a significant effect of grass variety on water-soluble carbohydrate
+    (WSC).
+  6: Significant differences are found in markers like crude protein, WSC, chlorophyll,
+    and others under different climate scenarios. Flooding results in significantly
+    lower gas production compared to control climate conditions.
+  7: Key findings include significant impacts of climate scenarios on total gas, CO2,
+    and CH4 production, with differences noted between scenarios such as lower gas
+    production during drought and flood compared to control.
+  8: Climate scenarios are effectively differentiated despite biological replicates
+    showing marked differences.
+  9: The relative abundance of alkenes decreased in future climate scenarios compared
+    to the 2020 control, while acids increased. Some compounds were shared between
+    the discriminatory subsets for climate scenario and biological replicate, further
+    indicating that the effects of climate are robust to background variability.
+  10: Climate conditions impact grass growth, which in turn affects rumen fermentation.
+    Heat shock and flood climate scenarios negatively affect photosynthesis. Treatments
+    were sufficient to elicit a response, and the separation of the heat-shocked material
+    from the controls fits with the reduced chlorophyll and Fv/Fm elicited for this
+    treatment indicating a high level of imposed stress.
+  11: Breeding forage grasses for resilience to future climate conditions may be important
+    for maximizing nutritional value.
+  12: Acute flood and drought caused decreased digestibility in forages. Post-ingestion
+    plant metabolism is a component of the functional rumen system.
+Methodology:
+  1: 'The paper is published in Scientific Reports and uses DOI: 10.1038/s41598-022-08309-7'
+  2: Screening ten forage grass varieties in five differing climate scenarios, including
+    current climate (2020), future climate (2050), or future climate plus flooding,
+    drought or heat shock.
+  3: Ten different commercial varieties of forage grasses were grown for 3 months
+    in five different climate scenarios, replicated three times. Climate conditions
+    were simulated in growth chambers based on present-day conditions and future potential
+    climate scenarios described in Ref. 38.
+  5: Gas chromatography, FTIR Spectrophotometer, statistical analysis using ANOVA
+    and general linear models, multivariate linear model (manylm), Random Forest analysis.  Analysis
+    was done in R. Initial deconvolution and peak identification was carried out in
+    AMDIS v2.72, using the NIST database v2.2 (2014).
+  6: The study uses Fourier Transform Infra-red spectroscopy (FTIR) analysis for discriminant
+    functional analysis and in vitro rumen fermentation experiments to assess differences
+    in grass chemistry and gas production.
+  7: The analysis uses fermentation experiments with various climate scenarios and
+    statistical analyses like DFA and ls means with Tukey adjustment to assess changes
+    in gas production.
+  8: Random forest classification is used to analyze VOC samples; climate scenarios
+    are significant predictors of VOC profiles.
+  9: The analysis is based on random forest classification of climate scenarios using
+    VOC profiles at 24 hours post incubation. The compounds are ranked by their importance
+    in discriminating each climate scenario.
+  10: VOC profiles from grass varieties exposed to rumen fluid are analyzed under
+    different climate scenarios. FTIR data is used to assess plant stress. Chlorophyll
+    levels are measured to indicate photosynthetic effects.
+  11: In vitro gas production technique used to analyze fermentation of feeds by rumen
+    microbial inoculum.
+  12: Investigated the effects of forage growth under altered climate conditions on
+    rumen fermentation through detection of VOCs associated with plant stress responses
+    during fermentation. Studied grass varieties grown under severe weather events.
+More Notes:
+  1: The paper investigates the impact of climate change on forage grass and its subsequent
+    effect on ruminant animals.
+  6: The analysis found no clustering by grass variety for FTIR spectra but distinct
+    clustering by climate scenario. Variation in methane and CO2 production was observed
+    depending on the climate scenario.
+  7: The use of FTIR and 95% confidence intervals, alongside violin plots, visually
+    indicates the distribution of gas production across scenarios.
+  9: The most abundant group was sulphurous compounds (33% of total area), followed
+    by alkenes (20%), acids (11%) and ketones (11%). By number of compounds, the largest
+    group was alkenes (47 compounds), followed by sulphurous compounds (24 compounds)
+    and alcohols (20 compounds).
+  12: Forage breeding strategies should consider response to future as well as current
+    climates to ensure economic and environmental sustainability of production.
+Quantitative material:
+  2: "Models predict increases in temperature of 4\u20136 \xB0C in the UK, atmospheric\
+    \ CO2 from 400 to 500 ppm, and increases in precipitation (up to 33% more) by\
+    \ 2050."
+  5: Mean biomass values for grasses in each climate scenario (control 2020, control
+    2050, 2050 + flood, 2050 + drought and 2050 + heat shock) were 14.4 g, 10.2 g,
+    8.6 g, 6.0 g and 5.8 g DM respectively (SD = 3.61). There was no significant effect
+    of grass variety on Fv/Fm ratio (P=0.328), chlorophyll (P = 0.118) or crude protein
+    (P = 0.702), with mean values of 0.79 (Fv/Fm), 8.86 ug/mL and 23.8% respectively
+    (Supplementary Table S1). There was a significant effect of grass variety on water-soluble
+    carbohydrate (WSC) (P = 0.030).
+  6: Quantitative data includes Fv/Fm ratios, chlorophyll content, WSC, crude protein,
+    dry matter percentage, NDF, ADF, and ADL content, and gas production values under
+    different climate scenarios.
+  7: The study presents quantitative changes in gas production values under different
+    climate scenarios with statistical significance noted using letters above violin
+    plots.
+  8: Table 5 shows results from random forest classification of VOC samples, indicating
+    misclassification error rates for each condition.
+  10: Relative abundance is on an arbitrary scale where each sample sums to 100. Compounds
+    are only included if their relative abundance at least doubled in at least one
+    comparison.
+  11: 'Acetate: propionate ratio was 3.26 and propionate: butyrate ratio was 1.54
+    in the model-predicted data.'
+  12: Ethanol constituted on average 1.7% total area in the present samples.
+sourcematerial:
+  1: '
+
+    Forage grass growth under future climate change scenarios affects fermentation
+    and ruminant efficiency. Scientific Reports; DOI: 10.1038/s41598-022-08309-7.
+
+    '
+  2: Source material here.
+  3: "Evaluation overview: The aim of this work was therefore to determine how responses\
+    \ to the growth environment, including \u201Cstress memor y\u201D may affect the\
+    \ subsequent forage degradation in the rumen and, therefore, to understand how\
+    \ ruminant feeding strategies might be affected by climate change.\n\nDrivers\
+    \ of Risk: Plants respond to abiotic and biotic stresses by physiological, biochemical,\
+    \ metabolic and molecular mechanisms23. For example, elevated levels of CO2 have\
+    \ been shown to improve the rate of photosynthesis in plants24 and alleviate the\
+    \ effects of drought stress by conserving water. However high temperatures have\
+    \ been shown to inhibit photosynthesis26 by altering the structure of chloroplasts\
+    \ and by inactivating chloroplast enzymes through oxidative stress. ... During\
+    \ flooding oxidative pathways within the plant move towards fermentation and CO2\
+    \ levels within plants can become reduced.\n\nMethodology: Plant material. Ten\
+    \ different current commercial varieties of forage grasses (Table 1) were grown\
+    \ for 3  months in five different climate scenarios, replicated three times at\
+    \ 1-week intervals. ... Climate conditions were simulated in growth chambers and\
+    \ consisted of present-day conditions and future potential climate scenarios as\
+    \ described by Ref.38 (Table 2)."
+  5: 'Source material here.
+
+    Evaluation overview: "the extent of the stress imposed was sufficient to elicit
+    a physiological response"
+
+    Drivers of Risk: "Mean biomass values for grasses in each climate scenario (control
+    2020, control 2050, 2050 + flood, 2050 + drought and 2050 + heat shock)"
+
+    Quantitative material: "Mean biomass values for grasses in each climate scenario
+    (control 2020, control 2050, 2050 + flood, 2050 + drought and 2050 + heat shock)
+    were 14.4 g, 10.2 g, 8.6 g, 6.0 g and 5.8 g DM respectively (SD = 3.61). There
+    was no significant effect of grass variety on Fv/Fm ratio (P=0.328), chlorophyll
+    (P = 0.118) or crude protein (P = 0.702), with mean values of 0.79 (Fv/Fm), 8.86
+    ug/mL and 23.8% respectively (Supplementary Table S1). However, there was a significant
+    effect of grass variety on water-soluble carbohydrate (WSC) (P = 0.030)"
+
+    Methodology: "Data analysis was conducted in R... all data were analysed using
+    2-way ANOVA...modelled using a multivariate linear model (manylm)...Random Forest
+    analysis was undertaken... Initial deconvolution and peak identification were
+    carried out in AMDIS v2.72, using the NIST database v2.2 (2014)"
+
+    Highlights: "Overall, the grass varieties were clearly affected by the climate
+    scenarios imposed during growth...there was a significant effect of grass variety
+    on water-soluble carbohydrate (WSC)"
+
+    '
+  6: " \nEvaluation overview: \"Taking all the varieties together, there was an effect\
+    \ (P < 0.05) of climate scenario on crude protein, WSC, chlorophyll, Fv/Fm ratio,\
+    \ NDF, ADF and ADL (Table 3).\" \"Cumulative gas production measurements were\
+    \ taken 48 h from the start of the in vitro rumen fermentation experiments\"\n\
+    Drivers of Risk: \"However, clustering was obser ved for climate scenario, with\
+    \ heat shock FTIR spectra differing from all remaining scenarios except drought\
+    \ (Fig. 1).\" \"There was a significant effect of climate on gas production (P\
+    \ = 0.002), and pair wise comparisons showed that the flooding treatment produced\
+    \ significantly less gas than the 2020 controls (P = 0.014), 2050 controls (P\
+    \ = 0.038) and the heat shock treatment (P=0.016) (Fig. 2A).\"\nQuantitative material:\
+    \ See the table provided in the original material.\nMethodology: \"Discriminant\
+    \ functional analysis (DFA) of Fourier Transform infra-red spectroscopy (FTIR)\
+    \ spectra to deter- mine differences in the plant chemistry\" \"Total cumulative\
+    \ gas production measurements were taken 48 h from the start of the in vitro rumen\
+    \ fermentation experiments\"\nHighlights: \"Taking all the varieties together,\
+    \ there was an effect (P < 0.05) of climate scenario on crude protein, WSC, chlorophyll,\
+    \ Fv/Fm ratio, NDF, ADF and ADL (Table 3).\" \"There was a significant effect\
+    \ of climate on gas production (P = 0.002), and pair wise comparisons showed that\
+    \ the flooding treatment produced significantly less gas than the 2020 controls\"\
+    \nMore Notes: \"Discriminant functional analysis (DFA) of Fourier Transform infra-red\
+    \ spectroscopy (FTIR) spectra to deter- mine differences in the plant chemistry\
+    \ at har- vest showed no clustering by grass variety. However, clustering was\
+    \ obser ved for climate scenario, with heat shock FTIR spectra differing from\
+    \ all remaining scenarios except drought (Fig. 1).\" \"However different climate\
+    \ scenarios did result in differences (P =0.016) in CO2 production which was lowest\
+    \ in the drought treatment compared to heat shock (Fig. 2B). Methane (CH4) produc-\
+    \ tion during in vitro fermentation showed no effect due to grass variety (P =\
+    \ 0.111), nor any significant interaction between variety and climate scenario.\
+    \ However, growth under different climate scenarios did have an effect on methane\
+    \ production (P = 0.016; Fig. 2C), which was again lowest in the drought scenario\
+    \ compared to control 2020.\"\n"
+  7: " \nEvaluation overview: \"Effect of climate scenario on total gas production\
+    \ (A), total CO2 production (B) and total methane production (C) at 48 h fermentation\
+    \ as affected by climate change scenario.\"\n\nDrivers of Risk: \"climate change\
+    \ scenario affected fermentation profiles.\"\n\nQuantitative material: \"lower\
+    \ case letters indicate significant difference based on ls means with Tukey adjustment\
+    \ (P <0.05).\"\n\nMethodology: \"climate scenario significantly affected DMD with\
+    \ future scenarios, flood, drought and heat shock, being significantly less than\
+    \ control 2020.\"\n\nHighlights: \"Acetate production was lowest (P < 0.05) in\
+    \ 2050 + drought... The acetate to propionate ratio (C2:C3) was lowest (P < 0.05)\
+    \ in control 2020 and 2050 + drought and highest in 2050 + flood.\"\n\nMore Notes:\
+    \ \"DFA analysis of liquid (A) and pellet (B) FTIR as affected for each climate\
+    \ scenario.\"\n"
+  8: 'yaml
+
+    Evaluation overview: "Volatile organic compounds (VOCs)... Climate scenario was
+    a significant predictor of VOC profiles overall"
+
+    Drivers of Risk: "Random forest classification of VOC samples by growth condition...
+    Climate scenarios could be successfully differentiated despite marked and significant
+    differences between biological replicates"
+
+    Quantitative material: "Table5. Results from random forest classification of VOC
+    samples... The error rate is the percentage of samples that were misclassified
+    from each group."
+
+    Methodology: "Results from random forest classification of VOC samples... Climate
+    scenario was a significant predictor of VOC profiles"
+
+    Highlights: "Random forest analysis correctly classified at least 66% of samples
+    in each climate scenario, despite only partial separation on the MDS plot... Climate
+    scenarios could be successfully differentiated despite marked and significant
+    differences between biological replicates"
+
+    '
+  9: Source material here.
+  10: " \nComparisons between VOC profiles from grass varieties exposed to rumen fluid,\
+    \ broken down by climate scenario. Effects  of  climate  condition  of  grass\
+    \  growth  on  rumen  fermentation. Growth of these grasses under different climate\
+    \ conditions was shown to have an impact on fermentation.\n\nChlorophyll levels\
+    \ were highest in the control 2020 scenario and the lowest in grasses subjected\
+    \ to heat shock and flood climate scenarios, indicating that photosynthesis was\
+    \ affected by both these treatments.\n\nAgain, the elevated CO2 imposed together\
+    \ with the drought, as well as the short drought period may have mitigated the\
+    \ negative effects on protein content. The clustering of the FTIR data based on\
+    \ treatment further indicates that the treatments were sufficient to elicit a\
+    \ response, and the separation of the heat-shocked material from the controls\
+    \ fits with the reduced chlorophyll and Fv/Fm elicited for this treatment.\n\n\
+    Node size is proportional to relative abundance for that class/compound. Relative\
+    \ abundance is on an arbitrar y scale where each sample sums to 100. For ease\
+    \ of viewing, compounds are only included if their relative abundance at least\
+    \ doubled in at least one comparison.\n\nCompounds are classified into hierarchical\
+    \ classes, and every node represents on the heat trees one compound or parent\
+    \ class. Node colour is on a scale representing the mean abundance change between\
+    \ conditions as a proportion of the total abundance of that compound.\n"
+  11: 'Source material here: The reduced in vitro DMD caused by future climate scenarios,
+    especially periods of flooding or drought, would lead to reduced animal performance
+    and would require higher intakes to maintain the level of production... Flood
+    had the greatest effect in reducing total gas production, compared to both the
+    control climate scenario for 2020 and 2050... Based on the model-predicted data,
+    the acetate: propionate ratio was 3.26 and the propionate: butyrate ratio was
+    1.54... The in vitro gas production technique is a method for analysing fermentation
+    of feeds by a rumen microbial inoculum... This suggests that breeding forage grasses
+    for resilience to a future climate in which there are periods of flooding during
+    the growth period may be important for maximising its nutritional value.'
+  12: 'plaintext
+
+    Evaluation overview: "It is currently not clear what the impact of climate change
+    on rumen fermentation will be. Consideration of the effect of altered environmental
+    conditions on both plant growth and animal physiology is required."
+
+
+    Drivers of Risk: "Notably acute flood and drought caused decreased digestibility
+    in those forages."
+
+
+    Quantitative material: "Ethanol is also produced by microbial fermentation but
+    is a minor component in the healthy rumen; it constituted on average 1.7% total
+    area in the present samples."
+
+
+    Methodology: "Here we have investigated the former, to explore whether forage
+    growth under an altered climate would produce legacy effects in forage that would
+    impact on rumen fermentation when ingested. Although there was relatively little
+    variation between grass varieties, consistent effects due to growth under severe
+    weather events were detected."
+
+
+    Highlights: "The detection of VOCs associated with plant stress responses during
+    fermentation is further evidence that post-ingestion plant metabolism is a component
+    of the functional rumen system. Together, these data indicate that forage breeding
+    strategies should consider response to future as well as current climates to ensure
+    economic and environmental sustainability of production."
+
+
+    More Notes: "Forage breeding strategies should consider response to future as
+    well as current climates to ensure economic and environmental sustainability of
+    production."
+
+    '

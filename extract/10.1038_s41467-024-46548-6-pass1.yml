@@ -1,0 +1,646 @@
+Drivers of Risk:
+  1: Sea-level rise (SLR) and storm-related flooding are the primary shocks impacting
+    coastal property values.
+  2: Sea level rise, storm risk, beach erosion, increased frequency and intensity
+    of storms, increased surge-related flood risk, increased erodibility of the shoreline,
+    increased frequency of sunny-day flooding, groundwater threats, and total inundation.
+  4: Sea level rise (SLR) beginning at year 50.
+  5: Sea-level rise (SLR) and changes in beach nourishment subsidies.
+  6: Rising outside market prices and sea level rise (SLR) are the primary shocks
+    impacting outcomes.
+  7: Sea level rise (SLR).
+  8: Sea level rise (SLR) and subsidization policies affect coastal property values
+    and population demographics.
+  9: The paper discusses the impact of changes in the physical environment, such as
+    shoreline stabilization, erosion, sea level rise, and storms, on coastal real
+    estate values.
+  10: The model considers the effects of storm risks on property values in coastal
+    communities.
+  11: The analysis includes risks from sea level rise (SLR) and storms, which impact
+    property markets and agent willingness to pay.
+  12: Demographic changes and sea level rise are driving changes in coastal property
+    markets.
+  15: Repetitive floods and sea level rise impacting coastal cities
+Evaluation overview:
+  1: The paper evaluates the effects of policy and market forces on coastal real estate
+    prices in light of sea-level rise (SLR) and storm risks.
+  2: Coastal and inland property values are evaluated in relation to sea level rise
+    (SLR).
+  4: Property value, beach width, share of housing owned by investors, expected rate
+    of return on coastal real estate, marginal income tax rate of property owners,
+    and risk premium for coastal real estate.
+  5: Property values, beach width, income tax rate of property owners, and share of
+    housing owned by investors.
+  6: The paper evaluates the impact of rising coastal real estate prices, beach width
+    changes, and the investor market share in coastal areas.
+  7: Property value, beach width, share of housing owned by investors, expected rate
+    of return on coastal real estate, marginal income tax rate of property owners,
+    and risk premium for coastal real estate.
+  9: No relevant overview of specific outcomes such as mortality or productivity loss
+    provided.
+  15: No relevant information
+Highlights:
+  1: The analysis finds that policy measures like subsidies for coastal management
+    and tax advantages temporarily delay declines in property values despite increasing
+    risks but cannot prevent eventual decreases as inundation progresses.
+  2: Subsidies for coastal management, such as beach nourishment, tax advantages for
+    high-income property owners, and stable or increasing property values outside
+    the coastal zone dampen the impacts of SLR on coastal property markets. Prices
+    would more accurately reflect SLR risks without subsidies.
+  4: SLR leads to a modest initial decline in property values, followed by a more
+    substantial decline over decades. High-income agents entering the market temporarily
+    dampen the property value decline. If high-income agents are restricted from entering,
+    an immediate decline in property value is observed.
+  5: Reducing nourishment subsidies leads to volatility and a precipitous decline
+    in property values, particularly for oceanfront properties. Beach width immediately
+    declines. Median owner income tax rate increases. Investors own substantially
+    less of the housing.
+  6: Coastal real estate prices appreciate after the onset of SLR; rising prices drive
+    investors out as high-income owners enter sooner.
+  7: Outside markets play an important role in coastal real estate markets. When outside
+    markets decline, property values plummet, risk increases, high-income owners leave,
+    investors buy real estate, and rent it to lower-income occupants. The coupled
+    human-natural system dampens environmental signals and delays the full capitalization
+    of risk from SLR. Coastal gentrification occurs as natural amenities persist and
+    policies subsidize beach nourishment.
+  8: Subsidies, tax policies, and outside markets sustain high coastal real estate
+    values despite climate risks, delaying market and demographic adjustments.
+  9: Current incentives may not support adaptive coastal housing; building larger
+    structures can lead to reinforcement of shoreline defenses rather than adaptation;
+    public investments in shoreline stabilization may be better spent on adaptive
+    technologies; agent-based models show nonlinearity and feedbacks in responses.
+  15: Repetitive floods may lead to intensified outmigration and climate gentrification
+    in coastal cities
+Methodology:
+  1: The analysis utilizes the Coastal Home Ownership Model (C-HOM) to study the long-term
+    evolution of coastal real estate markets, incorporating changing physical attributes
+    of the coast, economic values, and dynamic risks.
+  2: A hedonic price function is used to estimate the natural log of property sales
+    price, controlling for property characteristics using 23,184,659 observations
+    of property sales in the United States between 1989 and 2016. Coupled human-natural
+    systems modeling is used to understand the mechanisms driving empirical phenomena
+    and what to expect in coastal communities as SLR progresses.
+  4: A baseline model scenario is used to simulate the effects of SLR on oceanfront
+    and non-oceanfront properties. Beach nourishment is subsidized at 90% of the cost.
+    The model considers agent flux (migration of high-income agents).
+  5: Numerical experiment involving model simulations comparing a baseline scenario
+    with a scenario where the nourishment subsidy rate is cut to 50% at the onset
+    of SLR (at t=50). The model simulates the effects of the subsidy cut over time
+    on property values, beach width, tax rates, and investor behavior.
+  6: The analysis involves a numerical experiment comparing baseline model scenarios
+    with scenarios where outside market prices appreciate, alongside the onset of
+    SLR.
+  7: Model simulations of coastal real estate markets coupled to the physical environment
+    are used to explore potential trajectories associated with coastal inundation.
+    The model includes beach erosion dynamics, local public finance decisions, storm
+    risk, and demographic changes.
+  8: The study models a coupled human-natural system (C-HOM) to compare business-as-usual
+    with potentially more efficient coastal management strategies.
+  9: The analysis uses an agent-based model combining theoretical, numerical, and
+    empirical frameworks, linking property prices to capitalized flows of amenities
+    and risks, and accounting for heterogeneity in risk preferences, as well as feedbacks
+    between human and natural systems.
+  10: The supply of housing is modeled as fixed since coastal communities are built
+    out and structures are typically rebuilt after storm destruction.
+  11: The state equation for beach width and mean sea level (MSL) are modeled with
+    linear erosion and a constant linear rate of increase.
+  12: The analysis models coastal real estate markets over long time horizons, adjusting
+    agent distributions based on demographic changes and interactions with external
+    markets.
+  13: Model coded in Matlab R2022b and analyzes a menu of nourishment options over
+    a potential 30-year horizon.
+  15: The study seems to involve modeling of economic and physical responses to climate
+    risks such as sea level rise
+More Notes:
+  4: The model assumes a barrier island with an initial height of 1 m relative to
+    sea level. The initial 50-year period characterizes the system without SLR.
+  6: There is a delayed effect on beach width, and rising outside markets can offset
+    the removal of subsidies in the long term.
+  7: The study adds to the literature modeling coupled human-natural systems and applies
+    a coupled systems framework to landscape change. Results are applicable to the
+    US East and Gulf Coasts.
+  8: Removing subsidies could improve market efficiency by reflecting risk but may
+    impede equity by displacing lower-income households.
+  13: The nourishment decision framework is based on existing models, but explicitly
+    aims to integrate human and natural system interactions.
+  15: The study focuses on the economic impacts of climate risks in coastal areas,
+    involving strategies like managed retreat and property buyouts
+Quantitative material:
+  2: Figure 1 shows quality-adjusted baseline housing values reflected in estimated
+    county-year fixed effects for coastal and inland counties in the United States
+    from 1989 to 2016. Empirical evidence shows that properties vulnerable to SLR
+    are discounted relative to comparable properties that are not vulnerable.
+  4: Property values decline modestly after SLR begins; beach width and expected beach
+    width are shown over 150 years; investor share of housing decreases to zero eventually;
+    income tax rate and risk premium rate are shown over 150 years; SLR rises 1 m
+    over 100 years
+  5: Percent change in property value for oceanfront and non-oceanfront properties.
+    Difference in beach width in meters. Difference in income tax rate. Difference
+    in investor market share.
+  6: The analysis includes percent changes in property value, changes in beach width,
+    and investor market share differences.
+  7: Shows model simulations of property value, beach width, investor share of housing,
+    expected return rate, income tax rate, and risk premium rate over 150 years, with
+    SLR beginning at year 50. Outside markets decline to 10% of initial levels over
+    50 years after SLR onset. Property values plummet sharply when outside markets
+    decline.
+  9: There is no specific quantitative information or percent changes provided on
+    this page.
+  15: No relevant information
+sourcematerial:
+  1: 'Source material: "Despite increasing risks from sea-level rise (SLR) and storms,
+    US coastal communities continue to attract relatively high-income residents, and
+    coastal property values continue to rise... We develop the Coastal Home Ownership
+    Model (C-HOM) and analyze the long-term evolution of coastal real estate markets.
+    C-HOM incorporates changing physical attributes of the coast, economic values
+    of these attributes, and dynamic risks associated with storms and flooding...
+    In the coupled system, we find that subsidies for coastal management, such as
+    beach nourishment, tax advantages for high-income property owners, and stable
+    or increasing property values outside the coastal zone all dampen the effects
+    of SLR on coastal property values. The effects, however, are temporary and only
+    delay precipitous declines as total inundation approaches."'
+  2: "yaml\nEvaluation overview: \"Coastal and inland property values. Quality-adjusted\
+    \ baseline housing values are re\uFB02ected in estimated county-year \uFB01xed\
+    \ effects for coastal (blue) and inland (black) counties in the United States.\"\
+    \nDrivers of Risk: \"Such areas are vulnerable to a myriad of climate-related\
+    \ impacts, including damage from wind and storm surge due to increased frequency\
+    \ and intensity of storms as well as impacts from SLR, which can intensify surge-related\
+    \ \uFB02ood risk, increase erodibility of the shoreline, increase the frequency\
+    \ of sunny-day \uFB02ooding, threaten groundwater, and eventually lead to total\
+    \ inundation.\"\nQuantitative material: \"Fig. 1 | Coastal and inland property\
+    \ values. Quality-adjusted baseline housing values are re\uFB02ected in estimated\
+    \ county-year \uFB01xed effects for coastal (blue) and inland (black) counties\
+    \ in the United States...evidence shows that properties vulnerable to SLR are\
+    \ discounted relative to comparable properties that are not vulnerable\"\nMethodology:\
+    \ \"Each county-year \uFB01xed effect comes from a \uFB01rst-stage hedonic price\
+    \ function that estimates the natural log of property sales price, controlling\
+    \ for property characteristics...using 23,184,659 observations of property sales\
+    \ in the United States between 1989 and 2016...it is necessary to model how real\
+    \ estate markets interact with the physical coastal system over a long time horizon.\"\
+    \nHighlights: \"Here, we show that subsidies for coastal management, such as beach\
+    \ nourishment, tax advantages for high-income property owners, and stable or increasing\
+    \ property values outside the coastal zone all dampen the impacts of SLR on coastal\
+    \ property markets. Prices would more accurately re \uFB02ect SLR risks without\
+    \ subsidies\"\n"
+  4: "`\nOutcomes include property value (a), beach width (b), share of housing owned\
+    \ by investors (c), expected rate of return on coastal real estate (d), marginal\
+    \ income tax rate of property owners (e), and risk premium for coastal real estate\
+    \ (f). The baseline case assumes that SLR begins at t = 50 (marked by a vertical\
+    \ gray line) and continues throughout the remaining periods. When SLR begins in\
+    \ year 50, property values decline modestly... A substantial decline in property\
+    \ value does not occur immediately, taking decades past the onset of SLR to manifest...SLR\
+    \ begins at year 50 and rises 1 m over the remaining 100 years...Eventually, as\
+    \ property values begin to decline more substantially, the investor market share\
+    \ declines to zero (Fig. 3c). The baseline case assumes that SLR begins at t =\
+    \ 50 (marked by a vertical gray line) and continues throughout the remaining periods.\
+    \ Beach nourishment is subsidized at 90% of the cost...agent \uFB02 ux is turned\
+    \ on (relatively high-income agents are able to enter to exploit arbitrage opportunities\
+    \ with outside markets). Depicts model simulation outcomes for oceanfront properties\
+    \ (blue), non-oceanfront properties (orange) When SLR begins in year 50, property\
+    \ values decline modestly...A substantial decline in property value does not occur\
+    \ immediately, taking decades past the onset of SLR to manifest...the investor\
+    \ market share declines to zero (Fig. 3c)...Indeed, property values decline immediately\
+    \ if relatively high-income agents are not allowed to enter. In each scenario,\
+    \ the initial barrier height, i.e. elevation of the barrier island, relative to\
+    \ sea level is 1 m for the \uFB01 rst 50 years...The initial 50-year period characterizes\
+    \ the system without SLR.\n"
+  5: "  \n\"Evaluation overview\": \"Property values (a), change in beach width (b),\
+    \ change in marginal income tax rate of property owners (c), and change in the\
+    \ share of housing owned by investors (d).\"\n\n\"Drivers of Risk\": \"a scenario\
+    \ in which the subsidy rate is cut to 50% at the onset of SLR (at t =50).\"\n\n\
+    \"Quantitative material\": \"Depicts outcomes for oceanfront properties (blue),\
+    \ non-oceanfront properties (orange), beach width (solid black), and expected\
+    \ beach width (dashed black). Outcomes include percent change in property value\
+    \ (a), change in beach width (b), change in marginal income tax rate of property\
+    \ owners (c), and change in the share of housing owned by investors (d).\"\n\n\
+    \"Methodology\": \"Numerical experiment that cuts the nourishment subsidy. Results\
+    \ displayed are model simulation differences between the baseline model and a\
+    \ scenario in which the subsidy rate is cut to 50% at the onset of SLR (at t =50).\
+    \ Depicts outcomes for oceanfront properties (blue), non-oceanfront properties\
+    \ (orange).\"\n\n\"Highlights\": \"less nourishment subsidy initially leads to\
+    \ more volatility in property values and then triggers a precipitous decline after\
+    \ several decades (Fig. 4a)...mean beach width immediately declines without the\
+    \ subsidy (Fig. 4b)...the median owner income tax rate increases (both oceanfront\
+    \ and non-oceanfront) after reducing the nourishment subsidy (Fig. 4c)... the\
+    \ investors own substantially less of the housing\"\n"
+  6: 'Source material here: Results displayed are model simulation differences between
+    the baseline model and the scenario in which outside markets appreciate. Outcomes
+    include percent change in property value (a), change in beach width (b), change
+    in marginal income tax rate of property owners (c), and change in the share of
+    housing owned by investors (d). SLR begins at t = 50. Coastal real estate prices
+    appreciate well after the onset of SLR and, after 100 years, remain above baseline
+    prices even as barrier elevation approaches zero (Fig. 5a). There is a delayed
+    effect on beach width (Fig. 5b). Rising prices drive investors out of the market
+    quickly as relatively high-income owners enter sooner (Fig. 5c, d). We find that
+    the effects of rising outside markets offset the removal of subsidies in the long
+    run.'
+  7: "Source material: Outcomes include property value (a), beach width (b), share\
+    \ of housing owned by investors (c), expected rate of return on coastal real estate\
+    \ (d), marginal income tax rate of property owners (e), and risk premium for coastal\
+    \ real estate (f)...SLR begins in t = 50 (marked by a vertical gray line)...SLR\
+    \ begins in t = 50 (marked by a vertical gray line), the baseline scenario with\
+    \ constant outside markets spans the \uFB01rst 50 years after the onset of SLR,\
+    \ and then outside markets decline to 10% of their initial levels over the following\
+    \ 50 years...When outside markets decline, however, expected returns and property\
+    \ values plummet sharply and risk continues to increase...By modeling coastal\
+    \ real estate markets that are coupled to the physical environment, exogenous\
+    \ climate forcing, and the effects of real estate markets in other locations,\
+    \ C-HOM sheds light on potential trajectories associated with this transformation\
+    \ as communities approach the point of inundation... model simulations in which\
+    \ SLR begins in t = 50...modeling coupled human-natural systems...incorporate\
+    \ local public \uFB01nance decisions42, and parameterize storm risk in the coupled\
+    \ system...add how SLR drives local real estate market responses and demographic\
+    \ changes...When outside markets decline, however, expected returns and property\
+    \ values plummet sharply and risk continues to increase...Eventually (after roughly\
+    \ 30 years), relatively high-income owners leave the market, investors buy all\
+    \ of the real estate, and rent it to lower-income occupants...several features\
+    \ of the coupled human-natural system dampen environmental signals and delay the\
+    \ full capitalization of risk from SLR...This demographic shift can be thought\
+    \ of as a form of coastal gentri\uFB01cation...We add to a growing body of literature\
+    \ modeling coupled human-natural systems...Coastal real estate markets along the\
+    \ US East and Gulf Coasts are tightly coupled to the physical environment."
+  8: "\nDrivers of Risk: \"coastal areas vulnerable to SLR.\"; \"policies that arti\uFB01\
+    cially increase the value of property (e.g., a beach nourishment subsidy) delay\
+    \ the downward adjustment of prices in response to SLR.\"\nMethodology: \"modeling\
+    \ the coupled human-natural system, C-HOM provides a foundation for comparing\
+    \ business-as-usual with potentially more ef\uFB01cient approaches to coastal\
+    \ management\"\nHighlights: \"subsidies, tax policy that privileges high-income\
+    \ owners, and escalating outside markets all contribute to sustaining high values\
+    \ of coastal real estate.\"; \"Subsidies also delay associated demographic shifts.\"\
+    \nMore Notes: \"if subsidies are reduced, prices will adjust downward to climate\
+    \ risk more rapidly. Subsidies also delay associated demographic shifts. Lower\
+    \ subsidization leads to more rapid coastal gentri\uFB01cation but permits greater\
+    \ capitalization of \uFB02ood risk in coastal property values. Thus, removing\
+    \ subsidies for beach management can improve market ef\uFB01ciency (in that prices\
+    \ re\uFB02ect risk), but can impede equity (in that lower income households are\
+    \ pushed out).\"\n"
+  9: "                                                                           \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                  \nenvironment53.                  However,                \
+    \  current                  incentives                  do                  not\
+    \                  appear                 to                  be             \
+    \    homogeneous                agents            with            complete   \
+    \         information,            our            model            agents\ntransitioning\
+    \              the              coastal              housing              stock\
+    \             in              these              ways.              Evidence \
+    \             for                               have         heterogeneous   \
+    \      perceptions         of         and         tolerance         for      \
+    \   environmental\nbuilding        back        bigger        suggests        current\
+    \        markets        are        reinforcing        excess                 \
+    \                                                                         risk,\
+    \      and      agents      use   \uFB01        nite-time     forecasts      of\
+    \      future     returns      and      coastline\ndurability           in   \
+    \        the           coastal          zone17.          Because          larger\
+    \          structures          tend          to          be                  \
+    \                                 position              to              make \
+    \             investment              and              policy               decisions.\
+    \              Nonlinearity               is\nmore              valuable,    \
+    \          building              back              bigger              triggers\
+    \              more              investments              in                 \
+    \                             incorporated             via             positive\
+    \             feedbacks             in            property             value \
+    \            appreciation\ndefending          the          shoreline         \
+    \ in          its          current          state          rather          than\
+    \          adapting          to          a                                   \
+    \          such        that         agents         can         push        prices\
+    \         away        from         equilibrium         in         the        \
+    \ short\nvery                different                future54.              \
+    \  As                such,                public               investments   \
+    \             that                subsidize                            run,  \
+    \         which           can           lead           to           transient\
+    \           bubbles           in           real           estate           markets64.A\n\
+    shoreline       stabilization       may        be        better       spent  \
+    \     on        incentives       for        adaptive                         \
+    \                                                             bubble         \
+    \  occurs           when           prices           rise           substantially\
+    \           above           expected           prices\nhousing        technology.\
+    \                                                                            \
+    \                                                                            \
+    \                                    based      on      market      fundamentals\
+    \      over      a      short     period     of      time.      In      the  \
+    \    long\nAlthough         we         incorporate         a         wide    \
+    \     range         of          modeling         frameworks                  \
+    \                                                           run,        arbitrage\
+    \        opportunities        move        the        property        market  \
+    \      back        towards\nand                   empirical                  \
+    \ studies,                  many                   issues                   warrant\
+    \                   future                   investigation.                  \
+    \       equilibrium.\nC-HOM       only       includes       income       as  \
+    \     an       indicator       of       coastal       gentri\uFB01        cation,\
+    \                                                                            \
+    \                      Fourth,         we        incorporate    \uFB02       \
+    \ ows        of        amenity        values        and        climate       \
+    \ risks\nand          future         studies          might          also    \
+    \     consider          race.          For          beach         nourishment,\
+    \                                                                     based  \
+    \         on           empirical           valuation           studies       \
+    \    in           environmental           economics55.\nmodeling             \
+    \ could              allow              costs               to              rise\
+    \              with              cumulative              sand              use55\
+    \               or                  Coastal           housing          markets\
+    \          respond          to           changes          in          environmental\
+    \          con-\nexamine            the            impacts             of    \
+    \         changing            the             oceanfront-to-non-oceanfront   \
+    \                                                                            \
+    \  ditions,     and      equilibrium      market      outcomes      reveal   \
+    \  peoples\u2019      preferences\ntax       ratio42.      C-HOM      could  \
+    \    also      be     customized      to      examine      other      policies\
+    \                                                                            \
+    \                   and      perceptions      of      coastal      amenities \
+    \     and      risks,      as      well      as      expectations\nand       \
+    \       coastal              management              interventions,          \
+    \    e.g.             \uFB02        ood                insurance,            \
+    \    dune                                                 of       climate   \
+    \    impacts.       Empirical       estimates       from       coastal       housing\
+    \       markets\nbuilding,      sea      walls,      and      zoning.      The\
+    \      extent      to       which      restrictions      placed              \
+    \                                                                            \
+    \ show            that            proximity            to           the      \
+    \      shoreline            and            coastal           wetlands65,beach\n\
+    on                institutional                investors                for  \
+    \              short-term               rentals                (e.g.,        \
+    \       AirBnB                and                             width39,andbeachviews66\
+    \     increase    property     values.     Exposure     to     storm\nVRBO)  \
+    \             affect               outcomes               is               another\
+    \               important               research               and           \
+    \    policy                                        risk         and      \uFB02\
+    \         ood         hazards         tend         to         decrease       \
+    \  home        values67.\nquestion.           Generalizing           the     \
+    \      physical           system           to           incorporate          \
+    \ shoreline                                                                  \
+    \                         Fifth,         C-HOM         re\uFB02         ects \
+    \      \uFB01        ndings        that        public        investments     \
+    \   in        adapta-\norientation,                     wave                 \
+    \    climate,                     coastline                     management   \
+    \                  in                     neighboring                        \
+    \        tion         and         risk         mitigation         capitalize \
+    \        into         real         estate         prices.         Risk       \
+    \  reduc-\ncommunities,      and      dune      dynamics      can      all   \
+    \   lead      to      nonlinear       erosion      and                       \
+    \                                                                        tions\
+    \      from      a      range      of      climate      adaptation     infrastructure\
+    \     are     re\uFB02         ected       in\naccretion32\u201335,56,57,    \
+    \ which    could     induce    spatial    and     temporal    spillovers     in\
+    \                                                                            \
+    \                                   nearshore                   housing      \
+    \             prices68,                     including                     beach\
+    \                    nourishment69,con-\nmanagement              decisions.  \
+    \           Modeling              these             elements              requires\
+    \              treating                                                      \
+    \                     struction        of        vegetated        dunes70,   \
+    \     and        hard        structures,       such       as       sea       \
+    \ walls\nspace         explicitly,         in        the         alongshore  \
+    \      and         vertical         elevation         dimensions.            \
+    \                                                                      or    \
+    \  revetments71.     Even     sandbags     can     temporarily     protect   \
+    \ properties     and\nExplicit              spatial             modeling     \
+    \        could             characterize             variation             in \
+    \             elevations                                                     \
+    \       stabilize              shorelines.             Because              investments\
+    \              in              coastal             adaptation              are\n\
+    within        the        community        that        leads        to        different\
+    \        \uFB02        ood        risks,        model        feed-           \
+    \                                                         often         federally\
+    \         subsidized         in         the         US,         local        \
+    \ housing         market         prices         are\nbacks       across      \
+    \ management       strategies       in       neighboring       communities   \
+    \    that                                                                    \
+    \                                      less     volatile    relative     to  \
+    \   the     increase     in     risk12.     Federal    subsidies     for    beach\n\
+    alter          shoreline          gradients32,34,          and          introduce\
+    \          variation          in          implicit          sub-             \
+    \                                                         nourishment        \
+    \  can          even           create          a          bubble           in\
+    \          coastal          real          estate          markets\nsidies    \
+    \            and                uptake                of               \uFB02\
+    \        ood                insurance.                Allowing               \
+    \ for                climate                belief        such             that\
+    \             removing              subsidies              would             \
+    \ substantially              decrease             coastal\nheterogeneity12,58\
+    \          in          a          spatial          model          could      \
+    \    aggregate          climate          change                              \
+    \                                            property         values29.\nbelievers\
+    \            and            climate            skeptics           in         \
+    \   separate            locations,           which            through        \
+    \                                                                   The      \
+    \   base         model,         to         which         other         features\
+    \         are         added,          is         an         asset-\ndifferent\
+    \           management           strategies           could           induce \
+    \         complex           dynamics           in                            \
+    \                                                     price           model  \
+    \          of            investment            in            housing         \
+    \   that           depends            on           the           \uFB02      \
+    \  ow             of\nshoreline         position         and         local   \
+    \     property         markets         along         the         path        \
+    \ toward                                                                     \
+    \       housing           services           (rent)           and           the\
+    \           opportunity           cost           of           ownership      \
+    \    (user\ninundation.                  Lastly,                  although   \
+    \               the                  barrier                  island         \
+    \         communities                  that                               cost).\
+    \                The                user                cost                includes\
+    \                cost               of                capital                (the\
+    \                discount                rate),\nmotivate     our     modeling\
+    \     are     largely     built     out     and     have     been     for    \
+    \ decades,                                                                   \
+    \                                 depreciation,              a              risk\
+    \              premium              for              the              real   \
+    \           estate              market,              expected\nallowing     the\
+    \     housing     supply     to     adjust     upward     or     downward    \
+    \ would     be     a                                                         \
+    \                                              capital     gains,      and   \
+    \   interactions      with      income      and      property      tax      rates\
+    \      that\nuseful             generalization            for             future\
+    \            work.             Endogenizing             housing             supply\
+    \                                                                  also      \
+    \  affect        the        capitalization        of        rents46,60.      \
+    \  We        generalize        the        model        to\nwould      enable \
+    \    C-HOM     to     analyze      a     wider     range     of     coastal  \
+    \   communities.                                                             \
+    \                                            incorporate       the       economic\
+    \       value       of       environmental       amenities       and       risks\n\
+    \                                                                            \
+    \                                                                            \
+    \                                                              associated    \
+    \    with        climate        change.        In        contrast        to  \
+    \      the        standard        user        cost\nMethods                  \
+    \                                                                            \
+    \                                                                            \
+    \                                     model,           we          account   \
+    \        for          heterogeneity          in          risk           preferences\
+    \          within           and\nC-HOM        overview                       \
+    \                                                                            \
+    \                                                                            \
+    \                  across          resident          owners,          resident\
+    \          renters,          and          an         outside          institutional\n\
+    C-HOM      combines      elements      from      theoretical,      numerical \
+    \     modeling,       and                                                    \
+    \                                                             investor.Thisaccountsforthewaysthatpeoples\
+    \                                          \u2019       desire        to     \
+    \  live        at       the\nempirical              literature               in\
+    \               economics,              \uFB01        nance,                nonlinear\
+    \                systems,                and                                 \
+    \         coast        and        appreciation        of        environmental\
+    \        amenities        intersect        with        risk\ncoastal        processes.\
+    \                                                                            \
+    \                                                                            \
+    \                                     of       inundation       from       storms\
+    \       and       other       elements       of       the       user       cost\
+    \       model.\nFirst,     we     adopt     an     asset-price     approach  \
+    \   that     links     the     sales     price     of                        \
+    \                                                                            \
+    \  Capital        asset        models         of        housing         provide\
+    \         the         conceptual         relation-\na              property  \
+    \            to              the              capitalized             \uFB02 \
+    \       ow              of             housing              market           \
+    \   rent46,59. The                           ship              between       \
+    \       stock              and             \uFB02        ow              variables\
+    \              that             determine              asset              price,\n\
+    speci\uFB01        cally           modify           the           user       \
+    \    cost           of           housing           model           to        \
+    \   parameterize                                                   namely    \
+    \          property               sales               price              (P) and\
+    \ property rent (R). Sale               price\nvariation           in        \
+    \   incentives           as          a           function           of       \
+    \    demographics,           the           changing                          \
+    \                                represents            the            stock  \
+    \          value            whereas           rents            capture       \
+    \    the           \uFB02         ow             value                of\nphysical\
+    \          environment,         and          broader         economic        \
+    \  conditions46,60.          By          link-                               \
+    \                                                      housing               \
+    \  services.                The                 value                 of     \
+    \            an                 asset                 is                determined\
+    \                 from\ning         housing         purchases         to     \
+    \    the        \uFB02        ow          of          coastal          amenities\
+    \          and          risks,          the                                  \
+    \           the          (expected)         \uFB02        ow         value,  \
+    \       or         rents,        accrued         over         time         such\
+    \         that\nuser-cost              approach               introduces     \
+    \          dynamics              that              result               from \
+    \              different                                                     \
+    \ the         present          value          of          an          asset  \
+    \       is        equal         to            the          discounted        \
+    \  sum         of\nincentives        faced        by        owners,        institutional\
+    \        investors,        and        renters.        These                  \
+    \                                                                     future \
+    \        rents.          Over          an        in\uFB01         nite       \
+    \ horizon        and        with        constant R\ndifferences     could    \
+    \ become     more     important     as     climate     change     alters     the\
+    \                                                                            \
+    \                                  and         capitalization         rate,  \
+    \        i,         the         stock         value         reduces         to:\n\
+    physical         environment.\nSecond,                  we                  model\
+    \                  feedbacks                  in                 the         \
+    \         coupled                  human-natural                             \
+    \                                                                            \
+    \             1             Rt                  R\nco as tal                sys\
+    \ tem29,33,35,41,61.              The              natural              system\
+    \              affects              the              human              sys- \
+    \                                                                            \
+    \                                  P      =      X       \xF01+    i\xDEt    \
+    \         =  i                                                               \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                               \xF01\xDE\n                  \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                         t  =1\ntem,        \
+    \ which         in         turn         affects         the         natural  \
+    \       system62. Speci\uFB01        cally,         the         phy-\nsical  \
+    \                environment                  changes                   with \
+    \                 erosion,                  SLR,                  and        \
+    \          storms.                  These               Because    discounting\
+    \     weighs     terms     according     to     exponential     decay,     the\n\
+    changes        affect        risks        and         values        of       \
+    \ coastal        real        estate.        Human        respon-             \
+    \                                                             in\uFB01       \
+    \ nite-horizon            problem            approximates            the     \
+    \       value            of            a            durable            asset,\n\
+    ses,                including                 beach                 nourishment,\
+    \                 create                 feedbacks                 between   \
+    \              the                                         such        as    \
+    \     real         estate,         that        is        expected         to \
+    \        be         long-lived.\nhuman         and        natural        systems33,42\
+    \        (Fig.        2).                                                    \
+    \                                                                            \
+    \                        Equation                (1)               forms     \
+    \          the               conceptual              basis               for \
+    \              the               user               cost               of\nThird,\
+    \      we     use     agent-based      modeling      to      capture      nonlinearities\
+    \      and                                                                   \
+    \                                    housing   model46.  The user-cost   equivalence\
+    \  is  a  capital-theoretic\nheterogeneity        in        the        coupled\
+    \        human-natural       system58,63. In contrast to                     \
+    \                                                                            \
+    \                relationship     equating     the     marginal     cost     of\
+    \     owning     capital     to     the     rate     of\nNature         Communications|\
+    \                   (2024) 15:2209\n"
+  10: Source material here.
+  11: "Source material here.\nDrivers of Risk: \"All agents are subject to risks from\
+    \ SLR and storms. These risks are included in a risk premium term that includes\
+    \ background risk associated with investment in real estate markets and a dynamic\
+    \ agent-specific term that reflects changing physical risks, heterogeneous climate\
+    \ beliefs, and risk tolerance.\"\nMethodology: \"The state equation describing\
+    \ the width of the beach (bw) is then: bwt +1 = bwt /C0 \u03C8 bw + \u0394 t...\
+    \ The state equation for mean sea level (MSL) also assumes a constant linear rate\
+    \ of increase (\u03C8 SL): MSLt +1 = MSLt + \u03C8 SL\"\n"
+  12: "                                                                          \
+    \                                                                            \
+    \                                                                            \
+    \                            \"An important driver in real estate markets is demographic\
+    \ change...our model represents coastal real estate markets over long time horizons,\
+    \ we account for demographic changes by updating agent parameter distributions.\
+    \ To this end, we use interactions with outside markets to benchmark these changes.\"\
+    \ \n\"we parameterize r SL t to be a function of property elevation relative to\
+    \ sea level.\"\n"
+  13: "Source material here.\n\"The analysis uses a model to simulate beach nourishment\
+    \ decisions, involving scheduled nourishments funded by municipal bonds and temporary\
+    \ property tax increases over a ten-year horizon.\" - \"Previous models of beach\
+    \ nourishment decisions show that the human and natural systems jointly determine\
+    \ shoreline position and coastal property values... A nourishment plan is chosen\
+    \ from a schedule of possible intervals... is funded locally through municipal\
+    \ bonds that are paid for by the residents over the first 5 years of the plan\
+    \ through a temporary (five-year) increase in property taxes (\u03C4 P).\"\n\n\
+    \"Beach nourishment plans are evaluated by comparing property tax burden against\
+    \ the increase in property value, with agents voting based on whether property\
+    \ value increase exceeds the extra tax burden.\" - \"A ten-year nourishment plan\
+    \ that will subsequently be voted on is chosen by comparing the property tax burden\
+    \ (cost) against the increase in property value (benefit)... Each agent evaluates\
+    \ whether the property value increase is greater than the extra tax burden.\"\n\
+    \n\"Plans are chosen through a voting mechanism, where implementation occurs if\
+    \ at least 50% of resident-owner agents vote to nourish.\" - \"The proposed nourishment\
+    \ plan is implemented if at least 50% of resident-owner agents vote to nourish.\
+    \ Importantly, institutional investors do not vote but are still taxed if nourishment\
+    \ is approved.\"\n\n\"Quantitative analysis uses the user cost model incorporating\
+    \ beach width and nourishment tax adjustments, simulating property value changes.\"\
+    \ - \"The total benefit of each interval/option is estimated by forward simulating\
+    \ property value via the user cost model... The forward simulation accounts for\
+    \ the average beach width under the proposed nourishment scenario... enters into\
+    \ the denominator of the user cost model.\"\n\n\"Model coded in Matlab R2022b\
+    \ and analyzes a menu of nourishment options over a potential 30-year horizon.\"\
+    \ - \"The model was coded and run in Matlab R2022b... Supplementary Table 1 summarizes\
+    \ model parameters, provides details on how they were chosen, and motivates the\
+    \ sensitivity analysis to explore alternative parameter values...\"\n  \n\"The\
+    \ nourishment decision framework is based on existing models, but explicitly aims\
+    \ to integrate human and natural system interactions.\" - \"Previous models of\
+    \ beach nourishment decisions show that the human and natural systems jointly\
+    \ determine shoreline position and coastal property values... The nourishment\
+    \ decision framework is similar to the one used in Duck, NC and described in Mullin,\
+    \ Smith, and McNamara.\"\n"
+  15: "Source material here.\n48. De Koning, K. & Filatova, T. Repetitive floods intensify\
+    \ outmigration and climate gentrification in coastal cities. Environ. Res. Lett.\
+    \ 15, 034008 (2020).\n54. Keeler, D., McNamara, A. G. & Irish, J. Responding to\
+    \ sea level rise: Does short-term risk reduction inhibit successful long-term\
+    \ adaptation? Earth\u2019s Future 6, 618\u2013621 (2018).\n"

@@ -1,0 +1,26 @@
+Drivers of Risk:
+  1: Urban floods due to dynamic urban environments, impacts of climate change, insufficient
+    flood event data, and lack of real-time monitoring systems.
+Evaluation overview:
+  1: Urban floods are evaluated in terms of prediction capability and mapping using
+    models and satellite images.
+Highlights:
+  1: Extended flood mapping to real-time system with high-resolution predictions,
+    achieving high accuracy.
+Methodology:
+  1: The analysis uses a deep learning model (U-Net) for near-real time urban flood
+    extent prediction, employing satellite data and a CNN network.
+Quantitative material:
+  1: Model demonstrated a Ground Truth Index of 84.05% for flood prediction accuracy.
+sourcematerial:
+  1: " \n\u2022 Urban floods occurred about every 2-3 days over the past 25 years\
+    \ (NOAA).\n\u2022 Urban flooding is not easily trackable because of:\n  o Dynamic\
+    \ urban environments\n  o Impacts of climate change\n  o Insufficient flood event\
+    \ data\n  o Lack of real-time monitoring systems\n\n\u2022 Model demonstrates\
+    \ an accurate prediction capability with a Ground Truth Index of 84.05%.\n \n\
+    Objectives\n\u2022 Developing a deep learning model for predicting near-real time\
+    \ urban flood extents resulting from rainfall (pluvial flood) using a CNN network\
+    \ (U-Net).\n\n\u2022 Extended the model's application beyond traditional flood\
+    \ mapping to develop a Near Real-Time flood mapping system.\n\u2022 Enabled more\
+    \ comprehensive flood mapping across various conditions and areas.\n\u2022 Achieved\
+    \ high-resolution (10-meter) for detailed flood extent predictions.\n"

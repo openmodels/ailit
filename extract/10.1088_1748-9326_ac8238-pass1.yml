@@ -1,0 +1,88 @@
+Drivers of Risk:
+  5: Pattern effect causing warming focused in regions of tropical convection, impacting
+    climate sensitivity and feedback.
+  6: The evaluation considers structural uncertainty and its impact on economic projections,
+    specifically related to temperature-dependent feedbacks and socioeconomic pathways.
+Evaluation overview:
+  6: The paper evaluates economic damages under different socioeconomic pathways (SSP4-6.0
+    and SSP3-7.0) and structural uncertainties in climate models.
+Highlights:
+  2: Structural uncertainty is crucial for integrated assessment models and dominates
+    overall non-socioeconomic uncertainty in economic projections of climate change
+    damages.
+  3: The results suggest that structural uncertainty may lead to an underestimation
+    of uncertainties reported in broader climate projections.
+  5: Structural uncertainty in climate models is significant for temperature projections
+    and economic damage estimates.
+  6: The results highlight the dominance of structural uncertainty in projections
+    of temperature and economic damages, particularly with temperature-dependent feedback
+    models.
+  7: The paper suggests that structural uncertainties should be considered, especially
+    in socio-economic projections using simple climate physics representations.
+Methodology:
+  2: A Bayesian approach was developed to quantify structural uncertainty in climate
+    projections using idealized energy-balance model representations.
+  3: The analysis uses a computational Bayesian approach to quantify structural uncertainty
+    in a simple Earth Balance Model (EBM) used by integrated assessment models (IAMs).
+  4: The importance of structural uncertainty in projections is quantified using a
+    metric based on the interquartile range.
+  5: The analysis involves posterior distribution comparisons for different climate
+    models with a focus on temperature-dependent feedback models.
+  6: The analysis uses a single-equation energy-balance model to characterize structural
+    uncertainty, comparing marginal utility of consumption with a default 4.255% discount
+    rate and alternative damage functions.
+  7: The analysis focuses on reduced complexity climate models and their structural
+    uncertainty.
+Quantitative material:
+  5: u(T(2100)) is 2.0 and u(T(2300)) is 2.7 for SSP4-6.0; u(T(2100)) is 2.3 and u(T(2300))
+    is 4.1 for SSP3-7.0, indicating structural uncertainty's dominance.
+  6: "The page presents quantitative evaluations of damages in trillions of 2019 USD,\
+    \ with an emphasis on the period 2020\u20132300 and different discount rates."
+sourcematerial:
+  2: "yaml\nMethodology: \"WedevelopedaBayesianapproachtoquantifystructuraluncertaintyinclimateprojections,usingtheidealisedenergy-balancemodelrepresentationsofclimatephysicsthatunderpinmanyeconomists\u2019\
+    integratedassessmentmodels(IAMs)(andthereforetheirpolicyrecommendations).\"\n\
+    Highlights: \"Wefindthatamodelwithatemperature-dependentclimatefeedbackismostconsistentwithglobalmeansurfacetemperatureobservations,butthatthesignofthetemperature-dependenceisoppositeofwhatEarthsystemmodelssuggest.\"\
+    \nHighlights: \"Indeed,inprojectionsusingsharedsocioeconomicpathwayssimilartocurrentemissionsreductionstargets,structuraluncertaintydwarfsparametricuncertaintyintemperature.Consequently,structuraluncertaintydominatesoverallnon-socioeconomicuncertaintyineconomicprojectionsofclimatechangedamages,asestimatedfromasimpletemperature-to-damagescalculation.TheseresultsindicatethatconsideringstructuraluncertaintyiscrucialforIAMsinparticular,andforclimateprojectionsingeneral.\"\
+    \n"
+  3: "yaml\nMethodology: \"The analysis uses a computational Bayesian approach to\
+    \ quantify structural uncertainty in a simple EBM used by several IAMs, though\
+    \ our approach is generalisable to climate models with additional complexity.\"\
+    \nMethodology: \"We are interested in making projections of Earth\u2019s global\
+    \ mean surface temperature T due to radiative forcing F resulting from greenhouse\
+    \ gases, aerosols, ozone precursors, land use change, and other anthropogenic\
+    \ influences.\"\nHighlights: \"We show that structural uncertainty is much larger\
+    \ than parametric uncertainty for projections of T, and consequently for calculations\
+    \ of damages due to climate change.\"\nHighlights: \"These results underscore\
+    \ that physical structural uncertainty is substantial in climate economics calculations,\
+    \ and in climate projections in general.\"\nHighlights: \"They also imply that\
+    \ reported uncertainties of such projections may be appreciably underestimated,\
+    \ as is often the case with complex physical phenomena[11       ].\"\n"
+  4: "  \n\"We then use this model, a multidecadal feedback... ensemble, weighted\
+    \ by its respective posterior.\" \n\"We then draw many samples from these priors\
+    \ and from an ensemble of radiative forcing timeseries... these temperature projections\
+    \ into economic damages due to climate change.\"\n\"We define a simple metric\
+    \ for the importance of structural uncertainty: ... more than double the parametric\
+    \ uncertainty.\"\n"
+  5: "Source material: \"Figure 1 shows the posterior for \xB5 and the posteriors\
+    \ of the associated nonlinear parameters resulting from the analysis above. The\
+    \ temperature-dependent feedback model (i.e. \xB5 = 4) has more probability mass\
+    \ than the other models, with p(\xB5 = 4)= 0.45. Interestingly, the sign of \u03BB\
+    \ T (or equivalently \u03BD conditional on \xB5 = 4) is well-constrained as positive,\
+    \ i.e. p(\u03BD > 0|\xB5 = 4)= 0.98. This is a dampening nonlinearity, i.e. the\
+    \ warmer the Earth gets, more radiative forcing is required to warm it, or equivalently\
+    \ the lower its climate sensitivity... 55% of the posterior mass is in the remaining\
+    \ models, i.e. p(\xB5 \u0338= 4)= 0.55. This strongly indicates an important role\
+    \ for structural uncertainty... Figure 2 shows that indeed structural uncertainty\
+    \ is dominant for temperature projections under shared socioeconomic pathway SSP4-6.0;\
+    \ in this case u(T(2100))= 2.0 and u(T(2300))= 2.7, indicating that structural\
+    \ uncertainty is far larger than parametric uncertainty... This dampening nonlinearity\
+    \ is likely due to a pattern effect, as warming in recent decades has been more\
+    \ focused in regions of tropical convection... the existence of a pattern effect\
+    \ analogous to observations is a robust feature of ESMs... the temperature-dependent\
+    \ feedback model may be underestimating future warming...\""
+  6: null
+  7: "Source material here. \"We have shown here that structural uncertainty plays\
+    \ an important role in reduced complexity climate models\u2019 total uncertainty,\
+    \ which must be accounted for in their physical projections, and especially in\
+    \ the socioeconomic projections that use such simple representations of climate\
+    \ physics.\""

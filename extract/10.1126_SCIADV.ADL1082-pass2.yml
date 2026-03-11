@@ -1,0 +1,347 @@
+Drivers of Risk:
+  1: Increased extreme heat from anthropogenic global warming is identified as a key
+    driver impacting economic growth.
+  2: The main driver of risk identified is the intensity of extreme heat waves measured
+    by Tx5d, affecting economic growth differently depending on regional temperatures.
+  3: The drivers of risk are annual mean temperature, extreme heat (Tx5d - intensity
+    of the hottest 5-day period), and daily-scale temperature variability.
+  4: Anthropogenic increases in extreme heat and changes in temperature intensity
+    and frequency are the key drivers of risk impacting economic outcomes.
+  5: Anthropogenic changes in extreme heat intensity (Tx5d), measured as a time series
+    of the change in economic growth.
+  6: Anthropogenic changes in extreme heat, particularly the intensity of the hottest
+    5 days of the year, impact economic outcomes.
+  7: Extreme heat intensity (Tx5d - temperature of the hottest 5-day heat wave), average
+    temperatures, and temperature variability.
+  10: The drivers of risk are anthropogenic changes in the number of days exceeding
+    the 95th percentile of temperature (Tx5d).
+  12: Historical climate damages
+Evaluation overview:
+  1: The paper provides an overview of how increased extreme heat globally affects
+    economic growth, particularly highlighting its impact on poorer tropical regions.
+  2: The paper evaluates the impact of extreme heat on economic growth in different
+    regions, highlighting how it varies based on regional temperatures.
+  3: The outcome being evaluated is economic growth.
+  4: The paper evaluates the economic impact of anthropogenic extreme heat on global
+    economic production through changes in extreme heat, particularly focusing on
+    how such heat affects income levels and growth.
+  5: Economic growth (GDPpc) changes due to anthropogenic changes in extreme heat
+    (Tx5d).
+  6: This page evaluates the economic impact of anthropogenic changes to extreme heat
+    intensity, particularly focusing on GDP changes.
+  7: Economic growth
+  10: This section focuses on predicting regional GDP per capita (GDPpc) and calculating
+    accumulated economic damages from warming.
+  12: National attribution of historical climate damages.
+Highlights:
+  1: Human-caused increases in heat waves have most significantly impacted economic
+    output in the poorest tropical regions, which have contributed the least to climate
+    change.
+  2: Extreme heat reduces growth in warm regions, has weak effects in temperate regions,
+    and increases growth in cold regions, with significant impacts on low-income tropical
+    regions.
+  3: There are significant independent effects of both average and extreme temperatures.
+    Temperature is the primary moderator of the effect of extreme heat. People are
+    poorly adapted to extreme heat, even in regions that are already warm. Extreme
+    heat causes large damages in low-latitude regions, transitioning to modest damages
+    and lastly benefits as latitude increases. Analyzing temperature extremes is necessary
+    to fully account for the global inequities in the burden of temperature impacts.
+  4: Tropical regions experience stronger economic effects and are particularly vulnerable
+    to losses due to increases in extreme heat, with repeated extreme heat events
+    potentially generating long-term income changes.
+  5: Anthropogenic changes to extreme heat have primarily harmed tropical regions.
+    Regions with greater income per capita are more likely to experience benefits
+    or limited damages from human-caused changes in heat extremes, while regions with
+    lower income per capita experience greater relative damages.
+  6: Poorer regions are hit hardest by anthropogenic extreme heat, suffering more
+    due to higher baseline temperatures and lower variability. The paper stresses
+    the significant role of high-emission countries in contributing to extreme heat
+    and the resulting economic losses.
+  7: Increased extreme heat intensity significantly decreases economic growth in relatively
+    warm tropical regions and weakly affects it in relatively cool midlatitude regions;
+    anthropogenic climate change has increased the frequency and intensity of these
+    economically consequential heat extremes; and climate change-driven extreme heat
+    has amplified inequality, disproportionately harming low-income, low-emitting
+    regions.
+  9: Regions with modest annual cycles and high temperatures face disproportionate
+    damages from extremes and variability.
+  10: The analysis produces a global sample of continuous GDPpc data at the regional
+    level and calculates damages from historical climate change.
+  12: National attribution of historical climate damages.
+Methodology:
+  1: The analysis uses subnational economic data, extreme heat metrics like the temperature
+    of the hottest days, and an ensemble of climate models to quantify the effects
+    of extreme heat on global economic growth.
+  2: Analysis uses an empirical model incorporating Tx5d and annual average temperature,
+    with extrapolation to regions lacking economic data; results are applicable when
+    considering global economic impacts of temperature changes.
+  3: A fixed effects model is used, purging time-invariant regional characteristics.
+    The model includes annual mean temperature, extreme heat (Tx5d), and daily-scale
+    temperature variability. Likelihood ratio test used to compare models.
+  4: "The analysis uses a distributed lag empirical model combined with historical\
+    \ and natural climate model experiments from CMIP6 to estimate the impacts of\
+    \ extreme heat on economic production over 1992\u20132013."
+  5: A statistical model is used to downscale country-level GDPpc to regional GDPpc
+    using country-level GDPpc and regional nighttime luminosity. Monte Carlo analysis
+    is performed to quantify uncertainty, resampling uncertainty from the econometric
+    model, the climate models, the statistical model used to predict regional GDPpc,
+    and residual uncertainty in regional GDPpc. The analysis covers the period 1992-2013.
+  6: The analysis is conducted using 10,000 Monte Carlo simulations and examines the
+    average annual and cumulative effects on GDP from 1992 to 2013 and potential future
+    impacts till 2100.
+  7: Econometric analysis using subnational data, focusing on the peak intensity of
+    extreme heat (Tx5d). Extrapolates results to regions with missing data, assuming
+    average temperature controls the marginal effect of extreme heat globally.
+  9: A supplementary analysis recalculates extreme heat using deviations from location-
+    and month-specific indices.
+  10: The analysis predicts regional GDPpc using country-level GDPpc and regional
+    nightlights data from 1992-2013. It uses ordinary least squares regression and
+    a 10-fold cross-validation analysis. Uncertainty is calculated using a Monte Carlo
+    analysis (N=10,000).
+  12: Processed data and analysis code are available at github.com/ccallahan45/CallahanMankin_ExtremeHeatEconomics_2022/,
+    permanently archived on Zenodo at doi.org/10.5281/zenodo.7017229.
+More Notes:
+  3: The interaction between mean temperature and Tx5d is significant, indicating
+    that increases in mean temperatures are harmful in warmer locations due to interactions
+    between warmer mean temperatures and increased extreme heat intensity.
+  5: The study addresses a data gap by using a statistical model to estimate regional
+    GDPpc in areas where data is missing. Uncertainty in individual regions is often
+    low, particularly in tropical regions where economic losses are highly probable.
+  7: "The paper acknowledges limitations due to missing data in the world\u2019s poorest\
+    \ and hottest regions, particularly in Africa. The results are viewed as conservative,\
+    \ as incorporating additional periods of extreme heat would likely enhance the\
+    \ effect."
+  10: The authors make the data available at a specified Github repository.
+Quantitative material:
+  1: "The paper states that cumulative losses from anthropogenic extreme heat between\
+    \ 1992\u20132013 are estimated to range from $5 trillion to $29.3 trillion globally,\
+    \ affecting GDP per capita by 6.7% in the poorest regions and 1.5% in the wealthiest."
+  2: Quantitative results include the measure of economic growth changes in percentage
+    points per standard deviation of Tx5d, with an example of a 0.63% decrease in
+    Brazil and a 0.62% increase in Norway.
+  3: "Annual average temperatures explain ~40% of the variation in raw Tx5d values;\
+    \ Annual average temperature anomalies explain less than 13% of the variation\
+    \ in Tx5d anomalies; Temperature variability has a negative effect on growth (\u2212\
+    2.01 percentage points per standard deviation); Removing Tx5d from the model increases\
+    \ the magnitude of the variability effect to -2.21 percentage points per standard\
+    \ deviation."
+  4: "Anthropogenic warming increased regional Tx5d values by an average of 0.77\xB0\
+    C globally and increased the probability of extreme events by 13 percentage points\
+    \ across regions on average."
+  5: Cumulative global losses due to extreme heat average more than $16 trillion in
+    2013. GDPpc is >5% per year lower than it would have been without anthropogenic
+    effects on extreme heat in tropical countries. In high-latitude nations, anthropogenic
+    extreme heat changes have depressed GDPpc by ~1% per year. Regions in the lowest
+    income decile have experienced losses of 6.7% of GDPpc per year, compared to 1.5%
+    in the top income decile.
+  6: "The paper includes quantitative analyses of GDP changes\u2014average annual\
+    \ GDPpc changes range from -15% to +6%, and cumulative GDP changes range from\
+    \ -10 trillion to +1 trillion 2010 $."
+  7: Extreme heat intensity accounts for almost 10% of overall economic damages despite
+    being based on <2% of days in the year.
+  10: The model with country-level GDPpc and regional nightlights has out-of-sample
+    prediction errors of less than 7% of the average regional log GDPpc. The model
+    explains ~87% of the variation in observed data with Uzbekistan and Kenya included,
+    and ~90% when they are excluded.
+  12: National attribution of historical climate damages.
+sourcematerial:
+  1: "Source material: \"Increased extreme heat is among the clearest impacts of global\
+    \ warming, but the economic effects of heat waves are poorly understood. ...we\
+    \ quantify the effect of extreme heat intensity on economic growth globally. Increases\
+    \ in extreme heat from anthropogenic global warming (1, 2) pose alarming risks\
+    \ to human well-being. Cumulative 1992\u20132013 losses from anthropogenic extreme\
+    \ heat likely fall between $5 trillion and $29.3 trillion globally. Losses amount\
+    \ to 6.7% of Gross Domestic Product per capita per year for regions in the bottom\
+    \ income decile, but only 1.5% for regions in the top income decile. Using subnational\
+    \ economic data, extreme heat metrics measuring the temperature of the hottest\
+    \ several days in each year, and an ensemble of climate models, we quantify the\
+    \ effect of extreme heat intensity on economic growth globally. We find that human-caused\
+    \ increases in heat waves have depressed economic output most in the poor tropical\
+    \ regions least culpable for warming.\""
+  2: " \n\"Extreme heat significantly decreases economic growth in warm regions, weakly\
+    \ affects growth in temperate regions, and increases growth in cold regions (Fig.\
+    \ 1).\"\n\n\"Our empirical model includes the effects of both Tx5d and annual\
+    \ average temperature, their interaction to allow the effect of extremes to vary\
+    \ with average temperature, and temperature variability...\"\n\n\"...an SD increase\
+    \ in Tx5d intensity depresses growth by 0.63 percentage points (p.p.)... an additional\
+    \ SD in Tx5d intensity enhances growth by 0.62 p.p. (Fig. 1A).\"\n\n\"Tropical\
+    \ regions lose income when extreme heat increases, mid-latitude regions in the\
+    \ United States and southern Europe lie in a weakly affected transition zone,\
+    \ and high-latitude regions gain economically as their baseline temperatures are\
+    \ too cold for optimal growth.\"\n\n\"We then combine these empirical results\
+    \ with historical climate model simulations to assess the economic effects of\
+    \ anthropogenic changes in extreme heat intensity to date (fig. S1).\"\n\n\"The\
+    \ effects of extreme heat must be inferred for regions for which economic data\
+    \ is unavailable (hatching in Fig. 1B), which are primarily warm and low-income\
+    \ regions...\"\n"
+  3: "The outcome being evaluated is economic growth. The drivers of risk are annual\
+    \ mean temperature, extreme heat (Tx5d - intensity of the hottest 5-day period),\
+    \ and daily-scale temperature variability. Annual average temperatures explain\
+    \ ~40% of the variation in raw Tx5d values; Annual average temperature anomalies\
+    \ explain less than 13% of the variation in Tx5d anomalies; Temperature variability\
+    \ has a negative effect on growth (\u22122.01 percentage points per standard deviation);\
+    \ Removing Tx5d from the model increases the magnitude of the variability effect\
+    \ to -2.21 percentage points per standard deviation. A fixed effects model is\
+    \ used, purging time-invariant regional characteristics. The model includes annual\
+    \ mean temperature, extreme heat (Tx5d), and daily-scale temperature variability.\
+    \ Likelihood ratio test used to compare models. There are significant independent\
+    \ effects of both average and extreme temperatures. Temperature is the primary\
+    \ moderator of the effect of extreme heat. People are poorly adapted to extreme\
+    \ heat, even in regions that are already warm. Extreme heat causes large damages\
+    \ in low-latitude regions, transitioning to modest damages and lastly benefits\
+    \ as latitude increases. Analyzing temperature extremes is necessary to fully\
+    \ account for the global inequities in the burden of temperature impacts. The\
+    \ interaction between mean temperature and Tx5d is significant, indicating that\
+    \ increases in mean temperatures are harmful in warmer locations due to interactions\
+    \ between warmer mean temperatures and increased extreme heat intensity."
+  4: "markdown\nThese empirical findings imply that human-caused warming has affected\
+    \ economic production through changes in extreme heat... Estimating how much anthropogenic\
+    \ extreme heat has affected global economic production requires three things...\
+    \ If extreme heat affects income levels, but not growth, then economies will \u201C\
+    catch up\u201D following a heat wave, recovering to their previous income trajectory...\
+    \ Anthropogenic increases in extreme heat... Anthropogenic warming has increased\
+    \ the frequency and intensity of extreme heat events globally... Globally, regional\
+    \ Tx5d values average 0.77\xB0C more than they would have without warming over\
+    \ 1992\u20132013... The probability of extreme Tx5d values... has also substantially\
+    \ increased, with probabilities rising by 13 p.p. across regions, on average...\
+    \ Our empirical model provides the first of these. To estimate the second, we\
+    \ use historical and natural climate model experiments from the sixth phase of\
+    \ the Coupled Model Intercomparison Project (CMIP6)... To ensure the availability\
+    \ of continuous GDPpc data to meet the third criterion, we use a statistical model\
+    \ to infer regional GDPpc time series over 1992\u20132013 where they are not currently\
+    \ available... we apply the distributed lag model coefficients (Fig.\_3A) to observed\
+    \ and counterfactual Tx5d values... The spatial pattern of anthropogenic extreme\
+    \ heat thus coincides with both the stronger economic effect of extreme heat in\
+    \ the tropics and the lower incomes there, making tropical regions particularly\
+    \ vulnerable to losses from human-caused heat extremes... Even if regions return\
+    \ to their original income trajectory after a heat wave, there remains a gap between\
+    \ their actual income and the income they would have experienced without the heat\
+    \ wave (Fig.\_3C). Therefore, while individual heat extremes do not permanently\
+    \ affect economic growth, repeated extreme heat events might generate tangible\
+    \ long-term income changes.\n"
+  5: " \nSource material here.\n     These growth changes allow us to calculate time\
+    \ series of counter-\nfactual regional GDPpc (29)...\nchange in economic growth\
+    \ in each subnational region due to anthro-\npogenic changes in Tx5d over 1992\u2013\
+    2013...\n     We then apply the growth change values calculated from the cli-\n\
+    mate model simulations to generate counterfactual regional GDPpc.\nThe difference\
+    \ between observed and counterfactual GDPpc represents\nthe effect of anthropogenic\
+    \ extreme heat...\n     These growth changes allow us to calculate time series\
+    \ of counter-\nfactual regional GDPpc...\n     Despite the clear signal of extreme\
+    \ heat in global income, the\nglobal picture belies substantial inequalities in\
+    \ the magnitude of\ndamages at the regional level (Fig.\_4,\_D\_and\_E). Regions\
+    \ with greater\nincome per capita are more likely to experience benefits or limited\n\
+    damages from human-caused changes in heat extremes, while regions\nwith lower\
+    \ income per capita experience greater relative damages...\n"
+  6: "yaml\nEvaluation overview: \"This page evaluates the economic impact of anthropogenic\
+    \ changes to extreme heat intensity, particularly focusing on GDP changes.\"\n\
+    - \"economic output is high, we can be virtually certain that this output has\
+    \ been reduced by anthropogenic increases in extreme heat.\"\n- \"**Panel A (Map\
+    \ of Relative Damages):** - Displays a world map showing 'Relative damages from\
+    \ anthropogenic extreme heat' by color. - Colors range from dark red (indicating\
+    \ a large GDP decrease) to dark blue (indicating a GDP increase). - Indicates\
+    \ the 'Average annual GDPpc change (%)' due to extreme heat.\"\n\nDrivers of Risk:\
+    \ \"Anthropogenic changes in extreme heat, particularly the intensity of the hottest\
+    \ 5 days of the year, impact economic outcomes.\"\n- \"... effects of increased\
+    \ intensity in the hottest 5 days of the year allows decision-makers to weigh\
+    \ the benefits of adaptations focused on those few days.\"\n- \"Given the strong\
+    \ relationship between cumulative CO2 emissions and changes in local temperature\
+    \ extremes...\"\n\nQuantitative material: \"The paper includes quantitative analyses\
+    \ of GDP changes\u2014average annual GDPpc changes range from -15% to +6%, and\
+    \ cumulative GDP changes range from -10 trillion to +1 trillion 2010 $.\"\n- \"\
+    **Panel A (Map of Relative Damages):** - Scale ranges from -15% to +6%.\"\n- \"\
+    **Panel B (Map of Absolute Damages):** - Scale ranges from -10 trillion to +1\
+    \ trillion dollars.\"\n\nMethodology: \"The analysis is conducted using 10,000\
+    \ Monte Carlo simulations and examines the average annual and cumulative effects\
+    \ on GDP from 1992 to 2013 and potential future impacts till 2100.\"\n- \"Black\
+    \ line denotes the mean across 10,000 Monte Carlo simulations.\"\n- \"Cumulative\
+    \ global damages\" over time from 1995 to 2100 in Panel C.\"\n\nHighlights: \"\
+    Poorer regions are hit hardest by anthropogenic extreme heat, suffering more due\
+    \ to higher baseline temperatures and lower variability. The paper stresses the\
+    \ significant role of high-emission countries in contributing to extreme heat\
+    \ and the resulting economic losses.\"\n- \"Poorer regions have higher baseline\
+    \ temperatures and lower temperature variability, so those regions both experience\
+    \ the signal of extreme heat from warming first and suffer most when extreme heat\
+    \ increases.\"\n- \"Rich countries that experience limited damages are also large\
+    \ emitters of fossil fuel carbon dioxide (CO2), making them primarily responsible\
+    \ for increases in global temperatures and associated heat extremes.\"\n"
+  7: 'Source material here.
+
+    Evaluation overview: "Our work yields three key results: (i) Increased extreme
+    heat intensity significantly decreases economic growth in relatively warm tropical
+    regions and weakly affects it in relatively cool midlatitude regions."
+
+    Drivers of Risk: "Our work... help[s] to close a key gap in climate-economic research.
+    They also emphasize that, while related, the costs of temperature extremes are
+    distinct from the costs of average temperatures and temperature variability."
+
+    Quantitative material: "When combined, damages associated with all three variables
+    appear primarily driven by changes in average temperatures (fig. S11). However,
+    changes in extreme heat intensity account for almost 10% of the overall damages
+    despite being based on <2% of days in the year..."
+
+    Methodology: "...using subnational data to measure the effect of extreme heat
+    is an important contribution of our analysis, since heat waves occur at subnational
+    spatial scales. The key assumption underlying our extrapolation procedure is that
+    the underlying average temperature controls the marginal effect of extreme heat
+    globally."
+
+    Highlights: "...increased the frequency and intensity of these economically consequential
+    heat extremes; and, therefore, (iii) the effects of climate change on extreme
+    heat have amplified underlying inequality, disproportionately harming low-income,
+    low-emitting regions, with major emitters shouldering primary responsibility for
+    billions of dollars of losses in the tropics."
+
+    More Notes: "In addition, Tx5d and similar metrics measuring the hottest several-day
+    period in each year have been widely used... Data limitations also make calculating
+    accumulated economic damages difficult, which motivated our work to generate continuous,
+    globally representative subnational income data..."
+
+    '
+  9: "Tx5d is calculated by taking 5-day running means of daily maximum temperature\
+    \ at each grid cell over the 1979\u20132016 period, temporally aggregating to\
+    \ the annual maximum, and then spatially aggregating by calculating regional population-weighted\
+    \ averages...We use panel regression with fixed effects to model economic growth\
+    \ as a function of extreme high temperatures, temperature variability, and mean\
+    \ temperature...To estimate sampling uncertainty in the regression coefficients,\
+    \ we estimate the parameters in Eq. 1 1000 times using a bootstrap resampling\
+    \ procedure, sampling with replacement from a uniform distribution of regions...Regions\
+    \ with modest annual cycles are also regions with high temperatures (i.e., the\
+    \ tropics), so the damages associated with both extremes and variability fall\
+    \ disproportionately on low-income tropical regions...The results from this regression\
+    \ yield even stronger effects for Tx5d, indicating that our main results should\
+    \ be viewed as conservative...using Tx5d ensures that we measure temperatures\
+    \ during the hottest parts of the year, whereas seasonally varying thresholds\
+    \ would treat relatively warm periods during winter or shoulder seasons as equivalent\
+    \ to the hottest summer heat waves...Moreover, using Tx5d ensures that we measure\
+    \ temperatures during the hottest parts of the year...Regions with larger annual\
+    \ cycles (i.e., greater seasonality) are less harmed by temperature variability,\
+    \ since they may be acclimated to greater swings in temperature."
+  10: 'Source material here.
+
+    Because many regions in our dataset do not contain continuous GDPpc data, we develop
+    a simple and parsimonious statistical model for predicting regional GDPpc data
+    in areas where it is not currently available. We emphasize that we do not apply
+    our empirical regression approach to this constructed data, but only use it in
+    the calculation of accumulated economic damages from warming. The predictand of
+    interest is regional GDPpc... We estimate the following regression model using
+    ordinary least squares... The model with the smallest out-of-sample prediction
+    error includes only country-level GDPpc and regional nightlights... The low errors
+    in this out-of-sample prediction procedure support our choice to infer GDPpc for
+    regions where country-level data are available, but regional data are not. To
+    the best of our knowledge, our analysis is the first to produce a global sample
+    of continuous GDPpc data at the regional level... Uncertainty in damages is calculated
+    using a Monte Carlo analysis (N = 10,000)... The effect of anthropogenic changes
+    in extreme temperatures is calculated as the difference between the observed and
+    counterfactual time series... The predicted values from this equation are shown
+    in fig. S8. Uzbekistan and Kenya appear to be outliers, potentially due to errors
+    in the country-level GDPpc data... When these countries are included, the predicted
+    data explain ~87% of variation in the observed data; when they are dropped, the
+    predicted data explain ~90% of variation in the observed data... We make these
+    data available to the community, independent of the replication data for the rest
+    of our analysis, at the following location: github.com/ccallahan45/Global_Subnational_Income/
+
+    '
+  12: 'Source material: C.W. Callahan, J.S. Mankin, National attribution of historical
+    climate damages. Clim. Change172, 40 (2022). Processed data and analysis code
+    that support the findings of this study are available at github.com/ccallahan45/CallahanMankin_ExtremeHeatEconomics_2022/,
+    permanently archived on Zenodo at doi.org/10.5281/zenodo.7017229.'

@@ -1,0 +1,270 @@
+Drivers of Risk:
+  1: The primary driver of risk is enhanced greenhouse gas concentrations, which affect
+    the intramonthly variability of daily surface temperature.
+  2: Changes in daily temperature variability in boreal winter (DJF), boreal summer
+    (JJA), and across the year (annual).
+  3: Changes in daily temperature variability due to greenhouse gas forcing, particularly
+    under the SSP-585 (business-as-usual emissions) scenario.
+  4: Changes in daily temperature variability, attributed to increasing greenhouse
+    forcing, impact climate outcomes.
+  5: Changes in daily temperature variability, mean surface temperature changes, anthropogenic
+    greenhouse forcing, surface warming
+  6: High-frequency climate system changes in daily temperature variability are impacting
+    outcomes.
+  7: Changes in daily temperature variability due to greenhouse forcing.
+Evaluation overview:
+  1: The paper evaluates the impact of changes in daily temperature variability on
+    societal outcomes, including human health, agriculture, and economic growth.
+  2: No relevant information
+  3: No relevant information
+  4: The page evaluates changes in daily temperature variability attributed to greenhouse
+    forcing over historical and projected periods.
+  5: No relevant information
+  7: Impacts of temperature variability on mortality, mental health, and crop yields
+    are mentioned (though not directly evaluated in this paper itself). Mentions economic
+    growth affected by day-to-day temperature variability
+Highlights:
+  1: The paper identifies distinct global patterns in the change of intramonthly variability
+    of daily surface temperature with rising greenhouse gas concentrations. Variability
+    increases at low to mid latitudes and decreases at northern mid to high latitudes.
+    These changes are attributable to enhanced greenhouse forcing.
+  2: Latitudinal polarization in annual and DJF daily temperature variability is detected,
+    with reductions at northern mid to high latitudes opposed by increases across
+    continental land mass. For JJA, reductions across North America, the high Arctic,
+    and parts of North Africa are opposed by increases elsewhere. Increases in daily
+    temperature variability in European summer and across the tropics and wider Southern
+    Hemisphere confirm previous climate model predictions.
+  3: LFCA is used to identify externally forced signals, potentially with greater
+    accuracy than ensemble averages, even with only single model realizations. Strong
+    latitudinal dependence on patterns of change.
+  4: A high degree of spatial similarity is noted between observed and projected changes
+    in daily temperature variability, especially for annual and DJF periods.
+  5: Historically observed global patterns of change in daily temperature variability
+    are extremely unlikely to occur due to natural internal variability and are consistent
+    with the expected response to anthropogenic greenhouse forcing in the annual,
+    DJF, and JJA cases. Changes in daily temperature variability will depend not only
+    on the extent of greenhouse gas forcing, but also on the true climate sensitivity.
+    Global climate models underpredict the extent to which daily variability changes
+    in response to greenhouse forcing and surface warming, suggesting that CMIP-6
+    projections provide only a lower bound on how variability may change under future
+    forcing scenarios. There is a robust scaling between surface warming and variability
+    changes. There are latitudinal variations between increasing and decreasing temperature
+    variability between models.
+  6: Daily temperature variability changes are projected to have strong impacts on
+    human and ecological systems; biggest increases in variability observed in low-latitude
+    regions.
+  7: The approach differs from optimal fingerprinting by detecting low-frequency patterns
+    of change from observations and simulations separately, avoiding assumptions about
+    the accuracy of climate models in simulating the true response to greenhouse forcing.
+    Uses spatiotemporal covariance information to separate low-frequency signals from
+    internal climate variability, which is less obscured by internal variability than
+    methods based on linear trends.
+Methodology:
+  1: The paper uses reanalyses of historical observations and a multi-model ensemble
+    from the Coupled Model Intercomparison Project Phase 6 (CMIP6).  A signal-to-noise-maximizing
+    pattern-filtering technique is used to isolate the changes in daily temperature
+    variability from internal climate variability.
+  2: Low-frequency component analysis (LFCA), an extension of principal component
+    analysis (PCA), is used to identify spatial patterns with coherent low-frequency
+    temporal evolution. LFCA is applied to historical reanalyses of daily temperature
+    variability. The NOAA 20th Century Reanalysis is the primary specification. Results
+    are compared to ERA-5 reanalysis. Robustness is tested via alternative LFCA specifications
+    and grid-cell linear trends.
+  3: Uses a multimodel ensemble of 10 bias-corrected CMIP-6 models and applies Lowest-Frequency
+    Component Analysis (LFCA) to identify forced signals from internal climate variability.
+    Analysis covers 1950-2100 under historical and SSP-585 forcing. LFCA identifies
+    monotonically increasing patterns of change from multidecadal climate variability.
+  4: The analysis uses pattern-correlation statistics to attribute historical changes
+    in temperature variability to greenhouse forcing, utilizing data from NOAA and
+    the CMIP-6 ensemble.
+  5: Changes in daily variability and mean temperature changes are estimated for each
+    ensemble member from the lowest-frequency component identified with LFCA. Patterns
+    of change are land-area averaged. Assesses whether daily variability and mean
+    temperature changes covary across CMIP-6 models and forcing scenarios. Historically
+    observed variability changes are compared to CMIP-6 ensemble given the historical
+    level of warming (NOAA 20th Century Reanalysis used).
+  6: Assessment of a multimodel ensemble of CMIP-6 climate models; LFCA method to
+    identify low-frequency climate variability signals.
+  7: Uses Low-Frequency Component Analysis (LFCA) to separate low-frequency signals
+    from internal climate variability. Calculates pattern correlations between reanalyses
+    and CMIP-6 ensemble under greenhouse forcing. Assesses the covariance of simulated
+    per-decadal warming and variability changes across CMIP-6 models and forcing scenarios
+    using least-squares linear regression. LFCA method is applied to reanalysis and
+    CMIP-6 data.
+More Notes:
+  1: The study suggests that the equilibrium climate sensitivity will also play a
+    role in determining the extent of future variability changes.
+  2: The study aims to separate externally forced climate signals from internal multidecadal
+    variability. The spatial patterns of change are largely consistent between the
+    NOAA 20th Century Reanalysis and ERA-5.
+  3: The analysis focuses on daily temperature variability, and finds the ensemble
+    models represent historical daily temperature variability well. The study presents
+    results for annual, boreal winter (DJF), and boreal summer (JJA) seasons.
+  5: No relevant information
+Quantitative material:
+  1: Daily temperature variability is projected to increase by up to 100% at low latitudes
+    and decrease by 40% at northern high latitudes by the end of the century under
+    a business-as-usual emissions scenario. Mitigation of greenhouse gases can limit
+    these changes.  Changes in daily variability exhibit strong covariation with warming
+    across climate models.
+  2: Increases and decreases of up to 40% and 20% over the past 65 years in daily
+    temperature variability are reported.
+  3: "Presents Interdecadal changes (1950\u20131960 to 2090\u20132100) due to the\
+    \ lowest-frequency component of daily temperature variability."
+  4: "Quantitative information on temperature change rates is shown, with a color\
+    \ scale indicating temperature changes in \xB0C per decade."
+  5: Similarity of historically observed response to forced response is significant
+    at least at the 1% level in annual and DJF cases and at the 10% level in the JJA
+    case using the centered pattern-correlation statistic (R). Similarity is unmatched
+    in the CMIP-6 control runs in all seasons and, therefore, significant at least
+    at the 0.24% level using the uncentered pattern-correlation statistic (C).
+  6: Observed global changes in daily temperature variability of up to 40%, projected
+    to change by a further 100% by the end of the century under a business-as-usual
+    emissions scenario.
+  7: Calculates centered (R) and uncentered (C) pattern correlation statistics. Uses
+    500 years (300 for one model) of CMIP-6 control runs to assess significance of
+    correlations. Calculates interdecadal changes between 1950-1960 and 2090-2100,
+    and also between nonoverlapping decades separated by 25 years.
+sourcematerial:
+  1: "  \n\"Evaluation overview\": \"including human health (23\u201327), agriculture\
+    \ (28\u201330), and economic growth (31)\"  \n\"Drivers of Risk\": \"the intramonthly\
+    \ variability of daily surface temperature changes with distinct global patterns\
+    \ as greenhouse gas concentrations rise\"  \n\"Quantitative material\": \"increase\
+    \ by up to 100% at low latitudes and decrease by 40% at northern high latitudes\
+    \ by the end of the century under a business-as-usual emissions scenario. Alternatives\
+    \ scenarios demonstrate that these changes would be limited by mitigation of greenhouse\
+    \ gases. Moreover, global changes in daily variability exhibit strong covariation\
+    \ with warming across climate models\"  \n\"Methodology\": \"intramonthly variability\
+    \ of daily surface temperature. These latitudinally polarized daily variability\
+    \ changes are identified from internal climate variability using a recently developed\
+    \ signal-to-noise-maximizing pattern-filtering technique. Analysis of a multi-model\
+    \ ensemble from the Coupled Model Intercomparison Project Phase 6\"  \n\"Highlights\"\
+    : \"increases at low to mid latitudes and decreases at northern mid to high latitudes\
+    \ with enhanced greenhouse forcing\"  \n\"More Notes\": \"covariation with warming\
+    \ across climate models, suggesting that the equilibrium climate sensitivity will\
+    \ also play a role in determining the extent of future variability changes\" \
+    \ \n"
+  2: "Source material: We consider changes in daily variability in boreal winter (\u201C\
+    DJF\u201D), boreal summer (\u201CJJA\u201D), and across the year (\u201Cannual\u201D\
+    ) to both assesstheseasonspeci\uFB01cmechanismsidenti\uFB01edinpreviouswork and\
+    \ to provide an aggregated overview of variability changes. These latitudinally\
+    \ polarized components are responsible for increases and decreases of up to 40%\
+    \ and 20% over the past 65 y, with particularly strong percentage increases across\
+    \ the tropics (SI Appendix, Fig. S2A\u2013C). Low-frequency component analysis\
+    \ (LFCA), an extension of traditional princi- pal component analysis (PCA), identi\uFB01\
+    es linearly independent modes that account for the greatest ratio of low frequency\
+    \ to total variance (see Materials and Methods for further details)...We apply\
+    \ LFCA to historical reanalyses of daily tempera- ture variability (Materials\
+    \ and Methods)...Since weexpectthelongertimeperiodtoimprovetheseparationofan externally\
+    \ forced response from internal climate variability...The detection of these patterns\
+    \ of global change in daily temperature variability is robust to different speci\uFB01\
+    cations of the LFCA (SI Appendix, Fig. S3) and to alternative detection methods\
+    \  (SI Appendix,  Fig.  S4,  grid-cell  linear  trends). the European Centre for\
+    \ Medium-Range Weather Forecasts Reanalysis 5 [ERA-5]) and the latest generation\
+    \ of comprehen- sive climate models (Coupled Model Intercomparison Project phase\
+    \ 6 [CMIP-6])...the corresponding spatial patterns exhibit stronglatitudinalpolarizationinboththeannualandDJFcases:\
+    \ Reductions in daily temperature variability at northern mid to high latitudes\
+    \ are opposed by increases across the major- ity of the continental land mass\
+    \ elsewhere (Fig. 1 A and B)...For JJA, the pattern consists of reductions across\
+    \ North Amer- ica,  the  high  Arctic,  and  parts  of  North  Africa  opposed\
+    \  by strong increases elsewhere (Fig. 1C)...This detection of historical increases\
+    \ in daily temperature variability in European summer and across the tropics and\
+    \ wider Southern Hemisphere con\uFB01rms the predictions of previous generations\
+    \ of climate models (36\u201338). Identifying externally forced signals in climate\
+    \ data is compli- cated by the internal multidecadal variability of the climate\
+    \ sys- tem...Since climatic changes due to greenhouse forcing are slower to evolve\
+    \ than those due to internal variability, this approach can help to discriminate\
+    \ between them...Similar spatial patterns are detected in the ERA-5 reanaly- sis,\
+    \ Fig. 1 D\u2013F."
+  3: 'Source material: Multimodel ensemble of 10 bias-corrected Coupled Global Circulation
+    Models (CGCMs) from CMIP-6... method to identify a forced response from internal
+    climate variability... allows a more nuanced estimate of the forced response...
+    extrapolating daily temperature variability between the ensemble under historical
+    forcing... LFCA has been shown to identify externally forced signals... strong
+    latitudinal dependence patterns of change... detected with LFCA... interdecadal
+    changes... due to the lowest-frequency component are shown as colored maps...
+    the annual and DJF cases..."'
+  4: " \nEvaluation overview: \"To attribute the observed historical changes identi\uFB01\
+    ed in daily temperaturevariabilitytoincreasinggreenhouseforcingrequires...\"\n\
+    Drivers of Risk: \"Attribution of historical changes in daily temperature variability\
+    \ to greenhouse forcing.\"\nQuantitative material: \"The expected response to\
+    \ greenhouse forcing is estimated as themultimodel-ensembleaverageofthepatternsofper-decadal\
+    \ temperature change rates, with units of \xB0C per decade.\"\nMethodology: \"\
+    We do so using two pattern-correlation statistics, following the work of previous\
+    \ detection-attribution studies... control runs of the CMIP-6 ensemble under constant\
+    \ preindustrial greenhouse forcing...\"\nHighlights: \"A high degree of spatial\
+    \ similarity between the historically observed and the forced response of daily\
+    \ temperature variability is noted...\"\n"
+  5: 'Source material:
+
+
+    - "The similarity of the historically observed response to the forced response
+    is significant at least at the 1% level in the annual and DJF cases and at the
+    10% level in the JJA case."
+
+    - "The similarity is unmatched in the CMIP-6 control runs in all seasons and,
+    therefore, significant at least at the 0.24% level."
+
+    - "Changes in daily temperature variability, mean surface temperature changes,
+    have been linked to mean surface temperature changes."
+
+    - "Daily variability changes are assessed through whether daily variability and
+    mean temperature changes covary across CMIP-6 models and forcing scenarios."
+
+    - "Historically observed variability changes are compared to the CMIP-6 ensemble."
+
+    - "We therefore conclude that the historically observed global patterns of change...
+    are consistent with the expected response to anthropogenic greenhouse forcing."
+
+    - "Future changes in daily temperature variability will depend not only on the
+    extent of greenhouse gas forcing, but also on the true climate sensitivity."
+
+    - "Global climate models underpredict the extent to which daily variability changes
+    in response to greenhouse forcing and surface warming, suggesting that CMIP-6
+    projections provide only a lower bound."
+
+    - "There is a robust scaling between surface warming and variability changes."
+
+    - "Offurtherinterestisthelatitudinalboundarybetweenincreasing and decreasing temperature
+    variability, which varies considerably between models."
+
+    '
+  6: "  \n\"the historically observed global changes in daily temperature variability\
+    \ are very unlikely to have occurred due to natural internal climate variability\
+    \ and are highly consistent with the expected response to anthropogenic greenhouse\
+    \ forcing.\" \n\n\"already caused changes in daily temperature variability of\
+    \ up to 40%, which are projected to change by a further 100% by the end of the\
+    \ century under a business-as-usual emissions scenario.\"\n\n\"The assessment\
+    \ of a multimodel ensemble of CMIP-6 climate models ... and our application of\
+    \ it to daily temperature variability.\"\n\n\"These changes are likely to have\
+    \ strong impacts on human and ecological systems across the globe ... the biggest\
+    \ increases in daily temperature variability are observed in and projected for\
+    \ low-latitude regions with typically low income and low historical emissions\
+    \ of greenhouse gases.\"\n"
+  7: "Source material: These statistics are calculated between the responses identi\uFB01\
+    ed from the reanalyses and the CMIP-6 ensemble under greenhouse forcing....Observed\
+    \ trends in the magnitude and persistence of monthly temperature variability.\
+    \ Sci. Rep.7, 5940 (2017)....Impacts of temperature and its variability on mortality\
+    \ in New England. Nat. Clim. Chang.5, 988\u2013991 (2015)....Vulnerability to\
+    \ the impact of temperature variability on mortality in 31 major Chinese cities.\
+    \ Environ. Pollut.239, 631\u2013637 (2018)....Day-to-day temperature variability\
+    \ reduces economic growth. Nat. Clim. Chang. 11, 319\u2013325 (2021)....A total\
+    \ of 500 y of postspin-up control runs are available for each model, other than\
+    \ Centre National de Recherches M\xB4et\xB4eorologiques Earth System Model 2-1\
+    \ (CNRM- ESM2-1), for which 300 y are available....In Fig. 4, the interdecadal\
+    \ changes are calculated between the \uFB01rst and \uFB01nal decades (1950\u2013\
+    1960 to 2090\u20132100). InSI Appendix, Fig. S8, these changes are calculated\
+    \ between pairs of nonoverlapping decades separated by 25 y, yielding 12 changes\
+    \ per model per forcing scenario to assess the scaling within indi- vidual climate\
+    \ models...uses spatiotemporal covariance information to optimally separate low-\
+    \ frequency signals from internal climate variability...Second, low-frequency\
+    \ patterns of change are here detected from observa- tions and simulations separately\
+    \ before their similarity is assessed...The same detection method as applied to\
+    \ the reanalysis data (LFCA, with the same number of EOFs retained, N) is applied\
+    \ to calculate inter- decadal differences between pairs of nonoverlapping decades....Least-squares,\
+    \ linear regression models are used to assess the covariance of the simulated\
+    \ per-decadal warming and variability changes across CMIP-6 models and forcing\
+    \ scenarios....This approach differs from optimal \uFB01ngerprinting, a commonly\
+    \ used detection-attribution framework, in two important ways. First, LFCA uses\
+    \ spatiotemporal covariance information to optimally separate low- frequency signals\
+    \ from internal climate variability."

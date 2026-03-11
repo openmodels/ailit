@@ -1,0 +1,466 @@
+Drivers of Risk:
+  1: Deforestation, reliance on limited forest mensuration and growth simulation,
+    exclusion of CO2 data
+  2: Uncertainty in forest carbon sequestration is a driver of risk.
+  8: Deforestation in the surrounding landscapes of the Ankasa Resource Reserve is
+    mentioned as a potential driver.
+  9: Weather, climate, human activity (agriculture, reforestation, hurricane disturbance)
+  10: No relevant information
+  16: GHG dynamics affect land, to forestry science and models and climate change
+  21: Noted factors impacting the outcomes include anomalous droughts and population
+    growth pressure within the AP reserve area.
+  22: "The anomalously low NEE for HF year 2010 (\u22120.53 tCO2eq) is associated\
+    \ with drought, demonstrating the requirement for ecosystem respiration measurement\
+    \ for NEE."
+  24: Use of satellite imagery aids in detecting illegal and non-conforming deforestation
+    in near real-time, improving oversight and reducing CO2 flux uncertainty.
+  26: Anthropogenic climate change
+Evaluation overview:
+  1: Net forest carbon sequestration projects
+  2: The paper discusses the effectiveness of forest carbon sequestration projects
+    and programs in balancing deforestation with conservation and preservation.
+  6: The focus is on evaluating the net carbon exchange in forests to achieve carbon
+    neutrality over time.
+  7: The page discusses the transformation of NEE data for single towers into carbon
+    dioxide equivalent per acre per year to assess greenhouse gas balance and potential
+    revenue scenarios.
+  8: NEE data (Net Ecosystem Exchange) are used in the analysis.
+  9: NEE (Net Ecosystem Exchange) is being evaluated, which reflects the impact of
+    weather, climate, and human activity on carbon exchange.
+  10: No relevant information
+  11: Provides an overview of net ecosystem exchange (NEE) of carbon dioxide as a
+    measure of forest carbon sequestration and its impact on carbon credits.
+  16: No relevant information
+  19: Evaluates pre-tax cash flow from forest carbon projects at Harvard Forest and
+    Ankasa Park under different sequestration rates.
+  21: The page evaluates the hypothetical financial structure and cases for pre-tax
+    revenue for landowners under the DMFCP, estimating the long-term cumulative value
+    and benefit to landowner property valuation and reforestation costs.
+  22: This paper evaluates the creation and verification of forest carbon financial
+    products.
+  26: No relevant information
+Highlights:
+  1: The Direct Measurement Forest Carbon Protocol (DMFCP) aims to address forest
+    carbon market uncertainties and provide new economic incentives to reverse deforestation
+    through direct measurement of net ecosystem exchange (NEE) of CO2.
+  2: The paper argues that multinational policy applications such as the Paris Agreement
+    and the United Nations Reducing Emissions from Deforestation and Degradation will
+    benefit from Net Ecosystem Exchange (NEE) measurement avoiding unsupported claims
+    of emission reduction, fraud, and forest conservation policy failure.
+  5: Loss of carbon due to fire, UV, or biomass removal is assumed negligible in the
+    study areas, which are protected or conserved lands.
+  6: Initial sequestration with the goal of zero emissions from Year 11 to 100, upfront
+    payments and annual royalties for landowners, and a verification system for transparency
+    and reliability.
+  7: The study uses extrapolated NEE data to explore pre-tax revenue scenarios by
+    combining NEE values with carbon prices ranging from $5 to $36 per tCO2eq.
+  9: The Harvard Forest project area has been studied using remote sensing data to
+    assess species composition and responses to climate change.
+  10: No relevant information
+  11: Active forest carbon sequestration resulted in net negative NEE values and generation
+    of carbon credits at both HF and AP sites.
+  16: All GHG flux data are relevant to climate activity
+  19: Demonstrates higher potential revenue from mixed carbon products in voluntary,
+    compliance, and regulatory markets, with significant variation due to market uncertainty.
+  21: The most important outcomes include the potential financial benefits for landowners
+    from DMFCP, including property valuation enhancement, reduced reforestation costs,
+    and revenue potential from mixed carbon products with biodiversity features.
+  22: The approach is a game-changer for creation and verification of forest carbon
+    financial products compared to estimation and model simulation-based protocols.
+    NEE establishes 30-minute flux data comprising detailed baseline resolved time-series
+    for each project yielding annual mean data based on 17,520 such intervals for
+    each CO2 analyzer.
+  23: Direct measurement through DMFCP allows for real-time evaluation of carbon flux
+    as positive, negative, or neutral, providing a zero-emissions baseline through
+    net ecosystem exchange measurements.
+  24: The DMFCP uses ton-year accounting, allowing for flexibility in forest carbon
+    sequestration projects without imposing a 100-year time horizon, which enables
+    a range of project types and intervals.
+  25: The DMFCP addresses shortcomings in emission reduction verification and carbon
+    trading as identified in the Paris Agreement and REDD+ programs.
+  26: The DMFCP updates the UNFCCC and REDD+ methods to validate and monetize claims
+    of emission reduction and to determine GHG budgets across diverse ecological landscapes
+    at the national and sub-national levels fulfilling the Paris Agreement (e.g.,
+    Article 10) and REDD goals and objectives.
+Methodology:
+  1: Uses the Direct Measurement Forest Carbon Protocol (DMFCP), based on standardized
+    methods for direct determination of net ecosystem exchange (NEE) of CO2 employing
+    eddy covariance. Deploys a System-of-Systems (SoS) network architecture with Global
+    Monitoring Platform (GMP) sensor nodes housing analyzers for CO2 isotopologues
+    (e.g., 12CO2, 13CO2, 14CO2) and greenhouse gases. The methodology is illustrated
+    using published annual NEE data for a tropical forest (Ankasa Park, Ghana, Africa)
+    and a deciduous forest (Harvard Forest, Petersham, MA, USA) to forecast carbon
+    revenue.
+  2: The paper critiques estimation protocols that rely on forest mensuration conducted
+    every 6 or 12 years coupled with tree growth simulation models to infer annual
+    changes in net forest carbon offsets.
+  5: NEE represents net carbon sink when negative and net carbon source when positive.
+  6: Direct field measurement of NEE for CO2, CH4, and N2O emissions relative to a
+    zero-emission baseline, with annual accreditation periods and a ton-year accounting
+    exit strategy.
+  7: The NEE data is transformed into tCO2eq per acre per year and extrapolated to
+    larger areas; also involves detailed data processing and correction protocols.
+  8: NEE data used in this analysis are available online from the Fluxnet (2015) quality-checked
+    database (http://fluxnet.fluxdata.org/data/fluxnet2015-dataset/) as annual NEE
+    based on the gap-filled VUT_NEE_REF values.
+  9: NEE data (US-Ha1) from the Harvard Forest tower are used, applying corrections
+    for horizontal advection of CO2 and incomplete flux. Data are processed using
+    Python libraries (Pandas, NumPy). Daily NEE is calculated from half-hourly data,
+    summed to annual NEE.
+  10: This page shows the location of eddy covariance sites analyzed in the study,
+    one in Ghana and one in Massachusetts, USA, and provides attribution information.
+  11: Describes the deployment of the DMFCP as an automated field sensor network measuring
+    GHG fluxes and using isotopic composition for verification.
+  16: "Data and models, protocols and cal-, set up, tower, and up-scaling 2 flux averages\
+    \ are typically standardized based on direct measurement of GHG\u2019s"
+  19: Analysis uses continuous eddy covariance measurements for determining net ecosystem
+    exchange (NEE) in forest carbon projects, contrasting estimation-based protocols.
+  22: The study discusses using eddy covariance flux towers and scaling up data with
+    remote sensing. It also mentions using open source software (ONEFlux) or commercial
+    software to harmonize data treatment, including uncertainties for CO2 and CH4
+    flux. It uses a minimum two-tower configuration or paired GMP sensor nodes for
+    larger networks, to provide redundancy and cross-checks to report SoS NEE combined
+    uncertainty.  The paper argues that the approach is a game-changer for creation
+    and verification of forest carbon financial products compared to estimation and
+    model simulation-based protocols.
+  23: The DMFCP eliminates baseline estimations, additionality tests, and multiyear
+    invalidation periods commonly required by traditional protocols, as it establishes
+    forest carbon flux directly.
+  24: The DMFCP employs real-time wireless reporting and verification with independent
+    third-party observers, allowing for instantaneous validation and invalidation,
+    unlike traditional methods.
+  25: The DMFCP is applied in crafting international emission reduction policies by
+    incorporating scientifically accepted methods and standardized terms for voluntary
+    and compliance offsets.
+  26: "The DMFCP comprises a commercial standardized measurement-to-monetization system\
+    \ for the determination of NEE. The SoS and GMP components can be applied to GHG\u2019\
+    s across large-scales and diverse locations, corrects traditional carbon credit\
+    \ gaps in validation and recalibrates equivalent voluntary and compliance programs."
+More Notes:
+  1: The DMFCP differentiates physical, project, and financial carbon. The system
+    aims to standardize and automate measurement, uncertainty, and reporting functions.
+  8: The Ankasa Park eddy covariance tower was operational from 2011 to 2014.
+  10: The figure caption and image attributions point to data sources and potentially
+    related publications (US Ge-Marino et al. (2020), PeerJ, DOI10.7717/peerj.8891).
+    The figure provides geographic context for the study sites.
+  16: The paper discusses uncertainties in NEE (Net Ecosystem Exchange) measurements
+    and modeling in the context of climate activities. It mentions the importance
+    of harmonizing protocols, standardizing measurements, and addressing errors in
+    eddy covariance data and up-scaling.
+  21: The hypothetical financial and revenue potential for forest carbon management
+    is tied to long-term CO2 measurement and commercial viability conditioned upon
+    market demand.
+  26: The DMFCP normalizes forest emission reduction determinations for voluntary
+    and compliance markets bridging the gap between methods, project types and outcomes
+    for stakeholders. The authors received no funding for this work, but several have
+    competing interests including patents and employment at related organizations.
+  36: Most of these are patent applications related to monitoring greenhouse gas fluxes,
+    which are indirectly relevant to climate impacts but don't directly address the
+    direct effects I'm reviewing. The Marino et al. (2019) and Marland et al. (2017)
+    papers focus on carbon offset protocols, which are related to climate change mitigation
+    but not direct climate impacts. The Mauder et al. (2013) paper concerns eddy covariance
+    measurements which are useful for monitoring greenhouse gas fluxes but don't by
+    themselves detail climate impacts. The Mei (2015) paper is about timberland assets
+    and is not related to direct climate impacts. Molly Peters-Stanley Gonzalez G,
+    Yin D. (2013) appear to discuss the state of forest carbon markets, not direct
+    climate impacts. Munger (2016) appears to be a dataset description. Munger, Whitby,
+    Wofsy (2018) focuses on shifts in carbon balance for a forest. It is possible
+    that some of these papers have direct impacts or implications but they are not
+    the focus of this page.
+No relevant information:
+  24: No concrete quantitative data or evaluation outcomes related to climate impacts
+    are presented on this page.
+Quantitative material:
+  1: "NEE sequestration rates of 0.48 to 15.60 tCO2eq acre \u22121 yr\u22121; Carbon\
+    \ pricing of $5 to $36 per ton CO2 equivalent (tCO2eq); Pre-tax cash flows ranging\
+    \ from $230,000 to $16,380,000 across project time-series for 100,000 acres (40,469\
+    \ hectares); Up to 5\xD7 revenue for contemporary voluntary offsets"
+  2: Discount pricing for forest carbon (e.g., <$5 tCO2eq-1 in 2017, <$1 in 2018)
+    and the decline of reforestation and conservation carbon market traction by ~72%
+    from 2011 to 2016 are quantitative pieces of information.
+  8: "Uncertainty for the corrected AP 30-minute NEE data was reported as 0.20 \xB5\
+    \ mol m \u22122 s\u22121 or 6.7% of the daily means."
+  9: NEE data over the period of record (e.g., 2000-2019) is used.
+  10: No relevant information
+  11: Presents annual NEE values for HF site ranging from -0.53 to -9.09 tCO2 acre-1yr-1
+    over 24 years, and for AP site from -6.74 to -15.2 tCO2 acre-1yr-1 over 4 years;
+    includes mean and SD.
+  16: "\u223C20% annual uncertainty to NEE, \u223C\xB1 0.03 tCO2yr\u22121"
+  19: Pre-tax cash flow ranges from $760,000 to $13,830,000 at Harvard Forest and
+    from $2,140,000 to $4,860,000 at Ankasa Park based on sequestration rates.
+  21: "Quantitative information presented includes a specific NEE value for AP (-15.2\
+    \ tCO2 acre\u22121 yr\u22121), projected pre-tax revenue from mixed carbon products\
+    \ up to $16,380,000 for the HF over a 24-year period, and population growth of\
+    \ ~298% from 1970 to 2010 within the AP area."
+  22: "The anomalously low NEE for HF year 2010 was \u22120.53 tCO2eq. Ecosystem respiration\
+    \ accounts for up to \u223C82% of gross carbon flux from the soil to the atmosphere."
+  26: "\u223C0.9 billion hectares of restorable landscapes offering a viable approach\
+    \ to retain the Earth\u2019s natural protective capacity to sequester atmospheric\
+    \ CO2."
+sourcematerial:
+  1: "Source material here.\nForestcarbonsequestrationoffsetsaremethodologicallyuncertain,compriseaminor\
+    \ componentofcarbonmarketsanddonoteffectivelyslowdeforestation.Theobjective of\
+    \ this study is to describe a commercial scale in situ measurement approach for\
+    \ determination of net forest carbon sequestration projects, the Direct Measurement\
+    \ Forest Carbon Protocol TM , to address forest carbon market uncertainties. In\
+    \ contrast toprotocolsthatrelyonlimitedforestmensuration,growthsimulationandexclusionof\
+    \ CO2 data,theDirectMeasurementForestCarbonProtocol TM isbasedonstandardized methodsfordirectdeterminationofnetecosystemexchange(NEE)ofCO2\
+    \ employing eddy covariance, a meteorological approach integrating forest carbon\
+    \ fluxes.\nNEE is used here as the basis for quantifying the first of its kind\
+    \ carbon financial products.\nThe DMFCP differentiates physical, project and financial\
+    \ carbon within a System-of-Systems TM (SoS) network architecture. SoS sensor\
+    \ nodes, the Global Monitoring Platform TM (GMP), housing analyzers for CO2 isotopologues\
+    \ (e.g., 12CO2, 13CO2, 14CO2) and greenhouse gases are deployed across the project\
+    \ landscape. The SoS standardizes and automates GMP measurement, uncertainty and\
+    \ reporting functions creating diverse forest carbon portfolios while reducing\
+    \ cost and investment risk in alignment with modern portfolio theory.\nPublished\
+    \ annual NEE data for a tropical (Ankasa Park, Ghana, Africa) and a deciduous\
+    \ forest (Harvard Forest, Petersham, MA, USA) are used to forecast carbon revenue.\
+    \ Carbon pricing scenarios are combined with historical in situ NEE annual time-series\
+    \ to extrapolate pre-tax revenue for each project applied to 100,000 acres (40,469\
+    \ hectares) of surrounding land. Based on carbon pricing of $5 to $36 per ton\
+    \ CO2 equivalent (tCO2eq) and observed NEE sequestration rates of 0.48 to 15.60\
+    \ tCO2eq acre \u22121 yr\u22121, pre-tax cash flows ranging from $230,000 to $16,380,000\
+    \ across project time-seriesarecalculated,upto5\xD7revenueforcontemporaryvoluntaryoffsets,\
+    \ demonstrating new economic incentives to reverse deforestation. The SoS conceptofoperationandarchitecture,withengineeringdevelopment,canbeextended\
+    \ to diverse gas species across terrestrial, aquatic and oceanic ecosystems, harmonizing\
+    \ voluntary and compliance market products worldwide to assist in the management\
+    \ of global warming. The Direct Measurement Forest Carbon Protocol reduces risk\
+    \ of\n"
+  2: "yaml\nEvaluation overview: \"Forest landowners and forest communities typically\
+    \ lack economic incentives and social benefits to balance deforestation with conservation\
+    \ and preservation...\"\nDrivers of Risk: \"...and as we argue here, uncertainty\
+    \ for forest carbon sequestration...\"\nQuantitative material: \"Discount pricing\
+    \ for forest carbon (e.g., <$5tCO2eq-1, 2017: <1$, 2018)(Hamrick&Gallant,2018;Hamrick\
+    \ &Gallant,2017) results in limited ecological, social and economic benefits of\
+    \ carbon trading to stakeholders due, in part, from risk of offset invalidation\
+    \ intrinsic to estimation protocols.\" and \"...declining by \u223C72% from 2011\
+    \ to 2016\"\nMethodology: \"Invalidation risk for estimation protocols stems from\
+    \ reliance on forest mensuration (e.g., timber survey) conducted every 6 or 12\
+    \ years (CaliforniaAirResourcesBoard,2015a; Forest CarbonPartners,2013;Marlandetal.,2017)\
+    \ coupled with tree growth simulation models to infer annual changes in net forest\
+    \ carbon offsets\"\nHighlights: \"Multinational policy applications such as the\
+    \ Paris Agreement and the United Nations Reducing Emissions from Deforestation\
+    \ and Degradation, constrained by Kyoto Protocol era processes, will benefit from\
+    \ NEE measurement avoiding unsupported claims of emission reduction, fraud, and\
+    \ forest conservation policy failure.\"\n"
+  5: "yaml\nMethodology: \"Netecosystemexchange(NEE)isameasureofthenetexchangeofcarbonfluxesbetween\
+    \ anecosystemandtheatmosphere(perunitgroundarea)andisauniversallyacceptedand widelyused.dvaluesarecalculatedby:(in\
+    \ h  )=(Rsample/Rstandard-1)1000where\u2018\u2018R\u2019\u2019istheratiooftheheavytolight\
+    \ isotopeinthesampleorstandard.For theelementssulfur,carbon,nitrogen, andoxygen,theaverageterrestrial\
+    \ abundanceratiooftheheavytothelight isotoperangesfrom1:22(sulfur)to1:500(oxygen);theratio2H:1His1:6410.A\
+    \ positivedvaluemeansthatthesample containsmoreoftheheavyisotopethan thestandard;anegativedvaluemeans\
+    \ thatthesamplecontainslessoftheheavy isotopethanthestandard.Ad15Nvalueof +30\
+    \ h  meansthatthereare30partsper thousandor3    h  more15Ninthesample relativetothestandard.\"\
+    \nMethodology: \"NEE =GPP +R eco and, R eco=R a+R h , whereGPP  =grossprimaryproductionorphotosyntheticassimilation,R\
+    \ eco=ecosystem respiration,R a=autotrophicrespirationbyplants,andR h=heterotrophicrespirationby\
+    \ soilmicrobes.\"\nMethodology: \"For example, a negative NEE flux represents\
+    \ a net carbon sink into the biosphere (e.g., removal or capture of CO 2 from\
+    \ the atmosphere) and a positive NEE represents a net carbon source into the atmosphere\
+    \ from the biosphere (e.g., increase of CO 2 in the atmosphere).\"\nHighlights:\
+    \ \"We assume that loss of carbon due to fire, UV, removalofbiomassandimportofbiomassisnegligibleasbothprojectsitesareprotected\
+    \ (Ankasa Park) or managed as conserved land (Harvard Forest).\"\n"
+  6: "Source material: (A)FeaturesandbenefitsoftheDMFCPcom-prisedoftheSoSandGMPsinclude:(1)directfieldmeasurementofNEE(CO2,CH4\
+    \ andN2O)relativetoazero-emissionbaselineshowingpositive,negativeorneutralGHGemissionemployinganSoSandoneormoreGMPs;(2)exante,annualaccreditationperiodsthatcanbeappliedtomultipleGHG\u2019\
+    s,(3)exitsfromalandowneragreementafter10yearswithapenaltyaccordingtoaton-yearaccountingcal-culation,(4)landownerbenefitfrominitialupfrontpayment(t0)andannualroyaltyonsalespayment(t1).(B)Multipleprojectssubsequenttodataqualitychecksbyadatacentercanbelistedinaregistryandgroupedintopooledportfolios;verificationofsystemperformancebyexternalthird-partyverifiersofreferencevaluesandcalibrationofGHGanalyzersisperformedaccordingtooperationoftheSoS..."
+  7: "Source material: NEE data for a single tower for each site was accessed from\
+    \ online data sources and transformed into tones carbon dioxide equivalent per\
+    \ acre per year (e.g., tCO2eq acre \u22121 yr\u22121)(SupplementalInformation2).\
+    \ The NEE values for both sites representing footprints of \u223C1\u201310km2\
+    \ are used to extrapolate NEE to 100,000 acres (40,469 hectares) to illustrate\
+    \ GHG balance. Multiple projects located in specified property boundaries can\
+    \ be grouped to address simple potential revenue for large-scale projects. Extrapolated\
+    \ NEE values were combined with carbon prices ranging from $5 to $36 tCO2eq to\
+    \ explore pre-tax revenue scenarios including definition numerical additionality.\
+    \ The DMFCP process simplifies existing protocols for forest carbon sequestration.\
+    \ The extrapolation of NEE data is for illustration purposes only as single tower\
+    \ data for both sites may not be representative of larger forest areas, discussed\
+    \ below."
+  8: "Source material here.\nNEE data used in this analysis are available online from\
+    \ the Fluxnet (2015) quality-checked database (http://fluxnet.fluxdata.org/data/fluxnet2015-dataset/)\
+    \ as annual NEE based on the gap-filled VUT_NEE_REF values(e.g., Wutzler et al.,\
+    \ 2018). The NEE data are gap-filled, filtered and corrected for low friction\
+    \ velocity periods that likely underestimate night time respiration. Uncertainty\
+    \ for the corrected AP 30-minute NEE data was reported as 0.20 \xB5 mol m \u2212\
+    2 s\u22121 or 6.7% of the daily means (Nicolini, 2012). The red color in Fig.\
+    \ 3A, denoting deforestation over... The Ankasa Park (AP) eddy covariance tower\
+    \ ... was operational for four years (2011 to 2014).\n"
+  9: "yaml\n\"Evaluation overview\": \"NEE data over the period of record(e.g.,2000\u2013\
+    2019)hasbeeninterpretedinthecontextofhistoricallanduseincluding agriculture,reforestationandhurricanedisturbance,demonstratingtheimpactofweather,\
+    \ climateandhumanactivity onNEE( Cogbill,2000 ;Compton&Boone,2000 ;Barfordetal.,\
+    \ 2001 ;Bellemare,Motzkin&Foster,2002 ;Urbanskietal.,2007 ).\"\n\"Drivers of Risk\"\
+    : \"NEE data over the period of record(e.g.,2000\u20132019)hasbeeninterpretedinthecontextofhistoricallanduseincluding\
+    \ agriculture,reforestationandhurricanedisturbance,demonstratingtheimpactofweather,\
+    \ climateandhumanactivity onNEE( Cogbill,2000 ;Compton&Boone,2000 ;Barfordetal.,\
+    \ 2001 ;Bellemare,Motzkin&Foster,2002 ;Urbanskietal.,2007 ).\"\n\"Quantitative\
+    \ material\": \"TheUS-Ha1NEEdataovertheperiodof record(e.g.,2000\u20132019)hasbeeninterpretedinthecontextofhistoricallanduse\"\
+    \n\"Methodology\": \"ThedatasetwasreadinlinebylineandprocessedusingPython Libraries\
+    \ (Pandas, NumPy) with txt format. Year, month, day, hour and NEE data were selectedforthisstudy.NEEwasdeterminedbycalculatingthemeanof48half-hourdata\
+    \ for each day as \xB5 mol CO 2 m\u22122 s\u22121, converting the value to gC\
+    \ m \u22122d\u22121, and summing dailyNEEtocalculateannualNEEforeachyear. ...\
+    \ US-Ha1 data are corrected for horizontal advection of CO 2 ...Correctionsareroutinelyappliedtoaccountforincompletefluxemphasizing\
+    \ the importance of understanding site conditions at each location to assess optimal\
+    \ and representativefluxresults.\"\n\"Highlights\": \"TheHarvardForestproject\
+    \ areahasbeenstudiedusingavarietyofremotesensingdatatoassessspeciescomposition\
+    \ across the project area and to understand short and long term responses to climate\
+    \ change ( Kimetal.,2018 ).\"\n"
+  10: The page consists of a figure caption and a description of two maps, A and B,
+    showing locations of eddy covariance sites in Ghana and Massachusetts. The caption
+    provides details about the locations and attributions to data sources. Although
+    it indicates where the analysis is conducted, it does not provide information
+    on the outcomes being evaluated, drivers of risk, or quantitative material. Hence,
+    under "Methodology," I noted the display of site locations and data sources, while
+    the rest of the categories have "No relevant information" as there are no further
+    applicable details on this page.
+  11: "Source material here: \"Figure 4 illustrates the annual (tCO2eq) NEE for HF\
+    \ (24 years) and AP (4 years) sites relative to a zero-reference baseline...Annual\
+    \ NEE values for HF and AP were negative over the intervals shown resulting from\
+    \ active forest carbon sequestration and generation of carbon credits (Fig. 4A).\
+    \ The DMFCP is comprised of hardware and software components designed to function\
+    \ as an automated commercial field sensor network (Figs. 1 and 2), the System\
+    \ of Systems...The SoS summarizes measurements of GHG fluxes against local, regional,\
+    \ and global reference materials for bulk and isotopic composition, providing\
+    \ the basis for calculation of verified tradeable GHG financial products for forests\
+    \ and anthropogenic net carbon fluxes for fossil fuel derived CO2. Annual NEE\
+    \ values for HF ranged from a minimum of \u22120.53 (2010) to a maximum of \u2212\
+    9.09 (2008) tCO2. The mean and standard deviation (SD) for the HF site for 24\
+    \ years was \u22124.5 tCO2 acre-1yr-1 \xB12.3 (SD). Annual NEE for AP ranged from\
+    \ a minimum of \u22126.74 (2013) to a maximum of \u221215.2 (2011) tCO2. The mean\
+    \ and standard deviation (SD) for the AP site for 4 years was \u221210.2 tCO2\
+    \ acre-1yr-1 \xB13.6 (SD).\""
+  16: Source material here.
+  19: 'Source material here.
+
+    Evaluation overview: "Landowner pre-tax cash flows are depicted based on a price
+    of 10 per tCO2eq across the minimum, mean and maximum values recorded for the
+    Harvard Forest, USA (unfilled bars), and the Ankasa Park forest, Africa (filled
+    bars), extrapolated to 100,000 acres for the historical record of each site."
+
+    Quantitative material: "Project value ranges from $760,000 to $13,830,000 and
+    from $2,140,000 to $4,860,000 across the minimum, mean and maximum values for
+    the annual records of the HF and AP sites, respectively."
+
+    Methodology: "The SoS and DMFCP features continuous eddy covariance measurements
+    for determination of NEE for forest carbon providing standardized commercial methods
+    and operations."
+
+    Highlights: "These data illustrate the higher potential revenue based on sale
+    of mixed products and pricing for voluntary, compliance and regulatory markets.
+    The vertical bars for Case 2 represent 20% variance in market uncertainty."
+
+    '
+  21: "The hypothetical financial structure and cases for pre-tax revenue for landowners\
+    \ illustrate the potential impact of the DMFCP. The long-term cumulative value\
+    \ of both sites, shown inFigs. 4Band7(e.g., Total revenue from mixed products\
+    \ and pricing), benefitlandownerpropertyvaluationandreducescostofdelayedreforestationin-linewithindicesforvalueoftimberlandoperations.\
+    \ A period known to be associated with anomalous drought ... GiventhehighratesofpopulationgrowthwithintheAPreservearea(\
+    \ \u223C298%populationincreasefrom1970to2010),revenueprogramsmaybeuniquelysuitedforpreservationandmanagementofprotectedareasinconjunctionwithcommunitybasedefforts.\
+    \ APexperiencedthehighestNEEoftheavailablerecord( \u221215.2tCO2 acre\u22121 yr\u2212\
+    1, 10.2 tC ha \u22121yr\u22121)... Pre-tax revenue for mixed carbon products and\
+    \ pricing is projected at up to $16,380,000fortheHFoverthe24-yearperiod(Fig.6),an\
+    \ \u223C5\xD7and\u223C2\xD7returncomparedtopricing of $5 and $10 tCO2eq (Fig.\
+    \ 5, Case 2), respectively ... The hypothetical financial structure and cases\
+    \ for pre-tax revenue for landowners illustrate the potential impact of the DMFCP.\
+    \ The long-term cumulative value of both sites... benefitlandownerpropertyvaluationandreducescostofdelayedreforestation...\
+    \ Figure7emphasizestherevenuepotentialofmixedforestcarbonproductsincorporating\
+    \ features of project biodiversity... The requirement for long term CO2 measurement\
+    \ cannot be understated for determination of variance in annual changes of NEE\
+    \ and for creation of corresponding annual forest carbon financial products resulting\
+    \ from NEE ... For presentpurposesweassumethat100%oftheproductsaresoldineachcasecoveringthe\
+    \ costoftheDMFCP."
+  22: " \n\"Accepting NEE uncertainties...we argue that the approach is a game-changer\
+    \ for creation and verification of forest carbon financial products compared to\
+    \ estimation and model simulation-based protocols.\"\n\n\"The anomalously low\
+    \ NEE for HF year 2010 (\u22120.53 tCO2eq), associated with drought demonstrates\
+    \ the requirement for ecosystem respiration measurement for NEE.\"\n\n\"Ecosystem\
+    \ respiration accounts for up to \u223C82% of gross carbon flux from the soil\
+    \ to the atmosphere.\"\n\n\"In actual DMFCP implementation for HF and AP sites...remote\
+    \ sensing data would be used to establish reliability of data extrapolation from\
+    \ a single tower and to guide the placement of additional towers to fill spatial\
+    \ gaps in NEE measurement.\"\n\n\"A minimum two-tower configuration or paired\
+    \ GMP sensor nodes for larger networks, would provide redundancy and cross-checks\
+    \ to report SoS NEE combined uncertainty.\"\n\n\"The use of open source eddy covariance\
+    \ processing software such as ONEFlux... and commercial software... applied uniformly\
+    \ across the SoS would harmonize data treatment including uncertainties for CO2\
+    \ and CH4 flux.\"\n\n\"NEE establishes 30-minute flux data comprising detailed\
+    \ baseline resolved time-series for each project yielding annual mean data based\
+    \ on 17,520 such intervals for each CO2 analyzer.\"\n"
+  23: "Inadditiontopotentialrevenueforlandowners,theDMFCPsimplifiestheforestcarbon\
+    \ protocolprocesscomparedtotraditionalapproachesthatdifferinmethods,assumptions\
+    \ and allowance for discretionary revisions... Traditional protocols (e.g., CARB,\
+    \ CAR, ACR, VERRA, CDM) require lengthy periods (e.g., 2\u20135 years) of fee-based\
+    \ project certification and registration prior topayment... In contrast, the DMFCP\
+    \ process can provide an upfront payment and annualized payment (e.g., case 2,Figs.\
+    \ 5and7) in a no-fee agreement (Fig. 2) available immediately... The DMFCPembodiedintheSoSandGMPobviatesthreefeaturesintrinsictotraditional\
+    \ protocolsincludingeliminationofbaselineestimation(#11),testsforadditionality(#12),\
+    \ and a multiyear invalidation period (#13)... Direct measurement establishes\
+    \ forest carbon flux as either negative (e.g., CO 2 sequestration), positive (e.g.,\
+    \ CO 2 efflux), or zero (sequestration balances efflux)\u2014measurements cannot\
+    \ be made retrospectively. It follows that a zero-emissions baselineisintrinsictoatime-seriesofpositive/negative/zeroNEEmeasurements...\
+    \ In contrast, the DMFCP results in near-real time (30-minute average of 10 Hz\
+    \ measurements) NEE time series and trends... The DMFCP offers a simplified carbon\
+    \ protocol that provides immediate payments, is not subjected to discretionary\
+    \ revisions or uncertain baseline models, and offers transparency through an open-source\
+    \ registry."
+  24: null
+  25: 'yaml
+
+    Methodology: "The DMFCP can be applied to international emission reduction policies
+    recognizing scientifically accepted methods, shared NEE data processing algorithms,
+    elucidation of uncertainties(#22),standardizedtermsandcontractsforvoluntaryandcomplianceoffsets
+    (#23,Supplemental Information 1) including clauses for reversal of net forest
+    carbon sequestration due to intentional or unavoidable natural conditions (e.g.,
+    fire, hurricane, drought)."
+
+    Highlights: "For example, the expansion of measurement networks, data integration
+    and carbontradingarekeybutunrecognizedcomponentsoftheParisAgreement( Clemencon,
+    2016 ; Rimmer,2020 ), and REDD+ programs ( Foss,2018 ). For example, Article 10
+    of the Paris Agreement, lacks guidance on how pledged and claimed reductions that
+    are non-bindingwillbeverifiedandtraded( Ollila,2019 ;Rimmer,2020 ;Spash,2016 ),shortcomings
+    that are mitigated by the DMFCP."
+
+    '
+  26: "The DMFCP updates the UNFCCC and REDD+ methods to validate and monetize claims\
+    \ of emission reduction and to determine GHG budgets across diverse ecological\
+    \ landscapes at the national and sub-national levels fulfilling the Paris Agreement\
+    \ (e.g., Article 10) and REDD goals and objectives. The DMFCP normalizes forest\
+    \ emission reduction determinations for voluntary and compliance markets bridging\
+    \ the gap between methods, project types and outcomes for stakeholders. The DMFCP\
+    \ comprises a commercial standardized measurement-to-monetization system for the\
+    \ determination of NEE. NEE enables creation of verified forest carbon financial\
+    \ products contributing to the improvement of methods that underpin large-scale\
+    \ forest conservation and reforestation, a global problem of high importance in\
+    \ the management of anthropogenic climate change. The SoS and GMP components can\
+    \ be applied to GHG\u2019s across large-scales and diverse locations, corrects\
+    \ traditional carbon credit gaps in validation and recalibrates equivalent voluntary\
+    \ and compliance programs that rely on them such as the CARB, CAR, ACR, VERRA\
+    \ and CDM, as well as the REDD+ and Paris Agreement platforms. The DMFCP, coupled\
+    \ with contributions of the forest carbon research community to commercialization\
+    \ efforts, and updated policies, can address the \u223C0.9 billion hectares of\
+    \ restorable landscapes, offering a viable approach to retain the Earth\u2019\
+    s natural protective capacity to sequester atmospheric CO2 now and for future\
+    \ generations. The authors received no funding for this work. Bruno D.V. Marino\
+    \ is an Academic Editor for PeerJ. A competing interest is disclosed by Bruno\
+    \ D.V Marino as the author of the patents cited. The data and scientific analyses,\
+    \ while citing the patent literature as supportive of potential real-world applications,\
+    \ was conducted independently of the work presented. Data presentation, analysis,\
+    \ and interpretation are based on established scientific principles and reported\
+    \ in an objective manner. Bruno D.V. Marino and Vinh Truong are unpaid associates\
+    \ of Planetary Emissions Management Inc. Richard Gyimah is a paid employee of\
+    \ the Forestry Commission of Ghana. J William Munger is a paid employee of Harvard\
+    \ University."
+  36: '
+
+    MarinoBDV.2016a-2019. Systemofsystemsformonitoringgreenhousegasfluxes. Various
+    patents. | MarinoBD,MinchevaM,DoucettA.2019. California air resources board protocol
+    invalidates offsets. | MarlandE et al.2017. Understanding and analysis: the California
+    air resources board forest offset protocol. | MauderM et al.2013. A strategy for
+    quality and uncertainty assessment of long-term eddy-covariance measurements.
+    | MeiB.2015. Illiquidity and risk of commercial timberland assets in the United
+    States. | Molly Peters-Stanley Gonzalez G, Yin D.2013. Covering new ground state
+    of the forest carbon markets 2013. | MungerJW.2016. AmeriFlux US-Ha1 Harvard Forest
+    EMS Tower (HFR1), Dataset. | MungerJW, WhitbyTG, WofsySC.2018. Rapid shifts in
+    annual carbon balance for a temperate deciduous forest: validating and diagnosing
+    ecosystem surprises.
+
+    '

@@ -1,0 +1,629 @@
+Drivers of Risk:
+  1: Changes in extreme daily precipitation due to anthropogenic climate change are
+    impacting outcomes.
+  2: Projected changes in extreme daily precipitation throughout the CONTINENTAL US
+    during the 21st century, potentially leading to more extreme conditions.
+  5: Differences in precipitation patterns across regions and seasons, with wet biases
+    noted in certain areas.
+  6: Changes in extreme precipitation impact regional hydroclimate stability and water
+    scarcity, particularly in arid regions.
+  7: Extreme precipitation caused by tropical cyclones may be underestimated in both
+    historical (HIST) and future (EOC) simulations.
+  8: Areas of the Northeast and Midwest experience significant increases in MCS precipitation
+    and daily precipitation extremes under future climate scenarios.
+  9: The analysis examines changes in climate-related data (likely precipitation)
+    during June-August (JJA) across different climate scenarios (HIST, EOC4.5, EOC8.5).
+  10: Underestimation bias is observed for high precipitation values in various cities
+    during certain epochs.
+  11: No relevant information
+  12: Variability and increased ceiling for precipitation extremes are indicated for
+    Albany, Minneapolis, Nashville, Phoenix, and Tallahassee, with more variability
+    expected in precipitation extremes by the end of the 21st century.
+  13: Daily precipitation extremes.
+  14: Daily precipitation
+  15: Changes in return period precipitation values are impacting the outcomes, specifically
+    in areas of the Intermountain West, Southwest, and Northeast.
+  16: Changes in extreme daily precipitation under anthropogenic emissions scenarios
+    RCP4.5 and RCP8.5.
+  17: Changes in extreme daily precipitation across various regions of the CONUS potentially
+    due to climate change.
+  18: The shocks impacting outcomes are heavy precipitation amounts and supercells.
+Evaluation overview:
+  1: The study provides an overview of potential societal impacts of changes in extreme
+    precipitation events, including agricultural productivity, property loss, and
+    mortality.
+  5: Compares the 99th percentile of daily precipitation between HIST and PRISM datasets
+    annually and seasonally.
+  9: No relevant information
+  10: The page does not specifically mention an overview of evaluated outcomes such
+    as mortality or productivity loss.
+  11: No relevant information
+  13: Probability density of daily precipitation extremes.
+  14: No relevant information
+  18: "The paper examines changing spatiotemporal patterns of 5- and 10-day Illinois\
+    \ heavy precipitation amounts from 1900\u20132018 and the future of supercells\
+    \ in the United States."
+Highlights:
+  1: Future scenarios project robust increases in extreme daily precipitation events
+    in the Midwest and Ohio Valley, while decreases are projected for the southern
+    Great Plains; increased variability in precipitation extremes across various cities
+    by century's end.
+  2: Model allows for representation of regional climate changes at local scales,
+    which is of great interest to stakeholders.
+  5: HIST dataset shows statistically significant wet bias compared to PRISM in specific
+    regions, particularly during September-February in the Intermountain West and
+    December-February in the northern Great Plains and Midwest.
+  6: Largest decreases in the 99th percentile of daily precipitation are projected
+    for the Southwest and Intermountain West in the EOC8.5 scenario, consistent with
+    recent drought trends.
+  7: "Significant increases in precipitation during March\u2013May in the Midwest\
+    \ and Ohio Valley under EOC8.5 scenario."
+  8: Significant increase in heavy precipitation events is projected, particularly
+    concerning for regions affected by high-impact floods.
+  9: The modeled extremes at lower magnitudes showed reasonable estimations across
+    all cities, while at the highest magnitudes, underestimation was observed in six
+    of the eight cities.
+  10: "High Pearson\u2019s r values indicate strong correlation in distribution patterns\
+    \ of modeled EVA across cities, though some biases at high precipitation values\
+    \ are noted."
+  11: Showcases modeled vs input precipitation values for different climate epochs
+    and scenarios for eight cities.
+  12: All cities displayed an increase in return period daily precipitation values
+    over HIST in one or both EOC scenarios; EOC8.5 showed robust increases, while
+    EOC4.5 had modest increases. The 100-year return period values showed widespread
+    percent increases in EOC scenarios, with higher increases in EOC8.5.
+  13: Presents probability density functions of daily precipitation extremes under
+    different climate scenarios.
+  14: Shows how return periods of daily precipitation are projected to change in the
+    future (2085-2100) under two climate scenarios (EOC4.5 and EOC8.5) compared to
+    the historical period (1990-2005) for eight climatologically unique cities.
+  15: Statistically significant increases in 100-year return period precipitation
+    values are found in EOC8.5, particularly in specified regions, impacting infrastructure
+    assumptions.
+  16: Projected increasing values of extreme daily precipitation for both RCP scenarios
+    in many regions of the contiguous United States, including the Northeast, Midwest,
+    Southeast, and Pacific Northwest.
+  17: Increases in precipitation values for return periods greater than 25 years in
+    both EOC scenarios for all cities examined except Seattle, potentially affecting
+    societal vulnerabilities.
+Methodology:
+  1: "The analysis uses a dynamically downscaled, convection-permitting regional climate\
+    \ model with a historical baseline (1990\u20132005) and future epochs (2085\u2013\
+    2100) under different emissions scenarios."
+  2: Simulations cover one historical baseline (1990-2005) and two future epochs (2085-2100)
+    under RCP4.5 and RCP8.5 scenarios.
+  5: "Utilizes Pearson\u2019s r correlation and RMSE to compare HIST and PRISM precipitation\
+    \ data, with statistical significance tested using the Mann-Whitney U test."
+  6: The paper compares historical data (HIST) with future climate scenarios (EOC)
+    using RCP4.5 and RCP8.5 to assess future changes in extreme precipitation.
+  7: Comparison of historical (1990-2005) and future (2085-2100) climates using two
+    emission scenarios, EOC4.5 and EOC8.5, with statistical significance determined
+    using the Mann-Whitney U test and a false discovery rate.
+  9: Uses Q-Q plots to assess the goodness of fit between WRF time series and modeled
+    extreme value analysis (EVA) distributions. The study extracts extremes of the
+    dataset (15 values). The estimation bias is affected by the small amount of input
+    data.
+  10: Model metrics such as RMSE, r, and R2 are used to evaluate empirical relationships
+    between modeled EVA and WRF distributions for historical and future climatic scenarios.
+  11: "Analysis involves comparing extreme precipitation values using modeled EVA\
+    \ and input WRF data for various epochs using Q\u2013Q plot."
+  12: "Used PDFs and Q\u2013Q plots to detect variability in extreme daily precipitation\
+    \ values; comparisons made with PRISM and HIST data for multiple US cities to\
+    \ assess future scenarios (EOC4.5 and EOC8.5)."
+  13: Comparison of precipitation extremes for 1990-2005 (PRISM and HIST) and 2085-2100
+    (EOC4.5 and EOC8.5) epochs simulation data for eight climatologically unique cities.
+  14: "Analysis of daily precipitation return periods for 1990\u20132005 (HIST), 2085\u2013\
+    2100 EOC4.5, and 2085\u20132100 EOC8.5 epochs. Median modeled return periods are\
+    \ shown with solid lines, and 95% confidence intervals (for HIST) are shown with\
+    \ dashed lines, calculated using a 1000-iteration bootstrap sample."
+  15: "Return periods of daily precipitation are analyzed for 1990\u20132005 and 2085\u2013\
+    2100 for eight climatologically unique cities using a 1000-iteration bootstrap."
+  16: "Analysis uses a convection-permitting dynamically downscaled RCM dataset for\
+    \ two end-of-century epochs (2085\u20132100) under RCP4.5 and RCP8.5 scenarios."
+  17: Evaluation of changes in daily precipitation using the 99th percentile as a
+    measure, with scenarios EOC4.5 and EOC8.5 providing future projections of extreme
+    precipitation.
+  18: The Illinois heavy precipitation analysis spans from 1900-2018. The supercell
+    analysis is a projection of the future.
+  21: The paper seems to discuss the use of convection-permitting simulations for
+    determining the historical and potential future climate of extreme daily precipitation
+    over the contiguous United States.
+More Notes:
+  9: The estimation bias is attributed to skewed upper tail distributions and the
+    relatively small sample size (15 values). Doubling the input data to 30 values
+    may help to reduce estimation bias.
+  10: The analysis focuses on precipitation estimation biases in city-specific scenarios
+    (e.g., Tallahassee, Albany, Seattle) for past and future epochs.
+  11: No relevant information
+  13: The analysis focuses on eight climatologically unique cities, but the specific
+    cities are not listed on this page.
+  14: The analysis focuses on eight climatologically unique cities and presents results
+    for two emissions scenarios, EOC4.5 and EOC8.5.
+  21: The relevant analysis appears to focus on the changes in extreme daily precipitation
+    using advanced modeling techniques as mentioned in the context of the paper.
+No relevant information:
+  20: No relevant information
+Quantitative material:
+  1: "Statistically significant increases in extreme precipitation during December\u2013\
+    May across the Midwest and Ohio Valley and significant decreases in the southern\
+    \ Great Plains during December\u2013February."
+  5: 'Presents RMSE values for annual and seasonal 99th percentile precipitation:
+    annual RMSE is 7.8 mm, seasonal RMSEs are 12.3 mm (DJF), 7.9 mm (MAM), 9.2 mm
+    (JJA), and 8.9 mm (SON).'
+  6: Decreases in the 99th percentile of daily precipitation show negative percent
+    differences of 50%-150% in the Southwest and Intermountain West.
+  7: "Statistically significant increases of up to 100% in the 99th percentile of\
+    \ daily precipitation during September\u2013November in the Midwest and Ohio Valley\
+    \ for EOC8.5 are reported."
+  8: Regions like the Northeast, Ohio Valley, and Midwest see increases in daily precipitation
+    extremes, with some areas experiencing more than 50% increase in the 99th percentile
+    of daily precipitation by the end of the 21st century.
+  9: "Provides data on absolute differences (\u0394 EOC4.5 - HIST, \u0394 EOC8.5 -\
+    \ HIST) and percentage differences (% Difference EOC4.5 - HIST, % Difference EOC8.5\
+    \ - HIST) between future climate scenarios and historical data, as visualized\
+    \ in maps. States that the difference between the highest and third highest magnitude\
+    \ extracted values can be approximately 100 mm in some epochs."
+  10: Maps/show changes with color gradients for temperature differences between historical
+    data and future scenarios (EOC4.5 and EOC8.5), including -20 to 20 for absolute
+    changes and -30% to 30% for percentage differences.
+  11: Quantitative plot comparing modeled and input precipitation extreme values for
+    different epochs and climate scenarios.
+  12: Percent changes above HIST in EOC scenarios for the 100-year return period daily
+    precipitation values generally increased by 20% or greater, with over 50% increases
+    shown in Albany, Minneapolis, and Nashville.
+  13: Probability density (y axis) of daily precipitation (mm) extremes (x axis) for
+    different time periods and scenarios.
+  14: Return periods (years) of daily precipitation (mm) for different time periods
+    and climate scenarios.
+  15: National averages for percent change in 100-year return period precipitation
+    values show an increase of 18% in EOC4.5 and 119.4% in EOC8.5.
+  16: Projected increases in extreme daily precipitation, with examples such as the
+    99th percentile daily precipitation value displaying increases greater than 20
+    mm in the Ohio region.
+  17: The 99th percentile changes in daily precipitation across the CONUS are detailed
+    for four seasons with specific mm values and percentage changes across different
+    regions.
+  18: "The paper provides quantitative information on changing spatiotemporal patterns\
+    \ of 5- and 10-day Illinois heavy precipitation amounts, for the period 1900\u2013\
+    2018."
+sourcematerial:
+  1: "The potential for changes in extreme precipitation events due to anthropogenic\
+    \ climate change may have significant societal impacts (e.g., agricultural productivity,\
+    \ property loss, and mortality); Comparisons between HIST and the two EOC scenarios\
+    \ for the 99th percentile of daily precipitation show statistically significant\
+    \ increases during December\u2013May across the Midwest and Ohio Valley and statistically\
+    \ significant decreases for the southern Great Plains during December\u2013February;\
+    \ This project uses a dynamically downscaled, convection-permitting regional climate\
+    \ model to investigate extreme daily precipitation in the CONUS. The simulation\
+    \ output includes a historical (HIST) baseline (1990\u20132005) and two epochs\
+    \ at the end of the twenty-first century (EOC; 2085\u20132100) under intermediate\
+    \ and pessimistic emissions scenarios; Future scenarios project robust increases\
+    \ in these events during some seasons for portions of the Midwest and Ohio Valley,\
+    \ whereas the southern Great Plains are projected to experience decreases. Furthermore,\
+    \ we find a notable increase in the variability of extreme daily precipitation\
+    \ across various CONUS cities by the end of the twenty-first century."
+  2: "Source material here.\nDrivers of Risk: \"could expand into the low- and midlatitudes\
+    \ as higher greenhouse gas concentrations increase temperatures and alter sensible\
+    \ and latent heat \uFB02uxes... These studies show a tendency for more extreme\
+    \ conditions in many regions of the CONUS, yet the historical changes are relatively\
+    \ small in comparison to late twenty-\uFB01rst century projections.\"\n\nMethodology:\
+    \ \"Here, we use a novel dynamically downscaled convection-permitting simulation\
+    \ to examine projected changes in extreme daily precipitation throughout the CONUS\
+    \ during the twenty-\uFB01rst century. The model used herein allows for representation\
+    \ of regional climate change of precipitation extremes closer to the local scales\
+    \ at which they occur (e.g., 4-km horizontal grid spacing),\"\n\nMethodology:\
+    \ \"Our RCM simulations were conducted with the Advanced Research version of Weather\
+    \ Research and Forecasting (WRF) Model (WRF-ARW version 4.1.2; Skamarock et al.\
+    \ 2019) con\uFB01gured with a horizontal grid spacing of 3.75 km and 51 vertical\
+    \ levels across the CONUS.\"\n\nMethodology: \"Simulated time periods include\
+    \ three 15-yr epochs, with a historical (HIST) baseline (1990\u20132005) and two\
+    \ future epochs (EOC; 2085\u20132100) using RCP4.5 (EOC4.5) and RCP8.5 (EOC8.5)\
+    \ future climate scenarios.\"\n\nHighlights: \"North America could experience\
+    \ an increase in mesoscale convective system (MCS) frequency and a 15%\u201340%\
+    \ increase in maximum precipitation rates due to a deeper layer permitting more\
+    \ collision and coalescence.\"\n\nHighlights: \"Highlighting the potential changes\
+    \ in future extreme precipitation can inform stakeholders so that they may develop\
+    \ effective mitigation and adaptation strategies to reduce impacts.\"\n"
+  5: null
+  6: "Source material here.\n\"Therefore, changes in extreme precipitation in these\
+    \ regions will have large implications for regional hydroclimate stability and\
+    \ water scarcity in these climatologically arid regions.\"\n\"Most of these areas\
+    \ of decrease in the 99th percentile of daily precipitation are consistent with\
+    \ statistically significant decreases in mean seasonal precipitation in EOC8.5\
+    \ as compared to HIST (Gensini et al. 2023). Many decreases in the 99th percentile\
+    \ of daily precipitation had large negative percent differences of 50%-150% in\
+    \ the Southwest and Intermountain West, consistent with the recent drought trends\
+    \ in these regions.\"\n\"We compared HIST to potential future climate scenarios\
+    \ (EOC; 2085\u20132100) using RCP4.5 (EOC4.5) and RCP8.5 (EOC8.5) to assess future\
+    \ changes in extreme precipitation.\"\n\"Results reveal the largest areas of statistically\
+    \ significant decreases in the 99th percentile of daily precipitation were in\
+    \ EOC8.5 in the Southwest (March\u2013May; Fig. 3e) and Intermountain West (June\u2013\
+    August; Fig. 4e).\"\n"
+  7: "Source material here.\n\"extreme precipitation caused by tropical cyclones may\
+    \ be underestimated in the HIST and EOC simulations.\"\n\"EOC8.5 seasonal mean\
+    \ precipitation in the Midwest and Ohio Valley had statistically significant increases\
+    \ in March\u2013May ... robust statistically significant increases of up to 100%\
+    \ for the 99th percentile of daily precipitation during September\u2013November.\"\
+    \n\"regions where a Mann\u2013Whitney U test determined statistically signi\uFB01\
+    \ cant differences\"\n"
+  8: "yaml\nDrivers of Risk: \"These regions closely resemble the areas of signi\uFB01\
+    \ - cant increase in the 99th percentile of daily precipitation pre- sented here\
+    \ and experience an increase in average MCS precipitation of approximately 100\u2013\
+    1501 (50) mm in Decem- ber\u2013MayEOC8.5(EOC4.5)ascomparedtoHIST( Haberlie et\
+    \ al. 2023).\"\nQuantitative material: \"Overall, the 99th percentile of daily\
+    \ precip- itation displayed large areas of greater than 50% increase by the end\
+    \ of the twenty-\uFB01 rst century in all seasons except June\u2013 August (Figs.\
+    \ 2\u20135).\"\nHighlights: \"These increases in the 99th percentile of daily\
+    \ precipitation are particularly concerning given the nu- merous high-impact \uFB02\
+    \ oods affecting those regions in recent\"\n"
+  9: Source material here.
+  10: " \n\"These estimation biases at the highest magnitudes\" for model metrics\
+    \ such as RMSE, r, and R2.\n\"Reasonable model estimation of the input simulation\
+    \ data is shown with lower values of p and RMSE\" indicating the methodology and\
+    \ quantitative evaluation process.\n\"An underestimation bias is seen for Albany\
+    \ EOC8.5 and Seattle EOC8.5\" highlighting the drivers of risk.\n\"Pearson\u2019\
+    s r showed high correlation with all cities greater than 0.9, with most epochs\
+    \ greater than 0.95\" supporting the highlights regarding the strong correlation.\n\
+    \"Displays percentage differences between EOC4.5 and historical data\" with color\
+    \ gradients used to represent quantitative material.\n\"The RMSE is skewed by\
+    \ those two highest magnitude precipitation values being more robustly underestimated\"\
+    , indicating high precipitation biases as drivers of risk.\n"
+  11: "`\nFIG.6.Q \u2013Q plot of the input WRF vs modeled EVA daily precipitation\
+    \ (mm) extreme values for 1990\u20132005 PRISM (gray) and HIST (black) and 2085\u2013\
+    2100 EOC4.5 (orange) and EOC8.5 (red) epochs with a block size of 1 year resulting\
+    \ in 15 values for eight climatologically unique cities. The solid line shows\
+    \ the 1:1 trend line, and dots show the values of the modeled EVA (x axis) and\
+    \ input WRF (y axis) data.\n"
+  12: "decrease in the peak probability density indicates more variability and typically\
+    \ an increased ceiling for precipitation extremes. The PDFs further indicate the\
+    \ potential for increased variability and a higher ceiling for extremes by the\
+    \ end of the twenty-\uFB01rst century. ... the 100-yr return period of daily precipitation\
+    \ values is often used in infrastructure design to reduce impacts and is similarly\
+    \ used in determining insurance premiums for the National Flood Insurance Program\
+    \ (NFIP) ... The percent change above HIST in the EOC scenarios for the 100-yr\
+    \ return period of daily precipitation values varied for each city but was generally\
+    \ 20% or greater, with very large (.50%) increases shown in Albany, Minneapolis,\
+    \ and Nashville (Figs. 8a,d,e). Regionally, the percent increases in the 100-yr\
+    \ return period of daily precipitation values in the EOC scenarios were approximately\
+    \ 50%\u2013100% above the HIST epoch, with higher increases more widespread in\
+    \ the EOC8.5 scenario. ... We used PDFs to detect the variability of the extreme\
+    \ daily precipitation values in the epochs from extreme precipitation values extracted\
+    \ for the EVA. ... Every climatologically unique city displayed an increase over\
+    \ HIST in one or both EOC scenario return period daily precipitation values for\
+    \ 25\u2013500 years... Overall, even with some biases in HIST EOC8.5 showed the\
+    \ most robust increases from HIST for all return periods; EOC4.5 changes were\
+    \ generally lower in magnitude but still showed modest increases."
+  13: Source material here.
+  14: "\nFIG. 8. Return periods (x axis; years) of daily precipitation (y axis; mm)\
+    \ for 1990\u20132005 HIST (black), 2085\u20132100 EOC4.5 (orange), and 2085\u2013\
+    2100 EOC8.5 (red) epochs for eight climatologically unique cities. Solid lines\
+    \ denote the median modeled return period. Dashed lines indicate the 95% con\uFB01\
+    \ dence interval (HIST is shaded) calculated using a 1000-iteration bootstrap\
+    \ sample.\n"
+  15: "Source material: \"signi\uFB01cant increases in EOC8.5 for areas of the Intermountain\
+    \ West, Southwest, and Northeast... National averages for percent change in 100-yr\
+    \ return period precipitation... 18% in EOC4.5 and 119.4% in EOC8.5... Return\
+    \ periods... for 1990-2005 and 2085-2100... for eight climatologically unique\
+    \ cities... 1000-iteration bootstrap... implications for infrastructure, especially\
+    \ considering structures currently under construction that assume historical values.\""
+  16: "yaml\nDrivers of Risk: \"Changes in extreme daily precipitation through the\
+    \ end of the twenty-\uFB01rst century for both RCP scenarios in many regions in\
+    \ the CONUS, such as the Northeast, Midwest, Southeast, and Paci\uFB01c Northwest\
+    \ (Table 3).\"\nQuantitative material: \"Results projected increasing values of\
+    \ extreme daily precipitation through the end of the twenty-\uFB01rst century\
+    \ for both RCP scenarios in many regions in the CONUS, such as the Northeast,\
+    \ Midwest, Southeast, and Paci\uFB01c Northwest (Table 3). For example, the 99th\
+    \ percentile daily precipitation value displayed increases greater than 20 mm\
+    \ in the Ohio\"\nMethodology: \"emissions scenarios using a novel convection-permitting\
+    \ dy- namically downscaled RCM dataset with two end-of-century (2085\u20132100)\
+    \ epochs under pathways RCP4.5 and RCP8.5\"\nHighlights: \"Results projected increasing\
+    \ values of extreme daily precipitation through the end of the twenty-\uFB01rst\
+    \ century for both RCP scenarios in many regions in the CONUS, such as the Northeast,\
+    \ Midwest, Southeast, and Paci\uFB01c Northwest\"\n"
+  17: "Source material here.\nDrivers of Risk: \"Extreme hazards have low occurrence\
+    \ probabilities, yet the largest impacts, especially in current and projected\
+    \ regions of high risk and vulnerability due to increasing urbanization... Changes\
+    \ in extreme daily precipitation across various regions of the CONUS have the\
+    \ potential to impact numerous aspects of society by the end of the twenty-first\
+    \ century.\"\n\nQuantitative material: \"The 99th percentile of daily precipitation\
+    \ HIST biases, national average and standard deviation, and statistically significant\
+    \ changes across the CONUS... EOC4.5: 31.8 \xB1 21.8 mm... EOC8.5: 34.8 \xB1 24.1\
+    \ mm.\"\n\nMethodology: \"EVA further revealed an increasing ceiling for extremes\
+    \ in most of the eight climatologically unique cities examined... Changes in the\
+    \ lower probability events (e.g., >100-yr return period) can have vast socioeconomic\
+    \ implications.\"\n\nHighlights: \"Our results showed increases in precipitation\
+    \ values for return periods greater than 25 years in both EOC scenarios for all\
+    \ cities examined except Seattle, suggesting such changes in vulnerability are\
+    \ likely to occur.\"\n"
+  18: "Source material justifying evaluation overview, drivers of risk, quantitative\
+    \ material, and methodology: \"The paper examines changing spatiotemporal patterns\
+    \ of 5- and 10-day Illinois heavy precipitation amounts from 1900\u20132018 and\
+    \ the future of supercells in the United States. The shocks impacting outcomes\
+    \ are heavy precipitation amounts and supercells. The Illinois heavy precipitation\
+    \ analysis spans from 1900-2018. The supercell analysis is a projection of the\
+    \ future. (Changnon, D., and V. A. Gensini, 2019: Changing spatiotemporal patterns...\
+    \ 1900\u20132018. ... Ashley, S.T., A.M.Haberlie, and V.A.Gensini, 2023: The future\
+    \ of supercells in the United States.\""
+  20: "\n1542                                                     JOURNAL     OF \
+    \    APPLIED     METEOROLOGY     AND     CLIMATOLOGY                         \
+    \                                V                                 OLUME     \
+    \    63\nLackmann,                G.                M.,                2013: \
+    \               The                south-central                U.S.         \
+    \ \uFB02       ood                of                May           change     \
+    \    on         California         and         Nevada         regions        \
+    \ revealed         by         a         high-\n            2010:            Present\
+    \            and            future.             J.              Climate,     \
+    \          26,              4688                                 \u20134709, \
+    \           https://  resolution                dynamical                downscaling\
+    \                study.           Climate                Dyn.,               \
+    \   37,\n            doi.org/10.1175/JCLI-D-12-00392.1.                      \
+    \                                                                            \
+    \                                                            2005\u2013      \
+    \                                                   2020,       https://doi.org/10.1007/s00382-010-0961-5.\n\
+    Lee,            S.,            H.            Nakagawa,            K.         \
+    \   Kawaike,            and            H.            Zhang,            2016: \
+    \           Urban                      Papalexiou,            S.            M.,\
+    \            and            A.            Montanari,            2019:        \
+    \    Global            and            regional\n            inundation       \
+    \ simulation        considering        road         network        and       \
+    \  building                                                                  \
+    \                       increase                   of                   precipitation\
+    \                   extremes                  under                  global  \
+    \                warming.\n            con\uFB01       gurations.         J. \
+    \        Flood         Risk         Manage.,          9,224\u2013233,        \
+    \ https://doi.                                                               \
+    \            Water                  Resour.                 Res.,            \
+    \          55,                                                4901\u20134914,\
+    \                 https://doi.org/10.1029/\n            org/10.1111/jfr3.12165.\
+    \                                                                            \
+    \                                                                            \
+    \                 2018WR024067.\nLenderink,              G.,              and\
+    \              E.              van              Meijgaard,              2008:\
+    \              Increase              in              hourly             Perica,\
+    \               S.,               and               Coauthors,               2013:\
+    \                Southeastern                States                (Alabama,\n\
+    \            precipitation        extremes        beyond        expectations \
+    \       from        temperature                                              \
+    \                                                    Arkansas,              Florida,\
+    \               Georgia,               Louisiana,               Mississippi).Vol.9,\n\
+    \            changes.                     Nat.                      Geosci., \
+    \                      1,                      511\u2013514,                 \
+    \    https://doi.org/10.1038/                             version            2,\
+    \           Precipitation-Frequency            Atlas           of            the\
+    \            United            States,\n            ngeo262.                 \
+    \                                                                            \
+    \                                                                            \
+    \               NOAA                Atlas                14,                 163\
+    \                 pp.,                  https://www.weather.gov/media/\nLi,  \
+    \       Z.,         S.         Gao,        M.         Chen,         J.       \
+    \  J.        Gourley,         and         Y.         Hong,         2022:     \
+    \    Spatio-                                    owp/hdsc_documents/Atlas14_Volume9.pdf.\n\
+    \            temporal                characteristics                of       \
+    \         US                \uFB02       oods:                 Current       \
+    \          status                 and        }},          and          Coauthors,\
+    \          2015:     Northeastern          States.          Vol.          10,\
+    \          version          3.0,\n            forecast             under     \
+    \        a             future             warmer             climate.        \
+    \  Earth\u2019sFuture,               10,                                     \
+    \              Precipitation-Frequency              Atlas              of    \
+    \          the              United              States,NOAA\n            e2022EF002700,\
+    \    https://doi.org/10.1029/2022EF002700.                                   \
+    \                                                                            \
+    \                          Atlas                 14,                 265     \
+    \            pp.,            https://www.weather.gov/media/owp/oh/hdsc/\nLim,\
+    \              J.,              and              M.              Skidmore,   \
+    \            2019:              Flood               fatalities              in\
+    \               the              United         docs/Atlas14_Volume10.pdf.\n \
+    \           States:            The            roles            of            socioeconomic\
+    \            factors           and            the            National        \
+    \                         Picard,                C.               J.,        \
+    \       J.                M.               Winter,                C.         \
+    \       Cockburn,               J.               Hanrahan,                N. \
+    \              G.\n            Flood               Insurance               Program.\
+    \                South.                Econ.                J.,              \
+    \    85,                1032\u2013                                           \
+    \                                           1057,Teale,                P.    \
+    \            J.                Clemins,                and                B. \
+    \               Beckage,                2023:                Twenty-\uFB01   \
+    \     rst\n            https://doi.org/10.1002/soej.12330.                   \
+    \                                                                            \
+    \                                                              century       \
+    \       increases             in              total             and          \
+    \   extreme              precipitation              across\nLoriaux,         \
+    \          J.                   M.,                   G.                   Lenderink,\
+    \                   S.                   R.                   De             \
+    \      Roode,                   and                   A.                   P.the\
+    \            northeastern            USA.          Climatic            Change,\
+    \             176,72,           https://doi.\n            Siebesma,         2013:\
+    \         Understanding         convective         extreme         precipita-\
+    \                                                                            \
+    \                 org/10.1007/s10584-023-03545-w.\n            tion          \
+    \          scaling                   using                   observations    \
+    \                and                    an                    entraining     \
+    \              plumePowers,            J.            G.,            and      \
+    \      Coauthors,            2017:            The            Weather         \
+    \   Research            and\n            model.            J.             Atmos.\
+    \             Sci.,              70,             3641\u20133655,            https://doi.org/10.1175/\
+    \                                                           Forecasting      \
+    \               Model:                     Overview,                     system\
+    \                     efforts,                     and                     future\n\
+    \            JAS-D-12-0317.1.                                                \
+    \                                                                            \
+    \                                                    directions.             Bull.\
+    \              Amer.              Meteor.              Soc.,                98,\
+    \              1717                                 \u20131737,            https://\n\
+    Makkonen,          L.,           2006:          Plotting           positions \
+    \          in           extreme           value           analysis.          \
+    \                                                   doi.org/10.1175/BAMS-D-15-00308.1.\n\
+    \            J.                   Appl.                   Meteor.            \
+    \      Climatol.,                           45,                   334\u2013  \
+    \                                      340,                  https://doi.org/10.Prein,\
+    \          A.          F.,          and          Coauthors,          2015:   \
+    \       A          review          on          regional          convec-\n   \
+    \         1175/JAM2349.1.                                                    \
+    \                                                                            \
+    \                                                 tion-permitting          climate\
+    \          modeling:          Demonstrations,          prospects,\nMeehl,    \
+    \     G.         A.,         J.         M.        Arblaster,        and      \
+    \   C.        Tebaldi,         2005:         Understand-                     \
+    \                                          and         challenges.        Rev.\
+    \         Geophys.,          53,         323\u2013                           \
+    \                                            361,        https://doi.org/10.\n\
+    \            ing                    future                    patterns       \
+    \            of                   increased                   precipitation  \
+    \                 intensity                   in     1002/2014RG000475.\n    \
+    \        climate             model             simulations.          Geophys.\
+    \             Res.             Lett.,               32,             L18719,  \
+    \                                   }},C.Liu,K.Ikeda,S.B.Trier,R.M.Rasmussen,G.J.\n\
+    \            https://doi.org/10.1029/2005GL023680.                           \
+    \                                                                            \
+    \                                                    Holland,              and\
+    \               M.               P.               Clark,              2017:  \
+    \            Increased              rainfall              volume\nMin,       \
+    \       S.-K.,              X.              Zhang,              F.           \
+    \   W.              Zwiers,              and              G.              C. \
+    \             Hegerl,              2011:  from                   future      \
+    \             convective                   storms                   in       \
+    \            the                   US.                    Nat.               \
+    \      Climate\n            Human           contribution            to       \
+    \    more-intense           precipitation            extremes.               \
+    \                                                                   Change,  \
+    \       7,880\u2013884,        https://doi.org/10.1038/s41558-017-0007-7.\n  \
+    \          Nature,         470,        378\u2013                             \
+    \             381,       https://doi.org/10.1038/nature09763.                \
+    \                                          Quintero,            F.,          \
+    \  G.            Villarini,            A.           F.           Prein,      \
+    \      W.            F.            Krajewski,            and            W.\nMishra,\
+    \                  A.                  K.,                  and              \
+    \    V.                  P.                  Singh,                  2010:   \
+    \               A                  review                  of                \
+    \  droughtZhang,          2 022:          On          the          role      \
+    \    of          atmospheric          simulations          horizontal\n      \
+    \      concepts.                 J.                 Hydrol.,                 \
+    \  391,202                                                   \u2013216,      \
+    \          https://doi.org/10.1016/j.               grid              spacing\
+    \              for          \uFB02       ood              modeling.       Climate\
+    \              Dyn.,              59,3167\u20133174,\n            jhydrol.2010.07.012.\
+    \                                                                            \
+    \                                                                            \
+    \                    https://doi.org/10.1007/s00382-022-06233-0.\nMoore,     \
+    \         B.              J.,              K.              M.             Mahoney,\
+    \              E.              M.             Sukovich,              R.      \
+    \        Cifelli,              andRashid,        M.        M.,        T.     \
+    \   Wahl,        G.        Villarini,        and        A.        Sharma,    \
+    \    2023:        Fluvial\n            T.            M.            Hamill,   \
+    \       2015:            Climatology            and            environmental \
+    \           charac-                                                          \
+    \  \uFB02       ood              losses              in              the     \
+    \         contiguous              United              States              under\
+    \              climate\n            teristics             of             extreme\
+    \             precipitation             events             in             the\
+    \             southeastern                                               change.\
+    \        Earth\u2019s          Future,           11,          e2022EF003328, \
+    \      https://doi.org/10.\n            United            States.          Mon.\
+    \            Wea.            Rev.,            143,           718\u2013       \
+    \                                   741,          https://doi.org/           \
+    \      1029/2022EF003328.\n            10.1175/MWR-D-14-00065.1.             \
+    \                                                                            \
+    \                                                                 Robinson,  \
+    \       E.          D.,          R.         J.         Trapp,          and   \
+    \       M.         E.          Baldwin,          2013:          The          geo-\n\
+    Moss,         R.         H.,         and         Coauthors,         2010:    \
+    \     The         next         generation         of         scenar-         \
+    \                                                   spatial                and\
+    \                temporal                distributions               of      \
+    \          severe               thunderstorms\n            ios          for  \
+    \        climate          change          research          and          assessment.\
+    \          Nature,            463,                                           \
+    \               from         high-resolution         dynamical         downscaling.\
+    \    J.         Appl.         Meteor.\n            747\u2013756,       https://doi.org/10.1038/nature08823.\
+    \                                                                            \
+    \                                                                 Climatol., \
+    \                            52,            2147\u20132161,          https://doi.org/10.1175/JAMC-D-12-\n\
+    National                    Academies                    of                  \
+    \  Sciences,                    Engineering,                    and          \
+    \          Medicine,                                0131.1.\n            2019:\
+    \         Framing         the         Challenge         of          Urban    \
+    \     Flooding         in         the          United                        \
+    \                      Sch  \xA8ar,              C.,              and        \
+    \      Coauthors,              2016:              Percentile              indices\
+    \              for              assessing\n            States.        The    \
+    \     National        Academies        Press,        100         pp.         \
+    \                                                                            \
+    \                  changes           in           heavy           precipitation\
+    \           events.        Climatic           Change,             137,\nNaumann,\
+    \              G.,              and              Coauthors,              2018:\
+    \              Global              changes              in              drought\
+    \                                         201\u2013                          \
+    \                216,        https://doi.org/10.1007/s10584-016-1669-2.\n    \
+    \        conditions            under            different            levels  \
+    \          of            warming.       Geophys.            Res.             \
+    \                                   Schumacher,              R.             S.,\
+    \             and              R.             H.              Johnson,       \
+    \       2006:              Characteristics             of\n            Lett.,\
+    \         45,        3285\u20133296,       https://doi.org/10.1002/2017GL076521.\
+    \                                                                            \
+    \                                    U.S.         extreme         rain       \
+    \  events         during         1999\u20132003.       Wea.        Forecasting,\n\
+    NCEI,                   2023:                   U.S.                   billion-dollar\
+    \                   weather                  and                   climate   \
+    \                disaster.                  21,69                            \
+    \      \u201385,       https://doi.org/10.1175/WAF900.1.\n            NOAA/National\
+    \                   Centers                   for                   Environmental\
+    \                   Information,                                             \
+    \          Shepherd,          T.          G.,          and          Coauthors,\
+    \          2018:          Storylines:          An          alternative\n     \
+    \       accessed         1         February         2023, http://www.ncdc.noaa.gov/billions.\
+    \                                                                            \
+    \                                approach             to            representing\
+    \             uncertainty            in             physical             aspects\
+    \            of\nO\u2019Gorman,               P.              A.,            \
+    \   2012:              Sensitivity              of               tropical    \
+    \           precipitation               ex-                               climate\
+    \                change.               Climatic                Change,       \
+    \          151,                555\u2013571,               https://doi.\n    \
+    \        tremes        to       climate        change.        Nat.        Geosci.,\
+    \         5,697\u2013700,        https://doi.                                \
+    \                                                org/10.1007/s10584-018-2317-9.\n\
+    \            org/10.1038/ngeo1568.                                           \
+    \                                                                            \
+    \                                       Sillmann,             J.,            \
+    \ and             E.            Roeckner,            2008:             Indices\
+    \            for             extreme          events\n}},             and    \
+    \         T.            Schneider,            2009:             Scaling      \
+    \       of             precipitation             extremes                    \
+    \                             in                    projections              \
+    \      of                    anthropogenic                    climate        \
+    \            change.                 Climatic\n            over              a\
+    \              wide              range               of              climates\
+    \              simulated              with               an              idealized\
+    \                Change,         86,83                                  \u2013\
+    104,        https://doi.org/10.1007/s10584-007-9308-6.\n            GCM.     \
+    \       J.            Climate,              22,             5676             \
+    \                    \u20135685,           https://doi.org/10.1175/2009      \
+    \                       Skamarock,W.C.,andJ.B.Klemp,2008:Atime-splitnonhydro-\n\
+    \            JCLI2701.1.                                                     \
+    \                                                                            \
+    \                                                    static           atmospheric\
+    \           model           for           weather          research          \
+    \ and           forecast-\nPan,              L.-L.,              S.-H.       \
+    \       Chen,              D.              Cayan,              M.-Y.         \
+    \     Lin,              Q.              Hart,              M.-H.             \
+    \  ing        applications.       J.       Comput.        Phys.,          227,\
+    \         3465                                                  \u20133485,  \
+    \     https://doi.\n            Zhang,                 Y.                Liu,\
+    \                 and                 J.                 Wang,               \
+    \  2011:                 In\uFB02       uences                 of            \
+    \     climateorg/10.1016/j.jcp.2007.01.037.\n"
+  21: 'yaml
+
+    "Methodology": "The justification is: Stinnett, S. N., 2023: Historical and potential
+    future climate of extreme daily precipitation over the contiguous United States
+    Using convection-permitting simulations."
+
+    "More Notes": "The justification is: Stinnett, S. N., 2023: Historical and potential
+    future climate of extreme daily precipitation over the contiguous United States
+    Using convection-permitting simulations. M.S. thesis, Dept. of Earth, Atmosphere,
+    and Environment, Northern Illinois University, 85 pp."
+
+    '

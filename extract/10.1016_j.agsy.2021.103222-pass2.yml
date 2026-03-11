@@ -1,0 +1,335 @@
+Drivers of Risk:
+  1: Climate change, groundwater availability, renewable energy investment.
+  3: Drought projection, changes to climate due to GHG, water scarcity, climate change
+  4: Groundwater decline, climate variability (wetter and drier years), and renewable
+    energy potential are identified as key drivers.
+  6: The Palmer Drought Severity Index (PDSI) is used to categorize drought conditions
+    that impact crop yields and irrigation demand.
+  7: The analysis considers changes in water use (irrigation) and climate scenarios.
+    Specific drivers include wet and extremely wet years as defined using PDSI, and
+    annual rainfall.
+  8: The drivers of risk are precipitation, temperature, solar radiation, and groundwater
+    depletion, which are modeled through various climate scenarios (Repeat Historical,
+    Wetter Future, Drier Future, and RCP 8.5).
+  9: Historical climate, Wetter Future climate scenario, Drier Future climate scenario,
+    Climate Model projections.
+  10: The shocks impacting outcomes are varying climate scenarios including repeat
+    historical, wetter future, drier future, and GCM RCP 8.5 projections. These scenarios
+    affect crop yields and the need for irrigation, ultimately impacting net income
+    and insurance claims.
+  11: Local solar radiance and electricity prices impact the profitability of solar
+    energy, while wind and solar energy are affected by local geographic resources
+    and policy incentives.
+Evaluation overview:
+  1: Farm incomes based on crop selection, irrigation practices, groundwater availability,
+    renewable energy investment, and historical and projected environmental conditions.
+  3: Farm income, viability of communities and businesses in the face of climate change,
+    water scarcity, and economic conditions
+  4: The evaluation focuses on sustaining farmers' economic well-being by examining
+    agricultural and energy production choices.
+  6: The page provides an evaluation of crop yields and irrigation water demand for
+    corn, wheat, and grain sorghum from 2008 to 2017, with a comparison against historical
+    data.
+  7: This paper evaluates impacts on crop income in the context of potential farm
+    energy capacity development. It also evaluates groundwater levels and surface
+    water quality.
+  8: The paper evaluates crop production, irrigation water use, and farm net income
+    under different climate scenarios.
+  9: Agricultural net income, crop production, groundwater levels, groundwater irrigation
+    usage, energy production, and energy net income.
+  10: This paper evaluates the impact of climate change scenarios on agricultural
+    performance (crop yield, net income) and renewable energy development in Finney
+    County, Kansas, using the FEWCalc model.
+  11: FEWCalc provides an overview of outcomes for farmers in arid regions, focusing
+    on alternative income sources through agricultural-energy-water system decision
+    support.
+Highlights:
+  1: Crop production and water use results from the DSSAT model with arid regions
+    package; Agent-based model (ABM) adds renewable-energy, water quantity and quality,
+    climate change, and farm economics; FEWCalc enables users to relate current choices
+    to near- to long-term implications; Intuitive GUI makes FEWCalc accessible to
+    non-technical stakeholders.
+  3: FEWCalc bridges the gap between Integrated Assessment (IA) and Impacts, Adaptation,
+    and Vulnerability (IAV) research themes; FEWCalc is novel and contributes to the
+    emerging ABM literature using the NetLogo platform; It can reveal unexpected interactions
+    within the FEW system important to stakeholders
+  4: Results indicate increased crop production with no significant loss of yield
+    in wetter scenarios and explore outcomes under different climate models.
+  6: The analysis highlights differences in crop yield stability between irrigated
+    and non-irrigated scenarios, with yields generally higher and more stable under
+    irrigation despite variable drought conditions.
+  7: The model can be used to determine whether to make renewable energy investments
+    based on comparing revenue.
+  8: A drier future (Scenario 3) may result in the only commercially successful scenario
+    for agriculture in this simulation. The RCP 8.5 scenario (Scenario 4) shows potentially
+    decreased crop production and net income. Renewable energy development can buffer
+    the impacts of climate change. Dryland farming can result in higher net incomes
+    than irrigated farming under some scenarios due to decreased farm expenses.
+  9: Visualizes impacts of historical, wetter, drier, and climate model scenarios
+    on agriculture, water resources, and energy production, illustrating alterations
+    in resource availability and economic outcomes under various environmental changes.
+  10: Climate change predictions would need to be met with effective technology changes
+    to address declining crop production trends. Annual variability makes discerning
+    the impact of these trends difficult.
+  11: Renewable energy, particularly wind, potentially offers economic opportunities
+    that support agricultural persistence in the region.
+Methodology:
+  1: Agent-based model (FEWCalc) projecting farm incomes; DSSAT model for crop production
+    and water use with an arid regions package; Relates choices to near- to long-term
+    implications; Applied to Finney County, Kansas.
+  3: Uses FEWCalc, an agent-based model (ABM) constructed using NetLogo, integrated
+    with DSSAT for agrosystems simulations to evaluate policy decisions under climate
+    and economic conditions; applicable to STAR communities; tests policy effects
+    through crop insurance and renewable energy incentives.
+  4: The analysis uses FEWCalc with DSSAT simulations from 2008 to 2067, based on
+    historical data, and projections under different future scenarios.
+  6: DSSAT model simulations are used for predicting crop yields and irrigation demand,
+    with historical data for comparison, focusing on variable factors such as drought
+    conditions categorized by the PDSI.
+  7: The analysis uses FEWCalc, a model with a NetLogo interface. It simulates farm
+    production using DSSAT and uses these results to simulate impacts on groundwater
+    levels and surface-water quality. The irrigation calculation for arid regions
+    required modification of DSSAT. Groundwater levels are calculated based on water
+    use using linear regressions based on Finney County data. Nitrogen is moved to
+    surface water in wet and extremely wet years as defined using PDSI.
+  8: The analysis uses the DSSAT model within the FEWCalc framework to simulate crop
+    production and irrigation water use under different climate scenarios. The results
+    are applicable for a 60-year simulation period, with the first 10 years based
+    on historical data (2008-2017) and the subsequent years based on repeated historical
+    data, stochastic weather scenarios, or RCP 8.5 climate projections.
+  9: FEWCalc is used for the analysis, applicable for assessing agricultural impacts,
+    groundwater impacts, and energy production given the different climate scenarios.
+  10: The analysis uses the FEWCalc model to simulate the impact of different climate
+    scenarios on agricultural and energy systems over a 60-year period (2008-2067).
+    The DSSAT model is used for agricultural performance evaluation under various
+    climate scenarios. The scenarios do not include adjustments for technological
+    changes, crop management, crop price, or energy production changes.
+  11: FEWCalc uses agent-based modeling with NetLogo and integrates data from the
+    DSSAT model to simulate agricultural, energy, and water dynamics, requiring local
+    data for applicability.
+More Notes:
+  1: FEWCalc analyzes the interrelated food, energy, water, and climate systems; Aims
+    to bridge the gap between integrated assessment and impacts, adaptation, and vulnerability
+    studies.
+  3: The diagram illustrates the complex linkages between natural and human systems
+    (FEW system) within STAR communities, highlighting factors such as drought, aquifer
+    depletion, policy, land use change, and water rights.
+  6: The page includes discussions on renewable energy calculations and crop insurance
+    as factors influencing farming operations, but their outcomes are not detailed
+    here.
+  7: FEWCalc assumes all irrigation water comes from groundwater. Dryland farming
+    is the default production method when groundwater levels are too low. The model
+    includes adjustable range of options for tax incentives applicability.
+  8: Crop insurance claims start during any period of transition to dryland farming
+    when the current yield drops below the actual production history. The model does
+    not account for hailstorms or floods impacting crop yields.
+  10: The study highlights the challenges of farming in the semi-arid region around
+    Garden City, Kansas, including price uncertainty, harsh weather, and limited resource
+    availability. The results indicate that wind power production is generally profitable
+    in the study area, while solar power makes money some years due to tax credits,
+    depreciation, and loan payoff.
+Quantitative material:
+  1: Project farm incomes based on specific factors; Data on food, energy, and water
+    along with results from DSSAT.
+  3: FEWCalc simulates the effects of crop insurance and selected renewable energy
+    incentive programs on farm incomes.
+  6: The page offers graphical data on changes in irrigated and non-irrigated crop
+    yields, and irrigation water demand, with trends and specific peaks over time
+    but does not provide exact numerical values.
+  7: Installed solar capacity supported by FEWCalc is up to 2.4 MW, requiring 8000
+    solar panels covering 16.6 acres. These panels could produce about 4906 MWh of
+    electricity per year. 0.7 2-MW wind towers and 0.9 acres of land can produce the
+    same output. In the study area, about 10% of the applied nitrogen is thought to
+    be retained for silt loam soil. Solar panels occupy about 5.2 acres, and a similar
+    area is occupied by wind turbines.
+  8: Simulated crop yields and water use from 2008-2017 are compared to historical
+    data. The model simulates the effects of dryland farming with a plant population
+    of 13,000 plants/acre for corn. Annual average agricultural sector profit of US$6818
+    is projected for the dry scenario 3. The RCP 8.5 scenario produces an average
+    annual total revenue of US$48,003 with an NPV of US$1.6M, while Scenario 3 with
+    energy sector profit, is US $116,142, with an NPV of US$3.1 M
+  9: 'Mentions conversion factors: groundwater level = 2.54 cm, crop groundwater =
+    1 kg/ha, wheat = 67.25 bu/ac, irrigation = 1 MWh, sorghum = 62.77 kg/ha, grain
+    = 1 US$, net corn = 1 bu/ac, agricultural values = 30 + 5.in'
+  10: Average annual crop yields (bushels/acre) are provided for scenarios with and
+    without irrigation. The number of years dryland farming starts and its length
+    are noted. Average annual net income (US dollars) is given for agriculture, energy,
+    and total. Net Present Value (NPV) (US dollars) from agriculture, energy, and
+    total is also reported.
+sourcematerial:
+  1: 'Source material: FEWCalc (Food-Energy-Water Calculator) is a new freeware, agent-based
+    model with the novel ability to project farm incomes based on crop selection,
+    irrigation practices, groundwater availability, renewable energy investment, and
+    historical and projected environmental conditions. FEWCalc is used to analyze
+    the interrelated food, energy, water, and climate systems of Finney County, Kansas
+    to evaluate consequences of choices currently available to farmers and resource
+    managers. Crop production and water use results from the DSSAT model with arid
+    regions package. ABM adds renewable-energy, water quantity and quality, climate
+    change, and farm economics. FEWCalc enables users to relate current choices to
+    near- to long-term implications. Intuitive GUI makes FEWCalc accessible to non-technical
+    stakeholders. CONTEXT: The larger scale perspective of Integrated Assessment (IA)
+    and smaller scale perspective of Impacts, Adaptation, and Vulnerability (IAV)
+    need to be bridged... FEWCalc Outputs: Provides data on food, energy, and water
+    along with results from DSSAT.'
+  3: null
+  4: 'text
+
+    "it an ideal candidate for exploring opportunities to sustain farmers'' economic
+    well-being under alternative agricultural and energy production choices using
+    FEWCalc." "The region''s potential to develop renewable energy, its declining
+    water resources, and its rich, 70-year-long time series of historical data makes
+    it an ideal candidate for exploring opportunities to sustain farmers'' economic
+    well-being... Scenarios 2 and 3 are dominated by wetter or drier years to create
+    wetter and drier futures." "Daily weather data for air temperature, precipitation,
+    and solar radiation are used as input to DSSAT (Tsuji et al., 1994) and acquired
+    as described in Appendix A. A 10-year period from 2008 to 2017 is used as the
+    historical base period for this work... Scenario 4 uses DSSAT results in which
+    runs use projected air temperature, precipitation, and solar radiation from 20
+    downscaled GCMs to represent years 2008 to 2067..." "The random sequence of moderate
+    to wet years results in increased crop production with no significant loss of
+    yield. Scenario 4 is based on 20 General Circulation Model projections out to
+    2098 (Fig. A.5), though only the values through 2067 are used in the FEWCalc demonstration
+    provided in this work."
+
+    '
+  6: null
+  7: 'Source material here.
+
+    Evaluation overview: FEWCalc results support an analysis of climate impacts on
+    crop income in the context of potential farm energy capacity development.
+
+
+    Drivers of Risk: "Nitrogen is moved to surface water in wet and extremely wet
+    years as defined using PDSI," and "In southwest Kansas, where an average peak
+    sun hour (PSH) is 5.6 h per day..."
+
+
+    Quantitative material: "FEWCalc supports the installation of up to 2.4 MW of solar
+    installed capacity, which would require 8000 solar panels with a combined area
+    of 16.6 acres (6.7 ha) (Ong et al., 2013)," and "In the study area, about 10%
+    of the applied nitrogen is thought to be retained for silt loam soil."
+
+
+    Methodology: "The NetLogo interface (Fig. D.5) is divided into three main areas"
+    and "A two-step process was developed using two linear regressions and reported
+    Finney County data."
+
+
+    Highlights: "FEWCalc provides the results needed for the user to produce such
+    a comparison."
+
+
+    More Notes: "The only water use represented in FEWCalc is irrigation to support
+    the farm production simulated using DSSAT," and "The applicability of ITC and
+    PTC has changed over time and differs with installed capacity and whether wind
+    or solar equipment is installed. FEWCalc includes an adjustable range of options."
+
+    '
+  8: "Source material:\nCrop   production   and   irrigation   water   use   simulated\
+    \   by   DSSAT   for 2008    to   2017 are compared to historical data in Fig.\
+    \ 4...FEWCalc is designed to produce the same net income for all scenarios in\
+    \ the base period...Six     ten-year     long     base     periods     of    \
+    \ precipitation,     temperature,     and crop   prices   are   repeated   consecutively\
+    \   to   create   the   60-year   FEWCalc simulation...The only change is when\
+    \ groundwater is depleted toward the end of the simulation when dryland farming\
+    \ begins...In     Fig.     5d,     the    first     10    years     of    crop\
+    \    production    reflect     historical     (2008\u2013          2017)  climate\
+    \  variability,  while  years  11  to  60  (2018   to  2067) show    GCM    results...Fig.\
+    \ 4c (top figure) shows the effects of accounting for  the  plant  population\
+    \  at  seeding  for  corn  under  dryland  farming.  In this  work,  a  plant\
+    \  population  of  13,000  plants/acre  (3  plants/m2)  was used....Table 3 shows\
+    \ that dry scenario 3 yields an annual average agricul- tural     sector     profit\
+    \     of     US$6818...Scenario 4, in contrast, produces the worst average annual\
+    \ total revenue of US$48,003, with an NPV of US $1.6 M...Crop   production   and\
+    \   irrigation   water   use   simulated   by   DSSAT...Repeated historical irrigation\
+    \ water use results in continuous groundwater    level    decline....For     \
+    \ the     wetter      future,      FEWCalc      randomly      chooses      a \
+    \    greater      per- centage (70% instead of the original 30%) of wet years....Table\
+    \ 3 shows that dry scenario 3 yields an annual average agricul- tural     sector\
+    \     profit     of     US$6818,     which     is     the     only     commercially\
+    \     suc- cessful      scenario      for      agriculture      from      the\
+    \      simulations...Renewable energy development is important to continued viability\
+    \ and, hopefully, would allow new approaches and technologies to buffer the impacts\
+    \ of climate change....average non-irrigated crop net incomes are higher than\
+    \ irrigated net incomes because dryland farming expenses for all three crops are\
+    \ low enough to make up for lost crop sales....In    FEWCalc,    insurance   \
+    \ claims   (Fig.    6b)    start    during   any   period    of transition   to\
+    \   dryland   farming   when   the   current   yield   drops   below   the actual\
+    \ production history. There are other common situations in which crop insurance\
+    \ is indemnified, such as hailstorms and floods, but these are not represented\
+    \ in FEWCalc.\n"
+  9: 'Source material here.
+
+    Evaluation overview: "A graph showing trends in crop production and agricultural
+    net income over several years." / "Groundwater levels, which seem stable with
+    some minor fluctuations." / "A collective graph representing energy production
+    and energy net income."
+
+
+    Drivers of Risk: "Scenario 1: Repeat Historical" / "Scenario 2: Wetter Future"
+    / "Scenario 3: Drier Future" / "Scenario 4: Climate Models."
+
+
+    Quantitative material: "groundwater level, cm, 2.54" / "wheat bu/ac irrigation
+    megawatt-hour, 1" / "kg/ha, MWh 62.77" / "=1 production SG acre, =Conversion:"
+
+
+    Methodology: "FEWCalc the aquifer" / "Charts visualize the impacts of historical,
+    wetter, drier, and climate model scenarios."
+
+
+    Highlights: "The charts visualize the impacts of historical, wetter, drier, and
+    climate model scenarios on agriculture, water resources, and energy production.
+    Each scenario illustrates alterations in resource availability and economic outcomes,
+    reflecting environmental changes and their potential consequences."
+
+    '
+  10: "yaml\nEvaluation overview: \"This work shows how FEWCalc can provide scientific,\
+    \ engineering, and economic analyses required by stakeholders and policy makers\
+    \ using data from the semi-arid region around Garden City, Kansas...Overall, the\
+    \ DSSAT results are expected to be adequate for the analysis of renewable energy\
+    \ development and agricultural performance given potential future climate scenarios\
+    \ for which FEWCalc was developed.\"\nDrivers of Risk: \"The scenarios do not\
+    \ include technological, crop management, crop price, or energy production changes\
+    \ that would be expected to occur. Thus, these results reflect the climate- and\
+    \ market-related pressures to which such changes would need to respond to maintain\
+    \ crop production and farm incomes.\" + Table 3 (Scenario descriptions and data\
+    \ on yields, income, etc.)\nQuantitative material: Table 3 provides the specific\
+    \ numerical values for all metrics mentioned.\nMethodology: \"Metrics from the\
+    \ four scenarios for 60 years of FEWCalc simulation (2008\u2013 2067)...Overall,\
+    \ the DSSAT results are expected to be adequate for the analysis of renewable\
+    \ energy development and agricultural performance given potential future climate\
+    \ scenarios for which FEWCalc was developed....The scenarios do not include technological,\
+    \ crop management, crop price, or energy production changes that would be expected\
+    \ to occur.\"\nHighlights: \"climate change predictions would need to be met with\
+    \ effective technology changes to address crop production trends that slowly decline\
+    \ for the future period. It appears that annual variability would make this trend\
+    \ difficult to discern until reductions are substantial...\"\nMore Notes: \"The\
+    \ FEWCalc results for Finney County, Kansas, illustrate many of the general challenges\
+    \ of farming. The main crops are subject to considerable price uncertainty, weather\
+    \ conditions can be harsh and unpredictable, and selected resources have limited\
+    \ availability...Solar power makes money some years because of the simulated tax\
+    \ credit, depreciation, and loan pay off. Wind power production, on the other\
+    \ hand, is generally profitable, in part because of a high wind capacity factor\
+    \ in the study area and the simulated 30-year capital lifespan that makes it easy\
+    \ to cover installation costs.\"\n"
+  11: "Source material here lies within the specified quotes: \"presented here, FEWCalc\
+    \ is applicable directly to farmers in arid regions of the middle part of the\
+    \ USA interested in alternative income sources. The design of FEWCalc has broad\
+    \ applicability for agricultural-energy-water system decision support research\
+    \ and education.\" \"In Kansas, the capital costs of solar energy (Fu et al.,\
+    \ 2017) are challenging to recover given local solar radiance and electricity\
+    \ prices. Renewable wind energy development in this area was shown to potentially\
+    \ provide economic opportunities profitable enough to balance farming difficulties...\
+    \ FEWCalc illustrates major input variables relevant to renewable energy development\
+    \ and how local economic impact can be evaluated and projected.\" \"Agent-based\
+    \ modeling using the freeware NetLogo is relatively simple yet flexible enough\
+    \ to perform calculations related to energy, water, nitrate in soils and surface\
+    \ water, crop insurance, and so on, and integrate results from a separate program\
+    \ \u2014 in this case DSSAT for agricultural production, water demand, and fertilizer\
+    \ application... Applicability to other regions requires local data, development\
+    \ of a DSSAT model, and adjustment of the FEWCalc input variable values. Little\
+    \ or no programming would be required.\" \"Renewable wind energy development in\
+    \ this area was shown to potentially provide economic opportunities profitable\
+    \ enough to balance farming difficulties and enable the persistence of agricultural\
+    \ production in the region.\""

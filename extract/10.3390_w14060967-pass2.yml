@@ -1,0 +1,523 @@
+Drivers of Risk:
+  1: The study identifies floods as a major natural disaster, with flood risk expected
+    to increase due to global warming and socioeconomic changes.
+  3: Floods are the primary drivers of risk, impacting business interruption and asset
+    damage through inundation.
+  6: The analysis considers the impact of building height on GDP distribution.
+  7: The primary driver of risk is flooding, which leads to inundation periods impacting
+    business activities.
+  8: Floods were caused by heavy rainfall and exacerbated by inadequate drainage systems,
+    breached dams, and landslides that were caused by monsoon rains.
+  9: Heavy rainfall causing river floods and breach of flood control systems identified
+    as shocks impacting outcomes.
+  10: The impacts being assessed are related to business interruptions, potentially
+    driven by climate-related events such as floods.
+  11: Floods and prolonged inundation periods due to shallow slopes are impacting
+    outcomes.
+  12: Floods are identified as the primary driver of risk.
+  14: Floods are identified as a shock impacting business interruption loss.
+  15: Floods are the primary shock impacting BI loss and asset damage.
+  16: The occurrence of floods, as indicated by years when the maximum inundation
+    depth exceeds the flood protection level of a region, is identified as a primary
+    driver of BI loss and asset damage.
+  17: Number of floods exceeding flood protection, flood protection level (FPL).
+  18: Flood events, particularly those with large return periods, longer inundation
+    periods, and frequency of flood events.
+  19: Floods discussed as a primary driver of risk, contributing to BI loss.
+  20: Floods and flood-induced events impacting economic and population outcomes.
+  21: Floods (references 42, 43, 44, 46, 47, 50), anthropogenic warming leading to
+    increased river flooding (reference 47), flood dynamics (reference 49).
+Evaluation Overview:
+  21: Flood losses (references 42, 43), flood damage, vulnerability, and risk perception
+    (reference 43), flood damage assessment (reference 44), flood depth-damage functions
+    (reference 46), human and economic losses from river flooding (reference 47),
+    direct and indirect economic impacts of a flood event (reference 50).
+Evaluation overview:
+  3: The evaluation focuses on business interruption (BI) loss and asset damage based
+    on inundation period and depth data.
+  7: The analysis evaluates business interruption (BI) loss and asset damage due to
+    workplace destruction or inaccessibility from floods.
+  9: The paper provides an evaluation of economic loss caused by past floods, focusing
+    on asset damage and business interruption (BI) loss.
+  10: The paper evaluates global asset damage due to business interruption (BI) losses
+    associated with climate impacts.
+  11: Assessment of climate change impact on flood-related economic loss.
+  12: The paper evaluates flood-related global annual business interruption (BI) loss
+    and asset damage.
+  14: BI loss relative to GDP is evaluated, focusing on impacts on regional economies.
+  15: The page evaluates the impact of flood protection on business interruption (BI)
+    loss and asset damage.
+  16: The analysis provides an overview of the impact of flood protection on the ratio
+    of business interruption (BI) loss to asset damage in river basins and on different
+    continents.
+  17: Ratio of business interruption (BI) loss to asset damage due to floods.
+  18: Flooding-related business interruption (BI) loss on a global scale and asset
+    damage.
+  19: First estimate of Business Interruption (BI) loss due to flood on a global scale
+    and its future change.
+  20: The page covers various topics related to climate impacts such as flooding impacts
+    on economic losses and population displacements.
+Highlights:
+  1: "Future flood risk projections under RCP8.5 and SSP3 scenarios show increases\
+    \ in BI loss and asset damage per GDP by 0.32% and 1.78% (2061\u20132090 average)\
+    \ compared to a past period (1971\u20132000 average)."
+  7: The BI period was set to be twice the inundation period based on past surveys,
+    indicating significant prolonged impact post-inundation.
+  9: The CaMa-Flood model largely reproduces global flood risk trends with some countries
+    showing smaller estimated BI losses compared to World Bank values.
+  10: Thailand exhibits the highest BI loss estimates, with the study's results generally
+    higher than World Bank estimates for certain countries like Pakistan and Thailand.
+  11: High absolute BI loss in America and Europe, but relative BI loss to GDP < 0.1%,
+    smaller than global average.
+  12: Flood-related BI losses and asset damages are projected to significantly increase
+    by the late 21st century.
+  14: Central and eastern South America, central Africa, South Asia, and Southeast
+    Asia exhibit high BI loss relative to GDP.
+  15: Flood protection significantly reduces BI loss more than asset damage, with
+    an average 30% decrease in the BI loss-to-asset damage ratio globally and specifically
+    noted 20% reduction in South America.
+  16: Flood protection significantly reduces the ratio of BI loss to asset damage,
+    particularly in areas with higher flood protection levels.
+  17: BI loss to asset damage ratio tends to be greater in river basins with low FPL.
+    Future ratios of BI loss to asset damage are projected to be high even in large
+    river basins with high FPL in certain regions. The Mississippi River basin, despite
+    having an FPL of >50 years, is projected to see an increase in the BI loss to
+    asset damage ratio.
+  18: BI loss is not negligible in the estimation of global flood risk and the projected
+    risk changes with local FPL and flood magnitude.
+  19: Study discusses the relative importance of BI loss compared to direct asset
+    damage.
+Methodology:
+  1: Methodology includes using a global river and inundation model driven by a bias-corrected
+    meteorological forcing scheme.
+  3: The analysis uses flood simulations, a gridded GDP dataset, and bias-corrected
+    meteorological forcing data for calculating BI loss and asset damage.
+  4: Subnational masks derived from GRUMPv1 and FLOPROS datasets are used to aggregate
+    asset damage or BI loss at the country and subnational levels.
+  5: The analysis involves deriving gridded GDP estimates based on building height
+    data, using a linear relationship between subnational GDP ratios and subnational
+    building ratios.
+  6: The analysis derives gridded GDP from the relationship between gridded building
+    height and total building height within a country.
+  7: BI loss is calculated from the inundation period, GDP, and GDP ratio of secondary
+    and tertiary industries, assuming no production during floods and a BI period
+    proportional to the inundation period.
+  8: Validation of estimates was performed using EM-DAT data and World Bank Damage,
+    Loss, and Needs Assessment reports.
+  9: Analysis performed using reanalysis and GCM simulations with datasets S14FD-Reanalysis
+    and S14FD-GCM, and GDP data for historical and future scenarios.
+  10: The analysis involves comparing calculated global asset damages with previous
+    studies to validate the methodology on long-term international averages.
+  11: Used bias-corrected S14FD-GCM forcing data, S14FD-Reanalysis data, and CaMa-Flood
+    for projections; compensated uncertainties with average values from five GCMs.
+  12: The analysis compares historical GCM simulations with reanalysis simulations
+    (constrained by past meteorological observations) for 1961-2005 to validate GCM
+    results. Future BI loss and asset damage are estimated for near-term (2021-2050)
+    and long-term (2061-2090) periods and compared to the past (1971-2000).
+  14: Reanalysis simulation results are used to compare BI loss and asset damage.
+  15: Reanalysis simulation results are used to compare BI loss and asset damage with
+    and without flood protection from 1960 to 2013.
+  16: BI loss to asset damage ratios are evaluated across river basins and continents
+    by analyzing the presence of flood protection and its effects based on annual
+    reanalysis simulation values.
+  17: Simulations were performed to estimate future BI loss and asset damage ratios
+    under different FPL scenarios. Results are shown for various river basins and
+    regions globally.
+  18: Developed a method to estimate flooding-related BI loss on a global scale, using
+    RCP8.5 and SSP3 scenarios for future flood risk projection.
+  19: Utilizes the global river model CaMa-Flood for analysis to estimate BI losses.
+  20: Various studies employ large-scale data and modeling approaches, but specific
+    methodologies are not detailed for the studies on this page.
+  21: Flood risk management (reference 43), tree-based data-mining approach for flood
+    damage assessment (reference 44), global flood depth-damage functions methodology
+    (reference 46), integration of spatial and computable general equilibrium modelling
+    (reference 50), MODIS optical data for flood monitoring (reference 49).
+More Notes:
+  6: GDP ratios for secondary and tertiary industries were derived from World Bank
+    data or a global average.
+  17: The size of circles on the flood risk scatter plot corresponds to the sum of
+    annual average asset damage and BI loss for each river basin.
+  18: The estimation values in this study might remain the scope of first-order estimation
+    due to the uncertainties of model, dataset, and methods. Further improvements
+    are needed especially on the estimation method of business interruption period
+    and spatial distribution of assets.
+  20: The citations cover a diverse range of studies including global flood risk analysis,
+    flood protection standards, and climate change impacts on flooding, among others.
+Quantitative Material:
+  21: Future flood losses in major coastal cities (reference 42), increased human
+    and economic losses from river flooding with anthropogenic warming (reference
+    47).
+Quantitative material:
+  1: The analysis estimates global business interruption losses and asset damage at
+    USD 26.9 billion and 130.9 billion (2005 PPP) respectively, for the period 1960-2013.
+  5: "The equation s_GDPratio = 0.9634 \xD7 s_bldratio + 0.0011 quantifies the relationship\
+    \ between subnational GDP and building height."
+  6: A maximum correlation coefficient of 0.91 was found for a lower building height
+    limit of 6.0 m.
+  7: Not specified; quantitative details are linked to BI loss and inundation periods
+    without specific percentage changes.
+  8: 'Specific flood damage costs were quantified for Namibia (56 million USD), Moldova
+    (5.34 million USD), and Pakistan (2010: 1.21 billion USD, 2011: 121 million USD)
+    in 2005 PPP.'
+  9: Estimated annual total BI loss and asset damage from 1960 to 2013 were USD 26.9
+    billion and 130.9 billion, respectively, (2005 PPP).
+  10: "The study estimates annual global asset damage at USD 96 billion (2005 PPP)\
+    \ for the period 1960-1999 and USD 56.7 billion (2005 PPP) for targeted periods\
+    \ and conditions, including river basins with drainage areas >5000 km\xB2 from\
+    \ 1976-2005."
+  11: BI loss exceeded USD 50 million in some regions; Amazon, Congo, Shebelle, Niger,
+    Indus, Diamantina, and Chao Phraya River basins had BI loss > 0.3% of GDP.
+  12: "Global annual BI loss is projected to increase by 34.6-fold and asset damage\
+    \ by 34.7-fold from 1971\u20132000 to 2061\u20132090. BI loss and asset damage\
+    \ per GDP during 2061\u20132090 are projected to be 4.2-fold greater than during\
+    \ 1971\u20132000. In the period 1961\u20132005, global total annual BI loss from\
+    \ reanalysis simulation averaged USD 23.1 billion (2005 PPP), while the GCM simulation\
+    \ averaged USD 25.8 billion (2005 PPP). The maximum variation of each GCM from\
+    \ the average value was 33.0%. In the period 1961\u20132005, global total annual\
+    \ asset damage from S14FD-Reanalysis was USD 109.7 billion (2005 PPP), while the\
+    \ GCM simulation averaged USD 142.5 billion (2005 PPP). The maximum variation\
+    \ of each GCM from the average value was 43.2%. The maximum deviations from the\
+    \ average BI loss and asset damage from all GCMs were 137.9% and 101.2%, respectively."
+  14: The ratio of BI loss to asset damage averaged 20.6% globally, with variations
+    by region.
+  15: Flood protection led to BI loss and asset damage reductions of 98.6% and 96.5%,
+    respectively; without flood protection, global annual averages were USD 1864 and
+    3771 billion (2005 PPP).
+  16: Quantitative data include the percentage change in BI loss to asset damage with
+    and without flood protection, such as a decrease from 131.3% to 33.0% in the Yangtze
+    basin.
+  17: Future BI loss to asset damage ratios exceeded 15% in most parts of Africa.
+    The BI loss to asset damage ratio is projected to increase by approximately 17.3%
+    in the Mississippi River basin relative to past values.
+  18: "Estimated global BI loss and asset damage for the past study interval (1960\u2013\
+    2013) were USD 26.9 and 130.9 billion (2005 PPP) per year, respectively."
+sourcematerial:
+  1: "Source material here.\n1. Drivers of Risk: \"Floods represent a major natural\
+    \ disaster, and flood risk is expected to increase in many regions because of\
+    \ global warming and socioeconomic changes.\"\n\n2. Quantitative material: \"\
+    The results from the bias-corrected forcing scheme showed an estimated global\
+    \ BI loss and asset damage of USD 26.9 and 130.9 billion (2005 purchase power\
+    \ party, PPP) (1960-2013 average), respectively.\"\n\n3. Methodology: \"In this\
+    \ study, we estimated BI loss and asset damage using a global river and inundation\
+    \ model driven by a recently developed bias-corrected meteorological forcing scheme.\"\
+    \n\n4. Highlights: \"Future flood risk projection using the same framework under\
+    \ Representative Concentration Pathway 8.5 (RCP8.5) and Shared Socioeconomic Pathway\
+    \ 3 (SSP3) scenarios showed increases in BI loss and asset damage per GDP by 0.32%\
+    \ and 1.78% (2061\u20132090 average) compared with a past period (1971\u20132000\
+    \ average).\"\n"
+  3: "In this study, we calculated BI loss and asset damage based on inundation period\
+    \ and inundation depth data derived from flood simulations and a gridded GDP dataset.\
+    \ We defined BI loss as the loss of opportunity because of interrupted business\
+    \ activity; we defined asset damage as direct economic damage, such as the destruction\
+    \ of physical assets. We determined the occurrence of inundation when the magnitude\
+    \ of modeled daily total storage exceeded the local flood protection standard\
+    \ for each grid. BI loss and asset damage were estimated at a scale of 30\u2033\
+    \ \xD7 30\u2033 (ca. 1 km \xD7 1 km at the equator) and aggregated to geographical\
+    \ units such as basins, countries, and continents. In this study, we used bias-corrected\
+    \ meteorological forcing data. The calculation of inundation period and BI loss\
+    \ requires daily inundation extent and depth data; these variables were not examined\
+    \ in previous global flood risk studies."
+  4: 'plaintext
+
+    "The methods and models used for flood simulation in this study were described
+    in detail by Tanoue et al. [19]. Briefly, we used CaMa-Flood [24] to calculate
+    daily total water storage and inundation depth ... Runoff input for CaMa-Flood
+    was calculated using Minimal Advanced Treatments of Surface Interaction and RunOff
+    (MATSIRO) [25] ..."
+
+    "In this study, we used a reduced-bias meteorological forcing dataset obtained
+    from the S14FD reanalysis dataset (S14FD-Reanalysis) and bias-corrected global
+    climate model (GCM) output forcing dataset (S14FD-GCM) [22] ..."
+
+    "To determine asset damage in urban areas, we used current land use data from
+    the Global Land Cover by National Mapping Organizations (GLCNMO) v2 product [35]
+    ..."
+
+    "We used national mask data derived from the Global Rural-Urban Mapping Project
+    v1 (GRUMPv1) [36] to aggregate asset damage or BI loss at the country scale. We
+    applied sub-country administrative units used in the flood protection standard
+    dataset FLOPROS [17] as a subnational mask."
+
+    '
+  5: "The analysis involves deriving gridded GDP estimates based on building height\
+    \ data, using a linear relationship between subnational GDP ratios and subnational\
+    \ building ratios. First, we estimated the relationship between the ratio of subnational\
+    \ GDP to country GDP (the subnational GDP ratio, s_GDPratio) and the total building\
+    \ height within each subnational region to the total building height within the\
+    \ country (subnational building ratio, s_bldratio) under the assumption that this\
+    \ relationship was linear. The equation s_GDPratio = 0.9634 \xD7 s_bldratio +\
+    \ 0.0011 quantifies the relationship between subnational GDP and building height."
+  6: '"Using this relationship, we obtained a maximum correlation coefficient of 0.91
+    for a lower building height limit of 6.0 m." "Next, we derived the ratio of gridded
+    GDP to country GDP (gridded GDP ratio, g_GDPratio) from the ratio of gridded building
+    height to total building height within the country (gridded building height ratio,
+    g_bldratio)." "In the absence of a relevant dataset for secondary and tertiary
+    industries, their GDP ratios were derived by subtracting the percentage of primary
+    industry GDP, derived from 2010 World Bank Open Data values, from 1."'
+  7: 'yaml
+
+    Evaluation overview: "BI loss was categorized into an indirect and consequential
+    effect and defined as loss caused by the inability of people to perform work due
+    to workplace destruction or inaccessibility."
+
+    Drivers of Risk: "BI loss was calculated from the inundation period."
+
+    Methodology: "BI loss was calculated from the inundation period, gridded GDP,
+    and the GDP ratio of secondary and tertiary industries. We assumed that no daily
+    production occurred during inundation periods; we defined the BI period as a period
+    of linear recovery after inundation."
+
+    Highlights: "In this study, we determined this constant as two based on the above
+    surveys of past floods."
+
+    '
+  8: "Source material: Asset damage was defined as the damage caused by the most severe\
+    \ flood in each year... Asset damage was calculated through the multiplication\
+    \ of asset value by the fraction of assets with flood-related damage... The damage\
+    \ fraction was derived using a damage\u2013depth function proposed by Huizinga\
+    \ et al., which incorporates diverse regions and sectors that experience flood\
+    \ damage... We used the Emergency Events Database (EM-DAT) and World Bank data\
+    \ to validate our estimation methods... Floods were caused by heavy rainfalls\
+    \ and exacerbated by drainage systems that were unable to handle the volumes of\
+    \ water... Heavy rainfalls breached dams... Heavy rainfalls in monsoon season\
+    \ caused landslide and flash flood which broke major embankments and canals...\
+    \ Specific flood damage costs were quantified for Namibia (56 million USD), Moldova\
+    \ (5.34 million USD), and Pakistan (2010: 1.21 billion USD, 2011: 121 million\
+    \ USD) in 2005 PPP."
+  9: "Source material: We compared simulated asset damage and BI loss to reported\
+    \ values, with the aim of confirming that CaMa-Flood was able to reproduce the\
+    \ general trend of global flood risk. Heavy rainfalls overflowed or breached 10\
+    \ major flood control systems. Globally, annual total BI loss and asset damage\
+    \ averaged from 1960 to 2013 were estimated to be USD 26.9 and 130.9 billion (2005\
+    \ PPP), respectively, in the reanalysis simulation. For the reanalysis simulation,\
+    \ we used the S14FD-Reanalysis forcing dataset and past GDP data for 1960\u2013\
+    2013. For the GCM simulation, we used a historical S14FD-GCM (1961\u20132005)\
+    \ dataset and GDP data to estimate past flood impacts on the economy; we used\
+    \ a future S14FD-GCM dataset for Representative Concentration Pathways 8.5 (RCP8.5)\
+    \ (2006\u20132098) and GDP data for Shared Socioeconomic Pathway 3 (SSP3) to estimate\
+    \ future flood impacts on the economy. In other countries, estimated BI losses\
+    \ including flood protection were smaller than World Bank values."
+  10: " \nSource material here.\n\n\"To validate the methodology of asset damage estimation,\
+    \ we compared calculated global asset damage with values obtained from previous\
+    \ studies [3,15]. Ward et al. [15] estimated annual global asset damage averaged\
+    \ from 1960 to 1999 at USD 94 billion (2005 PPP), whereas the annual global asset\
+    \ damage estimated in this study was USD 96 billion (2005 PPP) for the same period.\"\
+    \n\n\"The spatial distribution of annual BI loss and BI loss per GDP averaged\
+    \ from 1960 to 2013 according to river basin drainage area (\u226510,000 km2)\
+    \ are shown in Figure 3.\"\n\n\"The image is a bar chart comparing business interruption\
+    \ (BI) losses in several countries, measured in USD PPP (Purchasing Power Parity).\"\
+    \n\n\"Thailand exhibits the highest loss estimates in both datasets, especially\
+    \ in this study's findings.\"\n\n\"...estimated in this study was USD 56.7 billion\
+    \ (2005 PPP) for the same period and conditions.\"\n\n\"The study's estimates\
+    \ (red bars) are generally higher than the World Bank's (gray bars) for Pakistan\
+    \ and Thailand.\"\n"
+  11: 'Source material here.
+
+    BI loss exceeded USD 50 million (2005 PPP) in drainage areas of America and Europe,
+    as well as the Tigris, Euphrates, Chao Phraya, and Yellow Rivers, where GDP was
+    high and slopes were mild... We projected future BI loss and asset damage using
+    bias-corrected S14FD-GCM forcing data, S14FD-Reanalysis data, and output from
+    CaMa-Flood driven by S14FD-GCM... The Amazon, Congo, Shebelle, Niger, Indus, Diamantina
+    and Chao Phraya River basins had values > 0.3% of GDP (i.e., more than double
+    the global average of 0.12%)... In contrast, America and Europe had greater absolute
+    BI loss than other regions, but they showed a relative BI loss of <0.1% of GDP,
+    which was smaller than the global average.
+
+    '
+  12: "Source material here: Global total annual BI loss from reanalysis simulation\
+    \ averaged through 1961 to 2005 was USD 23.1 billion (2005 PPP), whereas average\
+    \ total annual BI loss from the GCM simulation was USD 25.8 billion (2005 PPP).\
+    \ The maximum variation of each GCM from the average value was 33.0%. In contrast,\
+    \ global total annual asset damage and asset damage per GDP from S14FD-Reanalysis\
+    \ was USD 109.7 billion (2005 PPP), whereas the average global total annual asset\
+    \ damage and asset damage per GDP from the GCM simulation was USD 142.5 billion\
+    \ (2005 PPP). The maximum deviation of each GCM from the average value was 43.2%.\
+    \ Global annual BI loss and asset damage were projected to increase by 34.6- and\
+    \ 34.7-fold, respectively, from 1971\u20132000 to 2061\u20132090. Global annual\
+    \ BI loss and asset damage per GDP during 2061\u20132090 are projected to be 4.2-\
+    \ and 4.2-fold greater, respectively, than those values during 1971\u20132000,\
+    \ indicating that increases in BI loss and asset damage are anticipated because\
+    \ of climate change. We assumed that the reanalysis simulation was expected to\
+    \ have smaller uncertainty because its forcing data was constrained by past meteorological\
+    \ observations, while GCM simulations were based on model experiments. Therefore,\
+    \ we concluded that averaged BI loss and asset damage from the GCM simulation\
+    \ were sufficiently accurate for estimating future BI loss and asset damage. Flood-related\
+    \ global annual BI loss (red line) and asset damage (blue line) from 1961 to 2098.\
+    \ Shaded areas indicate the range of maximum and minimum values of S14FD-GCM simulation\
+    \ results. Global annual BI loss is projected to increase by 34.6-fold and asset\
+    \ damage by 34.7-fold from 1971\u20132000 to 2061\u20132090. BI loss and asset\
+    \ damage per GDP during 2061\u20132090 are projected to be 4.2-fold greater than\
+    \ during 1971\u20132000. Both graphs show similar trends with increasing values\
+    \ over time, indicating growing economic impacts in terms of bill loss and asset\
+    \ damage as percentages of GDP. The shaded areas suggest variability or uncertainty\
+    \ in the projections, with more significant impacts anticipated post-2050. The\
+    \ results from reanalysis simulation and GCM simulation of BI loss and asset damage\
+    \ were similar between simulations. Maximum variations from the average BI loss\
+    \ and asset damage from all GCMs were 137.9% and 101.2%, respectively. The analysis\
+    \ compares historical GCM simulations with reanalysis simulations (constrained\
+    \ by past meteorological observations) for 1961-2005 to validate GCM results.\
+    \ Future BI loss and asset damage are estimated for near-term (2021-2050) and\
+    \ long-term (2061-2090) periods and compared to the past (1971-2000). Flood-related\
+    \ BI losses and asset damages are projected to significantly increase by the late\
+    \ 21st century. Global annual BI loss and asset damage were projected to increase\
+    \ by 34.6- and 34.7-fold, respectively, from 1971\u20132000 to 2061\u20132090.\
+    \ Global annual BI loss and asset damage per GDP during 2061\u20132090 are projected\
+    \ to be 4.2- and 4.2-fold greater, respectively, than those values during 1971\u2013\
+    2000, indicating that increases in BI loss and asset damage are anticipated because\
+    \ of climate change. "
+  14: 'Source material: Evaluation overview: "We compared the relative impacts of
+    BI loss and asset damage on regional economies using reanalysis simulation results.";
+    Drivers of Risk: "In the present study, we defined BI loss as loss related to
+    business interruption caused only by floods."; Quantitative material: "Globally,
+    the ratio of BI loss to asset damage averaged from 1960 to 2013 was 20.6%. This
+    value was highest in African regions (22.1%) and Europe (26.9%), while it was
+    lowest in South America (6.1%)."; Methodology: "We compared the relative impacts
+    of BI loss and asset damage on regional economies using reanalysis simulation
+    results."; Highlights: "Regions with particularly high biodiversity loss relative
+    to GDP include central and eastern parts of South America, central Africa, South
+    Asia, and portions of Southeast Asia."'
+  15: "Source material here.\nWater 2022, 14, 967 15 of 21\nloss to asset damage exceeded\
+    \ 100% in some areas, indicating that its influence on economic damage cannot\
+    \ be ignored in flood risk estimation for these areas.\n4.3. The Impact of Flood\
+    \ Protection on BI Loss Estimation\nAs shown in Figure 2, flood protection had\
+    \ a great effect on estimated BI loss. For example, in Malawi in 2012, the BI\
+    \ loss estimates with and without flood protection were USD 0.35 and 138 million\
+    \ (2005 PPP), respectively.\nThe global annual total BI loss and asset damage\
+    \ averaged from 1960 to 2013 without flood protection were USD 1864 and 3771 billion\
+    \ (2005 PPP), respectively. Flood protection led to BI loss and asset damage reductions\
+    \ of 98.6% and 96.5%, respectively.\nThe ratios of BI loss to asset damage with\
+    \ and without flood protection, stratified according to continent, are shown in\
+    \ Figure 7. BI loss and asset damage were derived from annual average reanalysis\
+    \ simulation values. On all continents, the ratio of BI loss to asset damage decreased\
+    \ by an average of 30% with and without flood protection; Australia and North\
+    \ America were consistent with the global average, whereas South America showed\
+    \ a 20% decrease. These results suggest that flood protection has a greater effect\
+    \ in reducing BI loss than in reducing asset damage.\nThis image is a world map\
+    \ illustrating the percentage of business interruption (BI) loss relative to asset\
+    \ damage, depicted in various shades of green. The map spans global latitudes\
+    \ from roughly 60\xB0N to 60\xB0S, and longitudes from 180\xB0W to 180\xB0E, providing\
+    \ a comprehensive visual overview of BI loss versus asset damage across different\
+    \ regions.\n- Color Scale: The scale at the bottom of the map ranges from 5% to\
+    \ 100%, using different shades of green to indicate the magnitude of BI loss compared\
+    \ to asset damage. Lighter greens represent lower percentages, while darker greens\
+    \ indicate higher percentages.\n- Geographic Distribution:\n  - North America:\
+    \ Parts of the United States and Canada show varying levels of BI loss, with some\
+    \ areas highlighted in medium to dark green.\n  - South America: Northern regions,\
+    \ particularly in Brazil, are marked, while the rest of the continent shows minimal\
+    \ highlights.\n  - Europe: Various countries exhibit patches of green, suggesting\
+    \ moderate BI loss percentages.\n  - Africa: Central regions show significant\
+    \ areas marked in green, as well as some parts of Eastern and Western Africa.\n\
+    \  - Asia: Several regions, especially in South Asia, are highlighted.\n  - Australia:\
+    \ Displays minimal coloration.\nThe map provides a visual representation of global\
+    \ BI loss relative to asset damage, allowing for identification of regions with\
+    \ higher risk or impact levels.\n"
+  16: " \n\"To test this hypothesis, we targeted four river basins whose ratios of\
+    \ BI loss to asset damage were similar without flood protection...Figure 8 shows\
+    \ the relationship between the ratio of BI loss to asset damage and the number\
+    \ of floods in targeted river basins.\" \n\n\"The number of floods and the ratio\
+    \ of BI loss to asset damage were slightly lower in river basins with low flood\
+    \ protection level (FPL).\"\n\n\"For example, in Niger (FPL, 2 years), the number\
+    \ of floods slightly decreased from 54 to 40 with flood protection, while the\
+    \ ratio of BI loss to asset damage remained nearly constant, shifting from 143.2%\
+    \ to 121.8%.\"\n\n\"In Senegal...the ratio of BI loss to asset damage decreased\
+    \ from 120.6% to 36.1%.\"\n\n\"In the Yangtze basin (FPL, 20 years), the number\
+    \ of floods significantly decreased from 54 to 4, while the ratio of BI loss to\
+    \ asset damage decreased from 131.3% to 33.0%.\"\n\n\"The image is a bar chart\
+    \ comparing 'BI loss / asset damage (%)' across different continents with and\
+    \ without flood protection.\"\n\n\"In all cases, the use of flood protection significantly\
+    \ reduces the percentage of BI loss/asset damage.\"\n"
+  17: 'Source material here: Water 2022, 14, 967 Figure 8. Relationship between the
+    ratio of BI loss to asset damage and the number of floods exceed- ing flood protection
+    in targeted river basins. Filled and empty circles indicate results with and without
+    flood protection. Circle size is proportional to the sum of annual average asset
+    damage and BI loss for each river basin. 4.4. Comparison of Future Estimated BI
+    Loss and Asset Damage The ratio of BI loss to asset damage tends to be greater
+    in river basins with low FPL. However, our simulations showed that future ratios
+    of BI loss to asset damage will be high even in large river basins with high FPL
+    (Figure 9). Future BI loss to asset damage ratios exceeded 15% in most parts of
+    Africa, where FPL is generally low. The BI loss to asset damage ratio is also
+    expected to increase in most parts of China, India, and central Africa, as well
+    as regions of Europe and America with high FPL. For example, the Missis- sippi
+    River basin has an FPL of >50 years, but the BI loss to asset damage ratio is
+    projected to increase by approximately 17.3% relative to past values.
+
+
+    Evaluation overview: "The ratio of BI loss to asset damage tends to be greater
+    in river basins with low FPL. However, our simulations showed that future ratios
+    of BI loss to asset damage will be high even in large river basins with high FPL."
+
+    Drivers of Risk: "Filled and empty circles indicate results with and without flood
+    protection." and "The ratio of BI loss to asset damage tends to be greater in
+    river basins with low FPL."
+
+    Quantitative material: "Future BI loss to asset damage ratios exceeded 15% in
+    most parts of Africa, where FPL is generally low." and "The BI loss to asset damage
+    ratio is projected to increase by approximately 17.3% relative to past values."
+
+    Methodology: "Our simulations showed that future ratios of BI loss to asset damage
+    will be high even in large river basins with high FPL." and "Figure 9 shows...ratios
+    of BI loss to asset damage."
+
+    Highlights: "The ratio of BI loss to asset damage tends to be greater in river
+    basins with low FPL." and "Future BI loss to asset damage ratios exceeded 15%
+    in most parts of Africa." and "The Mississippi River basin has an FPL of >50 years,
+    but the BI loss to asset damage ratio is projected to increase by approximately
+    17.3% relative to past values."
+
+    More Notes: "Circle size is proportional to the sum of annual average asset damage
+    and BI loss for each river basin."
+
+    '
+  18: " \nThe BI loss to asset damage ratio is projected to increase in river basins\
+    \ with high FPL presumably because of the increase in the number of floods with\
+    \ large return periods. ... BI loss continues to increase during long inundation\
+    \ periods, resulting in an increase in the BI loss to asset damage ratio.\n\n\
+    In this study, we developed a method to estimate flooding-related BI loss on a\
+    \ global scale. ... Estimated global BI loss and asset damage for the past study\
+    \ interval (1960\u20132013) were USD 26.9 and 130.9 billion (2005 PPP) per year,\
+    \ respectively.\n\nFuture flood risk projection using the same framework under\
+    \ RCP8.5 and SSP3 scenarios showed increases in BI loss and asset damage per GDP\
+    \ by 0.32% and 1.78% (2061\u20132090 average), compared with values from the past\
+    \ interval (1971\u20132000 average), respectively. ... The ratio of BI loss to\
+    \ asset damage was greater in river basins with FPL...\n\nThe estimation values\
+    \ in this study might remain the scope of first order estimation due to the uncertainties\
+    \ of model, dataset, and methods. To conduct more realistic estimation of economic\
+    \ losses due to flood hazard, further improvements are needed especially on the\
+    \ estimation method of business interruption period and spatial distribution of\
+    \ assets.\n"
+  19: 'Source material: Although these limitations exist, we believe this study is
+    useful since it provided the first estimate of BI loss due to flood on a global
+    scale including its future change and discussed the relative importance of BI
+    loss compared to the direct asset damage. Data Availability Statement: Global
+    river model CaMa-Flood model is available as open source software (http://hydro.iis.u-tokyo.ac.jp/~yamadai/cama-flood/
+    (accessed on 31 December 2021)).'
+  20: The page lists multiple studies related to floods and their impacts, such as
+    direct and indirect economic losses caused by floods (Tanoue et al., 2020) and
+    flood-induced population displacements (Kakinuma et al., 2020). Studies like He
+    et al. (2022) focus on quantification of flooding risks with global warming. This
+    indicates evaluation of outcomes such as economic losses and population displacements
+    related to flooding (Evaluation overview). Various studies on the list address
+    global flood risk and the impacts of floods, showing floods as a driver of risk
+    for economic and displacement outcomes (Drivers of Risk). While specific methodologies
+    are not detailed, mentioned studies imply the use of modeling and global data
+    frameworks (Methodology). The list references diverse studies exploring global
+    river flood risk assessments, evolving databases of flood protection standards,
+    and global flood vulnerability, among other topics, but does not detail their
+    specific outcomes here (More Notes).
+  21: " \nFuture flood losses in major coastal cities. Nat. Clim. Change 2013, 3,\
+    \ 802\u2013806. https://doi.org/10.1038/nclimate1979.\nFlood damage, vulnerability\
+    \ and risk perception\u2014Challenges for flood damage research. In Flood Risk\
+    \ Management: Hazards, Vulnerability and Mitigation Measures; Springer Science\
+    \ & Business Media: Dordrecht, The Netherlands, 2006; pp. 149\u2013167. https://doi.org/10.1007/978-1-4020-4598-1_13.\n\
+    Multi-variate flood damage assessment: A tree-based data-mining approach. Nat.\
+    \ Hazards Earth Syst. Sci. 2013, 13, 53\u201364. https://doi.org/10.5194/nhess-13-53-2013.\n\
+    Global Flood Depth-Damage Functions: Methodology and the Database with Guidelines.\
+    \ Joint Research Centre (Seville Site), JRC105688, April 2017. Available online:\
+    \ https://ideas.repec.org/p/ipt/ipt-wpa/jrc105688.html (accessed on 9 January\
+    \ 2022).\nIncreased human and economic losses from river flooding with anthropogenic\
+    \ warming. Nat. Clim. Change 2018, 8, 781\u2013786. https://doi.org/10.1038/s41558-018-0257-z.\n\
+    Assessing direct and indirect economic impacts of a flood event through the integration\
+    \ of spatial and computable general equilibrium modelling. Environ. Model. Softw.\
+    \ 2015, 63, 109\u2013122. https://doi.org/10.1016/j.envsoft.2014.09.016.\nDecadal\
+    \ monitoring of the Niger Inner Delta flood dynamics using MODIS optical data.\
+    \ J. Hydrol. 2015, 523, 368\u2013383. https://doi.org/10.1016/j.jhydrol.2015.01.036.\n"

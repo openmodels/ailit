@@ -1,0 +1,914 @@
+Drivers of Risk:
+  2: 4-5 week dry spells during the hottest part of the year, existing drought, aridity,
+    and heat waves.
+  4: Dry spells, extreme heat, joint water and heat stress
+  5: Shocks impacting outcomes include dry spells, heat waves, drought, and aridity.
+  6: Dry spells, characterized as abnormally dry days persisting beyond a minimum
+    duration, are the primary risk impacting crop production.
+  7: The analysis examines sequences of abnormally dry days during historically hottest
+    periods.
+  8: Heat waves (defined using daily temperature maxima and abnormally hot days) and
+    joint exposure to dry spells and heat waves (defined using abnormally dry and
+    abnormally hot days).
+  9: Drought (using Standardized Precipitation-Evaporation Index - SPEI), average
+    temperature, annual precipitation, aridity, irrigation.
+  10: Exposures to water stress and heat stress, dry spells, heat wave days, and drought
+    are impacting crop production.
+  11: Exposure to dry spells is identified as a factor impacting growth in the FAO
+    CPI.
+  12: Exposure to dry spells, heat waves, and drought are identified as drivers of
+    change impacting the growth rate of the FAO CPI.
+  13: Dry spells (DS), heat waves (HW), drought, and aridity are considered drivers
+    of risk. Specific combinations considered are simultaneous dry spells and heat
+    waves (DSHW), dry spells and heat waves in more/less drought-stricken cells (MD/LD
+    DS/HW), and dry spells and heat waves in more/less arid cells (MA/LA DS/HW).
+  15: dry spells
+  17: Dry spells (number of days beyond 28 during the hottest part of the year).
+  18: Dry spells and heat waves are impacting the outcomes.
+  19: The analysis examines the impacts of dry spell days and heat wave days, including
+    their interactive effects.
+  20: Dry spells, aridity index, SPEI (Standardized Precipitation-Evapotranspiration
+    Index, a measure of water deficit/surplus), national drought levels, area equipped
+    for irrigation
+  21: "Dry spell days, annual water deficits (SPEI \u2264 0), and arid conditions\
+    \ (aridity index \u2264 0.65) impact crop production."
+  22: Dry spells, low soil moisture ('green water'), drought (low SPEI), aridity,
+    heat waves.
+  23: Heat and water stress, particularly non-additive effects when dry spells and
+    heat waves occur in the same year.
+  24: Examines the impact of abnormally high temperature and abnormally low precipitation
+    on crops.
+  25: Hot, dry weather
+  26: Anthropogenic warming increasing drought risk (Diffenbaugh et al., 2015)
+  29: Combined heat and drought suppresses rainfed maize and soybean yields.
+  31: Climate extremes, irrigation, dry spell frequencies, drought, high temperature,
+    water excess, heat waves.
+  33: The analysis focuses on the relationship between heat stress and water stress,
+    highlighting changes over time in drought and heatwave conditions.
+  35: Dry spell exposure, drought (SPEI), aridity (Aridity Index)
+  37: The paper identifies dry spell days and heat wave days as the primary shocks
+    impacting outcomes.
+  38: An additional dry spell day with heat waves of 9 or more days is considered
+    a potential driver of risk.
+  41: Dry spell duration and heat wave duration are the drivers of risk.
+  42: The analysis focuses on the impact of dry spell days on an unspecified outcome,
+    evaluating their effects over multiple years.
+  43: Dry spell day (minimum dry spell duration of 28 days) and heat wave duration
+    (minimum heat wave duration of 9 days).
+  44: Dry spell day, Heat wave days
+  45: Dry spell days
+  46: The analysis looks at the impact of dry spells as a driver using aridity and
+    drought indices.
+  47: An additional day in a dry spell at or beyond 28 days in duration, and the 12-month
+    SPEI.
+Evaluation overview:
+  2: Crop production growth.
+  4: Agricultural output
+  5: The paper evaluates the impact of dry spells on growth in aggregate crop production
+    globally, particularly when combined with other stressors like heat waves, drought,
+    or aridity.
+  6: The analysis evaluates the production consequences of dry spells on net crop
+    production by creating an index relative to average production over 2014-2016.
+  8: No relevant information
+  9: No relevant information
+  11: The page discusses growth in crop production as an outcome being evaluated.
+  12: Evaluates the impact of dry spells, heat waves, and drought on the growth rate
+    of the FAO CPI in different countries.
+  13: The models evaluate the impact of dry spells and heat waves on an outcome represented
+    by G_it (unspecified on this page).
+  15: crop production
+  17: FAO CPI growth (agricultural productivity).
+  18: Growth in crop production and growth in per-capita value added in Agriculture,
+    Forestry, and Fishing are being evaluated.
+  20: FAO CPI growth and cereal yields
+  21: The paper evaluates the impact of dry spells on growth in crop production at
+    a national scale.
+  22: Crop production.
+  23: No specific overview provided on this page.
+  24: Discusses the impact of climate-related factors such as dry spells on crop conditions.
+  25: Effects of hot, dry weather on agriculture.
+  29: No relevant information
+  31: Crop yields, wheat yield loss, maize and soybean production.
+  35: Crop production growth
+  37: The paper evaluates the impacts of dry spells with varying durations of heat
+    wave exposure.
+  38: The analysis evaluates impacts of additional dry spell days on CPI and cereal
+    yields.
+  41: The table presents estimated marginal effects, but does not explicitly state
+    the outcome being evaluated on this page.
+  43: Value added per capita in agriculture, fisheries, and forestry (or log of this
+    value) are the outcomes being evaluated.
+  44: No relevant information
+  45: Growth in the FAO CPI (Crop Production Index)
+  47: No relevant information
+Highlights:
+  2: 4-5 week dry spells during the hottest part of the year depress crop production
+    growth. The effects are modified by existing drought, aridity, and heat waves.
+    Losses are concentrated in areas without irrigation.
+  4: We know less about how short-term exposure to joint water and heat stress ultimately
+    influences agricultural output.
+  8: Heat waves are far more rare than dry spells (Table 1), such that investigating
+    heat waves of longer duration would not be informative.
+  9: No relevant information
+  10: Exposure to dry spells, heat waves, and drought conditions is changing over
+    time.
+  11: The negative impact of dry spells on crop growth is more significant in arid
+    environments and during dry years.
+  12: Primary focus on the marginal direct effect of an additional dry spell day on
+    growth in the FAO CPI, showing mainly transitory impacts.
+  13: "The study investigates the combined effects of dry spells and heat waves, including\
+    \ simultaneous exposure and the influence of drought and aridity as modifiers.\
+    \ The coefficients (\U0001D6FC3 and \U0001D6FC4) specifically capture the differential\
+    \ effect of combined dry spells and heat waves."
+  15: Sequential g-estimation avoids bias in estimating the direct effect of dry spells
+    on CPI growth if the relationship between drought and CPI growth is confounded
+    by omitted variables.
+  16: Significant negative effects on crop production begin to appear with dry spells
+    at least 28 days long.
+  17: Dry spells have a negative impact on agricultural productivity, even when accounting
+    for drought and annual precipitation. The effect is a 0.1 percentage point reduction
+    in FAO CPI growth per dry spell day beyond 28.
+  18: The main results are robust across a range of robustness checks. There are negative
+    main effects of an additional day in a 28+ day dry spell on growth in crop production.
+  19: Dry spell days are less damaging in years with heat waves unless there is simultaneous
+    exposure to both lasting 12+ days; damages are worse in more arid locations.
+  20: "Dry spells are primarily damaging in countries and years in which an aggregate\
+    \ annual water deficit occurs (12-month SPEI \u2264 0). Dry spells are damaging\
+    \ when they occur in cells with less area equipped for irrigation, though only\
+    \ after modifying the specification to mitigate potential effects of irrigation\
+    \ on crop choice and baseline productivity."
+  21: Dry spells have a modest average direct effect and can be mitigated by irrigation;
+    they are more damaging in areas with annual water deficits or are arid.
+  22: ''
+  23: Non-additive effects of heat and water stress documented only when dry spells
+    and heat waves occur in the same year.
+  24: Dry spells have smaller effects in irrigated areas, suggesting adaptation potential.
+  25: Surface and groundwater will constrain irrigation as an adaptation tool.
+  29: Heat and drought modify irrigation benefits in the USA.
+  33: The 2016 data shows less arid countries have fewer dry spell days across different
+    drought indices, while more arid countries show increased dry spell days correlating
+    with drought conditions.
+  35: "Dry spell exposure is generally negatively correlated with crop production\
+    \ growth. The correlation is more negative under drought conditions (SPEI \u2264\
+    \ 0) and in more arid regions (Aridity Index below median), although confidence\
+    \ intervals sometimes overlap zero. All reported correlations are negative, but\
+    \ small (under 0.1 in absolute value)."
+  38: Significant negative effect of dry spells is observed when aridity and drought
+    conditions are higher, contrasted by a positive effect with more irrigation in
+    cereal yield.
+  41: The estimated marginal effect of an additional dry spell day is generally negative
+    and tends to become more negative (larger in magnitude) as both the minimum dry
+    spell duration and the minimum heat wave duration increase. Some estimates are
+    statistically significant at the 5% or 1% level.
+  42: The analysis shows statistically significant effects of dry spell days on the
+    outcome, particularly in the current year and 1-year lag.
+  43: The estimated effect of an additional dry spell day is consistently negative
+    and statistically significant (mostly at the 5% level) across several model specifications.
+  44: The controlled direct effect of an additional dry spell day is negative and
+    statistically significant (p<0.05) for minimum dry spell durations of 21 days
+    or more.
+  45: Focusing on the hottest part of the year (90 or 120 days) generally results
+    in larger (more negative) estimated effects of dry spell days on FAO CPI growth
+    compared to using the full year. Weighting by crop area has a marginal effect
+    on the estimates.
+  46: Dry spells have a statistically significant negative effect in below median
+    aridity and drought conditions, with coefficients of -0.0010 and -0.0017 respectively.
+  47: The controlled direct effect of an additional day in a dry spell varies depending
+    on the national SPEI value. The effects are statistically significant (p<0.05)
+    at SPEI values of -2, -1, and 0.
+Methodology:
+  2: Global panel of daily precipitation and temperature from 1979 to 2016.
+  4: Multi-crop, global analysis (unspecified details)
+  5: The dataset is a country-by-year panel that examines year-to-year growth in the
+    FAO Crop Production Index (CPI) against dry spell exposure.
+  6: Dry spell variable is operationalized using daily precipitation data from the
+    Climate Prediction Center spanning 1979 to 2016, considering dry spells of 7,
+    14, 21, 28, and 35 days.
+  7: Supplementary analyses consider weighting by cropland in the month of occurrence
+    or at any time of the year, and by percent area devoted to cereal crops.
+  8: Defines heat waves as abnormally hot days preceded by at least k-1 others. Abnormally
+    hot days are those where temperature is at least 1.5 standard deviations above
+    the mean. Joint exposure is defined as days that are both abnormally dry and hot,
+    preceded by j-1 abnormally dry days and k-1 abnormally hot days. Uses spatial
+    averaging for dry spells, heat waves, and joint exposure. Investigates effect
+    heterogeneity by splitting cells into two groups based on drought (SPEI), aridity
+    index, and irrigation, then computing dry spell, heat wave, and joint exposure
+    variables separately for each group.
+  9: Uses a 12-month SPEI and also considers SPEI averaged over months prior to the
+    hottest 90 days. Aridity is calculated as the ratio of precipitation and average
+    annual potential evapotranspiration using the Penman-Monteith Equation. National
+    weighted exposure is constructed using the same spatial weighting scheme as for
+    the dry spell variable.
+  10: The analysis compares exposures to environmental stressors across 59 more arid
+    and 59 less arid countries, excluding Sub-Saharan Africa due to data concerns.
+  11: Fixed effects models are used to relate growth in the FAO CPI to dry spell exposure,
+    considering different subsamples by aridity and SPEI.
+  12: Uses a linear regression model with country and year fixed effects to analyze
+    the impact on growth rate of FAO CPI, adjusting for temperature, precipitation,
+    and time trends, with distributed lag models to assess transitory vs. persistent
+    effects.
+  13: "The study uses regression models (Equations 2, 3, and 4) with fixed effects\
+    \ (\U0001D707\U0001D456, \U0001D719\U0001D461) to analyze the impact of dry spells\
+    \ and heat waves, considering interactions with drought and aridity. The analysis\
+    \ includes within-country differences in drought and aridity. An alternative approach\
+    \ using country-level data is mentioned and performed in the Appendix."
+  15: Ordinary least squares with country and year fixed effects, clustered standard
+    errors at the country level; sequential g-estimation in robustness checks to address
+    drought as a mediator
+  16: The analysis examines the robustness of dry spell estimates through various
+    specifications such as adjustments for lagged agricultural output and dry spell
+    effects, using MIRCA2000 data, cubic and quartic terms for temperature and precipitation,
+    and exploring counts of days in temperature bins.
+  17: Regression models that adjust for annual precipitation. Focus is on direct effects
+    of dry spells, conditioning on drought.
+  18: The analysis uses equation (2) to estimate the effects of dry spells, considering
+    heterogeneous effects based on heat wave exposure. Robustness checks are performed
+    using alternative covariates and an alternate outcome. Sequential g-estimation
+    is used to account for the potential influence of dry spells on drought.
+  19: The analysis re-estimates models with different definitions of dry spells and
+    considers interactive effects of dry spells and heat waves using regression analysis.
+  20: The analysis uses cross-country variation in national aridity or drought. Sequential
+    g-estimation is used to examine how the effects of dry spells vary with national
+    drought levels. They modify the specification to mitigate potential effects of
+    irrigation on crop choice and baseline productivity.
+  23: Analysis uses globally gridded temperature and precipitation data; potential
+    improvements in data accuracy with increased density of weather stations and remote
+    sensing.
+  24: Uses statistical models to measure exposure to climate conditions; acknowledges
+    adaptation and irrigation as key considerations.
+  29: No relevant information
+  31: Analysis of dry spell frequencies and their variability over southern Africa;
+    A multi-scalar drought index sensitive to global warming (SPEI); Analysis of spatiotemporal
+    patterns and historical changes of drought effects on US maize and soybean production.
+  33: The analysis involves scatter plots comparing 1979 and 2016 data on heat and
+    water stress, using multiple axes for different stress indicators and colored
+    trends for aridities.
+  35: Panel bootstrap with 1000 replicates is used to compute confidence intervals
+    of correlations between within-country demeaned FAO CPI growth rates and within-country
+    demeaned dry spell days for 28+ day dry spells. The analysis uses SPEI to define
+    drought and Aridity Index (AI) to define aridity, relative to the country-level
+    median. Correlations are calculated for the full sample, and separately for observations
+    with SPEI <= 0 vs. SPEI > 0, and AI below vs. above the median. Differences in
+    correlations are also calculated.
+  37: The analysis is based on Equation (2) and estimates effects of dry spell and
+    heat wave days, their interaction, and joint occurrences using a dataset of 4072
+    observations; analysis applies to 28+ day dry spells and varying heat wave durations.
+  38: Effects vary with aridity index, drought conditions, or irrigation status, using
+    regression equations, with standard errors clustered at the country level and
+    thresholds defined for aridity, SPEI, and irrigation.
+  39: Models account for environmental variables like temperature, precipitation,
+    and their squares as part of lag specifications.
+  40: Demediation step involves recentering drought variable around target SPEI levels
+    to estimate direct effects.
+  41: 'The analysis estimates the effect of an additional dry spell day using Equation
+    (1) from the main text. Standard errors are clustered at the country level. Significance
+    levels are indicated by asterisks: *** (p<0.01), ** (p<0.05), * (p<0.1).'
+  42: Utilizes a distributed lag model with data from a specification involving 28+
+    day dry spells and 9+ day heat waves, including lagged effects from 1 to 5 years.
+  43: 'The analysis uses variants of a baseline specification (equation (1) in the
+    main text). Models adjust for temporal weighting of dry spell and heat wave measures
+    using cropped area, SPEI, temperature bins, precipitation and temperature terms
+    (cubic and quartic), per-country trends (linear and cubic), lagged environmental
+    variables, and lagged log value added per capita. Some models instrument for the
+    added term using lagged log GDP per capita. Standard errors are clustered at the
+    country level. Significance levels are indicated (*: p<0.1, **: p<0.05, ***: p<0.01).'
+  44: Sequential g-estimation is used to estimate the controlled direct effect of
+    dry spell days on an outcome variable, controlling for heat wave days. 95% confidence
+    intervals are estimated via panel bootstrap.  Accounts for the potential influence
+    of dry spells on the 12-month SPEI in a given year.
+  45: Regression analysis (variants of equation (1)) is used to estimate the effect
+    of dry spell days on FAO CPI growth. Dry spells are defined as 28+ day dry spells.
+    Heat waves are defined as 9+ day heat waves. Different subsets of days in the
+    year are used to construct the dry spell variable (hottest 90 days, hottest 120
+    days, and all days). Some analyses weight days temporally by cropped area using
+    the MIRCA2000 dataset. Standard errors are clustered at the country level.
+  46: The analysis splits samples based on aridity and drought conditions, and estimates
+    effects using both split-sample estimation and interaction terms.
+  47: Sequential g-estimation to account for the potential influence of dry spells
+    on the 12-month SPEI is used. Results are applicable when the specification also
+    includes the number of heat wave days (minimum duration of 9 days) and an interaction
+    between the number of dry spell days and the 12-month SPEI.
+More Notes:
+  2: The study focuses on punctuated events and multiple stressors, complementing
+    prior investigations focused solely on longer-term phenomena or isolated extreme
+    heat or precipitation.
+  4: The analysis focuses on dry spells interacting with extreme heat rather than
+    average temperature, and aims to reflect realized impacts on farms around the
+    world.
+  8: No relevant information
+  9: The study partitions cells based on whether the fraction of cropland equipped
+    for irrigation is above or below the median.
+  13: The outcome variable, G_it, and the control variables, X_it, are not defined
+    on this page. The paper uses multiple approaches, including interacting variables
+    and splitting the sample. Appendix Table A4 provides results from country-level
+    analysis.
+  15: Drought is considered a potential mediator between dry spells and crop production.
+  17: The paper examines the robustness of the results to alternative assumptions
+    and explores heterogeneity in dry spell impacts (dependence on drought, aridity,
+    and heat waves) and the potential role of irrigation in mitigating the effects.
+  23: Analysis may be limited by approximation of climate conditions on individual
+    farms and aggregate analysis at national scale may overlook varying crop tolerance
+    to stressors.
+  25: Experiments suggest effects of hot, dry weather could be mitigated through other
+    adaptations, such as nutrient management, but the widespread effectiveness of
+    such adaptations remains to be seen.
+  29: No relevant information
+  43: The number of observations varies across models, ranging from 3153 to 4072.
+  44: The outcome variable being evaluated is not explicitly defined on this page,
+    but the methodology accounts for the potential influence of dry spells on the
+    12-month SPEI.
+  45: The table compares different specifications of the model, focusing on the time
+    window used to define dry spell variables. The number of observations is 4072
+    across all specifications.
+  47: The table uses panel bootstrap to estimate 95% confidence intervals.
+Quantitative material:
+  2: Depressed growth in crop production from 4-5 week dry spells during the hottest
+    part of the year.
+  8: "Uses k=3, 6, 9, and 12 for heat wave duration; SPEI \u2264 0 as abnormal water\
+    \ deficit; aridity index split at 0.65 to include dry sub-humid, semi-arid, arid,\
+    \ and hyper-arid cells."
+  9: Irrigation data is the estimated fraction of the area irrigated per pixel (circa
+    2005).
+  11: Growth rates in the FAO CPI are significantly negatively correlated with exposure
+    to dry spells, particularly in more arid countries and during drier years.
+  13: "The analysis uses regression models (Equations 2, 3, and 4) to estimate the\
+    \ coefficients (alpha, gamma, delta) associated with different combinations of\
+    \ dry spells, heat waves, drought, and aridity. The coefficients (\U0001D6FC1,\
+    \ \U0001D6FC2, \U0001D6FC3, \U0001D6FC4, \U0001D6FE1, \U0001D6FE2, \U0001D6FF\
+    1, \U0001D6FF2) are quantitative measures of the impact of these drivers."
+  17: Each additional dry spell day beyond 28 days is associated with approximately
+    0.1 percentage point lower growth in the FAO CPI.
+  18: An additional day in a 28+ day dry spell has negative main effects on growth
+    in crop production.
+  20: The analysis finds 'larger reductions in FAO CPI growth when a dry spell occurs
+    in a location equipped for irrigation than from a similar spell in an area without
+    such equipment'. It also finds point estimates for dry spells become larger in
+    cereal yields.
+  21: Dry spell effects are identified as negative and statistically significant in
+    less irrigated cells when reweighted by average cereal productivity.
+  29: No relevant information
+  31: Wheat yield loss attributable to heat waves, drought and water excess at the
+    global, national and subnational scales.
+  33: The plots show numerical data on dry spell days and SPEI, with points representing
+    countries categorized by aridity and heatwave duration.
+  34: Summary statistics are provided for variables such as dry spell days, heat wave
+    days, drought (SPEI), aridity index, irrigation, average temperature, and annual
+    precipitation.
+  35: "Correlations between dry spell exposure and crop production growth; e.g., All\
+    \ data: -0.045 (-0.087, -0.004); SPEI \u2264 0: -0.058 (-0.108, -0.012); Aridity\
+    \ Index (AI) below median: -0.055 (-0.109, -0.005)"
+  37: Estimates are provided, such as the effect of dry spell days alone at -0.0016***
+    for 3+ day heat waves and heat wave days alone at -0.0098*** for 3+ day heat waves.
+  38: The table quantifies effects of a dry spell under different conditions, with
+    changes in CPI and cereal yields given as coefficients with significance levels.
+  41: The table shows estimated marginal effects (e.g., -0.0001 to -0.0013) of an
+    additional dry spell day for various combinations of dry spell and heat wave durations.
+    Standard errors are provided in parentheses.
+  42: Includes coefficients and corresponding p-values for the impact of dry spell
+    days from the current year to a 5-year lag.
+  43: Estimated effect of an additional dry spell day is reported, ranging from -0.0007
+    to -0.0014. Standard errors are also provided in parentheses.
+  44: A single dry spell day is associated with a decrease of -0.0009 to -0.0013 in
+    the outcome variable when considering dry spells of 21+ days, 28+ days, and 35+
+    days respectively. These results are significant at the p<0.05 level.
+  45: 'An additional dry spell day is estimated to have negative effects on FAO CPI
+    growth, with coefficients ranging from -0.0001 to -0.0013. Statistical significance
+    varies depending on the time window considered (hottest 90 days, 120 days, or
+    full year) and whether the analysis is weighted by cropped area. Significance
+    levels are indicated by asterisks (*: p<0.1, **: p<0.05).'
+  46: "The analysis provides numerical effects of dry spells below and above median\
+    \ aridity and during drought (SPEI \u2264 0) and non-drought (SPEI > 0) conditions."
+  47: Controlled direct effect of an additional dry spell day at varying SPEI values
+    (SPEI -2 to 2) is provided, along with 95% confidence intervals. For example,
+    at SPEI = -2, the effect is -0.0017** (-0.0032, -0.0004).
+sourcematerial:
+  2: Dry spells often co-occur with drought and heat waves...provide evidence that
+    4-5 week dry spells that occur during the hottest part of the year depress growth
+    in crop production. The effects of these extreme events are modified by existing
+    drought, aridity, and by heat waves. After accounting for productivity and crop
+    choice, losses in yields from dry spells are concentrated in areas that are not
+    equipped for irrigation...Our findings, focused on punctuated events and multiple
+    stressors, complement prior investigations focused solely on longer-term phenomena
+    and those that study extreme heat or precipitation in isolation.
+  4: 'Source material here.
+
+    timescales may not only confound the relationship between dry spells and agricultural
+    outcomes, but may also modify the effects of dry spells themselves. Further, dry
+    spells may contribute to droughts, making it important to distinguish between
+    direct and indirect effects of dry spells. Because combined dry and hot weather
+    is growing more common, understanding potential interactions between dry spells
+    and temperature stress is equally critical. Extreme heat can be detrimental to
+    crops, whether occurring for a single day or several in a row during a heat wave.
+    These effects and those of dry spells are very likely interdependent; plant ecophysiology
+    suggests that dry spells could be more damaging when dry and hot weather coincide,
+    and heat waves may increase plant susceptibility to later water stress. Despite
+    growing evidence of these biophysical mechanisms, we know less about how short-term
+    exposure to joint water and heat stress ultimately influences agricultural output.
+    A multi-crop, global analysis of how dry spells interact with temperature stress
+    aims to reflect realized impacts on farms around the world.
+
+    '
+  5: 'Source material here.
+
+    extreme heat and longer-term water stress to influence crop production would complement
+    this growing body of knowledge. Within this context, we ask whether dry spells
+    impact growth in aggregate crop production across the globe and how those effects
+    are modified by co-occurring stressors. Based on prior work mentioned above, we
+    hypothesize that dry spells should lower growth in crop production, with effects
+    that are larger in magnitude when dry spells co-occur with heat waves, drought,
+    or aridity. To address our question, we analyze a panel dataset spanning 1979-2016
+    that relates aggregate crop production in a country and year to exposure to dry
+    spells and several related environmental stressors. Our statistical approach isolates
+    country-specific dry spell exposure anomalies, and the range of specifications
+    we estimate allow us to probe relationships between and joint effects of water
+    and heat stress across timescales. Further, because irrigation can partly decouple
+    rainfall from water availability, in secondary analyses we investigate whether
+    irrigation availability moderates the effects of dry spells on growth in crop
+    production. The remainder of this paper is organized as follows : Section 2 describes
+    the dataset and suite of statistical analyses we conduct, Section 3 presents results,
+    and Section 4 discusses those findings and their implications. 2. Methodology
+    2.1 Dataset construction We analyze a country-by-year dataset relating year-to-year
+    growth (%/year) in the FAO Crop Production Index (FAO CPI) to dry spell exposure
+    and additional covariates, which we construct from gridded data (see below). The
+    FAO CPI is a price-weighted sum of the quantities
+
+    '
+  6: 'yaml
+
+    Evaluation overview: "of crops produced in a country and year that are not used
+    as seed and feed, expressed as an index relative to the country-specific average
+    of that quantity over 2014-2016...This lack of price response allows us to isolate
+    the production consequences of dry spells, which are the focus of our analysis."
+
+    Drivers of Risk: "Our focal dry spell variable, which we refer to as the number
+    of dry spell days, is the number of abnormally dry days (defined below) in a country
+    and year that were preceded by at least j-1 others."
+
+    Methodology: "To operationalize our dry spell variable, we begin with daily precipitation
+    totals from the Climate Prediction Center (CPC) spanning 1979 to 2016...We consider
+    alternatives of j=7, 14, 21, 28, and 35 days."
+
+    '
+  7: 'Source material here.
+
+    longitude cells.3 For each grid cell and day, we classify the day as abnormally
+    dry if precipitation falls at or below a cell- and day-specific threshold defining
+    an abnormally dry day. We define that threshold to be 1.5 standard deviations
+    below mean precipitation for a grid cell and day of year (or zero if that threshold
+    would be negative), with both the mean and standard deviation calculated using
+    a 31-day window centered around the focal day across all years in the dataset.4
+    We then identify sequences of abnormally dry days and count how many abnormally
+    dry days are preceded by at least j-1 others; we call such days dry spell days.
+    In our main analysis, we only consider abnormally dry days that occur in the historically
+    hottest 90 days in each grid cell in order to facilitate examination of dry spells
+    and heat waves. In supplementary analyses, we consider two variations on this
+    approach. First, we consider abnormally dry days occurring during the hottest
+    120 days or at any time of the year. Second, we construct weighted counts of dry
+    spell days, where we weight dry spell days based on the fraction of the grid cell
+    devoted to cropland in the month when the dry spell day occurs using the MIRCA2000
+    dataset (Portmann et al., 2010). Doing so brings our cell-specific dry spell variable
+    closer to quantifying crop exposure to dry spell days. The output of these steps
+    is a count of dry spell days per grid cell. Since we require a single value per
+    country, we construct a spatially weighted average of these cell-specific dry
+    spell variables. In our main analyses, we weight by the percent of area in each
+    cell that was devoted to cropland in 2000 according to EARTHSTAT (Ramankutty et
+    al., 2008). In supplementary analyses focused on irrigation, we weight by the
+    percent of area in each cell devoted to cereal crops.
+
+    '
+  8: "Both our heat wave variable and our metric capturing simultaneous dry spell\
+    \ and heat wave exposure are defined analogously. For heat waves, we use daily\
+    \ temperature maxima from the CPC and count heat wave days: abnormally hot days\
+    \ preceded by at least k-1 others, focusing on k=3, 6, 9, and 12. Abnormally hot\
+    \ days are those in which temperature is at least 1.5 standard deviations above\
+    \ the mean for a grid cell and day of year. For joint exposure to dry spells and\
+    \ heat waves, we count days that are both abnormally dry and abnormally hot and\
+    \ which were preceded by at least j-1 abnormally dry days and k-1 abnormally hot\
+    \ days. Those days represent joint prolonged exposure to heat and water stress.\
+    \ We summarize both heat waves and joint exposure across space using the same\
+    \ spatial averaging process we use for dry spells. When investigating effect heterogeneity,\
+    \ we construct two separate variables of each type (dry spell, heat wave, and\
+    \ joint exposure) for each effect modifier (drought, aridity, irrigation) in each\
+    \ country and year. For each modifier and year, we assign each grid cell to one\
+    \ of two groups based on values of that modifier in that grid cell and year, then\
+    \ compute our dry spell, heat wave, and joint exposure variables separately on\
+    \ those two groups of cells. For drought, we construct one set of dry spell and\
+    \ heat wave variables based on exposure in cells experiencing an abnormal water\
+    \ deficit in a year (SPEI\u22640), and another set in the remaining cells (SPEI>0).\
+    \ In our investigation of aridity, we split cells based on whether the aridity\
+    \ index is above or below 0.65; below 0.65 includes dry sub-humid, semi-arid,\
+    \ arid, and hyper-arid cells. Heat waves are far more rare than dry spells (Table\
+    \ 1), such that investigating heat waves of longer duration would not be informative."
+  9: " \nDrivers of Risk: \"We include drought using the Standardized Precipitation-Evaporation\
+    \ Index (SPEI...), average temperature [and] annual precipitation... The former\
+    \ captures exposure in more irrigated areas, while the latter captures exposure\
+    \ in less irrigated areas.\" \n\nQuantitative material: \"Irrigation data from\
+    \ FAO\u2019s AQUASTAT database provides an estimated fraction of the area irrigated\
+    \ per pixel (circa 2005)...\" \n\nMethodology: \"For our primary results, we use\
+    \ a 12-month SPEI... We use the FAO\u2019s aridity index...with both quantities\
+    \ derived from the Climate Research Unit\u2019s CL 2.0 Global Climate Dataset...\
+    \ we construct national weighted exposure using the same spatial weighting scheme\
+    \ as for the dry spell variable.\"\n\nMore Notes: \"...we partition cells based\
+    \ on whether the fraction of cropland within a cell that is equipped for irrigation\
+    \ is above or below the median fraction among all cells.\"\n"
+  10: 'yaml
+
+    Drivers of Risk: "exposures to water stress and heat stress across several timescales
+    are clearly related and evolving (Fig. 1). The prevalence of heat wave days and
+    dry spell days is substantially different in the 59 more arid (below median aridity
+    index; red) countries in our sample and the 59 less arid (above median aridity
+    index; blue) countries. The same is true of drought, with a clear relationship
+    between the number of dry spell days (y-axis) and drought level (x-axis) in arid
+    countries, especially at the end of our sample (right plot)."
+
+    Methodology: "We briefly describe several patterns in exposure to environmental
+    stressors and how growth in crop production varies with that exposure. First,
+    exposures to water stress and heat stress across several timescales are clearly
+    related and evolving (Fig. 1). The prevalence of heat wave days and dry spell
+    days is substantially different in the 59 more arid (below median aridity index;
+    red) countries in our sample and the 59 less arid (above median aridity index;
+    blue) countries. ... We exclude countries in Sub-Saharan Africa due to concerns
+    over the spatial coverage, reporting frequency, and reliability of the stations
+    on which the CPC dataset is based."
+
+    Highlights: "Finally, comparing the left and right panels of Figure 1 suggests
+    exposure to dry spells, heat waves, and drought conditions is changing through
+    time."
+
+    '
+  11: "yaml\nEvaluation overview: \"To motivate our empirical analysis, we also note\
+    \ suggestive relationships between exposure to dry spells and growth in crop production\
+    \ (Table 2). After removing country-specific means of both variables, growth rates\
+    \ in the FAO CPI are significantly negatively correlated with exposure to dry\
+    \ spells.\"\nDrivers of Risk: \"To motivate our empirical analysis, we also note\
+    \ suggestive relationships between exposure to dry spells and growth in crop production\
+    \ (Table 2).\"\nQuantitative material: \"After removing country-specific means\
+    \ of both variables, growth rates in the FAO CPI are significantly negatively\
+    \ correlated with exposure to dry spells...we only observe a significant negative\
+    \ correlation between growth in the FAO CPI and dry spell days in more arid countries\
+    \ (aridity index below the median) and in countries experiencing drier years (SPEI\
+    \ \u2264 0).\"\nMethodology: \"We estimate a series of fixed effects models relating\
+    \ growth in the FAO CPI in a country and year to dry spell exposure. Our baseline\
+    \ model takes the following form...\"\nHighlights: \"Examining subsamples that\
+    \ vary with background water stress, we only observe a significant negative correlation\
+    \ between growth in the FAO CPI and dry spell days in more arid countries (aridity\
+    \ index below the median) and in countries experiencing drier years (SPEI \u2264\
+    \ 0). In less arid countries (aridity index above the median) and wetter years\
+    \ (SPEI > 0) that correlation remains negative but is smaller in magnitude and\
+    \ not statistically different from zero.\"\n"
+  12: "yaml\nEvaluation overview: \"\U0001D43A\U0001D456\U0001D461 stands for the\
+    \ growth rate in the FAO CPI in country \U0001D456 and year \U0001D461. That growth\
+    \ is an additively separable linear function of exposure to dry spells \U0001D437\
+    \U0001D446\U0001D456\U0001D461, heat waves \U0001D43B\U0001D44A\U0001D456\U0001D461\
+    \ , and drought \U0001D437\U0001D456\U0001D461.\"\nDrivers of Risk: \"That growth\
+    \ is an additively separable linear function of exposure to dry spells \U0001D437\
+    \U0001D446\U0001D456\U0001D461, heat waves \U0001D43B\U0001D44A\U0001D456\U0001D461\
+    \ , and drought \U0001D437\U0001D456\U0001D461.\"\nMethodology: \"\U0001D43A\U0001D456\
+    \U0001D461  =  \U0001D6FD1\U0001D437\U0001D446\U0001D456\U0001D461   +   \U0001D6FD\
+    2\U0001D43B\U0001D44A\U0001D456\U0001D461    +  \U0001D6FD3\U0001D437\U0001D456\
+    \U0001D461   +  \U0001D737\U0001D7D2\U0001D47F\U0001D48A\U0001D495    +  \U0001D707\
+    \U0001D456 +  \U0001D719\U0001D461  +  \U0001D700\U0001D456\U0001D461...Country\
+    \ fixed effects \U0001D707\U0001D456 and year effects \U0001D719\U0001D461 adjust\
+    \ for static cross-country differences (including aridity) and global annual shocks\
+    \ to growth in food production, respectively...we estimate distributed lag variants\
+    \ of equation (1).\"\nHighlights: \"Our primary interest in equation (1) is \U0001D6FD\
+    1, which captures the marginal direct effect of an additional dry spell day (as\
+    \ defined earlier) across all cropped areas in a country on growth in the FAO\
+    \ CPI...Evidence from those models (Appendix Table A2) suggest that the direct\
+    \ effects we estimate are transitory\"\n"
+  13: 'markdown
+
+    '
+  15: "Source material: \"between dry spells and crop production, we estimate models\
+    \ (1)-(5) using ordinary least squares after removing country and year fixed effects\
+    \ by demeaning (\u201Cwithin\u201D estimator). Inference uses clustered standard\
+    \ errors that allow for arbitrary autocorrelation and heteroskedasticity at the\
+    \ country level. In robustness checks we employ sequential g-estimation. One concern\
+    \ with this estimation approach is that drought may lie on the causal path between\
+    \ dry spells and crop production, making \U0001D437\U0001D456\U0001D461 a bad\
+    \ control. The two-step nature of sequential g-estimation avoids bias in \U0001D6FD\
+    \u03021 if the relationship between drought and CPI growth is confounded by omitted\
+    \ variables. Direct effect of dry spells\""
+  16: '
+
+    Methodology: "To examine the robustness of our main dry spell estimates, we estimate
+    a series of alternative specifications. In separate specifications, we adjust
+    for the lagged log of agricultural output per capita...We allow more flexibility
+    in how annual temperature and precipitation exposure affect crop production...We
+    consider variants of our focal dry spell and heat wave variables in which exposure
+    within the year is weighted by the fraction of a grid cell that is cropped in
+    any given month, using the MIRCA2000 data described earlier."
+
+    Highlights: "We present a series of results exploring the effects of dry spells
+    on growth in crop production. We focus on the effects of an additional day in
+    a dry spell at least 28 days long (j=28), which is when we begin to see significant
+    negative effects of dry spell days..."
+
+    '
+  17: 'Source material here.
+
+    using shorter minimum durations are not significant at conventional levels. We
+    present baseline results for heat waves of at least 9 days, though our results
+    are generally insensitive to that choice .9 Our results are organized as follows.
+    We begin with the average marginal effect of dry spells assuming their effects
+    are additively separable from other stressors. After presenting those baseline
+    results, we briefly summarize their robustness to a variety of alternative assumptions,
+    though we relegate the majority of the detailed robustness checks to the Appendix.
+    Next, we examine heterogeneity in dry spell impacts, asking whether the effects
+    of dry spells depend upon drought, aridity, and heat waves. Finally, we explore
+    the potential role of irrigation in mitigating the effects of dry spells. 3.1
+    Baseline results: additively separable effects of dry spells. Each additional
+    dry spell day beyond 28 days that occurs during the historically hottest part
+    of the year is associated with approximately 0.1 percentage point lower growth
+    in the FAO CPI (Table 3). Because we condition on drought, this effect is best
+    interpreted as a direct effect of dry spells.10 Estimated effects of dry spell
+    days defined using shorter minimum spell duration remain negative but are not
+    distinguishable from zero. The signs, magnitudes, and significance of dry spell
+    effects are similar when we consider alternate minimum durations used to define
+    heat waves (Appendix Table A1). Per the specifications outlined earlier, these
+    estimates arise from models that adjust for annual precipitation. As a result,
+    the effects we estimate reflect shifting of 9 Selecting a heat wave duration for
+    which heat waves are strongly related to agricultural outcomes should limit confounding
+    concerns; prior work (Miller et al., 2021) suggests 9 days is suitable for that
+    purpose. 10 Dry spells could, of course, exert indirect effects. To approximate
+    this indirect effect, we multiply estimated drought effects from our baseline
+    model by the estimated contribution of dry spells to drought from an auxiliary
+    regression. Our estimates of the size of these indirect effects are quite small
+    (e.g., 0.0015% per dry spell day beyond 28 days), so our focus remains on the
+    direct effects.
+
+    '
+  18: Source material here.
+  19: "The analysis examines the impacts of dry spell days and heat wave days, including\
+    \ their interactive effects. \"Moving to the potential interactive effects component\
+    \ of the regression, we find evidence that when heat waves do occur during the\
+    \ same year\u2014but not necessarily at the same time\u2014dry spell days are\
+    \ less damaging than if they had occurred in a year without heat waves.\" \"Finally,\
+    \ we narrow our focus to simultaneous exposure to a dry spell day and heat wave\
+    \ day...We only observe a compounding effect of joint exposure to dry spells and\
+    \ heat waves for 12+ day heat waves.\" Dry spell days are less damaging in years\
+    \ with heat waves unless there is simultaneous exposure to both lasting 12+ days;\
+    \ damages are worse in more arid locations. \"Estimation of equations (3) and\
+    \ (4) provides compelling evidence that the effects of dry spells are damaging\
+    \ when they occur in locations that are more arid (aridity index \u2264 0.65).\"\
+    \ The analysis re-estimates models with different definitions of dry spells and\
+    \ considers interactive effects of dry spells and heat waves using regression\
+    \ analysis. \"To that end, we re-estimate our baseline model allowing dry spells\
+    \ to occur in the hottest 120 days or full year rather than just the hottest 90\
+    \ days.\""
+  20: "yaml\nEvaluation overview: \"We also find evidence that dry spells are damaging\
+    \ when they occur in cells with less area equipped for irrigation...When we examine\
+    \ growth in cereal yields, focusing on a set of crops that is more homogenous\
+    \ than all crops included in the FAO CPI...\"\nDrivers of Risk: \"experiencing\
+    \ a water deficit (12-month SPEI \u2264 0)...arid (aridity index > 0.65)...relative\
+    \ water surplus (12-month SPEI > 0)...dry spells...national drought levels...area\
+    \ equipped for irrigation\"\nQuantitative material: \"A na\xEFve comparison of\
+    \ effect sizes reveals larger reductions in FAO CPI growth when a dry spell occurs\
+    \ in a location equipped for irrigation than from a similar spell in an area without\
+    \ such equipment...the point estimates for dry spells become larger in cereal\
+    \ yields\"\nMethodology: \"when we instead use cross-country variation in national\
+    \ aridity or drought...sequential g-estimation (see Appendix for details)...only\
+    \ after modifying our specification to mitigate potential effects of irrigation\
+    \ on crop choice and baseline productivity\"\nHighlights: \"dry spells are primarily\
+    \ damaging in countries and years in which an aggregate annual water deficit (12-month\
+    \ SPEI \u2264 0) occurs...dry spells are damaging when they occur in cells with\
+    \ less area equipped for irrigation, though only after modifying our specification\
+    \ to mitigate potential effects of irrigation on crop choice and baseline productivity\"\
+    \n"
+  21: "Source material: We ask whether and when dry spells impact growth in crop production\
+    \ at a national scale. Dry spell days are significantly more damaging when they\
+    \ occur in locations that are experiencing annual water deficits (SPEI \u2264\
+    \ 0) or are arid (aridity index \u2264 0.65). When we reweight dry spell exposure\
+    \ by average cereal productivity in each cell to account for baseline productivity\
+    \ effects of irrigation, we see dry spell effects in less irrigated cells that\
+    \ are negative and statistically significant... Our estimates suggest that dry\
+    \ spell days exhibit a modest average direct effect on growth in crop production...\
+    \ dry spells are less damaging in areas more equipped for irrigation..."
+  22: Our estimates provide consistent evidence of the negative relationship between
+    drought (low SPEI) and crop production...suggesting short-term water stress (dry
+    spells) is more damaging when longer-term water stress (drought or aridity) is
+    present...Perhaps our most surprising result is the absence of an interactive
+    effect of dry spell days and heat wave days when they occur simultaneously.
+  23: 'Source material: Zhu et al., 2022) suggest that heat and water stress likely
+    have non-additive effects on crops. While we too document interactive effects
+    (Table 4), we only find strong evidence of non-additivity when dry spells and
+    heat waves occur in the same year, and not necessarily simultaneously. It could
+    be that the rarity of the shorter-term events we study (heat waves and dry spells)
+    combined with the country scale of our analysis leave us with insufficient statistical
+    power to detect effects of true joint exposure. Alternatively, our dry spell and
+    heat wave variables may already embed some of the joint exposure effects we seek
+    to identify. After all, heat waves often occur during dry periods, and we focus
+    on dry spells occurring during the hottest part of the year. Weaker results from
+    models in which we consider dry spells in other parts of the year (Appendix Table
+    A5) suggest that heat may play an important role in our main dry spell estimates
+    (Table 3), leaving little scope for detection of distinct joint exposure effects.
+    As with any analysis, ours has limitations, many of which present opportunities
+    for future work. The globally gridded temperature and precipitation data on which
+    our analysis is based is only an approximation to conditions experienced on individual
+    farms. Temperatures may vary from the air to the surface to the soil, and microclimates
+    may result in substantial heterogeneity in both temperature and precipitation
+    on farms within a grid cell. Increasing density and reliability of weather stations
+    as well as improvements in remote sensing alternatives may enable refined estimates
+    in the future. In particular, we hope those improvements would enable reliable
+    estimates of the impacts of dry spells in Sub-Saharan Africa, where our dataset
+    shows clear shortcomings. Analyzing aggregate crop production on an annual, national
+    scale also presents challenges. Crops likely have different tolerance for both
+    temperature and precipitation extremes, while our analysis enforces a single threshold
+    and minimum duration for each stressor.'
+  24: " \nand day-specific statistical thresholds we use to define abnormally high\
+    \ temperature or abnormally\nlow precipitation are based on an assumption that\
+    \ crops are well-adapted to local conditions. Beyond crop differences, our exposure\
+    \ variable must also reflect exposure across a large number of locations, and\
+    \ ours is increasing in the number of, duration of, and fraction of crop area\
+    \ affected by dry spells within a given country and year.\nFinally, we emphasize\
+    \ that our exploration of adaptation is preliminary only, though the smaller effects\
+    \ of dry spells we identify in irrigated areas are consistent with findings in\
+    \ studies of drought.\n"
+  25: 'Source material here: surface and groundwater will constrain irrigation as
+    an adaptation tool. Beyond irrigation, experiments suggest the effects of hot,
+    dry weather could be mitigated through other adaptations, such as nutrient management.
+    It remains to be seen how widespread and effective such adaptations are in practice.'
+  26: null
+  29: Luan, X., Bommarco, R., Scaini, A., & Vico, G. (2021). Combined heat and drought
+    suppress rainfed maize and soybean yields and modify irrigation benefits in the
+    USA. Environmental Research Letters, 16(6), 064023.
+  31: " \nThe page lists several papers that discuss various aspects of crop yield\
+    \ impacts due to climate-related factors, which provide context and evidence for\
+    \ the extracted information:\n\n- \"The impact of climate extremes and irrigation\
+    \ on US crop yields.\" - Highlights the relationship between climate extremes,\
+    \ irrigation, and crop yield outcomes.\n\n- \"Wheat yield loss attributable to\
+    \ heat waves, drought and water excess at the global, national and subnational\
+    \ scales.\" - Provides quantitative information on yield loss specifically attributable\
+    \ to climate factors.\n\n- \"Drought effects on US maize and soybean production:\
+    \ spatiotemporal patterns and historical changes.\" - Addresses methodological\
+    \ aspects of analyzing spatiotemporal patterns in the US context, focusing on\
+    \ drought effects.\n\n- \"A Multi-scalar drought index sensitive to global warming:\
+    \ The Standardized Precipitation Evapotranspiration Index - SPEI.\" - Mentions\
+    \ a methodological tool (SPEI) used to assess drought risk sensitive to global\
+    \ warming.\n\n- \"Dry spell frequencies and their variability over southern Africa.\"\
+    \ - Relates to methodologies that could analyze climatological variations and\
+    \ potential impacts on agriculture.\n"
+  33: "  \nRelationships between heat stress and water stress at three timescales\
+    \ at the beginning (left panel; 1979) and end (right panel; 2016) of the sample.\
+    \ Vertical axis is the number of dry spell days at or beyond the minimum duration\
+    \ of 28 days (short-term water stress). Horizontal axis is the 12-month Standardized\
+    \ Precipitation Evapotranspiration Index (SPEI) corresponding to that calendar\
+    \ year (medium-term water stress). Colors separate countries with aridity index\
+    \ below (red; more arid, 59 countries) or above (blue; less arid, 59 countries)\
+    \ the median country-level aridity index (long-term water stress). Point size\
+    \ indicates the number of heat wave days at or beyond the minimum duration of\
+    \ 9 days (short-term heat stress). This image consists of two scatter plots comparing\
+    \ data from 1979 and 2016 related to drought and heatwave conditions. The red\
+    \ curve (more arid countries) shows an upward trend, suggesting a correlation\
+    \ between higher drought indices and more dry spell days for arid countries.\n"
+  34: '"Summary statistics are calculated at the observation level for all variables,
+    whether or not it is time-invariant for a given country (aridity, irrigation)."'
+  35: "Source material: Table 2. Correlations between dry spell exposure and crop\
+    \ production growth under different water stress conditions; Notes: Means and\
+    \ associated 95% confidence intervals (computed using panel bootstrap with 1000\
+    \ replicates) of correlations between within-country demeaned FAO CPI growth rates\
+    \ and within-country demeaned dry spell days for 28+ day dry spells; SPEI \u2264\
+    \ 0, SPEI > 0, Aridity Index (AI) below median; All data -0.045 (-0.087, -0.004);\
+    \ SPEI \u2264 0 -0.058 (-0.108, -0.012); Aridity Index (AI) below median -0.055\
+    \ (-0.109, -0.005)"
+  37: 'Source material here.
+
+    "The paper evaluates the impacts of dry spells with varying durations of heat
+    wave exposure." (Based on the table headings and notes explaining the evaluation
+    of dry spell and heat wave days.)
+
+
+    "The paper identifies dry spell days and heat wave days as the primary shocks
+    impacting outcomes." (Derived from the table columns focusing on dry spell days
+    and heat wave days and their combined effects.)
+
+
+    "Estimates are provided, such as the effect of dry spell days alone at -0.0016***
+    for 3+ day heat waves and heat wave days alone at -0.0098*** for 3+ day heat waves."
+    (Quantitative results are shown in the table for different durations of heat waves
+    and dry spells.)
+
+
+    "The analysis is based on Equation (2) and estimates effects of dry spell and
+    heat wave days, their interaction, and joint occurrences using a dataset of 4072
+    observations; analysis applies to 28+ day dry spells and varying heat wave durations."
+    (Notes describe the methodology, including the dataset size and approach for joint
+    exposure days.)
+
+    '
+  38: "yaml\nEvaluation overview: \"Table 5: Heterogeneity in dry spell impacts with\
+    \ aridity, drought, and irrigation ... Columns 3-5 are distinguished by outcome\
+    \ variable (3: growth in the FAO CPI; 4-5: growth in cereal yield)\"\nDrivers\
+    \ of Risk: \"Notes: Estimated effects of an additional dry spell day in a 28+\
+    \ day dry spell, with heat waves of 9 or more days\"\nQuantitative material: \"\
+    Less 0.0005 (0.0006) ... More -0.0013** (0.0005) ... More \u2013 Less -0.0018*\
+    \ p=0.044\"\nMethodology: \"Estimated effects of an additional dry spell day ...\
+    \ when the effects of dry spells are allowed to vary with aridity (column 1, using\
+    \ equation (3)), drought (column 2, using equation (4)), or irrigation (columns\
+    \ 3-5, using equation (5)) ... Standard errors are clustered at the country level.\
+    \ ***: p<0.01, **: p<0.05, *: p<0.1.\"\nHighlights: \"More -0.0013** (0.0005)\
+    \ ... 0.0040 (0.0036)\"\n"
+  39: '`
+
+    Most analyses for which results are presented in the appendix use specifications
+    provided in the main text. Here we provide details on analyses described in the
+    main text but for which specifications do not appear: distributed lag models underlying
+    Table A2 and country-level analyses of heterogeneity underlying Tables A6 and
+    A7.
+
+    Our distributed lag specifications allow up to 5 lags of all environmental variables,
+    including our focal dry spell days variable.
+
+    To examine how the effects of dry spells depend upon drought and aridity using
+    country-level variation in those moderators, we take several approaches. For our
+    split-sample estimates (top row of Table A6), we simply re-estimate equation (1)
+    from the main text using subsets of the data defined by the country-level value
+    of aridity or drought as described in the main text. For our interaction-term
+    estimates (bottom row of Table A6), we estimate the following variant of equation
+    (1).
+
+    '
+  40: "A6. Estimates in Table A6 correspond to \U0001D6FD\u030211 and \U0001D6FD\u0302\
+    12. Finally, estimates underlying Table A7 apply sequential g-estimation to the\
+    \ following model, which allows for interactions between dry spell exposure and\
+    \ drought. Unlike the split-sample and interaction term approaches just described,\
+    \ we allow drought to enter as a continuous variable in the interaction terms\
+    \ in this approach: \U0001D43A\U0001D456\U0001D461 = \U0001D6FD1\U0001D437\U0001D446\
+    \U0001D456\U0001D461 + \U0001D6FD2\U0001D43B\U0001D44A\U0001D456\U0001D461 + \U0001D6FD\
+    3\U0001D437\U0001D456\U0001D461 + \U0001D6FD13\U0001D437\U0001D446\U0001D456\U0001D461\
+    \U0001D437\U0001D456\U0001D461 + \U0001D6FD23\U0001D43B\U0001D44A\U0001D456\U0001D461\
+    \U0001D437\U0001D456\U0001D461 + \U0001D737\U0001D7D2\U0001D47F\U0001D48A\U0001D495\
+    \ + \U0001D707\U0001D456 + \U0001D719\U0001D461 + \U0001D700\U0001D456\U0001D461\
+    . (A3) The demediation step removes estimates of all terms involving \U0001D437\
+    \U0001D456\U0001D461, to generate the different estimates in Table A7, we recenter\
+    \ observed values of \U0001D437\U0001D456\U0001D461 around the target level of\
+    \ the SPEI for which we wish to obtain estimates of the direct effects of dry\
+    \ spells (see Acharya, Blackwell, and Sen 2016). More precisely, with estimates\
+    \ of equation (A3) from the first stage of sequential g-estimation, we construct\
+    \ the demediated outcome as follows: \U0001D43A\u0303\U0001D456\U0001D461= \U0001D43A\
+    \U0001D456\U0001D461 \u2212 \U0001D6FD3(\U0001D437\U0001D456\U0001D461 \u2212\
+    \ \U0001D4370) \u2212 \U0001D6FD13\U0001D437\U0001D446\U0001D456\U0001D461(\U0001D437\
+    \U0001D456\U0001D461 \u2212 \U0001D4370) \u2212 \U0001D6FD23\U0001D43B\U0001D44A\
+    \U0001D456\U0001D461(\U0001D437\U0001D456\U0001D461 \u2212 \U0001D4370), where\
+    \ \U0001D4370 is the level of the SPEI for which we wish to estimate the controlled\
+    \ direct effect of dry spells. Column headers in Table A7 indicate different values\
+    \ of \U0001D4370."
+  41: 'yaml
+
+    Evaluation overview: ''No direct statement of the outcome; inferred from "Estimated
+    marginal effect of an additional dry spell day".''
+
+    Drivers of Risk: ''Table A1: Estimated marginal effect of an additional dry spell
+    day for different minimum durations defining dry spells and heat waves Heat wave
+    minimum dur. Dry spell minimum dur.''
+
+    Quantitative material: ''The table presents numerical values for the estimated
+    marginal effects and standard errors.''
+
+    Methodology: ''Notes: Estimated effect of an additional dry spell day (using Equation
+    (1) in the main text) for a given combination of minimum dry spell duration (column)
+    and minimum heat wave duration (row). Standard errors (in parentheses) are clustered
+    at the country level. ***: p<0.01, **: p<0.05, *: p<0.1.''
+
+    Highlights: ''Observation of trends in the table''s numerical values and their
+    statistical significance.''
+
+    '
+  42: The analysis focuses on the impact of dry spell days on an unspecified outcome,
+    evaluating their effects over multiple years. Includes coefficients and corresponding
+    p-values for the impact of dry spell days from the current year to a 5-year lag.
+    Utilizes a distributed lag model with data from a specification involving 28+
+    day dry spells and 9+ day heat waves, including lagged effects from 1 to 5 years.
+    The analysis shows statistically significant effects of dry spell days on the
+    outcome, particularly in the current year and 1-year lag.
+  43: 'Source material here.
+
+    '
+  44: The page provides analysis of the controlled direct effect of dry spell days
+    on an unspecified outcome variable, finding that an additional dry spell day is
+    associated with negative effects when the minimum duration is 21 days or more,
+    with effects decreasing as duration increases. The methodology uses sequential
+    g-estimation and panel bootstrap confidence intervals, accounting for heat wave
+    days and the influence on the 12-month SPEI.
+  45: 'Source material: "Notes: Estimates and standard errors of the effect of an
+    additional dry spell day on growth in the FAO CPI using variants of equation (1)
+    for a 28+ day dry spell and 9+ day heat wave in which we construct our dry spell
+    and heat wave variables using different subsets of days in the year. Column 1
+    uses the historically hottest 90 days in a grid cell, corresponding to our focal
+    estimates in the main text. Column 2 relaxes that restriction to the hottest 120
+    days in a grid cell, and column 3 uses all days in the year. Columns 4-6 repeat
+    those restrictions, but weight days temporally by the cropped area in a cell in
+    the month when a dry spell occurs (relative to the maximum area in that cell in
+    any month) using the MIRCA2000 dataset. Standard errors are clustered at the country
+    level. ***: p<0.01, **: p<0.05, *: p<0.1." and "Dry spell -0.0012** (0.0005) -0.0007*
+    (0.0004) -0.0001 (0.0001) -0.0013* (0.0007) -0.0007 (0.0004) -0.0002 (0.0001)"'
+  46: null
+  47: 'Source material: Controlled direct effect of an additional day in a dry spell
+    at or beyond 28 days in duration when the specification also includes (i) the
+    number of heat wave days using a minimum heat wave duration of 9 days, and (ii)
+    an interaction between the number of dry spell days and the 12-month SPEI. Estimates
+    use sequential g-estimation to account for the potential influence of dry spells
+    on the 12-month SPEI in a given year. Numbers in parentheses indicate 95% confidence
+    intervals estimated via panel bootstrap; Table A7: Variation in dry spell effects
+    with national SPEI using sequential g -estimation; SPEI = -2 -0.0017** (-0.0032,
+    -0.0004); ***: p<0.01, **: p<0.05, *: p<0.1.'
