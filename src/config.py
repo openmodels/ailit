@@ -119,3 +119,5 @@ merge_columns = {'All': {
     'More Notes': "Do you have any other notes?"}}
 
 harmonize_count = 10
+harmonize_maxrows = 20
+harmonize_maxchars = 64 * 1024

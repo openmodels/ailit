@@ -134,6 +134,44 @@ def save_extracts(extracts):
     for key in extracts:
         extracts[key].to_csv(merge_extract_file.replace(".csv", merge_suffix[key] + ".csv"), index=False)
 
+def merge_extracts(doi, key):
+    dones = extracts[key][extracts[key].DOI == doi]
+            
+    detaileds = []
+    fileroot = re.sub(r'[^\w\.\-]', '_', doi)
+    for dopass in range(dopass_count):
+        dopass_suffix = f"-pass{dopass}" if dopass > 0 else ""
+        detailpath = os.path.join(extract_dir, fileroot + dopass_suffix + '.csv')
+        if os.path.exists(detailpath) and os.path.getsize(detailpath) > 2:
+            try:
+                rows = pd.read_csv(detailpath)
+                rows = rows.loc[:, ~rows.columns.str.startswith('Unnamed')]
+                detaileds.append(rows)
+            except Exception as ex:
+                print(f"Failed to read {detailpath}.")
+
+    if len(detaileds) == 0:
+        return
+
+    if len(dones) == 0 or dones.ExtractCount.iloc[0] < len(detaileds):
+        if len(detaileds) == 1:
+            validrows2 = detaileds[0]
+        else:
+            paperinfo = [f"  {kk}: {value.iloc[0]}" for kk, value in newrow.items() if not pd.isna(value.iloc[0]) and not kk[:7] == "Unnamed"]
+            instructs = column_defs_extract[key]
+            if isinstance(extract_request, str):
+                request = extract_request
+            else:
+                request = extract_request[key]
+                
+            validrows = merge_extract(verdictrow, detaileds, "\n".join(paperinfo), request, instructs)
+            validrows2 = pd.DataFrame(validrows)
+                    
+        validrows2['ExtractCount'] = len(detaileds)
+        validrows2['DOI'] = doi
+        extracts[key] = pd.concat([extracts[key][extracts[key].DOI != doi], validrows2], ignore_index=True)
+        save_extracts(extracts)
+        
 verdicts = pd.read_csv(verdict_file.replace('.csv', '-further.csv'))
 
 summaries = []
@@ -168,9 +206,19 @@ if __name__ == '__main__':
         # Merge the summaries, column by column
         doisummaries = []
         for dopass in range(dopass_count):
-            rows = summaries[dopass][summaries[dopass].DOI == doi]
-            doisummaries.append(rows)
+            if summaries[dopass] is not None:
+                rows = summaries[dopass][summaries[dopass].DOI == doi]
+                doisummaries.append(rows)
 
+        if len(doisummaries) == 1:
+            applied = doisummaries[0].copy()
+            applied['SummaryCount'] = 1
+            merged[key] = pd.concat([merged[key][merged[key].DOI != doi], applied], ignore_index=True)
+
+            for key, columns in merge_columns.items():
+                merge_extracts(doi, key)
+            continue
+            
         doisummaries = pd.concat(doisummaries, ignore_index=True)
         if extract_fromsummary == 'All':
             dropped = []
@@ -211,42 +259,7 @@ if __name__ == '__main__':
             else:
                 newrow = merged[key][merged[key].DOI == doi]
 
-            dones = extracts[key][extracts[key].DOI == doi]
-            
-            detaileds = []
-            fileroot = re.sub(r'[^\w\.\-]', '_', doi)
-            for dopass in range(dopass_count):
-                dopass_suffix = f"-pass{dopass}" if dopass > 0 else ""
-                detailpath = os.path.join(extract_dir, fileroot + dopass_suffix + '.csv')
-                if os.path.exists(detailpath):
-                    try:
-                        rows = pd.read_csv(detailpath)
-                        rows = rows.loc[:, ~rows.columns.str.startswith('Unnamed')]
-                        detaileds.append(rows)
-                    except Exception as ex:
-                        print(f"Failed to read {detailpath}.")
-
-            if len(detaileds) == 0:
-                continue
-
-            if len(dones) == 0 or dones.ExtractCount.iloc[0] < len(detaileds):
-                if len(detaileds) == 1:
-                    validrows2 = detaileds[0]
-                else:
-                    paperinfo = [f"  {key}: {value.iloc[0]}" for key, value in newrow.items() if not pd.isna(value.iloc[0]) and not key[:7] == "Unnamed"]
-                    instructs = column_defs_extract[key]
-                    if isinstance(extract_request, str):
-                        request = extract_request
-                    else:
-                        request = extract_request[key]
+            merge_extracts(doi, key)
                 
-                    validrows = merge_extract(verdictrow, detaileds, "\n".join(paperinfo), request, instructs)
-                    validrows2 = pd.DataFrame(validrows)
-                    
-                validrows2['ExtractCount'] = len(detaileds)
-                validrows2['DOI'] = doi
-                extracts[key] = pd.concat([extracts[key][extracts[key].DOI != doi], validrows2], ignore_index=True)
-                save_extracts(extracts)
-
     save_merged(merged)
     save_extracts(extracts)

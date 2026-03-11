@@ -1,4 +1,4 @@
-import os, re, random
+import os, re, random, copy
 import numpy as np
 import pandas as pd
 
@@ -11,7 +11,7 @@ def harmonize_rows(rows, instructs, request):
     instructs2 = copy.copy(instructs)
     instructs2['sourcematerial'] = ["Provide quotes or evidence from the contributing source material that justifies or provides necessary context for the results you gave."]
 
-    headerstr = ",".join([f"\"{column}\"" for column in instructs2.keys()])
+    headerstr = ",".join([f"\"{column}\"" for column in rows.columns])
     columninfo = "  " + "\n  ".join([f"{column}: {question[0]}" for column, question in instructs2.items()])
 
     prompt = f"""{abstract_prompt} I now have entries from multiple reviewers looking at multiple papers, organized as CSV table rows. I would like you to harmonize their outputs, without losing any information.  This consists of:
@@ -30,42 +30,64 @@ And here are the rows for you to harmonize:
 {datainfo}
 
 Do not modify the `sourcematerial` column, except to add to it if relevant information is being dropped from other columns in the harmonization process.
-Do not drop any rows and keep them in the same order.
+Do not drop any rows, and be sure to keep the rows in the same order.
 
-Specify the results in a list with single lines of text in a YAML dictionary. Your response should look like this:
+Specify the result as a CSV, provided in triple quotes. Your response should look like this:
 ```
 {headerstr}
 ```
 """
 
     chat = [{"role": "user", "content": prompt}]
-    while ii in range(3):
-        rows = interaction.get_csvtext_validated(chat, 3, instructs2)
-        if len(rows) < len(df):
-            chat = chat_push(chat_push(chat, 'assistant', f"```{response}```"), 'user', "Sorry, the number of rows does not match the original. Please include all rows.")
-            rows = None
+    for ii in range(3):
+        newrows = interaction.get_csvtext_validated(chat, 3, instructs2, required_header=rows.columns, max_tokens=len(datainfo)*2)
+        if len(newrows) == 0:
+            return None
+        newrows = pd.DataFrame(newrows)
+        response = newrows.to_csv(index=False)
+        if len(newrows) < len(df):
+            chat = interaction.chat_push(interaction.chat_push(chat, 'assistant', f"```{response}```"), 'user', "Sorry, the number of rows does not match the original. Please include all rows.")
+            newrows = None
             continue
-        if np.any(rows.DOI != df.DOI):
-            chat = chat_push(chat_push(chat, 'assistant', f"```{response}```"), 'user', "Sorry, but the DOI column did not exactly match the original. Please do not change the order and keep the same formatting for this column.")
-            rows = None
+        if np.any(newrows.DOI != df.DOI):
+            chat = interaction.chat_push(interaction.chat_push(chat, 'assistant', f"```{response}```"), 'user', "Sorry, but the DOI column did not exactly match the original. Please do not change the order and keep the same formatting for this column.")
+            newrows = None
             continue
 
-    return rows
+    return newrows
+
+def harmonize_draw_rows(df, passdf, maxrows):
+    if maxrows <= 3:
+        iis = np.random.randint(0, len(df), size=3)
+        rows = df.iloc[iis].drop(columns=['HarmonizeCount'])
+        return iis, rows
+    
+    if len(df) <= maxrows:
+        iis = np.range(len(df))
+        rows = df.drop(columns=['HarmonizeCount'])
+    else:
+        ## Throw in some single-pass results, then drop them, since these are more carefully checked
+        bigdf = pd.concat([df, passdf.sample(n=int(len(df) / 2))], ignore_index=True)
+        iis = np.random.randint(0, len(bigdf), size=maxrows)
+        rows = bigdf.iloc[iis].drop(columns=['HarmonizeCount'])
+
+    if len(rows.to_csv(index=False)) > harmonize_maxchars:
+        return harmonize_draw_rows(df, passdf, int(maxrows / 2))
+    else:
+        return iis, rows
 
 ## NOTE: ExtractCount or SummaryCount should already be dropped, and HarmonizeCount should already be added
 def harmonize_draw(df, passdf, instructs, request):
     if len(df) <= 1:
         return None # unchanged
-    
-    if len(df) <= 20:
-        iis = np.range(len(df))
-        result = harmonize_rows(df.drop('HarmonizeCount'), instructs, request)
-    else:
-        ## Throw in some single-pass results, then drop them, since these are more carefully checked
-        bigdf = pd.concat([df, passdf.sample(n=len(df) / 2)], ignore_index=True)
-        iis = np.random.randint(0, len(bigdf), size=20)
-        result = harmonize_rows(bigdf.iloc[iis].drop('HarmonizeCount'), instructs, request)
 
+    if len(df) <= 3:
+        iis = np.random.randint(0, len(df), size=3)
+        rows = df.iloc[iis].drop(columns=['HarmonizeCount'])
+    else:
+        iis, rows = harmonize_draw_rows(df, passdf, harmonize_maxrows)
+        
+    result = harmonize_rows(rows, instructs, request)
     if result is None:
         return None # unchanged
         
@@ -83,8 +105,9 @@ knowndoi = set()
 for dopass in range(dopass_count):
     summaries_pass, knowndoi_pass = helpers.get_summaries(summary_file, dopass)
 
-    summaries.append(summaries_pass)
-    knowndoi |= set(knowndoi_pass)
+    if summaries_pass is not None:
+        summaries.append(summaries_pass)
+        knowndoi |= set(knowndoi_pass)
 
 detaileds = []
 for dopass in range(dopass_count):
@@ -100,7 +123,8 @@ for dopass in range(dopass_count):
                 passdetaileds.append(rows)
             except Exception as ex:
                 pass
-    detaileds.append(passdetaileds)
+    if passdetaileds:
+        detaileds.append(pd.concat(passdetaileds, ignore_index=True))
 
 merged_harmonized = {}
 for key in merge_suffix:
@@ -115,7 +139,7 @@ for key in merge_suffix:
 extracts_harmonized = {}
 for key in merge_suffix:
     harmonized_file = merge_extract_file.replace(".csv", merge_suffix[key] + "-harmonized.csv")
-    if os.path.exists(extract_file):
+    if os.path.exists(harmonized_file):
         extracts_harmonized[key] = pd.read_csv(harmonized_file)
     else:
         harmonized = pd.read_csv(harmonized_file.replace("-harmonized.csv", ".csv"))
@@ -124,13 +148,14 @@ for key in merge_suffix:
 
 if __name__ == '__main__':
     count = 0
-    for key in merged_suffix:
+    for key in merge_suffix:
         # Harmonize the merged summaries
         instructs = {col: [question] for col, question in merge_columns[key].items()}
         
         df = merged_harmonized[key]
+        print(df.columns)
         sumcount = df.SummaryCount
-        result = harmonize_draw(df.drop('SummaryCount'), random.choice(summaries), instructs, "Please summarize the following features of the paper.")
+        result = harmonize_draw(df.drop(columns=['SummaryCount']), random.choice(summaries), instructs, "Please summarize the following features of the paper.")
         if result is not None:
             result['SummaryCount'] = sumcount
             merged_harmonized[key] = df
@@ -142,7 +167,7 @@ if __name__ == '__main__':
         
         df = extracts_harmonized[key]
         extcount = df.ExtractCount
-        result = harmonize_draw(df.drop('ExtractCount'), random.choice(detaileds), instructs, extract_request)
+        result = harmonize_draw(df.drop(columns=['ExtractCount']), random.choice(detaileds), instructs, extract_request)
         if result is not None:
             result['ExtractCount'] = extcount
             merged_harmonized[key] = df

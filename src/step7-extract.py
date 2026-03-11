@@ -106,13 +106,13 @@ if __name__ == '__main__':
             if extract_fromsummary == 'All' or row[extract_fromsummary] in column_defs_extract:
                 fileroot = re.sub(r'[^\w\.\-]', '_', row.DOI)
                 detailpath = os.path.join(extract_dir, fileroot + dopass_suffix + '.csv')
-                if not os.path.exists(detailpath):
+                extractpath = os.path.join(extract_dir, fileroot + dopass_suffix + '.yml')
+                if not os.path.exists(detailpath) or os.path.getmtime(detailpath) < os.path.getmtime(extractpath):
                     print(row.DOI)
                     if args.dryrun:
                         continue
                     
                     targetpath = os.path.join(pdfs_dir, fileroot + '.pdf')
-                    extractpath = os.path.join(extract_dir, fileroot + dopass_suffix + '.yml')
                     if os.path.exists(targetpath) and os.path.exists(extractpath):
                         with open(extractpath, 'r') as fp:
                             xtt = yaml.safe_load(fp)

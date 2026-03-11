@@ -20,8 +20,9 @@ def pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command):
     # Special commands
     if isinstance(command, str):
         if command == "LINK":
-            if os.path.exists(targetpath.replace('.pdf', '.txt')):
-                with open(targetpath.replace('.pdf', '.txt'), 'r') as f:
+            statuspath = targetpath.replace('.pdf', '.txt')
+            if os.path.exists(statuspath) and os.path.getsize(statuspath) > 0:
+                with open(statuspath, 'r') as f:
                     for line in f:
                         pass
                     return line.strip(), None
@@ -105,9 +106,11 @@ for dopass in range(dopass_count):
 
                     with open(extractpath, 'r') as fp:
                         columninfo = yaml.safe_load(fp)
-                else:
+                elif os.path.exists(targetpath.replace('.pdf', '.txt')): # Did we attempt it?
                     print("Summarizing abstract.")
                     columninfo = {}
+                else:
+                    continue
                     
                 count += 1
             

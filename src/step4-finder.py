@@ -55,7 +55,9 @@ async def main():
             targetpath = os.path.join(pdfs_dir, re.sub(r'[^\w\.\-]', '_', row.DOI) + '.pdf')
             statuspath = targetpath[:-4] + '.txt'
             if os.path.exists(statuspath):
-                if not is_file_older_than_days(statuspath, refresh_days):
+                if os.path.getsize(statuspath) == 0:
+                    os.unlink(statuspath)
+                elif not is_file_older_than_days(statuspath, refresh_days):
                     # print("Recent attempt.")
                     continue
             if os.path.exists(targetpath):

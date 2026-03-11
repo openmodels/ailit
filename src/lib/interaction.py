@@ -49,7 +49,10 @@ def get_stringcommand(chat, nattempts):
 
 def get_internaltext(chat, nattempts, max_tokens=None, fallback_check=None, allowedtype=None):
     if allowedtype:
-        pattern = r'```(?:' + allowedtype + r'\s+)?(.*?)```'
+        if allowedtype == 'any':
+            pattern = r'```(?:[a-z]+\s+)?(.*?)```'
+        else:
+            pattern = r'```(?:' + allowedtype + r'\s+)?(.*?)```'
     else:
         pattern = r'```(.*?)```'
     
@@ -99,7 +102,7 @@ def make_csvcheck(required_header):
         header, reader = find_csvheader(response)
         if not header:
             return "Sorry, I did not find a header. Can you try again?"
-            
+        
         if header != list(required_header):
             strheader = '"' + "\",\"".join(list(required_header)) + '"'
             return f"Sorry, the header did not match. It should read:\n{strheader}\nCan you try again?"
@@ -142,9 +145,11 @@ def extract_yaml_dict(text):
     else:
         return "No YAML dictionary found."
 
-def get_csvtext_validated(chat, nattempts, instructs):
+def get_csvtext_validated(chat, nattempts, instructs, required_header=None, max_tokens=4096*2):
+    if required_header is None:
+        required_header = list(instructs.keys())
     for attempts in range(nattempts):
-        header, reader, response = get_csvtext(chat, nattempts, list(instructs.keys()), max_tokens=4096*2)
+        header, reader, response = get_csvtext(chat, nattempts, required_header, max_tokens=max_tokens)
         if not header:
             return [] # Couldn't get through this step
         
@@ -154,6 +159,8 @@ def get_csvtext_validated(chat, nattempts, instructs):
         for row in reader:
             rownum += 1
             for ii in range(len(header)):
+                if header[ii] not in instructs:
+                    continue
                 for check in instructs[header[ii]][1:]:
                     if len(row) <= ii:
                         if rownum not in errors:
