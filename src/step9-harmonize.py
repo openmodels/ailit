@@ -5,16 +5,13 @@ import pandas as pd
 from lib import interaction, helpers
 from config import *
 
-def harmonize_rows(rows, instructs, request):
+def harmonize_rows_subcols(rows, instructs2, request):
     datainfo = rows.to_csv(index=False)
-
-    instructs2 = copy.copy(instructs)
-    instructs2['sourcematerial'] = ["Provide quotes or evidence from the contributing source material that justifies or provides necessary context for the results you gave."]
 
     headerstr = ",".join([f"\"{column}\"" for column in rows.columns])
     columninfo = "  " + "\n  ".join([f"{column}: {question[0]}" for column, question in instructs2.items()])
 
-    prompt = f"""{abstract_prompt} I now have entries from multiple reviewers looking at multiple papers, organized as CSV table rows. I would like you to harmonize their outputs, without losing any information.  This consists of:
+    prompt = f"""{abstract_prompt} I now have entries from multiple reviewers looking at multiple papers, organized as CSV table rows. However, they sometimes use different conventions, making the interpretation of the whole corpus difficult. I would like you to harmonize their outputs, without losing any information.  This consists of:
  - Using a common interpretation of the various columns.
  - Where columns offer qualitative label information, using a standardized format and labels.
  - Where columns offer summaries, ensuring brevity and a common structure.
@@ -56,6 +53,41 @@ Specify the result as a CSV, provided in triple quotes. Your response should loo
 
     return newrows
 
+def harmonize_rows(rows, instructs, request, columnsets, common_sourcematerial):
+    allinsets = set()
+    harmonized = []
+    for columns in columnsets:
+        if common_sourcematerial:
+            instructs2 = {column: instructs[column] for column in columns}
+            instructs2['sourcematerial'] = ["Provide quotes or evidence from the contributing source material that justifies or provides necessary context for the results you gave."]
+
+            subcols = harmonize_rows_subcols(rows[['DOI'] + columns + ['sourcematerial']], instructs2, request)
+            if subcols:
+                subcols = subcols.drop(columns=['sourcematerial'])
+        else:
+            instructs2 = {}
+            allcols = ['DOI']
+            for column in columns:
+                instructs2[column] = instructs[column]
+                allcols.append(column)
+                if columns + '-sourcematerial' in rows.columns:
+                    instructs2[column + '-sourcematerial'] = f"Provide source material evidence for {column}."
+                    allcols.append(column + '-sourcematerial')
+                    
+            subcols = harmonize_rows_subcols(rows[allcols], instructs2, request)
+        if subcols is None:
+            return None
+        
+        harmonized.append(subcols)
+        allinsets.update(columns)
+        
+    if common_sourcematerial:
+        harmonized.insert(0, rows[[col for col in rows.columns if col not in allinsets and col != 'sourcematerial']])
+        harmonized.append([rows['sourcematerial']])
+    else:
+        harmonized.insert(0, rows[[col for col in rows.columns if '-sourcematerial' in col and col not in allinsets]])
+    pd.concat(harmonized, axis=1)
+
 def harmonize_draw_rows(df, passdf, maxrows):
     if maxrows <= 3:
         iis = np.random.randint(0, len(df), size=3)
@@ -77,7 +109,7 @@ def harmonize_draw_rows(df, passdf, maxrows):
         return iis, rows
 
 ## NOTE: ExtractCount or SummaryCount should already be dropped, and HarmonizeCount should already be added
-def harmonize_draw(df, passdf, instructs, request):
+def harmonize_loop(df, passdf, instructs, request, columnsets, common_sourcematerial):
     if len(df) <= 1:
         return None # unchanged
 
@@ -87,7 +119,7 @@ def harmonize_draw(df, passdf, instructs, request):
     else:
         iis, rows = harmonize_draw_rows(df, passdf, harmonize_maxrows)
         
-    result = harmonize_rows(rows, instructs, request)
+    result = harmonize_rows(rows, instructs, request, columnsets, common_sourcematerial)
     if result is None:
         return None # unchanged
         
@@ -108,7 +140,8 @@ for dopass in range(dopass_count):
     if summaries_pass is not None:
         summaries.append(summaries_pass)
         knowndoi |= set(knowndoi_pass)
-
+passdf_summaries = pd.concat(summaries, ignore_index=True)
+        
 detaileds = []
 for dopass in range(dopass_count):
     passdetaileds = []
@@ -125,6 +158,7 @@ for dopass in range(dopass_count):
                 pass
     if passdetaileds:
         detaileds.append(pd.concat(passdetaileds, ignore_index=True))
+passdf_detaileds = pd.concat(detaileds, ignore_index=True)
 
 merged_harmonized = {}
 for key in merge_suffix:
@@ -153,9 +187,9 @@ if __name__ == '__main__':
         instructs = {col: [question] for col, question in merge_columns[key].items()}
         
         df = merged_harmonized[key]
-        print(df.columns)
         sumcount = df.SummaryCount
-        result = harmonize_draw(df.drop(columns=['SummaryCount']), random.choice(summaries), instructs, "Please summarize the following features of the paper.")
+        print(df.columns)
+        result = harmonize_loop(df.drop(columns=['SummaryCount']), passdf_summaries, instructs, "Please summarize the following features of the paper.", summary_harmonize_columnsets, False)
         if result is not None:
             result['SummaryCount'] = sumcount
             merged_harmonized[key] = df
@@ -167,7 +201,7 @@ if __name__ == '__main__':
         
         df = extracts_harmonized[key]
         extcount = df.ExtractCount
-        result = harmonize_draw(df.drop(columns=['ExtractCount']), random.choice(detaileds), instructs, extract_request)
+        result = harmonize_loop(df.drop(columns=['ExtractCount']), passdf_detaileds, instructs, extract_request, extract_harmonize_columnsets, True)
         if result is not None:
             result['ExtractCount'] = extcount
             merged_harmonized[key] = df

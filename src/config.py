@@ -121,3 +121,9 @@ merge_columns = {'All': {
 harmonize_count = 10
 harmonize_maxrows = 20
 harmonize_maxchars = 64 * 1024
+summary_harmonize_columnsets = [["Outcome(s) of Interest", "Drivers of Risk", "Category"],
+                                ["Approach", "Methodology", "Highlights", "More Notes"],
+                                ["Hazard definition", "Impact persistence", "Space disaggregation", "Impact interactions", "Economic dynamics" , "Climate features", "Adaptation considered"]]
+extract_harmonize_columnsets = [["Outcome", "Region", "Scenario", "Year", "Relative to"],
+                                ["Units", "Value", "SD", "Low Quantile", "Low Value", "High Quantile", "High Value"],
+                                ["Result Source", "More Notes"]]

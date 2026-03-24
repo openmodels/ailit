@@ -11,10 +11,7 @@ def pass2_summarize(targetpath, row, columninfo, coldefs, results):
         response, sourcematerial = pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command)
         results[col] = [response] # wrap in a list for Pandas
         if sourcematerial:
-            if 'sourcematerial' in results:
-                results['sourcematerial'][0] = col + ": " + results['sourcematerial'][0] + '; ' + sourcematerial
-            else:
-                results['sourcematerial'] = [col + ": " + sourcematerial]
+            results[col + '-sourcematerial'] = [sourcematerial]
 
 def pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command):
     # Special commands
