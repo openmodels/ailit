@@ -207,6 +207,25 @@ def get_csvtext_validated(chat, nattempts, instructs, required_header=None, max_
 
     return [] # Failed
 
+def get_yaml_validated(chat, nattempts, expectedcolumns):
+    chat2 = chat
+    for attempts in range(nattempts):
+        response = aiengine.chat_response(chat2)
+        result = extract_yaml_dict(response)
+    
+        if isinstance(result, str):
+            chat2 = chat_push(chat_push(chat2, 'assistant', response),
+                              'user', f"Sorry, I had trouble with this: {result} Can you try again?")
+        else:
+            remainingcolumns = expectedcolumns - result.keys()
+            if len(remainingcolumns) > 0:
+                chat2 = chat_push(chat_push(chat2, 'assistant', response),
+                                  'user', f"Sorry, I am missing the following columns: {', '.join(remainingcolumns)}. Can you try again?")
+            else:
+                return result, response
+
+    return None, None
+
 def get_sourcematerial(chat, response, nattempts=3):
     chat2 = chat_push(chat_push(chat, 'assistant', response), 'user', "Thank you. Please write quotes or evidence from the material provided above that justifies or provides necessary context for the answer you gave.\n\nSpecify this source material in triple backticks as a single line, like this: ```Source material here.```. Only provide one isolated, combined source material block in your response.")
     print(chat2)

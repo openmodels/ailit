@@ -4,16 +4,59 @@ import pandas as pd
 from lib import interaction, helpers
 from config import *
 
-def merge_rows(verdictrow, applied, columns, sourcematerial):
+def merge_column_with_sourcematerial(chat, applied, columns, column):
+    if columns[column]:
+        colinfo = "\nHere is a description of the column: " + columns[column] + "\n"
+    else:
+        colinfo = ""
+
+    smcolname = column + '-sourcematerial'
+        
+    rowinfo = ""
+    for ii, row in applied.iterrows():
+        rowinfo += "Recorded: " + str(applied.loc[ii, column]) + "\n"
+        rowinfo += "Source material: " + str(applied.loc[ii, smcolname]) + "\n\n"
+
+    prompt = f"""Now, I would like you to merge the `{column}` column, which also has source material associated with it. The source material should also be merged, ensuring succinct completeness.
+{colinfo}
+Here is the column data from the reviewers:
+
+{rowinfo}
+
+Specify the results in a list with single lines of text in a YAML dictionary. Your response should look like this:
+```
+"{column}": "..."
+"sourcematerial": "..."
+```
+"""
+
+
+    chat2 = interaction.chat_push(chat, 'user', prompt)
+    result, response = interaction.get_yaml_validated(chat2, 3, [column, 'sourcematerial'])
+
+    if isinstance(result, dict):
+        chat2 = interaction.chat_push(interaction.chat_push(chat, 'user', prompt),
+                                      'assistant', response)
+        return chat2, result.get(column, applied[column].iloc[-1]), result.get('sourcematerial', applied[smcolname].iloc[-1])
+    else:
+        print("Providing the most recent row for {column}.")
+        return chat, applied[column].iloc[-1], applied[smcolname].iloc[-1]
+
+def merge_rows(verdictrow, applied, columns):
     title = verdictrow.Title.iloc[0]
     abstract = verdictrow.Abstract.iloc[0]
 
+    cols_with_sourcematerial = []
     template = ""
     expectedcolumns = set()
     knowncolumns = {}
     rowinfo = ""
     for column in applied.columns:
-        if all(str(applied[column].iloc[ii]) == str(applied[column].iloc[0]) for ii in range(1, len(applied))):
+        if '-sourcematerial' in column:
+            continue
+        if (column + '-sourcematerial') in applied.columns:
+            cols_with_sourcematerial.append(column)
+        elif all(str(applied[column].iloc[ii]) == str(applied[column].iloc[0]) for ii in range(1, len(applied))):
             colinfo = column + ": " + str(applied[column].iloc[0]) + "\n"
             rowinfo += colinfo
             knowncolumns[column] = [applied[column].iloc[0]]
@@ -25,7 +68,7 @@ def merge_rows(verdictrow, applied, columns, sourcematerial):
             rowinfo += "\n" + colinfo + "  Recorded: " + "\n  Recorded: ".join(map(str, applied[column])) + "\n\n"
             template += f'"{column}": "..."\n'
             expectedcolumns.add(column)
-    
+
     prompt = f"""{abstract_prompt} Here is a pager identified as relevant to the search:
 
 {title}
@@ -33,16 +76,22 @@ Abstract: {abstract}
 
 Multiple reviewers have provided summaries of this paper, and now I want to merge these into a consistent summary. The summary should focus on information that is corroborated by more than one reviewer, where possible.
 
-Here is the data from the reviewers:
+Here is the basic data from the reviewers:
 
 {rowinfo}
-
-For context, here is extracted source material for those responses:
-===
-{sourcematerial}
-===
-
-Specify the results in a list with single lines of text in a YAML dictionary. Your response should look like this:
+"""
+    
+    if not template:
+        ## All of the non-sourcematerial columns agree
+        chat2 = [{"role": "user", "content": prompt}]
+        for column in cols_with_sourcematerial:
+            chat2, value, sourcematerial = merge_column_with_sourcematerial(chat2, applied, columns, column)
+            knowncolumns[column] = value
+            knowncolumns[column + '-sourcematerial'] = sourcematerial
+            
+        return pd.DataFrame(knowncolumns)
+            
+    prompt += f"""Specify the results in a list with single lines of text in a YAML dictionary. Your response should look like this:
 ```
 {template}
 ```
@@ -50,38 +99,25 @@ Specify the results in a list with single lines of text in a YAML dictionary. Yo
 
     chat = [{"role": "user", "content": prompt}]
 
-    chat2 = chat
-    for attempts in range(3):
-        response = interaction.aiengine.chat_response(chat2)
-        result = interaction.extract_yaml_dict(response)
-    
-        if isinstance(result, str):
-            chat2 = interaction.chat_push(interaction.chat_push(chat2, 'assistant', response),
-                                         'user', f"Sorry, I had trouble with this: {result} Can you try again?")
-        else:
-            remainingcolumns = expectedcolumns - result.keys()
-            if len(remainingcolumns) > 0:
-                chat2 = interaction.chat_push(interaction.chat_push(chat2, 'assistant', response),
-                                             'user', f"Sorry, I am missing the following columns: {', '.join(remainingcolumns)}. Can you try again?")
-            else:
-                print("Successful merging.")
-                break
+    result, response = interaction.get_yaml_validated(chat, 3, expectedcolumns)
 
     if isinstance(result, dict):
-        sourcematerial = interaction.get_sourcematerial(chat, response)
-
         for col in result:
             knowncolumns[col] = [result[col]]
         for col in remainingcolumns:
             knowncolumns[col] = [applied[column].iloc[-1]] # choose the latest one
-        knowncolumns['sourcematerial'] = sourcematerial
 
+        ## Now do the sourcematerial columns
+        chat2 = interaction.chat_push(chat, 'assisant', response)
+        for column in cols_with_sourcematerial:
+            chat2, value, sourcematerial = merge_column_with_sourcematerial(chat2, applied, columns, column)
+            knowncolumns[column] = value
+            knowncolumns[column + '-sourcematerial'] = sourcematerial
+            
         return pd.DataFrame(knowncolumns)
     else:
         print("Providing the most recent row.")
-        recentrow = applied.iloc[-1]
-        recentrow['sourcematerial'] = sourcematerial.iloc[-1]
-        return recentrow
+        return applied.iloc[-1]
 
 def merge_extract(verdictrow, detaileds, paperinfo, request, instructs):
     title = verdictrow.Title.iloc[0]
@@ -225,15 +261,17 @@ if __name__ == '__main__':
         else:
             dropped = doisummaries[doisummaries[extract_fromsummary] == ""]
 
-        sourcematerial = doisummaries.sourcematerial
-        del doisummaries['sourcematerial']
-            
         for key, columns in merge_columns.items():
             if extract_fromsummary == 'All':
                 applied = doisummaries
             else:
                 applied = doisummaries[doisumkey == key]
-            applied = applied[columns.keys()]
+            colstouse = []
+            for column in columns:
+                colstouse.append(column)
+                if (column + '-sourcematerial') in applied.columns:
+                    colstouse.append(column + '-sourcematerial')
+            applied = applied[colstouse]
 
             if len(applied) <= len(dropped):
                 print(f"Conservatively dropping {key} from {doi}")
@@ -245,12 +283,12 @@ if __name__ == '__main__':
                 last_summarycount = 0
             if len(applied) != last_summarycount:
                 if len(applied) == 1:
-                    applied['SummaryCount'] = len(applied)
-                    applied['DOI'] = doi
+                    applied.loc[0, 'SummaryCount'] = len(applied)
+                    applied.loc[0, 'DOI'] = doi
                     newrow = applied
                     merged[key] = pd.concat([merged[key][merged[key].DOI != doi], applied], ignore_index=True)
                 else:
-                    applied2 = merge_rows(verdictrow, applied, columns, sourcematerial)
+                    applied2 = merge_rows(verdictrow, applied, columns)
                     applied2['SummaryCount'] = len(applied)
                     applied2['DOI'] = doi
                     newrow = applied2
