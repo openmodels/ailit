@@ -1,0 +1,352 @@
+Drivers of Risk:
+  1: The primary driver of risk discussed is anthropogenic climate change leading
+    to changes in extreme precipitation and resulting floods.
+  2: Projected changes in extreme daily precipitation throughout the CONUS during
+    the 21st century
+  3: Extreme precipitation changes have societal impacts and can inform infrastructure
+    design and mitigation efforts.
+  4: The study compares HIST daily mean and extreme precipitation to PRISM data to
+    understand regional and seasonal biases.
+  5: "The annual 99th percentile of daily precipitation, and seasonal variations of\
+    \ the 99th percentile of daily precipitation (December\u2013February, March\u2013\
+    May, June\u2013August, and September\u2013November)"
+  6: Changes in extreme precipitation, increased flood risk due to warming, and changes
+    in snowpack levels.
+  7: "Extreme precipitation during December\u2013February is analyzed."
+  8: Increased MCS precipitation, 99th percentile of daily precipitation, anthropogenic
+    climate change
+  10: The analysis examines precipitation extremes and changes in climate scenarios
+    for the fall season (September-November).
+  12: Changes in precipitation variability and extremes in the future climate scenarios.
+  13: Daily precipitation extremes
+  14: Daily precipitation
+  15: Increases in return period precipitation values, particularly under climate
+    scenario EOC8.5, impacting the Intermountain West, Southwest, and Northeast regions.
+  16: Projected increasing values of extreme daily precipitation for both RCP scenarios
+    in regions including the Northeast, Midwest, Southeast, and Pacific Northwest.
+  17: Changes in the 99th percentile of daily precipitation are impacting outcomes,
+    with both wet and dry biases across different regions of the CONUS.
+Evaluation overview:
+  1: The paper evaluates changes in extreme daily precipitation events and their potential
+    societal impacts such as agricultural productivity, property loss, and mortality.
+  5: No relevant information
+  6: Discusses future changes in extreme precipitation patterns across various U.S.
+    regions, potentially affecting hydroclimate stability and water scarcity.
+  7: No relevant information
+  8: No relevant information
+  12: The paper evaluates changes in extreme precipitation events across different
+    U.S. cities under future climate scenarios.
+  13: Probability density of daily precipitation extremes
+  14: No relevant information
+Highlights:
+  1: The study projects statistically significant increases in extreme daily precipitation
+    in the Midwest and Ohio Valley, and decreases in the southern Great Plains by
+    the end of the twenty-first century under certain emissions scenarios.
+  2: Potential changes in future extreme precipitation can inform stakeholders to
+    develop mitigation and adaptation strategies
+  4: Hist daily mean and extreme precipitation compare favorably to PRISM, with significant
+    consistency in the Northern Hemisphere extratropics.
+  5: "HIST admirably represented the mean and 99th percentile of daily precipitation\
+    \ annually and seasonally compared to PRISM. HIST annual 99th percentile of daily\
+    \ precipitation was significantly wetter for a large area of the Intermountain\
+    \ West and smaller areas in the southern Great Plains and Midwest, while significantly\
+    \ drier areas were mainly confined to the Northeast. Differences between HIST\
+    \ and PRISM displayed a statistically significant ( p < 0.05) wet bias in regions\
+    \ of Intermountain West during September\u2013February and in the northern Great\
+    \ Plains and Midwest during December\u2013February."
+  6: Decrease in the 99th percentile of daily precipitation in Southwest and Intermountain
+    West; more sporadic regions of the northern Intermountain West showed significant
+    increases in extreme precipitation.
+  7: EOC8.5 simulations show statistically significant increases in precipitation
+    in the Midwest and Ohio Valley in March-May, with robust statistically significant
+    increases of up to 100% for the 99th percentile of daily precipitation during
+    September-November.
+  8: "MCS precipitation has increased in the Northeast into the Appalachian Mountains\
+    \ (June\u2013August), Ohio Valley (December\u2013May), and Midwest (March\u2013\
+    May and September\u2013November). The 99th percentile of daily precipitation is\
+    \ projected to increase significantly (over 50% in many areas) by the end of the\
+    \ 21st century across most seasons. There are statistically significant increases\
+    \ in mean MCS precipitation in several regions."
+  10: "Model estimates show reasonable estimation for most values with high Pearson\u2019\
+    s r (>0.9) but indicate underestimation biases in extreme precipitation values."
+  12: Cities like Albany, Minneapolis, Nashville, Phoenix, and Tallahassee show significant
+    changes in precipitation extremes, with robust increases noted under the EOC8.5
+    scenario for all return periods.
+  13: Comparison of precipitation extremes between historical periods and future climate
+    projections under different emission scenarios.
+  14: Return periods of daily precipitation for eight cities are shown for different
+    future climate scenarios.
+  15: Significant increases in 100-yr return period precipitation values for EOC8.5
+    in specific regions, with implications for infrastructure under current construction
+    that assumes historical values.
+  16: Extreme daily precipitation projected to rise through the end of the 21st century
+    for both RCP scenarios, particularly in the CONUS.
+  17: Extreme daily precipitation changes across various regions have potential societal
+    impacts, influencing flood risks and infrastructure planning.
+Methodology:
+  1: The analysis uses a dynamically downscaled, convection-permitting regional climate
+    model to investigate historical and future extreme daily precipitation in the
+    contiguous United States.
+  2: Used a novel dynamically downscaled convection-permitting simulation with WRF-ARW
+    version 4.1.2 at 3.75 km horizontal grid spacing to examine future climatic scenarios
+  3: The PRISM data are used to compare HIST daily extreme precipitation to observations
+    with bilinear interpolation to match the WRF-ARW grid.
+  4: The analysis uses block maxima (BM) technique to model extreme precipitation,
+    fitting extreme values to a right-skewed Gumbel distribution evaluated using Akaike
+    information criterion (AIC) and other model metrics.
+  5: "Compared HIST and PRISM data for the 99th percentile of daily precipitation\
+    \ annually and seasonally. Calculated raw and percent differences between the\
+    \ two datasets. Used Pearson's r correlation and RMSE to assess the relationship\
+    \ between PRISM and HIST. Employed a Mann\u2013Whitney U test to determine statistically\
+    \ significant differences (p < 0.05) with a field significance false discovery\
+    \ rate of a 5 0.1."
+  7: The study uses a Mann-Whitney U test with a field significance false discovery
+    rate of a=0.1 to determine statistically significant differences (p<0.05) between
+    epochs.
+  8: Compares HIST (historical) climate data to EOC4.5 and EOC8.5 (end-of-century)
+    climate projections, analyzing changes in precipitation patterns and extremes.
+    Analysis focused on MCS (Mesoscale Convective System) precipitation and the 99th
+    percentile of daily precipitation.
+  10: The analysis evaluates empirical relationships between modeled extreme value
+    analysis (EVA) and input weather research and forecasting (WRF) distributions
+    using metrics like RMSE, r, and R2.
+  11: Comparison of modeled EVA daily precipitation with input WRF data for different
+    epochs.
+  12: The methodology involves comparing historical climate data (HIST) with future
+    climate scenarios (EOC4.5 and EOC8.5) using metrics like PDFs and return periods
+    to assess changes in extreme events.
+  13: Simulation data from PRISM (historical) and HIST (historical) compared to future
+    climate simulations (EOC4.5 and EOC8.5) for eight climatologically unique cities;
+    analysis applicable to the specific time periods and climate scenarios mentioned.
+  14: "Analysis uses 1990\u20132005 HIST, 2085\u20132100 EOC4.5, and 2085\u20132100\
+    \ EOC8.5 epochs for eight climatologically unique cities. Solid lines denote the\
+    \ median modeled return period. Dashed lines indicate the 95% confidence interval\
+    \ (HIST is shaded) calculated using a 1000-iteration bootstrap sample."
+  16: Analysis performed using a novel convection-permitting dynamically downscaled
+    RCM dataset with end-of-century epochs under RCP4.5 and RCP8.5 pathways.
+  17: The analysis involves Extreme Value Analysis (EVA) for precipitation extremes,
+    focusing on changes projected by the end of the twenty-first century.
+More Notes:
+  5: The differences between the datasets are likely associated with differing regridding
+    and spatial clipping techniques.
+  7: The historical simulations (HIST) showed a statistically significant dry bias
+    for some regions.
+  8: Figures depict geographical differences in the HIST scenario and the change and
+    percent difference between EOC4.5/EOC8.5 scenarios and HIST for March-May (MAM).
+    Crosshatching is used on the '% Difference EOC8.5 - HIST' map.
+  12: Statistical model reliability is indicated by R2 values, and differences in
+    PDF peaks reflect increased probabilities of extreme precipitation values.
+  13: The analysis focuses on eight climatologically unique cities.
+  14: The downloaded timestamp and user are included on the page.
+  17: The study suggests future adaptation and mitigation efforts should consider
+    changes in extreme precipitation linked to urbanization and socioeconomically
+    vulnerable areas.
+Quantitative material:
+  2: "Increase in maximum precipitation rates by 15%\u201340% due to deeper layer\
+    \ permitting more collision and coalescence"
+  3: Extreme daily precipitation is defined as the 99th percentile of daily precipitation
+    over the entire epoch time series.
+  4: "Statistics such as Pearson\u2019s r, RMSE, and coefficients of determination\
+    \ are used to evaluate model performance; for instance, Pearson\u2019s r for PRISM\
+    \ and HIST mean precipitation is 0.89, and RMSE is 214.6 mm."
+  5: "Pearson\u2019s r correlation of 0.89 between PRISM and HIST for annual 99th\
+    \ percentile of daily precipitation; RMSE 5 7.8 mm (annual); RMSE of 12.3 mm (December\u2013\
+    February), 7.9 mm (March\u2013May), 9.2 mm (June\u2013August), and 8.9 mm (September\u2013\
+    November) for seasonal 99th percentile of daily precipitation; Statistically significant\
+    \ (p < 0.05) wet bias in regions of Intermountain West during September\u2013\
+    February and in the northern Great Plains and Midwest during December\u2013February\
+    \ (HIST vs PRISM)"
+  6: Statistically significant decreases in 99th percentile of daily precipitation
+    in the EOC8.5 scenario for Southwest and Intermountain West; large negative percent
+    differences of 50%-150% in these regions.
+  7: The study presents percent differences in 99th percentile of daily precipitation
+    between historical (1990-2005) and future epochs (2085-2100) under EOC4.5 and
+    EOC8.5 scenarios.
+  8: "Central Great Plains experienced 350\u2013400 mm of MCS precipitation during\
+    \ May\u2013August, accounting for upward of 50%\u201360% of annual accumulation.\
+    \ 99th percentile of daily precipitation displayed large areas of greater than\
+    \ 50% increase by the end of the twenty-\uFB01rst century in all seasons except\
+    \ June\u2013August. Average MCS precipitation increased approximately 100\u2013\
+    1501 (50) mm in December\u2013MayEOC8.5(EOC4.5)ascomparedtoHIST"
+  10: Maps provide visual data on climate changes, like differences and percent differences
+    between future climate scenarios (EOC4.5, EOC8.5) and historical data.
+  11: Q-Q plot compares extreme daily precipitation values for past and future periods.
+  12: Predicted increases in extreme daily precipitation events' return periods and
+    their magnitude, with increases generally greater than 20% and up to 50% in Albany,
+    Minneapolis, and Nashville.
+  13: "Probability density of daily precipitation (mm) extremes for different time\
+    \ periods (1990\u20132005, 2085\u20132100) and climate scenarios (EOC4.5, EOC8.5)"
+  14: Return periods (years) of daily precipitation (mm) for different climate scenarios
+  15: National averages for percent change in 100-yr return period precipitation values
+    show an 18% increase in EOC4.5 and a 119.4% increase in EOC8.5.
+  16: 99th percentile daily precipitation value displayed increases greater than 20
+    mm in the Ohio region; percent differences +8.0% for EOC4.5 and +19.4% for EOC8.5.
+  17: Quantitative changes in precipitation rates include increases up to 100% in
+    specific regions and scenarios, such as EOC8.5.
+sourcematerial:
+  1: "Source material: ABSTRACT: The potential for changes in extreme precipitation\
+    \ events due to anthropogenic climate change may have signi\uFB01 cant societal\
+    \ impacts (e.g., agricultural productivity, property loss, and mortality). This\
+    \ project uses a dynamically downscaled, convection-permitting regional climate\
+    \ model to investigate extreme daily precipitation in the CONUS, de\uFB01 ned\
+    \ explicitly as the 99th percentile 24-h accumulated value. The simulation output\
+    \ includes a historical (HIST) baseline (1990\u20132005) and two epochs at the\
+    \ end of the twenty-\uFB01 rst century (EOC; 2085\u20132100) under intermediate\
+    \ and pessimistic emissions scenarios. Comparisons between HIST and the two EOC\
+    \ scenarios for the 99th percentile of daily precipitation show statistically\
+    \ signi\uFB01 cant increases during December\u2013May across the Midwest and Ohio\
+    \ Valley and statistically signi\uFB01 cant decreases for the southern Great Plains\
+    \ during December\u2013February."
+  2: "Source material here.\n\"we use a novel dynamically downscaled convection-permitting\
+    \ simulation to examine projected changes in extreme daily precipitation throughout\
+    \ the CONUS during the twenty-first century.\"\n\"North America could experience\
+    \ an increase in mesoscale convective system (MCS) frequency and a 15%\u201340%\
+    \ increase in maximum precipitation rates due to a deeper layer permitting more\
+    \ collision and coalescence.\"\n\"The model used herein allows for representation\
+    \ of regional climate change of precipitation extremes closer to the local scales\
+    \ at which they occur (e.g., ,4-km horizontal grid spacing), which is of great\
+    \ interest to stakeholders.\"\n\"Highlighting the potential changes in future\
+    \ extreme precipitation can inform stakeholders so that they may develop effective\
+    \ mitigation and adaptation strategies to reduce impacts.\"\n"
+  3: "yaml\nMethodology: \"Daily precipitation amounts analyzed herein are derived\
+    \ from the Air Force Weather Agency (AFWA...The AFWA total precipitation variable\
+    \ is based on accumulation since the simulation start (Creighton et al. 2014).\
+    \ Daily precipitation (1200\u20131200 UTC) climatologies are then aggregated from\
+    \ the HIST, EOC4.5, and EOC8.5 15-min subdaily AFWA total precipitation data.\"\
+    \nQuantitative material: \"Here, we de\uFB01ne extreme daily precipitation to\
+    \ be the 99th percentile of daily precipitation over the entire epoch time series.\"\
+    \nMethodology: \"Extreme value theory (EVT; Gumbel 1958) characterizes the frequency\
+    \ and intensity of extremes...Here, we implement univariate EVA using the Fisher\u2013\
+    Tippett\u2013Gnedenko (Fisher and Tippett 1928; Gnedenko 1943) theorem with the\
+    \ daily precipitation time series for the PRISM, HIST, EOC4.5, and EOC8.5 epochs\
+    \ and performed the analysis using the Python package pyextremes...using Pearson\u2019\
+    \ s correlation coef \uFB01cient r, root-mean-square error (RMSE), and p value\
+    \ (95% con\uFB01 dence level) from a Mann\u2013Whitney U test for the medians\
+    \ using a \uFB01 eld signi\uFB01 cance false discovery rate of a 5 0.1.\"\nMethodology:\
+    \ \"To compare HIST daily extreme precipitation to observa tions, we use the Parameter-Elevation\
+    \ Regressions on Independent Slopes Model (PRISM; Daly et al. 1994)...PRISM data\
+    \ from 1 October 1990 to 30 September 2005 (i.e., the HIST climate simulation\
+    \ period) were bilinearly re gridded to match the WRF-ARW lambert conformal projec\
+    \ tion and horizontal grid spacing of 3.75 km for comparison.\"\nDrivers of Risk:\
+    \ \"Extreme precipitation changes over relatively short inter vals are particularly\
+    \ important due to their potential societal impacts, and given the many options,\
+    \ it was important to choose the optimal de\uFB01 nition that can be directly\
+    \ compared to previous research and ensure relevance to those impacts.\"\n"
+  4: null
+  5: "The annual 99th percentiles of PRISM and HIST were also highly correlated with\
+    \ Pearson\u2019s r correlation of 0.89, p \u2019 0, and RMSE 5 7.8 mm [...] Pearson\u2019\
+    s r correlation between PRISM and HIST minimally dropped for the 99th percentile\
+    \ seasonally [...] RMSE of 12.3 (December\u2013February), 7.9 (March\u2013May),\
+    \ 9.2 (June\u2013August), and 8.9 (September\u2013November) mm. Differences between\
+    \ HIST and PRISM displayed a statistically significant (p < 0.05) wet bias in\
+    \ regions of Intermountain West during September\u2013February and in the northern\
+    \ Great Plains and Midwest during December\u2013February [...] significant wetter\
+    \ for a large area of the Intermountain West and smaller areas in the southern\
+    \ Great Plains and Midwest, while significantly drier areas were mainly confined\
+    \ to the Northeast [...] determined statistically significant differences (p <\
+    \ 0.05) between the epochs with a field significance false discovery rate of a\
+    \ 5 0.1 [...] The differences between the datasets are likely associated with\
+    \ differing regridding and spatial clipping techniques [...] HIST admirably represented\
+    \ the mean and 99th percentile of daily precipitation annually and seasonally\
+    \ compared to PRISM."
+  6: "yaml\nEvaluation overview: \"Therefore, changes in extreme precipitation in\
+    \ these regions will have large implications for regional hydroclimate stability\
+    \ and water scarcity in these climatologically arid regions.\"\nDrivers of Risk:\
+    \ \"the potential change of a smaller fraction of precipitation falling as snow\
+    \ could lead to an increased \uFB02ood risk during winter and spring and water\
+    \ scarcity in summer due to decreased snowpack\"\nQuantitative material: \"Many\
+    \ decreases in the 99th percentile of daily precipitation had large negative percent\
+    \ differences of 50% \u2013150% in the Southwest and Intermountain West\"\nHighlights:\
+    \ \"Results reveal the largest areas of statistically signi\uFB01cant decreases\
+    \ in the 99th percentile of daily precipitation were in EOC8.5 in the Southwest\
+    \ (March\u2013May; Fig. 3e) and Intermountain West (June\u2013August; Fig. 4e).\"\
+    \n"
+  7: "Source material: FIG.2.December\u2013February 99th percentile of daily precipitation\
+    \ (mm) for (a) 1990\u2013 2005 HIST, with (b),(c) raw and (d),(e) percent differences\
+    \ from HIST for 2085\u20132100 EOC4.5 and EOC8.5 epochs. Hatched areas on percent\
+    \ difference panels indicate regions where a Mann\u2013Whitney U test determined\
+    \ statistically signi\uFB01 cant differences ( p , 0.05) between the epochs with\
+    \ a \uFB01 eld signi\uFB01 cance false discovery rate of a 5 0.1. HIST showed\
+    \ a statistically si gn i\uFB01 cant dry bias for those regions during September\u2013\
+    November (Fig. 1t), extreme precipitation caused by tropical cyclones may be underestimated\
+    \ in the HIST and EOC simulations. EOC8.5 seasonal mean precipitation in the Midwest\
+    \ and Ohio Valley had statistically signi\uFB01 cant increases in March\u2013\
+    \ May (Gensini et al. 2023). These regions also displayed widespread robust statistically\
+    \ signi\uFB01 cant increases of up to 100% for the 99th percentile of daily precipitation\
+    \ during September\u2013November."
+  8: "Source material here.\n- \"The most robust statistically significant increases\
+    \ in mean MCS precipitation are in the Northeast into the Appalachian Mountains\
+    \ (June\u2013August), Ohio Valley (December\u2013May), Midwest (March\u2013May\
+    \ and September\u2013November).\"\n- \"Precipitation in the Southeast, Midwest,\
+    \ and Northeast CONUS has increased historically and has the potential to be further\
+    \ exacerbated by anthropogenic climate change.\"\n- \"Central Great Plains experienced\
+    \ 350\u2013400 mm of MCS precipitation during May\u2013August, accounting for\
+    \ upward of 50%\u201360% of annual accumulation.\"\n- \"Overall, the 99th percentile\
+    \ of daily precipitation displayed large areas of greater than 50% increase by\
+    \ the end of the twenty-first century in all seasons except June\u2013August.\"\
+    \n- \"Average MCS precipitation increased approximately 100\u20131501 (50) mm\
+    \ in December\u2013MayEOC8.5(EOC4.5) as compared to HIST.\"\n- The image description\
+    \ references analysis methods comparing HIST to EOC4.5/EOC8.5 scenarios, depicting\
+    \ geographical differences in March-May (MAM).\n"
+  10: Source material here.
+  11: "  \nSource material here."
+  12: "Source material here.\n1. Evaluation overview: \"Every climatologically unique\
+    \ city displayed an increase... in the peak of the PDF curve in one or both EOC\
+    \ scenarios.\" \n2. Drivers of Risk: \"The decrease in the peak probability density\
+    \ indicates more variability and typically an increased ceiling for precipitation\
+    \ extremes.\"\n3. Quantitative material: \"The percent change above HIST in the\
+    \ EOC scenarios for the 100-yr return period of daily precipitation values varied\
+    \ for each city but was generally 20% or greater, with very large (.50%) increases\
+    \ shown in Albany, Minneapolis, and Nashville.\"\n4. Methodology: \"We used PDFs\
+    \ to detect the variability of the extreme daily precipitation values in the epochs\
+    \ from extreme precipitation values extracted for the EVA... using the Q\u2013\
+    Q plots gives confidence in the reliability of the modeled EVA extremes.\"\n5.\
+    \ Highlights: \"Albany, Minneapolis, Nashville, Phoenix, and Tallahassee displayed\
+    \ the highest differences in the peak of the PDF curve in one or both EOC scenarios.\"\
+    \n6. More Notes: \"R2 displays good model reliability with values greater than\
+    \ 0.85, indicating that HIST explained at least 85% of the variance from the input\
+    \ data for most epochs in each city.\"\n"
+  13: "Source material here.\n\"The probability density (y axis) of daily precipitation\
+    \ (mm) extremes (x axis) for 1990\u20132005 PRISM (gray) and HIST (black) and\
+    \ 2085\u20132100 EOC4.5 (orange) and EOC8.5 (red) epochs simulation data for eight\
+    \ climatologically unique cities.\"\n"
+  14: "\"Return periods (x axis; years) of daily precipitation (y axis; mm) for 1990\u2013\
+    2005 HIST (black), 2085\u20132100 EOC4.5 (orange), and 2085\u20132100 EOC8.5 (red)\
+    \ epochs for eight climatologically unique cities. Solid lines denote the median\
+    \ modeled return period. Dashed lines indicate the 95% con\uFB01 dence interval\
+    \ (HIST is shaded) calculated using a 1000-iteration bootstrap sample.\""
+  15: 'Source material: "in the 100-yr return period precipitation value had statistically
+    significant increases in EOC8.5 for areas of the Intermountain West, Southwest,
+    and Northeast... National averages for percent change in 100-yr return period
+    precipitation values display an overall increasing trend with 18% in EOC4.5 and
+    119.4% in EOC8.5... Increases in return period precipitation values have significant
+    implications for infrastructure, especially considering structures currently under
+    construction that assume historical values."'
+  16: "The source material here comes from the extracted text: \"Results projected\
+    \ increasing values of extreme daily precipitation through the end of the twenty-first\
+    \ century for both RCP scenarios in many regions in the CONUS, such as the Northeast,\
+    \ Midwest, Southeast, and Pacific Northwest.\" Meanwhile, quantitative details\
+    \ include \"the 99th percentile daily precipitation value displayed increases\
+    \ greater than 20 mm in the Ohio,\" and the percent differences identified in\
+    \ maps d) and e) as \"+8.0% indicated on the scale\" for EOC4.5 and \"+19.4% change\"\
+    \ for EOC8.5. The methodology is described as using \"a novel convection-permitting\
+    \ dynamically downscaled RCM dataset with two end-of-century (2085\u20132100)\
+    \ epochs under pathways RCP4.5 and RCP8.5.\" The highlights reiterate the projected\
+    \ increase: \"projected increasing values of extreme daily precipitation through\
+    \ the end of the twenty-first century for both RCP scenarios.\""
+  17: "Source material here.\nDrivers of Risk: \"Extreme hazards have low occurrence\
+    \ probabilities, yet the largest impacts, especially in current and projected\
+    \ regions of high risk and vulnerability due to increasing urbanization... On\
+    \ the other hand, decreases in the 99th percentile of daily precipitation were\
+    \ found in the southern Great Plains in December\u2013February.\"\n\nQuantitative\
+    \ material: \"...Lower Midwest into the Ohio River Valley shows increases of 50%\u2013\
+    100% in EOC8.5... Large decreases up to 1001% in the Southwest for EOC8.5.\"\n\
+    \nMethodology: \"...EVA further revealed an increasing ceiling for extremes in\
+    \ most of the eight climatologically unique cities examined... precipitation extremes\
+    \ are projected to increase past the historical trends for many regions of the\
+    \ CONUS.\"\n\nHighlights: \"Ultimately, this study illustrates that potential\
+    \ changes in extreme daily precipitation across various regions of the CONUS have\
+    \ the potential to impact numerous aspects of society by the end of the twenty-first\
+    \ century.\"\n\nMore Notes: \"...highlighting issues of interests, equity, and\
+    \ fairness in socioeconomically vulnerable areas and creating a window of opportunity\
+    \ to enact rapid policy change.\"\n"

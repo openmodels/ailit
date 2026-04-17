@@ -1,0 +1,1329 @@
+Drivers of Risk:
+  1: Sea level rise (SLR) and hurricanes are identified as key risks impacting coastal
+    communities.
+  2: Exposure to sea level rise and hurricanes are identified as key risks for coastal
+    areas.
+  3: Sea level rise (3 feet / 0.91 meters and 6 feet / 1.83 meters) and urban expansion
+    into coastal areas.
+  5: Exposure to sea level rise and hurricanes is a significant factor.
+  6: Exposure to sea level rise and hurricanes
+  7: Exposure to sea level rise and hurricanes is considered as a risk factor.
+  8: Exposure to sea-level rise and hurricanes impacts urban areas.
+  9: Exposure to sea level rise and hurricanes.
+  10: Exposure to sea level rise and hurricanes.
+  11: Development in coastal zones, particularly in SLR zones, is a driver of increased
+    exposure to environmental changes like sea level rise.
+  12: Shocks impacting outcomes include sea level rise and hurricanes, with the South
+    Atlantic affected by both and showing higher exposure and development.
+  13: Sea level rise and hurricanes (measured by total historical hits and wind speed)
+    are the drivers of risk.
+  14: Exposure to sea-level rise and hurricanes is impacting the built environment.
+  15: Development along U.S. coastlines, expansion and densification of coastal settlements,
+    sea level rise
+  16: Exposure to sea level rise and hurricanes is a significant driver of risk for
+    coastal communities, especially in the Sunbelt and Northeast regions.
+  17: Older structures may indicate elevated vulnerability due to lack of adaptation
+    in building codes and construction practices.
+  18: Exposure to sea level rise and hurricanes due to denser and more intensely developed
+    coastal built environments and increasing development along coastlines.
+  19: Exposure to sea level rise and hurricanes is under analysis.
+Evaluation overview:
+  1: The paper evaluates the exposure to sea level rise (SLR) and hurricanes along
+    the U.S. coastline through historical development.
+  2: No specific outcome such as mortality or productivity loss is evaluated, but
+    potential disruptive flooding impacts on $1.07 trillion worth of coastal wetlands
+    by 2100 are estimated.
+  3: Exposure to sea level rise and hurricanes impacting the built environment.
+  6: No relevant information
+  7: No relevant information
+  9: No relevant information
+  10: No relevant information
+  11: The page evaluates exposure of U.S. metropolitan statistical areas (MSAs) to
+    sea level rise (SLR) zones and discusses patterns in the built environment.
+  13: Evaluates the impact of sea level rise (SLR) and hurricanes on built-up land,
+    structure density, and total structures.
+  15: Exposure to sea level rise and hurricanes
+  16: The page does not provide a specific overview of the outcome being evaluated
+    but discusses the exposure of structures to coastal hazards and hurricane impacts.
+  18: The paper evaluates the exposure of coastal communities in the U.S. to natural
+    hazards such as sea level rise and hurricanes, focusing on the built environment
+    and development trends.
+Highlights:
+  1: SLR zones in the U.S. developed faster and continue to have higher structure
+    density than non-coastal and inland areas; adaptation policies may become more
+    important than protecting undeveloped land due to building saturation effects.
+  2: The study highlights the localized nature of risk, with coastal areas being at
+    greater risk and emphasizes the importance of local adaptation strategies to reduce
+    coastal risk.
+  3: Analysis examines land transitions that inform the measurement of exposure of
+    the built environment over the past century.
+  6: These hurricanes can be an early indicator (through storm surge) of future SLR
+    conditions.
+  7: Developed area and housing stock dramatically increased along the U.S. coastline,
+    especially between 1950 and 2000. Coastal areas in SLR zones have higher structure
+    density and have densified and expanded at higher rates than inland coastal areas.
+    Coastal expansion slowed significantly after 1980, with densification becoming
+    more prominent.
+  8: Urbanization and higher construction density increase the exposure of areas to
+    sea-level rise.
+  9: SLR zones and coastal MSAs are denser, more developed, and have consistently
+    higher rates of expansion than MSAs across the country as a whole.
+  10: The Pacific U.S. had high rates of growth after 1950, converging to the already
+    developed Northeast in built environment characteristics. The West South Central
+    remains lower in density of structures and percent of SLR zone developed.
+  11: Key findings show high exposure of built environments in areas like Florida
+    and the South Atlantic, with significant trends of increased number of structures
+    in SLR zones over time.
+  12: The South Atlantic has the highest percentage of structures in sea level rise
+    zones, and hurricane-impacted areas are more developed and dense than unaffected
+    areas.
+  13: MSAs affected by hurricanes are denser and more developed than those not affected.
+    The study focuses on whether SLR zones experienced higher growth in building intensity
+    following hurricanes. The authors find that the cumulative hurricane events relate
+    to the structure density, and this relationship is consistent across different
+    ways of measuring storms.
+  14: Hurricane activity is associated with significantly higher rates of building
+    in terms of proportion built area and structure density; however, fewer structures
+    are found in SLR zones among hurricane-hit locations.
+  15: Coastal building tends to expand with low-density construction early in development
+    but has transitioned to densification from roughly 1980 on; increasing uniformity
+    in exposure conditions across regions; coastal communities have similar exposure
+    regardless of regional likelihood of hazard
+  16: Development in hurricane-prone areas is increasing despite awareness of the
+    inherent risks; post-hurricane development sees denser and larger structures being
+    built in affected areas.
+  17: Older coastal areas, particularly in the Northeast, were developed when housing
+    codes and building techniques were less advanced or adaptive.
+  18: Coastal communities have high exposure due to dense development, highlighting
+    the need for adaptive building codes and development policies. The paper notes
+    exposure growth has slowed due to saturation, and emphasizes the importance of
+    protecting undeveloped coastal areas.
+Methodology:
+  1: The analysis leverages historical settlement data from the Historical Settlement
+    Data Compilation for the U.S. (HISDAC-US) to examine building patterns within
+    SLR zones over more than a century.
+  2: "The analysis involves the use of gridded historical settlement data from Zillow\u2019\
+    s ZTRAX database and overlays it with sea level rise zones from NOAA to evaluate\
+    \ historical development patterns and exposure to hazards."
+  3: "Investigates trends of urban expansion into coastal areas at risk of sea level\
+    \ rise compared to inland areas. Uses measures including built-up property density,\
+    \ coastal land development (expansion), and the age of buildings across sea level\
+    \ rise zones. Utilizes Zillow\u2019s ZTRAX dataset and historical settlement layers\
+    \ in HISDAC-US."
+  4: The dataset is resampled to a 50-meter spatial resolution using a nearest neighbor
+    technique for better integration with sea level rise zones.
+  5: Uses Metropolitan and Micropolitan Statistical Areas (MSAs) to analyze settlement
+    patterns in SLR zones.
+  6: Defines Metropolitan Statistical Areas (MSAs) and Micropolitan Statistical Areas.  Identifies
+    MSAs affected by hurricanes by intersecting MSAs with hurricane eye landfalls
+    (within 20km). Excludes protected areas and wetlands from sea level rise zones.
+    Calculates zonal statistics (number of structures, built interior area, built
+    grid cells) for each SLR zone and MSA in 5-year increments from 1900 to 2015.
+  7: The study analyzes the built-up proportion of areas over time, measuring expansion
+    (increase in built grid cells) and densification (ratio of added structures to
+    added developed grid cells) using high-quality settlement data. The analysis focuses
+    on the continental U.S. coastline and uses grid cell data (250m resolution). The
+    reported results primarily cover the period from 1950 to 2015.
+  9: The study uses the BUPL data layer from HISDAC and U.S. government datasets to
+    measure urban expansion and structure density in coastal areas from 1900 to 2000,
+    focusing on 10-year increments.
+  10: Trends in built environment characteristics are analyzed based on structure
+    density, densification, proportion of the SLR zone developed, and expansion, calculated
+    over 10-year time increments. Coastal MSAs are aggregated to Census Divisions.
+  11: Analysis compares the number and percentage of structures in SLR zones across
+    time and regions, focusing on absolute and relative exposure metrics.
+  12: The analysis is performed using two-way fixed effect panel regression models,
+    dividing coastal MSAs into areas inside and outside the 6-foot SLR zone, with
+    data from 1900 to 2015.
+  13: Six regressions were performed using the share of built-up land, structure density,
+    and total structures as dependent variables and wind speed or total historical
+    hits as independent variables. The analysis covers MSA zones within and out of
+    SLR areas with varying hurricane impacts. Data from 2015 is used, and the models
+    include a census division fixed effect. The HURDAT2 database is used for storm
+    landfalls from 1900 to 2015.
+  14: "The analysis uses a panel regression on cumulative storm hits from 1900\u2013\
+    2015 across Metropolitan Statistical Areas (MSAs) with coastal areas."
+  15: Analysis of coastal settlement development patterns, distinguishing between
+    expansion and densification
+  16: The paper appears to assess the exposure of built environments to natural hazards
+    by examining the development density and construction trends in hurricane-prone
+    areas.
+  17: The analysis examines the age of structures and uses HISDAC-US data layers to
+    determine built environment characteristics at fine spatial and temporal resolution.
+  19: Used Zillow Transaction and Assessment Dataset (ZTRAX) with exclusions based
+    on data quality; analysis covers period from 1900-2015 and includes MSA-Year fixed
+    effects.
+More Notes:
+  2: The paper aims to link coastal conditions, specifically hurricane activity, to
+    long-term spatial development of urban areas, and provides a century-long analysis
+    of urbanization in coastal U.S. regions.
+  3: Figure 1 illustrates sea level rise zones across the conterminous US and by Census
+    Division, along with the spatial distribution of the year the first structure
+    was built.
+  6: Uses HURDAT2 hurricane database from 1900-2015.
+  7: The study defines a '6-foot SLR zone' and finds that 35% of the land in this
+    zone was developed in 2015, with a median construction year of 1975. Regional
+    differences in development patterns (expansion vs. densification) are also mentioned,
+    with older coastal areas in the Northeastern U.S. having developed earlier and
+    exhibiting high density and developed area throughout the 20th century.
+  9: The paper distinguishes between expansion (aerial growth of developed land) and
+    structure density (addition of more or bigger structures to already developed
+    areas) as two major drivers of urban development. Fort Meyers, FL is an example
+    of high expansion within SLR zones, while Los Angeles, CA is an example of high
+    growth of structure density within SLR zones.
+  10: The paper analyzes how development patterns have changed over time in coastal
+    areas potentially exposed to sea level rise, but does not project future changes.
+    The analysis is based on historical data up to 2000. The figure caption states
+    that 'Colors denote coastal MSAs aggregated to Census Divisions.' Which means
+    that conclusions cannot necessarily be applied at the MSA or local level.
+  13: The coefficient estimates are relative to a SLR zone with no storms. Low severity
+    storms are defined as those with average max wind speeds < 100 mph, and high severity
+    storms are those > 100 mph. Severe storm hits are defined as 5 or more storms
+    since 1900, and less severe are 1-4 hits since 1900.
+  15: Densification leads to increased exposure through added structures and square
+    footage within SLR zones, but also possibly decreasing vulnerability through modern
+    building codes; SLR zones were developed more intensely and faster than other
+    urban areas.
+  16: The effectiveness of building restrictions in disaster-prone areas varies, affecting
+    future planning and adaptation efforts to climate change.
+  18: The analysis stresses the importance of understanding interactions between the
+    built environment and social systems for determining risk, and suggests future
+    planning should focus on more sustainable coastal development.
+Quantitative material:
+  1: The paper notes that U.S. property at risk of coastal hazards and SLR is valued
+    at over a trillion U.S. dollars.
+  3: Analysis covers sea level rise zones (3 feet / 0.91 meters and 6 feet / 1.83
+    meters).
+  6: Proportion of grid cells developed (Built Area Proportion (BAP) = Ap/AT; where
+    Ap is the number of built grid cells and AT is the total number of grid cells
+    in the unit of analysis)
+  7: 446% increase in structures and a 220% increase in developed land area along
+    the U.S. coastline between 1950 and 2000.
+  9: Graph c shows the percentage of grid cells developed within MSAs and SLR zones
+    increasing from 1900 to 2000, with the flood zone 6 feet SLR increasing to nearly
+    90% developed. Graph d shows the expansion of developed areas, peaking between
+    1950 and 1970 and then decreasing.
+  10: The graphs depict trends in structure density, densification, proportion of
+    SLR zone developed, and expansion from 1900 to 2000 across different U.S. Census
+    Divisions aggregated from coastal MSAs.
+  11: The page provides quantitative measures of both the absolute and relative exposure
+    of structures within SLR zones, depicted through maps and graphs.
+  12: Since about 1970, the percentage of total MSA structures in the SLR zone has
+    dropped in the South Atlantic.
+  13: Coefficient estimates from regressions are presented, showing the relative impact
+    of SLR zones with different storm severities compared to a SLR zone with no storms.
+  14: Each one-unit increase in the accumulation of storms over time is associated
+    with a 2.3 percentage point increase in share of built-up land.
+  15: From roughly 1980 on, coastal building transitioned to densification
+sourcematerial:
+  1: Source material here.
+  2: "Source material here. Evaluation overview: \"AllNationalWetlandsInventory database\
+    \ worth approximately $1.07 trillion dollars, are at risk of disruptive flooding\
+    \ by 2100.\" Drivers of Risk: \"Exposure to sea levelriseand hurricanes.\" Methodology:\
+    \ \"Using gridded historical settlement data layers derived from Zillow\u2019\
+    s ZTRAX database [35], the Historical Settlement Data Compilation of the United\
+    \ States [22, 23], we analyze built-up property records across coastal regions\
+    \ of the U.S. from pre-1900 to 2015. Overlaying this data with sea level rise\
+    \ zones from the National Oceanic and Atmospheric Administration [33, 36].\" Highlights:\
+    \ \"they are also highly localized and result in some coastal areas being at much\
+    \ greater risk than others [12]. Reducing coastal risk to natural hazards requires\
+    \ advanced local adaptation strategies.\" More Notes: \"we contribute to both\
+    \ fronts by establishing a robust link between coastal conditions, specifically\
+    \ hurricane activity, and the long-term spatial development of urban areas. Our\
+    \ analysis sets to stage for further ambitious long-term work that contends with\
+    \ the historical forces that have shaped our cities, and specifically incorporate\
+    \ the role of human-hazard interactions as a central feature of that research.\""
+  3: null
+  4: "Using the ZTRAX database, our team created new settlement data products covering\
+    \ the time period 1810\u20132010 (i.e., the HISDAC-US) and carried out an extensive\
+    \ uncertainty study... These gridded data layers were created using data integration\
+    \ methods at 250-meter spatial resolution and 5-year temporal resolution. In order\
+    \ to better use the gridded datasets in combination with sea level rise zones,\
+    \ we resample the data to smaller grid cell sizes. Using the 250-meter original\
+    \ resolution, we resample the grid cells to a spatial resolution of 50 meters\
+    \ with a nearest neighbor technique."
+  5: "                                                                           \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                            Exposure                      to\
+    \      sea            levelriseand                     hurricanes\n          \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                      Metropolitan                                          \
+    \                                                                            \
+    \     Statistical                                                            \
+    \       Areas                                                            (MSAs)\
+    \                                                                            \
+    \          that                                      had                     \
+    \                        significant                                         \
+    \                                          area                              \
+    \             proportions                                                    \
+    \                                                          missing           \
+    \                                                                (more\n     \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                           than                                             \
+    \    50%;                                                       see          \
+    \                      S1                               Fig                  \
+    \                 in                         S1                              \
+    \ File).                                                                     \
+    \          In                             addition,                          \
+    \                                                    we                      \
+    \                use                                     only                \
+    \                               the                                  best    \
+    \                                    quality                                 \
+    \                           data                                            at\
+    \                      the                                   grid            \
+    \                             cell\n                                         \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                   level    \
+    \                                  for                               all     \
+    \               regional                                                     \
+    \                    and                                              state  \
+    \                                     analyses                               \
+    \                                          (grid                             \
+    \                 cell-level,                                                \
+    \              year                                            built         \
+    \                                missingness                                 \
+    \     <               5%)                                                 to \
+    \                        ensure\n                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                the         \
+    \                         processes                                          \
+    \                                          and                               \
+    \               change                                                       \
+    \                   patterns                                                 \
+    \                       measured                                             \
+    \                                                        are                 \
+    \                 reliable                                                   \
+    \       and                                              accurate.           \
+    \                                                                 We         \
+    \                                          assessed                          \
+    \                                               missing-\n                   \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \             ness                                            by             \
+    \                   using                                                    \
+    \   the                                   TPixMiss                           \
+    \                                                                     data   \
+    \                                         layer                              \
+    \               in                         HISDAC\u2013US                    \
+    \                                                                            \
+    \                                                              [42].         \
+    \                                                               TPixMiss     \
+    \                                                                            \
+    \               contains                                                     \
+    \                          the                                  number       \
+    \                                                                            \
+    \        of\n                                                                \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                            records                         \
+    \                                              with                          \
+    \                      missing                                               \
+    \                             year                                           \
+    \ built                                         for                          \
+    \     each                                                 cell              \
+    \              value                                                   through\
+    \                                                                            \
+    \     time                                                 to                \
+    \         understand                                                         \
+    \                                                      temporal              \
+    \                                                                           com-\n\
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                pleteness                                   \
+    \                                           [22].                            \
+    \                                            We                              \
+    \                     also                                      assume       \
+    \                                                                       that \
+    \                                     year                                   \
+    \         built                                         reflects             \
+    \                                         the                                \
+    \  first                             building                                \
+    \                                             and                            \
+    \                  not                                       the             \
+    \                      replace-\n                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                ment        \
+    \                                                      of                    \
+    \    old                                    buildings.                       \
+    \                                                            In              \
+    \               prior                                                 work,  \
+    \                                                          we                \
+    \                      demonstrated                                          \
+    \                                                                            \
+    \                that                                      this              \
+    \                   survivorship                                             \
+    \                                                                bias        \
+    \                               may                                          \
+    \             be\n                                                           \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                 problematic                \
+    \                                                                            \
+    \                   for                               neighborhood-scal      \
+    \                                                                            \
+    \                                                                            \
+    \  e                  analysis,                                              \
+    \                    but                                      these          \
+    \                                       issues                               \
+    \                    are                                 far                 \
+    \           less                               consequential                 \
+    \                                                                            \
+    \                             for\n                                          \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                  more      \
+    \                                                         aggregate          \
+    \                                                                            analysis,\
+    \                                                                  such      \
+    \                                            as                        the   \
+    \                               urban                                        \
+    \                         scale                                          analysis\
+    \                                                                  presented \
+    \                                                                            \
+    \              here                                              [23,        \
+    \                                                           41,              \
+    \                                     42].                                   \
+    \                      There                                                 \
+    \              is\n                                                          \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                  an                        \
+    \         exception                                                          \
+    \                                in                         this             \
+    \                    study                                                   \
+    \    where                                                                  changes\
+    \                                                                            \
+    \    in                         built                                        \
+    \ environment                                                                \
+    \                                                                 compositions\
+    \                                                                            \
+    \                                                   represent                \
+    \                                                                    a       \
+    \            con-\n                                                          \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                  sequence                  \
+    \                                                                        of  \
+    \                      post-hurricane                                        \
+    \                                                                            \
+    \               rebuild                                                      \
+    \            activities                                                      \
+    \         (see\u201D                                             Hurricane   \
+    \                                                                            \
+    \                       impacted                                             \
+    \                                                areas                       \
+    \                          are                                 denser        \
+    \                                                          and\n             \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                   more                                                     \
+    \          developed                                                         \
+    \                                         than                               \
+    \                  unaffected                                                \
+    \                                              areas\u201D                   \
+    \                                     section                                \
+    \                                below).                                     \
+    \                                As                                    demonstrated\
+    \                                                                            \
+    \                                                          below,            \
+    \                                                    we                      \
+    \                can                                         over-\n         \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                       come                                                 \
+    \                this                                 limitation             \
+    \                                                                      and   \
+    \                                           even                             \
+    \                      use                                     it            \
+    \  as                        an                                 advantage    \
+    \                                                                            \
+    \                 in                         the                             \
+    \      analyses                                                              \
+    \           comparing                                                        \
+    \                                                       trajectories         \
+    \                                                                           of\n\
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                built                                       \
+    \  structure                                                                 \
+    \             and                                              age           \
+    \                           across                                           \
+    \               different                                                    \
+    \                   places                                                   \
+    \    (affected                                                               \
+    \        and                                              unaffected         \
+    \                                                                            \
+    \         by                                extreme                          \
+    \                                                        events).\n          \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                          Relying           \
+    \                                                             on             \
+    \                       the                                  best            \
+    \                           quality                                          \
+    \                 data                                            available  \
+    \                                                                     in     \
+    \                    the                                  ZTRAX              \
+    \                                                                            \
+    \         database                                                           \
+    \                     (>95%                                                  \
+    \                                                      data                  \
+    \                          completeness)\n                                   \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                         precludes\
+    \                                                                            \
+    \            all                    coastal                                  \
+    \                        counties                                            \
+    \                                 in                         Louisiana       \
+    \                                                                            \
+    \        and                                              restricts          \
+    \                                                 other                      \
+    \                               counties                                     \
+    \                                        (see                                \
+    \      S1                               Fig                                  \
+    \ in                         S1                               File).\n       \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                         The                                                low\
+    \                                           data                             \
+    \               quality                                                      \
+    \      grid                                         cells                    \
+    \              account                                                       \
+    \                        for                               approximately     \
+    \                                                                            \
+    \                                                    14.5%                   \
+    \                                               of                        the\
+    \                                  area                                      \
+    \     within                                                                coastal\n\
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                MSAs                                        \
+    \                                    and                                     \
+    \         17.2%                                                              \
+    \    of                        the                                   built-up\
+    \                                                                        properties\
+    \                                                                            \
+    \            recorded                                                        \
+    \                               in                         ZTRAX             \
+    \                                                                            \
+    \          in                         coastal                                \
+    \                          MSAs.                                             \
+    \                               Even                                         \
+    \                with\n                                                      \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                      excluding             \
+    \                                                                            \
+    \  Louisiana                                                                 \
+    \                          and                                              a\
+    \                  few                                         counties      \
+    \                                                                       in   \
+    \                      Florida                                               \
+    \                   and                                              South   \
+    \                                                           Carolina,        \
+    \                                                                          we\
+    \                                      still                      find       \
+    \                                  massive\n                                 \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                           growth\
+    \                                                                           in\
+    \                         the                                  Southeast     \
+    \                                                                            \
+    \        over                                               recent           \
+    \                                                decades                     \
+    \                                                        with                \
+    \                                this                                  more  \
+    \                                                             conservative   \
+    \                                                                            \
+    \                             approach.                                      \
+    \                                                        Therefore,\n        \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                        we                                      have        \
+    \                                          more                              \
+    \                                 confidence                                 \
+    \                                                                     in     \
+    \                    the                                  findings.          \
+    \                                                               The          \
+    \                                      variability                           \
+    \                                                in                         the\
+    \                                   data                                     \
+    \       from                                                         raw     \
+    \                                        ZTRAX                               \
+    \                                                                    to\n    \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                            resampled                                       \
+    \                                                              and           \
+    \                                   cleaned                                  \
+    \                                       50-meter                             \
+    \                                                             grid           \
+    \                              cells                                  ranges \
+    \                                                               depending    \
+    \                                                                            \
+    \                           on                                    the        \
+    \                          quality                                           \
+    \                 of                        data                             \
+    \               at                      the                                  loca-\n\
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                tion                                        \
+    \ (S1                                    Table                               \
+    \                          in                         S1                     \
+    \          File).                                                            \
+    \                   While                                                    \
+    \              the                                   presented               \
+    \                                                                            estimates\
+    \                                                                            \
+    \      are                                  conservative                     \
+    \                                                                            \
+    \           and                                              a               \
+    \    subset                                                           com-\n \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                               pared                                        \
+    \                    to                         other                        \
+    \                             studies                                        \
+    \                     [10],                                                  \
+    \                      this                                 strategy         \
+    \                                                         allows             \
+    \                                              us                            to\
+    \                         establish                                          \
+    \                            and                                             \
+    \ focus                                                    on                \
+    \                    highly                                                  \
+    \         reliable\n                                                         \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                   assessments              \
+    \                                                                            \
+    \                   of                        changes                        \
+    \                                                        and                 \
+    \                             trends                                         \
+    \                    in                         the                          \
+    \        built                                         environment           \
+    \                                                                            \
+    \                                          at                      local     \
+    \                                    and                                     \
+    \         regional                                                           \
+    \              scales.\n                                                     \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                       NOAA                 \
+    \                                                                            \
+    \                                 sea                                        \
+    \       level                                                        rise    \
+    \                                            zones\n                         \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \       In                            order                                  \
+    \                      to                         track                      \
+    \                           the                                  development \
+    \                                                                            \
+    \                                                   of                       \
+    \ areas                                                 at                   \
+    \   risk                                   of                        coastal \
+    \                                                         hazards,           \
+    \                                                               we           \
+    \                            use                                     SLR     \
+    \                                               zones                        \
+    \                                   as                        areas\n        \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                        at                      high                        \
+    \                        risk                                   of           \
+    \             hazards                                                        \
+    \                   over                                               this  \
+    \                                century.                                    \
+    \                                     These                                  \
+    \                             areas                                          \
+    \      are                                  close                            \
+    \                  to                         coastal                        \
+    \                                  waterbodies,                              \
+    \                                                                            \
+    \     and\n                                                                  \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                          therefore                         \
+    \                                                      more                  \
+    \                                             likely                         \
+    \                  to                         be                             \
+    \ impacted                                                                   \
+    \                          by                                coastal         \
+    \                                                 storms                     \
+    \                                                and                         \
+    \                     hurricanes.                                            \
+    \                                                     We                     \
+    \                              use                                     the   \
+    \                               SLR                                          \
+    \          zone\n                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                instead                     \
+    \                                            of                        FEMA  \
+    \                                                                            \
+    \          flood                                                   zones     \
+    \                                                      because               \
+    \                                                             of             \
+    \           the                                   equal                      \
+    \                                treatment                                   \
+    \                                                         across             \
+    \                                             the                            \
+    \       country.                                                             \
+    \                FEMA                                                        \
+    \                                flood\n                                     \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                       zones\
+    \                                                           are              \
+    \                    often                                                  out\
+    \                                      of                        date        \
+    \                                   and                                      \
+    \        created                                                             \
+    \      with                                                different         \
+    \                                                             methods        \
+    \                                                                            \
+    \        across                                                          the \
+    \                                 country                                    \
+    \                                         based                              \
+    \                             on\n                                           \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                 funding,   \
+    \                                                                            population\
+    \                                                                            \
+    \                          and                                              natural\
+    \                                                                 hazard     \
+    \                                                                probability \
+    \                                                                            \
+    \               [43].                                                        \
+    \                For                                         our             \
+    \                            purposes,                                       \
+    \                                                we                          \
+    \            employ                                                          \
+    \                      the\n                                                 \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                           NOAA             \
+    \                                                                            \
+    \       Sea                                      Level                       \
+    \                            Rise                                           dataset\
+    \                                                              [33]          \
+    \                                                              to            \
+    \             determine                                                      \
+    \                                              the                           \
+    \       boundaries                                                           \
+    \                                                of                        the\
+    \                                  3                    feet                 \
+    \                and                                              6          \
+    \          feet                                zones\n                       \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \         which                                                              \
+    \    come                                                                 as \
+    \                       state-level                                          \
+    \                                datasets.                                   \
+    \                                We                                          \
+    \         use                                     two                        \
+    \                     zones                                                  \
+    \         in                         order                                   \
+    \                     to                         understand                  \
+    \                                                                            \
+    \                 the                                  differences\n         \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                       between                                              \
+    \                                       areas                                \
+    \                 that                                      are              \
+    \                   highly                                                   \
+    \        likely                                           to                 \
+    \        be                              affected                            \
+    \                                      (3                         ft/0.91    \
+    \                                                m)                          \
+    \               and                                              areas       \
+    \                                          that                              \
+    \        could                                                          be   \
+    \                           affected\n                                       \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                     in     \
+    \                    the                                   worst             \
+    \                                            climate                         \
+    \                                           scenarios                        \
+    \                                                          (6                \
+    \         ft/1.83                                                    m).     \
+    \                                   There                                    \
+    \                           are                                  some        \
+    \                                                       limitations          \
+    \                                                                            \
+    \   to                         the                                   NOAA    \
+    \                                                                            \
+    \               dataset,\n                                                   \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                         as                 \
+    \       it              is                 created                           \
+    \                                        using                               \
+    \                        a                  modified                         \
+    \                                                                bathtub     \
+    \                                                                       approach\
+    \                                                                            \
+    \                  [36],                                                     \
+    \                   which                                                    \
+    \               assumes                                                      \
+    \                              all                    areas                  \
+    \                              will                                 be       \
+    \                       equally\n                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                affected    \
+    \                                                              by            \
+    \                    SLR                                                    (equal\
+    \                                                           rise             \
+    \                   in                         a                  bathtub)   \
+    \                                                                            \
+    \  without                                                                   \
+    \         accounting                                                         \
+    \                                                for                         \
+    \      variations                                                            \
+    \                       in                         geomorphology,\n          \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                      shoreline                                             \
+    \                                    change                                  \
+    \                                        and                                 \
+    \             other                                                     factors.\
+    \                                                         The                \
+    \                                associated                                  \
+    \                                                     drawbacks              \
+    \                                                                            \
+    \                are                                 less                    \
+    \           important                                                        \
+    \                                           for                              \
+    \ our                                         analy-\n                       \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \         sis                       which                                    \
+    \                              uses                                          \
+    \ the                                   zones                                \
+    \                           to                         understand            \
+    \                                                                            \
+    \                       large-scale                                          \
+    \                                         development                        \
+    \                                                                            \
+    \                            trends.\n                                       \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                     Metropolitan\
+    \                                                                            \
+    \                                                                            \
+    \                         and                                                \
+    \               micropolitan                                                 \
+    \                                                                            \
+    \                                              statistical                   \
+    \                                                                            \
+    \      areas\n                                                               \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                             To                             \
+    \          aggregate                                                         \
+    \                             our                                         results\
+    \                                                     to                     \
+    \    representative                                                          \
+    \                                                          areas             \
+    \                                    along                                   \
+    \                     the                                  coast,            \
+    \                                    we                                      \
+    \ use                                     Metro-                             \
+    \                                              and                           \
+    \                   Micropoli-\n                                             \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                               tan          \
+    \                          Statistical                                       \
+    \                           Areas                                            \
+    \               (MSAs)                                                       \
+    \                               [34],                                        \
+    \                                which                                       \
+    \                           allow                                            \
+    \         us                            to                         determine \
+    \                                                                            \
+    \                       boundaries                                           \
+    \                                                                of          \
+    \              contiguous                                                    \
+    \                                                     popu-\n                \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                lation                                                  cores\
+    \                                                   within                   \
+    \                                             consistent                     \
+    \                                                                  2010      \
+    \                                               boundaries                   \
+    \                                                                            \
+    \            for                               all                    years. \
+    \                                                For                         \
+    \                this                                 analysis,              \
+    \                                                    we                      \
+    \                employ                                                      \
+    \                          MSA\n                                             \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                               boundaries   \
+    \                                                                            \
+    \                            to                         analyze              \
+    \                                                        settlement          \
+    \                                                                            \
+    \      patterns                                                              \
+    \          in                         SLR                                    \
+    \                zones.                                                      \
+    \     Metropolitan                                                           \
+    \                                                                statistical \
+    \                                                            areas           \
+    \                                      are\n"
+  6: "Source material here. Exposure to sea level rise and hurricanes defined as adjacent\
+    \ counties or county equivalents that have one or more urban areas with a population\
+    \ of at least 50,000 and any adjacent areas that have a high degree of integration\
+    \ with the urban area, measured by commuting [44]. (Built Area Proportion (BAP)\
+    \ = Ap/A T ; where A p is the number of built grid cells and A T is the total\
+    \ number of grid cells in the unit of analysis). Defined as adjacent counties\
+    \ or county equivalents that have one or more urban areas with a population of\
+    \ at least 50,000; Micropolitan Statistical Areas are similarly defined except\
+    \ they have an urban core area with a population greater than 10,000, but not\
+    \ more than 50,000; To determine which MSAs were affected by hurricanes, we intersect\
+    \ the MSAs with all hurricane eye landfalls, and select any coastal MSA that was\
+    \ within 20 km of an eye\u2019s landfall; To account for areas of the SLR zones\
+    \ that would not likely be developed, we exclude some areas from our analysis...use\
+    \ the Protected Areas Database for the United States [48]. We also use the National\
+    \ Wetlands Inventory [49] to exclude areas that are considered wetland...For each\
+    \ SLR zone and MSA polygon, zonal statistics are used to determine the total number\
+    \ of structures, built interior area...and built grid cells...in five year increments\
+    \ from 1900 to 2015. These hurricanes can be an early indicator (through storm\
+    \ surge) of future SLR conditions. We use NOAA\u2019s National Hurricane Center\u2019\
+    s North Atlantic hurricane database (HURDAT2) [47] to determine which MSAs were\
+    \ affected by hurricanes over our study period."
+  7: " \nExposure to sea level rise and hurricanes is considered as a risk factor.\
+    \ \"Results... Development trends across the coastal United States... exposure\
+    \ to sea level rise and hurricanes.\"\n\n446% increase in structures and a 220%\
+    \ increase in developed land area along the U.S. coastline between 1950 and 2000.\
+    \ \"Based on the highest-quality data in our settlement layers... much of this\
+    \ growth occurred between 1950 and 2000 with a 446% increase in structures and\
+    \ a 220% increase in developed land area.\"\n\nThe study analyzes the built-up\
+    \ proportion of areas over time, measuring expansion (increase in built grid cells)\
+    \ and densification (ratio of added structures to added developed grid cells)\
+    \ using high-quality settlement data. The analysis focuses on the continental\
+    \ U.S. coastline and uses grid cell data (250m resolution). \"To understand expansion\
+    \ and land cover change across communities, we measure shifts in the built-up\
+    \ proportion of areas over time... based on the highest-quality data in our settlement\
+    \ layers... density, or the number of structures per grid cell (250m resolution).\"\
+    \n\nDeveloped area and housing stock dramatically increased along the U.S. coastline,\
+    \ especially between 1950 and 2000. Coastal areas in SLR zones have higher structure\
+    \ density and have densified and expanded at higher rates than inland coastal\
+    \ areas. \"Across the conterminous United States, developed area and housing stock\
+    \ dramatically increased along the coastline over the past century... Mirroring\
+    \ trends in density, developed land... greatly expanded after 1950.\"\n\nCoastal\
+    \ expansion slowed significantly after 1980, with densification becoming more\
+    \ prominent. \"Expansion of coastal communities... after the high expansion of\
+    \ the first part of the 20th century, expansion rates dropped after around 1980...\
+    \ with densification greater than one after 1980.\"\n\nThe study defines a '6-foot\
+    \ SLR zone' and finds that 35% of the land in this zone was developed in 2015,\
+    \ with a median construction year of 1975. \"This highest-quality data subset\
+    \ contains approximately 1,050,000 built structures of any type... 35% of the\
+    \ land in the 6-foot SLR zone is developed.\"\n"
+  8: 'yaml
+
+    "Drivers of Risk": "Exposure to sea-level rise and hurricanes impacts urban areas.
+    Highlights areas likely to be affected by sea-level rise."
+
+    "Highlights": "Urbanization and higher construction density increase the exposure
+    of areas to sea-level rise with increased urban development and reduction in open
+    spaces."
+
+    '
+  9: 'The page describes exposure to sea level rise and hurricanes as significant
+    factors. It discusses urban development trends, noting: an increase in density
+    and percent developed in SLR zones, peaking densities from 1980 to 2000, and expansion
+    peaking between 1950 and 1970 with decreases after 1980. The methodology involves
+    using BUPL data from HISDAC and a U.S. government dataset to calculate changes
+    over 10-year increments. Analysis is focused on two major drivers of urban development:
+    expansion and structure density. Fort Meyers and Los Angeles are highlighted examples
+    of expansion and structure density growth within SLR zones.'
+  10: Source material here.
+  11: "Source material here. Exposure to sea level rise and hurricanes...The Southeast\
+    \ has an opposite growth pattern...high expansion...zones that are increasingly\
+    \ developed...illustrate the distinction between densification-...In the previous\
+    \ section, we showed that the coastlines\u2013particularly those in the 6-foot\
+    \ SLR zone\u2013are more developed than inland areas...The number of structures\
+    \ in the 6 feet SLR zone is used as an indicator of built environment exposure...depicted\
+    \ in MSAs in 2015...by Census Division...All data used in figure available through\
+    \ an open license. Fig 5. The number of structures in the 6 feet SLR zone...high\
+    \ exposure, particularly in Florida and the South Atlantic division. Relative\
+    \ built environment exposure...Percentage of Total MSA Structures in SLR Zone:...The\
+    \ highlighted areas are predominantly along the East Coast, Gulf Coast, and some\
+    \ parts of the West Coast...Graph (d) - Total Number of Structures in SLR Zone\
+    \ Over Time...shows an increasing trend over time across most regions.\"\n"
+  12: 'Source material here.
+
+    Methodology: "We...examine the timing of local building activity with hurricane
+    events. We do this through a within-metropolitan analysis of historical building
+    patterns and hurricane trends. We construct this analysis by dividing coastal
+    MSAs in two parts: the area inside and the area outside of the 6-foot SLR zone.
+    We then stack these locations and their ZTRAX attributes based on 5-year time
+    steps from 1900 to 2015 (24 observations per location within a metropolitan area).
+    Using these data, we estimate a series of two-way fixed effect panel regression
+    models."
+
+    Drivers of Risk: "Absolute exposure increased across the entire study period...with
+    the South Atlantic surpassing both the Northeast and Pacific in total number of
+    structures in the SLR zone. Further, hurricane impacted areas are denser and more
+    developed than unaffected areas."
+
+    Highlights: "The South Atlantic region has the highest percentage of total MSA
+    structures in the SLR zone...areas at highest risk of hurricanes, the South Atlantic,
+    have higher exposure across both measures, showing that hurricane affected areas
+    may be more developed than unaffected areas."
+
+    Quantitative material: "Since about 1970, the percentage of total MSA structures
+    in the SLR has dropped in the South Atlantic because of increasing addition of
+    structures in inland areas."
+
+    '
+  13: 'Source material here.
+
+    - Evaluation overview: "Results from six regressions (a-e) using 3 dependent variables
+    (share of built-up land, structure density, total structures) x 2 independent
+    variables (wind speed, total historical hits) across five units of analysis."
+
+    - Drivers of Risk: "We also include results from when the sample is restricted
+    to MSAs with at least one hurricane landfall in our data."
+
+    - Quantitative material: "The coefficient estimates (y-axis) from the regressions
+    are all relative to a SLR zone with no storms in the database."
+
+    - Methodology: "The analysis covers MSA zones within and out of SLR areas with
+    varying hurricane impacts. Data from 2015 is used, and the models include a census
+    division fixed effect. The HURDAT2 database is used for storm landfalls from 1900
+    to 2015."
+
+    - Highlights: "We find that MSAs affected by hurricanes are denser and more developed
+    than those not affected."
+
+    - More Notes: "In models that use wind speed, MSAs classified as low severity
+    were hit by less severe storms, that have average max wind speeds < 100 mph; high
+    severity MSAs were hit by severe storms, those that have average max wind speeds
+    > 100 mph."
+
+    '
+  14: "Source material here. hurricane activity is associated with significantly higher\
+    \ rates of building in terms of the proportion built area (Table 1, Col. 2) and\
+    \ structure density (Table 1, Col. 4). ... Every one-unit increase in the accumulation\
+    \ of storms over time is associated with an increase of 2.3 percentage points\
+    \ in share of built up land. ... The positive interaction term and the attenuation\
+    \ of the main storm effect toward zero indicates that the impact of storms on\
+    \ the built-up share of land is largely concentrated in the SLR zones of MSAs\
+    \ (Table 1, Col. 2). ... Our estimates show fewer structures in SLR zones and\
+    \ more structures in storm-prone areas. ... The analysis uses a panel regression\
+    \ on cumulative storm hits from 1900\u20132015 across Metropolitan Statistical\
+    \ Areas (MSAs) with coastal areas.\"\n"
+  15: 'Source material: Exposure to sea level rise and hurricanes, Development along
+    U.S. coastlines leads to increasingly dense coastal zones, Across time, we show
+    that coastal building tends to expand with low-density construction in the early
+    phase of development but has transitioned to densification from roughly 1980 on,
+    SLR zones were developed more intensely and faster than other urban areas around
+    the country, continuously growing the exposure to natural hazards in these zones,
+    Our analysis reveals two different ways how coastal settlements typically develop:
+    expansion (the lateral growth of developed areas) and densification (the addition
+    of structures to already developed areas), We anticipate increasing uniformity
+    in exposure conditions over the years to come, Convergence creates coastal communities
+    with similar exposure, a finding that shows the dense development of the United
+    States coastlines regardless of regional likelihood of hazard, Regardless of the
+    cause of contemporary growing densification along coastlines, this trend leads
+    to two relevant outcomes: 1) Increasing exposure through added structures and
+    increased square footage within SLR zones; and 2) It implies possibly decreasing
+    built environment vulnerability through less land expansion into hazardous areas
+    and more modern building codes.'
+  16: "  \n\"The number of structures in the SLR zone is a general indicator of the\
+    \ physical exposure of a community to impacts from coastal storms and flooding...\
+    \ High numbers of structures and high structure density in SLR zones are thus\
+    \ highly exposed to coastal hazards.\"  \n\n\"This result is particularly critical\
+    \ given that there is a high probability of hurricanes in southern Florida and\
+    \ high susceptibility to flooding due to low elevation.\"\n\n\"Our results complement\
+    \ this finding, as we identify increasingly dense SLR zones in areas affected\
+    \ by hurricanes in recent decades, despite the widespread recognition of coastal\
+    \ hazards.\"\n\n\"This development effect could be the outcome of rebuilding and\
+    \ adaptation after impacted, older buildings are damaged or the impetus for communities\
+    \ to build back after natural hazard...\"\n\n\"The effectiveness of building restrictions\
+    \ along disaster-prone areas varies, pointing to variations in the effectiveness\
+    \ of building restrictions along disaster-prone areas.\"\n\n\"Knowledge of exposed\
+    \ built structures and their characteristics enables new forms of risk assessment\
+    \ of the built environment.\"\n"
+  17: 'Source material here.
+
+    "The presence of old structures is a possible indicator of elevated vulnerability
+    due to the lack of adaptation in building codes and old construction practices...
+    Locations, timing of construction and composition of the built environment are
+    all important factors to assess the vulnerability of those communities."
+
+
+    "Using HISDAC-US data layers, we can determine built environment characteristics
+    at very fine spatial and temporal resolution... Our findings point to the need
+    for policies and incentives that prioritize adaptation in our coastal communities."
+
+
+    "Older coastal areas, particularly in the Northeast, were developed in time periods
+    when housing codes and building techniques were not as advanced or adaptive as
+    today."
+
+    '
+  18: 'Source material here.
+
+    Exposure of coastal communities has led to staggering losses and damages from
+    natural hazards, yet these coastal areas continue to grow in size and number of
+    structures. We show that coastal communities have denser and more intensely developed
+    built environments than more inland areas, leading to high exposure, regardless
+    of probability of natural hazards. These findings have specific implications for
+    the implementation of adaptive building codes and coastal development policies.
+    The rate of exposure growth has slowed across all divisions, possibly due to saturation
+    of coastal areas and decreasing availability of developable land. Our findings
+    imply that protection of developable land, particularly in places that have not
+    experienced expansion (i.e., the Gulf Coast), is critical to minimize exposure
+    across our coastlines. In addition, these results reinforce the crucial need for
+    adaptation in already saturated and dense coastal communities. Our research points
+    to saturation along many parts of our coastline, where expansion has decreased
+    and structure addition remained steady, thus resulting in high-density built environments.
+    We are creating an environment where the number of people and the cost of natural
+    disasters continue to grow within constrained areas where biophysical exposure
+    is increasing. Through capitalizing on the spatial and temporal resolution of
+    this new settlement data compilation, we begin to understand the evolution of
+    exposure along the coast, how communities build and where they build, and how
+    this knowledge can be used for planning ahead for more sustainable and resilient
+    coastal communities.
+
+    '
+  19: "Source material here.\n                                                   \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \      Exposure                      to      sea            levelriseand     \
+    \                hurricanes\n...\n                                           \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                   (MSA)    \
+    \                                                                            included\
+    \                                                                            \
+    \       in                         analysis.                                 \
+    \                                 ZTRAX                                      \
+    \                                                             data           \
+    \                                 is                 affected                \
+    \                                                  by                        \
+    \        issues                                                  of          \
+    \              data                                            incom-\n      \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                            pleteness.                                      \
+    \                                        We                                  \
+    \                 exclude                                                    \
+    \                     states                                             and \
+    \                                             MSAs                           \
+    \                                                 from                       \
+    \                                  this                                 study\
+    \                                                       that                 \
+    \                     has                                      a             \
+    \      significant                                                           \
+    \                        percentage                                          \
+    \                                                          of                \
+    \        grid\n...\n                                                         \
+    \                                                                            \
+    \                                                                            \
+    \                                                                            \
+    \                                                     analysis               \
+    \                                                   from                     \
+    \                                    1900\u20132015                          \
+    \                                                                            \
+    \        (with                                                     MSA-Year  \
+    \                                                                            \
+    \                                        fixed                               \
+    \               effects).\n"

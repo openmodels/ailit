@@ -1,0 +1,570 @@
+Drivers of Risk:
+  2: Weather changes, specifically temperature and precipitation fluctuations, are
+    evaluated as drivers impacting livestock production.
+  3: Changes in temperature and precipitation are identified as shocks impacting livestock
+    production.
+  4: Weather shocks such as temperature increases and changes in precipitation patterns
+    are impacting livestock production.
+  5: The shocks impacting beef production include changes in temperature and precipitation.
+  6: "A 1\xB0C increase in temperature impacts beef production, especially in tropical\
+    \ regions."
+  7: Temperature, precipitation
+  8: Temperature changes and precipitation variability are identified as shocks impacting
+    beef production and crop production.
+  9: Temperature and precipitation changes are identified as the primary drivers impacting
+    cereal yields and production.
+  10: Temperature changes, precipitation changes.
+  11: Temperature and precipitation changes.
+  12: No relevant information
+Evaluation overview:
+  2: This section discusses the impact of weather fluctuations on livestock production.
+  3: The paper provides an overview of livestock production loss due to weather and
+    climate change impacts.
+  4: Discusses the general pass-through effect of annual weather fluctuations on global
+    livestock production.
+  5: The outcome evaluated is beef production and its impact by weather changes.
+  6: The paper evaluates the impact of temperature change on animal production, specifically
+    focusing on beef and cattle production.
+  7: Beef production
+  8: The paper evaluates the impact of weather fluctuations, specifically temperature
+    and precipitation changes, on global beef production.
+  9: The paper evaluates the impact of weather fluctuations on cereal and beef production,
+    focusing on productivity loss.
+  10: Impacts of weather variation on beef production.
+  11: Impact on beef production (in logs).
+  12: No relevant information
+Highlights:
+  2: Important outcomes include a significant reduction in beef production due to
+    temperature increase and varying effects of precipitation on beef production based
+    on climate zones; forecasts project climate change will reduce animal output by
+    20% by mid-century and an additional 40% by the century's end without adaptation.
+  3: Temperature increases have a negative impact on livestock production, while rainfall
+    fluctuations have a positive impact, particularly in tropical regions.
+  4: Focus on the pass-through effect of weather fluctuations on livestock without
+    detailing individual channel contributions.
+  5: Key outcomes include predicted temperature increases with more warming for North
+    America and ECA, and a reduction in rainfall for LAC and EAP by the end of the
+    century.
+  6: Temperature has a statistically significant negative impact on beef production,
+    with more substantial effects in tropical regions and poorer countries.
+  7: The adverse impacts of temperature changes are more severe in hot, poor, and
+    agriculture-dependent countries. Precipitation can attenuate the negative impact
+    of temperature rise on beef production in these regions. Temperature has a potential
+    nonlinear (convex by nature) relationship with beef production.
+  8: The analysis indicates that temperature increases negatively impact cereal yields
+    and production, subsequently affecting beef production due to reduced feed availability.
+  9: Decreases in cereal production could lead to reduced beef production due to less
+    feed availability; however, no evidence of adaptation impacting beef production
+    was found.
+  10: Climate change affects livestock production and food security, especially in
+    poor and tropical regions. Global warming plays a more significant role in determining
+    livestock output than predicted changes in rainfall patterns in the longer term.
+    The overall adverse effect of climate change on beef production is almost completely
+    centered in tropical countries.
+  11: Maps depict increasing global temperatures over time, with the later period
+    (2081-2100) showing more intense changes across most regions.
+  12: No relevant information
+Methodology:
+  2: The analysis uses an econometric strategy, analyzing country-level data to study
+    the relationship between weather changes and global livestock production, overcoming
+    limitations in previous methods.
+  3: The analysis is performed using panel data models with group fixed effects, accounting
+    for omitted variables and using cross-time variation in weather data from 187
+    countries.
+  4: Uses a reduced-form framework to analyze the effect of annual weather fluctuations
+    on livestock production globally.
+  5: The analysis utilizes a reduced form panel data model at the country/year level;
+    it incorporates country fixed effects, region-specific trends, and controls for
+    spatial and serial correlation. The model uses annual average temperature and
+    total precipitation as covariates.
+  6: The analysis uses an error-corrected ACCESS SSP3.70 model and adjusts for spatial
+    (1000 km) and serial (3-years) correlation.
+  7: "Panel data analysis with country fixed effects and region-specific trends, spatial\
+    \ (1,000km) and serial (3-years) correlation adjustment. Sample period is 1961\u2013\
+    2017. Different panel samples are used based on country characteristics (tropical\
+    \ vs. temperate, rich vs. poor, agriculture-dependent vs. not)."
+  8: "The analysis uses a panel dataset covering 1961\u20132017 with country fixed\
+    \ effects and region-specific trends to assess the impact of weather fluctuations\
+    \ on beef production."
+  9: The analysis uses econometric panel data models with country fixed effects and
+    region-specific trends to evaluate the impacts from 1961-2017.
+  10: Panel data from 1961 to 2017 and long difference methods are used to measure
+    the impact of weather fluctuations on global livestock production. Climate change
+    effects are predicted using ACCESS-ESM1.5 for mid-term (2041-2060) and long-run
+    (2081-2100) scenarios under SSP3-7.0, relative to a 1981-2010 baseline.
+  11: Panel data model. Long differences method used to test for adaptation. Econometric
+    techniques to understand the interaction between weather factors and livestock
+    production.
+  12: No relevant information
+More Notes:
+  5: Imprecise estimates might occur due to measurement errors in beef production
+    data, but such errors are deemed exogenous to the explanatory variables.
+  8: The results are robust across various sensitivity tests, including the exclusion
+    of Sub-Saharan Africa data and using a balanced panel dataset.
+  9: The study highlights potential biases like not accounting for seasonal weather
+    measures or CO2 fertilization, which could impact model results.
+  10: The study acknowledges that panel data methods do not account for inter-annual
+    tradeoffs farmers make.
+  11: The model does not account for adaptation to gradual changes in climate, though
+    an attempt was made to account for adaptation and it didn't dampen the damage
+    estimate. Absence of adaptation is at the country level.
+  12: No relevant information
+Quantitative material:
+  2: "A 1\xB0C increase in temperature leads to a 9.7% reduction in global beef production;\
+    \ a marginal increase in annual precipitation results in a 2.1% increase in beef\
+    \ production in tropical countries and a 1.9% decrease in temperate ones."
+  3: The analysis indicates a robust negative effect of temperature changes on global
+    livestock production, projecting a 20% reduction by mid-century and a 40% reduction
+    by the century's end.
+  5: "The model predicts a 2.2\xB0C rise in global temperature in the mid-future (2041\u2013\
+    2060) and more warming by the century's end (2061\u20132100). North America, MENA,\
+    \ LAC, and EAP regions will experience varied changes in temperature and rainfall."
+  6: "In poor countries, a 1\xB0C increase will reduce animal production by 27%, and\
+    \ by 4% in rich ones."
+  7: "A 1\xB0C increase in temperature has a larger adverse effect in agricultural\
+    \ economies than in non-agricultural ones (four times larger). A 1 mm increase\
+    \ in annual precipitation would lead to a 2.1% increase in beef production in\
+    \ tropical countries and a 1.9% decline in beef production in temperate regions.\
+    \ An extra mm of annual precipitation would generate a 3% improvement in beef\
+    \ production in agriculture-dependent countries."
+  8: "A 1\xB0C increase in temperature is associated with a 3.7% drop in cereal yields\
+    \ and a 7.6% decrease in global cereal production; a marginal increase in annual\
+    \ rainfall leads to a 1.5% increase in cereal yield globally, with higher impacts\
+    \ in tropical countries."
+  9: Quantitative impacts include coefficients for temperature and precipitation on
+    cereal yields and production, showing negative impacts of temperature and positive
+    impacts of precipitation, both with squared terms.
+  10: "A 1\xB0C increase in temperature leads to a 9.7% reduction in beef production\
+    \ on average, with larger effects in tropical countries. An additional mm increase\
+    \ in annual precipitation leads to a 2.1% increase in production in tropical countries\
+    \ but a 1.9% decrease in temperate ones. Predicted loss in global beef production\
+    \ due to climate change in 2060 ranges from 11% in temperate regions to 36% in\
+    \ tropical areas. Poorer countries would experience a 27% reduction in beef production\
+    \ as opposed to 4% in countries with higher income levels."
+  11: "Aggregate (temperature + precipitation) impacts (as log changes) from ACCESS-ESM1.5\
+    \ for (a) mid-term climate change (2041-2060) and (b) long-run climate change\
+    \ (2081-2100) under SSP3-7.0 scenario. Changes are relative to a 1981\u20132010\
+    \ baseline."
+  12: No relevant information
+sourcematerial:
+  2: null
+  3: Source material here. This paper sheds more light on the effects of weather shocks
+    on livestock. ...the effects of short-term weather shocks on livestock production.
+    Our results show a robust negative effect of temperature changes on global livestock
+    production... climate change will reduce animal output by a further 20% in the
+    mid-century and an additional 40% by the end of the century. Unlike the Ricardian
+    model, panel data analysis uses group fixed effect (FE) to account for omitted
+    variables that correlate with climatic and response variables... This paper achieves
+    this objective using a panel of national livestock production and local weather
+    fluctuations from 187 countries. Our results show a robust negative effect of
+    temperature changes on global livestock production and a positive impact of rainfall
+    fluctuations...
+  4: 'yaml
+
+    Evaluation overview: "to analyze the general pass-through effect of annual weather
+    fluctuations on global livestock production."
+
+    Drivers of Risk: "there are several channels through which weather shocks can
+    influence livestock production" and "Changes in climatic patterns could affect
+    livestock in several ways, directly or indirectly."
+
+    Methodology: "rather we are employing a reduced-form framework to analyze the
+    general pass-through effect of annual weather fluctuations on global livestock
+    production."
+
+    Highlights: "however, our intention is not to quantitatively determine the individual
+    contributions of each channel, rather we are employing a reduced-form framework
+    to analyze the general pass-through effect of annual weather fluctuations on global
+    livestock production."
+
+    '
+  5: " \nEvaluation overview: \"The model does not suffer from such econometric issues...\
+    \ weather variations on beef production.\"\n\nDrivers of Risk: \"Our main covariates,\
+    \ T ct and P ct , are matrices of annual average temperature (in \u25E6C) and\
+    \ yearly total precipitation (in mm/year), respectively, in country c and year\
+    \ t.\"\n\nQuantitative material: \"Panel B shows the summary of the ACESSS SSP3.70\
+    \ predicted changes in climate in the mid-future (2041\u20132060)... Panel C summarizes\
+    \ the predicted state of climate by the end of the century (2061\u20132100).\"\
+    \n\nMethodology: \"In this sub-section, we construct a panel data model at country/year\
+    \ level... using the approach described in Hsiang (2010) with an arbitrary distance\
+    \ of 1000 km and time lag of 3 years.\"\n\nHighlights: \"The model predicts a\
+    \ 2.2 \u25E6C rise in global temperature with North America and MENA as the leading\
+    \ regions to experience more warming.\"\n\nMore Notes: \"We understand that some\
+    \ measurement errors may occur... but these errors are exogenous to our explanatory\
+    \ variables, hence such errors might only result in imprecise rather than biased\
+    \ estimates.\"\n"
+  6: "Source material: \"On aggregate, Table 2 shows that temperature has a negative\
+    \ and statistically significant relationship with beef production. Specifically,\
+    \ a 1\xB0C increase in temperature will lead to a 9.7% reduction in beef production.\
+    \ However, an in-depth look at a more disaggregated level reveals that the impact\
+    \ of temperature is higher in tropical regions than in temperate regions, implying\
+    \ that the overall negative estimate is driven by weather happenings in certain\
+    \ regions of the world. While a 1\xB0C increase in temperature will result in\
+    \ about a 20% fall in cattle production in tropical countries, there is no significant\
+    \ effect of such a rise in temperature regions. We show in the supplementary section\
+    \ (Table A5) that using a live animal indicator (cattle stock) as outcome variable\
+    \ produces similar qualitative results.\" \"The weather and climate entries are\
+    \ cattle population adjusted. Figures in bracket are percentage changes from historical\
+    \ figures. errors adjusted for spatial (1000 km) and serial (3-years) correlation.\"\
+    \ \"On the other hand, the adverse effect of a marginal rise in temperature is\
+    \ evidenced in both rich and poor countries; however, the impact is stronger in\
+    \ the latter. We find that a 1\xB0C increase in temperature will reduce animal\
+    \ production by 27% in poor countries and 4% in rich ones.\""
+  7: "  \nSource material here.\n\ntemperature on cattle production also depends on\
+    \ whether a country is agriculture-dependent or not. We find that the more agriculture-dependent\
+    \ a country is, the greater the impact of temperature changes. On average, the\
+    \ adverse effect of a 1\xB0C increase in temperature is four times larger in agricultural\
+    \ economies than in non-agricultural ones. Our results imply that beef production\
+    \ is most seriously at risk of global warming in hot, poor, and agriculture-dependent\
+    \ countries.\n\ngoing back to Table 2, we explain the effect of precipitation\
+    \ changes on beef production. On aggregate, precipitation has a positive but insignificant\
+    \ effect on beef production: however, there are significant differences in results\
+    \ when heterogeneity is considered. For example, while a marginal rise in precipitation\
+    \ is beneficial to beef production in tropical countries, it is harmful in temperate\
+    \ economies. Specifically, where a 1 mm increase in annual precipitation would\
+    \ lead to a 2.1% increase in beef production in tropical countries, a similar\
+    \ increase in precipitation is associated with a 1.9% decline in beef production\
+    \ in temperate regions. Along national income lines, we find that rainfall changes\
+    \ have no significant effect on beef output in rich countries but positively affect\
+    \ beef production in poor countries. This heterogeneous effect is also duplicated\
+    \ when considering whether a country is agriculture-dependent or not. We find\
+    \ that an extra mm of annual precipitation would generate a 3% improvement in\
+    \ beef production in agriculture-dependent countries, with no significant effect\
+    \ in a non-agricultural country. Overall, we find that the impacts of temperature\
+    \ changes are more severe in certain regions\u2014hot, poor, and agriculture-dependent\
+    \ countries, as shown in Figure A4 in the supplementary section. However, the\
+    \ positive effect of precipitation changes in these regions means that more rainfall\
+    \ will attenuate the negative impact of temperature rise on beef production.\n\
+    \nEach coefficient is estimated from a separate(1)with country FE and region-specific\
+    \ trends. Standard errors are in brackets, adjusted for both spatial (1,000km)\
+    \ and serial (3-years) correlation. A country is defined as tropical if its median\
+    \ temperature is above the global median; otherwise, it is temperate. A country\
+    \ is rich if it is higher income or upper-middle income by World Bank classification,\
+    \ else it is poor. A country is agriculture-dependent if it has above median share\
+    \ of GDP in agriculture in 2000. Temperature is in degrees Celsius and precipitation\
+    \ is in mm units per year. Sample period is 1961\u20132017 for all specifications.\n\
+    \nThe quadratic term of temperature is significant across all spec- ifications,\
+    \ unlike precipitation, which indicates a potential nonlinear (convex by nature)\
+    \ relationship between temperature and beef produc- tion. Such nonlinearity means\
+    \ there is a minimally beneficial level from which the effects start rising, significantly\
+    \ or insignificantly, in both directions.  \n"
+  8: "Summarily, the results from the various sensitivity tests show that our baseline\
+    \ estimates that measure the impact of annual weather fluctuations on beef production\
+    \ are robust. Therefore, large deviations from the main estimates are unexpected.\
+    \ The channel through which weather changes affect global beef production is investigated\
+    \ with a focus on how weather changes affect beef production vis-\xE0-vis its\
+    \ impact on crop production. Weather fluctuations may influence beef output if\
+    \ they affect crop production via changes in the quantity and quality of feed\
+    \ available for cattle. Table 4 shows the impact of temperature and precipitation\
+    \ changes on two indices of crop production \u2014 cereal yields (ton/ha) and\
+    \ cereal production (kg). As expected, there is a negative impact of temperature\
+    \ on both yields and cereals production, although this impact is more substantial\
+    \ in hot countries. Specifically, a 1\xB0C increase in temperature is associated\
+    \ with a 3.7% drop in cereal yields. The impact is about 3.4 percentage points\
+    \ higher in tropical countries. The impact is greater in hot, poor, and agriculture-dependent\
+    \ countries. These results corroborate similar findings from Lobell et al. (2011),\
+    \ who report a 3.8\u20135.5% global net loss of maize and wheat from a marginal\
+    \ rise in temperature. Table 4 also shows the usual positive relationship between\
+    \ precipitation changes and crop outcomes. A marginal increase in annual rainfall\
+    \ is associated with a 1.5% increase in global cereal yield. The notes section\
+    \ in the paper specifies that the analysis covers the sample period from 1961\u2013\
+    2017 for all specifications and uses country fixed effects with region-specific\
+    \ trends."
+  9: "Source material here.\nEvaluation overview: \"The impacts on cereal output could\
+    \ also serve to explain why and how weather affects beef production. For example,\
+    \ as higher temperatures harm crop output, the associated drop in output is passed\
+    \ onto beef production...\"\nDrivers of Risk: \"Temperature... [\u2212 0.0372]...\
+    \ Precipitation... [0.015]...\"\nQuantitative material: \"Yield (ton/ha)... Temperature\
+    \ \u2212 0.0372... Temperature squared 0.001... Precipitation 0.015... Precipitation\
+    \ squared \u2212 0.000 [0.000]***.\"\nMethodology: \"Each coefficient is estimated\
+    \ from a separate(1)with country FE and region-specific trends... Sample period\
+    \ is 1961\u20132017 for all specifications.\"\nHighlights: \"The impacts on cereal\
+    \ output could also serve to explain why and how weather affects beef production...\
+    \ this reduction in food could affect the quantity... and quality... of herds.\"\
+    \nMore Notes: \"Not using seasonal weather measures makes our estimates overly\
+    \ optimistic as we do not account for seasons that are germane to crop production...\
+    \ we do not account for the beneficial effect of CO2 on crop fertilization...\"\
+    \n"
+  10: "Source material here.\n  - Evaluation overview: \"The following defines the\
+    \ differenced averages: 15-year diff. (1961\u20131975 and 2003\u20132017), 10-year\
+    \ diff. (1961\u20131970 and 2008\u20132017), 20-year diff. (1961\u20131980 and\
+    \ 1998\u20132017), and 29-year diff. (1961\u20131990 and 1991\u20132017) divides\
+    \ the entire sample into two halves. A country is defined as \u2018\u2018tropical\u2019\
+    \u2019 if its median temperature is above the global median, \u2018\u2018poor\u2019\
+    \u2019 if it is classed as a lower income or lower-middle income by World Bank\
+    \ classification.\"\n  - Drivers of Risk: \"A 1 \u25E6C increase in temperature\
+    \ will lead to a 9.7% reduction in beef production on average, with most of this\
+    \ effect centered in tropical countries. Poorer countries would also experience\
+    \ a 27% reduction as opposed to 4% in countries with higher income levels. On\
+    \ the other hand, an additional mm increase in annual precipitation would lead\
+    \ to a 2.1% increase in production in tropical countries but a 1.9% decrease in\
+    \ temperate ones.\"\n  - Quantitative material: \"Another observation worth noting\
+    \ is that the effect of global warming stochastically dominates that of rainfall\
+    \ changes... An important message from this study is that climate change affects\
+    \ livestock production and, consequently, food security, which will be even more\
+    \ important in the future. Global production of livestock and livestock products\
+    \ will be negatively impacted (due to diseases, water availability, etc.), especially\
+    \ in poor and tropical regions.\"\n  - Methodology: \"This paper measures the\
+    \ impact of weather fluctuations on global livestock production using panel data\
+    \ from 1961 to 2017... The projections indicate that the effects of climate change\
+    \ by 2070 would range from 11% in temperate regions to 36% in tropical areas,\
+    \ with global warming playing a more significant role in determining livestock\
+    \ output than predicted changes in rainfall patterns in the longer term.\"\n \
+    \ - Highlights: \"The spatial distribution of the cumulative impact of climate\
+    \ change under the mid-term and long-term scenarios. Important information from\
+    \ Fig. 1 is that the overall adverse effect of climate change on beef production\
+    \ is almost completely centered in tropical countries.\"\n  - More Notes: \"Some\
+    \ limitations to the study are as follow. The panel data method do not account\
+    \ for inter-annual tradeoffs farmers make that may be affecting the contemporaneous\
+    \ estimates presented in the paper. Consequent to this methodological shortcoming,\
+    \ this study is picking up short-run changes in inventory in the cattle herd that\
+    \ may not be indicative of long-run changes associated with climate change.\"\n"
+  11: '`
+
+    '
+  12: "\nL.E. Emediegwu and C.L. Ubabukoh\nDeclaration of competing interest     \
+    \                                                                            \
+    \                                                    Dell, M., Jones, B.F., Olken,\
+    \ B.A., 2014. What do we learn from the weather? The new\n                   \
+    \                                                                            \
+    \                                                                            \
+    \   climate-economy literature. J. Econ. Lit. 52 (3), 740\u2013798.\n       The\
+    \ authors declare that they have no known competing finan-                   \
+    \                                                                            \
+    \    Deschenes,  O.,  Greenstone,  M.,  2007.  The  economic  impacts  of  climate\
+    \  change:\ncial interests or personal relationships that could have appeared\
+    \ to                                                                         \
+    \                                 Evidence from agricultural output and random\
+    \ fluctuations in weather. Amer. Econ.\n                                     \
+    \                                                                            \
+    \                                                             Rev. 97 (1), 354\u2013\
+    385.\ninfluence the work reported in this paper.                             \
+    \                                                                            \
+    \                   Desch\xEAnes,  O.,  Greenstone,  M.,  2011.  Climate  change,\
+    \  mortality,  and  adaptation:\n                                            \
+    \                                                                            \
+    \                                                      Evidence from annual fluctuations\
+    \ in weather in the US. Am. Econ. J.: Appl. Econ.\nData availability         \
+    \                                                                            \
+    \                                                                        3 (4),\
+    \ 152\u2013185.\n                                                            \
+    \                                                                            \
+    \                              Di Falco, S., Doku, A., Mahajan, A., 2020. Peer\
+    \ effects and the choice of adaptation\n                                     \
+    \                                                                            \
+    \                                                             strategies. Agricult.\
+    \ Econ. 51 (1), 17\u201330.\n       Data will be made available on request.  \
+    \                                                                            \
+    \                                          D\xF6ring,  S.,  2020.  Come  rain,\
+    \  or  come  wells:  How  access  to  groundwater  affects\n                 \
+    \                                                                            \
+    \                                                                            \
+    \     communal violence. Political Geogr. 76, 102073.\nAcknowledgments       \
+    \                                                                            \
+    \                                                                    Emediegwu,\
+    \  L.E.,  2021.  Health  impacts  of  daily  weather  fluctuations:  Empirical\n\
+    \                                                                            \
+    \                                                                            \
+    \                      evidence from COVID-19 in US counties. J. Environ. Manag.\
+    \ 291, 112662.\n       Our profound thanks go to the participants at the Royal\
+    \ Economic                                                                   \
+    \                            Emediegwu,  L.E.,  Wossink,  A.,  Hall,  A.,  2022.\
+    \  The  impacts  of  climate  change  on\n                                   \
+    \                                                                            \
+    \                                                               agriculture in\
+    \ sub-Saharan Africa: A spatial panel data approach. World Dev. 158,\nSociety\
+    \ 2022 Annual Conference and the Fifth Econometric Models                    \
+    \                                                                            \
+    \               105967.\nof Climate Change Conference. We appreciate the two anonymous\
+    \ re-                                                                        \
+    \                             Eyring, V., Bony, S., Meehl, G.A., Senior, C.A.,\
+    \ Stevens, B., Stouffer, R.J., Taylor, K.E.,\nviewers and the editor for their\
+    \ useful comments. The usual disclaimer                                      \
+    \                                                                  2016. Overview\
+    \ of the Coupled Model Intercomparison Project Phase 6 (CMIP6)\napplies.     \
+    \                                                                            \
+    \                                                                            \
+    \         experimental design and organization. Geosci. Model Dev. 9 (5), 1937\u2013\
+    1958.\n                                                                      \
+    \                                                                            \
+    \                    FAO, 2018. Shaping the future of livestock sustainably, responsibly,\
+    \ efficiently. In: The\n                                                     \
+    \                                                                            \
+    \                                             10th Global Forum for Food and Agriculture\
+    \ (GFFA), Berlin, January 18 - 20.\nFunding                                  \
+    \                                                                            \
+    \                                                 FAOSTAT,   2018.   FAO   statistical\
+    \   database.   URLhttp://www.fao.org/faostat/en/\n                          \
+    \                                                                            \
+    \                                                                        (accessed\
+    \ April 13, 2018).\n       This research did not receive any specific grant from\
+    \ funding agen-                                                              \
+    \                              Feng, X., Qiu, H., Pan, J., Tang, J., 2021. The\
+    \ impact of climate change on livestock\ncies in the public, commercial, or not-for-profit\
+    \ sectors.                                                                   \
+    \                                                 production in pastoral areas\
+    \ of China. Sci. Total Environ. 770, 144838.\n                               \
+    \                                                                            \
+    \                                                           Freeman, L., 2017.\
+    \ Environmental change, migration, and conflict in Africa: a critical\n      \
+    \                                                                            \
+    \                                                                            \
+    \                examination of the interconnections. J. Environ. Dev. 26 (4),\
+    \ 351\u2013374.\nAppendix A. Supplementary information                       \
+    \                                                                            \
+    \                              Fry,  J.P.,  Mailloux,  N.A.,  Love,  D.C.,  Milli,\
+    \  M.C.,  Cao,  L.,  2018.  Feed  conversion\n                               \
+    \                                                                            \
+    \                                                                   efficiency\
+    \ in aquaculture: do we measure it correctly? Environ. Res. Lett. 13 (2),\n  \
+    \     Supplementary material related to this article can be found online     \
+    \                                                                            \
+    \                    024017.\nathttps://doi.org/10.1016/j.ecolecon.2022.107662.\
+    \                                                                            \
+    \                                         Gawith, D., Hodge, I., Morgan, F., Daigneault,\
+    \ A., 2020. Climate change costs more than\n                                 \
+    \                                                                            \
+    \                                                                 we think because\
+    \ people adapt less than we assume. Ecol. Econom. 173, 106636.\n             \
+    \                                                                            \
+    \                                                                            \
+    \ Gilbert, M., Nicolas, G., Cinardi, G., Van Boeckel, T.P., Vanwambeke, S., Wint,\
+    \ W.G.R.,\nReferences                                                        \
+    \                                                                            \
+    \                                Robinson, T.P., 2018. Global cattle distribution\
+    \ in 2010 (5 minutes of arc).http:\n                                         \
+    \                                                                            \
+    \                                                         //dx.doi.org/10.7910/DVN/GIVQ75.\n\
+    Allen, M.R., Barros, V.R., Broome, J., Cramer, W., Christ, R., Church, J.A., Clarke,\
+    \ L.,                                                                        \
+    \      Hansen, J., Ruedy, R., Sato, M., Lo, K., 2010. Global surface temperature\
+    \ change. Rev.\n       Dahe, Q., Dasgupta, P., Dubash, N.K., et al., 2014. IPCC\
+    \ fifth assessment synthesis                                                 \
+    \                                   Geophys. 48 (4).\n       report-climate change\
+    \ 2014 synthesis report.                                                     \
+    \                                                              Harari, M., Ferrara,\
+    \ E.L., 2018. Conflict, climate, and cells: a disaggregated analysis.\nAnimashaun,\
+    \ J., Emediegwu, L.E., Osadolor, N., Okoror, O., 2022. Harmful Tempera-      \
+    \                                                                            \
+    \           Rev. Econ. Stat. 100 (4), 594\u2013608.\n       tures and Consumption\
+    \ Expenditure: Evidence from Nigerian Households. In: 2022                   \
+    \                                                              Hoy, K., Clemens,\
+    \ J., Moshfegh, A., 2021. Estimated Protein Intake from Animal and\n       Annual\
+    \ Meeting, July 31-August 2, Anaheim, California. (322081), Agricultural and \
+    \                                                                            \
+    \         Plant Foods by US Adults, What We Eat in America, NHANES, 2015\u2013\
+    2016. Curr.\n       Applied Economics Association.                           \
+    \                                                                            \
+    \                                  Dev. Nutr. 5 (Supplement_2), 133.\nAntle, \
+    \ J.M.,  St\xF6ckle,  C.O.,  2017.  Climate  impacts  on  agriculture:  Insights\
+    \  from                                                                      \
+    \       Hsiang,  S.M.,  2010.  Temperatures  and  cyclones  strongly  associated\
+    \  with  economic\n       agronomic-economic analysis. Rev. Environ. Econ. Policy\
+    \ 11 (2), 299\u2013318.                                                      \
+    \                                         production in the Caribbean and Central\
+    \ America. Proc. Natl. Acad. Sci. 201009510.\nArag\xF3n, F.M., Oteiza, F., Rud,\
+    \ J.P., 2021. Climate change and agriculture: Subsistence                    \
+    \                                                            Hsiang, S., 2016.\
+    \ Climate econometrics. Annu. Rev. Resour. Econ. 8, 43\u201375.\n       farmers\u2019\
+    \ response to extreme heat. Am. Econ. J.: Econ. Policy 13 (1), 1\u201335.    \
+    \                                                                            \
+    \    Hsiang, S.M., Burke, M., Miguel, E., 2013. Quantifying the influence of climate\
+    \ on\nAuffhammer, M., Hsiang, S.M., Schlenker, W., Sobel, A., 2013. Using weather\
+    \ data and                                                                   \
+    \                       human conflict. Science 341 (6151), 1235367.\n       climate\
+    \ model output in economic analyses of climate change. Rev. Environ. Econ.   \
+    \                                                                            Hsiang,\
+    \  S.M.,  Meng, K.C., 2015.  Tropical  economics.  Amer.  Econ.  Rev.  105  (5),\n\
+    \       Policy 7 (2), 181\u2013198.                                          \
+    \                                                                            \
+    \                           257\u2013261.\nAuffhammer, M., Schlenker, W., 2014.\
+    \ Empirical studies on agricultural impacts and                              \
+    \                                                      Hsiang, S.M., Meng, K.C.,\
+    \ Cane, M.A., 2011. Civil conflicts are associated with the\n       adaptation.\
+    \ Energy Econ. 46, 555\u2013561.                                             \
+    \                                                                            \
+    \         global climate. Nature 476 (7361), 438.\nBarati,  F.,  Agung,  B., \
+    \ Wongsrikeao,  P.,  Taniguchi,  M.,  Nagai,  T.,  Otoi,  T.,  2008.         \
+    \                                                                Idrissou,  Y.,\
+    \  Assani,  A.S.,  Baco,  M.N.,  Yabi,  A.J.,  Traor\xE9,  I.A.,  2020.  Adaptation\n\
+    \       Meiotic competence and DNA damage of porcine oocytes exposed to an elevated\
+    \                                                                            \
+    \                strategies of cattle farmers in the dry and sub-humid tropical\
+    \ zones of Benin in the\n       temperature. Theriogenology 69 (6), 767\u2013\
+    772.                                                                         \
+    \                                                  context of climate change.\
+    \ Heliyon 6 (7), e04373.\nBarreca, A.I., 2012. Climate change, humidity, and mortality\
+    \ in the United States. J.                                                   \
+    \                              International Labour Office, 2017. World Employment\
+    \ and Social Outlook: Trends 2017.\n       Environ. Econ. Manag. 63 (1), 19\u2013\
+    34.                                                                          \
+    \                                                         ILO, Geneva.\nBaruch,\
+    \ Z., M\xE9rida, T., 1995. Effects of drought and flooding on root anatomy in\
+    \ four                                                                       \
+    \          IPCC, 2022. Climate Change 2022: Impacts, adaptation and vulnerability.\n\
+    \       tropical forage grasses. Int. J. Plant Sci. 156 (4), 514\u2013521.   \
+    \                                                                            \
+    \                   Johnston, J.E., 1958. The effects of high temperatures on\
+    \ milk production. J. Heredity\nBlanc,  E.,  Reilly,  J.,  2017.  Approaches \
+    \ to  assessing  climate  change  impacts  on                                \
+    \                                                     49 (2), 65\u201368.\n  \
+    \     agriculture: An overview of the debate. Rev. Environ. Econ. Policy 11 (2),\
+    \ 247\u2013257.                                                              \
+    \              Kabubo-Mariara, J., 2009. Global warming and livestock husbandry\
+    \ in Kenya: Impacts\nBlanc, E., Schlenker, W., 2017. The use of panel models in\
+    \ assessments of climate                                                     \
+    \                                        and adaptations. Ecol. Econom. 68 (7),\
+    \ 1915\u20131924.\n       impacts on agriculture. Rev. Environ. Econ. Policy 11\
+    \ (2), 258\u2013279.                                                         \
+    \                                   Kalkuhl, M., Wenz, L., 2020. The impact of\
+    \ climate conditions on economic production.\nBurke, M., Dykema, J., Lobell, D.B.,\
+    \ Miguel, E., Satyanath, S., 2015. Incorporating                             \
+    \                                                              Evidence from a\
+    \ global panel of regions. J. Environ. Econ. Manag. 103, 102360.\n       climate\
+    \ uncertainty into estimates of climate change impacts. Rev. Econ. Stat. 97  \
+    \                                                                            Klinedinst,\
+    \ P.L., Wilhite, D.A., Hahn, G.L., Hubbard, K.G., 1993. The potential effects\
+    \ of\n       (2), 461\u2013471.                                              \
+    \                                                                            \
+    \                                climate change on summer season dairy cattle\
+    \ milk production and reproduction.\nBurke,  M.,  Emerick,  K.,  2016.  Adaptation\
+    \  to  climate  change:  Evidence  from  US                                  \
+    \                                                     Clim. Change 23 (1), 21\u2013\
+    36.\n       agriculture. Am. Econ. J.: Econ. Policy 8 (3), 106\u2013140.     \
+    \                                                                            \
+    \                       Lobell, D.B., Asseng, S., 2017. Comparing estimates of\
+    \ climate change impacts from\nCarter, C., Cui, X., Ghanem, D., M\xE9rel, P.,\
+    \ 2018. Identifying the economic impacts of                                  \
+    \                                                       process-based and statistical\
+    \ crop models. Environ. Res. Lett. 12 (1), 015001.\n       climate change on agriculture.\
+    \ Annu. Rev. Resour. Econ. 10, 361\u2013380.                                 \
+    \                                                          Lobell, D.B., Hammer,\
+    \ G.L., McLean, G., Messina, C., Roberts, M.J., Schlenker, W.,\nChimonyo, V.G.P.,\
+    \ Modi, A.T., Mabhaudhi, T., 2015. Perspective on crop modelling             \
+    \                                                                            \
+    \     2013. The critical role of extreme heat for maize production in the United\
+    \ States.\n       in  the  management  of  intercropping  systems.  Arch.  Agron.\
+    \  Soil  Sci.  61  (11),                                                     \
+    \                            Nature Clim. Change 3 (5), 497.\n       1511\u2013\
+    1529.                                                                        \
+    \                                                                            \
+    \ Lobell, D.B., Schlenker, W., Costa-Roberts, J., 2011. Climate trends and global\
+    \ crop\nCline, W.R., 1996. The impact of global warming of agriculture: comment.\
+    \ Am. Econ.                                                                  \
+    \                          production since 1980. Science 333 (6042), 616\u2013\
+    620.\n       Rev. 86 (5), 1309\u20131311.                                    \
+    \                                                                            \
+    \                        Mendelsohn, R., 2008. The impact of climate change on\
+    \ agriculture in developing\nDarwin, R., 1999. The impact of global warming on\
+    \ agriculture: A Ricardian analysis:                                         \
+    \                                                 countries. J. Nat. Resour. Policy\
+    \ Res. 1 (1), 5\u201319.\n       Comment. Amer. Econ. Rev. 89 (4), 1049\u2013\
+    1052.                                                                        \
+    \                                           Mendelsohn, R.O., Dinar, A., 2009.\
+    \ Climate Change and Agriculture: An Economic\nDell, M., Jones, B.F., Olken, B.A.,\
+    \ 2012. Temperature shocks and economic growth:                              \
+    \                                                               Analysis of Global\
+    \ Impacts, Adaptation and Distributional Effects. Edward Elgar\n       Evidence\
+    \ from the last half century. Am. Econ. J.: Macroecon. 4 (3), 66\u201395.    \
+    \                                                                            \
+    \            Publishing, Cheltenham.\n"

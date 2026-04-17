@@ -1,0 +1,821 @@
+Drivers of Risk:
+  5: No specific shocks or changes relevant to climate impacts are identified.
+  7: Regulatory risk and stakeholder risk, including changing preferences of employees
+    and customers, are considered major risks over the next five years.
+  8: The model considers risk factors impacting investors such as benchmarking, outside
+    income, and time-varying investment opportunities (Y1i).
+  13: No relevant information
+  16: The environmental score relies on Sustainalytics, providing industry-adjusted
+    ratings, therefore do not simply reflect differences across industries.
+  24: No relevant information
+  30: No relevant information
+  31: Transition from active to passive management is impacting valuation cross-sections
+    and investor welfare.
+  32: No relevant information
+  34: No relevant information
+  35: The analysis focuses on climate-related risks including regulatory risk and
+    stakeholder risk; regulatory risk is seen as the main risk over the next five
+    years, with physical risks being more important over the long term.
+  36: Evaluates transitions linked to increased demand for green firms, particularly
+    by insurance companies and pension funds.
+  37: Potential impacts of a carbon tax on firm valuations and regulatory frameworks.
+  40: The Engle et al. (2020) paper focuses on climate change news as a driver of
+    financial risk.
+  46: No relevant information
+  47: No relevant information.
+  51: No relevant information
+  52: The analysis considers the impact of changes in environmental scores and governance
+    on market-to-book ratios.
+  54: No relevant information
+  56: No relevant information
+  57: No relevant information
+  59: No relevant information
+  60: No relevant information
+  63: No relevant information
+Evaluation overview:
+  5: No direct outcome evaluation related to climate impacts is provided.
+  8: This paper analyzes welfare implications in the context of asset pricing and
+    investor behavior.
+  13: No relevant information
+  16: No relevant information
+  24: No relevant information
+  30: No relevant information
+  31: No relevant information
+  32: No relevant information
+  34: No relevant information
+  36: The paper evaluates the impact on firm valuations when institutional investors
+    shift asset demand towards greener firms.
+  40: The Engle et al. (2020) paper examines "Hedging Climate Change News."
+  46: No relevant information
+  47: No relevant information.
+  51: No relevant information
+  52: The paper evaluates changes in log market-to-book ratios based on characteristics
+    such as environmental scores.
+  54: No relevant information
+  56: No relevant information
+  57: No relevant information
+  59: No relevant information
+  60: No relevant information
+  63: No relevant information
+Highlights:
+  1: Increased demand for green firms would benefit long-term investors, banks, and
+    passive investment advisors but negatively impact hedge funds and small-active
+    investment advisors.
+  5: Foreign investors contribute to lowering the cost of capital for green firms
+    in the US.
+  7: Long-term investors, banks, and passive investment advisors benefit from the
+    transition, while active investment advisors and hedge funds experience a decline
+    in AUM.
+  8: The paper aims to measure the importance of various investors in the price formation
+    process. It also analyzes questions with policy relevance, such as the transition
+    from active to passive management and the pricing of climate-related risks.
+  13: The paper aims to measure how much a specific investor (k) influences the relationship
+    between long-horizon expected returns and asset characteristics.
+  16: A small number of firms account for a large proportion of market capitalization
+    and profits.
+  18: Environmental scores positively impact firms' market-to-book ratios, while governance
+    scores, associated with weaker governance, have a negative impact.
+  24: "Firms\u2019 dividend policy responds to valuation ratios, but the estimate\
+    \ of h1,k is relatively small, so ignoring the endogeneity of a firm\u2019s payout\
+    \ policy does not much affect the estimate of \u03B20,i."
+  28: Hedge funds have an outsized role with a mispricing ratio of 3.58 per dollar
+    of AUM.
+  30: Small-active investment advisors and hedge funds are important for the pricing
+    of governance in US markets.
+  31: The shift towards passive management is driven by changes in investment strategies,
+    with broader implications for firm valuation and investor welfare.
+  32: "Latent demand and demand elasticities contribute equally to the reduction in\
+    \ the active share, while portfolio tilts to characteristics increased the investors\u2019\
+    \ active share."
+  34: Re-activating investors shifts the coefficients on both the environmental and
+    governance characteristics closer to zero.
+  35: Regulatory risks and changing preferences are significant contributors to changes
+    in asset demand and prices, with a focus on potential capital regulations affecting
+    long-term investors.
+  36: Large effect on firm valuations when all investors increase demand for green
+    firms; stakeholder risk affects valuations more significantly than regulatory
+    risk.
+  37: Framework to quantify investor contributions to price information and expected
+    returns.
+  38: The methodology can be applied to individual or groups of institutional investors
+    and adapted to other characteristics.
+  40: Engle et al. (2020) finds ways of hedging climate change news in the financial
+    markets.
+  46: The largest investors by type are Households, Vanguard Group, T. Rowe Price
+    Associates, Norges Bank Investment Management, Charles Schwab Investment Management,
+    PRIMECAP Management Co., Goldman Sachs & Co. LLC, Renaissance Technologies LLC,
+    and Schweizerische Nationalbank.
+  47: Environmental score has a positive regression coefficient in valuation models;
+    governance score has a negative coefficient.
+  49: Hedge funds have the highest scaled repricing AUM at 3.58, indicating significant
+    impact when assets are redistributed.
+  51: Environmental scores (from Sustainalytics) are used as a variable in the regression
+    to explain market-to-book ratios.
+  52: Changes in log market-to-book ratios are evaluated in scenarios where institutions
+    or long-term investors increase their emphasis on environmental scores.
+  54: Figure 3 presents estimates of coefficients on log market-to-book for various
+    constructions of the investment universe.
+  56: No relevant information
+  57: Summary of demand curves by investor domicile is reported
+  59: The aggregate active share among institutional investors has increased over
+    time from 1980 to 2018.
+  60: The figure decomposes the change in the aggregate active share from 2007 to
+    2019 into changes attributed to latent demand, characteristics demand, and demand
+    elasticities.
+  63: No relevant information
+Methodology:
+  1: The framework connects valuations, expected returns, and characteristics to investor
+    demands using investor-level holdings data.
+  5: The analysis uses counterfactual asset reallocations to assess the impact on
+    stock valuations and re-estimates cross-sectional valuation regressions with counterfactual
+    prices.
+  7: The paper designs counterfactuals to capture regulatory and stakeholder risks,
+    computes asset prices, and assesses changes by using a framework for climate stress
+    tests.
+  8: The paper develops an instrumental variables shrinkage estimator to estimate
+    investor-specific demand curves. It presents a two-period model with assets and
+    investors, using CARA preferences. The model is intentionally stylized but meant
+    to extend to a broad set of asset pricing models.
+  9: This paper presents an asset pricing model where investors have potentially heterogenous
+    beliefs and risk aversion, and it explores how environmental performance may be
+    incorporated into investor preferences. It assumes ROEs follow a factor model.
+  13: The paper develops an empirically tractable asset demand system to analyze heterogeneity
+    in demand curves across investors, building on the work of Koijen and Yogo (2019).
+    The model focuses on the top 90% of stocks by market capitalization to avoid being
+    driven by micro-cap firms.
+  16: Analysis uses firm income statements, balance sheets, Sustainalytics environmental
+    scores, and a governance index constructed from entrenchment provisions. Quarterly
+    sample begins in 2000 and ends in 2019, with a subsample from 2010-2019 due to
+    data availability of environmental and governance scores.
+  18: The study uses a panel regression of valuation ratios on characteristics, applying
+    year fixed effects and cross-sectional standardization by quarter.
+  19: The analysis estimates the asset demand system using standardized characteristics
+    across quarters; assumes characteristics are exogenous to latent demand.
+  20: The paper constructs an instrumental variable based on investors' investment
+    mandates to address the endogeneity of prices to latent demand. It uses exogenous
+    variation in these mandates to generate exogenous variation in demand, following
+    Koijen and Yogo (2019). Specifically, the instrument relies on the investment
+    universe (stocks held in the current or previous two years) and computes counterfactual
+    prices when investors hold an equal-weighted portfolio of stocks in their universe.
+  22: The robustness of the demand elasticity estimates is tested by expanding the
+    window of the investment universe to include stocks held during a varying time
+    frame.
+  24: "Uses \u03BDx,et(n) as instruments instead of x1,t(n) in estimating the demand\
+    \ curve."
+  28: The analysis is performed by reallocating the assets of one group of investors
+    to all others and measuring the impact on asset prices.
+  30: Uses the valuation model of Cohen, Polk, and Vuolteenaho (2003) and Campbell,
+    Polk, and Vuolteenaho (2009) to map changes in valuations to expected returns;
+    assumes expected growth rates and expected returns are random walks.
+  31: Analysis involves an estimated asset demand system to understand the impact
+    of changes in investment strategies on valuation and investor welfare.
+  32: "Decomposes investor portfolio deviations from the market portfolio due to elastic\
+    \ demand, preference for characteristics, and latent demand; Computes portfolio\
+    \ weights using a given combination of (\u03B20i,\u02C6\u03B21i, \u03F5it (n))\
+    \ to decompose the active share of a given investor in a given quarter."
+  34: "The impact on firm valuations is reported by regressing mbt(n) and the change\
+    \ in mbCFt(n) \u2212 mbt(n) on firm characteristics in the last quarter of 2019."
+  35: The methodology involves setting counterfactual scenarios to assess the impact
+    of regulatory and stakeholder risks on asset demand; for example, changing the
+    environmental score coefficient to simulate regulatory changes.
+  37: Proposes a framework for climate stress tests and models impacts of carbon tax
+    and physical damages.
+  38: "The methodology includes estimating an asset demand system to analyze impacts\
+    \ of trends in asset management on firm valuations and investors\u2019 welfare."
+  40: The Engle et al. (2020) paper uses financial modeling to analyze how investors
+    hedge against climate change news. The Chang et al. (2015) paper uses a regression
+    discontinuity to estimate the effect of stock market indexing. The Egan et al.
+    (2020) paper uses investor expectations from demand for index funds.
+  46: Equity holdings data are from FactSet; data pertains to 2019 Q4.
+  47: Analysis performed using regression models on environmental and governance data
+    from 2010-2019 and 2000-2019; involves year fixed effects and standardized characteristics.
+  49: Analysis uses firm-level data from FactSet, CRSP, and Compustat, with a sample
+    period from 2000 to 2019, averaging quarterly values.
+  51: The analysis uses regression to model log market-to-book ratios and changes
+    in these ratios. Characteristics used as independent variables are standardized
+    cross-sectionally by year. The data is end of year for 2019. Holdings data are
+    from FactSet, and firm-level fundamentals are from CRSP and Compustat.
+  52: Regression analysis on log market-to-book ratios using characteristics like
+    environmental scores from Sustainalytics and governance scores, based on data
+    for the end of year 2019.
+  54: Investment universes are computed for varying backward and forward windows.
+    The first number measures the trailing window in years and the second number the
+    forward window in years. Baseline estimates are 3 years back and 0 years forward.
+  56: Summary of demand curves by investor type using time-series averages of demand
+    curve estimates, weighted by assets under management. Data includes environmental
+    scores from Sustainalytics, governance scores from Bebchuk et al., foreign sales
+    fraction, Lerner index, and market beta based on local MSCI index. Firm-level
+    fundamentals from CRSP and Compustat, holdings data from FactSet.
+  57: The sample runs from 2000 to 2019; Governance and Environment data begins in
+    2010; Demand coefficients are multiplied by 100 except for LN mebe; The weighted
+    average of the parameter estimates for each investor in that group is reported;
+    To average the coefficients, the AUM-share weighted average is computed for a
+    given investor group and year; These are then averaged across years for a given
+    investor group.
+  59: Aggregate active share is calculated as the AUM weighted active share across
+    all institutional investors; Active share is one-half times the sum of the absolute
+    value of active weights; Active weights are portfolio weights minus market weights
+    within the set of stocks held for each manager; The figure presents the yearly
+    average of quarterly aggregate active share.
+  60: The aggregate active share is calculated as the AUM (Assets Under Management)
+    weighted active share across all institutional investors. Active share is one-half
+    times the sum of the absolute value of active weights, where active weights are
+    portfolio weights minus market weights within the set of stocks held for each
+    manager.
+  63: Builds a panel of end-of-quarter equity holdings of US companies using FactSet
+    13F holdings data from 2000 Q1 to 2019 Q4. Classifies institutions into types
+    using FactSet's investor subtype. Constructs a Household sector so that total
+    holdings of institutions and household are equal to each firms market cap. Splits
+    investment advisors into four groups based on size and active share.
+  65: Includes a discussion on modifying standard GMM moment conditions to impose
+    a shrinkage penalty and choosing a shrinkage target.
+  66: "If the estimated \u03B2i,0 exceeds 1, the first element of \u039Bi is set to\
+    \ \u221E to impose \u03B20,i = 1."
+  67: The analysis involves a Taylor expansion of moment conditions and uses an iterative
+    procedure to converge on estimates using valuation regressions and earnings predictability
+    regressions.
+More Notes:
+  5: This methodology contributes to active ESG research by identifying the significance
+    of investors in pricing ESG scores across stocks.
+  7: The paper contributes to the literature by developing a new framework to quantify
+    how characteristics are priced in the cross section of valuations and expected
+    returns through the portfolio choice of institutional investors and households.
+  9: The paper focuses on investor behavior and asset pricing in relation to firm
+    characteristics, including environmental impact. It does not directly evaluate
+    direct climate impacts such as mortality or productivity loss. The model's implications
+    mimic those of a CRRA utility model while maintaining the tractability of the
+    CARA-normal model.
+  13: The analysis assumes no real effects in response to counterfactual investor
+    flow, and acknowledges that relaxing this assumption to account for corporate
+    decisions is beyond the scope of the paper.
+  16: Analysis acknowledges limitations due to inability to observe short positions.
+  20: The paper aims to estimate asset demand curves, which is not directly related
+    to climate impacts. The analysis focuses on financial markets and investor behavior.
+  24: No relevant information
+  30: No relevant information
+  31: No relevant information
+  32: The active share refers to ASt, the meaning of which is not specified on this
+    page.
+  34: The paper discusses the impact of investor behavior (active vs. passive management)
+    on firm valuations and asset allocation, specifically relating to environmental
+    and governance characteristics. The paper finds that a shift from active to passive
+    management increases the importance of these characteristics in explaining valuation
+    ratios.
+  38: The analysis discusses potential development of 'climate-risk stress tests'
+    for broader climate-related risks.
+  46: The table focuses on financial data related to investment firms and their assets
+    under management; relevance to direct climate impacts is not immediately clear.
+  47: Environmental scores are sourced from Sustainalytics and data on firm fundamentals
+    from CRSP and Compustat.
+  51: No relevant information
+  56: Data sample runs from 2000 to 2019, environmental and governance data starts
+    in 2010.
+  57: No relevant information
+  59: The data in the left panel (1980-2018) are from Koijen and Yogo (2019), while
+    the data in the right panel (2000-2019) uses holdings data from FactSet.
+  60: Holdings data are from FactSet, and firm-level fundamentals are from CRSP and
+    Compustat.
+  63: Focuses on financial data, including equity holdings, market capitalization,
+    and firm fundamentals. Uses Compustat and CRSP data to construct firm-level fundamentals
+    following Fama and French (2015).
+Quantitative material:
+  5: The baseline coefficient implies a 17% increase in valuations per standard deviation
+    increase in the environmental index, which changes to 14% with reallocations from
+    foreign investors, and 21% with reallocations from small-active investment advisors.
+  8: The paper presents a utility maximization problem with constant absolute risk
+    aversion (CARA) preferences, expressed in equation (1).
+  13: No relevant information
+  16: In 2019 Q4, the top 90% of total market capitalization is accounted for by only
+    541 firms. The largest 57 firms already account for 50% of the total market capitalization.
+    The largest 50% of firms account for only 34% of sales yet 46% of profits.
+  18: A one standard deviation increase in the environmental score is associated with
+    a 17% increase in a firm's market-to-book ratio, and a one standard deviation
+    increase in the governance score is associated with a 10% lower valuation ratio.
+  24: Estimates of h1,k are relatively small.
+  28: The paper presents quantitative information on repricing measures, such as 26.7%
+    for small-active investment advisors and 3.9% for long-term investors.
+  30: "A one standard deviation change in the entrenchment index would only lead to\
+    \ a 9% change in a firm\u2019s valuation ratio as opposed an 10% decline."
+  31: Environmental index changes valuation ratios by 4%, leading to a 20 basis points
+    impact per annum.
+  32: Decomposes the decline in active share into three components (latent demand,
+    portfolio tilts to characteristics, elastic demand) from 2007 to 2019; Latent
+    demand and demand elasticities contribute equally to the reduction in active share,
+    while portfolio tilts increased active share.
+  34: A one-standard deviation change in the environmental index increases valuation
+    ratios by 23% in 2019, which would reduce by 14% if investors were as active as
+    in 2007; for the entrenchment index, the response would reduce toward zero from
+    -14% to -5% per one standard deviation increase. Small-active investment advisors
+    experience a 6.9% increase in assets under management, and hedge funds experience
+    a 14.1% increase if investors are as active in 2019 as they were in 2007.
+  35: A counterfactual is introduced where the environmental score for long-term investors,
+    such as pension funds and insurance companies, increases by 0.1, which implies
+    a 10% increase in portfolio weight for a one standard deviation change in score.
+  36: Quantitative results include a coefficient increase by 0.57 for stakeholder
+    risk and by 0.03 for regulatory risk.
+  40: "The Engle et al. (2020) paper, published in The Review of Financial Studies,\
+    \ quantifies the impact of climate change news on financial markets (33(3):1184\u2013\
+    1216)."
+  46: AUM (Assets Under Management) for different types of investors, ranging from
+    8553 for Households to 84 for Brokers.
+  47: Regressions of end of year valuation ratios on firm-level characteristics with
+    statistical measures (e.g., coefficients, t-statistics).
+  49: Provides quantitative information on total repricing by investor type, including
+    percent changes in market cap if assets are reallocated among institutional investors.
+  51: 'The table provides regression coefficients, t-statistics (in parentheses),
+    adjusted R-squared values, and the number of observations. Specifically, it models
+    the log market-to-book ratio and changes in this ratio as a function of Environment,
+    Governance, Log Book Equity, Foreign Sales, Lerner, Sales to Book, Dividend to
+    Book, and Market Beta. The table presents two scenarios: ''Original'' and ''Change''
+    for ''Active Share Counterfactuals (2019)''. The change is calculated in a scenario
+    where institutional demand curves in 2019 re-activated so that components of active
+    share are the same as in 2007. Adj. R2 values are 0.65 and 0.29 for the ''Original''
+    and ''Change'' models respectively. The number of observations is 540540.'
+  52: Provides regression coefficients representing changes in valuation under different
+    scenarios.
+  54: The figure presents estimates of coefficients on log market-to-book for various
+    constructions of the investment universe. Each bar is the time series average
+    of the within year AUM weighted coefficients for each institutional type.
+  56: No relevant information
+  57: Demand coefficients are multiplied by 100 except for LN mebe; Environmental
+    scores are from Sustainalytics, Governance Scores are the entrenchment index from
+    Bebchuk, Cohen, and Ferrell (2009), Foreign sales is the fraction of sales from
+    abroad, Lerner is operating income after depreciation divided by sales, and market
+    beta is 60-month rolling market beta where the market is the local MSCI index.
+  59: The aggregate active share increased from approximately 0.30 to 0.45 between
+    1980 and 2018.
+  60: The first bar measures the total change in the active share from 2007 to 2019,
+    and the remaining three bars decompose the total change, with values ranging from
+    0.000 to -0.075.
+  63: No relevant information
+sourcematerial:
+  1: "We develop a new framework to quantitatively connect valuations, exp ected returns,\
+    \ and characteristics to the demands of institutional investors and households.\
+    \ Using investor-level holdings data, we estimate asset demand as a function of\
+    \ prices and characteristics and quantify how p ortfolio tilts across investors\
+    \ affects firm\u2019s valuation ratios...we use our mo del to assess climate-related\
+    \ risks and find that increased demand for green firms would b enefit long- term\
+    \ investors, banks, and passive investment advisors at the exp ense of hedge funds\
+    \ and small-active investment advisors."
+  5: "Source material here.\nscaled by the initial value of the aggregate stock market.\
+    \ For example, we ask by what percent does the average stock price move if we\
+    \ take BlackRock\u2019s assets and redistribute these assets to all other institutional\
+    \ investors. Because BlackRock has certain portfolio tilts, this experiment would\
+    \ lower the stock price along characteristics that BlackRock favors or for stocks\
+    \ for which they have positive latent demand. The blue bars in Figure 1 summarize\
+    \ the results. Hedge funds and investment advisors are particularly influential,\
+    \ while long-term investors (i.e., pension funds and insurance companies), private\
+    \ banking, and broker dealers have only a small impact. As shown by our theoretical\
+    \ model, the impact of a given investor or group of investors depends on (i) the\
+    \ investor\u2019s size, (ii) the elasticity of demand curves of other investors,\
+    \ and (iii) the heterogeneity in demand curves. To adjust for size, we also compute\
+    \ the repricing measure scaled by the total assets managed by a particular group.\
+    \ The results are presented in the bottom panel of Figure 1. Per dollar of assets\
+    \ managed, hedge funds and small-active investment advisors have the largest impact\
+    \ on valuations. At the other end of the spectrum, we find that passive investment\
+    \ advisors (both small and large) and long-term investors have a relatively small\
+    \ impact on valuations. To understand how much different investors matter the\
+    \ pricing of firm characteristics, we re-estimate the cross-sectional valuation\
+    \ regression using the counterfactual prices and document how the regression coefficients\
+    \ and residuals change. We consider the pricing of the environmental index as\
+    \ an example. The baseline coefficient implies that a one standard deviation increase\
+    \ in the index leads to a 17% increase in valuations. This number would drop to\
+    \ 14% if we reallocate assets from foreign investors, while it would increase\
+    \ to 21% if we reallocate assets from small-active investment advisors to the\
+    \ other institutional investors. Thus, the estimates imply that foreign investors\
+    \ help to lower the cost of capital for green firms in the US, conditional on\
+    \ the other characteristics. This example illustrates how our methodology contributes\
+    \ to the active ESG research agenda by showing which investors matter for the\
+    \ pricing of ESG scores in the cross section of stocks.\n"
+  7: 'Source material here.
+
+    "Our fo cus is guided by a recent survey of Stro eb el and Wurgler (2021), which
+    shows that the resp ondents consider regulatory risk as the main risk over the
+    next five years, followed by ''stakeholder risk,'' which includes changing preferences
+    of employees and customers. [...] We design two counterfactuals to capture regulatory
+    risk for long-term investors (i.e., p ension funds and insurance companies) and
+    to capture stakeholder risk. [...] These calculations show how our framework can
+    b e used to develop and implement ''climate stress tests.'' [...] we find that
+    long-term investors, banks, and passive investment advisors b enefit from the
+    transition, while active investment advisors and hedge funds would exp erience
+    a decline in AUM. [...] First, we develop a new framework to quantify how characteristics
+    are priced in the cross section of valuations and exp ected returns through the
+    p ortfolio choice of institutional investors and households."
+
+    '
+  8: "Source material here.\nEvaluation overview: \"which allows us to analyze welfare\
+    \ implications.\"\nDrivers of Risk: \"Y1i represents other risk factors that impact\
+    \ the investor such as benchmarking, outside income, and time-varying investment\
+    \ opportunities.\"\nQuantitative material: \"Investors have constant absolute\
+    \ risk aversion (CARA) preferences over wealth at time 1, max qi E [\u2212exp\
+    \ (\u2212\u03B3iA1i + Y1i )].\"\nMethodology: \"we use our methodology to analyze\
+    \ questions with policy relevance...we develop an instrumental variables shrinkage\
+    \ estimator, which allows us to estimate investor-specific demand curves...We\
+    \ consider a two-period model with time indexed by t = 0,1...The basic economic\
+    \ insights extend to a broad set of asset pricing models.\"\nHighlights: \"we\
+    \ use our methodology to analyze questions with policy relevance, such as the\
+    \ transition from active to passive management and the pricing of climate-related\
+    \ risks...We present a simple model to illustrate how we can measure the importance\
+    \ of various investors in the price formation process.\"\n"
+  9: "Source material here: We could extend the mo del of investor preferences to\
+    \ directly add a \u201Ctaste\u201D for char- acteristics (Fama and French 2007\
+    \ ). This mo del extension can b e particularly fitting for characteristics that\
+    \ capture a firm\u2019s impact on the environment ( Pastor, Stambaugh, and Taylor\
+    \ 2020; Pedersen, Fitzgibb ons, and Pomorski 2020 ). We define the return on equity\
+    \ (ROE) for firm n as d1 (n) = D1 (n)B\u22121 0 (n).We assume that all investors\
+    \ agree that ROEs follow a factor mo del, d1 = gi + \u03C1iF1 + \u03B71... For\
+    \ this particular choice, the model\u2019s implications mimic those of a more\
+    \ standard constant relative risk aversion (CRRA) utility model, while maintaining\
+    \ the tractability of the CARA-normal model."
+  13: The paper develops an empirically tractable asset demand system to analyze heterogeneity
+    in demand curves across investors, building on the work of Koijen and Yogo (2019).
+    We focus on the top 90% of stocks by market capitalization. In addition, we can
+    measure how much investor k matters for the relation between long-horizon expected
+    returns and characteristics, x. This calculation is accurate under the assumption
+    that gR (x) does not change in the counterfactual, that is, that there are no
+    real effects in response to the counterfactual investor flow. To relax this assumption,
+    we would need to allow for corporate decisions regarding capital structure, investment,
+    and payout policy. While this is an interesting extension to explore in future
+    work, it is beyond the scope of this paper.
+  16: '
+
+    In 2019 Q4, the top 90% of total market capitalization is accounted for by only
+    541 firms. The largest 57 firms already account for 50% of the total market capitalization.
+    The largest 50% of firms account for only 34% of sales yet 46% of profits. For
+    the environmental score, we rely on Sustainalytics. Sustainalytics provides industry-adjusted
+    ratings, and environmental ratings therefore do not simply reflect differences
+    across industries. Analysis uses firm income statements, balance sheets, Sustainalytics
+    environmental scores, and a governance index constructed from entrenchment provisions.
+    Quarterly sample begins in 2000 and ends in 2019, with a subsample from 2010-2019
+    due to data availability of environmental and governance scores. As we cannot
+    observe short positions at the investor-level, we estimate the model on long positions
+    only. This results in a selected sample, but there is unfortunately little that
+    we can do about this given data limitations.
+
+    '
+  18: "Source material: A one standard deviation increase in the environmental score\
+    \ is asso ciated with a 17% increase in a firm\u2019s market-to-b o ok ratio,\
+    \ all else equal. We find that a one standard deviation increase in the governance\
+    \ score is asso ciated with an 10% lower valuation ratio. Recall that the governance\
+    \ score is an entrenchment index, implying that higher values are asso ciated\
+    \ with weaker governance. The study uses a panel regression of valuation ratios\
+    \ on characteristics, applying year fixed effects and cross-sectional standardization\
+    \ by quarter."
+  19: "The analysis estimates the asset demand system as summarized by equations (10)\
+    \ and (11), using standardized characteristics across quarters. For benchmark\
+    \ results, it is assumed that characteristics are exogenous to latent demand:\
+    \ Et [\u03F5i,t(n) |xt (n)] = 1."
+  20: "We cannot simply estimate investors\u2019 demand curves using nonlinear least\
+    \ squares, as latent demand is likely correlated with prices. To construct an\
+    \ instrument, we follow Koijen and Yogo (2019) and use exogenous variation in\
+    \ investors\u2019 investment mandates to generate exogenous variation in demand.\
+    \ For our main estimation, we assume that any stock that the investor holds during\
+    \ the current year, or any of the previous two years, is part of the choice set.\
+    \ To construct an instrument that relies only on the investment universe, and\
+    \ not the precise holdings within it, we compute counterfactual prices when investors\
+    \ all hold an equal-weighted portfolio of the stocks in their universe."
+  22: "Source material here.\n\"We determine the shrinkage parameter using cross-validation,\
+    \ as is common practice in the machine learning literature...The shrinkage penalty\
+    \ is selected to minimize the model\u2019s out-of-sample performance.\"\n\"The\
+    \ robustness of our demand elasticity estimates to those assumptions...Koijen\
+    \ and Yogo (2019) showed that the universe of stocks stabilizes if we expand the\
+    \ window back in time and this motivated the three-year window. We now show that\
+    \ our estimates are robust to varying the window, both back in time and into the\
+    \ future.\"\n"
+  24: null
+  28: "Small-active investment advisors and hedge funds having the largest impact\
+    \ on prices. If the assets of small-active investment advisors get reallocated,\
+    \ the total repricing in the market amounts to 26.7%. Long-term investors, as\
+    \ one would expect, have a modest impact on prices and move prices only by 3.9%.\
+    \ Interestingly, brokers only move prices by 1.8%... We find, quite strikingly,\
+    \ that hedge funds play an outsized role with a ratio equal to 3.58. By contrast,\
+    \ passive investment advisors, be it large or small, and long-term investors have\
+    \ the smallest impact per dollar of assets that they manage with ratios around\
+    \ one. We compare the repricing measure, \u03B8, when we reallocate the assets\
+    \ of one group of investors to all others, as described in the previous section."
+  30: "Source material here: For the governance index, we find the largest change\
+    \ from -0.10 to -0.09 for small-active investment advisors and hedge funds....Hence,\
+    \ if the assets of small-active investment advisors or hedge funds are assigned\
+    \ to other institutions, a one standard deviation change in the entrenchment index\
+    \ would only lead to a 9% in a firm\u2019s valuation ratio as opposed an 10% decline....To\
+    \ map changes in valuations, and their connection to characteristics, to expected\
+    \ returns, we use the valuation model of Cohen, Polk, and Vuolteenaho (2003) and\
+    \ Campbell, Polk, and Vuolteenaho (2009)....we make the simplifying assumption\
+    \ that expected growth rates, gt, and expected returns, \u03BCt, are random walks....Hence,\
+    \ small-active investment advisors and hedge funds are important for the pricing\
+    \ of governance in US markets."
+  31: "  \nSource material: \"The impact on expected returns would be larger... Hence,\
+    \ in case of small-active investment advisors, a one standard deviation change\
+    \ in the environmental index changes valuation ratios by 4%, which translates\
+    \ to 20bp per annum...  The impact of the transition from active to passive management...\
+    \ we study the transition from active to passive management and... the growing\
+    \ concern about the pricing of climate-related risks by investors... We first\
+    \ summarize the basic fact that institutional investors have become more passive\
+    \ over time, as measured by the active share... Finally, we study how this trend\
+    \ impacted different firms and investors.\"\n"
+  32: " \nIn the left panel, we plot the same trend but now using a sample starting\
+    \ in 1980...this illustrates the broader trend during the last 40 years.\nThis\
+    \ decomposition shows that an investor\u2019s portfolio deviates from the market\
+    \ portfolio due to elastic demand, a preference for characteristics, and latent\
+    \ demand, \u03F5it (n).\nWe decompose the decline in the active share into these\
+    \ three components for the period from 2007 to 2019, which captures the long term\
+    \ trend better than the period from 2000 to 2019, see Figure 8.\nThe first line\
+    \ measures the contribution of latent demand, the second line of portfolio tilts\
+    \ to characteristics, and the third line captures the contribution due to elastic\
+    \ demand.\nWe plot the change in the three components from 2007 to 2019 in Figure\
+    \ 9.\nLatent demand and demand elasticities contribute equal amounts to the reduction\
+    \ in the active share, while portfolio tilts to characteristics in fact increased\
+    \ the investors\u2019 active share.\n"
+  34: "The paper reports that a \"one-standard deviation change in the environmental\
+    \ index increases valuation ratios by 23% in 2019, this would reduce by 14% if\
+    \ investors are as active as in 2007.\" Similarly, for the entrenchment index,\
+    \ \"the response would reduce toward zero from -14% to -5% per one standard deviation\
+    \ increase.\" Additionally, it states that \"small-active investment advisors,\
+    \ who experience a 6.9% increase, and hedge funds, who experience a 14.1% increase\"\
+    \ in assets under management, if \"institutional investors are as active in 2019\
+    \ as they were in 2007.\" Methodologically, the paper analyzes \"the impact on\
+    \ firm valuations by regressing mbt(n) and the change in mbCFt(n) \u2212 mbt(n)\
+    \ on firm characteristics in the last quarter of 2019.\" It highlights that \"\
+    re-activating investors shifts the coefficients on both the environmental and\
+    \ governance characteristics closer to zero.\" Further, it suggests that \"if\
+    \ the trend from active to passive management continues, characteristics play\
+    \ an increasingly important role in explaining valuation ratios.\""
+  35: "Source material: Investors and regulators are increasingly concerned ab out\
+    \ the impact of climate-related risks on asset prices, investors\u2019 welfare,\
+    \ and overall financial stability. The survey shows that the resp ondents consider\
+    \ regulatory risk as the main risk over the next five years, followed by \u201C\
+    stakeholder risk,\u201D which includes changing preferences of employees and customers.\
+    \ Over longer horizons, which in the survey corresp onds to the next 30 years,\
+    \ physical risks are considered to b e most imp ortant. As asset demand strongly\
+    \ resp onds to capital charges, we consider a counterfactual in which the element\
+    \ of \u03B2i,t asso ciated with the environmental score increases by 0.1 for long-term\
+    \ investors, which include p ension funds and insurance companies. A shift of\
+    \ 0.1 implies that the p ortfolio weight increases by 10% for a one standard deviation\
+    \ change in the environmental score, thus from a baseline level of 5%, say, to\
+    \ 5.5%. we can use our framework to quantify two key dimensions of climate-related\
+    \ risks. Our fo cus is guided by a recent survey of Stro eb el and Wurgler (2021)\
+    \ among 861 academics, professionals, public sector regulators, and p olicy economists.\
+    \ The second counterfactual is designed to capture stakeholder risk."
+  36: " \nhouseholds\u2019 assets) may also change their asset demand and tilt their\
+    \ portfolios to greener firms. ... we increase the element of \u03B2i,t associated\
+    \ with the environmental score. \n\n...we show the impact on firm valuations.\
+    \ \n\nIn Table 8, we show the impact on firm valuations ... regressions with changes\
+    \ in log market-to-book... the stakeholder risk counterfactual in which all investors\
+    \ increase their demand for green firms.\n\nThis is an important insight as insurance\
+    \ regulators are concerned about how transition risk may affect the highly-levered\
+    \ insurance sector.\n\n...the coefficient increases by 0.57 from its original\
+    \ value of 0.23... If only long-term investors shift ... the coefficient increases\
+    \ by 0.03 from 0.23.\n"
+  37: 'markdown
+
+    One interesting extension is to model the impact of a carbon tax on firm valuations
+    and investors. By simultaneously adjusting characteristics and asset demand, we
+    can develop a comprehensive framework to conduct ''climate stress tests''. We
+    develop a framework to quantitatively assess how much different investors contribute
+    to incorporating information into prices and long-horizon expected returns.
+
+    '
+  38: "We use the estimated asset demand system to analyze the impact of two key trends\
+    \ in the asset management industry on firm valuations and investors\u2019 welfare.\
+    \ Hedge funds, per dollar of assets that they manage, have the largest impact\
+    \ on prices. We find that foreign investors are particularly important for the\
+    \ valuation of green firms, while small-active investment advisors for the valuation\
+    \ of well-governed firms. Our methodology can easily be adopted to other characteristics,\
+    \ and can be applied to individual institutional investors as well as groups of\
+    \ institutions. We discuss how the second application can be used to develop 'climate-risk\
+    \ stress tests' for a broader set of climate-related risks."
+  40: "Source material: \u201CHedging Climate Change News.\u201D The Review of Financial\
+    \ Studies 33 (3):1184\u20131216."
+  46: null
+  47: 'Source material: Regressions of end of year valuation ratios on firm-level
+    characteristics. Columns 1 and 2 present regressions from 2010 to 2019 when Environment
+    and Governance data are available. Columns 3 and 4 present regressions from 2000
+    to 2019. All regressions include year fixed effects. Characteristics are standardized
+    cross-sectionally by year. Environmental scores are from Sustainalytics, Governance
+    Scores are the entrenchment index from Bebchuk, Cohen, and Ferrell (2009), Foreign
+    sales is the fraction of ales from abroad, Lerner is operating income after depreciation
+    divided by sales, and market beta is 60-month rolling market beta. Environmental
+    score has a positive regression coefficient in valuation models; governance score
+    has a negative coefficient. Firm-level fundamentals are from CRSP and Compustat.'
+  49: Source material here. Share AUM is the percent of assets under management for
+    each investor type. Total repricing is the percent change in market cap if the
+    assets of an investor are reallocated as flows to all other institutional investors
+    in proportion to their assets. Repricing AUM scaled is total repricing divided
+    by the share of assets under management. Each value is the time series average
+    of the quarterly values. Holdings data are from FactSet. Firm-level fundamentals
+    are from CRSP and Compustat. The sample runs from 2000 to 2019. Inv. Small Active
+    11.7 26.7 2.28 Hedge Funds 3.2 11.5 3.58.
+  51: The first column is a regression of log market-to-book ratios on characteristics.
+    The second column is a regression of changes in log market-to-book ratios on characteristics.
+    The new market-to-book ratios are calculated in a scenario where institutional
+    demand curves in 2019 re-activated so that components of active share are the
+    same as in 2007. Characteristics are standardized cross-sectionally by year. Environmental
+    scores are from Sustainalytics, Governance Scores are the entrenchment index from
+    Bebchuk, Cohen, and Ferrell (2009), Foreign sales is the fraction of sales from
+    abroad, Lerner is operating income after depreciation divided by sales, and market
+    beta is 60-month rolling market beta where the market is the local MSCI index.
+    Holdings data are from FactSet. Firm-level fundamentals are from CRSP and Compustat.
+    Data is end of year for 2019.
+  52: null
+  54: " \nFigure presents estimates of coefficients on log market-to-book for various\
+    \ constructions of the investment universe. Each bar is the time series average\
+    \ of the within year AUM weighted coefficients for each institutional type. Investment\
+    \ universes are computed for varying backward and forward. The first number measures\
+    \ the trailing window in years and the second number the forward window in years.\
+    \ Baseline estimates are 3 years back and 0 years forward. The types of investment\
+    \ universes under investigation are \"Inv. Large Passive\", \"Inv. Small Passive\"\
+    , \"Inv. Small Active\", \"Inv. Large Active\", \"Hedge Funds\", \"Long-Term\"\
+    , \"Private Banking\", \"Brokers\", and \"Households\".\n"
+  56: 'Source material here.
+
+    "Summary of demand curves by investor type. Each panel is a histogram of the time-series
+    average of each institution''s demand curve estimate. The vertical lines report
+    the weighted average of the estimates for each investor type. To average the coefficients,
+    we first compute the AUM-share average for a given investor group and year. We
+    then average these across years for a given investor group. Demand coefficients
+    are multiplied by 100 except for LN mebe. Environmental scores are from Sustainalytics,
+    Governance Scores are the entrenchment index from Bebchuk, Cohen, and Ferrell
+    (2009), Foreign sales is the fraction of sales from abroad, Lerner is operating
+    income after depreciation divided by sales, and market beta is 60-month rolling
+    market beta where the market is the local MSCI index. Firm-level fundamentals
+    are from CRSP and Compustat. Holdings data are from FactSet. The sample runs from
+    2000 to 2019. Governance and Environment data begins in 2010."
+
+    '
+  57: 'Source material here: Demand oefficients are multiplied by 100 except for LN
+    mebe. Environmental scores are from Sustainalytics, Governance Scores are the
+    entrenchment index from Bebchuk, Cohen, and Ferrell (2009), Foreign sales is the
+    fraction of sales from abroad, Lerner is operating income after depreciation divided
+    by sales, and market beta is 60-month rolling market beta where the market is
+    the local MSCI index. The sample runs from 2000 to 2019. Governance and Environment
+    data begins in 2010. We report the weighted average of the parameter estimates
+    for each investor in that group. To average the coefficients, we first compute
+    the AUM-share weighted average for a given investor group and year. We then average
+    these across years for a given investor group. Summary of demand curves by investor
+    domicile.'
+  59: Trend in the active share over time for two sample periods. Aggregate active
+    share is calculated as the AUM weighted active share across all institutional
+    investors. Active share is one-half times the sum of the absolute value of active
+    weights. Active weights are portfolio weights minus market weights within the
+    set of stocks held for each manager. This figure presents the yearly average of
+    quarterly aggregate active share. Data in the left panel are from Koijen and Yogo
+    (2019). Data in the right panel uses holdings data from FactSet. Aggregate active
+    share increased from approximately 0.30 to 0.45 between 1980 and 2018. The aggregate
+    active share among institutional investors has increased over time from 1980 to
+    2018.
+  60: 'The paper details: "Decomposition of change in the aggregate active share from
+    2007 to 2019. Aggregate active share is calculated as the AUM weighted active
+    share across all institutional investors. Active share is one-half times the sum
+    of the absolute value of active weights. Active weights are portfolio weights
+    minus market weights within the set of stocks held for each manager. The first
+    bar measures the total change in the active share. The remaining three bars decompose
+    the total change. The second bar measures the change that can be attributed to
+    changes in latent demand, the third due to changes in characteristics demand,
+    and the fourth due to changes in demand elasticities. Holdings data are from FactSet.
+    Firm-level fundamentals are from CRSP and Compustat." Furthermore, it provides
+    quantitative information through the range indicated: "0.000 to -0.075."'
+  63: "A.                                          \nEmpirical              app endix\n\
+    Holdings             data                                            We      \
+    \       build             a             panel             of             end-of-quarter\
+    \             equity             holdings             of             US      \
+    \       companies             using FactSet             13F             holdings\
+    \             data.                  Our             FactSet             holdings\
+    \             data             covers             the             p erio d   \
+    \          from             2000             Q1             until 2019       \
+    \       Q4.\n13F                   data                   are                \
+    \   from                   mandatory                   13F                   rep\
+    \ orts                   on                   US-traded                   equities\
+    \                   held                   by                   institutions managing\
+    \             more             than             $100             million     \
+    \        in             US-traded             securities.                  Data\
+    \             is             in             own                              \
+    \                                       inst             13f           detail\
+    \               eq.\nWe                  merge                  on           \
+    \       prices                  from                  own       sec          \
+    \ prices               eq                  and                  calculate    \
+    \              dollar                  values                  of            \
+    \      holdings                  for holdings              of              each\
+    \              security.\nWe           classify           institutions       \
+    \    into           typ es           using           FactSet\u2019s          \
+    \ investor                                                                   \
+    \                     sub               typ e           in        sym        \
+    \       entity.                  \nHedge Fund=AR,                    FH,     \
+    \               FF,                    FU,                    FS;            \
+    \        Broker=BM,                    IB,                    ST,            \
+    \        MM;                    \nPrivate                    Banking=CP,     \
+    \               FY,                    VC; Investment              Advisor=IC,\
+    \              RE,              PP,              SB,              MF;        \
+    \      Long-term=FO,SV,IN;.\nWe               construct               the    \
+    \           Household               sector               so               that\
+    \               total               holdings               of               institutions\
+    \               and               household are                equal         \
+    \       to                each                firms                market    \
+    \            cap.                        On                o ccasion,        \
+    \        total                holdings                of                institutions\
+    \                are                greater than              the            \
+    \  market              cap,              in              which              case\
+    \              we              prop ortionally              scale            \
+    \  back              all              institutions              holdings.\nWe\
+    \             split             investment             advisors             into\
+    \             four             groups.                  We             first \
+    \            split             investors             into             two    \
+    \         groups             of equal          size          in          a   \
+    \       given          quarter.                  Within          each        \
+    \  size          group,           we          split          investors       \
+    \   into          two          groups          which ab ove              and \
+    \             b elow              the              median              active\
+    \              share              in              a              given       \
+    \       quarter.                    The              active              share\
+    \              is              defined              as the                sum\
+    \                of                the                absolute               \
+    \ value                of                the                differences      \
+    \          b etween                the                actual                p\
+    \ ortfolio                weights                of                an investor\
+    \                   and                   a                   market-weighted\
+    \                   p ortfolio                   based                   on  \
+    \                 the                   sto cks                   held       \
+    \            by                   the                   same                 \
+    \  investor, divided              by              two              to        \
+    \      avoid              double-counting.\nWe              classify         \
+    \     the              outside              asset              as            \
+    \  any              firm              which              is              outside\
+    \              of              the              top              90%         \
+    \     of              market              cap. Any                 institution\
+    \                 which                 has                 less             \
+    \    that                 $1m                 in                 holdings    \
+    \             in                 the                 outside                 asset,\
+    \                  $10mm                 in                 total holdings,  \
+    \           or            has            less            than            10  \
+    \          holdings            in            a            given            quarter\
+    \            is            merged            into            the            household\
+    \            sector. \nFundamentals                  and                  prices\
+    \                                            We                  calculate   \
+    \               firm-level                  market                  capitalization\
+    \                  using                  FactSet prices              and    \
+    \          shares              outstanding              data.\nOur           \
+    \     construction                of                firm-level               \
+    \ fundamentals                largely                follows                the\
+    \                pro cedure                in                    Fama        \
+    \        and French              (2015).\nAccounting         data         are\
+    \         from         the         Compustat         Fundamentals         Annual\
+    \         and         Quarterly         Databases. \nWe             merge    \
+    \         the             CRSP             data             with             the\
+    \             most             recent             Compustat             data \
+    \            as             of             at             least             6\
+    \             months             and no                 more                 than\
+    \                 18                 months                 prior            \
+    \     to                 the                 trading                 date.   \
+    \                        The                 lag                 of          \
+    \       6                 months                 ensures                 that\
+    \                 the accounting              data              were         \
+    \     public              on              the              trading           \
+    \   date.\nWe                  restrict                  our                 \
+    \ sample                  of                  companies                  to  \
+    \                ordinary                  common                  shares    \
+    \              (share                  co des                  10,           \
+    \        11) that                trade                on                the  \
+    \              New                York                Sto ck                Exchange\
+    \                (NYSE),                the                American          \
+    \      Sto ck                Exchange,                 and Nasdaq            \
+    \  (exchange              co des              1,              2,             \
+    \ and              3).\u2022Dividends           to           b o ok          \
+    \ equity           is           the           ratio           of           annual\
+    \           dividends           p er           split-adjusted           share\
+    \           times shares              outstanding              to            \
+    \  b o ok              equity.\n\u2022Foreign              sales             \
+    \ share              is              calculated              using           \
+    \   Compustat              segments              data.\n\u2022Lerner         \
+    \     is              op erating              income              b efore    \
+    \          depreciation              minus              depreciation         \
+    \     divided              by              sales.\n\u2022Sales              to\
+    \              b o ok              is              sales              divded \
+    \             by              b o ok              equity"
+  65: " \nwhere \u03B21i = \u03BBgi \u2212 ci\u03BB\u03C1i + \u03BBYi , \u03F5i (n)\
+    \ = \u03BDgi (n) \u2212 ci\u03BD\u03B2i (n) + \u03BDYi (n), and mi = \u03B3\u2212\
+    \u2211 i \u2211\n1\nj \u03B3\u2212j = \u03C4iAj \u03C4j Aj , (29) given our assumption\
+    \ that \u03B3i = (\u03C4iAi )\u22121 . II.C. Asset prices with endogenous characteristics\
+    \ We now solve the model once more in the extended model as specified in equation\
+    \ (16). In vector notation, we have x(n) = h0 + h1M B (n) + \u03BDx (n). We substitute\
+    \ this expression into (28) and solve for the valuation ratio, (\u2211 )\u2032\
+    \ ) M B (n) = \u03A9 mi\u03B21i (h0 + \u03BDx (n)) + \u03A9 \u2211 mi\u03F5i (n)\
+    \ \u2212\u03A9 \u03C32 ( B (n\u2211 ) , (30) i i i \u03C4iAi where 1 \u03A9 =\
+    \ 1 \u2212(\u2211 i mi\u03B21i )\u2032 h1 . The solution (30) highlights an important\
+    \ identification challenge in estimating equation (16) as valuation ratios depend\
+    \ on \u03BDx (n). We therefore cannot estimate (16) and need to use an instrumental\
+    \ variables estimator instead. We implement this instrumental variables approach\
+    \ in Section V.D. C. A ridge-IV estimator of the demand curve III.A. Moment conditions\
+    \ We discuss how we modify the standard GMM moment conditions to impose a shrinkage\
+    \ penalty and how we choose the shrinkage target.\n"
+  66: "yaml\n\"Methodology\": \"The analysis is performed using a shrinkage estimator\
+    \ with a ridge penalty applied to moment conditions, with shrinkage targets based\
+    \ on institutional types with more than 750 observations.; A numerical algorithm\
+    \ is developed to solve non-linear moment conditions efficiently.; The shrinkage\
+    \ parameter, \u03BB, is determined using cross-validation, with \u03BB = 0.2 in\
+    \ the US and \u03BB = 0.3 in GB.; If the estimated \u03B2i,0 exceeds 1, the first\
+    \ element of \u039Bi is set to \u221E to impose \u03B20,i = 1.\": "
+  67: "The analysis involves a Taylor expansion of moment conditions and uses an iterative\
+    \ procedure to converge on estimates using valuation regressions and earnings\
+    \ predictability regressions. This is evident from: \"We then use a first-order\
+    \ Taylor expansion of the moment conditions around \u03B2(1)i ... We iterate on\
+    \ this procedure until convergence.\" and \"We show how our valuation regressions\
+    \ and earnings predictability regressions connect to traditional variance decompositions.\""

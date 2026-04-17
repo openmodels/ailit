@@ -1,0 +1,162 @@
+Drivers of Risk:
+  1: "The article identifies aleatory uncertainty\u2014irreducible uncertainty due\
+    \ to variability\u2014as a driver of economic damages from climate change."
+  2: High variability in global mean temperatures leads to substantial uncertainty
+    in economic damages.
+  3: The main drivers of risk are temperature trajectories influenced by different
+    RCP scenarios (RCP8.5, RCP6.0, RCP4.5, RCP2.6), internal temperature variability,
+    equilibrium climate sensitivity (ECS), and uncertainty about model parameters.
+  4: Temperature variability (aleatory uncertainty) and uncertainty in equilibrium
+    climate sensitivity (epistemic uncertainty).
+Evaluation overview:
+  2: Introduces the impact of variability on global mean temperatures (GMT) on economic
+    damages from climate change.
+  3: The paper evaluates damages in Trillions of USD and risk premium as a percentage
+    of current global output.
+  4: Economic damages from climate change, specifically considering the role of temperature
+    variability.
+Highlights:
+  1: The article highlights that even modest variability implies trillions of dollars
+    of previously unaccounted for economic damages.
+  2: The stochastic model predicts much greater uncertainty in future damages compared
+    to deterministic models, suggesting the benefits of adaptation are higher than
+    previously believed.
+  3: The risk premia associated with temperature variability are substantially higher
+    than previously estimated. Epistemic uncertainty about the climate's response
+    can magnify the cost of inter-annual and multi-decadal variability. Aleatory uncertainty
+    interacts with epistemic uncertainty.
+  4: Adding temperature variability to integrated assessment models results in greater
+    economic damages. Interaction between aleatory and epistemic uncertainty significantly
+    increases risk premia. Simple integrated assessment models may be poorly equipped
+    to deal with temperature autocorrelation and potentially underestimate the true
+    costs of temperature variability.
+Methodology:
+  1: The article outlines a method to account for aleatory uncertainty in a physically
+    well-founded and tractable way.
+  2: Describes using a stochastic model to account for variability in GMT and its
+    subsequent effect on economic damages.
+  3: The analysis uses a deterministic model and a stochastic model with ensembles
+    of 10,000 temperature trajectories. The stochastic model incorporates internal
+    variability and uncertainty about the ECS. A discount rate of 4.25% is used. The
+    results are applicable for assessing the cost of inter-annual temperature variability.
+  4: Uses a deterministic and stochastic energy balance model (EBM) with a distribution
+    of equilibrium climate sensitivity (ECS) values to generate temperature trajectories.
+    Risk premia are calculated as the difference in expected utility of damages between
+    the two ensembles. Assumes a discount rate of 4.25%. Considers the role of temperature
+    autocorrelation.
+More Notes:
+  3: "The risk premium measures the additional cost of living with aleatory uncertainty\
+    \ as compared to living in a deterministic world, while the social cost of carbon\
+    \ (SCC) measures the cost of releasing just one more tonne of CO2. The effect\
+    \ of ECS on the variance of temperature would be weaker if a fluctuation\u2013\
+    dissipation theorem applied."
+  4: The study suggests that adaptation may be more beneficial than previously believed.
+    The analysis uses a damage function and a social welfare function that have no
+    memory, meaning they depend on the shape of the temperature distribution, not
+    the individual trajectories. The authors acknowledge that their damage estimates
+    are likely conservative due to the high discount rate and the handling of temperature
+    autocorrelation.
+  5: This page primarily contains references, acknowledgements, competing interests
+    declaration, additional information links, author contributions, and publisher
+    information. It does not contain analysis results.
+Quantitative material:
+  2: Deterministic model forecasts $486 trillion in total damages for RCP8.5 scenario,
+    but stochastic model shows a 5% chance of exceeding $563 trillion.
+  3: The paper quantifies damages and risk premia under different RCP scenarios at
+    various future time points (2050, 2100, 2150, 2200). For example, with RCP8.5
+    forcings, the risk premium is +40% of current global output ($32 Trillion), and
+    with RCP2.6 forcings, the risk premium is +4% ($3 Trillion).
+  4: "Risk premia associated with aleatory uncertainty under different RCP scenarios:\
+    \ RCP8.5: 32Tr (Aleatory-only), 14Tr (Aleatory \xD7 Epistemic), 46Tr (total, 58%\
+    \ due to interaction). RCP6.0: 15Tr, 16Tr, 31Tr (39%). RCP4.5: 9Tr, 16Tr, 25Tr\
+    \ (31%). RCP2.6: 3Tr, 6Tr, 9Tr (11%)."
+sourcematerial:
+  1: " \n\"These models fail to account for the cost of aleatory uncertainty\u2014\
+    the irreducible uncertainty that remains even when the true parameter values are\
+    \ known.\"\n\"We show how to account for this second source of uncertainty in\
+    \ a physically well-founded and tractable way...\"\n\"...we demonstrate that even\
+    \ modest variability implies trillions of dollars of previously unaccounted for\
+    \ economic damages.\"\n"
+  2: 'Source material: The paper discusses that "Global climate models also exhibit
+    substantial internal variability...This variability means that even if we were
+    able to accurately predict the expectation of GMT...our forecast trajectory would
+    almost certainly miss the mark in any given year," highlighting the importance
+    of accounting for variability in evaluations (Evaluation overview, Drivers of
+    Risk). It also states, "The deterministic model forecasts $486 trillion in total
+    damages for the forcing scenario RCP8.5, but the stochastic model assigns a 5%
+    chance to damages exceeding $563 trillion," providing quantitative insights (Quantitative
+    material). The methodology is explained as using a stochastic model: "To capture
+    this type of uncertainty, we have to extend the standard deterministic model,"
+    which offers more comprehensive considerations over deterministic ones (Methodology).
+    A key highlight is, "Our findings instead point to the conclusion that the benefits
+    of adaptation are much greater than previously believed," emphasizing the need
+    for adaptive strategies given the model''s implications (Highlights).'
+  3: "yaml\nEvaluation overview: \"Damages...Risk Premium...measured both in current\
+    \ dollars and as a share of current global output.\" Drivers of Risk: \"Temperature\
+    \ trajectories produced by the deterministic model...with forcings taken from\
+    \ RCP8.5, 6.0, 4.5, and 2.6...internal variability...equilibrium climate sensitivity\
+    \ (ECS)...uncertainty about the true values of the model parameters (epistemic\
+    \ uncertainty).\" Quantitative material: \"RCP8.5...$32Tr...40%...RCP2.6...$3Tr...4%...The\
+    \ deterministic damages as well as the 5\u201395% range for the damage distribution\
+    \ are noted along the axis.\" Methodology: \"ensembles of 10,000 temperature trajectories...a\
+    \ discount rate of 4.25%...Supplementary Note 5 for a description of these calculations...how\
+    \ these two sources of uncertainty interact...cost of inter-annual temperature\
+    \ variability.\" Highlights: \"These risk premia are substantially higher than\
+    \ before...Epistemic uncertainty about the climate\u2019s response, then, can\
+    \ magnify the cost of inter-annual and multi-decadal variability...interaction\
+    \ of epistemic and aleatory uncertainties.\" More Notes: \"the risk premium is\
+    \ substantial, we may well face the distinction between the risk premia that we\
+    \ have estimated here and the marginal damage caused by releasing an additional\
+    \ tonne of CO2, the so-called social cost of carbon (SCC)...fluctuation\u2013\
+    dissipation theorem applied.\"\n"
+  4: "Source material here.\nEvaluation overview: \"Adding temperature variability\
+    \ to a simple integrated assessment model results in greater economic damages\
+    \ from climate change.\"\nDrivers of Risk: \"This risk interaction effect arises\
+    \ because a high draw from the ECS distribution produces both greater mean warming\
+    \ and greater variability, which makes the high draws disproportionately more\
+    \ costly.\"\nQuantitative material: \"RCP8.5: 32Tr (Aleatory-only), 14Tr (Aleatory\
+    \ \xD7 Epistemic), 46Tr (total, 58% due to interaction). RCP6.0: 15Tr, 16Tr, 31Tr\
+    \ (39%). RCP4.5: 9Tr, 16Tr, 25Tr (31%). RCP2.6: 3Tr, 6Tr, 9Tr (11%).\"\nMethodology:\
+    \ \"We first obtain an ensemble of temperature trajectories by solving the deterministic\
+    \ EBM for a distribution of values of the equilibrium climate sensitivity (ECS).\
+    \ ... The risk premia shown here are the difference between the expected utility\
+    \ of damages for the two ensembles.\"\nHighlights: \"Adding temperature variability\
+    \ to a simple integrated assessment model results in greater economic damages\
+    \ from climate change. ... The risk interaction effect arises because a high draw\
+    \ from the ECS distribution produces both greater mean warming and greater variability.\
+    \ ... Simple integrated assessment models were built with a deterministic climate\
+    \ in mind, of course, so it is not entirely surprising that they are poorly equipped\
+    \ to deal with the consequences of temperature autocorrelation.\"\nMore Notes:\
+    \ \"The SCC tells us about costs that society can avoid through abatement of the\
+    \ marginal tonne of CO2. The risk premium primarily tells us about costs that\
+    \ we need to prepare for because they cannot be avoided in this way. The way to\
+    \ avoid them, rather, is through adaptation.\"\n"
+  5: "Source material here. Acknowledgements D.A.S. acknowledges support from the\
+    \ Grantham Research Institute on Climate Change and the Environment at the London\
+    \ School of Economics, and the ESRC Centre for Climate Change Economics and Policy\
+    \ (CCCEP; ref. ES/R009708/1). S.C.C. acknowledges a Fulbright/Lloyd\u2019s of\
+    \ London Scholarship and STFC grant ST/T000252/1. S.C.C. and N.W.W. acknowledge\
+    \ the hospitality of the Santa Fe Institute, and R.C. acknowledges the hospitality\
+    \ of the Grantham Research Institute on Climate Change and the Environment at\
+    \ the London School of Economics. Author contributions R.C., S.C.C., D.A.S., and\
+    \ N.W.W. have made substantive contributions to every part of this research. Competing\
+    \ interests The authors declare no competing interests. Additional information\
+    \ Supplementary information is available for this paper at https://doi.org/10.1038/s41467-020-18797-8.\
+    \ Correspondence and requests for materials should be addressed to R.C. Peer review\
+    \ information Nature Communications thanks the anonymous reviewer(s) for their\
+    \ contribution to the peer review of this work. Reprints and permission information\
+    \ is available at http://www.nature.com/reprints Publisher\u2019s note Springer\
+    \ Nature remains neutral with regard to jurisdictional claims in published maps\
+    \ and institutional affiliations. Open Access This article is licensed under a\
+    \ Creative Commons Attribution 4.0 International License, which permits use, sharing,\
+    \ adaptation, distribution and reproduction in any medium or format, as long as\
+    \ you give appropriate credit to the original author(s) and the source, provide\
+    \ a link to the Creative Commons license, and indicate if changes were made. The\
+    \ images or other third-party material in this article are included in the article\u2019\
+    s Creative Commons license, unless indicated otherwise in a credit line to the\
+    \ material. If material is not included in the article\u2019s Creative Commons\
+    \ license and your intended use is not permitted by statutory regulation or exceeds\
+    \ the permitted use, you will need to obtain permission directly from the copyright\
+    \ holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.\
+    \ \xA9 The Author(s) 2020 NATURE COMMUNICATIONS | (2020) 11:5028 | https://doi.org\
+    \ /10.1038/s41467-020-18797-8 | www.nature.com/naturecommunications 5."

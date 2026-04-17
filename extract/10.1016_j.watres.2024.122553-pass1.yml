@@ -1,0 +1,312 @@
+Drivers of Risk:
+  1: Cyanobacterial blooms are driven by nutrient over-enrichment and rising temperatures
+    due to global warming.
+  3: Cyanobacterial blooms are impacted by variables such as temperature, which integrates
+    information about other factors like residence time and precipitation affecting
+    the water regime.
+  4: The drivers considered include past values of PC fluorescence, temperature (TEMP),
+    and chlorophyll-a (CHLA) concentrations.
+  6: Abrupt increases in CHLA and PC levels during spring and autumn are associated
+    with blooming events, which are highly variable in magnitude and timing.
+  7: The drivers of risk include temperature (TEMP) and chlorophyll a (CHLA) influencing
+    phycocyanin (PC) peaks.
+  9: Substantial increases in phytoplankton concentration (PC) levels.
+Evaluation overview:
+  1: The paper evaluates the effectiveness of an Early Warning System (EWS) for cyanobacterial
+    bloom forecasting.
+  4: The study evaluates the performance of different time series forecasting models
+    for predicting PC (phycocyanin) fluorescence, an indicator of cyanobacterial blooms.
+  6: No evaluation of outcomes like mortality or productivity loss is provided on
+    this page.
+  7: The analysis focuses on forecasting models' accuracy in predicting phycocyanin
+    (PC) levels, critical for evaluating climate impacts such as algal blooms.
+  8: No specific outcome such as mortality or productivity loss is evaluated; rather,
+    the focus is on prediction model accuracy for Phycocyanin levels.
+  9: This paper proposes an alert system to forecast phytoplankton concentration (PC)
+    between 4 and 28 days in advance.
+Highlights:
+  1: The multivariate version of LSTM showed consistent results, successfully forecasting
+    blooms 16 to 28 days in advance with positive skill values.
+  2: Proposes an effective early warning system (EWS) for forecasting cyanobacterial
+    blooms overcoming limitations of existing models, offering versatility for effective
+    management and increased time for management measures.
+  4: The study aims to determine if the increased complexity of newer models like
+    LSTM is justified by improved predictive capability compared to simpler models
+    like LR and RF. The study selected various data preprocessing techniques, feature
+    sets, and model settings to maximize forecasting performance.
+  5: The use of forecast Skill Score (SS) demonstrates the improvement in forecasts
+    compared to replicating the last observed value.
+  6: The selection depth impacts time-series effectiveness as certain cyanobacterial
+    genera accumulate at varying depths.
+  7: LSTM networks demonstrated the best overall accuracy in terms of timing, particularly
+    outperforming other models beyond the 16-20 day forecasting horizon; multivariate
+    LSTM presented a stable performance across all horizons.
+  8: Multivariate LSTM model is notably effective in maintaining high accuracy across
+    multiple forecasting horizons compared to other models.
+  9: An effective alert system is proposed to forecast PC concentrations between 4
+    and 28 days in advance. Data exploration and pre-processing played a key role
+    in reaching meaningful time series for the forecasting of substantial increases
+    in PC levels. The approach is flexible and easily replicable, so users can adapt
+    it to their specific datasets and objectives.
+  11: For longer forecast horizons (> 2 weeks), LSTM models provided the best performance.
+Methodology:
+  1: The analysis uses Long-Term Short-Term (LSTM) neural networks with high-frequency
+    spatio-temporal data from multiparametric probes for predicting cyanobacterial
+    blooms.
+  2: The analysis introduces non-site/species-specific models trained on data from
+    a multiparametric probe on a water column profiler, uses biologically guided pre-processing,
+    includes a comparison of different models, and evaluates models using a hybrid
+    method combining quantitative and qualitative metrics.
+  3: The analysis involves data exploration, forecasting using statistical techniques
+    (e.g., Linear Regression, Random Forest, LSTM), and support for decision-making
+    through a structured monitoring process.
+  4: The study compares autoregressive and multivariate versions of Linear Regression
+    (LR), Random Forest (RF), and Long Short-Term Memory (LSTM) networks. They normalized
+    all variables (scaled between 0 and 1) and used spline interpolation for most
+    parameters and linear interpolation for CHLA.
+  5: The analysis involves regression and classification metrics assessed through
+    a rolling forecast approach, using past and present observations with specified
+    forecasting horizons.
+  6: A 4-day interval was set for time-series generation, using maximum and mean values
+    for predicting cyanobacterial blooms in a water body, considering the entire water
+    column.
+  7: The analysis utilizes predictive models (LR, RF, LSTM) and assesses their performance
+    based on timing, magnitude, and shape across multiple forecasting horizons.
+  8: Analysis performed using prediction models (autoregressive/multivariate LR, RF,
+    and LSTM) to forecast Phycocyanin levels over multiple horizons (4 to 28 days).
+  9: The paper uses autoregressive and multivariate Linear Regression (LR), Random
+    Forest (RF), and LSTM neural network models to forecast PC concentrations and
+    alarm levels. Models are evaluated using MSE, R2, MAPE, Skill (for PC concentrations),
+    Accuracy, Cohen's Kappa, and F1 score (for alarm levels).
+  11: Models were compared using traditional regression and classification metrics
+    as well as forecasting-specific metrics.
+More Notes:
+  1: The use of phycocyanin fluorescence as a proxy for cyanobacteria is integral
+    to the predictive model.
+  6: The page includes visual data analysis through heatmaps of temperature, phycocyanin,
+    and chlorophyll a over time and depth.
+Quantitative material:
+  1: Accuracies of up to 90% in predicting the proposed phycocyanin (PC) alarm level.
+  4: The study uses a 50/50 split of the data for training and testing and considers
+    data from the 12 previous days as input for some models, and four months of data
+    for other models.
+  5: Evaluation metrics like MSE, R2, MAPE, SS, and classification metrics like Accuracy,
+    F1 score, and Cohen's Kappa are used to provide quantitative performance assessments.
+  6: "TEMP has a mean of 12 \xBAC with a minimum of around 1 \xBAC and a maximum of\
+    \ around 25 \xBAC."
+  7: Correlation coefficients range from 0.5 to 0.9 for integrated vs. maximum time
+    series, importance of timing and magnitude in model predictions, and the performance
+    of various models across forecasting horizons highlights quantitative metrics
+    such as MSE, MAPE, and R2, with model accuracies ranging between 0.7 and 0.9.
+  8: The multivariate LSTM model maintains accuracies around 90% for all horizons,
+    while other models show accuracies close to or above 80%.
+  9: Provides MSE, R2, MAPE, and Skill scores for PC concentration forecasts at horizons
+    of 4 to 28 days, and Accuracy, Cohen's Kappa, and F1 Score for alarm level predictions.
+  11: LSTM models showed positive skills up to 25% for the longest horizons.
+sourcematerial:
+  1: 'Source material here.
+
+    Evaluation overview: "Early Warning Systems (EWS) for cyanobacterial blooms development
+    allow timely implementation of management measures, reducing the risks associated
+    to these blooms."
+
+    Drivers of Risk: "Cyanobacteria can form dense blooms in aquatic systems... increasing
+    nutrient over-enrichment in aquatic systems due to anthropogenic activities, coupled
+    with rising temperature due to global warming, has resulted in optimal conditions
+    for an increase in cyanobacterial growth rates."
+
+    Quantitative material: "The multivariate version of LSTM showed the best and most
+    consistent results across all forecasting horizons and metrics, achieving accuracies
+    of up to 90% in predicting the proposed PC alarm level."
+
+    Methodology: "In this paper, we propose an effective EWS for cyanobacterial bloom
+    forecasting, which uses 6 years of incomplete high-frequency spatio-temporal data
+    from multiparametric probes, including phycocyanin (PC) fluorescence as a proxy
+    for cyanobacteria."
+
+    Highlights: "Additionally, positive skill values indicated its outstanding effectiveness
+    to forecast cyanobacterial blooms from 16 to 28 days in advance."
+
+    More Notes: "Fluorescence probes have gained popularity as they provide a reliable
+    proxy for the cyanobacterial presence through chlorophyll a (CHLA) and phycocyanin
+    (PC) estimates."
+
+    '
+  2: "yaml\nMethodology: \"\u2022It is supported by non-site/species-specific models\
+    \ trained on data obtained from a multiparametric probe mounted on a water column\
+    \ profiler instead of relying solely on surface measurements, allowing for the\
+    \ monitoring of vertical distribution patterns and their temporal variability.\
+    \ \u2022It employs biologically guided pre-processing of incomplete high-frequency\
+    \ data using PC as the bloom proxy to ensure flexibility and replicability with\
+    \ data from other probes. \u2022It includes a comparison of six different models,\
+    \ each evaluated using the same dataset. ... \u2022It is evaluated through a hybrid\
+    \ method, which combines traditional quantitative metrics with a qualitative alert\
+    \ level system and a holistic skill metric, applied over multiple temporal forecasting\
+    \ horizons.\"\nHighlights: \"The main aim of this paper is to propose an effective\
+    \ EWS for forecasting cyanobacterial blooms which overcomes the limitations of\
+    \ existing models. ... By addressing the limitations of current models, this paper\
+    \ provides a versatile option for effective management, adding increased time\
+    \ for the implementation of management measures to reduce the risk associated\
+    \ with cyanobacterial blooms.\"\n"
+  3: 'yaml
+
+    Drivers of Risk: "TEMP represented one of the most remarkable variables influencing
+    cyanobacterial blooms (Paerl et al., 2008). This variable is assumed to have great
+    capacity to integrate information on how other variables affect the water regime
+    (e.g., residence time and precipitation can affect mixing regimes or stratification
+    patterns, which, in turn, can impact and be reflected in the temperature throughout
+    the water column), making it a good parameter to consider."
+
+    Methodology: "Scheme 1. Workflow followed in this paper."
+
+    '
+  4: 'Source material here.
+
+    The study evaluates the performance of different time series forecasting models
+    for predicting PC (phycocyanin) fluorescence, an indicator of cyanobacterial blooms:
+    "The autoregressive and multivariate versions of three types of time series forecasting
+    models, ranging from classic to state-of-the-art models, were selected and compared
+    in terms of interpretability and performance."
+
+    The drivers considered include past values of PC fluorescence, temperature (TEMP),
+    and chlorophyll-a (CHLA) concentrations: "Only PC was considered in the autoregressive
+    model, and both CHLA and TEMP were incorporated in the multivariate version."
+
+    The study uses a 50/50 split of the data for training and testing and considers
+    data from the 12 previous days as input for some models, and four months of data
+    for other models: "The 50/50 split was chosen to include, within the testing set,
+    the blooming period of October 2013, where high levels of PC fluorescence were
+    observed... considering a maximum of four months of data as input, for making
+    predictions."
+
+    The study compares autoregressive and multivariate versions of Linear Regression
+    (LR), Random Forest (RF), and Long Short-Term Memory (LSTM) networks. They normalized
+    all variables (scaled between 0 and 1) and used spline interpolation for most
+    parameters and linear interpolation for CHLA: "On one hand, LR was selected as
+    an effective model for data exhibiting linear relationships... As with previous
+    models, a scaling encoder was applied to normalize all variables (scaled between
+    0 and 1)...
+
+    The study aims to determine if the increased complexity of newer models like LSTM
+    is justified by improved predictive capability compared to simpler models like
+    LR and RF. The study selected various data preprocessing techniques, feature sets,
+    and model settings to maximize forecasting performance: "A comparison was performed
+    to determine whether the increased complexity of newer models, such as Long Short-Term
+    Memory (LSTM) networks, is justified by improving the predictive capability with
+    respect to streamlined models, such as Linear Regressions (LR), and models of
+    intermediate complexity, such as the Random Forest (RF)."
+
+    '
+  5: 'yaml
+
+    Methodology: "The evaluation was conducted using a rolling forecast approach (Liu
+    et al., 2021) where both past and present observations, along with the forecasting
+    horizon, were consid- ered within a moving window to make predictions for the
+    following period."
+
+    Quantitative material: "These metrics include Mean Absolute Percentage Error (MAPE),
+    Mean Squared Error (MSE), and the coefficient of determination R2 (Hyndman and
+    Koehler, 2006). In addition, we propose the introduction of the forecast Skill
+    Score (SS, Prado-Rujas et al., 2021) a specific forecasting metric..."
+
+    Highlights: "The SS represents the capability of the forecast to outperform the
+    simple replication of the last observed value."
+
+    '
+  6: "yaml\nValues started increasing in spring until the end of summer, when maximum\
+    \ TEMP gradient is observed. CHLA and PC levels tended to experience abrupt increases\
+    \ during the spring and autumn months, respectively, associated to blooming events.\
+    \ However, the magnitude and timing of these increases were highly variable...TEMP\
+    \ displayed a particular distribution with three predominant ranges, a mean of\
+    \ 12 \xBAC, and a minimum and maximum around 1 \xBAC and 25 \xBAC, respectively...The\
+    \ temporal granularity was finally set to a 4-day interval for both the maximum\
+    \ and integrated dataset. This granularity was chosen to minimize the number of\
+    \ gaps in the data without compromising relevant information through excessive\
+    \ data smoothing...the entire water column was considered for the generation of\
+    \ both time series, the one of maximum values and the one of integrated values...it\
+    \ is crucial at this stage to observe the depth at which maximum values occur\
+    \ as certain cyanobacterial genera tend to accumulate closer to the thermocline\
+    \ whose position can vary over time and should not be excluded from the analysis...Temporal\
+    \ (X-axis) and spatial (Y-axis) evolution of temperature (\xBAC), phycocyanin,\
+    \ and chlorophyll a (\u03BC g/L).\n"
+  7: 'yaml
+
+    Evaluation overview: "Predictions for PC levels over different forecasting horizons
+    for all models...are displayed in Fig. 5...Overall accuracy of predictions ranged
+    between 0.7 and 0.9."
+
+    Drivers of Risk: "Incorporating exogenous covariates such as CHLA and TEMP improve
+    RF predictions...the LSTM network had the best overall accuracy in terms of timing."
+
+    Quantitative material: "correlation coefficients for each parameter were high,
+    ranging from 0.5 to 0.9...Results of regression metrics, used to assess the capability
+    of the models to predict PC values across different forecasting horizons, are
+    shown in Fig. 6. Overall, a consistent pattern of loss in performance with higher
+    horizons was observed across all metrics...The overall accuracy of predictions
+    ranged between 0.7 and 0.9."
+
+    Methodology: "Predictions for PC levels over different forecasting horizons for
+    all models and versions (autoregressive and multivariate) are displayed in Fig.
+    5. A total of 6 models and 42 predictions are depicted in this figure...In this
+    section, first, a qualitative assessment by visual inspection of the results,
+    focusing not just on the overall fit of the predictions but also on the timing,
+    magnitude, and shape of PC peak predictions, is performed."
+
+    Highlights: "Finally, the LSTM network had the best overall accuracy in terms
+    of timing. This is the only model where all the predicted peaks occurred within
+    the same bloom periods as the real peaks...Notably, the multivariate LSTM demonstrated
+    consistency, with stable MSE and MAPE across forecasting horizons, standing out
+    as the only model that was able to achieve this robust behavior."
+
+    '
+  8: 'Source material: The multivariate version of LSTM was able to maintain accuracies
+    around 90% for all horizons. The multivariate version of all models maintained
+    accuracies close to and above 80%, even at long forecasting horizons. The analysis
+    used prediction models (autoregressive/multivariate LR, RF, and LSTM) to forecast
+    Phycocyanin levels, focusing on the performance of these models over forecasting
+    horizons of 4 to 28 days. This emphasizes the effectiveness of the multivariate
+    LSTM model in maintaining high accuracy across multiple forecasting horizons compared
+    to other models.'
+  9: 'Source material here.
+
+    In this paper an effective alert system is proposed to forecast PC concentrations
+    between 4 and 28 days in advance.
+
+    The image consists of four line graphs displaying the performance metrics of different
+    forecasting models over varying forecasting horizons from 4 to 28 days.
+
+    In addition, the page has the following images, as described below:...
+
+    The autoregressive and multivariate LR (LR-ar, LR-multi), RF (RF-ar, RF-multi),
+    and LSTM neural network (LSTM-ar, LSTM-multi). MSE: Mean squared error; R2: determination
+    coefficient; MAPE: mean absolute percentage error; Skill:
+
+    granularity, as well as the best statistical measurement,...As this approach is
+    flexible and easily replicable, users can adapt it to their specific datasets
+    and objectives.
+
+    '
+  11: 'Source material here.
+
+    Models were proposed and studied including the autoregressive and multivariate
+    versions of LR, RF, and the LSTM neural network. To ensure comparability, all
+    of them had access to the same data set, but for each of them, optimal configurations
+    were chosen in terms of input and parameters considered.
+
+
+    This helped to assess how well the models could predict PC concentration and the
+    proposed alert level. For short forecast horizons (i.e., < 2 weeks), highly reactive
+    models such as LR performed better according to the metrics, but they lacked anticipatory
+    capability.
+
+
+    For longer forecasting horizons (i.e., > 2 weeks), LSTM models provided the best
+    performance in all the evaluations performed.
+
+
+    Moreover, LSTM model provided outstanding results when using PC and TEMP variables
+    as inputs showing consistent results across all forecasting horizons, achieving
+    an R2 greater than 0.6 for PC concentration prediction, accuracies up to 0.9 for
+    the alarm level prediction, and positive skills up to 25% for the longest horizons.
+
+    '
