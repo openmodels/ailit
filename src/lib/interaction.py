@@ -14,7 +14,7 @@ def chat_push(chat, role, content):
 def get_action(chat, allowed):
     for attempt in range(3):
         response = aiengine.chat_response(chat)
-        matches = re.findall(r'\[([A-Za-z0-9./ ()]+)\]', response, re.DOTALL)
+        matches = re.findall(r'\[([A-Za-z0-9./ ()<>,-]+)\]', response, re.DOTALL)
         if len(matches) == 0:
             chat = chat_push(chat_push(chat, 'assistant', response), 'user', "Sorry, I could not find an action choice. Can you try again?")
             aiengine.failure()
@@ -27,7 +27,7 @@ def get_action(chat, allowed):
             chat = chat_push(chat_push(chat, 'assistant', response), 'user', "Sorry, this action does not appear to be one of the allowed ones. Can you try again?")
             aiengine.failure()
             continue
-
+        
         aiengine.success()
         return matches[0]
 
