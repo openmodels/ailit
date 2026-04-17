@@ -24,9 +24,11 @@ Here is a description of the columns:
 {columninfo}
 
 And here are the rows for you to harmonize:
+```
 {datainfo}
+```
 
-Do not modify the `sourcematerial` column, except to add to it if relevant information is being dropped from other columns in the harmonization process.
+Do not modify the `sourcematerial` column(s), except to add to it if relevant information is being dropped from other columns in the harmonization process.
 Do not drop any rows, and be sure to keep the rows in the same order.
 
 Specify the result as a CSV, provided in triple quotes. Your response should look like this:
@@ -42,14 +44,17 @@ Specify the result as a CSV, provided in triple quotes. Your response should loo
             return None
         newrows = pd.DataFrame(newrows)
         response = newrows.to_csv(index=False)
-        if len(newrows) < len(df):
+        if len(newrows) != len(rows):
+            print(f"{len(newrows)} != {len(rows)}")
             chat = interaction.chat_push(interaction.chat_push(chat, 'assistant', f"```{response}```"), 'user', "Sorry, the number of rows does not match the original. Please include all rows.")
             newrows = None
             continue
-        if np.any(newrows.DOI != df.DOI):
+        if np.any(newrows.DOI.values != rows.DOI.values):
+            print(f"{newrows.DOI.values} != {rows.DOI.values}")
             chat = interaction.chat_push(interaction.chat_push(chat, 'assistant', f"```{response}```"), 'user', "Sorry, but the DOI column did not exactly match the original. Please do not change the order and keep the same formatting for this column.")
             newrows = None
             continue
+        break
 
     return newrows
 
@@ -62,20 +67,26 @@ def harmonize_rows(rows, instructs, request, columnsets, common_sourcematerial):
             instructs2['sourcematerial'] = ["Provide quotes or evidence from the contributing source material that justifies or provides necessary context for the results you gave."]
 
             subcols = harmonize_rows_subcols(rows[['DOI'] + columns + ['sourcematerial']], instructs2, request)
-            if subcols:
-                subcols = subcols.drop(columns=['sourcematerial'])
+            if subcols is not None:
+                subcols = subcols.drop(columns=['DOI', 'sourcematerial'])
         else:
             instructs2 = {}
             allcols = ['DOI']
             for column in columns:
                 instructs2[column] = instructs[column]
                 allcols.append(column)
-                if columns + '-sourcematerial' in rows.columns:
-                    instructs2[column + '-sourcematerial'] = f"Provide source material evidence for {column}."
+                if column + '-sourcematerial' in rows.columns:
+                    instructs2[column + '-sourcematerial'] = [f"Provide source material evidence for {column}."]
                     allcols.append(column + '-sourcematerial')
                     
             subcols = harmonize_rows_subcols(rows[allcols], instructs2, request)
+            if subcols is not None:
+                for column in columns:
+                    if column + '-sourcematerial' in subcols.columns:
+                        subcols = subcols.drop(columns=[column + '-sourcematerial'])
+                subcols = subcols.drop(columns=['DOI'])
         if subcols is None:
+            print("harmonize_rows failed")
             return None
         
         harmonized.append(subcols)
@@ -83,10 +94,12 @@ def harmonize_rows(rows, instructs, request, columnsets, common_sourcematerial):
         
     if common_sourcematerial:
         harmonized.insert(0, rows[[col for col in rows.columns if col not in allinsets and col != 'sourcematerial']])
-        harmonized.append([rows['sourcematerial']])
+        harmonized.append(rows[['sourcematerial']])
     else:
-        harmonized.insert(0, rows[[col for col in rows.columns if '-sourcematerial' in col and col not in allinsets]])
-    pd.concat(harmonized, axis=1)
+        harmonized.insert(0, rows[[col for col in rows.columns if '-sourcematerial' not in col and col not in allinsets]])
+        harmonized.append(rows[[col for col in rows.columns if '-sourcematerial' in col and col not in allinsets]])
+
+    return pd.concat(harmonized, axis=1)
 
 def harmonize_draw_rows(df, passdf, maxrows):
     if maxrows <= 3:
@@ -122,13 +135,14 @@ def harmonize_loop(df, passdf, instructs, request, columnsets, common_sourcemate
     result = harmonize_rows(rows, instructs, request, columnsets, common_sourcematerial)
     if result is None:
         return None # unchanged
-        
-    for jj in len(iis):
+
+    for jj in range(len(iis)):
         if iis[jj] >= len(df):
             continue
-        row = result.iloc[jj]
-        row['HarmonizeCount'] = df.HarmonizeCount.iloc[iis[jj]] + 1
-        df.iloc[ii] = row
+        row = result.iloc[jj].copy()
+        for column in result.columns:
+            df.loc[iis[jj], column] = row[column]
+        df.loc[iis[jj], 'HarmonizeCount'] = df.HarmonizeCount.iloc[iis[jj]] + 1
 
     return df
 
@@ -152,6 +166,7 @@ for dopass in range(dopass_count):
         if os.path.exists(detailpath):
             try:
                 rows = pd.read_csv(detailpath)
+                rows['DOI'] = doi
                 rows = rows.loc[:, ~rows.columns.str.startswith('Unnamed')]
                 passdetaileds.append(rows)
             except Exception as ex:
@@ -188,7 +203,6 @@ if __name__ == '__main__':
         
         df = merged_harmonized[key]
         sumcount = df.SummaryCount
-        print(df.columns)
         result = harmonize_loop(df.drop(columns=['SummaryCount']), passdf_summaries, instructs, "Please summarize the following features of the paper.", summary_harmonize_columnsets, False)
         if result is not None:
             result['SummaryCount'] = sumcount

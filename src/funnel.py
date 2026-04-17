@@ -15,6 +15,8 @@ for search in searches:
 
 responses = pd.read_csv(response_file)
 for index, row in responses.iterrows():
+    if row['DOI'] not in doiinfo:
+        doiinfo[row['DOI']] = {}
     info = doiinfo[row['DOI']]
     if 'responses' not in info:
         info['responses'] = [row.Source]
@@ -65,7 +67,7 @@ for dopass in range(dopass_count):
         if 'summary' not in doiinfo[doi]:
             doiinfo[doi]['summary'] = []
         row = summaries[summaries.DOI == doi].iloc[0]
-        if row[extract_fromsummary] in column_defs_extract:
+        if extract_fromsummary == 'All' or row[extract_fromsummary] in column_defs_extract:
             doiinfo[doi]['summary'].append("Summarized")
         else:
             doiinfo[doi]['summary'].append("Dropped")
@@ -75,10 +77,18 @@ for suffix in merge_suffix.values():
         summaries = pd.read_csv(summary_file.replace(".csv", suffix + ".csv"))
         for doi in pd.unique(summaries.DOI):
             doiinfo[doi]['mergesum'] = doiinfo[doi].get('mergesum', 0) + 1
+    if os.path.exists(summary_file.replace(".csv", suffix + "-harmonized.csv")):
+        summaries = pd.read_csv(summary_file.replace(".csv", suffix + "-harmonized.csv"))
+        for doi in pd.unique(summaries.DOI):
+            doiinfo[doi]['harmonizesum'] = doiinfo[doi].get('harmonizesum', 0) + 1
     if os.path.exists(merge_extract_file.replace(".csv", suffix + ".csv")):
         extracts = pd.read_csv(merge_extract_file.replace(".csv", suffix + ".csv"))
         for doi in pd.unique(extracts.DOI):
             doiinfo[doi]['mergeext'] = doiinfo[doi].get('mergeext', 0) + 1
+    if os.path.exists(merge_extract_file.replace(".csv", suffix + "-harmonized.csv")):
+        extracts = pd.read_csv(merge_extract_file.replace(".csv", suffix + "-harmonized.csv"))
+        for doi in pd.unique(extracts.DOI):
+            doiinfo[doi]['harmonizeext'] = doiinfo[doi].get('harmonizeext', 0) + 1
 
 ## Make counts
 allinfo = []
@@ -95,7 +105,9 @@ for doi, info in doiinfo.items():
            ("Dropped" + str(info.get('summary', []).count("Dropped")) if "Dropped" in info.get('summary', []) else ""),
            "Detailed" + str(info['details']) if info.get('details', 0) > 0 else "",
            "MergedSummary" + str(info['mergesum']) if info.get('mergesum', 0) > 0 else "",
-           "MergedExtract" + str(info['mergeext']) if info.get('mergeext', 0) > 0 else ""]
+           "MergedExtract" + str(info['mergeext']) if info.get('mergeext', 0) > 0 else "",
+           "HarmonizeSummary" + str(info['harmonizesum']) if info.get('harmonizesum', 0) > 0 else "",
+           "HarmonizeExtract" + str(info['harmonizeext']) if info.get('harmonizeext', 0) > 0 else ""]
     allinfo.append(" ".join(lst))
     lst = ["Search" if 'search' in info else "SourceUnknown",
            "Verdict" if 'verdict' in info else "",
@@ -103,7 +115,8 @@ for doi, info in doiinfo.items():
            "Browsing" if info.get('transcript', False) else "",
            "Summarized" if "Summarized" in info.get('summary', []) else "",
            "Detailed" if info.get('details', 0) > 0 else "",
-           "Merged" if info.get('mergeext', 0) > 0 else ""]
+           "Merged" if info.get('mergeext', 0) > 0 else "",
+           "Harmonized" if info.get('harmonizeext', 0) > 0 else ""]
     suminfo.append(" ".join(lst))
 
 print("Detailed Funnel:")
