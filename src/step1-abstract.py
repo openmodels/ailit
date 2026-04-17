@@ -34,7 +34,9 @@ def submit_single_abstract_gemini(doi, title, abstract, keywords):
 
 knowndoi_gemini, knowndoi_openai = get_knowns(response_file)
 
+anymore = False
 def get_prompts(knowndoi, searches, maxcount):
+    global anymore
     prompts = {}
     count = 0
     for search in searches:
@@ -44,10 +46,12 @@ def get_prompts(knowndoi, searches, maxcount):
                 count += 1
                 if count == maxcount:
                     break
+    if len(prompts) > 0:
+        anymore = True
     return prompts
 
 if openai_config == 'batch':
-    responses = openai_batch.main_flow(openaigpt.client, response_file + "-batch.jsonl", "../waiting.pkl", lambda: get_prompts(knowndoi_openai, searches, count_perrun))
+    responses = openai_batch.main_flow(openaigpt.client, response_file + "-batch.jsonl", "../waiting.pkl", lambda: get_prompts(knowndoi_openai, searches, abstract_count))
     for doi, response in responses.items():
         knowndoi_openai.add(doi)
         add_response(response_file, doi, 'openai', response)
@@ -70,11 +74,15 @@ for search in searches:
             add_response(response_file, row['DOI'], 'openai', response)
             knowndoi_openai.add(row['DOI'])
             count += 1
-        if count >= collate_count:
+        if count >= abstract_count:
+            anymore = True
             break
 
 if openai_config == 'batch':
-    responses = openai_batch.main_flow(openaigpt.client, response_file + "-batch.jsonl", "waiting.pkl", lambda: get_prompts(knowndoi_openai, searches, count_perrun))
+    responses = openai_batch.main_flow(openaigpt.client, response_file + "-batch.jsonl", "waiting.pkl", lambda: get_prompts(knowndoi_openai, searches, abstract_count))
     for doi, response in responses.items():
         knowndoi_openai.add(doi)
         add_response(response_file, doi, 'openai', response)
+
+if not anymore:
+    print("No more abstracts to process.")

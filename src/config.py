@@ -16,6 +16,8 @@ exclude_codes = {'XG': "Not GDP growth (studying a different dependent variable)
 include_codes = {'PG': "Plausibly includes global econometric results on GDP growth",
                  'PP': "Plausibly includes estimates of the persistence of GDP impacts"}
 
+# filter_config = {'MinYear': 2022}
+
 ## Question
 questionsource = verdict_file.replace(".csv", "-further.csv")
 singlequestion = "Based on this information, does this paper describe outcomes driven by climate change (that is, all the effects that come from increased greenhouse gas concentrations, such as increased temperatures and other weather changes), as opposed to the effects of climate policy? I do *not* want to consider reductions in losses that are driven by mitigation policy alone."
@@ -25,6 +27,7 @@ question_file = "../test/question.csv"
 priority_limit = 8
 pdfs_dir = "../pdfs"
 finder_count = 25
+refresh_days = 60
 
 ## Extract data from PDFs
 extract_dir = "../test/extract"
@@ -39,10 +42,10 @@ summary_count = 25
 summary_file = "../test/summary.csv"
 column_defs_summary = {'All': {
     'Author(s)': lambda row, xtt: commands.short_authors(row['Authors']),
-    'Year': lambda row, xtt: row['Year'],
-    'Paper Title': lambda row, xtt: row['Title'],
+    'Year': lambda row, xtt: (row['Year'], None),
+    'Paper Title': lambda row, xtt: (row['Title'], None),
     'Link to paper': "LINK",
-    'Paper ID': lambda row, xtt: row['DOI'],
+    'Paper ID': lambda row, xtt: (row['DOI'], None),
     'Reviewer': "AI",
     'Status': "STATUS",
     'NEXT': lambda row, xtt: commands.ai_select(xtt, "Does this paper produce new econometric results describing GDP growth rates or the extent of persistence?", ['Methodology'], ['', 'Growth', 'Persistence', 'Both'], abstract_prompt)},
@@ -144,3 +147,11 @@ merge_columns = {'Growth': {
                      'Adaptation considered': "How and to what extent is adaptation considered? Just provide brief notes, avoiding statements that start 'Adaptation is considered...'.",
                      'More Notes': "Do you have any other notes?"
                  }}
+
+harmonize_count = 10
+harmonize_maxrows = 10
+harmonize_maxchars = 32 * 1024
+summary_harmonize_columnsets = [["Innovation", "Concerns", "More Notes"],
+                                ["Methodology", "Econometric Method", "Adaptation considered"]]
+extract_harmonize_columnsets = [["Variable", "Definition", "Units", "Value", "SE"],
+                                ["Result Source", "More Notes"]]

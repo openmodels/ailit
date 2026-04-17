@@ -33,8 +33,13 @@ def interpret_response(response):
     return ("Ambiguous", 3)
 
 if question_file:
-    passfail_df = pd.read_csv(question_file)
-    passfail = {row['DOI']: row['Outcome'] for index, row in passfail_df.iterrows()}
+    if not os.path.exists(question_file):
+        print("Missing " + question_file + ". Ignoring.")
+        passfail = {}
+    else:
+        passfail_df = pd.read_csv(question_file)
+        passfail_df2 = passfail_df.groupby('DOI')['Outcome'].apply(determine_passfail).reset_index()
+        passfail = {row['DOI']: row['Outcome'] for index, row in passfail_df2.iterrows()}
 else:
     passfail = {}
 
@@ -130,7 +135,7 @@ with open(verdict_file.replace(".csv", "-further.csv"), 'w') as fp:
     writer = csv.writer(fp)
     writer.writerow(['DOI', 'Title', 'Abstract', 'Gemini Response', 'OpenAI Response', 'Gemini Verdict', 'OpenAI Verdict', 'Common Verdict', 'Priority', 'Pass-Fail', 'PDF Found'])
     for search in searches:
-        for row in iterate_search(search):
+        for row in iterate_search(search, filter_config):
             if row['DOI'] in further_consideration.keys():
                 writer.writerow([row['DOI'], row['Title'], row['Abstract']] + further_consideration[row['DOI']])
                 del further_consideration[row['DOI']]
