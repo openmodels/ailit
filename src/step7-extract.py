@@ -22,7 +22,7 @@ def pass3_extract(abstract, pdfpath, instructs, request, xtt, paperinfo):
         for pagenum, info in xtt[extract_fromcollate].items():
             page = reader.pages[pagenum - 1]
             print(f"Page {pagenum}")
-            rows = pass3_extract_page(pdfpath, page, instructs2, request, columninfo, headerstr, paperinfo, pagenum)
+            rows = pass3_extract_page(abstract, pdfpath, page, instructs2, request, columninfo, headerstr, paperinfo, pagenum)
         
             if rows:
                 df = pd.DataFrame(rows)
@@ -88,6 +88,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         prog='Step 7: Extraction',
         description='Extracts detailed information from a summarized PDF.')
+    parser.add_argument('dois', nargs='*', default=None, help='The DOI(s) to process.')
     parser.add_argument('-d', '--dryrun', action='store_true')
 
     args = parser.parse_args()
@@ -107,41 +108,47 @@ if __name__ == '__main__':
                 fileroot = re.sub(r'[^\w\.\-]', '_', row.DOI)
                 detailpath = os.path.join(extract_dir, fileroot + dopass_suffix + '.csv')
                 extractpath = os.path.join(extract_dir, fileroot + dopass_suffix + '.yml')
-                if not os.path.exists(detailpath) or os.path.getmtime(detailpath) < os.path.getmtime(extractpath):
-                    print(row.DOI)
-                    if args.dryrun:
+                if args.dois:
+                    if row.DOI not in args.dois:
                         continue
+                else:
+                    if os.path.exists(detailpath) and os.path.getmtime(detailpath) > os.path.getmtime(extractpath):
+                        continue
+                
+                print(row.DOI)
+                if args.dryrun:
+                    continue
                     
-                    targetpath = os.path.join(pdfs_dir, fileroot + '.pdf')
-                    if os.path.exists(targetpath) and os.path.exists(extractpath):
-                        with open(extractpath, 'r') as fp:
-                            xtt = yaml.safe_load(fp)
+                targetpath = os.path.join(pdfs_dir, fileroot + '.pdf')
+                if os.path.exists(targetpath) and os.path.exists(extractpath):
+                    with open(extractpath, 'r') as fp:
+                        xtt = yaml.safe_load(fp)
 
-                        if extract_fromcollate not in xtt:
-                            continue
-                    else:
-                        xtt = None
-                        targetpath = None
+                    if extract_fromcollate not in xtt:
+                        continue
+                else:
+                    xtt = None
+                    targetpath = None
                         
-                    count += 1
+                count += 1
                         
-                    paperinfo = [f"  {key}: {value}" for key, value in row.items() if not pd.isna(value) and not key[:7] == "Unnamed"]
+                paperinfo = [f"  {key}: {value}" for key, value in row.items() if not pd.isna(value) and not key[:7] == "Unnamed"]
 
-                    if extract_fromsummary == 'All':
-                        column_defs = column_defs_extract['All']
-                        request = extract_request
-                    else:
-                        column_defs = column_defs_extract[row[extract_fromsummary]]
-                        request = extract_request[row[extract_fromsummary]]
+                if extract_fromsummary == 'All':
+                    column_defs = column_defs_extract['All']
+                    request = extract_request
+                else:
+                    column_defs = column_defs_extract[row[extract_fromsummary]]
+                    request = extract_request[row[extract_fromsummary]]
 
-                    abstract = verdicts[verdicts['DOI'] == row.DOI].Abstract.iloc[0]
+                abstract = verdicts[verdicts['DOI'] == row.DOI].Abstract.iloc[0]
                         
-                    df = pass3_extract(abstract, targetpath, column_defs, request, xtt, "\n".join(paperinfo))
-                    if df is not None:
-                        df.to_csv(detailpath)
-                    else:
-                        with open(detailpath, 'w') as fp:
-                            fp.write("\n") # No data found.
+                df = pass3_extract(abstract, targetpath, column_defs, request, xtt, "\n".join(paperinfo))
+                if df is not None:
+                    df.to_csv(detailpath)
+                else:
+                    with open(detailpath, 'w') as fp:
+                        fp.write("\n") # No data found.
             
-                    if count >= extract_count:
-                        break
+                if count >= extract_count:
+                    break

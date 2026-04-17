@@ -71,7 +71,10 @@ async def main():
             count += 1
             with open(statuspath, 'w') as fp:
                 with contextlib.redirect_stdout(fp):
-                    browser = await launch(headless=True, args=['--no-sandbox'])
+                    ua = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15"
+
+                    ## browser = await launch(headless=True, args=['--no-sandbox', f'--user-agent={ua}'])
+                    browser = await launch(headless=False, args=['--no-sandbox', f'--user-agent={ua}'])
                     try:
                         result, link = await finder.finder_pdf(row.DOI, browser, targetpath, statuspath)
                         print(result)
@@ -96,5 +99,6 @@ if __name__ == '__main__':
             print(ex)
             break
         except Exception as ex:
+            print(ex)
             pass
-        
+        count -= 1
