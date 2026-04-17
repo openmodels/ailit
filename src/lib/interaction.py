@@ -47,8 +47,14 @@ def get_stringcommand(chat, nattempts):
     aiengine.failure()
     return None, None
 
-def get_internaltext(chat, nattempts, max_tokens=None, fallback_check=None):
-    pattern = r'```(.*?)```'
+def get_internaltext(chat, nattempts, max_tokens=None, fallback_check=None, allowedtype=None):
+    if allowedtype:
+        if allowedtype == 'any':
+            pattern = r'```(?:[a-z]+\s+)?(.*?)```'
+        else:
+            pattern = r'```(?:' + allowedtype + r'\s+)?(.*?)```'
+    else:
+        pattern = r'```(.*?)```'
     
     for attempt in range(nattempts):
         response = aiengine.chat_response(chat, max_tokens=max_tokens)
@@ -65,7 +71,7 @@ def get_internaltext(chat, nattempts, max_tokens=None, fallback_check=None):
             aiengine.failure()
             continue
         if len(matches) > 1:
-            chat = chat_push(chat_push(chat, 'assistant', response), 'user', "Sorry, I see multiple ```text``` blocks within this response. Can you try again?")
+            chat = chat_push(chat_push(chat, 'assistant', response), 'user', "Sorry, I see multiple ```text``` blocks within this response. Just provide one. Can you try again?")
             aiengine.failure()
             continue
         
@@ -96,7 +102,7 @@ def make_csvcheck(required_header):
         header, reader = find_csvheader(response)
         if not header:
             return "Sorry, I did not find a header. Can you try again?"
-            
+        
         if header != list(required_header):
             strheader = '"' + "\",\"".join(list(required_header)) + '"'
             return f"Sorry, the header did not match. It should read:\n{strheader}\nCan you try again?"
@@ -108,7 +114,7 @@ def make_csvcheck(required_header):
 def get_csvtext(chat, nattempts, required_header, max_tokens=None):
     csvcheck = make_csvcheck(required_header)
     for attempts in range(nattempts):
-        response = get_internaltext(chat, nattempts, max_tokens=4096*2, fallback_check=csvcheck)
+        response = get_internaltext(chat, nattempts, max_tokens=4096*2, fallback_check=csvcheck, allowedtype='csv')
 
         message = csvcheck(response)
         if message is not None:
@@ -139,9 +145,11 @@ def extract_yaml_dict(text):
     else:
         return "No YAML dictionary found."
 
-def get_csvtext_validated(chat, nattempts, instructs):
+def get_csvtext_validated(chat, nattempts, instructs, required_header=None, max_tokens=4096*2):
+    if required_header is None:
+        required_header = list(instructs.keys())
     for attempts in range(nattempts):
-        header, reader, response = get_csvtext(chat, nattempts, list(instructs.keys()), max_tokens=4096*2)
+        header, reader, response = get_csvtext(chat, nattempts, required_header, max_tokens=max_tokens)
         if not header:
             return [] # Couldn't get through this step
         
@@ -151,6 +159,8 @@ def get_csvtext_validated(chat, nattempts, instructs):
         for row in reader:
             rownum += 1
             for ii in range(len(header)):
+                if header[ii] not in instructs:
+                    continue
                 for check in instructs[header[ii]][1:]:
                     if len(row) <= ii:
                         if rownum not in errors:
@@ -196,3 +206,8 @@ def get_csvtext_validated(chat, nattempts, instructs):
         return validrows
 
     return [] # Failed
+
+def get_sourcematerial(chat, response, nattempts=3):
+    chat2 = chat_push(chat_push(chat, 'assistant', response), 'user', "Thank you. Please write quotes or evidence from the material provided above that justifies or provides necessary context for the answer you gave.\n\nSpecify this source material in triple backticks as a single line, like this: ```Source material here.```. Only provide one isolated, combined source material block in your response.")
+    print(chat2)
+    return get_internaltext(chat2, nattempts)

@@ -8,51 +8,47 @@ from config import *
 # Step 2: Summarize certain columns (we will pass these on to other calls)
 def pass2_summarize(targetpath, row, columninfo, coldefs, results):
     for col, command in coldefs.items():
-        results[col] = [pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command)] # wrap in a list for Pandas
+        response, sourcematerial = pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command)
+        results[col] = [response] # wrap in a list for Pandas
+        if sourcematerial:
+            if 'sourcematerial' in results:
+                results['sourcematerial'][0] = col + ": " + results['sourcematerial'][0] + '; ' + sourcematerial
+            else:
+                results['sourcematerial'] = [col + ": " + sourcematerial]
 
 def pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command):
     # Special commands
     if isinstance(command, str):
         if command == "LINK":
-            if os.path.exists(targetpath.replace('.pdf', '.txt')):
-                with open(targetpath.replace('.pdf', '.txt'), 'r') as f:
+            statuspath = targetpath.replace('.pdf', '.txt')
+            if os.path.exists(statuspath) and os.path.getsize(statuspath) > 0:
+                with open(statuspath, 'r') as f:
                     for line in f:
                         pass
-                    return line.strip()
+                    return line.strip(), None
             else:
-                return "Unknown"
+                return "Unknown", None
         if command == "STATUS":
-            return "Step 5"
-        if command in ["SUMMARIZE", "BRIEF", "SUMMARIZE2", "BRIEF2"]:
-            namematch = commands.extract_alphanumeric_and_spaces(col)
-            allpages = {}
-            for key, values in columninfo.items():
-                if commands.extract_alphanumeric_and_spaces(key) == namematch:
-                    allpages.update(values)
-
-            if command in ["SUMMARIZE", "BRIEF"]:
-                # No abstract, so no additional information
-                if len(allpages) == 0:
-                    return "NA"
-                    
-                if len(allpages) == 1:
-                    return list(allpages.values())[0]
+            return "Step 6", None
+        if command in ["SUMMARIZE", "BRIEF"]:
+            allpages, sourcematerials = commands.get_colmaterial(columninfo, [col])
 
             if len(allpages) > 0:
                 texts = '\n'.join([f"Page {num}: {text}" for num, text in allpages.items()])
-                material = f"The following notes were extracted from pages from a paper that is potentially relevant to my review:\n===\n{texts}\n===\n"
-                if command in ["SUMMARIZE", "SUMMARIZE2"]:
+                sourcematerials = '\n'.join([f"Page {num}: {text}" for num, text in sourcematerials.items()])
+                material = f"The following notes were extracted from pages from a paper that is potentially relevant to my review:\n===\n{texts}\n===\nFor context, here is extracted source material from those pages:\n===\n{sourcematerials}\n===\n"
+                if command == "SUMMARIZE":
                     instruct = f"{material}\nPlease summarize this information as a single concise notes, avoiding phrases like 'This paper ...'."
                 else:
                     instruct = f"{material}\nPlease provide a brief keywords as the summary, rather than full sentences."
             else:
                 ## Just the case if abstract was available
-                if command in ["SUMMARIZE", "SUMMARIZE2"]:
+                if command == "SUMMARIZE":
                     instruct = "Using the abstract, please briefly relate this information as a single concise notes, avoiding phrases like 'This paper ...'."
                 else:
                     instruct = "Using the abstract, provide a brief keywords as the summary, rather than full sentences."
 
-            if command in ["BRIEF2", "SUMMARIZE2"]:
+            if command in ["BRIEF", "SUMMARIZE"]:
                 abstract_prompt2 = abstract_prompt + " Here is the abstract of a paper: " + row['Abstract'] + "\n\n"
             else:
                 abstract_prompt2 = abstract_prompt
@@ -61,9 +57,13 @@ def pass2_summarize_one(targetpath, row, columninfo, coldefs, col, command):
 
 {instruct} Specify the summary of {col} in triple backticks as a single line, like this: ```Synopsis here.```."""
 
-            return interaction.get_internaltext([{"role": "user", "content": prompt}], 3).strip()
+            chat = [{"role": "user", "content": prompt}]
+            response = interaction.get_internaltext(chat, 3).strip()
 
-        return command
+            sourcematerial = interaction.get_sourcematerial(chat, "```" + response + "```", 3)
+            return response, sourcematerial
+
+        return command, None
 
     ## Run the command
     return command(row, columninfo)
@@ -98,14 +98,21 @@ for dopass in range(dopass_count):
             fileroot = re.sub(r'[^\w\.\-]', '_', row.DOI)
             targetpath = os.path.join(pdfs_dir, fileroot + '.pdf')
             extractpath = os.path.join(extract_dir, fileroot + dopass_suffix + '.yml')
-            if os.path.exists(targetpath) and os.path.exists(extractpath) and row.DOI not in knowndoi:
+            if row.DOI not in knowndoi:
                 print(row.DOI)
-                print(targetpath)
-                print(extractpath)
-                count += 1
+                if os.path.exists(targetpath) and os.path.exists(extractpath):
+                    print(targetpath)
+                    print(extractpath)
 
-                with open(extractpath, 'r') as fp:
-                    columninfo = yaml.safe_load(fp)
+                    with open(extractpath, 'r') as fp:
+                        columninfo = yaml.safe_load(fp)
+                elif os.path.exists(targetpath.replace('.pdf', '.txt')): # Did we attempt it?
+                    print("Summarizing abstract.")
+                    columninfo = {}
+                else:
+                    continue
+                    
+                count += 1
             
                 # Step 2: Produce summary rows
                 results = {'DOI': row.DOI}

@@ -4,6 +4,7 @@ import openai
 from pypdf import PdfReader
 
 from lib import interaction, images
+from lib.helpers import *
 from config import *
 
 def pass1_collate(pdfpath):
@@ -27,7 +28,8 @@ Only include information specifically contributed by this paper, not material re
 
 Specify the results in a list with single lines of text in a YAML dictionary (each line should read "Category": "Extracted Information"), and only include those entries for this page where there is concrete relevant information. This page may have no relevant information, in which case report 'No relevant information'."""
 
-        response = interaction.aiengine.chat_response([{"role": "user", "content": prompt}])
+        chat = [{"role": "user", "content": prompt}]
+        response = interaction.aiengine.chat_response(chat)
         columns = interaction.extract_yaml_dict(response)
 
         if isinstance(columns, dict):
@@ -35,6 +37,11 @@ Specify the results in a list with single lines of text in a YAML dictionary (ea
                 if column not in columninfo:
                     columninfo[column] = {}
                 columninfo[column][pagenum] = columns[column]
+
+            sourcematerial = interaction.get_sourcematerial(chat, response)
+            if 'sourcematerial' not in columninfo:
+                columninfo['sourcematerial'] = {}
+            columninfo['sourcematerial'][pagenum] = sourcematerial
 
     return columninfo
 
@@ -61,5 +68,29 @@ for dopass in range(dopass_count):
                 with open(extractpath, 'w') as fp:
                     yaml.safe_dump(columninfo, fp)
 
+                ## This paper may already have been summarized and extracted based on its abstract: delete these
+                done, knowndoi = get_summaries(summary_file, dopass)
+                if row.DOI in knowndoi:
+                    done = done[done['DOI'] != row.DOI]
+                    dopass_summary_file = summary_file.replace('.csv', dopass_suffix + '.csv')
+                    done.to_csv(dopass_summary_file, index=False)
+
+                detailpath = os.path.join(extract_dir, fileroot + dopass_suffix + '.csv')
+                if os.path.exists(detailpath):
+                    os.unlink(detailpath)
+
+                for key in merge_suffix:
+                    merged_file = summary_file.replace(".csv", merge_suffix[key] + ".csv")
+                    if os.path.exists(merged_file):
+                        merged = pd.read_csv(merged_file)
+                        merged = merged[merged['DOI'] != row.DOI]
+                        merged.to_csv(merged_file, index=False)
+
+                    extract_file = merge_extract_file.replace(".csv", merge_suffix[key] + ".csv")
+                    if os.path.exists(extract_file):
+                        extract = pd.read_csv(extract_file)
+                        extract = extract[extract['DOI'] != row.DOI]
+                        extract.to_csv(extract_file, index=False)
+                        
                 if count >= collate_count:
                     break

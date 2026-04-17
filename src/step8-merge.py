@@ -4,7 +4,7 @@ import pandas as pd
 from lib import interaction, helpers
 from config import *
 
-def merge_rows(verdictrow, applied, columns):
+def merge_rows(verdictrow, applied, columns, sourcematerial):
     title = verdictrow.Title.iloc[0]
     abstract = verdictrow.Abstract.iloc[0]
 
@@ -37,6 +37,11 @@ Here is the data from the reviewers:
 
 {rowinfo}
 
+For context, here is extracted source material for those responses:
+===
+{sourcematerial}
+===
+
 Specify the results in a list with single lines of text in a YAML dictionary. Your response should look like this:
 ```
 {template}
@@ -45,32 +50,38 @@ Specify the results in a list with single lines of text in a YAML dictionary. Yo
 
     chat = [{"role": "user", "content": prompt}]
 
+    chat2 = chat
     for attempts in range(3):
-        response = interaction.aiengine.chat_response(chat)
+        response = interaction.aiengine.chat_response(chat2)
         result = interaction.extract_yaml_dict(response)
     
         if isinstance(result, str):
-            chat = interaction.chat_push(interaction.chat_push(chat, 'assistant', response),
+            chat2 = interaction.chat_push(interaction.chat_push(chat2, 'assistant', response),
                                          'user', f"Sorry, I had trouble with this: {result} Can you try again?")
         else:
             remainingcolumns = expectedcolumns - result.keys()
             if len(remainingcolumns) > 0:
-                chat = interaction.chat_push(interaction.chat_push(chat, 'assistant', response),
+                chat2 = interaction.chat_push(interaction.chat_push(chat2, 'assistant', response),
                                              'user', f"Sorry, I am missing the following columns: {', '.join(remainingcolumns)}. Can you try again?")
             else:
                 print("Successful merging.")
                 break
 
     if isinstance(result, dict):
+        sourcematerial = interaction.get_sourcematerial(chat, response)
+
         for col in result:
             knowncolumns[col] = [result[col]]
         for col in remainingcolumns:
             knowncolumns[col] = [applied[column].iloc[-1]] # choose the latest one
+        knowncolumns['sourcematerial'] = sourcematerial
 
         return pd.DataFrame(knowncolumns)
     else:
         print("Providing the most recent row.")
-        return applied.iloc[-1]
+        recentrow = applied.iloc[-1]
+        recentrow['sourcematerial'] = sourcematerial.iloc[-1]
+        return recentrow
 
 def merge_extract(verdictrow, detaileds, paperinfo, request, instructs):
     title = verdictrow.Title.iloc[0]
@@ -80,7 +91,11 @@ def merge_extract(verdictrow, detaileds, paperinfo, request, instructs):
     for ii in range(len(detaileds)):
         datainfo += f"Reviewer {ii+1}:\n\n{detaileds[ii].to_csv(index=False)}\n\n"
 
-    headerstr = ",".join([f"\"{column}\"" for column in instructs.keys()])
+    instructs2 = copy.copy(instructs)
+    instructs2['sourcematerial'] = ["Provide quotes or evidence from the contributing source material that justifies or provides necessary context for the results you gave."]
+        
+    headerstr = ",".join([f"\"{column}\"" for column in instructs2.keys()])
+    columninfo = "  " + "\n  ".join([f"{column}: {question[0]}" for column, question in instructs2.items()])
         
     prompt = f"""{abstract_prompt} Here is a pager identified as relevant to the search:
 
@@ -92,6 +107,9 @@ Abstract: {abstract}
 Multiple reviewers have extracted detailed information from this paper, and now I want to merge these into a consistent dataset. The dataset should focus on information that is corroborated by more than one reviewer, where possible.
 
 Here was the request to the reviewers: {request}
+
+And the definitions for the columns are as follows:
+{columninfo}
 
 Here is the data from the reviewers:
 
@@ -106,7 +124,7 @@ Specify the result as a CSV, provided in triple quotes. Your response should sta
 
     chat = [{"role": "user", "content": prompt}]
 
-    return interaction.get_csvtext_validated(chat, 3, instructs)
+    return interaction.get_csvtext_validated(chat, 3, instructs2)
 
 def save_merged(merged):
     for key in merged:
@@ -116,6 +134,44 @@ def save_extracts(extracts):
     for key in extracts:
         extracts[key].to_csv(merge_extract_file.replace(".csv", merge_suffix[key] + ".csv"), index=False)
 
+def merge_extracts(doi, key):
+    dones = extracts[key][extracts[key].DOI == doi]
+            
+    detaileds = []
+    fileroot = re.sub(r'[^\w\.\-]', '_', doi)
+    for dopass in range(dopass_count):
+        dopass_suffix = f"-pass{dopass}" if dopass > 0 else ""
+        detailpath = os.path.join(extract_dir, fileroot + dopass_suffix + '.csv')
+        if os.path.exists(detailpath) and os.path.getsize(detailpath) > 2:
+            try:
+                rows = pd.read_csv(detailpath)
+                rows = rows.loc[:, ~rows.columns.str.startswith('Unnamed')]
+                detaileds.append(rows)
+            except Exception as ex:
+                print(f"Failed to read {detailpath}.")
+
+    if len(detaileds) == 0:
+        return
+
+    if len(dones) == 0 or dones.ExtractCount.iloc[0] < len(detaileds):
+        if len(detaileds) == 1:
+            validrows2 = detaileds[0]
+        else:
+            paperinfo = [f"  {kk}: {value.iloc[0]}" for kk, value in newrow.items() if not pd.isna(value.iloc[0]) and not kk[:7] == "Unnamed"]
+            instructs = column_defs_extract[key]
+            if isinstance(extract_request, str):
+                request = extract_request
+            else:
+                request = extract_request[key]
+                
+            validrows = merge_extract(verdictrow, detaileds, "\n".join(paperinfo), request, instructs)
+            validrows2 = pd.DataFrame(validrows)
+                    
+        validrows2['ExtractCount'] = len(detaileds)
+        validrows2['DOI'] = doi
+        extracts[key] = pd.concat([extracts[key][extracts[key].DOI != doi], validrows2], ignore_index=True)
+        save_extracts(extracts)
+        
 verdicts = pd.read_csv(verdict_file.replace('.csv', '-further.csv'))
 
 summaries = []
@@ -143,7 +199,6 @@ for key in merge_suffix:
         extracts[key] = pd.DataFrame({'DOI': []})
         
 if __name__ == '__main__':
-    count = 0
     for doi in knowndoi:
         # Get the original authors and abstract
         verdictrow = verdicts[verdicts.DOI == doi]
@@ -151,15 +206,28 @@ if __name__ == '__main__':
         # Merge the summaries, column by column
         doisummaries = []
         for dopass in range(dopass_count):
-            rows = summaries[dopass][summaries[dopass].DOI == doi]
-            doisummaries.append(rows)
+            if summaries[dopass] is not None:
+                rows = summaries[dopass][summaries[dopass].DOI == doi]
+                doisummaries.append(rows)
 
+        if len(doisummaries) == 1:
+            applied = doisummaries[0].copy()
+            applied['SummaryCount'] = 1
+            merged[key] = pd.concat([merged[key][merged[key].DOI != doi], applied], ignore_index=True)
+
+            for key, columns in merge_columns.items():
+                merge_extracts(doi, key)
+            continue
+            
         doisummaries = pd.concat(doisummaries, ignore_index=True)
         if extract_fromsummary == 'All':
             dropped = []
         else:
             dropped = doisummaries[doisummaries[extract_fromsummary] == ""]
-        
+
+        sourcematerial = doisummaries.sourcematerial
+        del doisummaries['sourcematerial']
+            
         for key, columns in merge_columns.items():
             if extract_fromsummary == 'All':
                 applied = doisummaries
@@ -182,7 +250,7 @@ if __name__ == '__main__':
                     newrow = applied
                     merged[key] = pd.concat([merged[key][merged[key].DOI != doi], applied], ignore_index=True)
                 else:
-                    applied2 = merge_rows(verdictrow, applied, columns)
+                    applied2 = merge_rows(verdictrow, applied, columns, sourcematerial)
                     applied2['SummaryCount'] = len(applied)
                     applied2['DOI'] = doi
                     newrow = applied2
@@ -191,42 +259,7 @@ if __name__ == '__main__':
             else:
                 newrow = merged[key][merged[key].DOI == doi]
 
-            dones = extracts[key][extracts[key].DOI == doi]
+            merge_extracts(doi, key)
                 
-            detaileds = []
-            fileroot = re.sub(r'[^\w\.\-]', '_', doi)
-            for dopass in range(dopass_count):
-                dopass_suffix = f"-pass{dopass}" if dopass > 0 else ""
-                detailpath = os.path.join(extract_dir, fileroot + dopass_suffix + '.csv')
-                if os.path.exists(detailpath):
-                    try:
-                        rows = pd.read_csv(detailpath)
-                        rows = rows.loc[:, ~rows.columns.str.startswith('Unnamed')]
-                        detaileds.append(rows)
-                    except Exception as ex:
-                        print(f"Failed to read {detailpath}.")
-
-            if len(detaileds) == 0:
-                continue
-
-            if len(dones) == 0 or dones.ExtractCount.iloc[0] < len(detaileds):
-                if len(detaileds) == 1:
-                    validrows2 = detaileds[0]
-                else:
-                    paperinfo = [f"  {key}: {value.iloc[0]}" for key, value in newrow.items() if not pd.isna(value.iloc[0]) and not key[:7] == "Unnamed"]
-                    instructs = column_defs_extract[key]
-                    if isinstance(extract_request, str):
-                        request = extract_request
-                    else:
-                        request = extract_request[key]
-                
-                    validrows = merge_extract(verdictrow, detaileds, "\n".join(paperinfo), request, instructs)
-                    validrows2 = pd.DataFrame(validrows)
-                    
-                validrows2['ExtractCount'] = len(detaileds)
-                validrows2['DOI'] = doi
-                extracts[key] = pd.concat([extracts[key][extracts[key].DOI != doi], validrows2], ignore_index=True)
-                save_extracts(extracts)
-
     save_merged(merged)
     save_extracts(extracts)

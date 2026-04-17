@@ -47,26 +47,26 @@ summary_count = 100
 summary_file = "../summary.csv"
 column_defs_summary = {'All': {
     'Author(s)': lambda row, xtt: commands.short_authors(row['Authors']),
-    'Year': lambda row, xtt: row['Year'],
-    'Paper Title': lambda row, xtt: row['Title'],
+    'Year': lambda row, xtt: (row['Year'], None),
+    'Paper Title': lambda row, xtt: (row['Title'], None),
     'Link to paper': "LINK",
-    'Paper ID': lambda row, xtt: row['DOI'],
+    'Paper ID': lambda row, xtt: (row['DOI'], None),
     'Reviewer': "AI",
     'Status': "STATUS",
-    'Outcome(s) of Interest': "BRIEF2",
-    'Drivers of Risk': "BRIEF2",
-    'Category': lambda row, xtt: commands.ai_select2(row, xtt, "Please classify this paper as relevant to one of the following categories? If more than one match, choose the most appropriate.", ['Abstract', 'Evaluation overview'], ['Agriculture', 'Climate Amenities', 'Climate Hazards (Flooding, Storms, etc.)', 'Ecosystems', 'Energy', 'Fisheries', 'Forestry', 'Fresh-Water', 'Health > Climate-Air Pollution Interactions', 'Health > Diarrheal', 'Health > Heat and Cold (Cardiovascular, Respiratory, etc.)', 'Health > Vectore Borne Disease', 'Health > Wildfire Smoke', 'Health > Other', 'Indigenous Communities', 'Island Regions', 'Productivity > Capital Productivity and Depreciation', 'Productivity > Labour Productivity', 'Productivity > TFP', 'Recreation / Tourism', 'Sea-level Rise / Coastal', 'Tipping points / Feedback Effects', 'Total', 'Transportation', 'Other'], abstract_prompt),
-    'Approach': lambda row, xtt: commands.ai_select(xtt, "What kind of modeling or analysis approach was used in the analysis?", ['Methodology'], ['Econometric', 'Macro-model', 'Stylised', 'Other'], abstract_prompt),
-    'Methodology': "SUMMARIZE2",
-    'Highlights': "SUMMARIZE2",
-    'More Notes': "SUMMARIZE2",
-    'Hazard definition': lambda row, xtt: commands.ai_select(xtt, "What kind of hazards were analyzed in the paper?", ['Methodology'], ['Acute shocks', 'Chronic trends', 'Stylised changes', 'N/A'], abstract_prompt),
-    'Impact persistence': lambda row, xtt: commands.ai_select(xtt, "To what degree is persistence in impacts considered?", ['Methodology'], ['None', 'Permanent', 'Adaptive'], abstract_prompt),
-    'Space disaggregation': lambda row, xtt: commands.ai_select(xtt, "What level of disaggregation was used in the analysis?", ['Methodology'], ['Global', 'Regional', 'Local'], abstract_prompt),
-    'Impact interactions': lambda row, xtt: commands.ai_select(xtt, "Were interactions between impacts considered in the analysis?", ['Methodology'], ['None', 'Sequential Interactions', 'Spatial Interactions', 'Sectoral Interactions'], abstract_prompt),
-    'Economic dynamics': lambda row, xtt: commands.ai_select(xtt, "Was the dynamic nature of the economy considered in the analysis?", ['Methodology'], ['Static', 'Transitional (accounting for changes over time)', 'Adaptive (reflecting shifts in economic behavior in response to impacts)'], abstract_prompt),
-    'Climate features': lambda row, xtt: commands.ai_select(xtt, "Were tipping points or other notable climate complexities included?", ['Methodology'], ['Tipping Points', 'Other'], abstract_prompt),
-    'Adaptation considered': lambda row, xtt: commands.ai_summary(xtt, "How and to what extent is adaptation considered? Just provide brief notes, avoiding statements that start with redundant text like 'Adaptation is considered...'.", ['Methodology'], abstract_prompt)
+    'Outcome(s) of Interest': "BRIEF",
+    'Drivers of Risk': "BRIEF",
+    'Category': lambda row, xtt: commands.ai_select(row, xtt, "Please classify this paper as relevant to one of the following categories? If more than one match, choose the most appropriate.", ['Evaluation overview'], ['Agriculture', 'Climate Amenities', 'Climate Hazards (Flooding, Storms, etc.)', 'Ecosystems', 'Energy', 'Fisheries', 'Forestry', 'Fresh-Water', 'Health > Climate-Air Pollution Interactions', 'Health > Diarrheal', 'Health > Heat and Cold (Cardiovascular, Respiratory, etc.)', 'Health > Vectore Borne Disease', 'Health > Wildfire Smoke', 'Health > Other', 'Indigenous Communities', 'Island Regions', 'Productivity > Capital Productivity and Depreciation', 'Productivity > Labour Productivity', 'Productivity > TFP', 'Recreation / Tourism', 'Sea-level Rise / Coastal', 'Tipping points / Feedback Effects', 'Total', 'Transportation', 'Other'], abstract_prompt),
+    'Approach': lambda row, xtt: commands.ai_select(row, xtt, "What kind of modeling or analysis approach was used in the analysis?", ['Methodology'], ['Econometric', 'Macro-model', 'Stylised', 'Other'], abstract_prompt),
+    'Methodology': "SUMMARIZE",
+    'Highlights': "SUMMARIZE",
+    'More Notes': "SUMMARIZE",
+    'Hazard definition': lambda row, xtt: commands.ai_select(row, xtt, "What kind of hazards were analyzed in the paper?", ['Methodology'], ['Acute shocks', 'Chronic trends', 'Stylised changes', 'N/A'], abstract_prompt),
+    'Impact persistence': lambda row, xtt: commands.ai_select(row, xtt, "To what degree is persistence in impacts considered?", ['Methodology'], ['None', 'Permanent', 'Adaptive'], abstract_prompt),
+    'Space disaggregation': lambda row, xtt: commands.ai_select(row, xtt, "What level of disaggregation was used in the analysis?", ['Methodology'], ['Global', 'Regional', 'Local'], abstract_prompt),
+    'Impact interactions': lambda row, xtt: commands.ai_select(row, xtt, "Were interactions between impacts considered in the analysis?", ['Methodology'], ['None', 'Sequential Interactions', 'Spatial Interactions', 'Sectoral Interactions'], abstract_prompt),
+    'Economic dynamics': lambda row, xtt: commands.ai_select(row, xtt, "Was the dynamic nature of the economy considered in the analysis?", ['Methodology'], ['Static', 'Transitional (accounting for changes over time)', 'Adaptive (reflecting shifts in economic behavior in response to impacts)'], abstract_prompt),
+    'Climate features': lambda row, xtt: commands.ai_select(row, xtt, "Were tipping points or other notable climate complexities included?", ['Methodology'], ['Tipping Points', 'Other'], abstract_prompt),
+    'Adaptation considered': lambda row, xtt: commands.ai_summary(row, xtt, "How and to what extent is adaptation considered? Just provide brief notes, avoiding statements that start with redundant text like 'Adaptation is considered...'.", ['Methodology'], abstract_prompt)
 }}
 
 extract_count = 100
@@ -117,3 +117,7 @@ merge_columns = {'All': {
     'Adaptation considered': "How and to what extent is adaptation considered? Just provide brief notes, avoiding statements that start with redundant text like 'Adaptation is considered...'",
     'Highlights': "What are the most important outcomes of the analysis?",
     'More Notes': "Do you have any other notes?"}}
+
+harmonize_count = 10
+harmonize_maxrows = 20
+harmonize_maxchars = 64 * 1024
