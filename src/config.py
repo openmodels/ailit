@@ -4,17 +4,20 @@ count_perrun = 25
 openai_config = 'slow' #'batch'
 gemini_config = 'slow' #'fast'
 
-searches = ["../test/macroecono.xlsx"]
-response_file = "../test/responses.csv"
-verdict_file = "../test/verdicts.csv"
+searches = ["/Users/admin/groups/nca6/keywords/Howard-1*",
+            "/Users/admin/groups/nca6/keywords/Howard-2*",
+            "/Users/admin/groups/nca6/keywords/Howard-3*"]
+response_file = "../howard/responses.csv"
+verdict_file = "../howard/verdicts.csv"
 
-abstract_prompt = "I am performing a meta-analysis of econometric models of temperature on economic growth. These papers use regression-based techniques to understand how variation in weather results in variation in GDP growth rates. I am only interested in papers that do this globally, with at least national-level resolution."
-exclude_codes = {'XG': "Not GDP growth (studying a different dependent variable)",
-                 'XE': "Not econometric (using non-causal or non-statistical methods)",
-                 'XW': "Not global (region-specific)",
-                 'XN': "No new empirics (using previously-published work)"}
-include_codes = {'PG': "Plausibly includes global econometric results on GDP growth",
-                 'PP': "Plausibly includes estimates of the persistence of GDP impacts"}
+abstract_prompt = "I am performing a review of climate, biophysical, and social tipping points for the economics chapter of the U.S. National Climate Assessment."
+exclude_codes = {'XC': "Not related to climate change",
+                 'XV': "Not related to economics or social outcomes",
+                 'XU': "No United States specific information",
+                 'XO': "Excluded for another reason (please specify)"}
+include_codes = {'RO': "Discusses observed tipping points (e.g., coral reef regime shifts, civit unrest)",
+                 'RF': "Discusses projected tipping points (e.g., in 2050)",
+                 'RP': "There is other plausible evidence that the abstract is relevant."
 
 # filter_config = {'MinYear': 2022}
 
