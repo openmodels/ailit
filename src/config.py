@@ -1,160 +1,27 @@
 from lib import commands, checks
 
-count_perrun = 25
-openai_config = 'slow' #'batch'
-gemini_config = 'slow' #'fast'
+abstract_count = 2000
+openai_config = 'batch' #'slow'
+gemini_config = 'batch' #'fast' #'slow'
 
-searches = ["/Users/admin/groups/nca6/keywords/Howard-1*",
-            "/Users/admin/groups/nca6/keywords/Howard-2*",
-            "/Users/admin/groups/nca6/keywords/Howard-3*"]
-response_file = "../howard/responses.csv"
-verdict_file = "../howard/verdicts.csv"
+searches = ["/Users/admin/groups/nca6/keywords/Max-energy-*"]
+response_file = "../max-energy/responses.csv"
+verdict_file = "../max-energy/verdicts.csv"
 
-abstract_prompt = "I am performing a review of climate, biophysical, and social tipping points for the economics chapter of the U.S. National Climate Assessment."
+abstract_prompt = "I am performing a review of academic papers for the economics chapter of the U.S. National Climate Assessment. This section is specifically based on energy impacts."
 exclude_codes = {'XC': "Not related to climate change",
                  'XV': "Not related to economics or social outcomes",
                  'XU': "No United States specific information",
                  'XO': "Excluded for another reason (please specify)"}
-include_codes = {'RO': "Discusses observed tipping points (e.g., coral reef regime shifts, civit unrest)",
-                 'RF': "Discusses projected tipping points (e.g., in 2050)",
-                 'RP': "There is other plausible evidence that the abstract is relevant."
+include_codes = {
+    'R1': "Studies demand impacts: heating and cooling shifts, peak load stress, increased air conditioning demand; regional variation in net effects.",
+    'R2': "Studies supply impacts: infrastructure damage from heat, flooding, and wildfire; supply shocks from extreme storms; water availability constraints on hydropower and thermoelectric cooling.",
+    'R3': "Studies Efficiency improvements and grid investment as embedded adaptation; pass-through to households and other sectors.",
+    'RP': "There is other plausible evidence that the abstract is relevant."}
 
-# filter_config = {'MinYear': 2022}
+filter_config = {'MinYear': 2022}
 
-## Question
-questionsource = verdict_file.replace(".csv", "-further.csv")
-singlequestion = "Based on this information, does this paper describe outcomes driven by climate change (that is, all the effects that come from increased greenhouse gas concentrations, such as increased temperatures and other weather changes), as opposed to the effects of climate policy? I do *not* want to consider reductions in losses that are driven by mitigation policy alone."
-question_file = "../test/question.csv"
-
-## Find PDFs
-priority_limit = 8
+question_file = None
 pdfs_dir = "../pdfs"
-finder_count = 25
-refresh_days = 60
 
-## Extract data from PDFs
-extract_dir = "../test/extract"
-collate_count = 25
-column_defs_collate = {'Innovation': "What is the key innovation or academic contribution for this paper?"
-                       'Econometric coefficients': "Are there econometric coefficients reported on this page?",
-                       'Methodology': "How is the analysis performed and when are its results applicable?",
-                       'More Notes': "Do you have any other notes?"}
-
-## Summarized line for PDF
-summary_count = 25
-summary_file = "../test/summary.csv"
-column_defs_summary = {'All': {
-    'Author(s)': lambda row, xtt: commands.short_authors(row['Authors']),
-    'Year': lambda row, xtt: (row['Year'], None),
-    'Paper Title': lambda row, xtt: (row['Title'], None),
-    'Link to paper': "LINK",
-    'Paper ID': lambda row, xtt: (row['DOI'], None),
-    'Reviewer': "AI",
-    'Status': "STATUS",
-    'NEXT': lambda row, xtt: commands.ai_select(xtt, "Does this paper produce new econometric results describing GDP growth rates or the extent of persistence?", ['Methodology'], ['', 'Growth', 'Persistence', 'Both'], abstract_prompt)},
-                       'Any': {
-                           'Innovation': 'BRIEF',
-                           'Methodology': "SUMMARIZE",
-                           'More Notes': "SUMMARIZE",
-                           'Concerns': lambda row, xtt: commands.ai_summary(xtt, "Are there any concerns in the robustness or credibility of this work?", ['Methodology', 'More Notes'], abstract_prompt)},
-                           'Econometric Method': lambda row, xtt: commands.ai_select(xtt, "Was standard fixed-effects econometric used, or an alternative method?", ['Methodology'], ['Econometrics', 'Alternative', 'N/A'], abstract_prompt),
-                       'Growth': {
-                           'Applicability': "Growth",
-                           'Adaptation considered': lambda row, xtt: commands.ai_summary(xtt, "How and to what extent is adaptation considered? Just provide brief notes, avoiding statements that start 'Adaptation is considered...'.", ['Methodology'], abstract_prompt)
-                       },
-                       'Persistence': {
-                           'Applicability': "Persistence",
-                       },
-                       'Adaptation': {
-                           'Applicability': "Growth & Persistence",
-                           'Adaptation considered': lambda row, xtt: commands.ai_summary(xtt, "How and to what extent is adaptation considered? Just provide brief notes, avoiding statements that start 'Adaptation is considered...'.", ['Methodology'], abstract_prompt)
-                       }}
-
-extract_count = 25
-extract_fromcollate = 'Econometric coefficients'
-extract_fromsummary = 'Applicability'
-extract_request = {'Growth': "Please summarize and extract the coefficients that describe the temperature-to-growth relationship.",
-                   'Persistence': "Please summarize and extract the quantitative description of persistence.",
-                   'Growth & Persitence': "Please summarize and extract both coefficients that describe the temperature-to-growth relationship and the quantitative description of persistence."}
-column_defs_extract = {'Growth': {
-    'Variable': ["What is the specific temperature variable for this coefficient?", checks.very_short],
-    'Value': ["What is the value of the coefficient?", checks.numeric],
-    'SE': ["What is the standard error of the coefficient? Specify a number or NA.", checks.numeric_or_na],
-    'Result Source': ["Where is this coefficient reported in the paper? Include the page number and table if applicable.", checks.short],
-    'More Notes': ["Do you have any other notes?"]
-},
-                       'Persistence': {
-                           'Definition': ["How is persistence quantified?", checks.very_short],
-                           'Units': ["What are the units of the persistence estimate?", checks.very_short],
-                           'Value': ["What is the value of the persistence estimate?", checks.numeric],
-                           'SE': ["What is the standard error of the persistence estimate? Specify a number or NA.", checks.numeric_or_na],
-                           'Result Source': ["Where is this result reported in the paper? Include the page number and table if applicable.", checks.short],
-                           'More Notes': ["Do you have any other notes?"]
-                       },
-                       'Growth & Persistence': {
-                           'Variable': ["For temperature coefficients, what is the specific temperature variable for this coefficient?", checks.very_short],
-                           'Definition': ["For persistence estimates, how is persistence quantified?", checks.very_short],
-                           'Units': ["For persistence estimates, what are the units of the persistence estimate?", checks.very_short],
-                           'Value': ["What is the value of the coefficient or persistence estimate?", checks.numeric],
-                           'SE': ["What is the standard error of the coefficient or persistence estimate? Specify a number or NA.", checks.numeric_or_na],
-                           'Result Source': ["Where is this result reported in the paper? Include the page number and table if applicable.", checks.short],
-                           'More Notes': ["Do you have any other notes?"]
-                       }}
-
-## Multiple passes and reconciliation
-dopass_count = 3
-merge_count = 25
-merge_suffix = {'Growth': '',
-                'Persistence': '',
-                'Growth & Persistence': ''}
-merge_extract_file = "../test/extract.csv"
-merge_columns = {'Growth': {
-    'Author(s)': "Use an abbreviated format, like 'Last Name et al.' or 'First & Second'.",
-    'Year': "Publication year.",
-    'Paper Title': None,
-    'Link to paper': None,
-    'Paper ID': None,
-    'Reviewer': None,
-    'Status': None,
-    'Innovation': "What is the key innovation or academic contribution for this paper?",
-    'Methodology': "How is the analysis performed and when are its results applicable?",
-    'Concerns': "Are there any concerns in the robustness or credibility of this work?",
-    'Econometric Method': "Was standard fixed-effects econometric used, or an alternative method? Choose one of 'Econometrics', 'Alternative', or 'N/A'.",
-    'Adaptation considered': "How and to what extent is adaptation considered? Just provide brief notes, avoiding statements that start 'Adaptation is considered...'.",
-    'More Notes': "Do you have any other notes?"},
-                 'Persistence': {
-                     'Author(s)': "Use an abbreviated format, like 'Last Name et al.' or 'First & Second'.",
-                     'Year': "Publication year.",
-                     'Paper Title': None,
-                     'Link to paper': None,
-                     'Paper ID': None,
-                     'Reviewer': None,
-                     'Status': None,
-                     'Innovation': "What is the key innovation or academic contribution for this paper?",
-                     'Methodology': "How is the analysis performed and when are its results applicable?",
-                     'Concerns': "Are there any concerns in the robustness or credibility of this work?",
-                     'Econometric Method': "Was standard fixed-effects econometric used, or an alternative method? Choose one of 'Econometrics', 'Alternative', or 'N/A'.",
-                     'More Notes': "Do you have any other notes?"},
-                 'Growth & Persistence': {
-                     'Author(s)': "Use an abbreviated format, like 'Last Name et al.' or 'First & Second'.",
-                     'Year': "Publication year.",
-                     'Paper Title': None,
-                     'Link to paper': None,
-                     'Paper ID': None,
-                     'Reviewer': None,
-                     'Status': None,
-                     'Innovation': "What is the key innovation or academic contribution for this paper?",
-                     'Methodology': "How is the analysis performed and when are its results applicable?",
-                     'Concerns': "Are there any concerns in the robustness or credibility of this work?",
-                     'Econometric Method': "Was standard fixed-effects econometric used, or an alternative method? Choose one of 'Econometrics', 'Alternative', or 'N/A'.",
-                     'Adaptation considered': "How and to what extent is adaptation considered? Just provide brief notes, avoiding statements that start 'Adaptation is considered...'.",
-                     'More Notes': "Do you have any other notes?"
-                 }}
-
-harmonize_count = 10
-harmonize_maxrows = 10
-harmonize_maxchars = 32 * 1024
-summary_harmonize_columnsets = [["Innovation", "Concerns", "More Notes"],
-                                ["Methodology", "Econometric Method", "Adaptation considered"]]
-extract_harmonize_columnsets = [["Variable", "Definition", "Units", "Value", "SE"],
-                                ["Result Source", "More Notes"]]
+allow_missing_verdict = True

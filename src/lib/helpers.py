@@ -1,4 +1,4 @@
-import os, csv, json
+import os, csv, json, glob
 import pandas as pd
 
 def add_response(response_file, doi, source, response):
@@ -11,10 +11,11 @@ def add_response(response_file, doi, source, response):
         writer.writerow([doi, source, response.replace("\n", " ")])
 
 def iterate_search(source, filter_config={}):
-    for row in iterate_search_helper(source):
-        if 'MinYear' in filter_config:
-            if row['Year'] >= filter_config['MinYear']:
-                yield row
+    for filename in glob.glob(source):
+        for row in iterate_search_helper(filename):
+            if 'MinYear' in filter_config:
+                if row['Year'] >= filter_config['MinYear']:
+                    yield row
         
 def iterate_search_helper(source):
     if source[-4:] == '.csv':

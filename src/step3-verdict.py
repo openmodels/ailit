@@ -49,7 +49,10 @@ responses = responses.astype(str)
 further_consideration = {} # doi: (gemini_response, openai_response, gemini_verdict, openai_verdict, common_verdict, pdf_found)
 with open(verdict_file, 'w') as fp:
     writer = csv.writer(fp)
-    writer.writerow(['DOI', 'gemini', 'openai', 'common', 'priority', 'passfail'])
+    if question_file:
+        writer.writerow(['DOI', 'gemini', 'openai', 'common', 'priority', 'passfail'])
+    else:
+        writer.writerow(['DOI', 'gemini', 'openai', 'common', 'priority'])
     
     for doi in set(responses.DOI):
         responses_gemini = responses[(responses.DOI == doi) & (responses.Source == 'gemini')].Response
@@ -64,6 +67,10 @@ with open(verdict_file, 'w') as fp:
             else:
                 response_gemini = responses_gemini.iloc[0]
                 gemini_verdict, gemini_score = interpret_response(response_gemini)
+        elif allow_missing_verdict:
+            response_gemini = ""
+            gemini_verdict = "No codes"
+            gemini_score = "NA"
         else:
             continue
         
@@ -79,6 +86,10 @@ with open(verdict_file, 'w') as fp:
             else:
                 response_openai = responses_openai.iloc[0]
                 openai_verdict, openai_score = interpret_response(response_openai)
+        elif allow_missing_verdict:
+            response_openai = ""
+            openai_verdict = "No codes"
+            openai_score = "NA"
         else:
             continue
         
@@ -86,7 +97,14 @@ with open(verdict_file, 'w') as fp:
         
         further_check = True
         if "No codes" in [gemini_verdict, openai_verdict]:
-            common_verdict = "Code failure"
+            if allow_missing_verdict and gemini_verdict != "No codes":
+                common_verdict = gemini_verdict
+                further_check = gemini_score > 1
+            elif allow_missing_verdict and openai_verdict != "No codes":
+                common_verdict = openai_verdict
+                further_check = openai_score > 1
+            else:
+                common_verdict = "Code failure"
             if gemini_verdict == "No codes" and openai_verdict == "No codes":
                 score = "NA"
             elif gemini_verdict == "No codes":
@@ -127,13 +145,24 @@ with open(verdict_file, 'w') as fp:
             passfail_check = "NA"
                     
         if further_check:
-            targetpath = os.path.join(pdfs_dir, re.sub(r'[^\w\.\-]', '_', doi) + '.pdf')
-            further_consideration[doi] = [response_gemini.replace("\n", " "), response_openai.replace("\n", " "), gemini_verdict, openai_verdict, common_verdict, int(score), passfail_check, "Found" if os.path.exists(targetpath) else "Missing"]
-        writer.writerow([doi, gemini_verdict, openai_verdict, common_verdict, int(score), passfail_check])
+            row = [response_gemini.replace("\n", " "), response_openai.replace("\n", " "), gemini_verdict, openai_verdict, common_verdict, int(score)]
+            if question_file:
+                row.append(passfail_check)
+            if pdfs_dir:
+                targetpath = os.path.join(pdfs_dir, re.sub(r'[^\w\.\-]', '_', doi) + '.pdf')
+                row.append("Found" if os.path.exists(targetpath) else "Missing")
+            further_consideration[doi] = row
+        if question_file:
+            writer.writerow([doi, gemini_verdict, openai_verdict, common_verdict, int(score), passfail_check])
+        else:
+            writer.writerow([doi, gemini_verdict, openai_verdict, common_verdict, int(score)])
 
 with open(verdict_file.replace(".csv", "-further.csv"), 'w') as fp:
     writer = csv.writer(fp)
-    writer.writerow(['DOI', 'Title', 'Abstract', 'Gemini Response', 'OpenAI Response', 'Gemini Verdict', 'OpenAI Verdict', 'Common Verdict', 'Priority', 'Pass-Fail', 'PDF Found'])
+    if question_file:
+        writer.writerow(['DOI', 'Title', 'Abstract', 'Gemini Response', 'OpenAI Response', 'Gemini Verdict', 'OpenAI Verdict', 'Common Verdict', 'Priority', 'Pass-Fail', 'PDF Found'])
+    else:
+        writer.writerow(['DOI', 'Title', 'Abstract', 'Gemini Response', 'OpenAI Response', 'Gemini Verdict', 'OpenAI Verdict', 'Common Verdict', 'Priority'])
     for search in searches:
         for row in iterate_search(search, filter_config):
             if row['DOI'] in further_consideration.keys():

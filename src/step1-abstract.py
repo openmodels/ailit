@@ -1,6 +1,8 @@
 import os, csv, time
+import argparse
+from pathlib import Path
 import pandas as pd
-from chatwrap import gemini, openaigpt, openai_batch
+from chatwrap import gemini, openaigpt, openai_batch, gemini_batch
 
 from config import *
 from lib.helpers import *
@@ -22,8 +24,6 @@ If it *should* be included, classify it with one or more of the following codes:
 
 Provide a succinct explanation, and only mention codes identified for this paper."""
 
-print(get_fullprompt("My paper", "Something something", "Keyword 1, and 2"))
-
 def submit_single_abstract_openai(doi, title, abstract, keywords):
     prompt = get_fullprompt(title, abstract, keywords)
     return openaigpt.single_prompt(prompt)
@@ -32,15 +32,13 @@ def submit_single_abstract_gemini(doi, title, abstract, keywords):
     prompt = get_fullprompt(title, abstract, keywords)
     return gemini.single_prompt(prompt)
 
-knowndoi_gemini, knowndoi_openai = get_knowns(response_file)
-
 anymore = False
 def get_prompts(knowndoi, searches, maxcount):
     global anymore
     prompts = {}
     count = 0
     for search in searches:
-        for row in iterate_search(search):
+        for row in iterate_search(search, filter_config):
             if row['DOI'] not in knowndoi:
                 prompts[row['DOI']] = get_fullprompt(row['Title'], row['Abstract'], row['Author Keywords'])
                 count += 1
@@ -50,39 +48,95 @@ def get_prompts(knowndoi, searches, maxcount):
         anymore = True
     return prompts
 
-if openai_config == 'batch':
-    responses = openai_batch.main_flow(openaigpt.client, response_file + "-batch.jsonl", "../waiting.pkl", lambda: get_prompts(knowndoi_openai, searches, abstract_count))
-    for doi, response in responses.items():
-        knowndoi_openai.add(doi)
-        add_response(response_file, doi, 'openai', response)
+def process_abstracts(abstract_count, do_status):
+    global anymore
+    file_path = Path(response_file)
+    file_path.parent.mkdir(parents=True, exist_ok=True)
 
-for search in searches:
-    count = 0
-    lasttime_gemini = time.time()
-    for row in iterate_search(search):
-        if row['DOI'] not in knowndoi_gemini:
-            if gemini_config == 'slow':
-                nowtime = time.time()
-                time.sleep(max(24*60*60 / 1490 - (nowtime - lasttime_gemini), 0))
-            lasttime_gemini = time.time()
-            response = submit_single_abstract_gemini(row['DOI'], row['Title'], row['Abstract'], row['Author Keywords'])
-            add_response(response_file, row['DOI'], 'gemini', response)
-            knowndoi_gemini.add(row['DOI'])
-            count += 1
-        if openai_config == 'slow' and row['DOI'] not in knowndoi_openai:
-            response = submit_single_abstract_openai(row['DOI'], row['Title'], row['Abstract'], row['Author Keywords'])
-            add_response(response_file, row['DOI'], 'openai', response)
-            knowndoi_openai.add(row['DOI'])
-            count += 1
-        if count >= abstract_count:
-            anymore = True
-            break
+    knowndoi_gemini, knowndoi_openai = get_knowns(response_file)
 
-if openai_config == 'batch':
-    responses = openai_batch.main_flow(openaigpt.client, response_file + "-batch.jsonl", "waiting.pkl", lambda: get_prompts(knowndoi_openai, searches, abstract_count))
-    for doi, response in responses.items():
-        knowndoi_openai.add(doi)
-        add_response(response_file, doi, 'openai', response)
+    if abstract_count > 1 and openai_config == 'batch':
+        if do_status:
+            openai_batch.check_status(openaigpt.client, response_file + "-batch.jsonl", "../waiting.pkl", lambda: get_prompts(knowndoi_openai, searches, 1e9))
+        else:
+            responses = openai_batch.main_flow(openaigpt.client, response_file + "-batch.jsonl", "../waiting.pkl", lambda: get_prompts(knowndoi_openai, searches, abstract_count))
+            for doi, response in responses.items():
+                knowndoi_openai.add(doi)
+                add_response(response_file, doi, 'openai', response)
 
-if not anymore:
-    print("No more abstracts to process.")
+    if abstract_count > 1 and gemini_config == 'batch':
+        if do_status:
+            gemini_batch.check_status(gemini.client, response_file + "-geminibatch.jsonl", "../geminiwaiting.pkl", lambda: get_prompts(knowndoi_gemini, searches, 1e9))
+        else:
+            responses = gemini_batch.main_flow(gemini.client, response_file + "-geminibatch.jsonl", "../geminiwaiting.pkl", lambda: get_prompts(knowndoi_gemini, searches, abstract_count))
+            for doi, response in responses.items():
+                knowndoi_gemini.add(doi)
+                add_response(response_file, doi, 'gemini', response)
+
+    total_count = 0
+    gemini_remain = 0
+    openai_remain = 0
+    for search in searches:
+        count = 0
+        lasttime_gemini = time.time()
+        for row in iterate_search(search, filter_config):
+            total_count += 1
+            if (gemini_config != 'skip' and abstract_count == 1) or \
+               (gemini_config not in ['skip', 'batch'] and row['DOI'] not in knowndoi_gemini):
+                gemini_remain += 1
+                if not do_status:
+                    response = submit_single_abstract_gemini(row['DOI'], row['Title'], row['Abstract'], row['Author Keywords'])
+                    add_response(response_file, row['DOI'], 'gemini', response)
+                    knowndoi_gemini.add(row['DOI'])
+                    if gemini_config == 'slow':
+                        nowtime = time.time()
+                        time.sleep(max(24*60*60 / 1490 - (nowtime - lasttime_gemini), 0))
+                    lasttime_gemini = time.time()
+                    count += 1
+            if (openai_config != 'skip' and abstract_count == 1) or \
+               (openai_config == 'slow' and row['DOI'] not in knowndoi_openai):
+                openai_remain += 1
+                if not do_status:
+                    response = submit_single_abstract_openai(row['DOI'], row['Title'], row['Abstract'], row['Author Keywords'])
+                    add_response(response_file, row['DOI'], 'openai', response)
+                    knowndoi_openai.add(row['DOI'])
+                    count += 1
+            if count >= abstract_count:
+                anymore = True
+                break
+
+    if do_status and total_count > 0:
+        print("Slow status:")
+        print(f"Total abstracts: {total_count}")
+        print(f"Gemini remaining: {gemini_remain}")
+        print(f"OpenAI remaining: {openai_remain}")
+        return
+            
+    if abstract_count > 1:
+        if openai_config == 'batch':
+            responses = openai_batch.main_flow(openaigpt.client, response_file + "-batch.jsonl", "../waiting.pkl", lambda: get_prompts(knowndoi_openai, searches, abstract_count))
+            for doi, response in responses.items():
+                knowndoi_openai.add(doi)
+                add_response(response_file, doi, 'openai', response)
+
+        if gemini_config == 'batch':
+            responses = gemini_batch.main_flow(gemini.client, response_file + "-geminibatch.jsonl", "../geminiwaiting.pkl", lambda: get_prompts(knowndoi_gemini, searches, abstract_count))
+            for doi, response in responses.items():
+                knowndoi_gemini.add(doi)
+                add_response(response_file, doi, 'gemini', response)
+
+    if not anymore:
+        print("No more abstracts to process.")
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(
+        prog='Step 1: Abstracts',
+        description='Evaluate abstracts for relevance.')
+    parser.add_argument('-1', '--single', action='store_true')
+    parser.add_argument('-s', '--status', action='store_true')
+
+    args = parser.parse_args()
+    
+    print(get_fullprompt("My paper", "Something something", "Keyword 1, and 2"))
+
+    process_abstracts(1 if args.single else abstract_count, args.status)
